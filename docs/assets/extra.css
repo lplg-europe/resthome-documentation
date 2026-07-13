@@ -1,0 +1,103 @@
+/* Marque LPLG appliquée au thème Material for MkDocs.
+   Couleurs et polices extraites de www.lplg.eu :
+     - bleu principal  #0F43FF
+     - bleu clair      #d8dffd
+     - fond très clair  #FBFCFF
+     - encre sombre    #1B2733
+     - titres  : Assistant   / corps : Source Sans Pro
+   Le nom de couleur « primary/accent » de mkdocs.yml est neutralisé ici. */
+
+/* Polices de marque (servies par Google Fonts, comme sur le site LPLG). */
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700;800&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap");
+
+:root {
+  --md-primary-fg-color:        #0F43FF;
+  --md-primary-fg-color--light: #4f74ff;
+  --md-primary-fg-color--dark:  #0a34cc;
+  --md-primary-bg-color:        #ffffff;
+  --md-primary-bg-color--light: #ffffffcc;
+  --md-accent-fg-color:         #0F43FF;
+  --md-accent-fg-color--transparent: #0f43ff1a;
+
+  /* Liens et éléments typographiques */
+  --md-typeset-a-color:         #0F43FF;
+
+  /* Polices */
+  --md-text-font:    "Source Sans Pro";
+  --md-heading-font: "Assistant";
+}
+
+/* Fond de page très légèrement bleuté, comme le site LPLG. */
+:root,
+[data-md-color-scheme="default"] {
+  --md-default-bg-color: #FBFCFF;
+}
+
+/* Titres en Assistant, un peu plus affirmés (le site LPLG utilise des titres gras). */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-header__topic,
+.md-nav__title {
+  font-family: var(--md-heading-font), "Assistant", sans-serif;
+}
+.md-typeset h1 {
+  color: #1B2733;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.6em;
+}
+.md-typeset h2 {
+  font-weight: 700;
+}
+
+/* Cartes de la page d'accueil (grid cards) aux couleurs LPLG. */
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid > .card {
+  border-radius: 0.7rem;
+  border-color: #d8dffd;
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+.md-typeset .grid.cards > ul > li:hover,
+.md-typeset .grid > .card:hover {
+  border-color: #0F43FF;
+  box-shadow: 0 0.3rem 0.9rem rgba(15, 67, 255, 0.14);
+  transform: translateY(-2px);
+}
+
+/* Icônes des cartes en bleu LPLG. */
+.md-typeset .grid.cards .twemoji svg,
+.md-typeset .grid.cards .lg svg {
+  fill: #0F43FF;
+}
+
+/* En-tête légèrement dégradé pour rappeler l'identité LPLG. */
+.md-header {
+  background: linear-gradient(90deg, #0F43FF 0%, #0a34cc 100%);
+}
+
+/* Logo officiel (wordmark blanc) : un peu plus grand et aéré. */
+.md-header__button.md-logo {
+  padding: 0.3rem 0.4rem 0.3rem 0.2rem;
+}
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 1.5rem;
+  width: auto;
+}
+
+/* Séparateur discret entre le logo et le titre du site. */
+.md-header__title {
+  margin-left: 0.2rem;
+}
+.md-header__topic .md-ellipsis {
+  font-weight: 600;
+}
+
+/* Mode sombre : conserver un bleu lisible. */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:  #4f74ff;
+  --md-accent-fg-color:   #6f8dff;
+  --md-typeset-a-color:   #8aa2ff;
+}

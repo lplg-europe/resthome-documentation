@@ -1,0 +1,122 @@
+# Documentation utilisateur Resthome — Material for MkDocs (bilingue FR/NL).
+#
+#   Aperçu local :   pip install -r requirements.txt  &&  mkdocs serve
+#   Build statique : mkdocs build                     (sortie dans ./site)
+#
+# Ce dépôt est PUBLIC (doc utilisateur). Le contenu technique et la propriété
+# intellectuelle restent privés et ne sont pas publiés ici.
+
+site_name: Documentation Resthome
+site_url: https://lplg-europe.github.io/resthome-documentation/
+site_description: >-
+  Documentation utilisateur du logiciel Resthome pour maisons de repos et de
+  soins (MR/MRS) — éditée par LPLG.
+site_author: LPLG
+copyright: >-
+  © LPLG — Documentation sous licence
+  <a href="https://creativecommons.org/licenses/by/4.0/deed.fr">CC BY 4.0</a>.
+
+# repo_url: https://github.com/<votre-orga>/resthome-documentation
+# edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: fr
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
+  # Polices de marque LPLG (Assistant + Source Sans Pro) importées via
+  # assets/extra.css ; on désactive le chargement Roboto de Google Fonts.
+  font: false
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    # Les couleurs LPLG (bleu #0F43FF) sont définies dans assets/extra.css ;
+    # on n'attribue donc pas de « primary/accent » nommé ici.
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Passer en mode sombre
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Passer en mode clair
+  features:
+    # navigation.instant est volontairement DÉSACTIVÉ : il est incompatible
+    # avec le sélecteur de langue FR/NL (rechargement complet nécessaire).
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tabs.link
+
+extra_css:
+  - assets/extra.css
+
+plugins:
+  - search:
+      lang:
+        - fr
+        - nl
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: fr
+          default: true
+          name: Français
+          build: true
+        - locale: nl
+          name: Nederlands
+          build: true
+          nav_translations:
+            Accueil: Home
+            Premiers pas: Aan de slag
+            Résidents: Bewoners
+            Gérer un résident: Een bewoner beheren
+            Facturation: Facturatie
+            eHealth: eHealth
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+      permalink_title: Lien vers cette section
+
+nav:
+  - Accueil: index.md
+  - Premiers pas: premiers-pas.md
+  - Résidents:
+      - Gérer un résident: residents/gerer-un-resident.md
+  - Facturation: facturation/index.md
+  - eHealth: ehealth/index.md

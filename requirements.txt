@@ -1,0 +1,11 @@
+# Documentation resthome — dépendances de build.
+#   python -m venv .venv
+#   .venv\Scripts\activate      (Windows)   /   source .venv/bin/activate  (Linux/macOS)
+#   pip install -r requirements.txt
+
+mkdocs-material>=9.5,<10
+mkdocs-static-i18n>=1.2,<2
+
+# Optionnel — génère automatiquement /llms.txt (index pour les IA).
+# Installé mais NON activé par défaut : voir le README pour l'activer dans mkdocs.yml.
+mkdocs-llmstxt>=0.1
