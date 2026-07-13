@@ -20,10 +20,15 @@ repo_url: https://github.com/lplg-europe/resthome-documentation
 repo_name: lplg-europe/resthome-documentation
 edit_uri: edit/main/docs/
 
+# La « bulle » LPLG de l'en-tête (= le logo) ramène à la page Resthome du site.
+extra:
+  homepage: https://www.lplg.eu/resthome
+
 theme:
   name: material
+  custom_dir: overrides
   language: fr
-  logo: assets/logo.svg
+  logo: assets/mark.svg
   favicon: assets/favicon.svg
   # Polices de marque LPLG (Assistant + Source Sans Pro) importées via
   # assets/extra.css ; on désactive le chargement Roboto de Google Fonts.
@@ -61,6 +66,11 @@ theme:
 
 extra_css:
   - assets/extra.css
+
+extra_javascript:
+  # Filtre les résultats de recherche selon la langue de la page (l'index i18n
+  # est combiné FR+NL ; on masque les résultats de l'autre langue).
+  - assets/search-lang-filter.js
 
 plugins:
   - search:

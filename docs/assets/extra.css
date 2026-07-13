@@ -118,12 +118,31 @@
   box-shadow: 0 2px 6px rgba(15, 67, 255, 0.18);
   color: #fff;
 }
-.md-header__button.md-logo { display: none; }
+/* Logo LPLG = « bulle » ronde CLIQUABLE à droite → ramène au site lplg.eu. */
+.md-header__button.md-logo {
+  margin: 0 0.1rem 0 0.45rem;
+  padding: 0;
+  width: 1.8rem;
+  height: 1.8rem;
+  background: #fff;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.35);
+}
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg { width: 1.1rem; height: 1.1rem; }
 .md-header__title {
   margin-left: 0.4rem;
-  flex-grow: 1;
   font-size: 1rem;
   color: #fff;
+}
+/* Groupe des contrôles de droite (mode sombre, langue, GitHub, bulle LPLG). */
+.md-header__end {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
 }
 .md-header__topic .md-ellipsis { font-weight: 700; letter-spacing: -0.01em; }
 
@@ -133,22 +152,18 @@
 
 /* Recherche VRAIMENT centrée sur écran large (le champ visible remplit le
    conteneur centré, sinon Material l'aligne à droite). */
+/* Recherche NATIVE (overlay + fermeture au clic conservés), centrée par les
+   marges auto sur écran large ; les contrôles sont poussés à droite via l'ordre. */
 @media screen and (min-width: 76.25em) {
-  .md-search {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 30rem;
-    margin: 0;
-  }
-  .md-search__inner {
-    width: 100%;
-    float: none;
-    left: 0;
-    right: 0;
-  }
-  .md-search__form { width: 100%; }
+  /* Titre (gauche) et groupe de contrôles (droite) grandissent à parts égales
+     → la recherche, item central non extensible, se retrouve pile au milieu.
+     La recherche reste NATIVE : overlay et fermeture au clic intacts. */
+  .md-header__title { flex: 1 1 0; min-width: 0; }
+  .md-search { flex: 0 0 auto; width: 26rem; }
+  /* Le champ visible remplit le conteneur centré (au lieu de flotter à droite).
+     En flux natif, l'overlay et la fermeture restent intacts. */
+  .md-search__inner { float: none; width: 100%; }
+  .md-header__end { flex: 1 1 0; justify-content: flex-end; }
 }
 .md-search__form { border-radius: 8px; background-color: #fff; }
 .md-search__form:hover { background-color: #fff; }
@@ -191,17 +206,6 @@ html[lang="nl"] .md-select > .md-header__button::after { content: "NL"; }
 .md-source__repository, .md-source__facts { display: none; }
 .md-header__source .md-icon svg { fill: #fff; }
 
-/* « Bulle » LPLG à droite (comme l'avatar GitHub). */
-.md-header__inner::after {
-  content: "";
-  width: 1.7rem;
-  height: 1.7rem;
-  flex: 0 0 auto;
-  margin-left: 0.35rem;
-  border-radius: 50%;
-  background: #fff url("favicon.svg") center / 1.15rem no-repeat;
-  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.35);
-}
 .md-header .md-select > .md-header__button { border-radius: 6px; font-weight: 600; }
 
 /* ---------- Barre latérale façon docs Odoo ---------- */
