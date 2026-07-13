@@ -83,12 +83,26 @@ plugins:
             Premiers pas: Aan de slag
             Résidents: Bewoners
             Gérer un résident: Een bewoner beheren
+            L'évaluation Katz: De Katz-evaluatie
+            Changement de chambre et transfert: Kamerwissel en overdracht
             Facturation: Facturatie
             "Vue d'ensemble": Overzicht
+            Les suppléments: De supplementen
             Absences et hospitalisations: Afwezigheden en hospitalisaties
             Départ et décès: Vertrek en overlijden
+            Débiteurs alimentaires: Onderhoudsplichtigen
             eHealth: eHealth
+            Assurabilité (MDA): Verzekerbaarheid (MDA)
+            Facturation électronique (eFact): Elektronische facturatie (eFact)
             Accords (eAgreement): Akkoorden (eAgreement)
+            Soins: Zorg
+            Prescriptions et médicaments: Voorschriften en geneesmiddelen
+            Plans de soins et signes vitaux: Zorgplannen en vitale parameters
+            Registres cliniques: Klinische registers
+            Repas: Maaltijden
+            Menus, régimes et hydratation: Menu's, diëten en hydratatie
+            Portail familles et kiosque: Familieportaal en kiosk
+            Configuration: Configuratie
             Site LPLG: LPLG-website
 
 markdown_extensions:
@@ -123,11 +137,27 @@ nav:
   - Premiers pas: premiers-pas.md
   - Résidents:
       - Gérer un résident: residents/gerer-un-resident.md
+      - L'évaluation Katz: residents/katz.md
+      - Changement de chambre et transfert: residents/changement-chambre.md
   - Facturation:
       - Vue d'ensemble: facturation/index.md
+      - Les suppléments: facturation/supplements.md
       - Absences et hospitalisations: facturation/absences.md
       - Départ et décès: facturation/depart-deces.md
+      - Débiteurs alimentaires: facturation/split-billing.md
   - eHealth:
       - Vue d'ensemble: ehealth/index.md
+      - Assurabilité (MDA): ehealth/mda.md
+      - Facturation électronique (eFact): ehealth/efact.md
       - Accords (eAgreement): ehealth/eagreement.md
+  - Soins:
+      - Vue d'ensemble: soins/index.md
+      - Prescriptions et médicaments: soins/prescriptions.md
+      - Plans de soins et signes vitaux: soins/plans-de-soins.md
+      - Registres cliniques: soins/registres.md
+  - Repas:
+      - Vue d'ensemble: repas/index.md
+      - Menus, régimes et hydratation: repas/menus-regimes.md
+      - Portail familles et kiosque: repas/portail-familles.md
+  - Configuration: configuration/index.md
   - Site LPLG: https://www.lplg.eu/
