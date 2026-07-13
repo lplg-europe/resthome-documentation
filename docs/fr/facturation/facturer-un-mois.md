@@ -37,7 +37,7 @@ Avant de facturer la mutuelle, contrôlez que chacun est **en ordre** :
    d'assurabilité).
 
 C'est l'étape qui évite les rejets plus tard. Détails : [Assurabilité
-(MDA)](mda.md).
+(MDA)](../ehealth/mda.md).
 
 ## Étape 3 — Générer les lignes de facturation
 
@@ -83,7 +83,7 @@ Une fois les factures comptabilisées :
 3. En cas de **rejet**, corrigez la cause (assurabilité, dates, montants) et
    **renvoyez**.
 
-Détails et boutons avancés : [Facturation électronique (eFact)](efact.md).
+Détails et boutons avancés : [Facturation électronique (eFact)](../ehealth/efact.md).
 
 ## Récapitulatif du parcours
 
@@ -104,7 +104,7 @@ graph TD
 
 ## Pour aller plus loin
 
-- [Assurabilité (MDA)](mda.md)
-- [Facturation électronique (eFact)](efact.md)
+- [Assurabilité (MDA)](../ehealth/mda.md)
+- [Facturation électronique (eFact)](../ehealth/efact.md)
 - [Absences et hospitalisations](absences.md)
 - [Accords (eAgreement)](../ehealth/eagreement.md)

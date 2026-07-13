@@ -37,7 +37,7 @@ Vóór u de mutualiteit factureert, controleer dat iedereen **in orde** is:
    mutualiteit, verlies van verzekerbaarheid).
 
 Dit is de stap die latere weigeringen vermijdt. Details: [Verzekerbaarheid
-(MDA)](mda.md).
+(MDA)](../ehealth/mda.md).
 
 ## Stap 3 — De factuurregels genereren
 
@@ -83,7 +83,7 @@ Zodra de facturen geboekt zijn:
 3. Bij een **weigering**, corrigeer de oorzaak (verzekerbaarheid, data, bedragen)
    en **verstuur opnieuw**.
 
-Details en geavanceerde knoppen: [Elektronische facturatie (eFact)](efact.md).
+Details en geavanceerde knoppen: [Elektronische facturatie (eFact)](../ehealth/efact.md).
 
 ## Overzicht van het traject
 
@@ -104,7 +104,7 @@ graph TD
 
 ## Verder
 
-- [Verzekerbaarheid (MDA)](mda.md)
-- [Elektronische facturatie (eFact)](efact.md)
+- [Verzekerbaarheid (MDA)](../ehealth/mda.md)
+- [Elektronische facturatie (eFact)](../ehealth/efact.md)
 - [Afwezigheden en hospitalisaties](absences.md)
 - [Akkoorden (eAgreement)](../ehealth/eagreement.md)
