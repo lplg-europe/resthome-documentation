@@ -1,0 +1,1434 @@
+# Documentation Resthome — contenu intégral
+
+> Contenu complet de la documentation utilisateur du logiciel Resthome (maisons de repos MR/MRS en Belgique, édité par LPLG) : résidents, soins, repas, facturation INAMI/mutuelle, eHealth (MDA, eFact, eAgreement). Ce fichier suit la convention https://llmstxt.org/ (variante « full ») pour permettre aux assistants IA de répondre aux questions des utilisateurs à partir de la documentation officielle.
+
+> Index concis : https://www.lplg.eu/resthome/documentation/llms.txt · Version en ligne : https://www.lplg.eu/resthome/documentation/
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/
+
+# Bienvenue dans la documentation Resthome
+
+**Resthome** est le logiciel de gestion pour **maisons de repos (MR)** et
+**maisons de repos et de soins (MRS)**, édité par LPLG. Il réunit au même
+endroit vos résidents, les soins, les repas, la facturation INAMI/mutuelle et
+les échanges eHealth belges.
+
+Cette documentation vous accompagne au quotidien, étape par étape, avec des
+captures d'écran.
+
+!!! tip "Vous avez une question précise ?"
+    Vous pouvez poser votre question en langage naturel à un assistant IA :
+    cette documentation est publique et conçue pour être lisible par les IA.
+
+## Par où commencer
+
+## Comment lire cette documentation
+
+- Les **encadrés** attirent votre attention :
+
+    !!! note "Note"
+        Une information utile à connaître.
+
+    !!! warning "Attention"
+        Un point à ne pas manquer pour éviter une erreur.
+
+- Les **étapes numérotées** se suivent dans l'ordre.
+- Le **menu de gauche** liste les sections ; le sommaire de droite (« sur cette
+  page ») vous situe dans la page.
+- Le sélecteur de langue en haut permet de basculer **Français / Nederlands**.
+
+---
+
+*Un point manque ou n'est pas clair ? Contactez le support LPLG.*
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/premiers-pas/
+
+# Premiers pas
+
+Ce guide vous fait découvrir Resthome en quelques minutes : la connexion, les
+applications disponibles et le tableau de bord.
+
+## Se connecter
+
+1. Ouvrez votre navigateur à l'adresse fournie par votre établissement
+   (par exemple `https://votre-etablissement.resthome.be`).
+2. Saisissez votre **adresse e-mail** et votre **mot de passe**.
+3. Cliquez sur **Se connecter**.
+
+!!! note "Mot de passe oublié ?"
+    Utilisez le lien **« Réinitialiser le mot de passe »** sur la page de
+    connexion, ou demandez à votre administrateur.
+
+## Les applications
+
+Resthome est organisé en applications, accessibles depuis le **menu principal**
+(l'icône en damier, en haut à gauche) :
+
+| Application | À quoi elle sert |
+|---|---|
+| **MR/MRS** | Résidents, séjours, facturation, conformité Katz, eHealth. |
+| **Soins** | Prescriptions, plans de soins, signes vitaux, notes infirmières. |
+| **Repas** | Menus, régimes, suivi nutritionnel, portail familles. |
+| **Configuration** | Chambres, tarifs, données de base de l'établissement. |
+
+Selon votre rôle (administratif, soignant, cuisine…), vous ne voyez que les
+applications qui vous concernent.
+
+## Le tableau de bord
+
+Le **Tableau de bord** de l'application MR/MRS donne une vue d'ensemble :
+
+- les **tâches en attente** (Katz à faire, MDA à vérifier, lots eFact…) ;
+- des **compteurs** cliquables qui ouvrent directement la liste concernée ;
+- les **alertes** importantes du mois.
+
+!!! tip "Astuce"
+    Cliquez sur un compteur (par exemple « Katz à faire ») pour ouvrir
+    directement la liste des éléments à traiter.
+
+## Se repérer dans un écran
+
+- **Menu de gauche / onglets du haut** : les sections de l'application.
+- **Fil d'Ariane** (en haut) : votre position ; cliquez dessus pour revenir en
+  arrière.
+- **Bouton engrenage / menu Actions** : les actions supplémentaires sur la fiche
+  ouverte.
+- **Chatter** (colonne de droite) : l'historique et les notes d'un enregistrement.
+
+## Et ensuite ?
+
+Passez à la gestion d'un résident :
+
+[ Gérer un résident](residents/gerer-un-resident.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/residents/gerer-un-resident/
+
+# Gérer un résident
+
+Cette page décrit le parcours complet d'un résident dans Resthome : de sa
+**création** à son **séjour actif**, en passant par l'**évaluation Katz** qui
+conditionne la facturation INAMI.
+
+## Vue d'ensemble
+
+```mermaid
+graph LR
+  A[Créer le résident] --> B[Convention de séjour]
+  B --> C[Confirmer le séjour]
+  C --> D[Démarrer le séjour]
+  D --> E[Évaluation Katz]
+```
+
+!!! note "Deux dates à ne pas confondre"
+    - **Date de début de séjour** : quand commence la facturation de
+      l'hébergement (la chambre).
+    - **Date d'admission** : quand commence l'intervention INAMI (le forfait).
+
+    Elles sont souvent identiques, mais peuvent différer — Resthome gère les deux.
+
+## 1. Créer le résident
+
+1. Ouvrez l'application **MR/MRS → Résidents**.
+2. Cliquez sur **Nouveau**.
+3. Renseignez au minimum : **nom**, **date de naissance**, **genre**, et le
+   **NISS** (numéro national) s'il est connu.
+4. Sélectionnez la **mutuelle** du résident.
+5. **Enregistrez**.
+
+!!! warning "Le NISS est nécessaire pour l'eHealth"
+    Sans NISS, la vérification d'assurabilité (MDA) et les accords (eAgreement)
+    ne peuvent pas être envoyés. Vous pouvez créer le résident sans NISS, mais
+    pensez à le compléter dès que possible.
+
+## 2. Ouvrir une convention de séjour
+
+Le **séjour** relie le résident à une chambre et déclenche la facturation.
+
+1. Sur la fiche du résident, ouvrez l'onglet **Convention de séjour**.
+2. Cliquez sur **Ajouter une ligne**.
+3. Choisissez la **chambre** (seules les chambres disponibles sont proposées).
+4. Indiquez le **type de séjour** (MR ou MRS) et la **date de début de séjour**.
+5. **Enregistrez**.
+
+Le séjour est alors en état **Brouillon**.
+
+## 3. Confirmer puis démarrer le séjour
+
+Le séjour passe par deux étapes :
+
+1. **Confirmer** — le séjour devient *Confirmé* (la chambre est réservée). Les
+   champs **date et heure d'admission** apparaissent : complétez-les.
+2. **Start Stay (Démarrer)** — le séjour devient *En cours* (le résident est
+   effectivement présent).
+
+!!! tip "Ce que le démarrage déclenche automatiquement"
+    Au démarrage, Resthome :
+
+    - ajoute le résident aux **périodes de facturation** ouvertes ;
+    - crée, pour un résident facturé en avance, la **première facture
+      d'hébergement** du mois d'admission ;
+    - ouvre l'**enveloppe de suppléments** du mois ;
+    - crée l'**eAgreement d'admission** (si le NISS est présent).
+
+## 4. Saisir l'évaluation Katz
+
+La catégorie **Katz** (O, A, B, C, Cd) détermine le **forfait INAMI**.
+
+1. Depuis la fiche du résident, ouvrez **Outils d'évaluation → Katz** (ou le
+   bouton **Katz**).
+2. Cliquez sur **Nouveau** et cotez les 6 critères (toilette, habillage,
+   transfert, aller à la toilette, continence, manger).
+3. **Confirmez** puis **Validez** l'évaluation.
+
+!!! note "Pas de Katz validé ?"
+    Tant qu'aucun Katz validé n'existe, le résident est facturé par défaut en
+    catégorie **O** (non remboursée par l'INAMI), et un rappel « Katz à faire »
+    apparaît sur le tableau de bord.
+
+## 5. Vérifier l'assurabilité (MDA)
+
+Avant de facturer, vérifiez que le résident est bien assuré :
+
+1. Ouvrez la période de facturation du mois, ou la fiche du résident.
+2. Lancez une **vérification MDA** (assurabilité MyCareNet/WalCareNet).
+3. Resthome met à jour automatiquement la **mutuelle** et le statut **BIM** le
+   cas échéant.
+
+## Cas particuliers
+
+- **Changement de chambre** : utilisez l'action dédiée sur le séjour — la
+  facturation de l'hébergement est scindée aux deux tarifs, sans nouvelle
+  admission.
+- **Transfert MR ↔ MRS** : un assistant enregistre la date de transfert et met à
+  jour le type de séjour.
+- **Absence / hospitalisation** : voir la section
+  [Facturation](../facturation/index.md) — l'absence ajuste le forfait et peut
+  générer une notification eHealth (Annexe 11).
+- **Fin de séjour / décès** : clôturez le séjour ; Resthome arrête la
+  facturation à la bonne date et prépare, si nécessaire, la note de crédit.
+
+## Pour aller plus loin
+
+- [Facturation](../facturation/index.md)
+- [eHealth](../ehealth/index.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/residents/katz/
+
+# L'évaluation Katz
+
+L'**échelle de Katz** mesure le degré de **dépendance** d'un résident. C'est elle
+qui détermine sa **catégorie** de soins et donc le **forfait INAMI** remboursé par
+la mutuelle. Dans Resthome, la saisie est guidée et le calcul est automatique.
+
+## Les 6 critères
+
+Chaque critère est coté de **1** (autonome) à **4** (totalement dépendant) :
+
+1. **Se laver**
+2. **S'habiller**
+3. **Transfert et déplacements**
+4. **Aller à la toilette**
+5. **Continence**
+6. **Manger**
+
+À partir de ces cotations, Resthome calcule la **catégorie** conformément à la
+réglementation.
+
+## Les catégories
+
+| Catégorie | Signification |
+|---|---|
+| **O** | Autonome — **non remboursée** par l'INAMI |
+| **A** | Dépendance légère |
+| **B** | Dépendance moyenne |
+| **C** | Forte dépendance |
+| **Cd / Cc** | Forte dépendance avec désorientation / cas particuliers |
+
+!!! note "Catégorie O par défaut"
+    Tant qu'aucun Katz **validé** n'existe, le résident est facturé en catégorie
+    **O** (non remboursée), et un rappel « Katz à faire » apparaît sur le tableau
+    de bord. Saisir et valider le Katz débloque le forfait correspondant.
+
+## Saisir une évaluation
+
+1. Depuis la fiche du résident, ouvrez **Katz** (bouton ou outils d'évaluation).
+2. **Nouveau** : cotez les 6 critères.
+3. **Confirmez** puis **Validez** l'évaluation.
+
+La catégorie et le forfait se mettent à jour automatiquement pour la facturation.
+
+!!! tip "Ce que Resthome fait pour vous"
+    À la validation, Resthome relie l'évaluation à la facturation (forfait) et, le
+    cas échéant, prépare l'accord de soins avec la mutuelle. Vous n'avez pas à
+    reporter la catégorie ailleurs.
+
+## Aggravation en cours de séjour
+
+Si l'état du résident se dégrade, saisissez une **nouvelle évaluation** avec un
+**motif d'aggravation**. Resthome prépare alors la mise à jour de l'accord
+(**Annexe 10**) : le motif renseigné est repris automatiquement, et la
+**signature** du clinicien vient compléter le document.
+
+## Pour aller plus loin
+
+- [Gérer un résident](gerer-un-resident.md)
+- [Facturation](../facturation/index.md)
+- [Accords (eAgreement)](../ehealth/eagreement.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/residents/changement-chambre/
+
+# Changement de chambre et transfert
+
+Un résident peut **changer de chambre** ou passer de **MR à MRS** (ou l'inverse)
+en cours de séjour. Resthome gère la **transition** proprement : la facturation
+est **scindée** à la bonne date, sans que vous ayez à refaire une admission.
+
+## Changer de chambre
+
+Pour un simple changement de chambre (même type de soins) :
+
+1. Sur le **séjour** du résident, utilisez l'action **Changer de chambre**.
+2. Indiquez la **nouvelle chambre** et la **date/heure** du changement.
+3. **Validez.**
+
+Resthome **clôt** la facturation de l'ancienne chambre à cette date et **ouvre**
+celle de la nouvelle, au tarif correspondant.
+
+!!! note "Pas de nouvelle admission"
+    Un changement de chambre n'est **pas** une nouvelle entrée : l'intervention
+    INAMI (le forfait) reste **continue**, il n'y a pas de nouvel accord à
+    demander. Seule la **part hébergement** est scindée aux deux tarifs.
+
+## Transfert MR ↔ MRS
+
+Le passage d'un type de soins à l'autre (MR ↔ MRS) est un **transfert interne** :
+
+1. Sur le séjour, utilisez l'action **Transfert interne**.
+2. Indiquez la **date/heure** du transfert et le **nouveau type de soins**.
+3. **Validez.**
+
+Resthome scinde la facturation à la date de transfert et **met à jour le forfait**
+selon le nouveau type. Le cas échéant, il prépare la **notification eHealth**
+correspondante.
+
+!!! tip "La facturation suit toute seule"
+    Après un changement de chambre ou un transfert, vous n'avez rien à recalculer
+    à la main : les segments sont facturés chacun à leur tarif, et le forfait
+    continue sans rupture.
+
+## Pour aller plus loin
+
+- [Gérer un résident](gerer-un-resident.md)
+- [Vue d'ensemble de la facturation](../facturation/index.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/facturation/
+
+# Facturation
+
+Resthome automatise la facturation MR/MRS : la **part mutuelle** (forfait INAMI)
+et la **part résident** (hébergement + suppléments), période par période.
+
+## Les grands principes
+
+- **Période de facturation** : un mois. On la **génère**, puis on **facture**.
+- **Forfait INAMI** : calculé selon la **catégorie Katz** et les jours de
+  présence ; c'est la part remboursée par la mutuelle.
+- **Hébergement** : la part payée par le résident (la chambre), selon le tarif.
+- **Suppléments** : prestations ponctuelles ou récurrentes (chambre
+  individuelle, TV, coiffeur…), via l'**enveloppe de suppléments** du résident.
+- **Absences** : une absence (hospitalisation, vacances) **réduit le forfait**
+  sur la période concernée et peut déclencher une notification eHealth.
+
+!!! note "Facturation anticipative"
+    Pour les résidents facturés en avance, l'hébergement d'un mois est facturé
+    **le mois précédent**. Le forfait et les suppléments, eux, sont facturés sur
+    le mois de prestation.
+
+## Le bouton « Actualiser »
+
+Sur une période de facturation, l'action **Actualiser** recalcule tout en un
+clic : lignes de facturation, suppléments et factures brouillon.
+
+!!! tip "Bon à savoir"
+    - Les résidents dont la facture est **déjà comptabilisée** sont laissés
+      intacts ; tout le reste est recalculé.
+    - Ajouter un supplément ou une absence se **synchronise automatiquement** :
+      il n'est en général pas nécessaire de cliquer « Actualiser ».
+
+## Cycle d'une période
+
+1. **Nouvelle période** (le mois).
+2. **Générer** les lignes de facturation.
+3. Vérifier l'**assurabilité (MDA)** des résidents.
+4. **Créer les factures** (part résident).
+5. **Comptabiliser** les factures.
+6. **Générer l'eFact** (part mutuelle) puis l'envoyer.
+
+*Le détail de chaque étape sera documenté dans les pages à venir de cette
+section.*
+
+## À suivre
+
+- [Absences et hospitalisations](absences.md) — effet sur le forfait, règle des
+  72 h, notification eHealth automatique.
+- [Départ et décès](depart-deces.md) — arrêt de la facturation, note de crédit de
+  l'hébergement prépayé.
+- [Accords (eAgreement)](../ehealth/eagreement.md) — notifier la mutuelle
+  (admission, absence, retour, sortie).
+- [eHealth](../ehealth/index.md) — envoi de la part mutuelle (eFact) et accords.
+- [Gérer un résident](../residents/gerer-un-resident.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/facturation/facturer-un-mois/
+
+# Facturer un mois, pas à pas
+
+Ce guide vous accompagne **du début à la fin** d'un mois de facturation : ouvrir la
+période, vérifier l'assurabilité, générer les factures, les comptabiliser, puis
+**envoyer la part mutuelle par eFact** et suivre les réponses. Suivez-le en gardant
+Resthome ouvert à côté : chaque étape indique **où cliquer**.
+
+!!! tip "L'idée en deux parties"
+    Chaque mois se facture en **deux flux** :
+
+    - la **part résident** (chambre + suppléments) → factures classiques ;
+    - la **part mutuelle** (forfait INAMI) → envoi **eFact** aux organismes
+      assureurs.
+
+    Resthome les mène en parallèle sur une même **période**.
+
+## Étape 1 — Ouvrir la période du mois
+
+1. Menu principal → application **MR/MRS**.
+2. **Facturation → Périodes de facturation**.
+3. Ouvrez la période du mois, ou créez-la avec **Nouvelle période**.
+
+La période liste les résidents concernés et son **état** en haut (brouillon →
+générée → facturée → clôturée).
+
+## Étape 2 — Vérifier l'assurabilité (MDA)
+
+Avant de facturer la mutuelle, contrôlez que chacun est **en ordre** :
+
+1. Sur la période, cliquez **Vérifier MDA** (contrôle par lot).
+2. Attendez les réponses ; corrigez les cas signalés (mutuelle erronée, perte
+   d'assurabilité).
+
+C'est l'étape qui évite les rejets plus tard. Détails : [Assurabilité
+(MDA)](../ehealth/mda.md).
+
+## Étape 3 — Générer les lignes de facturation
+
+1. Cliquez **Générer**.
+2. Resthome calcule pour chaque résident : **hébergement**, **forfait** (selon la
+   catégorie Katz et les jours de présence), **suppléments**, et applique les
+   **absences**.
+
+!!! note "Anticipative"
+    L'hébergement est facturé **un mois d'avance** ; le forfait et les suppléments
+    sur le mois presté. Voir [Vue d'ensemble](index.md).
+
+## Étape 4 — Créer les factures (part résident)
+
+1. Cliquez **Créer les factures**.
+2. Les factures **brouillon** de la part résident sont générées.
+3. Vérifiez-les, puis **Comptabilisez**-les.
+
+!!! warning "Une facture comptabilisée « fige » le mois"
+    Une fois **comptabilisée**, la facture d'un résident est verrouillée pour ce
+    mois (protection). Pour la corriger : remettez-la en **brouillon** ou faites
+    une **note de crédit**, puis **Actualisez**. Les autres résidents ne sont pas
+    touchés.
+
+## Étape 5 — Générer l'eFact (part mutuelle)
+
+Une fois les factures comptabilisées :
+
+1. Sur la période, cliquez **Générer l'eFact**.
+2. Resthome constitue les **lots** eFact, **regroupés par union** d'organismes
+   assureurs.
+
+## Étape 6 — Envoyer aux organismes assureurs
+
+1. Ouvrez **eHealth → eFact → Cockpit** (ou les lots).
+2. Cliquez **Tout envoyer** (ou envoyez lot par lot).
+3. Les envois partent vers les mutuelles via le réseau eHealth.
+
+## Étape 7 — Suivre les réponses
+
+1. Cliquez **Récupérer les réponses** pour rapatrier les accusés et décomptes.
+2. Chaque lot passe **Envoyé → Accusé reçu → Accepté / Rejeté**.
+3. En cas de **rejet**, corrigez la cause (assurabilité, dates, montants) et
+   **renvoyez**.
+
+Détails et boutons avancés : [Facturation électronique (eFact)](../ehealth/efact.md).
+
+## Récapitulatif du parcours
+
+```mermaid
+graph TD
+  A[Ouvrir la période] --> B[Vérifier MDA]
+  B --> C[Générer]
+  C --> D[Créer les factures]
+  D --> E[Comptabiliser]
+  E --> F[Générer l'eFact]
+  F --> G[Envoyer aux OA]
+  G --> H[Récupérer les réponses]
+  H --> I{Accepté ?}
+  I -->|Oui| J[Terminé]
+  I -->|Rejeté| K[Corriger et renvoyer]
+  K --> G
+```
+
+## Pour aller plus loin
+
+- [Assurabilité (MDA)](../ehealth/mda.md)
+- [Facturation électronique (eFact)](../ehealth/efact.md)
+- [Absences et hospitalisations](absences.md)
+- [Accords (eAgreement)](../ehealth/eagreement.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/facturation/supplements/
+
+# Les suppléments
+
+Au-delà de l'hébergement et du forfait, un résident peut avoir des **suppléments**
+à payer : chambre individuelle, télévision, coiffeur, pédicure, boissons,
+téléphone… Resthome les regroupe dans une **enveloppe de suppléments** par
+résident et par mois.
+
+## Enveloppe de suppléments
+
+Pour chaque résident et chaque période, Resthome tient une **enveloppe** qui
+rassemble tous ses suppléments du mois. Elle est ouverte automatiquement quand le
+séjour démarre, et se reporte de mois en mois pour les suppléments **récurrents**.
+
+## Ajouter un supplément
+
+1. Ouvrez l'**enveloppe de suppléments** du résident (depuis sa fiche ou la
+   période de facturation).
+2. Ajoutez une ligne : **produit/prestation**, **quantité**, **prix**.
+3. Indiquez s'il est **ponctuel** (une fois) ou **récurrent** (chaque mois).
+4. **Enregistrez.**
+
+!!! tip "Synchronisation automatique"
+    Ajouter, modifier ou retirer un supplément **met à jour automatiquement** la
+    facture du résident concerné — pas besoin de cliquer « Actualiser ». Vous êtes
+    notifié quand le supplément est bien répercuté sur la facturation.
+
+## Suppléments ponctuels et récurrents
+
+- **Ponctuel** : facturé une seule fois (ex. une coupe chez le coiffeur).
+- **Récurrent** : reconduit chaque mois tant qu'il est actif (ex. supplément
+  chambre individuelle, TV). Vous pouvez l'**arrêter** à tout moment ; il cesse
+  d'être facturé le mois suivant.
+
+!!! warning "Mois déjà comptabilisé"
+    Si la facture du résident est **déjà comptabilisée**, l'ajout d'un supplément
+    n'y touche pas automatiquement (protection). Repassez la facture en
+    **brouillon** (ou faites une note de crédit), puis **actualisez**.
+
+## Créer les enveloppes en lot
+
+Sur une période de facturation, l'action **Créer les enveloppes de suppléments**
+prépare en un clic les enveloppes de tous les résidents actifs du mois — pratique
+en début de période.
+
+## Pour aller plus loin
+
+- [Vue d'ensemble de la facturation](index.md)
+- [Absences et hospitalisations](absences.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/facturation/absences/
+
+# Absences et hospitalisations
+
+Quand un résident s'absente (hospitalisation, vacances, congé familial), cela
+influence **le forfait INAMI** de la période et peut déclencher une
+**notification à la mutuelle**. Resthome gère les deux automatiquement à partir de
+l'absence que vous saisissez.
+
+## Enregistrer une absence
+
+1. Ouvrez la **période de facturation** du mois, ou la fiche du résident.
+2. Ajoutez une **absence** en indiquant :
+   - le **résident** ;
+   - le **type** (hospitalisation, vacances…) ;
+   - la **date/heure de départ** et la **date/heure de retour** (ou laissez le
+     retour vide tant que le résident n'est pas revenu).
+3. **Enregistrez.**
+
+!!! tip "Vous n'avez pas besoin de cliquer sur « Actualiser »"
+    Ajouter, modifier ou supprimer une absence **synchronise automatiquement** la
+    facturation du résident concerné : le forfait est recalculé et, le cas
+    échéant, la notification eHealth est préparée. Voir la
+    [facturation](index.md#le-bouton-actualiser).
+
+## Effet sur le forfait
+
+Le **forfait INAMI** (part mutuelle) est calculé sur les **jours de présence**.
+Une absence **réduit** ce forfait pour les jours concernés.
+
+!!! note "La « règle de midi »"
+    Le décompte des jours d'absence suit une règle de présence à **midi** (heure de
+    Bruxelles) : c'est la présence à midi qui détermine si la journée compte. Les
+    **dates et heures** de départ et de retour sont donc importantes — Resthome
+    s'appuie dessus pour un décompte exact.
+
+La **part hébergement** (la chambre, payée par le résident) suit ses propres
+règles selon votre convention.
+
+## Notification à la mutuelle (eHealth)
+
+Certaines absences doivent être signalées à la mutuelle :
+
+- une absence de **plus de 72 h**, ou **toute hospitalisation**, prépare une
+  **Annexe 11** (notification de sortie) ;
+- le **retour** du résident prépare une **Annexe 7** (réadmission).
+
+Resthome crée ces notifications **au moment où vous enregistrez l'absence et le
+retour**, sans manipulation supplémentaire. Vous n'avez qu'à les vérifier et les
+envoyer. Voir [Accords (eAgreement)](../ehealth/eagreement.md).
+
+## Annuler une absence
+
+Une absence saisie par erreur ? **Supprimez-la** ou remettez-la en brouillon :
+Resthome **fait machine arrière proprement** — le forfait est recalculé comme si
+l'absence n'avait pas eu lieu, et les notifications préparées sont retirées tant
+qu'elles n'ont pas été validées côté mutuelle.
+
+!!! warning "Mois déjà facturé"
+    Si la facture du mois est **déjà comptabilisée** pour ce résident, Resthome ne
+    modifie pas ce mois automatiquement (protection contre la double facturation).
+    Pour corriger malgré tout : repassez la facture en **brouillon** (ou créez une
+    **note de crédit**), puis **actualisez**. Les autres résidents de la période
+    ne sont pas touchés.
+
+## Pour aller plus loin
+
+- [Accords (eAgreement)](../ehealth/eagreement.md)
+- [Départ et décès](depart-deces.md)
+- [Vue d'ensemble de la facturation](index.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/facturation/depart-deces/
+
+# Départ et décès
+
+Quand un résident quitte l'établissement ou décède, il suffit de **clôturer son
+séjour** : Resthome arrête la facturation à la bonne date, prépare la
+**régularisation** de ce qui a été facturé d'avance, et signale la sortie à la
+mutuelle.
+
+## Clôturer le séjour
+
+1. Ouvrez la fiche du résident → son **séjour**.
+2. Indiquez la **date de sortie** (et l'heure), avec le **motif** (départ, décès,
+   transfert…).
+3. **Validez** la clôture.
+
+## Ce que Resthome fait automatiquement
+
+- **Arrêt de la facturation** à la bonne date : plus rien n'est facturé après la
+  sortie.
+- **Note de crédit de l'hébergement prépayé** : comme l'hébergement est facturé
+  **un mois à l'avance** (facturation anticipative), si le résident part en cours
+  de mois déjà facturé, Resthome prépare **automatiquement une note de crédit**
+  pour rembourser la période non occupée. Vous êtes **notifié** de sa création.
+- **Notification eHealth** : la sortie prépare l'**Annexe 11** vers la mutuelle.
+  Voir [Accords (eAgreement)](../ehealth/eagreement.md).
+
+!!! note "Facturation anticipative, en clair"
+    L'hébergement d'un mois est facturé **le mois précédent**. C'est pourquoi un
+    départ en cours de mois donne lieu à un **remboursement** (note de crédit) :
+    on avait facturé d'avance, on régularise à la sortie. Le forfait INAMI et les
+    suppléments, eux, sont facturés sur le mois presté.
+
+## Réouvrir un séjour clôturé par erreur
+
+Si vous avez clôturé un séjour à tort (ou en cas de décès enregistré par erreur),
+vous pouvez le **rouvrir** : Resthome rétablit la facturation et annule les
+régularisations tant qu'elles ne sont pas définitives.
+
+!!! warning "Si le mois est déjà comptabilisé"
+    Comme partout, si la facture concernée est déjà **comptabilisée**, la
+    correction passe d'abord par une **remise en brouillon** ou une **note de
+    crédit**, puis une **actualisation**. Les autres résidents ne sont pas
+    affectés.
+
+## Pour aller plus loin
+
+- [Absences et hospitalisations](absences.md)
+- [Accords (eAgreement)](../ehealth/eagreement.md)
+- [Vue d'ensemble de la facturation](index.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/facturation/split-billing/
+
+# Débiteurs alimentaires (facturation partagée)
+
+Quand la **part résident** (hébergement + suppléments) doit être payée par
+**plusieurs personnes** — typiquement les **débiteurs alimentaires** (enfants,
+proches) — Resthome permet de la **répartir automatiquement**.
+
+## Le principe
+
+Vous définissez, pour un résident, une **répartition en pourcentage** entre
+plusieurs débiteurs. À chaque facture mensuelle, Resthome **découpe la part
+résident** selon ces pourcentages et adresse à chaque débiteur **sa quote-part**.
+
+!!! note "Ce qui est réparti"
+    Seule la **part résident** est concernée (la chambre et les suppléments). Le
+    **forfait INAMI** (part mutuelle) n'est pas réparti : il part vers la mutuelle
+    via l'[eFact](../ehealth/efact.md).
+
+## Mettre en place une répartition
+
+1. Sur la fiche du **résident** (ou sa période de facturation), ouvrez l'onglet de
+   **répartition**.
+2. Ajoutez les **débiteurs** et leur **pourcentage** (le total doit faire 100 %).
+3. **Enregistrez.**
+
+Les factures suivantes sont automatiquement **scindées** selon cette clé.
+
+!!! tip "Solde à zéro"
+    La répartition est conçue pour **tomber juste** : la somme des quotes-parts
+    correspond exactement à la part résident, sans reste ni écart d'arrondi.
+
+## Pour aller plus loin
+
+- [Vue d'ensemble de la facturation](index.md)
+- [Les suppléments](supplements.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/ehealth/
+
+# eHealth
+
+Resthome est connecté à l'écosystème e-santé belge (eHealth, MyCareNet,
+WalCareNet) pour échanger directement avec les mutuelles.
+
+## Les services
+
+## Prérequis
+
+!!! warning "À vérifier avant d'envoyer"
+    - Le résident a un **NISS** valide.
+    - Sa **mutuelle** est renseignée.
+    - Une **assurabilité (MDA)** a été vérifiée pour la période.
+    - Le **certificat eHealth** de l'établissement est actif.
+
+## Bon à savoir
+
+- Une **absence** de plus de 72 h (ou toute hospitalisation) déclenche une
+  **Annexe 11** de fin d'hébergement ; le **retour** génère une **Annexe 7** de
+  réadmission.
+- Une facture déjà **comptabilisée** « fige » la facturation du mois pour ce
+  résident : pour la modifier, remettez-la en brouillon (ou émettez une note de
+  crédit), puis actualisez.
+
+## À suivre
+
+- [Accords (eAgreement)](eagreement.md) — admission, absence, retour, sortie
+  (Annexes 7, 10, 11).
+- [Absences et hospitalisations](../facturation/absences.md)
+- [Facturation](../facturation/index.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/ehealth/mda/
+
+# Assurabilité (MDA)
+
+Avant de facturer, il faut s'assurer que le résident est **en ordre
+d'assurabilité** et connaître sa **mutuelle** exacte. Le **MDA** interroge pour
+vous **MyCareNet / WalCareNet** et récupère l'information à jour, pour une
+**période** donnée. C'est le préalable indispensable à l'envoi
+[eFact](efact.md).
+
+Menu : **eHealth → Assurabilité → Requêtes MDA** (et **Lots MDA**).
+
+## Ce que le MDA récupère
+
+- **Assuré ou non** sur la période.
+- La **mutuelle (OA)** qui a réellement répondu — à comparer avec celle du profil
+  (une **mutation** de mutuelle est détectée et signalée).
+- Le **statut BIM** (intervention majorée).
+- Les **périodes de couverture** (dates de début/fin ; plusieurs sous-périodes si
+  l'assurance a changé pendant l'intervalle).
+- Le **numéro d'affiliation** à la mutuelle.
+- Le cas échéant : **tiers payant**, **date de décès** signalée par l'OA, et selon
+  la demande, la **pharmacie de référence**, le **DMG**, le **statut palliatif**
+  ou une **hospitalisation**.
+
+!!! warning "Le cas « pas en ordre »"
+    Si les codes bénéficiaire reviennent à zéro (assuré mais cotisations
+    impayées / dossier à problème), Resthome affiche une **alerte** : le résident
+    est affilié mais **pas en ordre**. À clarifier avec lui ou sa mutuelle avant de
+    facturer à l'OA.
+
+## Prérequis
+
+!!! warning "À vérifier"
+    - Le résident a un **NISS** valide.
+    - Le **numéro INAMI** de l'établissement est configuré.
+    - Le **certificat eHealth** est actif.
+
+    La **mutuelle du profil** n'est pas bloquante (l'OA réel est identifié par la
+    réponse), mais la renseigner aide à repérer les mutations.
+
+Resthome applique aussi des règles de période automatiques : la fin doit être
+après le début, au plus **5 ans** d'historique, et un MDA standard ne dépasse pas
+le mois courant.
+
+## Contrôle individuel
+
+1. Créez une **requête MDA** (résident, NISS pré-rempli, période = le mois
+   courant par défaut).
+2. Cliquez **Envoyer (Sync)** : l'envoi est **immédiat** et la réponse revient
+   tout de suite.
+3. Consultez le résumé et les périodes d'assurabilité.
+
+!!! note "Un seul MDA par résident et par période"
+    Refaire un contrôle pour le même résident et la même période **réutilise** la
+    requête existante — pas de doublon.
+
+## Contrôle par lot (recommandé en début de mois)
+
+Pour toute une période, lancez le contrôle **par lot** : sélectionnez les
+résidents (vous pouvez **coller une colonne** de noms/NISS), la période et
+envoyez tout le lot d'un coup.
+
+- **Envoi immédiat (Sync)** : pour de petits volumes.
+- **Envoi groupé (Async)** : pour les **gros lots mensuels** — la demande part,
+  et la réponse se récupère un peu plus tard avec **Vérifier les réponses**
+  (nécessite au moins 2 résidents).
+
+Le lot affiche des **compteurs** : Assurés, Non assurés, Erreurs, En attente, et
+« Décès détectés ».
+
+!!! tip "Le bon réflexe"
+    Faites le MDA **en début de mois**, avant de générer les factures : vous
+    évitez les rejets eFact ultérieurs dus à une mutuelle erronée ou à une perte
+    d'assurabilité.
+
+## Les statuts
+
+| Statut | Signification |
+|---|---|
+| **Brouillon** | Pas encore envoyé |
+| **Envoyé / En attente** | Transmis, réponse attendue (surtout en groupé) |
+| **Succès** | Réponse reçue, résident assuré |
+| **Non assuré** | Réponse OK, mais résident non couvert |
+| **Sans réponse** | La plateforme a clôturé sans réponse d'un OA (à réessayer) |
+| **Erreur** | L'OA ou la plateforme a renvoyé une erreur |
+
+## Les boutons
+
+| Bouton | Effet |
+|---|---|
+| **Envoyer (Sync)** | Envoi immédiat, réponse tout de suite |
+| **Vérifier la réponse** | Récupère une réponse d'un envoi groupé |
+| **Réessayer** | Remet en brouillon pour renvoyer |
+| **Contacter l'OA** | Ouvre un e-mail pré-rempli vers la mutuelle qui a répondu |
+| **Signaler à l'intermut.** | Ouvre un e-mail vers le CIN pour les blocages plateforme |
+
+Sur un lot, les mêmes actions existent en version groupée (**Envoyer**,
+**Vérifier les réponses**, **Réessayer les erreurs**, **Réessayer les
+sans-réponse**).
+
+## Ce que Resthome met à jour tout seul
+
+Après une réponse réussie, la fiche résident est **corrigée automatiquement** :
+
+- **Mutuelle (OA)** : si l'OA qui répond diffère du profil, le profil est mis à
+  jour (et l'OA créé s'il manquait).
+- **Statut BIM**, **numéro d'affiliation**, et **identité** (nom, date de
+  naissance, sexe) si des champs manquaient.
+- **Date de décès** si l'OA la signale → alerte sur la fiche.
+
+!!! warning "Garde-fou régimes spéciaux"
+    Pour les résidents sous **régime particulier** (INIG, CEE, Fedasil, étranger,
+    privé…), Resthome **n'écrase pas** la mutuelle du profil : un message explique
+    que la réponse MDA a été ignorée pour ne pas casser une couverture non
+    standard.
+
+## Réintégration (perte puis retour d'assurabilité)
+
+Resthome compare avec le contrôle précédent :
+
+- **Non assuré → assuré** : une notification apparaît sur la période, et l'action
+  **Réintégration** permet de basculer vers l'OA les lignes qui avaient été
+  facturées au résident.
+- **Assuré → non assuré** : Resthome signale que le résident « n'est plus en
+  ordre » — son forfait est exclu de la facturation OA de la période et facturé
+  au résident jusqu'au rétablissement.
+
+## Gestion des erreurs
+
+| Situation | Quoi faire |
+|---|---|
+| **Sans réponse** (plateforme) | **Réessayer les sans-réponse** ; si ça persiste, **Signaler à l'intermut.** |
+| **Rejet de l'OA** | **Contacter l'OA** (motif affiché) |
+| **Erreur technique** | **Signaler à l'intermut.** |
+| **Résident sans mutuelle** | Non bloquant : l'OA réel vient de la réponse |
+| **En attente (groupé)** | **Vérifier les réponses** ou patienter |
+
+## Pour aller plus loin
+
+- [Facturation électronique (eFact)](efact.md)
+- [Accords (eAgreement)](eagreement.md)
+- [Vue d'ensemble de la facturation](../facturation/index.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/ehealth/efact/
+
+# Facturation électronique (eFact)
+
+L'**eFact** est l'envoi électronique de la **part mutuelle** (le forfait INAMI)
+aux **organismes assureurs**. Resthome génère les fichiers, les transmet et **suit
+les réponses** pour vous.
+
+## Le principe
+
+Une fois les factures du mois **comptabilisées**, Resthome constitue les **lots
+eFact** et les envoie aux mutuelles via le réseau eHealth. Chaque envoi reçoit un
+**accusé de réception**, puis un **décompte** (accepté / rejeté) que Resthome
+rapproche automatiquement.
+
+!!! note "Un envoi par union de mutualités"
+    Les envois sont regroupés **par union** (les grandes familles de mutualités),
+    pas par petite mutuelle individuelle. Resthome s'occupe du regroupement.
+
+## Générer et envoyer
+
+1. Sur la **période de facturation**, vérifiez que les factures sont
+   **comptabilisées**.
+2. **Générez l'eFact** (constitution des lots).
+3. **Envoyez** — la transmission part vers les organismes assureurs.
+
+## Suivre les réponses
+
+Chaque lot passe par des états visibles :
+
+1. **Envoyé** — transmis, en attente d'accusé.
+2. **Accusé reçu** — la mutuelle a bien reçu.
+3. **Accepté** / **Rejeté** — le décompte est revenu.
+
+En cas de **rejet**, Resthome remonte le motif pour que vous puissiez corriger
+(assurabilité, dates, montants…) et **renvoyer**. Le suivi des renvois évite les
+doublons.
+
+!!! tip "Cockpit eFact"
+    Un tableau de suivi vous donne l'état de tous les lots (envoyés, acceptés,
+    rejetés, à renvoyer) pour piloter la facturation mutuelle d'un coup d'œil.
+
+## Notes de crédit
+
+Si vous devez **rembourser** ou corriger une facture mutuelle déjà envoyée,
+Resthome produit la **note de crédit** électronique correspondante et l'inclut
+dans les envois, en cohérence avec le forfait facturé.
+
+## Prérequis
+
+!!! warning "À vérifier avant l'envoi"
+    - **Assurabilité (MDA)** contrôlée pour la période.
+    - **Mutuelle** correcte sur chaque résident.
+    - Factures **comptabilisées**.
+    - **Certificat eHealth** actif.
+
+## Pour aller plus loin
+
+- [Assurabilité (MDA)](mda.md)
+- [Accords (eAgreement)](eagreement.md)
+- [Vue d'ensemble de la facturation](../facturation/index.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/ehealth/eagreement/
+
+# Les accords eHealth (eAgreement)
+
+Quand un résident entre, s'absente, revient ou quitte l'établissement, la
+**mutuelle (organisme assureur)** doit en être informée par voie électronique.
+Resthome s'en charge : au bon moment, il **prépare automatiquement** la
+notification eHealth qui correspond à votre action. Vous n'avez, la plupart du
+temps, **rien à saisir en plus** — juste à vérifier et, si besoin, à envoyer.
+
+!!! note "Deux notions proches"
+    - **eAgreement** : l'accord de prise en charge des soins (lié à la catégorie
+      **Katz** et au forfait).
+    - **eAgreement Light** : les notifications plus simples liées aux
+      **mouvements** du résident — admission, absence, départ, retour. Ce sont
+      elles que Resthome génère tout seul au fil de vos actions.
+
+## Quand Resthome crée-t-il un accord ?
+
+Vous faites l'action métier habituelle ; Resthome en déduit la notification.
+
+| Votre action dans Resthome | Notification préparée | Document |
+|---|---|---|
+| **Démarrer un séjour** (admission) | Accord d'admission | Annexe 7 |
+| **Enregistrer une absence** / hospitalisation | Notification de sortie | Annexe 11 |
+| **Retour** du résident (fin d'absence) | Réadmission | Annexe 7 |
+| **Aggravation Katz** validée | Mise à jour de l'accord de soins | Annexe 10 |
+| **Fin de séjour / décès** | Notification de sortie | Annexe 11 |
+
+!!! tip "Le principe, en une phrase"
+    Vous gérez le **résident** (entrée, absence, retour, sortie) ; Resthome gère
+    l'**eHealth** derrière. Les manipulations de facturation et d'accords que vous
+    voyez apparaître sont le reflet automatique de ce que vous venez de faire.
+
+## Ce qu'il faut avant d'envoyer
+
+!!! warning "À vérifier"
+    - Le résident a un **NISS** (numéro national) valide.
+    - Sa **mutuelle** est renseignée.
+    - Le **certificat eHealth** de l'établissement est actif.
+
+    Sans NISS, l'accord ne peut pas être transmis. Vous pouvez tout de même
+    enregistrer le mouvement (admission, absence…) : Resthome le note et vous
+    invite à compléter le NISS dès que possible.
+
+## Suivre un accord
+
+Chaque accord passe par des **statuts** clairs :
+
+1. **Brouillon** — préparé par Resthome, pas encore envoyé.
+2. **Envoyé** — transmis à la mutuelle via eHealth.
+3. **Accepté** — la mutuelle a marqué son accord.
+4. **Rejeté** — la mutuelle refuse, avec un **motif**.
+
+Depuis la fiche du résident ou la période de facturation, vous voyez la liste des
+accords et leur statut, avec un lien vers le détail.
+
+### En cas de rejet
+
+Si la mutuelle rejette une demande, Resthome affiche le **motif de rejet en clair,
+en français et en néerlandais**, directement sur l'accord. Vous savez ainsi
+immédiatement quoi corriger (souvent : NISS, mutuelle, ou dates) avant de
+renvoyer.
+
+## Cas particuliers utiles
+
+- **Absence de courte durée** : une absence de plus de **72 h** (ou toute
+  **hospitalisation**) déclenche l'**Annexe 11** de sortie ; le **retour** génère
+  l'**Annexe 7** de réadmission. Voir [Absences et
+  hospitalisations](../facturation/absences.md).
+- **Facturation déjà clôturée** : si la facture du mois concerné est **déjà
+  comptabilisée** pour ce résident, Resthome **ne recrée pas** d'accord en double
+  pour ce mois — il protège la cohérence. Repassez la facture en brouillon (ou
+  faites une note de crédit) si vous devez vraiment modifier ce mois, puis
+  actualisez.
+- **Réadmission après un long congé** : selon la durée, la réadmission peut
+  nécessiter une **nouvelle évaluation Katz** — Resthome vous le signale.
+
+## Pour aller plus loin
+
+- [Absences et hospitalisations](../facturation/absences.md)
+- [Départ et décès](../facturation/depart-deces.md)
+- [Vue d'ensemble eHealth](index.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/soins/
+
+# Soins
+
+L'application **Soins** rassemble tout le suivi **médical et infirmier** des
+résidents : médication, plans de soins, signes vitaux, notes, et les **registres
+cliniques** (chutes, plaies, douleur, nutrition…). Elle est pensée pour le travail
+quotidien du personnel soignant.
+
+## Le tableau de bord
+
+À l'ouverture, le **tableau de bord** met en avant ce qui demande attention
+aujourd'hui : soins à réaliser, points de vigilance, administrations à faire. Vous
+partez de là pour votre tournée.
+
+## Ce que couvre l'application
+
+## Menus principaux
+
+- **Medical** — Katz, notes infirmières, points d'attention, saisie des signes
+  vitaux, planning des soins, soins du jour, mes soins assignés, plans de soins,
+  prescriptions, administrations, hospitalisation.
+- **Registres** — les registres cliniques dédiés.
+- **Stock** — lots de médicaments, sorties de stock.
+- **Configuration** — catalogue de médicaments, pathologies (CIM-10), allergènes,
+  interactions médicamenteuses, base SAM.
+
+!!! note "Séparée mais reliée"
+    L'application Soins est distincte de la facturation, mais **reliée aux
+    résidents** : une hospitalisation saisie ici se retrouve, côté facturation, en
+    [absence](../facturation/absences.md) qui ajuste le forfait.
+
+## Pour aller plus loin
+
+- [Prescriptions et médicaments](prescriptions.md)
+- [Plans de soins et signes vitaux](plans-de-soins.md)
+- [Registres cliniques](registres.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/soins/prescriptions/
+
+# Prescriptions et médicaments
+
+Resthome gère la **médication** d'un résident de bout en bout : de la prescription
+à l'administration, en passant par le stock et les contrôles de sécurité
+(allergies, interactions).
+
+## Le catalogue de médicaments
+
+Les médicaments disponibles sont regroupés dans un **catalogue** (relié à la base
+belge **SAM**). Vous y retrouvez le nom, la forme, le dosage. C'est la source des
+prescriptions.
+
+## Prescrire
+
+1. Depuis la fiche du résident (application Soins), créez une **prescription**.
+2. Choisissez le **médicament**, la **posologie** et la **période**.
+3. **Enregistrez.**
+
+Une prescription suit son cycle de vie avec des actions claires :
+
+- **Suspendre** — interrompre temporairement (ex. avant un examen).
+- **Reprendre** — relancer une prescription suspendue.
+- **Terminer** — clôturer à la fin du traitement.
+- **Annuler** — supprimer une prescription saisie par erreur.
+
+!!! warning "Sécurité : allergies et interactions"
+    Resthome connaît les **allergies** du résident et les **interactions
+    médicamenteuses** connues. Il vous alerte si une prescription pose un risque —
+    un garde-fou avant l'administration.
+
+## Administrer
+
+Les **administrations** découlent des prescriptions : le soignant enregistre ce
+qui a été donné, quand, et par qui. La traçabilité est complète.
+
+## Lots et stock
+
+Les **lots de médicaments** et les **sorties de stock** permettent de suivre les
+quantités disponibles et la consommation, avec les numéros de lot pour la
+traçabilité.
+
+## Configuration utile
+
+- **Pathologies (CIM-10)** — antécédents et diagnostics du résident.
+- **Allergènes** — allergies connues.
+- **Interactions médicamenteuses** — règles de vigilance.
+- **Base SAM** — référentiel des médicaments belges.
+
+## Pour aller plus loin
+
+- [Plans de soins et signes vitaux](plans-de-soins.md)
+- [Registres cliniques](registres.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/soins/plans-de-soins/
+
+# Plans de soins et signes vitaux
+
+Au-delà de la médication, l'application Soins organise le **travail infirmier au
+quotidien** : plans de soins, planning, signes vitaux et notes.
+
+## Plans de soins
+
+Un **plan de soins** décrit les **objectifs** de prise en charge d'un résident et
+les actions à mener. Il suit un cycle clair :
+
+- **Activer** — le plan devient effectif.
+- **Mettre en revue** puis **Valider la revue** — réévaluation périodique.
+- **Terminer** / **Annuler** — clôture.
+
+Chaque plan porte ses **objectifs**, ce qui rend le suivi mesurable.
+
+## Planning des soins
+
+- **Soins du jour** — la liste des soins à réaliser aujourd'hui.
+- **Mes soins assignés** — ce qui vous revient personnellement.
+- Chaque soin planifié se **démarre**, se **termine**, s'**annule** ou se marque
+  **manqué** — la tournée reste traçable.
+
+## Signes vitaux
+
+1. Depuis la fiche du résident, ouvrez **Saisie des signes vitaux**.
+2. Renseignez les mesures (tension, pouls, température, poids, saturation…).
+3. **Enregistrez.**
+
+!!! tip "Tendances"
+    L'outil **Tendances** affiche l'évolution des signes vitaux dans le temps —
+    pratique pour repérer une dégradation avant qu'elle ne s'installe.
+
+## Notes infirmières
+
+Les **notes infirmières** consignent les observations. Les points qui demandent
+attention remontent dans **Points de vigilance** / **Attention requise**, et se
+marquent **résolus** une fois traités.
+
+## Pour aller plus loin
+
+- [Prescriptions et médicaments](prescriptions.md)
+- [Registres cliniques](registres.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/soins/registres/
+
+# Registres cliniques
+
+Les **registres cliniques** structurent le suivi des risques et des évaluations
+gériatriques. Chaque registre regroupe les évaluations d'un même thème, dans le
+temps, pour chaque résident.
+
+## Les registres disponibles
+
+| Registre | À quoi il sert |
+|---|---|
+| **Chutes** | Consigner et analyser les chutes |
+| **Escarres (Braden)** | Risque d'escarres via l'échelle de Braden |
+| **Plaies** | Suivi des plaies et de leur cicatrisation |
+| **Douleur** | Évaluation et suivi de la douleur |
+| **Contention** | Traçabilité des mesures de contention |
+| **Nutrition (MNA)** | Dépistage de la dénutrition (Mini Nutritional Assessment) |
+| **Continence** | Suivi de la continence |
+| **Mobilité (Tinetti)** | Équilibre et risque de chute |
+| **Cognition (MMSE)** | Fonctions cognitives |
+
+## Comment ça marche
+
+1. Ouvrez le registre voulu depuis l'application Soins → **Registres**.
+2. **Nouvelle évaluation** pour le résident concerné : saisissez les items ;
+   Resthome calcule le **score** et le niveau de risque.
+3. Le registre **suit l'évolution** : chaque nouvelle évaluation s'ajoute à
+   l'historique.
+4. Un registre ouvert peut être **clôturé / arrêté**, puis **rouvert** si besoin.
+
+!!! note "Relié à la facturation et à l'eHealth"
+    Certaines évaluations ont un impact ailleurs : le **MNA** alimente le suivi
+    nutritionnel (côté [Repas](../repas/index.md)), et le **Katz** conditionne le
+    forfait (voir [L'évaluation Katz](../residents/katz.md)).
+
+!!! tip "Le bon registre au bon moment"
+    Ouvrez un registre dès qu'un risque est identifié (après une chute, à
+    l'apparition d'une plaie…) : l'historique constitué facilite les transmissions
+    et les contrôles.
+
+## Pour aller plus loin
+
+- [Plans de soins et signes vitaux](plans-de-soins.md)
+- [L'évaluation Katz](../residents/katz.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/repas/
+
+# Repas
+
+L'application **Repas** organise la restauration de l'établissement : **menus**,
+**plats**, **régimes** adaptés à chaque résident, **suivi nutritionnel** et
+**hydratation**, jusqu'au **portail familles** et à l'affichage en salle à manger.
+
+## Le tableau de bord
+
+Le **tableau de bord Repas** donne la vue du jour : services prévus, alertes
+diététiques, hydratation à surveiller.
+
+## Ce que couvre l'application
+
+## Menus principaux
+
+- **Opérations** — Menus, services de repas, distribution, **alertes
+  diététiques**, hydratation.
+- **Catalogue** — plats, catégories de plats, produits.
+- **Statistiques** — reporting de la restauration.
+- **Configuration** — régimes, allergies, types de repas.
+
+!!! note "Un rôle diététicien"
+    Un profil **diététicien** permet de confier la gestion des menus, régimes et
+    du suivi nutritionnel aux personnes concernées, sans leur ouvrir tout le reste
+    de Resthome.
+
+## Pour aller plus loin
+
+- [Menus, régimes et hydratation](menus-regimes.md)
+- [Portail familles et kiosque](portail-familles.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/repas/menus-regimes/
+
+# Menus, régimes et hydratation
+
+## Composer un menu
+
+1. Dans l'application Repas → **Menus**, créez le menu de la journée ou de la
+   semaine.
+2. Ajoutez les **plats** depuis le catalogue, par **type de repas** (petit
+   déjeuner, dîner, souper, collations).
+3. **Enregistrez.**
+
+Les **plats** sont décrits une fois dans le **catalogue** (ingrédients, catégorie)
+et réutilisés dans tous les menus.
+
+## Services de repas
+
+Un **service de repas** représente un repas servi à un moment donné. Il suit un
+cycle simple : **Confirmer** → **Marquer comme servi**, avec possibilité
+d'**annuler** ou de **remettre en brouillon**.
+
+## Régimes et allergies
+
+Chaque résident peut avoir un ou plusieurs **régimes** (sans sel, diabétique,
+mixé/texture adaptée…) et des **allergies**. Resthome les prend en compte et
+**signale les incompatibilités** entre un menu et le profil d'un résident.
+
+!!! warning "Alertes diététiques"
+    Le menu **Alertes diététiques** remonte les cas où un plat prévu ne convient
+    pas au régime ou aux allergies d'un résident — à vérifier avant le service.
+
+## Suivi nutritionnel et hydratation
+
+- Resthome suit la **couverture nutritionnelle** (énergie, protéines) et
+  l'**hydratation** des résidents, avec des cibles adaptées.
+- Le dépistage de la **dénutrition** s'appuie sur le **MNA** (voir [Registres
+  cliniques](../soins/registres.md)).
+- L'**hydratation** se consigne au fil de la journée pour repérer un apport
+  insuffisant.
+
+## Pour aller plus loin
+
+- [Portail familles et kiosque](portail-familles.md)
+- [Registres cliniques](../soins/registres.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/repas/portail-familles/
+
+# Portail familles et kiosque
+
+Resthome permet de **partager les menus** au-delà de l'équipe : avec les
+**familles** et directement **en salle à manger**.
+
+## Portail familles
+
+Les proches peuvent consulter **les repas du jour** et l'historique via un accès
+**portail** dédié. C'est un lien de confiance : la famille voit ce que le résident
+mange, sans avoir accès au reste du dossier.
+
+## Pages publiques et QR code
+
+- Le **menu de la semaine** peut être publié sur une page consultable.
+- Une **version imprimable** avec **QR code** permet d'afficher le menu et de
+  renvoyer vers sa version en ligne, toujours à jour.
+
+## Mode kiosque
+
+Le **mode kiosque** affiche le menu en **plein écran**, idéal pour un écran ou une
+télévision en **salle à manger**. Les résidents et le personnel voient le repas du
+moment d'un coup d'œil, sans manipulation.
+
+!!! tip "Toujours à jour"
+    Comme tout part des mêmes menus dans Resthome, le portail, la page publique et
+    le kiosque affichent **automatiquement** la dernière version — pas de double
+    saisie.
+
+## Pour aller plus loin
+
+- [Menus, régimes et hydratation](menus-regimes.md)
+- [Vue d'ensemble des Repas](index.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/configuration/
+
+# Configuration
+
+Avant l'usage quotidien, quelques réglages de base structurent Resthome. Ils se
+font une fois, puis n'évoluent qu'à la marge.
+
+## Chambres et secteurs
+
+- **Chambres** : créez vos chambres, avec leur **type** (MR, MRS, chambre simple
+  ou double…) et leurs **équipements**.
+- **Secteurs / unités** : regroupez les chambres par unité de vie.
+- Une chambre peut être mise en **maintenance**, **réservée**, ou repassée en
+  attribution **automatique** selon l'occupation.
+
+## Tarifs et forfaits
+
+- **Tarifs INAMI** : les montants du **forfait** par **catégorie Katz** — la base
+  du remboursement mutuelle.
+- **Tarifs d'hébergement** : le prix de la chambre (part résident).
+- **Types de suppléments** : le catalogue des prestations facturables (voir [Les
+  suppléments](../facturation/supplements.md)).
+- **Règles de remise d'absence** et **codes AVIQ** : le paramétrage fin de la
+  facturation.
+
+## Mutuelles et données de référence
+
+- **Mutuelles (organismes assureurs)** : la liste utilisée pour l'assurabilité et
+  l'eFact.
+- **Établissement** : les informations de votre maison (identifiants, coordonnées)
+  utilisées dans les documents et les envois eHealth.
+
+## Multi-société
+
+Resthome gère **plusieurs sociétés** dans une même base : chaque société a ses
+résidents, ses chambres et sa facturation, cloisonnés. Utile pour un groupe qui
+exploite plusieurs établissements.
+
+!!! note "Le journal d'activité"
+    Un **journal d'activité** trace les accès aux données sensibles (RGPD). Il est
+    consultable depuis la configuration — utile pour la conformité.
+
+## Pour aller plus loin
+
+- [Premiers pas](../premiers-pas.md)
+- [Gérer un résident](../residents/gerer-un-resident.md)

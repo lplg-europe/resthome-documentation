@@ -19,7 +19,7 @@ const DOC_ORIGIN = "https://docs.lplg.eu";
 const ODOO_LANG_TO_DOC_LOCALE = { nl: "/nl", en: "" }; // en: pas de locale MkDocs -> repli sur le français
 // Fichiers uniques à la racine de docs.lplg.eu, non déclinés par langue
 // (ex: llms.txt) — toujours servis depuis la racine quel que soit le préfixe.
-const ALWAYS_ROOT_FILES = ["llms.txt"];
+const ALWAYS_ROOT_FILES = ["llms.txt", "llms-full.txt"];
 
 export default {
   async fetch(request) {
