@@ -6,7 +6,7 @@
 # Ce dépôt est PUBLIC (doc utilisateur). Le contenu technique et la propriété
 # intellectuelle restent privés et ne sont pas publiés ici.
 
-site_name: Documentation Resthome
+site_name: Resthome docs
 site_url: https://docs.lplg.eu/
 site_description: >-
   Documentation utilisateur du logiciel Resthome pour maisons de repos et de
@@ -16,8 +16,9 @@ copyright: >-
   © LPLG — Documentation sous licence
   <a href="https://creativecommons.org/licenses/by/4.0/deed.fr">CC BY 4.0</a>.
 
-# repo_url: https://github.com/<votre-orga>/resthome-documentation
-# edit_uri: edit/main/docs/
+repo_url: https://github.com/lplg-europe/resthome-documentation
+repo_name: lplg-europe/resthome-documentation
+edit_uri: edit/main/docs/
 
 theme:
   name: material
@@ -35,19 +36,19 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
-        icon: material/weather-night
+        icon: material/brightness-4
         name: Passer en mode sombre
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
-        icon: material/weather-sunny
+        icon: material/brightness-7
         name: Passer en mode clair
   features:
     # navigation.instant est volontairement DÉSACTIVÉ : il est incompatible
     # avec le sélecteur de langue FR/NL (rechargement complet nécessaire).
+    # Pas de navigation.tabs/sections : arborescence repliable à gauche (style
+    # docs Odoo, avec flèches d'expansion).
     - navigation.tracking
-    - navigation.tabs
-    - navigation.sections
     - navigation.top
     - navigation.footer
     - toc.follow
@@ -56,6 +57,7 @@ theme:
     - search.share
     - content.code.copy
     - content.tabs.link
+    - content.action.edit
 
 extra_css:
   - assets/extra.css
