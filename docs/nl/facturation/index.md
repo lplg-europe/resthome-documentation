@@ -51,6 +51,12 @@ sectie.*
 
 ## Verder
 
+- [Afwezigheden en hospitalisaties](absences.md) — effect op het forfait,
+  72-uurregel, automatische eHealth-melding.
+- [Vertrek en overlijden](depart-deces.md) — stop van de facturatie, creditnota
+  van het vooraf gefactureerde verblijf.
+- [Akkoorden (eAgreement)](../ehealth/eagreement.md) — de mutualiteit verwittigen
+  (opname, afwezigheid, terugkeer, vertrek).
 - [eHealth](../ehealth/index.md) — versturen van het mutualiteitsaandeel (eFact)
   en akkoorden.
 - [Een bewoner beheren](../residents/gerer-un-resident.md)

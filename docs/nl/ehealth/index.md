@@ -33,6 +33,8 @@ MyCareNet, WalCareNet) om rechtstreeks met de mutualiteiten uit te wisselen.
     Meldt de VI bij een **opname**, een **einde verblijf** of een
     **afwezigheid** (Bijlagen 7, 10, 11…).
 
+    [:octicons-arrow-right-24: De akkoorden in detail](eagreement.md)
+
 </div>
 
 ## Vereisten
@@ -52,9 +54,9 @@ MyCareNet, WalCareNet) om rechtstreeks met de mutualiteiten uit te wisselen.
   bewoner: om ze te wijzigen, zet ze terug naar concept (of maak een creditnota
   op) en vernieuw dan.
 
-*Het detail van de verzendingen en de opvolging van de antwoorden wordt
-gedocumenteerd in de komende pagina's van deze sectie.*
-
 ## Verder
 
+- [Akkoorden (eAgreement)](eagreement.md) — opname, afwezigheid, terugkeer,
+  vertrek (Bijlagen 7, 10, 11).
+- [Afwezigheden en hospitalisaties](../facturation/absences.md)
 - [Facturatie](../facturation/index.md)

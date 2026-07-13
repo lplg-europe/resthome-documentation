@@ -33,6 +33,8 @@ WalCareNet) pour échanger directement avec les mutuelles.
     Notifie l'OA lors d'une **admission**, d'une **fin de séjour** ou d'une
     **absence** (Annexes 7, 10, 11…).
 
+    [:octicons-arrow-right-24: Les accords en détail](eagreement.md)
+
 </div>
 
 ## Prérequis
@@ -52,9 +54,9 @@ WalCareNet) pour échanger directement avec les mutuelles.
   résident : pour la modifier, remettez-la en brouillon (ou émettez une note de
   crédit), puis actualisez.
 
-*Le détail des envois et du suivi des réponses sera documenté dans les pages à
-venir de cette section.*
-
 ## À suivre
 
+- [Accords (eAgreement)](eagreement.md) — admission, absence, retour, sortie
+  (Annexes 7, 10, 11).
+- [Absences et hospitalisations](../facturation/absences.md)
 - [Facturation](../facturation/index.md)

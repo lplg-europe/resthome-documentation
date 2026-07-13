@@ -84,7 +84,11 @@ plugins:
             Résidents: Bewoners
             Gérer un résident: Een bewoner beheren
             Facturation: Facturatie
+            "Vue d'ensemble": Overzicht
+            Absences et hospitalisations: Afwezigheden en hospitalisaties
+            Départ et décès: Vertrek en overlijden
             eHealth: eHealth
+            Accords (eAgreement): Akkoorden (eAgreement)
             Site LPLG: LPLG-website
 
 markdown_extensions:
@@ -119,6 +123,11 @@ nav:
   - Premiers pas: premiers-pas.md
   - Résidents:
       - Gérer un résident: residents/gerer-un-resident.md
-  - Facturation: facturation/index.md
-  - eHealth: ehealth/index.md
+  - Facturation:
+      - Vue d'ensemble: facturation/index.md
+      - Absences et hospitalisations: facturation/absences.md
+      - Départ et décès: facturation/depart-deces.md
+  - eHealth:
+      - Vue d'ensemble: ehealth/index.md
+      - Accords (eAgreement): ehealth/eagreement.md
   - Site LPLG: https://www.lplg.eu/

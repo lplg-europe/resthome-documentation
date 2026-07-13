@@ -49,5 +49,11 @@ section.*
 
 ## À suivre
 
+- [Absences et hospitalisations](absences.md) — effet sur le forfait, règle des
+  72 h, notification eHealth automatique.
+- [Départ et décès](depart-deces.md) — arrêt de la facturation, note de crédit de
+  l'hébergement prépayé.
+- [Accords (eAgreement)](../ehealth/eagreement.md) — notifier la mutuelle
+  (admission, absence, retour, sortie).
 - [eHealth](../ehealth/index.md) — envoi de la part mutuelle (eFact) et accords.
 - [Gérer un résident](../residents/gerer-un-resident.md)
