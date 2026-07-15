@@ -81,6 +81,7 @@ renvoyer.
 
 ## Pour aller plus loin
 
+- [Accord refusé (eAgreement) — causes et solutions](eagreement-refus.md)
 - [Absences et hospitalisations](../facturation/absences.md)
 - [Départ et décès](../facturation/depart-deces.md)
 - [Vue d'ensemble eHealth](index.md)

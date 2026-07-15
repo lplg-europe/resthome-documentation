@@ -80,6 +80,7 @@ verstuurt.
 
 ## Verder
 
+- [Akkoord geweigerd (eAgreement) — oorzaken en oplossingen](eagreement-refus.md)
 - [Afwezigheden en hospitalisaties](../facturation/absences.md)
 - [Vertrek en overlijden](../facturation/depart-deces.md)
 - [eHealth-overzicht](index.md)

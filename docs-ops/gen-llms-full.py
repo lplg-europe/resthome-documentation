@@ -39,6 +39,7 @@ ORDER = [
     "ehealth/efact.md",
     "ehealth/efact-rejets.md",
     "ehealth/eagreement.md",
+    "ehealth/eagreement-refus.md",
     "soins/index.md",
     "soins/prescriptions.md",
     "soins/plans-de-soins.md",

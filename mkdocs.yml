@@ -72,6 +72,11 @@ extra_javascript:
   # est combiné FR+NL ; on masque les résultats de l'autre langue).
   - assets/search-lang-filter.js
 
+hooks:
+  # Réécrit les hreflang alternate relatifs (plugin i18n) en URLs absolues,
+  # sinon les moteurs les ignorent → version NL mal servie. Voir le fichier.
+  - docs-ops/mkdocs_hooks.py
+
 plugins:
   - search:
       lang:
@@ -112,6 +117,7 @@ plugins:
             Facturation électronique (eFact): Elektronische facturatie (eFact)
             Rejets eFact: eFact-weigeringen
             Accords (eAgreement): Akkoorden (eAgreement)
+            Accord refusé (eAgreement): Akkoord geweigerd (eAgreement)
             Soins: Zorg
             Prescriptions et médicaments: Voorschriften en geneesmiddelen
             Plans de soins et signes vitaux: Zorgplannen en vitale parameters
@@ -173,6 +179,7 @@ nav:
       - Facturation électronique (eFact): ehealth/efact.md
       - Rejets eFact: ehealth/efact-rejets.md
       - Accords (eAgreement): ehealth/eagreement.md
+      - Accord refusé (eAgreement): ehealth/eagreement-refus.md
   - Soins:
       - Vue d'ensemble: soins/index.md
       - Prescriptions et médicaments: soins/prescriptions.md
