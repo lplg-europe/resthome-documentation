@@ -140,6 +140,7 @@ Resthome vergelijkt met de vorige controle:
 
 ## Verder
 
+- [MDA-fouten — oorzaken en oplossingen](mda-erreurs.md)
 - [Elektronische facturatie (eFact)](efact.md)
 - [Akkoorden (eAgreement)](eagreement.md)
 - [Facturatie-overzicht](../facturation/index.md)

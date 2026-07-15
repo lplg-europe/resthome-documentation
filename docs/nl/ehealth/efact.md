@@ -217,6 +217,7 @@ mutualiteitszijde via een corrigerend lot.
 
 ## Verder
 
+- [eFact-weigeringen — oorzaken en oplossingen](efact-rejets.md)
 - [Verzekerbaarheid (MDA)](mda.md)
 - [Akkoorden (eAgreement)](eagreement.md)
 - [Vertrek en overlijden](../facturation/depart-deces.md)

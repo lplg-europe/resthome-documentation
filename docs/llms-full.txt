@@ -138,7 +138,7 @@ Admission ─► MDA ─► eAgreement ─► Katz ─► eFact ─► Paiement
 3. **Accord d'admission (eAgreement)** — La notification de prise en charge (Annexe 7)
    est préparée pour la mutuelle. → [Accords (eAgreement)](ehealth/eagreement.md)
 4. **Évaluation Katz** — Cotez la dépendance : la catégorie Katz détermine le forfait
-   INAMI. → [L'évaluation Katz](residents/katz.md)
+   INAMI. → [L&#39;évaluation Katz](residents/katz.md)
 5. **Facturation électronique (eFact)** — Générez la période, créez les factures et
    transmettez la part mutuelle aux organismes assureurs.
    → [Facturation électronique (eFact)](ehealth/efact.md)
@@ -155,7 +155,7 @@ Admission ─► MDA ─► eAgreement ─► Katz ─► eFact ─► Paiement
 
 - [FAQ — Questions fréquentes](faq.md)
 - [Glossaire](glossaire.md)
-- [Vue d'ensemble de la facturation](facturation/index.md)
+- [Vue d&#39;ensemble de la facturation](facturation/index.md)
 
 
 ---
@@ -432,19 +432,24 @@ clic : lignes de facturation, suppléments et factures brouillon.
 5. **Comptabiliser** les factures.
 6. **Générer l'eFact** (part mutuelle) puis l'envoyer.
 
-*Le détail de chaque étape sera documenté dans les pages à venir de cette
-section.*
+!!! tip "Pas à pas"
+    Suivez le guide détaillé [Facturer un mois, pas à pas](facturer-un-mois.md), ou
+    visualisez l'ensemble du [parcours de facturation](../parcours-facturation.md).
 
 ## À suivre
 
+- [Facturer un mois, pas à pas](facturer-un-mois.md) — le guide complet du mois.
+- [Les suppléments](supplements.md) — enveloppe de suppléments, ponctuels ou récurrents.
 - [Absences et hospitalisations](absences.md) — effet sur le forfait, règle des
   72 h, notification eHealth automatique.
 - [Départ et décès](depart-deces.md) — arrêt de la facturation, note de crédit de
   l'hébergement prépayé.
+- [Débiteurs alimentaires](split-billing.md) — répartir la part résident entre débiteurs.
 - [Accords (eAgreement)](../ehealth/eagreement.md) — notifier la mutuelle
   (admission, absence, retour, sortie).
 - [eHealth](../ehealth/index.md) — envoi de la part mutuelle (eFact) et accords.
 - [Gérer un résident](../residents/gerer-un-resident.md)
+- [Le parcours de facturation](../parcours-facturation.md) · [FAQ](../faq.md) · [Glossaire](../glossaire.md)
 
 
 ---
@@ -812,8 +817,10 @@ WalCareNet) pour échanger directement avec les mutuelles.
 
 - [Accords (eAgreement)](eagreement.md) — admission, absence, retour, sortie
   (Annexes 7, 10, 11).
+- [Le parcours de facturation](../parcours-facturation.md) — de l'admission au paiement.
 - [Absences et hospitalisations](../facturation/absences.md)
 - [Facturation](../facturation/index.md)
+- [FAQ](../faq.md) · [Glossaire](../glossaire.md)
 
 
 ---
@@ -958,9 +965,91 @@ Resthome compare avec le contrôle précédent :
 
 ## Pour aller plus loin
 
+- [Erreurs MDA — causes et solutions](mda-erreurs.md)
 - [Facturation électronique (eFact)](efact.md)
 - [Accords (eAgreement)](eagreement.md)
 - [Vue d'ensemble de la facturation](../facturation/index.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/ehealth/mda-erreurs/
+
+# Erreurs MDA — causes et solutions
+
+Le [MDA](mda.md) interroge pour vous la plateforme des mutualités (MyCareNet /
+WalCareNet) pour confirmer qu'un résident est **assuré sur la période** et identifier
+**la mutualité qui le couvre réellement**. C'est le **préalable à l'eFact**. Cette page
+regroupe les erreurs et cas particuliers, avec la marche à suivre.
+
+!!! tip "Le bon réflexe"
+    Lancez le MDA **en début de mois, avant de générer les factures** : vous évitez les
+    [rejets eFact](efact-rejets.md) ultérieurs dus à une mauvaise mutualité ou à une
+    perte d'assurabilité découverte trop tard.
+
+## Situations MDA → action
+
+Rappel des statuts que Resthome peut afficher : **Brouillon · Envoyé / En attente ·
+Succès · Non assuré · Sans réponse · Erreur**. Actions disponibles : **Envoyer ·
+Vérifier la réponse · Réessayer · Contacter l'OA · Signaler à l'intermut.**
+
+| Situation | Ce que Resthome affiche | Cause probable | Action |
+|---|---|---|---|
+| **NISS non reconnu** | **Erreur** : la demande est refusée avant d'arriver à une mutualité | Le **NISS** est mal saisi (chiffre inversé, faute de frappe) : format invalide | Vérifier le NISS (carte d'identité), **le corriger**, puis **Réessayer**. C'est la cause la plus fréquente. |
+| **Bénéficiaire introuvable** | **Erreur** : « non trouvé » | NISS bien formé mais **pas (encore) connu** de la plateforme (inscription très récente, cas particulier) | Confirmer le NISS et l'affiliation. Si le numéro est correct : **Contacter l'OA** ; en dernier recours **Signaler à l'intermut.** |
+| **Assuré mais « pas en ordre »** | **Non assuré** + **alerte** | Affiliation existante mais **couverture non valide** (cotisations impayées, dossier à régulariser) | Ne pas facturer l'OA pour cette période. **Contacter l'OA** ou le résident pour régulariser ; facturer la part **au résident** en attendant. |
+| **Pas de mutualité sur la fiche** | Non bloquant : après un MDA réussi, la mutualité est **remplie automatiquement** | Profil incomplet (nouveau résident) | Lancer le MDA : s'il aboutit, Resthome **renseigne** la mutualité et le n° d'affiliation. Sinon, revérifier le NISS. |
+| **Changement de mutualité (mutation)** | **Mutation détectée** : le profil est **mis à jour** | Le résident a changé de mutualité ; le profil n'était pas à jour | Laisser Resthome corriger le profil ; **vérifier** la nouvelle mutualité avant de facturer. |
+| **« Sans réponse »** | **Sans réponse** | La plateforme a clôturé la demande sans réponse — souvent **hors horaires** (soir/week-end) ou indisponibilité temporaire. Ce n'est pas une erreur de votre part | **Réessayer** aux heures ouvrables. Si cela persiste, **Signaler à l'intermut.** |
+| **Erreur technique** | **Erreur** + détail technique | Panne temporaire côté plateforme ou mutualité | **Réessayer** plus tard ; si l'erreur revient, **Signaler à l'intermut.** Ne pas relancer en boucle. |
+| **Décès signalé par la mutualité** | **Date de décès** sur la fiche + alerte | L'OA signale un décès (couverture close) | Vérifier et **arrêter la facturation** à la bonne date. |
+| **Régime particulier** | La réponse MDA est **ignorée** ; la mutualité du profil **reste inchangée** | Le résident relève d'un régime spécial (voir plus bas) | Ne rien corriger : le garde-fou est **volontaire**. Facturer selon le régime particulier. |
+
+## Régimes particuliers
+
+Certains résidents ne relèvent **pas** du flux mutualité standard. Dans ces cas,
+Resthome **n'écrase pas** la mutualité de leur profil avec la réponse du MDA, et la
+facturation se fait souvent **sur papier**, adressée au véritable payeur (ou au
+résident), plutôt qu'en eFact.
+
+- **Statut BIM (intervention majorée)** — ce n'est pas un régime à part : le MDA le
+  **récupère et met à jour tout seul**. Il ouvre droit à un **ticket modérateur réduit**
+  pour le résident (la part à sa charge diminue) ; le forfait journalier, lui, est
+  inchangé.
+- **Invalides de guerre / victimes civiles** — le résident a **deux couvertures** : sa
+  mutualité standard (visible dans le MDA) **et** une couverture spécifique qui **ne
+  passe pas** par le MDA. Le garde-fou évite d'écraser cette configuration.
+- **Retraités d'institutions internationales** — couverts par un régime propre à leur
+  organisation, pas par une mutualité belge classique.
+- **Pensionnés étrangers** — couverture d'un régime étranger via les formulaires
+  européens de coordination ; en pratique, beaucoup s'affilient tout de même à une
+  mutualité belge.
+
+!!! warning "En cas de doute"
+    Pour un régime particulier, en cas de doute sur l'organisme à facturer, rapprochez-
+    vous de la mutualité ou de l'organisme concerné avant d'émettre la facture.
+
+## Bonnes pratiques
+
+- **MDA en début de mois, avant de facturer.**
+- **Contrôle individuel** (immédiat) pour un résident précis ; **contrôle par lot**
+  pour une période entière — collez au besoin une colonne de noms/NISS.
+    - **Envoi immédiat (Sync)** pour les **petits volumes** ;
+    - **Envoi groupé (Async)** pour les **gros lots mensuels** : la demande part, puis
+      on **récupère les réponses** un peu plus tard avec **Vérifier les réponses**
+      (nécessite au moins 2 résidents).
+- Le lot affiche des **compteurs** (Assurés, Non assurés, Erreurs, En attente, Décès)
+  pour repérer d'un coup d'œil ce qui reste à traiter.
+- **Ce que Resthome met à jour** après un MDA réussi : la **mutualité (OA)** réelle, le
+  **statut BIM**, le **numéro d'affiliation**, l'**identité** si des champs manquaient,
+  et la **date de décès** si l'organisme la signale. Exception : la mutualité d'un
+  **régime particulier** n'est pas écrasée.
+
+## Pour aller plus loin
+
+- [Assurabilité (MDA)](mda.md)
+- [Rejets eFact](efact-rejets.md) · [Facturation électronique (eFact)](efact.md)
+- [FAQ](../faq.md) · [Glossaire](../glossaire.md)
 
 
 ---
@@ -1164,11 +1253,112 @@ nécessaire, côté mutuelle via un lot correctif.
 
 ## Pour aller plus loin
 
+- [Rejets eFact — causes et solutions](efact-rejets.md)
 - [Assurabilité (MDA)](mda.md)
 - [Accords (eAgreement)](eagreement.md)
 - [Départ et décès](../facturation/depart-deces.md)
 - [Absences et hospitalisations](../facturation/absences.md)
 - [Vue d'ensemble de la facturation](../facturation/index.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/ehealth/efact-rejets/
+
+# Rejets eFact — causes et solutions
+
+Quand vous envoyez l'[eFact](efact.md), l'**organisme assureur (OA)** vérifie chaque
+ligne et vous renvoie un résultat. Cette page explique **comment lire une réponse**,
+**pourquoi un lot ou une ligne est rejeté**, et **comment corriger puis renvoyer**.
+
+!!! info "Deux lignes de défense"
+    La plupart des causes de rejet sont **interceptées par Resthome avant l'envoi**
+    (auto-contrôle de la période, contrôles à la génération). Elles apparaissent alors
+    comme un **message d'anomalie** à traiter, pas comme un rejet. Les cas qui passent
+    malgré tout reviennent ensuite sous forme de **rejet de l'OA**. Cette page couvre
+    les deux.
+
+## Le cycle de réponse, en clair
+
+Après l'envoi d'un lot, les réponses de l'OA font évoluer le **statut du lot** et
+remplissent les **montants** (facturé / accepté / refusé) :
+
+1. **Accusé de réception** — l'OA confirme avoir reçu le fichier et passé le premier
+   contrôle. Rien à faire.
+2. **Décompte de l'OA** — l'OA renvoie le résultat **ligne par ligne** : ce qui est
+   **accepté** et ce qui est **refusé**. Resthome rapproche ce décompte et met à jour
+   les montants du lot.
+3. **Acceptation et/ou rejet** — trois issues possibles :
+    - **tout est accepté** → le lot est décompté, puis peut être clôturé ;
+    - **rejet partiel** — certaines lignes sont refusées, le reste est payé : on ne
+      corrige et ne renvoie **que** les lignes refusées ;
+    - **rejet global** — le lot entier est refusé, rien n'est payé : on corrige la
+      cause et on **renvoie un lot neuf**.
+
+Sur chaque ligne refusée, un **code** et un **motif de rejet** en clair pointent la
+cause.
+
+## Causes de rejet fréquentes → action
+
+| Cause | Ce que vous voyez | Action dans Resthome |
+|---|---|---|
+| **Assurabilité (MDA) non valide ou manquante** | Compteur **MDA** pas au vert ; lot retenu à l'envoi ; ou rejet de l'OA pour assurabilité | Lancer **Vérifier MDA**, obtenir le statut **Succès** pour chaque résident, puis **régénérer** l'eFact. Le MDA doit être validé **avant** de générer. |
+| **Mutuelle erronée ou absente** | Le forfait part au mauvais OA (rejet) ou n'apparaît pas dans le lot | Renseigner/corriger la **mutuelle** sur la fiche du résident, puis **régénérer**. Vérifier que chaque résident facturé en tiers payant a bien une mutuelle. |
+| **Forfait déclaré au-delà de la fin d'intervention** | Auto-contrôle : **« forfait OA sur-déclaré »** ; l'OA refuse les jours en trop | Émettre une **note de crédit / un reliquat** pour les jours sur-déclarés (voir plus bas). |
+| **Chambre libérée / décès — hébergement encore facturé** | Auto-contrôle : **surfacturation** ; refus des jours indus | **Clôturer l'hébergement** à la bonne date + **note de crédit**. |
+| **Absence non clôturée** | Compteur **Absences** actif ; jours de forfait faussés | Clôturer les absences de la période, puis re-contrôler. |
+| **Catégorie Katz manquante ou évaluation expirée** | Compteur **« Katz à faire »** ; blocage à la génération | Compléter ou renouveler l'**évaluation Katz**, puis **régénérer**. |
+| **NISS manquant ou incorrect** | Donnée d'identification obligatoire → rejet technique | Corriger le **NISS** sur la fiche du résident, puis régénérer. |
+| **Double envoi** | L'OA signale un **envoi déjà reçu** | Ne pas renvoyer un lot **déjà accepté**. Pour un renvoi légitime, s'appuyer sur le compteur **Renvois** (anti-doublon). |
+| **Discordance de montant / tarif** | L'OA renvoie un **montant/tarif inattendu** | Vérifier le **tarif** appliqué et le montant de la ligne, corriger le paramétrage, régénérer, renvoyer. |
+| **Rejet technique / de format** | **Rejet global** : le fichier n'a pas passé le contrôle de format | Cas rare à escalader : utiliser **Contact OA** ou **Helpdesk**, corriger, puis renvoyer un lot neuf. |
+
+## Corriger, puis renvoyer
+
+Le principe : **on ne repousse pas un lot rejeté tel quel — on corrige la cause à la
+source, puis on renvoie.**
+
+- **Boucle corriger → renvoyer.** Après avoir traité la cause (MDA, mutuelle, Katz,
+  absence, dates…), régénérez la partie concernée et renvoyez. Le compteur **Renvois**
+  garde la trace de chaque retransmission pour **éviter d'envoyer deux fois** le même
+  lot.
+- **Réintégration.** Le bouton **Réintégration** permet de réintégrer des lignes
+  (par exemple des lignes rejetées, une fois corrigées) dans un **nouvel envoi**,
+  plutôt que de tout refaire.
+- **Note de crédit / lot correctif.** Chaque fois que vous avez **facturé plus que
+  dû** — départ ou décès en cours de mois facturé, forfait sur-déclaré — Resthome
+  prépare une **note de crédit** (côté résident) et, si la part mutuelle est concernée,
+  un **lot correctif** vers l'OA. Les lignes de crédit sont intégrées à l'**envoi eFact
+  suivant**.
+
+## Les réponses que vous pouvez croiser
+
+Selon le message renvoyé par l'OA, vous pouvez apercevoir, dans les statuts ou le
+journal du lot :
+
+| Réponse | Ce que ça veut dire |
+|---|---|
+| **Accusé de réception** | L'OA a **reçu** le fichier et il a passé le premier contrôle. Étape normale. |
+| **Notification avec avertissements** | Le lot est **accepté**, mais avec des **avertissements** (erreurs mineures) à lire. |
+| **Décompte** | Le **résultat ligne par ligne** : montants **acceptés** et **refusés**. C'est ici qu'apparaissent les rejets partiels à corriger. |
+| **Rejet global** | Le **lot entier est refusé** (trop d'erreurs). Corriger la cause et **renvoyer un lot neuf**. |
+| **Rejet technique** | Le fichier n'a pas passé le **contrôle de format** ; retransmission nécessaire après correction. |
+
+## Points clés
+
+- **Prévenez plutôt que guérir** : traitez les messages d'**auto-contrôle** et
+  validez le **MDA** avant de facturer — la plupart des rejets sont ainsi évités.
+- Un **rejet partiel** se corrige **ligne par ligne** ; un **rejet global** se
+  **renvoie en lot neuf**.
+- Une **surfacturation** (départ, décès, forfait sur-déclaré) se corrige par une
+  **note de crédit / un lot correctif**, pas par un simple renvoi.
+
+## Pour aller plus loin
+
+- [Facturation électronique (eFact)](efact.md)
+- [Assurabilité (MDA)](mda.md) · [Erreurs MDA](mda-erreurs.md)
+- [Départ et décès](../facturation/depart-deces.md)
+- [FAQ](../faq.md) · [Glossaire](../glossaire.md)
 
 
 ---

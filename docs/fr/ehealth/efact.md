@@ -213,6 +213,7 @@ nécessaire, côté mutuelle via un lot correctif.
 
 ## Pour aller plus loin
 
+- [Rejets eFact — causes et solutions](efact-rejets.md)
 - [Assurabilité (MDA)](mda.md)
 - [Accords (eAgreement)](eagreement.md)
 - [Départ et décès](../facturation/depart-deces.md)

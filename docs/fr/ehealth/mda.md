@@ -141,6 +141,7 @@ Resthome compare avec le contrôle précédent :
 
 ## Pour aller plus loin
 
+- [Erreurs MDA — causes et solutions](mda-erreurs.md)
 - [Facturation électronique (eFact)](efact.md)
 - [Accords (eAgreement)](eagreement.md)
 - [Vue d'ensemble de la facturation](../facturation/index.md)
