@@ -60,6 +60,7 @@ Si l'état du résident se dégrade, saisissez une **nouvelle évaluation** avec
 
 ## Pour aller plus loin
 
+- [Le forfait INAMI (dépendance)](../facturation/forfait-inami.md) — de la catégorie au montant facturé.
 - [Gérer un résident](gerer-un-resident.md)
 - [Facturation](../facturation/index.md)
 - [Accords (eAgreement)](../ehealth/eagreement.md)

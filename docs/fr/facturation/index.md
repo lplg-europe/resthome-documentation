@@ -51,6 +51,7 @@ clic : lignes de facturation, suppléments et factures brouillon.
 ## À suivre
 
 - [Facturer un mois, pas à pas](facturer-un-mois.md) — le guide complet du mois.
+- [Le forfait INAMI (dépendance)](forfait-inami.md) — Katz → catégorie → montant facturé.
 - [Les suppléments](supplements.md) — enveloppe de suppléments, ponctuels ou récurrents.
 - [Absences et hospitalisations](absences.md) — effet sur le forfait, règle des
   72 h, notification eHealth automatique.

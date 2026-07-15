@@ -72,5 +72,4 @@ Deze documentatie begeleidt u dagelijks, stap voor stap, met schermafbeeldingen.
 
 ---
 
-*Ontbreekt er iets of is iets onduidelijk? Neem contact op met de
-LPLG-support.*
+*Ontbreekt er iets of is iets onduidelijk? LPLG-klanten contacteren de support via hun [klantenportaal](https://www.lplg.eu/my).*

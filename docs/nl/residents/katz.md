@@ -62,6 +62,7 @@ voor (**Bijlage 10**): de opgegeven reden wordt automatisch overgenomen, en de
 
 ## Verder
 
+- [Het RIZIV-forfait (afhankelijkheid)](../facturation/forfait-inami.md) — van de categorie tot het gefactureerde bedrag.
 - [Een bewoner beheren](gerer-un-resident.md)
 - [Facturatie](../facturation/index.md)
 - [Akkoorden (eAgreement)](../ehealth/eagreement.md)

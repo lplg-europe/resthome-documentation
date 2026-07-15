@@ -53,6 +53,7 @@ factuurregels, supplementen en conceptfacturen.
 ## Verder
 
 - [Een maand factureren, stap voor stap](facturer-un-mois.md) — de volledige gids van de maand.
+- [Het RIZIV-forfait (afhankelijkheid)](forfait-inami.md) — Katz → categorie → gefactureerd bedrag.
 - [De supplementen](supplements.md) — supplementenenveloppe, eenmalig of terugkerend.
 - [Afwezigheden en hospitalisaties](absences.md) — effect op het forfait,
   72-uurregel, automatische eHealth-melding.

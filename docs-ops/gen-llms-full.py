@@ -27,6 +27,7 @@ ORDER = [
     "residents/katz.md",
     "residents/changement-chambre.md",
     "facturation/index.md",
+    "facturation/forfait-inami.md",
     "facturation/facturer-un-mois.md",
     "facturation/supplements.md",
     "facturation/absences.md",

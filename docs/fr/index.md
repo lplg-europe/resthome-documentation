@@ -72,4 +72,4 @@ captures d'écran.
 
 ---
 
-*Un point manque ou n'est pas clair ? Contactez le support LPLG.*
+*Un point manque ou n'est pas clair ? Les clients LPLG contactent le support depuis leur [espace client](https://www.lplg.eu/my).*
