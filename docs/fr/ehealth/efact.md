@@ -1,6 +1,6 @@
 ---
 title: Facturation électronique (eFact)
-description: "Le guide complet de l'eFact dans Resthome : générer une période, contrôler, facturer et envoyer les forfaits INAMI aux mutualités, pas à pas."
+description: "Le guide complet de l'eFact en maison de repos (MR/MRS) avec Resthome : générer, contrôler, facturer et envoyer les forfaits INAMI aux mutualités, pas à pas."
 howto_auto: true
 faq:
   - q: "Que signifie « deadline exceeded » sur une carte de période eFact ?"

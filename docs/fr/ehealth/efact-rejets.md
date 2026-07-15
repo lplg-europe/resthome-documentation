@@ -1,6 +1,6 @@
 ---
 title: Rejets eFact — causes et solutions
-description: "Pourquoi une facture eFact est rejetée par l'organisme assureur et comment la corriger dans Resthome : assurabilité, mutuelle, forfait, dates, doublon, puis renvoi."
+description: "Pourquoi une facture eFact de maison de repos est rejetée par la mutuelle et comment la corriger dans Resthome : assurabilité, forfait, dates, doublon, renvoi."
 faq:
   - q: "Pourquoi une facture eFact est-elle rejetée ?"
     a: "Le plus souvent : assurabilité (MDA) non valide, mauvaise mutuelle sur la fiche, forfait déclaré au-delà de la fin d'intervention INAMI, absence non clôturée, catégorie Katz manquante, NISS incorrect ou double envoi. Le code et le motif de rejet renvoyés par l'organisme assureur indiquent la cause."

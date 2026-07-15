@@ -1,6 +1,13 @@
 ---
 title: Assurabilité (MDA)
-description: Vérifier l'assurabilité d'un résident dans Resthome via MDA (MyCareNet/WalCareNet) — mutuelle, statut BIM, périodes de couverture, contrôle individuel ou par lot, statuts et gestion des erreurs.
+description: Vérifier l'assurabilité d'un résident de maison de repos via MDA (MyCareNet) dans Resthome — mutuelle, statut BIM, contrôle individuel ou par lot.
+faq:
+  - q: "Comment vérifier l'assurabilité (MDA) d'un résident ?"
+    a: "Depuis la fiche du résident ou une période de facturation, lancez Vérifier MDA. Resthome interroge MyCareNet/WalCareNet et confirme la couverture, en contrôle individuel (immédiat) ou par lot pour toute une période."
+  - q: "Que met à jour Resthome après un MDA réussi ?"
+    a: "La mutuelle (organisme assureur) réelle, le statut BIM, le numéro d'affiliation, l'identité si des champs manquaient, et la date de décès si l'organisme la signale."
+  - q: "Que faire si un résident n'est pas assuré ?"
+    a: "Ne le facturez pas en tiers payant pour la période, sinon la facture sera rejetée. Clarifiez la situation avec le résident ou sa mutuelle, et facturez la part au résident en attendant."
 ---
 
 # Assurabilité (MDA)

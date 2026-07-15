@@ -1,6 +1,13 @@
 ---
 title: Verzekerbaarheid (MDA)
-description: De verzekerbaarheid van een bewoner controleren in Resthome via MDA (MyCareNet/WalCareNet) — mutualiteit, BIM-status, dekkingsperiodes, individuele of bulkcontrole, statussen en foutbeheer.
+description: De verzekerbaarheid van een bewoner van een woonzorgcentrum controleren via MDA (MyCareNet) in Resthome — mutualiteit, BIM-status, individueel of per lot.
+faq:
+  - q: "Hoe controleer ik de verzekerbaarheid (MDA) van een bewoner?"
+    a: "Vanaf de bewonersfiche of een facturatieperiode start u MDA controleren. Resthome bevraagt MyCareNet/WalCareNet en bevestigt de dekking, individueel (onmiddellijk) of per lot voor een volledige periode."
+  - q: "Wat werkt Resthome bij na een geslaagde MDA?"
+    a: "Het reële ziekenfonds (verzekeringsinstelling), het BIM-statuut, het aansluitingsnummer, de identiteit als er velden ontbraken, en de overlijdensdatum als de instelling die meldt."
+  - q: "Wat te doen als een bewoner niet verzekerd is?"
+    a: "Factureer hem niet in derdebetaler voor de periode, anders wordt de factuur geweigerd. Klaar de situatie uit met de bewoner of zijn ziekenfonds, en factureer het aandeel ondertussen aan de bewoner."
 ---
 
 # Verzekerbaarheid (MDA)

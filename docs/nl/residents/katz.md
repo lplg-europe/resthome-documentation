@@ -1,6 +1,13 @@
 ---
 title: De Katz-evaluatie
-description: De Katz-schaal in Resthome — de 6 criteria scoren, de categorie (O, A, B, C, Cd) en het RIZIV-forfait bepalen, valideren, een verergering beheren.
+description: De Katz-schaal in een woonzorgcentrum met Resthome — de 6 criteria scoren, de categorie (O, A, B, C, Cd) en het RIZIV-afhankelijkheidsforfait bepalen.
+faq:
+  - q: "Hoe wordt de Katz-categorie van een bewoner bepaald?"
+    a: "Scoor de 6 afhankelijkheidscriteria (wassen, kleden, transfer, naar het toilet gaan, continentie, eten) van 1 tot 4; Resthome leidt daaruit de categorie af (O, A, B, C, Cd), die het RIZIV-forfait bepaalt."
+  - q: "Wat betekent categorie O?"
+    a: "Categorie O staat voor een zelfstandige bewoner: ze opent geen RIZIV-forfait. Zolang er geen Katz-evaluatie gevalideerd is, wordt de bewoner in O gefactureerd."
+  - q: "Hoe beheer ik een verergering van de afhankelijkheid?"
+    a: "Voer een nieuwe Katz-evaluatie in met een reden van verergering. Resthome bereidt Bijlage 10 voor (reden + handtekening van de clinicus); de nieuwe categorie wordt pas gefactureerd na akkoord van het ziekenfonds."
 ---
 
 # De Katz-evaluatie

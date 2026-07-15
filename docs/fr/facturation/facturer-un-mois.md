@@ -1,6 +1,13 @@
 ---
 title: Facturer un mois, pas à pas
-description: Le fil conducteur complet pour facturer un mois dans Resthome — de la période à l'envoi eFact à la mutuelle, étape par étape, où cliquer.
+description: Facturer un mois en maison de repos (MR/MRS) avec Resthome, pas à pas — de la période à l'envoi eFact des forfaits INAMI à la mutuelle, où cliquer.
+faq:
+  - q: "Comment facturer un mois dans Resthome ?"
+    a: "Ouvrez la période du mois, générez, contrôlez (MDA, Katz, anomalies), créez les factures (part résident et part mutuelle), comptabilisez, puis générez et envoyez l'eFact aux organismes assureurs."
+  - q: "Dans quel ordre facturer ?"
+    a: "Toujours : Générer → contrôler → Créer les factures → comptabiliser → Générer l'eFact → envoyer → suivre les réponses. Vérifiez l'assurabilité (MDA) avant de facturer."
+  - q: "Peut-on corriger après avoir facturé ?"
+    a: "Tant que l'eFact n'est pas envoyé, vous pouvez remettre la période en brouillon. Après envoi, corrigez via une note de crédit ou un lot correctif."
 ---
 
 # Facturer un mois, pas à pas

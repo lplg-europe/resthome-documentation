@@ -1,6 +1,6 @@
 ---
 title: Elektronische facturatie (eFact)
-description: "De volledige gids voor eFact in Resthome: een periode genereren, controleren, factureren en de RIZIV-forfaits naar de mutualiteiten versturen, stap voor stap."
+description: "De volledige gids voor eFact in een woonzorgcentrum (WZC/RVT) met Resthome: RIZIV-forfaits genereren, controleren, factureren en versturen naar de mutualiteiten."
 howto_auto: true
 faq:
   - q: "Wat betekent « deadline exceeded » op een eFact-periodekaart?"

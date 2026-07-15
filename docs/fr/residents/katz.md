@@ -1,6 +1,13 @@
 ---
 title: L'évaluation Katz
-description: L'échelle de Katz dans Resthome — coter les 6 critères, déterminer la catégorie (O, A, B, C, Cd) et le forfait INAMI, valider, gérer une aggravation.
+description: L'échelle de Katz en maison de repos avec Resthome — coter les 6 critères, déterminer la catégorie (O, A, B, C, Cd) et le forfait INAMI de dépendance.
+faq:
+  - q: "Comment calculer la catégorie Katz d'un résident ?"
+    a: "Cotez les 6 critères de dépendance (se laver, s'habiller, transfert, aller à la toilette, continence, manger) de 1 à 4 ; Resthome en déduit la catégorie (O, A, B, C, Cd), qui détermine le forfait INAMI."
+  - q: "Que signifie la catégorie O ?"
+    a: "La catégorie O correspond à un résident autonome : elle n'ouvre pas de forfait INAMI. Tant qu'aucune évaluation Katz n'est validée, le résident est facturé en O."
+  - q: "Comment gérer une aggravation de la dépendance ?"
+    a: "Saisissez une nouvelle évaluation Katz avec un motif d'aggravation. Resthome prépare l'Annexe 10 (motif + signature du clinicien) ; la nouvelle catégorie n'est facturée qu'une fois l'accord de la mutuelle obtenu."
 ---
 
 # L'évaluation Katz

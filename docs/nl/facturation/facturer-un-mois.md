@@ -1,6 +1,13 @@
 ---
 title: Een maand factureren, stap voor stap
-description: De volledige leidraad om een maand te factureren in Resthome — van de periode tot de eFact-verzending naar de mutualiteit, stap voor stap, waar klikken.
+description: Een maand factureren in een woonzorgcentrum (WZC) met Resthome, stap voor stap — van de periode tot de eFact-verzending van de RIZIV-forfaits naar de mutualiteit.
+faq:
+  - q: "Hoe factureer ik een maand in Resthome?"
+    a: "Open de periode van de maand, genereer, controleer (MDA, Katz, afwijkingen), maak de facturen aan (bewoners- en mutualiteitsaandeel), boek ze, en genereer en verstuur dan de eFact naar de verzekeringsinstellingen."
+  - q: "In welke volgorde moet ik factureren?"
+    a: "Altijd: Genereren → controleren → Facturen aanmaken → boeken → eFact genereren → versturen → antwoorden opvolgen. Controleer de verzekerbaarheid (MDA) vóór u factureert."
+  - q: "Kan ik corrigeren na het factureren?"
+    a: "Zolang de eFact niet verstuurd is, kunt u de periode terug naar concept zetten. Na verzending corrigeert u via een creditnota of een corrigerend lot."
 ---
 
 # Een maand factureren, stap voor stap

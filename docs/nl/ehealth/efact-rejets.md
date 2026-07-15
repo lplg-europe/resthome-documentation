@@ -1,6 +1,6 @@
 ---
 title: eFact-weigeringen — oorzaken en oplossingen
-description: "Waarom een eFact-factuur door de verzekeringsinstelling wordt geweigerd en hoe u ze in Resthome corrigeert: verzekerbaarheid, ziekenfonds, forfait, datums, dubbels, en heruitzending."
+description: "Waarom een eFact-factuur van een woonzorgcentrum wordt geweigerd en hoe u ze in Resthome corrigeert: verzekerbaarheid, forfait, datums, dubbels, heruitzending."
 faq:
   - q: "Waarom wordt een eFact-factuur geweigerd?"
     a: "Meestal: verzekerbaarheid (MDA) niet geldig, verkeerd ziekenfonds op de fiche, forfait gedeclareerd na het einde van de RIZIV-tussenkomst, niet-afgesloten afwezigheid, ontbrekende Katz-categorie, verkeerd INSZ of dubbele verzending. De code en de reden van weigering van de verzekeringsinstelling geven de oorzaak aan."
