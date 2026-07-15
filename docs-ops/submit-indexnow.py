@@ -15,8 +15,10 @@ Usage (après déploiement) :
 """
 import json
 import re
+import urllib.error
 import urllib.request
 
+UA = "Mozilla/5.0 (compatible; ResthomeIndexNow/1.0; +https://www.lplg.eu/)"
 HOST = "www.lplg.eu"
 KEY = "d9ca9e04132841a2a43b7bd734cd88e8"
 KEY_LOCATION = f"https://{HOST}/resthome/documentation/{KEY}.txt"
@@ -25,7 +27,8 @@ ENDPOINT = "https://api.indexnow.org/IndexNow"
 
 
 def get_urls() -> list[str]:
-    with urllib.request.urlopen(SITEMAP, timeout=30) as r:
+    req = urllib.request.Request(SITEMAP, headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=30) as r:
         xml = r.read().decode("utf-8")
     return re.findall(r"<loc>([^<]+)</loc>", xml)
 
@@ -39,7 +42,8 @@ def submit(urls: list[str]) -> None:
     }).encode("utf-8")
     req = urllib.request.Request(
         ENDPOINT, data=payload,
-        headers={"Content-Type": "application/json; charset=utf-8"},
+        headers={"Content-Type": "application/json; charset=utf-8",
+                 "User-Agent": UA},
     )
     try:
         with urllib.request.urlopen(req, timeout=30) as resp:

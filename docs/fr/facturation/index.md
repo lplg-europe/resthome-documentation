@@ -44,16 +44,21 @@ clic : lignes de facturation, suppléments et factures brouillon.
 5. **Comptabiliser** les factures.
 6. **Générer l'eFact** (part mutuelle) puis l'envoyer.
 
-*Le détail de chaque étape sera documenté dans les pages à venir de cette
-section.*
+!!! tip "Pas à pas"
+    Suivez le guide détaillé [Facturer un mois, pas à pas](facturer-un-mois.md), ou
+    visualisez l'ensemble du [parcours de facturation](../parcours-facturation.md).
 
 ## À suivre
 
+- [Facturer un mois, pas à pas](facturer-un-mois.md) — le guide complet du mois.
+- [Les suppléments](supplements.md) — enveloppe de suppléments, ponctuels ou récurrents.
 - [Absences et hospitalisations](absences.md) — effet sur le forfait, règle des
   72 h, notification eHealth automatique.
 - [Départ et décès](depart-deces.md) — arrêt de la facturation, note de crédit de
   l'hébergement prépayé.
+- [Débiteurs alimentaires](split-billing.md) — répartir la part résident entre débiteurs.
 - [Accords (eAgreement)](../ehealth/eagreement.md) — notifier la mutuelle
   (admission, absence, retour, sortie).
 - [eHealth](../ehealth/index.md) — envoi de la part mutuelle (eFact) et accords.
 - [Gérer un résident](../residents/gerer-un-resident.md)
+- [Le parcours de facturation](../parcours-facturation.md) · [FAQ](../faq.md) · [Glossaire](../glossaire.md)

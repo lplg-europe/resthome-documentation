@@ -46,17 +46,22 @@ factuurregels, supplementen en conceptfacturen.
 5. De facturen **boeken**.
 6. De **eFact genereren** (mutualiteitsaandeel) en versturen.
 
-*Het detail van elke stap wordt gedocumenteerd in de komende pagina's van deze
-sectie.*
+!!! tip "Stap voor stap"
+    Volg de gedetailleerde gids [Een maand factureren, stap voor stap](facturer-un-mois.md),
+    of bekijk het volledige [facturatietraject](../parcours-facturation.md).
 
 ## Verder
 
+- [Een maand factureren, stap voor stap](facturer-un-mois.md) — de volledige gids van de maand.
+- [De supplementen](supplements.md) — supplementenenveloppe, eenmalig of terugkerend.
 - [Afwezigheden en hospitalisaties](absences.md) — effect op het forfait,
   72-uurregel, automatische eHealth-melding.
 - [Vertrek en overlijden](depart-deces.md) — stop van de facturatie, creditnota
   van het vooraf gefactureerde verblijf.
+- [Onderhoudsplichtigen](split-billing.md) — het bewonersaandeel over debiteuren verdelen.
 - [Akkoorden (eAgreement)](../ehealth/eagreement.md) — de mutualiteit verwittigen
   (opname, afwezigheid, terugkeer, vertrek).
 - [eHealth](../ehealth/index.md) — versturen van het mutualiteitsaandeel (eFact)
   en akkoorden.
 - [Een bewoner beheren](../residents/gerer-un-resident.md)
+- [Het facturatietraject](../parcours-facturation.md) · [FAQ](../faq.md) · [Woordenlijst](../glossaire.md)

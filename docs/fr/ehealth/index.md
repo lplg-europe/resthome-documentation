@@ -19,12 +19,16 @@ WalCareNet) pour échanger directement avec les mutuelles.
     Vérifie qu'un résident est **assuré** et récupère sa mutuelle et son statut
     BIM, individuellement ou par lot.
 
+    [:octicons-arrow-right-24: L'assurabilité en détail](mda.md)
+
 -   :material-send:{ .lg .middle } **eFact — Facturation électronique**
 
     ---
 
     Envoie la **part mutuelle** (message 920000) aux organismes assureurs et
     suit les accusés et décomptes.
+
+    [:octicons-arrow-right-24: La facturation eFact en détail](efact.md)
 
 -   :material-file-sign:{ .lg .middle } **eAgreement — Accords**
 
@@ -58,5 +62,7 @@ WalCareNet) pour échanger directement avec les mutuelles.
 
 - [Accords (eAgreement)](eagreement.md) — admission, absence, retour, sortie
   (Annexes 7, 10, 11).
+- [Le parcours de facturation](../parcours-facturation.md) — de l'admission au paiement.
 - [Absences et hospitalisations](../facturation/absences.md)
 - [Facturation](../facturation/index.md)
+- [FAQ](../faq.md) · [Glossaire](../glossaire.md)

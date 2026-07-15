@@ -19,12 +19,16 @@ MyCareNet, WalCareNet) om rechtstreeks met de mutualiteiten uit te wisselen.
     Controleert of een bewoner **verzekerd** is en haalt zijn mutualiteit en
     BIM-status op, individueel of in batch.
 
+    [:octicons-arrow-right-24: De verzekerbaarheid in detail](mda.md)
+
 -   :material-send:{ .lg .middle } **eFact — Elektronische facturatie**
 
     ---
 
     Verstuurt het **mutualiteitsaandeel** (bericht 920000) naar de
     verzekeringsinstellingen en volgt de ontvangstbewijzen en afrekeningen op.
+
+    [:octicons-arrow-right-24: De eFact-facturatie in detail](efact.md)
 
 -   :material-file-sign:{ .lg .middle } **eAgreement — Akkoorden**
 
@@ -58,5 +62,7 @@ MyCareNet, WalCareNet) om rechtstreeks met de mutualiteiten uit te wisselen.
 
 - [Akkoorden (eAgreement)](eagreement.md) — opname, afwezigheid, terugkeer,
   vertrek (Bijlagen 7, 10, 11).
+- [Het facturatietraject](../parcours-facturation.md) — van opname tot betaling.
 - [Afwezigheden en hospitalisaties](../facturation/absences.md)
 - [Facturatie](../facturation/index.md)
+- [FAQ](../faq.md) · [Woordenlijst](../glossaire.md)
