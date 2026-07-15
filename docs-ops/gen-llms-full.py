@@ -22,6 +22,7 @@ BASE = "https://www.lplg.eu/resthome/documentation/"
 ORDER = [
     "index.md",
     "premiers-pas.md",
+    "parcours-facturation.md",
     "residents/gerer-un-resident.md",
     "residents/katz.md",
     "residents/changement-chambre.md",
@@ -43,6 +44,8 @@ ORDER = [
     "repas/menus-regimes.md",
     "repas/portail-familles.md",
     "configuration/index.md",
+    "faq.md",
+    "glossaire.md",
 ]
 
 FRONTMATTER = re.compile(r"^---\n.*?\n---\n", re.S)

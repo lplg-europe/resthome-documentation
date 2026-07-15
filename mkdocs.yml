@@ -93,6 +93,7 @@ plugins:
           nav_translations:
             Accueil: Home
             Premiers pas: Aan de slag
+            Le parcours de facturation: Het facturatietraject
             Résidents: Bewoners
             Gérer un résident: Een bewoner beheren
             L'évaluation Katz: De Katz-evaluatie
@@ -116,6 +117,7 @@ plugins:
             Menus, régimes et hydratation: Menu's, diëten en hydratatie
             Portail familles et kiosque: Familieportaal en kiosk
             Configuration: Configuratie
+            Glossaire: Woordenlijst
             Site LPLG: LPLG-website
 
 markdown_extensions:
@@ -148,6 +150,7 @@ markdown_extensions:
 nav:
   - Accueil: index.md
   - Premiers pas: premiers-pas.md
+  - Le parcours de facturation: parcours-facturation.md
   - Résidents:
       - Gérer un résident: residents/gerer-un-resident.md
       - L'évaluation Katz: residents/katz.md
@@ -174,4 +177,6 @@ nav:
       - Menus, régimes et hydratation: repas/menus-regimes.md
       - Portail familles et kiosque: repas/portail-familles.md
   - Configuration: configuration/index.md
+  - FAQ: faq.md
+  - Glossaire: glossaire.md
   - Site LPLG: https://www.lplg.eu/

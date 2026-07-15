@@ -93,6 +93,90 @@
   </script>
   {%- endif -%}
 
+  {#- ---- FAQPage (front-matter `faq:` — liste de {q, a}) ---- -#}
+  {%- set faq_items = page.meta.get("faq", []) if page.meta else [] -%}
+  {%- if faq_items and faq_items is not string and faq_items | length > 0 -%}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "url": {{ page_url | tojson }},
+    "inLanguage": {{ page_lang | tojson }},
+    "mainEntity": [
+      {%- for item in faq_items -%}
+      {%- set q = (item.q | default("", true)) | string | striptags | trim -%}
+      {%- set a = (item.a | default("", true)) | string | trim -%}
+      {%- if q and a -%}
+      {{- "," if not loop.first -}}
+      {
+        "@type": "Question",
+        "name": {{ q | tojson }},
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": {{ a | tojson }}
+        }
+      }
+      {%- endif -%}
+      {%- endfor %}
+    ]
+  }
+  </script>
+  {%- endif -%}
+
+  {#- ---- HowTo (front-matter `howto:` OU auto via titres numérotés `howto_auto: true`) ---- -#}
+  {%- set ht = page.meta.get("howto") if page.meta else none -%}
+  {%- set ht_auto = (page.meta.get("howto_auto", false)) if page.meta else false -%}
+  {%- set steps = [] -%}
+  {%- if ht and ht.steps -%}
+    {%- for s in ht.steps -%}
+      {%- set nm = (s.name | default("", true)) | string | striptags | trim -%}
+      {%- if nm -%}
+        {%- set _ = steps.append({
+          "name": nm,
+          "text": (s.text | default(nm, true)) | string | trim,
+          "url":  (page_url ~ "#" ~ s.anchor) if s.anchor else page_url
+        }) -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- elif ht_auto -%}
+    {%- for h1 in page.toc -%}
+      {%- for h in [h1] + h1.children -%}
+        {%- set t = (h.title | default("", true)) | string | striptags | trim -%}
+        {%- if t and t[0].isdigit() -%}
+          {%- set _ = steps.append({
+            "name": t,
+            "text": t,
+            "url":  page_url ~ "#" ~ h.id
+          }) -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endfor -%}
+  {%- endif -%}
+  {%- if steps | length > 0 -%}
+  {%- set ht_name = (ht.name if (ht and ht.name) else page_title) | default(page_title, true) -%}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": {{ ht_name | string | striptags | trim | tojson }},
+    "description": {{ page_desc | tojson }},
+    "inLanguage": {{ page_lang | tojson }},
+    "step": [
+      {%- for s in steps -%}
+      {{- "," if not loop.first -}}
+      {
+        "@type": "HowToStep",
+        "position": {{ loop.index }},
+        "name": {{ s.name | tojson }},
+        "text": {{ (s.text if s.text else s.name) | tojson }},
+        "url": {{ s.url | tojson }}
+      }
+      {%- endfor %}
+    ]
+  }
+  </script>
+  {%- endif -%}
+
   {#- ---- SoftwareApplication + Organization (accueil uniquement) ---- -#}
   {%- if page.is_homepage -%}
   <script type="application/ld+json">
@@ -100,6 +184,7 @@
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
     "name": "Resthome",
+    "alternateName": "Resthome Suite",
     "applicationCategory": "BusinessApplication",
     "applicationSubCategory": "Logiciel de gestion pour maisons de repos (MR/MRS) en Belgique",
     "operatingSystem": "Web",
@@ -124,7 +209,15 @@
       "@type": "Organization",
       "name": "LPLG",
       "url": "https://www.lplg.eu/",
-      "logo": "https://www.lplg.eu/resthome/documentation/assets/logo.svg"
+      "logo": "https://www.lplg.eu/resthome/documentation/assets/logo.svg",
+      "sameAs": [
+        "https://www.lplg.eu/resthome",
+        "https://www.linkedin.com/company/lplg-europe/",
+        "https://x.com/LPLGEurope",
+        "https://www.facebook.com/profile.php?id=61583440537827",
+        "https://www.instagram.com/lplg.official/",
+        "https://github.com/lplg-europe"
+      ]
     }
   }
   </script>

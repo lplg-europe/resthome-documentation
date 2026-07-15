@@ -1,6 +1,14 @@
 ---
 title: Elektronische facturatie (eFact)
-description: De volledige gids voor eFact in Resthome — van het dashboard met periodes tot het versturen van de RIZIV-forfaits naar de mutualiteiten, de opvolging van ontvangstbewijzen, weigeringen en creditnota's, stap voor stap.
+description: "De volledige gids voor eFact in Resthome: een periode genereren, controleren, factureren en de RIZIV-forfaits naar de mutualiteiten versturen, stap voor stap."
+howto_auto: true
+faq:
+  - q: "Wat betekent « deadline exceeded » op een eFact-periodekaart?"
+    a: "De uiterste verzenddatum van deze periode is overschreden. Verzend het lot zonder uitstel: daarna kunnen sommige verzekeringsinstellingen het weigeren."
+  - q: "Eén eFact-lot per mutualiteit of per unie?"
+    a: "Eén lot per unie van mutualiteiten (100 Landsbond der Christelijke Mutualiteiten, 300 Solidaris, 500 Onafhankelijke Ziekenfondsen, 600 HZIV, 900 HR Rail…), niet per kleine afzonderlijke mutualiteit. Resthome zorgt automatisch voor de groepering."
+  - q: "Hoe corrigeer ik een geweigerd eFact-lot?"
+    a: "De code en de reden van weigering geven de oorzaak aan (verzekerbaarheid, forfait, datums). Corrigeer die en verzend opnieuw; de teller Heruitzendingen vermijdt dubbels en de knop Herintegratie laat toe om lijnen in een nieuwe verzending te herintegreren."
 ---
 
 # Elektronische facturatie (eFact)

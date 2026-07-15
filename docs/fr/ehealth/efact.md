@@ -1,6 +1,14 @@
 ---
 title: Facturation électronique (eFact)
-description: Le guide complet de l'eFact dans Resthome — du tableau de bord des périodes à l'envoi des forfaits INAMI aux mutualités, le suivi des accusés, des rejets et des notes de crédit, pas à pas.
+description: "Le guide complet de l'eFact dans Resthome : générer une période, contrôler, facturer et envoyer les forfaits INAMI aux mutualités, pas à pas."
+howto_auto: true
+faq:
+  - q: "Que signifie « deadline exceeded » sur une carte de période eFact ?"
+    a: "La date limite d'envoi de cette période est dépassée. Envoyez le lot sans tarder : au-delà, certains organismes assureurs peuvent le refuser."
+  - q: "Un lot eFact par mutualité ou par union ?"
+    a: "Un lot par union de mutualités (100 Alliance nationale, 300 Solidaris, 500 Union nationale, 600 CAAMI, 900 HR Rail…), pas par petite mutualité individuelle. Resthome fait le regroupement automatiquement."
+  - q: "Comment corriger un lot eFact rejeté ?"
+    a: "Le code et le motif de rejet indiquent la cause (assurabilité, forfait, dates). Corrigez-la puis renvoyez ; le compteur Renvois évite les doublons et le bouton Réintégration permet de réintégrer des lignes dans un nouvel envoi."
 ---
 
 # Facturation électronique (eFact)
