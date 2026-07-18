@@ -13,7 +13,7 @@ RIZIV-facturatie bepaalt.
 
 ```mermaid
 graph LR
-  A[Bewoner aanmaken] --> B[Verblijfsovereenkomst]
+  A[Bewoner aanmaken] --> B[Overeenkomst]
   B --> C[Verblijf bevestigen]
   C --> D[Verblijf starten]
   D --> E[Katz-evaluatie]
@@ -44,7 +44,7 @@ graph LR
 
 Het **verblijf** koppelt de bewoner aan een kamer en start de facturatie.
 
-1. Open op de fiche van de bewoner het tabblad **Verblijfsovereenkomst**.
+1. Open op de fiche van de bewoner het tabblad **Overeenkomst**.
 2. Klik op **Regel toevoegen**.
 3. Kies de **kamer** (enkel beschikbare kamers worden voorgesteld).
 4. Geef het **verblijfstype** (ROB of RVT) en de **startdatum verblijf** op.

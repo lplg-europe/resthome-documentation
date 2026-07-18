@@ -3,7 +3,7 @@ title: Le mobilier privé du résident
 description: "Inventorier le mobilier privé qu'un résident apporte en maison de repos (MR/MRS) avec Resthome : ajouter, réordonner et archiver les meubles sur sa fiche."
 faq:
   - q: "Où enregistrer les meubles qu'un résident apporte en maison de repos ?"
-    a: "Sur la fiche du résident, onglet Convention de séjour, section Mobilier résident. Vous y tenez la liste des meubles et objets personnels apportés, avec une description, un commentaire et une date."
+    a: "Sur la fiche du résident, onglet Convention, section Mobilier résident. Vous y tenez la liste des meubles et objets personnels apportés, avec une description, un commentaire et une date."
   - q: "L'inventaire du mobilier suit-il le résident lors d'un changement de chambre ?"
     a: "Oui. La liste est rattachée au résident, pas à la chambre ni au séjour. Lors d'un changement de chambre ou d'un transfert MR/MRS, l'inventaire reste inchangé et suit le résident."
   - q: "Comment enregistrer qu'un meuble a été repris par la famille ?"
@@ -32,12 +32,12 @@ séjour**, dans la section **Mobilier résident**.
 ## Où trouver l'inventaire
 
 1. Ouvrez la fiche du résident (application **MR/MRS → Résidents**).
-2. Allez dans l'onglet **Convention de séjour**.
+2. Allez dans l'onglet **Convention**.
 3. Descendez jusqu'à la section **Mobilier résident**.
 
 La section se présente comme un tableau : une ligne par meuble ou objet.
 
-<!-- capture a ajouter : onglet Convention de séjour de la fiche résident, section « Mobilier résident » avec quelques lignes -->
+<!-- capture a ajouter : onglet Convention de la fiche résident, section « Mobilier résident » avec quelques lignes -->
 
 ## Ajouter un meuble
 

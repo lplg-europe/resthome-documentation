@@ -107,6 +107,20 @@ plugins:
             "L'état des lieux (entrée et sortie)": De plaatsbeschrijving (intrede en uittrede)
             Le mobilier privé du résident: Het privémeubilair van de bewoner
             Suivi des paiements et décomptes: Betalingen en afrekeningen opvolgen
+            Les évaluations gériatriques (hors Katz): De geriatrische evaluaties (naast Katz)
+            "Les chambres et l'occupation": De kamers en de bezetting
+            "La procédure d'emménagement": De intrekprocedure
+            "L'application Suppléments": De app Supplementen
+            La note de frais (Annexe 12): De kostennota (Bijlage 12)
+            La prise en charge CPAS: De OCMW-tussenkomst
+            Praticien responsable et signature des annexes: Verantwoordelijke zorgverlener en ondertekening van de bijlagen
+            Le dossier médical du résident: Het medisch dossier van de bewoner
+            La base de médicaments SAM: De SAM-geneesmiddelendatabank
+            La tournée de distribution des repas: De maaltijdverdeelronde
+            Le suivi nutritionnel et la dénutrition: Nutritionele opvolging en ondervoeding
+            Documents: Documenten
+            Les documents du résident: De documenten van de bewoner
+            "La centralisation automatique des pièces jointes": De automatische centralisatie van bijlagen
             Facturation: Facturatie
             "Vue d'ensemble": Overzicht
             Le forfait INAMI (dépendance): Het RIZIV-forfait (afhankelijkheid)
@@ -180,16 +194,22 @@ nav:
       - Les admissions (pipeline CRM): residents/admissions.md
       - Gérer un résident: residents/gerer-un-resident.md
       - L'évaluation Katz: residents/katz.md
+      - Les évaluations gériatriques (hors Katz): residents/evaluations.md
       - Changement de chambre et transfert: residents/changement-chambre.md
+      - Les chambres et l'occupation: residents/chambres.md
       - L'état des lieux (entrée et sortie): residents/etat-des-lieux.md
+      - La procédure d'emménagement: residents/procedure-emmenagement.md
       - Le mobilier privé du résident: residents/mobilier.md
   - Facturation:
       - Vue d'ensemble: facturation/index.md
       - Le forfait INAMI (dépendance): facturation/forfait-inami.md
       - Facturer un mois, pas à pas: facturation/facturer-un-mois.md
       - Les suppléments: facturation/supplements.md
+      - L'application Suppléments: facturation/application-supplements.md
       - Absences et hospitalisations: facturation/absences.md
       - Départ et décès: facturation/depart-deces.md
+      - La note de frais (Annexe 12): facturation/note-de-frais-annexe12.md
+      - La prise en charge CPAS: facturation/cpas.md
       - Débiteurs alimentaires: facturation/split-billing.md
   - eHealth:
       - Vue d'ensemble: ehealth/index.md
@@ -200,15 +220,23 @@ nav:
       - Suivi des paiements et décomptes: ehealth/efact-paiements.md
       - Accords (eAgreement): ehealth/eagreement.md
       - Accord refusé (eAgreement): ehealth/eagreement-refus.md
+      - Praticien responsable et signature des annexes: ehealth/eagreement-signature.md
   - Soins:
       - Vue d'ensemble: soins/index.md
+      - Le dossier médical du résident: soins/dossier-medical.md
       - Prescriptions et médicaments: soins/prescriptions.md
+      - La base de médicaments SAM: soins/sam-base-medicaments.md
       - Plans de soins et signes vitaux: soins/plans-de-soins.md
       - Registres cliniques: soins/registres.md
   - Repas:
       - Vue d'ensemble: repas/index.md
       - Menus, régimes et hydratation: repas/menus-regimes.md
+      - La tournée de distribution des repas: repas/distribution.md
+      - Le suivi nutritionnel et la dénutrition: repas/suivi-nutritionnel.md
       - Portail familles et kiosque: repas/portail-familles.md
+  - Documents:
+      - Les documents du résident: documents/index.md
+      - La centralisation automatique des pièces jointes: documents/centralisation.md
   - Configuration:
       - Vue d'ensemble: configuration/index.md
       - Réglages généraux (résidents, chambres): configuration/reglages-generaux.md

@@ -13,7 +13,7 @@ conditionne la facturation INAMI.
 
 ```mermaid
 graph LR
-  A[Créer le résident] --> B[Convention de séjour]
+  A[Créer le résident] --> B[Convention]
   B --> C[Confirmer le séjour]
   C --> D[Démarrer le séjour]
   D --> E[Évaluation Katz]
@@ -44,7 +44,7 @@ graph LR
 
 Le **séjour** relie le résident à une chambre et déclenche la facturation.
 
-1. Sur la fiche du résident, ouvrez l'onglet **Convention de séjour**.
+1. Sur la fiche du résident, ouvrez l'onglet **Convention**.
 2. Cliquez sur **Ajouter une ligne**.
 3. Choisissez la **chambre** (seules les chambres disponibles sont proposées).
 4. Indiquez le **type de séjour** (MR ou MRS) et la **date de début de séjour**.

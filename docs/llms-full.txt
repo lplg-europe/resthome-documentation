@@ -363,7 +363,7 @@ conditionne la facturation INAMI.
 
 ```mermaid
 graph LR
-  A[Créer le résident] --> B[Convention de séjour]
+  A[Créer le résident] --> B[Convention]
   B --> C[Confirmer le séjour]
   C --> D[Démarrer le séjour]
   D --> E[Évaluation Katz]
@@ -394,7 +394,7 @@ graph LR
 
 Le **séjour** relie le résident à une chambre et déclenche la facturation.
 
-1. Sur la fiche du résident, ouvrez l'onglet **Convention de séjour**.
+1. Sur la fiche du résident, ouvrez l'onglet **Convention**.
 2. Cliquez sur **Ajouter une ligne**.
 3. Choisissez la **chambre** (seules les chambres disponibles sont proposées).
 4. Indiquez le **type de séjour** (MR ou MRS) et la **date de début de séjour**.
@@ -537,6 +537,203 @@ Si l'état du résident se dégrade, saisissez une **nouvelle évaluation** avec
 
 ---
 
+Source : https://www.lplg.eu/resthome/documentation/residents/evaluations/
+
+# Les évaluations gériatriques (hors Katz)
+
+Au-delà de l'[échelle de Katz](katz.md), Resthome regroupe les principales
+**échelles gériatriques** utilisées en maison de repos (MR/MRS) pour objectiver la
+cognition, le risque d'escarre, l'état nutritionnel, la santé bucco-dentaire et le
+risque de chute. Vous les retrouvez à deux endroits :
+
+- sur la **fiche du résident**, onglet **« Evaluation Tools »**, où chaque échelle
+  affiche l'historique du résident et permet une saisie directe ;
+- via le menu **Healthcare > Evaluation Tools**, qui liste toutes les évaluations de
+  l'établissement, échelle par échelle.
+
+## Les échelles disponibles
+
+| Échelle | Ce qu'elle mesure | Score | Sens |
+|---|---|---|---|
+| **MMSE** | Fonctions cognitives | /30 | Plus haut = meilleur |
+| **Braden** | Risque d'escarre | /23 | Plus bas = plus à risque |
+| **MNA** | État nutritionnel | /14 | Plus bas = plus à risque |
+| **OHAT** | Santé bucco-dentaire | /16 | Plus haut = plus à risque |
+| **Tinetti** | Équilibre et marche (chute) | /28 | Plus bas = plus à risque |
+
+!!! info "La catégorie Katz reste à part"
+    L'échelle de Katz détermine la **catégorie de dépendance** et le **forfait** ; elle
+    a sa propre page et son propre cycle de renouvellement. Voir [L'évaluation
+    Katz](katz.md).
+
+## MMSE — fonctions cognitives
+
+Le **MMSE** (Mini Mental State Examination) est un test de dépistage cognitif standard
+sur **30 points**. Vous cochez chaque item réussi, réparti en 7 domaines :
+
+| Domaine | Points |
+|---|---|
+| Orientation dans le temps | 5 |
+| Orientation dans l'espace | 5 |
+| Apprentissage (3 mots) | 3 |
+| Attention et calcul | 5 |
+| Rappel (3 mots) | 3 |
+| Langage | 8 |
+| Praxie visuo-constructive | 1 |
+
+Resthome additionne les items cochés et affiche l'interprétation :
+
+| Score | Interprétation |
+|---|---|
+| 27-30 | Normal |
+| 21-26 | Trouble cognitif léger |
+| 11-20 | Trouble cognitif modéré |
+| 0-10 | Trouble cognitif sévère |
+
+## Braden — risque d'escarre
+
+L'échelle de **Braden** prédit le **risque d'escarre**. Vous cotez **6 sous-échelles**
+(boutons radio) :
+
+- Perception sensorielle (1-4)
+- Humidité de la peau (1-4)
+- Activité (1-4)
+- Mobilité (1-4)
+- Nutrition (1-4)
+- Friction et cisaillement (1-3)
+
+Le total va de 6 à 23. **Attention : plus le score est bas, plus le risque est élevé.**
+
+| Score | Niveau de risque |
+|---|---|
+| 19-23 | Aucun risque |
+| 15-18 | Risque léger |
+| 13-14 | Risque modéré |
+| 10-12 | Risque élevé |
+| 9 ou moins | Risque très élevé |
+
+## MNA — état nutritionnel
+
+Le **MNA** (Mini Nutritional Assessment, forme courte) dépiste le **risque de
+dénutrition** sur **14 points**, à partir de 6 questions :
+
+- Diminution des prises alimentaires sur 3 mois (0-2)
+- Perte de poids récente (0-3)
+- Motricité (0-2)
+- Maladie aiguë / stress psychologique (0 ou 2)
+- Problèmes neuropsychologiques (0-2)
+- Indice de masse corporelle — IMC (0-3)
+
+| Score | Statut nutritionnel |
+|---|---|
+| 12-14 | Normal |
+| 8-11 | Risque de dénutrition |
+| 0-7 | Dénutrition |
+
+!!! tip "Suivi nutritionnel"
+    Le suivi de la dénutrition (rappels de re-cotation MNA, apports vs besoins,
+    hydratation) s'appuie sur les registres cliniques et le module de soins. Voir [Les
+    registres cliniques](../soins/registres.md).
+
+## OHAT — santé bucco-dentaire
+
+L'**OHAT** (Oral Health Assessment Tool) évalue la **santé bucco-dentaire** en
+**8 catégories**, cotées de 0 (sain) à 2 (à traiter) : lèvres, langue, gencives et
+tissus, salive, dents naturelles, prothèses, propreté buccale et douleur dentaire.
+
+Le total va de 0 à 16. **Ici, plus le score est haut, plus la situation est
+préoccupante.**
+
+| Score | État bucco-dentaire |
+|---|---|
+| 0-3 | Sain |
+| 4-8 | Changements nécessaires (orienter vers un professionnel dentaire) |
+| 9-16 | Non sain (orientation urgente) |
+
+!!! note "Options « N/A »"
+    Les catégories **Dents naturelles** et **Prothèses** disposent d'une option **N/A**
+    (non applicable) : elle est exclue du calcul du score total.
+
+## Tinetti — équilibre, marche et risque de chute
+
+L'échelle de **Tinetti** (POMA) évalue l'**équilibre** et la **marche** pour estimer le
+**risque de chute** :
+
+- Section Équilibre : 9 items, /16
+- Section Marche : /12
+- Total : /28
+
+Resthome calcule les deux sous-scores et le total.
+
+| Score | Risque de chute |
+|---|---|
+| 25-28 | Risque faible |
+| 19-24 | Risque modéré |
+| Moins de 19 | Risque élevé |
+
+!!! note "Tinetti, Morse et registre des chutes"
+    L'onglet « Evaluation Tools » propose **Tinetti**. Pour l'échelle de **Morse** et le
+    **registre des chutes** (incidents, mesures préventives, ré-évaluations), utilisez
+    les [registres cliniques](../soins/registres.md).
+
+## Saisir et valider une évaluation
+
+Toutes les échelles suivent le même circuit :
+
+1. Ouvrez l'échelle : depuis l'onglet **« Evaluation Tools »** du résident, ou via
+   **Healthcare > Evaluation Tools**.
+2. **Nouveau** : le résident, la **date** (aujourd'hui par défaut) et l'**évaluateur**
+   (vous) sont pré-remplis. Cotez les items.
+3. **Confirmer** : l'évaluation passe de **Brouillon** à **Confirmé**.
+4. **Valider** : l'infirmier-chef ou le médecin valide ; l'évaluation passe à
+   **Validé**, avec le validateur et la date de validation enregistrés.
+
+La barre d'état suit ces étapes : **Brouillon → Confirmé → Validé** (plus **Annulé**).
+Les boutons disponibles sont **Confirmer**, **Valider**, **Annuler** et **Remettre en
+brouillon**.
+
+!!! warning "Verrouillage et conservation"
+    Une évaluation **validée** est **verrouillée** : ses cotations ne sont plus
+    modifiables. Pour corriger, cliquez sur **Remettre en brouillon** (réservé à
+    l'infirmier-chef). Les évaluations validées **ne peuvent pas être supprimées** : les
+    données de santé doivent être conservées (RGPD + INAMI).
+
+!!! note "Une évaluation par jour"
+    Il ne peut exister qu'**une seule évaluation par résident, par date et par échelle**.
+    La date ne peut pas être dans le futur, et aucune évaluation ne peut être créée pour
+    un résident décédé.
+
+## Suivi et ré-évaluation
+
+- L'onglet « Evaluation Tools » conserve l'**historique daté** de chaque échelle : pour
+  ré-évaluer, saisissez une **nouvelle évaluation** à une nouvelle date.
+- L'échelle de **Katz** a son propre **cycle de renouvellement** (échéance de validité,
+  rappels). Voir [L'évaluation Katz](katz.md).
+- Pour un **cycle de ré-évaluation périodique** structuré (échéance calculée, décision
+  maintenir / modifier / arrêter, journal de suivi), utilisez les [registres
+  cliniques](../soins/registres.md).
+
+## Points clés à retenir
+
+- Cinq échelles hors Katz : MMSE, Braden, MNA, OHAT et Tinetti, sur l'onglet
+  « Evaluation Tools » du résident.
+- Sens des scores : MMSE et Tinetti, score **haut** = situation favorable ; Braden et
+  MNA, score **bas** = plus à risque ; OHAT, score **haut** = plus à risque.
+- Circuit commun : **Brouillon → Confirmé → Validé** ; la validation est réservée à
+  l'infirmier-chef ou au médecin.
+- Validé = **verrouillé et conservé** ; repassez en brouillon pour corriger.
+- Une évaluation par résident, par date et par échelle.
+
+## Pour aller plus loin
+
+- [L'évaluation Katz](katz.md) — catégorie de dépendance et forfait.
+- [Les registres cliniques](../soins/registres.md) — chutes (Morse), contention, douleur, plaies, ré-évaluations périodiques.
+- [Les plans de soins](../soins/plans-de-soins.md)
+- [Gérer un résident](gerer-un-resident.md)
+
+
+---
+
 Source : https://www.lplg.eu/resthome/documentation/residents/changement-chambre/
 
 # Changement de chambre et transfert
@@ -582,6 +779,199 @@ correspondante.
 
 - [Gérer un résident](gerer-un-resident.md)
 - [Vue d'ensemble de la facturation](../facturation/index.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/residents/chambres/
+
+# Les chambres et l'occupation
+
+L'espace **Chambres** vous donne une vue en temps réel de l'**occupation** de
+l'établissement : quelles chambres sont libres, occupées, réservées ou en travaux,
+combien de lits restent disponibles, et à quel tarif. Depuis une chambre, vous
+pouvez aussi **assigner directement un résident**, ce qui ouvre son séjour.
+
+Vous le trouvez dans l'application **MR/MRS → Hébergement → Chambres**.
+
+## Le tableau d'occupation
+
+À l'ouverture, les chambres s'affichent en **kanban**, regroupées par **statut** :
+une colonne **Disponible**, une colonne **Occupée**, une colonne **En maintenance**
+et une colonne **Réservée**. D'un coup d'œil, vous voyez où il reste de la place.
+
+Chaque carte de chambre indique :
+
+- le **numéro** de la chambre ;
+- un **badge d'occupation** « occupées / capacité » (par exemple 1/1 ou 1/2),
+  coloré selon le statut — vert (Disponible), bleu (Occupée), orange (Maintenance),
+  cyan (Réservée) ;
+- le **type de chambre** ;
+- le ou les **résidents présents**, le cas échéant ;
+- le **tarif journalier** de l'hébergement.
+
+!!! note "Le badge occupation / capacité"
+    Une chambre de capacité 2 dont un seul lit est pris s'affiche **1/2** et reste
+    **Disponible** : il y a encore une place. Elle ne bascule en **Occupée** que
+    lorsque **tous** les lits sont pris. Une chambre individuelle (capacité 1)
+    passe donc directement de Disponible à Occupée dès le premier résident.
+
+En haut à droite, vous pouvez basculer du **kanban** vers la **liste** (numéro,
+étage, type, capacité, occupation, tarif, équipements, statut) ou la **fiche**.
+
+### Filtrer et regrouper
+
+La barre de recherche propose des **filtres** rapides : **Disponible**,
+**Occupée**, **Maintenance**, **Réservée**, ainsi que **Active (hors maintenance)**.
+Vous pouvez aussi **regrouper** les chambres par **État**, **Étage**, **Type** ou
+**Secteur**, et rechercher par numéro, étage, bâtiment ou secteur.
+
+## La fiche chambre
+
+Cliquez sur une carte pour ouvrir la **fiche chambre**. En haut, une **barre de
+statut** montre l'état courant (**Disponible → Occupée → En maintenance →
+Réservée**), et des **rubans** signalent visuellement une chambre « Maintenance »
+ou « Réservée ».
+
+### Informations et tarif
+
+| Champ | Rôle |
+| --- | --- |
+| **Numéro de chambre** | Identifiant unique de la chambre. |
+| **Type de chambre** | Détermine le **tarif journalier** et la capacité par défaut. |
+| **Étage** / **Bâtiment** | Localisation physique. |
+| **Secteur** | Secteur / étage de l'établissement ; sert au regroupement et aux droits d'accès. |
+| **Capacité** | Nombre de lits de la chambre. |
+| **Occupation actuelle** | Nombre de lits occupés (calculé automatiquement). |
+| **Tarif journalier** | Prix d'hébergement, repris du type de chambre. |
+| **Article de facturation** | Produit lié à la chambre (lecture seule). |
+
+!!! info "Le tarif journalier n'est pas le forfait INAMI"
+    Le **tarif journalier** est le **prix de l'hébergement** (la chambre), une
+    valeur **propre à votre établissement**, définie sur le **type de chambre**.
+    Il est distinct du **forfait de dépendance** (la part mutuelle), qui dépend de
+    la **catégorie Katz** du résident — la même pour toutes les catégories aux
+    tarifs AViQ — et non de la chambre.
+
+### Équipements
+
+La section **Équipements** liste, sous forme d'étiquettes, ce dont dispose la
+chambre (Télévision, Wifi, Salle de bain privée, Lit médicalisé, Appel infirmier,
+Balcon…). Un champ **Notes équipements supplémentaires** permet d'ajouter une
+précision en texte libre. Le catalogue d'équipements se gère dans les réglages
+(voir [Configuration](../configuration/index.md)).
+
+### Occupation actuelle et historique
+
+Trois onglets complètent la fiche :
+
+- **Occupation actuelle** — les résidents présents dans la chambre (nom, code
+  résident, âge).
+- **Historique des séjours** — tous les séjours qui ont concerné cette chambre,
+  avec le résident, les dates de début et de fin, et l'état (**Brouillon**,
+  **Confirmé**, **En cours**, **Terminé**).
+- **Notes** — notes internes libres sur la chambre.
+
+## Changer le statut d'une chambre
+
+Le statut **Disponible / Occupée** est calculé automatiquement d'après
+l'occupation. Vous pouvez toutefois **forcer** un statut manuel depuis l'en-tête
+de la fiche :
+
+- **Mettre en maintenance** — la chambre passe **En maintenance** (travaux,
+  nettoyage approfondi, panne…) et n'est plus proposée à l'assignation.
+- **Marquer comme réservée** — la chambre devient **Réservée** (par exemple pour
+  une admission à venir) et sort des chambres disponibles.
+- **Mode automatique** — annule l'override manuel : le statut est de nouveau
+  **calculé automatiquement** d'après l'occupation.
+
+!!! warning "Maintenance et Réservée bloquent l'assignation"
+    Tant qu'une chambre est **En maintenance** ou **Réservée**, le bouton
+    **Assigner un résident** est masqué et la chambre n'apparaît **pas** dans les
+    listes de chambres disponibles (admission, transfert). Repassez-la en **Mode
+    automatique** pour la rendre à nouveau assignable.
+
+```mermaid
+graph LR
+  A[Disponible] -->|un résident assigné| B[Occupée]
+  B -->|tous les lits libérés| A
+  A -->|Mettre en maintenance| C[En maintenance]
+  A -->|Marquer comme réservée| D[Réservée]
+  C -->|Mode automatique| A
+  D -->|Mode automatique| A
+```
+
+## Assigner un résident depuis la chambre
+
+Vous pouvez ouvrir un séjour directement depuis une chambre libre, sans passer par
+le pipeline d'admission :
+
+1. Ouvrez la fiche d'une chambre **Disponible** (ni pleine, ni en maintenance, ni
+   réservée — sinon le bouton n'apparaît pas).
+2. Cliquez sur **Assigner un résident**.
+3. Dans l'assistant, choisissez le **résident** (seuls les résidents sont
+   proposés).
+4. Vérifiez la **date d'entrée** (aujourd'hui par défaut) et, si besoin, la
+   **date de fin prévue**.
+5. Le **tarif journalier** est repris de la chambre ; ajustez le champ
+   **Facturer à** si la facture doit être adressée à un tiers (proche, CPAS).
+6. Ajoutez éventuellement un **motif d'admission**, puis cliquez sur **Assigner
+   un résident**.
+
+Resthome crée alors le **séjour** sur cette chambre, à l'état **En cours**, et
+vous ramène sur la fiche de la chambre.
+
+### Cas du résident déjà logé : le transfert
+
+Si le résident choisi **occupe déjà une chambre**, l'assistant le détecte et
+affiche un **avertissement de transfert** rappelant sa chambre actuelle. Le bouton
+devient alors **Transférer le résident**. En confirmant, Resthome **termine**
+l'ancien séjour (motif : *transfert*) et **ouvre** un nouveau séjour dans la
+chambre choisie.
+
+!!! note "Assigner ≠ Changer de chambre"
+    Assigner depuis la chambre un résident **déjà logé** effectue un **transfert**
+    simple. Pour un changement de chambre qui **scinde proprement la facturation**
+    de l'hébergement à la date exacte tout en gardant l'intervention INAMI
+    **continue** (sans nouvel accord), préférez l'action **Changer de chambre** sur
+    le **séjour** — voir
+    [Changement de chambre et transfert](changement-chambre.md).
+
+## Configurer les types de chambres et l'équipement
+
+La structure des chambres se prépare dans la configuration, via **MR/MRS →
+Configuration → Chambres** :
+
+- **Types de chambres** — définissez chaque type (individuelle, double…), son
+  **tarif journalier**, sa **capacité par défaut** et l'**article de facturation**
+  associé. Le tarif d'une chambre découle de son type.
+- **Équipement de chambre** — tenez le **catalogue** des équipements proposés
+  (confort, médical, technologie, extérieur), que vous cochez ensuite sur chaque
+  fiche chambre.
+
+Pour le détail des réglages, voir [Configuration](../configuration/index.md).
+
+## Points clés à retenir
+
+- Le tableau d'occupation vit dans **MR/MRS → Hébergement → Chambres**, en
+  **kanban regroupé par statut** (Disponible, Occupée, En maintenance, Réservée).
+- Le **badge** de chaque carte montre l'occupation « occupées / capacité » et sa
+  couleur reflète le statut ; une chambre partagée reste **Disponible** tant qu'un
+  lit est libre.
+- Les boutons **Mettre en maintenance** / **Marquer comme réservée** forcent un
+  statut ; **Mode automatique** rend le calcul automatique.
+- Une chambre **en maintenance** ou **réservée** n'est **pas** assignable.
+- **Assigner un résident** depuis la chambre crée le séjour ; si le résident est
+  déjà logé, l'opération devient un **transfert**.
+- Le **tarif journalier** est le prix d'hébergement propre à l'établissement (par
+  type de chambre), à ne pas confondre avec le **forfait de dépendance** lié à Katz.
+
+## Pour aller plus loin
+
+- [Gérer un résident](gerer-un-resident.md)
+- [Changement de chambre et transfert](changement-chambre.md)
+- [L'état des lieux](etat-des-lieux.md)
+- [Configuration](../configuration/index.md)
 
 
 ---
@@ -761,6 +1151,130 @@ Le rapport reprend :
 
 ---
 
+Source : https://www.lplg.eu/resthome/documentation/residents/procedure-emmenagement/
+
+# La procédure d'emménagement
+
+À chaque **nouveau séjour** — admission, changement de chambre, transfert interne
+ou réadmission — Resthome ouvre automatiquement la **procédure d'emménagement** du
+résident : une **checklist d'activités administratives** sur le fil du résident, et
+la **préparation de la chambre** côté technique. Rien à déclencher à la main : les
+tâches apparaissent dans les **activités** des responsables concernés et sur les
+fils correspondants.
+
+Vous choisissez ces responsables dans **Réglages ▸ Maison de repos ▸ Hébergement**.
+
+```mermaid
+graph LR
+  A[Nouveau séjour] --> B[Checklist d'emménagement — fil du résident]
+  A --> C[Préparation de la chambre — fil de la chambre]
+```
+
+!!! info "Une automatisation optionnelle"
+    Les deux automatisations ne se déclenchent que si le **responsable**
+    correspondant est défini dans les réglages. Tant qu'un champ est vide,
+    l'automatisation reste silencieuse — pratique pour un import de données ou une
+    mise en route progressive.
+
+## Ce qui se déclenche à chaque nouveau séjour
+
+Dès qu'un **séjour** est créé (par le [wizard d'admission](admissions.md), la
+conversion d'une opportunité CRM, ou un
+[changement de chambre / transfert](changement-chambre.md)), Resthome planifie en
+même temps les **deux volets** de la procédure. L'échéance de toutes les activités
+est la **date de début du séjour**.
+
+| Événement | Checklist résident | Préparation de la chambre |
+|---|---|---|
+| **Admission initiale** | 6 tâches | Préparer la nouvelle chambre |
+| **Changement de chambre** | 6 tâches | Préparer la nouvelle chambre **et** remettre l'ancienne en état |
+| **Transfert interne** (MR ↔ MRS) | 6 tâches | Préparer la nouvelle chambre **et** remettre l'ancienne en état |
+| **Réadmission** | 6 tâches | Préparer la chambre (pas de remise en état — l'ancienne était déjà libérée) |
+
+!!! note "Sans doublon"
+    Les activités sont **idempotentes** : si vous enregistrez à nouveau le séjour,
+    Resthome ne réempile pas une activité identique déjà ouverte. Un séjour
+    **annulé**, ou sans chambre ni résident, ne génère aucune tâche.
+
+## La checklist d'emménagement (six tâches)
+
+La checklist est planifiée sur le **fil du résident** (activité de type
+**Procédure d'emménagement**), assignée au **Responsable procédure d'emménagement**.
+Elle comporte six tâches :
+
+| Tâche | À quoi elle sert |
+|---|---|
+| **Signer l'accord avec le représentant du résident** | Faire signer la convention d'hébergement avec la personne de référence |
+| **État des lieux entrée / sortie** | Réaliser le constat contradictoire de la chambre (voir [L'état des lieux](etat-des-lieux.md)) |
+| **Mettre à jour l'inventaire privé du résident** | Recenser le mobilier privé apporté pour la nouvelle chambre (voir [Le mobilier](mobilier.md)) |
+| **Mettre à jour le casier à médicaments** | Déplacer / réétiqueter le casier à médicaments de la chambre |
+| **Mettre à jour la buanderie** | Mettre à jour le service linge du résident |
+| **Désinfecter la nouvelle / l'ancienne chambre** | Désinfecter la chambre d'arrivée (et l'ancienne, lors d'un changement de chambre) |
+
+!!! tip "Cochez ce qui s'applique"
+    La liste est **la même** pour une première admission et pour un changement de
+    chambre. Le responsable **marque comme fait** ou **supprime** les étapes sans
+    objet — par exemple, il n'y a pas d'ancienne chambre à désinfecter lors d'une
+    première entrée.
+
+## La préparation de la chambre
+
+En parallèle, Resthome planifie la **préparation de la chambre** sur le **fil de la
+chambre** (activité de type **Préparation de chambre**), assignée au **Responsable
+technique chambres** :
+
+- **Préparer la chambre — arrivée de …** : toujours planifiée sur la **chambre
+  d'arrivée**, à la date de début du séjour.
+- **Remettre la chambre en état — départ de …** : planifiée sur la **chambre
+  quittée**, uniquement lors d'un **changement de chambre** ou d'un **transfert
+  interne** (là où le résident libère réellement une chambre occupée).
+
+!!! note "Pas de remise en état à l'entrée ni à la réadmission"
+    L'activité « Remettre la chambre en état » n'est **pas** créée pour une
+    première admission (aucune chambre précédente) ni pour une réadmission
+    (l'ancienne chambre a déjà été libérée et nettoyée lors du départ précédent).
+
+## Définir les responsables
+
+Les deux automatisations s'appuient sur deux champs de configuration, propres à
+votre établissement. Rendez-vous dans **Réglages ▸ Maison de repos ▸ Hébergement** :
+
+1. **Responsable procédure d'emménagement** — l'utilisateur qui reçoit la checklist
+   du résident (les 6 tâches ci-dessus). Laisser vide **désactive** la checklist.
+2. **Responsable technique chambres** — l'utilisateur qui reçoit les activités de
+   **préparation** et de **remise en état** des chambres. Laisser vide **désactive**
+   ces activités.
+
+!!! warning "Sans responsable, pas d'activités"
+    Si un champ reste vide, l'automatisation correspondante ne crée **aucune**
+    activité. Désignez au moins le **Responsable procédure d'emménagement** pour
+    profiter de la checklist à chaque nouveau séjour.
+
+## Points clés à retenir
+
+- La procédure d'emménagement se déclenche **automatiquement** à l'ouverture de
+  tout nouveau séjour : admission, changement de chambre, transfert interne,
+  réadmission.
+- Elle comporte deux volets : une **checklist de 6 tâches** sur le fil du résident
+  et la **préparation de la chambre** sur le fil de la chambre.
+- Toutes les activités ont pour **échéance la date de début du séjour** et sont
+  assignées aux **responsables** configurés.
+- Les six tâches : **accord**, **état des lieux**, **inventaire privé**, **casier à
+  médicaments**, **buanderie**, **désinfection** — le responsable clôture ou
+  supprime celles sans objet.
+- On désigne les responsables dans **Réglages ▸ Maison de repos ▸ Hébergement** ;
+  un champ vide **désactive** l'automatisation correspondante.
+
+## Pour aller plus loin
+
+- [Gérer un résident](gerer-un-resident.md)
+- [Changement de chambre et transfert](changement-chambre.md)
+- [L'état des lieux (entrée et sortie)](etat-des-lieux.md)
+- [Réglages généraux (résidents, chambres)](../configuration/reglages-generaux.md)
+
+
+---
+
 Source : https://www.lplg.eu/resthome/documentation/residents/mobilier/
 
 # Le mobilier privé du résident
@@ -781,7 +1295,7 @@ séjour**, dans la section **Mobilier résident**.
 ## Où trouver l'inventaire
 
 1. Ouvrez la fiche du résident (application **MR/MRS → Résidents**).
-2. Allez dans l'onglet **Convention de séjour**.
+2. Allez dans l'onglet **Convention**.
 3. Descendez jusqu'à la section **Mobilier résident**.
 
 La section se présente comme un tableau : une ligne par meuble ou objet.
@@ -1223,6 +1737,180 @@ en début de période.
 
 ---
 
+Source : https://www.lplg.eu/resthome/documentation/facturation/application-supplements/
+
+# L'application Suppléments
+
+L'application **Suppléments** est l'écran dédié à la saisie et à la gestion des
+suppléments des résidents. Elle rassemble en un seul endroit ce qui, autrement,
+se répartit entre la fiche résident et la période de facturation : ouvrir le
+catalogue d'un résident, en ajouter à plusieurs résidents à la fois, gérer les
+conventions récurrentes, tenir le catalogue et suivre les montants facturés.
+
+Vous la trouvez dans le **menu principal → application Suppléments**.
+
+!!! info "Cette page complète « Les suppléments »"
+    Les notions de base — l'**enveloppe de suppléments** par résident et par mois,
+    la **synchronisation automatique** de la facture, la protection quand un mois
+    est déjà comptabilisé — sont expliquées dans
+    [Les suppléments](supplements.md). Cette page-ci décrit l'**application
+    dédiée** et ses raccourcis de saisie. L'application ne crée aucune donnée
+    parallèle : elle agit sur les mêmes enveloppes et les mêmes conventions.
+
+## L'écran Résidents (le point de départ)
+
+À l'ouverture, l'application affiche l'écran **Résidents** : la liste des
+résidents actifs, en **vue kanban** (cartes) ou en **vue liste**. Chaque carte
+montre la photo, le nom, la **chambre** et le **type de séjour** (MR / MRS), avec
+une icône de panier « Ajouter des suppléments ».
+
+- **Cliquez sur un résident** : Resthome ouvre directement le **catalogue** de son
+  enveloppe de suppléments du mois en cours. Vous atterrissez sur la grille
+  d'ajout, sans passer par la fiche.
+- En **vue liste**, chaque ligne porte un bouton **Ajouter des suppléments**, et
+  l'en-tête un bouton **Ajouter via le catalogue** pour agir sur les résidents
+  cochés.
+
+!!! tip "Filtrer et regrouper"
+    La barre de recherche filtre par **MR** / **MRS** et regroupe par **chambre**
+    ou par **type de séjour** — utile pour repérer rapidement une aile ou un
+    étage avant une saisie groupée.
+
+## Ajouter des suppléments à plusieurs résidents
+
+C'est le raccourci central de l'application : appliquer le même supplément à
+plusieurs résidents sans rouvrir chaque fiche.
+
+1. Sur l'écran **Résidents**, **sélectionnez plusieurs résidents** :
+   - **Ctrl+clic** (ou Cmd+clic) sur ordinateur ajoute/retire un résident ;
+     **Maj+clic** étend la sélection à une plage ;
+   - **appui long** sur tablette tactile ;
+   - ou activez le bouton **Sélection multiple**, qui fait sélectionner au simple
+     clic.
+2. Cliquez sur le bouton **Suppléments (N)** qui apparaît (N = nombre de résidents
+   sélectionnés). En vue liste, utilisez **Ajouter via le catalogue**.
+3. **Un seul catalogue** s'ouvre. Chaque supplément que vous y ajoutez, modifiez
+   ou retirez est **répercuté sur l'enveloppe ouverte de chaque résident
+   sélectionné**, pour le mois en cours.
+
+Dans ce catalogue partagé, le panneau de gauche affiche une section
+**Résidents** : les résidents concernés apparaissent sous forme d'étiquettes (le
+résident « pilote » en gris, les autres en vert). Le lien **Ajouter** permet d'en
+ajouter d'autres à la volée ; supprimer une étiquette retire le résident (le
+dernier ne peut pas être retiré).
+
+!!! note "Un supplément déjà couvert par une convention est ignoré"
+    Si l'un des résidents sélectionnés a déjà ce produit dans une **convention
+    active**, la ligne n'est **pas** ajoutée pour lui (elle serait de toute façon
+    écartée à la facturation) — les autres résidents la reçoivent normalement.
+    Pour une saisie sur un seul résident, Resthome bloque carrément l'ajout et
+    vous invite à passer par la convention.
+
+## Suppléments ponctuels et récurrents
+
+L'application distingue les deux natures de suppléments déjà présentées dans
+[Les suppléments](supplements.md).
+
+- **Ponctuels** — ajoutés à l'enveloppe du mois via le catalogue (coiffeur,
+  pédicure, boisson, téléphone…). Le menu **Suppléments ponctuels** en donne la
+  **liste**, regroupée par résident, avec la période, le produit, la quantité, le
+  prix et le total. C'est l'endroit pour relire tout ce qui a été saisi à la main
+  sur le mois.
+- **Récurrents** — reconduits chaque mois via une **convention** (voir la section
+  suivante).
+
+!!! tip "Où est passé mon supplément ?"
+    À chaque ajout, Resthome affiche une notification indiquant **sur quelle(s)
+    période(s)** le supplément a été facturé — ou vous prévient qu'**aucune
+    période ouverte** ne correspond encore à sa date (il ne sera alors facturé que
+    lorsque le mois concerné sera généré). Vérifiez la **date de début** si le
+    supplément n'apparaît pas où vous l'attendiez.
+
+## Les conventions de suppléments
+
+Une **convention** regroupe les suppléments **récurrents** d'un résident (chambre
+individuelle, TV, téléphone…). Elle vit sur le **résident**, pas sur le séjour :
+elle **survit** à une clôture de séjour, un changement de chambre ou un transfert
+MR ↔ MRS. Chaque résident a **une seule** convention, qui rassemble toutes ses
+lignes récurrentes.
+
+Dans l'application, le menu **Conventions** liste les lignes de suppléments
+récurrents (résident, convention, produit, type, dates, quantité, actif). La
+convention elle-même — avec son statut et ses boutons — se gère depuis
+l'application **MR/MRS → Facturation → Conventions de suppléments**.
+
+Sur la convention :
+
+| Élément | Rôle |
+|---|---|
+| **Statut** | **Ouverte** ou **Clôturé** (en haut de la fiche). |
+| Bouton **Clôturer** | Fixe une **date de fin** et arrête de facturer chaque ligne au-delà. |
+| Bouton **Rouvrir** | Efface la date de fin et réactive les lignes qui avaient été clôturées. |
+| **Lignes** | Produit, type, prix, date de début, date de fin, quantité, actif, notes. |
+
+!!! warning "Un produit sous convention ne se saisit pas en ponctuel"
+    Tant qu'un produit est couvert par une **convention active**, il ne peut pas
+    être ajouté comme supplément ponctuel pour le même résident. Ajoutez-le **dans
+    la convention**, ou **clôturez** d'abord celle-ci.
+
+## Le catalogue des suppléments
+
+Le menu **Configuration → Catalogue** tient la liste des **types de suppléments**
+facturables (« Types de suppléments »). Chaque supplément y a :
+
+| Champ | Description |
+|---|---|
+| **Référence** | Code interne du supplément. |
+| **Nom** | Libellé affiché dans le catalogue. |
+| **Type de supplément** | **Journalier** (facturé au prorata des jours), **Mensuel** (par mois) ou **Ponctuel** (une fois). |
+| **Prix** | Montant unitaire — **valeur propre à l'établissement**. |
+| **Code AViQ** | Pseudo-code de déclaration, quand le supplément est déclaré à l'organisme assureur. |
+
+!!! info "Déclaré à l'OA ou non ?"
+    Selon sa **catégorie**, un supplément est soit **déclaré à l'organisme
+    assureur** dans l'eFact (ET50), soit facturé **uniquement sur la facture du
+    résident**. Ce réglage se fait sur la catégorie de produit — voir
+    [Réglages de facturation](../configuration/reglages-facturation.md).
+
+## Le reporting
+
+Le menu **Reporting** ouvre une vue d'analyse des suppléments **facturés** :
+
+- un **graphique** des montants par produit ;
+- un **tableau croisé** (résidents × mois) ;
+- une **liste** détaillée des lignes de suppléments.
+
+Vous pouvez filtrer entre suppléments **ponctuels** et de **convention**, et
+regrouper par **résident**, **produit** ou **mois**.
+
+!!! note "Après génération seulement"
+    Les suppléments n'apparaissent dans le reporting qu'une fois la **période de
+    facturation générée** pour le mois concerné.
+
+## Points clés à retenir
+
+- L'application **Suppléments** est un écran de saisie dédié ; elle agit sur les
+  **mêmes enveloppes et conventions** que la facturation — pas de données en
+  double.
+- L'écran **Résidents** est le point de départ : cliquez un résident pour ouvrir
+  son catalogue, ou **sélectionnez-en plusieurs** (Ctrl+clic / appui long /
+  **Sélection multiple**) puis **Suppléments (N)** pour les servir en une fois.
+- **Ponctuel** = une fois sur l'enveloppe ; **convention** = récurrent, sur le
+  résident, survivant aux changements de séjour.
+- Un produit sous **convention active** ne se saisit pas en ponctuel.
+- Le **catalogue** porte le type et le prix (valeur propre à l'établissement) ; le
+  **reporting** suit les montants par résident, produit et mois.
+
+## Pour aller plus loin
+
+- [Les suppléments](supplements.md)
+- [Facturer un mois, pas à pas](facturer-un-mois.md)
+- [Vue d'ensemble de la facturation](index.md)
+- [Réglages de facturation](../configuration/reglages-facturation.md)
+
+
+---
+
 Source : https://www.lplg.eu/resthome/documentation/facturation/absences/
 
 # Absences et hospitalisations
@@ -1347,6 +2035,281 @@ régularisations tant qu'elles ne sont pas définitives.
 - [Absences et hospitalisations](absences.md)
 - [Accords (eAgreement)](../ehealth/eagreement.md)
 - [Vue d'ensemble de la facturation](index.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/facturation/note-de-frais-annexe12/
+
+# La note de frais (Annexe 12)
+
+L'**Annexe 12** est le document officiel qui justifie, mois par mois, les frais
+d'hébergement et de soins d'un résident de maison de repos (MR/MRS). Resthome la
+produit sous deux formes complémentaires :
+
+- la **Note de Frais Individuelle** — un justificatif détaillé **par résident** ;
+- la **Note de Frais Récapitulative** — un tableau **par organisme assureur (O.A.)**
+  qui regroupe tous les résidents d'une même mutuelle.
+
+Les deux se génèrent depuis le bouton **Imprimer** (Print), à partir d'une
+**période de facturation** ou d'une **fiche de facturation par résident**.
+
+!!! info "Un document officiel AViQ"
+    L'Annexe 12 vise les « institutions visées à l'article 43/7, 4° du Code wallon
+    de l'action sociale et de la santé ». Resthome remplit automatiquement le
+    formulaire officiel avec les données de votre période : vous n'avez rien à
+    recopier à la main.
+
+## Deux documents, deux portées
+
+| Document | Portée | Modèle imprimé | Généré depuis |
+|---|---|---|---|
+| **Note de Frais Individuelle** | Un résident | `Annexe12_<résident>_<période>` | Fiche **Facturation par résident** → **Imprimer** |
+| **Note de Frais Récapitulative** | Un organisme assureur | `NoteRecap_<période>` | **Période de facturation** → **Imprimer** |
+
+!!! tip "Le lien entre les deux"
+    Chaque ligne de la note récapitulative porte un **n° de note individuelle** qui
+    renvoie à la note individuelle du résident correspondant. Vous éditez donc en
+    général **les deux documents pour le même mois** : le récapitulatif pour l'O.A.,
+    les notes individuelles pour les résidents.
+
+## La Note de Frais Individuelle (par résident)
+
+C'est le justificatif complet d'**un seul résident** pour le mois. Resthome le
+génère sur le **formulaire officiel** en trois pages.
+
+| Page | Contenu |
+|---|---|
+| **1. Récapitulatif du résident** | Identification de l'institution (nom, adresse, n° INAMI) et de la mutuelle, période, ligne du résident (nom, n° d'inscription NISS, jours de présence) et les **trois montants obligatoires** : à charge O.A., à charge patient, total. |
+| **2. Frais fixes** | Le **forfait de soins** (part organisme assureur), avec son **pseudo-code AViQ**, le prix journalier, le nombre de jours et le montant — ventilé par sous-période le cas échéant — ainsi que la **ristourne incontinence**. |
+| **3. Suppléments** | L'**hébergement** (la chambre), les **suppléments** (télévision, téléphone, buanderie, pédicure, chambre individuelle…), les **médicaments** (para)pharmaceutiques et le **total des suppléments**. |
+
+!!! note "Les trois montants obligatoires"
+    La première page porte les **trois montants** exigés par la facturation
+    électronique : **à charge de l'O.A.** (le forfait remboursé, ristourne
+    incontinence comprise), **à charge du patient** (hébergement + suppléments) et
+    le **total**. Ce sont ces montants qui justifient, vis-à-vis du résident, ce que
+    la mutuelle prend en charge et ce qui lui reste à payer.
+
+!!! info "Le forfait ne dépend pas de la catégorie Katz"
+    Le montant du **forfait de soins** est le **même pour toutes les catégories
+    Katz** (tarifs AViQ) : la catégorie sert à **déclarer le profil de dépendance**
+    à la mutuelle, pas à fixer un montant différent. Voir
+    [Le forfait INAMI](forfait-inami.md).
+
+### Éditer une note individuelle
+
+1. Ouvrez la **période de facturation** du mois (application **MR/MRS →
+   Facturation → Périodes de facturation**).
+2. Ouvrez la **fiche de facturation du résident** concerné (« Facturation par
+   résident »).
+3. Cliquez **Imprimer → Annexe 12 — Note de Frais Individuelle**.
+4. Le PDF est généré au nom du résident et de la période.
+
+!!! warning "Remettez-en un double au résident"
+    La note récapitulative certifie qu'« un double de la note de frais individuelle
+    a été remis au bénéficiaire ». Pensez donc à **remettre la note individuelle**
+    (ou son double) à chaque résident ou à son représentant.
+
+## La Note de Frais Récapitulative (par organisme assureur)
+
+La note récapitulative regroupe, pour un mois, **tous les résidents d'un même
+organisme assureur** sur un tableau unique. Resthome produit **une page par O.A.** :
+si votre période compte des résidents affiliés à plusieurs mutuelles, le document
+contient autant de pages que d'organismes.
+
+En-tête de chaque page :
+
+- l'**identification de l'institution** : nom, adresse, téléphone, **n° INAMI** ;
+- l'**identification de la mutualité** : n° (code O.A.) et nom ;
+- la **période** couverte (« Note récapitulative du … au … — établie le … »).
+
+Le tableau des résidents comporte les colonnes suivantes :
+
+| Colonne | Contenu |
+|---|---|
+| **N° note individuelle** | Référence de la note individuelle du résident |
+| **Nom et prénom du bénéficiaire** | Le résident |
+| **N° d'inscription** | Le NISS du résident |
+| **Nombre de jours** | Jours de présence facturés |
+| **À charge O.A.** | Part remboursée par l'organisme assureur |
+| **À charge patient** | Part à payer par le résident |
+| **Total** | Somme des deux |
+
+La dernière ligne totalise le **Total général pour l'O.A.**, à charge patient et
+total. Le document se termine par une **certification** signée du **Responsable de
+l'Institution** (date, nom et signature).
+
+### Éditer une note récapitulative
+
+1. Ouvrez la **période de facturation** du mois (ou sélectionnez-la dans la liste
+   **Périodes de facturation**).
+2. Cliquez **Imprimer → Annexe 12 — Note Récapitulative**.
+3. Resthome génère le PDF, **une page par organisme assureur**.
+
+## Quand éditer l'Annexe 12
+
+Éditez l'Annexe 12 **une fois le mois facturé** : les montants reprennent les
+lignes de facturation calculées par Resthome (forfait, hébergement, suppléments,
+médicaments, absences). Si vous modifiez une facture après coup, **actualisez** la
+période puis régénérez le document pour qu'il reflète les nouveaux montants.
+
+!!! tip "Elle accompagne l'eFact"
+    La note récapitulative est le justificatif « papier » qui **accompagne la
+    facturation transmise** à chaque organisme assureur. Pour le flux électronique
+    complet (envoi du forfait à la mutuelle), voir
+    [Facturer un mois, pas à pas](facturer-un-mois.md).
+
+!!! note "Départ ou décès en cours de mois"
+    Les montants tiennent compte des **jours de présence réels** : un départ ou un
+    décès en cours de mois est déjà reflété dans les lignes de facturation, donc
+    dans l'Annexe 12. Voir [Départ et décès](depart-deces.md).
+
+## Points clés à retenir
+
+- L'Annexe 12 existe en **deux formes** : la **note individuelle** (par résident)
+  et la **note récapitulative** (par organisme assureur).
+- Les deux se génèrent depuis le bouton **Imprimer** : la récapitulative sur la
+  **période**, l'individuelle sur la **fiche de facturation par résident**.
+- La note individuelle porte les **trois montants obligatoires** : à charge O.A.,
+  à charge patient et total.
+- La récapitulative produit **une page par organisme assureur** et totalise le
+  **Total général pour l'O.A.**.
+- Un **double de la note individuelle** doit être **remis au résident**.
+- Le n° INAMI de l'institution et les tarifs sont **propres à votre
+  établissement** : vérifiez qu'ils sont correctement configurés.
+
+## Pour aller plus loin
+
+- [Facturer un mois, pas à pas](facturer-un-mois.md)
+- [Les suppléments](supplements.md)
+- [Vue d'ensemble de la facturation](index.md)
+- [Départ et décès](depart-deces.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/facturation/cpas/
+
+# La prise en charge CPAS
+
+Quand un résident n'a pas les moyens de couvrir sa **part personnelle** (hébergement
+et suppléments), le **CPAS** (Centre Public d'Action Sociale) de sa commune peut la
+**prendre en charge**, en totalité ou en partie. Resthome vous permet d'**enregistrer
+cette décision** sur la fiche du résident et de **router la facture** vers le bon
+débiteur.
+
+Vous trouvez ces réglages dans l'onglet **Facturation** de la fiche résident, et la
+liste des CPAS dans **Facturation → Configuration → CPAS**.
+
+!!! note "Ce que couvre le CPAS"
+    Le CPAS intervient sur la **part résident** (chambre + suppléments), pas sur le
+    **forfait de dépendance** : celui-ci est pris en charge à 100 % par la mutuelle
+    et facturé via l'[eFact](../ehealth/efact.md). Voir
+    [Le forfait INAMI (dépendance)](forfait-inami.md).
+
+## À quoi sert la prise en charge CPAS
+
+Deux notions sont à distinguer :
+
+- **Enregistrer la décision** — qui est le CPAS, à partir de quand, sous quelle
+  référence, pour quelle couverture et quel montant. Ces informations documentent le
+  dossier et sont **tracées dans le journal d'audit** (catégorie financière).
+- **Router la facture** — décider **à qui** Resthome adresse la part résident : au
+  résident, à sa famille, ou au CPAS. Ce routage se pilote via le **Contact
+  facturation** ou les **débiteurs alimentaires** (voir plus bas).
+
+## 1. Déclarer le CPAS comme organisme
+
+Avant de rattacher un résident à un CPAS, le CPAS doit exister comme contact.
+
+1. Ouvrez **Facturation → Configuration → CPAS**.
+2. Cliquez sur **Nouveau** et encodez le **nom** du CPAS, sa ville, son téléphone et
+   son e-mail.
+3. Vérifiez que la case **« Est un CPAS »** est cochée (elle l'est par défaut depuis
+   ce menu).
+4. **Enregistrez.**
+
+!!! tip "Pourquoi cocher « Est un CPAS »"
+    Le champ **CPAS** de la fiche résident ne propose que les contacts marqués
+    **« Est un CPAS »**. Un CPAS créé ailleurs (dans les contacts génériques)
+    n'apparaîtra dans la liste que si cette case est cochée sur sa fiche.
+
+## 2. Renseigner la prise en charge sur le résident
+
+1. Ouvrez la fiche du **résident** et l'onglet **Facturation**.
+2. Dans le groupe **Aide CPAS**, cochez **Pris en charge CPAS**.
+3. Sélectionnez le **CPAS** responsable.
+4. Choisissez la **Couverture CPAS** : *Prise en charge totale* ou *Prise en charge
+   partielle*.
+5. En couverture partielle, saisissez le **Montant mensuel CPAS**.
+6. Complétez la **Décision CPAS** : date, référence et, si besoin, des **Notes CPAS**.
+
+| Champ | Rôle |
+|---|---|
+| **Pris en charge CPAS** | Active la prise en charge et bascule le **Payeur par défaut** sur CPAS |
+| **CPAS** | L'organisme responsable (liste filtrée sur « Est un CPAS ») |
+| **Couverture CPAS** | *Totale* (le CPAS paie tout) ou *Partielle* (le CPAS paie une part) |
+| **Date décision CPAS** | Date de la décision d'octroi |
+| **Référence décision CPAS** | Numéro / référence de la décision reçue |
+| **Montant mensuel CPAS** | Montant payé par le CPAS — **couverture partielle uniquement** |
+| **Notes CPAS** | Texte libre (conditions, contact, remarques) |
+
+!!! info "Champs qui apparaissent au fur et à mesure"
+    Le CPAS, la couverture et le bloc **Décision CPAS** ne s'affichent qu'une fois
+    **« Pris en charge CPAS »** coché. Le **Montant mensuel CPAS** n'apparaît qu'en
+    couverture **partielle**.
+
+## 3. Router la facture vers le CPAS
+
+C'est l'étape qui décide **à qui** part la facture de la part résident.
+
+- **Le CPAS paie tout** → renseignez le **Contact facturation** du résident (dans le
+  groupe *Payeur par défaut*) avec le contact du **CPAS**. La facture mensuelle de la
+  part résident sera alors **adressée au CPAS**.
+- **Le CPAS paie une partie** → utilisez les
+  [débiteurs alimentaires (facturation partagée)](split-billing.md) : ajoutez le CPAS
+  comme débiteur avec son **pourcentage**, et le reste des payeurs (résident, famille)
+  pour le solde.
+
+!!! warning "La section « Aide CPAS » est un enregistrement, pas un moteur de répartition"
+    Les champs de la section **Aide CPAS** documentent la décision et basculent le
+    **Payeur par défaut** sur CPAS, mais **ils ne redirigent pas et ne scindent pas
+    automatiquement la facture**. Le destinataire de la facture reste déterminé par le
+    **Contact facturation** du résident (ou le contact de facturation du séjour), et la
+    répartition partielle par la **facturation partagée**. Sans l'un de ces deux
+    leviers, la part résident continue d'être adressée **au résident**.
+
+## Ce que Resthome fait — et ne fait pas
+
+| Action | Automatique ? |
+|---|---|
+| Tracer la décision CPAS (audit financier) | Oui, dès la saisie |
+| Basculer le **Payeur par défaut** sur CPAS quand vous cochez « Pris en charge CPAS » | Oui |
+| Adresser la facture au CPAS | Non — via le **Contact facturation** |
+| Répartir la part résident entre CPAS et famille | Non — via la [facturation partagée](split-billing.md) |
+| Déduire le **Montant mensuel CPAS** des montants facturés | Non — champ documentaire |
+
+## Points clés à retenir
+
+- La prise en charge CPAS concerne la **part résident** (chambre + suppléments), pas le
+  **forfait de dépendance** (part mutuelle, via eFact).
+- Créez d'abord le CPAS dans **Facturation → Configuration → CPAS** (case **« Est un
+  CPAS »**), puis rattachez-le au résident dans l'onglet **Facturation**.
+- La couverture est **totale** ou **partielle** ; le **Montant mensuel CPAS** ne
+  s'applique qu'à la couverture partielle.
+- La section **Aide CPAS** **enregistre** la décision ; pour **router** la facture,
+  utilisez le **Contact facturation** (couverture totale) ou la **facturation partagée**
+  (couverture partielle).
+- Le **Montant mensuel CPAS** et la référence de décision sont **propres à chaque
+  dossier**, d'après la notification du CPAS.
+
+## Pour aller plus loin
+
+- [Gérer un résident](../residents/gerer-un-resident.md)
+- [Facturer un mois](facturer-un-mois.md)
+- [Débiteurs alimentaires (facturation partagée)](split-billing.md)
+- [Le forfait INAMI (dépendance)](forfait-inami.md)
 
 
 ---
@@ -2348,6 +3311,211 @@ cas de rejet.
 
 ---
 
+Source : https://www.lplg.eu/resthome/documentation/ehealth/eagreement-signature/
+
+# Praticien responsable et signature des annexes
+
+Une demande [eAgreement](eagreement.md) doit désigner un **praticien
+responsable** et porter une **signature** sur ses annexes. Cette page explique
+les deux mécanismes que Resthome met en place :
+
+- **Qui est identifié** comme praticien responsable sur la demande électronique —
+  et comment son numéro **NIHII** est déterminé automatiquement ;
+- **Comment signer** les **Annexes 7, 10 et 11** directement dans l'application, à
+  partir d'une **image de signature** stockée, au lieu d'imprimer, signer et
+  scanner.
+
+Les boutons de signature apparaissent sur la **demande eAgreement** (accessible
+depuis la fiche du résident ou la période de facturation). Les identités se
+configurent sur la **fiche employé** et dans les **réglages eHealth**.
+
+!!! note "Deux identités à ne pas confondre"
+    - **Le praticien responsable** : l'identité **électronique** inscrite dans la
+      demande envoyée à la mutuelle — le clinicien qui a réalisé l'évaluation
+      **Katz**. Resthome la **résout automatiquement** (voir plus bas).
+    - **Le signataire** : la personne dont l'**image de signature** est apposée
+      sur le **PDF** de l'annexe. Par défaut, c'est **vous** (l'utilisateur
+      connecté).
+
+    Dans la plupart des cas, ces deux rôles se rejoignent, mais ils sont
+    distincts : une secrétaire peut envoyer une demande dont le praticien
+    responsable est l'infirmier qui a coté le Katz.
+
+## Le praticien responsable
+
+Le praticien responsable est le **clinicien qui a réalisé l'évaluation
+[Katz](../residents/katz.md)** — l'évaluateur —, **pas** la personne qui envoie la
+demande. Resthome détermine son **NIHII** en descendant une chaîne de secours,
+pour toujours transmettre une identité cohérente à la mutualité.
+
+| Ordre | Resthome retient… | Quand |
+|---|---|---|
+| 1 | **L'évaluateur Katz**, s'il a un NIHII personnel | Cas normal |
+| 2 | **L'infirmier-chef** configuré (son NIHII) | L'évaluateur (infirmier, aide-soignant) n'a pas de NIHII |
+| 3 | **Le médecin coordinateur** configuré (son NIHII) | Ni l'évaluateur ni l'infirmier-chef n'ont de NIHII |
+| 4 | Un **numéro infirmier générique AViQ** | Dernier recours, aucun NIHII disponible |
+
+!!! warning "Katz de catégorie D : un médecin est obligatoire"
+    Pour un Katz de **catégorie D** (ou **Cd**), la spécification impose un
+    **médecin** comme praticien responsable. Resthome retient alors l'évaluateur
+    s'il est médecin (avec NIHII), sinon le **médecin coordinateur** configuré. Si
+    aucun médecin n'est disponible, l'envoi est **bloqué** avec un message
+    explicite : renseignez un médecin coordinateur dans les réglages eHealth.
+
+!!! info "Le numéro générique est un dernier recours"
+    Si personne dans la chaîne n'a de NIHII utilisable, Resthome se rabat sur le
+    **numéro infirmier générique de l'AViQ**. C'est un filet de sécurité : pour
+    une identité correcte, renseignez le NIHII personnel du soignant, ou au moins
+    un infirmier-chef et un médecin coordinateur de secours.
+
+## Où sont stockées les identités (fiche employé)
+
+Le **NIHII**, le **rôle** et l'**image de signature** d'un soignant vivent sur sa
+**fiche employé**, et non sur un compte utilisateur. Ainsi, un soignant qui signe
+une Annexe 10 de temps en temps **ne consomme pas de licence utilisateur** : il
+suffit qu'il existe comme employé.
+
+**Application Employés → fiche de l'employé → onglet Nursing Home.**
+
+| Champ | À quoi ça sert |
+|---|---|
+| **INAMI Number** (n° NIHII/INAMI) | Le NIHII personnel du soignant, utilisé comme praticien responsable sur la demande eAgreement. 11 chiffres. |
+| **Care role** (rôle de soins) | Le métier (infirmier, infirmier-chef, aide-soignant, médecin…). Il détermine le rôle eHealth. |
+| **eHealth Role** (rôle eHealth) | Déduit automatiquement du rôle de soins : *nurse* (infirmier / infirmier-chef / aide-soignant) ou *physician* (médecin). En lecture seule. |
+| **Foreign physician (no Belgian NIHII)** (médecin étranger) | À cocher pour un médecin transfrontalier sans NIHII belge. Visible uniquement pour un médecin. |
+| **Signature image (Annexe 10)** (image de signature) | Le scan de la signature (PNG/JPG, fond transparent de préférence), apposé sur le PDF lors de la signature dans l'app. |
+
+!!! tip "Une image de signature nette"
+    Préférez une image **PNG à fond transparent**, cadrée sur le trait. Resthome
+    la place dans la case « Signature » de l'annexe en **respectant ses
+    proportions** — une image bien détourée rend un résultat propre.
+
+## Configurer les identités de secours
+
+**Réglages > Nursing Home > eAgreement Responsible Practitioner.** Ces deux
+réglages fournissent le NIHII de secours quand l'évaluateur Katz n'a pas le sien.
+
+| Réglage | À quoi ça sert |
+|---|---|
+| **Head Nurse (NIHII fallback)** (infirmier-chef) | Son NIHII identifie le praticien responsable quand l'évaluateur (infirmier, aide-soignant) n'a pas de NIHII personnel. |
+| **Coordinating Physician (NIHII fallback)** (médecin coordinateur) | Secours quand aucun NIHII infirmier n'est disponible, et **obligatoire** pour un Katz de catégorie D. |
+
+Voir aussi [Réglages eHealth et eFact](../configuration/reglages-ehealth.md).
+
+!!! note "La catégorie Katz sert à déclarer, pas à fixer le montant"
+    Le **forfait de dépendance** vaut le **même montant** pour toutes les
+    catégories Katz (tarifs AViQ) ; la catégorie sert à **déclarer le profil** du
+    résident à la mutualité. Une catégorie **D** impose toutefois un **médecin**
+    comme praticien responsable — d'où l'importance du médecin coordinateur de
+    secours.
+
+## Le médecin étranger
+
+Un médecin **transfrontalier** qui n'a **pas** de NIHII belge ne peut pas fournir
+de numéro personnel. Sur sa fiche employé (rôle *médecin*), cochez **Foreign
+physician (no Belgian NIHII)**. Resthome inscrit alors sur la demande le **numéro
+générique prévu par la spécification eHealth** pour les praticiens étrangers, que
+les organismes assureurs acceptent. Vous n'avez aucun numéro à saisir vous-même.
+
+## Signer une annexe dans l'application
+
+Plutôt que d'**imprimer, signer à la main puis scanner**, Resthome appose votre
+**image de signature** sur le PDF de l'annexe et l'enregistre — un circuit conforme
+aux règles **FEMARBEL**. Les annexes concernées :
+
+- **Annexe 10** — l'échelle Katz (accord de soins) ;
+- **Annexe 7** — l'accord d'admission (entrée / réadmission) ;
+- **Annexe 11** — la notification de fin de séjour.
+
+Le parcours, sur une demande en **Brouillon** :
+
+1. **Générez l'annexe** si ce n'est pas déjà fait (l'Annexe 10 est produite à
+   partir du Katz ; l'Annexe 7 ou 11 depuis la demande).
+2. Cliquez sur **Sign Annexe 10** (ou **Sign Annexe 7** / **Sign Annexe 11**). Ces
+   boutons n'apparaissent qu'en Brouillon, quand l'annexe existe et n'est **pas
+   encore signée**.
+3. Dans la fenêtre **Sign annex**, vérifiez le **Signer** (signataire, vous par
+   défaut), son **rôle**, la **date de signature** et l'**aperçu** de la signature.
+4. Cliquez sur **Sign & replace PDF**. Resthome régénère un PDF propre, y appose la
+   signature et coche l'annexe comme **signée** (un ✓ vert « Signed » apparaît à
+   côté de l'annexe).
+
+!!! tip "La signature est un prérequis à l'envoi"
+    Tant qu'une annexe générée n'est **pas signée**, le bouton **Send Request**
+    reste masqué. Signez d'abord toutes les annexes, puis envoyez. Re-signer est
+    sans risque : Resthome repart d'un PDF vierge à chaque fois, sans empiler les
+    signatures.
+
+!!! note "Katz déjà signé lors de l'évaluation"
+    Si l'évaluation Katz a été **signée dans l'app** au moment de la cotation, le
+    PDF de l'Annexe 10 porte déjà la signature : Resthome la marque **signée
+    automatiquement** et l'étape ci-dessus n'est pas nécessaire.
+
+### Qui peut signer (règles FEMARBEL)
+
+| Situation | Signataire autorisé |
+|---|---|
+| Annexe 10 — cas standard | **Médecin OU infirmier** |
+| Annexe 10 — Katz **catégorie D / Cd** | **Médecin obligatoire** (pas de repli infirmier) |
+| Annexe 10 — **révision rapide** (nouveau Katz à < 6 mois du précédent) | **Médecin obligatoire** |
+| Annexe 7 (admission) / Annexe 11 (fin de séjour) | **Responsable de l'institution** — aucune règle médicale |
+
+La fenêtre de signature rappelle la règle applicable dans un bandeau **FEMARBEL
+signature rules**. Si la règle exige un médecin et que le signataire n'en est pas
+un, la signature est refusée avec un message clair.
+
+!!! info "Réadmission après une longue absence"
+    Une **réadmission** après plus de 30 jours d'absence peut nécessiter une
+    **nouvelle évaluation Katz**, mais elle n'impose **pas** de médecin :
+    l'Annexe 10 peut être signée par un **médecin OU un infirmier**.
+
+### Chacun signe avec sa propre signature
+
+Par sécurité, vous ne pouvez signer **qu'avec votre propre** image de signature.
+Signer **au nom d'un autre** clinicien — dont le nom et le rôle se retrouvent sur
+une annexe légale transmise à la mutualité — exige les droits de **gestionnaire
+eHealth**. Dans tous les cas, l'**auteur réel** de l'action reste enregistré dans
+le journal d'audit.
+
+### Si aucune image de signature n'est configurée
+
+Si le signataire n'a **pas** d'image de signature sur sa fiche employé, la fenêtre
+vous en avertit et le bouton **Sign & replace PDF** n'est pas proposé. Deux
+options :
+
+- **charger une image de signature** sur la fiche employé, puis recommencer ;
+- **conserver le circuit manuel** : imprimer l'annexe, la faire signer, scanner le
+  document signé et le re-charger sur la demande (pour l'Annexe 7 / 11, cochez
+  alors **Annex signed**).
+
+## Points clés à retenir
+
+- Le **praticien responsable** est l'**évaluateur Katz**, pas l'expéditeur ;
+  Resthome résout son **NIHII** en cascade : évaluateur → infirmier-chef → médecin
+  coordinateur → numéro générique.
+- Un Katz de **catégorie D** impose un **médecin** ; configurez un **médecin
+  coordinateur** de secours dans les réglages eHealth.
+- Le **NIHII**, le **rôle** et l'**image de signature** vivent sur la **fiche
+  employé** (onglet *Nursing Home*) — pas besoin de licence utilisateur pour les
+  soignants qui signent occasionnellement.
+- **Sign Annexe 10 / 7 / 11** appose votre image de signature sur le PDF : plus
+  besoin d'imprimer / signer / scanner. Signer est un **prérequis à l'envoi**.
+- Règles **FEMARBEL** : médecin OU infirmier par défaut ; **médecin obligatoire**
+  en catégorie D ou en révision rapide (< 6 mois).
+- On ne signe **qu'avec sa propre** signature, sauf droits de **gestionnaire
+  eHealth**.
+
+## Pour aller plus loin
+
+- [Accords (eAgreement)](eagreement.md)
+- [Accord refusé (eAgreement) — causes et solutions](eagreement-refus.md)
+- [L'échelle de dépendance (Katz)](../residents/katz.md)
+- [Réglages eHealth et eFact](../configuration/reglages-ehealth.md)
+- [Vue d'ensemble eHealth](index.md)
+
+
+---
+
 Source : https://www.lplg.eu/resthome/documentation/soins/
 
 # Soins
@@ -2385,6 +3553,206 @@ partez de là pour votre tournée.
 - [Prescriptions et médicaments](prescriptions.md)
 - [Plans de soins et signes vitaux](plans-de-soins.md)
 - [Registres cliniques](registres.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/soins/dossier-medical/
+
+# Le dossier médical du résident
+
+L'onglet **Informations médicales** de la fiche résident constitue son **dossier
+clinique** dans Resthome. Il rassemble en une page les **mesures**, l'**état
+clinique**, les **sens et risques**, les **dispositifs**, les **diagnostics
+(CIM-10)**, les **allergies**, les **contacts médicaux** et les **directives
+anticipées**.
+
+Vous le trouvez sur la **fiche du résident** (application **Résidents** ou
+**Soins**), dans l'onglet **Informations médicales**. L'onglet n'apparaît que
+pour les **résidents**.
+
+!!! warning "Accès réservé au personnel soignant"
+    L'onglet **Informations médicales** et les indicateurs qui en découlent (badge
+    DNR, filtres) ne sont visibles que pour le **personnel soignant**. Les
+    modifications des données médicales sont **journalisées** (traçabilité et
+    conformité **RGPD**).
+
+Au-dessus de l'onglet, une série de **boutons statistiques** ouvre les autres
+volets du suivi : **Prescriptions**, **Plans de soins**, **Notes**, **Katz**,
+**Signes vitaux** et **Tendances**. Le dossier médical décrit ci-dessous
+concentre, lui, le **profil clinique** du résident.
+
+## Mesures et IMC
+
+La section **Mesures** réunit les données morphologiques de base :
+
+| Champ | Rôle |
+|---|---|
+| **Groupe sanguin** | Groupe sanguin du résident |
+| **Taille (cm)** | Taille, saisie une fois |
+| **Poids (kg)** | En lecture seule — provient des signes vitaux |
+| **IMC** | Calculé automatiquement (poids / taille²) |
+
+!!! tip "Le poids passe par les signes vitaux"
+    Le champ **Poids** n'est pas saisi directement ici : il reprend la dernière
+    valeur enregistrée lors d'une **saisie de signes vitaux**. Utilisez le bouton
+    **Saisir les signes vitaux** en haut de la fiche, ou le petit **+** à côté du
+    champ Poids. L'**IMC** se recalcule alors tout seul dès que la taille et le
+    poids sont connus.
+
+## La dépendance (Katz)
+
+La section **Dépendance** affiche, en lecture, la synthèse de la dépendance du
+résident :
+
+- la **catégorie Katz** en cours (O, A, B, C, Cd) ;
+- la **fin de validité** de l'évaluation Katz ;
+- le **plan de soins actif**, s'il en existe un.
+
+Ces informations proviennent de l'**évaluation Katz** et du **plan de soins** ;
+vous ne les modifiez pas depuis le dossier médical.
+
+!!! info "La catégorie Katz se déclare, elle ne fixe pas le montant"
+    La catégorie sert à **déclarer le profil de dépendance** à la mutuelle. Dans
+    les tarifs **AViQ**, le forfait de dépendance est le **même montant pour toutes
+    les catégories** (voir [L'évaluation Katz](../residents/katz.md)).
+
+## L'état clinique
+
+La section **État clinique** décrit l'autonomie fonctionnelle du résident. Chaque
+champ propose une liste de valeurs :
+
+| Champ | Valeurs |
+|---|---|
+| **Mobilité** | Autonome · Canne · Déambulateur · Fauteuil roulant · Alité |
+| **Continence** | Continent · Incontinence occasionnelle · Incontinence fréquente · Incontinent |
+| **Statut cognitif** | Normal · Trouble léger · Trouble modéré · Trouble sévère |
+| **Communication** | Normale · Difficulté · Non verbal · Aphasie |
+
+## Les sens et les risques
+
+La section **Sens & Évaluation des risques** complète le profil :
+
+| Champ | Valeurs |
+|---|---|
+| **Vision** | Normale · Corrigée (lunettes) · Diminuée · Aveugle |
+| **Audition** | Normale · Appareil auditif · Diminuée · Sourd |
+| **Risque de chute** | Oui / Non |
+| **Risque d'escarre** | Faible · Modéré · Élevé |
+
+Ces indicateurs orientent la surveillance quotidienne et alimentent le plan de
+soins.
+
+## Les dispositifs médicaux
+
+La section **Dispositifs médicaux** recense les dispositifs et conditions
+permanentes :
+
+- **Sonde urinaire** (oui / non) ;
+- **Stomie** (oui / non) ;
+- **État dentaire** : Dents naturelles · Prothèse partielle · Prothèse complète ·
+  Édenté.
+
+## Les diagnostics (pathologies CIM-10)
+
+La section **Diagnostics / Pathologies** liste les pathologies du résident,
+codées selon la **CIM-10** (classification internationale des maladies). Chaque
+ligne relie le résident à une pathologie du **catalogue**.
+
+| Colonne | Rôle |
+|---|---|
+| **Pathologie** | La pathologie du catalogue (code CIM-10) |
+| **Catégorie** | Reprise du catalogue (circulatoire, nerveux, endocrinien…) |
+| **Sévérité** | Léger · Modéré · Sévère — propre à ce résident |
+| **Statut** | **Actif** ou **Résolu** |
+| **Confirmé** | Diagnostic cliniquement confirmé (oui / non) |
+| **Date** | Date du diagnostic |
+| **Notes** | Observations cliniques |
+
+!!! note "Sévérité et statut propres au résident"
+    Le catalogue porte une sévérité **par défaut**, mais vous fixez la sévérité et
+    le statut (Actif / Résolu) **pour ce résident**. Un statut *Résolu* impose une
+    **date de résolution**. Une même pathologie ne peut être enregistrée **qu'une
+    fois** par résident.
+
+## Les allergies
+
+La section **Allergies** recense les allergies **propres au résident**, reliées au
+**catalogue d'allergènes**.
+
+| Colonne | Rôle |
+|---|---|
+| **Allergène** | L'allergène du catalogue |
+| **Catégorie** | Médicament · Aliment · Environnemental · Contact · Insecte/Venin |
+| **Sévérité** | Faible · Moyen · Élevé · **Critique** — propre à ce résident |
+| **Confirmé** | Allergie cliniquement confirmée (oui / non) |
+| **Date** | Date d'identification |
+| **Réaction** | Description de la réaction |
+
+!!! warning "Les allergènes médicamenteux protègent la prescription"
+    Pour un **allergène médicamenteux**, la sévérité pilote le comportement à la
+    prescription : **Critique** **bloque** la prescription du médicament concerné ;
+    **Élevé**, **Moyen** ou **Faible** affiche un **avertissement**. Les allergies
+    **alimentaires** et **environnementales** sont documentaires. Voir
+    [Prescriptions et médicaments](prescriptions.md).
+
+Un champ **Notes d'allergies complémentaires** permet de consigner en texte libre
+les allergies ou remarques qui ne figurent pas dans la liste structurée.
+
+## Les contacts médicaux
+
+La section **Contacts médicaux** relie le résident à ses intervenants de santé :
+
+- **Médecins spécialistes** — un ou plusieurs médecins (étiquettes) ;
+- **Pharmacie** de référence.
+
+Le **médecin traitant** (médecin attitré du résident) se renseigne, lui, sur les
+informations générales du résident. Ces contacts sont réutilisés ailleurs dans
+Resthome (prescriptions, échanges eHealth).
+
+## Les directives anticipées et le DNR
+
+La section **Directives anticipées** consigne les volontés du résident :
+
+- **Directives anticipées** (oui / non) — lorsqu'elle est cochée, un champ
+  **contenu** apparaît pour en décrire la teneur ;
+- **Ordre DNR (Ne pas réanimer)** — décision de non-réanimation.
+
+!!! warning "Le DNR est signalé partout dans Resthome"
+    Dès que **Ordre DNR (Ne pas réanimer)** est coché, Resthome le rend visible pour
+    le personnel soignant :
+
+    - un **bandeau orange** « DNR — Ne pas réanimer » en haut de la fiche du
+      résident ;
+    - un **badge DNR** sur la carte **kanban** et dans la **liste** des résidents ;
+    - un **filtre DNR** dans la recherche, pour retrouver les résidents concernés.
+
+## Notes médicales
+
+Enfin, un champ **Notes médicales** en texte libre permet de consigner toute
+information importante qui n'entre pas dans les rubriques structurées.
+
+## Points clés à retenir
+
+- Le dossier médical est l'onglet **Informations médicales** de la fiche
+  résident ; il est **réservé au personnel soignant** et **journalisé** (RGPD).
+- Le **poids** vient des **signes vitaux** (lecture seule) et l'**IMC** se calcule
+  automatiquement à partir de la taille et du poids.
+- La **catégorie Katz** et le **plan de soins actif** s'y affichent en lecture ;
+  la catégorie **déclare** le profil, elle ne fixe pas le montant du forfait.
+- Les **diagnostics** utilisent la **CIM-10** ; **sévérité** et **statut** (Actif /
+  Résolu) sont propres au résident.
+- Les **allergènes médicamenteux** protègent la prescription : **Critique** bloque,
+  les autres avertissent.
+- Le **DNR** déclenche un **bandeau**, un **badge kanban/liste** et un **filtre**
+  de recherche.
+
+## Pour aller plus loin
+
+- [Prescriptions et médicaments](prescriptions.md) — allergies et interactions au moment de prescrire.
+- [Plans de soins et signes vitaux](plans-de-soins.md)
+- [Registres cliniques](registres.md)
+- [L'évaluation Katz](../residents/katz.md) — de la dépendance à la catégorie.
 
 
 ---
@@ -2443,6 +3811,158 @@ traçabilité.
 
 - [Plans de soins et signes vitaux](plans-de-soins.md)
 - [Registres cliniques](registres.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/soins/sam-base-medicaments/
+
+# La base de médicaments SAM
+
+**SAM** (Source Authentique des Médicaments) est le référentiel officiel belge
+des médicaments. Resthome l'utilise comme socle de son **catalogue de
+médicaments** : plutôt que de saisir un médicament à la main, vous le recherchez
+dans SAM et vous l'importez, avec ses données fiables (code CNK, principe actif,
+classification, notices).
+
+Deux portes d'entrée :
+
+- **Consulter** le référentiel — application **Soins** → **Configuration** →
+  **Base de données SAM** (lecture seule).
+- **Rechercher et importer** — l'assistant **Search SAM**, dans l'application
+  **MR/MRS** → **Configuration** → **eHealth Configuration** → **Search SAM**.
+
+!!! info "Une fonctionnalité de l'intégration eHealth"
+    L'assistant **Search SAM** fait partie de la couche eHealth belge de Resthome.
+    Il s'installe automatiquement dès que le module médical et le module eHealth
+    sont présents, et son accès est réservé au **gestionnaire eHealth**. La
+    consultation de la base (Soins → Configuration) reste, elle, accessible sans
+    ce rôle.
+
+## Ce que la base SAM apporte
+
+Chaque médicament de la base de référence porte des données authentiques,
+utiles au soin comme à la traçabilité :
+
+| Donnée | À quoi elle sert |
+| --- | --- |
+| **Code CNK** | Code pharmacie belge (7 chiffres) qui identifie le conditionnement. |
+| **Principe actif (DCI)** | La substance active, en français et en néerlandais. |
+| **Code ATC** | Classification anatomique, thérapeutique et chimique (OMS), avec sa description. |
+| **Classe BCFI** | Classement pharmacothérapeutique du Centre Belge d'Information Pharmacothérapeutique. |
+| **Triangle noir** | Signale un médicament sous surveillance renforcée (pharmacovigilance additionnelle). |
+| **Forme et voie** | Forme pharmaceutique et voie d'administration, en français et en néerlandais. |
+| **RCP et notice** | Liens vers le Résumé des Caractéristiques du Produit et la notice patient (FR et NL). |
+| **Lien BCFI** | Renvoi direct vers la fiche du médicament sur le site du BCFI. |
+| **Prescription et fabricant** | Statut de délivrance (prescription requise) et titulaire de l'autorisation. |
+
+!!! note "Une copie de référence, pas une commande"
+    La base SAM de Resthome est une **copie locale** chargée à l'installation.
+    Elle vous sert à identifier et documenter un médicament ; elle ne gère ni le
+    stock ni les prix. Ceux-ci vivent sur la fiche du catalogue, une fois le
+    médicament importé.
+
+## Consulter la base SAM
+
+Depuis **Soins → Configuration → Base de données SAM**, vous parcourez le
+référentiel en lecture seule. La liste affiche le code CNK, le nom, le principe
+actif, le code ATC, la forme et le fabricant.
+
+Utilisez la barre de recherche et les filtres pour cibler :
+
+- **recherche** par nom (FR/NL), code CNK, code ATC, principe actif ou fabricant ;
+- **filtres** « Prescription Required » (prescription requise), « Black Triangle »
+  (triangle noir) et « With CNK » (avec code CNK) ;
+- **regroupements** par code ATC, par forme ou par fabricant.
+
+La fiche d'un médicament détaille son identification, sa classification, sa forme
+pharmaceutique, son principe actif et les liens vers ses documents officiels
+(RCP et notice, FR et NL).
+
+## L'assistant Search SAM
+
+L'assistant **Search SAM** cherche un médicament dans SAM et l'ajoute à votre
+catalogue en un geste. Ouvrez-le via **MR/MRS → Configuration → eHealth
+Configuration → Search SAM**.
+
+### 1. Lancer une recherche
+
+Choisissez le **type de recherche** :
+
+- **By Name** — par nom commercial ou principe actif (ex. *Dafalgan*, *Rilatine*) ;
+- **By CNK Code** — par code CNK.
+
+Saisissez votre terme dans le champ de recherche puis cliquez sur **Search**. La
+recherche est **insensible aux accents** et gère plusieurs mots (ex.
+*Amlodipine 5mg*).
+
+!!! tip "Recherche locale d'abord"
+    L'assistant interroge d'abord la copie locale de SAM : la réponse est
+    immédiate, même sans connexion. Si cette copie est vide, Resthome peut
+    basculer sur le service **DICS v5** en direct — mais cette voie exige une
+    connexion eHealth certifiée.
+
+### 2. Choisir dans les résultats
+
+Les résultats s'affichent en tableau. Chaque ligne montre le code **CNK**, le
+**nom**, le **principe actif (INN)**, le **dosage**, la **forme** et — en
+colonnes optionnelles — le fabricant, le code ATC, la classe BCFI et les liens
+RCP / notice.
+
+La colonne **In Catalog** indique si le médicament figure déjà dans votre
+catalogue. Ces lignes apparaissent **en bleu** : inutile de les recréer.
+
+Cochez la case **Select** en début de ligne pour chaque médicament à importer.
+
+### 3. Importer au catalogue
+
+Cliquez sur **Import Selected**. Resthome crée dans votre catalogue une fiche par
+médicament coché, en reprenant les données SAM :
+
+| Donnée SAM | Champ du catalogue |
+| --- | --- |
+| Name | Nom du médicament |
+| CNK | Code CNK |
+| INN (principe actif) | Principe actif |
+| Strength | Dosage |
+| Form | Forme (convertie en catégorie Resthome) |
+| Manufacturer | Fabricant |
+| ATC | Code ATC |
+| RCP / notice / lien BCFI | Onglet **Documents officiels** de la fiche |
+
+Une notification confirme le nombre de médicaments **créés** (et **mis à jour**,
+le cas échéant).
+
+### 4. Mettre à jour un médicament existant
+
+Pour rafraîchir une fiche déjà présente, relancez la recherche (bouton **Search
+Again**) et réimportez la ligne. Resthome **rapproche par code CNK** : si le
+médicament existe déjà, il **met à jour** la fiche au lieu d'en créer un doublon.
+
+!!! warning "Un import ne remplace pas la prescription"
+    Importer un médicament l'ajoute au **catalogue** de l'établissement. Il reste
+    ensuite à le **prescrire** au résident, avec sa posologie et sa période. Voir
+    [Prescriptions et médicaments](prescriptions.md).
+
+## Points clés à retenir
+
+- **SAM = référentiel belge officiel** des médicaments, embarqué dans Resthome
+  comme socle du catalogue.
+- **Deux accès** : la consultation (Soins → Configuration → Base de données SAM)
+  et l'assistant d'import **Search SAM** (MR/MRS → Configuration → eHealth
+  Configuration).
+- La recherche accepte le **nom**, le **code CNK** ou le **principe actif**, et
+  fonctionne **hors ligne** sur la copie locale.
+- **Import Selected** crée les fiches ; un réimport **met à jour** les médicaments
+  déjà présents (rapprochement par CNK).
+- SAM fournit **ATC, classe BCFI, Triangle noir, RCP et notice (FR/NL)** — de la
+  donnée fiable, à titre de référence.
+
+## Pour aller plus loin
+
+- [Prescriptions et médicaments](prescriptions.md)
+- [Plans de soins et signes vitaux](plans-de-soins.md)
+- [L'intégration eHealth](../ehealth/index.md)
 
 
 ---
@@ -2629,6 +4149,389 @@ mixé/texture adaptée…) et des **allergies**. Resthome les prend en compte et
 
 ---
 
+Source : https://www.lplg.eu/resthome/documentation/repas/distribution/
+
+# La tournée de distribution des repas
+
+La **tournée de distribution** suit chaque repas jusqu'au résident : qui mange
+**où**, qui est **servi**, qui est **absent**, et **combien** chacun a mangé.
+Resthome propose deux outils complémentaires, tous deux dans l'application
+**Repas → Opérations** :
+
+- l'**assistant tablette** (bouton **Distribution rapide**) pour pointer les
+  résidents **un par un** à l'écran ;
+- les **feuilles de distribution imprimables** par secteur, comme solution
+  **papier**.
+
+!!! note "Avant de distribuer"
+    Le **menu** du repas doit être à l'état **Confirmé**. Les **services repas**
+    (un enregistrement par résident et par repas) sont créés automatiquement
+    quand vous démarrez la distribution — inutile de les saisir à la main.
+
+## 1. Ouvrir l'assistant depuis le menu confirmé
+
+1. Allez dans **Repas → Opérations → Menus** et ouvrez le menu du repas concerné.
+2. S'il est encore en brouillon, cliquez sur **Confirmer** : les boutons
+   **Démarrer le service** et **Distribution rapide** n'apparaissent que sur un
+   menu à l'état **Confirmé**.
+3. Cliquez sur **Distribution rapide** (icône tablette). L'assistant s'ouvre
+   dans une fenêtre pleine largeur, adaptée à un écran tactile.
+
+!!! tip "Démarrer le service ou Distribution rapide ?"
+    **Démarrer le service** crée les services repas pour tous les résidents et
+    ouvre leur **liste**. **Distribution rapide** fait la même préparation, puis
+    lance directement l'**assistant** de pointage. Pour la tournée, utilisez
+    **Distribution rapide**.
+
+## 2. Filtrer et charger la tournée
+
+En haut de l'assistant, trois réglages cadrent la tournée :
+
+- **Menu** — pré-rempli avec le menu d'où vous êtes parti.
+- **Secteur** — optionnel : limite la tournée à un secteur (une aile, un étage).
+- **Lieu** — restreint aux résidents servis en **salle à manger** ou **en
+  chambre** ; laissez-le sur tous les lieux pour voir tout le monde.
+
+Cliquez sur **Charger** pour (re)constituer la liste. Elle est triée par
+**secteur**, puis **chambre**, puis **résident**, dans l'ordre où vous ferez
+votre passage.
+
+## 3. Passer les résidents en revue
+
+Appuyez sur un résident pour ouvrir sa **carte** : photo, **chambre**,
+**secteur** et **régimes**. Quatre grands boutons permettent de pointer d'un
+seul geste :
+
+| Bouton | Effet |
+| --- | --- |
+| **Servi** | Marque le repas comme **servi** et passe au résident suivant en attente. |
+| **Passer** | Passe au résident suivant **sans rien changer** (à traiter plus tard). |
+| **Absent** | Marque le résident **absent** (non servi) et passe au suivant. |
+| **Chambre** | Indique que le résident mange **en chambre** et reste sur sa carte. |
+
+L'onglet **Liste complète** affiche tous les résidents avec un **code couleur** :
+**vert** = servi, **grisé** = absent, **rouge** = alerte critique, **orange** =
+avertissement. Chaque ligne porte aussi ses boutons **Servi** et **Absent** pour
+un pointage rapide sans ouvrir la carte.
+
+En haut, un bandeau de **progression** compte en direct : **servis / total**,
+**en attente**, **absents** et le pourcentage d'avancement.
+
+!!! warning "Alerte allergie critique"
+    Un **bandeau rouge** signale une incompatibilité grave entre un plat prévu et
+    le profil du résident. Resthome **refuse de marquer « Servi »** un service
+    comportant un **allergène critique** tant que les plats n'ont pas été
+    adaptés. Voir [Menus, régimes et hydratation](menus-regimes.md).
+
+## 4. Noter la quantité mangée
+
+Le **pourcentage mangé** se consigne sur le **service repas** du résident (il ne
+fait pas partie de l'assistant de pointage) :
+
+1. Ouvrez **Repas → Opérations → Services repas** et sélectionnez le service du
+   résident.
+2. Renseignez le champ **Quantité mangée** :
+
+| Option | Signification |
+| --- | --- |
+| **Non mangé** | Le résident n'a rien mangé. |
+| **25 %** | Environ un quart du repas. |
+| **50 %** | Environ la moitié. |
+| **75 %** | Environ trois quarts. |
+| **Tout mangé** | Repas terminé. |
+
+La quantité mangée n'est pas qu'une note : combinée aux plats servis, elle
+calcule l'**apport réel** (énergie, protéines) qui alimente la **couverture
+nutritionnelle** de la fiche du résident. Voir [Suivi
+nutritionnel](suivi-nutritionnel.md).
+
+!!! info "Faible prise et familles"
+    Si un résident a mangé **25 % ou moins** et que sa famille est **abonnée aux
+    notifications repas**, Resthome peut envoyer une **alerte** automatique. Cette
+    option s'active par résident. Voir [Portail familles et
+    kiosque](portail-familles.md).
+
+## 5. Clôturer la tournée
+
+- Cliquez sur **Terminer** (ou **Fermer**) pour quitter l'assistant.
+- Sur le menu du repas, vous pouvez ensuite cliquer sur **Marquer servi** pour
+  passer le menu à l'état **Servi**.
+
+!!! note "Traçabilité"
+    Un service **servi** et un menu **Servi** ne peuvent plus être **supprimés** :
+    Resthome les conserve pour la traçabilité. Corrigez plutôt les informations
+    sur l'enregistrement existant.
+
+## Le tableau de distribution (par lieu)
+
+En complément de l'assistant tablette, **Repas → Opérations → Distribution**
+ouvre un **tableau kanban** des services du jour **regroupés par lieu** (salle à
+manger, en chambre, absent). Chaque carte montre la photo, la **chambre**, le
+**secteur**, le badge de **régime** et, le cas échéant, un badge **Alerte**,
+**Avertissement** ou **Servi**.
+
+Depuis la **liste** des services repas, deux boutons d'en-tête permettent
+d'agir sur une **sélection multiple** : **Marquer servis** et **Marquer
+absents**. Le menu **Action** propose aussi de marquer les services **en salle à
+manger** ou **en chambre**.
+
+## Les feuilles imprimables par secteur
+
+Quand vous préférez le **papier**, imprimez les feuilles depuis un **menu** (vue
+formulaire ou liste), via le menu **Action** : vous pouvez imprimer la **feuille
+de distribution** d'un repas, ou **toutes les feuilles du jour**. Resthome crée
+au passage les services manquants, puis ouvre le document.
+
+La feuille se présente ainsi :
+
+- **une page par secteur**, avec en-tête : **secteur**, **type de repas**,
+  **date** et **nombre de résidents** ;
+- un tableau : **#**, **Résident**, **Chambre**, **Régimes / Allergies** (badges
+  **bleus** pour les régimes, **rouges** pour les allergies, « **!** » pour une
+  alerte critique), puis des **cases à cocher** **Salle à manger**, **Chambre**,
+  **Absent** et **Servi**, et une colonne **Notes** ;
+- un pied de page avec une ligne **Signature du responsable** et la **date et
+  l'heure d'impression**.
+
+C'est une **check-list de terrain** : le personnel coche les cases au fil de la
+tournée, fait signer le responsable, puis reporte les informations dans Resthome.
+
+## Points clés à retenir
+
+- La tournée vit dans **Repas → Opérations** ; elle démarre depuis un menu à
+  l'état **Confirmé**.
+- **Distribution rapide** est l'assistant tablette : quatre boutons **Servi**,
+  **Passer**, **Absent**, **Chambre**, avec avancement automatique au résident
+  suivant.
+- La **Quantité mangée** (Non mangé → Tout mangé) se note sur le **service
+  repas** et nourrit le **suivi nutritionnel**.
+- Les **feuilles imprimables par secteur** (cases à cocher + signature) sont la
+  solution papier de secours.
+- Un service ou un menu **servi** ne se supprime pas : Resthome garde la trace.
+
+## Pour aller plus loin
+
+- [Menus, régimes et hydratation](menus-regimes.md)
+- [Suivi nutritionnel](suivi-nutritionnel.md)
+- [Portail familles et kiosque](portail-familles.md)
+- [Vue d'ensemble de l'application Repas](index.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/repas/suivi-nutritionnel/
+
+# Le suivi nutritionnel et la dénutrition
+
+Resthome dépiste la **dénutrition** et suit les **apports** de chaque résident,
+en s'appuyant sur les recommandations gériatriques **ESPEN** et les règles de
+dépistage **AVIQ**. Tout se lit dans l'**onglet Nutrition** de la fiche du
+résident et se pilote depuis le **tableau de bord des Repas**.
+
+Le principe est simple : vous saisissez le **poids**, les **repas servis** et les
+**boissons** ; Resthome en déduit un **statut de risque de dénutrition**, des
+**cibles** d'énergie, de protéines et de liquides, une **couverture** des apports,
+et lève des **alertes** quand un résident décroche.
+
+!!! info "Un outil de dépistage, pas un diagnostic"
+    Le suivi nutritionnel aide l'équipe à repérer tôt les résidents fragiles. Il
+    ne remplace pas l'évaluation d'un **diététicien** ou d'un **médecin** : le
+    statut et les alertes sont des signaux à interpréter, pas des décisions.
+
+## L'onglet Nutrition du résident
+
+Ouvrez un résident (application **Résidents** ou **Repas**), puis l'onglet
+**Nutrition**. L'onglet n'apparaît que pour les résidents. Il regroupe le statut
+de dénutrition, le dernier MNA, les cibles ESPEN, les apports, les régimes et les
+préférences alimentaires.
+
+### Le statut de risque de dénutrition
+
+Le bloc **Undernutrition Status** (« statut de dénutrition ») est en **lecture
+seule** : Resthome le calcule, vous ne le modifiez pas à la main. Il affiche un
+badge coloré et les mesures qui l'expliquent.
+
+| Statut affiché | Signification | Couleur du badge |
+|---|---|---|
+| **No concern** | Aucune préoccupation | Vert |
+| **To monitor** | À surveiller (dernier MNA « à risque ») | Bleu |
+| **Re-screen (MNA)** | Un signal AVIQ est actif : refaire ou renouveler le MNA | Orange |
+| **Undernutrition** | Dénutrition confirmée (dernier MNA « dénutri ») | Rouge |
+
+Sous le badge, l'onglet montre le **poids**, l'**IMC**, un indicateur **Low BMI**
+(IMC bas ajusté à l'âge) et la **perte de poids** sur 1 mois et sur 6 mois.
+
+```mermaid
+flowchart TD
+    A[Poids, taille et IMC à jour] --> B{Dernier MNA = dénutri ?}
+    B -- Oui --> C[Undernutrition]
+    B -- Non --> D{Signal AVIQ actif ?}
+    D -- Oui --> E[Re-screen MNA]
+    D -- Non --> F{Dernier MNA = à risque ?}
+    F -- Oui --> G[To monitor]
+    F -- Non --> H[No concern]
+```
+
+!!! note "Ce qui déclenche « Re-screen (MNA) »"
+    Un **signal AVIQ** est actif dès que l'une de ces conditions est vraie :
+
+    - **perte de poids** de plus de **5 %** sur environ 1 mois ;
+    - **perte de poids** de plus de **10 %** sur environ 6 mois ;
+    - **IMC inférieur à 23** chez un résident de **plus de 70 ans** (seuil ajusté à l'âge) ;
+    - **MNA échu** : aucun MNA, ou dernier MNA de plus de 6 mois.
+
+    Les seuils correspondent aux valeurs par défaut du dépistage AVIQ/PWNS-be-A.
+
+!!! warning "Pesez régulièrement pour obtenir la perte de poids"
+    La perte de poids sur 1 et 6 mois se calcule à partir des **poids consignés
+    dans les signes vitaux** (notes infirmières). Sans pesées régulières, Resthome
+    ne peut pas comparer et ces pourcentages restent à zéro. La **taille** est
+    nécessaire pour l'**IMC**.
+
+### Le dernier MNA
+
+Le bloc **Latest MNA** (« dernier MNA ») résume la dernière évaluation **MNA**
+(Mini Nutritional Assessment) du résident : **date**, **score** et
+**interprétation** (normal, à risque, dénutri).
+
+Deux boutons y donnent accès :
+
+- **New MNA** (« nouveau MNA ») ouvre une nouvelle évaluation MNA pré-remplie pour
+  ce résident, avec la **bande d'IMC** déjà sélectionnée d'après son IMC connu.
+- **MNA History** (« historique MNA ») ouvre la liste de ses MNA précédents.
+
+Le MNA-SF est une échelle sur **14 points** : **12–14** = statut normal,
+**8–11** = à risque de dénutrition, **0–7** = dénutri. C'est le MNA qui fait
+basculer le statut vers **Undernutrition** ou **To monitor**. Les évaluations sont
+des **registres cliniques** : voir [Registres cliniques](../soins/registres.md).
+
+### Les cibles ESPEN
+
+Le bloc **Nutritional Needs (ESPEN)** (« besoins nutritionnels ») affiche la
+cible **propre au résident**, déduite de son poids et de son sexe :
+
+| Cible | Comment elle est calculée |
+|---|---|
+| **Energy Target (kcal/day)** — énergie | Poids × 30 kcal/kg (ou 35 si IMC inférieur ou égal à 21) |
+| **Protein Target (g/day)** — protéines | Poids × 1 g/kg |
+| **Fluid Target (ml/day)** — liquides | 1600 ml (femmes) / 2000 ml (hommes) |
+
+Les **coefficients** (30/35 kcal, 1 g, 1,6/2,0 l) se règlent une fois pour toute
+la maison dans [Réglages des repas et de la nutrition](../configuration/reglages-repas.md).
+Resthome en déduit ensuite la cible individuelle de chaque résident.
+
+### Apports vs besoins (moyenne 3 jours)
+
+Le bloc **Intake vs Needs** (« apports vs besoins ») compare ce que le résident a
+réellement consommé à ses cibles.
+
+- La ligne **Today** montre l'apport du jour : **kcal**, **protéines (g)** et
+  **liquides (ml)**.
+- Trois barres de couverture — **Energy Coverage**, **Protein Coverage** et
+  **Fluid Coverage** — donnent la **moyenne sur 3 jours** en pourcentage de la
+  cible.
+- Deux indicateurs **Nutrition Deficit** et **Hydration Deficit** passent à vrai
+  quand la couverture tombe sous le seuil réglé (75 % par défaut).
+
+Deux boutons complètent le bloc :
+
+- **Log Drink** (« consigner une boisson ») enregistre rapidement une boisson pour
+  ce résident.
+- **Hydration History** (« historique d'hydratation ») ouvre son journal de
+  boissons.
+
+!!! tip "Pour que la couverture se remplisse"
+    L'apport alimentaire vient des **services de repas** : à chaque repas, indiquez
+    la **quantité mangée** (voir plus bas). Les **plats** doivent porter leurs
+    **portions** et leurs valeurs **par portion** (kcal, protéines), sinon l'apport
+    reste à zéro. L'hydratation vient des **boissons consignées**.
+
+## Consigner les apports alimentaires
+
+L'apport énergétique et protéique se déduit des **services de repas**. Sur un
+service, le champ **Amount Eaten** (« quantité mangée ») propose : **Not Eaten**
+(rien), **25 %**, **50 %**, **75 %** et **Fully Eaten** (entièrement).
+
+Resthome multiplie la valeur nutritionnelle **par portion** des plats servis par
+ce pourcentage pour obtenir l'apport réel du repas, puis fait la **moyenne sur 3
+jours**. La saisie repas par repas se fait dans **Repas → Opérations** (Services
+repas, Distribution) — voir [Menus, régimes et hydratation](menus-regimes.md).
+
+## Enregistrer l'hydratation
+
+Les boissons se consignent au fil de la journée dans **Repas → Opérations →
+Hydratation**, une liste éditable directement (saisie rapide). Chaque ligne
+indique le résident, l'heure, la **quantité en millilitres** et le **type de
+boisson** : eau, café/thé, jus/soda, lait/laitage, soupe/bouillon, complément
+oral, autre.
+
+Vous pouvez aussi consigner une boisson en un clic depuis l'onglet Nutrition, avec
+le bouton **Log Drink**. Resthome additionne les boissons du jour, calcule la
+**couverture hydrique** sur 3 jours et lève une alerte si l'apport est insuffisant.
+
+## Le tableau de bord nutritionnel
+
+Ouvrez **Repas → Statistiques** : la page rassemble, sous les cartes générales
+(Résidents, Menus, Alertes), trois bandeaux nutritionnels qui n'apparaissent que
+s'ils concernent au moins un résident.
+
+| Bandeau | Résidents concernés | Bouton |
+|---|---|---|
+| **Risque de dénutrition** (rouge) | Statut Re-dépistage MNA ou Dénutrition | **Review** ouvre la liste de ces résidents |
+| **Déficit nutritionnel** (orange) | Apport sous la cible ESPEN | **Review** ouvre la liste de ces résidents |
+| **Déficit d'hydratation** (bleu) | Apport en liquides sous la cible | **Review** ouvre la liste de ces résidents |
+
+Chaque bouton **Review** ouvre la liste filtrée des résidents, sur leur fiche
+complète (onglet Nutrition inclus) pour agir directement.
+
+## Les alertes automatiques
+
+Un **cron quotidien** rafraîchit le dépistage et crée des **activités** pour les
+résidents qui décrochent. Les activités sont limitées à **une fois par 30 jours**
+par résident pour éviter les doublons.
+
+| Alerte | Condition | Destinataire |
+|---|---|---|
+| **Dénutrition — refaire/renouveler le MNA** | Statut Re-dépistage MNA ou Dénutrition | Chef infirmier, sinon gestionnaire |
+| **Déficit nutritionnel — apport sous la cible** | Couverture énergie ou protéines sous le seuil | Cuisine (diététicien), sinon chef infirmier, sinon gestionnaire |
+| **Déficit d'hydratation — apport liquides sous la cible** | Couverture hydrique sous le seuil | Cuisine (diététicien), sinon chef infirmier, sinon gestionnaire |
+
+En plus des activités, l'onglet Nutrition affiche un **bandeau d'avertissement** en
+haut dès que le statut est Re-dépistage MNA ou Dénutrition, rappelant la perte de
+poids et invitant à refaire le MNA.
+
+!!! note "Réglez le seuil de déficit"
+    Le seuil de **75 %** de couverture qui déclenche les alertes de déficit se
+    modifie dans [Réglages des repas et de la nutrition](../configuration/reglages-repas.md).
+    Baissez-le pour être alerté plus tard, montez-le pour l'être plus tôt.
+
+## Points clés à retenir
+
+- L'**onglet Nutrition** du résident réunit statut de dénutrition, dernier MNA,
+  cibles ESPEN et couverture des apports — en lecture seule pour les mesures
+  calculées.
+- Le **statut de dénutrition** suit les règles AVIQ/ESPEN : perte de poids, IMC
+  ajusté à l'âge, MNA échu ou MNA « dénutri ».
+- Les **cibles** (énergie, protéines, liquides) sont propres à chaque résident,
+  calculées depuis son poids et son sexe à partir des coefficients ESPEN réglables.
+- L'**apport** se déduit de la **quantité mangée** aux repas et des **boissons
+  consignées** ; la couverture est une moyenne sur 3 jours.
+- Le **tableau de bord des Repas** (Statistiques) et les **alertes quotidiennes**
+  remontent les résidents à risque ; ce suivi ne change **pas** le forfait, qui
+  dépend du Katz.
+
+## Pour aller plus loin
+
+- [Menus, régimes et hydratation](menus-regimes.md)
+- [Portail familles et kiosque](portail-familles.md)
+- [Vue d'ensemble des Repas](index.md)
+- [Registres cliniques (MNA)](../soins/registres.md)
+- [Réglages des repas et de la nutrition](../configuration/reglages-repas.md)
+- [Le forfait et la catégorie Katz](../residents/katz.md)
+
+
+---
+
 Source : https://www.lplg.eu/resthome/documentation/repas/portail-familles/
 
 # Portail familles et kiosque
@@ -2663,6 +4566,276 @@ moment d'un coup d'œil, sans manipulation.
 
 - [Menus, régimes et hydratation](menus-regimes.md)
 - [Vue d'ensemble des Repas](index.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/documents/
+
+# Les documents du résident
+
+Resthome tient, pour **chaque résident**, un **dossier documentaire** rangé dans
+l'app **Documents** d'Odoo. Vous n'avez rien à créer ni à classer à la main :
+le dossier, ses sous-dossiers et le classement sont automatiques. Vous y accédez
+depuis le bouton **Documents** sur la fiche du résident, ou depuis l'application
+**Documents → Résidents**.
+
+!!! info "Prérequis"
+    Cette fonctionnalité s'appuie sur l'application **Documents** d'Odoo : elle
+    doit être installée. Une fois activée, les dossiers résidents et les
+    étiquettes sont mis en place automatiquement — vous n'avez rien à préparer.
+
+## Un dossier par résident, créé automatiquement
+
+Dès qu'un résident est créé (ou dès que sa fiche devient une fiche résident),
+Resthome crée son **dossier personnel** sous le dossier racine **« Résidents »**,
+avec **trois sous-dossiers** prêts à l'emploi :
+
+```mermaid
+graph TD
+  A[Résidents] --> B[Formulaires vierges]
+  A --> C[Nom du résident]
+  C --> D[Documents médicaux]
+  C --> E[Documents administratifs]
+  C --> F[Documents de facturation]
+```
+
+| Sous-dossier | Ce qu'on y range |
+|---|---|
+| **Documents médicaux** | Évaluations, formulaires et pièces médicales du résident. |
+| **Documents administratifs** | Convention, pièces d'identité, accords, courriers. |
+| **Documents de facturation** | Factures et pièces liées à la facturation du résident. |
+
+Le dossier porte le **nom du résident** et se **renomme automatiquement** si le
+nom change. Les dossiers sont **triés par ordre alphabétique**, ce qui les garde
+faciles à parcourir dans l'app Documents.
+
+!!! note "Des dossiers protégés"
+    Les dossiers créés automatiquement sont **protégés contre la suppression** :
+    un utilisateur standard peut y déposer et y consulter des documents, mais ne
+    peut pas supprimer le dossier lui-même. Vous évitez ainsi de perdre par
+    erreur toute la structure documentaire d'un résident.
+
+## Le bouton « Documents » sur la fiche
+
+Sur la fiche du résident, un **bouton intelligent « Documents »** affiche le
+**nombre de fichiers** rangés dans son dossier. Le compteur additionne les
+documents du dossier **et de ses sous-dossiers** (les sous-dossiers eux-mêmes ne
+sont pas comptés). Cliquer sur le bouton **ouvre directement** le dossier
+personnel du résident dans l'app Documents.
+
+!!! tip "Réservé aux utilisateurs de l'app Documents"
+    Le bouton n'apparaît que pour les utilisateurs qui ont accès à l'application
+    **Documents**. Les autres continuent de voir la fiche résident normalement,
+    sans le raccourci.
+
+## Les dossiers créés au niveau de l'établissement
+
+À la création de la société (l'établissement), Resthome met en place
+automatiquement deux dossiers au sommet de l'app Documents :
+
+- **Résidents** — le dossier racine qui contient tous les dossiers résidents.
+- **Formulaires vierges** — un sous-dossier pour vos **modèles** et documents à
+  compléter (conventions type, formulaires médicaux vierges, etc.).
+
+!!! note "Cloisonné par établissement"
+    En multi-société, **chaque établissement a son propre dossier racine**
+    « Résidents » et son propre dossier « Formulaires vierges ». Les documents
+    restent ainsi séparés d'une maison à l'autre.
+
+## Les étiquettes prédéfinies
+
+Resthome fournit une liste d'**étiquettes** (tags) prêtes à l'emploi pour
+**catégoriser** les documents et les **retrouver par filtre** dans l'app
+Documents :
+
+| Étiquette | Usage typique |
+|---|---|
+| **Évaluation Katz** | Grilles et rapports d'évaluation de dépendance Katz. |
+| **Formulaire médical** | Formulaires et documents médicaux. |
+| **Accord MR/MRS (eAgreement)** | Accords de la mutuelle (eAgreement). |
+| **Allocation OA** | Décisions et allocations de l'organisme assureur. |
+| **Convention** | La convention signée avec le résident. |
+| **Facturation** | Factures et pièces de facturation. |
+| **CPAS** | Documents de prise en charge CPAS. |
+| **Consentement RGPD** | Consentements et documents relatifs à la vie privée. |
+| **Fin d'hébergement** | Documents de fin de séjour / sortie. |
+
+!!! tip "Appliquer des étiquettes automatiquement"
+    Vous pouvez faire appliquer un ou plusieurs de ces tags **automatiquement** à
+    chaque document centralisé, via le champ **Tags par défaut** des réglages.
+    Voir [Réglages des documents](../configuration/reglages-documents.md).
+
+## Le classement automatique des pièces jointes
+
+Au-delà des dossiers, Resthome peut **centraliser automatiquement** les pièces
+jointes déposées sur la fiche d'un résident : elles atterrissent directement dans
+son dossier personnel, sans classement manuel. Ce comportement se règle dans la
+configuration.
+
+!!! info "En savoir plus"
+    Le fonctionnement détaillé, les cas d'usage et l'activation sont décrits dans
+    la page [La centralisation des documents](centralisation.md).
+
+## Points clés à retenir
+
+- Chaque résident dispose d'un **dossier personnel automatique** avec trois
+  sous-dossiers : **médicaux**, **administratifs**, **de facturation**.
+- Le dossier suit le **nom du résident** et se renomme tout seul ; les dossiers
+  sont **protégés contre la suppression** accidentelle.
+- Le **bouton « Documents »** de la fiche ouvre le dossier et compte les fichiers,
+  sous-dossiers inclus.
+- Au niveau de l'établissement, Resthome crée les dossiers **« Résidents »** et
+  **« Formulaires vierges »**, **cloisonnés par société**.
+- Neuf **étiquettes** prédéfinies (Katz, eAgreement, RGPD, CPAS…) facilitent le
+  filtrage, et peuvent s'appliquer automatiquement.
+
+## Pour aller plus loin
+
+- [La centralisation des documents](centralisation.md)
+- [Gérer un résident](../residents/gerer-un-resident.md)
+- [Réglages des documents](../configuration/reglages-documents.md)
+- [FAQ](../faq.md) · [Glossaire](../glossaire.md)
+
+
+---
+
+Source : https://www.lplg.eu/resthome/documentation/documents/centralisation/
+
+# La centralisation automatique des pièces jointes
+
+Dans une maison de repos, un même résident accumule des dizaines de pièces : accord
+de séjour, formulaires médicaux, décomptes de mutuelle, consentements RGPD… Sans
+rangement, ces fichiers finissent éparpillés dans les fils de discussion. La
+**centralisation automatique** règle le problème : **toute pièce jointe déposée sur la
+fiche ou le fil de discussion d'un résident est recopiée dans son dossier personnel**
+de l'app **Documents**, avec application des **étiquettes par défaut**.
+
+Vous n'avez rien à faire : le rangement est **automatique** et **activé par défaut**.
+Le paramétrage (activation, dossier racine, tags) se trouve dans **Réglages > Documents
+> Centralisation des fichiers**, bloc **Maison de repos**.
+
+!!! info "Prérequis"
+    Cette fonctionnalité s'appuie sur l'application **Documents** d'Odoo : elle n'est
+    disponible que si Documents est installée. Le **dossier racine des résidents** et le
+    **dossier personnel** de chaque résident sont créés automatiquement — vous n'avez
+    rien à préparer.
+
+## Comment ça marche
+
+Dès qu'un fichier est joint à un résident — que ce soit **en pièce jointe d'un message
+du fil de discussion** ou **directement sur sa fiche** — Resthome en crée une entrée
+correspondante dans l'app Documents, à l'intérieur du dossier de ce résident.
+
+```mermaid
+graph LR
+  A[Pièce jointe sur la fiche<br/>ou le fil d'un résident] --> B{Résident ?<br/>Centralisation active ?}
+  B -->|Oui| C[Entrée créée dans<br/>le dossier Documents du résident]
+  C --> D[Étiquettes par défaut<br/>appliquées automatiquement]
+  B -->|Non| E[Rien n'est rangé]
+```
+
+Trois conditions déclenchent le rangement :
+
+- la fiche est bien celle d'un **résident** (une personne marquée comme résident) ;
+- la **centralisation** est **activée** pour l'établissement ;
+- l'app **Documents** est installée.
+
+Si l'une manque, la pièce jointe reste simplement attachée au message ou à la fiche,
+sans copie dans Documents.
+
+!!! note "Ce qui n'est PAS centralisé"
+    La centralisation ne concerne **que les résidents**. Les pièces jointes déposées sur
+    un **contact ordinaire**, un **fournisseur** ou un **employé** ne sont pas recopiées
+    dans l'app Documents.
+
+## Où arrivent les documents
+
+Chaque document centralisé est rangé dans le **dossier personnel du résident**, lui-même
+placé sous le dossier racine **« Résidents »**. À l'admission (ou à l'activation de la
+fiche résident), ce dossier personnel est créé automatiquement, avec trois sous-dossiers
+prêts à l'emploi :
+
+- **Documents médicaux**
+- **Documents administratifs**
+- **Documents de facturation**
+
+Le dossier porte le **nom du résident** et se renomme tout seul si le nom change.
+
+!!! tip "Le bouton « Documents » de la fiche du résident"
+    Sur la fiche d'un résident, le bouton **Documents** (compteur en haut de la fiche)
+    ouvre **directement** son dossier dans l'app Documents. Le compteur inclut les
+    pièces rangées dans les **sous-dossiers**, pas seulement à la racine du dossier.
+
+## Les étiquettes par défaut
+
+À chaque document centralisé, Resthome applique automatiquement les **étiquettes par
+défaut** choisies pour l'établissement (**Réglages > Documents > Centralisation des
+fichiers > Tags par défaut**). C'est ce qui permet, ensuite, de **filtrer** et
+**retrouver** rapidement les documents dans l'app Documents.
+
+Resthome fournit déjà une liste de tags prêts à l'emploi, adaptés au métier :
+
+| Étiquette | Usage typique |
+|---|---|
+| **Katz** | Évaluations de dépendance |
+| **Fin de séjour** | Documents de sortie ou de décès |
+| **eAgreement** | Accords MR/MRS (convention de soins) |
+| **OA** | Décomptes et courriers de l'organisme assureur |
+| **Convention** | Convention |
+| **Formulaire médical** | Formulaires et certificats médicaux |
+| **Facturation** | Décomptes et factures |
+| **CPAS** | Prises en charge CPAS |
+| **RGPD** | Consentements et documents RGPD |
+
+!!! tip "Commencez léger"
+    Les **Tags par défaut** sont **optionnels**. Laissez le champ **vide** au démarrage,
+    ou mettez-y un seul tag générique : vous pourrez toujours étiqueter finement chaque
+    document a posteriori dans l'app Documents.
+
+## Qui peut voir les documents
+
+Les documents centralisés **héritent des droits du dossier du résident** : seuls les
+utilisateurs disposant d'un accès à l'app **Documents** les consultent. Ils n'ont pas de
+propriétaire individuel, ce qui évite qu'un fichier « appartienne » à un seul agent et
+garde l'ensemble du dossier résident cohérent et gérable par l'équipe.
+
+!!! note "Cloisonné par établissement"
+    En multi-société, **chaque établissement a son propre dossier racine « Résidents »**
+    et son propre paramétrage de centralisation. Les documents d'un résident restent
+    donc cloisonnés dans sa société.
+
+## Activer ou désactiver
+
+La centralisation est **activée par défaut**. Vous la contrôlez avec le bloc **Maison de
+repos** dans **Réglages > Documents > Centralisation des fichiers** :
+
+- **cocher** le bloc **active** le rangement automatique ;
+- **décocher** le bloc **arrête** la centralisation des **futures** pièces jointes — les
+  documents déjà rangés **restent en place**, rien n'est supprimé ni déplacé.
+
+Le détail des trois réglages (activation, **dossier racine**, **tags par défaut**) est
+décrit dans la page [Réglages des documents](../configuration/reglages-documents.md).
+
+## Points clés à retenir
+
+- Toute pièce jointe déposée sur le **fil de discussion** ou la **fiche** d'un résident
+  est **automatiquement recopiée** dans son dossier Documents.
+- Le rangement ne concerne **que les résidents** — pas les contacts, fournisseurs ou
+  employés.
+- Les **étiquettes par défaut** de l'établissement sont **appliquées automatiquement**
+  à chaque document centralisé.
+- Le **dossier personnel** du résident (et ses sous-dossiers) est créé automatiquement ;
+  le bouton **Documents** de la fiche l'ouvre directement.
+- La centralisation est **activée par défaut** et se désactive en décochant le bloc
+  **Maison de repos** — les documents déjà rangés restent en place.
+- Le réglage et le dossier racine sont **propres à chaque établissement**.
+
+## Pour aller plus loin
+
+- [Documents](index.md)
+- [Réglages des documents](../configuration/reglages-documents.md)
+- [Gérer un résident](../residents/gerer-un-resident.md)
 
 
 ---
@@ -3328,7 +5501,7 @@ profil à la mutuelle.
 ### Que se passe-t-il tant qu'il n'y a pas de Katz validé ?
 
 Tant qu'aucun Katz **validé** n'existe, le résident est en catégorie **O** par défaut,
-et un rappel « Katz à faire » apparaît sur le tableau de bord. Validez le Katz pour
+et un rappel « Katz à faire » apparaît sur le tableau de bord. Validez le Katz et envoyez la via une demande eAgreement Light pour
 déclarer la bonne catégorie à la mutuelle.
 → [L'évaluation Katz](residents/katz.md)
 

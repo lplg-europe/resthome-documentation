@@ -3,7 +3,7 @@ title: Het privémeubilair van de bewoner
 description: "Het privémeubilair van een bewoner in een woonzorgcentrum (WZC/RVT) inventariseren met Resthome: meubels toevoegen, herordenen en archiveren op zijn fiche."
 faq:
   - q: "Waar registreer ik de meubels die een bewoner meebrengt naar het woonzorgcentrum?"
-    a: "Op de fiche van de bewoner, tabblad Verblijfsovereenkomst, rubriek Meubilair bewoner. Daar houdt u de lijst bij van meegebrachte meubels en persoonlijke voorwerpen, met een beschrijving, een opmerking en een datum."
+    a: "Op de fiche van de bewoner, tabblad Overeenkomst, rubriek Meubilair bewoner. Daar houdt u de lijst bij van meegebrachte meubels en persoonlijke voorwerpen, met een beschrijving, een opmerking en een datum."
   - q: "Volgt de meubilairinventaris de bewoner bij een kamerwissel?"
     a: "Ja. De lijst hangt aan de bewoner vast, niet aan de kamer of het verblijf. Bij een kamerwissel of een overdracht ROB/RVT blijft de inventaris ongewijzigd en volgt hij de bewoner."
   - q: "Hoe registreer ik dat een meubel door de familie werd teruggenomen?"
@@ -22,7 +22,7 @@ daarvan een eenvoudige **inventaris** bij, gekoppeld aan de bewoner, zodat u op
 elk moment weet wat werd meegebracht en wat werd teruggenomen.
 
 Deze inventaris vindt u op de **fiche van de bewoner**, tabblad
-**Verblijfsovereenkomst**, in de rubriek **Meubilair bewoner**.
+**Overeenkomst**, in de rubriek **Meubilair bewoner**.
 
 !!! note "Een optionele module"
     Het privémeubilair wordt beheerd door een aparte module, die enkel wordt
@@ -32,12 +32,12 @@ Deze inventaris vindt u op de **fiche van de bewoner**, tabblad
 ## Waar vindt u de inventaris
 
 1. Open de fiche van de bewoner (applicatie **ROB/RVT → Bewoners**).
-2. Ga naar het tabblad **Verblijfsovereenkomst**.
+2. Ga naar het tabblad **Overeenkomst**.
 3. Scrol naar de rubriek **Meubilair bewoner**.
 
 De rubriek toont zich als een tabel: één regel per meubel of voorwerp.
 
-<!-- capture a ajouter : tabblad Verblijfsovereenkomst van de bewonersfiche, rubriek « Meubilair bewoner » met enkele regels -->
+<!-- capture a ajouter : tabblad Overeenkomst van de bewonersfiche, rubriek « Meubilair bewoner » met enkele regels -->
 
 ## Een meubel toevoegen
 
@@ -100,7 +100,7 @@ meubilair blijft aan zijn fiche gekoppeld. Zie
 ## Belangrijkste punten om te onthouden
 
 - De meubilairinventaris houdt u bij op de bewonersfiche, tabblad
-  **Verblijfsovereenkomst**, rubriek **Meubilair bewoner**.
+  **Overeenkomst**, rubriek **Meubilair bewoner**.
 - Eén regel = één meubel of voorwerp: **Beschrijving** (verplicht),
   **Opmerking**, **Datum**.
 - De lijst is **rechtstreeks bewerkbaar**; met het **handvat** herordent u de
