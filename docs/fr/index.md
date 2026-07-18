@@ -1,14 +1,14 @@
 ---
 title: Accueil
-description: Documentation utilisateur du logiciel Resthome pour maisons de repos et de soins (MR/MRS).
+description: "Documentation utilisateur du logiciel Resthome (sur Odoo) pour maisons de repos et de soins (MR/MRS) : résidents, soins, facturation INAMI, eFact, MDA, eAgreement."
 ---
 
 # Bienvenue dans la documentation Resthome
 
 **Resthome** est le logiciel de gestion pour **maisons de repos (MR)** et
-**maisons de repos et de soins (MRS)**, édité par LPLG. Il réunit au même
-endroit vos résidents, les soins, les repas, la facturation INAMI/mutuelle et
-les échanges eHealth belges.
+**maisons de repos et de soins (MRS)**, édité par LPLG **sur Odoo**. Il réunit au
+même endroit vos résidents, les soins, les repas, la facturation INAMI/mutuelle et
+les échanges eHealth belges (eFact, MDA, eAgreement).
 
 Cette documentation vous accompagne au quotidien, étape par étape, avec des
 captures d'écran.

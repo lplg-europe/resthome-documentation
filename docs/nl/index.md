@@ -1,14 +1,14 @@
 ---
 title: Home
-description: Gebruikersdocumentatie van de Resthome-software voor woonzorgcentra (WZC/RVT).
+description: "Gebruikersdocumentatie van de Resthome-software (op Odoo) voor woonzorgcentra (WZC/RVT): bewoners, zorg, RIZIV-facturatie, eFact, MDA, eAgreement."
 ---
 
 # Welkom bij de Resthome-documentatie
 
 **Resthome** is de beheersoftware voor **rustoorden (ROB)** en **rust- en
-verzorgingstehuizen (RVT)**, uitgegeven door LPLG. Ze brengt uw bewoners,
-de zorg, de maaltijden, de RIZIV/mutualiteitsfacturatie en de Belgische
-eHealth-uitwisselingen samen op één plek.
+verzorgingstehuizen (RVT)**, uitgegeven door LPLG **op Odoo**. Ze brengt uw
+bewoners, de zorg, de maaltijden, de RIZIV/mutualiteitsfacturatie en de Belgische
+eHealth-uitwisselingen (eFact, MDA, eAgreement) samen op één plek.
 
 Deze documentatie begeleidt u dagelijks, stap voor stap, met schermafbeeldingen.
 
