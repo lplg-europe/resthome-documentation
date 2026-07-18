@@ -1,0 +1,741 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-18 19:30+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: nl <LL@li.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/ehealth/efact-paiements.md:5
+msgid "Payment tracking and settlement reconciliation"
+msgstr "Betalingen opvolgen en afrekeningen afpunten"
+
+#: ../../content/ehealth/efact-paiements.md:8
+msgid ""
+"Find out whether the health insurance fund has paid your nursing home "
+"(MR/MRS) lump sums: read the settlement (920900), reconcile it automatically"
+" and chase overdue OAs."
+msgstr ""
+"Weten of de mutualiteit uw forfaits in het woonzorgcentrum (WZC/RVT) betaald"
+" heeft: de afrekening (920900) lezen, automatisch afpunten en trage VI's "
+"aanmanen."
+
+#: ../../content/ehealth/efact-paiements.md:12
+msgid ""
+"What is the difference between the acknowledgement of receipt (931000) and "
+"the settlement (920900)?"
+msgstr ""
+"Wat is het verschil tussen het ontvangstbewijs (931000) en de afrekening "
+"(920900)?"
+
+#: ../../content/ehealth/efact-paiements.md:13
+msgid ""
+"The acknowledgement (931000) only confirms that the insurer received your "
+"batch and passed the first check — nothing has been paid yet. The settlement"
+" (920900) is the final result: it shows, line by line, what is accepted and "
+"what is rejected, and serves as a payment notice under Account C. Until the "
+"settlement arrives, no amount is final."
+msgstr ""
+"Het ontvangstbewijs (931000) bevestigt enkel dat de verzekeringsinstelling "
+"uw zending ontvangen en de eerste controle doorstaan heeft — er is nog niets"
+" betaald. De afrekening (920900) is het eindresultaat: ze toont regel per "
+"regel wat aanvaard en wat geweigerd wordt, en geldt als betaalbericht in "
+"Rekening C. Zolang de afrekening niet binnen is, is geen enkel bedrag "
+"definitief."
+
+#: ../../content/ehealth/efact-paiements.md:15
+msgid "How can I tell whether an eFact batch has been paid in Resthome?"
+msgstr "Hoe weet ik of een eFact-zending betaald is in Resthome?"
+
+#: ../../content/ehealth/efact-paiements.md:16
+msgid ""
+"Open the batch: the Payment tab shows Paid, the payment reference and the "
+"amount. Under Account C, as soon as the settlement carries a real payment "
+"reference, Resthome marks the batch Paid automatically. For an overview, the"
+" eFact Cockpit gathers the settled batches not yet reconciled and the "
+"overdue OAs."
+msgstr ""
+"Open het lot: het tabblad Betaling toont Betaald, de betalingsreferentie en "
+"het bedrag. In Rekening C markeert Resthome het lot automatisch als Betaald "
+"zodra de afrekening een echte betalingsreferentie draagt. Voor een "
+"totaalbeeld bundelt de eFact Cockpit de afgerekende maar nog niet afgepunte "
+"zendingen en de VI's die te laat betalen."
+
+#: ../../content/ehealth/efact-paiements.md:18
+msgid "What does it mean to \"reconcile\" a settlement?"
+msgstr "Wat betekent een afrekening « afpunten »?"
+
+#: ../../content/ehealth/efact-paiements.md:19
+msgid ""
+"Reconciling means confirming that the money announced by the settlement has "
+"actually been received. Resthome automatically matches each settlement to "
+"its batch; you confirm receipt by opening the settlement and clicking Mark "
+"Reconciled."
+msgstr ""
+"Afpunten betekent bevestigen dat het door de afrekening aangekondigde geld "
+"ook effectief ontvangen is. Resthome letter elke afrekening automatisch af "
+"tegen haar lot; u bevestigt de ontvangst door de afrekening te openen en op "
+"Mark Reconciled (afgepunt) te klikken."
+
+#: ../../content/ehealth/efact-paiements.md:21
+msgid "An insurer is late paying: can I claim late-payment interest?"
+msgstr ""
+"Een verzekeringsinstelling betaalt te laat: kan ik nalatigheidsintresten "
+"vorderen?"
+
+#: ../../content/ehealth/efact-paiements.md:22
+msgid ""
+"Yes, if the batch was submitted on time (by the 20th of month M+1 at the "
+"latest). The OA must pay by the end of the 2nd month following submission; "
+"beyond that, Resthome calculates the late-payment interest (accepted amount "
+"× legal rate × days late / 365). The legal rate is set in the eHealth "
+"settings."
+msgstr ""
+"Ja, als de zending tijdig werd ingediend (uiterlijk de 20e van maand M+1). "
+"De VI moet betalen tegen het einde van de 2e maand na de indiening; daarna "
+"berekent Resthome de nalatigheidsintresten (aanvaard bedrag × wettelijke "
+"rentevoet × dagen vertraging / 365). De wettelijke rentevoet stelt u in bij "
+"de eHealth-instellingen."
+
+#: ../../content/ehealth/efact-paiements.md:24
+msgid ""
+"The settlement shows both accepted AND rejected amounts: what should I do?"
+msgstr "De afrekening toont zowel aanvaarde ALS geweigerde bedragen: wat nu?"
+
+#: ../../content/ehealth/efact-paiements.md:25
+msgid ""
+"This is a partial rejection: the accepted part is paid, the rejected lines "
+"must be corrected and resent. Resthome automatically creates a remainder for"
+" the rejected lines and lists them in the Cockpit's Rejected lines list."
+msgstr ""
+"Dat is een gedeeltelijke weigering: het aanvaarde deel wordt betaald, de "
+"geweigerde regels moeten gecorrigeerd en opnieuw verzonden worden. Resthome "
+"maakt automatisch een reliquat aan voor de geweigerde regels en zet ze in de"
+" lijst Rejected lines (geweigerde regels) van de Cockpit."
+
+#: ../../content/ehealth/efact-paiements.md:27
+msgid ""
+"Where can I see the list of all settlements and responses received from the "
+"OAs?"
+msgstr ""
+"Waar zie ik de lijst van alle ontvangen afrekeningen en VI-antwoorden?"
+
+#: ../../content/ehealth/efact-paiements.md:28
+msgid ""
+"The eFact Cockpit offers the OA retrievals list: all retrieved messages "
+"(acknowledgements, settlements, rejections), filterable by OA, month and "
+"type, with XLSX export. The eFact Settlements list, in contrast, shows only "
+"the settlements (920900)."
+msgstr ""
+"De eFact Cockpit biedt de lijst OA retrievals (VI-ophalingen): alle "
+"opgehaalde berichten (ontvangstbewijzen, afrekeningen, weigeringen), "
+"filterbaar op VI, maand en type, met XLSX-export. De lijst eFact Settlements"
+" toont enkel de afrekeningen (920900)."
+
+#: ../../content/ehealth/efact-paiements.md:31
+msgid ""
+"Once your lump sums have been sent via [eFact](efact.md), the real question "
+"remains: **\"have I been paid?\"**. This page explains how Resthome answers "
+"it, from the automatically reconciled **settlement (920900)** to **chasing "
+"overdue insurers (OA)**."
+msgstr ""
+"Zodra uw forfaits via [eFact](efact.md) verstuurd zijn, blijft de echte "
+"vraag over: **« ben ik betaald? »**. Deze pagina legt uit hoe Resthome "
+"daarop antwoordt, van de automatisch afgepunte **afrekening (920900)** tot "
+"het **aanmanen van trage verzekeringsinstellingen (VI)**."
+
+#: ../../content/ehealth/efact-paiements.md:36
+msgid "You'll find everything in the **MR/MRS → eHealth → eFact** app:"
+msgstr "U vindt alles in de toepassing **MR/MRS → eHealth → eFact**:"
+
+#: ../../content/ehealth/efact-paiements.md:38
+msgid "the **Cockpit** — your \"what to do now\" control board;"
+msgstr "de **Cockpit** — uw stuurbord « wat nu te doen »;"
+
+#: ../../content/ehealth/efact-paiements.md:39
+msgid "**eFact Settlements** — the list of **settlements** received;"
+msgstr "**eFact Settlements** — de lijst met ontvangen **afrekeningen**;"
+
+#: ../../content/ehealth/efact-paiements.md:40
+msgid "**eFact Batches** — each batch and its **Payment tab**."
+msgstr ""
+"**eFact Batches** (eFact-loten) — elk lot en zijn **tabblad Betaling**."
+
+#: ../../content/ehealth/efact-paiements.md:42
+msgid "Acknowledgement of receipt ≠ settlement"
+msgstr "Ontvangstbewijs ≠ afrekening"
+
+#: ../../content/ehealth/efact-paiements.md:45
+msgid ""
+"Don't confuse the two OA responses. The **acknowledgement of receipt "
+"(931000)** just says \"received\". The **settlement (920900)** says \"here "
+"is what I'm paying\". It's the settlement that matters for the money."
+msgstr ""
+"Verwar de twee VI-antwoorden niet. Het **ontvangstbewijs (931000)** zegt "
+"enkel « goed ontvangen ». De **afrekening (920900)** zegt « dit is wat ik "
+"betaal ». Voor het geld telt de afrekening."
+
+#: ../../content/ehealth/efact-paiements.md:50
+msgid ""
+"Acknowledgement (931000) or settlement (920900): how to tell them apart"
+msgstr "Ontvangstbewijs (931000) of afrekening (920900): het juiste houvast"
+
+#: ../../content/ehealth/efact-paiements.md:42
+msgid "Response"
+msgstr "Antwoord"
+
+#: ../../content/ehealth/efact-paiements.md:42
+msgid "What it means"
+msgstr "Wat het betekent"
+
+#: ../../content/ehealth/efact-paiements.md:42
+msgid "Is there a payment?"
+msgstr "Is er betaling?"
+
+#: ../../content/ehealth/efact-paiements.md:42
+msgid "**Acknowledgement of receipt (931000)**"
+msgstr "**Ontvangstbewijs (931000)**"
+
+#: ../../content/ehealth/efact-paiements.md:42
+msgid "The OA has **received** your batch and passed the first format check."
+msgstr ""
+"De VI heeft uw zending **ontvangen** en de eerste formaatcontrole doorstaan."
+
+#: ../../content/ehealth/efact-paiements.md:42
+msgid "No — nothing is decided yet. You must wait for the settlement."
+msgstr "Nee — er is nog niets beslist. Wacht op de afrekening."
+
+#: ../../content/ehealth/efact-paiements.md:42
+msgid "**Settlement (920900)**"
+msgstr "**Afrekening (920900)**"
+
+#: ../../content/ehealth/efact-paiements.md:42
+msgid ""
+"The **final result**, line by line: **accepted** and **rejected** amounts. "
+"Under Account C, it **serves as a payment notice**."
+msgstr ""
+"Het **eindresultaat**, regel per regel: **aanvaarde** en **geweigerde** "
+"bedragen. In Rekening C **geldt ze als betaalbericht**."
+
+#: ../../content/ehealth/efact-paiements.md:42
+msgid "Yes — this is where what is actually paid appears."
+msgstr "Ja — hier verschijnt wat effectief betaald wordt."
+
+#: ../../content/ehealth/efact-paiements.md:57
+msgid "Account C (Wallonia / AViQ)"
+msgstr "Rekening C (Wallonië / AViQ)"
+
+#: ../../content/ehealth/efact-paiements.md:60
+msgid ""
+"Since 2025, Walloon MR/MRS billing operates under **Account C**: the OA pays"
+" and **the settlement acts as a payment notice**. The settlement therefore "
+"carries the **payment reference** and the **amount**, but **no payment "
+"date** (the format doesn't provide for one). Resthome never fabricates a "
+"date: it stays empty until a real bank date is entered."
+msgstr ""
+"Sinds 2025 werkt de Waalse WZC/RVT-facturatie met **Rekening C**: de VI "
+"betaalt en **de afrekening geldt als betaalbericht**. De afrekening draagt "
+"dus de **betalingsreferentie** en het **bedrag**, maar **geen betaaldatum** "
+"(het formaat voorziet er geen). Resthome verzint nooit een datum: die blijft"
+" leeg zolang geen echte bankdatum wordt ingevoerd."
+
+#: ../../content/ehealth/efact-paiements.md:67
+msgid "1. The settlement (920900) reconciled automatically"
+msgstr "1. De afrekening (920900) automatisch afgepunt"
+
+#: ../../content/ehealth/efact-paiements.md:69
+msgid ""
+"When a settlement comes back from the OA (via automatic retrieval or a "
+"batch's **Process Response** button), Resthome **reconciles it on its own**,"
+" with no input from you:"
+msgstr ""
+"Wanneer een afrekening van de VI terugkomt (via de automatische ophaling of "
+"de knop **Process Response** op een lot), **letter Resthome ze vanzelf af**,"
+" zonder invoer van uw kant:"
+
+#: ../../content/ehealth/efact-paiements.md:73
+msgid "it creates a **Settlement** record attached to the batch;"
+msgstr "ze maakt een **afrekening (Settlement)** aan, gekoppeld aan het lot;"
+
+#: ../../content/ehealth/efact-paiements.md:74
+msgid ""
+"it **re-links each line** of the settlement to the billed line of the right "
+"resident (by NISS and amount);"
+msgstr ""
+"ze **koppelt elke regel** van de afrekening terug aan de gefactureerde regel"
+" van de juiste bewoner (op NISS en bedrag);"
+
+#: ../../content/ehealth/efact-paiements.md:76
+msgid ""
+"it marks each line **accepted** or **rejected**; an accepted lump sum is not"
+" repeated in the settlement, so **any line not mentioned is deemed "
+"accepted** (AViQ rule);"
+msgstr ""
+"ze markeert elke regel **aanvaard** of **geweigerd**; een aanvaard forfait "
+"wordt niet herhaald in de afrekening, dus **elke niet-vermelde regel geldt "
+"als aanvaard** (AViQ-regel);"
+
+#: ../../content/ehealth/efact-paiements.md:79
+msgid ""
+"it **updates the batch status**: **settled** (all accepted), **rejected** "
+"(all rejected) or **partial_reject** (a mix, or a partial settlement "
+"awaiting the rest);"
+msgstr ""
+"ze **werkt de status van het lot bij**: **settled** (alles aanvaard), "
+"**rejected** (alles geweigerd) of **partial_reject** (mengeling, of "
+"gedeeltelijke afrekening in afwachting van de rest);"
+
+#: ../../content/ehealth/efact-paiements.md:82
+msgid ""
+"if lines are rejected, it **automatically prepares a remainder** to resubmit"
+" them (see [eFact rejections](efact-rejets.md))."
+msgstr ""
+"bij geweigerde regels bereidt ze **automatisch een reliquat** voor om ze "
+"opnieuw in te dienen (zie [eFact-weigeringen](efact-rejets.md))."
+
+#: ../../content/ehealth/efact-paiements.md:85
+msgid ""
+"Under Account C, as soon as the settlement carries a **real payment "
+"reference** and a **positive accepted amount**, the batch is marked **Paid**"
+" automatically. A fully rejected settlement (€0 accepted) carries a "
+"reference but pays nothing — so it is **not** marked paid."
+msgstr ""
+"In Rekening C markeert Resthome het lot automatisch als **Betaald** zodra de"
+" afrekening een **echte betalingsreferentie** en een **positief aanvaard "
+"bedrag** draagt. Een volledig geweigerde afrekening (0 € aanvaard) draagt "
+"wel een referentie maar betaalt niets — ze wordt dus **niet** als betaald "
+"gemarkeerd."
+
+#: ../../content/ehealth/efact-paiements.md:90
+msgid "2. The eFact Settlements screen (the settlements)"
+msgstr "2. Het scherm eFact Settlements (de afrekeningen)"
+
+#: ../../content/ehealth/efact-paiements.md:92
+msgid ""
+"Menu **eHealth → eFact → eFact Settlements**. This is the list of all "
+"**settlements (920900)** received, one per payment."
+msgstr ""
+"Menu **eHealth → eFact → eFact Settlements**. Dit is de lijst van alle "
+"ontvangen **afrekeningen (920900)**, één per betaling."
+
+#: ../../content/ehealth/efact-paiements.md:95
+msgid ""
+"The list shows: the **reference**, the **batch** concerned, the **receipt "
+"date**, the **Accepted** / **Rejected** / **Paid** amounts and the **payment"
+" reference**, plus a **status** badge."
+msgstr ""
+"De lijst toont: de **referentie**, het betrokken **lot**, de "
+"**ontvangstdatum**, de bedragen **Accepted** / **Rejected** / **Paid** en de"
+" **betalingsreferentie**, plus een **statusbadge**."
+
+#: ../../content/ehealth/efact-paiements.md:101
+msgid ""
+"Open a settlement for the details. The screen is **read-only** (nothing is "
+"entered by hand) and follows three states:"
+msgstr ""
+"Open een afrekening voor het detail. Het scherm is **alleen-lezen** (er "
+"wordt niets manueel ingevoerd) en doorloopt drie statussen:"
+
+#: ../../content/ehealth/efact-paiements.md:57
+msgid "State"
+msgstr "Status"
+
+#: ../../content/ehealth/efact-paiements.md:57
+msgid "Meaning"
+msgstr "Betekenis"
+
+#: ../../content/ehealth/efact-paiements.md:57
+msgid "**Received**"
+msgstr "**Received** (ontvangen)"
+
+#: ../../content/ehealth/efact-paiements.md:57
+msgid "The settlement has just arrived."
+msgstr "De afrekening is net binnen."
+
+#: ../../content/ehealth/efact-paiements.md:57
+msgid "**Processed**"
+msgstr "**Processed** (verwerkt)"
+
+#: ../../content/ehealth/efact-paiements.md:57
+msgid ""
+"Its lines have been allocated to the batch. Resthome does this step "
+"**automatically** on receipt."
+msgstr ""
+"Haar regels zijn over het lot verdeeld. Resthome doet deze stap "
+"**automatisch** bij ontvangst."
+
+#: ../../content/ehealth/efact-paiements.md:57
+msgid "**Reconciled**"
+msgstr "**Reconciled** (afgepunt)"
+
+#: ../../content/ehealth/efact-paiements.md:57
+msgid "You have **confirmed** that the money was actually received."
+msgstr "U hebt **bevestigd** dat het geld effectief ontvangen is."
+
+#: ../../content/ehealth/efact-paiements.md:110
+msgid ""
+"The **Process** button appears only if a settlement has stayed in *Received*"
+" without processing — click it to allocate the lines."
+msgstr ""
+"De knop **Process** (verwerken) verschijnt enkel als een afrekening in "
+"*Received* is blijven staan zonder verwerking — klik om ze te verdelen."
+
+#: ../../content/ehealth/efact-paiements.md:112
+msgid ""
+"The **Mark Reconciled** button confirms receipt of the payment once verified"
+" on your bank statement."
+msgstr ""
+"De knop **Mark Reconciled** (als afgepunt markeren) bevestigt de ontvangst "
+"van de betaling nadat u ze op uw bankuittreksel hebt nagekeken."
+
+#: ../../content/ehealth/efact-paiements.md:115
+msgid ""
+"The **Lines** tab details, line by line: no., resident, amount claimed, "
+"accepted, rejected, the **Accepted** checkbox, and — in case of refusal — "
+"the **code** and **rejection reason**. Rejected lines stand out in red."
+msgstr ""
+"Het tabblad **Lines** detailleert, regel per regel: nr., bewoner, gevraagd, "
+"aanvaard, geweigerd bedrag, het vinkje **Accepted**, en — bij weigering — de"
+" **code** en de **weigeringsreden**. Geweigerde regels springen in het rood "
+"eruit."
+
+#: ../../content/ehealth/efact-paiements.md:119
+msgid "Read the settlement as the OA sent it"
+msgstr "De afrekening lezen zoals de VI ze verstuurde"
+
+#: ../../content/ehealth/efact-paiements.md:122
+msgid ""
+"A **Decoded 920900** button (reserved for eHealth managers) shows the raw "
+"settlement file, zone by zone, to check a value as close to the source as "
+"possible."
+msgstr ""
+"Een knop **Decoded 920900** (voorbehouden aan eHealth-beheerders) toont het "
+"ruwe afrekeningsbestand, zone per zone, om een waarde zo dicht mogelijk bij "
+"de bron na te kijken."
+
+#: ../../content/ehealth/efact-paiements.md:127
+msgid "3. A batch's Payment tab"
+msgstr "3. Het tabblad Betaling van een lot"
+
+#: ../../content/ehealth/efact-paiements.md:129
+msgid ""
+"On a batch ([eFact batches](efact.md)), once the batch has been sent, the "
+"**Payment** group summarizes the payment status:"
+msgstr ""
+"Op een lot ([eFact-loten](efact.md)) vat, zodra de zending vertrokken is, de"
+" groep **Payment** (Betaling) de betaalstatus samen:"
+
+#: ../../content/ehealth/efact-paiements.md:132
+msgid "**Paid** — the checkbox turns green when the batch is paid;"
+msgstr ""
+"**Paid** (Betaald) — het vinkje wordt groen wanneer het lot betaald is;"
+
+#: ../../content/ehealth/efact-paiements.md:133
+msgid "**Payment Reference** — the OA's payment reference;"
+msgstr "**Payment Reference** — de betalingsreferentie van de VI;"
+
+#: ../../content/ehealth/efact-paiements.md:134
+msgid "**Payment Date** — the date (often empty under Account C, see above);"
+msgstr "**Payment Date** — de datum (vaak leeg in Rekening C, zie hoger);"
+
+#: ../../content/ehealth/efact-paiements.md:135
+msgid "**Total Paid** — the amount paid."
+msgstr "**Total Paid** — het betaalde bedrag."
+
+#: ../../content/ehealth/efact-paiements.md:137
+msgid "Marking paid manually"
+msgstr "Manueel als betaald markeren"
+
+#: ../../content/ehealth/efact-paiements.md:140
+msgid ""
+"Some OAs pay without a usable payment reference in the settlement. An "
+"eHealth manager can then enable **Marked Paid Manually** to attest to a "
+"payment received outside the flow."
+msgstr ""
+"Sommige VI's betalen zonder bruikbare betalingsreferentie in de afrekening. "
+"Een eHealth-beheerder kan dan **Marked Paid Manually** (manueel als betaald "
+"gemarkeerd) inschakelen om de buiten de stroom ontvangen betaling vast te "
+"leggen."
+
+#: ../../content/ehealth/efact-paiements.md:145
+msgid ""
+"A **Status** box shows in a badge what the batch is waiting for: *Awaiting "
+"OA response*, *Awaiting settlement (920900)*, *Complete* or *Rejected*. When"
+" a batch is **settled**, the **Close** button lets you file it away for "
+"good."
+msgstr ""
+"Een kader **Status** toont in één badge waarop het lot wacht: *Awaiting OA "
+"response* (wacht op antwoord), *Awaiting settlement (920900)* (wacht op de "
+"afrekening), *Complete* (voltooid) of *Rejected* (te corrigeren). Wanneer "
+"een lot **settled** is, laat de knop **Close** (afsluiten) toe het "
+"definitief te klasseren."
+
+#: ../../content/ehealth/efact-paiements.md:149
+msgid ""
+"In the batch list, the **Paid** / **Unpaid** filters and the optional "
+"**Payment Ref.**, **Payment Date**, **Amount Paid** columns help you take "
+"stock month by month."
+msgstr ""
+"In de lotenlijst helpen de filters **Paid** / **Unpaid** (betaald / "
+"onbetaald) en de optionele kolommen **Payment Ref.**, **Payment Date**, "
+"**Amount Paid** om maand per maand de balans op te maken."
+
+#: ../../content/ehealth/efact-paiements.md:153
+msgid "4. The eFact Cockpit: \"have I been paid?\" at a glance"
+msgstr "4. De eFact Cockpit: « ben ik betaald? » in één oogopslag"
+
+#: ../../content/ehealth/efact-paiements.md:155
+msgid ""
+"Menu **eHealth → eFact → Cockpit** (also accessible from a period or a "
+"dashboard card). The Cockpit organizes all the work into **action stacks**, "
+"with a counter and a button per stack. Three stacks answer the payment "
+"question directly."
+msgstr ""
+"Menu **eHealth → eFact → Cockpit** (ook bereikbaar vanuit een periode of een"
+" dashboardkaart). De Cockpit ordent al het werk in **actiestapels**, met een"
+" teller en een knop per stapel. Drie stapels beantwoorden rechtstreeks de "
+"vraag naar de betaling."
+
+#: ../../content/ehealth/efact-paiements.md:162
+msgid ""
+"**To reconcile** — the batches **settled but whose payment is not yet "
+"confirmed**. The total expected amount is shown; the **Reconcile payments** "
+"button opens the list to reconcile them one by one."
+msgstr ""
+"**To reconcile** (af te punten) — de **afgerekende loten waarvan de betaling"
+" nog niet bevestigd is**. Het totale verwachte bedrag staat vermeld; de knop"
+" **Reconcile payments** opent de lijst om ze één voor één af te punten."
+
+#: ../../content/ehealth/efact-paiements.md:165
+msgid ""
+"**Overdue payments** — the batches **accepted but still unpaid** whose **OA "
+"payment deadline has passed**. See chasing below."
+msgstr ""
+"**Overdue payments** (achterstallige betalingen) — de zendingen die "
+"**aanvaard maar nog steeds onbetaald** zijn en waarvan de **VI-betaaltermijn"
+" verstreken** is. Zie het aanmanen hieronder."
+
+#: ../../content/ehealth/efact-paiements.md:167
+msgid ""
+"**Rejected lines** — the **worklist** of rejected lines still to be resent "
+"(resident + code + amount), filterable by cause, OA and month."
+msgstr ""
+"**Rejected lines** (geweigerde regels) — de **werklijst** van geweigerde "
+"regels die nog opnieuw verzonden moeten worden (bewoner + code + bedrag), "
+"filterbaar op oorzaak, VI en maand."
+
+#: ../../content/ehealth/efact-paiements.md:170
+msgid "Two markers round out the picture:"
+msgstr "Twee bakens vervolledigen het beeld:"
+
+#: ../../content/ehealth/efact-paiements.md:172
+msgid ""
+"**OA retrievals** — the **complete log** of everything the OA has returned: "
+"acknowledgements, settlements and rejections, filterable by OA, month and "
+"type, with an **Export XLSX** button."
+msgstr ""
+"**OA retrievals** (VI-ophalingen) — het **volledige logboek** van alles wat "
+"de VI terugstuurde: ontvangstbewijzen, afrekeningen en weigeringen, "
+"filterbaar op VI, maand en type, met een knop **Export XLSX**."
+
+#: ../../content/ehealth/efact-paiements.md:175
+msgid ""
+"**Rejects by cause** — a table that groups the rejected lines **by reason**,"
+" to tackle the systemic cause rather than line by line."
+msgstr ""
+"**Rejects by cause** (weigeringen per oorzaak) — een tabel die de geweigerde"
+" regels **per reden** groepeert, om de systemische oorzaak aan te pakken in "
+"plaats van regel per regel."
+
+#: ../../content/ehealth/efact-paiements.md:178
+msgid "Fetch the responses"
+msgstr "De antwoorden gaan ophalen"
+
+#: ../../content/ehealth/efact-paiements.md:181
+msgid ""
+"If batches stay pending, the **Fetch responses** button queries the OA "
+"platform and updates the statuses. Responses also arrive automatically, but "
+"this button forces an immediate check."
+msgstr ""
+"Blijven er loten in afwachting, dan bevraagt de knop **Fetch responses** "
+"(antwoorden ophalen) het VI-platform en werkt de statussen bij. De "
+"antwoorden komen ook automatisch binnen, maar deze knop forceert een "
+"onmiddellijke controle."
+
+#: ../../content/ehealth/efact-paiements.md:186
+msgid "5. Chasing an overdue OA"
+msgstr "5. Een trage VI aanmanen"
+
+#: ../../content/ehealth/efact-paiements.md:188
+msgid ""
+"The **Overdue payments** stack lists the batches **submitted on time**, "
+"**accepted** by the OA but **unpaid** beyond the deadline. The **Chase (by "
+"OA)** button opens these batches **grouped by insurer**: you immediately see"
+" **who to chase** and **for how much** (the accepted total is summed per "
+"OA)."
+msgstr ""
+"De stapel **Overdue payments** lijst de zendingen op die **tijdig "
+"ingediend**, door de VI **aanvaard** maar **niet betaald** zijn na de "
+"vervaldag. De knop **Chase (by OA)** opent die loten **gegroepeerd per "
+"verzekeringsinstelling**: u ziet meteen **wie u moet aanmanen** en **voor "
+"welk bedrag** (het aanvaarde totaal wordt per VI opgeteld)."
+
+#: ../../content/ehealth/efact-paiements.md:193
+msgid ""
+"To write to the OA, the **Contact OA** button (present on each batch) "
+"prepares contact with the right billing correspondent."
+msgstr ""
+"Om de VI aan te schrijven bereidt de knop **Contact OA** (aanwezig op elk "
+"lot) het contact met de juiste facturatiecontactpersoon voor."
+
+#: ../../content/ehealth/efact-paiements.md:196
+msgid "6. Late-payment interest (moratory interest)"
+msgstr "6. Nalatigheidsintresten"
+
+#: ../../content/ehealth/efact-paiements.md:198
+msgid ""
+"A batch paid too late may entitle you to **late-payment interest**. Resthome"
+" applies the AViQ rule:"
+msgstr ""
+"Een te laat betaalde zending kan recht geven op **nalatigheidsintresten**. "
+"Resthome past de AViQ-regel toe:"
+
+#: ../../content/ehealth/efact-paiements.md:201
+msgid ""
+"the batch must have been **submitted on time** (sent by the **20th of month "
+"M+1** at the latest) — this is the **eligibility** condition;"
+msgstr ""
+"de zending moet **tijdig ingediend** zijn (verstuurd uiterlijk de **20e van "
+"maand M+1**) — dat is de voorwaarde voor **aanspraak**;"
+
+#: ../../content/ehealth/efact-paiements.md:203
+msgid ""
+"the OA must pay **by the end of the 2nd month following submission**: this "
+"is the **OA Payment Deadline**;"
+msgstr ""
+"de VI moet betalen **tegen het einde van de 2e maand na de indiening**: dat "
+"is de **OA Payment Deadline** (betaaltermijn);"
+
+#: ../../content/ehealth/efact-paiements.md:205
+msgid ""
+"past this date, interest accrues, calculated as: **accepted amount × annual "
+"legal rate × days late / 365**."
+msgstr ""
+"na die datum lopen de intresten, berekend als: **aanvaard bedrag × "
+"jaarlijkse wettelijke rentevoet × dagen vertraging / 365**."
+
+#: ../../content/ehealth/efact-paiements.md:208
+msgid ""
+"On the batch, as soon as the deadline has passed and the batch is still "
+"unpaid, a **Late-payment interest (OA)** group appears with the "
+"**deadline**, the **days late** and the **interest due**. The batch list "
+"offers the **OA Payment Overdue** filter and an **OA Pay Deadline** column "
+"(in red if passed)."
+msgstr ""
+"Op het lot verschijnt, zodra de termijn verstreken is en het lot nog "
+"onbetaald, een groep **Late-payment interest (OA)** met de **termijn**, de "
+"**dagen vertraging** en de **verschuldigde intrest**. De lotenlijst biedt de"
+" filter **OA Payment Overdue** en een kolom **OA Pay Deadline** (rood indien"
+" verstreken)."
+
+#: ../../content/ehealth/efact-paiements.md:213
+msgid "Enter the legal rate"
+msgstr "De wettelijke rentevoet invullen"
+
+#: ../../content/ehealth/efact-paiements.md:216
+msgid ""
+"The calculation stays at **0 as long as the legal rate is not entered**. "
+"Enter the **annual legal interest rate** published under **eHealth → "
+"Settings → Legal Interest Rate (%)** — see [eHealth "
+"settings](../configuration/reglages-ehealth.md). This is a value **specific "
+"to your establishment / to the current year**."
+msgstr ""
+"De berekening blijft op **0 zolang de wettelijke rentevoet niet ingevoerd "
+"is**. Vul de gepubliceerde **jaarlijkse wettelijke rentevoet** in bij "
+"**eHealth → Instellingen → Legal Interest Rate (%)** — zie [eHealth-"
+"instellingen](../configuration/reglages-ehealth.md). Dat is een waarde "
+"**eigen aan uw instelling / aan het lopende jaar**."
+
+#: ../../content/ehealth/efact-paiements.md:222
+msgid "Key points to remember"
+msgstr "Belangrijkste punten"
+
+#: ../../content/ehealth/efact-paiements.md:224
+msgid ""
+"The **acknowledgement (931000)** pays nothing; only the **settlement "
+"(920900)** tells you what is actually paid."
+msgstr ""
+"Het **ontvangstbewijs (931000)** betaalt niets; enkel de **afrekening "
+"(920900)** zegt wat effectief betaald wordt."
+
+#: ../../content/ehealth/efact-paiements.md:226
+msgid ""
+"Resthome **reconciles the settlement automatically**: lines allocated, batch"
+" status updated, remainder created for the rejections."
+msgstr ""
+"Resthome **punt de afrekening automatisch af**: regels verdeeld, lotstatus "
+"bijgewerkt, reliquat aangemaakt voor de weigeringen."
+
+#: ../../content/ehealth/efact-paiements.md:228
+msgid ""
+"Under **Account C**, a settlement with a real payment reference marks the "
+"batch **Paid** automatically (the payment date may stay empty)."
+msgstr ""
+"In **Rekening C** markeert een afrekening met echte betalingsreferentie het "
+"lot automatisch als **Betaald** (de betaaldatum kan leeg blijven)."
+
+#: ../../content/ehealth/efact-paiements.md:230
+msgid ""
+"**Reconciling** a settlement (**Mark Reconciled**) means confirming the "
+"money received; the Cockpit gathers the **To reconcile** and the **OAs to "
+"chase**."
+msgstr ""
+"Een afrekening **afpunten** (**Mark Reconciled**) betekent het ontvangen "
+"geld bevestigen; de Cockpit bundelt de **af te punten** loten en de **aan te"
+" manen VI's**."
+
+#: ../../content/ehealth/efact-paiements.md:232
+msgid ""
+"**Late-payment interest** is only calculated after entering the **legal "
+"rate** in the eHealth settings."
+msgstr ""
+"**Nalatigheidsintresten** worden pas berekend nadat u de **wettelijke "
+"rentevoet** in de eHealth-instellingen hebt ingevuld."
+
+#: ../../content/ehealth/efact-paiements.md:235
+msgid "Further reading"
+msgstr "Meer weten"
+
+#: ../../content/ehealth/efact-paiements.md:237
+msgid "[Electronic billing (eFact)](efact.md)"
+msgstr "[Elektronische facturatie (eFact)](efact.md)"
+
+#: ../../content/ehealth/efact-paiements.md:238
+msgid "[eFact rejections — causes and solutions](efact-rejets.md)"
+msgstr "[eFact-weigeringen — oorzaken en oplossingen](efact-rejets.md)"
+
+#: ../../content/ehealth/efact-paiements.md:239
+msgid "[Billing a month](../facturation/facturer-un-mois.md)"
+msgstr "[Een maand factureren](../facturation/facturer-un-mois.md)"
+
+#: ../../content/ehealth/efact-paiements.md:240
+msgid "[eHealth settings](../configuration/reglages-ehealth.md)"
+msgstr "[eHealth-instellingen](../configuration/reglages-ehealth.md)"
+
+#: ../../content/ehealth/efact-paiements.md:241
+msgid "[eHealth overview](index.md)"
+msgstr "[eHealth-overzicht](index.md)"

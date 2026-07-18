@@ -1,0 +1,411 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-18 19:30+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/documents/index.md:1
+msgid "Resident documents"
+msgstr ""
+
+#: ../../content/documents/index.md:4
+msgid ""
+"The automatic document folder for every nursing home (MR/MRS) resident: "
+"subfolders, tags, and the Documents button on the record."
+msgstr ""
+
+#: ../../content/documents/index.md:8
+msgid "Where is a resident's document folder located?"
+msgstr ""
+
+#: ../../content/documents/index.md:9
+msgid ""
+"In Odoo's Documents app, under the \"Residents\" folder. The easiest way:"
+" open the resident's record and click the \"Documents\" button — it opens"
+" their personal folder directly."
+msgstr ""
+
+#: ../../content/documents/index.md:11
+msgid "Do I have to create the folder and subfolders myself?"
+msgstr ""
+
+#: ../../content/documents/index.md:12
+msgid ""
+"No. Resthome creates the resident's personal folder and its three "
+"subfolders (Medical, Administrative, and Billing documents) "
+"automatically, as soon as the resident is created or their resident "
+"record is activated."
+msgstr ""
+
+#: ../../content/documents/index.md:14
+msgid "What does the number shown on the \"Documents\" button count?"
+msgstr ""
+
+#: ../../content/documents/index.md:15
+msgid ""
+"The number of files stored in the resident's folder, subfolders included."
+" The subfolders themselves are not counted, only the documents they "
+"contain."
+msgstr ""
+
+#: ../../content/documents/index.md:17
+msgid "Can I delete a resident folder by mistake?"
+msgstr ""
+
+#: ../../content/documents/index.md:18
+msgid ""
+"No. Automatically created folders are protected: a standard user can drop"
+" documents into them and view them, but cannot delete the folder itself."
+msgstr ""
+
+#: ../../content/documents/index.md:20
+msgid "What are tags like Katz, eAgreement, or GDPR for?"
+msgstr ""
+
+#: ../../content/documents/index.md:21
+msgid ""
+"They are ready-to-use tags for categorizing documents and finding them by"
+" filter in the Documents app. You can also apply some of them "
+"automatically through the settings (\"Default tags\")."
+msgstr ""
+
+#: ../../content/documents/index.md:23
+msgid "Does each facility have its own folders?"
+msgstr ""
+
+#: ../../content/documents/index.md:24
+msgid ""
+"Yes. In multi-company, each facility has its own \"Residents\" root "
+"folder and its own \"Blank forms\" folder, which keeps documents "
+"separated per home."
+msgstr ""
+
+#: ../../content/documents/index.md:27
+msgid ""
+"For **each resident**, Resthome maintains a **document folder** stored in"
+" Odoo's **Documents** app. You have nothing to create or file by hand: "
+"the folder, its subfolders, and the filing are automatic. You access it "
+"from the **Documents** button on the resident's record, or from the "
+"**Documents → Residents** app."
+msgstr ""
+
+#: ../../content/documents/index.md:32
+msgid "Prerequisite"
+msgstr ""
+
+#: ../../content/documents/index.md:35
+msgid ""
+"This feature relies on Odoo's **Documents** app: it must be installed. "
+"Once enabled, the resident folders and tags are set up automatically — "
+"you have nothing to prepare."
+msgstr ""
+
+#: ../../content/documents/index.md:40
+msgid "One folder per resident, created automatically"
+msgstr ""
+
+#: ../../content/documents/index.md:42
+msgid ""
+"As soon as a resident is created (or as soon as their record becomes a "
+"resident record), Resthome creates their **personal folder** under the "
+"**\"Residents\"** root folder, with **three ready-to-use subfolders**:"
+msgstr ""
+
+#: ../../content/documents/index.md:46
+msgid "Subfolder"
+msgstr ""
+
+#: ../../content/documents/index.md:46
+msgid "What goes in it"
+msgstr ""
+
+#: ../../content/documents/index.md:46
+msgid "**Medical documents**"
+msgstr ""
+
+#: ../../content/documents/index.md:46
+msgid "The resident's assessments, forms, and medical items."
+msgstr ""
+
+#: ../../content/documents/index.md:46
+msgid "**Administrative documents**"
+msgstr ""
+
+#: ../../content/documents/index.md:46
+msgid "Convention, ID documents, agreements, letters."
+msgstr ""
+
+#: ../../content/documents/index.md:46
+msgid "**Billing documents**"
+msgstr ""
+
+#: ../../content/documents/index.md:46
+msgid "Invoices and items related to the resident's billing."
+msgstr ""
+
+#: ../../content/documents/index.md:61
+msgid ""
+"The folder is named after the **resident's name** and **renames itself "
+"automatically** if the name changes. Folders are **sorted "
+"alphabetically**, which keeps them easy to browse in the Documents app."
+msgstr ""
+
+#: ../../content/documents/index.md:65
+msgid "Protected folders"
+msgstr ""
+
+#: ../../content/documents/index.md:68
+msgid ""
+"Automatically created folders are **protected from deletion**: a standard"
+" user can drop documents into them and view them, but cannot delete the "
+"folder itself. This keeps you from accidentally losing a resident's "
+"entire document structure."
+msgstr ""
+
+#: ../../content/documents/index.md:75
+msgid "The \"Documents\" button on the record"
+msgstr ""
+
+#: ../../content/documents/index.md:77
+msgid ""
+"On the resident's record, a **\"Documents\" smart button** shows the "
+"**number of files** stored in their folder. The counter adds up the "
+"documents in the folder **and its subfolders** (the subfolders themselves"
+" are not counted). Clicking the button **opens** the resident's personal "
+"folder directly in the Documents app."
+msgstr ""
+
+#: ../../content/documents/index.md:82
+msgid "Only for Documents app users"
+msgstr ""
+
+#: ../../content/documents/index.md:85
+msgid ""
+"The button only appears for users who have access to the **Documents** "
+"app. Others still see the resident record normally, without the shortcut."
+msgstr ""
+
+#: ../../content/documents/index.md:91
+msgid "Folders created at the facility level"
+msgstr ""
+
+#: ../../content/documents/index.md:93
+msgid ""
+"When the company (the facility) is created, Resthome automatically sets "
+"up two folders at the top of the Documents app:"
+msgstr ""
+
+#: ../../content/documents/index.md:96
+msgid "**Residents** — the root folder that contains all resident folders."
+msgstr ""
+
+#: ../../content/documents/index.md:97
+msgid ""
+"**Blank forms** — a subfolder for your **templates** and documents to "
+"fill in (standard conventions, blank medical forms, etc.)."
+msgstr ""
+
+#: ../../content/documents/index.md:100
+msgid "Separated by facility"
+msgstr ""
+
+#: ../../content/documents/index.md:103
+msgid ""
+"In multi-company, **each facility has its own root folder** \"Residents\""
+" and its own \"Blank forms\" folder. Documents therefore stay separated "
+"from one home to another."
+msgstr ""
+
+#: ../../content/documents/index.md:108
+msgid "Predefined tags"
+msgstr ""
+
+#: ../../content/documents/index.md:110
+msgid ""
+"Resthome provides a list of ready-to-use **tags** for **categorizing** "
+"documents and **finding them by filter** in the Documents app:"
+msgstr ""
+
+#: ../../content/documents/index.md:100
+msgid "Tag"
+msgstr ""
+
+#: ../../content/documents/index.md:100
+msgid "Typical use"
+msgstr ""
+
+#: ../../content/documents/index.md:100
+msgid "**Katz assessment**"
+msgstr ""
+
+#: ../../content/documents/index.md:100
+msgid "Katz dependency assessment grids and reports."
+msgstr ""
+
+#: ../../content/documents/index.md:100
+msgid "**Medical form**"
+msgstr ""
+
+#: ../../content/documents/index.md:100
+msgid "Medical forms and documents."
+msgstr ""
+
+#: ../../content/documents/index.md:100
+msgid "**MR/MRS agreement (eAgreement)**"
+msgstr ""
+
+#: ../../content/documents/index.md:100
+msgid "Health insurer agreements (eAgreement)."
+msgstr ""
+
+#: ../../content/documents/index.md:100
+msgid "**OA allocation**"
+msgstr ""
+
+#: ../../content/documents/index.md:100
+msgid "Decisions and allocations from the insurer."
+msgstr ""
+
+#: ../../content/documents/index.md:100
+msgid "**Convention**"
+msgstr ""
+
+#: ../../content/documents/index.md:100
+msgid "The convention signed with the resident."
+msgstr ""
+
+#: ../../content/documents/index.md:100
+msgid "**Billing**"
+msgstr ""
+
+#: ../../content/documents/index.md:100
+msgid "Invoices and billing items."
+msgstr ""
+
+#: ../../content/documents/index.md:100
+msgid "**CPAS**"
+msgstr ""
+
+#: ../../content/documents/index.md:100
+msgid "CPAS coverage documents."
+msgstr ""
+
+#: ../../content/documents/index.md:100
+msgid "**GDPR consent**"
+msgstr ""
+
+#: ../../content/documents/index.md:100
+msgid "Consents and privacy-related documents."
+msgstr ""
+
+#: ../../content/documents/index.md:100
+msgid "**End of stay**"
+msgstr ""
+
+#: ../../content/documents/index.md:100
+msgid "End-of-stay / departure documents."
+msgstr ""
+
+#: ../../content/documents/index.md:125
+msgid "Apply tags automatically"
+msgstr ""
+
+#: ../../content/documents/index.md:128
+msgid ""
+"You can have one or more of these tags applied **automatically** to every"
+" centralized document, through the **Default tags** field in the "
+"settings. See [Document settings](../configuration/reglages-"
+"documents.md)."
+msgstr ""
+
+#: ../../content/documents/index.md:133
+msgid "Automatic filing of attachments"
+msgstr ""
+
+#: ../../content/documents/index.md:135
+msgid ""
+"Beyond the folders, Resthome can **automatically centralize** attachments"
+" dropped on a resident's record: they land directly in their personal "
+"folder, with no manual filing. This behavior is set in the configuration."
+msgstr ""
+
+#: ../../content/documents/index.md:139
+msgid "Learn more"
+msgstr ""
+
+#: ../../content/documents/index.md:142
+msgid ""
+"The detailed behavior, use cases, and activation are described on the "
+"[Document centralization](centralisation.md) page."
+msgstr ""
+
+#: ../../content/documents/index.md:146
+msgid "Key points to remember"
+msgstr ""
+
+#: ../../content/documents/index.md:148
+msgid ""
+"Each resident has an **automatic personal folder** with three subfolders:"
+" **medical**, **administrative**, **billing**."
+msgstr ""
+
+#: ../../content/documents/index.md:150
+msgid ""
+"The folder follows the **resident's name** and renames itself; folders "
+"are **protected from accidental deletion**."
+msgstr ""
+
+#: ../../content/documents/index.md:152
+msgid ""
+"The record's **\"Documents\" button** opens the folder and counts the "
+"files, subfolders included."
+msgstr ""
+
+#: ../../content/documents/index.md:154
+msgid ""
+"At the facility level, Resthome creates the **\"Residents\"** and "
+"**\"Blank forms\"** folders, **separated per company**."
+msgstr ""
+
+#: ../../content/documents/index.md:156
+msgid ""
+"Nine predefined **tags** (Katz, eAgreement, GDPR, CPAS…) make filtering "
+"easier, and can be applied automatically."
+msgstr ""
+
+#: ../../content/documents/index.md:159
+msgid "Further reading"
+msgstr ""
+
+#: ../../content/documents/index.md:161
+msgid "[Document centralization](centralisation.md)"
+msgstr ""
+
+#: ../../content/documents/index.md:162
+msgid "[Managing a resident](../residents/gerer-un-resident.md)"
+msgstr ""
+
+#: ../../content/documents/index.md:163
+msgid "[Document settings](../configuration/reglages-documents.md)"
+msgstr ""
+
+#: ../../content/documents/index.md:164
+msgid "[FAQ](../faq.md) · [Glossary](../glossaire.md)"
+msgstr ""
+

@@ -1,0 +1,495 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-18 19:30+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: nl <LL@li.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/residents/procedure-emmenagement.md:1
+msgid "The move-in procedure"
+msgstr "De intrekprocedure"
+
+#: ../../content/residents/procedure-emmenagement.md:4
+msgid ""
+"The automatic move-in checklist for nursing homes (MR/MRS) with Resthome: 6 "
+"tasks at admission plus room preparation, assigned to the managers in "
+"charge."
+msgstr ""
+"De automatische intrekchecklist in een woonzorgcentrum (WZC/RVT) met "
+"Resthome: 6 taken bij opname en kamervoorbereiding, toegewezen aan de "
+"verantwoordelijken."
+
+#: ../../content/residents/procedure-emmenagement.md:8
+msgid "How is the move-in checklist created in Resthome?"
+msgstr "Hoe wordt de intrekchecklist aangemaakt in Resthome?"
+
+#: ../../content/residents/procedure-emmenagement.md:9
+msgid ""
+"Automatically, whenever a new stay opens (admission, room change, internal "
+"transfer, readmission). Resthome schedules 6 activities on the resident's "
+"thread, due on the stay's start date, assigned to the Move-in Procedure "
+"Manager. You have nothing to trigger by hand."
+msgstr ""
+"Automatisch, bij het openen van elk nieuw verblijf (opname, kamerwissel, "
+"interne overdracht, heropname). Resthome plant 6 activiteiten op de chatter "
+"van de bewoner, met als vervaldatum de begindatum van het verblijf, "
+"toegewezen aan de Verantwoordelijke intrekprocedure. U hoeft niets manueel "
+"te starten."
+
+#: ../../content/residents/procedure-emmenagement.md:11
+msgid "What are the six tasks of the move-in procedure?"
+msgstr "Wat zijn de zes taken van de intrekprocedure?"
+
+#: ../../content/residents/procedure-emmenagement.md:12
+msgid ""
+"Sign the agreement with the resident's representative, the entry / exit "
+"condition report, updating the resident's private inventory, the medication "
+"locker and the laundry, and disinfecting the new (or the old) room."
+msgstr ""
+"De overeenkomst ondertekenen met de vertegenwoordiger van de bewoner, de "
+"plaatsbeschrijving bij in- / uittrede, het bijwerken van de privé-inventaris"
+" van de bewoner, van het medicatiekastje en van de wasserij, en het "
+"ontsmetten van de nieuwe (of oude) kamer."
+
+#: ../../content/residents/procedure-emmenagement.md:14
+msgid "Where is the procedure manager set?"
+msgstr "Waar stelt men de verantwoordelijke van de procedure in?"
+
+#: ../../content/residents/procedure-emmenagement.md:15
+msgid ""
+"In Settings ▸ Nursing Home ▸ Accommodation, the Move-in Procedure Manager "
+"field. Leaving this field empty disables the checklist entirely. The Rooms "
+"Technical Manager, just above, receives the room preparation activities."
+msgstr ""
+"In Instellingen ▸ Woonzorgcentrum ▸ Huisvesting, veld Verantwoordelijke "
+"intrekprocedure. Dit veld leeg laten schakelt de checklist volledig uit. De "
+"Technisch verantwoordelijke kamers, net erboven, ontvangt de activiteiten "
+"voor kamervoorbereiding."
+
+#: ../../content/residents/procedure-emmenagement.md:17
+msgid "Who prepares the room when the resident arrives?"
+msgstr "Wie bereidt de kamer voor bij de aankomst van de bewoner?"
+
+#: ../../content/residents/procedure-emmenagement.md:18
+msgid ""
+"The Rooms Technical Manager receives a « Prepare the room » activity on the "
+"arrival room's thread. On a room change or an internal transfer, a second « "
+"Put the room back in order » activity is scheduled on the room being left."
+msgstr ""
+"De Technisch verantwoordelijke kamers ontvangt een activiteit « Kamer "
+"voorbereiden » op de chatter van de aankomstkamer. Bij een kamerwissel of "
+"interne overdracht wordt een tweede activiteit « Kamer weer in orde brengen "
+"» gepland op de verlaten kamer."
+
+#: ../../content/residents/procedure-emmenagement.md:20
+msgid "What do I do with a task that does not apply?"
+msgstr "Wat doe ik met een taak die niet van toepassing is?"
+
+#: ../../content/residents/procedure-emmenagement.md:21
+msgid ""
+"The list is the same for a first admission and for a room change: the "
+"manager ticks it off (marks it as done) or deletes the steps that do not "
+"apply — for example, there is no old room to disinfect on a first entry."
+msgstr ""
+"De lijst is dezelfde voor een eerste opname en voor een kamerwissel: de "
+"verantwoordelijke vinkt af (markeert als gedaan) of verwijdert de stappen "
+"zonder voorwerp — er is bijvoorbeeld geen oude kamer te ontsmetten bij een "
+"eerste intrede."
+
+#: ../../content/residents/procedure-emmenagement.md:23
+msgid "Can these automations be disabled?"
+msgstr "Kan men deze automatiseringen uitschakelen?"
+
+#: ../../content/residents/procedure-emmenagement.md:24
+msgid ""
+"Yes. Leave the Move-in Procedure Manager field empty to disable the "
+"resident's checklist, and the Rooms Technical Manager field empty to disable"
+" the room preparation activities."
+msgstr ""
+"Ja. Laat het veld Verantwoordelijke intrekprocedure leeg om de checklist van"
+" de bewoner uit te schakelen, en het veld Technisch verantwoordelijke kamers"
+" leeg om de activiteiten voor kamervoorbereiding uit te schakelen."
+
+#: ../../content/residents/procedure-emmenagement.md:27
+msgid ""
+"At every **new stay** — admission, room change, internal transfer or "
+"readmission — Resthome automatically opens the resident's **move-in "
+"procedure**: a **checklist of administrative activities** on the resident's "
+"thread, and the **room preparation** on the technical side. Nothing to "
+"trigger by hand: the tasks appear in the **activities** of the relevant "
+"managers and on the corresponding threads."
+msgstr ""
+"Bij elk **nieuw verblijf** — opname, kamerwissel, interne overdracht of "
+"heropname — opent Resthome automatisch de **intrekprocedure** van de "
+"bewoner: een **checklist met administratieve activiteiten** op de chatter "
+"van de bewoner, en de **kamervoorbereiding** aan technische zijde. U hoeft "
+"niets manueel te starten: de taken verschijnen in de **activiteiten** van de"
+" betrokken verantwoordelijken en op de overeenkomstige chatters."
+
+#: ../../content/residents/procedure-emmenagement.md:34
+msgid ""
+"You choose these managers in **Settings ▸ Nursing Home ▸ Accommodation**."
+msgstr ""
+"U kiest deze verantwoordelijken in **Instellingen ▸ Woonzorgcentrum ▸ "
+"Huisvesting**."
+
+#: ../../content/residents/procedure-emmenagement.md:42
+msgid "An optional automation"
+msgstr "Een optionele automatisering"
+
+#: ../../content/residents/procedure-emmenagement.md:45
+msgid ""
+"Both automations trigger only if the corresponding **manager** is set in the"
+" settings. As long as a field is empty, the automation stays silent — handy "
+"for a data import or a gradual roll-out."
+msgstr ""
+"De twee automatiseringen worden alleen geactiveerd als de overeenkomstige "
+"**verantwoordelijke** in de instellingen is ingesteld. Zolang een veld leeg "
+"is, blijft de automatisering stil — handig voor een data-import of een "
+"geleidelijke ingebruikname."
+
+#: ../../content/residents/procedure-emmenagement.md:50
+msgid "What triggers at every new stay"
+msgstr "Wat er wordt geactiveerd bij elk nieuw verblijf"
+
+#: ../../content/residents/procedure-emmenagement.md:52
+msgid ""
+"As soon as a **stay** is created (by the [admission wizard](admissions.md), "
+"the conversion of a CRM opportunity, or a [room change / "
+"transfer](changement-chambre.md)), Resthome schedules **both parts** of the "
+"procedure at the same time. The deadline of every activity is the **stay's "
+"start date**."
+msgstr ""
+"Zodra een **verblijf** wordt aangemaakt (via de "
+"[opnamewizard](admissions.md), de conversie van een CRM-opportuniteit, of "
+"een [kamerwissel / overdracht](changement-chambre.md)), plant Resthome "
+"tegelijk de **twee luiken** van de procedure. De vervaldatum van alle "
+"activiteiten is de **begindatum van het verblijf**."
+
+#: ../../content/residents/procedure-emmenagement.md:42
+msgid "Event"
+msgstr "Gebeurtenis"
+
+#: ../../content/residents/procedure-emmenagement.md:42
+msgid "Resident checklist"
+msgstr "Checklist bewoner"
+
+#: ../../content/residents/procedure-emmenagement.md:42
+#: ../../content/residents/procedure-emmenagement.md:98
+msgid "Room preparation"
+msgstr "Kamervoorbereiding"
+
+#: ../../content/residents/procedure-emmenagement.md:42
+msgid "**Initial admission**"
+msgstr "**Eerste opname**"
+
+#: ../../content/residents/procedure-emmenagement.md:42
+msgid "6 tasks"
+msgstr "6 taken"
+
+#: ../../content/residents/procedure-emmenagement.md:42
+msgid "Prepare the new room"
+msgstr "Nieuwe kamer voorbereiden"
+
+#: ../../content/residents/procedure-emmenagement.md:42
+msgid "**Room change**"
+msgstr "**Kamerwissel**"
+
+#: ../../content/residents/procedure-emmenagement.md:42
+msgid "Prepare the new room **and** put the old one back in order"
+msgstr "Nieuwe kamer voorbereiden **en** oude weer in orde brengen"
+
+#: ../../content/residents/procedure-emmenagement.md:42
+msgid "**Internal transfer** (MR ↔ MRS)"
+msgstr "**Interne overdracht** (ROB ↔ RVT)"
+
+#: ../../content/residents/procedure-emmenagement.md:42
+msgid "**Readmission**"
+msgstr "**Heropname**"
+
+#: ../../content/residents/procedure-emmenagement.md:42
+msgid ""
+"Prepare the room (no putting back in order — the old one was already freed)"
+msgstr "Kamer voorbereiden (geen herstel — de oude was al vrijgemaakt)"
+
+#: ../../content/residents/procedure-emmenagement.md:65
+msgid "No duplicates"
+msgstr "Zonder duplicaten"
+
+#: ../../content/residents/procedure-emmenagement.md:68
+msgid ""
+"The activities are **idempotent**: if you save the stay again, Resthome does"
+" not stack an identical activity that is already open. A **cancelled** stay,"
+" or one without a room or a resident, generates no task."
+msgstr ""
+"De activiteiten zijn **idempotent**: als u het verblijf opnieuw opslaat, "
+"stapelt Resthome geen identieke, reeds openstaande activiteit. Een "
+"**geannuleerd** verblijf, of een verblijf zonder kamer of bewoner, genereert"
+" geen enkele taak."
+
+#: ../../content/residents/procedure-emmenagement.md:73
+msgid "The move-in checklist (six tasks)"
+msgstr "De intrekchecklist (zes taken)"
+
+#: ../../content/residents/procedure-emmenagement.md:75
+msgid ""
+"The checklist is scheduled on the **resident's thread** (activity type "
+"**Move-in procedure**), assigned to the **Move-in Procedure Manager**. It "
+"has six tasks:"
+msgstr ""
+"De checklist wordt gepland op de **chatter van de bewoner** (activiteit van "
+"het type **Intrekprocedure**), toegewezen aan de **Verantwoordelijke "
+"intrekprocedure**. Ze omvat zes taken:"
+
+#: ../../content/residents/procedure-emmenagement.md:65
+msgid "Task"
+msgstr "Taak"
+
+#: ../../content/residents/procedure-emmenagement.md:65
+msgid "What it is for"
+msgstr "Waarvoor ze dient"
+
+#: ../../content/residents/procedure-emmenagement.md:65
+msgid "**Sign the agreement with the resident's representative**"
+msgstr ""
+"**De overeenkomst ondertekenen met de vertegenwoordiger van de bewoner**"
+
+#: ../../content/residents/procedure-emmenagement.md:65
+msgid "Have the accommodation agreement signed with the reference person"
+msgstr "De opnameovereenkomst laten ondertekenen met de referentiepersoon"
+
+#: ../../content/residents/procedure-emmenagement.md:65
+msgid "**Entry / exit condition report (état des lieux)**"
+msgstr "**Plaatsbeschrijving bij in- / uittrede**"
+
+#: ../../content/residents/procedure-emmenagement.md:65
+msgid ""
+"Draw up the joint condition report of the room (see [The condition "
+"report](etat-des-lieux.md))"
+msgstr ""
+"De tegensprekelijke vaststelling van de kamer opmaken (zie [De "
+"plaatsbeschrijving](etat-des-lieux.md))"
+
+#: ../../content/residents/procedure-emmenagement.md:65
+msgid "**Update the resident's private inventory**"
+msgstr "**De privé-inventaris van de bewoner bijwerken**"
+
+#: ../../content/residents/procedure-emmenagement.md:65
+msgid ""
+"List the private furniture brought in for the new room (see "
+"[Furniture](mobilier.md))"
+msgstr ""
+"De meegebrachte privémeubelen voor de nieuwe kamer opnemen (zie [Het "
+"meubilair](mobilier.md))"
+
+#: ../../content/residents/procedure-emmenagement.md:65
+msgid "**Update the medication locker**"
+msgstr "**Het medicatiekastje bijwerken**"
+
+#: ../../content/residents/procedure-emmenagement.md:65
+msgid "Move / re-label the room's medication locker"
+msgstr "Het medicatiekastje van de kamer verplaatsen / herlabelen"
+
+#: ../../content/residents/procedure-emmenagement.md:65
+msgid "**Update the laundry service**"
+msgstr "**De wasserij bijwerken**"
+
+#: ../../content/residents/procedure-emmenagement.md:65
+msgid "Update the resident's laundry service"
+msgstr "De wasserijdienst van de bewoner bijwerken"
+
+#: ../../content/residents/procedure-emmenagement.md:65
+msgid "**Disinfect the new / old room**"
+msgstr "**De nieuwe / oude kamer ontsmetten**"
+
+#: ../../content/residents/procedure-emmenagement.md:65
+msgid "Disinfect the arrival room (and the old one, on a room change)"
+msgstr "De aankomstkamer ontsmetten (en de oude, bij een kamerwissel)"
+
+#: ../../content/residents/procedure-emmenagement.md:88
+msgid "Tick what applies"
+msgstr "Vink af wat van toepassing is"
+
+#: ../../content/residents/procedure-emmenagement.md:91
+msgid ""
+"The list is **the same** for a first admission and for a room change. The "
+"manager **marks as done** or **deletes** the steps that do not apply — for "
+"example, there is no old room to disinfect on a first entry."
+msgstr ""
+"De lijst is **dezelfde** voor een eerste opname en voor een kamerwissel. De "
+"verantwoordelijke **markeert als gedaan** of **verwijdert** de stappen "
+"zonder voorwerp — er is bijvoorbeeld geen oude kamer te ontsmetten bij een "
+"eerste intrede."
+
+#: ../../content/residents/procedure-emmenagement.md:100
+msgid ""
+"In parallel, Resthome schedules the **room preparation** on the **room's "
+"thread** (activity type **Room preparation**), assigned to the **Rooms "
+"Technical Manager**:"
+msgstr ""
+"Tegelijk plant Resthome de **kamervoorbereiding** op de **chatter van de "
+"kamer** (activiteit van het type **Kamervoorbereiding**), toegewezen aan de "
+"**Technisch verantwoordelijke kamers**:"
+
+#: ../../content/residents/procedure-emmenagement.md:104
+msgid ""
+"**Prepare the room — arrival of …**: always scheduled on the **arrival "
+"room**, on the stay's start date."
+msgstr ""
+"**Kamer voorbereiden — aankomst van …** : altijd gepland op de "
+"**aankomstkamer**, op de begindatum van het verblijf."
+
+#: ../../content/residents/procedure-emmenagement.md:106
+msgid ""
+"**Put the room back in order — departure of …**: scheduled on the **room "
+"being left**, only on a **room change** or an **internal transfer** (where "
+"the resident actually frees an occupied room)."
+msgstr ""
+"**Kamer weer in orde brengen — vertrek van …** : gepland op de **verlaten "
+"kamer**, alleen bij een **kamerwissel** of een **interne overdracht** "
+"(wanneer de bewoner effectief een bezette kamer vrijmaakt)."
+
+#: ../../content/residents/procedure-emmenagement.md:110
+msgid "No putting back in order on entry or readmission"
+msgstr "Geen herstel bij intrede of heropname"
+
+#: ../../content/residents/procedure-emmenagement.md:113
+msgid ""
+"The « Put the room back in order » activity is **not** created for a first "
+"admission (no previous room) or for a readmission (the old room was already "
+"freed and cleaned at the previous departure)."
+msgstr ""
+"De activiteit « Kamer weer in orde brengen » wordt **niet** aangemaakt voor "
+"een eerste opname (geen vorige kamer) noch voor een heropname (de oude kamer"
+" werd al vrijgemaakt en gereinigd bij het vorige vertrek)."
+
+#: ../../content/residents/procedure-emmenagement.md:118
+msgid "Setting the managers"
+msgstr "De verantwoordelijken instellen"
+
+#: ../../content/residents/procedure-emmenagement.md:120
+msgid ""
+"Both automations rely on two configuration fields, specific to your "
+"institution. Go to **Settings ▸ Nursing Home ▸ Accommodation**:"
+msgstr ""
+"De twee automatiseringen steunen op twee configuratievelden, eigen aan uw "
+"instelling. Ga naar **Instellingen ▸ Woonzorgcentrum ▸ Huisvesting**:"
+
+#: ../../content/residents/procedure-emmenagement.md:123
+msgid ""
+"**Move-in Procedure Manager** — the user who receives the resident's "
+"checklist (the 6 tasks above). Leaving it empty **disables** the checklist."
+msgstr ""
+"**Verantwoordelijke intrekprocedure** — de gebruiker die de checklist van de"
+" bewoner ontvangt (de 6 taken hierboven). Leeg laten **schakelt** de "
+"checklist **uit**."
+
+#: ../../content/residents/procedure-emmenagement.md:125
+msgid ""
+"**Rooms Technical Manager** — the user who receives the room **preparation**"
+" and **putting back in order** activities. Leaving it empty **disables** "
+"these activities."
+msgstr ""
+"**Technisch verantwoordelijke kamers** — de gebruiker die de activiteiten "
+"voor **voorbereiding** en **herstel** van kamers ontvangt. Leeg laten "
+"**schakelt** deze activiteiten **uit**."
+
+#: ../../content/residents/procedure-emmenagement.md:129
+msgid "No manager, no activities"
+msgstr "Zonder verantwoordelijke, geen activiteiten"
+
+#: ../../content/residents/procedure-emmenagement.md:132
+msgid ""
+"If a field stays empty, the corresponding automation creates **no** "
+"activity. Set at least the **Move-in Procedure Manager** to benefit from the"
+" checklist at every new stay."
+msgstr ""
+"Als een veld leeg blijft, maakt de overeenkomstige automatisering **geen** "
+"enkele activiteit aan. Wijs minstens de **Verantwoordelijke "
+"intrekprocedure** aan om bij elk nieuw verblijf van de checklist te "
+"genieten."
+
+#: ../../content/residents/procedure-emmenagement.md:139
+msgid "Key points to remember"
+msgstr "Kernpunten om te onthouden"
+
+#: ../../content/residents/procedure-emmenagement.md:141
+msgid ""
+"The move-in procedure triggers **automatically** when any new stay opens: "
+"admission, room change, internal transfer, readmission."
+msgstr ""
+"De intrekprocedure wordt **automatisch** geactiveerd bij het openen van elk "
+"nieuw verblijf: opname, kamerwissel, interne overdracht, heropname."
+
+#: ../../content/residents/procedure-emmenagement.md:143
+msgid ""
+"It has two parts: a **6-task checklist** on the resident's thread and the "
+"**room preparation** on the room's thread."
+msgstr ""
+"Ze bestaat uit twee luiken: een **checklist van 6 taken** op de chatter van "
+"de bewoner en de **kamervoorbereiding** op de chatter van de kamer."
+
+#: ../../content/residents/procedure-emmenagement.md:145
+msgid ""
+"Every activity is **due on the stay's start date** and is assigned to the "
+"configured **managers**."
+msgstr ""
+"Alle activiteiten hebben als **vervaldatum de begindatum van het verblijf** "
+"en worden toegewezen aan de geconfigureerde **verantwoordelijken**."
+
+#: ../../content/residents/procedure-emmenagement.md:147
+msgid ""
+"The six tasks: **agreement**, **condition report**, **private inventory**, "
+"**medication locker**, **laundry**, **disinfection** — the manager closes or"
+" deletes those that do not apply."
+msgstr ""
+"De zes taken: **overeenkomst**, **plaatsbeschrijving**, **privé-"
+"inventaris**, **medicatiekastje**, **wasserij**, **ontsmetting** — de "
+"verantwoordelijke sluit af of verwijdert wat zonder voorwerp is."
+
+#: ../../content/residents/procedure-emmenagement.md:150
+msgid ""
+"You set the managers in **Settings ▸ Nursing Home ▸ Accommodation**; an "
+"empty field **disables** the corresponding automation."
+msgstr ""
+"U wijst de verantwoordelijken aan in **Instellingen ▸ Woonzorgcentrum ▸ "
+"Huisvesting**; een leeg veld **schakelt** de overeenkomstige automatisering "
+"**uit**."
+
+#: ../../content/residents/procedure-emmenagement.md:153
+msgid "Learn more"
+msgstr "Verder"
+
+#: ../../content/residents/procedure-emmenagement.md:155
+msgid "[Manage a resident](gerer-un-resident.md)"
+msgstr "[Een bewoner beheren](gerer-un-resident.md)"
+
+#: ../../content/residents/procedure-emmenagement.md:156
+msgid "[Room change and transfer](changement-chambre.md)"
+msgstr "[Kamerwissel en overdracht](changement-chambre.md)"
+
+#: ../../content/residents/procedure-emmenagement.md:157
+msgid "[The condition report (entry and exit)](etat-des-lieux.md)"
+msgstr "[De plaatsbeschrijving (intrede en uittrede)](etat-des-lieux.md)"
+
+#: ../../content/residents/procedure-emmenagement.md:158
+msgid ""
+"[General settings (residents, rooms)](../configuration/reglages-generaux.md)"
+msgstr ""
+"[Algemene instellingen (bewoners, kamers)](../configuration/reglages-"
+"generaux.md)"

@@ -1,0 +1,457 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-18 19:30+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: fr <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/ehealth/eagreement-refus.md:1
+msgid "Refused agreement (eAgreement) — causes and solutions"
+msgstr "Accord refusé (eAgreement) — causes et solutions"
+
+#: ../../content/ehealth/eagreement-refus.md:4
+msgid ""
+"Why an agreement notification (eAgreement) is refused by the health insurer "
+"and how to fix it in Resthome: NISS, insurability, document, Katz, "
+"duplicate, then resend."
+msgstr ""
+"Pourquoi une notification d'accord (eAgreement) est refusée par la mutuelle "
+"et comment la corriger dans Resthome : NISS, assurabilité, document, Katz, "
+"doublon, puis renvoi."
+
+#: ../../content/ehealth/eagreement-refus.md:8
+msgid "What should you do when an eAgreement is refused?"
+msgstr "Que faire quand un accord eAgreement est refusé ?"
+
+#: ../../content/ehealth/eagreement-refus.md:9
+msgid ""
+"Read the rejection reason (shown in plain language, FR and NL, on the "
+"agreement), fix the cause at the source (NISS, health insurer, MDA "
+"insurability, Katz assessment, PDF document or the right business action), "
+"then resend the agreement."
+msgstr ""
+"Lisez le motif de rejet (affiché en clair, FR et NL, sur l'accord), corrigez"
+" la cause à la source (NISS, mutuelle, assurabilité MDA, évaluation Katz, "
+"document PDF ou la bonne action métier), puis renvoyez l'accord."
+
+#: ../../content/ehealth/eagreement-refus.md:11
+msgid "Does an acknowledgement of receipt mean the agreement is accepted?"
+msgstr "Un accusé de réception veut-il dire que l'accord est accepté ?"
+
+#: ../../content/ehealth/eagreement-refus.md:12
+msgid ""
+"No. An electronic acknowledgement only confirms that the health insurer "
+"received the notification. For eAgreement Light, the substantive decision "
+"(acceptance or refusal on the merits) usually comes back by post."
+msgstr ""
+"Non. Un accusé électronique confirme seulement que la mutuelle a reçu la "
+"notification. Pour eAgreement Light, la décision de fond (acceptation ou "
+"refus sur le bien-fondé) revient généralement par courrier."
+
+#: ../../content/ehealth/eagreement-refus.md:14
+msgid "Why is my agreement refused immediately?"
+msgstr "Pourquoi mon accord est-il refusé immédiatement ?"
+
+#: ../../content/ehealth/eagreement-refus.md:15
+msgid ""
+"An immediate rejection comes from a blocking data issue: NISS not recognised"
+" or malformed, unknown health insurer, missing document or wrong format, "
+"missing Katz assessment, unrecognised facility, or duplicate."
+msgstr ""
+"Un rejet immédiat vient d'une donnée qui bloque : NISS non reconnu ou mal "
+"formé, mutuelle inconnue, document manquant ou pas au bon format, évaluation"
+" Katz absente, établissement non reconnu, ou doublon."
+
+#: ../../content/ehealth/eagreement-refus.md:17
+msgid "What is a tacit agreement?"
+msgstr "Qu'est-ce qu'un accord tacite ?"
+
+#: ../../content/ehealth/eagreement-refus.md:18
+msgid ""
+"If the health insurer does not respond within the regulatory deadline, the "
+"agreement is deemed accepted (silence = granted). The acknowledgement of "
+"receipt is not enough: it is the absence of refusal within the deadline that"
+" counts as agreement."
+msgstr ""
+"Si la mutuelle ne se manifeste pas dans le délai réglementaire, l'accord est"
+" réputé accepté (silence = acquis). L'accusé de réception ne suffit pas : "
+"c'est l'absence de refus dans le délai qui vaut accord."
+
+#: ../../content/ehealth/eagreement-refus.md:21
+msgid ""
+"When a resident **is admitted**, **goes on leave**, **returns** or "
+"**leaves** the facility, Resthome automatically notifies their **health "
+"insurer (insurance organisation, OA)** electronically, with the right "
+"official document (Annexe 7, 10 or 11). This service — "
+"**[eAgreement](eagreement.md) Light** — is **accredited** (operational). The"
+" health insurer can then **accept** the agreement, let it become **tacit**, "
+"or **refuse** it."
+msgstr ""
+"Quand un résident **entre**, **s'absente**, **revient** ou **quitte** "
+"l'établissement, Resthome prévient automatiquement sa **mutuelle (organisme "
+"assureur, OA)** par voie électronique, avec le bon document officiel (Annexe"
+" 7, 10 ou 11). Ce service — **[eAgreement](eagreement.md) Light** — est "
+"**agréé** (opérationnel). La mutuelle peut ensuite **accepter** l'accord, le"
+" laisser devenir **tacite**, ou le **refuser**."
+
+#: ../../content/ehealth/eagreement-refus.md:27
+msgid ""
+"This page explains **why an agreement is refused** and **how to fix it and "
+"resend it**."
+msgstr ""
+"Cette page explique **pourquoi un accord est refusé** et **comment le "
+"corriger puis le renvoyer**."
+
+#: ../../content/ehealth/eagreement-refus.md:29
+msgid "Two points where things get stuck"
+msgstr "Deux moments où « ça bloque »"
+
+#: ../../content/ehealth/eagreement-refus.md:31
+msgid "To distinguish"
+msgstr "À distinguer"
+
+#: ../../content/ehealth/eagreement-refus.md:34
+msgid ""
+"**Immediate technical rejection** — a piece of data is off (NISS, document, "
+"required field) and the health insurer or the platform returns an error "
+"**right away**. This is what the table below covers: it can be **fixed and "
+"resent**."
+msgstr ""
+"**Rejet technique immédiat** — une donnée cloche (NISS, document, champ "
+"obligatoire) et la mutuelle ou la plateforme renvoie **tout de suite** une "
+"erreur. C'est l'objet du tableau ci-dessous : ça se **corrige et se "
+"renvoie**."
+
+#: ../../content/ehealth/eagreement-refus.md:37
+msgid ""
+"**Substantive decision from the health insurer** — for eAgreement Light, the"
+" **actual answer** (acceptance or refusal on the merits, e.g. the Katz "
+"category) usually arrives **by post**, not electronically."
+msgstr ""
+"**Décision de fond de la mutuelle** — pour eAgreement Light, la **vraie "
+"réponse** (acceptation ou refus sur le bien-fondé, p. ex. la catégorie Katz)"
+" arrive généralement **par courrier**, pas électroniquement."
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid "An acknowledgement of receipt is not an agreement"
+msgstr "Un accusé de réception n'est pas un accord"
+
+#: ../../content/ehealth/eagreement-refus.md:45
+msgid ""
+"An electronic \"received\" acknowledgement means **received**, **not "
+"accepted**. Do not treat an agreement as granted on the basis of the "
+"acknowledgement alone."
+msgstr ""
+"Un accusé électronique « bien reçu » signifie **reçu**, **pas accepté**. Ne "
+"considérez pas un accord comme acquis sur la seule base de l'accusé."
+
+#: ../../content/ehealth/eagreement-refus.md:49
+msgid "Common refusal causes → action"
+msgstr "Causes de refus fréquentes → action"
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid "Cause"
+msgstr "Cause"
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid "What you see"
+msgstr "Ce que vous voyez"
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid "Action in Resthome"
+msgstr "Action dans Resthome"
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid "**NISS not recognised**"
+msgstr "**NISS non reconnu**"
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid "Rejection \"unknown beneficiary\"; the agreement goes back to *Rejected*"
+msgstr "Rejet « bénéficiaire inconnu » ; l'accord repasse en *Rejeté*"
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid "Check the NISS (identity card / eID), correct it, resend."
+msgstr "Vérifier le NISS (carte d'identité / eID), corriger, renvoyer."
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid "**Malformed / incomplete NISS**"
+msgstr "**NISS mal formé / incomplet**"
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid "Rejection \"invalid identifier\" (format)"
+msgstr "Rejet « identifiant invalide » (format)"
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid "Re-enter the 11 digits of the NISS, resend."
+msgstr "Ressaisir les 11 chiffres du NISS, renvoyer."
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid "**Unknown health insurer number**"
+msgstr "**Numéro de mutuelle inconnu**"
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid "Rejection \"unknown health insurance fund number\""
+msgstr "Rejet « numéro de mutualité inconnu »"
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid ""
+"Check the health insurer and the membership number; prefer identification by"
+" NISS; resend."
+msgstr ""
+"Vérifier la mutuelle et le n° d'affiliation ; privilégier l'identification "
+"par NISS ; renvoyer."
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid "**Insurability (MDA) not confirmed**"
+msgstr "**Assurabilité (MDA) non confirmée**"
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid "Resthome **blocks the send**: insurability not in order"
+msgstr "Resthome **bloque l'envoi** : assurabilité pas en ordre"
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid ""
+"Re-run / update the [MDA check](mda.md), correct health insurer/NISS, try "
+"again. *(Discharge/death notifications are not blocked by this check.)*"
+msgstr ""
+"Relancer / mettre à jour la [vérification MDA](mda.md), corriger "
+"mutuelle/NISS, réessayer. *(Les notifications de sortie/décès ne sont pas "
+"bloquées par ce contrôle.)*"
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid "**Incomplete resident data**"
+msgstr "**Données résident incomplètes**"
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid "Rejection \"mandatory data missing\" (name, identifier)"
+msgstr "Rejet « donnée obligatoire manquante » (nom, identifiant)"
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid "Complete the resident record, resend."
+msgstr "Compléter la fiche résident, renvoyer."
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid "**Document (annexe) missing or wrong format**"
+msgstr "**Document (annexe) absent ou mauvais format**"
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid ""
+"Send blocked if the annexe is empty; otherwise rejection \"invalid document "
+"format\""
+msgstr ""
+"Envoi bloqué si l'annexe est vide ; sinon rejet « format de pièce invalide »"
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid ""
+"Regenerate / attach the Annexe **as a PDF**, check that it opens, resend."
+msgstr ""
+"Régénérer / joindre l'Annexe **en PDF**, vérifier qu'elle s'ouvre, renvoyer."
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid "**Attachment too large**"
+msgstr "**Pièce jointe trop volumineuse**"
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid "The send does not go through"
+msgstr "L'envoi n'aboutit pas"
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid "Shrink the PDF (reduce the scan size), resend."
+msgstr "Alléger le PDF (réduire le poids du scan), renvoyer."
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid "**Katz assessment missing or not validated**"
+msgstr "**Évaluation Katz manquante ou non validée**"
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid "Send blocked: \"Katz assessment required\""
+msgstr "Envoi bloqué : « évaluation Katz requise »"
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid ""
+"Create, **confirm** then **validate** the Katz; check Annexe 10; resend."
+msgstr ""
+"Créer, **confirmer** puis **valider** le Katz ; vérifier l'Annexe 10 ; "
+"renvoyer."
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid "**Duplicate agreement**"
+msgstr "**Doublon d'accord**"
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid "Rejection \"record already exists\""
+msgstr "Rejet « enregistrement déjà existant »"
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid ""
+"Do not resend an agreement that has already been transmitted; correct the "
+"faulty data (Resthome then regenerates a new notification)."
+msgstr ""
+"Ne pas renvoyer un accord déjà transmis ; corriger la donnée fautive "
+"(Resthome régénère alors une nouvelle notification)."
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid "**Wrong annexe / unsuitable type**"
+msgstr "**Mauvaise annexe / type inadapté**"
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid "Rejection \"agreement type not allowed / inconsistent\""
+msgstr "Rejet « type d'accord non autorisé / incohérent »"
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid ""
+"Redo the **correct business action** (admission ≠ leave ≠ discharge): **one "
+"situation = one annexe**."
+msgstr ""
+"Refaire la **bonne action métier** (admission ≠ absence ≠ sortie) : **une "
+"situation = une annexe**."
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid "**Facility or caregiver not recognised**"
+msgstr "**Établissement ou soignant non reconnu**"
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid "Rejection \"unknown organisation / provider\""
+msgstr "Rejet « organisation / prestataire inconnu »"
+
+#: ../../content/ehealth/eagreement-refus.md:42
+msgid ""
+"Have the administrator check the eHealth configuration (facility / caregiver"
+" INAMI number), resend."
+msgstr ""
+"Faire vérifier par l'administrateur la configuration eHealth (n° INAMI "
+"établissement / soignant), renvoyer."
+
+#: ../../content/ehealth/eagreement-refus.md:65
+msgid "Fix, then resend"
+msgstr "Corriger, puis renvoyer"
+
+#: ../../content/ehealth/eagreement-refus.md:67
+msgid ""
+"**Read the reason.** In case of rejection, Resthome shows the **reason in "
+"plain language, in French and Dutch**, directly on the agreement."
+msgstr ""
+"**Lisez le motif.** En cas de rejet, Resthome affiche le **motif en clair, "
+"en français et en néerlandais**, directement sur l'accord."
+
+#: ../../content/ehealth/eagreement-refus.md:69
+msgid ""
+"**Fix the cause at the source** (resident record, health insurer/NISS, MDA, "
+"Katz assessment, PDF document, or the right business action)."
+msgstr ""
+"**Corrigez la cause à la source** (fiche résident, mutuelle/NISS, MDA, "
+"évaluation Katz, document PDF, ou la bonne action métier)."
+
+#: ../../content/ehealth/eagreement-refus.md:71
+msgid "**Resend the agreement** once the data is corrected."
+msgstr "**Renvoyez l'accord** une fois la donnée corrigée."
+
+#: ../../content/ehealth/eagreement-refus.md:72
+msgid ""
+"**Acknowledgement of receipt.** It confirms **receipt**, not acceptance."
+msgstr ""
+"**Accusé de réception.** Il confirme la **réception**, pas l'acceptation."
+
+#: ../../content/ehealth/eagreement-refus.md:73
+msgid ""
+"**Tacit agreement.** If the health insurer does not respond within the "
+"regulatory deadline, the agreement is **tacitly granted** (silence = "
+"accepted)."
+msgstr ""
+"**Accord tacite.** Si la mutuelle ne se manifeste pas dans le délai "
+"réglementaire, l'accord est **tacitement acquis** (silence = accepté)."
+
+#: ../../content/ehealth/eagreement-refus.md:76
+msgid ""
+"The visible statuses: **Draft → Sent → Accepted / Rejected**, with the "
+"reason shown in case of rejection."
+msgstr ""
+"Les statuts visibles : **Brouillon → Envoyé → Accepté / Rejeté**, avec le "
+"motif affiché en cas de rejet."
+
+#: ../../content/ehealth/eagreement-refus.md:79
+msgid "Best practices (avoiding refusal)"
+msgstr "Bonnes pratiques (éviter le refus)"
+
+#: ../../content/ehealth/eagreement-refus.md:81
+msgid ""
+"**MDA first** — check [insurability](mda.md) **before** preparing the "
+"agreement: it is the most frequent blocker, and it can be anticipated."
+msgstr ""
+"**MDA d'abord** — vérifiez l'[assurabilité](mda.md) **avant** de préparer "
+"l'accord : c'est le blocage le plus fréquent, et il s'anticipe."
+
+#: ../../content/ehealth/eagreement-refus.md:83
+msgid ""
+"**Complete resident record** — valid NISS (eID), health insurer filled in, "
+"correct identity, before any movement."
+msgstr ""
+"**Fiche résident complète** — NISS valide (eID), mutuelle renseignée, "
+"identité correcte, avant tout mouvement."
+
+#: ../../content/ehealth/eagreement-refus.md:85
+msgid ""
+"**The right document, once** — one situation = one annexe (7 "
+"admission/return, 10 Katz, 11 discharge/death). Do not resend an agreement "
+"that has already been transmitted."
+msgstr ""
+"**Le bon document, une fois** — une situation = une annexe (7 "
+"admission/retour, 10 Katz, 11 sortie/décès). Ne renvoyez pas un accord déjà "
+"transmis."
+
+#: ../../content/ehealth/eagreement-refus.md:87
+msgid "**Katz validated** before sending for admissions and aggravations."
+msgstr "**Katz validé** avant l'envoi pour les admissions et aggravations."
+
+#: ../../content/ehealth/eagreement-refus.md:88
+msgid ""
+"**Active eHealth certificate** and up-to-date facility configuration (INAMI "
+"number)."
+msgstr ""
+"**Certificat eHealth actif** et configuration établissement (n° INAMI) à "
+"jour."
+
+#: ../../content/ehealth/eagreement-refus.md:89
+msgid ""
+"**Let Resthome do the work** — manage the resident (admission, leave, "
+"return, discharge); Resthome derives the notification. Most often: check and"
+" send."
+msgstr ""
+"**Laissez Resthome faire** — gérez le résident (entrée, absence, retour, "
+"sortie) ; Resthome en déduit la notification. Le plus souvent : vérifier et "
+"envoyer."
+
+#: ../../content/ehealth/eagreement-refus.md:92
+msgid "Learn more"
+msgstr "Pour aller plus loin"
+
+#: ../../content/ehealth/eagreement-refus.md:94
+msgid "[Agreements (eAgreement)](eagreement.md)"
+msgstr "[Accords (eAgreement)](eagreement.md)"
+
+#: ../../content/ehealth/eagreement-refus.md:95
+msgid "[Insurability (MDA)](mda.md) · [MDA errors](mda-erreurs.md)"
+msgstr "[Assurabilité (MDA)](mda.md) · [Erreurs MDA](mda-erreurs.md)"
+
+#: ../../content/ehealth/eagreement-refus.md:96
+msgid "[eFact rejections](efact-rejets.md)"
+msgstr "[Rejets eFact](efact-rejets.md)"
+
+#: ../../content/ehealth/eagreement-refus.md:97
+msgid "[FAQ](../faq.md) · [Glossary](../glossaire.md)"
+msgstr "[FAQ](../faq.md) · [Glossaire](../glossaire.md)"

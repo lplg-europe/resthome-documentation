@@ -1,0 +1,655 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-18 19:30+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/ehealth/eagreement-signature.md:1
+msgid "Responsible practitioner and annex signatures"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:4
+msgid ""
+"eAgreement responsible practitioner and signing Annexes 7/10/11 in the "
+"app for a nursing home (MR/MRS): NIHII resolution and FEMARBEL signing "
+"without printing."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:8
+msgid "Who is the responsible practitioner on an eAgreement request?"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:9
+msgid ""
+"It is the clinician who carried out the Katz assessment (the assessor), "
+"not the person who sends the request — a medical secretary can perfectly "
+"well submit it. Resthome records their personal NIHII on the request. If "
+"they have no NIHII, the request borrows the identity of the head nurse, "
+"then of the coordinating physician configured in the eHealth settings."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:11
+msgid "Where do I enter a caregiver's NIHII and signature?"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:12
+msgid ""
+"On their employee record (Employees app, Nursing Home tab). The NIHII, "
+"role and signature image live on the employee — not on a user account — "
+"so that caregivers who sign occasionally do not consume a user license."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:14
+msgid "How do I sign an Annexe 10, 7 or 11 without printing or scanning?"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:15
+msgid ""
+"Upload a signature image on the employee record, then, on the eAgreement "
+"request in Draft, click Sign Annexe 10 (or Sign Annexe 7 / Sign Annexe "
+"11). Resthome places your signature on the PDF and marks it signed. If no"
+" image is configured, the old print / sign / scan route remains possible."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:17
+msgid "Who is allowed to sign an Annexe 10 (FEMARBEL rules)?"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:18
+msgid ""
+"By default, a physician OR a nurse. A physician's signature becomes "
+"mandatory for a Katz category D (or Cd) and for a quick revision (a new "
+"assessment less than 6 months after the previous one). Annexes 7 and 11 "
+"are signed by the institution's manager, with no medical rule."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:20
+msgid "Can I sign on behalf of a colleague?"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:21
+msgid ""
+"No, unless you have eHealth manager rights. Everyone signs with their own"
+" signature image; signing on behalf of another clinician, whose name and "
+"role appear on a legal annex, requires eHealth manager rights. The actual"
+" author remains tracked in the log."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:23
+msgid "What happens for a foreign physician without a Belgian NIHII?"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:24
+msgid ""
+"Tick \"Foreign physician (no Belgian NIHII)\" on their employee record "
+"(visible only for a physician). Resthome then uses the generic number "
+"provided by the eHealth specification for foreign practitioners, accepted"
+" by the insurance bodies."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:27
+msgid ""
+"An [eAgreement](eagreement.md) request must designate a **responsible "
+"practitioner** and carry a **signature** on its annexes. This page "
+"explains the two mechanisms Resthome puts in place:"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:31
+msgid ""
+"**Who is identified** as the responsible practitioner on the electronic "
+"request — and how their **NIHII** number is determined automatically;"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:33
+msgid ""
+"**How to sign** **Annexes 7, 10 and 11** directly in the application, "
+"from a stored **signature image**, instead of printing, signing and "
+"scanning."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:36
+msgid ""
+"The signing buttons appear on the **eAgreement request** (reachable from "
+"the resident record or the billing period). Identities are configured on "
+"the **employee record** and in the **eHealth settings**."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:40
+msgid "Two identities not to confuse"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:43
+msgid ""
+"**The responsible practitioner**: the **electronic** identity recorded in"
+" the request sent to the health insurer — the clinician who carried out "
+"the **Katz** assessment. Resthome **resolves it automatically** (see "
+"below)."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:46
+msgid ""
+"**The signer**: the person whose **signature image** is placed on the "
+"annex **PDF**. By default, this is **you** (the logged-in user)."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:49
+msgid ""
+"In most cases these two roles coincide, but they are distinct: a "
+"secretary can send a request whose responsible practitioner is the nurse "
+"who scored the Katz."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:53
+msgid "The responsible practitioner"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:55
+msgid ""
+"The responsible practitioner is the **clinician who carried out the "
+"[Katz](../residents/katz.md) assessment** — the assessor — **not** the "
+"person who sends the request. Resthome determines their **NIHII** by "
+"walking down a fallback chain, so that a consistent identity is always "
+"transmitted to the health insurer."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:40
+msgid "Order"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:40
+msgid "Resthome uses…"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:40
+msgid "When"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:40
+msgid "1"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:40
+msgid "**The Katz assessor**, if they have a personal NIHII"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:40
+msgid "Normal case"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:40
+msgid "2"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:40
+msgid "The configured **head nurse** (their NIHII)"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:40
+msgid "The assessor (nurse, care assistant) has no NIHII"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:40
+msgid "3"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:40
+msgid "The configured **coordinating physician** (their NIHII)"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:40
+msgid "Neither the assessor nor the head nurse has a NIHII"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:40
+msgid "4"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:40
+msgid "A **generic AViQ nurse number**"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:40
+msgid "Last resort, no NIHII available"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:67
+msgid "Katz category D: a physician is mandatory"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:70
+msgid ""
+"For a Katz **category D** (or **Cd**), the specification requires a "
+"**physician** as the responsible practitioner. Resthome then uses the "
+"assessor if they are a physician (with a NIHII), otherwise the configured"
+" **coordinating physician**. If no physician is available, sending is "
+"**blocked** with an explicit message: configure a coordinating physician "
+"in the eHealth settings."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:77
+msgid "The generic number is a last resort"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:80
+msgid ""
+"If no one in the chain has a usable NIHII, Resthome falls back on the "
+"**generic AViQ nurse number**. This is a safety net: for a correct "
+"identity, enter the caregiver's personal NIHII, or at least a fallback "
+"head nurse and coordinating physician."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:86
+msgid "Where identities are stored (employee record)"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:88
+msgid ""
+"A caregiver's **NIHII**, **role** and **signature image** live on their "
+"**employee record**, not on a user account. This way, a caregiver who "
+"signs an Annexe 10 from time to time **does not consume a user license**:"
+" they only need to exist as an employee."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:93
+msgid "**Employees app → employee record → Nursing Home tab.**"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:77
+msgid "Field"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:77
+#: ../../content/ehealth/eagreement-signature.md:103
+msgid "What it is for"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:77
+msgid "**INAMI Number** (NIHII/INAMI number)"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:77
+msgid ""
+"The caregiver's personal NIHII, used as the responsible practitioner on "
+"the eAgreement request. 11 digits."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:77
+msgid "**Care role**"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:77
+msgid ""
+"The job (nurse, head nurse, care assistant, physician…). It determines "
+"the eHealth role."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:77
+msgid "**eHealth Role**"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:77
+msgid ""
+"Derived automatically from the care role: *nurse* (nurse / head nurse / "
+"care assistant) or *physician* (physician). Read-only."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:77
+msgid "**Foreign physician (no Belgian NIHII)**"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:77
+msgid ""
+"Tick this for a cross-border physician without a Belgian NIHII. Visible "
+"only for a physician."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:77
+msgid "**Signature image (Annexe 10)**"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:77
+msgid ""
+"The signature scan (PNG/JPG, transparent background preferred), placed on"
+" the PDF when signing in the app."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:103
+msgid "A clean signature image"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:106
+msgid ""
+"Prefer a **PNG image with a transparent background**, cropped to the "
+"strokes. Resthome places it in the annex's \"Signature\" box while "
+"**preserving its proportions** — a well-cropped image gives a clean "
+"result."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:111
+msgid "Configuring the fallback identities"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:113
+msgid ""
+"**Settings > Nursing Home > eAgreement Responsible Practitioner.** These "
+"two settings provide the fallback NIHII when the Katz assessor does not "
+"have their own."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:103
+msgid "Setting"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:103
+msgid "**Head Nurse (NIHII fallback)**"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:103
+msgid ""
+"Their NIHII identifies the responsible practitioner when the assessor "
+"(nurse, care assistant) has no personal NIHII."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:103
+msgid "**Coordinating Physician (NIHII fallback)**"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:103
+msgid ""
+"Fallback when no nurse NIHII is available, and **mandatory** for a Katz "
+"category D."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:121
+msgid ""
+"See also [eHealth and eFact settings](../configuration/reglages-"
+"ehealth.md)."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:123
+msgid "The Katz category is for declaring, not for setting the amount"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:126
+msgid ""
+"The **dependency fee** is the **same amount** for all Katz categories "
+"(AViQ rates); the category serves to **declare the resident's profile** "
+"to the health insurer. A **D** category does, however, require a "
+"**physician** as the responsible practitioner — hence the importance of "
+"the fallback coordinating physician."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:133
+msgid "The foreign physician"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:135
+msgid ""
+"A **cross-border** physician who does **not** have a Belgian NIHII cannot"
+" provide a personal number. On their employee record (*physician* role), "
+"tick **Foreign physician (no Belgian NIHII)**. Resthome then records on "
+"the request the **generic number provided by the eHealth specification** "
+"for foreign practitioners, which the insurance bodies accept. You have no"
+" number to enter yourself."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:141
+msgid "Signing an annex in the application"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:143
+msgid ""
+"Rather than **printing, signing by hand and then scanning**, Resthome "
+"places your **signature image** on the annex PDF and saves it — a route "
+"compliant with the **FEMARBEL** rules. The annexes concerned:"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:147
+msgid "**Annexe 10** — the Katz scale (care agreement);"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:148
+msgid "**Annexe 7** — the admission agreement (admission / readmission);"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:149
+msgid "**Annexe 11** — the end-of-stay notification."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:153
+msgid "The path, on a request in **Draft**:"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:155
+msgid ""
+"**Generate the annex** if not already done (Annexe 10 is produced from "
+"the Katz; Annexe 7 or 11 from the request)."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:157
+msgid ""
+"Click **Sign Annexe 10** (or **Sign Annexe 7** / **Sign Annexe 11**). "
+"These buttons appear only in Draft, when the annex exists and is **not "
+"yet signed**."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:159
+msgid ""
+"In the **Sign annex** window, check the **Signer** (you by default), "
+"their **role**, the **signature date** and the signature **preview**."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:161
+msgid ""
+"Click **Sign & replace PDF**. Resthome regenerates a clean PDF, places "
+"the signature on it and ticks the annex as **signed** (a green ✓ "
+"\"Signed\" appears next to the annex)."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:165
+msgid "Signing is a prerequisite for sending"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:168
+msgid ""
+"As long as a generated annex is **not signed**, the **Send Request** "
+"button stays hidden. Sign all the annexes first, then send. Re-signing is"
+" safe: Resthome starts from a blank PDF each time, without stacking "
+"signatures."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:173
+msgid "Katz already signed during the assessment"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:176
+msgid ""
+"If the Katz assessment was **signed in the app** at scoring time, the "
+"Annexe 10 PDF already carries the signature: Resthome marks it **signed "
+"automatically** and the step above is not needed."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:181
+msgid "Who can sign (FEMARBEL rules)"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:173
+msgid "Situation"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:173
+msgid "Allowed signer"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:173
+msgid "Annexe 10 — standard case"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:173
+msgid "**Physician OR nurse**"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:173
+msgid "Annexe 10 — Katz **category D / Cd**"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:173
+msgid "**Physician mandatory** (no nurse fallback)"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:173
+msgid ""
+"Annexe 10 — **quick revision** (new Katz less than 6 months after the "
+"previous one)"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:173
+msgid "**Physician mandatory**"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:173
+msgid "Annexe 7 (admission) / Annexe 11 (end of stay)"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:173
+msgid "**Institution manager** — no medical rule"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:190
+msgid ""
+"The signing window recalls the applicable rule in a **FEMARBEL signature "
+"rules** banner. If the rule requires a physician and the signer is not "
+"one, the signature is refused with a clear message."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:194
+msgid "Readmission after a long absence"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:197
+msgid ""
+"A **readmission** after more than 30 days of absence may require a **new "
+"Katz assessment**, but it does **not** require a physician: the Annexe 10"
+" can be signed by a **physician OR a nurse**."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:202
+msgid "Everyone signs with their own signature"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:204
+msgid ""
+"For safety, you can only sign **with your own** signature image. Signing "
+"**on behalf of another** clinician — whose name and role appear on a "
+"legal annex transmitted to the health insurer — requires **eHealth "
+"manager** rights. In all cases, the **actual author** of the action "
+"remains recorded in the audit log."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:209
+msgid "If no signature image is configured"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:211
+msgid ""
+"If the signer has **no** signature image on their employee record, the "
+"window warns you and the **Sign & replace PDF** button is not offered. "
+"Two options:"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:214
+msgid "**upload a signature image** on the employee record, then start again;"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:215
+msgid ""
+"**keep the manual route**: print the annex, have it signed, scan the "
+"signed document and re-upload it on the request (for Annexe 7 / 11, tick "
+"**Annex signed**)."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:219
+msgid "Key points to remember"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:221
+msgid ""
+"The **responsible practitioner** is the **Katz assessor**, not the "
+"sender; Resthome resolves their **NIHII** in a cascade: assessor → head "
+"nurse → coordinating physician → generic number."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:224
+msgid ""
+"A Katz **category D** requires a **physician**; configure a fallback "
+"**coordinating physician** in the eHealth settings."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:226
+msgid ""
+"The **NIHII**, **role** and **signature image** live on the **employee "
+"record** (*Nursing Home* tab) — no user license needed for caregivers who"
+" sign occasionally."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:229
+msgid ""
+"**Sign Annexe 10 / 7 / 11** places your signature image on the PDF: no "
+"more printing / signing / scanning. Signing is a **prerequisite for "
+"sending**."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:231
+msgid ""
+"**FEMARBEL** rules: physician OR nurse by default; **physician "
+"mandatory** in category D or a quick revision (< 6 months)."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:233
+msgid ""
+"You sign **only with your own** signature, unless you have **eHealth "
+"manager** rights."
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:236
+msgid "Further reading"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:238
+msgid "[Agreements (eAgreement)](eagreement.md)"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:239
+msgid ""
+"[Refused agreement (eAgreement) — causes and solutions](eagreement-"
+"refus.md)"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:240
+msgid "[The dependency scale (Katz)](../residents/katz.md)"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:241
+msgid "[eHealth and eFact settings](../configuration/reglages-ehealth.md)"
+msgstr ""
+
+#: ../../content/ehealth/eagreement-signature.md:242
+msgid "[eHealth overview](index.md)"
+msgstr ""
+

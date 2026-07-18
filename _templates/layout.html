@@ -1,0 +1,8 @@
+{#- Override immaterial : injecte les metatags Sphinx (JSON-LD, hreflang,
+    meta description émis par _ext/resthome_meta.py) dans le <head>. -#}
+{% extends "!layout.html" %}
+
+{% block extrahead %}
+  {{ metatags }}
+  {{ super() }}
+{% endblock %}

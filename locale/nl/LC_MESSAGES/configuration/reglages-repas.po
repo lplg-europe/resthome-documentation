@@ -1,0 +1,382 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-18 19:30+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/configuration/reglages-repas.md:1
+msgid "Meal and nutrition settings"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:4
+msgid ""
+"Configure Resthome's Meals tab in a nursing home (MR/MRS): nutritional "
+"data source, public menu, kiosk, family notifications, and ESPEN targets."
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:8
+msgid "Should you choose CIQUAL or NUBEL as the nutritional source?"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:9
+msgid ""
+"CIQUAL (ANSES, France) is the default source: its database of 3,484 foods"
+" is already loaded, so you can use it right away. NUBEL (Belgium) must be"
+" imported first. To get started, keep CIQUAL; switch to NUBEL only if you"
+" need the Belgian references and the import has been done."
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:11
+msgid "What is the intake deficit alert threshold for?"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:12
+msgid ""
+"Resthome compares the 3-day average intake against the resident's needs "
+"(energy and protein). When that intake covers less than the configured "
+"threshold (75% by default), a deficit alert is created. Lower the "
+"threshold to be alerted later, raise it to be alerted sooner."
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:14
+msgid "Are the ESPEN targets the same for every resident?"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:15
+msgid ""
+"No. The coefficients (30 kcal/kg, 1 g/kg of protein, 1.6 l for women and "
+"2.0 l for men) are facility-wide settings. Resthome then calculates each "
+"resident's own target from their weight and sex. The energy band rises to"
+" 35 kcal/kg for an underweight resident (BMI less than or equal to 21)."
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:17
+msgid "Why do meal notifications to families have no effect?"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:18
+msgid ""
+"Sending emails requires an outgoing mail server configured in Odoo. "
+"Without one, enabling the option sends nothing. First configure the "
+"outgoing server, then enable the global notification and the per-resident"
+" opt-in."
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:20
+msgid "Where are these settings located?"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:21
+msgid ""
+"In Settings > Meals. The tab groups four blocks: Nutrition, Public menu "
+"and kiosk, Family notifications, and Nutritional targets (ESPEN)."
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:24
+msgid ""
+"The **Meals** settings tab brings together the configuration of the Meals"
+" app: the **nutritional data source**, the **appearance of the public "
+"menu and the kiosk**, the **family notifications**, and the **nutritional"
+" targets (ESPEN)** used for undernutrition monitoring. You will find it "
+"under **Settings > Meals**."
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:29
+msgid ""
+"These settings apply to the whole facility: you define them once, after "
+"which they rarely need adjusting."
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:32
+msgid "Nutrition"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:34
+msgid ""
+"This section indicates which **reference database** Resthome queries to "
+"retrieve the nutritional values of ingredients (calories, protein, etc.)."
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:7
+#: ../../content/configuration/reglages-repas.md:41
+#: ../../content/configuration/reglages-repas.md:60
+#: ../../content/configuration/reglages-repas.md:77
+msgid "Setting"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:7
+#: ../../content/configuration/reglages-repas.md:41
+#: ../../content/configuration/reglages-repas.md:60
+#: ../../content/configuration/reglages-repas.md:77
+msgid "What it does"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:7
+#: ../../content/configuration/reglages-repas.md:41
+#: ../../content/configuration/reglages-repas.md:60
+#: ../../content/configuration/reglages-repas.md:77
+msgid "Recommended value (MR/MRS)"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:7
+msgid "**Nutritional data source**"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:7
+msgid ""
+"Reference database of nutritional values. CIQUAL (ANSES, France): 3,484 "
+"foods, already loaded. NUBEL (Belgium): Belgian database, to be imported."
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:7
+msgid "**CIQUAL** (default, already loaded)"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:41
+msgid "CIQUAL is enough to get started"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:44
+msgid ""
+"The **CIQUAL** database is preloaded: you can build your menus and track "
+"nutrition without any preparation. Only switch to **NUBEL** if you "
+"specifically need the Belgian references — the import must then be "
+"carried out beforehand."
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:49
+msgid "Public menu and kiosk"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:51
+msgid ""
+"These settings customise the appearance of the **daily menu**, **weekly "
+"menu**, and **kiosk** pages (see [Family portal and kiosk](../repas"
+"/portail-familles.md))."
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:41
+msgid "**Public menu colour**"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:41
+msgid "Main colour of the menu and kiosk pages."
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:41
+msgid "Your brand colour (default `#0d6efd`)"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:41
+msgid "**Show company logo**"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:41
+msgid "Displays the company logo at the top of the public menu pages."
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:41
+msgid "Enabled"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:41
+msgid "**Kiosk refresh (seconds)**"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:41
+msgid ""
+"Automatic refresh interval of the kiosk page (`/menu/kiosk`) shown in the"
+" dining room."
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:41
+msgid "600 s (10 min)"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:60
+msgid "Values specific to your facility"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:63
+msgid ""
+"The **colour** and the **logo** are specific to your facility: use your "
+"visual identity. The kiosk refresh is only useful if a screen displays "
+"the `/menu/kiosk` page continuously."
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:68
+msgid "Family notifications"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:70
+msgid ""
+"This block enables the automatic sending of emails to families who have "
+"accepted it: a **weekly summary** of meals and a **low-intake alert**."
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:60
+msgid "**Meal notifications to families**"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:60
+msgid ""
+"Sends opted-in families a weekly summary and a low-intake alert. Requires"
+" an outgoing mail server."
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:60
+msgid "Enabled **if** an outgoing mail server is configured, otherwise disabled"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:77
+msgid "An outgoing mail server is required"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:80
+msgid ""
+"Without an **outgoing mail server** configured in Odoo, enabling the "
+"option sends nothing. Sending also depends on a **per-resident opt-in**: "
+"only families who have accepted receive the emails. Configure the "
+"outgoing server, enable the global notification, then the opt-in resident"
+" by resident."
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:86
+msgid "Nutritional targets (ESPEN)"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:88
+msgid ""
+"These coefficients, drawn from the **ESPEN** geriatric guidelines, are "
+"used to calculate each **resident's own target** (from their weight and "
+"sex) and to trigger the **deficit alerts**."
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:77
+msgid "**Energy (kcal/kg/day)**"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:77
+msgid "Energy target per kilo of body weight."
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:77
+msgid "30"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:77
+msgid "**Energy if underweight (kcal/kg/day)**"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:77
+msgid ""
+"Raised target for an undernourished resident (BMI less than or equal to "
+"21); ESPEN suggests 32 to 38."
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:77
+msgid "35"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:77
+msgid "**Protein (g/kg/day)**"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:77
+msgid ""
+"Protein target per kilo of body weight (at least 1; 1.2 to 1.5 in case of"
+" illness)."
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:77
+msgid "1"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:77
+msgid "**Fluids — women (ml/day)**"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:77
+msgid "Daily hydration target for women."
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:77
+msgid "1600"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:77
+msgid "**Fluids — men (ml/day)**"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:77
+msgid "Daily hydration target for men."
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:77
+msgid "2000"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:77
+#, python-format
+msgid "**Intake deficit alert (% coverage)**"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:77
+msgid ""
+"Threshold below which an alert is created when the 3-day average intake "
+"does not cover enough of the energy or protein target."
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:77
+msgid "75"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:101
+msgid "A target calculated per resident"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:104
+msgid ""
+"Here you set the **coefficients**; Resthome derives each resident's "
+"**individual target** from their weight and sex, then compares the actual"
+" **intake** against those targets. Coverage monitoring and undernutrition"
+" screening are described in [Menus, diets, and hydration](../repas/menus-"
+"regimes.md)."
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:110
+msgid "Further reading"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:112
+msgid "[Menus, diets, and hydration](../repas/menus-regimes.md)"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:113
+msgid "[Family portal and kiosk](../repas/portail-familles.md)"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:114
+msgid "[Meals overview](../repas/index.md)"
+msgstr ""
+
+#: ../../content/configuration/reglages-repas.md:115
+msgid "[Clinical registers](../soins/registres.md)"
+msgstr ""
+

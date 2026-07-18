@@ -1,0 +1,637 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-18 19:30+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/repas/suivi-nutritionnel.md:1
+msgid "Nutritional monitoring and undernutrition"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:4
+msgid ""
+"Screen for undernutrition and track intake in a nursing home (MR/MRS): "
+"risk status, MNA, ESPEN targets and automatic alerts."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:8
+msgid "How does Resthome identify a resident at risk of undernutrition?"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:9
+#, python-format
+msgid ""
+"Resthome applies the AViQ/ESPEN screening rules and updates a status: a "
+"weight loss of more than 5% in 1 month or more than 10% in 6 months, a "
+"BMI below 23 in a resident over 70, or an MNA overdue by more than 6 "
+"months move the resident to Re-screen (MNA). A latest MNA of "
+"\"undernourished\" places the resident directly in Undernutrition. The "
+"status is recalculated on every weight change and once a day."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:11
+msgid "Does the undernutrition category change the dependency allowance?"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:12
+msgid ""
+"No. The dependency allowance depends on the resident's Katz category, not"
+" on their nutritional status. Undernutrition monitoring is a clinical "
+"tool: it triggers assessments (MNA) and alerts, but has no effect on "
+"billing. The Katz category and the allowance are managed elsewhere (see "
+"the Katz page)."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:14
+msgid "Where do the energy, protein and fluid targets come from?"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:15
+msgid ""
+"The ESPEN coefficients (30 kcal/kg, 1 g/kg of protein, 1.6 L for women "
+"and 2.0 L for men) are facility-wide settings. Resthome then computes "
+"each resident's own target from their weight and sex. The energy band "
+"rises to 35 kcal/kg for an underweight resident (BMI less than or equal "
+"to 21)."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:17
+msgid "How is actual intake calculated?"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:18
+msgid ""
+"From the meal services: for each meal served, you record the amount eaten"
+" (Amount Eaten: none, 25%, 50%, 75%, fully). Resthome multiplies the per-"
+"portion nutritional value of the dishes served by this percentage, adds "
+"the logged hydration, then compares the 3-day average with the targets. "
+"Dishes must therefore carry their portions and their per-portion values."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:20
+msgid "Who receives the undernutrition or deficit alerts?"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:21
+msgid ""
+"A daily cron creates a \"to do\" activity. The undernutrition alert goes "
+"to the head nurse (then the manager); nutritional deficit or hydration "
+"deficit alerts go first to the Kitchen role (dietitian), then to the head"
+" nurse, then to the manager. Each alert is capped at once every 30 days "
+"per resident to avoid duplicates."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:23
+msgid "Is nutritional monitoring mandatory to use Resthome?"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:24
+msgid ""
+"No. It is an optional screening feature, designed as a differentiator for"
+" MR/MRS. It assists the team but does not replace the judgment of a "
+"dietitian or a physician. You can use it as much or as little as you "
+"like: it activates as soon as you enter weight, MNA, meals and drinks."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:27
+msgid ""
+"Resthome screens for **undernutrition** and tracks each resident's "
+"**intake**, drawing on the geriatric **ESPEN** recommendations and the "
+"**AViQ** screening rules. Everything is read in the resident record's "
+"**Nutrition tab** and driven from the **Meals dashboard**."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:32
+msgid ""
+"The principle is simple: you enter the **weight**, the **meals served** "
+"and the **drinks**; Resthome derives an **undernutrition risk status**, "
+"**targets** for energy, protein and fluids, a **coverage** of intake, and"
+" raises **alerts** when a resident falls behind."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:37
+msgid "A screening tool, not a diagnosis"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:40
+msgid ""
+"Nutritional monitoring helps the team spot frail residents early. It does"
+" not replace the assessment of a **dietitian** or a **physician**: the "
+"status and alerts are signals to be interpreted, not decisions."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:45
+msgid "The resident's Nutrition tab"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:47
+msgid ""
+"Open a resident (the **Residents** or **Meals** app), then the "
+"**Nutrition** tab. The tab only appears for residents. It brings together"
+" the undernutrition status, the latest MNA, the ESPEN targets, the "
+"intake, the diets and the food preferences."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:53
+msgid "The undernutrition risk status"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:55
+msgid ""
+"The **Undernutrition Status** block is **read-only**: Resthome computes "
+"it, you do not edit it by hand. It shows a colored badge and the "
+"measurements that explain it."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:37
+msgid "Displayed status"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:37
+msgid "Meaning"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:37
+msgid "Badge color"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:37
+msgid "**No concern**"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:37
+msgid "No concern"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:37
+msgid "Green"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:37
+msgid "**To monitor**"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:37
+msgid "To monitor (last MNA \"at risk\")"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:37
+msgid "Blue"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:37
+msgid "**Re-screen (MNA)**"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:37
+msgid "An AViQ signal is active: redo or renew the MNA"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:37
+msgid "Orange"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:37
+msgid "**Undernutrition**"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:37
+msgid "Confirmed undernutrition (last MNA \"undernourished\")"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:37
+msgid "Red"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:65
+msgid ""
+"Below the badge, the tab shows the **weight**, the **BMI**, a **Low BMI**"
+" indicator (age-adjusted low BMI) and the **weight loss** over 1 month "
+"and over 6 months."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:79
+msgid "What triggers \"Re-screen (MNA)\""
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:82
+msgid "An **AViQ signal** is active as soon as one of these conditions is true:"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:84
+msgid "**weight loss** of more than **5%** over about 1 month;"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:85
+msgid "**weight loss** of more than **10%** over about 6 months;"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:86
+msgid "**BMI below 23** in a resident **over 70** (age-adjusted threshold);"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:87
+msgid "**overdue MNA**: no MNA, or a last MNA more than 6 months old."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:89
+msgid "The thresholds match the default values of the AViQ/PWNS-be-A screening."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:92
+msgid "Weigh regularly to get the weight loss"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:95
+msgid ""
+"The weight loss over 1 and 6 months is computed from the **weights logged"
+" in the vital signs** (nursing notes). Without regular weigh-ins, "
+"Resthome cannot compare and these percentages stay at zero. The "
+"**height** is required for the **BMI**."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:100
+msgid "The latest MNA"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:102
+msgid ""
+"The **Latest MNA** block summarizes the resident's most recent **MNA** "
+"(Mini Nutritional Assessment) assessment: **date**, **score** and "
+"**interpretation** (normal, at risk, undernourished)."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:106
+msgid "Two buttons give access to it:"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:108
+msgid ""
+"**New MNA** opens a new MNA assessment pre-filled for this resident, with"
+" the **BMI band** already selected based on their known BMI."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:110
+msgid "**MNA History** opens the list of their previous MNAs."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:112
+msgid ""
+"The MNA-SF is a **14-point** scale: **12–14** = normal status, **8–11** ="
+" at risk of undernutrition, **0–7** = undernourished. It is the MNA that "
+"switches the status to **Undernutrition** or **To monitor**. The "
+"assessments are **clinical registers**: see [Clinical "
+"registers](../soins/registres.md)."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:117
+msgid "The ESPEN targets"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:119
+msgid ""
+"The **Nutritional Needs (ESPEN)** block shows the target **specific to "
+"the resident**, derived from their weight and sex:"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:92
+msgid "Target"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:92
+msgid "How it is computed"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:92
+msgid "**Energy Target (kcal/day)** — energy"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:92
+msgid "Weight × 30 kcal/kg (or 35 if BMI less than or equal to 21)"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:92
+msgid "**Protein Target (g/day)** — protein"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:92
+msgid "Weight × 1 g/kg"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:92
+msgid "**Fluid Target (ml/day)** — fluids"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:92
+msgid "1600 ml (women) / 2000 ml (men)"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:128
+msgid ""
+"The **coefficients** (30/35 kcal, 1 g, 1.6/2.0 L) are set once for the "
+"whole facility in [Meal and nutrition settings](../configuration"
+"/reglages-repas.md). Resthome then derives each resident's individual "
+"target."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:132
+msgid "Intake vs needs (3-day average)"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:134
+msgid ""
+"The **Intake vs Needs** block compares what the resident actually "
+"consumed with their targets."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:137
+msgid ""
+"The **Today** row shows the day's intake: **kcal**, **protein (g)** and "
+"**fluids (ml)**."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:139
+msgid ""
+"Three coverage bars — **Energy Coverage**, **Protein Coverage** and "
+"**Fluid Coverage** — give the **3-day average** as a percentage of the "
+"target."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:141
+msgid ""
+"Two indicators, **Nutrition Deficit** and **Hydration Deficit**, become "
+"true when coverage falls below the configured threshold (75% by default)."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:144
+msgid "Two buttons round out the block:"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:146
+msgid "**Log Drink** quickly records a drink for this resident."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:147
+msgid "**Hydration History** opens their drinks log."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:149
+msgid "For coverage to fill in"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:152
+msgid ""
+"Food intake comes from the **meal services**: at each meal, record the "
+"**amount eaten** (see below). The **dishes** must carry their "
+"**portions** and their **per-portion** values (kcal, protein), otherwise "
+"the intake stays at zero. Hydration comes from the **logged drinks**."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:158
+msgid "Logging food intake"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:160
+msgid ""
+"Energy and protein intake is derived from the **meal services**. On a "
+"service, the **Amount Eaten** field offers: **Not Eaten**, **25%**, "
+"**50%**, **75%** and **Fully Eaten**."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:164
+msgid ""
+"Resthome multiplies the **per-portion** nutritional value of the dishes "
+"served by this percentage to obtain the meal's actual intake, then takes "
+"the **3-day average**. Meal-by-meal entry is done in **Meals → "
+"Operations** (Meal services, Distribution) — see [Menus, diets and "
+"hydration](menus-regimes.md)."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:169
+msgid "Recording hydration"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:171
+msgid ""
+"Drinks are logged throughout the day in **Meals → Operations → "
+"Hydration**, a directly editable list (quick entry). Each line records "
+"the resident, the time, the **quantity in milliliters** and the **drink "
+"type**: water, coffee/tea, juice/soda, milk/dairy, soup/broth, oral "
+"supplement, other."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:176
+msgid ""
+"You can also log a drink in one click from the Nutrition tab, with the "
+"**Log Drink** button. Resthome adds up the day's drinks, computes the "
+"**fluid coverage** over 3 days and raises an alert if intake is "
+"insufficient."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:182
+msgid "The nutrition dashboard"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:184
+msgid ""
+"Open **Meals → Statistics**: below the general cards (Residents, Menus, "
+"Alerts), the page brings together three nutritional banners that only "
+"appear if they concern at least one resident."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:149
+msgid "Banner"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:149
+msgid "Residents concerned"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:149
+msgid "Button"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:149
+msgid "**Undernutrition risk** (red)"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:149
+msgid "Re-screen (MNA) or Undernutrition status"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:149
+msgid "**Review** opens the list of these residents"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:149
+msgid "**Nutritional deficit** (orange)"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:149
+msgid "Intake below the ESPEN target"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:149
+msgid "**Hydration deficit** (blue)"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:149
+msgid "Fluid intake below the target"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:194
+msgid ""
+"Each **Review** button opens the filtered list of residents, on their "
+"full record (Nutrition tab included) to act directly."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:199
+msgid "The automatic alerts"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:201
+msgid ""
+"A **daily cron** refreshes the screening and creates **activities** for "
+"residents who fall behind. Activities are capped at **once every 30 "
+"days** per resident to avoid duplicates."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:149
+msgid "Alert"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:149
+msgid "Condition"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:149
+msgid "Recipient"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:149
+msgid "**Undernutrition — redo/renew the MNA**"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:149
+msgid "Head nurse, otherwise manager"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:149
+msgid "**Nutritional deficit — intake below target**"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:149
+msgid "Energy or protein coverage below the threshold"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:149
+msgid "Kitchen (dietitian), otherwise head nurse, otherwise manager"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:149
+msgid "**Hydration deficit — fluid intake below target**"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:149
+msgid "Fluid coverage below the threshold"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:211
+msgid ""
+"In addition to the activities, the Nutrition tab shows a **warning "
+"banner** at the top as soon as the status is Re-screen (MNA) or "
+"Undernutrition, recalling the weight loss and prompting to redo the MNA."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:215
+msgid "Set the deficit threshold"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:218
+msgid ""
+"The **75%** coverage threshold that triggers the deficit alerts is "
+"changed in [Meal and nutrition settings](../configuration/reglages-"
+"repas.md). Lower it to be alerted later, raise it to be alerted earlier."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:223
+msgid "Key takeaways"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:225
+msgid ""
+"The resident's **Nutrition tab** brings together the undernutrition "
+"status, latest MNA, ESPEN targets and intake coverage — read-only for the"
+" computed measurements."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:227
+msgid ""
+"The **undernutrition status** follows the AViQ/ESPEN rules: weight loss, "
+"age-adjusted BMI, overdue MNA or \"undernourished\" MNA."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:229
+msgid ""
+"The **targets** (energy, protein, fluids) are specific to each resident, "
+"computed from their weight and sex using the configurable ESPEN "
+"coefficients."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:231
+msgid ""
+"The **intake** is derived from the **amount eaten** at meals and the "
+"**logged drinks**; coverage is a 3-day average."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:233
+msgid ""
+"The **Meals dashboard** (Statistics) and the **daily alerts** surface at-"
+"risk residents; this monitoring does **not** change the allowance, which "
+"depends on the Katz category."
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:237
+msgid "Further reading"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:239
+msgid "[Menus, diets and hydration](menus-regimes.md)"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:240
+msgid "[Family portal and kiosk](portail-familles.md)"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:241
+msgid "[Meals overview](index.md)"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:242
+msgid "[Clinical registers (MNA)](../soins/registres.md)"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:243
+msgid "[Meal and nutrition settings](../configuration/reglages-repas.md)"
+msgstr ""
+
+#: ../../content/repas/suivi-nutritionnel.md:244
+msgid "[The allowance and the Katz category](../residents/katz.md)"
+msgstr ""
+

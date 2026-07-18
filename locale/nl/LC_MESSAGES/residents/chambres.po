@@ -1,0 +1,648 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-18 19:30+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: nl <LL@li.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/residents/chambres.md:5
+msgid "Rooms and occupancy"
+msgstr "De kamers en de bezetting"
+
+#: ../../content/residents/chambres.md:8
+msgid ""
+"Track the occupancy of a nursing home's (MR/MRS) rooms with Resthome: kanban"
+" board by status, room record, maintenance and assigning a resident."
+msgstr ""
+"De kamerbezetting van een woonzorgcentrum (WZC/RVT) opvolgen met Resthome: "
+"kanbanbord per status, kamerfiche, onderhoud en een bewoner toewijzen."
+
+#: ../../content/residents/chambres.md:12
+msgid "Where is the room occupancy board in Resthome?"
+msgstr "Waar vind ik het bezettingsoverzicht van de kamers in Resthome?"
+
+#: ../../content/residents/chambres.md:13
+msgid ""
+"In the MR/MRS application, Accommodation → Rooms menu. Rooms are shown as a "
+"kanban, grouped by status: Available, Occupied, Under maintenance and "
+"Reserved."
+msgstr ""
+"In de MR/MRS-toepassing, menu Huisvesting → Kamers. De kamers verschijnen in"
+" een kanban, gegroepeerd per status: Beschikbaar, Bezet, In onderhoud en "
+"Gereserveerd."
+
+#: ../../content/residents/chambres.md:15
+msgid "What does the colored badge on each room mean?"
+msgstr "Wat betekent de gekleurde badge op elke kamer?"
+
+#: ../../content/residents/chambres.md:16
+msgid ""
+"It shows the occupancy \"occupied / capacity\" (for example 1/2) and its "
+"color reflects the status: green for Available, blue for Occupied, orange "
+"for Under maintenance, cyan for Reserved. A two-bed room with only one bed "
+"taken stays Available."
+msgstr ""
+"Hij toont de bezetting « bezet / capaciteit » (bijvoorbeeld 1/2) en de kleur"
+" weerspiegelt de status: groen voor Beschikbaar, blauw voor Bezet, oranje "
+"voor In onderhoud, cyaan voor Gereserveerd. Een tweepersoonskamer waarvan "
+"één bed bezet is, blijft Beschikbaar."
+
+#: ../../content/residents/chambres.md:18
+msgid "How do I make a room unavailable for works?"
+msgstr "Hoe maak ik een kamer onbeschikbaar voor werken?"
+
+#: ../../content/residents/chambres.md:19
+msgid ""
+"On the room record, click Set Under Maintenance (or Mark as Reserved). The "
+"room is then excluded from the assignable rooms. The Automatic Mode button "
+"puts it back to automatic status computation."
+msgstr ""
+"Klik op de kamerfiche op Onderhoud instellen (of Gereserveerd instellen). De"
+" kamer wordt dan uitgesloten van de toewijsbare kamers. De knop Automatisch "
+"instellen zet de status weer op automatische berekening."
+
+#: ../../content/residents/chambres.md:21
+msgid "How do I assign a resident directly from a room?"
+msgstr "Hoe wijs ik een bewoner rechtstreeks vanuit een kamer toe?"
+
+#: ../../content/residents/chambres.md:22
+msgid ""
+"Open an available room and click Assign a Resident. Choose the resident and "
+"the entry date: Resthome creates the stay, in the In Progress state, on that"
+" room."
+msgstr ""
+"Open een beschikbare kamer en klik op Bewoner toewijzen. Kies de bewoner en "
+"de opnamedatum: Resthome maakt het verblijf aan, in de staat Lopend, in die "
+"kamer."
+
+#: ../../content/residents/chambres.md:24
+msgid "What happens if the resident already occupies a room?"
+msgstr "Wat gebeurt er als de bewoner al een kamer bezet?"
+
+#: ../../content/residents/chambres.md:25
+msgid ""
+"The wizard detects the current stay and shows a transfer warning. On "
+"confirmation, Resthome ends the old stay (reason: transfer) and opens a new "
+"stay in the chosen room."
+msgstr ""
+"De assistent detecteert het lopende verblijf en toont een "
+"overdrachtswaarschuwing. Bij bevestiging beëindigt Resthome het oude "
+"verblijf (reden: overdracht) en opent een nieuw verblijf in de gekozen "
+"kamer."
+
+#: ../../content/residents/chambres.md:27
+msgid "Is the daily rate displayed the INAMI package?"
+msgstr "Is het getoonde dagtarief het RIZIV-forfait?"
+
+#: ../../content/residents/chambres.md:28
+msgid ""
+"No. It is the accommodation price (the room), a value specific to your "
+"facility, set on the room type. The dependency package, for its part, "
+"depends on the resident's Katz category, not on the room."
+msgstr ""
+"Nee. Het is de prijs van het verblijf (de kamer), een waarde eigen aan uw "
+"instelling, ingesteld op het kamertype. Het afhankelijkheidsforfait hangt af"
+" van de Katz-categorie van de bewoner, niet van de kamer."
+
+#: ../../content/residents/chambres.md:31
+msgid ""
+"The **Rooms** area gives you a real-time view of the facility's "
+"**occupancy**: which rooms are free, occupied, reserved or under "
+"maintenance, how many beds remain available, and at what rate. From a room, "
+"you can also **directly assign a resident**, which opens their stay."
+msgstr ""
+"De ruimte **Kamers** geeft u een realtimebeeld van de **bezetting** van de "
+"instelling: welke kamers vrij, bezet, gereserveerd of in werken zijn, "
+"hoeveel bedden nog beschikbaar zijn en tegen welk tarief. Vanuit een kamer "
+"kunt u ook **rechtstreeks een bewoner toewijzen**, wat zijn verblijf opent."
+
+#: ../../content/residents/chambres.md:36
+msgid "You'll find it in the **MR/MRS → Accommodation → Rooms** application."
+msgstr "U vindt dit in de toepassing **MR/MRS → Huisvesting → Kamers**."
+
+#: ../../content/residents/chambres.md:38
+msgid "The occupancy board"
+msgstr "Het bezettingsoverzicht"
+
+#: ../../content/residents/chambres.md:40
+msgid ""
+"On opening, the rooms are shown as a **kanban**, grouped by **status**: an "
+"**Available** column, an **Occupied** column, an **Under maintenance** "
+"column and a **Reserved** column. At a glance, you can see where space "
+"remains."
+msgstr ""
+"Bij het openen verschijnen de kamers in een **kanban**, gegroepeerd per "
+"**status**: een kolom **Beschikbaar**, een kolom **Bezet**, een kolom **In "
+"onderhoud** en een kolom **Gereserveerd**. In één oogopslag ziet u waar er "
+"nog plaats is."
+
+#: ../../content/residents/chambres.md:44
+msgid "Each room card shows:"
+msgstr "Elke kamerkaart toont:"
+
+#: ../../content/residents/chambres.md:46
+msgid "the room **number**;"
+msgstr "het **nummer** van de kamer;"
+
+#: ../../content/residents/chambres.md:47
+msgid ""
+"an **occupancy badge** \"occupied / capacity\" (for example 1/1 or 1/2), "
+"colored by status — green (Available), blue (Occupied), orange "
+"(Maintenance), cyan (Reserved);"
+msgstr ""
+"een **bezettingsbadge** « bezet / capaciteit » (bijvoorbeeld 1/1 of 1/2), "
+"gekleurd volgens de status — groen (Beschikbaar), blauw (Bezet), oranje "
+"(Onderhoud), cyaan (Gereserveerd);"
+
+#: ../../content/residents/chambres.md:50
+msgid "the **room type**;"
+msgstr "het **kamertype**;"
+
+#: ../../content/residents/chambres.md:51
+msgid "the **resident(s) present**, if any;"
+msgstr "de aanwezige **bewoner(s)**, indien van toepassing;"
+
+#: ../../content/residents/chambres.md:52
+msgid "the **daily accommodation rate**."
+msgstr "het **dagtarief** van het verblijf."
+
+#: ../../content/residents/chambres.md:56
+msgid "The occupancy / capacity badge"
+msgstr "De badge bezetting / capaciteit"
+
+#: ../../content/residents/chambres.md:59
+msgid ""
+"A capacity-2 room with only one bed taken shows **1/2** and stays "
+"**Available**: there is still a spot. It only switches to **Occupied** when "
+"**all** beds are taken. A single room (capacity 1) therefore goes straight "
+"from Available to Occupied as soon as the first resident arrives."
+msgstr ""
+"Een kamer met capaciteit 2 waarvan één bed bezet is, toont **1/2** en blijft"
+" **Beschikbaar**: er is nog een plaats. Ze schakelt pas naar **Bezet** "
+"wanneer **alle** bedden bezet zijn. Een eenpersoonskamer (capaciteit 1) gaat"
+" dus meteen van Beschikbaar naar Bezet zodra de eerste bewoner er is."
+
+#: ../../content/residents/chambres.md:65
+msgid ""
+"In the top right, you can switch from the **kanban** to the **list** "
+"(number, floor, type, capacity, occupancy, rate, amenities, status) or the "
+"**form**."
+msgstr ""
+"Rechtsboven schakelt u van het **kanban** naar de **lijst** (nummer, "
+"verdieping, type, capaciteit, bezetting, tarief, uitrusting, status) of de "
+"**fiche**."
+
+#: ../../content/residents/chambres.md:68
+msgid "Filtering and grouping"
+msgstr "Filteren en groeperen"
+
+#: ../../content/residents/chambres.md:70
+msgid ""
+"The search bar offers quick **filters**: **Available**, **Occupied**, "
+"**Maintenance**, **Reserved**, as well as **Active (excluding "
+"maintenance)**. You can also **group** rooms by **Status**, **Floor**, "
+"**Type** or **Sector**, and search by number, floor, building or sector."
+msgstr ""
+"De zoekbalk biedt snelle **filters**: **Beschikbaar**, **Bezet**, "
+"**Onderhoud**, **Gereserveerd**, en ook **Actief (niet in onderhoud)**. U "
+"kunt de kamers ook **groeperen** per **Status**, **Verdieping**, **Type** of"
+" **Sector**, en zoeken op nummer, verdieping, gebouw of sector."
+
+#: ../../content/residents/chambres.md:75
+msgid "The room record"
+msgstr "De kamerfiche"
+
+#: ../../content/residents/chambres.md:77
+msgid ""
+"Click a card to open the **room record**. At the top, a **status bar** shows"
+" the current state (**Available → Occupied → Under maintenance → "
+"Reserved**), and **ribbons** visually flag a room as \"Maintenance\" or "
+"\"Reserved\"."
+msgstr ""
+"Klik op een kaart om de **kamerfiche** te openen. Bovenaan toont een "
+"**statusbalk** de huidige staat (**Beschikbaar → Bezet → In onderhoud → "
+"Gereserveerd**), en **linten** signaleren visueel een kamer « Onderhoud » of"
+" « Gereserveerd »."
+
+#: ../../content/residents/chambres.md:81
+msgid "Details and rate"
+msgstr "Informatie en tarief"
+
+#: ../../content/residents/chambres.md:56
+msgid "Field"
+msgstr "Veld"
+
+#: ../../content/residents/chambres.md:56
+msgid "Purpose"
+msgstr "Rol"
+
+#: ../../content/residents/chambres.md:56
+msgid "**Room Number**"
+msgstr "**Kamernummer**"
+
+#: ../../content/residents/chambres.md:56
+msgid "Unique identifier of the room."
+msgstr "Unieke identificatie van de kamer."
+
+#: ../../content/residents/chambres.md:56
+msgid "**Room Type**"
+msgstr "**Kamertype**"
+
+#: ../../content/residents/chambres.md:56
+msgid "Determines the **daily rate** and the default capacity."
+msgstr "Bepaalt het **dagtarief** en de standaardcapaciteit."
+
+#: ../../content/residents/chambres.md:56
+msgid "**Floor** / **Building**"
+msgstr "**Verdieping** / **Gebouw**"
+
+#: ../../content/residents/chambres.md:56
+msgid "Physical location."
+msgstr "Fysieke locatie."
+
+#: ../../content/residents/chambres.md:56
+msgid "**Sector**"
+msgstr "**Sector**"
+
+#: ../../content/residents/chambres.md:56
+msgid "Sector / floor of the facility; used for grouping and access rights."
+msgstr ""
+"Sector / verdieping van de instelling; dient voor groepering en "
+"toegangsrechten."
+
+#: ../../content/residents/chambres.md:56
+msgid "**Capacity**"
+msgstr "**Capaciteit**"
+
+#: ../../content/residents/chambres.md:56
+msgid "Number of beds in the room."
+msgstr "Aantal bedden van de kamer."
+
+#: ../../content/residents/chambres.md:56
+msgid "**Current Occupancy**"
+msgstr "**Huidige bezetting**"
+
+#: ../../content/residents/chambres.md:56
+msgid "Number of occupied beds (computed automatically)."
+msgstr "Aantal bezette bedden (automatisch berekend)."
+
+#: ../../content/residents/chambres.md:56
+msgid "**Daily Rate**"
+msgstr "**Dagtarief**"
+
+#: ../../content/residents/chambres.md:56
+msgid "Accommodation price, taken from the room type."
+msgstr "Verblijfsprijs, overgenomen van het kamertype."
+
+#: ../../content/residents/chambres.md:56
+msgid "**Billing Product**"
+msgstr "**Factureringsproduct**"
+
+#: ../../content/residents/chambres.md:56
+msgid "Product linked to the room (read-only)."
+msgstr "Product gekoppeld aan de kamer (alleen-lezen)."
+
+#: ../../content/residents/chambres.md:94
+msgid "The daily rate is not the INAMI package"
+msgstr "Het dagtarief is niet het RIZIV-forfait"
+
+#: ../../content/residents/chambres.md:97
+msgid ""
+"The **daily rate** is the **accommodation price** (the room), a value "
+"**specific to your facility**, set on the **room type**. It is distinct from"
+" the **dependency package** (the insurer's share), which depends on the "
+"resident's **Katz category** — the same for all categories under AViQ rates "
+"— and not on the room."
+msgstr ""
+"Het **dagtarief** is de **prijs van het verblijf** (de kamer), een waarde "
+"**eigen aan uw instelling**, ingesteld op het **kamertype**. Het staat los "
+"van het **afhankelijkheidsforfait** (het mutualiteitsaandeel), dat afhangt "
+"van de **Katz-categorie** van de bewoner — hetzelfde bedrag voor alle "
+"categorieën aan de AViQ-tarieven — en niet van de kamer."
+
+#: ../../content/residents/chambres.md:103
+msgid "Amenities"
+msgstr "Uitrusting"
+
+#: ../../content/residents/chambres.md:105
+msgid ""
+"The **Amenities** section lists, as tags, what the room provides "
+"(Television, Wifi, Private bathroom, Medical bed, Nurse call, Balcony…). An "
+"**Additional amenities notes** field lets you add a free-text detail. The "
+"amenities catalog is managed in the settings (see "
+"[Configuration](../configuration/index.md))."
+msgstr ""
+"De sectie **Uitrusting** toont, als labels, waarover de kamer beschikt "
+"(Televisie, Wifi, Eigen badkamer, Verpleegbed, Verpleegoproep, Balkon…). Een"
+" veld **Aanvullende uitrustingsinformatie** laat toe in vrije tekst een "
+"precisering toe te voegen. De catalogus van uitrustingen beheert u in de "
+"instellingen (zie [Configuratie](../configuration/index.md))."
+
+#: ../../content/residents/chambres.md:110
+msgid "Current occupancy and history"
+msgstr "Huidige bezetting en geschiedenis"
+
+#: ../../content/residents/chambres.md:112
+msgid "Three tabs complete the record:"
+msgstr "Drie tabbladen vervolledigen de fiche:"
+
+#: ../../content/residents/chambres.md:114
+msgid ""
+"**Current Occupancy** — the residents present in the room (name, resident "
+"code, age)."
+msgstr ""
+"**Huidige bezetting** — de bewoners die in de kamer aanwezig zijn (naam, "
+"bewonerscode, leeftijd)."
+
+#: ../../content/residents/chambres.md:116
+msgid ""
+"**Stay History** — all stays that involved this room, with the resident, the"
+" start and end dates, and the status (**Draft**, **Confirmed**, **In "
+"Progress**, **Done**)."
+msgstr ""
+"**Verblijfsgeschiedenis** — alle verblijven die deze kamer betroffen, met de"
+" bewoner, de begin- en einddatums en de staat (**Concept**, **Bevestigd**, "
+"**Lopend**, **Beëindigd**)."
+
+#: ../../content/residents/chambres.md:119
+msgid "**Notes** — free internal notes about the room."
+msgstr "**Notities** — vrije interne notities over de kamer."
+
+#: ../../content/residents/chambres.md:121
+msgid "Changing a room's status"
+msgstr "De status van een kamer wijzigen"
+
+#: ../../content/residents/chambres.md:123
+msgid ""
+"The **Available / Occupied** status is computed automatically from "
+"occupancy. You can, however, **force** a manual status from the record "
+"header:"
+msgstr ""
+"De status **Beschikbaar / Bezet** wordt automatisch berekend op basis van de"
+" bezetting. U kunt echter een handmatige status **forceren** vanuit de kop "
+"van de fiche:"
+
+#: ../../content/residents/chambres.md:126
+msgid ""
+"**Set Under Maintenance** — the room switches to **Under maintenance** "
+"(works, deep cleaning, breakdown…) and is no longer offered for assignment."
+msgstr ""
+"**Onderhoud instellen** — de kamer gaat naar **In onderhoud** (werken, "
+"grondige reiniging, defect…) en wordt niet meer voor toewijzing aangeboden."
+
+#: ../../content/residents/chambres.md:128
+msgid ""
+"**Mark as Reserved** — the room becomes **Reserved** (for example for an "
+"upcoming admission) and drops out of the available rooms."
+msgstr ""
+"**Gereserveerd instellen** — de kamer wordt **Gereserveerd** (bijvoorbeeld "
+"voor een toekomstige opname) en valt weg uit de beschikbare kamers."
+
+#: ../../content/residents/chambres.md:130
+msgid ""
+"**Automatic Mode** — cancels the manual override: the status is again "
+"**computed automatically** from occupancy."
+msgstr ""
+"**Automatisch instellen** — heft de handmatige override op: de status wordt "
+"weer **automatisch berekend** op basis van de bezetting."
+
+#: ../../content/residents/chambres.md:133
+msgid "Maintenance and Reserved block assignment"
+msgstr "Onderhoud en Gereserveerd blokkeren de toewijzing"
+
+#: ../../content/residents/chambres.md:136
+msgid ""
+"As long as a room is **Under maintenance** or **Reserved**, the **Assign a "
+"Resident** button is hidden and the room does **not** appear in the "
+"available-room lists (admission, transfer). Switch it back to **Automatic "
+"Mode** to make it assignable again."
+msgstr ""
+"Zolang een kamer **In onderhoud** of **Gereserveerd** is, is de knop "
+"**Bewoner toewijzen** verborgen en verschijnt de kamer **niet** in de "
+"lijsten van beschikbare kamers (opname, overdracht). Zet ze terug op "
+"**Automatisch instellen** om ze opnieuw toewijsbaar te maken."
+
+#: ../../content/residents/chambres.md:152
+msgid "Assigning a resident from the room"
+msgstr "Een bewoner toewijzen vanuit de kamer"
+
+#: ../../content/residents/chambres.md:154
+msgid ""
+"You can open a stay directly from a free room, without going through the "
+"admission pipeline:"
+msgstr ""
+"U kunt een verblijf rechtstreeks vanuit een vrije kamer openen, zonder de "
+"opnamepijplijn te doorlopen:"
+
+#: ../../content/residents/chambres.md:157
+msgid ""
+"Open the record of an **Available** room (neither full, nor under "
+"maintenance, nor reserved — otherwise the button does not appear)."
+msgstr ""
+"Open de fiche van een **Beschikbare** kamer (niet vol, niet in onderhoud, "
+"niet gereserveerd — anders verschijnt de knop niet)."
+
+#: ../../content/residents/chambres.md:159
+msgid "Click **Assign a Resident**."
+msgstr "Klik op **Bewoner toewijzen**."
+
+#: ../../content/residents/chambres.md:160
+msgid "In the wizard, choose the **resident** (only residents are offered)."
+msgstr ""
+"Kies in de assistent de **bewoner** (enkel bewoners worden voorgesteld)."
+
+#: ../../content/residents/chambres.md:161
+msgid ""
+"Check the **entry date** (today by default) and, if needed, the **planned "
+"end date**."
+msgstr ""
+"Controleer de **opnamedatum** (standaard vandaag) en, indien nodig, de "
+"**geplande einddatum**."
+
+#: ../../content/residents/chambres.md:163
+msgid ""
+"The **daily rate** is taken from the room; adjust the **Bill To** field if "
+"the invoice must be addressed to a third party (a relative, CPAS)."
+msgstr ""
+"Het **dagtarief** wordt overgenomen van de kamer; pas het veld **Factuur "
+"aan** aan als de factuur naar een derde moet (naaste, OCMW)."
+
+#: ../../content/residents/chambres.md:165
+msgid ""
+"Optionally add an **admission reason**, then click **Assign a Resident**."
+msgstr ""
+"Voeg eventueel een **reden van opname** toe en klik daarna op **Bewoner "
+"toewijzen**."
+
+#: ../../content/residents/chambres.md:167
+msgid ""
+"Resthome then creates the **stay** on this room, in the **In Progress** "
+"state, and brings you back to the room record."
+msgstr ""
+"Resthome maakt dan het **verblijf** aan op deze kamer, in de staat "
+"**Lopend**, en brengt u terug naar de kamerfiche."
+
+#: ../../content/residents/chambres.md:172
+msgid "When the resident is already housed: the transfer"
+msgstr "Geval van een reeds gehuisveste bewoner: de overdracht"
+
+#: ../../content/residents/chambres.md:174
+msgid ""
+"If the chosen resident **already occupies a room**, the wizard detects it "
+"and shows a **transfer warning** recalling their current room. The button "
+"then becomes **Transfer the Resident**. On confirmation, Resthome **ends** "
+"the old stay (reason: *transfer*) and **opens** a new stay in the chosen "
+"room."
+msgstr ""
+"Als de gekozen bewoner **al een kamer bezet**, detecteert de assistent dit "
+"en toont een **overdrachtswaarschuwing** met vermelding van zijn huidige "
+"kamer. De knop wordt dan **Bewoner overbrengen**. Bij bevestiging "
+"**beëindigt** Resthome het oude verblijf (reden: *overdracht*) en **opent** "
+"een nieuw verblijf in de gekozen kamer."
+
+#: ../../content/residents/chambres.md:179
+msgid "Assign ≠ Change Room"
+msgstr "Toewijzen ≠ Kamer wisselen"
+
+#: ../../content/residents/chambres.md:182
+msgid ""
+"Assigning an **already-housed** resident from the room performs a simple "
+"**transfer**. For a room change that **cleanly splits the accommodation "
+"billing** on the exact date while keeping the INAMI intervention "
+"**continuous** (no new agreement), prefer the **Change Room** action on the "
+"**stay** — see [Room change and transfer](changement-chambre.md)."
+msgstr ""
+"Een **reeds gehuisveste** bewoner toewijzen vanuit de kamer voert een "
+"eenvoudige **overdracht** uit. Voor een kamerwissel die de facturatie van "
+"het verblijf **netjes splitst** op de exacte datum en tegelijk de RIZIV-"
+"tegemoetkoming **doorlopend** houdt (zonder nieuw akkoord), gebruikt u beter"
+" de actie **Kamer wisselen** op het **verblijf** — zie [Kamerwissel en "
+"overdracht](changement-chambre.md)."
+
+#: ../../content/residents/chambres.md:189
+msgid "Configuring room types and amenities"
+msgstr "De kamertypes en de uitrusting configureren"
+
+#: ../../content/residents/chambres.md:191
+msgid ""
+"The room structure is prepared in the configuration, via **MR/MRS → "
+"Configuration → Rooms**:"
+msgstr ""
+"De structuur van de kamers bereidt u voor in de configuratie, via **MR/MRS →"
+" Configuratie → Kamers**:"
+
+#: ../../content/residents/chambres.md:194
+msgid ""
+"**Room Types** — define each type (single, double…), its **daily rate**, its"
+" **default capacity** and the associated **billing product**. A room's rate "
+"derives from its type."
+msgstr ""
+"**Kamertypes** — bepaal elk type (eenpersoons, tweepersoons…), zijn "
+"**dagtarief**, zijn **standaardcapaciteit** en het bijbehorende "
+"**factureringsproduct**. Het tarief van een kamer volgt uit zijn type."
+
+#: ../../content/residents/chambres.md:197
+msgid ""
+"**Room Amenities** — maintain the **catalog** of available amenities "
+"(comfort, medical, technology, outdoor), which you then tick on each room "
+"record."
+msgstr ""
+"**Kameruitrusting** — houd de **catalogus** bij van de aangeboden "
+"uitrustingen (comfort, medisch, technologie, buiten), die u vervolgens op "
+"elke kamerfiche aanvinkt."
+
+#: ../../content/residents/chambres.md:200
+msgid ""
+"For the settings details, see [Configuration](../configuration/index.md)."
+msgstr ""
+"Voor de details van de instellingen, zie "
+"[Configuratie](../configuration/index.md)."
+
+#: ../../content/residents/chambres.md:202
+msgid "Key takeaways"
+msgstr "Belangrijkste punten om te onthouden"
+
+#: ../../content/residents/chambres.md:204
+msgid ""
+"The occupancy board lives in **MR/MRS → Accommodation → Rooms**, as a "
+"**kanban grouped by status** (Available, Occupied, Under maintenance, "
+"Reserved)."
+msgstr ""
+"Het bezettingsoverzicht leeft in **MR/MRS → Huisvesting → Kamers**, in een "
+"**kanban gegroepeerd per status** (Beschikbaar, Bezet, In onderhoud, "
+"Gereserveerd)."
+
+#: ../../content/residents/chambres.md:206
+msgid ""
+"Each card's **badge** shows the occupancy \"occupied / capacity\" and its "
+"color reflects the status; a shared room stays **Available** as long as one "
+"bed is free."
+msgstr ""
+"De **badge** van elke kaart toont de bezetting « bezet / capaciteit » en de "
+"kleur weerspiegelt de status; een gedeelde kamer blijft **Beschikbaar** "
+"zolang er een bed vrij is."
+
+#: ../../content/residents/chambres.md:209
+msgid ""
+"The **Set Under Maintenance** / **Mark as Reserved** buttons force a status;"
+" **Automatic Mode** restores automatic computation."
+msgstr ""
+"De knoppen **Onderhoud instellen** / **Gereserveerd instellen** forceren een"
+" status; **Automatisch instellen** maakt de berekening weer automatisch."
+
+#: ../../content/residents/chambres.md:211
+msgid "A room **under maintenance** or **reserved** is **not** assignable."
+msgstr ""
+"Een kamer **in onderhoud** of **gereserveerd** is **niet** toewijsbaar."
+
+#: ../../content/residents/chambres.md:212
+msgid ""
+"**Assign a Resident** from the room creates the stay; if the resident is "
+"already housed, the operation becomes a **transfer**."
+msgstr ""
+"**Bewoner toewijzen** vanuit de kamer maakt het verblijf aan; is de bewoner "
+"al gehuisvest, dan wordt de handeling een **overdracht**."
+
+#: ../../content/residents/chambres.md:214
+msgid ""
+"The **daily rate** is the accommodation price specific to the facility (per "
+"room type), not to be confused with the **dependency package** tied to Katz."
+msgstr ""
+"Het **dagtarief** is de verblijfsprijs eigen aan de instelling (per "
+"kamertype), niet te verwarren met het **afhankelijkheidsforfait** gekoppeld "
+"aan Katz."
+
+#: ../../content/residents/chambres.md:217
+msgid "Going further"
+msgstr "Verder"
+
+#: ../../content/residents/chambres.md:219
+msgid "[Managing a resident](gerer-un-resident.md)"
+msgstr "[Een bewoner beheren](gerer-un-resident.md)"
+
+#: ../../content/residents/chambres.md:220
+msgid "[Room change and transfer](changement-chambre.md)"
+msgstr "[Kamerwissel en overdracht](changement-chambre.md)"
+
+#: ../../content/residents/chambres.md:221
+msgid "[The condition report](etat-des-lieux.md)"
+msgstr "[De plaatsbeschrijving](etat-des-lieux.md)"
+
+#: ../../content/residents/chambres.md:222
+msgid "[Configuration](../configuration/index.md)"
+msgstr "[Configuratie](../configuration/index.md)"

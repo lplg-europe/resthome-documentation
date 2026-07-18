@@ -1,0 +1,639 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-18 19:30+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: nl <LL@li.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/residents/admissions.md:5
+msgid "Admissions (CRM pipeline)"
+msgstr "De opnames (CRM-pijplijn)"
+
+#: ../../content/residents/admissions.md:8
+msgid ""
+"Manage nursing home (MR/MRS) admissions with Resthome: a CRM pipeline from "
+"first contact to admission, plus a wizard that creates the resident and "
+"opens their stay."
+msgstr ""
+"Opnames beheren in een woonzorgcentrum (WZC/RVT) met Resthome: CRM-pijplijn "
+"van eerste contact tot opname, met assistent die de bewoner aanmaakt en het "
+"verblijf opent."
+
+#: ../../content/residents/admissions.md:12
+msgid "Where is the admissions pipeline in Resthome?"
+msgstr "Waar vind ik de opnamepijplijn in Resthome?"
+
+#: ../../content/residents/admissions.md:13
+msgid ""
+"In the CRM app, select the \"Admissions\" team. The pipeline shows "
+"prospective residents in a kanban view, from first contact through to "
+"admission."
+msgstr ""
+"In de CRM-toepassing, selecteer het team « Admissions » (Opnames). De "
+"pijplijn toont de kandidaat-bewoners in een kanban, van het eerste contact "
+"tot de opname."
+
+#: ../../content/residents/admissions.md:15
+msgid "How do I turn a prospect into a resident?"
+msgstr "Hoe zet ik een kandidaat om in een bewoner?"
+
+#: ../../content/residents/admissions.md:16
+msgid ""
+"Move the lead to the \"Admitted\" stage (or click the Won button). A wizard "
+"opens: pick the room and the stay start date, then confirm. Resthome then "
+"creates the contact as a resident and opens their stay."
+msgstr ""
+"Versleep de lead naar de fase « Opgenomen » (of klik op de knop Gewonnen). "
+"Er opent een assistent: kies de kamer en de startdatum van het verblijf en "
+"bevestig. Resthome maakt dan het contact aan als bewoner en opent zijn "
+"verblijf."
+
+#: ../../content/residents/admissions.md:18
+msgid "Is a room required to admit a prospect?"
+msgstr "Is een kamer verplicht om een kandidaat op te nemen?"
+
+#: ../../content/residents/admissions.md:19
+msgid ""
+"Yes. The admission wizard requires an available room and a stay start date; "
+"without a room, the admission cannot be finalized."
+msgstr ""
+"Ja. De opname-assistent vereist een beschikbare kamer en een startdatum van "
+"het verblijf; zonder kamer kan de opname niet worden afgerond."
+
+#: ../../content/residents/admissions.md:21
+msgid "What happens if I move a lead out of the \"Admitted\" stage?"
+msgstr "Wat gebeurt er als ik een lead uit de fase « Opgenomen » haal?"
+
+#: ../../content/residents/admissions.md:22
+msgid ""
+"Resthome automatically cancels any draft or confirmed stays linked to that "
+"lead. A stay that has already started (active) is left untouched."
+msgstr ""
+"Resthome annuleert automatisch de verblijven die nog in concept of bevestigd"
+" zijn en aan die lead gekoppeld zijn. Een reeds gestart (lopend) verblijf "
+"blijft ongemoeid."
+
+#: ../../content/residents/admissions.md:24
+msgid "Do I need to check insurability before admitting?"
+msgstr "Moet ik de verzekerbaarheid controleren vóór de opname?"
+
+#: ../../content/residents/admissions.md:25
+msgid ""
+"Yes, except in specific cases. Until the MDA check has succeeded, moving to "
+"\"Admitted\" is blocked. You can uncheck \"MDA check required\" for cases "
+"without a NISS (a foreign resident, for example)."
+msgstr ""
+"Ja, behoudens uitzondering. Zolang de MDA-controle niet geslaagd is, is de "
+"overgang naar « Opgenomen » geblokkeerd. U kunt « MDA-controle vereist » "
+"uitvinken voor gevallen zonder NISS (bijvoorbeeld een buitenlandse bewoner)."
+
+#: ../../content/residents/admissions.md:27
+msgid ""
+"What is the difference between the stay start date and the admission date?"
+msgstr ""
+"Wat is het verschil tussen de startdatum van het verblijf en de opnamedatum?"
+
+#: ../../content/residents/admissions.md:28
+msgid ""
+"The stay start date triggers billing for accommodation (the room); the "
+"admission date marks the start of the health insurer's contribution and is "
+"set when the stay is started. They are often identical, but can differ."
+msgstr ""
+"De startdatum van het verblijf start de facturatie van het verblijf (de "
+"kamer); de opnamedatum stemt overeen met de start van de tegemoetkoming van "
+"de mutualiteit en wordt vastgelegd bij het starten van het verblijf. Vaak "
+"zijn ze identiek, maar ze kunnen verschillen."
+
+#: ../../content/residents/admissions.md:31
+msgid ""
+"The **admission pipeline** is the entry point of a resident's journey. It "
+"lets you track every **prospect** — from a relative's first enquiry through "
+"to the actual move-in — and then, in a single action, **turn them into a "
+"resident** with their room and stay."
+msgstr ""
+"De **opnamepijplijn** is het startpunt van het traject van een bewoner. "
+"Ermee volgt u elke **kandidaat** — van de eerste aanvraag van een naaste tot"
+" de effectieve intrede — en zet u hem daarna in één beweging **om in een "
+"bewoner**, met zijn kamer en zijn verblijf."
+
+#: ../../content/residents/admissions.md:36
+msgid ""
+"You will find it in the **CRM** app, under the **Admissions** team. Each "
+"enquiry becomes a **lead** (a prospective resident) that you move from stage"
+" to stage on a kanban board."
+msgstr ""
+"U vindt hem in de **CRM**-toepassing, op het team **Admissions** (Opnames). "
+"Elke aanvraag wordt er een **lead** (een kandidaat-bewoner) die u fase per "
+"fase laat vorderen in een kanbanbord."
+
+#: ../../content/residents/admissions.md:40
+msgid "Overview"
+msgstr "Overzicht"
+
+#: ../../content/residents/admissions.md:51
+msgid "Two dates not to confuse"
+msgstr "Twee data om niet te verwarren"
+
+#: ../../content/residents/admissions.md:54
+msgid ""
+"**Stay start date**: when billing for accommodation (the room) begins. This "
+"is the one you enter in the admission wizard."
+msgstr ""
+"**Startdatum verblijf**: wanneer de facturatie van het verblijf (de kamer) "
+"begint. Die geeft u in de opname-assistent op."
+
+#: ../../content/residents/admissions.md:56
+msgid ""
+"**Admission date**: when the health insurer's contribution (the dependency "
+"allowance) begins. It is set later, when the **stay is started**."
+msgstr ""
+"**Opnamedatum**: wanneer de tegemoetkoming van de mutualiteit (het "
+"afhankelijkheidsforfait) begint. Die wordt later vastgelegd, bij het "
+"**starten van het verblijf**."
+
+#: ../../content/residents/admissions.md:59
+msgid "They are often identical, but can differ."
+msgstr "Vaak zijn ze identiek, maar ze kunnen verschillen."
+
+#: ../../content/residents/admissions.md:62
+msgid "1. Open the Admissions pipeline"
+msgstr "1. De opnamepijplijn openen"
+
+#: ../../content/residents/admissions.md:64
+msgid "Open the **CRM** app."
+msgstr "Open de **CRM**-toepassing."
+
+#: ../../content/residents/admissions.md:65
+msgid ""
+"Select the **Admissions** team / pipeline (menu **Sales → My Pipeline**, "
+"then filter on the Admissions team, or open the team directly from the teams"
+" view)."
+msgstr ""
+"Selecteer het team / de pijplijn **Admissions** (Opnames) (menu **Verkoop → "
+"Mijn pijplijn**, filter daarna op het team Opnames, of open het team "
+"rechtstreeks vanuit de teamweergave)."
+
+#: ../../content/residents/admissions.md:67
+msgid ""
+"The **kanban** board shows one column per stage and one card per prospect."
+msgstr ""
+"Het **kanbanbord** toont één kolom per fase en één kaart per kandidaat."
+
+#: ../../content/residents/admissions.md:71
+msgid "2. Create an admission lead"
+msgstr "2. Een opname-lead aanmaken"
+
+#: ../../content/residents/admissions.md:73
+msgid "Click **New**."
+msgstr "Klik op **Nieuw**."
+
+#: ../../content/residents/admissions.md:74
+msgid "Give the lead a **name** (for example \"Admission - Prospect name\")."
+msgstr ""
+"Geef de lead een **naam** (bijvoorbeeld « Opname - naam van de kandidaat »)."
+
+#: ../../content/residents/admissions.md:75
+msgid ""
+"The **Prospective resident** checkbox is ticked automatically when the lead "
+"belongs to the Admissions team. It enables the **Resident admission** tab "
+"and hides the sales sections (company, marketing) that are not needed here."
+msgstr ""
+"Het vakje **Kandidaat-bewoner** wordt automatisch aangevinkt wanneer de lead"
+" tot het team Opnames behoort. Het activeert het tabblad **Opname bewoner** "
+"en verbergt de commerciële secties (bedrijf, marketing) die hier niet nodig "
+"zijn."
+
+#: ../../content/residents/admissions.md:78
+msgid "**Save.**"
+msgstr "**Sla op.**"
+
+#: ../../content/residents/admissions.md:80
+msgid "The prospect and the relative who calls"
+msgstr "De kandidaat en de naaste die belt"
+
+#: ../../content/residents/admissions.md:83
+msgid ""
+"Often it is a **relative** (a son or daughter) who makes contact on behalf "
+"of the person to be accommodated. Resthome keeps the two apart: the "
+"**prospective resident** is the person being accommodated, while the caller "
+"is recorded as a **family contact**. At admission, the identity (NISS, date "
+"of birth) is carried by the resident, not the relative."
+msgstr ""
+"Vaak neemt een **naaste** (zoon, dochter) contact op voor de op te nemen "
+"persoon. Resthome maakt het onderscheid: de **kandidaat-bewoner** is de "
+"gehuisveste persoon, terwijl de beller wordt geregistreerd als "
+"**familiecontact**. Bij de opname wordt de identiteit (NISS, geboortedatum) "
+"gedragen door de bewoner, niet door de naaste."
+
+#: ../../content/residents/admissions.md:90
+msgid "The \"Resident admission\" tab"
+msgstr "Het tabblad « Opname bewoner »"
+
+#: ../../content/residents/admissions.md:92
+msgid "This is where you build the prospect's file without leaving the lead:"
+msgstr ""
+"Hier stelt u het dossier van de kandidaat samen, zonder de lead te verlaten:"
+
+#: ../../content/residents/admissions.md:94
+msgid ""
+"**Personal information**: NISS, date of birth, gender, attending physician, "
+"family contacts, and above all the **requested stay type** (MR, MRS or short"
+" stay)."
+msgstr ""
+"**Persoonlijke gegevens**: NISS, geboortedatum, geslacht, behandelend arts, "
+"familiecontacten en vooral het **gewenste verblijfstype** (ROB, RVT of kort "
+"verblijf)."
+
+#: ../../content/residents/admissions.md:97
+msgid ""
+"**Health insurer / Insurability**: health insurer, insurance scheme, "
+"affiliation code, and the result of the **MDA check** (CT1/CT2, BIM status)."
+msgstr ""
+"**Mutualiteit / Verzekerbaarheid**: mutualiteit, verzekeringsstelsel, "
+"aansluitingscode en het resultaat van de **MDA-controle** (CT1/CT2, BIM-"
+"status)."
+
+#: ../../content/residents/admissions.md:100
+msgid "Short stay (short stay / CSJ)"
+msgstr "Kort verblijf (kortverblijf / CSJ)"
+
+#: ../../content/residents/admissions.md:103
+msgid ""
+"If you choose **short stay**, two additional fields appear: the **number of "
+"short-stay days already used** this calendar year and **notes**. The law "
+"caps short stays at **90 days per year**; fill in this information (ask the "
+"family, or confirm by phone with the health insurer) before accepting the "
+"admission."
+msgstr ""
+"Als u **kort verblijf** kiest, verschijnen twee extra velden: het **aantal "
+"reeds gebruikte dagen kort verblijf** dit kalenderjaar en **notities**. De "
+"wet beperkt het kort verblijf tot **90 dagen per jaar**; vul de informatie "
+"in (vraag het aan de familie of bevestig telefonisch bij de mutualiteit) "
+"vóór u de opname aanvaardt."
+
+#: ../../content/residents/admissions.md:111
+msgid "3. Move the lead forward"
+msgstr "3. De lead laten vorderen"
+
+#: ../../content/residents/admissions.md:113
+msgid ""
+"Drag the card from one column to the next, at the actual pace of the case:"
+msgstr ""
+"Versleep de kaart van de ene kolom naar de andere, op het werkelijke ritme "
+"van het dossier:"
+
+#: ../../content/residents/admissions.md:100
+msgid "Stage"
+msgstr "Fase"
+
+#: ../../content/residents/admissions.md:100
+msgid "Meaning"
+msgstr "Betekenis"
+
+#: ../../content/residents/admissions.md:100
+msgid "**First contact**"
+msgstr "**Eerste contact**"
+
+#: ../../content/residents/admissions.md:100
+msgid "Enquiry received, to be followed up."
+msgstr "Aanvraag ontvangen, opnieuw te contacteren."
+
+#: ../../content/residents/admissions.md:100
+msgid "**Visit scheduled**"
+msgstr "**Bezoek gepland**"
+
+#: ../../content/residents/admissions.md:100
+msgid "A visit to the facility has been booked."
+msgstr "Een bezoek aan de instelling is vastgelegd."
+
+#: ../../content/residents/admissions.md:100
+msgid "**Visit done**"
+msgstr "**Bezoek uitgevoerd**"
+
+#: ../../content/residents/admissions.md:100
+msgid "The visit has taken place."
+msgstr "Het bezoek heeft plaatsgevonden."
+
+#: ../../content/residents/admissions.md:100
+msgid "**File complete**"
+msgstr "**Dossier volledig**"
+
+#: ../../content/residents/admissions.md:100
+msgid "The administrative and medical file is ready."
+msgstr "Het administratieve en medische dossier is klaar."
+
+#: ../../content/residents/admissions.md:100
+msgid "**Admitted**"
+msgstr "**Opgenomen**"
+
+#: ../../content/residents/admissions.md:100
+msgid "The \"won\" stage: triggers the admission wizard."
+msgstr "« Gewonnen » fase: start de opname-assistent."
+
+#: ../../content/residents/admissions.md:100
+msgid "**Refused / Withdrawn**"
+msgstr "**Geweigerd / Afgehaakt**"
+
+#: ../../content/residents/admissions.md:100
+msgid "The enquiry does not go ahead (folded column)."
+msgstr "De aanvraag mislukt (ingeklapte kolom)."
+
+#: ../../content/residents/admissions.md:124
+msgid ""
+"You can also schedule visit appointments directly from the lead "
+"(**Meetings** button / shared calendar)."
+msgstr ""
+"U kunt de bezoekafspraken ook rechtstreeks vanuit de lead plannen (knop "
+"**Vergaderingen** / gedeelde agenda)."
+
+#: ../../content/residents/admissions.md:127
+msgid "4. Check insurability (MDA)"
+msgstr "4. De verzekerbaarheid controleren (MDA)"
+
+#: ../../content/residents/admissions.md:129
+msgid ""
+"Before you can admit the prospect, check that they are properly insured:"
+msgstr ""
+"Vóór u de kandidaat kunt opnemen, controleert u of hij wel verzekerd is:"
+
+#: ../../content/residents/admissions.md:131
+msgid "On the lead, click **Check insurability** (header)."
+msgstr "Klik op de lead op **Verzekerbaarheid controleren** (kopbalk)."
+
+#: ../../content/residents/admissions.md:132
+msgid ""
+"Resthome sends an **MDA** request (MyCareNet / WalCareNet insurability) and "
+"automatically updates the prospect's **health insurer**, **BIM** status and "
+"**CT1/CT2** codes."
+msgstr ""
+"Resthome verstuurt een **MDA**-aanvraag (verzekerbaarheid MyCareNet / "
+"WalCareNet) en werkt automatisch de **mutualiteit**, de **BIM**-status en de"
+" **CT1/CT2**-codes van de kandidaat bij."
+
+#: ../../content/residents/admissions.md:136
+msgid "The MDA check gates admission"
+msgstr "De MDA-controle bepaalt de opname"
+
+#: ../../content/residents/admissions.md:139
+msgid ""
+"Until the MDA check has **succeeded**, moving to the **Admitted** stage is "
+"**blocked**. For a case without a NISS (a foreign resident, a newborn, "
+"etc.), uncheck **MDA check required** in the Resident admission tab to "
+"remove the block. If the MDA comes back as **not insured**, admission is "
+"still possible but Resthome warns you: billing will then have to be "
+"addressed to the resident, not to the health insurer."
+msgstr ""
+"Zolang de MDA-controle niet **geslaagd** is, is de overgang naar de fase "
+"**Opgenomen** **geblokkeerd**. Voor een geval zonder NISS (buitenlandse "
+"bewoner, pasgeborene…) vinkt u **MDA-controle vereist** uit in het tabblad "
+"Opname bewoner om de blokkering op te heffen. Als de MDA **niet verzekerd** "
+"terugkeert, blijft de opname mogelijk maar waarschuwt Resthome u: de "
+"facturatie moet dan aan de bewoner worden gericht, niet aan de mutualiteit."
+
+#: ../../content/residents/admissions.md:147
+msgid ""
+"For a full understanding of the insurability check, see [Insurability "
+"(MDA)](../ehealth/mda.md)."
+msgstr ""
+"Voor alle uitleg over de verzekerbaarheidscontrole, zie [Verzekerbaarheid "
+"(MDA)](../ehealth/mda.md)."
+
+#: ../../content/residents/admissions.md:150
+msgid "5. Admit the prospect"
+msgstr "5. De kandidaat opnemen"
+
+#: ../../content/residents/admissions.md:152
+msgid ""
+"When the file is ready, turn the prospect into a resident. Two equivalent "
+"actions open the **admission wizard**:"
+msgstr ""
+"Wanneer het dossier klaar is, zet u de kandidaat om in een bewoner. Twee "
+"gelijkwaardige acties openen de **opname-assistent**:"
+
+#: ../../content/residents/admissions.md:155
+msgid "**Drag** the card into the **Admitted** column, or"
+msgstr "de kaart **verslepen** naar de kolom **Opgenomen**, of"
+
+#: ../../content/residents/admissions.md:156
+msgid "Open the lead and click the **Won** button."
+msgstr "de lead openen en op de knop **Gewonnen** klikken."
+
+#: ../../content/residents/admissions.md:158
+msgid "Before marking as \"Admitted\""
+msgstr "Voordat u « Opgenomen » markeert"
+
+#: ../../content/residents/admissions.md:161
+msgid ""
+"The **requested stay type** (MR / MRS / short stay) must be filled in: it "
+"determines the bed and Annexe 7. The MDA check must also have succeeded (see"
+" above). Otherwise, Resthome blocks the operation and tells you what to "
+"complete."
+msgstr ""
+"Het **gewenste verblijfstype** (ROB / RVT / kort verblijf) moet ingevuld "
+"zijn: het bepaalt het bed en Bijlage 7. Ook de MDA-controle moet geslaagd "
+"zijn (zie hierboven). Zo niet blokkeert Resthome de bewerking en geeft het "
+"aan wat u moet aanvullen."
+
+#: ../../content/residents/admissions.md:166
+msgid "The admission wizard asks you for:"
+msgstr "De opname-assistent vraagt u:"
+
+#: ../../content/residents/admissions.md:168
+msgid "The **room** — **required**; only **available** rooms are offered."
+msgstr ""
+"De **kamer** — **verplicht**; enkel **beschikbare** kamers worden "
+"voorgesteld."
+
+#: ../../content/residents/admissions.md:169
+msgid ""
+"The **stay type** — carried over from the prospect (MR / MRS / short stay), "
+"read-only."
+msgstr ""
+"Het **verblijfstype** — overgenomen van de kandidaat (ROB / RVT / kort "
+"verblijf), alleen-lezen."
+
+#: ../../content/residents/admissions.md:171
+msgid "The **stay start date** — defaults to today."
+msgstr "De **startdatum verblijf** — standaard vandaag."
+
+#: ../../content/residents/admissions.md:173
+msgid "Click **Admit** to confirm."
+msgstr "Klik op **Opnemen** om te bevestigen."
+
+#: ../../content/residents/admissions.md:177
+msgid "What the admission creates"
+msgstr "Wat de opname aanmaakt"
+
+#: ../../content/residents/admissions.md:179
+msgid "When you confirm the wizard, Resthome:"
+msgstr "Bij het bevestigen van de assistent doet Resthome:"
+
+#: ../../content/residents/admissions.md:181
+msgid ""
+"**creates the contact as a resident** (and removes them from the list of "
+"prospective residents);"
+msgstr ""
+"**het contact aanmaken als bewoner** (en het uit de lijst van toekomstige "
+"bewoners halen);"
+
+#: ../../content/residents/admissions.md:183
+msgid ""
+"**opens the corresponding stay**, in the **Confirmed** state, on the chosen "
+"room and date;"
+msgstr ""
+"**het bijhorende verblijf openen**, in de status **Bevestigd**, op de "
+"gekozen kamer en datum;"
+
+#: ../../content/residents/admissions.md:185
+msgid ""
+"**opens the resident's record** so you can continue (Katz, documents, stay)."
+msgstr ""
+"**de fiche van de bewoner openen** om verder te gaan (Katz, documenten, "
+"verblijf)."
+
+#: ../../content/residents/admissions.md:187
+msgid ""
+"The stay then still needs to be **started** (**Start Stay** button) once the"
+" resident is actually present — it is this start that sets the **admission "
+"date** and triggers billing. See [Manage a resident](gerer-un-resident.md)."
+msgstr ""
+"Het verblijf moet nadien nog **gestart** worden (knop **Start Stay**) "
+"wanneer de bewoner effectief aanwezig is — dat starten legt de "
+"**opnamedatum** vast en start de facturatie. Zie [Een bewoner "
+"beheren](gerer-un-resident.md)."
+
+#: ../../content/residents/admissions.md:191
+msgid "Safeguards and edge cases"
+msgstr "Vangrails en bijzondere gevallen"
+
+#: ../../content/residents/admissions.md:193
+msgid "Resthome protects the consistency of the pipeline:"
+msgstr "Resthome beschermt de samenhang van de pijplijn:"
+
+#: ../../content/residents/admissions.md:195
+msgid ""
+"**Wizard cancellation** — if you close the wizard without admitting, the "
+"lead **returns to the previous stage**: nothing is created until you "
+"confirm."
+msgstr ""
+"**Assistent annuleren** — als u de assistent sluit zonder op te nemen, keert"
+" de lead terug naar de **vorige fase**: er wordt niets aangemaakt zolang u "
+"niet bevestigd hebt."
+
+#: ../../content/residents/admissions.md:197
+msgid ""
+"**Regression out of \"Admitted\"** — if you move an already-admitted lead "
+"back to an earlier stage, Resthome **automatically cancels** the stays still"
+" in **draft** or **confirmed** state linked to that lead. A stay that has "
+"already been **started** (active) is left untouched."
+msgstr ""
+"**Terugkeer uit « Opgenomen »** — als u een reeds opgenomen lead opnieuw "
+"naar een eerdere fase brengt, **annuleert** Resthome automatisch de "
+"verblijven die nog in **concept** of **bevestigd** zijn en aan die lead "
+"gekoppeld zijn. Een reeds **gestart** (lopend) verblijf blijft ongemoeid."
+
+#: ../../content/residents/admissions.md:201
+msgid ""
+"**Duplicate detection** — the admission is tied to the **resident**, not "
+"just to the lead. If a stay already exists for this person, Resthome reuses "
+"it rather than creating a second one; a confirmed stay belonging to "
+"**another** lead is never \"stolen\"."
+msgstr ""
+"**Detectie van dubbels** — de opname is gekoppeld aan de **bewoner**, niet "
+"enkel aan de lead. Bestaat er al een verblijf voor deze persoon, dan "
+"hergebruikt Resthome het in plaats van een tweede aan te maken; een "
+"bevestigd verblijf dat bij een **andere** lead hoort, wordt nooit « gestolen"
+" »."
+
+#: ../../content/residents/admissions.md:205
+msgid ""
+"**Re-dragging a lead** — if you reopen the wizard on a lead that already has"
+" a stay, that stay's **room** is pre-filled."
+msgstr ""
+"**Een lead opnieuw verslepen** — heropent u de assistent op een lead die al "
+"een verblijf heeft, dan wordt de **kamer** van dat verblijf voorgevuld."
+
+#: ../../content/residents/admissions.md:208
+msgid "Key takeaways"
+msgstr "Kernpunten om te onthouden"
+
+#: ../../content/residents/admissions.md:210
+msgid ""
+"The **Admissions** pipeline lives in the **CRM** app; each prospect is a "
+"lead that you move forward on the kanban board."
+msgstr ""
+"De pijplijn **Opnames** leeft in de **CRM**-toepassing; elke kandidaat is "
+"een lead die u in kanban laat vorderen."
+
+#: ../../content/residents/admissions.md:212
+msgid ""
+"The **Resident admission** tab centralizes the prospect's identity, health "
+"insurer and **MDA** check."
+msgstr ""
+"Het tabblad **Opname bewoner** centraliseert de identiteit, de mutualiteit "
+"en de **MDA**-controle van de kandidaat."
+
+#: ../../content/residents/admissions.md:214
+msgid ""
+"Moving to **Admitted** (drag-and-drop or the **Won** button) opens the "
+"wizard: **room required** + **stay start date**, then creation of the "
+"**resident** and the **stay**."
+msgstr ""
+"De overgang naar **Opgenomen** (verslepen of knop **Gewonnen**) opent de "
+"assistent: **kamer verplicht** + **startdatum verblijf**, daarna aanmaak van"
+" de **bewoner** en het **verblijf**."
+
+#: ../../content/residents/admissions.md:217
+msgid ""
+"Admission is **blocked** without a stay type filled in and without a "
+"**successful MDA** (unless the MDA check is unchecked)."
+msgstr ""
+"De opname is **geblokkeerd** zonder ingevuld verblijfstype en zonder "
+"geslaagde **MDA** (behalve als de MDA-controle is uitgevinkt)."
+
+#: ../../content/residents/admissions.md:219
+msgid ""
+"Moving a lead out of **Admitted** cancels its **draft/confirmed** stays; "
+"**active** stays are preserved."
+msgstr ""
+"Een lead uit **Opgenomen** halen annuleert zijn verblijven in "
+"**concept/bevestigd**; **lopende** verblijven blijven behouden."
+
+#: ../../content/residents/admissions.md:222
+msgid "Further reading"
+msgstr "Verder lezen"
+
+#: ../../content/residents/admissions.md:224
+msgid "[Manage a resident](gerer-un-resident.md)"
+msgstr "[Een bewoner beheren](gerer-un-resident.md)"
+
+#: ../../content/residents/admissions.md:225
+msgid "[The Katz assessment](katz.md)"
+msgstr "[De Katz-evaluatie](katz.md)"
+
+#: ../../content/residents/admissions.md:226
+msgid "[Insurability (MDA)](../ehealth/mda.md)"
+msgstr "[Verzekerbaarheid (MDA)](../ehealth/mda.md)"
+
+#: ../../content/residents/admissions.md:227
+msgid "[eAgreement agreements](../ehealth/eagreement.md)"
+msgstr "[eAgreement-akkoorden](../ehealth/eagreement.md)"
+
+#: ../../content/residents/admissions.md:228
+msgid "[Billing journey](../parcours-facturation.md)"
+msgstr "[Facturatietraject](../parcours-facturation.md)"

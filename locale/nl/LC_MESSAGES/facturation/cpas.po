@@ -1,0 +1,531 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-18 19:30+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: nl <LL@li.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/facturation/cpas.md:5
+msgid "CPAS coverage"
+msgstr "De OCMW-tussenkomst"
+
+#: ../../content/facturation/cpas.md:8
+msgid ""
+"CPAS coverage in a nursing home (MR/MRS): recording the decision, full or "
+"partial coverage, and routing the resident-share invoice."
+msgstr ""
+"OCMW-tussenkomst in een woonzorgcentrum (WZC/RVT): het besluit registreren, "
+"volledige of gedeeltelijke dekking, en de factuur van het bewonersaandeel "
+"routeren."
+
+#: ../../content/facturation/cpas.md:12
+msgid "How do I record that a resident is covered by the CPAS?"
+msgstr "Hoe geef ik aan dat een bewoner door het OCMW wordt ondersteund?"
+
+#: ../../content/facturation/cpas.md:13
+msgid ""
+"On the resident record, open the Billing tab, tick \"Covered by CPAS\", "
+"choose the responsible CPAS and the coverage (full or partial). These fields"
+" record the CPAS decision and are tracked in the financial audit log."
+msgstr ""
+"Open op de bewonersfiche het tabblad Facturatie, vink « OCMW-ondersteund » "
+"aan, kies het verantwoordelijke OCMW en de dekking (volledig of "
+"gedeeltelijk). Deze velden registreren het OCMW-besluit en worden "
+"bijgehouden in het financiële auditspoor."
+
+#: ../../content/facturation/cpas.md:15
+msgid "Does the CPAS pay everything or only part of it?"
+msgstr "Betaalt het OCMW alles of slechts een deel?"
+
+#: ../../content/facturation/cpas.md:16
+msgid ""
+"Both cases are supported. \"Full coverage\": the CPAS covers the entire "
+"resident share. \"Partial coverage\": the CPAS pays a share and you enter "
+"the \"CPAS monthly amount\"; the rest is borne by the resident or their "
+"family."
+msgstr ""
+"Beide gevallen zijn voorzien. « Volledige dekking »: het OCMW neemt het "
+"volledige bewonersaandeel ten laste. « Gedeeltelijke dekking »: het OCMW "
+"betaalt een deel en u voert het « OCMW-maandbedrag » in; de rest is ten "
+"laste van de bewoner of zijn familie."
+
+#: ../../content/facturation/cpas.md:18
+msgid ""
+"Does ticking \"Covered by CPAS\" automatically send the invoice to the CPAS?"
+msgstr ""
+"Stuurt het aanvinken van « OCMW-ondersteund » de factuur automatisch naar "
+"het OCMW?"
+
+#: ../../content/facturation/cpas.md:19
+msgid ""
+"No. The CPAS section is a record of the decision, not a splitting engine. To"
+" send the resident share to the CPAS, fill in the resident's \"Billing "
+"contact\" (the CPAS); to split between the CPAS and another payer, use "
+"maintenance debtors (split billing)."
+msgstr ""
+"Neen. De OCMW-sectie is een registratie van het besluit, geen verdeelmotor. "
+"Om het bewonersaandeel naar het OCMW te sturen vult u de « Contactpersoon "
+"voor facturering » van de bewoner in (het OCMW); voor een verdeling tussen "
+"het OCMW en een andere betaler gebruikt u de onderhoudsplichtigen (gedeelde "
+"facturatie)."
+
+#: ../../content/facturation/cpas.md:21
+msgid "Where do you create a CPAS in Resthome?"
+msgstr "Waar maak ik een OCMW aan in Resthome?"
+
+#: ../../content/facturation/cpas.md:22
+msgid ""
+"In the Billing app, Configuration → CPAS. Create the contact (company) and "
+"tick \"Is a CPAS\". Only contacts flagged this way appear in the CPAS field "
+"of the resident record."
+msgstr ""
+"In de app Facturatie → Configuratie → OCMW. Maak het contact (bedrijf) aan "
+"en vink « Is een OCMW » aan. Alleen zo gemarkeerde contacten verschijnen in "
+"het OCMW-veld van de bewonersfiche."
+
+#: ../../content/facturation/cpas.md:24
+msgid "Is the dependency allowance affected by CPAS coverage?"
+msgstr "Heeft de OCMW-tussenkomst invloed op het afhankelijkheidsforfait?"
+
+#: ../../content/facturation/cpas.md:25
+msgid ""
+"No. The dependency allowance goes to the health insurance fund via eFact "
+"(third-party payer). CPAS coverage concerns only the resident share: "
+"accommodation (the room) and supplements."
+msgstr ""
+"Neen. Het afhankelijkheidsforfait gaat via eFact naar het ziekenfonds "
+"(derdebetaler). De OCMW-tussenkomst betreft uitsluitend het bewonersaandeel:"
+" het verblijf (de kamer) en de supplementen."
+
+#: ../../content/facturation/cpas.md:27
+msgid "Is the CPAS monthly amount the same for all residents?"
+msgstr "Is het OCMW-maandbedrag voor elke bewoner hetzelfde?"
+
+#: ../../content/facturation/cpas.md:28
+msgid ""
+"No. The amount depends on the CPAS decision for that resident: it is a value"
+" specific to each case, to be entered based on the notification received "
+"from the CPAS."
+msgstr ""
+"Neen. Het bedrag hangt af van het OCMW-besluit voor die bewoner: het is een "
+"waarde eigen aan elk dossier, in te voeren op basis van de ontvangen OCMW-"
+"kennisgeving."
+
+#: ../../content/facturation/cpas.md:31
+msgid ""
+"When a resident cannot afford their **personal share** (accommodation and "
+"supplements), the **CPAS** (Public Centre for Social Welfare) of their "
+"municipality can **cover it**, in full or in part. Resthome lets you "
+"**record this decision** on the resident record and **route the invoice** to"
+" the right debtor."
+msgstr ""
+"Wanneer een bewoner zijn **persoonlijk aandeel** (verblijf en supplementen) "
+"niet kan betalen, kan het **OCMW** (Openbaar Centrum voor Maatschappelijk "
+"Welzijn) van zijn gemeente dit **ten laste nemen**, geheel of gedeeltelijk. "
+"Met Resthome kunt u dat **besluit registreren** op de bewonersfiche en de "
+"**factuur routeren** naar de juiste debiteur."
+
+#: ../../content/facturation/cpas.md:37
+msgid ""
+"You'll find these settings in the **Billing** tab of the resident record, "
+"and the list of CPAS in **Billing → Configuration → CPAS**."
+msgstr ""
+"U vindt deze instellingen op het tabblad **Facturatie** van de "
+"bewonersfiche, en de lijst met OCMW's onder **Facturatie → Configuratie → "
+"OCMW**."
+
+#: ../../content/facturation/cpas.md:40
+msgid "What the CPAS covers"
+msgstr "Wat het OCMW dekt"
+
+#: ../../content/facturation/cpas.md:43
+msgid ""
+"The CPAS steps in on the **resident share** (room + supplements), not on the"
+" **dependency allowance**: the latter is covered 100% by the health "
+"insurance fund and billed via [eFact](../ehealth/efact.md). See [The INAMI "
+"dependency allowance](forfait-inami.md)."
+msgstr ""
+"Het OCMW komt tussen in het **bewonersaandeel** (kamer + supplementen), niet"
+" in het **afhankelijkheidsforfait**: dat wordt voor 100 % gedragen door het "
+"ziekenfonds en gefactureerd via [eFact](../ehealth/efact.md). Zie [Het "
+"RIZIV-forfait (afhankelijkheid)](forfait-inami.md)."
+
+#: ../../content/facturation/cpas.md:49
+msgid "What CPAS coverage is for"
+msgstr "Waarvoor dient de OCMW-tussenkomst"
+
+#: ../../content/facturation/cpas.md:51
+msgid "Two notions must be distinguished:"
+msgstr "Er zijn twee zaken te onderscheiden:"
+
+#: ../../content/facturation/cpas.md:53
+msgid ""
+"**Record the decision** — who the CPAS is, from when, under which reference,"
+" for what coverage and what amount. This information documents the case and "
+"is **tracked in the audit log** (financial category)."
+msgstr ""
+"**Het besluit registreren** — wie het OCMW is, vanaf wanneer, onder welke "
+"referentie, voor welke dekking en welk bedrag. Deze gegevens documenteren "
+"het dossier en worden **bijgehouden in het auditspoor** (financiële "
+"categorie)."
+
+#: ../../content/facturation/cpas.md:56
+msgid ""
+"**Route the invoice** — decide **who** Resthome sends the resident share to:"
+" the resident, their family, or the CPAS. This routing is driven by the "
+"**Billing contact** or by **maintenance debtors** (see below)."
+msgstr ""
+"**De factuur routeren** — beslissen **naar wie** Resthome het "
+"bewonersaandeel stuurt: naar de bewoner, zijn familie of het OCMW. Deze "
+"routering stuurt u via de **Contactpersoon voor facturering** of de "
+"**onderhoudsplichtigen** (zie verder)."
+
+#: ../../content/facturation/cpas.md:62
+msgid "1. Declare the CPAS as an organisation"
+msgstr "1. Het OCMW als organisatie aanmaken"
+
+#: ../../content/facturation/cpas.md:64
+msgid "Before linking a resident to a CPAS, the CPAS must exist as a contact."
+msgstr ""
+"Voordat u een bewoner aan een OCMW koppelt, moet het OCMW als contact "
+"bestaan."
+
+#: ../../content/facturation/cpas.md:66
+msgid "Open **Billing → Configuration → CPAS**."
+msgstr "Open **Facturatie → Configuratie → OCMW**."
+
+#: ../../content/facturation/cpas.md:67
+msgid "Click **New** and enter the CPAS **name**, its city, phone and email."
+msgstr ""
+"Klik op **Nieuw** en voer de **naam** van het OCMW in, samen met stad, "
+"telefoon en e-mail."
+
+#: ../../content/facturation/cpas.md:68
+msgid ""
+"Check that the **\"Is a CPAS\"** box is ticked (it is by default from this "
+"menu)."
+msgstr ""
+"Controleer of het vakje **« Is een OCMW »** is aangevinkt (dat is standaard "
+"zo vanuit dit menu)."
+
+#: ../../content/facturation/cpas.md:69
+msgid "**Save.**"
+msgstr "**Bewaar.**"
+
+#: ../../content/facturation/cpas.md:71
+msgid "Why tick \"Is a CPAS\""
+msgstr "Waarom « Is een OCMW » aanvinken"
+
+#: ../../content/facturation/cpas.md:74
+msgid ""
+"The **CPAS** field on the resident record only offers contacts flagged "
+"**\"Is a CPAS\"**. A CPAS created elsewhere (in the generic contacts) will "
+"appear in the list only if this box is ticked on its record."
+msgstr ""
+"Het veld **OCMW** op de bewonersfiche toont enkel contacten die als **« Is "
+"een OCMW »** zijn gemarkeerd. Een OCMW dat elders is aangemaakt (bij de "
+"gewone contacten) verschijnt pas in de lijst als dit vakje op zijn fiche is "
+"aangevinkt."
+
+#: ../../content/facturation/cpas.md:79
+msgid "2. Enter the coverage on the resident record"
+msgstr "2. De tussenkomst op de bewoner invullen"
+
+#: ../../content/facturation/cpas.md:81
+msgid "Open the **resident** record and the **Billing** tab."
+msgstr "Open de **bewonersfiche** en het tabblad **Facturatie**."
+
+#: ../../content/facturation/cpas.md:82
+msgid "In the **CPAS assistance** group, tick **Covered by CPAS**."
+msgstr ""
+"Vink in de groep **OCMW-ondersteuning** het vakje **OCMW-ondersteund** aan."
+
+#: ../../content/facturation/cpas.md:83
+msgid "Select the responsible **CPAS**."
+msgstr "Selecteer het verantwoordelijke **OCMW**."
+
+#: ../../content/facturation/cpas.md:84
+msgid "Choose the **CPAS coverage**: *Full coverage* or *Partial coverage*."
+msgstr ""
+"Kies de **OCMW-dekking**: *Volledige dekking* of *Gedeeltelijke dekking*."
+
+#: ../../content/facturation/cpas.md:85
+msgid "For partial coverage, enter the **CPAS monthly amount**."
+msgstr "Voer bij gedeeltelijke dekking het **OCMW-maandbedrag** in."
+
+#: ../../content/facturation/cpas.md:86
+msgid ""
+"Complete the **CPAS decision**: date, reference and, if needed, **CPAS "
+"notes**."
+msgstr ""
+"Vul het **OCMW-besluit** aan: datum, referentie en eventueel **OCMW-"
+"notities**."
+
+#: ../../content/facturation/cpas.md:71
+msgid "Field"
+msgstr "Veld"
+
+#: ../../content/facturation/cpas.md:71
+msgid "Role"
+msgstr "Rol"
+
+#: ../../content/facturation/cpas.md:71
+msgid "**Covered by CPAS**"
+msgstr "**OCMW-ondersteund**"
+
+#: ../../content/facturation/cpas.md:71
+msgid "Activates the coverage and switches the **Default payer** to CPAS"
+msgstr "Activeert de tussenkomst en zet de **Standaard betaler** op OCMW"
+
+#: ../../content/facturation/cpas.md:71
+msgid "**CPAS**"
+msgstr "**OCMW**"
+
+#: ../../content/facturation/cpas.md:71
+msgid "The responsible organisation (list filtered on \"Is a CPAS\")"
+msgstr "De verantwoordelijke organisatie (lijst gefilterd op « Is een OCMW »)"
+
+#: ../../content/facturation/cpas.md:71
+msgid "**CPAS coverage**"
+msgstr "**OCMW-dekking**"
+
+#: ../../content/facturation/cpas.md:71
+msgid "*Full* (the CPAS pays everything) or *Partial* (the CPAS pays a share)"
+msgstr ""
+"*Volledig* (OCMW betaalt alles) of *Gedeeltelijk* (OCMW betaalt een deel)"
+
+#: ../../content/facturation/cpas.md:71
+msgid "**CPAS decision date**"
+msgstr "**Datum OCMW-besluit**"
+
+#: ../../content/facturation/cpas.md:71
+msgid "Date of the grant decision"
+msgstr "Datum van het toekenningsbesluit"
+
+#: ../../content/facturation/cpas.md:71
+msgid "**CPAS decision reference**"
+msgstr "**Referentie OCMW-besluit**"
+
+#: ../../content/facturation/cpas.md:71
+msgid "Number / reference of the received decision"
+msgstr "Nummer / referentie van het ontvangen besluit"
+
+#: ../../content/facturation/cpas.md:71
+msgid "**CPAS monthly amount**"
+msgstr "**OCMW-maandbedrag**"
+
+#: ../../content/facturation/cpas.md:71
+msgid "Amount paid by the CPAS — **partial coverage only**"
+msgstr "Bedrag dat het OCMW betaalt — **enkel bij gedeeltelijke dekking**"
+
+#: ../../content/facturation/cpas.md:71
+msgid "**CPAS notes**"
+msgstr "**OCMW-notities**"
+
+#: ../../content/facturation/cpas.md:71
+msgid "Free text (conditions, contact, remarks)"
+msgstr "Vrije tekst (voorwaarden, contact, opmerkingen)"
+
+#: ../../content/facturation/cpas.md:98
+msgid "Fields that appear as you go"
+msgstr "Velden die stapsgewijs verschijnen"
+
+#: ../../content/facturation/cpas.md:101
+msgid ""
+"The CPAS, the coverage and the **CPAS decision** block only show once "
+"**\"Covered by CPAS\"** is ticked. The **CPAS monthly amount** only appears "
+"for **partial** coverage."
+msgstr ""
+"Het OCMW, de dekking en het blok **OCMW-besluit** verschijnen pas nadat **« "
+"OCMW-ondersteund »** is aangevinkt. Het **OCMW-maandbedrag** verschijnt "
+"enkel bij **gedeeltelijke** dekking."
+
+#: ../../content/facturation/cpas.md:106
+msgid "3. Route the invoice to the CPAS"
+msgstr "3. De factuur naar het OCMW routeren"
+
+#: ../../content/facturation/cpas.md:108
+msgid ""
+"This is the step that decides **who** the resident-share invoice goes to."
+msgstr ""
+"Dit is de stap die bepaalt **naar wie** de factuur van het bewonersaandeel "
+"gaat."
+
+#: ../../content/facturation/cpas.md:110
+msgid ""
+"**The CPAS pays everything** → set the resident's **Billing contact** (in "
+"the *Default payer* group) to the **CPAS** contact. The monthly resident-"
+"share invoice will then be **sent to the CPAS**."
+msgstr ""
+"**Het OCMW betaalt alles** → vul de **Contactpersoon voor facturering** van "
+"de bewoner in (in de groep *Standaard betaler*) met het contact van het "
+"**OCMW**. De maandelijkse factuur van het bewonersaandeel wordt dan **naar "
+"het OCMW gestuurd**."
+
+#: ../../content/facturation/cpas.md:113
+msgid ""
+"**The CPAS pays part of it** → use [maintenance debtors (split "
+"billing)](split-billing.md): add the CPAS as a debtor with its "
+"**percentage**, and the remaining payers (resident, family) for the balance."
+msgstr ""
+"**Het OCMW betaalt een deel** → gebruik de [onderhoudsplichtigen (gedeelde "
+"facturatie)](split-billing.md): voeg het OCMW toe als debiteur met zijn "
+"**percentage**, en de overige betalers (bewoner, familie) voor het saldo."
+
+#: ../../content/facturation/cpas.md:118
+msgid "The \"CPAS assistance\" section is a record, not a splitting engine"
+msgstr ""
+"De sectie « OCMW-ondersteuning » is een registratie, geen verdeelmotor"
+
+#: ../../content/facturation/cpas.md:121
+msgid ""
+"The fields in the **CPAS assistance** section document the decision and "
+"switch the **Default payer** to CPAS, but **they do not automatically "
+"redirect or split the invoice**. The invoice recipient stays determined by "
+"the resident's **Billing contact** (or the stay's billing contact), and the "
+"partial split by **split billing**. Without one of these two levers, the "
+"resident share keeps being sent **to the resident**."
+msgstr ""
+"De velden in de sectie **OCMW-ondersteuning** documenteren het besluit en "
+"zetten de **Standaard betaler** op OCMW, maar **ze routeren of splitsen de "
+"factuur niet automatisch**. De bestemmeling van de factuur blijft bepaald "
+"door de **Contactpersoon voor facturering** van de bewoner (of het "
+"factuurcontact van het verblijf), en de gedeeltelijke verdeling door de "
+"**gedeelde facturatie**. Zonder een van deze twee hefbomen blijft het "
+"bewonersaandeel naar **de bewoner** gaan."
+
+#: ../../content/facturation/cpas.md:129
+msgid "What Resthome does — and does not do"
+msgstr "Wat Resthome wel — en niet — doet"
+
+#: ../../content/facturation/cpas.md:118
+msgid "Action"
+msgstr "Actie"
+
+#: ../../content/facturation/cpas.md:118
+msgid "Automatic?"
+msgstr "Automatisch?"
+
+#: ../../content/facturation/cpas.md:118
+msgid "Track the CPAS decision (financial audit)"
+msgstr "Het OCMW-besluit bijhouden (financiële audit)"
+
+#: ../../content/facturation/cpas.md:118
+msgid "Yes, as soon as it's entered"
+msgstr "Ja, meteen bij invoer"
+
+#: ../../content/facturation/cpas.md:118
+msgid "Switch the **Default payer** to CPAS when you tick \"Covered by CPAS\""
+msgstr ""
+"De **Standaard betaler** op OCMW zetten bij het aanvinken van « OCMW-"
+"ondersteund »"
+
+#: ../../content/facturation/cpas.md:118
+msgid "Yes"
+msgstr "Ja"
+
+#: ../../content/facturation/cpas.md:118
+msgid "Send the invoice to the CPAS"
+msgstr "De factuur naar het OCMW sturen"
+
+#: ../../content/facturation/cpas.md:118
+msgid "No — via the **Billing contact**"
+msgstr "Neen — via de **Contactpersoon voor facturering**"
+
+#: ../../content/facturation/cpas.md:118
+msgid "Split the resident share between CPAS and family"
+msgstr "Het bewonersaandeel verdelen tussen OCMW en familie"
+
+#: ../../content/facturation/cpas.md:118
+msgid "No — via [split billing](split-billing.md)"
+msgstr "Neen — via de [gedeelde facturatie](split-billing.md)"
+
+#: ../../content/facturation/cpas.md:118
+msgid "Deduct the **CPAS monthly amount** from the billed amounts"
+msgstr "Het **OCMW-maandbedrag** aftrekken van de gefactureerde bedragen"
+
+#: ../../content/facturation/cpas.md:118
+msgid "No — informational field"
+msgstr "Neen — documentair veld"
+
+#: ../../content/facturation/cpas.md:139
+msgid "Key points to remember"
+msgstr "Kernpunten om te onthouden"
+
+#: ../../content/facturation/cpas.md:141
+msgid ""
+"CPAS coverage concerns the **resident share** (room + supplements), not the "
+"**dependency allowance** (health-insurance-fund share, via eFact)."
+msgstr ""
+"De OCMW-tussenkomst betreft het **bewonersaandeel** (kamer + supplementen), "
+"niet het **afhankelijkheidsforfait** (ziekenfondsaandeel, via eFact)."
+
+#: ../../content/facturation/cpas.md:143
+msgid ""
+"First create the CPAS in **Billing → Configuration → CPAS** (**\"Is a "
+"CPAS\"** box), then link it to the resident in the **Billing** tab."
+msgstr ""
+"Maak het OCMW eerst aan in **Facturatie → Configuratie → OCMW** (vakje **« "
+"Is een OCMW »**), koppel het daarna aan de bewoner op het tabblad "
+"**Facturatie**."
+
+#: ../../content/facturation/cpas.md:145
+msgid ""
+"Coverage is **full** or **partial**; the **CPAS monthly amount** only "
+"applies to partial coverage."
+msgstr ""
+"De dekking is **volledig** of **gedeeltelijk**; het **OCMW-maandbedrag** "
+"geldt enkel bij gedeeltelijke dekking."
+
+#: ../../content/facturation/cpas.md:147
+msgid ""
+"The **CPAS assistance** section **records** the decision; to **route** the "
+"invoice, use the **Billing contact** (full coverage) or **split billing** "
+"(partial coverage)."
+msgstr ""
+"De sectie **OCMW-ondersteuning** **registreert** het besluit; om de factuur "
+"te **routeren** gebruikt u de **Contactpersoon voor facturering** (volledige"
+" dekking) of de **gedeelde facturatie** (gedeeltelijke dekking)."
+
+#: ../../content/facturation/cpas.md:150
+msgid ""
+"The **CPAS monthly amount** and the decision reference are **specific to "
+"each case**, based on the CPAS notification."
+msgstr ""
+"Het **OCMW-maandbedrag** en de besluitreferentie zijn **eigen aan elk "
+"dossier**, volgens de OCMW-kennisgeving."
+
+#: ../../content/facturation/cpas.md:153
+msgid "Going further"
+msgstr "Meer weten"
+
+#: ../../content/facturation/cpas.md:155
+msgid "[Manage a resident](../residents/gerer-un-resident.md)"
+msgstr "[Een bewoner beheren](../residents/gerer-un-resident.md)"
+
+#: ../../content/facturation/cpas.md:156
+msgid "[Bill a month](facturer-un-mois.md)"
+msgstr "[Een maand factureren](facturer-un-mois.md)"
+
+#: ../../content/facturation/cpas.md:157
+msgid "[Maintenance debtors (split billing)](split-billing.md)"
+msgstr "[Onderhoudsplichtigen (gedeelde facturatie)](split-billing.md)"
+
+#: ../../content/facturation/cpas.md:158
+msgid "[The INAMI dependency allowance](forfait-inami.md)"
+msgstr "[Het RIZIV-forfait (afhankelijkheid)](forfait-inami.md)"

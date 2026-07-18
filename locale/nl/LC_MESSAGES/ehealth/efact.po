@@ -1,0 +1,677 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-18 19:04+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/ehealth/efact.md:5
+msgid "Electronic invoicing (eFact)"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:8
+msgid ""
+"The complete eFact guide for nursing homes (MR/MRS) with Resthome: "
+"generate, check, invoice and send the INAMI allowances to the "
+"mutualities, step by step."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:12
+msgid ""
+"I receive an acknowledgement of receipt (931000) after the eFact sending,"
+" should I wait?"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:13
+msgid ""
+"Yes. The 931000 only confirms that the insurance organisation received "
+"the batch and passed the first check — it is not the final result. There "
+"is nothing to resend: wait for the settlement (920900), which states what"
+" is accepted and paid. This can take a few days."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:15
+msgid "What does \"deadline exceeded\" mean on an eFact period card?"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:16
+msgid ""
+"The sending deadline of this period has passed. Send the batch without "
+"delay: beyond it, some insurance organisations may refuse it."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:18
+msgid "One eFact batch per mutuality or per union?"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:19
+msgid ""
+"One batch per union of mutualities (100 National Alliance, 300 Solidaris,"
+" 500 National Union, 600 CAAMI, 900 HR Rail…), not per small individual "
+"mutuality. Resthome does the grouping automatically."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:21
+msgid "How do I correct a rejected eFact batch?"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:22
+msgid ""
+"The rejection code and reason state the cause (insurability, allowance, "
+"dates). Fix it and resend; the Resends counter avoids duplicates and the "
+"Reintegration button lets you reintegrate lines into a new sending."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:24
+msgid ""
+"What is the difference between the acknowledgement (931000) and the "
+"settlement (920900)?"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:25
+msgid ""
+"The 931000 only confirms that the insurance organisation received your "
+"batch and passed the first check. The settlement (920900) is the final "
+"result: it states the amounts actually accepted and/or rejected. Until "
+"the settlement arrives, nothing is final — but there is nothing to "
+"resend."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:27
+msgid "What does a global rejection (920099) on an eFact batch mean?"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:28
+msgid ""
+"The whole batch was refused by the insurance organisation. The rejection "
+"code and reason give the cause (insurability, allowance, dates…). Fix it,"
+" then resend the batch; the Resends counter keeps track of "
+"retransmissions to avoid duplicates."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:30
+msgid "How do I reintegrate rejected eFact lines into a new sending?"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:31
+msgid ""
+"After fixing the cause of the rejection, use the Reintegration button: it"
+" puts the affected lines back into a new sending, without redoing the "
+"whole period."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:33
+msgid ""
+"Can I invoice a resident through eFact if their insurability (MDA) is not"
+" validated?"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:34
+msgid ""
+"No. Without valid insurability (MDA), the resident cannot be invoiced to "
+"the mutuality under third-party payment. Run Check MDA before creating "
+"the invoices and correct the resident's mutuality if needed."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:36
+msgid "Is electronic invoicing (eFact) mandatory?"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:37
+msgid ""
+"Yes. The electronic sending of the INAMI allowances is mandatory: "
+"production started in April 2026 and the final deadline to be compliant "
+"is 1 October 2026. Resthome respects the sending deadlines per period and"
+" warns you when a deadline approaches or is exceeded."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:39
+msgid ""
+"A resident leaves or dies during an already invoiced month, what happens "
+"to the eFact?"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:40
+msgid ""
+"Part of the allowance was over-invoiced. Resthome detects it during the "
+"self-check and prepares the corresponding credit note (or remainder), on "
+"the resident side and, if needed, on the mutuality side through a "
+"corrective batch."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:42
+msgid ""
+"Where do I see the status of an eFact sending and its settlement in "
+"Resthome?"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:43
+msgid ""
+"On each batch, the status (Draft, sent, acknowledged, accepted, rejected)"
+" and the invoiced / accepted / refused amounts are displayed. For an "
+"overview of all sendings of a month, open the eFact Cockpit from the "
+"period or a dashboard card: it shows at a glance what is transmitted, "
+"accepted, rejected or awaiting settlement."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:46
+msgid ""
+"The **eFact** is the **electronic** sending of the **mutuality share** "
+"(the INAMI allowance) to the **insurance organisations** (OA), through "
+"the eHealth / MyCareNet network. Resthome builds the files, transmits "
+"them and **follows the responses** for you — acknowledgements, "
+"settlements, acceptances and rejections."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:51
+msgid ""
+"This guide walks you through from start to finish: generate a period, "
+"check, invoice, send the eFact and handle the returns."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:54
+msgid "2026 obligation"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:56
+msgid ""
+"Electronic invoicing of the allowances is **mandatory**. Production "
+"started in **April 2026**; the final deadline to be compliant is **1 "
+"October 2026**. Resthome respects the sending **deadlines** per period "
+"and alerts you when a deadline approaches or is exceeded."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:62
+msgid "The cycle of a period, at a glance"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:64
+msgid ""
+"Each billing month is a **period** that goes through four states, in "
+"order:"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:54
+msgid "State"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:54
+msgid "What it means"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:54
+msgid "**Draft**"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:54
+msgid "The period is created, nothing is computed yet."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:54
+msgid "**Generated**"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:54
+msgid "Allowances and shares are computed, resident by resident. To be checked."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:54
+msgid "**Invoiced**"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:54
+msgid "The invoices are posted. The eFact can be built and sent."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:54
+msgid "**Closed**"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:54
+msgid "The period is finished and locked."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:73
+msgid ""
+"The guiding thread: **Generate → check → Create invoices → Generate eFact"
+" → send → follow the responses**."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:76
+msgid "1. The periods dashboard"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:78
+msgid ""
+"Open the **MR/MRS → Dashboard** application. Each month is a card "
+"summarising the essentials."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:81
+msgid ""
+"![Billing periods dashboard, one card per month with the eFact "
+"status](../assets/screenshots/efact/01-tableau-de-bord.webp)"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:81
+msgid "Billing periods dashboard, one card per month with the eFact status"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:83
+msgid "On each card:"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:85
+msgid "the **status** of the period (Invoiced, Generated…);"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:86
+msgid "**Invoices** (number of invoices) and **Total**;"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:87
+msgid "**Resident Part** (the share charged to the resident);"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:88
+msgid "the **eFact deadline** (e.g. \"eFact: 20 Sep\");"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:89
+msgid "shortcuts: **View Invoices**, **eFact** (the batches), **eFact Cockpit**."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:91
+msgid "\"Deadline exceeded\""
+msgstr ""
+
+#: ../../content/ehealth/efact.md:93
+msgid ""
+"If a card shows **eFact: deadline exceeded** in red, the sending deadline"
+" of this period has **passed**. Send without delay — beyond it, some "
+"insurance organisations may refuse the batch."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:98
+msgid "2. Generate the period (Draft → Generated)"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:100
+msgid ""
+"Open the month's period. In **Draft** state, one button matters: "
+"**Generate**."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:102
+msgid ""
+"![Billing period in Draft state, with the Generate button and the self-"
+"check messages on the right](../assets/screenshots/efact/02-periode-"
+"draft.webp)"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:102
+msgid ""
+"Billing period in Draft state, with the Generate button and the self-"
+"check messages on the right"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:104
+msgid "A **\"Generate billing\"** wizard opens."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:106
+msgid ""
+"![Generate billing wizard: period, dates, residents and MDA "
+"loading](../assets/screenshots/efact/03-generer-wizard.webp)"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:106
+msgid "Generate billing wizard: period, dates, residents and MDA loading"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:108
+msgid "**Billing Period / dates**: reminder of the month concerned."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:109
+msgid ""
+"**Residents**: leave **empty for all active residents** (or target one "
+"resident for a specific case)."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:111
+msgid ""
+"**Load MDA**: loads the already verified insurability (MDA) — \"Success\""
+" or \"pending\". The legend shows the MDA state of the period."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:114
+msgid ""
+"Click **Generate**. The period becomes **Generated**: Resthome computed, "
+"for **each resident**, the Katz allowance, the **INAMI share** "
+"(mutuality) and the **resident share**."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:118
+msgid ""
+"![Period in Generated state: toolbar Create invoices / Check MDA / "
+"Generate eFact, and residents table with INAMI share and resident "
+"share](../assets/screenshots/efact/04-periode-generated.webp)"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:118
+msgid ""
+"Period in Generated state: toolbar Create invoices / Check MDA / Generate"
+" eFact, and residents table with INAMI share and resident share"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:120
+msgid "In the **Residents** tab, you find line by line:"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:122
+msgid "the **stay type** (MR / MRS) and the **room**;"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:123
+msgid "the **Katz category** (B, C, Cd, D…) or **No Katz**;"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:124
+msgid "the **presence days** and **absence days**;"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:125
+msgid "the **INAMI share**, the **resident share** and the **total amount**."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:127
+msgid ""
+"The other tabs: **Billing Lines** (the line details), **Invoices**, "
+"**eHealth** (the exchanges) and **Info**."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:130
+msgid "3. Check before invoicing"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:132
+msgid ""
+"This is the most important step. At the top of the period, **counters** "
+"give the health state of the month: **Supplements**, **Absences**, **Not "
+"invoiced**, **MDA** and **Katz to do** (missing Katz evaluations to "
+"complete)."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:136
+msgid "Resthome's self-check"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:138
+msgid ""
+"After generation, Resthome combs through the period and **flags "
+"anomalies** in the discussion thread (on the right). Each message "
+"describes the problem **and** the action to take. The most frequent "
+"cases:"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:142
+msgid ""
+"**Room freed but still invoiced** (over-invoicing) — a resident left "
+"their room during the month, but the accommodation is still being "
+"invoiced. → Issue a **credit note** or close the accommodation."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:145
+msgid ""
+"**Over-declared OA allowance** — the end of INAMI intervention (or a "
+"death) precedes the end of the period, but the allowance was declared "
+"beyond. → Issue a **credit note / remainder** for the over-declared days."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:148
+msgid ""
+"**Death — accommodation still invoiced** — the resident died but the room"
+" has not yet been freed (\"Close the accommodation\")."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:150
+msgid "**Ongoing absences** — unclosed absences influence the allowance."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:152
+msgid "Handle each point (**Done** button once settled) before invoicing."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:155
+msgid ""
+"**Check MDA** — the **Check MDA** button verifies the **insurability** of"
+" your residents with the mutualities. A resident without valid coverage "
+"cannot be invoiced under third-party payment."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:159
+msgid "4. Create the invoices (Generated → Invoiced)"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:161
+msgid ""
+"When the checks are green, click **Create invoices**. Resthome generates "
+"and posts:"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:164
+msgid "the **resident invoices** (share charged to the resident / the family);"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:165
+msgid "the **mutuality share**, which will feed the eFact."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:167
+msgid ""
+"The period becomes **Invoiced**. You can still **Reset to draft** as long"
+" as you have not sent the eFact, if a correction is needed."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:170
+msgid "5. Generate the eFact (the batches)"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:172
+msgid ""
+"Click **Generate eFact**. Resthome builds the **batches** — one "
+"electronic file per insurance organisation — then shows the **eFact "
+"Batches** list."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:175
+msgid "One batch per union of mutualities"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:177
+msgid ""
+"Sendings are grouped **per union** (the big OA families), not per small "
+"individual mutuality: **100** (National Alliance), **300** (Solidaris), "
+"**500** (National Union), **600** (CAAMI), **900** (HR Rail)… Resthome "
+"takes care of the grouping."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:183
+msgid "Each batch line shows:"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:185
+msgid "the **OA** and its **code**;"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:186
+msgid "the batch **reference** (e.g. `EF/2026/…`) and the billing **month**;"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:187
+msgid "the sending **deadline** and the **MDA** state;"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:188
+msgid "the batch **status** (Draft, sent, accepted, rejected…);"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:189
+msgid "the **amounts**: invoiced, accepted, refused;"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:190
+msgid "in case of refusal, the rejection **code** and **reason**."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:192
+msgid "6. Send and follow the responses"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:194
+msgid ""
+"Once the batches are built, **send them**: the transmission goes to the "
+"insurance organisations through the eHealth network."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:197
+msgid "The response cycle is automatic:"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:199
+msgid ""
+"**Acknowledgement of receipt (931000)** — the OA confirms having "
+"**received** the batch and passed the first check. **This is normal: "
+"there is nothing to resend, wait for the settlement** (a few days)."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:202
+msgid ""
+"**Notification with warnings (920098)** or **global rejection (920099)** "
+"— where applicable: either the batch is accepted despite minor errors, or"
+" the whole batch is refused (to fix and resend)."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:205
+msgid ""
+"**Settlement (920900)** — the final result: **accepted** and/or "
+"**rejected** amounts. Resthome **reconciles** the responses and updates "
+"each batch (rejection code and reason)."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:209
+msgid "Handling a rejection"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:211
+msgid ""
+"If a batch (or part of it) is **rejected**, the rejection **code** and "
+"**reason** tell you why (insurability, allowance, dates…). Fix the cause,"
+" then **resend**. The **Resends** counter keeps track of retransmissions "
+"to avoid duplicates."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:217
+msgid ""
+"The **Reintegration** button lets you, where applicable, reintegrate "
+"lines (for example after correction) into a new sending."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:220
+msgid "7. The eFact Cockpit"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:222
+msgid ""
+"From a period or a dashboard card, the **eFact Cockpit** offers a "
+"**steering view**: the state of all batches and sendings at a glance — "
+"transmitted, accepted, rejected, pending. It is the ideal screen to "
+"**follow a monthly campaign** and spot what is blocking."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:227
+msgid "8. Credit notes and regularisations"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:229
+msgid ""
+"When a resident **leaves** or **dies** during an already invoiced month, "
+"part of the accommodation or the allowance was **over-invoiced**. "
+"Resthome detects it (see the self-check above) and prepares the "
+"corresponding **credit note** or **remainder**, to refund the undue "
+"period — on the resident side **and**, if needed, on the mutuality side "
+"through a corrective batch."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:235
+msgid "Prerequisites"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:237
+msgid "To check before sending"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:239
+msgid "**Insurability (MDA)** checked for the period."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:240
+msgid "Correct **mutuality** on each resident."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:241
+msgid "Invoices **posted** (period in *Invoiced* state)."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:242
+msgid "Active **eHealth certificate**."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:245
+msgid "Key points to remember"
+msgstr ""
+
+#: ../../content/ehealth/efact.md:247
+msgid ""
+"The period always follows the order **Draft → Generated → Invoiced → "
+"Closed**."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:248
+msgid "**Check before invoicing**: handle every self-check message."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:249
+msgid "**Check the MDA** — no third-party payment without valid insurability."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:250
+msgid "**One eFact batch per union** of mutualities, not per mutuality."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:251
+msgid "Respect the sending **deadline** of each period (\"deadline exceeded\")."
+msgstr ""
+
+#: ../../content/ehealth/efact.md:252
+msgid ""
+"A **rejection** is fixed then **resent** — the Resends counter avoids "
+"duplicates."
+msgstr ""
+

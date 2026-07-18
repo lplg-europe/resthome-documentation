@@ -1,0 +1,526 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-18 19:30+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: fr <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/facturation/forfait-inami.md:1
+msgid "The INAMI dependency allowance"
+msgstr "Le forfait INAMI (dépendance)"
+
+#: ../../content/facturation/forfait-inami.md:4
+msgid ""
+"The INAMI dependency allowance in nursing homes, explained: from the Katz "
+"assessment to the category, to the amount billed to the health insurance "
+"fund, and the role of the OA agreement."
+msgstr ""
+"Le forfait de dépendance INAMI en maison de repos, expliqué : de "
+"l'évaluation Katz à la catégorie, au montant facturé à la mutuelle, et le "
+"rôle de l'accord OA."
+
+#: ../../content/facturation/forfait-inami.md:8
+msgid "What is the INAMI dependency allowance?"
+msgstr "Qu'est-ce que le forfait INAMI (dépendance) ?"
+
+#: ../../content/facturation/forfait-inami.md:9
+msgid ""
+"It is the daily amount covered by the health insurance fund for a resident's"
+" dependency-related care. Under the AViQ rates, it is a single amount, the "
+"same for all Katz categories (including O), calculated on days of presence "
+"and billed to the insurer (OA) via eFact, not to the resident. The category "
+"is used to declare the correct profile and to obtain the health insurance "
+"fund's agreement."
+msgstr ""
+"C'est le montant journalier pris en charge par la mutuelle pour les soins "
+"liés à la dépendance d'un résident. Dans les tarifs AViQ, c'est un montant "
+"unique, le même pour toutes les catégories Katz (y compris O), calculé sur "
+"les jours de présence et facturé à l'organisme assureur via l'eFact, pas au "
+"résident. La catégorie sert à déclarer le bon profil et à obtenir l'accord "
+"de la mutuelle."
+
+#: ../../content/facturation/forfait-inami.md:11
+msgid "Does the allowance amount depend on the Katz category?"
+msgstr "Le montant du forfait dépend-il de la catégorie Katz ?"
+
+#: ../../content/facturation/forfait-inami.md:12
+msgid ""
+"No. Under the AViQ rates, the dependency allowance is the same daily amount "
+"for all categories, including category O (independent). The category does "
+"not change the amount: it is used to declare the correct dependency profile "
+"to the health insurance fund and to obtain the agreement (eAgreement). The "
+"rate remains configurable per category in Configuration → INAMI Rates if a "
+"convention requires it."
+msgstr ""
+"Non. Dans les tarifs AViQ, le forfait de dépendance est le même montant "
+"journalier pour toutes les catégories, y compris la catégorie O (autonome). "
+"La catégorie ne change pas le montant : elle sert à déclarer le bon profil "
+"de dépendance à la mutuelle et à obtenir l'accord (eAgreement). Le tarif "
+"reste configurable par catégorie dans Configuration → INAMI Rates si une "
+"convention l'exige."
+
+#: ../../content/facturation/forfait-inami.md:14
+msgid "How is the dependency allowance calculated?"
+msgstr "Comment le forfait de dépendance est-il calculé ?"
+
+#: ../../content/facturation/forfait-inami.md:15
+msgid ""
+"Allowance = the daily allowance rate (identical for all categories) × the "
+"number of billable days of presence over the INAMI intervention period. "
+"Absences reduce the days (noon rule). The applicable rate is the one in "
+"force on the billing date."
+msgstr ""
+"Forfait = tarif journalier du forfait (identique pour toutes les catégories)"
+" × nombre de jours de présence facturables sur la période d'intervention "
+"INAMI. Les absences réduisent les jours (règle de midi). Le tarif applicable"
+" est celui en vigueur à la date de facturation."
+
+#: ../../content/facturation/forfait-inami.md:17
+msgid ""
+"Why does the billed category sometimes differ from the clinical category?"
+msgstr ""
+"Pourquoi la catégorie facturée diffère-t-elle parfois de la catégorie "
+"clinique ?"
+
+#: ../../content/facturation/forfait-inami.md:18
+msgid ""
+"The health insurance fund reimburses the category it approved in the "
+"agreement (eAgreement), not necessarily your latest assessment. Until a "
+"change is accepted by the insurer (OA), Resthome keeps billing the previous "
+"category to avoid a rejection."
+msgstr ""
+"La mutuelle rembourse la catégorie qu'elle a approuvée dans l'accord "
+"(eAgreement), pas forcément votre dernière évaluation. Tant qu'un changement"
+" n'est pas accepté par l'organisme assureur, Resthome continue de facturer "
+"la catégorie précédente pour éviter un rejet."
+
+#: ../../content/facturation/forfait-inami.md:20
+msgid "Who pays for the dependency allowance?"
+msgstr "Qui paie le forfait de dépendance ?"
+
+#: ../../content/facturation/forfait-inami.md:21
+msgid ""
+"The allowance is covered 100% by the health insurance fund (third-party "
+"payer, via eFact). Accommodation (the room) is a separate line, charged to "
+"the resident."
+msgstr ""
+"Le forfait est pris en charge à 100 % par la mutuelle (tiers payant, via "
+"l'eFact). L'hébergement (la chambre) est une ligne distincte, à charge du "
+"résident."
+
+#: ../../content/facturation/forfait-inami.md:24
+msgid ""
+"The **dependency allowance** is the **daily** amount covered by the health "
+"insurance fund for a resident's **care**. It depends on their **degree of "
+"dependency**, measured by the **[Katz assessment](../residents/katz.md)**, "
+"and it is sent to the insurer (OA) via **[electronic billing "
+"(eFact)](../ehealth/efact.md)**."
+msgstr ""
+"Le **forfait de dépendance** est le montant **journalier** pris en charge "
+"par la mutuelle pour les **soins** d'un résident. Il dépend de son **degré "
+"de dépendance**, mesuré par l'**[évaluation Katz](../residents/katz.md)**, "
+"et il est envoyé à l'organisme assureur (OA) via la **[facturation "
+"électronique (eFact)](../ehealth/efact.md)**."
+
+#: ../../content/facturation/forfait-inami.md:29
+msgid ""
+"This page explains the full chain: **Katz assessment → category → billed "
+"amount**."
+msgstr ""
+"Cette page explique la chaîne complète : **évaluation Katz → catégorie → "
+"montant facturé**."
+
+#: ../../content/facturation/forfait-inami.md:31
+msgid "From the Katz assessment to the category"
+msgstr "De l'évaluation Katz à la catégorie"
+
+#: ../../content/facturation/forfait-inami.md:33
+msgid ""
+"The [Katz assessment](../residents/katz.md) rates **6 criteria** (washing, "
+"dressing, transfer and mobility, going to the toilet, continence, eating) "
+"from **1** (independent) to **4** (fully dependent). From these ratings, "
+"Resthome computes a **dependency category**, which is **declared to the "
+"health insurance fund**:"
+msgstr ""
+"L'[évaluation Katz](../residents/katz.md) cote **6 critères** (se laver, "
+"s'habiller, transfert et déplacements, aller à la toilette, continence, "
+"manger) de **1** (autonome) à **4** (totalement dépendant). À partir de ces "
+"cotations, Resthome calcule une **catégorie de dépendance**, qui est "
+"**déclarée à la mutuelle** :"
+
+#: ../../content/facturation/forfait-inami.md:7
+msgid "Category"
+msgstr "Catégorie"
+
+#: ../../content/facturation/forfait-inami.md:7
+msgid "Dependency"
+msgstr "Dépendance"
+
+#: ../../content/facturation/forfait-inami.md:7
+msgid "INAMI allowance"
+msgstr "Forfait INAMI"
+
+#: ../../content/facturation/forfait-inami.md:7
+msgid "**O**"
+msgstr "**O**"
+
+#: ../../content/facturation/forfait-inami.md:7
+msgid "Independent"
+msgstr "Autonome"
+
+#: ../../content/facturation/forfait-inami.md:7
+msgid "Yes (pseudo-code 770501)"
+msgstr "Oui (pseudo-code 770501)"
+
+#: ../../content/facturation/forfait-inami.md:7
+msgid "**A**"
+msgstr "**A**"
+
+#: ../../content/facturation/forfait-inami.md:7
+msgid "Mild"
+msgstr "Légère"
+
+#: ../../content/facturation/forfait-inami.md:7
+msgid "Yes"
+msgstr "Oui"
+
+#: ../../content/facturation/forfait-inami.md:7
+msgid "**B**"
+msgstr "**B**"
+
+#: ../../content/facturation/forfait-inami.md:7
+msgid "Moderate"
+msgstr "Moyenne"
+
+#: ../../content/facturation/forfait-inami.md:7
+msgid "**C**"
+msgstr "**C**"
+
+#: ../../content/facturation/forfait-inami.md:7
+msgid "Severe"
+msgstr "Forte"
+
+#: ../../content/facturation/forfait-inami.md:7
+msgid "**Cd**"
+msgstr "**Cd**"
+
+#: ../../content/facturation/forfait-inami.md:7
+msgid "Severe, with disorientation / dementia"
+msgstr "Forte, avec désorientation / démence"
+
+#: ../../content/facturation/forfait-inami.md:7
+msgid "**D**"
+msgstr "**D**"
+
+#: ../../content/facturation/forfait-inami.md:7
+msgid "Dementia (specialist diagnosis)"
+msgstr "Démence (diagnostic spécialisé)"
+
+#: ../../content/facturation/forfait-inami.md:48
+msgid "The amount is the same for all categories"
+msgstr "Le montant est le même pour toutes les catégories"
+
+#: ../../content/facturation/forfait-inami.md:51
+msgid ""
+"Under the **AViQ** rates, the **amount** of the dependency allowance is "
+"**identical for all Katz categories**, including **O**: a **single daily "
+"rate**, indexed each year (e.g. **€85.72/day in 2026**). The category "
+"therefore does **not change the amount** — it is used to **declare the "
+"correct profile** to the health insurance fund (the **OA agreement**) and "
+"for the **care standards**. The rate remains **configurable per category** "
+"in *Configuration → INAMI Rates* if a convention requires it."
+msgstr ""
+"Dans les tarifs **AViQ**, le **montant** du forfait de dépendance est "
+"**identique pour toutes les catégories Katz**, y compris **O** : un **tarif "
+"journalier unique**, indexé chaque année (par ex. **85,72 €/jour en 2026**)."
+" La catégorie ne change donc **pas le montant** — elle sert à **déclarer le "
+"bon profil** à la mutuelle (l'**accord OA**) et aux **normes de soins**. Le "
+"tarif reste **configurable par catégorie** dans *Configuration → INAMI "
+"Rates* si une convention l'exige."
+
+#: ../../content/facturation/forfait-inami.md:60
+msgid "Category O by default"
+msgstr "Catégorie O par défaut"
+
+#: ../../content/facturation/forfait-inami.md:63
+msgid ""
+"As long as no Katz assessment is **validated**, the resident is in category "
+"**O** by default and a **\"Katz to do\"** reminder appears. Validate the "
+"Katz assessment to **declare the correct category** to the health insurance "
+"fund and obtain the corresponding **agreement**."
+msgstr ""
+"Tant qu'aucune évaluation Katz n'est **validée**, le résident est en "
+"catégorie **O** par défaut et un rappel **« Katz à faire »** apparaît. "
+"Validez l'évaluation Katz pour **déclarer la bonne catégorie** à la mutuelle"
+" et obtenir l'**accord** correspondant."
+
+#: ../../content/facturation/forfait-inami.md:69
+msgid "Comatose patient"
+msgstr "Patient comateux"
+
+#: ../../content/facturation/forfait-inami.md:72
+msgid ""
+"The allowance for **comatose** patients is a special **federal** allowance: "
+"it requires a specific **accreditation** of the facility. Without it, the "
+"corresponding allowance line is not generated (accommodation is still "
+"billed)."
+msgstr ""
+"Le forfait des patients **comateux** est un forfait **fédéral** particulier "
+": il nécessite une **accréditation** spécifique de l'établissement. Sans "
+"elle, la ligne de forfait correspondante n'est pas générée (l'hébergement "
+"reste facturé)."
+
+#: ../../content/facturation/forfait-inami.md:77
+msgid "How the amount is calculated"
+msgstr "Comment le montant est calculé"
+
+#: ../../content/facturation/forfait-inami.md:79
+msgid "The allowance billed for a resident follows a simple rule:"
+msgstr "Le forfait facturé pour un résident suit une règle simple :"
+
+#: ../../content/facturation/forfait-inami.md:81
+msgid ""
+"**Allowance = the daily allowance rate (the same for all categories) × the "
+"number of billable days of presence**"
+msgstr ""
+"**Forfait = tarif journalier du forfait (le même pour toutes les catégories)"
+" × nombre de jours de présence facturables**"
+
+#: ../../content/facturation/forfait-inami.md:83
+msgid ""
+"The **days of presence** are counted over the **INAMI intervention period** "
+"(from admission to the end of intervention), **minus absences**. This period"
+" can be **shorter** than the accommodation (admission mid-month, departure, "
+"death, end of intervention before the room is vacated)."
+msgstr ""
+"Les **jours de présence** sont comptés sur la **période d'intervention "
+"INAMI** (de l'admission à la fin d'intervention), **moins les absences**. "
+"Cette période peut être **plus courte** que l'hébergement (admission en "
+"cours de mois, départ, décès, fin d'intervention avant la libération de la "
+"chambre)."
+
+#: ../../content/facturation/forfait-inami.md:87
+msgid ""
+"An **absence** (hospitalization, holidays) **reduces** the number of days, "
+"according to the **[noon rule](absences.md)** (Brussels time)."
+msgstr ""
+"Une **absence** (hospitalisation, vacances) **réduit** le nombre de jours, "
+"selon la **[règle de midi](absences.md)** (heure de Bruxelles)."
+
+#: ../../content/facturation/forfait-inami.md:89
+msgid ""
+"The **rate** applied is the one **in force on the date** of billing; it is "
+"indexed over time (see below)."
+msgstr ""
+"Le **tarif** appliqué est celui **en vigueur à la date** de facturation ; il"
+" est indexé dans le temps (voir plus bas)."
+
+#: ../../content/facturation/forfait-inami.md:92
+msgid "Allowance = health insurance fund · accommodation = resident"
+msgstr "Forfait = mutuelle · hébergement = résident"
+
+#: ../../content/facturation/forfait-inami.md:95
+msgid ""
+"The **dependency allowance** is covered **100% by the health insurance "
+"fund** (third-party payer, via eFact). **Accommodation** (the room) is a "
+"**separate line**, charged to the **resident**. Both proceed in parallel "
+"over the same billing period."
+msgstr ""
+"Le **forfait de dépendance** est pris en charge à **100 % par la mutuelle** "
+"(tiers payant, via l'eFact). L'**hébergement** (la chambre) est une **ligne "
+"distincte**, à charge du **résident**. Les deux avancent en parallèle sur la"
+" même période de facturation."
+
+#: ../../content/facturation/forfait-inami.md:101
+msgid "Clinical category and billed category"
+msgstr "Catégorie clinique et catégorie facturée"
+
+#: ../../content/facturation/forfait-inami.md:103
+msgid "Two concepts coexist here, and it is important not to confuse them:"
+msgstr ""
+"Deux notions coexistent, et il est important de ne pas les confondre :"
+
+#: ../../content/facturation/forfait-inami.md:105
+msgid ""
+"The **clinical category** — your **latest validated Katz assessment**; it "
+"reflects the actual dependency and is used for care."
+msgstr ""
+"La **catégorie clinique** — votre **dernière évaluation Katz validée** ; "
+"elle reflète la dépendance réelle et sert aux soins."
+
+#: ../../content/facturation/forfait-inami.md:107
+msgid ""
+"The **billed category** — the one that appears on the invoice sent to the "
+"health insurance fund."
+msgstr ""
+"La **catégorie facturée** — celle qui figure sur la facture envoyée à la "
+"mutuelle."
+
+#: ../../content/facturation/forfait-inami.md:110
+msgid ""
+"**They can differ.** The health insurance fund reimburses **the category it "
+"approved** in the **[agreement (eAgreement)](../ehealth/eagreement.md)**, "
+"not necessarily your latest assessment. In practice:"
+msgstr ""
+"**Elles peuvent différer.** La mutuelle rembourse **la catégorie qu'elle a "
+"approuvée** dans l'**[accord (eAgreement)](../ehealth/eagreement.md)**, pas "
+"forcément votre dernière évaluation. Concrètement :"
+
+#: ../../content/facturation/forfait-inami.md:114
+msgid ""
+"If an **OA agreement** is in force → we bill **the category of that "
+"agreement**."
+msgstr ""
+"Si un **accord OA** est en vigueur → on facture **la catégorie de cet "
+"accord**."
+
+#: ../../content/facturation/forfait-inami.md:115
+msgid ""
+"If a **category change** is requested but the agreement is **still pending**"
+" with the health insurance fund → Resthome **keeps the previous category** "
+"for billing."
+msgstr ""
+"Si un **changement de catégorie** est demandé mais l'accord est **encore en "
+"attente** de la mutuelle → Resthome **maintient la catégorie précédente** en"
+" facturation."
+
+#: ../../content/facturation/forfait-inami.md:117
+msgid "Otherwise → we bill the clinical category."
+msgstr "Sinon → on facture la catégorie clinique."
+
+#: ../../content/facturation/forfait-inami.md:119
+msgid "Why this caution?"
+msgstr "Pourquoi cette prudence ?"
+
+#: ../../content/facturation/forfait-inami.md:122
+msgid ""
+"Billing a category that **diverges from the agreement** triggers a "
+"**rejection** by the OA (\"allowance incompatible with the agreement\"). As "
+"long as the new category is not **accepted by the health insurance fund**, "
+"Resthome therefore keeps billing the old one. The clinically displayed "
+"category can thus be **higher** than the billed one."
+msgstr ""
+"Facturer une catégorie qui **diverge de l'accord** provoque un **rejet** de "
+"l'OA (« forfait incompatible avec l'accord »). Tant que la nouvelle "
+"catégorie n'est pas **acceptée par la mutuelle**, Resthome continue donc de "
+"facturer l'ancienne. La catégorie affichée cliniquement peut ainsi être "
+"**plus élevée** que celle facturée."
+
+#: ../../content/facturation/forfait-inami.md:129
+msgid "Worsening of dependency"
+msgstr "Aggravation de la dépendance"
+
+#: ../../content/facturation/forfait-inami.md:131
+msgid ""
+"If a resident's condition deteriorates, enter a **new Katz assessment** with"
+" an **aggravation reason**. Resthome prepares the update of the care "
+"agreement (**Annexe 10**), with the reason carried over automatically and "
+"the clinician's **signature**. The **new category** only becomes **billed** "
+"once the **health insurance fund's agreement is obtained** (see above)."
+msgstr ""
+"Si l'état d'un résident se dégrade, saisissez une **nouvelle évaluation "
+"Katz** avec un **motif d'aggravation**. Resthome prépare la mise à jour de "
+"l'accord de soins (**Annexe 10**), avec le motif repris automatiquement et "
+"la **signature** du clinicien. La **nouvelle catégorie** ne devient "
+"**facturée** qu'une fois l'**accord de la mutuelle obtenu** (voir ci-"
+"dessus)."
+
+#: ../../content/facturation/forfait-inami.md:137
+msgid "Configuring the allowance rates"
+msgstr "Configurer les tarifs de forfait"
+
+#: ../../content/facturation/forfait-inami.md:139
+msgid ""
+"The rates are configured in the **MR/MRS → Configuration → INAMI Rates** "
+"app: one **rate per Katz category**, with a **validity period**. Resthome "
+"automatically applies the rate in force on the billing date. For the "
+"**annual indexation**, you add a new rate line (new start date) and close "
+"the old one. The same screen also manages the **accommodation rate** "
+"(charged to the resident)."
+msgstr ""
+"Les tarifs sont configurés dans l'application **MR/MRS → Configuration → "
+"INAMI Rates** : un **tarif par catégorie Katz**, avec une **période de "
+"validité**. Resthome applique automatiquement le tarif en vigueur à la date "
+"de facturation. Pour l'**indexation annuelle**, on ajoute une nouvelle ligne"
+" de tarif (nouvelle date de début) et on clôture l'ancienne. Le même écran "
+"gère aussi le **tarif d'hébergement** (à charge du résident)."
+
+#: ../../content/facturation/forfait-inami.md:145
+msgid "Key points"
+msgstr "Points clés"
+
+#: ../../content/facturation/forfait-inami.md:147
+msgid ""
+"The **daily allowance** is the **same amount for all categories** (including"
+" **O**); the category is used to **declare the correct profile** to the "
+"health insurance fund (OA agreement)."
+msgstr ""
+"Le **forfait journalier** est le **même montant pour toutes les catégories**"
+" (y compris **O**) ; la catégorie sert à **déclarer le bon profil** à la "
+"mutuelle (accord OA)."
+
+#: ../../content/facturation/forfait-inami.md:150
+msgid ""
+"The billed allowance = **daily rate × days of presence** (INAMI intervention"
+" period, minus absences)."
+msgstr ""
+"Le forfait facturé = **tarif journalier × jours de présence** (période "
+"d'intervention INAMI, moins les absences)."
+
+#: ../../content/facturation/forfait-inami.md:152
+msgid ""
+"We bill the **category agreed with the health insurance fund** (agreement), "
+"not necessarily the latest clinical assessment."
+msgstr ""
+"On facture la **catégorie convenue avec la mutuelle** (accord), pas "
+"forcément la dernière évaluation clinique."
+
+#: ../../content/facturation/forfait-inami.md:154
+msgid ""
+"**Allowance = health insurance fund**, **accommodation = resident**, over "
+"the same period."
+msgstr ""
+"**Forfait = mutuelle**, **hébergement = résident**, sur la même période."
+
+#: ../../content/facturation/forfait-inami.md:157
+msgid "Further reading"
+msgstr "Pour aller plus loin"
+
+#: ../../content/facturation/forfait-inami.md:159
+msgid "[The Katz assessment](../residents/katz.md)"
+msgstr "[L'évaluation Katz](../residents/katz.md)"
+
+#: ../../content/facturation/forfait-inami.md:160
+msgid ""
+"[Electronic billing (eFact)](../ehealth/efact.md) · [eFact "
+"rejections](../ehealth/efact-rejets.md)"
+msgstr ""
+"[Facturation électronique (eFact)](../ehealth/efact.md) · [Rejets "
+"eFact](../ehealth/efact-rejets.md)"
+
+#: ../../content/facturation/forfait-inami.md:161
+msgid "[Agreements (eAgreement)](../ehealth/eagreement.md)"
+msgstr "[Accords (eAgreement)](../ehealth/eagreement.md)"
+
+#: ../../content/facturation/forfait-inami.md:162
+msgid "[Absences and hospitalizations](absences.md)"
+msgstr "[Absences et hospitalisations](absences.md)"
+
+#: ../../content/facturation/forfait-inami.md:163
+msgid "[FAQ](../faq.md) · [Glossary](../glossaire.md)"
+msgstr "[FAQ](../faq.md) · [Glossaire](../glossaire.md)"

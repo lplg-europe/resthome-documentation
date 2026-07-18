@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-18 19:30+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: fr <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/facturation/absences.md:1
+msgid "Absences and hospitalisations"
+msgstr "Absences et hospitalisations"
+
+#: ../../content/facturation/absences.md:4
+msgid ""
+"Record an absence or a hospitalisation in Resthome — effect on the "
+"allowance, the 72-hour rule, automatic eHealth notification, cancellation."
+msgstr ""
+"Enregistrer une absence ou une hospitalisation dans Resthome — effet sur le "
+"forfait, règle des 72 h, notification eHealth automatique, annulation."
+
+#: ../../content/facturation/absences.md:7
+msgid ""
+"When a resident is away (hospitalisation, holidays, family leave), this "
+"affects **the INAMI allowance** for the period and may trigger a "
+"**notification to the mutuality**. Resthome handles both automatically from "
+"the absence you record."
+msgstr ""
+"Quand un résident s'absente (hospitalisation, vacances, congé familial), "
+"cela influence **le forfait INAMI** de la période et peut déclencher une "
+"**notification à la mutuelle**. Resthome gère les deux automatiquement à "
+"partir de l'absence que vous saisissez."
+
+#: ../../content/facturation/absences.md:11
+msgid "Record an absence"
+msgstr "Enregistrer une absence"
+
+#: ../../content/facturation/absences.md:13
+msgid "Open the month's **billing period**, or the resident's file."
+msgstr ""
+"Ouvrez la **période de facturation** du mois, ou la fiche du résident."
+
+#: ../../content/facturation/absences.md:14
+msgid "Add an **absence**, specifying:"
+msgstr "Ajoutez une **absence** en indiquant :"
+
+#: ../../content/facturation/absences.md:15
+msgid "the **resident**;"
+msgstr "le **résident** ;"
+
+#: ../../content/facturation/absences.md:16
+msgid "the **type** (hospitalisation, holidays, etc.);"
+msgstr "le **type** (hospitalisation, vacances…) ;"
+
+#: ../../content/facturation/absences.md:17
+msgid ""
+"the **departure date/time** and the **return date/time** (or leave the "
+"return blank while the resident has not come back yet)."
+msgstr ""
+"la **date/heure de départ** et la **date/heure de retour** (ou laissez le "
+"retour vide tant que le résident n'est pas revenu)."
+
+#: ../../content/facturation/absences.md:19
+msgid "**Save.**"
+msgstr "**Enregistrez.**"
+
+#: ../../content/facturation/absences.md:21
+msgid "You don't need to click \"Refresh\""
+msgstr "Vous n'avez pas besoin de cliquer sur « Actualiser »"
+
+#: ../../content/facturation/absences.md:24
+msgid ""
+"Adding, modifying or deleting an absence **automatically synchronises** the "
+"billing of the resident concerned: the allowance is recomputed and, where "
+"applicable, the eHealth notification is prepared. See "
+"[billing](index.md#the-refresh-button)."
+msgstr ""
+"Ajouter, modifier ou supprimer une absence **synchronise automatiquement** "
+"la facturation du résident concerné : le forfait est recalculé et, le cas "
+"échéant, la notification eHealth est préparée. Voir la "
+"[facturation](index.md#le-bouton-actualiser)."
+
+#: ../../content/facturation/absences.md:30
+msgid "Effect on the allowance"
+msgstr "Effet sur le forfait"
+
+#: ../../content/facturation/absences.md:32
+msgid ""
+"The **INAMI allowance** (mutuality share) is computed on the **presence "
+"days**. An absence **reduces** this allowance for the days concerned."
+msgstr ""
+"Le **forfait INAMI** (part mutuelle) est calculé sur les **jours de "
+"présence**. Une absence **réduit** ce forfait pour les jours concernés."
+
+#: ../../content/facturation/absences.md:35
+msgid "The \"noon rule\""
+msgstr "La « règle de midi »"
+
+#: ../../content/facturation/absences.md:38
+msgid ""
+"The count of absence days follows a presence-at-**noon** rule (Brussels "
+"time): it is the presence at noon that determines whether the day counts. "
+"The **dates and times** of departure and return therefore matter — Resthome "
+"relies on them for an exact count."
+msgstr ""
+"Le décompte des jours d'absence suit une règle de présence à **midi** (heure"
+" de Bruxelles) : c'est la présence à midi qui détermine si la journée "
+"compte. Les **dates et heures** de départ et de retour sont donc importantes"
+" — Resthome s'appuie dessus pour un décompte exact."
+
+#: ../../content/facturation/absences.md:44
+msgid ""
+"The **accommodation share** (the room, paid by the resident) follows its own"
+" rules according to your agreement."
+msgstr ""
+"La **part hébergement** (la chambre, payée par le résident) suit ses propres"
+" règles selon votre convention."
+
+#: ../../content/facturation/absences.md:47
+msgid "Notification to the mutuality (eHealth)"
+msgstr "Notification à la mutuelle (eHealth)"
+
+#: ../../content/facturation/absences.md:49
+msgid "Some absences must be reported to the mutuality:"
+msgstr "Certaines absences doivent être signalées à la mutuelle :"
+
+#: ../../content/facturation/absences.md:51
+msgid ""
+"an absence of **more than 72 hours**, or **any hospitalisation**, prepares "
+"an **Annex 11** (exit notification);"
+msgstr ""
+"une absence de **plus de 72 h**, ou **toute hospitalisation**, prépare une "
+"**Annexe 11** (notification de sortie) ;"
+
+#: ../../content/facturation/absences.md:53
+msgid "the resident's **return** prepares an **Annex 7** (readmission)."
+msgstr "le **retour** du résident prépare une **Annexe 7** (réadmission)."
+
+#: ../../content/facturation/absences.md:55
+msgid ""
+"Resthome creates these notifications **at the moment you record the absence "
+"and the return**, with no extra handling. You only have to check and send "
+"them. See [Agreements (eAgreement)](../ehealth/eagreement.md)."
+msgstr ""
+"Resthome crée ces notifications **au moment où vous enregistrez l'absence et"
+" le retour**, sans manipulation supplémentaire. Vous n'avez qu'à les "
+"vérifier et les envoyer. Voir [Accords "
+"(eAgreement)](../ehealth/eagreement.md)."
+
+#: ../../content/facturation/absences.md:59
+msgid "Cancel an absence"
+msgstr "Annuler une absence"
+
+#: ../../content/facturation/absences.md:61
+msgid ""
+"An absence entered by mistake? **Delete it** or set it back to draft: "
+"Resthome **rolls it back cleanly** — the allowance is recomputed as if the "
+"absence had never happened, and the prepared notifications are withdrawn as "
+"long as they have not been validated on the mutuality side."
+msgstr ""
+"Une absence saisie par erreur ? **Supprimez-la** ou remettez-la en brouillon"
+" : Resthome **fait machine arrière proprement** — le forfait est recalculé "
+"comme si l'absence n'avait pas eu lieu, et les notifications préparées sont "
+"retirées tant qu'elles n'ont pas été validées côté mutuelle."
+
+#: ../../content/facturation/absences.md:66
+msgid "Month already invoiced"
+msgstr "Mois déjà facturé"
+
+#: ../../content/facturation/absences.md:69
+msgid ""
+"If the month's invoice is **already posted** for this resident, Resthome "
+"does not change that month automatically (protection against double "
+"invoicing). To correct it anyway: reset the invoice to **draft** (or create "
+"a **credit note**), then **refresh**. The other residents in the period are "
+"not affected."
+msgstr ""
+"Si la facture du mois est **déjà comptabilisée** pour ce résident, Resthome "
+"ne modifie pas ce mois automatiquement (protection contre la double "
+"facturation). Pour corriger malgré tout : repassez la facture en "
+"**brouillon** (ou créez une **note de crédit**), puis **actualisez**. Les "
+"autres résidents de la période ne sont pas touchés."
+
+#: ../../content/facturation/absences.md:75
+msgid "Going further"
+msgstr "Pour aller plus loin"
+
+#: ../../content/facturation/absences.md:77
+msgid "[Agreements (eAgreement)](../ehealth/eagreement.md)"
+msgstr "[Accords (eAgreement)](../ehealth/eagreement.md)"
+
+#: ../../content/facturation/absences.md:78
+msgid "[Departure and death](depart-deces.md)"
+msgstr "[Départ et décès](depart-deces.md)"
+
+#: ../../content/facturation/absences.md:79
+msgid "[Billing overview](index.md)"
+msgstr "[Vue d'ensemble de la facturation](index.md)"

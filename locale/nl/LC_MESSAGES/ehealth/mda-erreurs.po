@@ -1,0 +1,503 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-18 19:30+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: nl <LL@li.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/ehealth/mda-erreurs.md:1
+msgid "MDA errors — causes and solutions"
+msgstr "MDA-fouten — oorzaken en oplossingen"
+
+#: ../../content/ehealth/mda-erreurs.md:4
+msgid ""
+"Resolve MDA (insurability) errors and special cases in Resthome: incorrect "
+"NISS, unknown beneficiary, \"not in order\", no response, transfer, special "
+"schemes."
+msgstr ""
+"MDA-fouten en bijzondere gevallen (verzekerbaarheid) oplossen in Resthome: "
+"verkeerd INSZ, onbekende rechthebbende, « niet in orde », zonder antwoord, "
+"mutatie, bijzondere stelsels."
+
+#: ../../content/ehealth/mda-erreurs.md:8
+msgid "What should I do when the MDA returns an error?"
+msgstr "Wat te doen wanneer de MDA een fout teruggeeft?"
+
+#: ../../content/ehealth/mda-erreurs.md:9
+msgid ""
+"Depending on the message: if the NISS is the cause (the most common), "
+"correct it on the record then Retry; if it is \"no response\" (often outside"
+" office hours), retry later; if the error is technical or persists, Report "
+"to the inter-mutualist."
+msgstr ""
+"Afhankelijk van het bericht: is het INSZ de oorzaak (het vaakst), corrigeer "
+"het op de fiche en probeer opnieuw; is het « zonder antwoord » (vaak buiten "
+"de openingsuren), probeer later opnieuw; is de fout technisch of blijft ze "
+"aanhouden, meld ze aan de intermutualist."
+
+#: ../../content/ehealth/mda-erreurs.md:11
+msgid "What does \"insured but not in order\" mean?"
+msgstr "Wat betekent « verzekerd maar niet in orde »?"
+
+#: ../../content/ehealth/mda-erreurs.md:12
+msgid ""
+"The resident is affiliated but their coverage is not valid for the period "
+"(unpaid contributions, file to be regularised). Do not bill the insurance "
+"organisation: clarify with the resident or their mutuality, and bill the "
+"share to the resident in the meantime."
+msgstr ""
+"De bewoner is aangesloten maar zijn dekking is niet geldig voor de periode "
+"(onbetaalde bijdragen, te regulariseren dossier). Factureer de "
+"verzekeringsinstelling niet: klaar dit uit met de bewoner of zijn "
+"ziekenfonds, en factureer het aandeel ondertussen aan de bewoner."
+
+#: ../../content/ehealth/mda-erreurs.md:14
+msgid "Why did the MDA not find the resident?"
+msgstr "De MDA heeft de bewoner niet gevonden, waarom?"
+
+#: ../../content/ehealth/mda-erreurs.md:15
+msgid ""
+"Either the NISS is entered incorrectly (format rejected), or it is correct "
+"but not yet known to the platform (very recent registration, special case). "
+"Check the NISS; if it is correct, contact the mutuality."
+msgstr ""
+"Ofwel is het INSZ verkeerd ingevoerd (formaat geweigerd), ofwel is het "
+"correct maar nog niet gekend bij het platform (zeer recente inschrijving, "
+"bijzonder geval). Controleer het INSZ; is het juist, neem contact op met het"
+" ziekenfonds."
+
+#: ../../content/ehealth/mda-erreurs.md:17
+msgid "What does Resthome update after a successful MDA?"
+msgstr "Wat werkt Resthome bij na een geslaagde MDA?"
+
+#: ../../content/ehealth/mda-erreurs.md:18
+msgid ""
+"The actual mutuality (insurance organisation), the BIM status, the "
+"affiliation number, the identity if fields were missing, and the date of "
+"death if the organisation reports it. For a special scheme, the profile's "
+"mutuality is not overwritten."
+msgstr ""
+"Het reële ziekenfonds (verzekeringsinstelling), het BIM-statuut, het "
+"aansluitingsnummer, de identiteit als er velden ontbraken, en de "
+"overlijdensdatum als de instelling die meldt. Voor een bijzonder stelsel "
+"wordt het ziekenfonds van het profiel niet overschreven."
+
+#: ../../content/ehealth/mda-erreurs.md:21
+msgid ""
+"The [MDA](mda.md) queries the mutualities platform (MyCareNet / WalCareNet) "
+"on your behalf to confirm that a resident is **insured for the period** and "
+"to identify **the mutuality that actually covers them**. It is the "
+"**prerequisite for eFact**. This page gathers the errors and special cases, "
+"with the steps to follow."
+msgstr ""
+"De [MDA](mda.md) bevraagt voor u het platform van de ziekenfondsen "
+"(MyCareNet / WalCareNet) om te bevestigen dat een bewoner **verzekerd is "
+"voor de periode** en om **het ziekenfonds dat hem werkelijk dekt** te "
+"identificeren. Het is de **voorwaarde voor de eFact**. Deze pagina bundelt "
+"de fouten en bijzondere gevallen, met de te volgen weg."
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid "The right habit"
+msgstr "De juiste reflex"
+
+#: ../../content/ehealth/mda-erreurs.md:30
+msgid ""
+"Run the MDA **at the start of the month, before generating the invoices**: "
+"you avoid later [eFact rejections](efact-rejets.md) caused by a wrong "
+"mutuality or a loss of insurability discovered too late."
+msgstr ""
+"Start de MDA **aan het begin van de maand, vóór u de facturen genereert**: "
+"zo vermijdt u latere [eFact-weigeringen](efact-rejets.md) door een verkeerd "
+"ziekenfonds of een te laat ontdekt verlies van verzekerbaarheid."
+
+#: ../../content/ehealth/mda-erreurs.md:35
+msgid "MDA situations → action"
+msgstr "MDA-situaties → actie"
+
+#: ../../content/ehealth/mda-erreurs.md:37
+msgid ""
+"Reminder of the statuses Resthome may display: **Draft · Sent / Pending · "
+"Success · Not insured · No response · Error**. Available actions: **Send · "
+"Check the response · Retry · Contact the OA · Report to the inter-"
+"mutualist.**"
+msgstr ""
+"Herinnering aan de statussen die Resthome kan tonen: **Concept · Verzonden /"
+" In afwachting · Succes · Niet verzekerd · Zonder antwoord · Fout**. "
+"Beschikbare acties: **Verzenden · Antwoord controleren · Opnieuw proberen · "
+"Contact opnemen met de VI · Melden aan de intermut.**"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid "Situation"
+msgstr "Situatie"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid "What Resthome displays"
+msgstr "Wat Resthome toont"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid "Likely cause"
+msgstr "Waarschijnlijke oorzaak"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid "Action"
+msgstr "Actie"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid "**NISS not recognised**"
+msgstr "**INSZ niet herkend**"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid "**Error**: the request is refused before reaching a mutuality"
+msgstr "**Fout**: de aanvraag wordt geweigerd vóór ze een ziekenfonds bereikt"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid ""
+"The **NISS** is entered incorrectly (transposed digit, typo): invalid format"
+msgstr ""
+"Het **INSZ** is verkeerd ingevoerd (omgekeerd cijfer, typfout): ongeldig "
+"formaat"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid ""
+"Check the NISS (ID card), **correct it**, then **Retry**. This is the most "
+"common cause."
+msgstr ""
+"Controleer het INSZ (identiteitskaart), **corrigeer het**, en **probeer "
+"opnieuw**. Dit is de vaakst voorkomende oorzaak."
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid "**Beneficiary not found**"
+msgstr "**Rechthebbende onvindbaar**"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid "**Error**: \"not found\""
+msgstr "**Fout**: « niet gevonden »"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid ""
+"Well-formed NISS but **not (yet) known** to the platform (very recent "
+"registration, special case)"
+msgstr ""
+"INSZ goed gevormd maar **(nog) niet gekend** bij het platform (zeer recente "
+"inschrijving, bijzonder geval)"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid ""
+"Confirm the NISS and the affiliation. If the number is correct: **Contact "
+"the OA**; as a last resort **Report to the inter-mutualist.**"
+msgstr ""
+"Bevestig het INSZ en de aansluiting. Is het nummer correct: **Contact "
+"opnemen met de VI**; in laatste instantie **Melden aan de intermut.**"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid "**Insured but \"not in order\"**"
+msgstr "**Verzekerd maar « niet in orde »**"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid "**Not insured** + **alert**"
+msgstr "**Niet verzekerd** + **waarschuwing**"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid ""
+"Existing affiliation but **invalid coverage** (unpaid contributions, file to"
+" be regularised)"
+msgstr ""
+"Bestaande aansluiting maar **niet-geldige dekking** (onbetaalde bijdragen, "
+"te regulariseren dossier)"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid ""
+"Do not bill the OA for this period. **Contact the OA** or the resident to "
+"regularise; bill the share **to the resident** in the meantime."
+msgstr ""
+"Factureer de VI niet voor deze periode. **Contact opnemen met de VI** of de "
+"bewoner om te regulariseren; factureer het aandeel ondertussen **aan de "
+"bewoner**."
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid "**No mutuality on the record**"
+msgstr "**Geen ziekenfonds op de fiche**"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid ""
+"Non-blocking: after a successful MDA, the mutuality is **filled in "
+"automatically**"
+msgstr ""
+"Niet blokkerend: na een geslaagde MDA wordt het ziekenfonds **automatisch "
+"ingevuld**"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid "Incomplete profile (new resident)"
+msgstr "Onvolledig profiel (nieuwe bewoner)"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid ""
+"Run the MDA: if it succeeds, Resthome **fills in** the mutuality and the "
+"affiliation number. Otherwise, re-check the NISS."
+msgstr ""
+"Start de MDA: slaagt ze, dan **vult** Resthome het ziekenfonds en het "
+"aansluitingsnummer in. Zo niet, controleer het INSZ opnieuw."
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid "**Change of mutuality (transfer)**"
+msgstr "**Verandering van ziekenfonds (mutatie)**"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid "**Transfer detected**: the profile is **updated**"
+msgstr "**Mutatie gedetecteerd**: het profiel wordt **bijgewerkt**"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid "The resident has changed mutuality; the profile was out of date"
+msgstr ""
+"De bewoner is van ziekenfonds veranderd; het profiel was niet bijgewerkt"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid ""
+"Let Resthome correct the profile; **check** the new mutuality before "
+"billing."
+msgstr ""
+"Laat Resthome het profiel corrigeren; **controleer** het nieuwe ziekenfonds "
+"vóór u factureert."
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid "**\"No response\"**"
+msgstr "**« Zonder antwoord »**"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid "**No response**"
+msgstr "**Zonder antwoord**"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid ""
+"The platform closed the request without a response — often **outside office "
+"hours** (evening/weekend) or a temporary unavailability. This is not a "
+"mistake on your part"
+msgstr ""
+"Het platform heeft de aanvraag zonder antwoord afgesloten — vaak **buiten de"
+" openingsuren** (avond/weekend) of tijdelijke onbeschikbaarheid. Dit is geen"
+" fout van u"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid ""
+"**Retry** during business hours. If it persists, **Report to the inter-"
+"mutualist.**"
+msgstr ""
+"**Probeer opnieuw** tijdens de openingsuren. Blijft dit aanhouden, **Melden "
+"aan de intermut.**"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid "**Technical error**"
+msgstr "**Technische fout**"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid "**Error** + technical detail"
+msgstr "**Fout** + technisch detail"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid "Temporary outage on the platform or mutuality side"
+msgstr "Tijdelijke panne bij het platform of het ziekenfonds"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid ""
+"**Retry** later; if the error recurs, **Report to the inter-mutualist.** Do "
+"not retry in a loop."
+msgstr ""
+"**Probeer later opnieuw**; blijft de fout terugkomen, **Melden aan de "
+"intermut.** Niet in een lus opnieuw starten."
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid "**Death reported by the mutuality**"
+msgstr "**Overlijden gemeld door het ziekenfonds**"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid "**Date of death** on the record + alert"
+msgstr "**Overlijdensdatum** op de fiche + waarschuwing"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid "The OA reports a death (coverage closed)"
+msgstr "De VI meldt een overlijden (dekking afgesloten)"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid "Check and **stop billing** at the correct date."
+msgstr "Controleer en **stop de facturatie** op de juiste datum."
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid "**Special scheme**"
+msgstr "**Bijzonder stelsel**"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid ""
+"The MDA response is **ignored**; the profile's mutuality **stays unchanged**"
+msgstr ""
+"Het MDA-antwoord wordt **genegeerd**; het ziekenfonds van het profiel "
+"**blijft ongewijzigd**"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid "The resident falls under a special scheme (see below)"
+msgstr "De bewoner valt onder een bijzonder stelsel (zie verder)"
+
+#: ../../content/ehealth/mda-erreurs.md:27
+msgid ""
+"Do not correct anything: the safeguard is **intentional**. Bill according to"
+" the special scheme."
+msgstr ""
+"Corrigeer niets: de beveiliging is **bewust**. Factureer volgens het "
+"bijzondere stelsel."
+
+#: ../../content/ehealth/mda-erreurs.md:53
+msgid "Special schemes"
+msgstr "Bijzondere stelsels"
+
+#: ../../content/ehealth/mda-erreurs.md:55
+msgid ""
+"Some residents do **not** fall under the standard mutuality flow. In these "
+"cases, Resthome **does not overwrite** the mutuality on their profile with "
+"the MDA response, and billing is often done **on paper**, addressed to the "
+"actual payer (or to the resident), rather than through eFact."
+msgstr ""
+"Sommige bewoners vallen **niet** onder de standaard ziekenfondsstroom. In "
+"die gevallen **overschrijft** Resthome het ziekenfonds van hun profiel niet "
+"met het MDA-antwoord, en gebeurt de facturatie vaak **op papier**, gericht "
+"aan de werkelijke betaler (of aan de bewoner), in plaats van via eFact."
+
+#: ../../content/ehealth/mda-erreurs.md:60
+msgid ""
+"**BIM status (increased reimbursement)** — this is not a separate scheme: "
+"the MDA **retrieves and updates it on its own**. It grants the resident a "
+"**reduced co-payment** (the share they pay decreases); the daily allowance, "
+"however, is unchanged."
+msgstr ""
+"**BIM-statuut (verhoogde tegemoetkoming)** — dit is geen apart stelsel: de "
+"MDA **haalt het op en werkt het vanzelf bij**. Het geeft recht op een "
+"**verminderd remgeld** voor de bewoner (het aandeel te zijnen laste daalt); "
+"het dagforfait blijft ongewijzigd."
+
+#: ../../content/ehealth/mda-erreurs.md:64
+msgid ""
+"**War invalids / civilian victims** — the resident has **two coverages**: "
+"their standard mutuality (visible in the MDA) **and** a specific coverage "
+"that **does not go through** the MDA. The safeguard avoids overwriting this "
+"configuration."
+msgstr ""
+"**Oorlogsinvaliden / burgerlijke slachtoffers** — de bewoner heeft **twee "
+"dekkingen**: zijn standaard ziekenfonds (zichtbaar in de MDA) **en** een "
+"specifieke dekking die **niet** via de MDA verloopt. De beveiliging vermijdt"
+" dat deze configuratie overschreven wordt."
+
+#: ../../content/ehealth/mda-erreurs.md:68
+msgid ""
+"**Retirees of international institutions** — covered by a scheme specific to"
+" their organisation, not by a standard Belgian mutuality."
+msgstr ""
+"**Gepensioneerden van internationale instellingen** — gedekt door een eigen "
+"stelsel van hun organisatie, niet door een klassiek Belgisch ziekenfonds."
+
+#: ../../content/ehealth/mda-erreurs.md:70
+msgid ""
+"**Foreign pensioners** — coverage from a foreign scheme via the European "
+"coordination forms; in practice, many still join a Belgian mutuality."
+msgstr ""
+"**Buitenlandse gepensioneerden** — dekking van een buitenlands stelsel via "
+"de Europese coördinatieformulieren; in de praktijk sluiten velen zich toch "
+"bij een Belgisch ziekenfonds aan."
+
+#: ../../content/ehealth/mda-erreurs.md:73
+msgid "When in doubt"
+msgstr "Bij twijfel"
+
+#: ../../content/ehealth/mda-erreurs.md:76
+msgid ""
+"For a special scheme, if in doubt about which organisation to bill, get in "
+"touch with the mutuality or the organisation concerned before issuing the "
+"invoice."
+msgstr ""
+"Voor een bijzonder stelsel, bij twijfel over de te factureren instelling, "
+"neem contact op met het ziekenfonds of de betrokken instelling vóór u de "
+"factuur opmaakt."
+
+#: ../../content/ehealth/mda-erreurs.md:80
+msgid "Best practices"
+msgstr "Goede praktijken"
+
+#: ../../content/ehealth/mda-erreurs.md:82
+msgid "**MDA at the start of the month, before billing.**"
+msgstr "**MDA aan het begin van de maand, vóór het factureren.**"
+
+#: ../../content/ehealth/mda-erreurs.md:83
+msgid ""
+"**Individual check** (immediate) for a specific resident; **batch check** "
+"for a whole period — paste a column of names/NISS if needed."
+msgstr ""
+"**Individuele controle** (onmiddellijk) voor een specifieke bewoner; "
+"**controle per lot** voor een volledige periode — plak indien nodig een "
+"kolom namen/INSZ."
+
+#: ../../content/ehealth/mda-erreurs.md:85
+msgid "**Immediate send (Sync)** for **small volumes**;"
+msgstr "**Onmiddellijke verzending (Sync)** voor **kleine volumes**;"
+
+#: ../../content/ehealth/mda-erreurs.md:86
+msgid ""
+"**Grouped send (Async)** for **large monthly batches**: the request goes "
+"out, then you **retrieve the responses** a little later with **Check "
+"responses** (requires at least 2 residents)."
+msgstr ""
+"**Groepsverzending (Async)** voor **grote maandelijkse loten**: de aanvraag "
+"vertrekt, daarna **haalt u de antwoorden** wat later op met **Antwoorden "
+"controleren** (vereist minstens 2 bewoners)."
+
+#: ../../content/ehealth/mda-erreurs.md:89
+msgid ""
+"The batch displays **counters** (Insured, Not insured, Errors, Pending, "
+"Deaths) to spot at a glance what remains to process."
+msgstr ""
+"Het lot toont **tellers** (Verzekerd, Niet verzekerd, Fouten, In afwachting,"
+" Overlijdens) om in één oogopslag te zien wat nog te behandelen valt."
+
+#: ../../content/ehealth/mda-erreurs.md:91
+msgid ""
+"**What Resthome updates** after a successful MDA: the actual **mutuality "
+"(OA)**, the **BIM status**, the **affiliation number**, the **identity** if "
+"fields were missing, and the **date of death** if the organisation reports "
+"it. Exception: the mutuality of a **special scheme** is not overwritten."
+msgstr ""
+"**Wat Resthome bijwerkt** na een geslaagde MDA: het reële **ziekenfonds "
+"(VI)**, het **BIM-statuut**, het **aansluitingsnummer**, de **identiteit** "
+"als er velden ontbraken, en de **overlijdensdatum** als de instelling die "
+"meldt. Uitzondering: het ziekenfonds van een **bijzonder stelsel** wordt "
+"niet overschreven."
+
+#: ../../content/ehealth/mda-erreurs.md:96
+msgid "Further reading"
+msgstr "Verder"
+
+#: ../../content/ehealth/mda-erreurs.md:98
+msgid "[Insurability (MDA)](mda.md)"
+msgstr "[Verzekerbaarheid (MDA)](mda.md)"
+
+#: ../../content/ehealth/mda-erreurs.md:99
+msgid ""
+"[eFact rejections](efact-rejets.md) · [Electronic invoicing "
+"(eFact)](efact.md)"
+msgstr ""
+"[eFact-weigeringen](efact-rejets.md) · [Elektronische facturatie "
+"(eFact)](efact.md)"
+
+#: ../../content/ehealth/mda-erreurs.md:100
+msgid "[FAQ](../faq.md) · [Glossary](../glossaire.md)"
+msgstr "[FAQ](../faq.md) · [Woordenlijst](../glossaire.md)"
