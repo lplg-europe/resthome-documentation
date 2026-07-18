@@ -32,7 +32,7 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
-      - run: mkdocs build --strict
+      - run: python build_docs.py       # 3 langues (fr racine, /nl, /en) + statiques + sitemap
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site/

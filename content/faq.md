@@ -380,7 +380,7 @@ On a period, the **Refresh** action recomputes everything in one click (billing
 lines, supplements, draft invoices). Residents whose invoice is already posted
 are left untouched; since adding a supplement or an absence synchronises
 automatically, it is usually not necessary to click "Refresh".
-→ [Billing](facturation/index.md#the-refresh-button)
+→ [Billing](facturation/index.md)
 
 ### How do I add a supplement?
 

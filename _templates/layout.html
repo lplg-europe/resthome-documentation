@@ -1,8 +1,23 @@
-{#- Override immaterial : injecte les metatags Sphinx (JSON-LD, hreflang,
-    meta description émis par _ext/resthome_meta.py) dans le <head>. -#}
+{#- Override sphinx-immaterial : metatags SEO/AEO (JSON-LD, hreflang, meta
+    description de _ext/resthome_meta.py) + bouton Support flottant. -#}
 {% extends "!layout.html" %}
 
 {% block extrahead %}
   {{ metatags }}
+  <style>
+    .lplg-support-fab{position:fixed;right:1.1rem;bottom:1.1rem;z-index:8;display:inline-flex;align-items:center;gap:.4rem;padding:.55rem .95rem;border-radius:2rem;background:#0F43FF;color:#fff !important;font-weight:600;font-size:.72rem;letter-spacing:.02em;box-shadow:0 3px 10px rgba(0,0,0,.28);text-decoration:none;transition:transform .15s ease,box-shadow .15s ease}
+    .lplg-support-fab:hover{transform:translateY(-2px);box-shadow:0 5px 16px rgba(0,0,0,.34)}
+    .lplg-support-fab svg{width:1.05rem;height:1.05rem;fill:currentColor;flex:0 0 auto}
+    @media (max-width:44.9375em){.lplg-support-fab span{display:none}.lplg-support-fab{padding:.6rem;border-radius:50%}}
+    @media print{.lplg-support-fab{display:none}}
+  </style>
   {{ super() }}
+{% endblock %}
+
+{% block footer %}
+  {{ super() }}
+  <a class="lplg-support-fab" href="{{ pathto('support') }}" aria-label="Support">
+    <svg viewBox="0 0 24 24" role="img" aria-hidden="true"><path d="M12 1c-4.97 0-9 4.03-9 9v7c0 1.66 1.34 3 3 3h3v-8H5v-2c0-3.87 3.13-7 7-7s7 3.13 7 7v2h-4v8h3c1.66 0 3-1.34 3-3v-7c0-4.97-4.03-9-9-9z"/></svg>
+    <span>Support</span>
+  </a>
 {% endblock %}

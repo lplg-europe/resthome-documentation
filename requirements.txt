@@ -1,14 +1,14 @@
-# Documentation resthome — dépendances de build.
+# Documentation Resthome — build Sphinx (modèle Odoo : source EN + catalogues).
 #   python -m venv .venv
 #   .venv\Scripts\activate      (Windows)   /   source .venv/bin/activate  (Linux/macOS)
 #   pip install -r requirements.txt
+#
+# Build :   python build_docs.py            (3 langues + statiques + sitemap)
+# i18n  :   python build_docs.py --gettext  (met à jour les catalogues locale/)
 
-mkdocs-material>=9.5,<10
-mkdocs-static-i18n>=1.2,<2
-
-# Date « Mis à jour le … » en pied de page (lue depuis git).
-mkdocs-git-revision-date-localized-plugin>=1.2,<2
-
-# Optionnel — génère automatiquement /llms.txt (index pour les IA).
-# Installé mais NON activé par défaut : voir le README pour l'activer dans mkdocs.yml.
-mkdocs-llmstxt>=0.1
+sphinx>=7.2,<9
+myst-parser>=2,<5
+sphinx-immaterial>=0.12
+sphinxcontrib-mermaid>=0.9
+sphinx-intl>=2.1          # extraction / mise à jour des catalogues .po
+polib>=1.2               # outillage de remplissage des catalogues

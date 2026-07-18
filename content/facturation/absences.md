@@ -24,7 +24,7 @@ mutuality**. Resthome handles both automatically from the absence you record.
 Adding, modifying or deleting an absence **automatically synchronises** the
 billing of the resident concerned: the allowance is recomputed and, where
 applicable, the eHealth notification is prepared. See
-[billing](index.md#the-refresh-button).
+[billing](index.md).
 :::
 
 ## Effect on the allowance
