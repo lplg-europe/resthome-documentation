@@ -1,4 +1,4 @@
-# Configuration Sphinx — documentation Resthome (modèle Odoo).
+# Configuration Sphinx — documentation Resthome (modèle docs-as-code).
 #
 # Source UNIQUE en anglais dans content/ (slugs français conservés = URLs indexées).
 # Traductions par catalogues gettext dans locale/{fr,nl}/LC_MESSAGES/.
@@ -43,11 +43,11 @@ myst_enable_extensions = [
 myst_fence_as_directive = ["mermaid"]   # les fences ```mermaid → directive
 myst_heading_anchors = 3
 
-# -- i18n (le cœur du modèle Odoo) -------------------------------------------
+# -- i18n (le cœur du modèle docs-as-code) -------------------------------------------
 # Chemin ABSOLU : sphinx-build (base = content/) et sphinx-intl (base = cwd) ne
 # résolvent pas les chemins relatifs pareil → on force l'absolu, seul robuste.
 locale_dirs = [os.path.join(os.path.dirname(os.path.abspath(__file__)), "locale")]
-gettext_compact = False        # un catalogue par page (granulaire, comme Odoo)
+gettext_compact = False        # un catalogue par page (granulaire)
 gettext_uuid = False
 gettext_location = True
 
@@ -87,7 +87,7 @@ rh_site_base = "https://www.lplg.eu/resthome/documentation/"
 rh_languages = {"fr": "", "nl": "nl/", "en": "en/"}   # langue -> préfixe d'URL
 rh_default_language = "fr"                             # langue servie à la racine
 
-# -- Multi-version (modèle Odoo) ----------------------------------------------
+# -- Multi-version (modèle docs-as-code) ----------------------------------------------
 # URL = base + <version>/ + <préfixe langue> + page  (ex. /documentation/2026/nl/…).
 # Le /documentation/ sans version redirige vers rh_canonical_version.
 # Nouvelle version : brancher git, bumper rh_version, ajouter en tête de rh_versions,

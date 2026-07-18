@@ -125,7 +125,7 @@ def html_page_context(app, pagename, templatename, context, doctree):
     path = _page_path(pagename)
 
     def _url(ver, code):
-        # base + <version>/ + <préfixe langue> + page (modèle Odoo)
+        # base + <version>/ + <préfixe langue> + page (modèle docs-as-code)
         return base + ver + "/" + cfg.rh_languages.get(code, "") + path
 
     page_url = _url(version, lang)

@@ -2,7 +2,7 @@
 
 Documentation **utilisateur** du logiciel **Resthome** (maisons de repos et de
 soins MR/MRS), éditée par **LPLG**. Site généré avec **Sphinx** (thème
-sphinx-immaterial), sur le **modèle Odoo** : **source unique en anglais** dans
+sphinx-immaterial), sur le **modèle docs-as-code** : **source unique en anglais** dans
 `content/`, traductions **FR / NL** par catalogues gettext (`locale/`),
 **multi-version** (`/documentation/<version>/…`).
 

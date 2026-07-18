@@ -1,22 +1,22 @@
-// Worker Cloudflare — sert la doc MkDocs sous www.lplg.eu/resthome/documentation/*
-// (et ses variantes /nl/, /en/ préfixées par Odoo i18n) tout en laissant Odoo
-// SaaS gérer le reste du domaine.
+// Worker Cloudflare — sert la doc sous www.lplg.eu/resthome/documentation/*
+// (et ses variantes /nl/, /en/ préfixées par la langue) tout en laissant la
+// plateforme principale gérer le reste du domaine.
 //
-// Routes à créer dans Cloudflare (une par préfixe de langue Odoo) :
+// Routes à créer dans Cloudflare (une par préfixe de langue) :
 //   www.lplg.eu/resthome/documentation*
 //   www.lplg.eu/nl/resthome/documentation*
 //   www.lplg.eu/en/resthome/documentation*
-// Origine doc : docs.lplg.eu (GitHub Pages, déjà en place). MkDocs n'a que 2
+// Origine doc : docs.lplg.eu (GitHub Pages, déjà en place). La doc n'a que 2
 // locales : fr (racine, défaut) et nl (/nl/) — "en" n'existe pas côté doc, on
 // retombe sur le français dans ce cas.
-// Origine par défaut (passthrough) : Odoo SaaS (lplg1.odoo.com), inchangé — le
+// Origine par défaut (passthrough) : la plateforme principale, inchangée — le
 // Worker ne s'applique qu'aux routes ci-dessus, tout le reste continue de
-// passer par le reverse-proxy Cloudflare normal vers Odoo.
+// passer par le reverse-proxy Cloudflare normal.
 
 const DOC_PREFIX = "/resthome/documentation";
 const DOC_ORIGIN = "https://docs.lplg.eu";
-// préfixe de langue Odoo (dans l'URL affichée) -> préfixe de locale MkDocs (sur docs.lplg.eu)
-const ODOO_LANG_TO_DOC_LOCALE = { nl: "/nl", en: "" }; // en: pas de locale MkDocs -> repli sur le français
+// préfixe de langue (dans l'URL affichée) -> préfixe de locale doc (sur docs.lplg.eu)
+const LANG_TO_DOC_LOCALE = { nl: "/nl", en: "" }; // en: pas de locale doc -> repli sur le français
 // Fichiers uniques à la racine de docs.lplg.eu, non déclinés par langue
 // (ex: llms.txt) — toujours servis depuis la racine quel que soit le préfixe.
 const ALWAYS_ROOT_FILES = ["llms.txt", "llms-full.txt"];
@@ -25,15 +25,15 @@ export default {
   async fetch(request) {
     const url = new URL(request.url);
 
-    // Détecte un éventuel préfixe de langue Odoo (/nl/... ou /en/...) avant
+    // Détecte un éventuel préfixe de langue (/nl/... ou /en/...) avant
     // le chemin de la doc, et le retire pour la suite du traitement.
-    let odooLangPrefix = "";
+    let langPrefix = "";
     let pathname = url.pathname;
-    for (const lang of Object.keys(ODOO_LANG_TO_DOC_LOCALE)) {
+    for (const lang of Object.keys(LANG_TO_DOC_LOCALE)) {
       const withLang = `/${lang}${DOC_PREFIX}`;
       if (pathname === withLang || pathname.startsWith(withLang + "/")) {
-        odooLangPrefix = `/${lang}`;
-        pathname = pathname.slice(odooLangPrefix.length);
+        langPrefix = `/${lang}`;
+        pathname = pathname.slice(langPrefix.length);
         break;
       }
     }
@@ -45,7 +45,7 @@ export default {
     }
 
     // Sans slash final, le navigateur résout les chemins relatifs des CSS/JS
-    // MkDocs un niveau trop haut. On force le slash sur les pages (pas sur
+    // un niveau trop haut. On force le slash sur les pages (pas sur
     // les fichiers type assets/*.css, *.js, *.svg, *.json...).
     const lastSegment = pathname.split("/").pop();
     const looksLikeFile = lastSegment.includes(".");
@@ -59,7 +59,7 @@ export default {
     const remainderFile = remainder.replace(/^\//, "");
     const docLocale = ALWAYS_ROOT_FILES.includes(remainderFile)
       ? ""
-      : ODOO_LANG_TO_DOC_LOCALE[odooLangPrefix.slice(1)] || "";
+      : LANG_TO_DOC_LOCALE[langPrefix.slice(1)] || "";
     const originUrl = new URL(DOC_ORIGIN);
     originUrl.pathname = docLocale + remainder;
     originUrl.search = url.search;
@@ -73,11 +73,11 @@ export default {
 
     const originResponse = await fetch(originRequest);
 
-    // GitHub Pages répond parfois par un 301 interne (trailing slash, i18n
-    // MkDocs) — on le laisse passer tel quel, le navigateur suit sur le même
-    // domaine www.lplg.eu grâce au Worker qui interceptera aussi la nouvelle URL.
+    // GitHub Pages répond parfois par un 301 interne (trailing slash, i18n) —
+    // on le laisse passer tel quel, le navigateur suit sur le même domaine
+    // www.lplg.eu grâce au Worker qui interceptera aussi la nouvelle URL.
     const headers = new Headers(originResponse.headers);
-    headers.delete("content-security-policy"); // évite un CSP GitHub Pages incompatible avec le site Odoo
+    headers.delete("content-security-policy"); // évite un CSP GitHub Pages incompatible avec le site principal
 
     return new Response(originResponse.body, {
       status: originResponse.status,

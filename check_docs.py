@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""check_docs.py — contrôle des conventions de contenu (inspiré du `make test` d'Odoo).
+"""check_docs.py — contrôle des conventions de contenu (inspiré d'un contrôle de conventions).
 
 Vérifie chaque page de content/ :
   - un titre H1 unique en tête ;

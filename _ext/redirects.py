@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""redirects — port de la mécanique redirects d'Odoo (github.com/odoo/documentation).
+"""redirects — mécanique de redirections (docs-as-code).
 
 But : quand une page est **renommée ou déplacée**, l'ancienne URL doit continuer
 d'exister et rediriger vers la nouvelle, sinon on perd son référencement (liens

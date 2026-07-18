@@ -1,6 +1,6 @@
 # Contribuer à la documentation Resthome
 
-Doc **modèle Odoo** : source unique en **anglais** dans `content/` (MyST Markdown,
+Doc **modèle docs-as-code** : source unique en **anglais** dans `content/` (MyST Markdown,
 Sphinx), traductions FR/NL par **catalogues gettext** (`locale/`). On écrit et on
 relit **une seule langue** ; FR et NL sont générés.
 
@@ -15,7 +15,7 @@ relit **une seule langue** ; FR et NL sont générés.
 > Ne **jamais** éditer `docs/fr` / `docs/nl` : ce sont d'anciennes références de
 > traduction (MkDocs retiré). La source, c'est `content/` + les catalogues.
 
-## Structure d'une page (repris d'Odoo)
+## Structure d'une page
 
 - **H1** = le titre de la page — orienté **métier**, pas marketing.
 - **Paragraphe d'intro** juste après le H1 : confirme au lecteur qu'il est au bon

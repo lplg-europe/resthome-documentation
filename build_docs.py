@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build Sphinx multilingue + multi-version — modèle Odoo.
+"""Build Sphinx multilingue + multi-version — modèle docs-as-code.
 
 Structure d'URL :  /resthome/documentation/<version>/<préfixe-langue>/<page>
     site/<version>/          ← FR (langue racine de la version)
