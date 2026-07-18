@@ -20,7 +20,8 @@ Volg ze met Resthome ernaast open: elke stap geeft aan **waar te klikken**.
 !!! tip "Het idee in twee delen"
     Elke maand wordt gefactureerd in **twee stromen**:
 
-    - het **bewonersaandeel** (kamer + supplementen) → klassieke facturen;
+    - het **bewonersaandeel** — huisvesting, supplementen en supplementenovereenkomsten,
+      zorgprestaties, geneesmiddelen, aangepast aan de afwezigheden → klassieke facturen;
     - het **mutualiteitsaandeel** (RIZIV-forfait) → **eFact**-verzending naar de
       verzekeringsinstellingen.
 
@@ -49,9 +50,9 @@ Dit is de stap die latere weigeringen vermijdt. Details: [Verzekerbaarheid
 ## Stap 3 — De factuurregels genereren
 
 1. Klik **Genereren**.
-2. Resthome berekent voor elke bewoner: **verblijf**, **forfait** (volgens de
-   Katz-categorie en de aanwezigheidsdagen), **supplementen**, en past de
-   **afwezigheden** toe.
+2. Resthome berekent voor elke bewoner: **verblijf**, **forfait** (op de
+   aanwezigheidsdagen), **supplementen** en **supplementenovereenkomsten**,
+   **zorgprestaties**, **geneesmiddelen**, en past de **afwezigheden** toe.
 
 !!! note "Anticipatief"
     Het verblijf wordt **een maand op voorhand** gefactureerd; het forfait en de

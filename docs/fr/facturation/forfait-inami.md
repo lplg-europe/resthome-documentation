@@ -3,9 +3,11 @@ title: Le forfait INAMI (dépendance)
 description: "Le forfait de dépendance INAMI en maison de repos, expliqué : de l'évaluation Katz à la catégorie, au montant facturé à la mutuelle, et le rôle de l'accord OA."
 faq:
   - q: "Qu'est-ce que le forfait INAMI (dépendance) ?"
-    a: "C'est le montant journalier pris en charge par la mutuelle pour les soins liés à la dépendance d'un résident. Il est déterminé par la catégorie de dépendance (issue de l'évaluation Katz) et calculé sur les jours de présence. Il est facturé à l'organisme assureur via l'eFact, pas au résident."
+    a: "C'est le montant journalier pris en charge par la mutuelle pour les soins liés à la dépendance d'un résident. Dans les tarifs AViQ, c'est un montant unique, le même pour toutes les catégories Katz (y compris O), calculé sur les jours de présence et facturé à l'organisme assureur via l'eFact, pas au résident. La catégorie sert à déclarer le bon profil et à obtenir l'accord de la mutuelle."
+  - q: "Le montant du forfait dépend-il de la catégorie Katz ?"
+    a: "Non. Dans les tarifs AViQ, le forfait de dépendance est le même montant journalier pour toutes les catégories, y compris la catégorie O (autonome). La catégorie ne change pas le montant : elle sert à déclarer le bon profil de dépendance à la mutuelle et à obtenir l'accord (eAgreement). Le tarif reste configurable par catégorie dans Configuration → INAMI Rates si une convention l'exige."
   - q: "Comment le forfait de dépendance est-il calculé ?"
-    a: "Forfait = tarif journalier de la catégorie × nombre de jours de présence facturables sur la période d'intervention INAMI. Les absences réduisent les jours (règle de midi). Le tarif applicable est celui en vigueur à la date de facturation."
+    a: "Forfait = tarif journalier du forfait (identique pour toutes les catégories) × nombre de jours de présence facturables sur la période d'intervention INAMI. Les absences réduisent les jours (règle de midi). Le tarif applicable est celui en vigueur à la date de facturation."
   - q: "Pourquoi la catégorie facturée diffère-t-elle parfois de la catégorie clinique ?"
     a: "La mutuelle rembourse la catégorie qu'elle a approuvée dans l'accord (eAgreement), pas forcément votre dernière évaluation. Tant qu'un changement n'est pas accepté par l'organisme assureur, Resthome continue de facturer la catégorie précédente pour éviter un rejet."
   - q: "Qui paie le forfait de dépendance ?"
@@ -27,21 +29,29 @@ facturé**.
 L'[évaluation Katz](../residents/katz.md) cote **6 critères** (se laver, s'habiller,
 transfert et déplacements, aller à la toilette, continence, manger) de **1** (autonome)
 à **4** (totalement dépendant). À partir de ces cotations, Resthome calcule une
-**catégorie de dépendance**, qui détermine le forfait :
+**catégorie de dépendance**, qui est **déclarée à la mutuelle** :
 
 | Catégorie | Dépendance | Forfait INAMI |
 |---|---|---|
-| **O** | Autonome | **Aucun** — non remboursée |
-| **A** | Légère | oui |
-| **B** | Moyenne | oui |
-| **C** | Forte | oui |
-| **Cd** | Forte, avec désorientation / démence | oui |
-| **D** | Démence (diagnostic spécialisé) | oui |
+| **O** | Autonome | Oui (pseudo-code 770501) |
+| **A** | Légère | Oui |
+| **B** | Moyenne | Oui |
+| **C** | Forte | Oui |
+| **Cd** | Forte, avec désorientation / démence | Oui |
+| **D** | Démence (diagnostic spécialisé) | Oui |
+
+!!! important "Le montant est le même pour toutes les catégories"
+    Dans les tarifs **AViQ**, le **montant** du forfait de dépendance est **identique
+    pour toutes les catégories Katz**, y compris **O** : un **tarif journalier unique**,
+    indexé chaque année (par ex. **85,72 €/jour en 2026**). La catégorie ne change donc
+    **pas le montant** — elle sert à **déclarer le bon profil** à la mutuelle (l'**accord
+    OA**) et aux **normes de soins**. Le tarif reste **configurable par catégorie** dans
+    *Configuration → INAMI Rates* si une convention l'exige.
 
 !!! note "Catégorie O par défaut"
-    Tant qu'aucune évaluation Katz n'est **validée**, le résident est facturé en
-    catégorie **O** (non remboursée) et un rappel **« Katz à faire »** apparaît. Saisir
-    et valider le Katz débloque le forfait correspondant.
+    Tant qu'aucune évaluation Katz n'est **validée**, le résident est en catégorie **O**
+    par défaut et un rappel **« Katz à faire »** apparaît. Validez l'évaluation Katz pour
+    **déclarer la bonne catégorie** à la mutuelle et obtenir l'**accord** correspondant.
 
 !!! info "Patient comateux"
     Le forfait des patients **comateux** est un forfait **fédéral** particulier : il
@@ -52,7 +62,7 @@ transfert et déplacements, aller à la toilette, continence, manger) de **1** (
 
 Le forfait facturé pour un résident suit une règle simple :
 
-> **Forfait = tarif journalier de la catégorie × nombre de jours de présence facturables**
+> **Forfait = tarif journalier du forfait (le même pour toutes les catégories) × nombre de jours de présence facturables**
 
 - Les **jours de présence** sont comptés sur la **période d'intervention INAMI** (de
   l'admission à la fin d'intervention), **moins les absences**. Cette période peut être
@@ -110,8 +120,9 @@ l'ancienne. Le même écran gère aussi le **tarif d'hébergement** (à charge d
 
 ## Points clés
 
-- La **catégorie Katz** détermine le **forfait journalier** ; **O = non remboursée**.
-- Le forfait facturé = **tarif de la catégorie × jours de présence** (période
+- Le **forfait journalier** est le **même montant pour toutes les catégories** (y
+  compris **O**) ; la catégorie sert à **déclarer le bon profil** à la mutuelle (accord OA).
+- Le forfait facturé = **tarif journalier × jours de présence** (période
   d'intervention INAMI, moins les absences).
 - On facture la **catégorie convenue avec la mutuelle** (accord), pas forcément la
   dernière évaluation clinique.

@@ -3,9 +3,9 @@ title: L'évaluation Katz
 description: L'échelle de Katz en maison de repos avec Resthome — coter les 6 critères, déterminer la catégorie (O, A, B, C, Cd) et le forfait INAMI de dépendance.
 faq:
   - q: "Comment calculer la catégorie Katz d'un résident ?"
-    a: "Cotez les 6 critères de dépendance (se laver, s'habiller, transfert, aller à la toilette, continence, manger) de 1 à 4 ; Resthome en déduit la catégorie (O, A, B, C, Cd), qui détermine le forfait INAMI."
+    a: "Cotez les 6 critères de dépendance (se laver, s'habiller, transfert, aller à la toilette, continence, manger) de 1 à 4 ; Resthome en déduit la catégorie (O, A, B, C, Cd), déclarée à la mutuelle pour le forfait INAMI."
   - q: "Que signifie la catégorie O ?"
-    a: "La catégorie O correspond à un résident autonome : elle n'ouvre pas de forfait INAMI. Tant qu'aucune évaluation Katz n'est validée, le résident est facturé en O."
+    a: "La catégorie O correspond à un résident autonome. Dans les tarifs AViQ, le forfait de dépendance est le même montant pour toutes les catégories, y compris O. Tant qu'aucune évaluation Katz n'est validée, le résident est en catégorie O par défaut ; validez le Katz pour déclarer la bonne catégorie à la mutuelle."
   - q: "Comment gérer une aggravation de la dépendance ?"
     a: "Saisissez une nouvelle évaluation Katz avec un motif d'aggravation. Resthome prépare l'Annexe 10 (motif + signature du clinicien) ; la nouvelle catégorie n'est facturée qu'une fois l'accord de la mutuelle obtenu."
 ---
@@ -34,16 +34,22 @@ réglementation.
 
 | Catégorie | Signification |
 |---|---|
-| **O** | Autonome — **non remboursée** par l'INAMI |
+| **O** | Autonome |
 | **A** | Dépendance légère |
 | **B** | Dépendance moyenne |
 | **C** | Forte dépendance |
 | **Cd / Cc** | Forte dépendance avec désorientation / cas particuliers |
 
+!!! info "Le forfait est le même pour toutes les catégories"
+    Dans les tarifs **AViQ**, le montant du forfait de dépendance est **identique pour
+    toutes les catégories**, y compris **O**. La catégorie ne change pas le montant :
+    elle sert à déclarer le bon profil à la mutuelle (voir [Le forfait
+    INAMI](../facturation/forfait-inami.md)).
+
 !!! note "Catégorie O par défaut"
-    Tant qu'aucun Katz **validé** n'existe, le résident est facturé en catégorie
-    **O** (non remboursée), et un rappel « Katz à faire » apparaît sur le tableau
-    de bord. Saisir et valider le Katz débloque le forfait correspondant.
+    Tant qu'aucun Katz **validé** n'existe, le résident est en catégorie **O** par
+    défaut, et un rappel « Katz à faire » apparaît sur le tableau de bord. Validez le
+    Katz pour déclarer la bonne catégorie à la mutuelle.
 
 ## Saisir une évaluation
 

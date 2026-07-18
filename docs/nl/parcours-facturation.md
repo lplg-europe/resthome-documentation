@@ -28,8 +28,8 @@ Opname ─► MDA ─► eAgreement ─► Katz ─► eFact ─► Betaling
    ziekenfonds bij MyCareNet / WalCareNet. → [Verzekerbaarheid (MDA)](ehealth/mda.md)
 3. **Opname-akkoord (eAgreement)** — De melding van tenlasteneming (Bijlage 7) wordt
    voorbereid voor het ziekenfonds. → [Akkoorden (eAgreement)](ehealth/eagreement.md)
-4. **Katz-evaluatie** — Scoor de afhankelijkheid: de Katz-categorie bepaalt het
-   RIZIV-forfait. → [De Katz-evaluatie](residents/katz.md)
+4. **Katz-evaluatie** — Scoor de afhankelijkheid: de Katz-categorie wordt aan het
+   ziekenfonds gemeld voor het RIZIV-forfait. → [De Katz-evaluatie](residents/katz.md)
 5. **Elektronische facturatie (eFact)** — Genereer de periode, maak de facturen aan en
    verstuur het ziekenfondsgedeelte naar de verzekeringsinstellingen.
    → [Elektronische facturatie (eFact)](ehealth/efact.md)

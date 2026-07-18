@@ -43,6 +43,13 @@ evolueren en vullen ze de **bedragen** in (gefactureerd / aanvaard / geweigerd):
     - **globale weigering** — het volledige lot wordt geweigerd, niets wordt betaald: u
       corrigeert de oorzaak en **verstuurt een nieuw lot**.
 
+!!! note "Wanneer wordt een lot globaal geweigerd?"
+    De verzekeringsinstelling weigert **het volledige lot** (920099) bij een
+    **blokkerende fout** of wanneer het **foutenpercentage ongeveer 5 %** van de lijnen
+    overschrijdt. Daaronder worden de foutieve lijnen **gedeeltelijk geweigerd** en wordt
+    de rest betaald — vandaar het belang om de automatische controle en de MDA **vóór**
+    het versturen te behandelen.
+
 Bij elke geweigerde lijn geven een **code** en een **reden van weigering** in klare
 taal de oorzaak aan.
 

@@ -27,8 +27,8 @@ Admission ─► MDA ─► eAgreement ─► Katz ─► eFact ─► Paiement
    MyCareNet / WalCareNet. → [Assurabilité (MDA)](ehealth/mda.md)
 3. **Accord d'admission (eAgreement)** — La notification de prise en charge (Annexe 7)
    est préparée pour la mutuelle. → [Accords (eAgreement)](ehealth/eagreement.md)
-4. **Évaluation Katz** — Cotez la dépendance : la catégorie Katz détermine le forfait
-   INAMI. → [L&#39;évaluation Katz](residents/katz.md)
+4. **Évaluation Katz** — Cotez la dépendance : la catégorie Katz est déclarée à la
+   mutuelle pour le forfait INAMI. → [L&#39;évaluation Katz](residents/katz.md)
 5. **Facturation électronique (eFact)** — Générez la période, créez les factures et
    transmettez la part mutuelle aux organismes assureurs.
    → [Facturation électronique (eFact)](ehealth/efact.md)

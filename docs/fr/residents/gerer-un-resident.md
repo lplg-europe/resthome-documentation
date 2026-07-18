@@ -81,9 +81,8 @@ La catégorie **Katz** (O, A, B, C, Cd) détermine le **forfait INAMI**.
 3. **Confirmez** puis **Validez** l'évaluation.
 
 !!! note "Pas de Katz validé ?"
-    Tant qu'aucun Katz validé n'existe, le résident est facturé par défaut en
-    catégorie **O** (non remboursée par l'INAMI), et un rappel « Katz à faire »
-    apparaît sur le tableau de bord.
+    Tant qu'aucun Katz validé n'existe, le résident est en catégorie **O** par
+    défaut, et un rappel « Katz à faire » apparaît sur le tableau de bord.
 
 ## 5. Vérifier l'assurabilité (MDA)
 

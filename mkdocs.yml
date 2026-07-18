@@ -100,9 +100,13 @@ plugins:
             Premiers pas: Aan de slag
             Le parcours de facturation: Het facturatietraject
             Résidents: Bewoners
+            Les admissions (pipeline CRM): De opnames (CRM-pijplijn)
             Gérer un résident: Een bewoner beheren
             L'évaluation Katz: De Katz-evaluatie
             Changement de chambre et transfert: Kamerwissel en overdracht
+            "L'état des lieux (entrée et sortie)": De plaatsbeschrijving (intrede en uittrede)
+            Le mobilier privé du résident: Het privémeubilair van de bewoner
+            Suivi des paiements et décomptes: Betalingen en afrekeningen opvolgen
             Facturation: Facturatie
             "Vue d'ensemble": Overzicht
             Le forfait INAMI (dépendance): Het RIZIV-forfait (afhankelijkheid)
@@ -126,6 +130,11 @@ plugins:
             Menus, régimes et hydratation: Menu's, diëten en hydratatie
             Portail familles et kiosque: Familieportaal en kiosk
             Configuration: Configuratie
+            "Réglages généraux (résidents, chambres)": Algemene instellingen (bewoners, kamers)
+            "Réglages de facturation (MR/MRS)": Facturatie-instellingen (WZC/RVT)
+            Réglages eHealth et eFact: eHealth- en eFact-instellingen
+            Réglages des repas et de la nutrition: Instellingen voor maaltijden en voeding
+            Réglages des documents: Documentinstellingen
             Glossaire: Woordenlijst
             Site LPLG: LPLG-website
   # Date « Mis à jour le … » en pied de page, lue depuis l'historique git.
@@ -168,9 +177,12 @@ nav:
   - Premiers pas: premiers-pas.md
   - Le parcours de facturation: parcours-facturation.md
   - Résidents:
+      - Les admissions (pipeline CRM): residents/admissions.md
       - Gérer un résident: residents/gerer-un-resident.md
       - L'évaluation Katz: residents/katz.md
       - Changement de chambre et transfert: residents/changement-chambre.md
+      - L'état des lieux (entrée et sortie): residents/etat-des-lieux.md
+      - Le mobilier privé du résident: residents/mobilier.md
   - Facturation:
       - Vue d'ensemble: facturation/index.md
       - Le forfait INAMI (dépendance): facturation/forfait-inami.md
@@ -185,6 +197,7 @@ nav:
       - Erreurs MDA: ehealth/mda-erreurs.md
       - Facturation électronique (eFact): ehealth/efact.md
       - Rejets eFact: ehealth/efact-rejets.md
+      - Suivi des paiements et décomptes: ehealth/efact-paiements.md
       - Accords (eAgreement): ehealth/eagreement.md
       - Accord refusé (eAgreement): ehealth/eagreement-refus.md
   - Soins:
@@ -196,7 +209,14 @@ nav:
       - Vue d'ensemble: repas/index.md
       - Menus, régimes et hydratation: repas/menus-regimes.md
       - Portail familles et kiosque: repas/portail-familles.md
-  - Configuration: configuration/index.md
+  - Configuration:
+      - Vue d'ensemble: configuration/index.md
+      - Réglages généraux (résidents, chambres): configuration/reglages-generaux.md
+      - Réglages de facturation (MR/MRS): configuration/reglages-facturation.md
+      - Réglages eHealth et eFact: configuration/reglages-ehealth.md
+      - Réglages des repas et de la nutrition: configuration/reglages-repas.md
+      - Réglages des documents: configuration/reglages-documents.md
   - FAQ: faq.md
   - Glossaire: glossaire.md
+  - Support: support.md
   - Site LPLG: https://www.lplg.eu/

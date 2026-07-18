@@ -15,7 +15,7 @@ faq:
   - q: "Comment calculer le Katz d'un résident ?"
     a: "Depuis la fiche du résident, ouvrez Katz, cliquez Nouveau et cotez les 6 critères (se laver, s'habiller, transfert et déplacements, aller à la toilette, continence, manger) de 1 à 4, puis Confirmez et Validez. La catégorie et le forfait se mettent à jour automatiquement."
   - q: "Quelles sont les catégories Katz ?"
-    a: "O (autonome, non remboursée par l'INAMI), A (dépendance légère), B (dépendance moyenne), C (forte dépendance) et Cd / Cc (forte dépendance avec désorientation ou cas particuliers)."
+    a: "O (autonome), A (dépendance légère), B (dépendance moyenne), C (forte dépendance) et Cd / Cc (forte dépendance avec désorientation ou cas particuliers). Dans les tarifs AViQ, le forfait de dépendance est le même montant pour toutes les catégories; la catégorie sert à déclarer le bon profil à la mutuelle."
   - q: "Comment facturer un mois de A à Z dans Resthome ?"
     a: "Ouvrez la période, vérifiez le MDA, cliquez Générer, Créer les factures puis comptabilisez la part résident ; ensuite Générer l'eFact, envoyez la part mutuelle aux organismes assureurs et récupérez les réponses. La part résident et la part mutuelle avancent en parallèle sur une même période."
   - q: "Comment enregistrer une absence ou une hospitalisation ?"
@@ -112,16 +112,18 @@ réglementation et met à jour le forfait automatiquement.
 
 ### Quelles sont les catégories Katz ?
 
-**O** (autonome — non remboursée par l'INAMI), **A** (dépendance légère), **B**
+**O** (autonome), **A** (dépendance légère), **B**
 (dépendance moyenne), **C** (forte dépendance) et **Cd / Cc** (forte dépendance avec
-désorientation / cas particuliers).
+désorientation / cas particuliers). Dans les tarifs AViQ, le **montant du forfait est le
+même pour toutes les catégories**, y compris O ; la catégorie sert à déclarer le bon
+profil à la mutuelle.
 → [L'évaluation Katz](residents/katz.md)
 
 ### Que se passe-t-il tant qu'il n'y a pas de Katz validé ?
 
-Tant qu'aucun Katz **validé** n'existe, le résident est facturé par défaut en
-catégorie **O** (non remboursée par l'INAMI), et un rappel « Katz à faire » apparaît
-sur le tableau de bord. Saisir et valider le Katz débloque le forfait correspondant.
+Tant qu'aucun Katz **validé** n'existe, le résident est en catégorie **O** par défaut,
+et un rappel « Katz à faire » apparaît sur le tableau de bord. Validez le Katz et envoyez la via une demande eAgreement Light pour
+déclarer la bonne catégorie à la mutuelle.
 → [L'évaluation Katz](residents/katz.md)
 
 ### Comment enregistrer une aggravation Katz ?

@@ -8,6 +8,18 @@ description: Configurer Resthome — chambres et secteurs, tarifs et forfaits IN
 Avant l'usage quotidien, quelques réglages de base structurent Resthome. Ils se
 font une fois, puis n'évoluent qu'à la marge.
 
+## Les réglages de l'application (Settings)
+
+Le menu **Réglages** rassemble tous les paramètres, par onglet. Pour une maison de
+repos (MR/MRS), suivez ces guides — chacun détaille **chaque champ** et la
+**valeur conseillée** :
+
+- [Réglages généraux (résidents, chambres)](reglages-generaux.md)
+- [Réglages de facturation (MR/MRS)](reglages-facturation.md)
+- [Réglages eHealth et eFact](reglages-ehealth.md)
+- [Réglages des repas et de la nutrition](reglages-repas.md)
+- [Réglages des documents](reglages-documents.md)
+
 ## Chambres et secteurs
 
 - **Chambres** : créez vos chambres, avec leur **type** (MR, MRS, chambre simple

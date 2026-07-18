@@ -8,6 +8,18 @@ description: Resthome configureren — kamers en sectoren, tarieven en RIZIV-for
 Vóór het dagelijkse gebruik structureren enkele basisinstellingen Resthome. Ze
 gebeuren één keer en evolueren daarna nog nauwelijks.
 
+## De instellingen van de applicatie (Settings)
+
+Het menu **Instellingen** bundelt alle parameters, per tabblad. Voor een
+woonzorgcentrum (WZC/RVT) volgt u deze gidsen — elk beschrijft **elk veld** en de
+**aanbevolen waarde**:
+
+- [Algemene instellingen (bewoners, kamers)](reglages-generaux.md)
+- [Facturatie-instellingen (WZC/RVT)](reglages-facturation.md)
+- [eHealth- en eFact-instellingen](reglages-ehealth.md)
+- [Instellingen voor maaltijden en voeding](reglages-repas.md)
+- [Documentinstellingen](reglages-documents.md)
+
 ## Kamers en sectoren
 
 - **Kamers**: maak uw kamers aan, met hun **type** (ROB, RVT, één- of

@@ -81,9 +81,8 @@ De **Katz**-categorie (O, A, B, C, Cd) bepaalt het **RIZIV-forfait**.
 3. **Bevestig** en **Valideer** de evaluatie.
 
 !!! note "Geen gevalideerde Katz?"
-    Zolang er geen gevalideerde Katz bestaat, wordt de bewoner standaard in
-    categorie **O** gefactureerd (niet terugbetaald door het RIZIV), en
-    verschijnt een herinnering « Katz te doen » op het dashboard.
+    Zolang er geen gevalideerde Katz bestaat, staat de bewoner standaard in
+    categorie **O**, en verschijnt een herinnering « Katz te doen » op het dashboard.
 
 ## 5. De verzekerbaarheid controleren (MDA)
 

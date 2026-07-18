@@ -42,6 +42,12 @@ remplissent les **montants** (facturé / accepté / refusé) :
     - **rejet global** — le lot entier est refusé, rien n'est payé : on corrige la
       cause et on **renvoie un lot neuf**.
 
+!!! note "Quand un lot est-il rejeté globalement ?"
+    L'organisme assureur rejette **tout le lot** (920099) en cas d'**erreur bloquante**
+    ou lorsque le **taux d'erreurs dépasse environ 5 %** des lignes. En dessous, les
+    lignes fautives font l'objet d'un **rejet partiel** et le reste est payé — d'où
+    l'intérêt de traiter l'auto-contrôle et le MDA **avant** d'envoyer.
+
 Sur chaque ligne refusée, un **code** et un **motif de rejet** en clair pointent la
 cause.
 

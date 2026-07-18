@@ -3,9 +3,11 @@ title: Het RIZIV-forfait (afhankelijkheid)
 description: "Het afhankelijkheidsforfait van het RIZIV in het woonzorgcentrum, uitgelegd: van de Katz-evaluatie tot de categorie, tot het aan het ziekenfonds gefactureerde bedrag, en de rol van het VI-akkoord."
 faq:
   - q: "Wat is het RIZIV-forfait (afhankelijkheid)?"
-    a: "Het is het dagelijkse bedrag dat het ziekenfonds ten laste neemt voor de zorg verbonden aan de afhankelijkheid van een bewoner. Het wordt bepaald door de afhankelijkheidscategorie (uit de Katz-evaluatie) en berekend op de aanwezigheidsdagen. Het wordt via de eFact aan de verzekeringsinstelling gefactureerd, niet aan de bewoner."
+    a: "Het is het dagelijkse bedrag dat het ziekenfonds ten laste neemt voor de zorg verbonden aan de afhankelijkheid van een bewoner. In de AViQ-tarieven is het één uniek bedrag, hetzelfde voor alle Katz-categorieën (inclusief O), berekend op de aanwezigheidsdagen en via de eFact aan de verzekeringsinstelling gefactureerd, niet aan de bewoner. De categorie dient om het juiste profiel te melden en het akkoord van het ziekenfonds te verkrijgen."
+  - q: "Hangt het bedrag van het forfait af van de Katz-categorie?"
+    a: "Nee. In de AViQ-tarieven is het afhankelijkheidsforfait hetzelfde dagbedrag voor alle categorieën, inclusief categorie O (zelfstandig). De categorie wijzigt het bedrag niet: ze dient om het juiste afhankelijkheidsprofiel aan het ziekenfonds te melden en het akkoord (eAgreement) te verkrijgen. Het tarief blijft per categorie configureerbaar in Configuratie → RIZIV-tarieven indien een overeenkomst dat vereist."
   - q: "Hoe wordt het afhankelijkheidsforfait berekend?"
-    a: "Forfait = dagtarief van de categorie × aantal factureerbare aanwezigheidsdagen in de periode van RIZIV-tussenkomst. Afwezigheden verminderen de dagen (middagregel). Het toegepaste tarief is dat wat geldt op de factuurdatum."
+    a: "Forfait = dagtarief van het forfait (identiek voor alle categorieën) × aantal factureerbare aanwezigheidsdagen in de periode van RIZIV-tussenkomst. Afwezigheden verminderen de dagen (middagregel). Het toegepaste tarief is dat wat geldt op de factuurdatum."
   - q: "Waarom verschilt de gefactureerde categorie soms van de klinische categorie?"
     a: "Het ziekenfonds betaalt de categorie terug die het in het akkoord (eAgreement) heeft goedgekeurd, niet noodzakelijk uw laatste evaluatie. Zolang een wijziging niet door de verzekeringsinstelling is aanvaard, blijft Resthome de vorige categorie factureren om een weigering te vermijden."
   - q: "Wie betaalt het afhankelijkheidsforfait?"
@@ -28,22 +30,30 @@ bedrag**.
 De [Katz-evaluatie](../residents/katz.md) scoort **6 criteria** (zich wassen, zich
 kleden, transfer en verplaatsing, naar het toilet gaan, continentie, eten) van **1**
 (zelfstandig) tot **4** (volledig afhankelijk). Op basis daarvan berekent Resthome een
-**afhankelijkheidscategorie**, die het forfait bepaalt:
+**afhankelijkheidscategorie**, die aan het ziekenfonds wordt **gemeld**:
 
 | Categorie | Afhankelijkheid | RIZIV-forfait |
 |---|---|---|
-| **O** | Zelfstandig | **Geen** — niet terugbetaald |
-| **A** | Licht | ja |
-| **B** | Matig | ja |
-| **C** | Sterk | ja |
-| **Cd** | Sterk, met desoriëntatie / dementie | ja |
-| **D** | Dementie (gespecialiseerde diagnose) | ja |
+| **O** | Zelfstandig | Ja (pseudo-code 770501) |
+| **A** | Licht | Ja |
+| **B** | Matig | Ja |
+| **C** | Sterk | Ja |
+| **Cd** | Sterk, met desoriëntatie / dementie | Ja |
+| **D** | Dementie (gespecialiseerde diagnose) | Ja |
+
+!!! important "Het bedrag is voor alle categorieën gelijk"
+    In de **AViQ**-tarieven is het **bedrag** van het afhankelijkheidsforfait **gelijk
+    voor alle Katz-categorieën**, inclusief **O**: één **uniek dagtarief**, jaarlijks
+    geïndexeerd (bv. **85,72 €/dag in 2026**). De categorie wijzigt dus **het bedrag
+    niet** — ze dient om het **juiste profiel** aan het ziekenfonds te **melden** (het
+    **VI-akkoord**) en voor de **zorgnormen**. Het tarief blijft **per categorie
+    configureerbaar** in *Configuratie → RIZIV-tarieven* indien een overeenkomst dat vereist.
 
 !!! note "Categorie O standaard"
-    Zolang er geen **gevalideerde** Katz-evaluatie is, wordt de bewoner in categorie
-    **O** gefactureerd (niet terugbetaald) en verschijnt er een herinnering **« Katz te
-    doen »**. Het invoeren en valideren van de Katz deblokkeert het overeenkomstige
-    forfait.
+    Zolang er geen **gevalideerde** Katz-evaluatie is, staat de bewoner standaard in
+    categorie **O** en verschijnt er een herinnering **« Katz te doen »**. Valideer de
+    Katz-evaluatie om de **juiste categorie** aan het ziekenfonds te **melden** en het
+    overeenkomstige **akkoord** te verkrijgen.
 
 !!! info "Comateuze patiënt"
     Het forfait voor **comateuze** patiënten is een bijzonder **federaal** forfait: het
@@ -54,7 +64,7 @@ kleden, transfer en verplaatsing, naar het toilet gaan, continentie, eten) van *
 
 Het gefactureerde forfait voor een bewoner volgt een eenvoudige regel:
 
-> **Forfait = dagtarief van de categorie × aantal factureerbare aanwezigheidsdagen**
+> **Forfait = dagtarief van het forfait (voor alle categorieën gelijk) × aantal factureerbare aanwezigheidsdagen**
 
 - De **aanwezigheidsdagen** worden geteld over de **periode van RIZIV-tussenkomst** (van
   de opname tot het einde van de tussenkomst), **min de afwezigheden**. Die periode kan
@@ -113,8 +123,9 @@ scherm beheert ook het **huisvestingstarief** (ten laste van de bewoner).
 
 ## Kernpunten
 
-- De **Katz-categorie** bepaalt het **dagforfait**; **O = niet terugbetaald**.
-- Het gefactureerde forfait = **tarief van de categorie × aanwezigheidsdagen** (periode
+- Het **dagforfait** is **hetzelfde bedrag voor alle categorieën** (inclusief **O**); de
+  categorie dient om het **juiste profiel** aan het ziekenfonds te melden (VI-akkoord).
+- Het gefactureerde forfait = **dagtarief × aanwezigheidsdagen** (periode
   van RIZIV-tussenkomst, min de afwezigheden).
 - Men factureert de **met het ziekenfonds overeengekomen categorie** (akkoord), niet
   noodzakelijk de laatste klinische evaluatie.

@@ -15,7 +15,7 @@ faq:
   - q: "Hoe bereken ik de Katz van een bewoner?"
     a: "Open vanaf de fiche van de bewoner Katz, klik op Nieuw en scoor de 6 criteria (zich wassen, zich kleden, transfer en verplaatsing, naar het toilet gaan, continentie, eten) van 1 tot 4, en klik daarna op Bevestigen en Valideren. De categorie en het forfait worden automatisch bijgewerkt."
   - q: "Wat zijn de Katz-categorieën?"
-    a: "O (zelfstandig, niet terugbetaald door het RIZIV), A (lichte afhankelijkheid), B (matige afhankelijkheid), C (sterke afhankelijkheid) en Cd / Cc (sterke afhankelijkheid met desoriëntatie of bijzondere gevallen)."
+    a: "O (zelfstandig), A (lichte afhankelijkheid), B (matige afhankelijkheid), C (sterke afhankelijkheid) en Cd / Cc (sterke afhankelijkheid met desoriëntatie of bijzondere gevallen). In de AViQ-tarieven is het afhankelijkheidsforfait hetzelfde bedrag voor alle categorieën, inclusief O; de categorie dient om het juiste profiel aan de mutualiteit te melden."
   - q: "Hoe factureer ik een maand van A tot Z in Resthome?"
     a: "Open de periode, controleer de MDA, klik op Genereren, Facturen aanmaken en boek het bewonersgedeelte; daarna eFact genereren, verzend het ziekenfondsgedeelte naar de verzekeringsinstellingen en haal de antwoorden op. Het bewonersgedeelte en het ziekenfondsgedeelte lopen parallel op eenzelfde periode."
   - q: "Hoe registreer ik een afwezigheid of een ziekenhuisopname?"
@@ -110,17 +110,18 @@ reglementering en werkt het forfait automatisch bij.
 
 ### Wat zijn de Katz-categorieën?
 
-**O** (zelfstandig — niet terugbetaald door het RIZIV), **A** (lichte
+**O** (zelfstandig), **A** (lichte
 afhankelijkheid), **B** (matige afhankelijkheid), **C** (sterke afhankelijkheid) en
-**Cd / Cc** (sterke afhankelijkheid met desoriëntatie / bijzondere gevallen).
+**Cd / Cc** (sterke afhankelijkheid met desoriëntatie / bijzondere gevallen). In de
+AViQ-tarieven is het **bedrag van het forfait voor alle categorieën gelijk**, inclusief
+O; de categorie dient om het juiste profiel aan de mutualiteit te melden.
 → [De Katz-evaluatie](residents/katz.md)
 
 ### Wat gebeurt er zolang er geen gevalideerde Katz is?
 
-Zolang er geen **gevalideerde** Katz bestaat, wordt de bewoner standaard gefactureerd
-in categorie **O** (niet terugbetaald door het RIZIV), en verschijnt er een
-herinnering « Katz te doen » op het dashboard. Het invoeren en valideren van de Katz
-deblokkeert het overeenkomstige forfait.
+Zolang er geen **gevalideerde** Katz bestaat, staat de bewoner standaard in categorie
+**O**, en verschijnt er een herinnering « Katz te doen » op het dashboard. Valideer de
+Katz om de juiste categorie aan de mutualiteit te melden.
 → [De Katz-evaluatie](residents/katz.md)
 
 ### Hoe registreer ik een Katz-verergering?

@@ -3,9 +3,9 @@ title: De Katz-evaluatie
 description: De Katz-schaal in een woonzorgcentrum met Resthome — de 6 criteria scoren, de categorie (O, A, B, C, Cd) en het RIZIV-afhankelijkheidsforfait bepalen.
 faq:
   - q: "Hoe wordt de Katz-categorie van een bewoner bepaald?"
-    a: "Scoor de 6 afhankelijkheidscriteria (wassen, kleden, transfer, naar het toilet gaan, continentie, eten) van 1 tot 4; Resthome leidt daaruit de categorie af (O, A, B, C, Cd), die het RIZIV-forfait bepaalt."
+    a: "Scoor de 6 afhankelijkheidscriteria (wassen, kleden, transfer, naar het toilet gaan, continentie, eten) van 1 tot 4; Resthome leidt daaruit de categorie af (O, A, B, C, Cd), die aan de mutualiteit wordt gemeld voor het RIZIV-forfait."
   - q: "Wat betekent categorie O?"
-    a: "Categorie O staat voor een zelfstandige bewoner: ze opent geen RIZIV-forfait. Zolang er geen Katz-evaluatie gevalideerd is, wordt de bewoner in O gefactureerd."
+    a: "Categorie O staat voor een zelfstandige bewoner. In de AViQ-tarieven is het afhankelijkheidsforfait hetzelfde bedrag voor alle categorieën, inclusief O. Zolang er geen Katz-evaluatie gevalideerd is, staat de bewoner standaard in O; valideer de Katz om de juiste categorie aan de mutualiteit te melden."
   - q: "Hoe beheer ik een verergering van de afhankelijkheid?"
     a: "Voer een nieuwe Katz-evaluatie in met een reden van verergering. Resthome bereidt Bijlage 10 voor (reden + handtekening van de clinicus); de nieuwe categorie wordt pas gefactureerd na akkoord van het ziekenfonds."
 ---
@@ -35,17 +35,22 @@ Op basis van deze scores berekent Resthome de **categorie** volgens de regelgevi
 
 | Categorie | Betekenis |
 |---|---|
-| **O** | Zelfstandig — **niet terugbetaald** door het RIZIV |
+| **O** | Zelfstandig |
 | **A** | Lichte afhankelijkheid |
 | **B** | Matige afhankelijkheid |
 | **C** | Sterke afhankelijkheid |
 | **Cd / Cc** | Sterke afhankelijkheid met desoriëntatie / bijzondere gevallen |
 
+!!! info "Het forfait is voor alle categorieën gelijk"
+    In de **AViQ**-tarieven is het bedrag van het afhankelijkheidsforfait **identiek
+    voor alle categorieën**, inclusief **O**. De categorie wijzigt het bedrag niet: ze
+    dient om het juiste profiel aan de mutualiteit te melden (zie [Het
+    RIZIV-forfait](../facturation/forfait-inami.md)).
+
 !!! note "Standaard categorie O"
-    Zolang er geen **gevalideerde** Katz bestaat, wordt de bewoner in categorie
-    **O** gefactureerd (niet terugbetaald), en verschijnt een herinnering « Katz te
-    doen » op het dashboard. De Katz invoeren en valideren deblokkeert het
-    overeenkomstige forfait.
+    Zolang er geen **gevalideerde** Katz bestaat, staat de bewoner standaard in categorie
+    **O**, en verschijnt een herinnering « Katz te doen » op het dashboard. Valideer de
+    Katz om de juiste categorie aan de mutualiteit te melden.
 
 ## Een evaluatie invoeren
 

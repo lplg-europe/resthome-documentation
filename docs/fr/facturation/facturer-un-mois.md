@@ -20,7 +20,9 @@ Resthome ouvert à côté : chaque étape indique **où cliquer**.
 !!! tip "L'idée en deux parties"
     Chaque mois se facture en **deux flux** :
 
-    - la **part résident** (chambre + suppléments) → factures classiques ;
+    - la **part résident** — hébergement, suppléments et conventions de suppléments,
+      prestations de soins, médicaments, ajustés selon les absences → factures
+      classiques ;
     - la **part mutuelle** (forfait INAMI) → envoi **eFact** aux organismes
       assureurs.
 
@@ -49,9 +51,9 @@ C'est l'étape qui évite les rejets plus tard. Détails : [Assurabilité
 ## Étape 3 — Générer les lignes de facturation
 
 1. Cliquez **Générer**.
-2. Resthome calcule pour chaque résident : **hébergement**, **forfait** (selon la
-   catégorie Katz et les jours de présence), **suppléments**, et applique les
-   **absences**.
+2. Resthome calcule pour chaque résident : **hébergement**, **forfait** (sur les jours
+   de présence), **suppléments** et **conventions de suppléments**, **prestations de
+   soins**, **médicaments**, et applique les **absences**.
 
 !!! note "Anticipative"
     L'hébergement est facturé **un mois d'avance** ; le forfait et les suppléments
