@@ -12,6 +12,7 @@ Directives (contenu TRADUISIBLE via gettext, invisible dans la page) :
   - hreflang alternates absolus (fr racine / nl / en) + x-default
 """
 import json
+import os
 from docutils import nodes
 from docutils.parsers.rst import Directive
 from sphinx.util.docutils import SphinxDirective
@@ -119,9 +120,15 @@ def html_page_context(app, pagename, templatename, context, doctree):
     lang = app.config.language or "en"
     lang_tag = LANG_TAGS.get(lang, lang)
     base = cfg.rh_site_base
+    version = cfg.rh_version
     prefix = cfg.rh_languages.get(lang, "")
     path = _page_path(pagename)
-    page_url = base + prefix + path
+
+    def _url(ver, code):
+        # base + <version>/ + <préfixe langue> + page (modèle Odoo)
+        return base + ver + "/" + cfg.rh_languages.get(code, "") + path
+
+    page_url = _url(version, lang)
     meta = getattr(app.env, "rh_meta", {}).get(pagename, {})
     title = context.get("title") or cfg.project
     desc = meta.get("description", "")
@@ -133,12 +140,27 @@ def html_page_context(app, pagename, templatename, context, doctree):
         from html import escape
         out.append(f'<meta name="description" content="{escape(desc, quote=True)}">')
 
-    # hreflang absolus (spec : URL absolue obligatoire) + x-default = langue racine
-    for code, pfx in cfg.rh_languages.items():
-        out.append(f'<link rel="alternate" href="{base}{pfx}{path}" '
+    # hreflang absolus (même version, toutes langues) + x-default = langue racine
+    for code in cfg.rh_languages:
+        out.append(f'<link rel="alternate" href="{_url(version, code)}" '
                    f'hreflang="{LANG_TAGS.get(code, code)}">')
-    default_pfx = cfg.rh_languages.get(cfg.rh_default_language, "")
-    out.append(f'<link rel="alternate" href="{base}{default_pfx}{path}" hreflang="x-default">')
+    out.append(f'<link rel="alternate" href="{_url(version, cfg.rh_default_language)}" '
+               f'hreflang="x-default">')
+    # canonical → la MÊME page dans la version canonique (pas de dilution entre versions)
+    out.append(f'<link rel="canonical" href="{_url(cfg.rh_canonical_version, lang)}">')
+
+    # Sélecteur de langue (liens RELATIFS → marchent en local et en prod).
+    # Le template layout.html déplace ce <template> dans l'en-tête.
+    cur_dir = (version + "/" + prefix + path).rstrip("/") or "."
+    ls = []
+    for code in cfg.rh_languages:
+        tgt = (version + "/" + cfg.rh_languages[code] + path).rstrip("/") or "."
+        rel = os.path.relpath(tgt, cur_dir).replace(os.sep, "/")
+        rel = "./" if rel == "." else rel + "/"
+        cls = "lplg-lang is-current" if code == lang else "lplg-lang"
+        ls.append(f'<a class="{cls}" href="{rel}" hreflang="{LANG_TAGS.get(code, code)}">'
+                  f'{code.upper()}</a>')
+    out.append('<template id="rh-ls">' + "".join(ls) + "</template>")
 
     # TechArticle (chaque page)
     out.append(_ld({
@@ -159,14 +181,14 @@ def html_page_context(app, pagename, templatename, context, doctree):
 
     # BreadcrumbList (Accueil → section → page)
     crumbs = [{"@type": "ListItem", "position": 1, "name": "Accueil",
-               "item": base + prefix}]
+               "item": base + version + "/" + prefix}]
     if "/" in pagename:
         section = pagename.split("/", 1)[0]
         sec_title_node = app.env.titles.get(f"{section}/index")
         if sec_title_node is not None and pagename != f"{section}/index":
             crumbs.append({"@type": "ListItem", "position": len(crumbs) + 1,
                            "name": _text(sec_title_node),
-                           "item": base + prefix + section + "/"})
+                           "item": base + version + "/" + prefix + section + "/"})
     if pagename != "index":
         crumbs.append({"@type": "ListItem", "position": len(crumbs) + 1,
                        "name": title, "item": page_url})
@@ -234,6 +256,9 @@ def setup(app):
                          "https://www.lplg.eu/resthome/documentation/", "html")
     app.add_config_value("rh_languages", {"fr": "", "nl": "nl/", "en": "en/"}, "html")
     app.add_config_value("rh_default_language", "fr", "html")
+    app.add_config_value("rh_version", "", "html")
+    app.add_config_value("rh_versions", [], "html")
+    app.add_config_value("rh_canonical_version", "", "html")
     app.add_node(rh_hidden, html=(visit_rh_hidden, None),
                  latex=(visit_rh_hidden, None), text=(visit_rh_hidden, None),
                  gettext=(None, None))

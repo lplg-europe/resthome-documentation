@@ -1,0 +1,15 @@
+# Redirections — modèle Odoo (github.com/odoo/documentation).
+#
+# RÈGLE D'OR : on ne SUPPRIME jamais une URL indexée. Quand une page est
+# renommée ou déplacée (ex. anglicisation des slugs FR→EN, réorganisation),
+# on ajoute ici une ligne « ancien nouveau » (chemins SANS extension, relatifs
+# à content/). Une page meta-refresh est générée à l'ancienne URL vers la
+# nouvelle, dans les 3 langues.
+#
+# Format :   ancien/chemin   nouveau/chemin        # commentaire optionnel
+#
+# Exemples (à décommenter le jour où on renomme) :
+#   residents/gerer-un-resident   residents/manage-a-resident
+#   facturation/index             billing/index
+
+# (aucune redirection active pour l'instant — les slugs FR sont conservés)

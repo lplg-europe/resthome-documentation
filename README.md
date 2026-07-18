@@ -1,9 +1,12 @@
 # Documentation Resthome (publique)
 
 Documentation **utilisateur** du logiciel **Resthome** (maisons de repos et de
-soins MR/MRS), éditée par **LPLG**. Site généré avec
-[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/), bilingue
-**Français / Néerlandais**.
+soins MR/MRS), éditée par **LPLG**. Site généré avec **Sphinx** (thème
+sphinx-immaterial), sur le **modèle Odoo** : **source unique en anglais** dans
+`content/`, traductions **FR / NL** par catalogues gettext (`locale/`),
+**multi-version** (`/documentation/<version>/…`).
+
+Voir [CONTRIBUTING.md](CONTRIBUTING.md) pour le cycle de travail et les conventions.
 
 > **Public vs privé.** Ce dépôt est **public** et ne contient **que** la
 > documentation destinée aux clients. Toute la documentation **technique** et
@@ -21,31 +24,37 @@ python -m venv .venv
 .venv\Scripts\activate            # Windows
 # source .venv/bin/activate       # Linux / macOS
 pip install -r requirements.txt
-mkdocs serve
+python build_docs.py              # ./site (FR racine, /nl, /en) + statiques + sitemap
+python -m http.server 8000 --directory site
 ```
 
-Ouvrez http://127.0.0.1:8000 — la page se recharge à chaque modification.
-
-## Construire le site statique
+Ouvrez **http://127.0.0.1:8000/2026/** (le `/` sans version redirige vers la
+dernière). Édition rapide d'une langue avec rechargement auto :
 
 ```bash
-mkdocs build          # génère le dossier ./site
+sphinx-autobuild -c . content _build/live
 ```
 
-Le contenu de `./site` est un site 100 % statique (HTML/CSS/JS), déployable
-n'importe où.
+## Traductions (catalogues gettext)
 
-## Déploiement sur `www.lplg.eu/resthome/documentation`
+```bash
+python build_docs.py --gettext    # (ré)extrait les POT + met à jour locale/{fr,nl}
+```
 
-L'URL cible est un **sous-chemin** (pas un sous-domaine). `site_url` est déjà
-réglé sur cette adresse dans `mkdocs.yml` pour que la recherche et les liens
-soient corrects.
+Traduire ensuite les `.po` (ou via l'outillage de seed), puis rebuild.
 
-- **Serveur web (Nginx/Apache)** : copiez `./site` vers le dossier servi à ce
-  chemin, ou ajoutez une `location /resthome/documentation/ { ... }` qui pointe
-  vers ces fichiers statiques.
-- **Cloudflare Pages / Netlify** : possible aussi, avec une règle de proxy
-  depuis `www.lplg.eu/resthome/documentation` vers le déploiement.
+## Contrôle avant push
+
+```bash
+python build_docs.py              # doit finir « 0 warning »
+python check_docs.py              # conventions (H1, rh-description, résidus)
+```
+
+## Déploiement
+
+Push sur `main` → GitHub Actions (`.github/workflows/build.yml`) construit avec
+`build_docs.py` et publie `./site` sur GitHub Pages (`docs.lplg.eu`), servi sous
+`www.lplg.eu/resthome/documentation/` via le Worker Cloudflare.
 
 ## Structure
 

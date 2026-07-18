@@ -24,8 +24,6 @@ What is the Katz activity assignee for?
 : It is the user to whom Resthome assigns the "New Katz required" activity when a readmission after hospitalization exceeds 30 days. If the field is empty, the activity goes to the current user if they are clinical, otherwise to the first head nurse, nurse or doctor found.
 :::
 
-# Billing settings (MR/MRS)
-
 The **MR/MRS** settings tab gathers the parameters that drive the **billing** of
 your nursing home: invoice generation, accounting journals, facility accreditation
 and absence management. You configure them **once**, then they only change at the

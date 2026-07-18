@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "docs",
-      "runtimeExecutable": ".venv/Scripts/mkdocs.exe",
-      "runtimeArgs": ["serve", "-a", "127.0.0.1:8000"],
+      "runtimeExecutable": ".venv/Scripts/sphinx-autobuild.exe",
+      "runtimeArgs": ["-c", ".", "content", "_build/live", "-a", "127.0.0.1:8000"],
       "port": 8000
     }
   ]

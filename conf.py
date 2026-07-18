@@ -22,6 +22,7 @@ extensions = [
     "sphinx_immaterial",
     "sphinxcontrib.mermaid",
     "resthome_meta",          # _ext/ : description/faq + JSON-LD + hreflang
+    "redirects",              # _ext/ : redirige les anciennes URLs (redirects.txt)
 ]
 source_suffix = {".md": "markdown"}
 master_doc = "index"
@@ -85,3 +86,27 @@ html_baseurl = "https://www.lplg.eu/resthome/documentation/"
 rh_site_base = "https://www.lplg.eu/resthome/documentation/"
 rh_languages = {"fr": "", "nl": "nl/", "en": "en/"}   # langue -> préfixe d'URL
 rh_default_language = "fr"                             # langue servie à la racine
+
+# -- Multi-version (modèle Odoo) ----------------------------------------------
+# URL = base + <version>/ + <préfixe langue> + page  (ex. /documentation/2026/nl/…).
+# Le /documentation/ sans version redirige vers rh_canonical_version.
+# Nouvelle version : brancher git, bumper rh_version, ajouter en tête de rh_versions,
+# et pointer rh_canonical_version sur la dernière stable.
+rh_version = "2026"                       # version courante (ce build)
+rh_versions = ["2026"]                    # toutes les versions publiées (récentes d'abord)
+rh_canonical_version = "2026"             # version canonique (dernière stable = <link canonical>)
+
+# Sélecteur de version : seulement s'il y a PLUSIEURS versions (sinon inutile et
+# trompeur — il pointe vers l'URL de prod absolue).
+if len(rh_versions) > 1:
+    html_theme_options["version_dropdown"] = True
+    html_theme_options["version_info"] = [
+        {"version": rh_site_base + v + "/", "title": v,
+         "aliases": (["latest"] if v == rh_canonical_version else [])}
+        for v in rh_versions
+    ]
+
+# Lien dépôt (icône GitHub dans l'en-tête, comme l'ancien header).
+html_theme_options["repo_url"] = "https://github.com/lplg-europe/resthome-documentation"
+html_theme_options["repo_name"] = "resthome-documentation"
+html_theme_options["icon"] = {"repo": "fontawesome/brands/github"}
