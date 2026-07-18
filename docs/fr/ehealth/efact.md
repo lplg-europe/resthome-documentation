@@ -3,12 +3,28 @@ title: Facturation électronique (eFact)
 description: "Le guide complet de l'eFact en maison de repos (MR/MRS) avec Resthome : générer, contrôler, facturer et envoyer les forfaits INAMI aux mutualités, pas à pas."
 howto_auto: true
 faq:
-  - q: "Que signifie « deadline exceeded » sur une carte de période eFact ?"
+  - q: "Je reçois un accusé de réception (931000) après l'envoi eFact, dois-je attendre ?"
+    a: "Oui. Le 931000 confirme seulement que l'organisme assureur a reçu le lot et passé le premier contrôle — ce n'est pas le résultat final. Vous n'avez rien à renvoyer : attendez le décompte (920900), qui indique ce qui est accepté et payé. Cela peut prendre quelques jours."
+  - q: "Que signifie « échéance dépassée » sur une carte de période eFact ?"
     a: "La date limite d'envoi de cette période est dépassée. Envoyez le lot sans tarder : au-delà, certains organismes assureurs peuvent le refuser."
   - q: "Un lot eFact par mutualité ou par union ?"
     a: "Un lot par union de mutualités (100 Alliance nationale, 300 Solidaris, 500 Union nationale, 600 CAAMI, 900 HR Rail…), pas par petite mutualité individuelle. Resthome fait le regroupement automatiquement."
   - q: "Comment corriger un lot eFact rejeté ?"
     a: "Le code et le motif de rejet indiquent la cause (assurabilité, forfait, dates). Corrigez-la puis renvoyez ; le compteur Renvois évite les doublons et le bouton Réintégration permet de réintégrer des lignes dans un nouvel envoi."
+  - q: "Quelle est la différence entre l'accusé de réception (931000) et le décompte (920900) ?"
+    a: "Le 931000 confirme seulement que l'organisme assureur a reçu votre lot et passé le premier contrôle. Le décompte (920900) est le résultat final : il indique les montants réellement acceptés et/ou rejetés. Tant que le décompte n'est pas arrivé, rien n'est définitif — mais vous n'avez rien à renvoyer."
+  - q: "Que signifie un rejet global (920099) sur un lot eFact ?"
+    a: "Le lot entier a été refusé par l'organisme assureur. Le code et le motif de rejet en donnent la cause (assurabilité, forfait, dates…). Corrigez-la, puis renvoyez le lot ; le compteur Renvois garde la trace des retransmissions pour éviter les doublons."
+  - q: "Comment réintégrer des lignes eFact rejetées dans un nouvel envoi ?"
+    a: "Après avoir corrigé la cause du rejet, utilisez le bouton Réintégration : il replace les lignes concernées dans un nouvel envoi, sans devoir refaire toute la période."
+  - q: "Puis-je facturer un résident en eFact si son assurabilité (MDA) n'est pas validée ?"
+    a: "Non. Sans assurabilité (MDA) valide, le résident ne peut pas être facturé en tiers payant à la mutualité. Lancez Vérifier MDA avant de créer les factures et corrigez la mutuelle du résident si nécessaire."
+  - q: "La facturation électronique (eFact) est-elle obligatoire ?"
+    a: "Oui. L'envoi électronique des forfaits INAMI est obligatoire : la production a démarré en avril 2026 et la dernière ligne droite pour être en ordre est le 1er octobre 2026. Resthome respecte les dates limites d'envoi par période et vous alerte quand une échéance approche ou est dépassée."
+  - q: "Un résident part ou décède en cours de mois déjà facturé : que se passe-t-il pour l'eFact ?"
+    a: "Une partie du forfait a été sur-facturée. Resthome le détecte lors de l'auto-contrôle et prépare la note de crédit (ou le reliquat) correspondante, côté résident et, si nécessaire, côté mutualité via un lot correctif."
+  - q: "Où voir le statut d'un envoi eFact et son décompte dans Resthome ?"
+    a: "Sur chaque lot, le statut (Brouillon, envoyé, accusé reçu, accepté, rejeté) et les montants facturé / accepté / refusé sont affichés. Pour une vue d'ensemble de tous les envois d'un mois, ouvrez l'eFact Cockpit depuis la période ou une carte du tableau de bord : il montre d'un coup d'œil ce qui est transmis, accepté, rejeté ou en attente de décompte."
 ---
 
 # Facturation électronique (eFact)
@@ -57,8 +73,8 @@ Sur chaque carte :
 - la **date limite eFact** (par ex. « eFact : 20 sept. ») ;
 - des raccourcis : **View Invoices**, **eFact** (les lots), **eFact Cockpit**.
 
-!!! warning "« deadline exceeded »"
-    Si une carte affiche **eFact : deadline exceeded** en rouge, la date limite
+!!! warning "« échéance dépassée »"
+    Si une carte affiche **eFact : échéance dépassée** en rouge, la date limite
     d'envoi de cette période est **dépassée**. Envoyez sans tarder — au-delà,
     certains organismes assureurs peuvent refuser le lot.
 
@@ -162,10 +178,14 @@ organismes assureurs via le réseau eHealth.
 
 Le cycle de réponse est automatique :
 
-1. **Accusé de réception** — l'OA confirme avoir reçu le lot.
-2. **Décompte** — l'OA renvoie le résultat : **accepté** et/ou **rejeté**.
-3. Resthome **rapproche** les réponses et met à jour chaque lot (montants
-   acceptés / refusés, code et motif de rejet).
+1. **Accusé de réception (931000)** — l'OA confirme avoir **reçu** le lot et passé le
+   premier contrôle. **C'est normal : il n'y a rien à renvoyer, il faut attendre le
+   décompte** (quelques jours).
+2. **Notification avec avertissements (920098)** ou **rejet global (920099)** — le cas
+   échéant : soit le lot est accepté malgré des erreurs mineures, soit le lot entier est
+   refusé (à corriger et renvoyer).
+3. **Décompte (920900)** — le résultat final : montants **acceptés** et/ou **rejetés**.
+   Resthome **rapproche** les réponses et met à jour chaque lot (code et motif de rejet).
 
 !!! warning "Traiter un rejet"
     Si un lot (ou une partie) est **rejeté**, le **code** et le **motif de rejet**
@@ -207,7 +227,7 @@ nécessaire, côté mutuelle via un lot correctif.
 - **Contrôlez avant de facturer** : traitez chaque message d'auto-contrôle.
 - **Vérifiez le MDA** — pas de tiers payant sans assurabilité valide.
 - **Un lot eFact par union** de mutualités, pas par mutualité.
-- Respectez la **date limite** d'envoi de chaque période (« deadline exceeded »).
+- Respectez la **date limite** d'envoi de chaque période (« échéance dépassée »).
 - Un **rejet** se corrige puis se **renvoie** — le compteur Renvois évite les
   doublons.
 

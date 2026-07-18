@@ -320,6 +320,17 @@ Geweigerd**, waarbij Resthome de aanvaarde/geweigerde bedragen automatisch afste
 → [Een maand factureren, stap voor stap](facturation/facturer-un-mois.md) ·
 [Elektronische facturatie (eFact)](ehealth/efact.md)
 
+### Ik ontvang een ontvangstbewijs (931000) na de verzending, moet ik wachten?
+
+**Ja.** De **931000** bevestigt enkel dat de verzekeringsinstelling het lot heeft
+**ontvangen** en de eerste controle heeft doorstaan — het is niet het eindresultaat. U
+hoeft **niets opnieuw te versturen**: wacht op de **afrekening (920900)**, die aangeeft
+wat aanvaard en betaald wordt (enkele dagen). Ondertussen kunnen een **920098**
+(waarschuwingen, toch aanvaard) of een **920099** (globale weigering, te corrigeren en
+opnieuw te versturen) binnenkomen.
+→ [Elektronische facturatie (eFact)](ehealth/efact.md) ·
+[eFact-weigeringen](ehealth/efact-rejets.md)
+
 ### Waarom wordt een eFact-factuur geweigerd, en hoe corrigeer ik dit?
 
 Wordt een lot (of een deel ervan) **geweigerd**, dan zeggen de **code** en de **reden
@@ -329,7 +340,7 @@ dubbels te vermijden, en de knop **Herintegratie** laat in voorkomend geval toe 
 lijnen in een nieuwe verzending te herintegreren.
 → [Elektronische facturatie (eFact)](ehealth/efact.md)
 
-### Wat betekent « deadline exceeded » op een periodekaart?
+### Wat betekent « termijn overschreden » op een periodekaart?
 
 De **uiterste verzenddatum** van deze periode is **overschreden**. Verzend zonder
 uitstel — daarna kunnen sommige verzekeringsinstellingen het lot weigeren.

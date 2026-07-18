@@ -128,6 +128,13 @@ plugins:
             Configuration: Configuratie
             Glossaire: Woordenlijst
             Site LPLG: LPLG-website
+  # Date « Mis à jour le … » en pied de page, lue depuis l'historique git.
+  # 0 maintenance ; signal de fraîcheur pour Google et les IA.
+  # (doit être défini APRÈS i18n : le plugin lit la variable « locale » qu'i18n injecte.)
+  - git-revision-date-localized:
+      type: date
+      enable_creation_date: false
+      fallback_to_build_date: true
 
 markdown_extensions:
   - abbr

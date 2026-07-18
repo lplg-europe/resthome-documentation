@@ -1,6 +1,15 @@
 ---
 title: Accords (eAgreement)
-description: eAgreement et eAgreement Light dans Resthome — notifier la mutuelle à l'admission, en cas d'absence, au départ et au retour (Annexes 7, 10, 11).
+description: "eAgreement et eAgreement Light dans Resthome (maison de repos MR/MRS) — faire une demande d'accord, notifier la mutuelle à l'admission, en cas d'absence, au départ et au retour (Annexes 7, 10, 11)."
+faq:
+  - q: "Comment faire une demande d'accord (eAgreement) dans Resthome ?"
+    a: "Dans la plupart des cas, vous n'avez pas à la créer à la main : Resthome prépare automatiquement la notification qui correspond à votre action métier — démarrer un séjour (accord d'admission, Annexe 7), valider une aggravation Katz (mise à jour de l'accord de soins, Annexe 10), enregistrer une absence ou un départ (notification de sortie, Annexe 11). Vérifiez que le résident a un NISS et une mutuelle valides et que le certificat eHealth est actif, puis envoyez. Vous suivez ensuite le statut : Brouillon → Envoyé → Accepté ou Rejeté."
+  - q: "Où voir le statut d'un accord ou d'une demande dans Resthome ?"
+    a: "Depuis la fiche du résident ou la période de facturation : vous y voyez la liste des accords et leur statut (Brouillon, Envoyé, Accepté, Rejeté), avec un lien vers le détail."
+  - q: "Quelle est la différence entre eAgreement et eAgreement Light ?"
+    a: "eAgreement est l'accord de prise en charge des soins, lié à la catégorie Katz et au forfait. eAgreement Light regroupe les notifications plus simples liées aux mouvements du résident (admission, absence, départ, retour), que Resthome génère automatiquement au fil de vos actions."
+  - q: "Que faire si une demande d'accord est rejetée ?"
+    a: "Resthome affiche le motif de rejet en clair (français et néerlandais) directement sur l'accord. Corrigez la cause — le plus souvent le NISS, la mutuelle ou les dates — puis renvoyez."
 ---
 
 # Les accords eHealth (eAgreement)

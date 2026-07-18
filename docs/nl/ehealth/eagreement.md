@@ -1,6 +1,15 @@
 ---
 title: Akkoorden (eAgreement)
-description: eAgreement en eAgreement Light in Resthome — de mutualiteit verwittigen bij opname, afwezigheid, vertrek en terugkeer (Bijlagen 7, 10, 11).
+description: "eAgreement en eAgreement Light in Resthome (woonzorgcentrum WZC/RVT) — een akkoordaanvraag doen, de mutualiteit verwittigen bij opname, afwezigheid, vertrek en terugkeer (Bijlagen 7, 10, 11)."
+faq:
+  - q: "Hoe maak ik een akkoordaanvraag (eAgreement) in Resthome?"
+    a: "In de meeste gevallen hoeft u die niet manueel aan te maken: Resthome bereidt automatisch de melding voor die bij uw actie hoort — een verblijf starten (opnameakkoord, Bijlage 7), een Katz-verergering valideren (bijwerking van het zorgakkoord, Bijlage 10), een afwezigheid of vertrek registreren (vertrekmelding, Bijlage 11). Controleer dat de bewoner een geldig NISS en een mutualiteit heeft en dat het eHealth-certificaat actief is, en verstuur dan. Daarna volgt u de status: Concept → Verstuurd → Aanvaard of Geweigerd."
+  - q: "Waar zie ik de status van een akkoord of aanvraag in Resthome?"
+    a: "Vanaf de fiche van de bewoner of de facturatieperiode: daar ziet u de lijst van akkoorden en hun status (Concept, Verstuurd, Aanvaard, Geweigerd), met een link naar het detail."
+  - q: "Wat is het verschil tussen eAgreement en eAgreement Light?"
+    a: "eAgreement is het akkoord voor de tenlasteneming van de zorg, gekoppeld aan de Katz-categorie en het forfait. eAgreement Light omvat de eenvoudigere meldingen die met de bewegingen van de bewoner te maken hebben (opname, afwezigheid, vertrek, terugkeer), die Resthome automatisch genereert tijdens uw handelingen."
+  - q: "Wat als een akkoordaanvraag geweigerd wordt?"
+    a: "Resthome toont de reden van weigering in klare taal (Frans en Nederlands) rechtstreeks op het akkoord. Corrigeer de oorzaak — meestal het NISS, de mutualiteit of de datums — en verstuur opnieuw."
 ---
 
 # De eHealth-akkoorden (eAgreement)

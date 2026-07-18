@@ -1222,8 +1222,8 @@ Sur chaque carte :
 - la **date limite eFact** (par ex. « eFact : 20 sept. ») ;
 - des raccourcis : **View Invoices**, **eFact** (les lots), **eFact Cockpit**.
 
-!!! warning "« deadline exceeded »"
-    Si une carte affiche **eFact : deadline exceeded** en rouge, la date limite
+!!! warning "« échéance dépassée »"
+    Si une carte affiche **eFact : échéance dépassée** en rouge, la date limite
     d'envoi de cette période est **dépassée**. Envoyez sans tarder — au-delà,
     certains organismes assureurs peuvent refuser le lot.
 
@@ -1324,10 +1324,14 @@ organismes assureurs via le réseau eHealth.
 
 Le cycle de réponse est automatique :
 
-1. **Accusé de réception** — l'OA confirme avoir reçu le lot.
-2. **Décompte** — l'OA renvoie le résultat : **accepté** et/ou **rejeté**.
-3. Resthome **rapproche** les réponses et met à jour chaque lot (montants
-   acceptés / refusés, code et motif de rejet).
+1. **Accusé de réception (931000)** — l'OA confirme avoir **reçu** le lot et passé le
+   premier contrôle. **C'est normal : il n'y a rien à renvoyer, il faut attendre le
+   décompte** (quelques jours).
+2. **Notification avec avertissements (920098)** ou **rejet global (920099)** — le cas
+   échéant : soit le lot est accepté malgré des erreurs mineures, soit le lot entier est
+   refusé (à corriger et renvoyer).
+3. **Décompte (920900)** — le résultat final : montants **acceptés** et/ou **rejetés**.
+   Resthome **rapproche** les réponses et met à jour chaque lot (code et motif de rejet).
 
 !!! warning "Traiter un rejet"
     Si un lot (ou une partie) est **rejeté**, le **code** et le **motif de rejet**
@@ -1367,7 +1371,7 @@ nécessaire, côté mutuelle via un lot correctif.
 - **Contrôlez avant de facturer** : traitez chaque message d'auto-contrôle.
 - **Vérifiez le MDA** — pas de tiers payant sans assurabilité valide.
 - **Un lot eFact par union** de mutualités, pas par mutualité.
-- Respectez la **date limite** d'envoi de chaque période (« deadline exceeded »).
+- Respectez la **date limite** d'envoi de chaque période (« échéance dépassée »).
 - Un **rejet** se corrige puis se **renvoie** — le compteur Renvois évite les
   doublons.
 
@@ -2307,6 +2311,16 @@ Rejeté**, Resthome rapprochant automatiquement les montants acceptés/refusés.
 → [Facturer un mois, pas à pas](facturation/facturer-un-mois.md) ·
 [Facturation électronique (eFact)](ehealth/efact.md)
 
+### Je reçois un accusé de réception (931000) après l'envoi, dois-je attendre ?
+
+**Oui.** Le **931000** confirme seulement que l'organisme assureur a **reçu** le lot et
+passé le premier contrôle — ce n'est pas le résultat final. Vous n'avez **rien à
+renvoyer** : attendez le **décompte (920900)**, qui indique ce qui est accepté et payé
+(quelques jours). Entre-temps peuvent arriver un **920098** (avertissements, accepté malgré
+tout) ou un **920099** (rejet global, à corriger et renvoyer).
+→ [Facturation électronique (eFact)](ehealth/efact.md) ·
+[Rejets eFact](ehealth/efact-rejets.md)
+
 ### Pourquoi une facture eFact est-elle rejetée, et comment corriger ?
 
 Si un lot (ou une partie) est **rejeté**, le **code** et le **motif de rejet** vous
@@ -2316,7 +2330,7 @@ le bouton **Réintégration** permet le cas échéant de réintégrer des lignes
 nouvel envoi.
 → [Facturation électronique (eFact)](ehealth/efact.md)
 
-### Que signifie « deadline exceeded » sur une carte de période ?
+### Que signifie « échéance dépassée » sur une carte de période ?
 
 La **date limite d'envoi** de cette période est **dépassée**. Envoyez sans tarder —
 au-delà, certains organismes assureurs peuvent refuser le lot.

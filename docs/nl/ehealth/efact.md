@@ -3,12 +3,28 @@ title: Elektronische facturatie (eFact)
 description: "De volledige gids voor eFact in een woonzorgcentrum (WZC/RVT) met Resthome: RIZIV-forfaits genereren, controleren, factureren en versturen naar de mutualiteiten."
 howto_auto: true
 faq:
-  - q: "Wat betekent « deadline exceeded » op een eFact-periodekaart?"
+  - q: "Ik ontvang een ontvangstbewijs (931000) na de eFact-verzending, moet ik wachten?"
+    a: "Ja. De 931000 bevestigt enkel dat de verzekeringsinstelling het lot heeft ontvangen en de eerste controle heeft doorstaan — het is niet het eindresultaat. U hoeft niets opnieuw te versturen: wacht op de afrekening (920900), die aangeeft wat aanvaard en betaald wordt. Dit kan enkele dagen duren."
+  - q: "Wat betekent « termijn overschreden » op een eFact-periodekaart?"
     a: "De uiterste verzenddatum van deze periode is overschreden. Verzend het lot zonder uitstel: daarna kunnen sommige verzekeringsinstellingen het weigeren."
   - q: "Eén eFact-lot per mutualiteit of per unie?"
     a: "Eén lot per unie van mutualiteiten (100 Landsbond der Christelijke Mutualiteiten, 300 Solidaris, 500 Onafhankelijke Ziekenfondsen, 600 HZIV, 900 HR Rail…), niet per kleine afzonderlijke mutualiteit. Resthome zorgt automatisch voor de groepering."
   - q: "Hoe corrigeer ik een geweigerd eFact-lot?"
     a: "De code en de reden van weigering geven de oorzaak aan (verzekerbaarheid, forfait, datums). Corrigeer die en verzend opnieuw; de teller Heruitzendingen vermijdt dubbels en de knop Herintegratie laat toe om lijnen in een nieuwe verzending te herintegreren."
+  - q: "Wat is het verschil tussen het ontvangstbewijs (931000) en de afrekening (920900)?"
+    a: "De 931000 bevestigt enkel dat de verzekeringsinstelling uw lot heeft ontvangen en de eerste controle heeft doorstaan. De afrekening (920900) is het eindresultaat: ze geeft de bedragen aan die werkelijk aanvaard en/of geweigerd zijn. Zolang de afrekening niet binnen is, ligt niets definitief vast — maar u hoeft niets opnieuw te versturen."
+  - q: "Wat betekent een globale weigering (920099) op een eFact-lot?"
+    a: "Het volledige lot werd geweigerd door de verzekeringsinstelling. De code en de reden van weigering geven de oorzaak aan (verzekerbaarheid, forfait, datums…). Corrigeer die en verzend het lot opnieuw; de teller Heruitzendingen houdt de heruitzendingen bij om dubbels te vermijden."
+  - q: "Hoe herintegreer ik geweigerde eFact-lijnen in een nieuwe verzending?"
+    a: "Nadat u de oorzaak van de weigering hebt gecorrigeerd, gebruikt u de knop Herintegratie: die plaatst de betrokken lijnen in een nieuwe verzending, zonder de hele periode opnieuw te moeten doen."
+  - q: "Kan ik een bewoner via eFact factureren als zijn verzekerbaarheid (MDA) niet gevalideerd is?"
+    a: "Nee. Zonder geldige verzekerbaarheid (MDA) kan de bewoner niet in derdebetaler aan de mutualiteit gefactureerd worden. Voer MDA controleren uit vóór u de facturen aanmaakt en corrigeer indien nodig de mutualiteit van de bewoner."
+  - q: "Is elektronische facturatie (eFact) verplicht?"
+    a: "Ja. De elektronische verzending van de RIZIV-forfaits is verplicht: de productie is gestart in april 2026 en de uiterste rechte lijn om in orde te zijn is 1 oktober 2026. Resthome respecteert de uiterste verzenddatums per periode en waarschuwt u wanneer een termijn nadert of overschreden is."
+  - q: "Een bewoner vertrekt of overlijdt tijdens een reeds gefactureerde maand: wat gebeurt er met de eFact?"
+    a: "Een deel van het forfait werd te veel gefactureerd. Resthome detecteert dit bij de automatische controle en bereidt de overeenkomstige creditnota (of het saldo) voor, aan de kant van de bewoner en, indien nodig, aan de kant van de mutualiteit via een corrigerend lot."
+  - q: "Waar zie ik de status van een eFact-verzending en de afrekening in Resthome?"
+    a: "Op elk lot worden de status (Concept, verzonden, ontvangstbewijs, aanvaard, geweigerd) en de bedragen gefactureerd / aanvaard / geweigerd getoond. Voor een totaalbeeld van alle verzendingen van een maand opent u de eFact Cockpit vanuit de periode of een dashboardkaart: die toont in één oogopslag wat verzonden, aanvaard, geweigerd of in afwachting van afrekening is."
 ---
 
 # Elektronische facturatie (eFact)
@@ -26,7 +42,7 @@ factureren, de eFact versturen en de antwoorden verwerken.
     De elektronische facturatie van de forfaits is **verplicht**. De productie is
     gestart in **april 2026**; de uiterste rechte lijn om in orde te zijn is
     **1 oktober 2026**. Resthome respecteert de **uiterste verzenddata** per
-    periode en waarschuwt u wanneer een deadline nadert of overschreden is.
+    periode en waarschuwt u wanneer een termijn nadert of overschreden is.
 
 ## De cyclus van een periode in één oogopslag
 
@@ -57,8 +73,8 @@ Op elke kaart:
 - de **uiterste eFact-datum** (bv. « eFact: 20 sept. »);
 - snelkoppelingen: **View Invoices**, **eFact** (de loten), **eFact Cockpit**.
 
-!!! warning "« deadline exceeded »"
-    Toont een kaart **eFact: deadline exceeded** in het rood, dan is de uiterste
+!!! warning "« termijn overschreden »"
+    Toont een kaart **eFact: termijn overschreden** in het rood, dan is de uiterste
     verzenddatum van die periode **overschreden**. Verstuur zonder uitstel —
     daarna kunnen sommige verzekeringsinstellingen het lot weigeren.
 
@@ -164,11 +180,15 @@ de verzekeringsinstellingen via het eHealth-netwerk.
 
 De antwoordcyclus is automatisch:
 
-1. **Ontvangstbewijs** — de VI bevestigt het lot ontvangen te hebben.
-2. **Afrekening** — de VI stuurt het resultaat terug: **aanvaard** en/of
-   **geweigerd**.
-3. Resthome **punt de antwoorden af** en werkt elk lot bij (aanvaarde / geweigerde
-   bedragen, code en reden van weigering).
+1. **Ontvangstbewijs (931000)** — de VI bevestigt het lot **ontvangen** te hebben en de
+   eerste controle doorstaan. **Dit is normaal: er valt niets opnieuw te versturen, u
+   wacht op de afrekening** (enkele dagen).
+2. **Melding met waarschuwingen (920098)** of **globale weigering (920099)** — in
+   voorkomend geval: ofwel is het lot aanvaard ondanks kleine fouten, ofwel is het
+   volledige lot geweigerd (te corrigeren en opnieuw te versturen).
+3. **Afrekening (920900)** — het eindresultaat: **aanvaarde** en/of **geweigerde**
+   bedragen. Resthome **punt de antwoorden af** en werkt elk lot bij (code en reden van
+   weigering).
 
 !!! warning "Een weigering behandelen"
     Wordt een lot (of een deel) **geweigerd**, dan zeggen de **code** en de **reden
@@ -211,7 +231,7 @@ mutualiteitszijde via een corrigerend lot.
 - **Controleer vóór het factureren**: behandel elk automatisch controlebericht.
 - **Controleer de MDA** — geen derdebetaler zonder geldige verzekerbaarheid.
 - **Eén eFact-lot per unie** van mutualiteiten, niet per mutualiteit.
-- Respecteer de **uiterste verzenddatum** van elke periode (« deadline exceeded »).
+- Respecteer de **uiterste verzenddatum** van elke periode (« termijn overschreden »).
 - Een **weigering** corrigeert u en **verstuurt u opnieuw** — de teller Renvois
   vermijdt dubbels.
 

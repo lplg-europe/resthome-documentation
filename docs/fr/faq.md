@@ -313,6 +313,16 @@ Rejeté**, Resthome rapprochant automatiquement les montants acceptés/refusés.
 → [Facturer un mois, pas à pas](facturation/facturer-un-mois.md) ·
 [Facturation électronique (eFact)](ehealth/efact.md)
 
+### Je reçois un accusé de réception (931000) après l'envoi, dois-je attendre ?
+
+**Oui.** Le **931000** confirme seulement que l'organisme assureur a **reçu** le lot et
+passé le premier contrôle — ce n'est pas le résultat final. Vous n'avez **rien à
+renvoyer** : attendez le **décompte (920900)**, qui indique ce qui est accepté et payé
+(quelques jours). Entre-temps peuvent arriver un **920098** (avertissements, accepté malgré
+tout) ou un **920099** (rejet global, à corriger et renvoyer).
+→ [Facturation électronique (eFact)](ehealth/efact.md) ·
+[Rejets eFact](ehealth/efact-rejets.md)
+
 ### Pourquoi une facture eFact est-elle rejetée, et comment corriger ?
 
 Si un lot (ou une partie) est **rejeté**, le **code** et le **motif de rejet** vous
@@ -322,7 +332,7 @@ le bouton **Réintégration** permet le cas échéant de réintégrer des lignes
 nouvel envoi.
 → [Facturation électronique (eFact)](ehealth/efact.md)
 
-### Que signifie « deadline exceeded » sur une carte de période ?
+### Que signifie « échéance dépassée » sur une carte de période ?
 
 La **date limite d'envoi** de cette période est **dépassée**. Envoyez sans tarder —
 au-delà, certains organismes assureurs peuvent refuser le lot.
