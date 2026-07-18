@@ -1,11 +1,11 @@
 # Welcome to the Resthome documentation
 
 :::{rh-description}
-User documentation for the Resthome software (on Odoo) for nursing and care homes (MR/MRS): residents, care, INAMI billing, eFact, MDA, eAgreement.
+User documentation for the Resthome software for nursing and care homes (MR/MRS): residents, care, INAMI billing, eFact, MDA, eAgreement.
 :::
 
 **Resthome** is the management software for **nursing homes (MR)** and **nursing
-and care homes (MRS)**, published by LPLG **on Odoo**. It brings together in one
+and care homes (MRS)**, published by LPLG. It brings together in one
 place your residents, care, meals, INAMI/mutuality billing and the Belgian
 eHealth exchanges (eFact, MDA, eAgreement).
 

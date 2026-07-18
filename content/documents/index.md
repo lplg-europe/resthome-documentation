@@ -6,7 +6,7 @@ The automatic document folder for every nursing home (MR/MRS) resident: subfolde
 
 :::{rh-faq}
 Where is a resident's document folder located?
-: In Odoo's Documents app, under the "Residents" folder. The easiest way: open the resident's record and click the "Documents" button — it opens their personal folder directly.
+: In the Documents app, under the "Residents" folder. The easiest way: open the resident's record and click the "Documents" button — it opens their personal folder directly.
 
 Do I have to create the folder and subfolders myself?
 : No. Resthome creates the resident's personal folder and its three subfolders (Medical, Administrative, and Billing documents) automatically, as soon as the resident is created or their resident record is activated.
@@ -24,7 +24,7 @@ Does each facility have its own folders?
 : Yes. In multi-company, each facility has its own "Residents" root folder and its own "Blank forms" folder, which keeps documents separated per home.
 :::
 
-For **each resident**, Resthome maintains a **document folder** stored in Odoo's
+For **each resident**, Resthome maintains a **document folder** stored in the
 **Documents** app. You have nothing to create or file by hand: the folder, its
 subfolders, and the filing are automatic. You access it from the **Documents**
 button on the resident's record, or from the **Documents → Residents** app.
@@ -32,7 +32,7 @@ button on the resident's record, or from the **Documents → Residents** app.
 :::{admonition} Prerequisite
 :class: info
 
-This feature relies on Odoo's **Documents** app: it must be installed. Once
+This feature relies on the **Documents** app: it must be installed. Once
 enabled, the resident folders and tags are set up automatically — you have
 nothing to prepare.
 :::

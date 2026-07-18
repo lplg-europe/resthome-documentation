@@ -24,7 +24,7 @@ Is the setting shared across all my facilities?
 : No. It is specific to each company (facility) in the database. Each company has its own "Residents" root folder and its own configuration, which keeps the folders isolated.
 :::
 
-The **Settings > Documents** tab gathers the settings of Odoo's **Documents**
+The **Settings > Documents** tab gathers the settings of the **Documents**
 app. In the **File centralization** section, Resthome adds a **Nursing home**
 block that **automatically files** your residents' attachments into their
 **personal folder**. You find these settings in **Settings > Documents

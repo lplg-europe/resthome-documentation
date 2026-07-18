@@ -158,13 +158,17 @@
    recherche en position absolue au centre (native : overlay + clic intacts). */
 @media screen and (min-width: 76.25em) {
   .md-header__inner { position: relative; }
-  .md-header__title { margin-right: auto; flex: 0 1 auto; min-width: 0; }
+  /* Le titre GARDE son flex-grow (thème) : sinon son topic absolu l'effondre à 0
+     et « Resthome docs » disparaît. En grandissant, il pousse les contrôles à droite. */
+  .md-header__title { flex: 1 1 auto; min-width: 6rem; }
+  /* Recherche centrée en absolu (base rem du thème = 22px). */
   .md-search {
     position: absolute; left: 50%; top: 50%;
     transform: translate(-50%, -50%);
-    width: 30rem; flex: none;
+    width: 22rem; flex: none; z-index: 2;
   }
   .md-search__inner { float: none; width: 100%; }
+  .md-search__form { width: 100%; }
 }
 /* Champ de recherche : clair, bordé (sur header blanc). */
 .md-search__form {
@@ -201,6 +205,18 @@
 .lplg-langswitch .lplg-lang:hover { opacity: 1; background: var(--md-accent-fg-color--transparent); }
 .lplg-langswitch .lplg-lang.is-current { background: var(--lplg-blue); color: #fff; opacity: 1; }
 [data-md-color-scheme="slate"] .lplg-langswitch { border-color: #223247; }
+
+/* Lien « Site Resthome » vers la vitrine lplg.eu (injecté par layout.html). */
+.lplg-site-link {
+  display: inline-flex; align-items: center; gap: 0.3rem; flex: 0 0 auto;
+  padding: 0.28rem 0.55rem; font-size: 0.7rem; font-weight: 600;
+  letter-spacing: 0.01em; color: inherit; opacity: 0.78; text-decoration: none;
+  white-space: nowrap; border-radius: 7px;
+}
+.lplg-site-link:hover { opacity: 1; background: var(--md-accent-fg-color--transparent); }
+.lplg-site-link svg { width: 0.85rem; height: 0.85rem; fill: currentColor; opacity: 0.8; }
+/* Header serré sur mobile : on masque le lien vitrine (l'icône GitHub suffit). */
+@media screen and (max-width: 44.9375em) { .lplg-site-link { display: none; } }
 
 /* ---------- Barre latérale façon docs Odoo ---------- */
 .md-sidebar--primary { border-right: 1px solid var(--lplg-border); }

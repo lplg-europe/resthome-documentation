@@ -22,7 +22,7 @@ Can I reuse a standard list of equipment?
 : Yes, through the Condition report templates (Configuration ▸ Condition reports). A template pre-fills the lines, the sections and the general observations, like a quotation template.
 
 How do I sign the condition report electronically?
-: The PDF report contains signature anchors (representative and facility) designed for the Odoo Sign app. Otherwise, print it and have it signed by hand, in two copies.
+: The PDF report contains signature anchors (representative and facility) designed for an electronic signature app. Otherwise, print it and have it signed by hand, in two copies.
 
 What do Compliant and Non-compliant mean on a line?
 : It is the recorded condition of the equipment. The report summary counts the compliant and non-compliant items, and the photos are included in a photographic appendix.
@@ -189,14 +189,14 @@ The report includes:
   facility* — beneath the wording "Done at …, in two copies";
 - a **photographic appendix** showing the photos in large format (4 per page).
 
-:::{admonition} Ready for electronic signature (Odoo Sign)
+:::{admonition} Ready for electronic signature (eIDAS)
 :class: info
 
 The report contains **signature anchors** that are invisible when printed,
-placed for the **Odoo Sign** app: when a signature request is created, the
+placed for an **electronic signature** app: when a signature request is created, the
 *representative* and *facility* fields land in the right place. The footer
-states compliance with the **eIDAS Regulation (EU) No 910/2014**. Using Odoo
-Sign is optional: otherwise, print the PDF and have it signed by hand.
+states compliance with the **eIDAS Regulation (EU) No 910/2014**. Electronic
+signature is optional: otherwise, print the PDF and have it signed by hand.
 :::
 
 <!-- screenshot to add: the first page of the PDF report with the Move-in badge, the summary and the joint signature boxes -->
@@ -213,7 +213,7 @@ Sign is optional: otherwise, print the PDF and have it signed by hand.
 - **Templates** save you from re-entering the same list; the **equipment
   catalogue** is shared with the rooms.
 - The **PDF report** is in your house style, with a Move-in/Move-out badge,
-  summary, signatures and a photo appendix, ready for **Odoo Sign** (eIDAS).
+  summary, signatures and a photo appendix, ready for **electronic signature** (eIDAS).
 
 ## Going further
 
