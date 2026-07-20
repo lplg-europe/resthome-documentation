@@ -38,7 +38,7 @@ centralization**, **Nursing home** block.
 :::{admonition} Prerequisites
 :class: info
 
-This feature relies on the **Documents** application: it is only available if
+This feature relies on Odoo's **Documents** application: it is only available if
 Documents is installed. The **residents root folder** and each resident's **personal
 folder** are created automatically — you have nothing to prepare.
 :::

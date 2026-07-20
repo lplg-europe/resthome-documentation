@@ -7,20 +7,21 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Resthome docs\n"
+"Project-Id-Version: Resthome docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-19 01:04+0200\n"
+"POT-Creation-Date: 2026-07-18 19:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: nl <LL@li.org>\n"
 "Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
 #: ../../content/configuration/reglages-facturation.md:1
+#: ../../content/configuration/reglages-facturation.md:27
 msgid "Billing settings (MR/MRS)"
 msgstr ""
 
@@ -36,9 +37,9 @@ msgstr ""
 
 #: ../../content/configuration/reglages-facturation.md:9
 msgid ""
-"In Settings > MR/MRS. The tab is only visible to MR/MRS managers. It gathers "
-"automatic billing, journals, facility accreditation, split billing and "
-"absence management."
+"In Settings > MR/MRS. The tab is only visible to MR/MRS managers. It "
+"gathers automatic billing, journals, facility accreditation, split "
+"billing and absence management."
 msgstr ""
 
 #: ../../content/configuration/reglages-facturation.md:11
@@ -47,16 +48,15 @@ msgstr ""
 
 #: ../../content/configuration/reglages-facturation.md:12
 msgid ""
-"Yes, that is the recommended value. When enabled, it keeps every open billing"
-" period up to date as soon as any data changes: supplement, absence, end of "
-"stay, change of room or health insurance fund, mid-month admission. Only "
-"disable it if you prefer to recalculate solely by clicking \"Refresh\" on the"
-" period."
+"Yes, that is the recommended value. When enabled, it keeps every open "
+"billing period up to date as soon as any data changes: supplement, "
+"absence, end of stay, change of room or health insurance fund, mid-month "
+"admission. Only disable it if you prefer to recalculate solely by "
+"clicking \"Refresh\" on the period."
 msgstr ""
 
 #: ../../content/configuration/reglages-facturation.md:14
-msgid ""
-"What is the difference between the INAMI Journal and the Resident Journal?"
+msgid "What is the difference between the INAMI Journal and the Resident Journal?"
 msgstr ""
 
 #: ../../content/configuration/reglages-facturation.md:15
@@ -73,10 +73,10 @@ msgstr ""
 
 #: ../../content/configuration/reglages-facturation.md:18
 msgid ""
-"Only if your facility holds the accreditation that authorizes billing the "
-"Ccoma coma lump sum. Without this accreditation, a resident classified as "
-"Ccoma cannot be billed via eFact; accommodation, however, is still billed. "
-"This is a facility-specific value."
+"Only if your facility holds the accreditation that authorizes billing the"
+" Ccoma coma lump sum. Without this accreditation, a resident classified "
+"as Ccoma cannot be billed via eFact; accommodation, however, is still "
+"billed. This is a facility-specific value."
 msgstr ""
 
 #: ../../content/configuration/reglages-facturation.md:20
@@ -86,8 +86,8 @@ msgstr ""
 #: ../../content/configuration/reglages-facturation.md:21
 msgid ""
 "Yes. Ticking \"Split billing (maintenance debtors)\" installs the "
-"corresponding module; unticking it uninstalls it. Enable it if maintenance "
-"debtors share the resident portion."
+"corresponding module; unticking it uninstalls it. Enable it if "
+"maintenance debtors share the resident portion."
 msgstr ""
 
 #: ../../content/configuration/reglages-facturation.md:23
@@ -96,31 +96,31 @@ msgstr ""
 
 #: ../../content/configuration/reglages-facturation.md:24
 msgid ""
-"It is the user to whom Resthome assigns the \"New Katz required\" activity "
-"when a readmission after hospitalization exceeds 30 days. If the field is "
-"empty, the activity goes to the current user if they are clinical, otherwise "
-"to the first head nurse, nurse or doctor found."
+"It is the user to whom Resthome assigns the \"New Katz required\" "
+"activity when a readmission after hospitalization exceeds 30 days. If the"
+" field is empty, the activity goes to the current user if they are "
+"clinical, otherwise to the first head nurse, nurse or doctor found."
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:27
+#: ../../content/configuration/reglages-facturation.md:29
 msgid ""
-"The **MR/MRS** settings tab gathers the parameters that drive the **billing**"
-" of your nursing home: invoice generation, accounting journals, facility "
-"accreditation and absence management. You configure them **once**, then they "
-"only change at the margins."
+"The **MR/MRS** settings tab gathers the parameters that drive the "
+"**billing** of your nursing home: invoice generation, accounting "
+"journals, facility accreditation and absence management. You configure "
+"them **once**, then they only change at the margins."
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:32
+#: ../../content/configuration/reglages-facturation.md:34
 msgid ""
-"You will find them under **Settings > MR/MRS**. The tab is only visible to "
-"**MR/MRS managers**."
+"You will find them under **Settings > MR/MRS**. The tab is only visible "
+"to **MR/MRS managers**."
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:35
+#: ../../content/configuration/reglages-facturation.md:37
 msgid "eHealth secrets are configured elsewhere"
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:38
+#: ../../content/configuration/reglages-facturation.md:40
 msgid ""
 "The **eHealth certificate (.p12)**, the **CIN license** and the health-"
 "insurer connection credentials are **not** found in this tab, but in the "
@@ -128,285 +128,288 @@ msgid ""
 "secret data**; you enter neither password nor key here."
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:44
+#: ../../content/configuration/reglages-facturation.md:46
 msgid "Automatic billing"
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:46
+#: ../../content/configuration/reglages-facturation.md:48
 msgid ""
-"This block decides **how** and **when** invoices are produced, and whether "
-"open periods keep themselves up to date on their own."
+"This block decides **how** and **when** invoices are produced, and "
+"whether open periods keep themselves up to date on their own."
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:35
-#: ../../content/configuration/reglages-facturation.md:55
-#: ../../content/configuration/reglages-facturation.md:75
-#: ../../content/configuration/reglages-facturation.md:92
-#: ../../content/configuration/reglages-facturation.md:111
+#: ../../content/configuration/reglages-facturation.md:37
+#: ../../content/configuration/reglages-facturation.md:57
+#: ../../content/configuration/reglages-facturation.md:77
+#: ../../content/configuration/reglages-facturation.md:94
+#: ../../content/configuration/reglages-facturation.md:113
 msgid "Setting"
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:35
-#: ../../content/configuration/reglages-facturation.md:55
-#: ../../content/configuration/reglages-facturation.md:75
-#: ../../content/configuration/reglages-facturation.md:92
-#: ../../content/configuration/reglages-facturation.md:111
+#: ../../content/configuration/reglages-facturation.md:37
+#: ../../content/configuration/reglages-facturation.md:57
+#: ../../content/configuration/reglages-facturation.md:77
+#: ../../content/configuration/reglages-facturation.md:94
+#: ../../content/configuration/reglages-facturation.md:113
 msgid "What it does"
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:35
-#: ../../content/configuration/reglages-facturation.md:55
-#: ../../content/configuration/reglages-facturation.md:75
-#: ../../content/configuration/reglages-facturation.md:92
-#: ../../content/configuration/reglages-facturation.md:111
+#: ../../content/configuration/reglages-facturation.md:37
+#: ../../content/configuration/reglages-facturation.md:57
+#: ../../content/configuration/reglages-facturation.md:77
+#: ../../content/configuration/reglages-facturation.md:94
+#: ../../content/configuration/reglages-facturation.md:113
 msgid "Recommended value (MR/MRS)"
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:35
+#: ../../content/configuration/reglages-facturation.md:37
 msgid "**Automatic billing**"
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:35
+#: ../../content/configuration/reglages-facturation.md:37
 msgid ""
-"Automatically generates the monthly stay invoices, without going through the "
-"manual cycle. Disabled by default."
+"Automatically generates the monthly stay invoices, without going through "
+"the manual cycle. Disabled by default."
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:35
+#: ../../content/configuration/reglages-facturation.md:37
 msgid ""
 "Depending on your organization; often left **disabled** in favor of the "
 "manual cycle (generate → invoice), which gives more control."
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:35
+#: ../../content/configuration/reglages-facturation.md:37
 msgid "**Billing day**"
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:35
+#: ../../content/configuration/reglages-facturation.md:37
 msgid ""
-"Day of the month on which automatic invoices are generated (only visible if "
-"automatic billing is enabled)."
+"Day of the month on which automatic invoices are generated (only visible "
+"if automatic billing is enabled)."
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:35
+#: ../../content/configuration/reglages-facturation.md:37
 msgid ""
-"**1** (start of the month) by default; adjust according to your organization."
+"**1** (start of the month) by default; adjust according to your "
+"organization."
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:35
+#: ../../content/configuration/reglages-facturation.md:37
 msgid "**Automatic billing refresh**"
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:35
+#: ../../content/configuration/reglages-facturation.md:37
 msgid ""
-"Keeps every open period up to date as soon as any data changes: supplement, "
-"absence, end of stay, change of room or health insurance fund, mid-month "
-"admission."
+"Keeps every open period up to date as soon as any data changes: "
+"supplement, absence, end of stay, change of room or health insurance "
+"fund, mid-month admission."
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:35
+#: ../../content/configuration/reglages-facturation.md:37
 msgid "**Enabled** — recommended."
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:55
+#: ../../content/configuration/reglages-facturation.md:57
 msgid "Automatic refresh and the \"Refresh\" button"
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:58
+#: ../../content/configuration/reglages-facturation.md:60
 msgid ""
-"With refresh **enabled**, adding a supplement or an absence is reflected on "
-"the period on its own: you generally have nothing to do. The period's "
-"**\"Refresh\"** button remains available for a full on-demand recalculation. "
-"See [Bill a month](../facturation/facturer-un-mois.md)."
-msgstr ""
-
-#: ../../content/configuration/reglages-facturation.md:64
-msgid "Billing journals"
+"With refresh **enabled**, adding a supplement or an absence is reflected "
+"on the period on its own: you generally have nothing to do. The period's "
+"**\"Refresh\"** button remains available for a full on-demand "
+"recalculation. See [Bill a month](../facturation/facturer-un-mois.md)."
 msgstr ""
 
 #: ../../content/configuration/reglages-facturation.md:66
-msgid ""
-"Resthome issues **two streams** of invoices: the **insurer share** "
-"(dependency lump sum, sent to the insuring body via eFact) and the **resident"
-" share** (accommodation and supplements). Each stream goes into its own sales"
-" journal."
+msgid "Billing journals"
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:55
+#: ../../content/configuration/reglages-facturation.md:68
+msgid ""
+"Resthome issues **two streams** of invoices: the **insurer share** "
+"(dependency lump sum, sent to the insuring body via eFact) and the "
+"**resident share** (accommodation and supplements). Each stream goes into"
+" its own sales journal."
+msgstr ""
+
+#: ../../content/configuration/reglages-facturation.md:57
 msgid "**INAMI Journal**"
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:55
+#: ../../content/configuration/reglages-facturation.md:57
 msgid ""
 "Sales journal that receives the invoices for the **insurer share** "
 "(dependency lump sum sent via eFact)."
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:55
+#: ../../content/configuration/reglages-facturation.md:57
 msgid "A sales journal of your facility."
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:55
+#: ../../content/configuration/reglages-facturation.md:57
 msgid "**Resident Journal**"
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:55
+#: ../../content/configuration/reglages-facturation.md:57
 msgid ""
 "Sales journal that receives the invoices for the **resident share** "
 "(accommodation and supplements)."
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:55
+#: ../../content/configuration/reglages-facturation.md:57
 msgid "A sales journal **separate** from the previous one (recommended)."
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:75
+#: ../../content/configuration/reglages-facturation.md:77
 msgid "Facility-specific value"
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:78
+#: ../../content/configuration/reglages-facturation.md:80
 msgid ""
 "These two journals depend on **your chart of accounts**. Choose existing "
 "**sales** journals. Separating them (INAMI on one side, resident on the "
 "other) makes reconciliation and per-payer tracking easier."
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:83
+#: ../../content/configuration/reglages-facturation.md:85
 msgid "Facility accreditation"
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:85
+#: ../../content/configuration/reglages-facturation.md:87
 msgid ""
-"Some federal lump sums require a **specific accreditation** of the facility. "
-"This is the case for the **coma (Ccoma)** lump sum."
+"Some federal lump sums require a **specific accreditation** of the "
+"facility. This is the case for the **coma (Ccoma)** lump sum."
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:75
+#: ../../content/configuration/reglages-facturation.md:77
 msgid "**Cc accreditation (coma lump sum)**"
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:75
+#: ../../content/configuration/reglages-facturation.md:77
 msgid ""
 "Tick if the facility holds the accreditation allowing it to bill the "
 "**Ccoma** coma lump sum. Without it, a resident classified as Ccoma is "
-"**not** billable via eFact (neither regional nor federal); accommodation is "
-"still billed."
+"**not** billable via eFact (neither regional nor federal); accommodation "
+"is still billed."
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:75
+#: ../../content/configuration/reglages-facturation.md:77
 msgid "Tick **only** if your facility is accredited."
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:92
+#: ../../content/configuration/reglages-facturation.md:94
 msgid "Not to be confused with the lump-sum amount"
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:95
+#: ../../content/configuration/reglages-facturation.md:97
 msgid ""
 "The ordinary **dependency lump sum** is the **same amount** for all Katz "
-"categories; the category is used to **declare the profile** to the health "
-"insurance fund, not to set the amount (see [The INAMI lump "
-"sum](../facturation/forfait-inami.md)). The Cc accreditation, for its part, "
-"concerns only the **special case of the coma lump sum**."
-msgstr ""
-
-#: ../../content/configuration/reglages-facturation.md:102
-msgid "Optional features"
+"categories; the category is used to **declare the profile** to the health"
+" insurance fund, not to set the amount (see [The INAMI lump "
+"sum](../facturation/forfait-inami.md)). The Cc accreditation, for its "
+"part, concerns only the **special case of the coma lump sum**."
 msgstr ""
 
 #: ../../content/configuration/reglages-facturation.md:104
-msgid ""
-"An additional module is installed directly from the settings, by ticking a "
-"checkbox."
+msgid "Optional features"
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:92
+#: ../../content/configuration/reglages-facturation.md:106
+msgid ""
+"An additional module is installed directly from the settings, by ticking "
+"a checkbox."
+msgstr ""
+
+#: ../../content/configuration/reglages-facturation.md:94
 msgid "**Split billing (maintenance debtors)**"
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:92
+#: ../../content/configuration/reglages-facturation.md:94
 msgid ""
-"Splits the resident share of the monthly invoice among several debtors, each "
-"paying a percentage. Ticking this box **installs** the module."
+"Splits the resident share of the monthly invoice among several debtors, "
+"each paying a percentage. Ticking this box **installs** the module."
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:92
+#: ../../content/configuration/reglages-facturation.md:94
 msgid "Enable it **if** maintenance debtors share the resident share."
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:111
+#: ../../content/configuration/reglages-facturation.md:113
 msgid "What the checkbox does"
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:114
+#: ../../content/configuration/reglages-facturation.md:116
 msgid ""
-"Ticking installs the module and unticking uninstalls it (standard module "
+"Ticking installs the module and unticking uninstalls it (Odoo "
 "convention). Once enabled, the split is configured per resident. See "
 "[Maintenance debtors](../facturation/split-billing.md)."
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:119
+#: ../../content/configuration/reglages-facturation.md:121
 msgid "Absence management"
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:121
+#: ../../content/configuration/reglages-facturation.md:123
 msgid ""
-"The **presence day** rules (noon rule, hospitalization, leave) are **built "
-"into** Resthome and are not configured here. Only the **assignee** of a "
-"follow-up activity is configurable."
+"The **presence day** rules (noon rule, hospitalization, leave) are "
+"**built into** Resthome and are not configured here. Only the "
+"**assignee** of a follow-up activity is configurable."
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:111
+#: ../../content/configuration/reglages-facturation.md:113
 msgid "**Katz activity assignee**"
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:111
+#: ../../content/configuration/reglages-facturation.md:113
 msgid ""
-"User to whom the \"New Katz required\" activity is assigned when a hospital "
-"readmission exceeds **30 days**. If empty: current user (if clinical), "
-"otherwise the first head nurse, nurse or doctor found."
+"User to whom the \"New Katz required\" activity is assigned when a "
+"hospital readmission exceeds **30 days**. If empty: current user (if "
+"clinical), otherwise the first head nurse, nurse or doctor found."
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:111
+#: ../../content/configuration/reglages-facturation.md:113
 msgid "The **head nurse** (or the care manager)."
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:129
+#: ../../content/configuration/reglages-facturation.md:131
 msgid "Why 30 days?"
 msgstr ""
 
-#: ../../content/configuration/reglages-facturation.md:132
+#: ../../content/configuration/reglages-facturation.md:134
 msgid ""
-"A readmission after more than 30 days of hospitalization requires a **new "
-"Katz assessment**. The assigned activity acts as a reminder. See [Absences "
-"and hospitalizations](../facturation/absences.md)."
-msgstr ""
-
-#: ../../content/configuration/reglages-facturation.md:137
-msgid "Going further"
+"A readmission after more than 30 days of hospitalization requires a **new"
+" Katz assessment**. The assigned activity acts as a reminder. See "
+"[Absences and hospitalizations](../facturation/absences.md)."
 msgstr ""
 
 #: ../../content/configuration/reglages-facturation.md:139
-msgid ""
-"[Configuration](index.md) — rooms, rates, health insurance funds, facility."
-msgstr ""
-
-#: ../../content/configuration/reglages-facturation.md:140
-msgid "[Billing overview](../facturation/index.md)"
+msgid "Going further"
 msgstr ""
 
 #: ../../content/configuration/reglages-facturation.md:141
-msgid "[Bill a month, step by step](../facturation/facturer-un-mois.md)"
+msgid ""
+"[Configuration](index.md) — rooms, rates, health insurance funds, "
+"facility."
 msgstr ""
 
 #: ../../content/configuration/reglages-facturation.md:142
-msgid "[The INAMI lump sum (dependency)](../facturation/forfait-inami.md)"
+msgid "[Billing overview](../facturation/index.md)"
 msgstr ""
 
 #: ../../content/configuration/reglages-facturation.md:143
-msgid "[Maintenance debtors](../facturation/split-billing.md)"
+msgid "[Bill a month, step by step](../facturation/facturer-un-mois.md)"
 msgstr ""
 
 #: ../../content/configuration/reglages-facturation.md:144
+msgid "[The INAMI lump sum (dependency)](../facturation/forfait-inami.md)"
+msgstr ""
+
+#: ../../content/configuration/reglages-facturation.md:145
+msgid "[Maintenance debtors](../facturation/split-billing.md)"
+msgstr ""
+
+#: ../../content/configuration/reglages-facturation.md:146
 msgid "[Absences and hospitalizations](../facturation/absences.md)"
 msgstr ""
+

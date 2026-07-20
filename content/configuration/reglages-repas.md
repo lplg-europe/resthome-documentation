@@ -15,7 +15,7 @@ Are the ESPEN targets the same for every resident?
 : No. The coefficients (30 kcal/kg, 1 g/kg of protein, 1.6 l for women and 2.0 l for men) are facility-wide settings. Resthome then calculates each resident's own target from their weight and sex. The energy band rises to 35 kcal/kg for an underweight resident (BMI less than or equal to 21).
 
 Why do meal notifications to families have no effect?
-: Sending emails requires an outgoing mail server configured on the platform. Without one, enabling the option sends nothing. First configure the outgoing server, then enable the global notification and the per-resident opt-in.
+: Sending emails requires an outgoing mail server configured in Odoo. Without one, enabling the option sends nothing. First configure the outgoing server, then enable the global notification and the per-resident opt-in.
 
 Where are these settings located?
 : In Settings > Meals. The tab groups four blocks: Nutrition, Public menu and kiosk, Family notifications, and Nutritional targets (ESPEN).
@@ -77,7 +77,7 @@ it: a **weekly summary** of meals and a **low-intake alert**.
 :::{admonition} An outgoing mail server is required
 :class: warning
 
-Without an **outgoing mail server** configured on the platform, enabling the option
+Without an **outgoing mail server** configured in Odoo, enabling the option
 sends nothing. Sending also depends on a **per-resident opt-in**: only families
 who have accepted receive the emails. Configure the outgoing server, enable the
 global notification, then the opt-in resident by resident.

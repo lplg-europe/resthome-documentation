@@ -111,7 +111,7 @@ checkbox.
 :::{admonition} What the checkbox does
 :class: tip
 
-Ticking installs the module and unticking uninstalls it (standard module convention). Once
+Ticking installs the module and unticking uninstalls it (Odoo convention). Once
 enabled, the split is configured per resident. See
 [Maintenance debtors](../facturation/split-billing.md).
 :::
