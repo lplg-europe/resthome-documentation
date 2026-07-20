@@ -1,7 +1,7 @@
 # Agreements (eAgreement)
 
 :::{rh-description}
-eAgreement and eAgreement Light in Resthome (nursing home MR/MRS) — make an agreement request, notify the mutuality on admission, in case of absence, on departure and on return (Annexes 7, 10, 11).
+eAgreement and eAgreement Light for a nursing home (MR/MRS): request an agreement and notify the mutuality on admission, absence, departure and return.
 :::
 
 :::{rh-faq}

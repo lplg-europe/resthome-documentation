@@ -5,7 +5,7 @@ howto_auto: true
 # Payment tracking and settlement reconciliation
 
 :::{rh-description}
-Find out whether the health insurance fund has paid your nursing home (MR/MRS) lump sums: read the settlement (920900), reconcile it automatically and chase overdue OAs.
+Check whether the health insurer paid your nursing home (MR/MRS) lump sums: read the settlement (920900), reconcile it automatically and chase overdue OAs.
 :::
 
 :::{rh-faq}

@@ -1,7 +1,7 @@
 # The resident's medical record
 
 :::{rh-description}
-The resident's clinical record in the nursing home (MR/MRS) with Resthome: measurements, clinical status, ICD-10 pathologies, allergies, devices, advance directives.
+The resident's clinical record in a nursing home (MR/MRS) with Resthome: measurements, clinical status, ICD-10 pathologies, allergies, devices, directives.
 :::
 
 :::{rh-faq}

@@ -5,7 +5,7 @@ howto_auto: true
 # Admissions (CRM pipeline)
 
 :::{rh-description}
-Manage nursing home (MR/MRS) admissions with Resthome: a CRM pipeline from first contact to admission, plus a wizard that creates the resident and opens their stay.
+Manage nursing home (MR/MRS) admissions with Resthome: a CRM pipeline from first contact to admission, plus a wizard that creates the resident and stay.
 :::
 
 :::{rh-faq}

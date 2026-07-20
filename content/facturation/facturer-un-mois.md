@@ -1,7 +1,7 @@
 # Billing a month, step by step
 
 :::{rh-description}
-Billing a month in a nursing home (MR/MRS) with Resthome, step by step — from the period to the eFact submission of the INAMI packages to the insurer, where to click.
+Billing a month in a nursing home (MR/MRS) with Resthome, step by step: from the period to the eFact submission of the INAMI packages to the insurer.
 :::
 
 :::{rh-faq}

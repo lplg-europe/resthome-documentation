@@ -1,7 +1,7 @@
 # The resident's private furniture
 
 :::{rh-description}
-Keep an inventory of the private furniture a resident brings into a nursing home (MR/MRS) with Resthome: add, reorder and archive furniture items on their record.
+Inventory the private furniture a resident brings into a nursing home (MR/MRS) with Resthome: add, reorder and archive furniture items on their record.
 :::
 
 :::{rh-faq}

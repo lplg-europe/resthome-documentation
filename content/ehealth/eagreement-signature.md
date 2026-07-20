@@ -1,7 +1,7 @@
 # Responsible practitioner and annex signatures
 
 :::{rh-description}
-eAgreement responsible practitioner and signing Annexes 7/10/11 in the app for a nursing home (MR/MRS): NIHII resolution and rule-compliant signing without printing.
+Sign eAgreement Annexes 7/10/11 in Resthome for a nursing home (MR/MRS): responsible practitioner, NIHII resolution and paperless, rule-compliant signing.
 :::
 
 :::{rh-faq}

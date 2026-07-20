@@ -1,7 +1,7 @@
 # The INAMI dependency allowance
 
 :::{rh-description}
-The INAMI dependency allowance in nursing homes, explained: from the Katz assessment to the category, to the amount billed to the health insurance fund, and the role of the OA agreement.
+The INAMI dependency allowance in nursing homes (MR/MRS): from the Katz assessment to the category, the amount billed to the insurer, and the OA agreement.
 :::
 
 :::{rh-faq}

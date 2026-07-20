@@ -1,7 +1,7 @@
 # Refused agreement (eAgreement) — causes and solutions
 
 :::{rh-description}
-Why an agreement notification (eAgreement) is refused by the health insurer and how to fix it in Resthome: NISS, insurability, document, Katz, duplicate, then resend.
+Why an eAgreement notification is refused by the health insurer and how to fix it in Resthome: NISS, insurability, document, Katz, duplicate, then resend.
 :::
 
 :::{rh-faq}

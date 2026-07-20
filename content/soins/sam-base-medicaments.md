@@ -5,7 +5,7 @@ howto_auto: true
 # The SAM medication database
 
 :::{rh-description}
-The Belgian SAM authentic-source database in Resthome: ATC reference, BCFI class, Black Triangle, SmPC/leaflet and the Search SAM wizard for the nursing home (MR/MRS).
+The Belgian SAM authentic-source database in Resthome: ATC, BCFI class, Black Triangle, SmPC/leaflet and the Search SAM wizard for a nursing home (MR/MRS).
 :::
 
 :::{rh-faq}
