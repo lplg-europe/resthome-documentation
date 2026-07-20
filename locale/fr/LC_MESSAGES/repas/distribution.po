@@ -7,88 +7,105 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Resthome docs \n"
+"Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-18 19:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
 "Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
 #: ../../content/repas/distribution.md:5
 msgid "The meal distribution round"
-msgstr ""
+msgstr "La tournée de distribution des repas"
 
 #: ../../content/repas/distribution.md:8
 msgid ""
-"Distributing meals in a nursing home (MR/MRS) with Resthome: a resident-"
-"by-resident tablet assistant, amount eaten, and printable sheets by "
-"sector."
+"Distributing meals in a nursing home (MR/MRS) with Resthome: a resident-by-"
+"resident tablet assistant, amount eaten, and printable sheets by sector."
 msgstr ""
+"Distribuer les repas en maison de repos (MR/MRS) avec Resthome : un "
+"assistant sur tablette résident par résident, la quantité mangée et des "
+"feuilles imprimables par secteur."
 
 #: ../../content/repas/distribution.md:12
 msgid "Where do you start the meal distribution round in Resthome?"
-msgstr ""
+msgstr "Où démarrer la tournée de distribution des repas dans Resthome ?"
 
 #: ../../content/repas/distribution.md:13
 msgid ""
 "In the Meals → Operations app. From a confirmed menu, click Quick "
-"distribution for the tablet assistant, or print the meal distribution "
-"sheet from the Action menu."
+"distribution for the tablet assistant, or print the meal distribution sheet "
+"from the Action menu."
 msgstr ""
+"Dans l'application Repas → Opérations. Depuis un menu confirmé, cliquez sur "
+"Distribution rapide pour l'assistant sur tablette, ou imprimez la feuille de"
+" distribution des repas depuis le menu Action."
 
 #: ../../content/repas/distribution.md:15
 msgid "How do you mark a resident during the round?"
-msgstr ""
+msgstr "Comment pointer un résident pendant la tournée ?"
 
 #: ../../content/repas/distribution.md:16
 msgid ""
-"The assistant presents residents one by one with four large buttons: "
-"Served, Skip, Absent and Room. A single tap records the service and "
-"automatically moves on to the next waiting resident."
+"The assistant presents residents one by one with four large buttons: Served,"
+" Skip, Absent and Room. A single tap records the service and automatically "
+"moves on to the next waiting resident."
 msgstr ""
+"L'assistant présente les résidents un par un avec quatre grands boutons : "
+"Servi, Passer, Absent et Chambre. Une seule pression enregistre le service "
+"et passe automatiquement au résident suivant en attente."
 
 #: ../../content/repas/distribution.md:18
 msgid "How do you record the amount a resident has eaten?"
-msgstr ""
+msgstr "Comment enregistrer la quantité mangée par un résident ?"
 
 #: ../../content/repas/distribution.md:19
 #, python-format
 msgid ""
 "On the resident's meal service (Meals → Operations → Meal services), the "
-"Amount eaten field offers Not eaten, 25%, 50%, 75% or All eaten. This "
-"value feeds nutritional tracking."
+"Amount eaten field offers Not eaten, 25%, 50%, 75% or All eaten. This value "
+"feeds nutritional tracking."
 msgstr ""
+"Sur le service de repas du résident (Repas → Opérations → Services de "
+"repas), le champ Quantité mangée propose Rien mangé, 25%, 50%, 75% ou Tout "
+"mangé. Cette valeur alimente le suivi nutritionnel."
 
 #: ../../content/repas/distribution.md:21
 msgid "What are the printable distribution sheets for?"
-msgstr ""
+msgstr "À quoi servent les feuilles de distribution imprimables ?"
 
 #: ../../content/repas/distribution.md:22
 msgid ""
-"They are paper sheets, one page per sector, with checkboxes (dining room,"
-" room, absent, served) and a supervisor signature line — a fallback for "
-"when the tablet is not available."
+"They are paper sheets, one page per sector, with checkboxes (dining room, "
+"room, absent, served) and a supervisor signature line — a fallback for when "
+"the tablet is not available."
 msgstr ""
+"Ce sont des feuilles papier, une page par secteur, avec des cases à cocher "
+"(salle à manger, chambre, absent, servi) et une ligne de signature du "
+"responsable — une solution de repli lorsque la tablette n'est pas "
+"disponible."
 
 #: ../../content/repas/distribution.md:24
 msgid "Can the round be filtered by sector or by location?"
-msgstr ""
+msgstr "La tournée peut-elle être filtrée par secteur ou par lieu ?"
 
 #: ../../content/repas/distribution.md:25
 msgid ""
-"Yes. In the assistant, choose a sector before clicking Load, and narrow "
-"it down to the dining room or in-room meals if needed."
+"Yes. In the assistant, choose a sector before clicking Load, and narrow it "
+"down to the dining room or in-room meals if needed."
 msgstr ""
+"Oui. Dans l'assistant, choisissez un secteur avant de cliquer sur Charger, "
+"et restreignez à la salle à manger ou aux repas en chambre si nécessaire."
 
 #: ../../content/repas/distribution.md:27
 msgid "What happens if a resident eats very little?"
-msgstr ""
+msgstr "Que se passe-t-il si un résident mange très peu ?"
 
 #: ../../content/repas/distribution.md:28
 #, python-format
@@ -97,246 +114,298 @@ msgid ""
 "notifications, Resthome can send an alert. The value also lowers the "
 "nutritional coverage shown on the resident's record."
 msgstr ""
+"Si le résident a mangé 25% ou moins et que sa famille est abonnée aux "
+"notifications, Resthome peut envoyer une alerte. La valeur diminue aussi la "
+"couverture nutritionnelle affichée sur la fiche du résident."
 
 #: ../../content/repas/distribution.md:31
 msgid ""
-"The **distribution round** follows each meal all the way to the resident:"
-" who eats **where**, who has been **served**, who is **absent**, and "
-"**how much** each one has eaten. Resthome offers two complementary tools,"
-" both in the **Meals → Operations** app:"
+"The **distribution round** follows each meal all the way to the resident: "
+"who eats **where**, who has been **served**, who is **absent**, and **how "
+"much** each one has eaten. Resthome offers two complementary tools, both in "
+"the **Meals → Operations** app:"
 msgstr ""
+"La **tournée de distribution** suit chaque repas jusqu'au résident : qui "
+"mange **où**, qui a été **servi**, qui est **absent** et **combien** chacun "
+"a mangé. Resthome propose deux outils complémentaires, tous deux dans "
+"l'application **Repas → Opérations** :"
 
 #: ../../content/repas/distribution.md:36
 msgid ""
 "the **tablet assistant** (**Quick distribution** button) to check off "
 "residents **one by one** on screen;"
 msgstr ""
+"l'**assistant sur tablette** (bouton **Distribution rapide**) pour pointer "
+"les résidents **un par un** à l'écran ;"
 
 #: ../../content/repas/distribution.md:38
-msgid "the **printable distribution sheets** by sector, as a **paper** solution."
+msgid ""
+"the **printable distribution sheets** by sector, as a **paper** solution."
 msgstr ""
+"les **feuilles de distribution imprimables** par secteur, comme solution "
+"**papier**."
 
 #: ../../content/repas/distribution.md:40
 msgid "Before distributing"
-msgstr ""
+msgstr "Avant de distribuer"
 
 #: ../../content/repas/distribution.md:43
 msgid ""
-"The meal **menu** must be in the **Confirmed** state. The **meal "
-"services** (one record per resident and per meal) are created "
-"automatically when you start distribution — no need to enter them by "
-"hand."
+"The meal **menu** must be in the **Confirmed** state. The **meal services** "
+"(one record per resident and per meal) are created automatically when you "
+"start distribution — no need to enter them by hand."
 msgstr ""
+"Le **menu** du repas doit être à l'état **Confirmé**. Les **services de "
+"repas** (un enregistrement par résident et par repas) sont créés "
+"automatiquement au démarrage de la distribution — inutile de les saisir à la"
+" main."
 
 #: ../../content/repas/distribution.md:48
 msgid "1. Open the assistant from the confirmed menu"
-msgstr ""
+msgstr "1. Ouvrir l'assistant depuis le menu confirmé"
 
 #: ../../content/repas/distribution.md:50
 msgid ""
 "Go to **Meals → Operations → Menus** and open the menu for the meal "
 "concerned."
 msgstr ""
+"Allez dans **Repas → Opérations → Menus** et ouvrez le menu du repas "
+"concerné."
 
 #: ../../content/repas/distribution.md:51
 msgid ""
-"If it is still a draft, click **Confirm**: the **Start service** and "
-"**Quick distribution** buttons only appear on a menu in the **Confirmed**"
-" state."
+"If it is still a draft, click **Confirm**: the **Start service** and **Quick"
+" distribution** buttons only appear on a menu in the **Confirmed** state."
 msgstr ""
+"S'il est encore en brouillon, cliquez sur **Confirmer** : les boutons "
+"**Démarrer le service** et **Distribution rapide** n'apparaissent que sur un"
+" menu à l'état **Confirmé**."
 
 #: ../../content/repas/distribution.md:54
 msgid ""
-"Click **Quick distribution** (tablet icon). The assistant opens in a "
-"full-width window, suited to a touch screen."
+"Click **Quick distribution** (tablet icon). The assistant opens in a full-"
+"width window, suited to a touch screen."
 msgstr ""
+"Cliquez sur **Distribution rapide** (icône tablette). L'assistant s'ouvre "
+"dans une fenêtre pleine largeur, adaptée à un écran tactile."
 
 #: ../../content/repas/distribution.md:57
 msgid "Start service or Quick distribution?"
-msgstr ""
+msgstr "Démarrer le service ou Distribution rapide ?"
 
 #: ../../content/repas/distribution.md:60
 msgid ""
 "**Start service** creates the meal services for all residents and opens "
 "their **list**. **Quick distribution** does the same preparation, then "
-"launches the check-off **assistant** directly. For the round, use **Quick"
-" distribution**."
+"launches the check-off **assistant** directly. For the round, use **Quick "
+"distribution**."
 msgstr ""
+"**Démarrer le service** crée les services de repas pour tous les résidents "
+"et ouvre leur **liste**. **Distribution rapide** effectue la même "
+"préparation, puis lance directement l'**assistant** de pointage. Pour la "
+"tournée, utilisez **Distribution rapide**."
 
 #: ../../content/repas/distribution.md:67
 msgid "2. Filter and load the round"
-msgstr ""
+msgstr "2. Filtrer et charger la tournée"
 
 #: ../../content/repas/distribution.md:69
 msgid "At the top of the assistant, three settings frame the round:"
-msgstr ""
+msgstr "En haut de l'assistant, trois réglages cadrent la tournée :"
 
 #: ../../content/repas/distribution.md:71
 msgid "**Menu** — pre-filled with the menu you started from."
-msgstr ""
+msgstr "**Menu** — prérempli avec le menu depuis lequel vous êtes parti."
 
 #: ../../content/repas/distribution.md:72
-msgid "**Sector** — optional: limits the round to one sector (a wing, a floor)."
+msgid ""
+"**Sector** — optional: limits the round to one sector (a wing, a floor)."
 msgstr ""
+"**Secteur** — facultatif : limite la tournée à un secteur (une aile, un "
+"étage)."
 
 #: ../../content/repas/distribution.md:73
 msgid ""
-"**Location** — restricts to residents served in the **dining room** or "
-"**in their room**; leave it on all locations to see everyone."
+"**Location** — restricts to residents served in the **dining room** or **in "
+"their room**; leave it on all locations to see everyone."
 msgstr ""
+"**Lieu** — restreint aux résidents servis en **salle à manger** ou **en "
+"chambre** ; laissez sur tous les lieux pour voir tout le monde."
 
 #: ../../content/repas/distribution.md:76
 msgid ""
 "Click **Load** to (re)build the list. It is sorted by **sector**, then "
-"**room**, then **resident**, in the order in which you will do your "
-"round."
+"**room**, then **resident**, in the order in which you will do your round."
 msgstr ""
+"Cliquez sur **Charger** pour (re)construire la liste. Elle est triée par "
+"**secteur**, puis **chambre**, puis **résident**, dans l'ordre où vous ferez"
+" votre tournée."
 
 #: ../../content/repas/distribution.md:79
 msgid "3. Review the residents"
-msgstr ""
+msgstr "3. Passer les résidents en revue"
 
 #: ../../content/repas/distribution.md:81
 msgid ""
 "Tap a resident to open their **card**: photo, **room**, **sector** and "
 "**diets**. Four large buttons let you check off in a single tap:"
 msgstr ""
+"Touchez un résident pour ouvrir sa **carte** : photo, **chambre**, "
+"**secteur** et **régimes**. Quatre grands boutons permettent de pointer "
+"d'une seule pression :"
 
 #: ../../content/repas/distribution.md:57
 msgid "Button"
-msgstr ""
+msgstr "Bouton"
 
 #: ../../content/repas/distribution.md:57
 msgid "Effect"
-msgstr ""
+msgstr "Effet"
 
 #: ../../content/repas/distribution.md:57
 msgid "**Served**"
-msgstr ""
+msgstr "**Servi**"
 
 #: ../../content/repas/distribution.md:57
-msgid "Marks the meal as **served** and moves on to the next waiting resident."
+msgid ""
+"Marks the meal as **served** and moves on to the next waiting resident."
 msgstr ""
+"Marque le repas comme **servi** et passe au résident suivant en attente."
 
 #: ../../content/repas/distribution.md:57
 msgid "**Skip**"
-msgstr ""
+msgstr "**Passer**"
 
 #: ../../content/repas/distribution.md:57
 msgid ""
 "Moves on to the next resident **without changing anything** (to handle "
 "later)."
 msgstr ""
+"Passe au résident suivant **sans rien changer** (à traiter plus tard)."
 
 #: ../../content/repas/distribution.md:57
 msgid "**Absent**"
-msgstr ""
+msgstr "**Absent**"
 
 #: ../../content/repas/distribution.md:57
 msgid "Marks the resident **absent** (not served) and moves on to the next."
-msgstr ""
+msgstr "Marque le résident **absent** (non servi) et passe au suivant."
 
 #: ../../content/repas/distribution.md:57
 msgid "**Room**"
-msgstr ""
+msgstr "**Chambre**"
 
 #: ../../content/repas/distribution.md:57
 msgid "Indicates the resident eats **in their room** and stays on their card."
-msgstr ""
+msgstr "Indique que le résident mange **en chambre** et reste sur sa carte."
 
 #: ../../content/repas/distribution.md:91
 msgid ""
-"The **Full list** tab shows all residents with a **colour code**: "
-"**green** = served, **greyed out** = absent, **red** = critical alert, "
-"**orange** = warning. Each row also carries its **Served** and **Absent**"
-" buttons for a quick check-off without opening the card."
+"The **Full list** tab shows all residents with a **colour code**: **green** "
+"= served, **greyed out** = absent, **red** = critical alert, **orange** = "
+"warning. Each row also carries its **Served** and **Absent** buttons for a "
+"quick check-off without opening the card."
 msgstr ""
+"L'onglet **Liste complète** affiche tous les résidents avec un **code "
+"couleur** : **vert** = servi, **grisé** = absent, **rouge** = alerte "
+"critique, **orange** = avertissement. Chaque ligne porte aussi ses boutons "
+"**Servi** et **Absent** pour un pointage rapide sans ouvrir la carte."
 
 #: ../../content/repas/distribution.md:96
 msgid ""
 "At the top, a **progress** banner counts live: **served / total**, "
 "**waiting**, **absent** and the completion percentage."
 msgstr ""
+"En haut, un bandeau de **progression** compte en direct : **servis / "
+"total**, **en attente**, **absents** et le pourcentage d'avancement."
 
 #: ../../content/repas/distribution.md:99
 msgid "Critical allergy alert"
-msgstr ""
+msgstr "Alerte allergie critique"
 
 #: ../../content/repas/distribution.md:102
 msgid ""
-"A **red banner** flags a serious incompatibility between a planned dish "
-"and the resident's profile. Resthome **refuses to mark as \"Served\"** a "
-"service that includes a **critical allergen** until the dishes have been "
-"adapted. See [Menus, diets and hydration](menus-regimes.md)."
+"A **red banner** flags a serious incompatibility between a planned dish and "
+"the resident's profile. Resthome **refuses to mark as \"Served\"** a service"
+" that includes a **critical allergen** until the dishes have been adapted. "
+"See [Menus, diets and hydration](menus-regimes.md)."
 msgstr ""
+"Un **bandeau rouge** signale une incompatibilité grave entre un plat prévu "
+"et le profil du résident. Resthome **refuse de marquer comme « Servi »** un "
+"service comportant un **allergène critique** tant que les plats n'ont pas "
+"été adaptés. Voir [Menus, régimes et hydratation](menus-regimes.md)."
 
 #: ../../content/repas/distribution.md:110
 msgid "4. Record the amount eaten"
-msgstr ""
+msgstr "4. Enregistrer la quantité mangée"
 
 #: ../../content/repas/distribution.md:112
 msgid ""
-"The **percentage eaten** is recorded on the resident's **meal service** "
-"(it is not part of the check-off assistant):"
+"The **percentage eaten** is recorded on the resident's **meal service** (it "
+"is not part of the check-off assistant):"
 msgstr ""
+"Le **pourcentage mangé** s'enregistre sur le **service de repas** du "
+"résident (il ne fait pas partie de l'assistant de pointage) :"
 
 #: ../../content/repas/distribution.md:115
 msgid ""
 "Open **Meals → Operations → Meal services** and select the resident's "
 "service."
 msgstr ""
+"Ouvrez **Repas → Opérations → Services de repas** et sélectionnez le service"
+" du résident."
 
 #: ../../content/repas/distribution.md:116
 msgid "Fill in the **Amount eaten** field:"
-msgstr ""
+msgstr "Renseignez le champ **Quantité mangée** :"
 
 #: ../../content/repas/distribution.md:99
 msgid "Option"
-msgstr ""
+msgstr "Option"
 
 #: ../../content/repas/distribution.md:99
 msgid "Meaning"
-msgstr ""
+msgstr "Signification"
 
 #: ../../content/repas/distribution.md:99
 msgid "**Not eaten**"
-msgstr ""
+msgstr "**Rien mangé**"
 
 #: ../../content/repas/distribution.md:99
 msgid "The resident ate nothing."
-msgstr ""
+msgstr "Le résident n'a rien mangé."
 
 #: ../../content/repas/distribution.md:99
 msgid "**25%**"
-msgstr ""
+msgstr "**25%**"
 
 #: ../../content/repas/distribution.md:99
 msgid "About a quarter of the meal."
-msgstr ""
+msgstr "Environ un quart du repas."
 
 #: ../../content/repas/distribution.md:99
 msgid "**50%**"
-msgstr ""
+msgstr "**50%**"
 
 #: ../../content/repas/distribution.md:99
 msgid "About half."
-msgstr ""
+msgstr "Environ la moitié."
 
 #: ../../content/repas/distribution.md:99
 msgid "**75%**"
-msgstr ""
+msgstr "**75%**"
 
 #: ../../content/repas/distribution.md:99
 msgid "About three quarters."
-msgstr ""
+msgstr "Environ trois quarts."
 
 #: ../../content/repas/distribution.md:99
 msgid "**All eaten**"
-msgstr ""
+msgstr "**Tout mangé**"
 
 #: ../../content/repas/distribution.md:99
 msgid "Meal finished."
-msgstr ""
+msgstr "Repas terminé."
 
 #: ../../content/repas/distribution.md:126
 msgid ""
@@ -345,159 +414,205 @@ msgid ""
 "**nutritional coverage** on the resident's record. See [Nutritional "
 "tracking](suivi-nutritionnel.md)."
 msgstr ""
+"La quantité mangée n'est pas qu'une note : combinée aux plats servis, elle "
+"calcule l'**apport réel** (énergie, protéines) qui alimente la **couverture "
+"nutritionnelle** sur la fiche du résident. Voir [Suivi nutritionnel](suivi-"
+"nutritionnel.md)."
 
 #: ../../content/repas/distribution.md:131
 msgid "Low intake and families"
-msgstr ""
+msgstr "Faible apport et familles"
 
 #: ../../content/repas/distribution.md:134
 #, python-format
 msgid ""
-"If a resident has eaten **25% or less** and their family is **subscribed "
-"to meal notifications**, Resthome can send an automatic **alert**. This "
-"option is enabled per resident. See [Family portal and kiosk](portail-"
-"familles.md)."
+"If a resident has eaten **25% or less** and their family is **subscribed to "
+"meal notifications**, Resthome can send an automatic **alert**. This option "
+"is enabled per resident. See [Family portal and kiosk](portail-familles.md)."
 msgstr ""
+"Si un résident a mangé **25% ou moins** et que sa famille est **abonnée aux "
+"notifications de repas**, Resthome peut envoyer une **alerte** automatique. "
+"Cette option s'active par résident. Voir [Portail des familles et "
+"kiosque](portail-familles.md)."
 
 #: ../../content/repas/distribution.md:139
 msgid "5. Close the round"
-msgstr ""
+msgstr "5. Clôturer la tournée"
 
 #: ../../content/repas/distribution.md:141
 msgid "Click **Finish** (or **Close**) to leave the assistant."
-msgstr ""
+msgstr "Cliquez sur **Terminer** (ou **Fermer**) pour quitter l'assistant."
 
 #: ../../content/repas/distribution.md:142
 msgid ""
-"On the meal menu, you can then click **Mark served** to move the menu to "
-"the **Served** state."
+"On the meal menu, you can then click **Mark served** to move the menu to the"
+" **Served** state."
 msgstr ""
+"Sur le menu du repas, vous pouvez ensuite cliquer sur **Marquer servi** pour"
+" faire passer le menu à l'état **Servi**."
 
 #: ../../content/repas/distribution.md:145
 msgid "Traceability"
-msgstr ""
+msgstr "Traçabilité"
 
 #: ../../content/repas/distribution.md:148
 msgid ""
 "A **served** service and a **Served** menu can no longer be **deleted**: "
-"Resthome keeps them for traceability. Instead, correct the information on"
-" the existing record."
+"Resthome keeps them for traceability. Instead, correct the information on "
+"the existing record."
 msgstr ""
+"Un service **servi** et un menu **Servi** ne peuvent plus être **supprimés**"
+" : Resthome les conserve pour la traçabilité. Corrigez plutôt l'information "
+"sur l'enregistrement existant."
 
 #: ../../content/repas/distribution.md:153
 msgid "The distribution board (by location)"
-msgstr ""
+msgstr "Le tableau de distribution (par lieu)"
 
 #: ../../content/repas/distribution.md:155
 msgid ""
-"In addition to the tablet assistant, **Meals → Operations → "
-"Distribution** opens a **kanban board** of the day's services **grouped "
-"by location** (dining room, in-room, absent). Each card shows the photo, "
-"the **room**, the **sector**, the **diet** badge and, where applicable, "
-"an **Alert**, **Warning** or **Served** badge."
+"In addition to the tablet assistant, **Meals → Operations → Distribution** "
+"opens a **kanban board** of the day's services **grouped by location** "
+"(dining room, in-room, absent). Each card shows the photo, the **room**, the"
+" **sector**, the **diet** badge and, where applicable, an **Alert**, "
+"**Warning** or **Served** badge."
 msgstr ""
+"En complément de l'assistant sur tablette, **Repas → Opérations → "
+"Distribution** ouvre un **tableau kanban** des services du jour **regroupés "
+"par lieu** (salle à manger, en chambre, absent). Chaque carte affiche la "
+"photo, la **chambre**, le **secteur**, le badge **régime** et, le cas "
+"échéant, un badge **Alerte**, **Avertissement** ou **Servi**."
 
 #: ../../content/repas/distribution.md:161
 msgid ""
 "From the meal services **list**, two header buttons let you act on a "
-"**multiple selection**: **Mark served** and **Mark absent**. The "
-"**Action** menu also offers to mark services as **in the dining room** or"
-" **in the room**."
+"**multiple selection**: **Mark served** and **Mark absent**. The **Action** "
+"menu also offers to mark services as **in the dining room** or **in the "
+"room**."
 msgstr ""
+"Depuis la **liste** des services de repas, deux boutons d'en-tête permettent"
+" d'agir sur une **sélection multiple** : **Marquer servi** et **Marquer "
+"absent**. Le menu **Action** propose aussi de marquer les services **en "
+"salle à manger** ou **en chambre**."
 
 #: ../../content/repas/distribution.md:165
 msgid "The printable sheets by sector"
-msgstr ""
+msgstr "Les feuilles imprimables par secteur"
 
 #: ../../content/repas/distribution.md:167
 msgid ""
-"When you prefer **paper**, print the sheets from a **menu** (form or list"
-" view), via the **Action** menu: you can print the **distribution sheet**"
-" for one meal, or **all the sheets for the day**. Resthome creates the "
-"missing services along the way, then opens the document."
+"When you prefer **paper**, print the sheets from a **menu** (form or list "
+"view), via the **Action** menu: you can print the **distribution sheet** for"
+" one meal, or **all the sheets for the day**. Resthome creates the missing "
+"services along the way, then opens the document."
 msgstr ""
+"Quand vous préférez le **papier**, imprimez les feuilles depuis un **menu** "
+"(vue formulaire ou liste), via le menu **Action** : vous pouvez imprimer la "
+"**feuille de distribution** d'un repas, ou **toutes les feuilles de la "
+"journée**. Resthome crée au passage les services manquants, puis ouvre le "
+"document."
 
 #: ../../content/repas/distribution.md:172
 msgid "The sheet is laid out as follows:"
-msgstr ""
+msgstr "La feuille se présente comme suit :"
 
 #: ../../content/repas/distribution.md:174
 msgid ""
-"**one page per sector**, with a header: **sector**, **meal type**, "
-"**date** and **number of residents**;"
+"**one page per sector**, with a header: **sector**, **meal type**, **date** "
+"and **number of residents**;"
 msgstr ""
+"**une page par secteur**, avec un en-tête : **secteur**, **type de repas**, "
+"**date** et **nombre de résidents** ;"
 
 #: ../../content/repas/distribution.md:176
 msgid ""
 "a table: **#**, **Resident**, **Room**, **Diets / Allergies** (**blue** "
-"badges for diets, **red** for allergies, \"**!**\" for a critical alert),"
-" then **checkboxes** **Dining room**, **Room**, **Absent** and "
-"**Served**, and a **Notes** column;"
+"badges for diets, **red** for allergies, \"**!**\" for a critical alert), "
+"then **checkboxes** **Dining room**, **Room**, **Absent** and **Served**, "
+"and a **Notes** column;"
 msgstr ""
+"un tableau : **#**, **Résident**, **Chambre**, **Régimes / Allergies** "
+"(badges **bleus** pour les régimes, **rouges** pour les allergies, « **!** »"
+" pour une alerte critique), puis des **cases à cocher** **Salle à manger**, "
+"**Chambre**, **Absent** et **Servi**, et une colonne **Notes** ;"
 
 #: ../../content/repas/distribution.md:180
 msgid ""
 "a footer with a **Supervisor signature** line and the **print date and "
 "time**."
 msgstr ""
+"un pied de page avec une ligne **Signature du responsable** et la **date et "
+"l'heure d'impression**."
 
 #: ../../content/repas/distribution.md:182
 msgid ""
-"It is a **field checklist**: staff tick the boxes as the round "
-"progresses, have the supervisor sign, then transfer the information into "
-"Resthome."
+"It is a **field checklist**: staff tick the boxes as the round progresses, "
+"have the supervisor sign, then transfer the information into Resthome."
 msgstr ""
+"C'est une **liste de contrôle de terrain** : le personnel coche les cases au"
+" fil de la tournée, fait signer le responsable, puis reporte l'information "
+"dans Resthome."
 
 #: ../../content/repas/distribution.md:187
 msgid "Key points to remember"
-msgstr ""
+msgstr "Points clés à retenir"
 
 #: ../../content/repas/distribution.md:189
 msgid ""
 "The round lives in **Meals → Operations**; it starts from a menu in the "
 "**Confirmed** state."
 msgstr ""
+"La tournée vit dans **Repas → Opérations** ; elle démarre depuis un menu à "
+"l'état **Confirmé**."
 
 #: ../../content/repas/distribution.md:191
 msgid ""
 "**Quick distribution** is the tablet assistant: four buttons **Served**, "
-"**Skip**, **Absent**, **Room**, with automatic advance to the next "
-"resident."
+"**Skip**, **Absent**, **Room**, with automatic advance to the next resident."
 msgstr ""
+"**Distribution rapide** est l'assistant sur tablette : quatre boutons "
+"**Servi**, **Passer**, **Absent**, **Chambre**, avec passage automatique au "
+"résident suivant."
 
 #: ../../content/repas/distribution.md:193
 msgid ""
 "The **Amount eaten** (Not eaten → All eaten) is noted on the **meal "
 "service** and feeds **nutritional tracking**."
 msgstr ""
+"La **Quantité mangée** (Rien mangé → Tout mangé) se note sur le **service de"
+" repas** et alimente le **suivi nutritionnel**."
 
 #: ../../content/repas/distribution.md:195
 msgid ""
-"The **printable sheets by sector** (checkboxes + signature) are the paper"
-" fallback."
+"The **printable sheets by sector** (checkboxes + signature) are the paper "
+"fallback."
 msgstr ""
+"Les **feuilles imprimables par secteur** (cases à cocher + signature) sont "
+"la solution de repli papier."
 
 #: ../../content/repas/distribution.md:197
-msgid "A **served** service or menu cannot be deleted: Resthome keeps the record."
+msgid ""
+"A **served** service or menu cannot be deleted: Resthome keeps the record."
 msgstr ""
+"Un service ou un menu **servi** ne peut être supprimé : Resthome conserve "
+"l'enregistrement."
 
 #: ../../content/repas/distribution.md:199
 msgid "Learn more"
-msgstr ""
+msgstr "En savoir plus"
 
 #: ../../content/repas/distribution.md:201
 msgid "[Menus, diets and hydration](menus-regimes.md)"
-msgstr ""
+msgstr "[Menus, régimes et hydratation](menus-regimes.md)"
 
 #: ../../content/repas/distribution.md:202
 msgid "[Nutritional tracking](suivi-nutritionnel.md)"
-msgstr ""
+msgstr "[Suivi nutritionnel](suivi-nutritionnel.md)"
 
 #: ../../content/repas/distribution.md:203
 msgid "[Family portal and kiosk](portail-familles.md)"
-msgstr ""
+msgstr "[Portail des familles et kiosque](portail-familles.md)"
 
 #: ../../content/repas/distribution.md:204
 msgid "[Meals app overview](index.md)"
-msgstr ""
-
+msgstr "[Vue d'ensemble de l'application Repas](index.md)"

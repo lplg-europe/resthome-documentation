@@ -220,6 +220,14 @@
 
 /* ---------- Barre latérale ---------- */
 .md-sidebar--primary { border-right: 1px solid var(--lplg-border); }
+/* Desktop : masquer le sommaire de page intégré au tiroir mobile (label + nav
+   pour "__toc"). Pour la page active il doublonne le lien dans la barre gauche
+   (deux pilules bleues « Support et assistance »). Le sommaire reste en colonne
+   de droite. */
+@media screen and (min-width: 76.25em) {
+  .md-nav--primary label.md-nav__link[for="__toc"],
+  .md-nav--primary label.md-nav__link[for="__toc"] ~ .md-nav { display: none !important; }
+}
 /* Fond léger teinté bleu (teinte claire de la couleur secondaire). */
 @media screen and (min-width: 76.25em) {
   .md-sidebar--primary .md-nav--primary { background: #f6f8ff; }
@@ -257,15 +265,30 @@
   mask: var(--si) center / contain no-repeat;
 }
 .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link--active::before { opacity: 1; }
-.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(1) > .md-nav__link { --si: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z'/></svg>"); }
-.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(2) > .md-nav__link { --si: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 2C8 6 8 10 9 14l1 1 4 4c4-1 8-1 12-5-4-4-8-4-12-2l-2-2c-2-4 0-6 0-6zm-3 15-2 2-1-3 2-1z'/></svg>"); }
-.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(3) > .md-nav__link { --si: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 12a4 4 0 100-8 4 4 0 000 8zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/></svg>"); }
-.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(4) > .md-nav__link { --si: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M6 2a2 2 0 00-2 2v18l3-2 3 2 3-2 3 2 3-2V4a2 2 0 00-2-2H6zm1 5h10v2H7V7zm0 4h10v2H7v-2z'/></svg>"); }
-.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(5) > .md-nav__link { --si: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M20.5 9.5C20.5 12 12 20 12 20S3.5 12 3.5 9.5 5.5 5 8 5c1.5 0 3 1 4 2.5C13 6 14.5 5 16 5c2.5 0 4.5 2 4.5 4.5z'/></svg>"); }
-.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(6) > .md-nav__link { --si: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M19 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2zm-2 10h-4v4h-2v-4H7v-2h4V7h2v4h4v2z'/></svg>"); }
-.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(7) > .md-nav__link { --si: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M8.1 13.3l2.8-2.8L3.9 3.5c-1.5 1.6-1.5 4.1 0 5.7l4.2 4.1zm6.8-1.8c1.5.7 3.7.2 5.3-1.4 1.9-1.9 2.3-4.6.8-6.1s-4.2-1.1-6.1.8c-1.6 1.6-2.1 3.7-1.4 5.3L3.7 19.9l1.4 1.4L12 14.4l6.9 6.9 1.4-1.4L13.4 13l1.5-1.5z'/></svg>"); }
-.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(8) > .md-nav__link { --si: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 8a4 4 0 100 8 4 4 0 000-8zm9 5v-2l-2.3-.5a7 7 0 00-.7-1.7l1.3-2-1.4-1.4-2 1.3a7 7 0 00-1.7-.7L13 3h-2l-.5 2.3a7 7 0 00-1.7.7l-2-1.3-1.4 1.4 1.3 2a7 7 0 00-.7 1.7L3 11v2l2.3.5c.2.6.4 1.2.7 1.7l-1.3 2 1.4 1.4 2-1.3c.5.3 1.1.5 1.7.7L11 21h2l.5-2.3c.6-.2 1.2-.4 1.7-.7l2 1.3 1.4-1.4-1.3-2c.3-.5.5-1.1.7-1.7L21 13z'/></svg>"); }
-.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(9) > .md-nav__link { --si: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M14 3v2h3.6l-9.8 9.8 1.4 1.4L19 6.4V10h2V3h-7zM19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7h-2v7z'/></svg>"); }
+/* Sections avec une VRAIE icône d'app (PNG couleur) : Résidents, Facturation,
+   Soins, Repas — image couleur, pas de masque monochrome. */
+.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(3) > .md-nav__link::before,
+.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(4) > .md-nav__link::before,
+.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(6) > .md-nav__link::before,
+.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(7) > .md-nav__link::before {
+  -webkit-mask: none; mask: none;
+  background: var(--app-icon) center / contain no-repeat;
+  opacity: 1; width: 1.15rem; height: 1.15rem; border-radius: 3px;
+}
+.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(3) > .md-nav__link { --app-icon: url("app-icons/residents.png"); }  /* Résidents (healthcare_base) */
+.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(4) > .md-nav__link { --app-icon: url("app-icons/billing.png"); }    /* Facturation (billing) */
+.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(6) > .md-nav__link { --app-icon: url("app-icons/care.png"); }       /* Soins (medical) */
+.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(7) > .md-nav__link { --app-icon: url("app-icons/meals.png"); }      /* Repas (meal) */
+
+/* Sections/pages en icône monochrome (pas d'icône d'app dédiée). */
+.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(1) > .md-nav__link { --si: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z'/></svg>"); }      /* Premiers pas */
+.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(2) > .md-nav__link { --si: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 2C8 6 8 10 9 14l1 1 4 4c4-1 8-1 12-5-4-4-8-4-12-2l-2-2c-2-4 0-6 0-6zm-3 15-2 2-1-3 2-1z'/></svg>"); }      /* Parcours */
+.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(5) > .md-nav__link { --si: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M20.5 9.5C20.5 12 12 20 12 20S3.5 12 3.5 9.5 5.5 5 8 5c1.5 0 3 1 4 2.5C13 6 14.5 5 16 5c2.5 0 4.5 2 4.5 4.5z'/></svg>"); }      /* eHealth (cœur) */
+.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(8) > .md-nav__link { --si: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M6 2h8l4 4v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm7 1.5V8h4.5L13 3.5zM8 13h8v-2H8zm0 4h8v-2H8z'/></svg>"); }      /* Documents (fichier) */
+.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(9) > .md-nav__link { --si: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 8a4 4 0 100 8 4 4 0 000-8zm9 5v-2l-2.3-.5a7 7 0 00-.7-1.7l1.3-2-1.4-1.4-2 1.3a7 7 0 00-1.7-.7L13 3h-2l-.5 2.3a7 7 0 00-1.7.7l-2-1.3-1.4 1.4 1.3 2a7 7 0 00-.7 1.7L3 11v2l2.3.5c.2.6.4 1.2.7 1.7l-1.3 2 1.4 1.4 2-1.3c.5.3 1.1.5 1.7.7L11 21h2l.5-2.3c.6-.2 1.2-.4 1.7-.7l2 1.3 1.4-1.4-1.3-2c.3-.5.5-1.1.7-1.7L21 13z'/></svg>"); }      /* Configuration (engrenage) */
+.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(10) > .md-nav__link { --si: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 2a10 10 0 100 20 10 10 0 000-20zm0 15.5a1.3 1.3 0 110-2.6 1.3 1.3 0 010 2.6zm1.7-6.3c-.6.5-1 .9-1.1 1.5 0 .2-.1.5-.1.8h-2c0-.4 0-.8.1-1.1.2-.7.7-1.2 1.2-1.6.6-.5.9-.8.9-1.4a1.4 1.4 0 00-2.8 0H8a3.4 3.4 0 116.8 0c0 .9-.5 1.5-1.1 2z'/></svg>"); }      /* FAQ (aide) */
+.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(11) > .md-nav__link { --si: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M6 2a2 2 0 00-2 2v16a2 2 0 002 2h13V2H6zm0 16h11v2H6a1 1 0 010-2zM8 5h7v2H8z'/></svg>"); }      /* Glossaire (livre) */
+.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(12) > .md-nav__link { --si: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 1a9 9 0 00-9 9v6a3 3 0 003 3h2v-8H5v-1a7 7 0 0114 0v1h-3v8h2a3 3 0 003-3v-6a9 9 0 00-9-9z'/></svg>"); }      /* Support (casque) */
 
 /* ---------- Cartes de la page d'accueil ---------- */
 .md-typeset .grid.cards > ul > li,

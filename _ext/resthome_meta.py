@@ -114,6 +114,12 @@ def _ld(obj):
 
 
 def html_page_context(app, pagename, templatename, context, doctree):
+    # Pages utilitaires générées par Sphinx (index alpha, recherche) : contenu
+    # mince, non canonique, à exclure de l'indexation.
+    if pagename in ("genindex", "search"):
+        context["metatags"] = ((context.get("metatags") or "")
+                               + '\n<meta name="robots" content="noindex, follow">')
+        return
     if doctree is None:
         return
     cfg = app.config

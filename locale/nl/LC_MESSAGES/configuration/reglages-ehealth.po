@@ -7,148 +7,188 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Resthome docs \n"
+"Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-18 19:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: nl\n"
 "Language-Team: nl <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
 #: ../../content/configuration/reglages-ehealth.md:1
 msgid "eHealth and eFact Settings"
-msgstr ""
+msgstr "eHealth- en eFact-instellingen"
 
 #: ../../content/configuration/reglages-ehealth.md:4
 msgid ""
 "Configure your nursing home's (MR/MRS) eHealth and eFact settings: "
-"certificate, platform, Walloon Account C, CIN license and invoicing "
-"header."
+"certificate, platform, Walloon Account C, CIN license and invoicing header."
 msgstr ""
+"Configureer de eHealth- en eFact-instellingen van uw woonzorgcentrum "
+"(MR/MRS): certificaat, platform, Waalse Rekening C, CIN-licentie en "
+"facturatiehoofding."
 
 #: ../../content/configuration/reglages-ehealth.md:8
 msgid "Should I choose the Acceptance or Production environment?"
-msgstr ""
+msgstr "Moet ik de omgeving Acceptatie of Productie kiezen?"
 
 #: ../../content/configuration/reglages-ehealth.md:9
 msgid ""
-"Stay on Acceptance (test servers, no real data) as long as your "
-"submissions have not been validated by the CIN and AViQ. Switch to "
-"Production only once accreditation is obtained: from then on, submissions"
-" actually bill the health insurance funds."
+"Stay on Acceptance (test servers, no real data) as long as your submissions "
+"have not been validated by the CIN and AViQ. Switch to Production only once "
+"accreditation is obtained: from then on, submissions actually bill the "
+"health insurance funds."
 msgstr ""
+"Blijf op Acceptatie (testservers, geen echte gegevens) zolang uw "
+"verzendingen niet door het NIC en de AViQ zijn gevalideerd. Schakel pas over"
+" naar Productie zodra de accreditatie is verkregen: vanaf dan factureren de "
+"verzendingen effectief de mutualiteiten."
 
 #: ../../content/configuration/reglages-ehealth.md:11
 msgid "Where do I get the eHealth certificate and the CIN Package License?"
-msgstr ""
+msgstr "Waar verkrijg ik het eHealth-certificaat en de CIN-packagelicentie?"
 
 #: ../../content/configuration/reglages-ehealth.md:12
 msgid ""
-"The .p12 certificate is obtained from the eHealth portal "
-"(ehealth.fgov.be), after registering the institution and appointing the "
-"access manager. The Package License (username and password) is issued by "
-"the CIN/NIC when the software is accredited. These elements never appear "
-"in plain text in the documentation."
+"The .p12 certificate is obtained from the eHealth portal (ehealth.fgov.be), "
+"after registering the institution and appointing the access manager. The "
+"Package License (username and password) is issued by the CIN/NIC when the "
+"software is accredited. These elements never appear in plain text in the "
+"documentation."
 msgstr ""
+"Het .p12-certificaat wordt verkregen via het eHealth-portaal "
+"(ehealth.fgov.be), na registratie van de instelling en aanstelling van de "
+"toegangsbeheerder. De packagelicentie (gebruikersnaam en wachtwoord) wordt "
+"afgeleverd door het CIN/NIC bij de accreditatie van de software. Deze "
+"gegevens verschijnen nooit in leesbare vorm in de documentatie."
 
 #: ../../content/configuration/reglages-ehealth.md:14
 msgid "Should stub mode be disabled?"
-msgstr ""
+msgstr "Moet de stubmodus worden uitgeschakeld?"
 
 #: ../../content/configuration/reglages-ehealth.md:15
 msgid ""
-"Stub mode simulates eHealth responses so you can test without a real "
-"call. Leave it enabled during the test phase; disable it in production, "
-"which requires a valid eHealth certificate and a configured CIN Package "
-"License."
+"Stub mode simulates eHealth responses so you can test without a real call. "
+"Leave it enabled during the test phase; disable it in production, which "
+"requires a valid eHealth certificate and a configured CIN Package License."
 msgstr ""
+"De stubmodus simuleert de eHealth-antwoorden zodat u kunt testen zonder een "
+"echte oproep. Laat hem ingeschakeld tijdens de testfase; schakel hem uit in "
+"productie, wat een geldig eHealth-certificaat en een geconfigureerde CIN-"
+"packagelicentie vereist."
 
 #: ../../content/configuration/reglages-ehealth.md:17
 msgid "Why fill in a coordinating physician?"
-msgstr ""
+msgstr "Waarom een coördinerend arts invullen?"
 
 #: ../../content/configuration/reglages-ehealth.md:18
 msgid ""
 "Their NIHII number acts as the responsible practitioner on eAgreement "
-"requests when the Katz assessor has no personal NIHII. It is mandatory "
-"for a category D Katz, which requires a physician."
+"requests when the Katz assessor has no personal NIHII. It is mandatory for a"
+" category D Katz, which requires a physician."
 msgstr ""
+"Zijn NIHII-nummer fungeert als verantwoordelijke zorgverlener op de "
+"eAgreement-aanvragen wanneer de Katz-beoordelaar geen persoonlijk NIHII "
+"heeft. Het is verplicht voor een Katz van categorie D, die een arts vereist."
 
 #: ../../content/configuration/reglages-ehealth.md:20
 msgid "Is Account C mandatory for eFact in Wallonia?"
-msgstr ""
+msgstr "Is Rekening C verplicht voor eFact in Wallonië?"
 
 #: ../../content/configuration/reglages-ehealth.md:21
 msgid ""
-"Yes. In a Walloon MR/MRS, the insurer pays the flat-rate fees to "
-"financial account C. Without a C bank journal filled in, WalCareNet "
-"rejects the batch (104511 for the missing IBAN, 105311 for the missing "
-"BIC)."
+"Yes. In a Walloon MR/MRS, the insurer pays the flat-rate fees to financial "
+"account C. Without a C bank journal filled in, WalCareNet rejects the batch "
+"(104511 for the missing IBAN, 105311 for the missing BIC)."
 msgstr ""
+"Ja. In een Waals MR/MRS betaalt de mutualiteit de forfaits op de financiële "
+"rekening C. Zonder ingevuld C-bankdagboek verwerpt WalCareNet het lot "
+"(104511 voor het ontbrekende IBAN, 105311 voor de ontbrekende BIC)."
 
 #: ../../content/configuration/reglages-ehealth.md:23
 msgid "Which value should I choose for the Invoice Type (Z308)?"
-msgstr ""
+msgstr "Welke waarde moet ik kiezen voor het Factuurtype (Z308)?"
 
 #: ../../content/configuration/reglages-ehealth.md:24
 msgid ""
 "Leave 01 (Hospitalisation) by default: it is the value accepted at the "
-"931000 preliminary check. Only switch to 03 (Ambulatory) if the CIN or "
-"AViQ confirms it for your sector."
+"931000 preliminary check. Only switch to 03 (Ambulatory) if the CIN or AViQ "
+"confirms it for your sector."
 msgstr ""
+"Laat 01 (Hospitalisatie) standaard staan: dat is de waarde die bij de "
+"voorafgaande controle 931000 wordt aanvaard. Schakel alleen over naar 03 "
+"(Ambulant) als het NIC of de AViQ dit voor uw sector bevestigt."
 
 #: ../../content/configuration/reglages-ehealth.md:27
 msgid ""
-"This screen brings together the **technical credentials and choices** "
-"that Resthome uses to communicate with the Belgian e-health ecosystem "
-"(eHealth, MyCareNet, WalCareNet): [MDA](../ehealth/mda.md) insurability, "
+"This screen brings together the **technical credentials and choices** that "
+"Resthome uses to communicate with the Belgian e-health ecosystem (eHealth, "
+"MyCareNet, WalCareNet): [MDA](../ehealth/mda.md) insurability, "
 "[eFact](../ehealth/efact.md) billing and "
 "[eAgreement](../ehealth/eagreement.md) agreements."
 msgstr ""
+"Dit scherm bundelt de **technische inloggegevens en keuzes** die Resthome "
+"gebruikt om te communiceren met het Belgische e-gezondheidsecosysteem "
+"(eHealth, MyCareNet, WalCareNet): de verzekerbaarheid "
+"[MDA](../ehealth/mda.md), de facturatie [eFact](../ehealth/efact.md) en de "
+"akkoorden [eAgreement](../ehealth/eagreement.md)."
 
 #: ../../content/configuration/reglages-ehealth.md:33
 msgid "The settings are split across **two tabs**:"
-msgstr ""
+msgstr "De instellingen zijn verdeeld over **twee tabbladen**:"
 
 #: ../../content/configuration/reglages-ehealth.md:35
 msgid ""
-"**Settings > Nursing Home**: the **eHealth** part (certificate, platform,"
-" automation, responsible practitioner, CIN license)."
+"**Settings > Nursing Home**: the **eHealth** part (certificate, platform, "
+"automation, responsible practitioner, CIN license)."
 msgstr ""
+"**Instellingen > Woonzorgcentrum**: het **eHealth**-gedeelte (certificaat, "
+"platform, automatisering, verantwoordelijke zorgverlener, CIN-licentie)."
 
 #: ../../content/configuration/reglages-ehealth.md:37
 msgid ""
 "**Settings > MR/MRS**: the **Walloon billing** part (Account C and eFact "
 "header)."
 msgstr ""
+"**Instellingen > MR/MRS**: het gedeelte **Waalse facturatie** (Rekening C en"
+" eFact-hoofding)."
 
 #: ../../content/configuration/reglages-ehealth.md:40
 msgid ""
 "Most of these values are set **once**, at start-up, and then only change "
 "marginally afterwards."
 msgstr ""
+"De meeste van deze waarden worden **één keer** ingesteld, bij de opstart, en"
+" veranderen daarna nog slechts marginaal."
 
 #: ../../content/configuration/reglages-ehealth.md:43
 msgid "Sensitive fields — no value is ever copied from documentation"
 msgstr ""
+"Gevoelige velden — geen enkele waarde wordt ooit uit de documentatie "
+"gekopieerd"
 
 #: ../../content/configuration/reglages-ehealth.md:46
 msgid ""
-"The **.p12 certificate**, the **CIN Package License** and the "
-"**passwords** are secrets **specific to your establishment**. Here we "
-"explain **what they are for** and **where to obtain them** (eHealth "
-"portal, CIN/NIC), never their content. Do not share them, and enter them "
-"only from the official source."
+"The **.p12 certificate**, the **CIN Package License** and the **passwords** "
+"are secrets **specific to your establishment**. Here we explain **what they "
+"are for** and **where to obtain them** (eHealth portal, CIN/NIC), never "
+"their content. Do not share them, and enter them only from the official "
+"source."
 msgstr ""
+"Het **.p12-certificaat**, de **CIN-packagelicentie** en de **wachtwoorden** "
+"zijn geheimen die **eigen zijn aan uw instelling**. We leggen hier uit "
+"**waarvoor ze dienen** en **waar u ze verkrijgt** (eHealth-portaal, "
+"CIN/NIC), nooit hun inhoud. Deel ze niet en voer ze uitsluitend in vanaf de "
+"officiële bron."
 
 #: ../../content/configuration/reglages-ehealth.md:52
 msgid "eHealth Platform"
-msgstr ""
+msgstr "eHealth-platform"
 
 #: ../../content/configuration/reglages-ehealth.md:54
 msgid ""
@@ -156,6 +196,9 @@ msgid ""
 "identity, which environment and which platform Resthome uses for all "
 "exchanges."
 msgstr ""
+"**Instellingen > Woonzorgcentrum > eHealth-platform.** De basis: welke "
+"identiteit, welke omgeving en welk platform Resthome gebruikt voor alle "
+"uitwisselingen."
 
 #: ../../content/configuration/reglages-ehealth.md:43
 #: ../../content/configuration/reglages-ehealth.md:68
@@ -163,7 +206,7 @@ msgstr ""
 #: ../../content/configuration/reglages-ehealth.md:128
 #: ../../content/configuration/reglages-ehealth.md:146
 msgid "Setting"
-msgstr ""
+msgstr "Instelling"
 
 #: ../../content/configuration/reglages-ehealth.md:43
 #: ../../content/configuration/reglages-ehealth.md:68
@@ -171,7 +214,7 @@ msgstr ""
 #: ../../content/configuration/reglages-ehealth.md:128
 #: ../../content/configuration/reglages-ehealth.md:146
 msgid "What it is for"
-msgstr ""
+msgstr "Waarvoor het dient"
 
 #: ../../content/configuration/reglages-ehealth.md:43
 #: ../../content/configuration/reglages-ehealth.md:68
@@ -179,11 +222,11 @@ msgstr ""
 #: ../../content/configuration/reglages-ehealth.md:128
 #: ../../content/configuration/reglages-ehealth.md:146
 msgid "Recommended value (MR/MRS)"
-msgstr ""
+msgstr "Aanbevolen waarde (MR/MRS)"
 
 #: ../../content/configuration/reglages-ehealth.md:43
 msgid "**Active Certificate**"
-msgstr ""
+msgstr "**Actief certificaat**"
 
 #: ../../content/configuration/reglages-ehealth.md:43
 msgid ""
@@ -191,137 +234,168 @@ msgid ""
 "signs the SOAP messages. Import it first under *eHealth / Certificates*, "
 "then select it here."
 msgstr ""
+"Het eHealth-**.p12**-certificaat dat de instelling authenticeert en de SOAP-"
+"berichten ondertekent. Importeer het eerst onder *eHealth / Certificaten* en"
+" selecteer het vervolgens hier."
 
 #: ../../content/configuration/reglages-ehealth.md:43
 msgid ""
 "**Your establishment's** certificate, obtained from **ehealth.fgov.be**. "
 "Never a copied value."
 msgstr ""
+"Het certificaat **van uw instelling**, verkregen via **ehealth.fgov.be**. "
+"Nooit een gekopieerde waarde."
 
 #: ../../content/configuration/reglages-ehealth.md:43
 msgid "**Institution INAMI Number**"
-msgstr ""
+msgstr "**RIZIV-nummer van de instelling**"
 
 #: ../../content/configuration/reglages-ehealth.md:43
 msgid ""
 "Your institution's INAMI/RIZIV number, used in the STS, MDA, eFact and "
 "eAgreement requests."
 msgstr ""
+"Het INAMI/RIZIV-nummer van uw instelling, gebruikt in de STS-, MDA-, eFact- "
+"en eAgreement-aanvragen."
 
 #: ../../content/configuration/reglages-ehealth.md:43
 msgid "**Your number**: 8 digits (institution) or 11 digits (NIHII-11)."
-msgstr ""
+msgstr "**Uw nummer**: 8 cijfers (instelling) of 11 cijfers (NIHII-11)."
 
 #: ../../content/configuration/reglages-ehealth.md:43
 msgid "**Competence Code**"
-msgstr ""
+msgstr "**Competentiecode**"
 
 #: ../../content/configuration/reglages-ehealth.md:43
 msgid ""
-"The last 3 digits of the NIHII-11 (MR/MRS only, not CSJ); fallback when "
-"the certified NIHII-11 cannot be read from the token."
+"The last 3 digits of the NIHII-11 (MR/MRS only, not CSJ); fallback when the "
+"certified NIHII-11 cannot be read from the token."
 msgstr ""
+"De laatste 3 cijfers van het NIHII-11 (enkel MR/MRS, niet CSJ); "
+"terugvaloptie wanneer het gecertificeerde NIHII-11 niet uit het token kan "
+"worden gelezen."
 
 #: ../../content/configuration/reglages-ehealth.md:43
 msgid "**110** (MR) or **210** (some MRS)."
-msgstr ""
+msgstr "**110** (MR) of **210** (sommige MRS)."
 
 #: ../../content/configuration/reglages-ehealth.md:43
 msgid "**Legal Interest Rate (%)**"
-msgstr ""
+msgstr "**Wettelijke rentevoet (%)**"
 
 #: ../../content/configuration/reglages-ehealth.md:43
 msgid ""
-"The annual Belgian legal rate used to calculate the late-payment interest"
-" an insurer owes on a submission paid past the deadline."
+"The annual Belgian legal rate used to calculate the late-payment interest an"
+" insurer owes on a submission paid past the deadline."
 msgstr ""
+"De jaarlijkse Belgische wettelijke rentevoet die wordt gebruikt om de "
+"verwijlintresten te berekenen die een mutualiteit verschuldigd is op een "
+"verzending die na de termijn wordt betaald."
 
 #: ../../content/configuration/reglages-ehealth.md:43
 msgid "The **rate published for the year**; **0** disables the calculation."
 msgstr ""
+"De **voor het jaar gepubliceerde rentevoet**; **0** schakelt de berekening "
+"uit."
 
 #: ../../content/configuration/reglages-ehealth.md:43
 msgid "**Care Provider NIHII**"
-msgstr ""
+msgstr "**NIHII van de zorgverlener**"
 
 #: ../../content/configuration/reglages-ehealth.md:43
 msgid ""
-"The **personal** NIHII-11 of the caregiver (nurse, physician) who issues "
-"the MDA insurability requests — required by WalCareNet/MyCareNet."
+"The **personal** NIHII-11 of the caregiver (nurse, physician) who issues the"
+" MDA insurability requests — required by WalCareNet/MyCareNet."
 msgstr ""
+"Het **persoonlijke** NIHII-11 van de zorgverlener (verpleegkundige, arts) "
+"die de MDA-verzekerbaarheidsaanvragen indient — vereist door "
+"WalCareNet/MyCareNet."
 
 #: ../../content/configuration/reglages-ehealth.md:43
 msgid "The NIHII of the **care provider at your establishment** (11 digits)."
-msgstr ""
+msgstr "Het NIHII van de **zorgverlener van uw instelling** (11 cijfers)."
 
 #: ../../content/configuration/reglages-ehealth.md:43
 msgid "**Environment**"
-msgstr ""
+msgstr "**Omgeving**"
 
 #: ../../content/configuration/reglages-ehealth.md:43
 msgid ""
-"*Acceptance* = test servers (simulated data); *Production* = real servers"
-" (real billing)."
+"*Acceptance* = test servers (simulated data); *Production* = real servers "
+"(real billing)."
 msgstr ""
+"*Acceptatie* = testservers (gesimuleerde gegevens); *Productie* = echte "
+"servers (echte facturatie)."
 
 #: ../../content/configuration/reglages-ehealth.md:43
 msgid ""
 "**Acceptance** as long as not validated, then **Production** after "
 "accreditation."
 msgstr ""
+"**Acceptatie** zolang niet gevalideerd, daarna **Productie** na "
+"accreditatie."
 
 #: ../../content/configuration/reglages-ehealth.md:43
 msgid "**Default Platform**"
-msgstr ""
+msgstr "**Standaardplatform**"
 
 #: ../../content/configuration/reglages-ehealth.md:43
 msgid ""
 "The target network: WalCareNet (AViQ, Wallonia), MyCareNet (federal), "
 "IrisCareNet (Brussels, MDA)."
 msgstr ""
+"Het doelnetwerk: WalCareNet (AViQ, Wallonië), MyCareNet (federaal), "
+"IrisCareNet (Brussel, MDA)."
 
 #: ../../content/configuration/reglages-ehealth.md:43
 msgid "**WalCareNet** for a Walloon MR/MRS."
-msgstr ""
+msgstr "**WalCareNet** voor een Waals MR/MRS."
 
 #: ../../content/configuration/reglages-ehealth.md:43
 msgid "**Stub Mode (Development)**"
-msgstr ""
+msgstr "**Stubmodus (ontwikkeling)**"
 
 #: ../../content/configuration/reglages-ehealth.md:43
 msgid "Simulates eHealth responses without a real call — for testing."
-msgstr ""
+msgstr "Simuleert de eHealth-antwoorden zonder echte oproep — om te testen."
 
 #: ../../content/configuration/reglages-ehealth.md:43
 msgid ""
 "**Enabled** in test; **disabled** in production (requires a valid "
 "certificate + CIN license)."
 msgstr ""
+"**Ingeschakeld** in test; **uitgeschakeld** in productie (vereist een geldig"
+" certificaat + CIN-licentie)."
 
 #: ../../content/configuration/reglages-ehealth.md:68
 msgid "Start cautiously"
-msgstr ""
+msgstr "Voorzichtig starten"
 
 #: ../../content/configuration/reglages-ehealth.md:71
 msgid ""
-"At start-up: **Acceptance + Stub Mode enabled**. You validate the whole "
-"flow without sending anything real. Once accreditation is obtained, "
-"switch **Stub Mode disabled**, then **Production**."
+"At start-up: **Acceptance + Stub Mode enabled**. You validate the whole flow"
+" without sending anything real. Once accreditation is obtained, switch "
+"**Stub Mode disabled**, then **Production**."
 msgstr ""
+"Bij de opstart: **Acceptatie + Stubmodus ingeschakeld**. U valideert de "
+"volledige flow zonder iets echts te verzenden. Zodra de accreditatie is "
+"verkregen, schakelt u **Stubmodus uit**, daarna **Productie**."
 
 #: ../../content/configuration/reglages-ehealth.md:76
 msgid "eHealth Automation"
-msgstr ""
+msgstr "eHealth-automatisering"
 
 #: ../../content/configuration/reglages-ehealth.md:78
 msgid ""
-"**Settings > Nursing Home > eHealth Automation.** The automatic "
-"behaviours around insurability and logs."
+"**Settings > Nursing Home > eHealth Automation.** The automatic behaviours "
+"around insurability and logs."
 msgstr ""
+"**Instellingen > Woonzorgcentrum > eHealth-automatisering.** Het "
+"automatische gedrag rond verzekerbaarheid en logboeken."
 
 #: ../../content/configuration/reglages-ehealth.md:68
 msgid "**Auto MDA Check**"
-msgstr ""
+msgstr "**Automatische MDA-controle**"
 
 #: ../../content/configuration/reglages-ehealth.md:68
 msgid ""
@@ -329,156 +403,193 @@ msgid ""
 "eFact — avoids rejections for invalid insurability (see "
 "[MDA](../ehealth/mda.md))."
 msgstr ""
+"Controleert automatisch de verzekerbaarheid van elke bewoner voordat de "
+"eFact wordt gegenereerd — vermijdt verwerpingen wegens ongeldige "
+"verzekerbaarheid (zie [MDA](../ehealth/mda.md))."
 
 #: ../../content/configuration/reglages-ehealth.md:68
 msgid "**Enabled** as soon as the MDA is in production."
-msgstr ""
+msgstr "**Ingeschakeld** zodra de MDA in productie is."
 
 #: ../../content/configuration/reglages-ehealth.md:68
 msgid "**Log Retention (days)**"
-msgstr ""
+msgstr "**Bewaring van logboeken (dagen)**"
 
 #: ../../content/configuration/reglages-ehealth.md:68
 msgid ""
-"Number of days communication and audit logs are kept; the oldest are "
-"purged by the monthly cron."
+"Number of days communication and audit logs are kept; the oldest are purged "
+"by the monthly cron."
 msgstr ""
+"Aantal dagen dat de communicatie- en auditlogboeken worden bewaard; de "
+"oudste worden door de maandelijkse cron opgeschoond."
 
 #: ../../content/configuration/reglages-ehealth.md:68
 msgid "**2555** (7 years, Belgian legal requirement for health data)."
 msgstr ""
+"**2555** (7 jaar, Belgische wettelijke verplichting voor "
+"gezondheidsgegevens)."
 
 #: ../../content/configuration/reglages-ehealth.md:68
 msgid "**No-Facet Report Email**"
-msgstr ""
+msgstr "**E-mail voor no-facet-melding**"
 
 #: ../../content/configuration/reglages-ehealth.md:68
 msgid ""
 "Address used by the *Report to intermut* button on an MDA request that "
-"remained \"no-facet\" (no insurer answered within 24 h) — to be escalated"
-" to the CIN/intermut."
+"remained \"no-facet\" (no insurer answered within 24 h) — to be escalated to"
+" the CIN/intermut."
 msgstr ""
+"Adres dat wordt gebruikt door de knop *Melden aan intermut* op een MDA-"
+"aanvraag die \"no-facet\" bleef (geen enkele mutualiteit antwoordde binnen "
+"24 u) — te escaleren naar het CIN/intermut."
 
 #: ../../content/configuration/reglages-ehealth.md:68
 msgid "Leave the default **intermut** address."
-msgstr ""
+msgstr "Laat het standaard **intermut**-adres staan."
 
 #: ../../content/configuration/reglages-ehealth.md:87
 msgid "Software Service Desk"
-msgstr ""
+msgstr "Software-servicedesk"
 
 #: ../../content/configuration/reglages-ehealth.md:89
 msgid ""
-"**Settings > Nursing Home > Software Service Desk.** The **first point of"
-" contact** when a provider has a problem — an AViQ accreditation "
-"requirement."
+"**Settings > Nursing Home > Software Service Desk.** The **first point of "
+"contact** when a provider has a problem — an AViQ accreditation requirement."
 msgstr ""
+"**Instellingen > Woonzorgcentrum > Software-servicedesk.** Het **eerste "
+"aanspreekpunt** wanneer een zorgverlener een probleem heeft — een "
+"accreditatievereiste van de AViQ."
 
 #: ../../content/configuration/reglages-ehealth.md:68
 msgid "**Service Desk Contact**"
-msgstr ""
+msgstr "**Servicedesk-contact**"
 
 #: ../../content/configuration/reglages-ehealth.md:68
 msgid ""
-"The software publisher's contact (name, email, phone, logo), shown by the"
-" *Contact LPLG* button on eAgreement requests."
+"The software publisher's contact (name, email, phone, logo), shown by the "
+"*Contact LPLG* button on eAgreement requests."
 msgstr ""
+"Het contact van de software-uitgever (naam, e-mail, telefoon, logo), "
+"weergegeven door de knop *LPLG contacteren* op de eAgreement-aanvragen."
 
 #: ../../content/configuration/reglages-ehealth.md:68
 msgid "Leave the default **LPLG contact**."
-msgstr ""
+msgstr "Laat het standaard **LPLG**-contact staan."
 
 #: ../../content/configuration/reglages-ehealth.md:96
 msgid "eAgreement Responsible Practitioner"
-msgstr ""
+msgstr "Verantwoordelijke zorgverlener eAgreement"
 
 #: ../../content/configuration/reglages-ehealth.md:98
 msgid ""
 "**Settings > Nursing Home > eAgreement Responsible Practitioner.** On an "
-"[eAgreement](../ehealth/eagreement.md) request, the responsible "
-"practitioner is the clinician who carried out the Katz assessment. If "
-"they have no personal NIHII, the request borrows the identity of the head"
-" nurse, then of the coordinating physician."
+"[eAgreement](../ehealth/eagreement.md) request, the responsible practitioner"
+" is the clinician who carried out the Katz assessment. If they have no "
+"personal NIHII, the request borrows the identity of the head nurse, then of "
+"the coordinating physician."
 msgstr ""
+"**Instellingen > Woonzorgcentrum > Verantwoordelijke zorgverlener "
+"eAgreement.** Op een [eAgreement](../ehealth/eagreement.md)-aanvraag is de "
+"verantwoordelijke zorgverlener de clinicus die de Katz-evaluatie heeft "
+"uitgevoerd. Heeft hij geen persoonlijk NIHII, dan leent de aanvraag de "
+"identiteit van de hoofdverpleegkundige, daarna van de coördinerend arts."
 
 #: ../../content/configuration/reglages-ehealth.md:68
 msgid "**Head Nurse (NIHII fallback)**"
-msgstr ""
+msgstr "**Hoofdverpleegkundige (NIHII-terugval)**"
 
 #: ../../content/configuration/reglages-ehealth.md:68
 msgid ""
-"Their NIHII identifies the responsible practitioner when the Katz "
-"assessor (nurse, care assistant) has no NIHII."
+"Their NIHII identifies the responsible practitioner when the Katz assessor "
+"(nurse, care assistant) has no NIHII."
 msgstr ""
+"Zijn NIHII identificeert de verantwoordelijke zorgverlener wanneer de Katz-"
+"beoordelaar (verpleegkundige, zorgkundige) geen NIHII heeft."
 
 #: ../../content/configuration/reglages-ehealth.md:68
 msgid "Fill in the establishment's **head nurse**."
-msgstr ""
+msgstr "Vul de **hoofdverpleegkundige** van de instelling in."
 
 #: ../../content/configuration/reglages-ehealth.md:68
 msgid "**Coordinating Physician (NIHII fallback)**"
-msgstr ""
+msgstr "**Coördinerend arts (NIHII-terugval)**"
 
 #: ../../content/configuration/reglages-ehealth.md:68
 msgid ""
-"Fallback when no nurse NIHII is available, and **mandatory** for a "
-"category D Katz (physician required)."
+"Fallback when no nurse NIHII is available, and **mandatory** for a category "
+"D Katz (physician required)."
 msgstr ""
+"Terugval wanneer geen NIHII van een verpleegkundige beschikbaar is, en "
+"**verplicht** voor een Katz van categorie D (arts vereist)."
 
 #: ../../content/configuration/reglages-ehealth.md:68
-msgid "Fill in the **coordinating physician** — essential for category D Katz."
+msgid ""
+"Fill in the **coordinating physician** — essential for category D Katz."
 msgstr ""
+"Vul de **coördinerend arts** in — essentieel voor een Katz van categorie D."
 
 #: ../../content/configuration/reglages-ehealth.md:109
 msgid "The Katz category is for declaring, not for setting the amount"
 msgstr ""
+"De Katz-categorie dient om te verklaren, niet om het bedrag te bepalen"
 
 #: ../../content/configuration/reglages-ehealth.md:112
 msgid ""
-"The **dependency flat rate** is the **same amount** for all Katz "
-"categories (AViQ tariffs); the category serves to **declare the "
-"resident's profile** to the health insurance fund. A category **D** "
-"nonetheless requires a **physician** as the eAgreement's responsible "
-"practitioner — hence the importance of this field."
+"The **dependency flat rate** is the **same amount** for all Katz categories "
+"(AViQ tariffs); the category serves to **declare the resident's profile** to"
+" the health insurance fund. A category **D** nonetheless requires a "
+"**physician** as the eAgreement's responsible practitioner — hence the "
+"importance of this field."
 msgstr ""
+"Het **afhankelijkheidsforfait** is **hetzelfde bedrag** voor alle Katz-"
+"categorieën (AViQ-tarieven); de categorie dient om **het profiel van de "
+"bewoner te verklaren** aan de mutualiteit. Een categorie **D** vereist "
+"niettemin een **arts** als verantwoordelijke zorgverlener van de eAgreement "
+"— vandaar het belang van dit veld."
 
 #: ../../content/configuration/reglages-ehealth.md:118
 msgid "CIN Package License"
-msgstr ""
+msgstr "CIN-packagelicentie"
 
 #: ../../content/configuration/reglages-ehealth.md:120
 msgid ""
 "**Settings > Nursing Home > CIN Package License.** The credentials that "
 "authorise Resthome to send via GenAsync (eFact) and CommonInput (MDA)."
 msgstr ""
+"**Instellingen > Woonzorgcentrum > CIN-packagelicentie.** De inloggegevens "
+"die Resthome toelaten te verzenden via GenAsync (eFact) en CommonInput "
+"(MDA)."
 
 #: ../../content/configuration/reglages-ehealth.md:109
 msgid "**Package License Username**"
-msgstr ""
+msgstr "**Gebruikersnaam packagelicentie**"
 
 #: ../../content/configuration/reglages-ehealth.md:109
 msgid "Username of the software license, required for eFact and MDA."
-msgstr ""
+msgstr "Gebruikersnaam van de softwarelicentie, vereist voor eFact en MDA."
 
 #: ../../content/configuration/reglages-ehealth.md:109
-msgid "Provided by the **CIN/NIC** at accreditation — specific to your software."
+msgid ""
+"Provided by the **CIN/NIC** at accreditation — specific to your software."
 msgstr ""
+"Geleverd door het **CIN/NIC** bij de accreditatie — specifiek voor uw "
+"software."
 
 #: ../../content/configuration/reglages-ehealth.md:109
 msgid "**Package License Password**"
-msgstr ""
+msgstr "**Wachtwoord packagelicentie**"
 
 #: ../../content/configuration/reglages-ehealth.md:109
 msgid "Password of the software license (masked field)."
-msgstr ""
+msgstr "Wachtwoord van de softwarelicentie (verborgen veld)."
 
 #: ../../content/configuration/reglages-ehealth.md:109
 msgid "Provided by the **CIN/NIC**; **secret**, do not disclose it."
-msgstr ""
+msgstr "Geleverd door het **CIN/NIC**; **geheim**, maak het niet bekend."
 
 #: ../../content/configuration/reglages-ehealth.md:128
 msgid "Where to obtain it"
-msgstr ""
+msgstr "Waar u ze verkrijgt"
 
 #: ../../content/configuration/reglages-ehealth.md:131
 msgid ""
@@ -486,113 +597,138 @@ msgid ""
 "accredited. It has **no default value**: as long as it is not configured "
 "(and stub mode disabled), real submissions remain blocked."
 msgstr ""
+"De packagelicentie wordt afgeleverd door het **CIN/NIC** bij de accreditatie"
+" van de software. Ze heeft **geen standaardwaarde**: zolang ze niet is "
+"geconfigureerd (en de stubmodus uitgeschakeld), blijven echte verzendingen "
+"geblokkeerd."
 
 #: ../../content/configuration/reglages-ehealth.md:136
 msgid "Account C (Wallonia)"
-msgstr ""
+msgstr "Rekening C (Wallonië)"
 
 #: ../../content/configuration/reglages-ehealth.md:138
 msgid ""
-"**Settings > MR/MRS > Account C (Wallonia).** Since the 6th State Reform,"
-" the insurer pays the Walloon MR/MRS flat-rate fees to a dedicated "
+"**Settings > MR/MRS > Account C (Wallonia).** Since the 6th State Reform, "
+"the insurer pays the Walloon MR/MRS flat-rate fees to a dedicated "
 "**financial account C**, declared to the CIN during eFact registration."
 msgstr ""
+"**Instellingen > MR/MRS > Rekening C (Wallonië).** Sinds de 6e "
+"staatshervorming betaalt de mutualiteit de forfaits van het Waalse MR/MRS op"
+" een specifieke **financiële rekening C**, aangegeven bij het CIN tijdens de"
+" eFact-registratie."
 
 #: ../../content/configuration/reglages-ehealth.md:128
 msgid "**Account C Bank Journal**"
-msgstr ""
+msgstr "**Bankdagboek Rekening C**"
 
 #: ../../content/configuration/reglages-ehealth.md:128
 msgid ""
-"The bank journal of the Walloon account. The **IBAN** (ET 10 Z 45-47a) "
-"and the **BIC** (Z 53-54a) written in the 920000 are derived from it."
+"The bank journal of the Walloon account. The **IBAN** (ET 10 Z 45-47a) and "
+"the **BIC** (Z 53-54a) written in the 920000 are derived from it."
 msgstr ""
+"Het bankdagboek van de Waalse rekening. Het **IBAN** (ET 10 Z 45-47a) en de "
+"**BIC** (Z 53-54a) die in het 920000 worden vermeld, zijn eruit afgeleid."
 
 #: ../../content/configuration/reglages-ehealth.md:128
 msgid ""
 "Your establishment's **Account C journal**. Fill in the IBAN on the bank "
 "account and the BIC on the bank."
 msgstr ""
+"Het **Rekening C-dagboek** van uw instelling. Vul het IBAN in op de "
+"bankrekening en de BIC op de bank."
 
 #: ../../content/configuration/reglages-ehealth.md:146
 msgid "Otherwise, WalCareNet rejection"
-msgstr ""
+msgstr "Anders WalCareNet-verwerping"
 
 #: ../../content/configuration/reglages-ehealth.md:149
 msgid ""
 "Without a valid Account C, WalCareNet **rejects the batch**: **104511** "
-"(missing IBAN) or **105311** (missing BIC). The IBAN and BIC shown under "
-"the field are read-only — they come from the journal's bank account. See "
-"[eFact Rejections](../ehealth/efact-rejets.md)."
+"(missing IBAN) or **105311** (missing BIC). The IBAN and BIC shown under the"
+" field are read-only — they come from the journal's bank account. See [eFact"
+" Rejections](../ehealth/efact-rejets.md)."
 msgstr ""
+"Zonder geldige Rekening C **verwerpt WalCareNet het lot**: **104511** "
+"(ontbrekend IBAN) of **105311** (ontbrekende BIC). Het IBAN en de BIC die "
+"onder het veld worden getoond, zijn alleen-lezen — ze komen van de "
+"bankrekening van het dagboek. Zie [eFact-verwerpingen](../ehealth/efact-"
+"rejets.md)."
 
 #: ../../content/configuration/reglages-ehealth.md:155
 msgid "eFact Header"
-msgstr ""
+msgstr "eFact-hoofding"
 
 #: ../../content/configuration/reglages-ehealth.md:157
 msgid ""
-"**Settings > MR/MRS > eFact Header.** The header information carried by "
-"each [eFact](../ehealth/efact.md) 920000 message (segment 300)."
+"**Settings > MR/MRS > eFact Header.** The header information carried by each"
+" [eFact](../ehealth/efact.md) 920000 message (segment 300)."
 msgstr ""
+"**Instellingen > MR/MRS > eFact-hoofding.** De hoofdinginformatie die elk "
+"[eFact](../ehealth/efact.md) 920000-bericht meedraagt (segment 300)."
 
 #: ../../content/configuration/reglages-ehealth.md:146
 msgid "**eFact Contact Person**"
-msgstr ""
+msgstr "**Contactpersoon eFact**"
 
 #: ../../content/configuration/reglages-ehealth.md:146
 msgid ""
-"Name and phone written in the header (Z305 surname / Z306 first name / "
-"Z307 phone) — the person an insurer contacts for a billing question."
+"Name and phone written in the header (Z305 surname / Z306 first name / Z307 "
+"phone) — the person an insurer contacts for a billing question."
 msgstr ""
+"Naam en telefoon vermeld in de hoofding (Z305 naam / Z306 voornaam / Z307 "
+"telefoon) — de persoon die een mutualiteit contacteert voor een "
+"facturatievraag."
 
 #: ../../content/configuration/reglages-ehealth.md:146
 msgid ""
-"For example, the establishment's **director**. If empty, the "
-"establishment name is used."
+"For example, the establishment's **director**. If empty, the establishment "
+"name is used."
 msgstr ""
+"Bijvoorbeeld de **directeur** van de instelling. Indien leeg, wordt de naam "
+"van de instelling gebruikt."
 
 #: ../../content/configuration/reglages-ehealth.md:146
 msgid "**eFact Invoice Type (Z308)**"
-msgstr ""
+msgstr "**Factuurtype eFact (Z308)**"
 
 #: ../../content/configuration/reglages-ehealth.md:146
 msgid ""
-"The Z308 \"invoice type\" zone: 01 Hospitalisation, 03 Ambulatory, 09 "
-"Mixed."
-msgstr ""
+"The Z308 \"invoice type\" zone: 01 Hospitalisation, 03 Ambulatory, 09 Mixed."
+msgstr "De zone Z308 \"factuurtype\": 01 Hospitalisatie, 03 Ambulant, 09 Gemengd."
 
 #: ../../content/configuration/reglages-ehealth.md:146
 msgid ""
-"**01** by default (accepted at the 931000 check). Only switch to **03** "
-"if AViQ/CIN confirms it."
+"**01** by default (accepted at the 931000 check). Only switch to **03** if "
+"AViQ/CIN confirms it."
 msgstr ""
+"**01** standaard (aanvaard bij de controle 931000). Schakel alleen over naar"
+" **03** als de AViQ/CIN dit bevestigt."
 
 #: ../../content/configuration/reglages-ehealth.md:165
 msgid "Further reading"
-msgstr ""
+msgstr "Verder lezen"
 
 #: ../../content/configuration/reglages-ehealth.md:167
 msgid "[Configuration](index.md)"
-msgstr ""
+msgstr "[Configuratie](index.md)"
 
 #: ../../content/configuration/reglages-ehealth.md:168
 msgid "[eHealth — overview](../ehealth/index.md)"
-msgstr ""
+msgstr "[eHealth — overzicht](../ehealth/index.md)"
 
 #: ../../content/configuration/reglages-ehealth.md:169
 msgid "[Electronic billing (eFact)](../ehealth/efact.md)"
-msgstr ""
+msgstr "[Elektronische facturatie (eFact)](../ehealth/efact.md)"
 
 #: ../../content/configuration/reglages-ehealth.md:170
 msgid "[Insurability (MDA)](../ehealth/mda.md)"
-msgstr ""
+msgstr "[Verzekerbaarheid (MDA)](../ehealth/mda.md)"
 
 #: ../../content/configuration/reglages-ehealth.md:171
 msgid "[Agreements (eAgreement)](../ehealth/eagreement.md)"
-msgstr ""
+msgstr "[Akkoorden (eAgreement)](../ehealth/eagreement.md)"
 
 #: ../../content/configuration/reglages-ehealth.md:172
 msgid "[eFact rejections — causes and solutions](../ehealth/efact-rejets.md)"
 msgstr ""
-
+"[eFact-verwerpingen — oorzaken en oplossingen](../ehealth/efact-rejets.md)"

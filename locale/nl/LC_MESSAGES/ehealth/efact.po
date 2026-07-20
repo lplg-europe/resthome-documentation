@@ -7,68 +7,84 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Resthome docs \n"
+"Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-18 19:04+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: nl\n"
 "Language-Team: nl <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
 #: ../../content/ehealth/efact.md:5
 msgid "Electronic invoicing (eFact)"
-msgstr ""
+msgstr "Elektronische facturatie (eFact)"
 
 #: ../../content/ehealth/efact.md:8
 msgid ""
-"The complete eFact guide for nursing homes (MR/MRS) with Resthome: "
-"generate, check, invoice and send the INAMI allowances to the "
-"mutualities, step by step."
+"The complete eFact guide for nursing homes (MR/MRS) with Resthome: generate,"
+" check, invoice and send the INAMI allowances to the mutualities, step by "
+"step."
 msgstr ""
+"De volledige eFact-gids voor woonzorgcentra (MR/MRS) met Resthome: de RIZIV-"
+"forfaits genereren, controleren, factureren en naar de mutualiteiten "
+"versturen, stap voor stap."
 
 #: ../../content/ehealth/efact.md:12
 msgid ""
-"I receive an acknowledgement of receipt (931000) after the eFact sending,"
-" should I wait?"
+"I receive an acknowledgement of receipt (931000) after the eFact sending, "
+"should I wait?"
 msgstr ""
+"Ik ontvang een ontvangstbewijs (931000) na de eFact-verzending, moet ik "
+"wachten?"
 
 #: ../../content/ehealth/efact.md:13
 msgid ""
-"Yes. The 931000 only confirms that the insurance organisation received "
-"the batch and passed the first check — it is not the final result. There "
-"is nothing to resend: wait for the settlement (920900), which states what"
-" is accepted and paid. This can take a few days."
+"Yes. The 931000 only confirms that the insurance organisation received the "
+"batch and passed the first check — it is not the final result. There is "
+"nothing to resend: wait for the settlement (920900), which states what is "
+"accepted and paid. This can take a few days."
 msgstr ""
+"Ja. De 931000 bevestigt alleen dat de verzekeringsinstelling het lot heeft "
+"ontvangen en de eerste controle heeft doorstaan — het is niet het "
+"eindresultaat. Er is niets opnieuw te versturen: wacht op de afrekening "
+"(920900), die aangeeft wat aanvaard en betaald is. Dat kan enkele dagen "
+"duren."
 
 #: ../../content/ehealth/efact.md:15
 msgid "What does \"deadline exceeded\" mean on an eFact period card?"
 msgstr ""
+"Wat betekent « termijn overschreden » op de kaart van een eFact-periode?"
 
 #: ../../content/ehealth/efact.md:16
 msgid ""
 "The sending deadline of this period has passed. Send the batch without "
 "delay: beyond it, some insurance organisations may refuse it."
 msgstr ""
+"De verzendtermijn van deze periode is verstreken. Verstuur het lot zonder "
+"uitstel: daarna kunnen sommige verzekeringsinstellingen het weigeren."
 
 #: ../../content/ehealth/efact.md:18
 msgid "One eFact batch per mutuality or per union?"
-msgstr ""
+msgstr "Eén eFact-lot per mutualiteit of per landsbond?"
 
 #: ../../content/ehealth/efact.md:19
 msgid ""
-"One batch per union of mutualities (100 National Alliance, 300 Solidaris,"
-" 500 National Union, 600 CAAMI, 900 HR Rail…), not per small individual "
+"One batch per union of mutualities (100 National Alliance, 300 Solidaris, "
+"500 National Union, 600 CAAMI, 900 HR Rail…), not per small individual "
 "mutuality. Resthome does the grouping automatically."
 msgstr ""
+"Eén lot per landsbond van mutualiteiten (100 Landsbond, 300 Solidaris, 500 "
+"Nationale Unie, 600 CAAMI, 900 HR Rail…), niet per kleine afzonderlijke "
+"mutualiteit. Resthome doet de groepering automatisch."
 
 #: ../../content/ehealth/efact.md:21
 msgid "How do I correct a rejected eFact batch?"
-msgstr ""
+msgstr "Hoe corrigeer ik een geweigerd eFact-lot?"
 
 #: ../../content/ehealth/efact.md:22
 msgid ""
@@ -76,602 +92,764 @@ msgid ""
 "dates). Fix it and resend; the Resends counter avoids duplicates and the "
 "Reintegration button lets you reintegrate lines into a new sending."
 msgstr ""
+"De weigeringscode en -reden geven de oorzaak aan (verzekerbaarheid, forfait,"
+" data). Corrigeer en verstuur opnieuw; de teller Herzendingen vermijdt "
+"dubbels en de knop Herintegratie laat toe regels te herintegreren in een "
+"nieuwe verzending."
 
 #: ../../content/ehealth/efact.md:24
 msgid ""
 "What is the difference between the acknowledgement (931000) and the "
 "settlement (920900)?"
 msgstr ""
+"Wat is het verschil tussen het ontvangstbewijs (931000) en de afrekening "
+"(920900)?"
 
 #: ../../content/ehealth/efact.md:25
 msgid ""
-"The 931000 only confirms that the insurance organisation received your "
-"batch and passed the first check. The settlement (920900) is the final "
-"result: it states the amounts actually accepted and/or rejected. Until "
-"the settlement arrives, nothing is final — but there is nothing to "
-"resend."
+"The 931000 only confirms that the insurance organisation received your batch"
+" and passed the first check. The settlement (920900) is the final result: it"
+" states the amounts actually accepted and/or rejected. Until the settlement "
+"arrives, nothing is final — but there is nothing to resend."
 msgstr ""
+"De 931000 bevestigt alleen dat de verzekeringsinstelling uw lot heeft "
+"ontvangen en de eerste controle heeft doorstaan. De afrekening (920900) is "
+"het eindresultaat: ze geeft de werkelijk aanvaarde en/of geweigerde bedragen"
+" aan. Zolang de afrekening niet binnen is, is niets definitief — maar er is "
+"niets opnieuw te versturen."
 
 #: ../../content/ehealth/efact.md:27
 msgid "What does a global rejection (920099) on an eFact batch mean?"
-msgstr ""
+msgstr "Wat betekent een globale weigering (920099) op een eFact-lot?"
 
 #: ../../content/ehealth/efact.md:28
 msgid ""
 "The whole batch was refused by the insurance organisation. The rejection "
-"code and reason give the cause (insurability, allowance, dates…). Fix it,"
-" then resend the batch; the Resends counter keeps track of "
-"retransmissions to avoid duplicates."
+"code and reason give the cause (insurability, allowance, dates…). Fix it, "
+"then resend the batch; the Resends counter keeps track of retransmissions to"
+" avoid duplicates."
 msgstr ""
+"Het volledige lot werd geweigerd door de verzekeringsinstelling. De "
+"weigeringscode en -reden geven de oorzaak (verzekerbaarheid, forfait, "
+"data…). Corrigeer en verstuur het lot opnieuw; de teller Herzendingen houdt "
+"de herzendingen bij om dubbels te vermijden."
 
 #: ../../content/ehealth/efact.md:30
 msgid "How do I reintegrate rejected eFact lines into a new sending?"
-msgstr ""
+msgstr "Hoe herintegreer ik geweigerde eFact-regels in een nieuwe verzending?"
 
 #: ../../content/ehealth/efact.md:31
 msgid ""
-"After fixing the cause of the rejection, use the Reintegration button: it"
-" puts the affected lines back into a new sending, without redoing the "
-"whole period."
+"After fixing the cause of the rejection, use the Reintegration button: it "
+"puts the affected lines back into a new sending, without redoing the whole "
+"period."
 msgstr ""
+"Nadat u de oorzaak van de weigering hebt gecorrigeerd, gebruikt u de knop "
+"Herintegratie: die plaatst de betrokken regels terug in een nieuwe "
+"verzending, zonder de hele periode over te doen."
 
 #: ../../content/ehealth/efact.md:33
 msgid ""
-"Can I invoice a resident through eFact if their insurability (MDA) is not"
-" validated?"
+"Can I invoice a resident through eFact if their insurability (MDA) is not "
+"validated?"
 msgstr ""
+"Kan ik een bewoner via eFact factureren als zijn verzekerbaarheid (MDA) niet"
+" gevalideerd is?"
 
 #: ../../content/ehealth/efact.md:34
 msgid ""
-"No. Without valid insurability (MDA), the resident cannot be invoiced to "
-"the mutuality under third-party payment. Run Check MDA before creating "
-"the invoices and correct the resident's mutuality if needed."
+"No. Without valid insurability (MDA), the resident cannot be invoiced to the"
+" mutuality under third-party payment. Run Check MDA before creating the "
+"invoices and correct the resident's mutuality if needed."
 msgstr ""
+"Neen. Zonder geldige verzekerbaarheid (MDA) kan de bewoner niet in "
+"derdebetaler aan de mutualiteit gefactureerd worden. Voer MDA controleren "
+"uit vóór het aanmaken van de facturen en corrigeer indien nodig de "
+"mutualiteit van de bewoner."
 
 #: ../../content/ehealth/efact.md:36
 msgid "Is electronic invoicing (eFact) mandatory?"
-msgstr ""
+msgstr "Is elektronische facturatie (eFact) verplicht?"
 
 #: ../../content/ehealth/efact.md:37
 msgid ""
-"Yes. The electronic sending of the INAMI allowances is mandatory: "
-"production started in April 2026 and the final deadline to be compliant "
-"is 1 October 2026. Resthome respects the sending deadlines per period and"
-" warns you when a deadline approaches or is exceeded."
+"Yes. The electronic sending of the INAMI allowances is mandatory: production"
+" started in April 2026 and the final deadline to be compliant is 1 October "
+"2026. Resthome respects the sending deadlines per period and warns you when "
+"a deadline approaches or is exceeded."
 msgstr ""
+"Ja. De elektronische verzending van de RIZIV-forfaits is verplicht: de "
+"productie startte in april 2026 en de uiterste termijn om in orde te zijn is"
+" 1 oktober 2026. Resthome respecteert de verzendtermijnen per periode en "
+"waarschuwt u wanneer een termijn nadert of overschreden is."
 
 #: ../../content/ehealth/efact.md:39
 msgid ""
-"A resident leaves or dies during an already invoiced month, what happens "
-"to the eFact?"
+"A resident leaves or dies during an already invoiced month, what happens to "
+"the eFact?"
 msgstr ""
+"Een bewoner vertrekt of overlijdt tijdens een reeds gefactureerde maand, wat"
+" gebeurt er met de eFact?"
 
 #: ../../content/ehealth/efact.md:40
 msgid ""
 "Part of the allowance was over-invoiced. Resthome detects it during the "
-"self-check and prepares the corresponding credit note (or remainder), on "
-"the resident side and, if needed, on the mutuality side through a "
-"corrective batch."
+"self-check and prepares the corresponding credit note (or remainder), on the"
+" resident side and, if needed, on the mutuality side through a corrective "
+"batch."
 msgstr ""
+"Een deel van het forfait werd te veel gefactureerd. Resthome detecteert dit "
+"tijdens de zelfcontrole en bereidt de overeenkomstige creditnota (of het "
+"saldo) voor, aan bewonerszijde en, indien nodig, aan mutualiteitszijde via "
+"een corrigerend lot."
 
 #: ../../content/ehealth/efact.md:42
 msgid ""
 "Where do I see the status of an eFact sending and its settlement in "
 "Resthome?"
 msgstr ""
+"Waar zie ik de status van een eFact-verzending en haar afrekening in "
+"Resthome?"
 
 #: ../../content/ehealth/efact.md:43
 msgid ""
-"On each batch, the status (Draft, sent, acknowledged, accepted, rejected)"
-" and the invoiced / accepted / refused amounts are displayed. For an "
-"overview of all sendings of a month, open the eFact Cockpit from the "
-"period or a dashboard card: it shows at a glance what is transmitted, "
-"accepted, rejected or awaiting settlement."
+"On each batch, the status (Draft, sent, acknowledged, accepted, rejected) "
+"and the invoiced / accepted / refused amounts are displayed. For an overview"
+" of all sendings of a month, open the eFact Cockpit from the period or a "
+"dashboard card: it shows at a glance what is transmitted, accepted, rejected"
+" or awaiting settlement."
 msgstr ""
+"Op elk lot worden de status (Concept, verzonden, ontvangst bevestigd, "
+"aanvaard, geweigerd) en de bedragen gefactureerd / aanvaard / geweigerd "
+"getoond. Voor een overzicht van alle verzendingen van een maand opent u de "
+"eFact-cockpit vanuit de periode of een dashboardkaart: die toont in één "
+"oogopslag wat verzonden, aanvaard, geweigerd of in afwachting van afrekening"
+" is."
 
 #: ../../content/ehealth/efact.md:46
 msgid ""
-"The **eFact** is the **electronic** sending of the **mutuality share** "
-"(the INAMI allowance) to the **insurance organisations** (OA), through "
-"the eHealth / MyCareNet network. Resthome builds the files, transmits "
-"them and **follows the responses** for you — acknowledgements, "
-"settlements, acceptances and rejections."
+"The **eFact** is the **electronic** sending of the **mutuality share** (the "
+"INAMI allowance) to the **insurance organisations** (OA), through the "
+"eHealth / MyCareNet network. Resthome builds the files, transmits them and "
+"**follows the responses** for you — acknowledgements, settlements, "
+"acceptances and rejections."
 msgstr ""
+"De **eFact** is de **elektronische** verzending van het "
+"**mutualiteitsaandeel** (het RIZIV-forfait) naar de "
+"**verzekeringsinstellingen** (VI), via het eHealth- / MyCareNet-netwerk. "
+"Resthome bouwt de bestanden, verstuurt ze en **volgt de antwoorden** voor u "
+"op — ontvangstbewijzen, afrekeningen, aanvaardingen en weigeringen."
 
 #: ../../content/ehealth/efact.md:51
 msgid ""
-"This guide walks you through from start to finish: generate a period, "
-"check, invoice, send the eFact and handle the returns."
+"This guide walks you through from start to finish: generate a period, check,"
+" invoice, send the eFact and handle the returns."
 msgstr ""
+"Deze gids begeleidt u van begin tot einde: een periode genereren, "
+"controleren, factureren, de eFact versturen en de retours verwerken."
 
 #: ../../content/ehealth/efact.md:54
 msgid "2026 obligation"
-msgstr ""
+msgstr "Verplichting 2026"
 
 #: ../../content/ehealth/efact.md:56
 msgid ""
-"Electronic invoicing of the allowances is **mandatory**. Production "
-"started in **April 2026**; the final deadline to be compliant is **1 "
-"October 2026**. Resthome respects the sending **deadlines** per period "
-"and alerts you when a deadline approaches or is exceeded."
+"Electronic invoicing of the allowances is **mandatory**. Production started "
+"in **April 2026**; the final deadline to be compliant is **1 October 2026**."
+" Resthome respects the sending **deadlines** per period and alerts you when "
+"a deadline approaches or is exceeded."
 msgstr ""
+"De elektronische facturatie van de forfaits is **verplicht**. De productie "
+"startte in **april 2026**; de uiterste termijn om in orde te zijn is **1 "
+"oktober 2026**. Resthome respecteert de verzend**termijnen** per periode en "
+"verwittigt u wanneer een termijn nadert of overschreden is."
 
 #: ../../content/ehealth/efact.md:62
 msgid "The cycle of a period, at a glance"
-msgstr ""
+msgstr "De cyclus van een periode, in één oogopslag"
 
 #: ../../content/ehealth/efact.md:64
 msgid ""
-"Each billing month is a **period** that goes through four states, in "
-"order:"
+"Each billing month is a **period** that goes through four states, in order:"
 msgstr ""
+"Elke facturatiemaand is een **periode** die vier toestanden doorloopt, in "
+"volgorde:"
 
 #: ../../content/ehealth/efact.md:54
 msgid "State"
-msgstr ""
+msgstr "Toestand"
 
 #: ../../content/ehealth/efact.md:54
 msgid "What it means"
-msgstr ""
+msgstr "Wat het betekent"
 
 #: ../../content/ehealth/efact.md:54
 msgid "**Draft**"
-msgstr ""
+msgstr "**Concept**"
 
 #: ../../content/ehealth/efact.md:54
 msgid "The period is created, nothing is computed yet."
-msgstr ""
+msgstr "De periode is aangemaakt, er is nog niets berekend."
 
 #: ../../content/ehealth/efact.md:54
 msgid "**Generated**"
-msgstr ""
+msgstr "**Gegenereerd**"
 
 #: ../../content/ehealth/efact.md:54
-msgid "Allowances and shares are computed, resident by resident. To be checked."
+msgid ""
+"Allowances and shares are computed, resident by resident. To be checked."
 msgstr ""
+"De forfaits en aandelen zijn berekend, bewoner per bewoner. Te controleren."
 
 #: ../../content/ehealth/efact.md:54
 msgid "**Invoiced**"
-msgstr ""
+msgstr "**Gefactureerd**"
 
 #: ../../content/ehealth/efact.md:54
 msgid "The invoices are posted. The eFact can be built and sent."
-msgstr ""
+msgstr "De facturen zijn geboekt. De eFact kan worden opgebouwd en verstuurd."
 
 #: ../../content/ehealth/efact.md:54
 msgid "**Closed**"
-msgstr ""
+msgstr "**Afgesloten**"
 
 #: ../../content/ehealth/efact.md:54
 msgid "The period is finished and locked."
-msgstr ""
+msgstr "De periode is beëindigd en vergrendeld."
 
 #: ../../content/ehealth/efact.md:73
 msgid ""
-"The guiding thread: **Generate → check → Create invoices → Generate eFact"
-" → send → follow the responses**."
+"The guiding thread: **Generate → check → Create invoices → Generate eFact → "
+"send → follow the responses**."
 msgstr ""
+"De rode draad: **Genereren → controleren → Facturen aanmaken → eFact "
+"genereren → versturen → de antwoorden opvolgen**."
 
 #: ../../content/ehealth/efact.md:76
 msgid "1. The periods dashboard"
-msgstr ""
+msgstr "1. Het dashboard van de periodes"
 
 #: ../../content/ehealth/efact.md:78
 msgid ""
 "Open the **MR/MRS → Dashboard** application. Each month is a card "
 "summarising the essentials."
 msgstr ""
+"Open de toepassing **MR/MRS → Dashboard**. Elke maand is een kaart die het "
+"essentiële samenvat."
 
 #: ../../content/ehealth/efact.md:81
 msgid ""
 "![Billing periods dashboard, one card per month with the eFact "
 "status](../assets/screenshots/efact/01-tableau-de-bord.webp)"
 msgstr ""
+"![Dashboard van de facturatieperiodes, één kaart per maand met de eFact-"
+"status](../assets/screenshots/efact/01-tableau-de-bord.webp)"
 
 #: ../../content/ehealth/efact.md:81
 msgid "Billing periods dashboard, one card per month with the eFact status"
 msgstr ""
+"Dashboard van de facturatieperiodes, één kaart per maand met de eFact-status"
 
 #: ../../content/ehealth/efact.md:83
 msgid "On each card:"
-msgstr ""
+msgstr "Op elke kaart:"
 
 #: ../../content/ehealth/efact.md:85
 msgid "the **status** of the period (Invoiced, Generated…);"
-msgstr ""
+msgstr "de **status** van de periode (Gefactureerd, Gegenereerd…);"
 
 #: ../../content/ehealth/efact.md:86
 msgid "**Invoices** (number of invoices) and **Total**;"
-msgstr ""
+msgstr "**Facturen** (aantal facturen) en **Totaal**;"
 
 #: ../../content/ehealth/efact.md:87
 msgid "**Resident Part** (the share charged to the resident);"
-msgstr ""
+msgstr "**Bewonersaandeel** (het deel ten laste van de bewoner);"
 
 #: ../../content/ehealth/efact.md:88
 msgid "the **eFact deadline** (e.g. \"eFact: 20 Sep\");"
-msgstr ""
+msgstr "de **eFact-termijn** (bv. « eFact: 20 sep »);"
 
 #: ../../content/ehealth/efact.md:89
-msgid "shortcuts: **View Invoices**, **eFact** (the batches), **eFact Cockpit**."
+msgid ""
+"shortcuts: **View Invoices**, **eFact** (the batches), **eFact Cockpit**."
 msgstr ""
+"snelkoppelingen: **Facturen bekijken**, **eFact** (de loten), **eFact-"
+"cockpit**."
 
 #: ../../content/ehealth/efact.md:91
 msgid "\"Deadline exceeded\""
-msgstr ""
+msgstr "« Termijn overschreden »"
 
 #: ../../content/ehealth/efact.md:93
 msgid ""
-"If a card shows **eFact: deadline exceeded** in red, the sending deadline"
-" of this period has **passed**. Send without delay — beyond it, some "
-"insurance organisations may refuse the batch."
+"If a card shows **eFact: deadline exceeded** in red, the sending deadline of"
+" this period has **passed**. Send without delay — beyond it, some insurance "
+"organisations may refuse the batch."
 msgstr ""
+"Als een kaart **eFact: termijn overschreden** in het rood toont, is de "
+"verzendtermijn van deze periode **verstreken**. Verstuur zonder uitstel — "
+"daarna kunnen sommige verzekeringsinstellingen het lot weigeren."
 
 #: ../../content/ehealth/efact.md:98
 msgid "2. Generate the period (Draft → Generated)"
-msgstr ""
+msgstr "2. De periode genereren (Concept → Gegenereerd)"
 
 #: ../../content/ehealth/efact.md:100
 msgid ""
 "Open the month's period. In **Draft** state, one button matters: "
 "**Generate**."
 msgstr ""
+"Open de periode van de maand. In de toestand **Concept** telt één knop: "
+"**Genereren**."
 
 #: ../../content/ehealth/efact.md:102
 msgid ""
-"![Billing period in Draft state, with the Generate button and the self-"
-"check messages on the right](../assets/screenshots/efact/02-periode-"
-"draft.webp)"
+"![Billing period in Draft state, with the Generate button and the self-check"
+" messages on the right](../assets/screenshots/efact/02-periode-draft.webp)"
 msgstr ""
+"![Facturatieperiode in de toestand Concept, met de knop Genereren en de "
+"zelfcontroleberichten aan de "
+"rechterkant](../assets/screenshots/efact/02-periode-draft.webp)"
 
 #: ../../content/ehealth/efact.md:102
 msgid ""
-"Billing period in Draft state, with the Generate button and the self-"
-"check messages on the right"
+"Billing period in Draft state, with the Generate button and the self-check "
+"messages on the right"
 msgstr ""
+"Facturatieperiode in de toestand Concept, met de knop Genereren en de "
+"zelfcontroleberichten aan de rechterkant"
 
 #: ../../content/ehealth/efact.md:104
 msgid "A **\"Generate billing\"** wizard opens."
-msgstr ""
+msgstr "Een wizard **« Facturatie genereren »** opent."
 
 #: ../../content/ehealth/efact.md:106
 msgid ""
 "![Generate billing wizard: period, dates, residents and MDA "
 "loading](../assets/screenshots/efact/03-generer-wizard.webp)"
 msgstr ""
+"![Wizard Facturatie genereren: periode, data, bewoners en MDA "
+"laden](../assets/screenshots/efact/03-generer-wizard.webp)"
 
 #: ../../content/ehealth/efact.md:106
 msgid "Generate billing wizard: period, dates, residents and MDA loading"
-msgstr ""
+msgstr "Wizard Facturatie genereren: periode, data, bewoners en MDA laden"
 
 #: ../../content/ehealth/efact.md:108
 msgid "**Billing Period / dates**: reminder of the month concerned."
-msgstr ""
+msgstr "**Facturatieperiode / data**: herinnering aan de betrokken maand."
 
 #: ../../content/ehealth/efact.md:109
 msgid ""
 "**Residents**: leave **empty for all active residents** (or target one "
 "resident for a specific case)."
 msgstr ""
+"**Bewoners**: laat **leeg voor alle actieve bewoners** (of richt op één "
+"bewoner voor een specifiek geval)."
 
 #: ../../content/ehealth/efact.md:111
 msgid ""
-"**Load MDA**: loads the already verified insurability (MDA) — \"Success\""
-" or \"pending\". The legend shows the MDA state of the period."
+"**Load MDA**: loads the already verified insurability (MDA) — \"Success\" or"
+" \"pending\". The legend shows the MDA state of the period."
 msgstr ""
+"**MDA laden**: laadt de reeds gecontroleerde verzekerbaarheid (MDA) — « "
+"Succes » of « in afwachting ». De legende toont de MDA-toestand van de "
+"periode."
 
 #: ../../content/ehealth/efact.md:114
 msgid ""
-"Click **Generate**. The period becomes **Generated**: Resthome computed, "
-"for **each resident**, the Katz allowance, the **INAMI share** "
-"(mutuality) and the **resident share**."
+"Click **Generate**. The period becomes **Generated**: Resthome computed, for"
+" **each resident**, the Katz allowance, the **INAMI share** (mutuality) and "
+"the **resident share**."
 msgstr ""
+"Klik op **Genereren**. De periode wordt **Gegenereerd**: Resthome heeft voor"
+" **elke bewoner** het Katz-forfait, het **RIZIV-aandeel** (mutualiteit) en "
+"het **bewonersaandeel** berekend."
 
 #: ../../content/ehealth/efact.md:118
 msgid ""
-"![Period in Generated state: toolbar Create invoices / Check MDA / "
-"Generate eFact, and residents table with INAMI share and resident "
+"![Period in Generated state: toolbar Create invoices / Check MDA / Generate "
+"eFact, and residents table with INAMI share and resident "
 "share](../assets/screenshots/efact/04-periode-generated.webp)"
 msgstr ""
+"![Periode in de toestand Gegenereerd: werkbalk Facturen aanmaken / MDA "
+"controleren / eFact genereren, en bewonerstabel met RIZIV-aandeel en "
+"bewonersaandeel](../assets/screenshots/efact/04-periode-generated.webp)"
 
 #: ../../content/ehealth/efact.md:118
 msgid ""
-"Period in Generated state: toolbar Create invoices / Check MDA / Generate"
-" eFact, and residents table with INAMI share and resident share"
+"Period in Generated state: toolbar Create invoices / Check MDA / Generate "
+"eFact, and residents table with INAMI share and resident share"
 msgstr ""
+"Periode in de toestand Gegenereerd: werkbalk Facturen aanmaken / MDA "
+"controleren / eFact genereren, en bewonerstabel met RIZIV-aandeel en "
+"bewonersaandeel"
 
 #: ../../content/ehealth/efact.md:120
 msgid "In the **Residents** tab, you find line by line:"
-msgstr ""
+msgstr "In het tabblad **Bewoners** vindt u regel per regel:"
 
 #: ../../content/ehealth/efact.md:122
 msgid "the **stay type** (MR / MRS) and the **room**;"
-msgstr ""
+msgstr "het **verblijfstype** (MR / MRS) en de **kamer**;"
 
 #: ../../content/ehealth/efact.md:123
 msgid "the **Katz category** (B, C, Cd, D…) or **No Katz**;"
-msgstr ""
+msgstr "de **Katz-categorie** (B, C, Cd, D…) of **Geen Katz**;"
 
 #: ../../content/ehealth/efact.md:124
 msgid "the **presence days** and **absence days**;"
-msgstr ""
+msgstr "de **aanwezigheidsdagen** en **afwezigheidsdagen**;"
 
 #: ../../content/ehealth/efact.md:125
 msgid "the **INAMI share**, the **resident share** and the **total amount**."
 msgstr ""
+"het **RIZIV-aandeel**, het **bewonersaandeel** en het **totaalbedrag**."
 
 #: ../../content/ehealth/efact.md:127
 msgid ""
 "The other tabs: **Billing Lines** (the line details), **Invoices**, "
 "**eHealth** (the exchanges) and **Info**."
 msgstr ""
+"De andere tabbladen: **Factuurregels** (de details van de regels), "
+"**Facturen**, **eHealth** (de uitwisselingen) en **Info**."
 
 #: ../../content/ehealth/efact.md:130
 msgid "3. Check before invoicing"
-msgstr ""
+msgstr "3. Controleren vóór het factureren"
 
 #: ../../content/ehealth/efact.md:132
 msgid ""
-"This is the most important step. At the top of the period, **counters** "
-"give the health state of the month: **Supplements**, **Absences**, **Not "
+"This is the most important step. At the top of the period, **counters** give"
+" the health state of the month: **Supplements**, **Absences**, **Not "
 "invoiced**, **MDA** and **Katz to do** (missing Katz evaluations to "
 "complete)."
 msgstr ""
+"Dit is de belangrijkste stap. Bovenaan de periode geven **tellers** de "
+"gezondheidstoestand van de maand: **Supplementen**, **Afwezigheden**, **Niet"
+" gefactureerd**, **MDA** en **Katz te doen** (ontbrekende Katz-evaluaties "
+"aan te vullen)."
 
 #: ../../content/ehealth/efact.md:136
 msgid "Resthome's self-check"
-msgstr ""
+msgstr "De zelfcontrole van Resthome"
 
 #: ../../content/ehealth/efact.md:138
 msgid ""
-"After generation, Resthome combs through the period and **flags "
-"anomalies** in the discussion thread (on the right). Each message "
-"describes the problem **and** the action to take. The most frequent "
-"cases:"
+"After generation, Resthome combs through the period and **flags anomalies** "
+"in the discussion thread (on the right). Each message describes the problem "
+"**and** the action to take. The most frequent cases:"
 msgstr ""
+"Na de generatie doorloopt Resthome de periode en **signaleert het "
+"anomalieën** in de discussiedraad (rechts). Elk bericht beschrijft het "
+"probleem **en** de te ondernemen actie. De meest frequente gevallen:"
 
 #: ../../content/ehealth/efact.md:142
 msgid ""
-"**Room freed but still invoiced** (over-invoicing) — a resident left "
-"their room during the month, but the accommodation is still being "
-"invoiced. → Issue a **credit note** or close the accommodation."
+"**Room freed but still invoiced** (over-invoicing) — a resident left their "
+"room during the month, but the accommodation is still being invoiced. → "
+"Issue a **credit note** or close the accommodation."
 msgstr ""
+"**Kamer vrijgekomen maar nog gefactureerd** (overfacturatie) — een bewoner "
+"heeft zijn kamer tijdens de maand verlaten, maar het verblijf wordt nog "
+"gefactureerd. → Maak een **creditnota** op of sluit het verblijf af."
 
 #: ../../content/ehealth/efact.md:145
 msgid ""
-"**Over-declared OA allowance** — the end of INAMI intervention (or a "
-"death) precedes the end of the period, but the allowance was declared "
-"beyond. → Issue a **credit note / remainder** for the over-declared days."
+"**Over-declared OA allowance** — the end of INAMI intervention (or a death) "
+"precedes the end of the period, but the allowance was declared beyond. → "
+"Issue a **credit note / remainder** for the over-declared days."
 msgstr ""
+"**Te veel aangegeven VI-forfait** — het einde van de RIZIV-tegemoetkoming "
+"(of een overlijden) gaat het einde van de periode vooraf, maar het forfait "
+"werd verder aangegeven. → Maak een **creditnota / saldo** op voor de te veel"
+" aangegeven dagen."
 
 #: ../../content/ehealth/efact.md:148
 msgid ""
-"**Death — accommodation still invoiced** — the resident died but the room"
-" has not yet been freed (\"Close the accommodation\")."
+"**Death — accommodation still invoiced** — the resident died but the room "
+"has not yet been freed (\"Close the accommodation\")."
 msgstr ""
+"**Overlijden — verblijf nog gefactureerd** — de bewoner is overleden maar de"
+" kamer is nog niet vrijgekomen (« Verblijf afsluiten »)."
 
 #: ../../content/ehealth/efact.md:150
 msgid "**Ongoing absences** — unclosed absences influence the allowance."
 msgstr ""
+"**Lopende afwezigheden** — niet-afgesloten afwezigheden beïnvloeden het "
+"forfait."
 
 #: ../../content/ehealth/efact.md:152
 msgid "Handle each point (**Done** button once settled) before invoicing."
 msgstr ""
+"Behandel elk punt (knop **Klaar** eenmaal geregeld) vóór het factureren."
 
 #: ../../content/ehealth/efact.md:155
 msgid ""
-"**Check MDA** — the **Check MDA** button verifies the **insurability** of"
-" your residents with the mutualities. A resident without valid coverage "
+"**Check MDA** — the **Check MDA** button verifies the **insurability** of "
+"your residents with the mutualities. A resident without valid coverage "
 "cannot be invoiced under third-party payment."
 msgstr ""
+"**MDA controleren** — de knop **MDA controleren** verifieert de "
+"**verzekerbaarheid** van uw bewoners bij de mutualiteiten. Een bewoner "
+"zonder geldige dekking kan niet in derdebetaler gefactureerd worden."
 
 #: ../../content/ehealth/efact.md:159
 msgid "4. Create the invoices (Generated → Invoiced)"
-msgstr ""
+msgstr "4. De facturen aanmaken (Gegenereerd → Gefactureerd)"
 
 #: ../../content/ehealth/efact.md:161
 msgid ""
-"When the checks are green, click **Create invoices**. Resthome generates "
-"and posts:"
+"When the checks are green, click **Create invoices**. Resthome generates and"
+" posts:"
 msgstr ""
+"Wanneer de controles groen zijn, klikt u op **Facturen aanmaken**. Resthome "
+"genereert en boekt:"
 
 #: ../../content/ehealth/efact.md:164
-msgid "the **resident invoices** (share charged to the resident / the family);"
-msgstr ""
+msgid ""
+"the **resident invoices** (share charged to the resident / the family);"
+msgstr "de **bewonersfacturen** (deel ten laste van de bewoner / de familie);"
 
 #: ../../content/ehealth/efact.md:165
 msgid "the **mutuality share**, which will feed the eFact."
-msgstr ""
+msgstr "het **mutualiteitsaandeel**, dat de eFact zal voeden."
 
 #: ../../content/ehealth/efact.md:167
 msgid ""
-"The period becomes **Invoiced**. You can still **Reset to draft** as long"
-" as you have not sent the eFact, if a correction is needed."
+"The period becomes **Invoiced**. You can still **Reset to draft** as long as"
+" you have not sent the eFact, if a correction is needed."
 msgstr ""
+"De periode wordt **Gefactureerd**. U kunt nog **Terugzetten naar concept** "
+"zolang u de eFact niet hebt verstuurd, als een correctie nodig is."
 
 #: ../../content/ehealth/efact.md:170
 msgid "5. Generate the eFact (the batches)"
-msgstr ""
+msgstr "5. De eFact genereren (de loten)"
 
 #: ../../content/ehealth/efact.md:172
 msgid ""
-"Click **Generate eFact**. Resthome builds the **batches** — one "
-"electronic file per insurance organisation — then shows the **eFact "
-"Batches** list."
+"Click **Generate eFact**. Resthome builds the **batches** — one electronic "
+"file per insurance organisation — then shows the **eFact Batches** list."
 msgstr ""
+"Klik op **eFact genereren**. Resthome bouwt de **loten** — één elektronisch "
+"bestand per verzekeringsinstelling — en toont vervolgens de lijst **eFact-"
+"loten**."
 
 #: ../../content/ehealth/efact.md:175
 msgid "One batch per union of mutualities"
-msgstr ""
+msgstr "Eén lot per landsbond van mutualiteiten"
 
 #: ../../content/ehealth/efact.md:177
 msgid ""
 "Sendings are grouped **per union** (the big OA families), not per small "
 "individual mutuality: **100** (National Alliance), **300** (Solidaris), "
-"**500** (National Union), **600** (CAAMI), **900** (HR Rail)… Resthome "
-"takes care of the grouping."
+"**500** (National Union), **600** (CAAMI), **900** (HR Rail)… Resthome takes"
+" care of the grouping."
 msgstr ""
+"De verzendingen worden **per landsbond** gegroepeerd (de grote VI-families),"
+" niet per kleine afzonderlijke mutualiteit: **100** (Landsbond), **300** "
+"(Solidaris), **500** (Nationale Unie), **600** (CAAMI), **900** (HR Rail)… "
+"Resthome zorgt voor de groepering."
 
 #: ../../content/ehealth/efact.md:183
 msgid "Each batch line shows:"
-msgstr ""
+msgstr "Elke lotregel toont:"
 
 #: ../../content/ehealth/efact.md:185
 msgid "the **OA** and its **code**;"
-msgstr ""
+msgstr "de **VI** en haar **code**;"
 
 #: ../../content/ehealth/efact.md:186
 msgid "the batch **reference** (e.g. `EF/2026/…`) and the billing **month**;"
 msgstr ""
+"de **referentie** van het lot (bv. `EF/2026/…`) en de facturatie**maand**;"
 
 #: ../../content/ehealth/efact.md:187
 msgid "the sending **deadline** and the **MDA** state;"
-msgstr ""
+msgstr "de verzend**termijn** en de **MDA**-toestand;"
 
 #: ../../content/ehealth/efact.md:188
 msgid "the batch **status** (Draft, sent, accepted, rejected…);"
-msgstr ""
+msgstr "de **status** van het lot (Concept, verzonden, aanvaard, geweigerd…);"
 
 #: ../../content/ehealth/efact.md:189
 msgid "the **amounts**: invoiced, accepted, refused;"
-msgstr ""
+msgstr "de **bedragen**: gefactureerd, aanvaard, geweigerd;"
 
 #: ../../content/ehealth/efact.md:190
 msgid "in case of refusal, the rejection **code** and **reason**."
-msgstr ""
+msgstr "bij weigering, de weigerings**code** en **-reden**."
 
 #: ../../content/ehealth/efact.md:192
 msgid "6. Send and follow the responses"
-msgstr ""
+msgstr "6. Versturen en de antwoorden opvolgen"
 
 #: ../../content/ehealth/efact.md:194
 msgid ""
 "Once the batches are built, **send them**: the transmission goes to the "
 "insurance organisations through the eHealth network."
 msgstr ""
+"Zodra de loten opgebouwd zijn, **verstuurt u ze**: de verzending vertrekt "
+"naar de verzekeringsinstellingen via het eHealth-netwerk."
 
 #: ../../content/ehealth/efact.md:197
 msgid "The response cycle is automatic:"
-msgstr ""
+msgstr "De antwoordcyclus is automatisch:"
 
 #: ../../content/ehealth/efact.md:199
 msgid ""
 "**Acknowledgement of receipt (931000)** — the OA confirms having "
-"**received** the batch and passed the first check. **This is normal: "
-"there is nothing to resend, wait for the settlement** (a few days)."
+"**received** the batch and passed the first check. **This is normal: there "
+"is nothing to resend, wait for the settlement** (a few days)."
 msgstr ""
+"**Ontvangstbewijs (931000)** — de VI bevestigt het lot te hebben "
+"**ontvangen** en de eerste controle te hebben doorstaan. **Dit is normaal: "
+"er is niets opnieuw te versturen, wacht op de afrekening** (enkele dagen)."
 
 #: ../../content/ehealth/efact.md:202
 msgid ""
-"**Notification with warnings (920098)** or **global rejection (920099)** "
-"— where applicable: either the batch is accepted despite minor errors, or"
-" the whole batch is refused (to fix and resend)."
+"**Notification with warnings (920098)** or **global rejection (920099)** — "
+"where applicable: either the batch is accepted despite minor errors, or the "
+"whole batch is refused (to fix and resend)."
 msgstr ""
+"**Kennisgeving met waarschuwingen (920098)** of **globale weigering "
+"(920099)** — indien van toepassing: ofwel wordt het lot aanvaard ondanks "
+"kleine fouten, ofwel wordt het volledige lot geweigerd (te corrigeren en "
+"opnieuw te versturen)."
 
 #: ../../content/ehealth/efact.md:205
 msgid ""
-"**Settlement (920900)** — the final result: **accepted** and/or "
-"**rejected** amounts. Resthome **reconciles** the responses and updates "
-"each batch (rejection code and reason)."
+"**Settlement (920900)** — the final result: **accepted** and/or **rejected**"
+" amounts. Resthome **reconciles** the responses and updates each batch "
+"(rejection code and reason)."
 msgstr ""
+"**Afrekening (920900)** — het eindresultaat: **aanvaarde** en/of "
+"**geweigerde** bedragen. Resthome **stemt** de antwoorden af en werkt elk "
+"lot bij (weigeringscode en -reden)."
 
 #: ../../content/ehealth/efact.md:209
 msgid "Handling a rejection"
-msgstr ""
+msgstr "Een weigering behandelen"
 
 #: ../../content/ehealth/efact.md:211
 msgid ""
 "If a batch (or part of it) is **rejected**, the rejection **code** and "
-"**reason** tell you why (insurability, allowance, dates…). Fix the cause,"
-" then **resend**. The **Resends** counter keeps track of retransmissions "
-"to avoid duplicates."
+"**reason** tell you why (insurability, allowance, dates…). Fix the cause, "
+"then **resend**. The **Resends** counter keeps track of retransmissions to "
+"avoid duplicates."
 msgstr ""
+"Als een lot (of een deel ervan) **geweigerd** wordt, geven de "
+"weigerings**code** en **-reden** aan waarom (verzekerbaarheid, forfait, "
+"data…). Corrigeer de oorzaak en **verstuur opnieuw**. De teller "
+"**Herzendingen** houdt de herzendingen bij om dubbels te vermijden."
 
 #: ../../content/ehealth/efact.md:217
 msgid ""
-"The **Reintegration** button lets you, where applicable, reintegrate "
-"lines (for example after correction) into a new sending."
+"The **Reintegration** button lets you, where applicable, reintegrate lines "
+"(for example after correction) into a new sending."
 msgstr ""
+"De knop **Herintegratie** laat u toe om, indien van toepassing, regels "
+"(bijvoorbeeld na correctie) in een nieuwe verzending te herintegreren."
 
 #: ../../content/ehealth/efact.md:220
 msgid "7. The eFact Cockpit"
-msgstr ""
+msgstr "7. De eFact-cockpit"
 
 #: ../../content/ehealth/efact.md:222
 msgid ""
-"From a period or a dashboard card, the **eFact Cockpit** offers a "
-"**steering view**: the state of all batches and sendings at a glance — "
-"transmitted, accepted, rejected, pending. It is the ideal screen to "
-"**follow a monthly campaign** and spot what is blocking."
+"From a period or a dashboard card, the **eFact Cockpit** offers a **steering"
+" view**: the state of all batches and sendings at a glance — transmitted, "
+"accepted, rejected, pending. It is the ideal screen to **follow a monthly "
+"campaign** and spot what is blocking."
 msgstr ""
+"Vanuit een periode of een dashboardkaart biedt de **eFact-cockpit** een "
+"**stuuroverzicht**: de toestand van alle loten en verzendingen in één "
+"oogopslag — verzonden, aanvaard, geweigerd, in afwachting. Het is het ideale"
+" scherm om **een maandelijkse campagne op te volgen** en te zien wat "
+"blokkeert."
 
 #: ../../content/ehealth/efact.md:227
 msgid "8. Credit notes and regularisations"
-msgstr ""
+msgstr "8. Creditnota's en regularisaties"
 
 #: ../../content/ehealth/efact.md:229
 msgid ""
 "When a resident **leaves** or **dies** during an already invoiced month, "
-"part of the accommodation or the allowance was **over-invoiced**. "
-"Resthome detects it (see the self-check above) and prepares the "
-"corresponding **credit note** or **remainder**, to refund the undue "
-"period — on the resident side **and**, if needed, on the mutuality side "
-"through a corrective batch."
+"part of the accommodation or the allowance was **over-invoiced**. Resthome "
+"detects it (see the self-check above) and prepares the corresponding "
+"**credit note** or **remainder**, to refund the undue period — on the "
+"resident side **and**, if needed, on the mutuality side through a corrective"
+" batch."
 msgstr ""
+"Wanneer een bewoner tijdens een reeds gefactureerde maand **vertrekt** of "
+"**overlijdt**, werd een deel van het verblijf of het forfait **te veel "
+"gefactureerd**. Resthome detecteert dit (zie de zelfcontrole hierboven) en "
+"bereidt de overeenkomstige **creditnota** of het **saldo** voor, om de "
+"onterechte periode terug te betalen — aan bewonerszijde **en**, indien "
+"nodig, aan mutualiteitszijde via een corrigerend lot."
 
 #: ../../content/ehealth/efact.md:235
 msgid "Prerequisites"
-msgstr ""
+msgstr "Vereisten"
 
 #: ../../content/ehealth/efact.md:237
 msgid "To check before sending"
-msgstr ""
+msgstr "Te controleren vóór het versturen"
 
 #: ../../content/ehealth/efact.md:239
 msgid "**Insurability (MDA)** checked for the period."
-msgstr ""
+msgstr "**Verzekerbaarheid (MDA)** gecontroleerd voor de periode."
 
 #: ../../content/ehealth/efact.md:240
 msgid "Correct **mutuality** on each resident."
-msgstr ""
+msgstr "Correcte **mutualiteit** op elke bewoner."
 
 #: ../../content/ehealth/efact.md:241
 msgid "Invoices **posted** (period in *Invoiced* state)."
-msgstr ""
+msgstr "Facturen **geboekt** (periode in de toestand *Gefactureerd*)."
 
 #: ../../content/ehealth/efact.md:242
 msgid "Active **eHealth certificate**."
-msgstr ""
+msgstr "Actief **eHealth-certificaat**."
 
 #: ../../content/ehealth/efact.md:245
 msgid "Key points to remember"
-msgstr ""
+msgstr "Belangrijke punten om te onthouden"
 
 #: ../../content/ehealth/efact.md:247
 msgid ""
 "The period always follows the order **Draft → Generated → Invoiced → "
 "Closed**."
 msgstr ""
+"De periode volgt altijd de volgorde **Concept → Gegenereerd → Gefactureerd →"
+" Afgesloten**."
 
 #: ../../content/ehealth/efact.md:248
 msgid "**Check before invoicing**: handle every self-check message."
-msgstr ""
+msgstr "**Controleer vóór het factureren**: behandel elk zelfcontrolebericht."
 
 #: ../../content/ehealth/efact.md:249
 msgid "**Check the MDA** — no third-party payment without valid insurability."
 msgstr ""
+"**Controleer de MDA** — geen derdebetaler zonder geldige verzekerbaarheid."
 
 #: ../../content/ehealth/efact.md:250
 msgid "**One eFact batch per union** of mutualities, not per mutuality."
 msgstr ""
+"**Eén eFact-lot per landsbond** van mutualiteiten, niet per mutualiteit."
 
 #: ../../content/ehealth/efact.md:251
 msgid "Respect the sending **deadline** of each period (\"deadline exceeded\")."
 msgstr ""
+"Respecteer de verzend**termijn** van elke periode (« termijn overschreden "
+"»)."
 
 #: ../../content/ehealth/efact.md:252
 msgid ""
 "A **rejection** is fixed then **resent** — the Resends counter avoids "
 "duplicates."
 msgstr ""
-
+"Een **weigering** wordt gecorrigeerd en dan **opnieuw verstuurd** — de "
+"teller Herzendingen vermijdt dubbels."

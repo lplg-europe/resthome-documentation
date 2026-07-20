@@ -7,118 +7,145 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Resthome docs \n"
+"Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-18 19:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
 "Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
 #: ../../content/documents/index.md:1
 msgid "Resident documents"
-msgstr ""
+msgstr "Documents du résident"
 
 #: ../../content/documents/index.md:4
 msgid ""
 "The automatic document folder for every nursing home (MR/MRS) resident: "
 "subfolders, tags, and the Documents button on the record."
 msgstr ""
+"Le dossier documentaire automatique de chaque résident de maison de repos "
+"(MR/MRS) : sous-dossiers, étiquettes et le bouton Documents sur la fiche."
 
 #: ../../content/documents/index.md:8
 msgid "Where is a resident's document folder located?"
-msgstr ""
+msgstr "Où se trouve le dossier documentaire d'un résident ?"
 
 #: ../../content/documents/index.md:9
 msgid ""
-"In Odoo's Documents app, under the \"Residents\" folder. The easiest way:"
-" open the resident's record and click the \"Documents\" button — it opens"
-" their personal folder directly."
+"In Odoo's Documents app, under the \"Residents\" folder. The easiest way: "
+"open the resident's record and click the \"Documents\" button — it opens "
+"their personal folder directly."
 msgstr ""
+"Dans l'application Documents d'Odoo, sous le dossier « Résidents ». Le plus "
+"simple : ouvrez la fiche du résident et cliquez sur le bouton « Documents » "
+"— il ouvre directement son dossier personnel."
 
 #: ../../content/documents/index.md:11
 msgid "Do I have to create the folder and subfolders myself?"
-msgstr ""
+msgstr "Dois-je créer le dossier et les sous-dossiers moi-même ?"
 
 #: ../../content/documents/index.md:12
 msgid ""
-"No. Resthome creates the resident's personal folder and its three "
-"subfolders (Medical, Administrative, and Billing documents) "
-"automatically, as soon as the resident is created or their resident "
-"record is activated."
+"No. Resthome creates the resident's personal folder and its three subfolders"
+" (Medical, Administrative, and Billing documents) automatically, as soon as "
+"the resident is created or their resident record is activated."
 msgstr ""
+"Non. Resthome crée automatiquement le dossier personnel du résident et ses "
+"trois sous-dossiers (Documents médicaux, administratifs et de facturation), "
+"dès que le résident est créé ou que sa fiche résident est activée."
 
 #: ../../content/documents/index.md:14
 msgid "What does the number shown on the \"Documents\" button count?"
-msgstr ""
+msgstr "Que compte le nombre affiché sur le bouton « Documents » ?"
 
 #: ../../content/documents/index.md:15
 msgid ""
-"The number of files stored in the resident's folder, subfolders included."
-" The subfolders themselves are not counted, only the documents they "
-"contain."
+"The number of files stored in the resident's folder, subfolders included. "
+"The subfolders themselves are not counted, only the documents they contain."
 msgstr ""
+"Le nombre de fichiers stockés dans le dossier du résident, sous-dossiers "
+"compris. Les sous-dossiers eux-mêmes ne sont pas comptés, seuls les "
+"documents qu'ils contiennent le sont."
 
 #: ../../content/documents/index.md:17
 msgid "Can I delete a resident folder by mistake?"
-msgstr ""
+msgstr "Puis-je supprimer un dossier de résident par erreur ?"
 
 #: ../../content/documents/index.md:18
 msgid ""
-"No. Automatically created folders are protected: a standard user can drop"
-" documents into them and view them, but cannot delete the folder itself."
+"No. Automatically created folders are protected: a standard user can drop "
+"documents into them and view them, but cannot delete the folder itself."
 msgstr ""
+"Non. Les dossiers créés automatiquement sont protégés : un utilisateur "
+"standard peut y déposer des documents et les consulter, mais ne peut pas "
+"supprimer le dossier lui-même."
 
 #: ../../content/documents/index.md:20
 msgid "What are tags like Katz, eAgreement, or GDPR for?"
-msgstr ""
+msgstr "À quoi servent les étiquettes comme Katz, eAgreement ou RGPD ?"
 
 #: ../../content/documents/index.md:21
 msgid ""
-"They are ready-to-use tags for categorizing documents and finding them by"
-" filter in the Documents app. You can also apply some of them "
-"automatically through the settings (\"Default tags\")."
+"They are ready-to-use tags for categorizing documents and finding them by "
+"filter in the Documents app. You can also apply some of them automatically "
+"through the settings (\"Default tags\")."
 msgstr ""
+"Ce sont des étiquettes prêtes à l'emploi pour catégoriser les documents et "
+"les retrouver par filtre dans l'application Documents. Vous pouvez aussi en "
+"appliquer certaines automatiquement via les réglages (« Étiquettes par "
+"défaut »)."
 
 #: ../../content/documents/index.md:23
 msgid "Does each facility have its own folders?"
-msgstr ""
+msgstr "Chaque établissement a-t-il ses propres dossiers ?"
 
 #: ../../content/documents/index.md:24
 msgid ""
-"Yes. In multi-company, each facility has its own \"Residents\" root "
-"folder and its own \"Blank forms\" folder, which keeps documents "
-"separated per home."
+"Yes. In multi-company, each facility has its own \"Residents\" root folder "
+"and its own \"Blank forms\" folder, which keeps documents separated per "
+"home."
 msgstr ""
+"Oui. En multi-société, chaque établissement a son propre dossier racine « "
+"Résidents » et son propre dossier « Formulaires vierges », ce qui garde les "
+"documents séparés par maison."
 
 #: ../../content/documents/index.md:27
 msgid ""
-"For **each resident**, Resthome maintains a **document folder** stored in"
-" Odoo's **Documents** app. You have nothing to create or file by hand: "
-"the folder, its subfolders, and the filing are automatic. You access it "
-"from the **Documents** button on the resident's record, or from the "
-"**Documents → Residents** app."
+"For **each resident**, Resthome maintains a **document folder** stored in "
+"Odoo's **Documents** app. You have nothing to create or file by hand: the "
+"folder, its subfolders, and the filing are automatic. You access it from the"
+" **Documents** button on the resident's record, or from the **Documents → "
+"Residents** app."
 msgstr ""
+"Pour **chaque résident**, Resthome tient à jour un **dossier documentaire** "
+"stocké dans l'application **Documents** d'Odoo. Vous n'avez rien à créer ni "
+"à classer à la main : le dossier, ses sous-dossiers et le classement sont "
+"automatiques. Vous y accédez depuis le bouton **Documents** sur la fiche du "
+"résident, ou depuis l'application **Documents → Résidents**."
 
 #: ../../content/documents/index.md:32
 msgid "Prerequisite"
-msgstr ""
+msgstr "Prérequis"
 
 #: ../../content/documents/index.md:35
 msgid ""
-"This feature relies on Odoo's **Documents** app: it must be installed. "
-"Once enabled, the resident folders and tags are set up automatically — "
-"you have nothing to prepare."
+"This feature relies on Odoo's **Documents** app: it must be installed. Once "
+"enabled, the resident folders and tags are set up automatically — you have "
+"nothing to prepare."
 msgstr ""
+"Cette fonctionnalité repose sur l'application **Documents** d'Odoo : elle "
+"doit être installée. Une fois activée, les dossiers des résidents et les "
+"étiquettes se configurent automatiquement — vous n'avez rien à préparer."
 
 #: ../../content/documents/index.md:40
 msgid "One folder per resident, created automatically"
-msgstr ""
+msgstr "Un dossier par résident, créé automatiquement"
 
 #: ../../content/documents/index.md:42
 msgid ""
@@ -126,286 +153,334 @@ msgid ""
 "resident record), Resthome creates their **personal folder** under the "
 "**\"Residents\"** root folder, with **three ready-to-use subfolders**:"
 msgstr ""
+"Dès qu'un résident est créé (ou dès que sa fiche devient une fiche "
+"résident), Resthome crée son **dossier personnel** sous le dossier racine "
+"**« Résidents »**, avec **trois sous-dossiers prêts à l'emploi** :"
 
 #: ../../content/documents/index.md:46
 msgid "Subfolder"
-msgstr ""
+msgstr "Sous-dossier"
 
 #: ../../content/documents/index.md:46
 msgid "What goes in it"
-msgstr ""
+msgstr "Ce qu'on y met"
 
 #: ../../content/documents/index.md:46
 msgid "**Medical documents**"
-msgstr ""
+msgstr "**Documents médicaux**"
 
 #: ../../content/documents/index.md:46
 msgid "The resident's assessments, forms, and medical items."
-msgstr ""
+msgstr "Les évaluations, formulaires et éléments médicaux du résident."
 
 #: ../../content/documents/index.md:46
 msgid "**Administrative documents**"
-msgstr ""
+msgstr "**Documents administratifs**"
 
 #: ../../content/documents/index.md:46
 msgid "Convention, ID documents, agreements, letters."
-msgstr ""
+msgstr "Convention, pièces d'identité, accords, courriers."
 
 #: ../../content/documents/index.md:46
 msgid "**Billing documents**"
-msgstr ""
+msgstr "**Documents de facturation**"
 
 #: ../../content/documents/index.md:46
 msgid "Invoices and items related to the resident's billing."
-msgstr ""
+msgstr "Les factures et éléments liés à la facturation du résident."
 
 #: ../../content/documents/index.md:61
 msgid ""
 "The folder is named after the **resident's name** and **renames itself "
-"automatically** if the name changes. Folders are **sorted "
-"alphabetically**, which keeps them easy to browse in the Documents app."
+"automatically** if the name changes. Folders are **sorted alphabetically**, "
+"which keeps them easy to browse in the Documents app."
 msgstr ""
+"Le dossier porte le **nom du résident** et **se renomme automatiquement** si"
+" le nom change. Les dossiers sont **triés par ordre alphabétique**, ce qui "
+"les garde faciles à parcourir dans l'application Documents."
 
 #: ../../content/documents/index.md:65
 msgid "Protected folders"
-msgstr ""
+msgstr "Dossiers protégés"
 
 #: ../../content/documents/index.md:68
 msgid ""
-"Automatically created folders are **protected from deletion**: a standard"
-" user can drop documents into them and view them, but cannot delete the "
-"folder itself. This keeps you from accidentally losing a resident's "
-"entire document structure."
+"Automatically created folders are **protected from deletion**: a standard "
+"user can drop documents into them and view them, but cannot delete the "
+"folder itself. This keeps you from accidentally losing a resident's entire "
+"document structure."
 msgstr ""
+"Les dossiers créés automatiquement sont **protégés contre la suppression** :"
+" un utilisateur standard peut y déposer des documents et les consulter, mais"
+" ne peut pas supprimer le dossier lui-même. Cela vous évite de perdre "
+"accidentellement toute la structure documentaire d'un résident."
 
 #: ../../content/documents/index.md:75
 msgid "The \"Documents\" button on the record"
-msgstr ""
+msgstr "Le bouton « Documents » sur la fiche"
 
 #: ../../content/documents/index.md:77
 msgid ""
 "On the resident's record, a **\"Documents\" smart button** shows the "
 "**number of files** stored in their folder. The counter adds up the "
-"documents in the folder **and its subfolders** (the subfolders themselves"
-" are not counted). Clicking the button **opens** the resident's personal "
+"documents in the folder **and its subfolders** (the subfolders themselves "
+"are not counted). Clicking the button **opens** the resident's personal "
 "folder directly in the Documents app."
 msgstr ""
+"Sur la fiche du résident, un **bouton intelligent « Documents »** affiche le"
+" **nombre de fichiers** stockés dans son dossier. Le compteur additionne les"
+" documents du dossier **et de ses sous-dossiers** (les sous-dossiers eux-"
+"mêmes ne sont pas comptés). Cliquer sur le bouton **ouvre** directement le "
+"dossier personnel du résident dans l'application Documents."
 
 #: ../../content/documents/index.md:82
 msgid "Only for Documents app users"
-msgstr ""
+msgstr "Uniquement pour les utilisateurs de l'application Documents"
 
 #: ../../content/documents/index.md:85
 msgid ""
-"The button only appears for users who have access to the **Documents** "
-"app. Others still see the resident record normally, without the shortcut."
+"The button only appears for users who have access to the **Documents** app. "
+"Others still see the resident record normally, without the shortcut."
 msgstr ""
+"Le bouton n'apparaît que pour les utilisateurs qui ont accès à l'application"
+" **Documents**. Les autres voient la fiche résident normalement, sans le "
+"raccourci."
 
 #: ../../content/documents/index.md:91
 msgid "Folders created at the facility level"
-msgstr ""
+msgstr "Les dossiers créés au niveau de l'établissement"
 
 #: ../../content/documents/index.md:93
 msgid ""
-"When the company (the facility) is created, Resthome automatically sets "
-"up two folders at the top of the Documents app:"
+"When the company (the facility) is created, Resthome automatically sets up "
+"two folders at the top of the Documents app:"
 msgstr ""
+"Lors de la création de la société (l'établissement), Resthome met "
+"automatiquement en place deux dossiers en haut de l'application Documents :"
 
 #: ../../content/documents/index.md:96
 msgid "**Residents** — the root folder that contains all resident folders."
 msgstr ""
+"**Résidents** — le dossier racine qui contient tous les dossiers des "
+"résidents."
 
 #: ../../content/documents/index.md:97
 msgid ""
-"**Blank forms** — a subfolder for your **templates** and documents to "
-"fill in (standard conventions, blank medical forms, etc.)."
+"**Blank forms** — a subfolder for your **templates** and documents to fill "
+"in (standard conventions, blank medical forms, etc.)."
 msgstr ""
+"**Formulaires vierges** — un sous-dossier pour vos **modèles** et documents "
+"à compléter (conventions types, formulaires médicaux vierges, etc.)."
 
 #: ../../content/documents/index.md:100
 msgid "Separated by facility"
-msgstr ""
+msgstr "Séparés par établissement"
 
 #: ../../content/documents/index.md:103
 msgid ""
-"In multi-company, **each facility has its own root folder** \"Residents\""
-" and its own \"Blank forms\" folder. Documents therefore stay separated "
-"from one home to another."
+"In multi-company, **each facility has its own root folder** \"Residents\" "
+"and its own \"Blank forms\" folder. Documents therefore stay separated from "
+"one home to another."
 msgstr ""
+"En multi-société, **chaque établissement a son propre dossier racine** « "
+"Résidents » et son propre dossier « Formulaires vierges ». Les documents "
+"restent donc séparés d'une maison à l'autre."
 
 #: ../../content/documents/index.md:108
 msgid "Predefined tags"
-msgstr ""
+msgstr "Étiquettes prédéfinies"
 
 #: ../../content/documents/index.md:110
 msgid ""
 "Resthome provides a list of ready-to-use **tags** for **categorizing** "
 "documents and **finding them by filter** in the Documents app:"
 msgstr ""
+"Resthome fournit une liste d'**étiquettes** prêtes à l'emploi pour "
+"**catégoriser** les documents et **les retrouver par filtre** dans "
+"l'application Documents :"
 
 #: ../../content/documents/index.md:100
 msgid "Tag"
-msgstr ""
+msgstr "Étiquette"
 
 #: ../../content/documents/index.md:100
 msgid "Typical use"
-msgstr ""
+msgstr "Usage typique"
 
 #: ../../content/documents/index.md:100
 msgid "**Katz assessment**"
-msgstr ""
+msgstr "**Évaluation Katz**"
 
 #: ../../content/documents/index.md:100
 msgid "Katz dependency assessment grids and reports."
-msgstr ""
+msgstr "Grilles et rapports d'évaluation de dépendance Katz."
 
 #: ../../content/documents/index.md:100
 msgid "**Medical form**"
-msgstr ""
+msgstr "**Formulaire médical**"
 
 #: ../../content/documents/index.md:100
 msgid "Medical forms and documents."
-msgstr ""
+msgstr "Formulaires et documents médicaux."
 
 #: ../../content/documents/index.md:100
 msgid "**MR/MRS agreement (eAgreement)**"
-msgstr ""
+msgstr "**Accord MR/MRS (eAgreement)**"
 
 #: ../../content/documents/index.md:100
 msgid "Health insurer agreements (eAgreement)."
-msgstr ""
+msgstr "Accords avec l'organisme assureur (eAgreement)."
 
 #: ../../content/documents/index.md:100
 msgid "**OA allocation**"
-msgstr ""
+msgstr "**Attribution OA**"
 
 #: ../../content/documents/index.md:100
 msgid "Decisions and allocations from the insurer."
-msgstr ""
+msgstr "Décisions et attributions de l'organisme assureur."
 
 #: ../../content/documents/index.md:100
 msgid "**Convention**"
-msgstr ""
+msgstr "**Convention**"
 
 #: ../../content/documents/index.md:100
 msgid "The convention signed with the resident."
-msgstr ""
+msgstr "La convention signée avec le résident."
 
 #: ../../content/documents/index.md:100
 msgid "**Billing**"
-msgstr ""
+msgstr "**Facturation**"
 
 #: ../../content/documents/index.md:100
 msgid "Invoices and billing items."
-msgstr ""
+msgstr "Factures et éléments de facturation."
 
 #: ../../content/documents/index.md:100
 msgid "**CPAS**"
-msgstr ""
+msgstr "**CPAS**"
 
 #: ../../content/documents/index.md:100
 msgid "CPAS coverage documents."
-msgstr ""
+msgstr "Documents de prise en charge CPAS."
 
 #: ../../content/documents/index.md:100
 msgid "**GDPR consent**"
-msgstr ""
+msgstr "**Consentement RGPD**"
 
 #: ../../content/documents/index.md:100
 msgid "Consents and privacy-related documents."
-msgstr ""
+msgstr "Consentements et documents liés à la vie privée."
 
 #: ../../content/documents/index.md:100
 msgid "**End of stay**"
-msgstr ""
+msgstr "**Fin de séjour**"
 
 #: ../../content/documents/index.md:100
 msgid "End-of-stay / departure documents."
-msgstr ""
+msgstr "Documents de fin de séjour / départ."
 
 #: ../../content/documents/index.md:125
 msgid "Apply tags automatically"
-msgstr ""
+msgstr "Appliquer les étiquettes automatiquement"
 
 #: ../../content/documents/index.md:128
 msgid ""
-"You can have one or more of these tags applied **automatically** to every"
-" centralized document, through the **Default tags** field in the "
-"settings. See [Document settings](../configuration/reglages-"
-"documents.md)."
+"You can have one or more of these tags applied **automatically** to every "
+"centralized document, through the **Default tags** field in the settings. "
+"See [Document settings](../configuration/reglages-documents.md)."
 msgstr ""
+"Vous pouvez faire appliquer une ou plusieurs de ces étiquettes "
+"**automatiquement** à chaque document centralisé, via le champ **Étiquettes "
+"par défaut** dans les réglages. Voir [Réglages des "
+"documents](../configuration/reglages-documents.md)."
 
 #: ../../content/documents/index.md:133
 msgid "Automatic filing of attachments"
-msgstr ""
+msgstr "Classement automatique des pièces jointes"
 
 #: ../../content/documents/index.md:135
 msgid ""
-"Beyond the folders, Resthome can **automatically centralize** attachments"
-" dropped on a resident's record: they land directly in their personal "
-"folder, with no manual filing. This behavior is set in the configuration."
+"Beyond the folders, Resthome can **automatically centralize** attachments "
+"dropped on a resident's record: they land directly in their personal folder,"
+" with no manual filing. This behavior is set in the configuration."
 msgstr ""
+"Au-delà des dossiers, Resthome peut **centraliser automatiquement** les "
+"pièces jointes déposées sur la fiche d'un résident : elles arrivent "
+"directement dans son dossier personnel, sans classement manuel. Ce "
+"comportement se règle dans la configuration."
 
 #: ../../content/documents/index.md:139
 msgid "Learn more"
-msgstr ""
+msgstr "Pour aller plus loin"
 
 #: ../../content/documents/index.md:142
 msgid ""
 "The detailed behavior, use cases, and activation are described on the "
 "[Document centralization](centralisation.md) page."
 msgstr ""
+"Le comportement détaillé, les cas d'usage et l'activation sont décrits sur "
+"la page [Centralisation des documents](centralisation.md)."
 
 #: ../../content/documents/index.md:146
 msgid "Key points to remember"
-msgstr ""
+msgstr "Points clés à retenir"
 
 #: ../../content/documents/index.md:148
 msgid ""
-"Each resident has an **automatic personal folder** with three subfolders:"
-" **medical**, **administrative**, **billing**."
+"Each resident has an **automatic personal folder** with three subfolders: "
+"**medical**, **administrative**, **billing**."
 msgstr ""
+"Chaque résident dispose d'un **dossier personnel automatique** avec trois "
+"sous-dossiers : **médical**, **administratif**, **facturation**."
 
 #: ../../content/documents/index.md:150
 msgid ""
-"The folder follows the **resident's name** and renames itself; folders "
-"are **protected from accidental deletion**."
+"The folder follows the **resident's name** and renames itself; folders are "
+"**protected from accidental deletion**."
 msgstr ""
+"Le dossier suit le **nom du résident** et se renomme ; les dossiers sont "
+"**protégés contre la suppression accidentelle**."
 
 #: ../../content/documents/index.md:152
 msgid ""
-"The record's **\"Documents\" button** opens the folder and counts the "
-"files, subfolders included."
+"The record's **\"Documents\" button** opens the folder and counts the files,"
+" subfolders included."
 msgstr ""
+"Le **bouton « Documents »** de la fiche ouvre le dossier et compte les "
+"fichiers, sous-dossiers compris."
 
 #: ../../content/documents/index.md:154
 msgid ""
-"At the facility level, Resthome creates the **\"Residents\"** and "
-"**\"Blank forms\"** folders, **separated per company**."
+"At the facility level, Resthome creates the **\"Residents\"** and **\"Blank "
+"forms\"** folders, **separated per company**."
 msgstr ""
+"Au niveau de l'établissement, Resthome crée les dossiers **« Résidents »** "
+"et **« Formulaires vierges »**, **séparés par société**."
 
 #: ../../content/documents/index.md:156
 msgid ""
 "Nine predefined **tags** (Katz, eAgreement, GDPR, CPAS…) make filtering "
 "easier, and can be applied automatically."
 msgstr ""
+"Neuf **étiquettes** prédéfinies (Katz, eAgreement, RGPD, CPAS…) facilitent "
+"le filtrage et peuvent être appliquées automatiquement."
 
 #: ../../content/documents/index.md:159
 msgid "Further reading"
-msgstr ""
+msgstr "Pour aller plus loin"
 
 #: ../../content/documents/index.md:161
 msgid "[Document centralization](centralisation.md)"
-msgstr ""
+msgstr "[Centralisation des documents](centralisation.md)"
 
 #: ../../content/documents/index.md:162
 msgid "[Managing a resident](../residents/gerer-un-resident.md)"
-msgstr ""
+msgstr "[Gérer un résident](../residents/gerer-un-resident.md)"
 
 #: ../../content/documents/index.md:163
 msgid "[Document settings](../configuration/reglages-documents.md)"
-msgstr ""
+msgstr "[Réglages des documents](../configuration/reglages-documents.md)"
 
 #: ../../content/documents/index.md:164
 msgid "[FAQ](../faq.md) · [Glossary](../glossaire.md)"
-msgstr ""
-
+msgstr "[FAQ](../faq.md) · [Glossaire](../glossaire.md)"

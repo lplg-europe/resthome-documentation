@@ -7,46 +7,52 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Resthome docs \n"
+"Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-18 19:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
 "Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
 #: ../../content/soins/sam-base-medicaments.md:5
 msgid "The SAM medication database"
-msgstr ""
+msgstr "La base de médicaments SAM"
 
 #: ../../content/soins/sam-base-medicaments.md:8
 msgid ""
-"The Belgian SAM authentic-source database in Resthome: ATC reference, "
-"BCFI class, Black Triangle, SmPC/leaflet and the Search SAM wizard for "
-"the nursing home (MR/MRS)."
+"The Belgian SAM authentic-source database in Resthome: ATC reference, BCFI "
+"class, Black Triangle, SmPC/leaflet and the Search SAM wizard for the "
+"nursing home (MR/MRS)."
 msgstr ""
+"La base de données belge SAM (source authentique) dans Resthome : référence "
+"ATC, classe BCFI, triangle noir, RCP/notice et l'assistant Rechercher SAM "
+"pour la maison de repos (MR/MRS)."
 
 #: ../../content/soins/sam-base-medicaments.md:12
 msgid "What is the SAM database?"
-msgstr ""
+msgstr "Qu'est-ce que la base SAM ?"
 
 #: ../../content/soins/sam-base-medicaments.md:13
 msgid ""
-"SAM (Source Authentique des Médicaments, the authentic source of "
-"medicines) is the official Belgian medication reference database. "
-"Resthome ships a copy of it to feed your nursing home (MR/MRS) catalog "
-"with reliable data: CNK code, active ingredient, ATC code, BCFI class, "
-"leaflets."
+"SAM (Source Authentique des Médicaments, the authentic source of medicines) "
+"is the official Belgian medication reference database. Resthome ships a copy"
+" of it to feed your nursing home (MR/MRS) catalog with reliable data: CNK "
+"code, active ingredient, ATC code, BCFI class, leaflets."
 msgstr ""
+"SAM (Source Authentique des Médicaments) est la base de données de référence"
+" officielle des médicaments en Belgique. Resthome en embarque une copie pour"
+" alimenter le catalogue de votre maison de repos (MR/MRS) avec des données "
+"fiables : code CNK, principe actif, code ATC, classe BCFI, notices."
 
 #: ../../content/soins/sam-base-medicaments.md:15
 msgid "Where can I find the SAM database in Resthome?"
-msgstr ""
+msgstr "Où trouver la base SAM dans Resthome ?"
 
 #: ../../content/soins/sam-base-medicaments.md:16
 msgid ""
@@ -54,21 +60,28 @@ msgid ""
 "Database. And the \"Search SAM\" import wizard, through the MR/MRS app → "
 "Configuration → eHealth Configuration → Search SAM."
 msgstr ""
+"Deux points d'entrée. La consultation, via l'application Soins → "
+"Configuration → Base SAM. Et l'assistant d'import « Rechercher SAM », via "
+"l'application MR/MRS → Configuration → Configuration eHealth → Rechercher "
+"SAM."
 
 #: ../../content/soins/sam-base-medicaments.md:18
 msgid "How do I add a SAM medication to my catalog?"
-msgstr ""
+msgstr "Comment ajouter un médicament SAM à mon catalogue ?"
 
 #: ../../content/soins/sam-base-medicaments.md:19
 msgid ""
-"Open the Search SAM wizard, search by name or by CNK code, check the rows"
-" you want and click Import Selected. The medications are created in your "
+"Open the Search SAM wizard, search by name or by CNK code, check the rows "
+"you want and click Import Selected. The medications are created in your "
 "catalog with their SAM data."
 msgstr ""
+"Ouvrez l'assistant Rechercher SAM, recherchez par nom ou par code CNK, "
+"cochez les lignes voulues et cliquez sur Importer la sélection. Les "
+"médicaments sont créés dans votre catalogue avec leurs données SAM."
 
 #: ../../content/soins/sam-base-medicaments.md:21
 msgid "What does \"Black Triangle\" mean?"
-msgstr ""
+msgstr "Que signifie « triangle noir » ?"
 
 #: ../../content/soins/sam-base-medicaments.md:22
 msgid ""
@@ -76,183 +89,222 @@ msgid ""
 "(additional pharmacovigilance). The information is taken from SAM, for "
 "guidance, on the reference record."
 msgstr ""
+"Le triangle noir signale un médicament sous surveillance renforcée "
+"(pharmacovigilance additionnelle). L'information provient de SAM, à titre "
+"indicatif, sur la fiche de référence."
 
 #: ../../content/soins/sam-base-medicaments.md:24
 msgid "Does the search work without an eHealth connection?"
-msgstr ""
+msgstr "La recherche fonctionne-t-elle sans connexion eHealth ?"
 
 #: ../../content/soins/sam-base-medicaments.md:25
 msgid ""
-"Yes. The search relies first on the local copy of SAM, available offline "
-"and instantly. The live DICS v5 service is used only as a fallback and "
-"requires a certified eHealth connection."
+"Yes. The search relies first on the local copy of SAM, available offline and"
+" instantly. The live DICS v5 service is used only as a fallback and requires"
+" a certified eHealth connection."
 msgstr ""
+"Oui. La recherche s'appuie d'abord sur la copie locale de SAM, disponible "
+"hors ligne et instantanément. Le service en direct DICS v5 n'est utilisé "
+"qu'en secours et requiert une connexion eHealth certifiée."
 
 #: ../../content/soins/sam-base-medicaments.md:27
 msgid "How do I update a medication that is already present?"
-msgstr ""
+msgstr "Comment mettre à jour un médicament déjà présent ?"
 
 #: ../../content/soins/sam-base-medicaments.md:28
 msgid ""
-"Run the search again and re-import the row. If the CNK code already "
-"exists in the catalog, Resthome updates the existing record instead of "
-"creating a second one."
+"Run the search again and re-import the row. If the CNK code already exists "
+"in the catalog, Resthome updates the existing record instead of creating a "
+"second one."
 msgstr ""
+"Relancez la recherche et réimportez la ligne. Si le code CNK existe déjà "
+"dans le catalogue, Resthome met à jour la fiche existante au lieu d'en créer"
+" une deuxième."
 
 #: ../../content/soins/sam-base-medicaments.md:31
 msgid ""
 "**SAM** (Source Authentique des Médicaments, the authentic source of "
-"medicines) is the official Belgian medication reference database. "
-"Resthome uses it as the foundation of its **medication catalog**: rather "
-"than entering a medication by hand, you search for it in SAM and import "
-"it, with its reliable data (CNK code, active ingredient, classification, "
-"leaflets)."
+"medicines) is the official Belgian medication reference database. Resthome "
+"uses it as the foundation of its **medication catalog**: rather than "
+"entering a medication by hand, you search for it in SAM and import it, with "
+"its reliable data (CNK code, active ingredient, classification, leaflets)."
 msgstr ""
+"**SAM** (Source Authentique des Médicaments) est la base de données de "
+"référence officielle des médicaments en Belgique. Resthome l'utilise comme "
+"socle de son **catalogue de médicaments** : plutôt que de saisir un "
+"médicament à la main, vous le recherchez dans SAM et l'importez, avec ses "
+"données fiables (code CNK, principe actif, classification, notices)."
 
 #: ../../content/soins/sam-base-medicaments.md:37
 msgid "Two entry points:"
-msgstr ""
+msgstr "Deux points d'entrée :"
 
 #: ../../content/soins/sam-base-medicaments.md:39
 msgid ""
-"**Browse** the reference database — **Care** app → **Configuration** → "
-"**SAM Database** (read-only)."
+"**Browse** the reference database — **Care** app → **Configuration** → **SAM"
+" Database** (read-only)."
 msgstr ""
+"**Consulter** la base de référence — application **Soins** → "
+"**Configuration** → **Base SAM** (lecture seule)."
 
 #: ../../content/soins/sam-base-medicaments.md:41
 msgid ""
-"**Search and import** — the **Search SAM** wizard, in the **MR/MRS** app "
-"→ **Configuration** → **eHealth Configuration** → **Search SAM**."
+"**Search and import** — the **Search SAM** wizard, in the **MR/MRS** app → "
+"**Configuration** → **eHealth Configuration** → **Search SAM**."
 msgstr ""
+"**Rechercher et importer** — l'assistant **Rechercher SAM**, dans "
+"l'application **MR/MRS** → **Configuration** → **Configuration eHealth** → "
+"**Rechercher SAM**."
 
 #: ../../content/soins/sam-base-medicaments.md:44
 msgid "A feature of the eHealth integration"
-msgstr ""
+msgstr "Une fonctionnalité de l'intégration eHealth"
 
 #: ../../content/soins/sam-base-medicaments.md:47
 msgid ""
-"The **Search SAM** wizard is part of Resthome's Belgian eHealth layer. It"
-" installs automatically as soon as the medical module and the eHealth "
-"module are present, and access is reserved for the **eHealth manager**. "
-"Browsing the database (Care → Configuration) remains accessible without "
-"that role."
+"The **Search SAM** wizard is part of Resthome's Belgian eHealth layer. It "
+"installs automatically as soon as the medical module and the eHealth module "
+"are present, and access is reserved for the **eHealth manager**. Browsing "
+"the database (Care → Configuration) remains accessible without that role."
 msgstr ""
+"L'assistant **Rechercher SAM** fait partie de la couche eHealth belge de "
+"Resthome. Il s'installe automatiquement dès que le module médical et le "
+"module eHealth sont présents, et l'accès est réservé au **gestionnaire "
+"eHealth**. La consultation de la base (Soins → Configuration) reste "
+"accessible sans ce rôle."
 
 #: ../../content/soins/sam-base-medicaments.md:53
 msgid "What the SAM database provides"
-msgstr ""
+msgstr "Ce que fournit la base SAM"
 
 #: ../../content/soins/sam-base-medicaments.md:55
 msgid ""
-"Every medication in the reference database carries authentic data, useful"
-" both for care and for traceability:"
+"Every medication in the reference database carries authentic data, useful "
+"both for care and for traceability:"
 msgstr ""
+"Chaque médicament de la base de référence porte des données authentiques, "
+"utiles à la fois pour les soins et pour la traçabilité :"
 
 #: ../../content/soins/sam-base-medicaments.md:44
 msgid "Data"
-msgstr ""
+msgstr "Donnée"
 
 #: ../../content/soins/sam-base-medicaments.md:44
 msgid "What it is used for"
-msgstr ""
+msgstr "À quoi elle sert"
 
 #: ../../content/soins/sam-base-medicaments.md:44
 msgid "**CNK code**"
-msgstr ""
+msgstr "**Code CNK**"
 
 #: ../../content/soins/sam-base-medicaments.md:44
 msgid "Belgian pharmacy code (7 digits) that identifies the package."
 msgstr ""
+"Code pharmaceutique belge (7 chiffres) qui identifie le conditionnement."
 
 #: ../../content/soins/sam-base-medicaments.md:44
 msgid "**Active ingredient (INN)**"
-msgstr ""
+msgstr "**Principe actif (INN)**"
 
 #: ../../content/soins/sam-base-medicaments.md:44
 msgid "The active substance, in French and Dutch."
-msgstr ""
+msgstr "La substance active, en français et en néerlandais."
 
 #: ../../content/soins/sam-base-medicaments.md:44
 msgid "**ATC code**"
-msgstr ""
+msgstr "**Code ATC**"
 
 #: ../../content/soins/sam-base-medicaments.md:44
 msgid ""
-"Anatomical Therapeutic Chemical classification (WHO), with its "
-"description."
+"Anatomical Therapeutic Chemical classification (WHO), with its description."
 msgstr ""
+"Classification anatomique, thérapeutique et chimique (OMS), avec sa "
+"description."
 
 #: ../../content/soins/sam-base-medicaments.md:44
 msgid "**BCFI class**"
-msgstr ""
+msgstr "**Classe BCFI**"
 
 #: ../../content/soins/sam-base-medicaments.md:44
 msgid ""
 "Pharmacotherapeutic classification from the Belgian Centre for "
 "Pharmacotherapeutic Information."
 msgstr ""
+"Classification pharmacothérapeutique du Centre belge d'information "
+"pharmacothérapeutique."
 
 #: ../../content/soins/sam-base-medicaments.md:44
 msgid "**Black Triangle**"
-msgstr ""
+msgstr "**Triangle noir**"
 
 #: ../../content/soins/sam-base-medicaments.md:44
 msgid ""
 "Flags a medication under additional monitoring (additional "
 "pharmacovigilance)."
 msgstr ""
+"Signale un médicament sous surveillance renforcée (pharmacovigilance "
+"additionnelle)."
 
 #: ../../content/soins/sam-base-medicaments.md:44
 msgid "**Form and route**"
-msgstr ""
+msgstr "**Forme et voie**"
 
 #: ../../content/soins/sam-base-medicaments.md:44
 msgid "Pharmaceutical form and route of administration, in French and Dutch."
 msgstr ""
+"Forme pharmaceutique et voie d'administration, en français et en "
+"néerlandais."
 
 #: ../../content/soins/sam-base-medicaments.md:44
 msgid "**SmPC and leaflet**"
-msgstr ""
+msgstr "**RCP et notice**"
 
 #: ../../content/soins/sam-base-medicaments.md:44
 msgid ""
-"Links to the Summary of Product Characteristics and the patient leaflet "
-"(FR and NL)."
+"Links to the Summary of Product Characteristics and the patient leaflet (FR "
+"and NL)."
 msgstr ""
+"Liens vers le Résumé des caractéristiques du produit et la notice patient "
+"(FR et NL)."
 
 #: ../../content/soins/sam-base-medicaments.md:44
 msgid "**BCFI link**"
-msgstr ""
+msgstr "**Lien BCFI**"
 
 #: ../../content/soins/sam-base-medicaments.md:44
 msgid "Direct link to the medication's page on the BCFI website."
-msgstr ""
+msgstr "Lien direct vers la page du médicament sur le site du BCFI."
 
 #: ../../content/soins/sam-base-medicaments.md:44
 msgid "**Prescription and manufacturer**"
-msgstr ""
+msgstr "**Prescription et fabricant**"
 
 #: ../../content/soins/sam-base-medicaments.md:44
 msgid ""
 "Dispensing status (prescription required) and marketing authorization "
 "holder."
 msgstr ""
+"Statut de délivrance (prescription requise) et titulaire de l'autorisation "
+"de mise sur le marché."
 
 #: ../../content/soins/sam-base-medicaments.md:70
 msgid "A reference copy, not an order"
-msgstr ""
+msgstr "Une copie de référence, pas une commande"
 
 #: ../../content/soins/sam-base-medicaments.md:73
 msgid ""
-"Resthome's SAM database is a **local copy** loaded at installation. It "
-"helps you identify and document a medication; it manages neither stock "
-"nor prices. Those live on the catalog record, once the medication is "
-"imported."
+"Resthome's SAM database is a **local copy** loaded at installation. It helps"
+" you identify and document a medication; it manages neither stock nor "
+"prices. Those live on the catalog record, once the medication is imported."
 msgstr ""
+"La base SAM de Resthome est une **copie locale** chargée à l'installation. "
+"Elle vous aide à identifier et à documenter un médicament ; elle ne gère ni "
+"le stock ni les prix. Ceux-ci vivent sur la fiche du catalogue, une fois le "
+"médicament importé."
 
 #: ../../content/soins/sam-base-medicaments.md:78
 msgid "Browsing the SAM database"
-msgstr ""
+msgstr "Consulter la base SAM"
 
 #: ../../content/soins/sam-base-medicaments.md:80
 msgid ""
@@ -260,37 +312,46 @@ msgid ""
 "database in read-only mode. The list shows the CNK code, the name, the "
 "active ingredient, the ATC code, the form and the manufacturer."
 msgstr ""
+"Depuis **Soins → Configuration → Base SAM**, vous parcourez la base de "
+"référence en lecture seule. La liste affiche le code CNK, le nom, le "
+"principe actif, le code ATC, la forme et le fabricant."
 
 #: ../../content/soins/sam-base-medicaments.md:84
 msgid "Use the search bar and filters to narrow down:"
-msgstr ""
+msgstr "Utilisez la barre de recherche et les filtres pour affiner :"
 
 #: ../../content/soins/sam-base-medicaments.md:86
 msgid ""
 "**search** by name (FR/NL), CNK code, ATC code, active ingredient or "
 "manufacturer;"
 msgstr ""
+"**recherche** par nom (FR/NL), code CNK, code ATC, principe actif ou "
+"fabricant ;"
 
 #: ../../content/soins/sam-base-medicaments.md:87
 msgid ""
 "**filters** — **Prescription Required**, **Black Triangle** and **With "
 "CNK**;"
 msgstr ""
+"**filtres** — **Prescription requise**, **Triangle noir** et **Avec CNK** ;"
 
 #: ../../content/soins/sam-base-medicaments.md:88
 msgid "**groupings** by ATC code, by form or by manufacturer."
-msgstr ""
+msgstr "**regroupements** par code ATC, par forme ou par fabricant."
 
 #: ../../content/soins/sam-base-medicaments.md:90
 msgid ""
-"A medication's record details its identification, its classification, its"
-" pharmaceutical form, its active ingredient and the links to its official"
-" documents (SmPC and leaflet, FR and NL)."
+"A medication's record details its identification, its classification, its "
+"pharmaceutical form, its active ingredient and the links to its official "
+"documents (SmPC and leaflet, FR and NL)."
 msgstr ""
+"La fiche d'un médicament détaille son identification, sa classification, sa "
+"forme pharmaceutique, son principe actif et les liens vers ses documents "
+"officiels (RCP et notice, FR et NL)."
 
 #: ../../content/soins/sam-base-medicaments.md:96
 msgid "The Search SAM wizard"
-msgstr ""
+msgstr "L'assistant Rechercher SAM"
 
 #: ../../content/soins/sam-base-medicaments.md:98
 msgid ""
@@ -298,223 +359,263 @@ msgid ""
 "catalog in one step. Open it through **MR/MRS → Configuration → eHealth "
 "Configuration → Search SAM**."
 msgstr ""
+"L'assistant **Rechercher SAM** trouve un médicament dans SAM et l'ajoute à "
+"votre catalogue en une étape. Ouvrez-le via **MR/MRS → Configuration → "
+"Configuration eHealth → Rechercher SAM**."
 
 #: ../../content/soins/sam-base-medicaments.md:102
 msgid "1. Run a search"
-msgstr ""
+msgstr "1. Lancer une recherche"
 
 #: ../../content/soins/sam-base-medicaments.md:104
 msgid "Choose the **search type**:"
-msgstr ""
+msgstr "Choisissez le **type de recherche** :"
 
 #: ../../content/soins/sam-base-medicaments.md:106
 msgid ""
 "**By Name** — by brand name or active ingredient (e.g. *Dafalgan*, "
 "*Rilatine*);"
 msgstr ""
+"**Par nom** — par nom commercial ou principe actif (p. ex. *Dafalgan*, "
+"*Rilatine*) ;"
 
 #: ../../content/soins/sam-base-medicaments.md:107
 msgid "**By CNK Code** — by CNK code."
-msgstr ""
+msgstr "**Par code CNK** — par code CNK."
 
 #: ../../content/soins/sam-base-medicaments.md:109
 msgid ""
 "Enter your term in the search field then click **Search**. The search is "
-"**accent-insensitive** and handles multiple words (e.g. *Amlodipine "
-"5mg*)."
+"**accent-insensitive** and handles multiple words (e.g. *Amlodipine 5mg*)."
 msgstr ""
+"Saisissez votre terme dans le champ de recherche puis cliquez sur "
+"**Rechercher**. La recherche est **insensible aux accents** et gère "
+"plusieurs mots (p. ex. *Amlodipine 5mg*)."
 
 #: ../../content/soins/sam-base-medicaments.md:112
 msgid "Local search first"
-msgstr ""
+msgstr "La recherche locale d'abord"
 
 #: ../../content/soins/sam-base-medicaments.md:115
 msgid ""
-"The wizard first queries the local copy of SAM: the response is "
-"immediate, even without a connection. If that copy is empty, Resthome can"
-" switch to the live **DICS v5** service — but that path requires a "
-"certified eHealth connection."
+"The wizard first queries the local copy of SAM: the response is immediate, "
+"even without a connection. If that copy is empty, Resthome can switch to the"
+" live **DICS v5** service — but that path requires a certified eHealth "
+"connection."
 msgstr ""
+"L'assistant interroge d'abord la copie locale de SAM : la réponse est "
+"immédiate, même sans connexion. Si cette copie est vide, Resthome peut "
+"basculer sur le service en direct **DICS v5** — mais cette voie requiert une"
+" connexion eHealth certifiée."
 
 #: ../../content/soins/sam-base-medicaments.md:120
 msgid "2. Choose from the results"
-msgstr ""
+msgstr "2. Choisir parmi les résultats"
 
 #: ../../content/soins/sam-base-medicaments.md:122
 msgid ""
-"Results are shown in a table. Each row shows the **CNK** code, the "
-"**name**, the **active ingredient (INN)**, the **strength**, the **form**"
-" and — in optional columns — the manufacturer, the ATC code, the BCFI "
-"class and the SmPC / leaflet links."
+"Results are shown in a table. Each row shows the **CNK** code, the **name**,"
+" the **active ingredient (INN)**, the **strength**, the **form** and — in "
+"optional columns — the manufacturer, the ATC code, the BCFI class and the "
+"SmPC / leaflet links."
 msgstr ""
+"Les résultats s'affichent dans un tableau. Chaque ligne indique le code "
+"**CNK**, le **nom**, le **principe actif (INN)**, le **dosage**, la "
+"**forme** et — dans des colonnes optionnelles — le fabricant, le code ATC, "
+"la classe BCFI et les liens RCP / notice."
 
 #: ../../content/soins/sam-base-medicaments.md:127
 msgid ""
 "The **In Catalog** column indicates whether the medication is already in "
 "your catalog. Those rows appear **in blue**: no need to recreate them."
 msgstr ""
+"La colonne **Au catalogue** indique si le médicament est déjà dans votre "
+"catalogue. Ces lignes apparaissent **en bleu** : inutile de les recréer."
 
 #: ../../content/soins/sam-base-medicaments.md:130
 msgid ""
 "Check the **Select** box at the start of the row for each medication to "
 "import."
 msgstr ""
+"Cochez la case **Sélectionner** en début de ligne pour chaque médicament à "
+"importer."
 
 #: ../../content/soins/sam-base-medicaments.md:134
 msgid "3. Import to the catalog"
-msgstr ""
+msgstr "3. Importer au catalogue"
 
 #: ../../content/soins/sam-base-medicaments.md:136
 msgid ""
-"Click **Import Selected**. Resthome creates one record in your catalog "
-"per checked medication, carrying over the SAM data:"
+"Click **Import Selected**. Resthome creates one record in your catalog per "
+"checked medication, carrying over the SAM data:"
 msgstr ""
+"Cliquez sur **Importer la sélection**. Resthome crée une fiche dans votre "
+"catalogue par médicament coché, en reprenant les données SAM :"
 
 #: ../../content/soins/sam-base-medicaments.md:112
 msgid "SAM data"
-msgstr ""
+msgstr "Donnée SAM"
 
 #: ../../content/soins/sam-base-medicaments.md:112
 msgid "Catalog field"
-msgstr ""
+msgstr "Champ du catalogue"
 
 #: ../../content/soins/sam-base-medicaments.md:112
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #: ../../content/soins/sam-base-medicaments.md:112
 msgid "Medication name"
-msgstr ""
+msgstr "Nom du médicament"
 
 #: ../../content/soins/sam-base-medicaments.md:112
 msgid "CNK"
-msgstr ""
+msgstr "CNK"
 
 #: ../../content/soins/sam-base-medicaments.md:112
 msgid "CNK code"
-msgstr ""
+msgstr "Code CNK"
 
 #: ../../content/soins/sam-base-medicaments.md:112
 msgid "INN (active ingredient)"
-msgstr ""
+msgstr "INN (principe actif)"
 
 #: ../../content/soins/sam-base-medicaments.md:112
 msgid "Active ingredient"
-msgstr ""
+msgstr "Principe actif"
 
 #: ../../content/soins/sam-base-medicaments.md:112
 msgid "Strength"
-msgstr ""
+msgstr "Dosage"
 
 #: ../../content/soins/sam-base-medicaments.md:112
 msgid "Dosage"
-msgstr ""
+msgstr "Dosage"
 
 #: ../../content/soins/sam-base-medicaments.md:112
 msgid "Form"
-msgstr ""
+msgstr "Forme"
 
 #: ../../content/soins/sam-base-medicaments.md:112
 msgid "Form (converted to a Resthome category)"
-msgstr ""
+msgstr "Forme (convertie en catégorie Resthome)"
 
 #: ../../content/soins/sam-base-medicaments.md:112
 msgid "Manufacturer"
-msgstr ""
+msgstr "Fabricant"
 
 #: ../../content/soins/sam-base-medicaments.md:112
 msgid "ATC"
-msgstr ""
+msgstr "ATC"
 
 #: ../../content/soins/sam-base-medicaments.md:112
 msgid "ATC code"
-msgstr ""
+msgstr "Code ATC"
 
 #: ../../content/soins/sam-base-medicaments.md:112
 msgid "SmPC / leaflet / BCFI link"
-msgstr ""
+msgstr "Lien RCP / notice / BCFI"
 
 #: ../../content/soins/sam-base-medicaments.md:112
 msgid "**Official documents** tab of the record"
-msgstr ""
+msgstr "Onglet **Documents officiels** de la fiche"
 
 #: ../../content/soins/sam-base-medicaments.md:150
 msgid ""
 "A notification confirms the number of medications **created** (and "
 "**updated**, where applicable)."
 msgstr ""
+"Une notification confirme le nombre de médicaments **créés** (et **mis à "
+"jour**, le cas échéant)."
 
 #: ../../content/soins/sam-base-medicaments.md:153
 msgid "4. Update an existing medication"
-msgstr ""
+msgstr "4. Mettre à jour un médicament existant"
 
 #: ../../content/soins/sam-base-medicaments.md:155
 msgid ""
-"To refresh a record that is already present, run the search again "
-"(**Search Again** button) and re-import the row. Resthome **matches by "
-"CNK code**: if the medication already exists, it **updates** the record "
-"instead of creating a duplicate."
+"To refresh a record that is already present, run the search again (**Search "
+"Again** button) and re-import the row. Resthome **matches by CNK code**: if "
+"the medication already exists, it **updates** the record instead of creating"
+" a duplicate."
 msgstr ""
+"Pour actualiser une fiche déjà présente, relancez la recherche (bouton "
+"**Rechercher à nouveau**) et réimportez la ligne. Resthome **fait la "
+"correspondance par code CNK** : si le médicament existe déjà, il **met à "
+"jour** la fiche au lieu de créer un doublon."
 
 #: ../../content/soins/sam-base-medicaments.md:160
 msgid "An import does not replace the prescription"
-msgstr ""
+msgstr "Un import ne remplace pas la prescription"
 
 #: ../../content/soins/sam-base-medicaments.md:163
 msgid ""
-"Importing a medication adds it to the facility's **catalog**. You still "
-"have to **prescribe** it to the resident afterwards, with its dosage and "
-"period. See [Prescriptions and medications](prescriptions.md)."
+"Importing a medication adds it to the facility's **catalog**. You still have"
+" to **prescribe** it to the resident afterwards, with its dosage and period."
+" See [Prescriptions and medications](prescriptions.md)."
 msgstr ""
+"Importer un médicament l'ajoute au **catalogue** de l'établissement. Vous "
+"devez encore le **prescrire** au résident ensuite, avec son dosage et sa "
+"période. Voir [Prescriptions et médicaments](prescriptions.md)."
 
 #: ../../content/soins/sam-base-medicaments.md:168
 msgid "Key takeaways"
-msgstr ""
+msgstr "Points clés à retenir"
 
 #: ../../content/soins/sam-base-medicaments.md:170
 msgid ""
-"**SAM = the official Belgian medication reference database**, embedded in"
-" Resthome as the foundation of the catalog."
+"**SAM = the official Belgian medication reference database**, embedded in "
+"Resthome as the foundation of the catalog."
 msgstr ""
+"**SAM = la base de données de référence officielle des médicaments en "
+"Belgique**, intégrée dans Resthome comme socle du catalogue."
 
 #: ../../content/soins/sam-base-medicaments.md:172
 msgid ""
-"**Two entry points**: browsing (Care → Configuration → SAM Database) and "
-"the **Search SAM** import wizard (MR/MRS → Configuration → eHealth "
+"**Two entry points**: browsing (Care → Configuration → SAM Database) and the"
+" **Search SAM** import wizard (MR/MRS → Configuration → eHealth "
 "Configuration)."
 msgstr ""
+"**Deux points d'entrée** : la consultation (Soins → Configuration → Base "
+"SAM) et l'assistant d'import **Rechercher SAM** (MR/MRS → Configuration → "
+"Configuration eHealth)."
 
 #: ../../content/soins/sam-base-medicaments.md:174
 msgid ""
 "The search accepts the **name**, the **CNK code** or the **active "
 "ingredient**, and works **offline** on the local copy."
 msgstr ""
+"La recherche accepte le **nom**, le **code CNK** ou le **principe actif**, "
+"et fonctionne **hors ligne** sur la copie locale."
 
 #: ../../content/soins/sam-base-medicaments.md:176
 msgid ""
-"**Import Selected** creates the records; a re-import **updates** "
-"medications already present (matching by CNK)."
+"**Import Selected** creates the records; a re-import **updates** medications"
+" already present (matching by CNK)."
 msgstr ""
+"**Importer la sélection** crée les fiches ; une réimportation **met à jour**"
+" les médicaments déjà présents (correspondance par CNK)."
 
 #: ../../content/soins/sam-base-medicaments.md:178
 msgid ""
-"SAM provides **ATC, BCFI class, Black Triangle, SmPC and leaflet "
-"(FR/NL)** — reliable data, for reference."
+"SAM provides **ATC, BCFI class, Black Triangle, SmPC and leaflet (FR/NL)** —"
+" reliable data, for reference."
 msgstr ""
+"SAM fournit **ATC, classe BCFI, triangle noir, RCP et notice (FR/NL)** — des"
+" données fiables, à titre de référence."
 
 #: ../../content/soins/sam-base-medicaments.md:181
 msgid "Further reading"
-msgstr ""
+msgstr "Pour aller plus loin"
 
 #: ../../content/soins/sam-base-medicaments.md:183
 msgid "[Prescriptions and medications](prescriptions.md)"
-msgstr ""
+msgstr "[Prescriptions et médicaments](prescriptions.md)"
 
 #: ../../content/soins/sam-base-medicaments.md:184
 msgid "[Care plans and vital signs](plans-de-soins.md)"
-msgstr ""
+msgstr "[Plans de soins et signes vitaux](plans-de-soins.md)"
 
 #: ../../content/soins/sam-base-medicaments.md:185
 msgid "[The eHealth integration](../ehealth/index.md)"
-msgstr ""
-
+msgstr "[L'intégration eHealth](../ehealth/index.md)"

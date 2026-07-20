@@ -118,7 +118,6 @@ configuration/reglages-documents
 :::{toctree}
 :hidden:
 :maxdepth: 1
-:caption: Help
 
 faq
 glossaire

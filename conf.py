@@ -28,9 +28,6 @@ source_suffix = {".md": "markdown"}
 master_doc = "index"
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
-# Le glossaire utilise des ### directement sous le # (liste plate volontaire).
-suppress_warnings = ["myst.header"]
-
 # La langue est surchargée par build_docs.py (-D language=fr|nl).
 language = "en"
 
