@@ -4,6 +4,15 @@
 The Resthome Meals application — menus, dishes, diets, nutritional follow-up and hydration, family portal and kiosk.
 :::
 
+:::{toctree}
+:hidden:
+
+menus-regimes
+distribution
+suivi-nutritionnel
+portail-familles
+:::
+
 The **Meals** application organises the establishment's catering: **menus**,
 **dishes**, **diets** tailored to each resident, **nutritional follow-up** and
 **hydration**, through to the **family portal** and the dining-room display.

@@ -161,14 +161,20 @@
   /* Le titre GARDE son flex-grow (thème) : sinon son topic absolu l'effondre à 0
      et « Resthome docs » disparaît. En grandissant, il pousse les contrôles à droite. */
   .md-header__title { flex: 1 1 auto; min-width: 6rem; }
-  /* Recherche centrée en absolu (base rem du thème = 22px). */
+  /* AU REPOS : boîte de recherche centrée, largeur maîtrisée. */
   .md-search {
     position: absolute; left: 50%; top: 50%;
     transform: translate(-50%, -50%);
     width: 22rem; flex: none; z-index: 2;
   }
-  .md-search__inner { float: none; width: 100%; }
+  .md-search__inner { float: none; }
   .md-search__form { width: 100%; }
+  /* ACTIVE (focus) : on relâche les contraintes → l'overlay natif reprend toute
+     sa largeur (sinon les résultats sont coupés). */
+  [data-md-toggle="search"]:checked ~ .md-header .md-search {
+    position: static; transform: none; width: auto; z-index: 2;
+  }
+  [data-md-toggle="search"]:checked ~ .md-header .md-search__form { width: auto; }
 }
 /* Champ de recherche : clair, bordé (sur header blanc). */
 .md-search__form {

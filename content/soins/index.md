@@ -4,6 +4,16 @@
 The Resthome Care application — prescriptions, care plans, vital signs, nursing notes and clinical registers for the medical follow-up of residents.
 :::
 
+:::{toctree}
+:hidden:
+
+dossier-medical
+prescriptions
+sam-base-medicaments
+plans-de-soins
+registres
+:::
+
 The **Care** application brings together all **medical and nursing** follow-up
 of residents: medication, care plans, vital signs, notes, and the **clinical
 registers** (falls, wounds, pain, nutrition…). It is designed for the daily work

@@ -88,6 +88,32 @@ def build_sitemap():
     print(f"Sitemap : {len(urls)} URLs (version {VERSION}, 3 langues).")
 
 
+def fix_search_assets():
+    """Deux incompatibilités Sphinx 9.1 ↔ thème qui TUENT la recherche :
+    1. language_data.js émet `stopwords = new Set(...)` ; le worker du thème
+       appelle stopwords.indexOf → TypeError → aucune recherche ne répond.
+       On enveloppe : tableau + méthode .has (compatible les deux usages).
+    2. translations.js appelle Documentation.addTranslations (doctools.js,
+       non chargé par le thème) → ReferenceError. On pose un stub inoffensif.
+    Idempotent, appliqué aux _static des 3 langues à chaque build."""
+    n = 0
+    for p in OUT.rglob("language_data.js"):
+        t = p.read_text(encoding="utf-8")
+        if "new Set(" in t:
+            t = t.replace("const stopwords = new Set(",
+                          "const stopwords = ((a) => { a.has = a.includes; return a; })(")
+            p.write_text(t, encoding="utf-8")
+            n += 1
+    for p in OUT.rglob("translations.js"):
+        t = p.read_text(encoding="utf-8")
+        if not t.startswith("window.Documentation"):
+            t = ("window.Documentation = window.Documentation || "
+                 "{ addTranslations: function () {} };\n") + t
+            p.write_text(t, encoding="utf-8")
+            n += 1
+    print(f"Assets recherche corriges (stopwords Set->Array, stub doctools) : {n}")
+
+
 def versionless_redirects():
     """Les anciennes URLs sans version → version canonique (on ne perd rien d'indexé).
     Généré seulement quand on build la version canonique."""
@@ -116,6 +142,7 @@ def main():
                       "content", str(out)])
     copy_publish()
     build_sitemap()
+    fix_search_assets()
     versionless_redirects()
     print(f"\nSite construit : {OUT}  (version {VERSION} — fr racine, /nl, /en)")
 

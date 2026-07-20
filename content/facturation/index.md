@@ -4,6 +4,20 @@
 Billing periods, INAMI packages, supplements, absences and invoices in Resthome.
 :::
 
+:::{toctree}
+:hidden:
+
+forfait-inami
+facturer-un-mois
+supplements
+application-supplements
+absences
+depart-deces
+note-de-frais-annexe12
+cpas
+split-billing
+:::
+
 Resthome automates MR/MRS billing: the **insurer's share** (INAMI package)
 and the **resident's share** (accommodation + supplements), period by period.
 

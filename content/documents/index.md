@@ -4,6 +4,12 @@
 The automatic document folder for every nursing home (MR/MRS) resident: subfolders, tags, and the Documents button on the record.
 :::
 
+:::{toctree}
+:hidden:
+
+centralisation
+:::
+
 :::{rh-faq}
 Where is a resident's document folder located?
 : In Odoo's Documents app, under the "Residents" folder. The easiest way: open the resident's record and click the "Documents" button — it opens their personal folder directly.

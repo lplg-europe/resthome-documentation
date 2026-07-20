@@ -4,6 +4,16 @@
 Configure Resthome — rooms and sectors, INAMI rates and packages, supplement types, health insurers, facility and multi-company.
 :::
 
+:::{toctree}
+:hidden:
+
+reglages-generaux
+reglages-facturation
+reglages-ehealth
+reglages-repas
+reglages-documents
+:::
+
 Before day-to-day use, a few basic settings give Resthome its structure. They are set up once, then only change at the margins.
 
 ## Application settings

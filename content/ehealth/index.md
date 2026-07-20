@@ -4,6 +4,19 @@
 MDA insurability, eFact electronic invoicing and eAgreement agreements in Resthome.
 :::
 
+:::{toctree}
+:hidden:
+
+mda
+mda-erreurs
+efact
+efact-rejets
+efact-paiements
+eagreement
+eagreement-refus
+eagreement-signature
+:::
+
 Resthome is connected to the Belgian e-health ecosystem (eHealth, MyCareNet,
 WalCareNet) to exchange directly with the mutualities.
 
