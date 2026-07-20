@@ -1,7 +1,7 @@
 # Responsible practitioner and annex signatures
 
 :::{rh-description}
-eAgreement responsible practitioner and signing Annexes 7/10/11 in the app for a nursing home (MR/MRS): NIHII resolution and FEMARBEL signing without printing.
+eAgreement responsible practitioner and signing Annexes 7/10/11 in the app for a nursing home (MR/MRS): NIHII resolution and rule-compliant signing without printing.
 :::
 
 :::{rh-faq}
@@ -14,7 +14,7 @@ Where do I enter a caregiver's NIHII and signature?
 How do I sign an Annexe 10, 7 or 11 without printing or scanning?
 : Upload a signature image on the employee record, then, on the eAgreement request in Draft, click Sign Annexe 10 (or Sign Annexe 7 / Sign Annexe 11). Resthome places your signature on the PDF and marks it signed. If no image is configured, the old print / sign / scan route remains possible.
 
-Who is allowed to sign an Annexe 10 (FEMARBEL rules)?
+Who is allowed to sign an Annexe 10 (signature rules)?
 : By default, a physician OR a nurse. A physician's signature becomes mandatory for a Katz category D (or Cd) and for a quick revision (a new assessment less than 6 months after the previous one). Annexes 7 and 11 are signed by the institution's manager, with no medical rule.
 
 Can I sign on behalf of a colleague?
@@ -142,7 +142,7 @@ the insurance bodies accept. You have no number to enter yourself.
 
 Rather than **printing, signing by hand and then scanning**, Resthome places your
 **signature image** on the annex PDF and saves it — a route compliant with the
-**FEMARBEL** rules. The annexes concerned:
+**applicable signature rules**. The annexes concerned:
 
 - **Annexe 10** — the Katz scale (care agreement);
 - **Annexe 7** — the admission agreement (admission / readmission);
@@ -178,7 +178,7 @@ PDF already carries the signature: Resthome marks it **signed automatically** an
 the step above is not needed.
 :::
 
-### Who can sign (FEMARBEL rules)
+### Who can sign (signature rules)
 
 | Situation | Allowed signer |
 |---|---|
@@ -187,7 +187,7 @@ the step above is not needed.
 | Annexe 10 — **quick revision** (new Katz less than 6 months after the previous one) | **Physician mandatory** |
 | Annexe 7 (admission) / Annexe 11 (end of stay) | **Institution manager** — no medical rule |
 
-The signing window recalls the applicable rule in a **FEMARBEL signature rules**
+The signing window recalls the applicable rule in a **signature rules**
 banner. If the rule requires a physician and the signer is not one, the signature
 is refused with a clear message.
 
@@ -228,7 +228,7 @@ warns you and the **Sign & replace PDF** button is not offered. Two options:
   occasionally.
 - **Sign Annexe 10 / 7 / 11** places your signature image on the PDF: no more
   printing / signing / scanning. Signing is a **prerequisite for sending**.
-- **FEMARBEL** rules: physician OR nurse by default; **physician mandatory** in
+- **Signature rules**: physician OR nurse by default; **physician mandatory** in
   category D or a quick revision (< 6 months).
 - You sign **only with your own** signature, unless you have **eHealth manager**
   rights.
