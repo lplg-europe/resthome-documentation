@@ -68,6 +68,26 @@ movement (admission, absence…): Resthome notes it and invites you to complete
 the NISS as soon as possible.
 :::
 
+## Checking the annexes (PDF preview)
+
+Each annex attached to a request has a **preview** button (eye icon) next to it:
+it opens the PDF in a new tab so you can check its content **before sending** —
+no download needed.
+
+Once the request has been sent, the **Preview sent annexes** button shows the
+**merged PDF exactly as it was embedded in the message transmitted** to the
+health insurer. This is the authoritative view of *what the insurer actually
+received*: handy to confirm that every annex page really went out.
+
+:::{admonition} Before or after sending
+:class: tip
+
+- **Eye icon next to an annex** — the *source* document, available from the
+  Draft state onwards.
+- **Preview sent annexes** — the *transmitted* document, available only once
+  the request has been sent.
+:::
+
 ## Following an agreement
 
 Each agreement goes through clear **statuses**:

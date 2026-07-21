@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-21 00:45+0200\n"
+"POT-Creation-Date: 2026-07-21 20:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nl <LL@li.org>\n"
@@ -253,30 +253,77 @@ msgstr ""
 " het NISS zo snel mogelijk aan te vullen."
 
 #: ../../content/ehealth/eagreement.md:71
+msgid "Checking the annexes (PDF preview)"
+msgstr "De bijlagen nakijken (PDF-voorbeeld)"
+
+#: ../../content/ehealth/eagreement.md:73
+msgid ""
+"Each annex attached to a request has a **preview** button (eye icon) next to"
+" it: it opens the PDF in a new tab so you can check its content **before "
+"sending** — no download needed."
+msgstr ""
+"Elke bijlage bij een aanvraag heeft er een knop **voorbeeld** (oogpictogram)"
+" naast: die opent de PDF in een nieuw tabblad zodat u de inhoud **vóór "
+"verzending** kunt nakijken — zonder downloaden."
+
+#: ../../content/ehealth/eagreement.md:77
+msgid ""
+"Once the request has been sent, the **Preview sent annexes** button shows "
+"the **merged PDF exactly as it was embedded in the message transmitted** to "
+"the health insurer. This is the authoritative view of *what the insurer "
+"actually received*: handy to confirm that every annex page really went out."
+msgstr ""
+"Zodra de aanvraag verzonden is, toont de knop **Voorbeeld van verzonden "
+"bijlagen** de **samengevoegde PDF precies zoals ze in het verzonden bericht "
+"was opgenomen** voor de verzekeringsinstelling. Dat is de gezaghebbende "
+"weergave van *wat de VI werkelijk ontvangen heeft*: handig om te bevestigen "
+"dat elke bijlagepagina effectief vertrokken is."
+
+#: ../../content/ehealth/eagreement.md:82
+msgid "Before or after sending"
+msgstr "Vóór of na de verzending"
+
+#: ../../content/ehealth/eagreement.md:85
+msgid ""
+"**Eye icon next to an annex** — the *source* document, available from the "
+"Draft state onwards."
+msgstr ""
+"**Oogpictogram naast een bijlage** — het *bron*document, beschikbaar vanaf "
+"de status Concept."
+
+#: ../../content/ehealth/eagreement.md:87
+msgid ""
+"**Preview sent annexes** — the *transmitted* document, available only once "
+"the request has been sent."
+msgstr ""
+"**Voorbeeld van verzonden bijlagen** — het *verzonden* document, pas "
+"beschikbaar zodra de aanvraag verstuurd is."
+
+#: ../../content/ehealth/eagreement.md:91
 msgid "Following an agreement"
 msgstr "Een akkoord opvolgen"
 
-#: ../../content/ehealth/eagreement.md:73
+#: ../../content/ehealth/eagreement.md:93
 msgid "Each agreement goes through clear **statuses**:"
 msgstr "Elk akkoord doorloopt duidelijke **statussen**:"
 
-#: ../../content/ehealth/eagreement.md:75
+#: ../../content/ehealth/eagreement.md:95
 msgid "**Draft** — prepared by Resthome, not yet sent."
 msgstr "**Concept** — voorbereid door Resthome, nog niet verstuurd."
 
-#: ../../content/ehealth/eagreement.md:76
+#: ../../content/ehealth/eagreement.md:96
 msgid "**Sent** — transmitted to the mutuality via eHealth."
 msgstr "**Verstuurd** — via eHealth naar de mutualiteit doorgegeven."
 
-#: ../../content/ehealth/eagreement.md:77
+#: ../../content/ehealth/eagreement.md:97
 msgid "**Accepted** — the mutuality has given its agreement."
 msgstr "**Aanvaard** — de mutualiteit gaat akkoord."
 
-#: ../../content/ehealth/eagreement.md:78
+#: ../../content/ehealth/eagreement.md:98
 msgid "**Rejected** — the mutuality refuses, with a **reason**."
 msgstr "**Geweigerd** — de mutualiteit weigert, met een **reden**."
 
-#: ../../content/ehealth/eagreement.md:80
+#: ../../content/ehealth/eagreement.md:100
 msgid ""
 "From the resident record or the billing period, you see the list of "
 "agreements and their status, with a link to the detail."
@@ -284,11 +331,11 @@ msgstr ""
 "Vanaf de fiche van de bewoner of de facturatieperiode ziet u de lijst met "
 "akkoorden en hun status, met een link naar het detail."
 
-#: ../../content/ehealth/eagreement.md:83
+#: ../../content/ehealth/eagreement.md:103
 msgid "In case of rejection"
 msgstr "Bij een weigering"
 
-#: ../../content/ehealth/eagreement.md:85
+#: ../../content/ehealth/eagreement.md:105
 msgid ""
 "If the mutuality rejects a request, Resthome displays the **rejection reason"
 " in plain language, in French and Dutch**, directly on the agreement. You "
@@ -300,11 +347,11 @@ msgstr ""
 "akkoord. Zo weet u meteen wat te corrigeren (vaak: NISS, mutualiteit of "
 "data) vóór u opnieuw verstuurt."
 
-#: ../../content/ehealth/eagreement.md:89
+#: ../../content/ehealth/eagreement.md:109
 msgid "Useful special cases"
 msgstr "Nuttige bijzondere gevallen"
 
-#: ../../content/ehealth/eagreement.md:91
+#: ../../content/ehealth/eagreement.md:111
 msgid ""
 "**Short absence**: an absence of more than **72 h** (or any "
 "**hospitalisation**) triggers the departure **Annexe 11**; the **return** "
@@ -316,7 +363,7 @@ msgstr ""
 "genereert de **Bijlage 7** heropname. Zie [Afwezigheden en "
 "hospitalisaties](../facturation/absences.md)."
 
-#: ../../content/ehealth/eagreement.md:95
+#: ../../content/ehealth/eagreement.md:115
 msgid ""
 "**Billing already closed**: if the invoice of the month concerned is "
 "**already posted** for this resident, Resthome **does not recreate** a "
@@ -330,7 +377,7 @@ msgstr ""
 "concept (of maak een creditnota) als u die maand echt moet wijzigen, en "
 "vernieuw dan."
 
-#: ../../content/ehealth/eagreement.md:99
+#: ../../content/ehealth/eagreement.md:119
 msgid ""
 "**Readmission after a long leave**: depending on the duration, the "
 "readmission may require a **new Katz evaluation** — Resthome flags it for "
@@ -339,25 +386,25 @@ msgstr ""
 "**Heropname na een lang verlof**: afhankelijk van de duur kan de heropname "
 "een **nieuwe Katz-evaluatie** vereisen — Resthome signaleert het u."
 
-#: ../../content/ehealth/eagreement.md:102
+#: ../../content/ehealth/eagreement.md:122
 msgid "Going further"
 msgstr "Verder"
 
-#: ../../content/ehealth/eagreement.md:104
+#: ../../content/ehealth/eagreement.md:124
 msgid ""
 "[Refused agreement (eAgreement) — causes and solutions](eagreement-refus.md)"
 msgstr ""
 "[Akkoord geweigerd (eAgreement) — oorzaken en oplossingen](eagreement-"
 "refus.md)"
 
-#: ../../content/ehealth/eagreement.md:105
+#: ../../content/ehealth/eagreement.md:125
 msgid "[Absences and hospitalisations](../facturation/absences.md)"
 msgstr "[Afwezigheden en hospitalisaties](../facturation/absences.md)"
 
-#: ../../content/ehealth/eagreement.md:106
+#: ../../content/ehealth/eagreement.md:126
 msgid "[Departure and death](../facturation/depart-deces.md)"
 msgstr "[Vertrek en overlijden](../facturation/depart-deces.md)"
 
-#: ../../content/ehealth/eagreement.md:107
+#: ../../content/ehealth/eagreement.md:127
 msgid "[eHealth overview](index.md)"
 msgstr "[eHealth-overzicht](index.md)"

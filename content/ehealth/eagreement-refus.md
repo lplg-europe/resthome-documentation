@@ -66,11 +66,15 @@ an agreement as granted on the basis of the acknowledgement alone.
 
 1. **Read the reason.** In case of rejection, Resthome shows the **reason in plain language, in
    French and Dutch**, directly on the agreement.
-2. **Fix the cause at the source** (resident record, health insurer/NISS, MDA, Katz assessment,
+2. **Check what was actually sent.** When the rejection concerns a **document**, the
+   **Preview sent annexes** button opens the merged PDF **exactly as it was transmitted** to
+   the health insurer — you see straight away whether an annex page is missing, blank or
+   unreadable. See [Agreements (eAgreement)](eagreement.md).
+3. **Fix the cause at the source** (resident record, health insurer/NISS, MDA, Katz assessment,
    PDF document, or the right business action).
-3. **Resend the agreement** once the data is corrected.
-4. **Acknowledgement of receipt.** It confirms **receipt**, not acceptance.
-5. **Tacit agreement.** If the health insurer does not respond within the regulatory deadline,
+4. **Resend the agreement** once the data is corrected.
+5. **Acknowledgement of receipt.** It confirms **receipt**, not acceptance.
+6. **Tacit agreement.** If the health insurer does not respond within the regulatory deadline,
    the agreement is **tacitly granted** (silence = accepted).
 
 The visible statuses: **Draft → Sent → Accepted / Rejected**, with the reason shown in case of

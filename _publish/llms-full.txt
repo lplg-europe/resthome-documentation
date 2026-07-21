@@ -219,13 +219,15 @@ Deux dates à ne pas confondre
 
 Elles sont souvent identiques, mais peuvent différer.
 
-## 1. Open the Admissions pipeline
+## 1. Ouvrir le pipeline Admissions
 
 1. Ouvrez l’application **CRM**.
 2. Sélectionnez l’équipe / le pipeline **Admissions** (menu **Ventes → Mon pipeline**, puis filtrez sur l’équipe Admissions, ou ouvrez directement l’équipe depuis la vue des équipes).
 3. Le tableau **kanban** affiche une colonne par étape et une carte par candidat.
 
-## 2. Create an admission lead
+![Pipeline des admissions en vue kanban, une colonne par étape, de Premier contact à Admis](../../_images/01-pipeline-admissions.webp)
+
+## 2. Créer une piste d’admission
 
 1. Cliquez sur **Nouveau**.
 2. Donnez un **nom** à la piste (par exemple « Admission - Nom du candidat »).
@@ -247,7 +249,9 @@ Court séjour (court séjour / CSJ)
 
 Si vous choisissez **court séjour**, deux champs supplémentaires apparaissent : le **nombre de jours de court séjour déjà utilisés** cette année civile et des **notes**. La loi limite le court séjour à **90 jours par an** ; renseignez l’information (demandez à la famille, ou confirmez par téléphone avec la mutuelle) avant d’accepter l’admission.
 
-## 3. Move the lead forward
+![Onglet Admission résident d'une piste, avec les blocs Informations personnelles et Mutuelle / Assurabilité](../../_images/02-lead-admission-resident.webp)
+
+## 3. Faire avancer la piste
 
 Faites glisser la carte d’une colonne à l’autre, au rythme réel du dossier :
 
@@ -262,7 +266,7 @@ Faites glisser la carte d’une colonne à l’autre, au rythme réel du dossier
 
 Vous pouvez aussi planifier les rendez-vous de visite directement depuis la piste (bouton **Réunions** / calendrier partagé).
 
-## 4. Check insurability (MDA)
+## 4. Vérifier l’assurabilité (MDA)
 
 Avant de pouvoir admettre le candidat, vérifiez qu’il est bien assuré :
 
@@ -275,7 +279,7 @@ Tant que la vérification MDA n’a pas **réussi**, le passage à l’étape **
 
 Pour tout comprendre du contrôle d’assurabilité, voir [Assurabilité (MDA)](../../ehealth/mda/).
 
-## 5. Admit the prospect
+## 5. Admettre le candidat
 
 Quand le dossier est prêt, transformez le candidat en résident. Deux gestes équivalents ouvrent l”**assistant d’admission** :
 
@@ -293,6 +297,8 @@ L’assistant d’admission vous demande :
 3. La **date de début de séjour** — par défaut aujourd’hui.
 
 Cliquez sur **Admettre** pour valider.
+
+![Fenêtre de l'assistant d'admission avec les champs Nom, Type de séjour, Chambre et Date d'entrée, et le bouton Admettre](../../_images/03-assistant-admission.webp)
 
 ### Ce que l’admission crée
 
@@ -355,7 +361,7 @@ Deux dates à ne pas confondre
 
 Elles sont souvent identiques, mais peuvent différer — Resthome gère les deux.
 
-## 1. Create the resident
+## 1. Créer le résident
 
 1. Ouvrez l’application **MR/MRS → Résidents**.
 2. Cliquez sur **Nouveau**.
@@ -367,7 +373,7 @@ Le NISS est nécessaire pour l’eHealth
 
 Sans NISS, la vérification d’assurabilité (MDA) et les accords (eAgreement) ne peuvent pas être envoyés. Vous pouvez créer le résident sans NISS, mais pensez à le compléter dès que possible.
 
-## 2. Open a stay agreement
+## 2. Ouvrir une convention de séjour
 
 Le **séjour** relie le résident à une chambre et déclenche la facturation.
 
@@ -379,7 +385,7 @@ Le **séjour** relie le résident à une chambre et déclenche la facturation.
 
 Le séjour est alors en état **Brouillon**.
 
-## 3. Confirm then start the stay
+## 3. Confirmer puis démarrer le séjour
 
 Le séjour passe par deux étapes :
 
@@ -395,7 +401,7 @@ Au démarrage, Resthome :
 - ouvre l”**enveloppe de suppléments** du mois ;
 - crée l”**eAgreement d’admission** (si le NISS est présent).
 
-## 4. Enter the Katz assessment
+## 4. Saisir l’évaluation Katz
 
 La catégorie **Katz** (O, A, B, C, Cd) détermine le **forfait INAMI**.
 
@@ -407,7 +413,7 @@ Pas de Katz validé ?
 
 Tant qu’aucun Katz validé n’existe, le résident est en catégorie **O** par défaut, et un rappel « Katz à faire » apparaît sur le tableau de bord.
 
-## 5. Check insurability (MDA)
+## 5. Vérifier l’assurabilité (MDA)
 
 Avant de facturer, vérifiez que le résident est bien assuré :
 
@@ -855,7 +861,7 @@ Un module optionnel
 
 Les états des lieux sont fournis par un module dédié. S’il est installé, une entrée **États des lieux** apparaît dans le menu **Hébergement**, aux côtés des **Chambres** et des **Séjours**.
 
-## 1. Create the condition report
+## 1. Créer l’état des lieux
 
 1. Ouvrez **Hébergement ▸ États des lieux**.
 2. Cliquez sur **Nouveau**.
@@ -872,7 +878,7 @@ Dès que vous choisissez le **résident**, Resthome pré-remplit :
 
 Ces deux champs restent modifiables si besoin.
 
-## 2. Choose the type: move-in or move-out
+## 2. Choisir le type : entrée ou sortie
 
 Renseignez le champ **Type d’état des lieux** :
 
@@ -885,7 +891,7 @@ Type non précisé
 
 Si vous ne choisissez pas de type, le rapport affiche le badge **Non précisé**. Renseignez Entrée ou Sortie pour un document clair.
 
-## 3. Fill in the detail lines
+## 3. Remplir les lignes de détail
 
 Ouvrez l’onglet **Détails**. Chaque ligne décrit un **équipement** et son état. Trois boutons sont disponibles au bas de la liste :
 
@@ -923,7 +929,7 @@ Comme un modèle de devis
 
 Un modèle fonctionne comme un modèle de devis : il pose la structure (sections + équipements) que vous n’avez plus qu’à constater et compléter.
 
-## 4. Track the lifecycle
+## 4. Suivre le cycle de vie
 
 Un état des lieux passe par quatre **statuts**, visibles dans la barre d’état et en colonnes dans la vue kanban :
 
@@ -941,7 +947,7 @@ Les boutons en haut du formulaire font avancer le dossier :
 - **Réinitialiser à À faire** — revient à *À faire* depuis *Terminé* ou *Annulé* ;
 - **Annuler** — bascule en *Annulé*.
 
-## 5. Generate the signed PDF report
+## 5. Générer le rapport PDF signé
 
 Depuis un état des lieux, utilisez **Imprimer ▸ État des lieux**. Resthome produit un document `EDL_<référence>.pdf` à la charte de votre établissement.
 
@@ -1782,7 +1788,7 @@ Deux notions sont à distinguer :
 - **Enregistrer la décision** — qui est le CPAS, à partir de quand, sous quelle référence, pour quelle couverture et quel montant. Ces informations documentent le dossier et sont **tracées dans le journal d’audit** (catégorie financière).
 - **Router la facture** — décider **à qui** Resthome adresse la part résident : au résident, à sa famille, ou au CPAS. Ce routage se pilote via le **Contact facturation** ou les **débiteurs alimentaires** (voir plus bas).
 
-## 1. Declare the CPAS as an organisation
+## 1. Déclarer le CPAS comme organisme
 
 Avant de rattacher un résident à un CPAS, le CPAS doit exister comme contact.
 
@@ -1795,7 +1801,7 @@ Pourquoi cocher « Est un CPAS »
 
 Le champ **CPAS** de la fiche résident ne propose que les contacts marqués **« Est un CPAS »**. Un CPAS créé ailleurs (dans les contacts génériques) n’apparaîtra dans la liste que si cette case est cochée sur sa fiche.
 
-## 2. Enter the coverage on the resident record
+## 2. Renseigner la prise en charge sur le résident
 
 1. Ouvrez la fiche du **résident** et l’onglet **Facturation**.
 2. Dans le groupe **Aide CPAS**, cochez **Pris en charge CPAS**.
@@ -1818,7 +1824,7 @@ Champs qui apparaissent au fur et à mesure
 
 Le CPAS, la couverture et le bloc **Décision CPAS** ne s’affichent qu’une fois **« Pris en charge CPAS »** coché. Le **Montant mensuel CPAS** n’apparaît qu’en couverture **partielle**.
 
-## 3. Route the invoice to the CPAS
+## 3. Router la facture vers le CPAS
 
 C’est l’étape qui décide **à qui** part la facture de la part résident.
 
@@ -2141,7 +2147,7 @@ Chaque mois de facturation est une **période** qui passe par quatre états, dan
 
 Le fil conducteur : **Générer → vérifier → Créer les factures → Générer l’eFact → envoyer → suivre les réponses**.
 
-## 1. The periods dashboard
+## 1. Le tableau de bord des périodes
 
 Ouvrez l’application **MR/MRS → Tableau de bord**. Chaque mois est une carte qui résume l’essentiel.
 
@@ -2159,7 +2165,7 @@ Sur chaque carte :
 
 Si une carte affiche **eFact : échéance dépassée** en rouge, l’échéance d’envoi de cette période est **passée**. Envoyez sans tarder — au-delà, certains organismes assureurs peuvent refuser le lot.
 
-## 2. Generate the period (Draft → Generated)
+## 2. Générer la période (Brouillon → Générée)
 
 Ouvrez la période du mois. À l’état **Brouillon**, un bouton compte : **Générer**.
 
@@ -2186,7 +2192,7 @@ Dans l’onglet **Résidents**, vous trouvez ligne par ligne :
 
 Les autres onglets : **Lignes de facturation** (le détail des lignes), **Factures**, **eHealth** (les échanges) et **Info**.
 
-## 3. Check before invoicing
+## 3. Vérifier avant de facturer
 
 C’est l’étape la plus importante. En haut de la période, des **compteurs** donnent l’état de santé du mois : **Suppléments**, **Absences**, **Non facturé**, **MDA** et **Katz à faire** (évaluations Katz manquantes à compléter).
 
@@ -2203,7 +2209,7 @@ Traitez chaque point (bouton **Fait** une fois réglé) avant de facturer.
 
 **Vérifier MDA** — le bouton **Vérifier MDA** contrôle l”**assurabilité** de vos résidents auprès des mutuelles. Un résident sans couverture valide ne peut pas être facturé en tiers payant.
 
-## 4. Create the invoices (Generated → Invoiced)
+## 4. Créer les factures (Générée → Facturée)
 
 Lorsque les contrôles sont au vert, cliquez sur **Créer les factures**. Resthome génère et comptabilise :
 
@@ -2212,7 +2218,7 @@ Lorsque les contrôles sont au vert, cliquez sur **Créer les factures**. Restho
 
 La période devient **Facturée**. Vous pouvez encore **Remettre en brouillon** tant que vous n’avez pas envoyé l’eFact, si une correction est nécessaire.
 
-## 5. Generate the eFact (the batches)
+## 5. Générer l’eFact (les lots)
 
 Cliquez sur **Générer l’eFact**. Resthome construit les **lots** — un fichier électronique par organisme assureur — puis affiche la liste des **Lots eFact**.
 
@@ -2229,7 +2235,7 @@ Chaque ligne de lot affiche :
 - les **montants** : facturé, accepté, refusé ;
 - en cas de refus, le **code** et le **motif** de rejet.
 
-## 6. Send and follow the responses
+## 6. Envoyer et suivre les réponses
 
 Une fois les lots construits, **envoyez-les** : la transmission part vers les organismes assureurs via le réseau eHealth.
 
@@ -2245,11 +2251,11 @@ Si un lot (ou une partie) est **rejeté**, le **code** et le **motif** de rejet 
 
 Le bouton **Réintégration** permet, le cas échéant, de réintégrer des lignes (par exemple après correction) dans un nouvel envoi.
 
-## 7. The eFact Cockpit
+## 7. Le Cockpit eFact
 
 Depuis une période ou une carte du tableau de bord, le **Cockpit eFact** offre une **vue de pilotage** : l’état de tous les lots et envois d’un coup d’œil — transmis, acceptés, rejetés, en attente. C’est l’écran idéal pour **suivre une campagne mensuelle** et repérer ce qui bloque.
 
-## 8. Credit notes and regularisations
+## 8. Notes de crédit et régularisations
 
 Lorsqu’un résident **part** ou **décède** au cours d’un mois déjà facturé, une partie de l’hébergement ou du forfait a été **surfacturée**. Resthome le détecte (voir l’autocontrôle ci-dessus) et prépare la **note de crédit** ou le **reliquat** correspondant, pour rembourser la période indue — côté résident **et**, si nécessaire, côté mutuelle via un lot correctif.
 
@@ -2380,7 +2386,7 @@ Compte C (Wallonie / AViQ)
 
 Depuis 2025, la facturation MR/MRS wallonne fonctionne en **Compte C** : l’OA paie et **le décompte fait office d’avis de paiement**. Le décompte porte donc la **référence de paiement** et le **montant**, mais **pas de date de paiement** (le format n’en prévoit pas). Resthome ne fabrique jamais de date : elle reste vide tant qu’une date bancaire réelle n’est pas saisie.
 
-## 1. The settlement (920900) reconciled automatically
+## 1. Le décompte (920900) rapproché automatiquement
 
 Quand un décompte revient de l’OA (via la récupération automatique ou le bouton **Process Response** d’un lot), Resthome le **rapproche tout seul**, sans saisie de votre part :
 
@@ -2392,7 +2398,7 @@ Quand un décompte revient de l’OA (via la récupération automatique ou le bo
 
 En Compte C, dès que le décompte porte une **référence de paiement réelle** et un **montant accepté positif**, le lot est marqué **Payé** automatiquement. Un décompte entièrement rejeté (0 € accepté) porte une référence mais ne paie rien — il n’est donc **pas** marqué payé.
 
-## 2. The eFact Settlements screen (the settlements)
+## 2. L’écran eFact Settlements (les décomptes)
 
 Menu **eHealth → eFact → eFact Settlements**. C’est la liste de tous les **décomptes (920900)** reçus, un par paiement.
 
@@ -2415,7 +2421,7 @@ Lire le décompte tel que l’OA l’a envoyé
 
 Un bouton **Decoded 920900** (réservé aux gestionnaires eHealth) affiche le fichier brut du décompte, zone par zone, pour vérifier une valeur au plus près de la source.
 
-## 3. A batch’s Payment tab
+## 3. L’onglet Paiement d’un lot
 
 Sur un lot ([Lots eFact](../efact/)), une fois l’envoi parti, le groupe **Payment** (Paiement) résume l’état du paiement :
 
@@ -2432,7 +2438,7 @@ Un encart **Status** indique en un badge ce que le lot attend : *Awaiting OA res
 
 Dans la liste des lots, les filtres **Paid** / **Unpaid** (payé / impayé) et les colonnes optionnelles **Payment Ref.**, **Payment Date**, **Amount Paid** aident à faire le point mois par mois.
 
-## 4. The eFact Cockpit: « have I been paid? » at a glance
+## 4. Le Cockpit eFact : « ai-je été payé ? » d’un coup d’œil
 
 Menu **eHealth → eFact → Cockpit** (aussi accessible depuis une période ou une carte du tableau de bord). Le Cockpit range tout le travail en **piles d’action**, avec un compteur et un bouton par pile. Trois piles répondent directement à la question du paiement.
 
@@ -2449,13 +2455,13 @@ Aller chercher les réponses
 
 Si des lots restent en attente, le bouton **Fetch responses** (récupérer les réponses) interroge la plateforme OA et met à jour les statuts. Les réponses arrivent aussi automatiquement, mais ce bouton force une vérification immédiate.
 
-## 5. Chasing an overdue OA
+## 5. Relancer un OA en retard
 
 La pile **Overdue payments** liste les envois **introduits dans les délais**, **acceptés** par l’OA mais **non payés** au-delà de l’échéance. Le bouton **Chase (by OA)** ouvre ces lots **regroupés par organisme assureur** : vous voyez immédiatement **qui relancer** et **pour quel montant** (le total accepté est additionné par OA).
 
 Pour écrire à l’OA, le bouton **Contact OA** (présent sur chaque lot) prépare la prise de contact avec le bon interlocuteur de facturation.
 
-## 6. Late-payment interest (moratory interest)
+## 6. Intérêts de retard (intérêts moratoires)
 
 Un envoi payé trop tard peut donner droit à des **intérêts de retard**. Resthome applique la règle AViQ :
 
@@ -2524,6 +2530,17 @@ Vous gérez le **résident** (entrée, absence, retour, sortie) ; Resthome gère
 - Le **certificat eHealth** de l’établissement est actif.
 
 Sans NISS, l’accord ne peut pas être transmis. Vous pouvez tout de même enregistrer le mouvement (admission, absence…) : Resthome le note et vous invite à compléter le NISS dès que possible.
+
+## Vérifier les annexes (aperçu PDF)
+
+Chaque annexe jointe à une demande dispose d’un bouton **aperçu** (icône œil) à côté d’elle : il ouvre le PDF dans un nouvel onglet pour en vérifier le contenu **avant l’envoi** — sans téléchargement.
+
+Une fois la demande envoyée, le bouton **Aperçu des annexes envoyées** affiche le **PDF fusionné tel qu’il a été intégré au message transmis** à la mutuelle. C’est la vue qui fait foi sur *ce que la mutuelle a réellement reçu* : pratique pour confirmer que chaque page d’annexe est bien partie.
+
+Avant ou après l’envoi
+
+- **Icône œil à côté d’une annexe** — le document *source*, disponible dès l’état Brouillon.
+- **Aperçu des annexes envoyées** — le document *transmis*, disponible uniquement une fois la demande envoyée.
 
 ## Suivre un accord
 
@@ -2594,10 +2611,11 @@ Un accusé électronique « bien reçu » signifie **reçu**, **pas accepté**. 
 ## Corriger, puis renvoyer
 
 1. **Lisez le motif.** En cas de rejet, Resthome affiche le **motif en clair, en français et en néerlandais**, directement sur l’accord.
-2. **Corrigez la cause à la source** (fiche résident, mutuelle/NISS, MDA, évaluation Katz, document PDF, ou la bonne action métier).
-3. **Renvoyez l’accord** une fois la donnée corrigée.
-4. **Accusé de réception.** Il confirme la **réception**, pas l’acceptation.
-5. **Accord tacite.** Si la mutuelle ne se manifeste pas dans le délai réglementaire, l’accord est **tacitement acquis** (silence = accepté).
+2. **Vérifiez ce qui a réellement été envoyé.** Quand le rejet porte sur un **document**, le bouton **Aperçu des annexes envoyées** ouvre le PDF fusionné **tel qu’il a été transmis** à la mutuelle — vous voyez immédiatement si une page d’annexe manque, est blanche ou illisible. Voir [Les accords (eAgreement)](../eagreement/).
+3. **Corrigez la cause à la source** (fiche résident, mutuelle/NISS, MDA, évaluation Katz, document PDF, ou la bonne action métier).
+4. **Renvoyez l’accord** une fois la donnée corrigée.
+5. **Accusé de réception.** Il confirme la **réception**, pas l’acceptation.
+6. **Accord tacite.** Si la mutuelle ne se manifeste pas dans le délai réglementaire, l’accord est **tacitement acquis** (silence = accepté).
 
 Les statuts visibles : **Brouillon → Envoyé → Accepté / Rejeté**, avec le motif affiché en cas de rejet.
 
@@ -3059,7 +3077,7 @@ La fiche d’un médicament détaille son identification, sa classification, sa 
 
 L’assistant **Rechercher SAM** trouve un médicament dans SAM et l’ajoute à votre catalogue en une étape. Ouvrez-le via **MR/MRS → Configuration → Configuration eHealth → Rechercher SAM**.
 
-### 1. Run a search
+### 1. Lancer une recherche
 
 Choisissez le **type de recherche** :
 
@@ -3072,7 +3090,7 @@ La recherche locale d’abord
 
 L’assistant interroge d’abord la copie locale de SAM : la réponse est immédiate, même sans connexion. Si cette copie est vide, Resthome peut basculer sur le service en direct **DICS v5** — mais cette voie requiert une connexion eHealth certifiée.
 
-### 2. Choose from the results
+### 2. Choisir parmi les résultats
 
 Les résultats s’affichent dans un tableau. Chaque ligne indique le code **CNK**, le **nom**, le **principe actif (INN)**, le **dosage**, la **forme** et — dans des colonnes optionnelles — le fabricant, le code ATC, la classe BCFI et les liens RCP / notice.
 
@@ -3080,7 +3098,7 @@ La colonne **Au catalogue** indique si le médicament est déjà dans votre cata
 
 Cochez la case **Sélectionner** en début de ligne pour chaque médicament à importer.
 
-### 3. Import to the catalog
+### 3. Importer au catalogue
 
 Cliquez sur **Importer la sélection**. Resthome crée une fiche dans votre catalogue par médicament coché, en reprenant les données SAM :
 
@@ -3097,7 +3115,7 @@ Cliquez sur **Importer la sélection**. Resthome crée une fiche dans votre cata
 
 Une notification confirme le nombre de médicaments **créés** (et **mis à jour**, le cas échéant).
 
-### 4. Update an existing medication
+### 4. Mettre à jour un médicament existant
 
 Pour actualiser une fiche déjà présente, relancez la recherche (bouton **Rechercher à nouveau**) et réimportez la ligne. Resthome **fait la correspondance par code CNK** : si le médicament existe déjà, il **met à jour** la fiche au lieu de créer un doublon.
 
@@ -3294,7 +3312,7 @@ Avant de distribuer
 
 Le **menu** du repas doit être à l’état **Confirmé**. Les **services de repas** (un enregistrement par résident et par repas) sont créés automatiquement au démarrage de la distribution — inutile de les saisir à la main.
 
-## 1. Open the assistant from the confirmed menu
+## 1. Ouvrir l’assistant depuis le menu confirmé
 
 1. Allez dans **Repas → Opérations → Menus** et ouvrez le menu du repas concerné.
 2. S’il est encore en brouillon, cliquez sur **Confirmer** : les boutons **Démarrer le service** et **Distribution rapide** n’apparaissent que sur un menu à l’état **Confirmé**.
@@ -3304,7 +3322,7 @@ Démarrer le service ou Distribution rapide ?
 
 **Démarrer le service** crée les services de repas pour tous les résidents et ouvre leur **liste**. **Distribution rapide** effectue la même préparation, puis lance directement l”**assistant** de pointage. Pour la tournée, utilisez **Distribution rapide**.
 
-## 2. Filter and load the round
+## 2. Filtrer et charger la tournée
 
 En haut de l’assistant, trois réglages cadrent la tournée :
 
@@ -3314,7 +3332,7 @@ En haut de l’assistant, trois réglages cadrent la tournée :
 
 Cliquez sur **Charger** pour (re)construire la liste. Elle est triée par **secteur**, puis **chambre**, puis **résident**, dans l’ordre où vous ferez votre tournée.
 
-## 3. Review the residents
+## 3. Passer les résidents en revue
 
 Touchez un résident pour ouvrir sa **carte** : photo, **chambre**, **secteur** et **régimes**. Quatre grands boutons permettent de pointer d’une seule pression :
 
@@ -3333,7 +3351,7 @@ Alerte allergie critique
 
 Un **bandeau rouge** signale une incompatibilité grave entre un plat prévu et le profil du résident. Resthome **refuse de marquer comme « Servi »** un service comportant un **allergène critique** tant que les plats n’ont pas été adaptés. Voir [Menus, régimes et hydratation](../menus-regimes/).
 
-## 4. Record the amount eaten
+## 4. Enregistrer la quantité mangée
 
 Le **pourcentage mangé** s’enregistre sur le **service de repas** du résident (il ne fait pas partie de l’assistant de pointage) :
 
@@ -3354,7 +3372,7 @@ Faible apport et familles
 
 Si un résident a mangé **25% ou moins** et que sa famille est **abonnée aux notifications de repas**, Resthome peut envoyer une **alerte** automatique. Cette option s’active par résident. Voir [Portail des familles et kiosque](../portail-familles/).
 
-## 5. Close the round
+## 5. Clôturer la tournée
 
 - Cliquez sur **Terminer** (ou **Fermer**) pour quitter l’assistant.
 - Sur le menu du repas, vous pouvez ensuite cliquer sur **Marquer servi** pour faire passer le menu à l’état **Servi**.
@@ -4614,7 +4632,7 @@ Source : https://www.lplg.eu/resthome/documentation/support/
 
 Un souci, une question sur Resthome ? Voici comment obtenir de l’aide, du plus rapide au plus direct.
 
-## 1. Search the documentation first
+## 1. Cherchez d’abord dans la documentation
 
 La plupart des réponses sont déjà ici :
 
@@ -4624,7 +4642,7 @@ La plupart des réponses sont déjà ici :
 
 Les pages de dépannage règlent la majorité des cas courants : [Rejets eFact](../ehealth/efact-rejets/), [Erreurs MDA](../ehealth/mda-erreurs/), [Accord refusé](../ehealth/eagreement-refus/).
 
-## 2. Open a ticket with LPLG support
+## 2. Ouvrir un ticket au support LPLG
 
 Si la documentation ne suffit pas, contactez notre équipe :
 
