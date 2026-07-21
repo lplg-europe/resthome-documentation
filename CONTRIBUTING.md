@@ -12,8 +12,10 @@ relit **une seule langue** ; FR et NL sont générés.
 4. `python build_docs.py` → construit `site/` (FR racine, `/nl`, `/en`) + statiques + sitemap.
 5. Pousser sur `main` → la CI publie sur GitHub Pages (`docs.lplg.eu`).
 
-> Ne **jamais** éditer `docs/fr` / `docs/nl` : ce sont d'anciennes références de
-> traduction (MkDocs retiré). La source, c'est `content/` + les catalogues.
+> La source unique, c'est `content/` (anglais, MyST) + les catalogues de
+> traduction `locale/{fr,nl}/LC_MESSAGES/`. L'ancien arbre MkDocs `docs/` a été
+> retiré. `_publish/llms-full.txt` est régénéré automatiquement au build depuis
+> le site FR construit (ne pas l'éditer à la main).
 
 ## Structure d'une page
 

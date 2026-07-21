@@ -1,101 +1,62 @@
 #!/usr/bin/env python3
-"""Génère docs/llms-full.txt : le contenu INTÉGRAL de la doc FR concaténé en un
-seul fichier Markdown, pour ingestion par les assistants IA (ChatGPT, Claude,
-Perplexity…). Convention https://llmstxt.org/ (variante « full »).
+"""Génère _publish/llms-full.txt : le contenu INTÉGRAL de la doc FR (le texte
+RÉELLEMENT PUBLIÉ), concaténé en Markdown pour ingestion par les assistants IA
+(ChatGPT, Claude, Perplexity…). Convention https://llmstxt.org/ (variante « full »).
 
-Usage (depuis la racine du repo) :
-    .venv/Scripts/python.exe docs-ops/gen-llms-full.py
+Source = le SITE FR CONSTRUIT (`site/<version>/…/index.html`), pas l'ancien
+`docs/fr` : ainsi le fichier reflète toujours le contenu à jour (landing, seed
+FR, descriptions raccourcies) et ne peut plus se désynchroniser.
 
-À relancer après une modification du contenu de la doc, puis commiter
-docs/llms-full.txt. (Le fichier est un instantané statique, pas généré au build,
-pour éviter tout conflit avec le plugin i18n.)
+Appelé automatiquement par `build_docs.py` (après le build, avant copy_publish),
+ou à la main :  .venv/Scripts/python.exe docs-ops/gen-llms-full.py
 """
 import re
 from pathlib import Path
 
+from bs4 import BeautifulSoup
+from markdownify import markdownify
+
 REPO = Path(__file__).resolve().parent.parent
-FR = REPO / "docs" / "fr"
-OUT = REPO / "docs" / "llms-full.txt"
 BASE = "https://www.lplg.eu/resthome/documentation/"
 
-# Ordre = ordre de la navigation (mkdocs.yml), pour une lecture cohérente.
+# Ordre de lecture = ordre de la navigation (docnames, sans .md).
 ORDER = [
-    "index.md",
-    "premiers-pas.md",
-    "parcours-facturation.md",
-    "residents/admissions.md",
-    "residents/gerer-un-resident.md",
-    "residents/katz.md",
-    "residents/evaluations.md",
-    "residents/changement-chambre.md",
-    "residents/chambres.md",
-    "residents/etat-des-lieux.md",
-    "residents/procedure-emmenagement.md",
-    "residents/mobilier.md",
-    "facturation/index.md",
-    "facturation/forfait-inami.md",
-    "facturation/facturer-un-mois.md",
-    "facturation/supplements.md",
-    "facturation/application-supplements.md",
-    "facturation/absences.md",
-    "facturation/depart-deces.md",
-    "facturation/note-de-frais-annexe12.md",
-    "facturation/cpas.md",
-    "facturation/split-billing.md",
-    "ehealth/index.md",
-    "ehealth/mda.md",
-    "ehealth/mda-erreurs.md",
-    "ehealth/efact.md",
-    "ehealth/efact-rejets.md",
-    "ehealth/efact-paiements.md",
-    "ehealth/eagreement.md",
-    "ehealth/eagreement-refus.md",
-    "ehealth/eagreement-signature.md",
-    "soins/index.md",
-    "soins/dossier-medical.md",
-    "soins/prescriptions.md",
-    "soins/sam-base-medicaments.md",
-    "soins/plans-de-soins.md",
-    "soins/registres.md",
-    "repas/index.md",
-    "repas/menus-regimes.md",
-    "repas/distribution.md",
-    "repas/suivi-nutritionnel.md",
-    "repas/portail-familles.md",
-    "documents/index.md",
-    "documents/centralisation.md",
-    "configuration/index.md",
-    "configuration/reglages-generaux.md",
-    "configuration/reglages-facturation.md",
-    "configuration/reglages-ehealth.md",
-    "configuration/reglages-repas.md",
-    "configuration/reglages-documents.md",
-    "faq.md",
-    "glossaire.md",
-    "support.md",
+    "index",
+    "premiers-pas", "parcours-facturation",
+    "residents/index", "residents/admissions", "residents/gerer-un-resident",
+    "residents/katz", "residents/evaluations", "residents/changement-chambre",
+    "residents/chambres", "residents/etat-des-lieux",
+    "residents/procedure-emmenagement", "residents/mobilier",
+    "facturation/index", "facturation/forfait-inami", "facturation/facturer-un-mois",
+    "facturation/supplements", "facturation/application-supplements",
+    "facturation/absences", "facturation/depart-deces",
+    "facturation/note-de-frais-annexe12", "facturation/cpas", "facturation/split-billing",
+    "ehealth/index", "ehealth/mda", "ehealth/mda-erreurs", "ehealth/efact",
+    "ehealth/efact-rejets", "ehealth/efact-paiements", "ehealth/eagreement",
+    "ehealth/eagreement-refus", "ehealth/eagreement-signature",
+    "soins/index", "soins/dossier-medical", "soins/prescriptions",
+    "soins/sam-base-medicaments", "soins/plans-de-soins", "soins/registres",
+    "repas/index", "repas/menus-regimes", "repas/distribution",
+    "repas/suivi-nutritionnel", "repas/portail-familles",
+    "documents/index", "documents/centralisation",
+    "configuration/index", "configuration/reglages-generaux",
+    "configuration/reglages-facturation", "configuration/reglages-ehealth",
+    "configuration/reglages-repas", "configuration/reglages-documents",
+    "faq", "glossaire", "support",
 ]
 
-FRONTMATTER = re.compile(r"^---\n.*?\n---\n", re.S)
-HTML_COMMENT = re.compile(r"<!--.*?-->", re.S)
-# Nettoyage du markup visuel Material (bruit pour l'IA, pas de contenu utile).
-GRID_CARDS = re.compile(r'<div class="grid cards"[^>]*>.*?</div>', re.S)
-DIV_TAGS = re.compile(r'</?div[^>]*>')
-ICON_SHORTCODE = re.compile(r':(?:material|octicons|fontawesome)[\w-]+:(?:\{[^}]*\})?')
-ATTR_LIST = re.compile(r'\{\s*\.[\w .-]+\}')
+
+def _html_path(site_fr: Path, slug: str) -> Path:
+    """docname (sans .md) -> fichier index.html construit (dirhtml)."""
+    if slug == "index":
+        return site_fr / "index.html"
+    if slug.endswith("/index"):
+        return site_fr / slug[: -len("/index")] / "index.html"
+    return site_fr / slug / "index.html"
 
 
-def clean(text: str) -> str:
-    text = HTML_COMMENT.sub("", text)
-    text = GRID_CARDS.sub("", text)      # cartes de navigation (redondantes ici)
-    text = DIV_TAGS.sub("", text)
-    text = ICON_SHORTCODE.sub("", text)  # :material-rocket-launch:{ .lg .middle }
-    text = ATTR_LIST.sub("", text)       # { .lg .middle }
-    text = re.sub(r"\n{3,}", "\n\n", text)  # compacte les lignes vides multiples
-    return text.strip()
-
-
-def page_url(rel: str) -> str:
-    slug = rel[:-3]  # strip .md
+def _url(slug: str) -> str:
+    """URL versionless (redirige vers la version canonique)."""
     if slug == "index":
         return BASE
     if slug.endswith("/index"):
@@ -103,7 +64,22 @@ def page_url(rel: str) -> str:
     return BASE + slug + "/"
 
 
-def main() -> None:
+def _extract(html_path: Path) -> str:
+    soup = BeautifulSoup(html_path.read_text(encoding="utf-8"), "html.parser")
+    art = soup.find("article", class_="md-content__inner")
+    if art is None:
+        return ""
+    # Retirer le bruit : ancres de titre (¶), bouton d'édition, nœuds cachés.
+    for sel in ("a.headerlink", ".md-content__button", "template", "script", "style"):
+        for el in art.select(sel):
+            el.decompose()
+    md = markdownify(str(art), heading_style="ATX", bullets="-", strip=["nav"])
+    md = re.sub(r"[ \t]+\n", "\n", md)
+    md = re.sub(r"\n{3,}", "\n\n", md)
+    return md.strip()
+
+
+def generate(site_fr: Path, out: Path) -> tuple[int, list[str]]:
     parts = [
         "# Documentation Resthome — contenu intégral",
         "",
@@ -116,23 +92,29 @@ def main() -> None:
         "",
         f"> Index concis : {BASE}llms.txt · Version en ligne : {BASE}",
     ]
-
     missing = []
-    for rel in ORDER:
-        f = FR / rel
-        if not f.exists():
-            missing.append(rel)
+    for slug in ORDER:
+        p = _html_path(site_fr, slug)
+        if not p.exists():
+            missing.append(slug)
             continue
-        text = f.read_text(encoding="utf-8")
-        text = FRONTMATTER.sub("", text, count=1)
-        text = clean(text)
         parts.append("\n\n---\n")
-        parts.append(f"Source : {page_url(rel)}\n")
-        parts.append(text)
+        parts.append(f"Source : {_url(slug)}\n")
+        parts.append(_extract(p))
+    out.write_text("\n".join(parts) + "\n", encoding="utf-8")
+    return len(ORDER) - len(missing), missing
 
-    OUT.write_text("\n".join(parts) + "\n", encoding="utf-8")
-    print(f"Écrit {OUT.relative_to(REPO)} ({OUT.stat().st_size} octets, "
-          f"{len(ORDER) - len(missing)} pages)")
+
+def main() -> None:
+    # Lit la version depuis conf.py (source unique de vérité).
+    ns = {"__file__": str(REPO / "conf.py")}
+    exec(compile((REPO / "conf.py").read_text(encoding="utf-8"), "conf.py", "exec"), ns)
+    site_fr = REPO / "site" / ns["rh_version"]
+    out = REPO / "_publish" / "llms-full.txt"
+    if not site_fr.exists():
+        raise SystemExit(f"Site FR introuvable ({site_fr}). Lance d'abord build_docs.py.")
+    n, missing = generate(site_fr, out)
+    print(f"Écrit {out.relative_to(REPO)} ({out.stat().st_size} octets, {n} pages)")
     if missing:
         print("MANQUANTES:", ", ".join(missing))
 

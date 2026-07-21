@@ -140,6 +140,9 @@ def main():
         run(SPHINX + ["-b", "dirhtml", "-c", ".", "-D", f"language={lang}",
                       "-D", f"html_baseurl={BASE}{VERSION}/{LANG_PREFIX[lang]}",
                       "content", str(out)])
+    # llms-full.txt régénéré depuis le SITE FR construit (jamais désynchronisé),
+    # AVANT copy_publish qui le recopie à la racine du site.
+    run([sys.executable, str(ROOT / "docs-ops" / "gen-llms-full.py")])
     copy_publish()
     build_sitemap()
     fix_search_assets()
