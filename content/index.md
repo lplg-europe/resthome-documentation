@@ -13,39 +13,66 @@ step, with screenshots.
 ::::{grid} 1 2 2 3
 :gutter: 3
 
-:::{grid-item-card} [Getting started](premiers-pas.md)
+:::{grid-item-card} Getting started
+:link: premiers-pas
+:link-type: doc
+
 Log in, discover the apps and the dashboard, and find your way around a screen.
 :::
 
-:::{grid-item-card} [The billing journey](parcours-facturation.md)
+:::{grid-item-card} The billing journey
+:link: parcours-facturation
+:link-type: doc
+
 The big picture: admission → MDA → eAgreement → Katz → eFact → payment.
 :::
 
-:::{grid-item-card} [Residents](residents/index.md)
+:::{grid-item-card} Residents
+:link: residents/index
+:link-type: doc
+
 Admission, stay, Katz and geriatric assessments, rooms and the condition report.
 :::
 
-:::{grid-item-card} [Billing](facturation/index.md)
+:::{grid-item-card} Billing
+:link: facturation/index
+:link-type: doc
+
 Billing periods, INAMI packages, supplements, absences and invoices.
 :::
 
-:::{grid-item-card} [eHealth](ehealth/index.md)
+:::{grid-item-card} eHealth
+:link: ehealth/index
+:link-type: doc
+
 Insurability (MDA), electronic invoicing (eFact) and agreements (eAgreement).
 :::
 
-:::{grid-item-card} [Care](soins/index.md)
+:::{grid-item-card} Care
+:link: soins/index
+:link-type: doc
+
 Clinical record, prescriptions, care plans and clinical registers.
 :::
 
-:::{grid-item-card} [Meals](repas/index.md)
+:::{grid-item-card} Meals
+:link: repas/index
+:link-type: doc
+
 Menus and diets, meal distribution, nutrition monitoring and the family portal.
 :::
 
-:::{grid-item-card} [Resident documents](documents/index.md)
+:::{grid-item-card} Resident documents
+:link: documents/index
+:link-type: doc
+
 Automatic document folders per resident and attachment centralization.
 :::
 
-:::{grid-item-card} [Configuration](configuration/index.md)
+:::{grid-item-card} Configuration
+:link: configuration/index
+:link-type: doc
+
 All the settings: residents, billing, eHealth, meals and documents.
 :::
 

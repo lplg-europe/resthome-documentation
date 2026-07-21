@@ -305,19 +305,46 @@
 .md-nav--primary > .md-nav__list > .md-nav__item:nth-child(11) > .md-nav__link { --si: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M6 2a2 2 0 00-2 2v16a2 2 0 002 2h13V2H6zm0 16h11v2H6a1 1 0 010-2zM8 5h7v2H8z'/></svg>"); }      /* Glossaire (livre) */
 .md-nav--primary > .md-nav__list > .md-nav__item:nth-child(12) > .md-nav__link { --si: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 1a9 9 0 00-9 9v6a3 3 0 003 3h2v-8H5v-1a7 7 0 0114 0v1h-3v8h2a3 3 0 003-3v-6a9 9 0 00-9-9z'/></svg>"); }      /* Support (casque) */
 
-/* ---------- Cartes de la page d'accueil ---------- */
+/* Chevron « › » sur les 7 sections repliables (nth-child 3–9), façon Odoo. */
+.md-nav--primary > .md-nav__list > .md-nav__item:nth-child(n+3):nth-child(-n+9) > .md-nav__link::after {
+  content: "";
+  width: 0.42rem; height: 0.42rem;
+  margin-left: auto;
+  flex: 0 0 auto;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(-45deg);           /* pointe à droite (replié) */
+  opacity: 0.4;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+/* Section active (on est à l'intérieur) → chevron vers le bas (déplié). */
+.md-nav--primary > .md-nav__list > .md-nav__item--active:nth-child(n+3):nth-child(-n+9) > .md-nav__link::after,
+.md-nav--primary > .md-nav__list > .md-nav__item--nested:nth-child(n+3):nth-child(-n+9) > .md-nav__link::after {
+  transform: rotate(45deg); opacity: 0.7;
+}
+
+/* ---------- Cartes de la page d'accueil (sphinx-design + grid.cards) ---------- */
+.md-typeset .sd-card,
 .md-typeset .grid.cards > ul > li,
 .md-typeset .grid > .card {
   border: 1px solid var(--lplg-border);
   border-radius: 0.7rem;
+  box-shadow: none;
   transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
 }
+.md-typeset .sd-card:hover,
 .md-typeset .grid.cards > ul > li:hover,
 .md-typeset .grid > .card:hover {
   border-color: var(--md-primary-fg-color);
   box-shadow: 0 0.3rem 0.9rem rgba(15, 67, 255, 0.14);
   transform: translateY(-2px);
 }
+/* Titre de carte = lien bleu de marque, sans soulignement ; corps en encre douce. */
+.md-typeset .sd-card-title,
+.md-typeset .sd-card-title a { color: var(--md-primary-fg-color); font-weight: 700; }
+.md-typeset .sd-card-title a { text-decoration: none; }
+.md-typeset .sd-card-title a:hover { text-decoration: underline; }
+.md-typeset .sd-card-body { color: var(--md-default-fg-color--light); font-size: 0.75rem; }
 .md-typeset .grid.cards .twemoji svg,
 .md-typeset .grid.cards .lg svg { fill: var(--md-primary-fg-color); }
 

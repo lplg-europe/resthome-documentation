@@ -76,6 +76,7 @@ html_static_path = ["_static"]
 templates_path = ["_templates"]
 html_show_sourcelink = False
 html_copy_source = False
+html_show_sphinx = False   # pas de « Created using Sphinx » — footer LPLG (voir layout.html)
 
 # html_baseurl est surchargé par langue dans build_docs.py (canonical + hreflang).
 html_baseurl = "https://www.lplg.eu/resthome/documentation/"

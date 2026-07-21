@@ -9,15 +9,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-21 01:13+0200\n"
+"POT-Creation-Date: 2026-07-21 01:53+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: nl\n"
 "Language-Team: nl <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
 #: ../../content/index.md:1
@@ -26,9 +26,8 @@ msgstr "Welkom bij de Resthome-documentatie"
 
 #: ../../content/index.md:4
 msgid ""
-"User documentation for the Resthome software (on Odoo) for nursing and "
-"care homes (MR/MRS): residents, care, INAMI billing, eFact, MDA, "
-"eAgreement."
+"User documentation for the Resthome software (on Odoo) for nursing and care "
+"homes (MR/MRS): residents, care, INAMI billing, eFact, MDA, eAgreement."
 msgstr ""
 "Gebruikersdocumentatie van de Resthome-software (op Odoo) voor "
 "woonzorgcentra (WZC/RVT): bewoners, zorg, RIZIV-facturatie, eFact, MDA, "
@@ -37,21 +36,123 @@ msgstr ""
 #: ../../content/index.md:7
 msgid ""
 "**Resthome** is the management software for **nursing homes (MR)** and "
-"**nursing and care homes (MRS)**, published by LPLG **on Odoo**. It "
-"brings together in one place your residents, care, meals, INAMI/mutuality"
-" billing and the Belgian eHealth exchanges (eFact, MDA, eAgreement)."
+"**nursing and care homes (MRS)**, published by LPLG **on Odoo** — residents,"
+" care, meals, INAMI/mutuality billing and the Belgian eHealth exchanges "
+"(eFact, MDA, eAgreement), all in one place. This documentation guides you "
+"day by day, step by step, with screenshots."
 msgstr ""
-"**Resthome** is de beheersoftware voor **rustoorden (ROB)** en **rust- en"
-" verzorgingstehuizen (RVT)**, uitgegeven door LPLG **op Odoo**. Ze brengt"
-" uw bewoners, de zorg, de maaltijden, de RIZIV/mutualiteitsfacturatie en "
-"de Belgische eHealth-uitwisselingen (eFact, MDA, eAgreement) samen op één"
-" plek."
+"**Resthome** is de beheersoftware voor **rustoorden (ROB)** en **rust- en "
+"verzorgingstehuizen (RVT)**, uitgegeven door LPLG **op Odoo** — bewoners, "
+"zorg, maaltijden, RIZIV/mutualiteitsfacturatie en de Belgische eHealth-"
+"uitwisselingen (eFact, MDA, eAgreement), allemaal op één plek. Deze "
+"documentatie begeleidt u dagelijks, stap voor stap, met schermafbeeldingen."
 
-#: ../../content/index.md:12
-msgid "This documentation guides you day by day, step by step, with screenshots."
+#: ../../content/index.md:17
+msgid "Getting started"
+msgstr "Aan de slag"
+
+#: ../../content/index.md:18
+msgid ""
+"Log in, discover the apps and the dashboard, and find your way around a "
+"screen."
 msgstr ""
-"Deze documentatie begeleidt u dagelijks, stap voor stap, met "
-"schermafbeeldingen."
+"Aanmelden, de toepassingen en het dashboard ontdekken, en uw weg vinden in "
+"een scherm."
+
+#: ../../content/index.md:21
+msgid "The billing journey"
+msgstr "Het facturatietraject"
+
+#: ../../content/index.md:22
+msgid ""
+"The big picture: admission → MDA → eAgreement → Katz → eFact → payment."
+msgstr "Het overzicht: opname → MDA → eAgreement → Katz → eFact → betaling."
+
+#: ../../content/index.md:25
+msgid "Residents"
+msgstr "Bewoners"
+
+#: ../../content/index.md:26
+msgid ""
+"Admission, stay, Katz and geriatric assessments, rooms and the condition "
+"report."
+msgstr ""
+"Opname, verblijf, Katz- en geriatrische evaluaties, kamers en de "
+"plaatsbeschrijving."
+
+#: ../../content/index.md:29
+msgid "Billing"
+msgstr "Facturatie"
+
+#: ../../content/index.md:30
+msgid "Billing periods, INAMI packages, supplements, absences and invoices."
+msgstr ""
+"Facturatieperiodes, RIZIV-forfaits, supplementen, afwezigheden en facturen."
+
+#: ../../content/index.md:33
+msgid "eHealth"
+msgstr "eHealth"
+
+#: ../../content/index.md:34
+msgid ""
+"Insurability (MDA), electronic invoicing (eFact) and agreements "
+"(eAgreement)."
+msgstr ""
+"Verzekerbaarheid (MDA), elektronische facturatie (eFact) en akkoorden "
+"(eAgreement)."
+
+#: ../../content/index.md:37
+msgid "Care"
+msgstr "Zorg"
+
+#: ../../content/index.md:38
+msgid "Clinical record, prescriptions, care plans and clinical registers."
+msgstr "Medisch dossier, voorschriften, zorgplannen en klinische registers."
+
+#: ../../content/index.md:41
+msgid "Meals"
+msgstr "Maaltijden"
+
+#: ../../content/index.md:42
+msgid ""
+"Menus and diets, meal distribution, nutrition monitoring and the family "
+"portal."
+msgstr ""
+"Menu's en diëten, maaltijdverdeling, voedingsopvolging en het "
+"familieportaal."
+
+#: ../../content/index.md:45
+msgid "Resident documents"
+msgstr "Documenten van de bewoner"
+
+#: ../../content/index.md:46
+msgid "Automatic document folders per resident and attachment centralization."
+msgstr ""
+"Automatische documentmappen per bewoner en centralisatie van bijlagen."
+
+#: ../../content/index.md:49
+msgid "Configuration"
+msgstr "Configuratie"
+
+#: ../../content/index.md:50
+msgid "All the settings: residents, billing, eHealth, meals and documents."
+msgstr ""
+"Alle instellingen: bewoners, facturatie, eHealth, maaltijden en documenten."
+
+#: ../../content/index.md:54
+msgid "A precise question?"
+msgstr "Een precieze vraag?"
+
+#: ../../content/index.md:57
+msgid ""
+"Use the **search bar** at the top, the **[FAQ](faq.md)** or the "
+"**[Glossary](glossaire.md)**. This documentation is public and written to be"
+" readable by AI assistants — you can ask your question in plain language."
+msgstr ""
+"Gebruik de **zoekbalk** bovenaan, de **[FAQ](faq.md)** of de "
+"**[Woordenlijst](glossaire.md)**. Deze documentatie is openbaar en "
+"geschreven om leesbaar te zijn voor AI-assistenten — u kunt uw vraag in "
+"gewone taal stellen."
 
 #~ msgid "Residents"
 #~ msgstr "Bewoners"
@@ -74,3 +175,8 @@ msgstr ""
 #~ msgid "Configuration"
 #~ msgstr "Configuratie"
 
+#~ msgid ""
+#~ "This documentation guides you day by day, step by step, with screenshots."
+#~ msgstr ""
+#~ "Deze documentatie begeleidt u dagelijks, stap voor stap, met "
+#~ "schermafbeeldingen."
