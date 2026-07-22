@@ -40,7 +40,7 @@ app** and its entry shortcuts. The app does not create any parallel
 data: it acts on the same envelopes and the same conventions.
 :::
 
-<!-- screenshot to add: the Supplements app opened on the Residents screen (kanban view) -->
+![Supplements app on the Residents screen in kanban view, one card per resident with room and stay type](../assets/screenshots/facturation/01-app-supplements-residents.webp)
 
 ## The Residents screen (the starting point)
 
@@ -112,7 +112,7 @@ The app distinguishes the two kinds of supplements already presented in
 - **Recurring** — renewed each month via a **convention** (see the next
   section).
 
-<!-- screenshot to add: the One-off supplements menu, list grouped by resident -->
+![One-off supplements list grouped by resident, with quantities and subtotals per line](../assets/screenshots/facturation/02-supplements-ponctuels.webp)
 
 :::{admonition} Where did my supplement go?
 :class: tip
@@ -146,7 +146,7 @@ On the convention:
 | **Reopen** button | Clears the end date and reactivates the lines that had been closed. |
 | **Lines** | Product, type, price, start date, end date, quantity, active, notes. |
 
-<!-- screenshot to add: a supplement convention with the Close button and the list of lines -->
+![Open supplement convention with the Close button and its lines: product, supplement type, unit price, dates, quantity and Active box](../assets/screenshots/facturation/03-convention-supplements.webp)
 
 :::{admonition} A product under a convention cannot be entered as one-off
 :class: warning
@@ -189,7 +189,7 @@ The **Reporting** menu opens an analysis view of **billed** supplements:
 You can filter between **one-off** and **convention** supplements, and
 group by **resident**, **product** or **month**.
 
-<!-- screenshot to add: the supplements reporting (pivot table residents × months) -->
+![Supplements reporting on the graph view, one bar per resident with the billed amount](../assets/screenshots/facturation/04-supplements-reporting.webp)
 
 :::{admonition} After generation only
 :class: note

@@ -225,6 +225,8 @@ Elles sont souvent identiques, mais peuvent différer.
 2. Sélectionnez l’équipe / le pipeline **Admissions** (menu **Ventes → Mon pipeline**, puis filtrez sur l’équipe Admissions, ou ouvrez directement l’équipe depuis la vue des équipes).
 3. Le tableau **kanban** affiche une colonne par étape et une carte par candidat.
 
+![Pipeline des admissions en vue kanban, une colonne par étape, de Premier contact à Admis](../../_images/01-pipeline-admissions.webp)
+
 ## 2. Créer une piste d’admission
 
 1. Cliquez sur **Nouveau**.
@@ -246,6 +248,8 @@ C’est ici que vous constituez le dossier du candidat, sans quitter la piste :
 Court séjour (court séjour / CSJ)
 
 Si vous choisissez **court séjour**, deux champs supplémentaires apparaissent : le **nombre de jours de court séjour déjà utilisés** cette année civile et des **notes**. La loi limite le court séjour à **90 jours par an** ; renseignez l’information (demandez à la famille, ou confirmez par téléphone avec la mutuelle) avant d’accepter l’admission.
+
+![Onglet Admission résident d'une piste, avec les blocs Informations personnelles et Mutuelle / Assurabilité](../../_images/02-lead-admission-resident.webp)
 
 ## 3. Faire avancer la piste
 
@@ -293,6 +297,8 @@ L’assistant d’admission vous demande :
 3. La **date de début de séjour** — par défaut aujourd’hui.
 
 Cliquez sur **Admettre** pour valider.
+
+![Fenêtre de l'assistant d'admission avec les champs Nom, Type de séjour, Chambre et Date d'entrée, et le bouton Admettre](../../_images/03-assistant-admission.webp)
 
 ### Ce que l’admission crée
 
@@ -1445,6 +1451,8 @@ Cette page complète « Les suppléments »
 
 Les notions de base — l”**enveloppe de suppléments** par résident et par mois, la **synchronisation automatique** de la facture, la protection quand un mois est déjà comptabilisé — sont expliquées dans [Les suppléments](../supplements/). Cette page-ci décrit l”**application dédiée** et ses raccourcis de saisie. L’application ne crée aucune donnée parallèle : elle agit sur les mêmes enveloppes et les mêmes conventions.
 
+![Application Suppléments sur l'écran Résidents en vue kanban, une carte par résident avec la chambre et le type de séjour](../../_images/01-app-supplements-residents.webp)
+
 ## L’écran Résidents (le point de départ)
 
 À l’ouverture, l’application affiche l’écran **Résidents** : la liste des résidents actifs, en **vue kanban** (cartes) ou en **vue liste**. Chaque carte montre la photo, le nom, la **chambre** et le **type de séjour** (MR / MRS), avec une icône de panier « Ajouter des suppléments ».
@@ -1481,6 +1489,8 @@ L’application distingue les deux natures de suppléments déjà présentées d
 - **Ponctuels** — ajoutés à l’enveloppe du mois via le catalogue (coiffeur, pédicure, boisson, téléphone…). Le menu **Suppléments ponctuels** en donne la **liste**, regroupée par résident, avec la période, le produit, la quantité, le prix et le total. C’est l’endroit pour relire tout ce qui a été saisi à la main sur le mois.
 - **Récurrents** — reconduits chaque mois via une **convention** (voir la section suivante).
 
+![Liste des suppléments ponctuels groupée par résident, avec les quantités et les sous-totaux par ligne](../../_images/02-supplements-ponctuels.webp)
+
 Où est passé mon supplément ?
 
 À chaque ajout, Resthome affiche une notification indiquant **sur quelle(s) période(s)** le supplément a été facturé — ou vous prévient qu”**aucune période ouverte** ne correspond encore à sa date (il ne sera alors facturé que lorsque le mois concerné sera généré). Vérifiez la **date de début** si le supplément n’apparaît pas où vous l’attendiez.
@@ -1499,6 +1509,8 @@ Sur la convention :
 | Bouton **Clôturer** | Fixe une **date de fin** et arrête de facturer chaque ligne au-delà. |
 | Bouton **Rouvrir** | Efface la date de fin et réactive les lignes qui avaient été clôturées. |
 | **Lignes** | Produit, type, prix, date de début, date de fin, quantité, actif, notes. |
+
+![Convention de suppléments ouverte, avec le bouton Clôturer et ses lignes : produit, type de supplément, prix unitaire, dates, quantité et case Actif](../../_images/03-convention-supplements.webp)
 
 Un produit sous convention ne se saisit pas en ponctuel
 
@@ -1529,6 +1541,8 @@ Le menu **Reporting** ouvre une vue d’analyse des suppléments **facturés** :
 - une **liste** détaillée des lignes de suppléments.
 
 Vous pouvez filtrer entre suppléments **ponctuels** et de **convention**, et regrouper par **résident**, **produit** ou **mois**.
+
+![Reporting des suppléments en vue graphique, une barre par résident avec le montant facturé](../../_images/04-supplements-reporting.webp)
 
 Après génération seulement
 
@@ -2717,6 +2731,8 @@ Plutôt qu”**imprimer, signer à la main puis scanner**, Resthome place votre 
 - **Annexe 10** — l’échelle de Katz (accord de soins) ;
 - **Annexe 7** — l’accord d’admission (admission / réadmission) ;
 - **Annexe 11** — la notification de fin de séjour.
+
+![Demande eAgreement en brouillon, avec le bouton Signer l'Annexe 7 dans la barre d'actions et la section Annexes](../../_images/12-eagreement-signature.webp)
 
 La marche à suivre, sur une demande en **Brouillon** :
 
