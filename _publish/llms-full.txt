@@ -225,13 +225,11 @@ Elles sont souvent identiques, mais peuvent différer.
 2. Sélectionnez l’équipe / le pipeline **Admissions** (menu **Ventes → Mon pipeline**, puis filtrez sur l’équipe Admissions, ou ouvrez directement l’équipe depuis la vue des équipes).
 3. Le tableau **kanban** affiche une colonne par étape et une carte par candidat.
 
-![Pipeline des admissions en vue kanban, une colonne par étape, de Premier contact à Admis](../../_images/01-pipeline-admissions.webp)
-
 ## 2. Créer une piste d’admission
 
 1. Cliquez sur **Nouveau**.
 2. Donnez un **nom** à la piste (par exemple « Admission - Nom du candidat »).
-3. La case **Candidat résident** est cochée automatiquement lorsque la piste appartient à l’équipe Admissions. Elle active l’onglet **Admission résident** et masque les sections commerciales (société, marketing) inutiles ici.
+3. La case **Candidat résident** est cochée automatiquement lorsque la piste appartient à l’équipe Admissions. Elle active l’onglet **Admission résident** et masque l’onglet **Contacts** standard, sans objet pour une admission.
 4. **Enregistrez.**
 
 Le candidat et le proche qui appelle
@@ -248,8 +246,6 @@ C’est ici que vous constituez le dossier du candidat, sans quitter la piste :
 Court séjour (court séjour / CSJ)
 
 Si vous choisissez **court séjour**, deux champs supplémentaires apparaissent : le **nombre de jours de court séjour déjà utilisés** cette année civile et des **notes**. La loi limite le court séjour à **90 jours par an** ; renseignez l’information (demandez à la famille, ou confirmez par téléphone avec la mutuelle) avant d’accepter l’admission.
-
-![Onglet Admission résident d'une piste, avec les blocs Informations personnelles et Mutuelle / Assurabilité](../../_images/02-lead-admission-resident.webp)
 
 ## 3. Faire avancer la piste
 
@@ -297,8 +293,6 @@ L’assistant d’admission vous demande :
 3. La **date de début de séjour** — par défaut aujourd’hui.
 
 Cliquez sur **Admettre** pour valider.
-
-![Fenêtre de l'assistant d'admission avec les champs Nom, Type de séjour, Chambre et Date d'entrée, et le bouton Admettre](../../_images/03-assistant-admission.webp)
 
 ### Ce que l’admission crée
 
@@ -2404,6 +2398,8 @@ Menu **eHealth → eFact → eFact Settlements**. C’est la liste de tous les *
 
 La liste affiche : la **référence**, le **lot** concerné, la **date de réception**, les montants **Accepted** / **Rejected** / **Paid** et la **référence de paiement**, plus un badge de **statut**.
 
+![Liste des décomptes eFact : une ligne par décompte avec le lot, la date de réception, les montants accepté, rejeté et payé, la référence de paiement et le badge d'état](../../_images/10-efact-decomptes.webp)
+
 Ouvrez un décompte pour le détail. L’écran est en **lecture seule** (rien ne se saisit à la main) et suit trois états :
 
 | État | Signification |
@@ -2441,6 +2437,8 @@ Dans la liste des lots, les filtres **Paid** / **Unpaid** (payé / impayé) et l
 ## 4. Le Cockpit eFact : « ai-je été payé ? » d’un coup d’œil
 
 Menu **eHealth → eFact → Cockpit** (aussi accessible depuis une période ou une carte du tableau de bord). Le Cockpit range tout le travail en **piles d’action**, avec un compteur et un bouton par pile. Trois piles répondent directement à la question du paiement.
+
+![Cockpit eFact avec les piles d'actions (À envoyer, En attente OA, À corriger, À pointer, Paiements OA en retard) et le tableau « Rejets par cause »](../../_images/11-efact-cockpit.webp)
 
 - **To reconcile** (à pointer) — les lots **décomptés mais dont le paiement n’est pas encore confirmé**. Le montant total attendu est affiché ; le bouton **Reconcile payments** ouvre la liste pour les pointer un à un.
 - **Overdue payments** (paiements en retard) — les envois **acceptés mais toujours impayés** dont l”**échéance de paiement OA est dépassée**. Voir la relance ci-dessous.

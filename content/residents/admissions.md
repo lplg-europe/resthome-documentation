@@ -66,7 +66,7 @@ They are often identical, but can differ.
    filter on the Admissions team, or open the team directly from the teams view).
 3. The **kanban** board shows one column per stage and one card per prospect.
 
-![Admissions pipeline in kanban view, one column per stage from First contact to Admitted](../assets/screenshots/residents/01-pipeline-admissions.webp)
+<!-- screenshot to add: the Admissions pipeline in kanban view, one column per stage -->
 
 ## 2. Create an admission lead
 
@@ -74,7 +74,7 @@ They are often identical, but can differ.
 2. Give the lead a **name** (for example "Admission - Prospect name").
 3. The **Prospective resident** checkbox is ticked automatically when the lead
    belongs to the Admissions team. It enables the **Resident admission** tab and
-   hides the sales sections (company, marketing) that are not needed here.
+   hides the standard **Contacts** tab, which is not relevant for an admission.
 4. **Save.**
 
 :::{admonition} The prospect and the relative who calls
@@ -106,7 +106,7 @@ short stays at **90 days per year**; fill in this information (ask the family, o
 confirm by phone with the health insurer) before accepting the admission.
 :::
 
-![Resident admission tab of a lead, with the Personal information and Health insurer / Insurability blocks](../assets/screenshots/residents/02-lead-admission-resident.webp)
+<!-- screenshot to add: the Resident admission tab of a lead -->
 
 ## 3. Move the lead forward
 
@@ -172,7 +172,7 @@ The admission wizard asks you for:
 
 Click **Admit** to confirm.
 
-![Admission wizard dialog showing the Name, Stay type, Room and Start date fields, with the Admit button](../assets/screenshots/residents/03-assistant-admission.webp)
+<!-- screenshot to add: the admission wizard window with the Room, Stay type and Stay start date fields -->
 
 ### What the admission creates
 

@@ -96,7 +96,7 @@ The list shows: the **reference**, the **batch** concerned, the **receipt
 date**, the **Accepted** / **Rejected** / **Paid** amounts and the **payment
 reference**, plus a **status** badge.
 
-<!-- screenshot to add: eFact Settlements list — one settlement per line with accepted/rejected/paid amounts and a status badge -->
+![eFact settlements list: one row per settlement with the batch, receipt date, accepted, rejected and paid amounts, payment reference and status badge](../assets/screenshots/ehealth/10-efact-decomptes.webp)
 
 Open a settlement for the details. The screen is **read-only** (nothing is
 entered by hand) and follows three states:
@@ -157,7 +157,7 @@ dashboard card). The Cockpit organizes all the work into **action stacks**,
 with a counter and a button per stack. Three stacks answer the payment question
 directly.
 
-<!-- screenshot to add: eFact Cockpit — counter buttons (To reconcile, Overdue payments, Rejected lines, OA retrievals) and the "Rejects by cause" table -->
+![eFact Cockpit with the action stacks (To send, Awaiting OA, To correct, To reconcile, Overdue OA payments) and the "Rejects by cause" table](../assets/screenshots/ehealth/11-efact-cockpit.webp)
 
 - **To reconcile** — the batches **settled but whose payment is not yet
   confirmed**. The total expected amount is shown; the **Reconcile payments**

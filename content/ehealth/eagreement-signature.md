@@ -148,7 +148,7 @@ Rather than **printing, signing by hand and then scanning**, Resthome places you
 - **Annexe 7** — the admission agreement (admission / readmission);
 - **Annexe 11** — the end-of-stay notification.
 
-<!-- screenshot to add: eAgreement request in Draft with the Sign Annexe 10 / Sign Annexe 7 buttons in the action bar -->
+<!-- screenshot to add: eAgreement request in Draft with the Sign Annexe 7 button in the action bar -->
 
 The path, on a request in **Draft**:
 
