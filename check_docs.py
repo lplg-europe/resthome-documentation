@@ -55,7 +55,10 @@ def check(page, text):
 
 
 def main():
-    pages = sorted(CONTENT.rglob("*.md"))
+    # Les .md sous assets/ sont des notes internes (conventions de prise de vue),
+    # pas des pages : conf.py les exclut aussi du build.
+    pages = [p for p in sorted(CONTENT.rglob("*.md"))
+             if "assets" not in p.relative_to(CONTENT).parts]
     for p in pages:
         check(p, p.read_text(encoding="utf-8"))
     print(f"check_docs : {len(pages)} pages contrôlées, {len(errors)} problème(s).")

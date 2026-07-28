@@ -4,6 +4,20 @@
 Resthome's clinical registers — falls, pressure ulcers (Braden), wounds, pain, restraint, nutrition (MNA), continence, mobility, cognition.
 :::
 
+:::{rh-faq}
+Which clinical registers does Resthome provide?
+: Falls, pressure ulcers (Braden), wounds, pain, restraint, nutrition (MNA), continence, mobility (Tinetti) and cognition (MMSE).
+
+How do I record an assessment in a register?
+: Open the register from the Care app -> Registers, create a new assessment for the resident and enter the items: Resthome calculates the score and the risk level.
+
+Can a register be closed and reopened?
+: Yes. An open register can be closed or stopped, then reopened later if the situation requires it.
+
+Do clinical registers have an impact on billing?
+: Some do. The MNA feeds the nutritional monitoring on the Meals side, and the Katz assessment determines the INAMI flat-rate fee.
+:::
+
 **Clinical registers** structure the monitoring of risks and geriatric
 assessments. Each register groups together the assessments of a single theme,
 over time, for each resident.

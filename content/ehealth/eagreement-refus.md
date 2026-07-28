@@ -46,6 +46,8 @@ An electronic "received" acknowledgement means **received**, **not accepted**. D
 an agreement as granted on the basis of the acknowledgement alone.
 :::
 
+![Refused agreement: red banner with the rejection reason in plain language, the recommended action, and the rejection code returned by the health insurer](../assets/screenshots/ehealth/32-eagreement-refuse.webp)
+
 ## Common refusal causes → action
 
 | Cause | What you see | Action in Resthome |

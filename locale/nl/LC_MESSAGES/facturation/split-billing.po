@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-18 19:30+0200\n"
+"POT-Creation-Date: 2026-07-28 17:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nl <LL@li.org>\n"
@@ -32,7 +32,60 @@ msgstr ""
 "Het bewonersaandeel van een factuur verdelen over meerdere "
 "onderhoudsplichtigen in Resthome, per percentage."
 
-#: ../../content/facturation/split-billing.md:7
+#: ../../content/facturation/split-billing.md:8
+msgid "What is split billing among maintenance debtors?"
+msgstr "Wat is de verdeling onder onderhoudsplichtigen?"
+
+#: ../../content/facturation/split-billing.md:9
+msgid ""
+"A way of splitting the resident's share of the invoice among several people "
+"- typically the maintenance debtors (children, relatives) - according to a "
+"percentage key."
+msgstr ""
+"Een manier om het bewonersaandeel van de factuur te verdelen over meerdere "
+"personen — doorgaans de onderhoudsplichtigen (kinderen, naasten) — volgens "
+"een percentagesleutel."
+
+#: ../../content/facturation/split-billing.md:11
+msgid "Which part of the invoice is split?"
+msgstr "Welk deel van de factuur wordt verdeeld?"
+
+#: ../../content/facturation/split-billing.md:12
+msgid ""
+"Only the resident's share, meaning the room and the supplements. The INAMI "
+"package is not split: it goes to the health insurance fund through eFact."
+msgstr ""
+"Enkel het bewonersaandeel, dat wil zeggen de kamer en de supplementen. Het "
+"RIZIV-forfait wordt niet verdeeld: het gaat via eFact naar de "
+"verzekeringsinstelling."
+
+#: ../../content/facturation/split-billing.md:14
+msgid "How do I set up a split?"
+msgstr "Hoe stel ik een verdeling in?"
+
+#: ../../content/facturation/split-billing.md:15
+msgid ""
+"On the resident record or its billing period, open the split tab, add the "
+"debtors and their percentage - the total must be 100% - then save. "
+"Subsequent invoices are split automatically."
+msgstr ""
+"Open op het bewonersdossier of zijn facturatieperiode het tabblad verdeling,"
+" voeg de schuldenaars en hun percentage toe — het totaal moet 100 % bedragen"
+" — en bewaar. De volgende facturen worden automatisch verdeeld."
+
+#: ../../content/facturation/split-billing.md:17
+msgid "Does the split add up exactly?"
+msgstr "Klopt de verdeling exact?"
+
+#: ../../content/facturation/split-billing.md:18
+msgid ""
+"Yes. The sum of the portions matches the resident's share precisely, with no"
+" remainder or rounding difference."
+msgstr ""
+"Ja. De som van de aandelen komt exact overeen met het bewonersaandeel, "
+"zonder restant of afrondingsverschil."
+
+#: ../../content/facturation/split-billing.md:21
 msgid ""
 "When the **resident's share** (accommodation + supplements) must be paid by "
 "**several people** — typically the **maintenance debtors** (children, "
@@ -42,11 +95,11 @@ msgstr ""
 "personen** betaald moet worden — typisch de **onderhoudsplichtigen** "
 "(kinderen, naasten) — laat Resthome toe het **automatisch te verdelen**."
 
-#: ../../content/facturation/split-billing.md:11
+#: ../../content/facturation/split-billing.md:25
 msgid "The principle"
 msgstr "Het principe"
 
-#: ../../content/facturation/split-billing.md:13
+#: ../../content/facturation/split-billing.md:27
 msgid ""
 "For a resident, you define a **percentage split** among several debtors. On "
 "each monthly invoice, Resthome **splits the resident's share** according to "
@@ -57,11 +110,11 @@ msgstr ""
 "bewonersaandeel volgens die percentages en bezorgt elke betaler **zijn "
 "deel**."
 
-#: ../../content/facturation/split-billing.md:17
+#: ../../content/facturation/split-billing.md:31
 msgid "What gets split"
 msgstr "Wat verdeeld wordt"
 
-#: ../../content/facturation/split-billing.md:20
+#: ../../content/facturation/split-billing.md:34
 msgid ""
 "Only the **resident's share** is affected (the room and the supplements). "
 "The **INAMI package** (the insurer's share) is not split: it goes to the "
@@ -71,36 +124,36 @@ msgstr ""
 "Het **RIZIV-forfait** (mutualiteitsaandeel) wordt niet verdeeld: het "
 "vertrekt naar de mutualiteit via de [eFact](../ehealth/efact.md)."
 
-#: ../../content/facturation/split-billing.md:25
+#: ../../content/facturation/split-billing.md:39
 msgid "Setting up a split"
 msgstr "Een verdeling instellen"
 
-#: ../../content/facturation/split-billing.md:27
+#: ../../content/facturation/split-billing.md:41
 msgid ""
 "On the **resident** record (or its billing period), open the **split** tab."
 msgstr ""
 "Open op de fiche van de **bewoner** (of zijn facturatieperiode) het tabblad "
 "**verdeling**."
 
-#: ../../content/facturation/split-billing.md:28
+#: ../../content/facturation/split-billing.md:42
 msgid "Add the **debtors** and their **percentage** (the total must be 100%)."
 msgstr ""
 "Voeg de **betalers** en hun **percentage** toe (het totaal moet 100 % zijn)."
 
-#: ../../content/facturation/split-billing.md:29
+#: ../../content/facturation/split-billing.md:43
 msgid "**Save.**"
 msgstr "**Sla op.**"
 
-#: ../../content/facturation/split-billing.md:31
+#: ../../content/facturation/split-billing.md:45
 msgid "Subsequent invoices are automatically **split** according to this key."
 msgstr ""
 "De volgende facturen worden automatisch **gesplitst** volgens deze sleutel."
 
-#: ../../content/facturation/split-billing.md:33
+#: ../../content/facturation/split-billing.md:47
 msgid "Balancing to zero"
 msgstr "Sluitend saldo"
 
-#: ../../content/facturation/split-billing.md:36
+#: ../../content/facturation/split-billing.md:50
 msgid ""
 "The split is designed to **add up exactly**: the sum of the portions matches"
 " the resident's share precisely, with no remainder or rounding difference."
@@ -108,14 +161,14 @@ msgstr ""
 "De verdeling is ontworpen om **exact te kloppen**: de som van de delen komt "
 "precies overeen met het bewonersaandeel, zonder rest of afrondingsverschil."
 
-#: ../../content/facturation/split-billing.md:40
+#: ../../content/facturation/split-billing.md:54
 msgid "Further reading"
 msgstr "Verder"
 
-#: ../../content/facturation/split-billing.md:42
+#: ../../content/facturation/split-billing.md:56
 msgid "[Billing overview](index.md)"
 msgstr "[Facturatie-overzicht](index.md)"
 
-#: ../../content/facturation/split-billing.md:43
+#: ../../content/facturation/split-billing.md:57
 msgid "[Supplements](supplements.md)"
 msgstr "[De supplementen](supplements.md)"

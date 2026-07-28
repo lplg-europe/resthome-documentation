@@ -4,6 +4,26 @@
 Record an absence or a hospitalisation in Resthome — effect on the allowance, the 72-hour rule, automatic eHealth notification, cancellation.
 :::
 
+:::{rh-faq}
+How do I record an absence in Resthome?
+: From the month's billing period or the resident's file, add an absence with the type (hospitalisation, holidays...) and the departure and return date and time. Leave the return blank while the resident is still away.
+
+How does an absence affect the INAMI allowance?
+: The allowance is computed on presence days, so an absence reduces it for the days concerned. The accommodation share follows the rules of your own agreement.
+
+What is the noon rule for counting absence days?
+: Presence at noon (Brussels time) determines whether a day counts. That is why the exact departure and return times matter for the count.
+
+Which absences must be reported to the health insurance fund?
+: An absence of more than 72 hours, or any hospitalisation, prepares an Annexe 11 departure notification; the resident's return prepares an Annexe 7 readmission.
+
+Can I cancel an absence entered by mistake?
+: Yes. Delete it or set it back to draft: the allowance is recomputed as if the absence had never happened, and prepared notifications are withdrawn as long as the insurer has not validated them.
+
+What if the month is already invoiced?
+: Resthome does not change a posted invoice automatically, to prevent double invoicing. Reset the invoice to draft or issue a credit note, then refresh. Other residents in the period are unaffected.
+:::
+
 When a resident is away (hospitalisation, holidays, family leave), this affects
 **the INAMI allowance** for the period and may trigger a **notification to the
 mutuality**. Resthome handles both automatically from the absence you record.

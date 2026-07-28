@@ -1962,11 +1962,16 @@ Avant de facturer, il faut s’assurer que le résident est **en ordre d’assur
 
 Menu : **eHealth → Assurabilité → Requêtes MDA** (et **Lots MDA**).
 
+![Liste des demandes MDA : une ligne par demande avec le résident, la mutuelle actuelle et celle qui a répondu, la période et l'état](../../_images/20-mda-liste.webp)
+
 ## Ce que le MDA récupère
 
 - **Assuré ou non** sur la période.
 - La **mutuelle (OA)** qui a réellement répondu — à comparer avec celle du profil (une **mutation** de mutuelle est détectée et signalée).
 - Le **statut BIM** (intervention majorée).
+
+![Demande MDA pour un bénéficiaire avec statut BIM : la case BIM confirmé est cochée et les codes CT1/CT2 sont ceux de l'intervention majorée](../../_images/25-mda-bim.webp)
+
 - Les **périodes de couverture** (dates de début/fin ; plusieurs sous-périodes si l’assurance a changé pendant l’intervalle).
 - Le **numéro d’affiliation** à la mutuelle.
 - Le cas échéant : **tiers payant**, **date de décès** signalée par l’OA, et selon la demande, la **pharmacie de référence**, le **DMG**, le **statut palliatif** ou une **hospitalisation**.
@@ -1993,6 +1998,8 @@ Resthome applique aussi des règles de période automatiques : la fin doit être
 2. Cliquez **Envoyer (Sync)** : l’envoi est **immédiat** et la réponse revient tout de suite.
 3. Consultez le résumé et les périodes d’assurabilité.
 
+![Demande MDA aboutie, onglet Assurabilité : trois périodes de couverture avec leurs codes CT1/CT2 et le code de la mutuelle](../../_images/21-mda-reponse.webp)
+
 Un seul MDA par résident et par période
 
 Refaire un contrôle pour le même résident et la même période **réutilise** la requête existante — pas de doublon.
@@ -2005,6 +2012,8 @@ Pour toute une période, lancez le contrôle **par lot** : sélectionnez les ré
 - **Envoi groupé (Async)** : pour les **gros lots mensuels** — la demande part, et la réponse se récupère un peu plus tard avec **Vérifier les réponses** (nécessite au moins 2 résidents).
 
 Le lot affiche des **compteurs** : Assurés, Non assurés, Erreurs, En attente, et « Décès détectés ».
+
+![Lot MDA avec ses compteurs — Assurés, Non assurés, Erreurs, En attente — et la liste des résidents du lot](../../_images/22-mda-lot.webp)
 
 Le bon réflexe
 
@@ -2020,6 +2029,8 @@ Faites le MDA **en début de mois**, avant de générer les factures : vous évi
 | **Non assuré** | Réponse OK, mais résident non couvert |
 | **Sans réponse** | La plateforme a clôturé sans réponse d’un OA (à réessayer) |
 | **Erreur** | L’OA ou la plateforme a renvoyé une erreur |
+
+![Demande MDA dont la réponse signale un bénéficiaire non assuré pour la période](../../_images/24-mda-non-assure.webp)
 
 ## Les boutons
 
@@ -2097,6 +2108,8 @@ Rappel des statuts que Resthome peut afficher : **Brouillon · Envoyé / En atte
 | **Erreur technique** | **Erreur** + détail technique | Panne temporaire côté plateforme ou mutualité | **Réessayer** plus tard ; si l’erreur revient, **Signaler à l’intermut.** Ne pas relancer en boucle. |
 | **Décès signalé par la mutualité** | **Date de décès** sur la fiche + alerte | L’OA signale un décès (couverture close) | Vérifier et **arrêter la facturation** à la bonne date. |
 | **Régime particulier** | La réponse MDA est **ignorée** ; la mutualité du profil **reste inchangée** | Le résident relève d’un régime spécial (voir plus bas) | Ne rien corriger : le garde-fou est **volontaire**. Facturer selon le régime particulier. |
+
+![Demande MDA à l'état Erreur, avec le type d'erreur et le code renvoyé par la plateforme](../../_images/23-mda-erreur.webp)
 
 ## Régimes particuliers
 
@@ -2315,6 +2328,8 @@ Quand un lot est-il rejeté globalement ?
 L’organisme assureur rejette **tout le lot** (920099) en cas d”**erreur bloquante** ou lorsque le **taux d’erreurs dépasse environ 5 %** des lignes. En dessous, les lignes fautives font l’objet d’un **rejet partiel** et le reste est payé — d’où l’intérêt de traiter l’auto-contrôle et le MDA **avant** d’envoyer.
 
 Sur chaque ligne refusée, un **code** et un **motif de rejet** en clair pointent la cause.
+
+![Liste des lignes de lot eFact montrant les lignes rejetées avec leur code et leur motif de rejet](../../_images/13-efact-lignes-rejetees.webp)
 
 ## Causes de rejet fréquentes → action
 
@@ -2565,6 +2580,10 @@ Chaque accord passe par des **statuts** clairs :
 
 Depuis la fiche du résident ou la période de facturation, vous voyez la liste des accords et leur statut, avec un lien vers le détail.
 
+![Liste des accords eAgreement, une ligne par accord avec le résident, le type de demande, la mutuelle et l'état](../../_images/30-eagreement-liste.webp)
+
+![Accord accepté affichant le numéro d'accord et les dates de début et de fin octroyées par la mutuelle](../../_images/31-eagreement-accepte.webp)
+
 ### En cas de rejet
 
 Si la mutuelle rejette une demande, Resthome affiche le **motif de rejet en clair, en français et en néerlandais**, directement sur l’accord. Vous savez ainsi immédiatement quoi corriger (souvent : NISS, mutuelle, ou dates) avant de renvoyer.
@@ -2603,6 +2622,8 @@ Cette page explique **pourquoi un accord est refusé** et **comment le corriger 
 Un accusé de réception n’est pas un accord
 
 Un accusé électronique « bien reçu » signifie **reçu**, **pas accepté**. Ne considérez pas un accord comme acquis sur la seule base de l’accusé.
+
+![Accord refusé : bandeau rouge avec le motif de refus en clair, la conduite à tenir et le code de rejet renvoyé par la mutuelle](../../_images/32-eagreement-refuse.webp)
 
 ## Causes de refus fréquentes → action
 

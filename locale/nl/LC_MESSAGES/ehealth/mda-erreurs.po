@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-18 19:30+0200\n"
+"POT-Creation-Date: 2026-07-28 16:45+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nl <LL@li.org>\n"
@@ -360,10 +360,26 @@ msgstr ""
 "bijzondere stelsel."
 
 #: ../../content/ehealth/mda-erreurs.md:53
+msgid ""
+"![MDA request in Error state, with the error type and the code returned by "
+"the platform](../assets/screenshots/ehealth/23-mda-erreur.webp)"
+msgstr ""
+"![MDA-aanvraag in de status Fout, met het fouttype en de code die het "
+"platform terugstuurt](../assets/screenshots/ehealth/23-mda-erreur.webp)"
+
+#: ../../content/ehealth/mda-erreurs.md:53
+msgid ""
+"MDA request in Error state, with the error type and the code returned by the"
+" platform"
+msgstr ""
+"MDA-aanvraag in de status Fout, met het fouttype en de code die het platform"
+" terugstuurt"
+
+#: ../../content/ehealth/mda-erreurs.md:55
 msgid "Special schemes"
 msgstr "Bijzondere stelsels"
 
-#: ../../content/ehealth/mda-erreurs.md:55
+#: ../../content/ehealth/mda-erreurs.md:57
 msgid ""
 "Some residents do **not** fall under the standard mutuality flow. In these "
 "cases, Resthome **does not overwrite** the mutuality on their profile with "
@@ -375,7 +391,7 @@ msgstr ""
 "met het MDA-antwoord, en gebeurt de facturatie vaak **op papier**, gericht "
 "aan de werkelijke betaler (of aan de bewoner), in plaats van via eFact."
 
-#: ../../content/ehealth/mda-erreurs.md:60
+#: ../../content/ehealth/mda-erreurs.md:62
 msgid ""
 "**BIM status (increased reimbursement)** — this is not a separate scheme: "
 "the MDA **retrieves and updates it on its own**. It grants the resident a "
@@ -387,7 +403,7 @@ msgstr ""
 "**verminderd remgeld** voor de bewoner (het aandeel te zijnen laste daalt); "
 "het dagforfait blijft ongewijzigd."
 
-#: ../../content/ehealth/mda-erreurs.md:64
+#: ../../content/ehealth/mda-erreurs.md:66
 msgid ""
 "**War invalids / civilian victims** — the resident has **two coverages**: "
 "their standard mutuality (visible in the MDA) **and** a specific coverage "
@@ -399,7 +415,7 @@ msgstr ""
 "specifieke dekking die **niet** via de MDA verloopt. De beveiliging vermijdt"
 " dat deze configuratie overschreven wordt."
 
-#: ../../content/ehealth/mda-erreurs.md:68
+#: ../../content/ehealth/mda-erreurs.md:70
 msgid ""
 "**Retirees of international institutions** — covered by a scheme specific to"
 " their organisation, not by a standard Belgian mutuality."
@@ -407,7 +423,7 @@ msgstr ""
 "**Gepensioneerden van internationale instellingen** — gedekt door een eigen "
 "stelsel van hun organisatie, niet door een klassiek Belgisch ziekenfonds."
 
-#: ../../content/ehealth/mda-erreurs.md:70
+#: ../../content/ehealth/mda-erreurs.md:72
 msgid ""
 "**Foreign pensioners** — coverage from a foreign scheme via the European "
 "coordination forms; in practice, many still join a Belgian mutuality."
@@ -416,11 +432,11 @@ msgstr ""
 "de Europese coördinatieformulieren; in de praktijk sluiten velen zich toch "
 "bij een Belgisch ziekenfonds aan."
 
-#: ../../content/ehealth/mda-erreurs.md:73
+#: ../../content/ehealth/mda-erreurs.md:75
 msgid "When in doubt"
 msgstr "Bij twijfel"
 
-#: ../../content/ehealth/mda-erreurs.md:76
+#: ../../content/ehealth/mda-erreurs.md:78
 msgid ""
 "For a special scheme, if in doubt about which organisation to bill, get in "
 "touch with the mutuality or the organisation concerned before issuing the "
@@ -430,15 +446,15 @@ msgstr ""
 "neem contact op met het ziekenfonds of de betrokken instelling vóór u de "
 "factuur opmaakt."
 
-#: ../../content/ehealth/mda-erreurs.md:80
+#: ../../content/ehealth/mda-erreurs.md:82
 msgid "Best practices"
 msgstr "Goede praktijken"
 
-#: ../../content/ehealth/mda-erreurs.md:82
+#: ../../content/ehealth/mda-erreurs.md:84
 msgid "**MDA at the start of the month, before billing.**"
 msgstr "**MDA aan het begin van de maand, vóór het factureren.**"
 
-#: ../../content/ehealth/mda-erreurs.md:83
+#: ../../content/ehealth/mda-erreurs.md:85
 msgid ""
 "**Individual check** (immediate) for a specific resident; **batch check** "
 "for a whole period — paste a column of names/NISS if needed."
@@ -447,11 +463,11 @@ msgstr ""
 "**controle per lot** voor een volledige periode — plak indien nodig een "
 "kolom namen/INSZ."
 
-#: ../../content/ehealth/mda-erreurs.md:85
+#: ../../content/ehealth/mda-erreurs.md:87
 msgid "**Immediate send (Sync)** for **small volumes**;"
 msgstr "**Onmiddellijke verzending (Sync)** voor **kleine volumes**;"
 
-#: ../../content/ehealth/mda-erreurs.md:86
+#: ../../content/ehealth/mda-erreurs.md:88
 msgid ""
 "**Grouped send (Async)** for **large monthly batches**: the request goes "
 "out, then you **retrieve the responses** a little later with **Check "
@@ -461,7 +477,7 @@ msgstr ""
 "vertrekt, daarna **haalt u de antwoorden** wat later op met **Antwoorden "
 "controleren** (vereist minstens 2 bewoners)."
 
-#: ../../content/ehealth/mda-erreurs.md:89
+#: ../../content/ehealth/mda-erreurs.md:91
 msgid ""
 "The batch displays **counters** (Insured, Not insured, Errors, Pending, "
 "Deaths) to spot at a glance what remains to process."
@@ -469,7 +485,7 @@ msgstr ""
 "Het lot toont **tellers** (Verzekerd, Niet verzekerd, Fouten, In afwachting,"
 " Overlijdens) om in één oogopslag te zien wat nog te behandelen valt."
 
-#: ../../content/ehealth/mda-erreurs.md:91
+#: ../../content/ehealth/mda-erreurs.md:93
 msgid ""
 "**What Resthome updates** after a successful MDA: the actual **mutuality "
 "(OA)**, the **BIM status**, the **affiliation number**, the **identity** if "
@@ -482,15 +498,15 @@ msgstr ""
 "meldt. Uitzondering: het ziekenfonds van een **bijzonder stelsel** wordt "
 "niet overschreven."
 
-#: ../../content/ehealth/mda-erreurs.md:96
+#: ../../content/ehealth/mda-erreurs.md:98
 msgid "Further reading"
 msgstr "Verder"
 
-#: ../../content/ehealth/mda-erreurs.md:98
+#: ../../content/ehealth/mda-erreurs.md:100
 msgid "[Insurability (MDA)](mda.md)"
 msgstr "[Verzekerbaarheid (MDA)](mda.md)"
 
-#: ../../content/ehealth/mda-erreurs.md:99
+#: ../../content/ehealth/mda-erreurs.md:101
 msgid ""
 "[eFact rejections](efact-rejets.md) · [Electronic invoicing "
 "(eFact)](efact.md)"
@@ -498,6 +514,6 @@ msgstr ""
 "[eFact-weigeringen](efact-rejets.md) · [Elektronische facturatie "
 "(eFact)](efact.md)"
 
-#: ../../content/ehealth/mda-erreurs.md:100
+#: ../../content/ehealth/mda-erreurs.md:102
 msgid "[FAQ](../faq.md) · [Glossary](../glossaire.md)"
 msgstr "[FAQ](../faq.md) · [Woordenlijst](../glossaire.md)"

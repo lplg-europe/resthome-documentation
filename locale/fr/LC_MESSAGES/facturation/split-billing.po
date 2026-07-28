@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-18 19:30+0200\n"
+"POT-Creation-Date: 2026-07-28 17:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -32,7 +32,60 @@ msgstr ""
 "Répartir la part résident d'une facture entre plusieurs débiteurs "
 "alimentaires dans Resthome, par pourcentage."
 
-#: ../../content/facturation/split-billing.md:7
+#: ../../content/facturation/split-billing.md:8
+msgid "What is split billing among maintenance debtors?"
+msgstr "Qu'est-ce que la répartition entre débiteurs d'aliments ?"
+
+#: ../../content/facturation/split-billing.md:9
+msgid ""
+"A way of splitting the resident's share of the invoice among several people "
+"- typically the maintenance debtors (children, relatives) - according to a "
+"percentage key."
+msgstr ""
+"Une manière de répartir la part résident de la facture entre plusieurs "
+"personnes — typiquement les débiteurs d'aliments (enfants, proches) — selon "
+"une clé en pourcentage."
+
+#: ../../content/facturation/split-billing.md:11
+msgid "Which part of the invoice is split?"
+msgstr "Quelle part de la facture est répartie ?"
+
+#: ../../content/facturation/split-billing.md:12
+msgid ""
+"Only the resident's share, meaning the room and the supplements. The INAMI "
+"package is not split: it goes to the health insurance fund through eFact."
+msgstr ""
+"Uniquement la part résident, c'est-à-dire la chambre et les suppléments. Le "
+"forfait INAMI n'est pas réparti : il part à la mutuelle via eFact."
+
+#: ../../content/facturation/split-billing.md:14
+msgid "How do I set up a split?"
+msgstr "Comment paramétrer une répartition ?"
+
+#: ../../content/facturation/split-billing.md:15
+msgid ""
+"On the resident record or its billing period, open the split tab, add the "
+"debtors and their percentage - the total must be 100% - then save. "
+"Subsequent invoices are split automatically."
+msgstr ""
+"Sur la fiche du résident ou sa période de facturation, ouvrez l'onglet de "
+"répartition, ajoutez les débiteurs et leur pourcentage — le total doit faire"
+" 100 % — puis enregistrez. Les factures suivantes sont réparties "
+"automatiquement."
+
+#: ../../content/facturation/split-billing.md:17
+msgid "Does the split add up exactly?"
+msgstr "La répartition tombe-t-elle juste au centime ?"
+
+#: ../../content/facturation/split-billing.md:18
+msgid ""
+"Yes. The sum of the portions matches the resident's share precisely, with no"
+" remainder or rounding difference."
+msgstr ""
+"Oui. La somme des quotes-parts correspond exactement à la part résident, "
+"sans reliquat ni écart d'arrondi."
+
+#: ../../content/facturation/split-billing.md:21
 msgid ""
 "When the **resident's share** (accommodation + supplements) must be paid by "
 "**several people** — typically the **maintenance debtors** (children, "
@@ -42,11 +95,11 @@ msgstr ""
 "**plusieurs personnes** — typiquement les **débiteurs alimentaires** "
 "(enfants, proches) — Resthome permet de la **répartir automatiquement**."
 
-#: ../../content/facturation/split-billing.md:11
+#: ../../content/facturation/split-billing.md:25
 msgid "The principle"
 msgstr "Le principe"
 
-#: ../../content/facturation/split-billing.md:13
+#: ../../content/facturation/split-billing.md:27
 msgid ""
 "For a resident, you define a **percentage split** among several debtors. On "
 "each monthly invoice, Resthome **splits the resident's share** according to "
@@ -57,11 +110,11 @@ msgstr ""
 "résident** selon ces pourcentages et adresse à chaque débiteur **sa quote-"
 "part**."
 
-#: ../../content/facturation/split-billing.md:17
+#: ../../content/facturation/split-billing.md:31
 msgid "What gets split"
 msgstr "Ce qui est réparti"
 
-#: ../../content/facturation/split-billing.md:20
+#: ../../content/facturation/split-billing.md:34
 msgid ""
 "Only the **resident's share** is affected (the room and the supplements). "
 "The **INAMI package** (the insurer's share) is not split: it goes to the "
@@ -71,37 +124,37 @@ msgstr ""
 " **forfait INAMI** (part mutuelle) n'est pas réparti : il part vers la "
 "mutuelle via l'[eFact](../ehealth/efact.md)."
 
-#: ../../content/facturation/split-billing.md:25
+#: ../../content/facturation/split-billing.md:39
 msgid "Setting up a split"
 msgstr "Mettre en place une répartition"
 
-#: ../../content/facturation/split-billing.md:27
+#: ../../content/facturation/split-billing.md:41
 msgid ""
 "On the **resident** record (or its billing period), open the **split** tab."
 msgstr ""
 "Sur la fiche du **résident** (ou sa période de facturation), ouvrez l'onglet"
 " de **répartition**."
 
-#: ../../content/facturation/split-billing.md:28
+#: ../../content/facturation/split-billing.md:42
 msgid "Add the **debtors** and their **percentage** (the total must be 100%)."
 msgstr ""
 "Ajoutez les **débiteurs** et leur **pourcentage** (le total doit faire 100 "
 "%)."
 
-#: ../../content/facturation/split-billing.md:29
+#: ../../content/facturation/split-billing.md:43
 msgid "**Save.**"
 msgstr "**Enregistrez.**"
 
-#: ../../content/facturation/split-billing.md:31
+#: ../../content/facturation/split-billing.md:45
 msgid "Subsequent invoices are automatically **split** according to this key."
 msgstr ""
 "Les factures suivantes sont automatiquement **scindées** selon cette clé."
 
-#: ../../content/facturation/split-billing.md:33
+#: ../../content/facturation/split-billing.md:47
 msgid "Balancing to zero"
 msgstr "Solde à zéro"
 
-#: ../../content/facturation/split-billing.md:36
+#: ../../content/facturation/split-billing.md:50
 msgid ""
 "The split is designed to **add up exactly**: the sum of the portions matches"
 " the resident's share precisely, with no remainder or rounding difference."
@@ -109,14 +162,14 @@ msgstr ""
 "La répartition est conçue pour **tomber juste** : la somme des quotes-parts "
 "correspond exactement à la part résident, sans reste ni écart d'arrondi."
 
-#: ../../content/facturation/split-billing.md:40
+#: ../../content/facturation/split-billing.md:54
 msgid "Further reading"
 msgstr "Pour aller plus loin"
 
-#: ../../content/facturation/split-billing.md:42
+#: ../../content/facturation/split-billing.md:56
 msgid "[Billing overview](index.md)"
 msgstr "[Vue d'ensemble de la facturation](index.md)"
 
-#: ../../content/facturation/split-billing.md:43
+#: ../../content/facturation/split-billing.md:57
 msgid "[Supplements](supplements.md)"
 msgstr "[Les suppléments](supplements.md)"

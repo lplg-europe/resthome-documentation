@@ -4,6 +4,23 @@
 Bill supplements in Resthome — the resident's supplement envelope, one-off or recurring services, automatic synchronization.
 :::
 
+:::{rh-faq}
+What is a supplement envelope?
+: A per-resident, per-month envelope that gathers all of the resident's supplements. It opens automatically when the stay starts and carries recurring supplements over from month to month.
+
+What is the difference between a one-off and a recurring supplement?
+: A one-off supplement is billed once (a haircut, for instance). A recurring supplement is renewed every month as long as it is active (single room, TV) and stops being billed the month after you stop it.
+
+Do I need to refresh the invoice after adding a supplement?
+: No. Adding, editing or removing a supplement automatically updates the affected resident's invoice, and you are notified once it is reflected in the billing.
+
+What if the resident's invoice is already posted?
+: The posted invoice is not touched automatically. Set it back to draft or issue a credit note, then refresh.
+
+How do I create supplement envelopes for every resident at once?
+: On a billing period, use the Create supplement envelopes action: it prepares in one click the envelopes for all residents active during the month.
+:::
+
 Beyond accommodation and the dependency package, a resident may have **supplements** to pay: single room, television, hairdresser, pedicure, drinks, telephone… Resthome groups them into a **supplement envelope** per resident and per month.
 
 ## Supplement envelope

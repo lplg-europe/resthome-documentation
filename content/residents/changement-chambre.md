@@ -4,6 +4,20 @@
 Move a resident to another room or transfer them between MR and MRS in Resthome — billing is split automatically, with no new admission.
 :::
 
+:::{rh-faq}
+How do I change a resident's room?
+: On the resident's stay, use the Change room action, enter the new room and the date and time of the change, then validate.
+
+Does a room change require a new admission?
+: No. The INAMI flat rate stays continuous and there is no new agreement to request - only the accommodation portion is split across the two rates.
+
+How do I transfer a resident from MR to MRS?
+: On the stay, use the Internal transfer action, enter the date and time and the new type of care, then validate. Resthome updates the flat rate and prepares the eHealth notification where applicable.
+
+Do I have to recalculate billing after a room change?
+: No. Resthome closes billing for the old room on the chosen date and opens it for the new one, each segment at its own rate.
+:::
+
 A resident can **change room** or move from **MR to MRS** (or the other way
 around) during their stay. Resthome handles the **transition** cleanly: billing
 is **split** at the right date, without you having to redo an admission.

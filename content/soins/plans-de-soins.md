@@ -4,6 +4,23 @@
 Care plans, daily care schedule, vital signs entry and trends, and nursing notes in Resthome.
 :::
 
+:::{rh-faq}
+What is a care plan in Resthome?
+: A plan describing the goals of a resident's care and the actions to carry out. It is activated, put under review then validated periodically, and finally completed or cancelled.
+
+Where do I see the care to be carried out today?
+: In "Today's care" for the whole list, and "My assigned care" for what is assigned to you personally. Each task can be started, completed, cancelled or marked missed.
+
+How do I record vital signs?
+: From the resident record, open Vital signs entry and fill in the measurements (blood pressure, pulse, temperature, weight, saturation...), then save.
+
+Can I see how a resident's vital signs evolve?
+: Yes. The Trends tool shows how measurements change over time, which helps spot a deterioration before it sets in.
+
+What are nursing notes used for?
+: To record observations. Items needing attention surface under Watch points / Attention required, and are marked resolved once handled.
+:::
+
 Beyond medication, the Care app organizes **day-to-day nursing work**: care plans, scheduling, vital signs and notes.
 
 ## Care plans

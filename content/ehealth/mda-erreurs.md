@@ -50,6 +50,8 @@ the response · Retry · Contact the OA · Report to the inter-mutualist.**
 | **Death reported by the mutuality** | **Date of death** on the record + alert | The OA reports a death (coverage closed) | Check and **stop billing** at the correct date. |
 | **Special scheme** | The MDA response is **ignored**; the profile's mutuality **stays unchanged** | The resident falls under a special scheme (see below) | Do not correct anything: the safeguard is **intentional**. Bill according to the special scheme. |
 
+![MDA request in Error state, with the error type and the code returned by the platform](../assets/screenshots/ehealth/23-mda-erreur.webp)
+
 ## Special schemes
 
 Some residents do **not** fall under the standard mutuality flow. In these

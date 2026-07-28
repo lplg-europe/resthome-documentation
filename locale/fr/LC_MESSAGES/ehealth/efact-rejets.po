@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-18 19:30+0200\n"
+"POT-Creation-Date: 2026-07-28 16:45+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -207,6 +207,23 @@ msgstr ""
 "pointent la cause."
 
 #: ../../content/ehealth/efact-rejets.md:65
+msgid ""
+"![eFact batch lines list showing the refused lines with their rejection code"
+" and reason](../assets/screenshots/ehealth/13-efact-lignes-rejetees.webp)"
+msgstr ""
+"![Liste des lignes de lot eFact montrant les lignes rejetées avec leur code "
+"et leur motif de rejet](../assets/screenshots/ehealth/13-efact-lignes-"
+"rejetees.webp)"
+
+#: ../../content/ehealth/efact-rejets.md:65
+msgid ""
+"eFact batch lines list showing the refused lines with their rejection code "
+"and reason"
+msgstr ""
+"Liste des lignes de lot eFact montrant les lignes rejetées avec leur code et"
+" leur motif de rejet"
+
+#: ../../content/ehealth/efact-rejets.md:67
 msgid "Frequent rejection causes → action"
 msgstr "Causes de rejet fréquentes → action"
 
@@ -377,11 +394,11 @@ msgstr ""
 "Cas rare à escalader : utiliser **Contact OA** ou **Helpdesk**, corriger, "
 "puis renvoyer un lot neuf."
 
-#: ../../content/ehealth/efact-rejets.md:80
+#: ../../content/ehealth/efact-rejets.md:82
 msgid "Fix, then resend"
 msgstr "Corriger, puis renvoyer"
 
-#: ../../content/ehealth/efact-rejets.md:82
+#: ../../content/ehealth/efact-rejets.md:84
 msgid ""
 "The principle: **you do not resend a rejected batch as-is — you fix the "
 "cause at the source, then resend.**"
@@ -389,7 +406,7 @@ msgstr ""
 "Le principe : **on ne repousse pas un lot rejeté tel quel — on corrige la "
 "cause à la source, puis on renvoie.**"
 
-#: ../../content/ehealth/efact-rejets.md:85
+#: ../../content/ehealth/efact-rejets.md:87
 msgid ""
 "**Fix → resend loop.** After handling the cause (MDA, mutuality, Katz, "
 "absence, dates…), regenerate the affected part and resend. The **Resends** "
@@ -401,7 +418,7 @@ msgstr ""
 "compteur **Renvois** garde la trace de chaque retransmission pour **éviter "
 "d'envoyer deux fois** le même lot."
 
-#: ../../content/ehealth/efact-rejets.md:89
+#: ../../content/ehealth/efact-rejets.md:91
 msgid ""
 "**Reintegration.** The **Reintegration** button lets you reintegrate lines "
 "(for example rejected lines, once corrected) into a **new sending**, rather "
@@ -411,7 +428,7 @@ msgstr ""
 "lignes (par exemple des lignes rejetées, une fois corrigées) dans un "
 "**nouvel envoi**, plutôt que de tout refaire."
 
-#: ../../content/ehealth/efact-rejets.md:92
+#: ../../content/ehealth/efact-rejets.md:94
 msgid ""
 "**Credit note / corrective batch.** Whenever you have **invoiced more than "
 "due** — a departure or death during an already invoiced month, an over-"
@@ -425,11 +442,11 @@ msgstr ""
 "mutuelle est concernée, un **lot correctif** vers l'OA. Les lignes de crédit"
 " sont intégrées à l'**envoi eFact suivant**."
 
-#: ../../content/ehealth/efact-rejets.md:98
+#: ../../content/ehealth/efact-rejets.md:100
 msgid "The responses you may come across"
 msgstr "Les réponses que vous pouvez croiser"
 
-#: ../../content/ehealth/efact-rejets.md:100
+#: ../../content/ehealth/efact-rejets.md:102
 msgid ""
 "Depending on the message returned by the OA, you may see, in the statuses or"
 " the batch log:"
@@ -502,11 +519,11 @@ msgstr ""
 "Le fichier n'a pas passé le **contrôle de format** ; retransmission "
 "nécessaire après correction."
 
-#: ../../content/ehealth/efact-rejets.md:111
+#: ../../content/ehealth/efact-rejets.md:113
 msgid "Key points"
 msgstr "Points clés"
 
-#: ../../content/ehealth/efact-rejets.md:113
+#: ../../content/ehealth/efact-rejets.md:115
 msgid ""
 "**Prevent rather than cure**: handle the **self-check** messages and "
 "validate the **MDA** before invoicing — this way, most rejections are "
@@ -516,7 +533,7 @@ msgstr ""
 " validez le **MDA** avant de facturer — la plupart des rejets sont ainsi "
 "évités."
 
-#: ../../content/ehealth/efact-rejets.md:115
+#: ../../content/ehealth/efact-rejets.md:117
 msgid ""
 "A **partial rejection** is fixed **line by line**; a **global rejection** is"
 " **resent as a new batch**."
@@ -524,7 +541,7 @@ msgstr ""
 "Un **rejet partiel** se corrige **ligne par ligne** ; un **rejet global** se"
 " **renvoie en lot neuf**."
 
-#: ../../content/ehealth/efact-rejets.md:117
+#: ../../content/ehealth/efact-rejets.md:119
 msgid ""
 "An **over-invoicing** (departure, death, over-declared allowance) is "
 "corrected with a **credit note / corrective batch**, not with a simple "
@@ -533,22 +550,22 @@ msgstr ""
 "Une **surfacturation** (départ, décès, forfait sur-déclaré) se corrige par "
 "une **note de crédit / un lot correctif**, pas par un simple renvoi."
 
-#: ../../content/ehealth/efact-rejets.md:120
+#: ../../content/ehealth/efact-rejets.md:122
 msgid "Further reading"
 msgstr "Pour aller plus loin"
 
-#: ../../content/ehealth/efact-rejets.md:122
+#: ../../content/ehealth/efact-rejets.md:124
 msgid "[Electronic invoicing (eFact)](efact.md)"
 msgstr "[Facturation électronique (eFact)](efact.md)"
 
-#: ../../content/ehealth/efact-rejets.md:123
+#: ../../content/ehealth/efact-rejets.md:125
 msgid "[Insurability (MDA)](mda.md) · [MDA errors](mda-erreurs.md)"
 msgstr "[Assurabilité (MDA)](mda.md) · [Erreurs MDA](mda-erreurs.md)"
 
-#: ../../content/ehealth/efact-rejets.md:124
+#: ../../content/ehealth/efact-rejets.md:126
 msgid "[Departure and death](../facturation/depart-deces.md)"
 msgstr "[Départ et décès](../facturation/depart-deces.md)"
 
-#: ../../content/ehealth/efact-rejets.md:125
+#: ../../content/ehealth/efact-rejets.md:127
 msgid "[FAQ](../faq.md) · [Glossary](../glossaire.md)"
 msgstr "[FAQ](../faq.md) · [Glossaire](../glossaire.md)"

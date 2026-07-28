@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-19 01:04+0200\n"
+"POT-Creation-Date: 2026-07-28 17:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nl <LL@li.org>\n"
@@ -26,62 +26,149 @@ msgstr "Afwezigheden en hospitalisaties"
 
 #: ../../content/facturation/absences.md:4
 msgid ""
-"Record an absence or a hospitalisation in Resthome — effect on the allowance,"
-" the 72-hour rule, automatic eHealth notification, cancellation."
+"Record an absence or a hospitalisation in Resthome — effect on the "
+"allowance, the 72-hour rule, automatic eHealth notification, cancellation."
 msgstr ""
 "Een afwezigheid of hospitalisatie registreren in Resthome — effect op het "
 "forfait, 72-uurregel, automatische eHealth-melding, annuleren."
 
-#: ../../content/facturation/absences.md:7
+#: ../../content/facturation/absences.md:8
+msgid "How do I record an absence in Resthome?"
+msgstr "Hoe registreer ik een afwezigheid in Resthome?"
+
+#: ../../content/facturation/absences.md:9
+msgid ""
+"From the month's billing period or the resident's file, add an absence with "
+"the type (hospitalisation, holidays...) and the departure and return date "
+"and time. Leave the return blank while the resident is still away."
+msgstr ""
+"Voeg vanuit de facturatieperiode van de maand of het dossier van de bewoner "
+"een afwezigheid toe met het type (ziekenhuisopname, vakantie…) en de datum "
+"en het uur van vertrek en terugkeer. Laat de terugkeer leeg zolang de "
+"bewoner nog afwezig is."
+
+#: ../../content/facturation/absences.md:11
+msgid "How does an absence affect the INAMI allowance?"
+msgstr "Welk effect heeft een afwezigheid op het RIZIV-forfait?"
+
+#: ../../content/facturation/absences.md:12
+msgid ""
+"The allowance is computed on presence days, so an absence reduces it for the"
+" days concerned. The accommodation share follows the rules of your own "
+"agreement."
+msgstr ""
+"Het forfait wordt berekend op de aanwezigheidsdagen: een afwezigheid "
+"vermindert het dus voor de betrokken dagen. Het verblijfsgedeelte volgt de "
+"regels van uw eigen overeenkomst."
+
+#: ../../content/facturation/absences.md:14
+msgid "What is the noon rule for counting absence days?"
+msgstr "Wat is de middagregel voor de telling van de afwezigheidsdagen?"
+
+#: ../../content/facturation/absences.md:15
+msgid ""
+"Presence at noon (Brussels time) determines whether a day counts. That is "
+"why the exact departure and return times matter for the count."
+msgstr ""
+"De aanwezigheid om 12 uur (Brusselse tijd) bepaalt of een dag meetelt. "
+"Daarom zijn de exacte uren van vertrek en terugkeer bepalend voor de "
+"telling."
+
+#: ../../content/facturation/absences.md:17
+msgid "Which absences must be reported to the health insurance fund?"
+msgstr ""
+"Welke afwezigheden moeten aan de verzekeringsinstelling worden gemeld?"
+
+#: ../../content/facturation/absences.md:18
+msgid ""
+"An absence of more than 72 hours, or any hospitalisation, prepares an Annexe"
+" 11 departure notification; the resident's return prepares an Annexe 7 "
+"readmission."
+msgstr ""
+"Een afwezigheid van meer dan 72 uur, of elke ziekenhuisopname, bereidt een "
+"vertrekmelding Bijlage 11 voor; de terugkeer van de bewoner bereidt een "
+"heropname Bijlage 7 voor."
+
+#: ../../content/facturation/absences.md:20
+msgid "Can I cancel an absence entered by mistake?"
+msgstr "Kan ik een per vergissing ingevoerde afwezigheid annuleren?"
+
+#: ../../content/facturation/absences.md:21
+msgid ""
+"Yes. Delete it or set it back to draft: the allowance is recomputed as if "
+"the absence had never happened, and prepared notifications are withdrawn as "
+"long as the insurer has not validated them."
+msgstr ""
+"Ja. Verwijder ze of zet ze terug naar concept: het forfait wordt herberekend"
+" alsof de afwezigheid nooit heeft plaatsgevonden, en de voorbereide "
+"meldingen worden ingetrokken zolang de verzekeringsinstelling ze niet heeft "
+"gevalideerd."
+
+#: ../../content/facturation/absences.md:23
+msgid "What if the month is already invoiced?"
+msgstr "En als de maand al gefactureerd is?"
+
+#: ../../content/facturation/absences.md:24
+msgid ""
+"Resthome does not change a posted invoice automatically, to prevent double "
+"invoicing. Reset the invoice to draft or issue a credit note, then refresh. "
+"Other residents in the period are unaffected."
+msgstr ""
+"Resthome wijzigt een geboekte factuur niet automatisch, om dubbele "
+"facturatie te voorkomen. Zet de factuur terug naar concept of maak een "
+"creditnota op, en vernieuw daarna. De andere bewoners van de periode blijven"
+" ongemoeid."
+
+#: ../../content/facturation/absences.md:27
 msgid ""
 "When a resident is away (hospitalisation, holidays, family leave), this "
 "affects **the INAMI allowance** for the period and may trigger a "
 "**notification to the mutuality**. Resthome handles both automatically from "
 "the absence you record."
 msgstr ""
-"Wanneer een bewoner afwezig is (hospitalisatie, vakantie, familiaal verlof), "
-"beïnvloedt dat het **RIZIV-forfait** van de periode en kan het een **melding "
-"aan de mutualiteit** uitlokken. Resthome beheert beide automatisch op basis "
-"van de afwezigheid die u invoert."
+"Wanneer een bewoner afwezig is (hospitalisatie, vakantie, familiaal verlof),"
+" beïnvloedt dat het **RIZIV-forfait** van de periode en kan het een "
+"**melding aan de mutualiteit** uitlokken. Resthome beheert beide automatisch"
+" op basis van de afwezigheid die u invoert."
 
-#: ../../content/facturation/absences.md:11
+#: ../../content/facturation/absences.md:31
 msgid "Record an absence"
 msgstr "Een afwezigheid registreren"
 
-#: ../../content/facturation/absences.md:13
+#: ../../content/facturation/absences.md:33
 msgid "Open the month's **billing period**, or the resident's file."
 msgstr ""
 "Open de **facturatieperiode** van de maand, of de fiche van de bewoner."
 
-#: ../../content/facturation/absences.md:14
+#: ../../content/facturation/absences.md:34
 msgid "Add an **absence**, specifying:"
 msgstr "Voeg een **afwezigheid** toe met:"
 
-#: ../../content/facturation/absences.md:15
+#: ../../content/facturation/absences.md:35
 msgid "the **resident**;"
 msgstr "de **bewoner**;"
 
-#: ../../content/facturation/absences.md:16
+#: ../../content/facturation/absences.md:36
 msgid "the **type** (hospitalisation, holidays, etc.);"
 msgstr "het **type** (hospitalisatie, vakantie…);"
 
-#: ../../content/facturation/absences.md:17
+#: ../../content/facturation/absences.md:37
 msgid ""
-"the **departure date/time** and the **return date/time** (or leave the return"
-" blank while the resident has not come back yet)."
+"the **departure date/time** and the **return date/time** (or leave the "
+"return blank while the resident has not come back yet)."
 msgstr ""
 "de **datum/uur van vertrek** en **datum/uur van terugkeer** (of laat de "
 "terugkeer leeg zolang de bewoner niet terug is)."
 
-#: ../../content/facturation/absences.md:19
+#: ../../content/facturation/absences.md:39
 msgid "**Save.**"
 msgstr "**Sla op.**"
 
-#: ../../content/facturation/absences.md:21
+#: ../../content/facturation/absences.md:41
 msgid "You don't need to click \"Refresh\""
 msgstr "U hoeft niet op « Vernieuwen » te klikken"
 
-#: ../../content/facturation/absences.md:24
+#: ../../content/facturation/absences.md:44
 msgid ""
 "Adding, modifying or deleting an absence **automatically synchronises** the "
 "billing of the resident concerned: the allowance is recomputed and, where "
@@ -92,11 +179,11 @@ msgstr ""
 "herberekend en, indien nodig, wordt de eHealth-melding voorbereid. Zie "
 "[facturatie](index.md#de-knop-vernieuwen)."
 
-#: ../../content/facturation/absences.md:30
+#: ../../content/facturation/absences.md:50
 msgid "Effect on the allowance"
 msgstr "Effect op het forfait"
 
-#: ../../content/facturation/absences.md:32
+#: ../../content/facturation/absences.md:52
 msgid ""
 "The **INAMI allowance** (mutuality share) is computed on the **presence "
 "days**. An absence **reduces** this allowance for the days concerned."
@@ -105,52 +192,52 @@ msgstr ""
 "**aanwezigheidsdagen**. Een afwezigheid **vermindert** dat forfait voor de "
 "betrokken dagen."
 
-#: ../../content/facturation/absences.md:35
+#: ../../content/facturation/absences.md:55
 msgid "The \"noon rule\""
 msgstr "De « middagregel »"
 
-#: ../../content/facturation/absences.md:38
+#: ../../content/facturation/absences.md:58
 msgid ""
 "The count of absence days follows a presence-at-**noon** rule (Brussels "
-"time): it is the presence at noon that determines whether the day counts. The"
-" **dates and times** of departure and return therefore matter — Resthome "
+"time): it is the presence at noon that determines whether the day counts. "
+"The **dates and times** of departure and return therefore matter — Resthome "
 "relies on them for an exact count."
 msgstr ""
-"De telling van de afwezigheidsdagen volgt een aanwezigheidsregel om **12 u 's"
-" middags** (tijdzone Brussel): de aanwezigheid om de middag bepaalt of de dag"
-" meetelt. De **data en uren** van vertrek en terugkeer zijn dus belangrijk — "
-"Resthome gebruikt ze voor een exacte telling."
+"De telling van de afwezigheidsdagen volgt een aanwezigheidsregel om **12 u "
+"'s middags** (tijdzone Brussel): de aanwezigheid om de middag bepaalt of de "
+"dag meetelt. De **data en uren** van vertrek en terugkeer zijn dus "
+"belangrijk — Resthome gebruikt ze voor een exacte telling."
 
-#: ../../content/facturation/absences.md:44
+#: ../../content/facturation/absences.md:64
 msgid ""
-"The **accommodation share** (the room, paid by the resident) follows its own "
-"rules according to your agreement."
+"The **accommodation share** (the room, paid by the resident) follows its own"
+" rules according to your agreement."
 msgstr ""
-"Het **verblijfsaandeel** (de kamer, betaald door de bewoner) volgt zijn eigen"
-" regels volgens uw overeenkomst."
+"Het **verblijfsaandeel** (de kamer, betaald door de bewoner) volgt zijn "
+"eigen regels volgens uw overeenkomst."
 
-#: ../../content/facturation/absences.md:47
+#: ../../content/facturation/absences.md:67
 msgid "Notification to the mutuality (eHealth)"
 msgstr "Melding aan de mutualiteit (eHealth)"
 
-#: ../../content/facturation/absences.md:49
+#: ../../content/facturation/absences.md:69
 msgid "Some absences must be reported to the mutuality:"
 msgstr "Sommige afwezigheden moeten aan de mutualiteit gemeld worden:"
 
-#: ../../content/facturation/absences.md:51
+#: ../../content/facturation/absences.md:71
 msgid ""
-"an absence of **more than 72 hours**, or **any hospitalisation**, prepares an"
-" **Annex 11** (exit notification);"
+"an absence of **more than 72 hours**, or **any hospitalisation**, prepares "
+"an **Annex 11** (exit notification);"
 msgstr ""
 "een afwezigheid van meer dan **72 u**, of **elke hospitalisatie**, bereidt "
 "een **Bijlage 11** (vertrekmelding) voor;"
 
-#: ../../content/facturation/absences.md:53
+#: ../../content/facturation/absences.md:73
 msgid "the resident's **return** prepares an **Annex 7** (readmission)."
 msgstr ""
 "de **terugkeer** van de bewoner bereidt een **Bijlage 7** (heropname) voor."
 
-#: ../../content/facturation/absences.md:55
+#: ../../content/facturation/absences.md:75
 msgid ""
 "Resthome creates these notifications **at the moment you record the absence "
 "and the return**, with no extra handling. You only have to check and send "
@@ -161,11 +248,11 @@ msgstr ""
 "kijken en te versturen. Zie [Akkoorden "
 "(eAgreement)](../ehealth/eagreement.md)."
 
-#: ../../content/facturation/absences.md:59
+#: ../../content/facturation/absences.md:79
 msgid "Cancel an absence"
 msgstr "Een afwezigheid annuleren"
 
-#: ../../content/facturation/absences.md:61
+#: ../../content/facturation/absences.md:81
 msgid ""
 "An absence entered by mistake? **Delete it** or set it back to draft: "
 "Resthome **rolls it back cleanly** — the allowance is recomputed as if the "
@@ -174,20 +261,21 @@ msgid ""
 msgstr ""
 "Een afwezigheid per vergissing ingevoerd? **Verwijder** ze of zet ze terug "
 "naar concept: Resthome **draait alles netjes terug** — het forfait wordt "
-"herberekend alsof de afwezigheid niet plaatsvond, en de voorbereide meldingen"
-" worden ingetrokken zolang ze niet aan mutualiteitszijde gevalideerd zijn."
+"herberekend alsof de afwezigheid niet plaatsvond, en de voorbereide "
+"meldingen worden ingetrokken zolang ze niet aan mutualiteitszijde "
+"gevalideerd zijn."
 
-#: ../../content/facturation/absences.md:66
+#: ../../content/facturation/absences.md:86
 msgid "Month already invoiced"
 msgstr "Maand reeds gefactureerd"
 
-#: ../../content/facturation/absences.md:69
+#: ../../content/facturation/absences.md:89
 msgid ""
-"If the month's invoice is **already posted** for this resident, Resthome does"
-" not change that month automatically (protection against double invoicing). "
-"To correct it anyway: reset the invoice to **draft** (or create a **credit "
-"note**), then **refresh**. The other residents in the period are not "
-"affected."
+"If the month's invoice is **already posted** for this resident, Resthome "
+"does not change that month automatically (protection against double "
+"invoicing). To correct it anyway: reset the invoice to **draft** (or create "
+"a **credit note**), then **refresh**. The other residents in the period are "
+"not affected."
 msgstr ""
 "Is de factuur van de maand voor die bewoner **al geboekt**, dan wijzigt "
 "Resthome die maand niet automatisch (bescherming tegen dubbele facturatie). "
@@ -195,18 +283,18 @@ msgstr ""
 "**creditnota**), en **vernieuw** dan. De andere bewoners van de periode "
 "worden niet geraakt."
 
-#: ../../content/facturation/absences.md:75
+#: ../../content/facturation/absences.md:95
 msgid "Going further"
 msgstr "Verder"
 
-#: ../../content/facturation/absences.md:77
+#: ../../content/facturation/absences.md:97
 msgid "[Agreements (eAgreement)](../ehealth/eagreement.md)"
 msgstr "[Akkoorden (eAgreement)](../ehealth/eagreement.md)"
 
-#: ../../content/facturation/absences.md:78
+#: ../../content/facturation/absences.md:98
 msgid "[Departure and death](depart-deces.md)"
 msgstr "[Vertrek en overlijden](depart-deces.md)"
 
-#: ../../content/facturation/absences.md:79
+#: ../../content/facturation/absences.md:99
 msgid "[Billing overview](index.md)"
 msgstr "[Facturatie-overzicht](index.md)"

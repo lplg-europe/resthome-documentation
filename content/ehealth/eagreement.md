@@ -100,6 +100,10 @@ Each agreement goes through clear **statuses**:
 From the resident record or the billing period, you see the list of agreements
 and their status, with a link to the detail.
 
+![eAgreement requests list, one row per agreement with the resident, the type of request, the health insurer and the status](../assets/screenshots/ehealth/30-eagreement-liste.webp)
+
+![Accepted agreement showing the agreement number and the start and end dates granted by the health insurer](../assets/screenshots/ehealth/31-eagreement-accepte.webp)
+
 ### In case of rejection
 
 If the mutuality rejects a request, Resthome displays the **rejection reason in

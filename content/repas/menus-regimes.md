@@ -4,6 +4,20 @@
 Build menus, manage diets and allergies, and track residents' nutrition and hydration in Resthome.
 :::
 
+:::{rh-faq}
+How do I build a menu in Resthome?
+: In the Meals app -> Menus, create the menu for the day or the week and add dishes from the catalog, by meal type (breakfast, lunch, dinner, snacks).
+
+How does Resthome handle diets and allergies?
+: Each resident can have one or more diets and allergies. Resthome takes them into account and flags incompatibilities between a planned dish and the resident's profile, in the Dietary alerts menu.
+
+What is a meal service?
+: A meal served at a given time. It follows a simple cycle: confirm, then mark as served, with the option to cancel or reset to draft.
+
+How is residents' hydration tracked?
+: Hydration is logged throughout the day against tailored targets, which makes insufficient intake easy to spot.
+:::
+
 ## Building a menu
 
 1. In the Meals app → **Menus**, create the menu for the day or the

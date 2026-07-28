@@ -4,6 +4,23 @@
 Create a resident, record their admission and stay, and enter the Katz assessment.
 :::
 
+:::{rh-faq}
+How do I create a resident in Resthome?
+: Open the MR/MRS -> Residents app and click New. Enter at least the name, date of birth, gender, the NISS if known, and the health insurance fund, then save.
+
+Is the NISS mandatory to create a resident?
+: No. You can create a resident without a NISS, but insurability checks (MDA) and agreements (eAgreement) cannot be sent without it, so fill it in as soon as possible.
+
+What is the difference between confirming and starting a stay?
+: Confirming reserves the room and makes the admission date fields appear. Starting the stay records that the resident is actually present, and it is that step which triggers billing.
+
+What does Resthome do automatically when a stay starts?
+: It adds the resident to the open billing periods, creates the first accommodation invoice for residents billed in advance, opens the month's supplements envelope, and creates the admission eAgreement when the NISS is present.
+
+What happens if the resident has no validated Katz assessment?
+: The resident stays in category O by default and a "Katz to do" reminder appears on the dashboard, since the Katz category determines the INAMI flat-rate fee.
+:::
+
 This page describes a resident's complete journey in Resthome: from **creation** to **active stay**, including the **Katz assessment** that governs INAMI billing.
 
 ## Overview

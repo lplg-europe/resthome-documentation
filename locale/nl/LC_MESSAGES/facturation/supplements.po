@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-18 19:30+0200\n"
+"POT-Creation-Date: 2026-07-28 17:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nl <LL@li.org>\n"
@@ -32,7 +32,77 @@ msgstr ""
 "Supplementen factureren in Resthome — supplementenenveloppe van de bewoner, "
 "eenmalige of terugkerende prestaties, automatische synchronisatie."
 
-#: ../../content/facturation/supplements.md:7
+#: ../../content/facturation/supplements.md:8
+msgid "What is a supplement envelope?"
+msgstr "Wat is een supplementenvelop?"
+
+#: ../../content/facturation/supplements.md:9
+msgid ""
+"A per-resident, per-month envelope that gathers all of the resident's "
+"supplements. It opens automatically when the stay starts and carries "
+"recurring supplements over from month to month."
+msgstr ""
+"Een envelop per bewoner en per maand die al zijn supplementen samenbrengt. "
+"Ze wordt automatisch geopend bij de start van het verblijf en neemt "
+"terugkerende supplementen van maand tot maand over."
+
+#: ../../content/facturation/supplements.md:11
+msgid "What is the difference between a one-off and a recurring supplement?"
+msgstr ""
+"Wat is het verschil tussen een eenmalig en een terugkerend supplement?"
+
+#: ../../content/facturation/supplements.md:12
+msgid ""
+"A one-off supplement is billed once (a haircut, for instance). A recurring "
+"supplement is renewed every month as long as it is active (single room, TV) "
+"and stops being billed the month after you stop it."
+msgstr ""
+"Een eenmalig supplement wordt één keer gefactureerd (bijvoorbeeld een "
+"kappersbeurt). Een terugkerend supplement wordt elke maand hernieuwd zolang "
+"het actief is (eenpersoonskamer, televisie) en wordt niet meer gefactureerd "
+"vanaf de maand na de stopzetting."
+
+#: ../../content/facturation/supplements.md:14
+msgid "Do I need to refresh the invoice after adding a supplement?"
+msgstr "Moet ik de factuur vernieuwen na het toevoegen van een supplement?"
+
+#: ../../content/facturation/supplements.md:15
+msgid ""
+"No. Adding, editing or removing a supplement automatically updates the "
+"affected resident's invoice, and you are notified once it is reflected in "
+"the billing."
+msgstr ""
+"Nee. Een supplement toevoegen, wijzigen of verwijderen werkt automatisch de "
+"factuur van de betrokken bewoner bij, en u wordt verwittigd zodra dit in de "
+"facturatie is doorgerekend."
+
+#: ../../content/facturation/supplements.md:17
+msgid "What if the resident's invoice is already posted?"
+msgstr "En als de factuur van de bewoner al geboekt is?"
+
+#: ../../content/facturation/supplements.md:18
+msgid ""
+"The posted invoice is not touched automatically. Set it back to draft or "
+"issue a credit note, then refresh."
+msgstr ""
+"De geboekte factuur wordt niet automatisch gewijzigd. Zet ze terug naar "
+"concept of maak een creditnota op, en vernieuw daarna."
+
+#: ../../content/facturation/supplements.md:20
+msgid "How do I create supplement envelopes for every resident at once?"
+msgstr ""
+"Hoe maak ik in één keer de supplementenveloppen voor alle bewoners aan?"
+
+#: ../../content/facturation/supplements.md:21
+msgid ""
+"On a billing period, use the Create supplement envelopes action: it prepares"
+" in one click the envelopes for all residents active during the month."
+msgstr ""
+"Gebruik op een facturatieperiode de actie Supplementenveloppen aanmaken: die"
+" bereidt in één klik de enveloppen voor van alle bewoners die tijdens de "
+"maand actief zijn."
+
+#: ../../content/facturation/supplements.md:24
 msgid ""
 "Beyond accommodation and the dependency package, a resident may have "
 "**supplements** to pay: single room, television, hairdresser, pedicure, "
@@ -44,11 +114,11 @@ msgstr ""
 "telefoon… Resthome bundelt ze in een **supplementenenveloppe** per bewoner "
 "en per maand."
 
-#: ../../content/facturation/supplements.md:9
+#: ../../content/facturation/supplements.md:26
 msgid "Supplement envelope"
 msgstr "Supplementenenveloppe"
 
-#: ../../content/facturation/supplements.md:11
+#: ../../content/facturation/supplements.md:28
 msgid ""
 "For each resident and each period, Resthome keeps an **envelope** that "
 "gathers all of their supplements for the month. It is opened automatically "
@@ -60,11 +130,11 @@ msgstr ""
 "wanneer het verblijf start, en wordt van maand tot maand overgedragen voor "
 "de **terugkerende** supplementen."
 
-#: ../../content/facturation/supplements.md:13
+#: ../../content/facturation/supplements.md:30
 msgid "Adding a supplement"
 msgstr "Een supplement toevoegen"
 
-#: ../../content/facturation/supplements.md:15
+#: ../../content/facturation/supplements.md:32
 msgid ""
 "Open the resident's **supplement envelope** (from their record or the "
 "billing period)."
@@ -72,26 +142,26 @@ msgstr ""
 "Open de **supplementenenveloppe** van de bewoner (via zijn fiche of de "
 "facturatieperiode)."
 
-#: ../../content/facturation/supplements.md:16
+#: ../../content/facturation/supplements.md:33
 msgid "Add a line: **product/service**, **quantity**, **price**."
 msgstr ""
 "Voeg een regel toe: **product/prestatie**, **hoeveelheid**, **prijs**."
 
-#: ../../content/facturation/supplements.md:17
+#: ../../content/facturation/supplements.md:34
 msgid ""
 "Indicate whether it is **one-off** (once) or **recurring** (each month)."
 msgstr ""
 "Geef aan of het **eenmalig** (één keer) of **terugkerend** (elke maand) is."
 
-#: ../../content/facturation/supplements.md:18
+#: ../../content/facturation/supplements.md:35
 msgid "**Save.**"
 msgstr "**Sla op.**"
 
-#: ../../content/facturation/supplements.md:20
+#: ../../content/facturation/supplements.md:37
 msgid "Automatic synchronization"
 msgstr "Automatische synchronisatie"
 
-#: ../../content/facturation/supplements.md:23
+#: ../../content/facturation/supplements.md:40
 msgid ""
 "Adding, editing or removing a supplement **automatically updates** the "
 "affected resident's invoice — no need to click \"Refresh\". You are notified"
@@ -102,16 +172,16 @@ msgstr ""
 "klikken. U wordt verwittigd wanneer het supplement goed op de facturatie is "
 "doorgevoerd."
 
-#: ../../content/facturation/supplements.md:26
+#: ../../content/facturation/supplements.md:43
 msgid "One-off and recurring supplements"
 msgstr "Eenmalige en terugkerende supplementen"
 
-#: ../../content/facturation/supplements.md:28
+#: ../../content/facturation/supplements.md:45
 msgid "**One-off**: billed only once (e.g. a haircut at the hairdresser)."
 msgstr ""
 "**Eenmalig**: één keer gefactureerd (bv. een knipbeurt bij de kapper)."
 
-#: ../../content/facturation/supplements.md:29
+#: ../../content/facturation/supplements.md:46
 msgid ""
 "**Recurring**: renewed each month as long as it is active (e.g. single-room "
 "supplement, TV). You can **stop** it at any time; it stops being billed the "
@@ -121,11 +191,11 @@ msgstr ""
 "eenpersoonskamer, tv). U kunt het op elk moment **stopzetten**; het wordt de"
 " volgende maand niet meer gefactureerd."
 
-#: ../../content/facturation/supplements.md:31
+#: ../../content/facturation/supplements.md:48
 msgid "Month already posted"
 msgstr "Maand reeds geboekt"
 
-#: ../../content/facturation/supplements.md:34
+#: ../../content/facturation/supplements.md:51
 msgid ""
 "If the resident's invoice is **already posted**, adding a supplement does "
 "not touch it automatically (protection). Set the invoice back to **draft** "
@@ -135,11 +205,11 @@ msgstr ""
 " supplement ze niet automatisch (bescherming). Zet de factuur terug naar "
 "**concept** (of maak een creditnota), en **vernieuw** dan."
 
-#: ../../content/facturation/supplements.md:37
+#: ../../content/facturation/supplements.md:54
 msgid "Creating envelopes in bulk"
 msgstr "De enveloppes in bulk aanmaken"
 
-#: ../../content/facturation/supplements.md:39
+#: ../../content/facturation/supplements.md:56
 msgid ""
 "On a billing period, the **Create supplement envelopes** action prepares, in"
 " one click, the envelopes for all residents active during the month — handy "
@@ -149,14 +219,14 @@ msgstr ""
 "aanmaken** in één klik de enveloppes van alle actieve bewoners van de maand "
 "voor — handig bij het begin van een periode."
 
-#: ../../content/facturation/supplements.md:41
+#: ../../content/facturation/supplements.md:58
 msgid "Further reading"
 msgstr "Verder"
 
-#: ../../content/facturation/supplements.md:43
+#: ../../content/facturation/supplements.md:60
 msgid "[Billing overview](index.md)"
 msgstr "[Facturatie-overzicht](index.md)"
 
-#: ../../content/facturation/supplements.md:44
+#: ../../content/facturation/supplements.md:61
 msgid "[Absences and hospitalizations](absences.md)"
 msgstr "[Afwezigheden en hospitalisaties](absences.md)"

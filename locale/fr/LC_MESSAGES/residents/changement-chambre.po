@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-18 19:30+0200\n"
+"POT-Creation-Date: 2026-07-28 17:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -32,7 +32,57 @@ msgstr ""
 "Changer un résident de chambre ou le transférer entre MR et MRS dans "
 "Resthome — facturation scindée automatiquement, sans nouvelle admission."
 
-#: ../../content/residents/changement-chambre.md:7
+#: ../../content/residents/changement-chambre.md:8
+msgid "How do I change a resident's room?"
+msgstr "Comment changer un résident de chambre ?"
+
+#: ../../content/residents/changement-chambre.md:9
+msgid ""
+"On the resident's stay, use the Change room action, enter the new room and "
+"the date and time of the change, then validate."
+msgstr ""
+"Sur le séjour du résident, utilisez l'action Changer de chambre, indiquez la"
+" nouvelle chambre ainsi que la date et l'heure du changement, puis validez."
+
+#: ../../content/residents/changement-chambre.md:11
+msgid "Does a room change require a new admission?"
+msgstr "Un changement de chambre nécessite-t-il une nouvelle admission ?"
+
+#: ../../content/residents/changement-chambre.md:12
+msgid ""
+"No. The INAMI flat rate stays continuous and there is no new agreement to "
+"request - only the accommodation portion is split across the two rates."
+msgstr ""
+"Non. Le forfait INAMI reste continu et il n'y a pas de nouvel accord à "
+"demander — seule la part hébergement est scindée entre les deux tarifs."
+
+#: ../../content/residents/changement-chambre.md:14
+msgid "How do I transfer a resident from MR to MRS?"
+msgstr "Comment transférer un résident de MR vers MRS ?"
+
+#: ../../content/residents/changement-chambre.md:15
+msgid ""
+"On the stay, use the Internal transfer action, enter the date and time and "
+"the new type of care, then validate. Resthome updates the flat rate and "
+"prepares the eHealth notification where applicable."
+msgstr ""
+"Sur le séjour, utilisez l'action Transfert interne, indiquez la date et "
+"l'heure ainsi que le nouveau type de prise en charge, puis validez. Resthome"
+" met à jour le forfait et prépare la notification eHealth le cas échéant."
+
+#: ../../content/residents/changement-chambre.md:17
+msgid "Do I have to recalculate billing after a room change?"
+msgstr "Dois-je recalculer la facturation après un changement de chambre ?"
+
+#: ../../content/residents/changement-chambre.md:18
+msgid ""
+"No. Resthome closes billing for the old room on the chosen date and opens it"
+" for the new one, each segment at its own rate."
+msgstr ""
+"Non. Resthome clôture la facturation de l'ancienne chambre à la date choisie"
+" et ouvre celle de la nouvelle, chaque segment à son propre tarif."
+
+#: ../../content/residents/changement-chambre.md:21
 msgid ""
 "A resident can **change room** or move from **MR to MRS** (or the other way "
 "around) during their stay. Resthome handles the **transition** cleanly: "
@@ -44,29 +94,29 @@ msgstr ""
 "la facturation est **scindée** à la bonne date, sans que vous ayez à refaire"
 " une admission."
 
-#: ../../content/residents/changement-chambre.md:11
+#: ../../content/residents/changement-chambre.md:25
 msgid "Changing room"
 msgstr "Changer de chambre"
 
-#: ../../content/residents/changement-chambre.md:13
+#: ../../content/residents/changement-chambre.md:27
 msgid "For a simple room change (same type of care):"
 msgstr "Pour un simple changement de chambre (même type de soins) :"
 
-#: ../../content/residents/changement-chambre.md:15
+#: ../../content/residents/changement-chambre.md:29
 msgid "On the resident's **stay**, use the **Change room** action."
 msgstr ""
 "Sur le **séjour** du résident, utilisez l'action **Changer de chambre**."
 
-#: ../../content/residents/changement-chambre.md:16
+#: ../../content/residents/changement-chambre.md:30
 msgid "Enter the **new room** and the **date/time** of the change."
 msgstr "Indiquez la **nouvelle chambre** et la **date/heure** du changement."
 
-#: ../../content/residents/changement-chambre.md:17
-#: ../../content/residents/changement-chambre.md:36
+#: ../../content/residents/changement-chambre.md:31
+#: ../../content/residents/changement-chambre.md:50
 msgid "**Validate.**"
 msgstr "**Validez.**"
 
-#: ../../content/residents/changement-chambre.md:19
+#: ../../content/residents/changement-chambre.md:33
 msgid ""
 "Resthome **closes** billing for the old room on that date and **opens** "
 "billing for the new one, at the corresponding rate."
@@ -74,11 +124,11 @@ msgstr ""
 "Resthome **clôt** la facturation de l'ancienne chambre à cette date et "
 "**ouvre** celle de la nouvelle, au tarif correspondant."
 
-#: ../../content/residents/changement-chambre.md:22
+#: ../../content/residents/changement-chambre.md:36
 msgid "No new admission"
 msgstr "Pas de nouvelle admission"
 
-#: ../../content/residents/changement-chambre.md:25
+#: ../../content/residents/changement-chambre.md:39
 msgid ""
 "A room change is **not** a new admission: the INAMI intervention (the flat "
 "rate) stays **continuous**, there is no new agreement to request. Only the "
@@ -88,11 +138,11 @@ msgstr ""
 "INAMI (le forfait) reste **continue**, il n'y a pas de nouvel accord à "
 "demander. Seule la **part hébergement** est scindée aux deux tarifs."
 
-#: ../../content/residents/changement-chambre.md:30
+#: ../../content/residents/changement-chambre.md:44
 msgid "MR ↔ MRS transfer"
 msgstr "Transfert MR ↔ MRS"
 
-#: ../../content/residents/changement-chambre.md:32
+#: ../../content/residents/changement-chambre.md:46
 msgid ""
 "Moving from one type of care to the other (MR ↔ MRS) is an **internal "
 "transfer**:"
@@ -100,16 +150,16 @@ msgstr ""
 "Le passage d'un type de soins à l'autre (MR ↔ MRS) est un **transfert "
 "interne** :"
 
-#: ../../content/residents/changement-chambre.md:34
+#: ../../content/residents/changement-chambre.md:48
 msgid "On the stay, use the **Internal transfer** action."
 msgstr "Sur le séjour, utilisez l'action **Transfert interne**."
 
-#: ../../content/residents/changement-chambre.md:35
+#: ../../content/residents/changement-chambre.md:49
 msgid "Enter the **date/time** of the transfer and the **new type of care**."
 msgstr ""
 "Indiquez la **date/heure** du transfert et le **nouveau type de soins**."
 
-#: ../../content/residents/changement-chambre.md:38
+#: ../../content/residents/changement-chambre.md:52
 msgid ""
 "Resthome splits billing at the transfer date and **updates the flat rate** "
 "according to the new type. Where applicable, it prepares the corresponding "
@@ -119,11 +169,11 @@ msgstr ""
 "forfait** selon le nouveau type. Le cas échéant, il prépare la "
 "**notification eHealth** correspondante."
 
-#: ../../content/residents/changement-chambre.md:42
+#: ../../content/residents/changement-chambre.md:56
 msgid "Billing follows automatically"
 msgstr "La facturation suit toute seule"
 
-#: ../../content/residents/changement-chambre.md:45
+#: ../../content/residents/changement-chambre.md:59
 msgid ""
 "After a room change or a transfer, you have nothing to recalculate by hand: "
 "each segment is billed at its own rate, and the flat rate continues without "
@@ -133,14 +183,14 @@ msgstr ""
 "recalculer à la main : les segments sont facturés chacun à leur tarif, et le"
 " forfait continue sans rupture."
 
-#: ../../content/residents/changement-chambre.md:50
+#: ../../content/residents/changement-chambre.md:64
 msgid "Learn more"
 msgstr "Pour aller plus loin"
 
-#: ../../content/residents/changement-chambre.md:52
+#: ../../content/residents/changement-chambre.md:66
 msgid "[Manage a resident](gerer-un-resident.md)"
 msgstr "[Gérer un résident](gerer-un-resident.md)"
 
-#: ../../content/residents/changement-chambre.md:53
+#: ../../content/residents/changement-chambre.md:67
 msgid "[Billing overview](../facturation/index.md)"
 msgstr "[Vue d'ensemble de la facturation](../facturation/index.md)"

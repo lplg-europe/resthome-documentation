@@ -4,6 +4,20 @@
 The family portal and kiosk display of meals in Resthome — menus viewable online, QR code, full-screen display in the dining room.
 :::
 
+:::{rh-faq}
+What can families see on the portal?
+: The day's meals and their history, through a dedicated portal access. The family sees what the resident eats, without access to the rest of the record.
+
+Can the menu be published publicly?
+: Yes. The weekly menu can be published on a viewable page, and a printable version with a QR code points back to the always up-to-date online version.
+
+What is kiosk mode for?
+: It displays the menu full screen, for a screen or a television in the dining room: residents and staff see the current meal at a glance, with no interaction needed.
+
+Do I have to update the menu in several places?
+: No. The portal, the public page and the kiosk all come from the same menus in Resthome, so they show the latest version automatically.
+:::
+
 Resthome lets you **share menus** beyond the team: with **families** and directly **in the dining room**.
 
 ## Family portal

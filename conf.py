@@ -27,7 +27,9 @@ extensions = [
 ]
 source_suffix = {".md": "markdown"}
 master_doc = "index"
-exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
+# Les .md sous assets/ sont des notes internes (conventions de prise de vue) :
+# ce sont des fichiers d'accompagnement, pas des pages du site.
+exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", "assets/**/*.md"]
 
 # La langue est surchargée par build_docs.py (-D language=fr|nl).
 language = "en"

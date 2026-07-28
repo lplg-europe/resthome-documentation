@@ -4,6 +4,20 @@
 Split the resident's share of an invoice among several maintenance debtors in Resthome, by percentage.
 :::
 
+:::{rh-faq}
+What is split billing among maintenance debtors?
+: A way of splitting the resident's share of the invoice among several people - typically the maintenance debtors (children, relatives) - according to a percentage key.
+
+Which part of the invoice is split?
+: Only the resident's share, meaning the room and the supplements. The INAMI package is not split: it goes to the health insurance fund through eFact.
+
+How do I set up a split?
+: On the resident record or its billing period, open the split tab, add the debtors and their percentage - the total must be 100% - then save. Subsequent invoices are split automatically.
+
+Does the split add up exactly?
+: Yes. The sum of the portions matches the resident's share precisely, with no remainder or rounding difference.
+:::
+
 When the **resident's share** (accommodation + supplements) must be paid by
 **several people** — typically the **maintenance debtors** (children,
 relatives) — Resthome can **split it automatically**.

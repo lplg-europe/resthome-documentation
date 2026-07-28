@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-18 19:30+0200\n"
+"POT-Creation-Date: 2026-07-28 17:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nl <LL@li.org>\n"
@@ -32,7 +32,58 @@ msgstr ""
 "Een bewoner van kamer wisselen of overdragen tussen ROB en RVT in Resthome —"
 " automatisch gesplitste facturatie, zonder nieuwe opname."
 
-#: ../../content/residents/changement-chambre.md:7
+#: ../../content/residents/changement-chambre.md:8
+msgid "How do I change a resident's room?"
+msgstr "Hoe verhuis ik een bewoner naar een andere kamer?"
+
+#: ../../content/residents/changement-chambre.md:9
+msgid ""
+"On the resident's stay, use the Change room action, enter the new room and "
+"the date and time of the change, then validate."
+msgstr ""
+"Gebruik op het verblijf van de bewoner de actie Kamer wijzigen, geef de "
+"nieuwe kamer en de datum en het uur van de wissel op, en bevestig."
+
+#: ../../content/residents/changement-chambre.md:11
+msgid "Does a room change require a new admission?"
+msgstr "Vereist een kamerwissel een nieuwe opname?"
+
+#: ../../content/residents/changement-chambre.md:12
+msgid ""
+"No. The INAMI flat rate stays continuous and there is no new agreement to "
+"request - only the accommodation portion is split across the two rates."
+msgstr ""
+"Nee. Het RIZIV-forfait blijft doorlopen en er moet geen nieuw akkoord worden"
+" aangevraagd — alleen het verblijfsgedeelte wordt over de twee tarieven "
+"verdeeld."
+
+#: ../../content/residents/changement-chambre.md:14
+msgid "How do I transfer a resident from MR to MRS?"
+msgstr "Hoe breng ik een bewoner over van ROB naar RVT?"
+
+#: ../../content/residents/changement-chambre.md:15
+msgid ""
+"On the stay, use the Internal transfer action, enter the date and time and "
+"the new type of care, then validate. Resthome updates the flat rate and "
+"prepares the eHealth notification where applicable."
+msgstr ""
+"Gebruik op het verblijf de actie Interne overdracht, geef de datum en het "
+"uur en het nieuwe zorgtype op, en bevestig. Resthome werkt het forfait bij "
+"en bereidt indien nodig de eHealth-melding voor."
+
+#: ../../content/residents/changement-chambre.md:17
+msgid "Do I have to recalculate billing after a room change?"
+msgstr "Moet ik de facturatie herberekenen na een kamerwissel?"
+
+#: ../../content/residents/changement-chambre.md:18
+msgid ""
+"No. Resthome closes billing for the old room on the chosen date and opens it"
+" for the new one, each segment at its own rate."
+msgstr ""
+"Nee. Resthome sluit de facturatie van de oude kamer af op de gekozen datum "
+"en opent die van de nieuwe, elk segment aan zijn eigen tarief."
+
+#: ../../content/residents/changement-chambre.md:21
 msgid ""
 "A resident can **change room** or move from **MR to MRS** (or the other way "
 "around) during their stay. Resthome handles the **transition** cleanly: "
@@ -44,29 +95,29 @@ msgstr ""
 " facturatie wordt op de juiste datum **gesplitst**, zonder dat u een nieuwe "
 "opname moet doen."
 
-#: ../../content/residents/changement-chambre.md:11
+#: ../../content/residents/changement-chambre.md:25
 msgid "Changing room"
 msgstr "Van kamer wisselen"
 
-#: ../../content/residents/changement-chambre.md:13
+#: ../../content/residents/changement-chambre.md:27
 msgid "For a simple room change (same type of care):"
 msgstr "Voor een eenvoudige kamerwissel (zelfde zorgtype):"
 
-#: ../../content/residents/changement-chambre.md:15
+#: ../../content/residents/changement-chambre.md:29
 msgid "On the resident's **stay**, use the **Change room** action."
 msgstr ""
 "Gebruik op het **verblijf** van de bewoner de actie **Kamer wisselen**."
 
-#: ../../content/residents/changement-chambre.md:16
+#: ../../content/residents/changement-chambre.md:30
 msgid "Enter the **new room** and the **date/time** of the change."
 msgstr "Geef de **nieuwe kamer** en de **datum/uur** van de wissel op."
 
-#: ../../content/residents/changement-chambre.md:17
-#: ../../content/residents/changement-chambre.md:36
+#: ../../content/residents/changement-chambre.md:31
+#: ../../content/residents/changement-chambre.md:50
 msgid "**Validate.**"
 msgstr "**Valideer.**"
 
-#: ../../content/residents/changement-chambre.md:19
+#: ../../content/residents/changement-chambre.md:33
 msgid ""
 "Resthome **closes** billing for the old room on that date and **opens** "
 "billing for the new one, at the corresponding rate."
@@ -74,11 +125,11 @@ msgstr ""
 "Resthome **sluit** de facturatie van de oude kamer af op die datum en "
 "**opent** die van de nieuwe, aan het overeenkomstige tarief."
 
-#: ../../content/residents/changement-chambre.md:22
+#: ../../content/residents/changement-chambre.md:36
 msgid "No new admission"
 msgstr "Geen nieuwe opname"
 
-#: ../../content/residents/changement-chambre.md:25
+#: ../../content/residents/changement-chambre.md:39
 msgid ""
 "A room change is **not** a new admission: the INAMI intervention (the flat "
 "rate) stays **continuous**, there is no new agreement to request. Only the "
@@ -88,11 +139,11 @@ msgstr ""
 "forfait) blijft **doorlopend**, er is geen nieuw akkoord aan te vragen. "
 "Alleen het **verblijfsaandeel** wordt aan de twee tarieven gesplitst."
 
-#: ../../content/residents/changement-chambre.md:30
+#: ../../content/residents/changement-chambre.md:44
 msgid "MR ↔ MRS transfer"
 msgstr "Overdracht ROB ↔ RVT"
 
-#: ../../content/residents/changement-chambre.md:32
+#: ../../content/residents/changement-chambre.md:46
 msgid ""
 "Moving from one type of care to the other (MR ↔ MRS) is an **internal "
 "transfer**:"
@@ -100,16 +151,16 @@ msgstr ""
 "De overgang van het ene zorgtype naar het andere (ROB ↔ RVT) is een "
 "**interne overdracht**:"
 
-#: ../../content/residents/changement-chambre.md:34
+#: ../../content/residents/changement-chambre.md:48
 msgid "On the stay, use the **Internal transfer** action."
 msgstr "Gebruik op het verblijf de actie **Interne overdracht**."
 
-#: ../../content/residents/changement-chambre.md:35
+#: ../../content/residents/changement-chambre.md:49
 msgid "Enter the **date/time** of the transfer and the **new type of care**."
 msgstr ""
 "Geef de **datum/uur** van de overdracht en het **nieuwe zorgtype** op."
 
-#: ../../content/residents/changement-chambre.md:38
+#: ../../content/residents/changement-chambre.md:52
 msgid ""
 "Resthome splits billing at the transfer date and **updates the flat rate** "
 "according to the new type. Where applicable, it prepares the corresponding "
@@ -119,11 +170,11 @@ msgstr ""
 " bij** volgens het nieuwe type. Indien nodig bereidt het de overeenkomstige "
 "**eHealth-melding** voor."
 
-#: ../../content/residents/changement-chambre.md:42
+#: ../../content/residents/changement-chambre.md:56
 msgid "Billing follows automatically"
 msgstr "De facturatie volgt vanzelf"
 
-#: ../../content/residents/changement-chambre.md:45
+#: ../../content/residents/changement-chambre.md:59
 msgid ""
 "After a room change or a transfer, you have nothing to recalculate by hand: "
 "each segment is billed at its own rate, and the flat rate continues without "
@@ -133,14 +184,14 @@ msgstr ""
 "de segmenten worden elk aan hun tarief gefactureerd, en het forfait loopt "
 "zonder onderbreking door."
 
-#: ../../content/residents/changement-chambre.md:50
+#: ../../content/residents/changement-chambre.md:64
 msgid "Learn more"
 msgstr "Verder"
 
-#: ../../content/residents/changement-chambre.md:52
+#: ../../content/residents/changement-chambre.md:66
 msgid "[Manage a resident](gerer-un-resident.md)"
 msgstr "[Een bewoner beheren](gerer-un-resident.md)"
 
-#: ../../content/residents/changement-chambre.md:53
+#: ../../content/residents/changement-chambre.md:67
 msgid "[Billing overview](../facturation/index.md)"
 msgstr "[Facturatie-overzicht](../facturation/index.md)"

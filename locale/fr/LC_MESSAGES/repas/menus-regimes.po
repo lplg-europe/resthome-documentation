@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-18 19:30+0200\n"
+"POT-Creation-Date: 2026-07-28 17:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -32,17 +32,69 @@ msgstr ""
 "Composer les menus, gérer les régimes et allergies, suivre la nutrition et "
 "l'hydratation des résidents dans Resthome."
 
-#: ../../content/repas/menus-regimes.md:7
+#: ../../content/repas/menus-regimes.md:8
+msgid "How do I build a menu in Resthome?"
+msgstr "Comment construire un menu dans Resthome ?"
+
+#: ../../content/repas/menus-regimes.md:9
+msgid ""
+"In the Meals app -> Menus, create the menu for the day or the week and add "
+"dishes from the catalog, by meal type (breakfast, lunch, dinner, snacks)."
+msgstr ""
+"Dans l'application Repas → Menus, créez le menu du jour ou de la semaine et "
+"ajoutez des plats depuis le catalogue, par type de repas (petit-déjeuner, "
+"déjeuner, dîner, collations)."
+
+#: ../../content/repas/menus-regimes.md:11
+msgid "How does Resthome handle diets and allergies?"
+msgstr "Comment Resthome gère-t-il les régimes et les allergies ?"
+
+#: ../../content/repas/menus-regimes.md:12
+msgid ""
+"Each resident can have one or more diets and allergies. Resthome takes them "
+"into account and flags incompatibilities between a planned dish and the "
+"resident's profile, in the Dietary alerts menu."
+msgstr ""
+"Chaque résident peut avoir un ou plusieurs régimes et allergies. Resthome en"
+" tient compte et signale les incompatibilités entre un plat prévu et le "
+"profil du résident, dans le menu Alertes diététiques."
+
+#: ../../content/repas/menus-regimes.md:14
+msgid "What is a meal service?"
+msgstr "Qu'est-ce qu'un service de repas ?"
+
+#: ../../content/repas/menus-regimes.md:15
+msgid ""
+"A meal served at a given time. It follows a simple cycle: confirm, then mark"
+" as served, with the option to cancel or reset to draft."
+msgstr ""
+"Un repas servi à une heure donnée. Il suit un cycle simple : confirmer, puis"
+" marquer comme servi, avec la possibilité d'annuler ou de remettre en "
+"brouillon."
+
+#: ../../content/repas/menus-regimes.md:17
+msgid "How is residents' hydration tracked?"
+msgstr "Comment l'hydratation des résidents est-elle suivie ?"
+
+#: ../../content/repas/menus-regimes.md:18
+msgid ""
+"Hydration is logged throughout the day against tailored targets, which makes"
+" insufficient intake easy to spot."
+msgstr ""
+"L'hydratation est enregistrée tout au long de la journée par rapport à des "
+"objectifs adaptés, ce qui rend un apport insuffisant facile à repérer."
+
+#: ../../content/repas/menus-regimes.md:21
 msgid "Building a menu"
 msgstr "Composer un menu"
 
-#: ../../content/repas/menus-regimes.md:9
+#: ../../content/repas/menus-regimes.md:23
 msgid "In the Meals app → **Menus**, create the menu for the day or the week."
 msgstr ""
 "Dans l'application Repas → **Menus**, créez le menu de la journée ou de la "
 "semaine."
 
-#: ../../content/repas/menus-regimes.md:11
+#: ../../content/repas/menus-regimes.md:25
 msgid ""
 "Add **dishes** from the catalog, by **meal type** (breakfast, lunch, dinner,"
 " snacks)."
@@ -50,11 +102,11 @@ msgstr ""
 "Ajoutez les **plats** depuis le catalogue, par **type de repas** (petit "
 "déjeuner, dîner, souper, collations)."
 
-#: ../../content/repas/menus-regimes.md:13
+#: ../../content/repas/menus-regimes.md:27
 msgid "**Save.**"
 msgstr "**Enregistrez.**"
 
-#: ../../content/repas/menus-regimes.md:15
+#: ../../content/repas/menus-regimes.md:29
 msgid ""
 "**Dishes** are described once in the **catalog** (ingredients, category) and"
 " reused across all menus."
@@ -62,11 +114,11 @@ msgstr ""
 "Les **plats** sont décrits une fois dans le **catalogue** (ingrédients, "
 "catégorie) et réutilisés dans tous les menus."
 
-#: ../../content/repas/menus-regimes.md:18
+#: ../../content/repas/menus-regimes.md:32
 msgid "Meal services"
 msgstr "Services de repas"
 
-#: ../../content/repas/menus-regimes.md:20
+#: ../../content/repas/menus-regimes.md:34
 msgid ""
 "A **meal service** represents a meal served at a given time. It follows a "
 "simple cycle: **Confirm** → **Mark as served**, with the option to "
@@ -76,11 +128,11 @@ msgstr ""
 " un cycle simple : **Confirmer** → **Marquer comme servi**, avec possibilité"
 " d'**annuler** ou de **remettre en brouillon**."
 
-#: ../../content/repas/menus-regimes.md:24
+#: ../../content/repas/menus-regimes.md:38
 msgid "Diets and allergies"
 msgstr "Régimes et allergies"
 
-#: ../../content/repas/menus-regimes.md:26
+#: ../../content/repas/menus-regimes.md:40
 msgid ""
 "Each resident can have one or more **diets** (salt-free, diabetic, "
 "blended/adapted texture…) and **allergies**. Resthome takes them into "
@@ -92,11 +144,11 @@ msgstr ""
 "en compte et **signale les incompatibilités** entre un menu et le profil "
 "d'un résident."
 
-#: ../../content/repas/menus-regimes.md:30
+#: ../../content/repas/menus-regimes.md:44
 msgid "Dietary alerts"
 msgstr "Alertes diététiques"
 
-#: ../../content/repas/menus-regimes.md:33
+#: ../../content/repas/menus-regimes.md:47
 msgid ""
 "The **Dietary alerts** menu surfaces cases where a planned dish does not "
 "suit a resident's diet or allergies — to be checked before service."
@@ -104,11 +156,11 @@ msgstr ""
 "Le menu **Alertes diététiques** remonte les cas où un plat prévu ne convient"
 " pas au régime ou aux allergies d'un résident — à vérifier avant le service."
 
-#: ../../content/repas/menus-regimes.md:37
+#: ../../content/repas/menus-regimes.md:51
 msgid "Nutritional monitoring and hydration"
 msgstr "Suivi nutritionnel et hydratation"
 
-#: ../../content/repas/menus-regimes.md:39
+#: ../../content/repas/menus-regimes.md:53
 msgid ""
 "Resthome tracks residents' **nutritional coverage** (energy, protein) and "
 "**hydration**, with tailored targets."
@@ -116,7 +168,7 @@ msgstr ""
 "Resthome suit la **couverture nutritionnelle** (énergie, protéines) et "
 "l'**hydratation** des résidents, avec des cibles adaptées."
 
-#: ../../content/repas/menus-regimes.md:41
+#: ../../content/repas/menus-regimes.md:55
 msgid ""
 "**Malnutrition** screening relies on the **MNA** (see [Clinical "
 "registers](../soins/registres.md))."
@@ -124,21 +176,21 @@ msgstr ""
 "Le dépistage de la **dénutrition** s'appuie sur le **MNA** (voir [Registres "
 "cliniques](../soins/registres.md))."
 
-#: ../../content/repas/menus-regimes.md:43
+#: ../../content/repas/menus-regimes.md:57
 msgid ""
 "**Hydration** is logged throughout the day to spot insufficient intake."
 msgstr ""
 "L'**hydratation** se consigne au fil de la journée pour repérer un apport "
 "insuffisant."
 
-#: ../../content/repas/menus-regimes.md:45
+#: ../../content/repas/menus-regimes.md:59
 msgid "Going further"
 msgstr "Pour aller plus loin"
 
-#: ../../content/repas/menus-regimes.md:47
+#: ../../content/repas/menus-regimes.md:61
 msgid "[Family portal and kiosk](portail-familles.md)"
 msgstr "[Portail familles et kiosque](portail-familles.md)"
 
-#: ../../content/repas/menus-regimes.md:48
+#: ../../content/repas/menus-regimes.md:62
 msgid "[Clinical registers](../soins/registres.md)"
 msgstr "[Registres cliniques](../soins/registres.md)"
