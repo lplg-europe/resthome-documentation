@@ -181,14 +181,48 @@ def cover_pdf(pdf: Path) -> None:
 
 
 def merge(*parts) -> None:
-    """merge(part1, part2, ..., destination)"""
+    """merge(part1, part2, ..., destination)
+
+    Écrit à côté puis REMPLACE en une opération. Écrire directement sur la
+    destination a déjà produit un fichier de 37 Mo pour 21 Mo de contenu : le
+    PDF valide suivi de résidus de l'écriture précédente, avec un `startxref`
+    pointant au milieu — donc un manuel entièrement blanc à l'ouverture.
+    """
+    import os
     from pypdf import PdfWriter
     *sources, dest = parts
+    dest = Path(dest)
+    tmp = dest.with_suffix(".pdf.part")
     w = PdfWriter()
     for src in sources:
         w.append(str(src))
-    with open(dest, "wb") as fh:
+    with open(tmp, "wb") as fh:
         w.write(fh)
+        fh.flush()
+        os.fsync(fh.fileno())          # sur le disque avant de renommer
+    os.replace(tmp, dest)
+
+
+def verify(pdf: Path, expected_pages: int) -> None:
+    """Relit le PDF PRODUIT et refuse de le déclarer bon sur la foi du build.
+
+    Un `page.pdf()` qui réussit et un `write()` qui ne lève pas ne prouvent
+    rien : le manuel a déjà été livré corrompu, toutes pages blanches, alors
+    que la chaîne n'avait signalé aucune erreur.
+    """
+    from pypdf import PdfReader
+    data = pdf.read_bytes()
+    if not data.rstrip().endswith(b"%%EOF"):
+        sys.exit(f"ÉCHEC : {pdf.name} ne se termine pas par %%EOF (tronqué).")
+    reader = PdfReader(str(pdf))
+    pages = len(reader.pages)
+    if pages != expected_pages:
+        sys.exit(f"ÉCHEC : {pdf.name} a {pages} pages, {expected_pages} attendues.")
+    blank = sum(1 for p in reader.pages
+                if not (p.extract_text() or "").strip() and not p.images)
+    if blank:
+        sys.exit(f"ÉCHEC : {pdf.name} a {blank} page(s) vide(s) sur {pages}.")
+    print(f"     vérifié : {pages} pages, aucune vide")
 
 
 def main():
@@ -207,6 +241,10 @@ def main():
             pdf = OUT / f"manuel-resthome-{lang}.pdf"
             pdf.parent.mkdir(parents=True, exist_ok=True)
             merge(cover, toc, body, pdf)
+            from pypdf import PdfReader
+            expected = sum(len(PdfReader(str(p)).pages)
+                           for p in (cover, toc, body))
+            verify(pdf, expected)
             print(f"  {pdf.relative_to(ROOT)}  "
                   f"({pdf.stat().st_size // 1024} Ko)")
 
