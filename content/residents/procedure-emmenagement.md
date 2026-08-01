@@ -93,7 +93,7 @@ manager **marks as done** or **deletes** the steps that do not apply — for
 example, there is no old room to disinfect on a first entry.
 :::
 
-<!-- screenshot to add: a resident's thread (chatter) with the 6 « Move-in procedure » activities scheduled on the stay's start date -->
+![Resident thread showing the six move-in procedure activities, all due on the stay start date](../assets/screenshots/residents/emmenagement-activites.png)
 
 ## Room preparation
 

@@ -87,7 +87,7 @@ subfolders:
 The folder is named after the **resident** and renames itself automatically if the name
 changes.
 
-<!-- screenshot to add: a resident's personal folder in the Documents app, with its three subfolders -->
+![Documents app showing a resident folder and its three subfolders](../assets/screenshots/documents/dossier-resident.png)
 
 :::{admonition} The "Documents" button on the resident's record
 :class: tip

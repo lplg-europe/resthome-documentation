@@ -45,7 +45,7 @@ on the record, the module is not installed.
 
 The section is shown as a table: one line per piece of furniture or object.
 
-<!-- screenshot to add: Convention tab of the resident record, "Resident furniture" section with a few lines -->
+![Conventions tab of the resident record, listing the private furniture brought in](../assets/screenshots/residents/mobilier-convention.png)
 
 ## Adding a piece of furniture
 

@@ -91,7 +91,7 @@ A medication's record details its identification, its classification, its
 pharmaceutical form, its active ingredient and the links to its official
 documents (SmPC and leaflet, FR and NL).
 
-<!-- screenshot to add: a medication record in the SAM Database, identification / classification / official documents tabs -->
+![SAM database medication record, with its identification and classification codes](../assets/screenshots/soins/sam-fiche.png)
 
 ## The Search SAM wizard
 
@@ -129,7 +129,7 @@ catalog. Those rows appear **in blue**: no need to recreate them.
 
 Check the **Select** box at the start of the row for each medication to import.
 
-<!-- screenshot to add: Search SAM results with Select boxes checked and the In Catalog column -->
+![SAM database search, one row per medication with its official name and ATC code](../assets/screenshots/soins/sam-liste.png)
 
 ### 3. Import to the catalog
 

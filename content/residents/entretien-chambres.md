@@ -41,6 +41,8 @@ a room that looks available but is not yet.
 | **In progress** | Cleaning under way. |
 | **Ready** | The room can receive a resident. |
 
+![Housekeeping board: one column per stage, with each room card showing its occupant and a Mark ready button](../assets/screenshots/residents/chambres-entretien.png)
+
 ## How a room moves through them
 
 Resthome sets the **starting point** automatically:

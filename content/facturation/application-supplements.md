@@ -87,7 +87,7 @@ In this shared catalog, the left panel shows a
 add more on the fly; removing a tag takes out the resident (the
 last one cannot be removed).
 
-<!-- screenshot to add: the multi-resident catalog with the Residents section (tags) on the left -->
+![Multi-resident supplement catalog, with the residents it applies to](../assets/screenshots/facturation/supplements-catalogue-residents.png)
 
 :::{admonition} A supplement already covered by a convention is skipped
 :class: note
@@ -136,6 +136,8 @@ In the app, the **Conventions** menu lists the recurring supplement
 lines (resident, convention, product, type, dates, quantity, active). The
 convention itself — with its status and its buttons — is managed from
 the **MR/MRS → Billing → Supplement conventions** app.
+
+![Supplement conventions list: one per resident, with the period covered and the Open or Closed status](../assets/screenshots/facturation/convention-supplements-liste.png)
 
 On the convention:
 

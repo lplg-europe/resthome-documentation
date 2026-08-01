@@ -26,6 +26,8 @@ filled in shortly after admission, then updated whenever the situation changes.
 
 Menu: **Care → Anamneses**, or the **Anamneses** button on the resident record.
 
+![Anamnesis form: the resident, the discipline and the date, and the Physical, Autonomy, Life project and Notes tabs](../assets/screenshots/soins/anamnese-fiche.png)
+
 ## The principle: compose, never re-enter
 
 An anamnesis is a **dated snapshot per discipline**, not a second copy of the

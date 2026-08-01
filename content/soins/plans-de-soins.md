@@ -31,6 +31,8 @@ A **care plan** describes the **goals** of a resident's care and the actions to 
 - **Put under review** then **Validate review** — periodic reassessment.
 - **Complete** / **Cancel** — closure.
 
+![Care plan form: the resident, the Katz category and validity, and the Care goals tab listing each goal with its interventions](../assets/screenshots/soins/plan-de-soins-objectifs.png)
+
 Each plan carries its own **goals**, which makes follow-up measurable.
 
 ![Care plans list: reference, resident, start date, next review, Katz category and care coordinator](../assets/screenshots/soins/06-plans-de-soins.png)
@@ -48,6 +50,11 @@ of the week visible at a glance.
 
 ![Weekly care schedule in calendar view, with the care tasks laid out by time slot](../assets/screenshots/soins/02-planning-des-soins.png)
 
+In **kanban** view, the same day reads as a board of cards — one per care task,
+with its status at a glance.
+
+![Today's care as a kanban board, one card per task with its type, its resident and its status](../assets/screenshots/soins/soins-du-jour.png)
+
 ## Vital signs
 
 1. From the resident record, open **Vital signs entry**.
@@ -63,6 +70,8 @@ The **Trends** tool displays how vital signs evolve over time — handy for spot
 ## Nursing notes
 
 **Nursing notes** record observations. Items that need attention surface under **Watch points** / **Attention required**, and are marked **resolved** once handled.
+
+![Nursing notes list: date and time, resident, note type, priority and author, with the notes needing attention highlighted](../assets/screenshots/soins/notes-infirmieres.png)
 
 ## Learn more
 

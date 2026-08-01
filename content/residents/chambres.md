@@ -51,7 +51,7 @@ Each room card shows:
 - the **resident(s) present**, if any;
 - the **daily accommodation rate**.
 
-<!-- screenshot to add: the kanban board of rooms, grouped by status, with the colored occupancy badges -->
+![Rooms board grouped by occupancy, each card showing the room type, its occupant and the daily rate](../assets/screenshots/residents/chambres-kanban.png)
 
 :::{admonition} The occupancy / capacity badge
 :class: note

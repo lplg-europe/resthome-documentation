@@ -34,7 +34,7 @@ You will find them in two places:
 - via the **Healthcare > Evaluation Tools** menu, which lists all the
   assessments in the facility, scale by scale.
 
-<!-- screenshot to add: « Evaluation Tools » tab on the resident record -->
+![Evaluation tab of the resident record, with one button per assessment scale](../assets/screenshots/residents/outils-evaluation.png)
 
 ## Available scales
 

@@ -76,7 +76,7 @@ can drop documents into them and view them, but cannot delete the folder itself.
 This keeps you from accidentally losing a resident's entire document structure.
 :::
 
-<!-- screenshot to add: a resident's folder in the Documents app showing the three subfolders Medical / Administrative / Billing documents -->
+![Documents app showing a resident folder and its three subfolders](../assets/screenshots/documents/dossier-resident.png)
 
 ## The "Documents" button on the record
 

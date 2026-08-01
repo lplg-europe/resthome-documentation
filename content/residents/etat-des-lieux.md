@@ -74,7 +74,7 @@ As soon as you choose the **resident**, Resthome pre-fills:
 Both fields remain editable if needed.
 :::
 
-<!-- screenshot to add: the condition report form with the resident selected and the room and representative pre-filled -->
+![Condition report: resident, representative, room, and the equipment lines marked compliant or non-compliant](../assets/screenshots/residents/edl-formulaire.png)
 
 ## 2. Choose the type: move-in or move-out
 
@@ -119,7 +119,7 @@ A detail line must always carry an **item of equipment** and a **condition**
 neither equipment nor condition: they are simple headings or remarks.
 :::
 
-<!-- screenshot to add: the Details tab with equipment lines (Compliant / Non-compliant condition), a section and a photo -->
+![Condition report: resident, representative, room, and the equipment lines marked compliant or non-compliant](../assets/screenshots/residents/edl-formulaire.png)
 
 A second tab, **General observations**, lets you add free text about the overall
 condition of the room.
@@ -166,7 +166,7 @@ The buttons at the top of the form move the record forward:
 - **Reset to To do** — returns to *To do* from *Done* or *Cancelled*;
 - **Cancel** — switches to *Cancelled*.
 
-<!-- screenshot to add: the kanban view of condition reports grouped by status (To do / Planned / Done / Cancelled) -->
+![Condition reports grouped by status, from To do through to Cancelled](../assets/screenshots/residents/edl-kanban.png)
 
 ## 5. Generate the signed PDF report
 

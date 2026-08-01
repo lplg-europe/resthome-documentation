@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-28 17:29+0200\n"
+"POT-Creation-Date: 2026-08-01 06:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -108,17 +108,33 @@ msgstr "**Enregistrez.**"
 
 #: ../../content/repas/menus-regimes.md:29
 msgid ""
+"![Menu form: the date, the meal type and the Dishes tab listing each dish "
+"with its category](../assets/screenshots/repas/05-menu-form.png)"
+msgstr ""
+"![Formulaire de menu : la date, le type de repas et l'onglet Plats listant "
+"chaque plat avec sa catégorie](../assets/screenshots/repas/05-menu-form.png)"
+
+#: ../../content/repas/menus-regimes.md:29
+msgid ""
+"Menu form: the date, the meal type and the Dishes tab listing each dish with"
+" its category"
+msgstr ""
+"Formulaire de menu : la date, le type de repas et l'onglet Plats listant "
+"chaque plat avec sa catégorie"
+
+#: ../../content/repas/menus-regimes.md:31
+msgid ""
 "**Dishes** are described once in the **catalog** (ingredients, category) and"
 " reused across all menus."
 msgstr ""
 "Les **plats** sont décrits une fois dans le **catalogue** (ingrédients, "
 "catégorie) et réutilisés dans tous les menus."
 
-#: ../../content/repas/menus-regimes.md:32
+#: ../../content/repas/menus-regimes.md:34
 msgid "Meal services"
 msgstr "Services de repas"
 
-#: ../../content/repas/menus-regimes.md:34
+#: ../../content/repas/menus-regimes.md:36
 msgid ""
 "A **meal service** represents a meal served at a given time. It follows a "
 "simple cycle: **Confirm** → **Mark as served**, with the option to "
@@ -128,11 +144,27 @@ msgstr ""
 " un cycle simple : **Confirmer** → **Marquer comme servi**, avec possibilité"
 " d'**annuler** ou de **remettre en brouillon**."
 
-#: ../../content/repas/menus-regimes.md:38
+#: ../../content/repas/menus-regimes.md:40
+msgid ""
+"![Menus list: one row per date and meal type, with the Draft, Confirmed or "
+"Served status](../assets/screenshots/repas/02-menus.png)"
+msgstr ""
+"![Liste des menus : une ligne par date et type de repas, avec l'état "
+"Brouillon, Confirmé ou Servi](../assets/screenshots/repas/02-menus.png)"
+
+#: ../../content/repas/menus-regimes.md:40
+msgid ""
+"Menus list: one row per date and meal type, with the Draft, Confirmed or "
+"Served status"
+msgstr ""
+"Liste des menus : une ligne par date et type de repas, avec l'état "
+"Brouillon, Confirmé ou Servi"
+
+#: ../../content/repas/menus-regimes.md:42
 msgid "Diets and allergies"
 msgstr "Régimes et allergies"
 
-#: ../../content/repas/menus-regimes.md:40
+#: ../../content/repas/menus-regimes.md:44
 msgid ""
 "Each resident can have one or more **diets** (salt-free, diabetic, "
 "blended/adapted texture…) and **allergies**. Resthome takes them into "
@@ -144,11 +176,11 @@ msgstr ""
 "en compte et **signale les incompatibilités** entre un menu et le profil "
 "d'un résident."
 
-#: ../../content/repas/menus-regimes.md:44
+#: ../../content/repas/menus-regimes.md:48
 msgid "Dietary alerts"
 msgstr "Alertes diététiques"
 
-#: ../../content/repas/menus-regimes.md:47
+#: ../../content/repas/menus-regimes.md:51
 msgid ""
 "The **Dietary alerts** menu surfaces cases where a planned dish does not "
 "suit a resident's diet or allergies — to be checked before service."
@@ -156,11 +188,29 @@ msgstr ""
 "Le menu **Alertes diététiques** remonte les cas où un plat prévu ne convient"
 " pas au régime ou aux allergies d'un résident — à vérifier avant le service."
 
-#: ../../content/repas/menus-regimes.md:51
+#: ../../content/repas/menus-regimes.md:55
+msgid ""
+"![Dietary alerts: one row per incompatibility, with the sector, the room, "
+"the resident, the diets involved and where the meal is "
+"served](../assets/screenshots/repas/04-alertes-dietetiques.png)"
+msgstr ""
+"![Alertes diététiques : une ligne par incompatibilité, avec le secteur, la "
+"chambre, le résident, les régimes concernés et le lieu de "
+"service](../assets/screenshots/repas/04-alertes-dietetiques.png)"
+
+#: ../../content/repas/menus-regimes.md:55
+msgid ""
+"Dietary alerts: one row per incompatibility, with the sector, the room, the "
+"resident, the diets involved and where the meal is served"
+msgstr ""
+"Alertes diététiques : une ligne par incompatibilité, avec le secteur, la "
+"chambre, le résident, les régimes concernés et le lieu de service"
+
+#: ../../content/repas/menus-regimes.md:57
 msgid "Nutritional monitoring and hydration"
 msgstr "Suivi nutritionnel et hydratation"
 
-#: ../../content/repas/menus-regimes.md:53
+#: ../../content/repas/menus-regimes.md:59
 msgid ""
 "Resthome tracks residents' **nutritional coverage** (energy, protein) and "
 "**hydration**, with tailored targets."
@@ -168,7 +218,7 @@ msgstr ""
 "Resthome suit la **couverture nutritionnelle** (énergie, protéines) et "
 "l'**hydratation** des résidents, avec des cibles adaptées."
 
-#: ../../content/repas/menus-regimes.md:55
+#: ../../content/repas/menus-regimes.md:61
 msgid ""
 "**Malnutrition** screening relies on the **MNA** (see [Clinical "
 "registers](../soins/registres.md))."
@@ -176,21 +226,21 @@ msgstr ""
 "Le dépistage de la **dénutrition** s'appuie sur le **MNA** (voir [Registres "
 "cliniques](../soins/registres.md))."
 
-#: ../../content/repas/menus-regimes.md:57
+#: ../../content/repas/menus-regimes.md:63
 msgid ""
 "**Hydration** is logged throughout the day to spot insufficient intake."
 msgstr ""
 "L'**hydratation** se consigne au fil de la journée pour repérer un apport "
 "insuffisant."
 
-#: ../../content/repas/menus-regimes.md:59
+#: ../../content/repas/menus-regimes.md:65
 msgid "Going further"
 msgstr "Pour aller plus loin"
 
-#: ../../content/repas/menus-regimes.md:61
+#: ../../content/repas/menus-regimes.md:67
 msgid "[Family portal and kiosk](portail-familles.md)"
 msgstr "[Portail familles et kiosque](portail-familles.md)"
 
-#: ../../content/repas/menus-regimes.md:62
+#: ../../content/repas/menus-regimes.md:68
 msgid "[Clinical registers](../soins/registres.md)"
 msgstr "[Registres cliniques](../soins/registres.md)"

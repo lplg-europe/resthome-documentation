@@ -57,7 +57,7 @@ Two notions must be distinguished:
   resident, their family, or the CPAS. This routing is driven by the **Billing
   contact** or by **maintenance debtors** (see below).
 
-<!-- screenshot to add: a resident's Billing tab with the "Default payer" and "CPAS assistance" groups -->
+![Resident record showing the default payer and the CPAS support details](../assets/screenshots/facturation/cpas-onglet.png)
 
 ## 1. Declare the CPAS as an organisation
 

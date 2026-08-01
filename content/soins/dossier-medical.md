@@ -98,7 +98,7 @@ Each field offers a list of values:
 | **Cognitive Status** | Normal · Mild Impairment · Moderate Impairment · Severe Impairment |
 | **Communication** | Normal · Difficulty · Non-verbal · Aphasia |
 
-<!-- screenshot to add: Medical Information tab, Measurements, Dependency and Clinical Status sections -->
+![Care tab of the resident record: measurements and BMI, dependency, clinical status, senses and risks](../assets/screenshots/soins/dossier-medical-onglet.png)
 
 ## Senses and risks
 
@@ -147,7 +147,7 @@ status (Active / Resolved) **for this resident**. A *Resolved* status requires a
 resident.
 :::
 
-<!-- screenshot to add: diagnoses list with category, severity as a badge and Active/Resolved status -->
+![ICD-10 pathology catalog with the code, the category and the number of residents affected](../assets/screenshots/soins/diagnostics-catalogue.png)
 
 ## Allergies
 
@@ -208,7 +208,7 @@ visible to care staff:
 - a **DNR filter** in the search, to find the residents concerned.
 :::
 
-<!-- screenshot to add: resident record with the orange DNR banner and the Advance Directives section -->
+![Life project tab showing the advance directives and the DNR order](../assets/screenshots/soins/directives-anticipees.png)
 
 ## Medical notes
 

@@ -48,7 +48,7 @@ Open a resident (the **Residents** or **Meals** app), then the **Nutrition** tab
 The tab only appears for residents. It brings together the undernutrition status,
 the latest MNA, the ESPEN targets, the intake, the diets and the food preferences.
 
-<!-- screenshot to add: Nutrition tab of a resident record, showing the undernutrition status, the latest MNA and the ESPEN targets -->
+![Nutrition tab: undernutrition status, latest MNA and the ESPEN targets](../assets/screenshots/repas/nutrition-onglet.png)
 
 ### The undernutrition risk status
 
@@ -177,7 +177,7 @@ You can also log a drink in one click from the Nutrition tab, with the **Log Dri
 button. Resthome adds up the day's drinks, computes the **fluid coverage** over 3
 days and raises an alert if intake is insufficient.
 
-<!-- screenshot to add: Hydration list in quick entry, Meals → Operations → Hydration -->
+![Hydration log grouped by resident, with the quantity drunk and the daily total](../assets/screenshots/repas/hydratation-saisie.png)
 
 ## The nutrition dashboard
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-18 19:30+0200\n"
+"POT-Creation-Date: 2026-08-01 06:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 "vitaux, notes infirmières et registres cliniques pour le suivi médical des "
 "résidents."
 
-#: ../../content/soins/index.md:7
+#: ../../content/soins/index.md:18
 msgid ""
 "The **Care** application brings together all **medical and nursing** follow-"
 "up of residents: medication, care plans, vital signs, notes, and the "
@@ -45,11 +45,11 @@ msgstr ""
 "**registres cliniques** (chutes, plaies, douleur, nutrition…). Elle est "
 "pensée pour le travail quotidien du personnel soignant."
 
-#: ../../content/soins/index.md:12
+#: ../../content/soins/index.md:23
 msgid "The dashboard"
 msgstr "Le tableau de bord"
 
-#: ../../content/soins/index.md:14
+#: ../../content/soins/index.md:25
 msgid ""
 "When you open it, the **dashboard** highlights what needs attention today: "
 "care to carry out, points to watch, administrations to give. You start from "
@@ -59,11 +59,30 @@ msgstr ""
 "aujourd'hui : soins à réaliser, points de vigilance, administrations à "
 "faire. Vous partez de là pour votre tournée."
 
-#: ../../content/soins/index.md:18
+#: ../../content/soins/index.md:29
+msgid ""
+"![Care dashboard: overview counters, clinical registers and quick buttons to"
+" schedule care, add a note or record vital "
+"signs](../assets/screenshots/soins/01-tableau-de-bord.png)"
+msgstr ""
+"![Tableau de bord Soins : les compteurs de synthèse, les registres cliniques"
+" et les boutons rapides pour planifier un soin, ajouter une note ou saisir "
+"les signes vitaux](../assets/screenshots/soins/01-tableau-de-bord.png)"
+
+#: ../../content/soins/index.md:29
+msgid ""
+"Care dashboard: overview counters, clinical registers and quick buttons to "
+"schedule care, add a note or record vital signs"
+msgstr ""
+"Tableau de bord Soins : les compteurs de synthèse, les registres cliniques "
+"et les boutons rapides pour planifier un soin, ajouter une note ou saisir "
+"les signes vitaux"
+
+#: ../../content/soins/index.md:31
 msgid "What the application covers"
 msgstr "Ce que couvre l'application"
 
-#: ../../content/soins/index.md:20
+#: ../../content/soins/index.md:33
 msgid ""
 "**Prescriptions and medication** — Medication catalogue, prescriptions, "
 "administrations, batches and stock. → [Prescriptions](prescriptions.md)"
@@ -71,7 +90,7 @@ msgstr ""
 "**Prescriptions et médicaments** — Catalogue de médicaments, prescriptions, "
 "administrations, lots et stock. → [Prescriptions](prescriptions.md)"
 
-#: ../../content/soins/index.md:21
+#: ../../content/soins/index.md:34
 msgid ""
 "**Care plans and vital signs** — Care plans, planning of the day's care, "
 "vital signs and trends, nursing notes. → [Care plans](plans-de-soins.md)"
@@ -80,7 +99,7 @@ msgstr ""
 "jour, signes vitaux et tendances, notes infirmières. → [Plans de "
 "soins](plans-de-soins.md)"
 
-#: ../../content/soins/index.md:22
+#: ../../content/soins/index.md:35
 msgid ""
 "**Clinical registers** — Falls, pressure ulcers (Braden), wounds, pain, "
 "restraint, nutrition (MNA), continence, mobility, cognition. → "
@@ -90,11 +109,11 @@ msgstr ""
 "contention, nutrition (MNA), continence, mobilité, cognition. → "
 "[Registres](registres.md)"
 
-#: ../../content/soins/index.md:24
+#: ../../content/soins/index.md:37
 msgid "Main menus"
 msgstr "Menus principaux"
 
-#: ../../content/soins/index.md:26
+#: ../../content/soins/index.md:39
 msgid ""
 "**Medical** — Katz, nursing notes, attention points, vital signs entry, care"
 " planning, today's care, my assigned care, care plans, prescriptions, "
@@ -104,15 +123,15 @@ msgstr ""
 " vitaux, planning des soins, soins du jour, mes soins assignés, plans de "
 "soins, prescriptions, administrations, hospitalisation."
 
-#: ../../content/soins/index.md:29
+#: ../../content/soins/index.md:42
 msgid "**Registers** — the dedicated clinical registers."
 msgstr "**Registres** — les registres cliniques dédiés."
 
-#: ../../content/soins/index.md:30
+#: ../../content/soins/index.md:43
 msgid "**Stock** — medication batches, stock withdrawals."
 msgstr "**Stock** — lots de médicaments, sorties de stock."
 
-#: ../../content/soins/index.md:31
+#: ../../content/soins/index.md:44
 msgid ""
 "**Configuration** — medication catalogue, pathologies (ICD-10), allergens, "
 "drug interactions, SAM database."
@@ -120,11 +139,11 @@ msgstr ""
 "**Configuration** — catalogue de médicaments, pathologies (CIM-10), "
 "allergènes, interactions médicamenteuses, base SAM."
 
-#: ../../content/soins/index.md:34
+#: ../../content/soins/index.md:47
 msgid "Separate but connected"
 msgstr "Séparée mais reliée"
 
-#: ../../content/soins/index.md:37
+#: ../../content/soins/index.md:50
 msgid ""
 "The Care application is separate from billing, but **connected to the "
 "residents**: a hospitalisation entered here appears, on the billing side, as"
@@ -134,18 +153,18 @@ msgstr ""
 "résidents** : une hospitalisation saisie ici se retrouve, côté facturation, "
 "en [absence](../facturation/absences.md) qui ajuste le forfait."
 
-#: ../../content/soins/index.md:42
+#: ../../content/soins/index.md:55
 msgid "Going further"
 msgstr "Pour aller plus loin"
 
-#: ../../content/soins/index.md:44
+#: ../../content/soins/index.md:57
 msgid "[Prescriptions and medication](prescriptions.md)"
 msgstr "[Prescriptions et médicaments](prescriptions.md)"
 
-#: ../../content/soins/index.md:45
+#: ../../content/soins/index.md:58
 msgid "[Care plans and vital signs](plans-de-soins.md)"
 msgstr "[Plans de soins et signes vitaux](plans-de-soins.md)"
 
-#: ../../content/soins/index.md:46
+#: ../../content/soins/index.md:59
 msgid "[Clinical registers](registres.md)"
 msgstr "[Registres cliniques](registres.md)"

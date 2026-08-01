@@ -170,6 +170,8 @@ Source : https://www.lplg.eu/resthome/documentation/residents/
 
 Tout sur la vie d’un résident dans l’établissement, du premier contact à la fiche quotidienne : **admission**, **séjour**, **évaluations (Katz)**, **chambre** et **état des lieux**. Le résident est la fiche centrale sur laquelle s’appuient les autres applications — soins, repas et facturation.
 
+![Kanban des résidents : une carte par résident avec la référence, le type de séjour MR ou MRS, l'âge et la chambre occupée](../_images/04-liste-residents.png)
+
 ## Principes clés
 
 - **Admission** : gérée comme un **pipeline CRM**, du premier contact à l’emménagement ; un assistant crée le résident et ouvre son séjour.
@@ -369,6 +371,8 @@ Elles sont souvent identiques, mais peuvent différer — Resthome gère les deu
 4. Sélectionnez la **mutuelle** du résident.
 5. **Enregistrez**.
 
+![Fiche résident : les pastilles de catégorie Katz et de type de séjour, l'onglet des informations personnelles, le séjour en cours et les données de mutuelle](../../_images/05-fiche-resident.png)
+
 ### Lire la carte d’identité (eID)
 
 Plutôt que de saisir l’identité, vous pouvez **lire la carte eID du résident**. Resthome renseigne le nom, la date de naissance, le genre et le **NISS** depuis la carte elle-même — sans faute de frappe ni chiffre inversé.
@@ -451,6 +455,8 @@ Source : https://www.lplg.eu/resthome/documentation/residents/katz/
 
 L”**échelle de Katz** mesure le degré de **dépendance** d’un résident. C’est elle qui détermine sa **catégorie** de soins et donc le **forfait INAMI** remboursé par la mutuelle. Dans Resthome, la saisie est guidée et le calcul est automatique.
 
+![Liste des évaluations Katz : une ligne par résident avec la catégorie, le score total, la date de prochaine évaluation et l'indicateur de renouvellement](../../_images/01-evaluations.png)
+
 ## Les 6 critères
 
 Chaque critère est coté de **1** (autonome) à **4** (totalement dépendant) :
@@ -488,6 +494,8 @@ Tant qu’aucun Katz **validé** n’existe, le résident est en catégorie **O*
 2. **Nouveau** : cotez les 6 critères.
 3. **Confirmez** puis **Validez** l’évaluation.
 
+![Formulaire d'évaluation Katz : la grille de cotation des 6 critères, la catégorie et le score obtenus, et la barre d'état Brouillon, Confirmé, Validé, Envoyé](../../_images/02-evaluation-form.png)
+
 La catégorie et le forfait se mettent à jour automatiquement pour la facturation.
 
 Ce que Resthome fait pour vous
@@ -516,6 +524,8 @@ Au-delà de l”[échelle de Katz](../katz/), Resthome regroupe les principales 
 
 - sur la **fiche du résident**, onglet **« Evaluation Tools »**, où chaque échelle affiche l’historique du résident et permet une saisie directe ;
 - via le menu **Healthcare > Evaluation Tools**, qui liste toutes les évaluations de l’établissement, échelle par échelle.
+
+![Onglet Évaluation de la fiche résident, avec un bouton par échelle d'évaluation](../../_images/outils-evaluation.png)
 
 ## Les échelles disponibles
 
@@ -574,6 +584,8 @@ Le total va de 6 à 23. **Attention : plus le score est bas, plus le risque est 
 | 13-14 | Risque modéré |
 | 10-12 | Risque élevé |
 | 9 ou moins | Risque très élevé |
+
+![Liste des évaluations Braden : le score total et le niveau de risque en pastille colorée, de Pas de risque à Risque très élevé](../../_images/03-braden.png)
 
 ## MNA — état nutritionnel
 
@@ -737,6 +749,8 @@ Chaque carte de chambre indique :
 - le ou les **résidents présents**, le cas échéant ;
 - le **tarif journalier** de l’hébergement.
 
+![Tableau des chambres groupé par occupation, chaque carte indiquant le type de chambre, son occupant et le prix journalier](../../_images/chambres-kanban.png)
+
 Le badge occupation / capacité
 
 Une chambre de capacité 2 dont un seul lit est pris s’affiche **1/2** et reste **Disponible** : il y a encore une place. Elle ne bascule en **Occupée** que lorsque **tous** les lits sont pris. Une chambre individuelle (capacité 1) passe donc directement de Disponible à Occupée dès le premier résident.
@@ -887,6 +901,8 @@ Dès que vous choisissez le **résident**, Resthome pré-remplit :
 
 Ces deux champs restent modifiables si besoin.
 
+![État des lieux : résident, représentant, chambre, et les lignes d'équipement notées conformes ou non conformes](../../_images/edl-formulaire.png)
+
 ## 2. Choisir le type : entrée ou sortie
 
 Renseignez le champ **Type d’état des lieux** :
@@ -920,6 +936,8 @@ Pour une ligne d’équipement, renseignez :
 Équipement et état obligatoires
 
 Une ligne de détail doit toujours porter un **équipement** et un **état** (Conforme / Non conforme). Les sections et les notes, elles, ne portent ni équipement ni état : ce sont de simples titres ou remarques.
+
+![État des lieux : résident, représentant, chambre, et les lignes d'équipement notées conformes ou non conformes](../../_images/edl-formulaire.png)
 
 Une seconde page, **Observations générales**, permet d’ajouter un texte libre sur l’état d’ensemble de la chambre.
 
@@ -955,6 +973,8 @@ Les boutons en haut du formulaire font avancer le dossier :
 - **Marquer comme terminé** — passe à *Terminé* ;
 - **Réinitialiser à À faire** — revient à *À faire* depuis *Terminé* ou *Annulé* ;
 - **Annuler** — bascule en *Annulé*.
+
+![États des lieux groupés par statut, de À faire jusqu'à Annulé](../../_images/edl-kanban.png)
 
 ## 5. Générer le rapport PDF signé
 
@@ -1043,6 +1063,8 @@ Cochez ce qui s’applique
 
 La liste est **la même** pour une première admission et pour un changement de chambre. Le responsable **marque comme fait** ou **supprime** les étapes sans objet — par exemple, il n’y a pas d’ancienne chambre à désinfecter lors d’une première entrée.
 
+![Fil du résident : les six activités de la procédure d'emménagement, toutes échues à la date de début du séjour](../../_images/emmenagement-activites.png)
+
 ## Préparation de la chambre
 
 En parallèle, Resthome planifie la **préparation de la chambre** sur le **fil de la chambre** (activité de type **Préparation de chambre**), assignée au **Responsable technique chambres** :
@@ -1102,6 +1124,8 @@ Le mobilier privé est géré par un module distinct, installé uniquement pour 
 3. Descendez jusqu’à la section **Mobilier résident**.
 
 La section se présente comme un tableau : une ligne par meuble ou objet.
+
+![Onglet Conventions de la fiche résident, listant le mobilier personnel apporté](../../_images/mobilier-convention.png)
 
 ## Ajouter un meuble
 
@@ -1487,6 +1511,8 @@ C’est le raccourci central de l’application : appliquer le même supplément
 
 Dans ce catalogue partagé, le panneau de gauche affiche une section **Résidents** : les résidents concernés apparaissent sous forme d’étiquettes (le résident « pilote » en gris, les autres en vert). Le lien **Ajouter** permet d’en ajouter d’autres à la volée ; supprimer une étiquette retire le résident (le dernier ne peut pas être retiré).
 
+![Catalogue de suppléments multi-résidents, avec les résidents concernés](../../_images/supplements-catalogue-residents.png)
+
 Un supplément déjà couvert par une convention est ignoré
 
 Si l’un des résidents sélectionnés a déjà ce produit dans une **convention active**, la ligne n’est **pas** ajoutée pour lui (elle serait de toute façon écartée à la facturation) — les autres résidents la reçoivent normalement. Pour une saisie sur un seul résident, Resthome bloque carrément l’ajout et vous invite à passer par la convention.
@@ -1509,6 +1535,8 @@ Où est passé mon supplément ?
 Une **convention** regroupe les suppléments **récurrents** d’un résident (chambre individuelle, TV, téléphone…). Elle vit sur le **résident**, pas sur le séjour : elle **survit** à une clôture de séjour, un changement de chambre ou un transfert MR ↔ MRS. Chaque résident a **une seule** convention, qui rassemble toutes ses lignes récurrentes.
 
 Dans l’application, le menu **Conventions** liste les lignes de suppléments récurrents (résident, convention, produit, type, dates, quantité, actif). La convention elle-même — avec son statut et ses boutons — se gère depuis l’application **MR/MRS → Facturation → Conventions de suppléments**.
+
+![Liste des conventions de suppléments : une par résident, avec la période couverte et l'état Ouverte ou Fermée](../../_images/convention-supplements-liste.png)
 
 Sur la convention :
 
@@ -1804,6 +1832,8 @@ Deux notions sont à distinguer :
 
 - **Enregistrer la décision** — qui est le CPAS, à partir de quand, sous quelle référence, pour quelle couverture et quel montant. Ces informations documentent le dossier et sont **tracées dans le journal d’audit** (catégorie financière).
 - **Router la facture** — décider **à qui** Resthome adresse la part résident : au résident, à sa famille, ou au CPAS. Ce routage se pilote via le **Contact facturation** ou les **débiteurs alimentaires** (voir plus bas).
+
+![Fiche résident : le payeur par défaut et le détail de la prise en charge CPAS](../../_images/cpas-onglet.png)
 
 ## 1. Déclarer le CPAS comme organisme
 
@@ -2870,6 +2900,8 @@ L’application **Soins** rassemble tout le suivi **médical et infirmier** des 
 
 À l’ouverture, le **tableau de bord** met en avant ce qui demande attention aujourd’hui : soins à réaliser, points de vigilance, administrations à faire. Vous partez de là pour votre tournée.
 
+![Tableau de bord Soins : les compteurs de synthèse, les registres cliniques et les boutons rapides pour planifier un soin, ajouter une note ou saisir les signes vitaux](../_images/01-tableau-de-bord1.png)
+
 ## Ce que couvre l’application
 
 - **Prescriptions et médicaments** — Catalogue de médicaments, prescriptions, administrations, lots et stock. → [Prescriptions](prescriptions/)
@@ -2950,6 +2982,8 @@ La section **État clinique** décrit l’autonomie fonctionnelle du résident. 
 | **Statut cognitif** | Normal · Trouble léger · Trouble modéré · Trouble sévère |
 | **Communication** | Normale · Difficulté · Non verbal · Aphasie |
 
+![Onglet Soins de la fiche résident : mesures et IMC, dépendance, état clinique, sens et risques](../../_images/dossier-medical-onglet.png)
+
 ## Les sens et les risques
 
 La section **Sens & Évaluation des risques** complète le profil :
@@ -2988,6 +3022,8 @@ La section **Diagnostics / Pathologies** liste les pathologies du résident, cod
 Sévérité et statut propres au résident
 
 Le catalogue porte une sévérité **par défaut**, mais vous fixez la sévérité et le statut (Actif / Résolu) **pour ce résident**. Un statut *Résolu* impose une **date de résolution**. Une même pathologie ne peut être enregistrée **qu’une fois** par résident.
+
+![Catalogue des pathologies CIM-10 avec le code, la catégorie et le nombre de résidents concernés](../../_images/diagnostics-catalogue.png)
 
 ## Les allergies
 
@@ -3031,6 +3067,8 @@ Dès que **Ordre DNR (Ne pas réanimer)** est coché, Resthome le rend visible p
 - un **bandeau orange** « DNR — Ne pas réanimer » en haut de la fiche du résident ;
 - un **badge DNR** sur la carte **kanban** et dans la **liste** des résidents ;
 - un **filtre DNR** dans la recherche, pour retrouver les résidents concernés.
+
+![Onglet Projet de vie : les directives anticipées et l'ordre DNR](../../_images/directives-anticipees.png)
 
 ## Notes médicales
 
@@ -3078,6 +3116,8 @@ Une prescription suit son cycle de vie avec des actions claires :
 - **Terminer** — clôturer à la fin du traitement.
 - **Annuler** — supprimer une prescription saisie par erreur.
 
+![Liste des prescriptions actives : résident, médicament, posologie, fréquence, voie d'administration, dates, état et indicateur d'interactions](../../_images/05-prescriptions.png)
+
 Sécurité : allergies et interactions
 
 Resthome connaît les **allergies** du résident et les **interactions médicamenteuses** connues. Il vous alerte si une prescription pose un risque — un garde-fou avant l’administration.
@@ -3085,6 +3125,8 @@ Resthome connaît les **allergies** du résident et les **interactions médicame
 ## Administrer
 
 Les **administrations** découlent des prescriptions : le soignant enregistre ce qui a été donné, quand, et par qui. La traçabilité est complète.
+
+![Administrations du jour : résident, médicament, dose administrée, personne qui a administré, et le statut Administré ou Omis](../../_images/04-administrations.png)
 
 ## Hospitalisation : suspendre, puis reprendre
 
@@ -3170,6 +3212,8 @@ Utilisez la barre de recherche et les filtres pour affiner :
 
 La fiche d’un médicament détaille son identification, sa classification, sa forme pharmaceutique, son principe actif et les liens vers ses documents officiels (RCP et notice, FR et NL).
 
+![Fiche médicament de la base SAM, avec ses codes d'identification et de classification](../../_images/sam-fiche.png)
+
 ## L’assistant Rechercher SAM
 
 L’assistant **Rechercher SAM** trouve un médicament dans SAM et l’ajoute à votre catalogue en une étape. Ouvrez-le via **MR/MRS → Configuration → Configuration eHealth → Rechercher SAM**.
@@ -3194,6 +3238,8 @@ Les résultats s’affichent dans un tableau. Chaque ligne indique le code **CNK
 La colonne **Au catalogue** indique si le médicament est déjà dans votre catalogue. Ces lignes apparaissent **en bleu** : inutile de les recréer.
 
 Cochez la case **Sélectionner** en début de ligne pour chaque médicament à importer.
+
+![Recherche dans la base SAM : une ligne par médicament, avec son nom officiel et son code ATC](../../_images/sam-liste.png)
 
 ### 3. Importer au catalogue
 
@@ -3251,13 +3297,28 @@ Un **plan de soins** décrit les **objectifs** de prise en charge d’un réside
 - **Mettre en revue** puis **Valider la revue** — réévaluation périodique.
 - **Terminer** / **Annuler** — clôture.
 
+![Formulaire de plan de soins : le résident, la catégorie Katz et sa validité, et l'onglet Objectifs de soins listant chaque objectif avec ses interventions](../../_images/plan-de-soins-objectifs.png)
+
 Chaque plan porte ses **objectifs**, ce qui rend le suivi mesurable.
+
+![Liste des plans de soins : référence, résident, date de début, prochaine révision, catégorie Katz et coordinateur des soins](../../_images/06-plans-de-soins.png)
 
 ## Planning des soins
 
 - **Soins du jour** — la liste des soins à réaliser aujourd’hui.
 - **Mes soins assignés** — ce qui vous revient personnellement.
 - Chaque soin planifié se **démarre**, se **termine**, s”**annule** ou se marque **manqué** — la tournée reste traçable.
+
+![Soins du jour : une ligne par soin avec l'heure prévue, le résident, le type de soin, la personne assignée et le statut](../../_images/03-soins-du-jour.png)
+
+The same care can be read as a **calendar**, which makes the workload of each day
+of the week visible at a glance.
+
+![Planning hebdomadaire des soins en vue calendrier, les soins répartis par créneau horaire](../../_images/02-planning-des-soins.png)
+
+En vue **kanban**, la même journée se lit comme un tableau de cartes — une par soin, avec son statut d’un coup d’œil.
+
+![Les soins du jour en tableau kanban : une carte par soin, avec son type, son résident et son statut](../../_images/soins-du-jour.png)
 
 ## Signes vitaux
 
@@ -3272,6 +3333,8 @@ L’outil **Tendances** affiche l’évolution des signes vitaux dans le temps �
 ## Notes infirmières
 
 Les **notes infirmières** consignent les observations. Les points qui demandent attention remontent dans **Points de vigilance** / **Attention requise**, et se marquent **résolus** une fois traités.
+
+![Liste des notes infirmières : date et heure, résident, type de note, priorité et auteur, les notes nécessitant une attention étant mises en évidence](../../_images/notes-infirmieres.png)
 
 ## Pour aller plus loin
 
@@ -3334,6 +3397,8 @@ L’application **Repas** organise la restauration de l’établissement : **men
 
 Le **tableau de bord Repas** donne la vue du jour : services prévus, alertes diététiques, hydratation à surveiller.
 
+![Tableau de bord Repas : une colonne par service du petit-déjeuner au dîner, avec l'avancement du service, les alertes diététiques et les boutons d'action](../_images/01-tableau-de-bord.png)
+
 ## Ce que couvre l’application
 
 - **Menus, régimes et hydratation** — Composer les menus, gérer les régimes et allergies, suivre la nutrition et l’hydratation. [→ Menus et régimes](menus-regimes/)
@@ -3368,11 +3433,15 @@ Source : https://www.lplg.eu/resthome/documentation/repas/menus-regimes/
 2. Ajoutez les **plats** depuis le catalogue, par **type de repas** (petit déjeuner, dîner, souper, collations).
 3. **Enregistrez.**
 
+![Formulaire de menu : la date, le type de repas et l'onglet Plats listant chaque plat avec sa catégorie](../../_images/05-menu-form.png)
+
 Les **plats** sont décrits une fois dans le **catalogue** (ingrédients, catégorie) et réutilisés dans tous les menus.
 
 ## Services de repas
 
 Un **service de repas** représente un repas servi à un moment donné. Il suit un cycle simple : **Confirmer** → **Marquer comme servi**, avec possibilité d”**annuler** ou de **remettre en brouillon**.
+
+![Liste des menus : une ligne par date et type de repas, avec l'état Brouillon, Confirmé ou Servi](../../_images/02-menus.png)
 
 ## Régimes et allergies
 
@@ -3381,6 +3450,8 @@ Chaque résident peut avoir un ou plusieurs **régimes** (sans sel, diabétique,
 Alertes diététiques
 
 Le menu **Alertes diététiques** remonte les cas où un plat prévu ne convient pas au régime ou aux allergies d’un résident — à vérifier avant le service.
+
+![Alertes diététiques : une ligne par incompatibilité, avec le secteur, la chambre, le résident, les régimes concernés et le lieu de service](../../_images/04-alertes-dietetiques.png)
 
 ## Suivi nutritionnel et hydratation
 
@@ -3482,6 +3553,8 @@ Un service **servi** et un menu **Servi** ne peuvent plus être **supprimés** :
 
 En complément de l’assistant sur tablette, **Repas → Opérations → Distribution** ouvre un **tableau kanban** des services du jour **regroupés par lieu** (salle à manger, en chambre, absent). Chaque carte affiche la photo, la **chambre**, le **secteur**, le badge **régime** et, le cas échéant, un badge **Alerte**, **Avertissement** ou **Servi**.
 
+![Tableau de distribution : trois colonnes Absent, Salle à manger et En chambre, avec une carte par résident indiquant la chambre, le secteur et la pastille de régime](../../_images/03-distribution.png)
+
 Depuis la **liste** des services de repas, deux boutons d’en-tête permettent d’agir sur une **sélection multiple** : **Marquer servi** et **Marquer absent**. Le menu **Action** propose aussi de marquer les services **en salle à manger** ou **en chambre**.
 
 ## Les feuilles imprimables par secteur
@@ -3529,6 +3602,8 @@ Le suivi nutritionnel aide l’équipe à repérer tôt les résidents fragiles.
 ## L’onglet Nutrition du résident
 
 Ouvrez un résident (application **Résidents** ou **Repas**), puis l’onglet **Nutrition**. L’onglet n’apparaît que pour les résidents. Il rassemble le statut de dénutrition, le dernier MNA, les cibles ESPEN, les apports, les régimes et les préférences alimentaires.
+
+![Onglet Nutrition : statut de dénutrition, dernier MNA et cibles ESPEN](../../_images/nutrition-onglet.png)
 
 ### Le statut de risque de dénutrition
 
@@ -3620,6 +3695,8 @@ Resthome multiplie la valeur nutritionnelle **par portion** des plats servis par
 Les boissons se consignent au fil de la journée dans **Repas → Opérations → Hydratation**, une liste directement éditable (saisie rapide). Chaque ligne enregistre le résident, l’heure, la **quantité en millilitres** et le **type de boisson** : eau, café/thé, jus/soda, lait/produits laitiers, soupe/bouillon, complément oral, autre.
 
 Vous pouvez aussi enregistrer une boisson en un clic depuis l’onglet Nutrition, avec le bouton **Enregistrer une boisson**. Resthome additionne les boissons du jour, calcule la **couverture hydrique** sur 3 jours et lève une alerte si les apports sont insuffisants.
+
+![Relevé d'hydratation groupé par résident, avec la quantité bue et le total du jour](../../_images/hydratation-saisie.png)
 
 ## Le tableau de bord nutrition
 
@@ -3735,6 +3812,8 @@ Dossiers protégés
 
 Les dossiers créés automatiquement sont **protégés contre la suppression** : un utilisateur standard peut y déposer des documents et les consulter, mais ne peut pas supprimer le dossier lui-même. Cela vous évite de perdre accidentellement toute la structure documentaire d’un résident.
 
+![Application Documents : le dossier d'un résident et ses trois sous-dossiers](../_images/dossier-resident.png)
+
 ## Le bouton « Documents » sur la fiche
 
 Sur la fiche du résident, un **bouton intelligent « Documents »** affiche le **nombre de fichiers** stockés dans son dossier. Le compteur additionne les documents du dossier **et de ses sous-dossiers** (les sous-dossiers eux-mêmes ne sont pas comptés). Cliquer sur le bouton **ouvre** directement le dossier personnel du résident dans l’application Documents.
@@ -3845,6 +3924,8 @@ Chaque document centralisé est classé dans le **dossier personnel du résident
 - **Documents de facturation**
 
 Le dossier porte le nom du **résident** et se renomme automatiquement si le nom change.
+
+![Application Documents : le dossier d'un résident et ses trois sous-dossiers](../../_images/dossier-resident.png)
 
 Le bouton « Documents » sur la fiche du résident
 

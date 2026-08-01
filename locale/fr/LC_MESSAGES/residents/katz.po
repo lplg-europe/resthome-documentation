@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-18 19:30+0200\n"
+"POT-Creation-Date: 2026-08-01 06:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -91,40 +91,59 @@ msgstr ""
 "est automatique."
 
 #: ../../content/residents/katz.md:22
+msgid ""
+"![Katz assessments list: one row per resident with the category, the total "
+"score, the next assessment date and the renewal "
+"indicator](../assets/screenshots/katz/01-evaluations.png)"
+msgstr ""
+"![Liste des évaluations Katz : une ligne par résident avec la catégorie, le "
+"score total, la date de prochaine évaluation et l'indicateur de "
+"renouvellement](../assets/screenshots/katz/01-evaluations.png)"
+
+#: ../../content/residents/katz.md:22
+msgid ""
+"Katz assessments list: one row per resident with the category, the total "
+"score, the next assessment date and the renewal indicator"
+msgstr ""
+"Liste des évaluations Katz : une ligne par résident avec la catégorie, le "
+"score total, la date de prochaine évaluation et l'indicateur de "
+"renouvellement"
+
+#: ../../content/residents/katz.md:24
 msgid "The 6 criteria"
 msgstr "Les 6 critères"
 
-#: ../../content/residents/katz.md:24
+#: ../../content/residents/katz.md:26
 msgid ""
 "Each criterion is rated from **1** (independent) to **4** (fully dependent):"
 msgstr ""
 "Chaque critère est coté de **1** (autonome) à **4** (totalement dépendant) :"
 
-#: ../../content/residents/katz.md:26
+#: ../../content/residents/katz.md:28
 msgid "**Washing**"
 msgstr "**Se laver**"
 
-#: ../../content/residents/katz.md:27
+#: ../../content/residents/katz.md:29
 msgid "**Dressing**"
 msgstr "**S'habiller**"
 
-#: ../../content/residents/katz.md:28
+#: ../../content/residents/katz.md:30
 msgid "**Transfers and mobility**"
 msgstr "**Transfert et déplacements**"
 
-#: ../../content/residents/katz.md:29
+#: ../../content/residents/katz.md:31
 msgid "**Using the toilet**"
 msgstr "**Aller à la toilette**"
 
-#: ../../content/residents/katz.md:30
+#: ../../content/residents/katz.md:32
 msgid "**Continence**"
 msgstr "**Continence**"
 
-#: ../../content/residents/katz.md:31
+#: ../../content/residents/katz.md:33
 msgid "**Eating**"
 msgstr "**Manger**"
 
-#: ../../content/residents/katz.md:33
+#: ../../content/residents/katz.md:35
 msgid ""
 "From these ratings, Resthome calculates the **category** in accordance with "
 "the regulations."
@@ -132,7 +151,7 @@ msgstr ""
 "À partir de ces cotations, Resthome calcule la **catégorie** conformément à "
 "la réglementation."
 
-#: ../../content/residents/katz.md:36
+#: ../../content/residents/katz.md:38
 msgid "The categories"
 msgstr "Les catégories"
 
@@ -184,11 +203,11 @@ msgstr "**Cd / Cc**"
 msgid "Severe dependency with disorientation / special cases"
 msgstr "Forte dépendance avec désorientation / cas particuliers"
 
-#: ../../content/residents/katz.md:46
+#: ../../content/residents/katz.md:48
 msgid "The allowance is the same for every category"
 msgstr "Le forfait est le même pour toutes les catégories"
 
-#: ../../content/residents/katz.md:49
+#: ../../content/residents/katz.md:51
 msgid ""
 "Under the **AViQ** tariffs, the amount of the dependency allowance is "
 "**identical for every category**, including **O**. The category does not "
@@ -200,11 +219,11 @@ msgstr ""
 "change pas le montant : elle sert à déclarer le bon profil à la mutuelle "
 "(voir [Le forfait INAMI](../facturation/forfait-inami.md))."
 
-#: ../../content/residents/katz.md:55
+#: ../../content/residents/katz.md:57
 msgid "Category O by default"
 msgstr "Catégorie O par défaut"
 
-#: ../../content/residents/katz.md:58
+#: ../../content/residents/katz.md:60
 msgid ""
 "As long as no **validated** Katz exists, the resident is in category **O** "
 "by default, and a \"Katz to do\" reminder appears on the dashboard. Validate"
@@ -214,36 +233,55 @@ msgstr ""
 "par défaut, et un rappel « Katz à faire » apparaît sur le tableau de bord. "
 "Validez le Katz pour déclarer la bonne catégorie à la mutuelle."
 
-#: ../../content/residents/katz.md:63
+#: ../../content/residents/katz.md:65
 msgid "Entering an assessment"
 msgstr "Saisir une évaluation"
 
-#: ../../content/residents/katz.md:65
+#: ../../content/residents/katz.md:67
 msgid ""
 "From the resident's record, open **Katz** (button or assessment tools)."
 msgstr ""
 "Depuis la fiche du résident, ouvrez **Katz** (bouton ou outils "
 "d'évaluation)."
 
-#: ../../content/residents/katz.md:66
+#: ../../content/residents/katz.md:68
 msgid "**New**: rate the 6 criteria."
 msgstr "**Nouveau** : cotez les 6 critères."
 
-#: ../../content/residents/katz.md:67
+#: ../../content/residents/katz.md:69
 msgid "**Confirm** then **Validate** the assessment."
 msgstr "**Confirmez** puis **Validez** l'évaluation."
 
-#: ../../content/residents/katz.md:69
+#: ../../content/residents/katz.md:71
+msgid ""
+"![Katz assessment form: the rating grid for the 6 criteria, the resulting "
+"category and score, and the Draft, Confirmed, Validated, Sent status "
+"bar](../assets/screenshots/katz/02-evaluation-form.png)"
+msgstr ""
+"![Formulaire d'évaluation Katz : la grille de cotation des 6 critères, la "
+"catégorie et le score obtenus, et la barre d'état Brouillon, Confirmé, "
+"Validé, Envoyé](../assets/screenshots/katz/02-evaluation-form.png)"
+
+#: ../../content/residents/katz.md:71
+msgid ""
+"Katz assessment form: the rating grid for the 6 criteria, the resulting "
+"category and score, and the Draft, Confirmed, Validated, Sent status bar"
+msgstr ""
+"Formulaire d'évaluation Katz : la grille de cotation des 6 critères, la "
+"catégorie et le score obtenus, et la barre d'état Brouillon, Confirmé, "
+"Validé, Envoyé"
+
+#: ../../content/residents/katz.md:73
 msgid "The category and the allowance are updated automatically for billing."
 msgstr ""
 "La catégorie et le forfait se mettent à jour automatiquement pour la "
 "facturation."
 
-#: ../../content/residents/katz.md:71
+#: ../../content/residents/katz.md:75
 msgid "What Resthome does for you"
 msgstr "Ce que Resthome fait pour vous"
 
-#: ../../content/residents/katz.md:74
+#: ../../content/residents/katz.md:78
 msgid ""
 "On validation, Resthome links the assessment to billing (the allowance) and,"
 " where applicable, prepares the care agreement with the mutuelle. You don't "
@@ -253,11 +291,11 @@ msgstr ""
 "le cas échéant, prépare l'accord de soins avec la mutuelle. Vous n'avez pas "
 "à reporter la catégorie ailleurs."
 
-#: ../../content/residents/katz.md:79
+#: ../../content/residents/katz.md:83
 msgid "Worsening during the stay"
 msgstr "Aggravation en cours de séjour"
 
-#: ../../content/residents/katz.md:81
+#: ../../content/residents/katz.md:85
 msgid ""
 "If the resident's condition deteriorates, enter a **new assessment** with a "
 "**worsening reason**. Resthome then prepares the update of the agreement "
@@ -269,11 +307,11 @@ msgstr ""
 "l'accord (**Annexe 10**) : le motif renseigné est repris automatiquement, et"
 " la **signature** du clinicien vient compléter le document."
 
-#: ../../content/residents/katz.md:86
+#: ../../content/residents/katz.md:90
 msgid "Learn more"
 msgstr "Pour aller plus loin"
 
-#: ../../content/residents/katz.md:88
+#: ../../content/residents/katz.md:92
 msgid ""
 "[The INAMI allowance (dependency)](../facturation/forfait-inami.md) — from "
 "category to billed amount."
@@ -281,14 +319,14 @@ msgstr ""
 "[Le forfait INAMI (dépendance)](../facturation/forfait-inami.md) — de la "
 "catégorie au montant facturé."
 
-#: ../../content/residents/katz.md:89
+#: ../../content/residents/katz.md:93
 msgid "[Managing a resident](gerer-un-resident.md)"
 msgstr "[Gérer un résident](gerer-un-resident.md)"
 
-#: ../../content/residents/katz.md:90
+#: ../../content/residents/katz.md:94
 msgid "[Billing](../facturation/index.md)"
 msgstr "[Facturation](../facturation/index.md)"
 
-#: ../../content/residents/katz.md:91
+#: ../../content/residents/katz.md:95
 msgid "[Agreements (eAgreement)](../ehealth/eagreement.md)"
 msgstr "[Accords (eAgreement)](../ehealth/eagreement.md)"

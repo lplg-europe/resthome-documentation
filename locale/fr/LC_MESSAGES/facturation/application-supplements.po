@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-22 14:20+0200\n"
+"POT-Creation-Date: 2026-08-01 07:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -285,6 +285,20 @@ msgstr ""
 "permet d'en ajouter d'autres à la volée ; supprimer une étiquette retire le "
 "résident (le dernier ne peut pas être retiré)."
 
+#: ../../content/facturation/application-supplements.md:90
+msgid ""
+"![Multi-resident supplement catalog, with the residents it applies "
+"to](../assets/screenshots/facturation/supplements-catalogue-residents.png)"
+msgstr ""
+"![Catalogue de suppléments multi-résidents, avec les résidents "
+"concernés](../assets/screenshots/facturation/supplements-catalogue-"
+"residents.png)"
+
+#: ../../content/facturation/application-supplements.md:90
+msgid "Multi-resident supplement catalog, with the residents it applies to"
+msgstr ""
+"Catalogue de suppléments multi-résidents, avec les résidents concernés"
+
 #: ../../content/facturation/application-supplements.md:92
 msgid "A supplement already covered by a convention is skipped"
 msgstr "Un supplément déjà couvert par une convention est ignoré"
@@ -403,6 +417,24 @@ msgstr ""
 "l'application **MR/MRS → Facturation → Conventions de suppléments**."
 
 #: ../../content/facturation/application-supplements.md:140
+msgid ""
+"![Supplement conventions list: one per resident, with the period covered and"
+" the Open or Closed status](../assets/screenshots/facturation/convention-"
+"supplements-liste.png)"
+msgstr ""
+"![Liste des conventions de suppléments : une par résident, avec la période "
+"couverte et l'état Ouverte ou "
+"Fermée](../assets/screenshots/facturation/convention-supplements-liste.png)"
+
+#: ../../content/facturation/application-supplements.md:140
+msgid ""
+"Supplement conventions list: one per resident, with the period covered and "
+"the Open or Closed status"
+msgstr ""
+"Liste des conventions de suppléments : une par résident, avec la période "
+"couverte et l'état Ouverte ou Fermée"
+
+#: ../../content/facturation/application-supplements.md:142
 msgid "On the convention:"
 msgstr "Sur la convention :"
 
@@ -448,7 +480,7 @@ msgid "Product, type, price, start date, end date, quantity, active, notes."
 msgstr ""
 "Produit, type, prix, date de début, date de fin, quantité, actif, notes."
 
-#: ../../content/facturation/application-supplements.md:149
+#: ../../content/facturation/application-supplements.md:151
 msgid ""
 "![Open supplement convention with the Close button and its lines: product, "
 "supplement type, unit price, dates, quantity and Active "
@@ -458,7 +490,7 @@ msgstr ""
 " produit, type de supplément, prix unitaire, dates, quantité et case "
 "Actif](../assets/screenshots/facturation/03-convention-supplements.webp)"
 
-#: ../../content/facturation/application-supplements.md:149
+#: ../../content/facturation/application-supplements.md:151
 msgid ""
 "Open supplement convention with the Close button and its lines: product, "
 "supplement type, unit price, dates, quantity and Active box"
@@ -466,11 +498,11 @@ msgstr ""
 "Convention de suppléments ouverte, avec le bouton Clôturer et ses lignes : "
 "produit, type de supplément, prix unitaire, dates, quantité et case Actif"
 
-#: ../../content/facturation/application-supplements.md:151
+#: ../../content/facturation/application-supplements.md:153
 msgid "A product under a convention cannot be entered as one-off"
 msgstr "Un produit sous convention ne se saisit pas en ponctuel"
 
-#: ../../content/facturation/application-supplements.md:154
+#: ../../content/facturation/application-supplements.md:156
 msgid ""
 "As long as a product is covered by an **active convention**, it cannot be "
 "added as a one-off supplement for the same resident. Add it **to the "
@@ -480,11 +512,11 @@ msgstr ""
 " être ajouté comme supplément ponctuel pour le même résident. Ajoutez-le "
 "**dans la convention**, ou **clôturez** d'abord celle-ci."
 
-#: ../../content/facturation/application-supplements.md:159
+#: ../../content/facturation/application-supplements.md:161
 msgid "The supplements catalog"
 msgstr "Le catalogue des suppléments"
 
-#: ../../content/facturation/application-supplements.md:161
+#: ../../content/facturation/application-supplements.md:163
 msgid ""
 "The **Configuration → Catalog** menu holds the list of billable **supplement"
 " types** (\"Supplement types\"). Each supplement has:"
@@ -493,35 +525,35 @@ msgstr ""
 "suppléments** facturables (« Types de suppléments »). Chaque supplément y a "
 ":"
 
-#: ../../content/facturation/application-supplements.md:151
+#: ../../content/facturation/application-supplements.md:153
 msgid "Field"
 msgstr "Champ"
 
-#: ../../content/facturation/application-supplements.md:151
+#: ../../content/facturation/application-supplements.md:153
 msgid "Description"
 msgstr "Description"
 
-#: ../../content/facturation/application-supplements.md:151
+#: ../../content/facturation/application-supplements.md:153
 msgid "**Reference**"
 msgstr "**Référence**"
 
-#: ../../content/facturation/application-supplements.md:151
+#: ../../content/facturation/application-supplements.md:153
 msgid "Internal code of the supplement."
 msgstr "Code interne du supplément."
 
-#: ../../content/facturation/application-supplements.md:151
+#: ../../content/facturation/application-supplements.md:153
 msgid "**Name**"
 msgstr "**Nom**"
 
-#: ../../content/facturation/application-supplements.md:151
+#: ../../content/facturation/application-supplements.md:153
 msgid "Label shown in the catalog."
 msgstr "Libellé affiché dans le catalogue."
 
-#: ../../content/facturation/application-supplements.md:151
+#: ../../content/facturation/application-supplements.md:153
 msgid "**Supplement type**"
 msgstr "**Type de supplément**"
 
-#: ../../content/facturation/application-supplements.md:151
+#: ../../content/facturation/application-supplements.md:153
 msgid ""
 "**Daily** (billed pro rata over the days), **Monthly** (per month) or **One-"
 "off** (once)."
@@ -529,19 +561,19 @@ msgstr ""
 "**Journalier** (facturé au prorata des jours), **Mensuel** (par mois) ou "
 "**Ponctuel** (une fois)."
 
-#: ../../content/facturation/application-supplements.md:151
+#: ../../content/facturation/application-supplements.md:153
 msgid "**Price**"
 msgstr "**Prix**"
 
-#: ../../content/facturation/application-supplements.md:151
+#: ../../content/facturation/application-supplements.md:153
 msgid "Unit amount — **value specific to the facility**."
 msgstr "Montant unitaire — **valeur propre à l'établissement**."
 
-#: ../../content/facturation/application-supplements.md:151
+#: ../../content/facturation/application-supplements.md:153
 msgid "**AViQ code**"
 msgstr "**Code AViQ**"
 
-#: ../../content/facturation/application-supplements.md:151
+#: ../../content/facturation/application-supplements.md:153
 msgid ""
 "Declaration pseudo-code, when the supplement is declared to the insurance "
 "body."
@@ -549,11 +581,11 @@ msgstr ""
 "Pseudo-code de déclaration, quand le supplément est déclaré à l'organisme "
 "assureur."
 
-#: ../../content/facturation/application-supplements.md:172
+#: ../../content/facturation/application-supplements.md:174
 msgid "Declared to the insurance body or not?"
 msgstr "Déclaré à l'OA ou non ?"
 
-#: ../../content/facturation/application-supplements.md:175
+#: ../../content/facturation/application-supplements.md:177
 msgid ""
 "Depending on its **category**, a supplement is either **declared to the "
 "insurance body** in the eFact (ET50), or billed **only on the resident's "
@@ -565,29 +597,29 @@ msgstr ""
 "résident**. Ce réglage se fait sur la catégorie de produit — voir [Réglages "
 "de facturation](../configuration/reglages-facturation.md)."
 
-#: ../../content/facturation/application-supplements.md:181
+#: ../../content/facturation/application-supplements.md:183
 msgid "Reporting"
 msgstr "Le reporting"
 
-#: ../../content/facturation/application-supplements.md:183
+#: ../../content/facturation/application-supplements.md:185
 msgid ""
 "The **Reporting** menu opens an analysis view of **billed** supplements:"
 msgstr ""
 "Le menu **Reporting** ouvre une vue d'analyse des suppléments **facturés** :"
 
-#: ../../content/facturation/application-supplements.md:185
+#: ../../content/facturation/application-supplements.md:187
 msgid "a **graph** of amounts per product;"
 msgstr "un **graphique** des montants par produit ;"
 
-#: ../../content/facturation/application-supplements.md:186
+#: ../../content/facturation/application-supplements.md:188
 msgid "a **pivot table** (residents × months);"
 msgstr "un **tableau croisé** (résidents × mois) ;"
 
-#: ../../content/facturation/application-supplements.md:187
+#: ../../content/facturation/application-supplements.md:189
 msgid "a detailed **list** of supplement lines."
 msgstr "une **liste** détaillée des lignes de suppléments."
 
-#: ../../content/facturation/application-supplements.md:189
+#: ../../content/facturation/application-supplements.md:191
 msgid ""
 "You can filter between **one-off** and **convention** supplements, and group"
 " by **resident**, **product** or **month**."
@@ -595,7 +627,7 @@ msgstr ""
 "Vous pouvez filtrer entre suppléments **ponctuels** et de **convention**, et"
 " regrouper par **résident**, **produit** ou **mois**."
 
-#: ../../content/facturation/application-supplements.md:192
+#: ../../content/facturation/application-supplements.md:194
 msgid ""
 "![Supplements reporting on the graph view, one bar per resident with the "
 "billed amount](../assets/screenshots/facturation/04-supplements-"
@@ -605,7 +637,7 @@ msgstr ""
 " montant facturé](../assets/screenshots/facturation/04-supplements-"
 "reporting.webp)"
 
-#: ../../content/facturation/application-supplements.md:192
+#: ../../content/facturation/application-supplements.md:194
 msgid ""
 "Supplements reporting on the graph view, one bar per resident with the "
 "billed amount"
@@ -613,11 +645,11 @@ msgstr ""
 "Reporting des suppléments en vue graphique, une barre par résident avec le "
 "montant facturé"
 
-#: ../../content/facturation/application-supplements.md:194
+#: ../../content/facturation/application-supplements.md:196
 msgid "After generation only"
 msgstr "Après génération seulement"
 
-#: ../../content/facturation/application-supplements.md:197
+#: ../../content/facturation/application-supplements.md:199
 msgid ""
 "Supplements only appear in the reporting once the **billing period is "
 "generated** for the relevant month."
@@ -625,11 +657,11 @@ msgstr ""
 "Les suppléments n'apparaissent dans le reporting qu'une fois la **période de"
 " facturation générée** pour le mois concerné."
 
-#: ../../content/facturation/application-supplements.md:201
+#: ../../content/facturation/application-supplements.md:203
 msgid "Key points to remember"
 msgstr "Points clés à retenir"
 
-#: ../../content/facturation/application-supplements.md:203
+#: ../../content/facturation/application-supplements.md:205
 msgid ""
 "The **Supplements** app is a dedicated entry screen; it acts on the **same "
 "envelopes and conventions** as billing — no duplicate data."
@@ -638,7 +670,7 @@ msgstr ""
 "les **mêmes enveloppes et conventions** que la facturation — pas de données "
 "en double."
 
-#: ../../content/facturation/application-supplements.md:205
+#: ../../content/facturation/application-supplements.md:207
 msgid ""
 "The **Residents** screen is the starting point: click a resident to open "
 "their catalog, or **select several** (Ctrl+click / long press / **Multiple "
@@ -649,7 +681,7 @@ msgstr ""
 "long / **Sélection multiple**) puis **Suppléments (N)** pour les servir en "
 "une fois."
 
-#: ../../content/facturation/application-supplements.md:208
+#: ../../content/facturation/application-supplements.md:210
 msgid ""
 "**One-off** = once on the envelope; **convention** = recurring, on the "
 "resident, surviving stay changes."
@@ -657,11 +689,11 @@ msgstr ""
 "**Ponctuel** = une fois sur l'enveloppe ; **convention** = récurrent, sur le"
 " résident, survivant aux changements de séjour."
 
-#: ../../content/facturation/application-supplements.md:210
+#: ../../content/facturation/application-supplements.md:212
 msgid "A product under an **active convention** cannot be entered as one-off."
 msgstr "Un produit sous **convention active** ne se saisit pas en ponctuel."
 
-#: ../../content/facturation/application-supplements.md:211
+#: ../../content/facturation/application-supplements.md:213
 msgid ""
 "The **catalog** carries the type and the price (value specific to the "
 "facility); the **reporting** tracks amounts per resident, product and month."
@@ -669,23 +701,23 @@ msgstr ""
 "Le **catalogue** porte le type et le prix (valeur propre à l'établissement) "
 "; le **reporting** suit les montants par résident, produit et mois."
 
-#: ../../content/facturation/application-supplements.md:214
+#: ../../content/facturation/application-supplements.md:216
 msgid "Further reading"
 msgstr "Pour aller plus loin"
 
-#: ../../content/facturation/application-supplements.md:216
+#: ../../content/facturation/application-supplements.md:218
 msgid "[Supplements](supplements.md)"
 msgstr "[Les suppléments](supplements.md)"
 
-#: ../../content/facturation/application-supplements.md:217
+#: ../../content/facturation/application-supplements.md:219
 msgid "[Billing a month, step by step](facturer-un-mois.md)"
 msgstr "[Facturer un mois, pas à pas](facturer-un-mois.md)"
 
-#: ../../content/facturation/application-supplements.md:218
+#: ../../content/facturation/application-supplements.md:220
 msgid "[Billing overview](index.md)"
 msgstr "[Vue d'ensemble de la facturation](index.md)"
 
-#: ../../content/facturation/application-supplements.md:219
+#: ../../content/facturation/application-supplements.md:221
 msgid "[Billing settings](../configuration/reglages-facturation.md)"
 msgstr "[Réglages de facturation](../configuration/reglages-facturation.md)"
 
