@@ -79,6 +79,48 @@ point to the cause.
 | **Amount / rate mismatch** | The OA returns an **unexpected amount/rate** | Check the applied **rate** and the line amount, correct the configuration, regenerate, resend. |
 | **Technical / format rejection** | **Global rejection**: the file did not pass the format check | Rare case to escalate: use **Contact OA** or **Helpdesk**, fix, then resend a new batch. |
 
+## Resend, or waive the rejection
+
+A rejected batch leaves you with two paths, and Resthome tracks both.
+
+### Retransmit
+
+**Retransmit** builds a **new batch** from the rejected one. Each line is
+re-routed to the health insurance fund the resident **actually** belongs to
+today — which is often what the rejection was about.
+
+- If the lines now belong to **several funds**, Resthome creates **one batch per
+  fund**.
+- A batch can only be retransmitted **once**: if a resend already exists,
+  Resthome points you to it rather than creating a duplicate.
+
+:::{admonition} Retransmit re-sends unchanged content
+:class: warning
+
+If the billing was **corrected** since the batch was sent — a stay closed, a
+death capped, lines regenerated — retransmitting would re-send the amounts from
+*before* the correction. Resthome detects it and sends you to the regeneration
+flow instead, which rebuilds from the current billing.
+:::
+
+### Waive
+
+Sometimes the rejection is right and there is nothing to correct. **Waive**
+records that decision: the batch **will not be resent**, the fund's rejection
+stands, and the batch leaves the "To resend" worklist.
+
+It is **reversible**: a waived batch can be put back on the worklist at any
+time. Both the waiver and its cancellation are written to the batch's log, so
+the decision stays traceable.
+
+:::{admonition} Waiving is a management decision
+:class: note
+
+It is not a way of tidying up the list. Waiving means accepting the loss of the
+amount concerned — which is sometimes the right call when the correction would
+cost more than it recovers.
+:::
+
 ## Fix, then resend
 
 The principle: **you do not resend a rejected batch as-is — you fix the cause

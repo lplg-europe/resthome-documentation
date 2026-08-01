@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-28 17:29+0200\n"
+"POT-Creation-Date: 2026-08-01 02:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -184,10 +184,75 @@ msgstr ""
 " ce qui a été donné, quand, et par qui. La traçabilité est complète."
 
 #: ../../content/soins/prescriptions.md:58
+msgid "Hospitalisation: suspend, then resume"
+msgstr "Hospitalisation : suspendre, puis reprendre"
+
+#: ../../content/soins/prescriptions.md:60
+msgid ""
+"When a resident goes to hospital, their prescriptions must not stay active —"
+" the hospital takes over. Resthome does it in one step."
+msgstr ""
+"Quand un résident part à l'hôpital, ses prescriptions ne doivent pas rester "
+"actives — l'hôpital prend le relais. Resthome le fait en une étape."
+
+#: ../../content/soins/prescriptions.md:63
+msgid "From the resident's record, open the **hospitalisation** action."
+msgstr "Depuis la fiche du résident, ouvrez l'action **hospitalisation**."
+
+#: ../../content/soins/prescriptions.md:64
+msgid "Choose **Hospitalise**, and enter the **date** and the **reason**."
+msgstr ""
+"Choisissez **Hospitaliser**, et saisissez la **date** et le **motif**."
+
+#: ../../content/soins/prescriptions.md:65
+msgid ""
+"Confirm: every **active** prescription is **suspended**, each one carrying "
+"the date and the reason."
+msgstr ""
+"Validez : chaque prescription **active** est **suspendue**, en portant la "
+"date et le motif."
+
+#: ../../content/soins/prescriptions.md:68
+msgid ""
+"On the way back, the same action in **Return** mode **resumes** the "
+"prescriptions that had been suspended for this hospitalisation."
+msgstr ""
+"Au retour, la même action en mode **Retour** **reprend** les prescriptions "
+"suspendues pour cette hospitalisation."
+
+#: ../../content/soins/prescriptions.md:71
+msgid "The liaison pack"
+msgstr "Le dossier de liaison"
+
+#: ../../content/soins/prescriptions.md:73
+msgid ""
+"Before the resident leaves, print the **liaison pack**: the document the "
+"hospital asks for on admission. It gathers what the ward needs — identity, "
+"treatments, allergies, dependency, and the hospitalisation preferences "
+"recorded in the [anamnesis](anamnese.md)."
+msgstr ""
+"Avant le départ du résident, imprimez le **dossier de liaison** : le "
+"document que l'hôpital demande à l'admission. Il rassemble ce dont le "
+"service a besoin — identité, traitements, allergies, dépendance, et les "
+"préférences d'hospitalisation consignées dans l'[anamnèse](anamnese.md)."
+
+#: ../../content/soins/prescriptions.md:78
+msgid "One click, at the right moment"
+msgstr "Un clic, au bon moment"
+
+#: ../../content/soins/prescriptions.md:81
+msgid ""
+"The pack is printed from the hospitalisation window itself, so it is "
+"produced while the transfer is being recorded — not looked for afterwards."
+msgstr ""
+"Le dossier s'imprime depuis la fenêtre d'hospitalisation elle-même : il est "
+"donc produit pendant l'enregistrement du transfert — pas cherché après coup."
+
+#: ../../content/soins/prescriptions.md:85
 msgid "Lots and stock"
 msgstr "Lots et stock"
 
-#: ../../content/soins/prescriptions.md:60
+#: ../../content/soins/prescriptions.md:87
 msgid ""
 "The **medication lots** and the **stock withdrawals** let you track the "
 "available quantities and consumption, with lot numbers for traceability."
@@ -196,34 +261,34 @@ msgstr ""
 " les quantités disponibles et la consommation, avec les numéros de lot pour "
 "la traçabilité."
 
-#: ../../content/soins/prescriptions.md:63
+#: ../../content/soins/prescriptions.md:90
 msgid "Useful configuration"
 msgstr "Configuration utile"
 
-#: ../../content/soins/prescriptions.md:65
+#: ../../content/soins/prescriptions.md:92
 msgid "**Pathologies (ICD-10)** — the resident's history and diagnoses."
 msgstr "**Pathologies (CIM-10)** — antécédents et diagnostics du résident."
 
-#: ../../content/soins/prescriptions.md:66
+#: ../../content/soins/prescriptions.md:93
 msgid "**Allergens** — known allergies."
 msgstr "**Allergènes** — allergies connues."
 
-#: ../../content/soins/prescriptions.md:67
+#: ../../content/soins/prescriptions.md:94
 msgid "**Drug interactions** — vigilance rules."
 msgstr "**Interactions médicamenteuses** — règles de vigilance."
 
-#: ../../content/soins/prescriptions.md:68
+#: ../../content/soins/prescriptions.md:95
 msgid "**SAM database** — reference catalogue of Belgian medications."
 msgstr "**Base SAM** — référentiel des médicaments belges."
 
-#: ../../content/soins/prescriptions.md:70
+#: ../../content/soins/prescriptions.md:97
 msgid "Going further"
 msgstr "Pour aller plus loin"
 
-#: ../../content/soins/prescriptions.md:72
+#: ../../content/soins/prescriptions.md:99
 msgid "[Care plans and vital signs](plans-de-soins.md)"
 msgstr "[Plans de soins et signes vitaux](plans-de-soins.md)"
 
-#: ../../content/soins/prescriptions.md:73
+#: ../../content/soins/prescriptions.md:100
 msgid "[Clinical registers](registres.md)"
 msgstr "[Registres cliniques](registres.md)"

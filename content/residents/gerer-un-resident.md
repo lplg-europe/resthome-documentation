@@ -50,6 +50,18 @@ They are often identical, but can differ — Resthome handles both.
 4. Select the resident's **health insurance fund**.
 5. **Save**.
 
+### Reading the identity card (eID)
+
+Rather than typing the identity in, you can **read the resident's eID card**.
+Resthome fills in the name, the date of birth, the gender and the **NISS** from
+the card itself — no typo, no transposed digit.
+
+- From an **existing record**, the eID reading **updates** that resident.
+- From the **New resident via eID** menu entry, Resthome looks the person up by
+  NISS and **creates** the record if it does not exist yet.
+
+A card reader must be connected to the workstation.
+
 :::{admonition} The NISS is required for eHealth
 :class: warning
 

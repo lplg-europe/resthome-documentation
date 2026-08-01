@@ -14,6 +14,7 @@ efact-rejets
 efact-paiements
 eagreement
 eagreement-refus
+vacances-collectives
 eagreement-signature
 :::
 

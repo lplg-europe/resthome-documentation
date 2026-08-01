@@ -55,6 +55,33 @@ It warns you if a prescription poses a risk — a safeguard before administratio
 **Administrations** stem from prescriptions: the caregiver records what was
 given, when and by whom. Traceability is complete.
 
+## Hospitalisation: suspend, then resume
+
+When a resident goes to hospital, their prescriptions must not stay active —
+the hospital takes over. Resthome does it in one step.
+
+1. From the resident's record, open the **hospitalisation** action.
+2. Choose **Hospitalise**, and enter the **date** and the **reason**.
+3. Confirm: every **active** prescription is **suspended**, each one carrying
+   the date and the reason.
+
+On the way back, the same action in **Return** mode **resumes** the
+prescriptions that had been suspended for this hospitalisation.
+
+### The liaison pack
+
+Before the resident leaves, print the **liaison pack**: the document the
+hospital asks for on admission. It gathers what the ward needs — identity,
+treatments, allergies, dependency, and the hospitalisation preferences recorded
+in the [anamnesis](anamnese.md).
+
+:::{admonition} One click, at the right moment
+:class: tip
+
+The pack is printed from the hospitalisation window itself, so it is produced
+while the transfer is being recorded — not looked for afterwards.
+:::
+
 ## Lots and stock
 
 The **medication lots** and the **stock withdrawals** let you track the available

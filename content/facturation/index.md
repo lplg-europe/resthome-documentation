@@ -7,6 +7,7 @@ Billing periods, INAMI packages, supplements, absences and invoices in Resthome.
 :::{toctree}
 :hidden:
 
+checklist-fin-de-mois
 forfait-inami
 facturer-un-mois
 supplements

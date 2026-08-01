@@ -1,0 +1,515 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-31 17:54+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: fr <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:1
+msgid "Month-end checklist"
+msgstr "Check-list de fin de mois"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:4
+msgid ""
+"The complete month-end sequence in Resthome, in order: insurability, "
+"absences, Katz, supplements, generate, invoice, send eFact, reconcile "
+"payments."
+msgstr ""
+"La séquence complète de fin de mois dans Resthome, dans l'ordre : "
+"assurabilité, absences, Katz, suppléments, générer, facturer, envoyer eFact,"
+" pointer les paiements."
+
+#: ../../content/facturation/checklist-fin-de-mois.md:8
+msgid "In what order should I close a billing month in Resthome?"
+msgstr "Dans quel ordre clôturer un mois de facturation dans Resthome ?"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:9
+msgid ""
+"Check insurability (MDA), close the absences, bring the Katz assessments up "
+"to date, enter the supplements, generate the period, create the invoices, "
+"generate and send the eFact batches, then reconcile the settlements."
+msgstr ""
+"Vérifier l'assurabilité (MDA), clôturer les absences, mettre les évaluations"
+" Katz à jour, saisir les suppléments, générer la période, créer les "
+"factures, générer et envoyer les lots eFact, puis pointer les décomptes."
+
+#: ../../content/facturation/checklist-fin-de-mois.md:11
+msgid "Why must the MDA come before generating the period?"
+msgstr "Pourquoi le MDA doit-il précéder la génération de la période ?"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:12
+msgid ""
+"Because the MDA determines the health insurance fund and the insurability of"
+" each resident. Generating before it means billing the wrong insurer, and "
+"the batch comes back rejected."
+msgstr ""
+"Parce que le MDA détermine la mutuelle et l'assurabilité de chaque résident."
+" Générer avant, c'est facturer à la mauvaise mutuelle — et le lot revient "
+"rejeté."
+
+#: ../../content/facturation/checklist-fin-de-mois.md:14
+msgid "What happens if I forget to close an absence?"
+msgstr "Que se passe-t-il si j'oublie de clôturer une absence ?"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:15
+msgid ""
+"The allowance is computed on presence days: an open absence distorts the day"
+" count and therefore the insurer's share. The period's Absences counter "
+"shows the ones still open."
+msgstr ""
+"Le forfait est calculé sur les jours de présence : une absence ouverte "
+"fausse le décompte des jours, et donc la part mutuelle. Le compteur Absences"
+" de la période montre celles encore ouvertes."
+
+#: ../../content/facturation/checklist-fin-de-mois.md:17
+msgid "Can I still correct a month after invoicing?"
+msgstr "Puis-je encore corriger un mois après facturation ?"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:18
+msgid ""
+"Yes, but not silently. Reset the invoice to draft or issue a credit note, "
+"then refresh. Resthome never modifies a posted invoice on its own, to "
+"prevent double invoicing."
+msgstr ""
+"Oui, mais pas en silence. Remettez la facture en brouillon ou émettez une "
+"note de crédit, puis rafraîchissez. Resthome ne modifie jamais de lui-même "
+"une facture comptabilisée, pour éviter une double facturation."
+
+#: ../../content/facturation/checklist-fin-de-mois.md:20
+msgid "How do I know the month is really finished?"
+msgstr "Comment savoir que le mois est vraiment terminé ?"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:21
+msgid ""
+"When every batch has been acknowledged and settled, the Cockpit's stacks are"
+" empty and the amounts to reconcile are nil."
+msgstr ""
+"Quand tous les lots ont été accusés et décomptés, que les piles du cockpit "
+"sont vides et que les montants à pointer sont nuls."
+
+#: ../../content/facturation/checklist-fin-de-mois.md:24
+msgid ""
+"This page gathers, **in order**, everything a month-end requires. Each step "
+"links to the page that details it."
+msgstr ""
+"Cette page rassemble, **dans l'ordre**, tout ce qu'exige une fin de mois. "
+"Chaque étape renvoie à la page qui la détaille."
+
+#: ../../content/facturation/checklist-fin-de-mois.md:27
+msgid ""
+"The order is not arbitrary: each step **feeds the next**, and skipping one "
+"shows up several steps later as a rejection that is far more costly to fix."
+msgstr ""
+"L'ordre n'est pas arbitraire : chaque étape **alimente la suivante**, et en "
+"sauter une se paie plusieurs étapes plus loin sous forme d'un rejet bien "
+"plus coûteux à corriger."
+
+#: ../../content/facturation/checklist-fin-de-mois.md:30
+msgid "Overview"
+msgstr "Vue d'ensemble"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:43
+msgid "Before generating"
+msgstr "Avant de générer"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:45
+msgid "1. Check insurability (MDA)"
+msgstr "1\\. Vérifier l'assurabilité (MDA)"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:47
+msgid ""
+"Run the **batch MDA** for the month: it confirms who is insured and, above "
+"all, **which insurer actually responds**. A resident who changed fund "
+"without telling you is caught here — not by a rejection three weeks later."
+msgstr ""
+"Lancez le **MDA par lot** du mois : il confirme qui est assuré et, surtout, "
+"**quelle mutuelle répond réellement**. Un résident qui a changé de mutuelle "
+"sans le dire est repéré ici — pas par un rejet trois semaines plus tard."
+
+#: ../../content/facturation/checklist-fin-de-mois.md:51
+msgid "Every resident must reach the **Success** status."
+msgstr "Chaque résident doit atteindre l'état **Succès**."
+
+#: ../../content/facturation/checklist-fin-de-mois.md:52
+msgid ""
+"Handle the **Not insured** cases: their share goes to the resident, not to "
+"the insurer."
+msgstr ""
+"Traitez les cas **Non assuré** : leur part va au résident, pas à la "
+"mutuelle."
+
+#: ../../content/facturation/checklist-fin-de-mois.md:54
+msgid "Retry the **errors** and the **no-responses**."
+msgstr "Relancez les **erreurs** et les **absences de réponse**."
+
+#: ../../content/facturation/checklist-fin-de-mois.md:56
+msgid ""
+"→ [Insurability (MDA)](../ehealth/mda.md) · [MDA errors](../ehealth/mda-"
+"erreurs.md)"
+msgstr ""
+"→ [Assurabilité (MDA)](../ehealth/mda.md) · [Erreurs MDA](../ehealth/mda-"
+"erreurs.md)"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:58
+msgid "The single most useful step"
+msgstr "L'étape la plus utile"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:61
+msgid ""
+"Most eFact rejections come from a wrong insurer or a lost insurability. "
+"Running the MDA at the **start** of the month, before anything else, removes"
+" that whole class of problems."
+msgstr ""
+"La plupart des rejets eFact viennent d'une mauvaise mutuelle ou d'une perte "
+"d'assurabilité. Lancer le MDA en **début** de mois, avant tout le reste, "
+"élimine toute cette famille de problèmes."
+
+#: ../../content/facturation/checklist-fin-de-mois.md:66
+msgid "2. Close the absences"
+msgstr "2\\. Clôturer les absences"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:68
+msgid ""
+"Every absence in the month must have its **return** filled in — or be "
+"knowingly left open if the resident is still away."
+msgstr ""
+"Chaque absence du mois doit avoir son **retour** renseigné — ou rester "
+"sciemment ouverte si le résident est toujours absent."
+
+#: ../../content/facturation/checklist-fin-de-mois.md:71
+msgid ""
+"The period's **Absences** counter shows those still open. An open absence "
+"distorts the day count, and therefore the allowance."
+msgstr ""
+"Le compteur **Absences** de la période montre celles encore ouvertes. Une "
+"absence ouverte fausse le décompte des jours, et donc le forfait."
+
+#: ../../content/facturation/checklist-fin-de-mois.md:74
+msgid "→ [Absences and hospitalisations](absences.md)"
+msgstr "→ [Absences et hospitalisations](absences.md)"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:76
+msgid "3. Bring the Katz assessments up to date"
+msgstr "3\\. Mettre les évaluations Katz à jour"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:78
+msgid ""
+"The Katz category determines the **INAMI flat rate**. A missing or expired "
+"assessment means a resident billed in category **O** — the lowest."
+msgstr ""
+"La catégorie Katz détermine le **forfait INAMI**. Une évaluation manquante "
+"ou périmée, c'est un résident facturé en catégorie **O** — la plus basse."
+
+#: ../../content/facturation/checklist-fin-de-mois.md:81
+msgid "The **Katz to do** counter on the dashboard lists them."
+msgstr "Le compteur **Katz à faire** du tableau de bord les liste."
+
+#: ../../content/facturation/checklist-fin-de-mois.md:83
+msgid "→ [The Katz assessment](../residents/katz.md)"
+msgstr "→ [L'évaluation Katz](../residents/katz.md)"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:85
+msgid "4. Enter the supplements"
+msgstr "4\\. Saisir les suppléments"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:87
+msgid ""
+"One-off supplements for the month (hairdresser, pedicure, drinks…) must be "
+"entered **before** generating. Recurring supplements carry over on their "
+"own."
+msgstr ""
+"Les suppléments ponctuels du mois (coiffeur, pédicure, boissons…) doivent "
+"être saisis **avant** de générer. Les suppléments récurrents se reconduisent"
+" seuls."
+
+#: ../../content/facturation/checklist-fin-de-mois.md:90
+msgid ""
+"→ [Supplements](supplements.md) · [The Supplements app](application-"
+"supplements.md)"
+msgstr ""
+"→ [Suppléments](supplements.md) · [L'application Suppléments](application-"
+"supplements.md)"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:92
+msgid "Generating and invoicing"
+msgstr "Générer et facturer"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:94
+msgid "5. Generate the period"
+msgstr "5\\. Générer la période"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:96
+msgid ""
+"Open the month's period and click **Generate**. Resthome computes, for each "
+"resident, the allowance, the accommodation and the supplements."
+msgstr ""
+"Ouvrez la période du mois et cliquez sur **Générer**. Resthome calcule, pour"
+" chaque résident, le forfait, l'hébergement et les suppléments."
+
+#: ../../content/facturation/checklist-fin-de-mois.md:99
+msgid ""
+"Read the **self-checks** shown on the right: over-declared allowance, room "
+"freed but still billed, unclosed absence. They are there to be acted on "
+"before invoicing, not after."
+msgstr ""
+"Lisez les **auto-contrôles** affichés à droite : forfait surdéclaré, chambre"
+" libérée mais encore facturée, absence non clôturée. Ils sont là pour être "
+"traités avant la facturation, pas après."
+
+#: ../../content/facturation/checklist-fin-de-mois.md:103
+msgid "→ [Invoice a month](facturer-un-mois.md)"
+msgstr "→ [Facturer un mois](facturer-un-mois.md)"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:105
+msgid "6. Create the invoices"
+msgstr "6\\. Créer les factures"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:107
+msgid ""
+"Click **Create invoices**. The resident's share becomes an invoice; where a "
+"split is set up, each maintenance debtor receives their portion."
+msgstr ""
+"Cliquez sur **Créer les factures**. La part résident devient une facture ; "
+"là où une répartition est paramétrée, chaque débiteur d'aliments reçoit sa "
+"quote-part."
+
+#: ../../content/facturation/checklist-fin-de-mois.md:110
+msgid ""
+"→ [Maintenance debtors](split-billing.md) · [Public welfare centre "
+"(CPAS)](cpas.md)"
+msgstr "→ [Débiteurs d'aliments](split-billing.md) · [CPAS](cpas.md)"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:112
+msgid "After this point, corrections have a cost"
+msgstr "Passé ce point, corriger a un coût"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:115
+msgid ""
+"Once invoices are **posted**, Resthome no longer modifies them "
+"automatically. A correction goes through a **reset to draft** or a **credit "
+"note**, then a refresh. This is a protection against double invoicing, not "
+"an obstacle."
+msgstr ""
+"Une fois les factures **comptabilisées**, Resthome ne les modifie plus "
+"automatiquement. Une correction passe par une **remise en brouillon** ou une"
+" **note de crédit**, puis un rafraîchissement. C'est une protection contre "
+"la double facturation, pas un obstacle."
+
+#: ../../content/facturation/checklist-fin-de-mois.md:120
+msgid "Sending and following up"
+msgstr "Envoyer et suivre"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:122
+msgid "7. Generate and send the eFact batches"
+msgstr "7\\. Générer et envoyer les lots eFact"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:124
+msgid ""
+"Click **Generate eFact**: Resthome builds one batch per insurer. Check them,"
+" then send."
+msgstr ""
+"Cliquez sur **Générer eFact** : Resthome construit un lot par mutuelle. "
+"Vérifiez-les, puis envoyez."
+
+#: ../../content/facturation/checklist-fin-de-mois.md:127
+msgid "→ [Electronic billing (eFact)](../ehealth/efact.md)"
+msgstr "→ [Facturation électronique (eFact)](../ehealth/efact.md)"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:129
+msgid "8. Follow the responses"
+msgstr "8\\. Suivre les réponses"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:131
+msgid ""
+"Sending is not the end. Each batch goes through an **acknowledgement** then "
+"a **settlement**:"
+msgstr ""
+"L'envoi n'est pas la fin. Chaque lot passe par un **accusé de réception** "
+"puis un **décompte** :"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:134
+msgid "**rejected lines** — fix the cause and issue a remainder;"
+msgstr "**lignes rejetées** — corrigez la cause et émettez un reliquat ;"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:135
+msgid "**rejected batch** — a format problem, to escalate;"
+msgstr "**lot rejeté** — un problème de format, à faire remonter ;"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:136
+msgid "**settlement** — check the amount paid against the amount accepted."
+msgstr "**décompte** — vérifiez le montant payé au regard du montant accepté."
+
+#: ../../content/facturation/checklist-fin-de-mois.md:138
+msgid ""
+"The **eFact Cockpit** gathers everything to be done into stacks: to send, "
+"awaiting insurer, to correct, to reconcile, overdue payments."
+msgstr ""
+"Le **cockpit eFact** rassemble tout ce qui reste à faire en piles : à "
+"envoyer, en attente OA, à corriger, à pointer, paiements en retard."
+
+#: ../../content/facturation/checklist-fin-de-mois.md:141
+msgid ""
+"→ [eFact rejections](../ehealth/efact-rejets.md) · [Settlements and "
+"payments](../ehealth/efact-paiements.md)"
+msgstr ""
+"→ [Rejets eFact](../ehealth/efact-rejets.md) · [Décomptes et "
+"paiements](../ehealth/efact-paiements.md)"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:143
+msgid "Quick checklist"
+msgstr "Check-list express"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:112
+msgid "#"
+msgstr "#"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:112
+msgid "Step"
+msgstr "Étape"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:112
+msgid "Done when"
+msgstr "Terminé quand"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:112
+msgid "1"
+msgstr "1"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:112
+msgid "**MDA**"
+msgstr "**MDA**"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:112
+msgid "every resident is at Success"
+msgstr "chaque résident est en Succès"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:112
+msgid "2"
+msgstr "2"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:112
+msgid "**Absences**"
+msgstr "**Absences**"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:112
+msgid "no unintended open absence"
+msgstr "aucune absence ouverte non voulue"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:112
+msgid "3"
+msgstr "3"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:112
+msgid "**Katz**"
+msgstr "**Katz**"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:112
+msgid "no \"Katz to do\" left"
+msgstr "plus aucun « Katz à faire »"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:112
+msgid "4"
+msgstr "4"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:112
+msgid "**Supplements**"
+msgstr "**Suppléments**"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:112
+msgid "the month's one-off entries are in"
+msgstr "les saisies ponctuelles du mois sont faites"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:112
+msgid "5"
+msgstr "5"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:112
+msgid "**Generate**"
+msgstr "**Générer**"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:112
+msgid "the period is Generated, self-checks handled"
+msgstr "la période est Générée, auto-contrôles traités"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:112
+msgid "6"
+msgstr "6"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:112
+msgid "**Invoice**"
+msgstr "**Facturer**"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:112
+msgid "the resident invoices are created"
+msgstr "les factures résident sont créées"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:112
+msgid "7"
+msgstr "7"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:112
+msgid "**eFact**"
+msgstr "**eFact**"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:112
+msgid "the batches are sent"
+msgstr "les lots sont envoyés"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:112
+msgid "8"
+msgstr "8"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:112
+msgid "**Follow up**"
+msgstr "**Suivre**"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:112
+msgid "the Cockpit stacks are empty"
+msgstr "les piles du cockpit sont vides"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:156
+msgid "The deadline not to miss"
+msgstr "L'échéance à ne pas manquer"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:158
+msgid ""
+"eFact batches must reach the insurer by the **20th of the following month**."
+" Working backwards, the MDA and the corrections should be done in the "
+"**first week** — which leaves room to handle a rejection without missing the"
+" deadline."
+msgstr ""
+"Les lots eFact doivent parvenir à la mutuelle pour le **20 du mois "
+"suivant**. À rebours, le MDA et les corrections doivent être faits la "
+"**première semaine** — ce qui laisse de la marge pour traiter un rejet sans "
+"manquer l'échéance."
+
+#: ../../content/facturation/checklist-fin-de-mois.md:162
+msgid "Further reading"
+msgstr "Pour aller plus loin"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:164
+msgid "[Invoice a month](facturer-un-mois.md)"
+msgstr "[Facturer un mois](facturer-un-mois.md)"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:165
+msgid "[The billing journey](../parcours-facturation.md)"
+msgstr "[Le parcours de facturation](../parcours-facturation.md)"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:166
+msgid "[Electronic billing (eFact)](../ehealth/efact.md)"
+msgstr "[Facturation électronique (eFact)](../ehealth/efact.md)"

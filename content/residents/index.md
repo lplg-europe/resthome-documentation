@@ -13,6 +13,7 @@ katz
 evaluations
 changement-chambre
 chambres
+entretien-chambres
 etat-des-lieux
 procedure-emmenagement
 mobilier

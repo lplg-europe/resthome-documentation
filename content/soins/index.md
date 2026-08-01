@@ -8,6 +8,7 @@ The Resthome Care application — prescriptions, care plans, vital signs, nursin
 :hidden:
 
 dossier-medical
+anamnese
 prescriptions
 sam-base-medicaments
 plans-de-soins

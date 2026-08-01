@@ -104,6 +104,20 @@ and their status, with a link to the detail.
 
 ![Accepted agreement showing the agreement number and the start and end dates granted by the health insurer](../assets/screenshots/ehealth/31-eagreement-accepte.webp)
 
+### Answers that arrive by post or e-mail
+
+Not every fund answers electronically. Some send a **scanned letter** instead.
+Resthome collects those in the **eAgreement inbox**, and reads what it can from
+the incoming message:
+
+- the **NISS**, when it appears in the subject or the file name;
+- the fund's **reference**, when the pattern is recognisable;
+- the **type of document** — Annexe 8 (acceptance) or 9 (refusal) for MR/MRS,
+  Annexe 15 or 16 for short stays, or a **tacit agreement**.
+
+The **PDF** stays attached to the entry. What the extraction finds is a
+starting point, not a verdict: you confirm and attach it to the right request.
+
 ### In case of rejection
 
 If the mutuality rejects a request, Resthome displays the **rejection reason in

@@ -369,6 +369,15 @@ Elles sont souvent identiques, mais peuvent différer — Resthome gère les deu
 4. Sélectionnez la **mutuelle** du résident.
 5. **Enregistrez**.
 
+### Lire la carte d’identité (eID)
+
+Plutôt que de saisir l’identité, vous pouvez **lire la carte eID du résident**. Resthome renseigne le nom, la date de naissance, le genre et le **NISS** depuis la carte elle-même — sans faute de frappe ni chiffre inversé.
+
+- Depuis une **fiche existante**, la lecture eID **met à jour** ce résident.
+- Depuis l’entrée de menu **Nouveau résident via eID**, Resthome recherche la personne par son NISS et **crée** la fiche si elle n’existe pas encore.
+
+Un lecteur de carte doit être connecté au poste de travail.
+
 Le NISS est nécessaire pour l’eHealth
 
 Sans NISS, la vérification d’assurabilité (MDA) et les accords (eAgreement) ne peuvent pas être envoyés. Vous pouvez créer le résident sans NISS, mais pensez à le compléter dès que possible.
@@ -2346,6 +2355,31 @@ Sur chaque ligne refusée, un **code** et un **motif de rejet** en clair pointen
 | **Discordance de montant / tarif** | L’OA renvoie un **montant/tarif inattendu** | Vérifier le **tarif** appliqué et le montant de la ligne, corriger le paramétrage, régénérer, renvoyer. |
 | **Rejet technique / de format** | **Rejet global** : le fichier n’a pas passé le contrôle de format | Cas rare à escalader : utiliser **Contact OA** ou **Helpdesk**, corriger, puis renvoyer un lot neuf. |
 
+## Renvoyer, ou renoncer au rejet
+
+Un lot rejeté vous laisse deux voies, et Resthome garde trace des deux.
+
+### Retransmettre
+
+**Retransmettre** construit un **nouveau lot** à partir du lot rejeté. Chaque ligne est réacheminée vers la mutuelle à laquelle le résident appartient **réellement** aujourd’hui — ce qui est souvent l’objet même du rejet.
+
+- Si les lignes relèvent désormais de **plusieurs mutuelles**, Resthome crée **un lot par mutuelle**.
+- Un lot ne peut être retransmis qu”**une fois** : si un renvoi existe déjà, Resthome vous y renvoie plutôt que d’en créer un doublon.
+
+Retransmettre renvoie un contenu inchangé
+
+Si la facturation a été **corrigée** depuis l’envoi du lot — séjour clôturé, décès plafonné, lignes régénérées — retransmettre renverrait les montants d”*avant* la correction. Resthome le détecte et vous oriente vers le flux de régénération, qui reconstruit à partir de la facturation actuelle.
+
+### Renoncer
+
+Parfois le rejet est fondé et il n’y a rien à corriger. **Renoncer** acte cette décision : le lot **ne sera pas renvoyé**, le rejet de la mutuelle est définitif, et le lot quitte la liste « À renvoyer ».
+
+C’est **réversible** : un lot auquel on a renoncé peut être remis dans la liste à tout moment. La renonciation comme son annulation sont consignées dans le journal du lot : la décision reste traçable.
+
+Renoncer est une décision de gestion
+
+Ce n’est pas une façon de faire le ménage dans la liste. Renoncer, c’est accepter la perte du montant concerné — ce qui est parfois le bon choix quand la correction coûterait plus qu’elle ne rapporte.
+
 ## Corriger, puis renvoyer
 
 Le principe : **on ne repousse pas un lot rejeté tel quel — on corrige la cause à la source, puis on renvoie.**
@@ -2583,6 +2617,16 @@ Depuis la fiche du résident ou la période de facturation, vous voyez la liste 
 ![Liste des accords eAgreement, une ligne par accord avec le résident, le type de demande, la mutuelle et l'état](../../_images/30-eagreement-liste.webp)
 
 ![Accord accepté affichant le numéro d'accord et les dates de début et de fin octroyées par la mutuelle](../../_images/31-eagreement-accepte.webp)
+
+### Les réponses qui arrivent par courrier ou par e-mail
+
+Toutes les mutuelles ne répondent pas par voie électronique. Certaines envoient un **courrier scanné**. Resthome les rassemble dans la **boîte de réception eAgreement** et lit ce qu’il peut du message entrant :
+
+- le **NISS**, lorsqu’il figure dans l’objet ou le nom du fichier ;
+- la **référence** de la mutuelle, lorsque le format est reconnaissable ;
+- le **type de document** — Annexe 8 (acceptation) ou 9 (refus) pour MR/MRS, Annexe 15 ou 16 pour le court séjour, ou un **accord tacite**.
+
+Le **PDF** reste attaché à l’entrée. Ce que l’extraction trouve est un point de départ, pas un verdict : c’est vous qui confirmez et rattachez à la bonne demande.
 
 ### En cas de rejet
 
@@ -3041,6 +3085,24 @@ Resthome connaît les **allergies** du résident et les **interactions médicame
 ## Administrer
 
 Les **administrations** découlent des prescriptions : le soignant enregistre ce qui a été donné, quand, et par qui. La traçabilité est complète.
+
+## Hospitalisation : suspendre, puis reprendre
+
+Quand un résident part à l’hôpital, ses prescriptions ne doivent pas rester actives — l’hôpital prend le relais. Resthome le fait en une étape.
+
+1. Depuis la fiche du résident, ouvrez l’action **hospitalisation**.
+2. Choisissez **Hospitaliser**, et saisissez la **date** et le **motif**.
+3. Validez : chaque prescription **active** est **suspendue**, en portant la date et le motif.
+
+Au retour, la même action en mode **Retour** **reprend** les prescriptions suspendues pour cette hospitalisation.
+
+### Le dossier de liaison
+
+Avant le départ du résident, imprimez le **dossier de liaison** : le document que l’hôpital demande à l’admission. Il rassemble ce dont le service a besoin — identité, traitements, allergies, dépendance, et les préférences d’hospitalisation consignées dans l”[anamnèse](../anamnese/).
+
+Un clic, au bon moment
+
+Le dossier s’imprime depuis la fenêtre d’hospitalisation elle-même : il est donc produit pendant l’enregistrement du transfert — pas cherché après coup.
 
 ## Lots et stock
 

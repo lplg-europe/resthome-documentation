@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-28 17:29+0200\n"
+"POT-Creation-Date: 2026-08-01 02:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nl <LL@li.org>\n"
@@ -164,15 +164,47 @@ msgid "Select the resident's **health insurance fund**."
 msgstr "Selecteer de **mutualiteit** van de bewoner."
 
 #: ../../content/residents/gerer-un-resident.md:51
-#: ../../content/residents/gerer-un-resident.md:67
+#: ../../content/residents/gerer-un-resident.md:79
 msgid "**Save**."
 msgstr "**Sla op**."
 
 #: ../../content/residents/gerer-un-resident.md:53
+msgid "Reading the identity card (eID)"
+msgstr "De identiteitskaart lezen (eID)"
+
+#: ../../content/residents/gerer-un-resident.md:55
+msgid ""
+"Rather than typing the identity in, you can **read the resident's eID "
+"card**. Resthome fills in the name, the date of birth, the gender and the "
+"**NISS** from the card itself — no typo, no transposed digit."
+msgstr ""
+"In plaats van de identiteit in te typen, kunt u **de eID-kaart van de "
+"bewoner lezen**. Resthome vult de naam, de geboortedatum, het geslacht en "
+"het **INSZ** in vanaf de kaart zelf — zonder typfout of omgewisseld cijfer."
+
+#: ../../content/residents/gerer-un-resident.md:59
+msgid ""
+"From an **existing record**, the eID reading **updates** that resident."
+msgstr ""
+"Vanuit een **bestaande fiche** **actualiseert** het eID-lezen die bewoner."
+
+#: ../../content/residents/gerer-un-resident.md:60
+msgid ""
+"From the **New resident via eID** menu entry, Resthome looks the person up "
+"by NISS and **creates** the record if it does not exist yet."
+msgstr ""
+"Via het menu-item **Nieuwe bewoner via eID** zoekt Resthome de persoon op "
+"via het INSZ en **maakt** de fiche aan als ze nog niet bestaat."
+
+#: ../../content/residents/gerer-un-resident.md:63
+msgid "A card reader must be connected to the workstation."
+msgstr "Er moet een kaartlezer op het werkstation zijn aangesloten."
+
+#: ../../content/residents/gerer-un-resident.md:65
 msgid "The NISS is required for eHealth"
 msgstr "Het NISS is nodig voor eHealth"
 
-#: ../../content/residents/gerer-un-resident.md:56
+#: ../../content/residents/gerer-un-resident.md:68
 msgid ""
 "Without a NISS, insurability verification (MDA) and agreements (eAgreement) "
 "cannot be sent. You can create the resident without a NISS, but remember to "
@@ -182,45 +214,45 @@ msgstr ""
 "(eAgreement) niet verstuurd worden. U kunt de bewoner zonder NISS aanmaken, "
 "maar vul het zo snel mogelijk aan."
 
-#: ../../content/residents/gerer-un-resident.md:59
+#: ../../content/residents/gerer-un-resident.md:71
 msgid "2. Open a stay agreement"
 msgstr "2\\. Een verblijfsovereenkomst openen"
 
-#: ../../content/residents/gerer-un-resident.md:61
+#: ../../content/residents/gerer-un-resident.md:73
 msgid "The **stay** links the resident to a room and triggers billing."
 msgstr ""
 "Het **verblijf** koppelt de bewoner aan een kamer en start de facturatie."
 
-#: ../../content/residents/gerer-un-resident.md:63
+#: ../../content/residents/gerer-un-resident.md:75
 msgid "On the resident record, open the **Convention** tab."
 msgstr "Open op de fiche van de bewoner het tabblad **Overeenkomst**."
 
-#: ../../content/residents/gerer-un-resident.md:64
+#: ../../content/residents/gerer-un-resident.md:76
 msgid "Click **Add a line**."
 msgstr "Klik op **Regel toevoegen**."
 
-#: ../../content/residents/gerer-un-resident.md:65
+#: ../../content/residents/gerer-un-resident.md:77
 msgid "Choose the **room** (only available rooms are offered)."
 msgstr "Kies de **kamer** (enkel beschikbare kamers worden voorgesteld)."
 
-#: ../../content/residents/gerer-un-resident.md:66
+#: ../../content/residents/gerer-un-resident.md:78
 msgid "Enter the **stay type** (MR or MRS) and the **stay start date**."
 msgstr ""
 "Geef het **verblijfstype** (ROB of RVT) en de **startdatum verblijf** op."
 
-#: ../../content/residents/gerer-un-resident.md:69
+#: ../../content/residents/gerer-un-resident.md:81
 msgid "The stay is then in the **Draft** state."
 msgstr "Het verblijf staat dan in de status **Concept**."
 
-#: ../../content/residents/gerer-un-resident.md:71
+#: ../../content/residents/gerer-un-resident.md:83
 msgid "3. Confirm then start the stay"
 msgstr "3\\. Bevestigen en het verblijf starten"
 
-#: ../../content/residents/gerer-un-resident.md:73
+#: ../../content/residents/gerer-un-resident.md:85
 msgid "The stay goes through two steps:"
 msgstr "Het verblijf doorloopt twee stappen:"
 
-#: ../../content/residents/gerer-un-resident.md:75
+#: ../../content/residents/gerer-un-resident.md:87
 msgid ""
 "**Confirm** — the stay becomes *Confirmed* (the room is reserved). The "
 "**admission date and time** fields appear: fill them in."
@@ -228,7 +260,7 @@ msgstr ""
 "**Bevestigen** — het verblijf wordt *Bevestigd* (de kamer is gereserveerd). "
 "De velden **opnamedatum en -uur** verschijnen: vul ze in."
 
-#: ../../content/residents/gerer-un-resident.md:76
+#: ../../content/residents/gerer-un-resident.md:88
 msgid ""
 "**Start Stay** — the stay becomes *In Progress* (the resident is actually "
 "present)."
@@ -236,19 +268,19 @@ msgstr ""
 "**Start Stay (Starten)** — het verblijf wordt *Lopend* (de bewoner is "
 "effectief aanwezig)."
 
-#: ../../content/residents/gerer-un-resident.md:78
+#: ../../content/residents/gerer-un-resident.md:90
 msgid "What starting the stay triggers automatically"
 msgstr "Wat de start automatisch in gang zet"
 
-#: ../../content/residents/gerer-un-resident.md:81
+#: ../../content/residents/gerer-un-resident.md:93
 msgid "When the stay starts, Resthome:"
 msgstr "Bij de start doet Resthome:"
 
-#: ../../content/residents/gerer-un-resident.md:83
+#: ../../content/residents/gerer-un-resident.md:95
 msgid "adds the resident to the open **billing periods**;"
 msgstr "de bewoner toevoegen aan de open **facturatieperiodes**;"
 
-#: ../../content/residents/gerer-un-resident.md:84
+#: ../../content/residents/gerer-un-resident.md:96
 msgid ""
 "for a resident billed in advance, creates the **first accommodation "
 "invoice** for the admission month;"
@@ -256,25 +288,25 @@ msgstr ""
 "voor een vooraf gefactureerde bewoner de **eerste verblijfsfactuur** van de "
 "opnamemaand aanmaken;"
 
-#: ../../content/residents/gerer-un-resident.md:85
+#: ../../content/residents/gerer-un-resident.md:97
 msgid "opens the month's **supplements envelope**;"
 msgstr "de **supplementenenveloppe** van de maand openen;"
 
-#: ../../content/residents/gerer-un-resident.md:86
+#: ../../content/residents/gerer-un-resident.md:98
 msgid "creates the **admission eAgreement** (if the NISS is present)."
 msgstr "de **eAgreement voor opname** aanmaken (als het NISS aanwezig is)."
 
-#: ../../content/residents/gerer-un-resident.md:89
+#: ../../content/residents/gerer-un-resident.md:101
 msgid "4. Enter the Katz assessment"
 msgstr "4\\. De Katz-evaluatie invoeren"
 
-#: ../../content/residents/gerer-un-resident.md:91
+#: ../../content/residents/gerer-un-resident.md:103
 msgid ""
 "The **Katz** category (O, A, B, C, Cd) determines the **INAMI flat-rate "
 "fee**."
 msgstr "De **Katz**-categorie (O, A, B, C, Cd) bepaalt het **RIZIV-forfait**."
 
-#: ../../content/residents/gerer-un-resident.md:93
+#: ../../content/residents/gerer-un-resident.md:105
 msgid ""
 "From the resident record, open **Assessment tools → Katz** (or the **Katz** "
 "button)."
@@ -282,7 +314,7 @@ msgstr ""
 "Open vanaf de fiche van de bewoner **Evaluatietools → Katz** (of de knop "
 "**Katz**)."
 
-#: ../../content/residents/gerer-un-resident.md:94
+#: ../../content/residents/gerer-un-resident.md:106
 msgid ""
 "Click **New** and score the 6 criteria (washing, dressing, transfer, going "
 "to the toilet, continence, eating)."
@@ -290,15 +322,15 @@ msgstr ""
 "Klik op **Nieuw** en scoor de 6 criteria (wassen, kleden, transfer, toilet, "
 "continentie, eten)."
 
-#: ../../content/residents/gerer-un-resident.md:95
+#: ../../content/residents/gerer-un-resident.md:107
 msgid "**Confirm** then **Validate** the assessment."
 msgstr "**Bevestig** en **Valideer** de evaluatie."
 
-#: ../../content/residents/gerer-un-resident.md:97
+#: ../../content/residents/gerer-un-resident.md:109
 msgid "No validated Katz?"
 msgstr "Geen gevalideerde Katz?"
 
-#: ../../content/residents/gerer-un-resident.md:100
+#: ../../content/residents/gerer-un-resident.md:112
 msgid ""
 "As long as no validated Katz exists, the resident is in category **O** by "
 "default, and a \"Katz to do\" reminder appears on the dashboard."
@@ -307,23 +339,23 @@ msgstr ""
 "categorie **O**, en verschijnt een herinnering « Katz te doen » op het "
 "dashboard."
 
-#: ../../content/residents/gerer-un-resident.md:103
+#: ../../content/residents/gerer-un-resident.md:115
 msgid "5. Check insurability (MDA)"
 msgstr "5\\. De verzekerbaarheid controleren (MDA)"
 
-#: ../../content/residents/gerer-un-resident.md:105
+#: ../../content/residents/gerer-un-resident.md:117
 msgid "Before billing, check that the resident is properly insured:"
 msgstr "Controleer vóór het factureren of de bewoner wel verzekerd is:"
 
-#: ../../content/residents/gerer-un-resident.md:107
+#: ../../content/residents/gerer-un-resident.md:119
 msgid "Open the month's billing period, or the resident record."
 msgstr "Open de facturatieperiode van de maand, of de fiche van de bewoner."
 
-#: ../../content/residents/gerer-un-resident.md:108
+#: ../../content/residents/gerer-un-resident.md:120
 msgid "Run an **MDA check** (MyCareNet/WalCareNet insurability)."
 msgstr "Start een **MDA-controle** (verzekerbaarheid MyCareNet/WalCareNet)."
 
-#: ../../content/residents/gerer-un-resident.md:109
+#: ../../content/residents/gerer-un-resident.md:121
 msgid ""
 "Resthome automatically updates the **health insurance fund** and the **BIM**"
 " status where applicable."
@@ -331,11 +363,11 @@ msgstr ""
 "Resthome werkt automatisch de **mutualiteit** en de **BIM**-status bij "
 "indien nodig."
 
-#: ../../content/residents/gerer-un-resident.md:111
+#: ../../content/residents/gerer-un-resident.md:123
 msgid "Special cases"
 msgstr "Bijzondere gevallen"
 
-#: ../../content/residents/gerer-un-resident.md:113
+#: ../../content/residents/gerer-un-resident.md:125
 msgid ""
 "**Room change**: use the dedicated action on the stay — accommodation "
 "billing is split across the two rates, without a new admission."
@@ -344,7 +376,7 @@ msgstr ""
 "verblijfsfacturatie wordt gesplitst aan beide tarieven, zonder nieuwe "
 "opname."
 
-#: ../../content/residents/gerer-un-resident.md:114
+#: ../../content/residents/gerer-un-resident.md:126
 msgid ""
 "**MR ↔ MRS transfer**: a wizard records the transfer date and updates the "
 "stay type."
@@ -352,7 +384,7 @@ msgstr ""
 "**Overdracht ROB ↔ RVT**: een assistent registreert de overdrachtsdatum en "
 "werkt het verblijfstype bij."
 
-#: ../../content/residents/gerer-un-resident.md:115
+#: ../../content/residents/gerer-un-resident.md:127
 msgid ""
 "**Absence / hospitalization**: see the [Billing](../facturation/index.md) "
 "section — an absence adjusts the flat-rate fee and can generate an eHealth "
@@ -362,7 +394,7 @@ msgstr ""
 "[Facturatie](../facturation/index.md) — de afwezigheid past het forfait aan "
 "en kan een eHealth-melding genereren (Bijlage 11)."
 
-#: ../../content/residents/gerer-un-resident.md:116
+#: ../../content/residents/gerer-un-resident.md:128
 msgid ""
 "**End of stay / death**: close the stay; Resthome stops billing on the "
 "correct date and prepares the credit note if needed."
@@ -370,14 +402,14 @@ msgstr ""
 "**Einde verblijf / overlijden**: sluit het verblijf af; Resthome stopt de "
 "facturatie op de juiste datum en bereidt indien nodig de creditnota voor."
 
-#: ../../content/residents/gerer-un-resident.md:118
+#: ../../content/residents/gerer-un-resident.md:130
 msgid "Further reading"
 msgstr "Verder lezen"
 
-#: ../../content/residents/gerer-un-resident.md:120
+#: ../../content/residents/gerer-un-resident.md:132
 msgid "[Billing](../facturation/index.md)"
 msgstr "[Facturatie](../facturation/index.md)"
 
-#: ../../content/residents/gerer-un-resident.md:121
+#: ../../content/residents/gerer-un-resident.md:133
 msgid "[eHealth](../ehealth/index.md)"
 msgstr "[eHealth](../ehealth/index.md)"
