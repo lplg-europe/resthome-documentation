@@ -19,6 +19,8 @@ The **Katz scale** measures a resident's degree of **dependency**. It is what
 determines their care **category** and therefore the **INAMI allowance** reimbursed
 by the mutuelle. In Resthome, data entry is guided and the calculation is automatic.
 
+![Katz assessments list: one row per resident with the category, the total score, the next assessment date and the renewal indicator](../assets/screenshots/katz/01-evaluations.png)
+
 ## The 6 criteria
 
 Each criterion is rated from **1** (independent) to **4** (fully dependent):
@@ -65,6 +67,8 @@ Katz to declare the correct category to the mutuelle.
 1. From the resident's record, open **Katz** (button or assessment tools).
 2. **New**: rate the 6 criteria.
 3. **Confirm** then **Validate** the assessment.
+
+![Katz assessment form: the rating grid for the 6 criteria, the resulting category and score, and the Draft, Confirmed, Validated, Sent status bar](../assets/screenshots/katz/02-evaluation-form.png)
 
 The category and the allowance are updated automatically for billing.
 

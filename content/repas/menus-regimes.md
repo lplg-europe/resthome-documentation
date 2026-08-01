@@ -26,6 +26,8 @@ How is residents' hydration tracked?
    lunch, dinner, snacks).
 3. **Save.**
 
+![Menu form: the date, the meal type and the Dishes tab listing each dish with its category](../assets/screenshots/repas/05-menu-form.png)
+
 **Dishes** are described once in the **catalog** (ingredients, category)
 and reused across all menus.
 
@@ -34,6 +36,8 @@ and reused across all menus.
 A **meal service** represents a meal served at a given time. It follows a
 simple cycle: **Confirm** → **Mark as served**, with the option to
 **cancel** or **reset to draft**.
+
+![Menus list: one row per date and meal type, with the Draft, Confirmed or Served status](../assets/screenshots/repas/02-menus.png)
 
 ## Diets and allergies
 
@@ -47,6 +51,8 @@ blended/adapted texture…) and **allergies**. Resthome takes them into account 
 The **Dietary alerts** menu surfaces cases where a planned dish does not suit
 a resident's diet or allergies — to be checked before service.
 :::
+
+![Dietary alerts: one row per incompatibility, with the sector, the room, the resident, the diets involved and where the meal is served](../assets/screenshots/repas/04-alertes-dietetiques.png)
 
 ## Nutritional monitoring and hydration
 

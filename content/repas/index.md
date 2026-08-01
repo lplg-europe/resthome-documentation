@@ -22,6 +22,8 @@ The **Meals** application organises the establishment's catering: **menus**,
 The **Meals dashboard** gives the day's overview: planned services, dietary
 alerts, hydration to watch.
 
+![Meals dashboard: one column per service from breakfast to dinner, with the progress of the service, the dietary alerts and the action buttons](../assets/screenshots/repas/01-tableau-de-bord.png)
+
 ## What the application covers
 
 - **Menus, diets and hydration** — Compose the menus, manage diets and

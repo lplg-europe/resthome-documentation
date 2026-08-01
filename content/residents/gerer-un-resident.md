@@ -50,6 +50,8 @@ They are often identical, but can differ — Resthome handles both.
 4. Select the resident's **health insurance fund**.
 5. **Save**.
 
+![Resident record: the Katz category and stay type badges, the personal information tab, the current stay and the health insurance fund details](../assets/screenshots/residents/05-fiche-resident.png)
+
 ### Reading the identity card (eID)
 
 Rather than typing the identity in, you can **read the resident's eID card**.

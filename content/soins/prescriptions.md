@@ -43,6 +43,8 @@ A prescription follows its life cycle with clear actions:
 - **End** — close at the end of the treatment.
 - **Cancel** — remove a prescription entered by mistake.
 
+![Active prescriptions list: resident, medication, dosage, frequency, route, dates, status and the interactions indicator](../assets/screenshots/soins/05-prescriptions.png)
+
 :::{admonition} Safety: allergies and interactions
 :class: warning
 
@@ -54,6 +56,8 @@ It warns you if a prescription poses a risk — a safeguard before administratio
 
 **Administrations** stem from prescriptions: the caregiver records what was
 given, when and by whom. Traceability is complete.
+
+![Administrations of the day: resident, medication, dose given, who administered it, and the Administered or Omitted status](../assets/screenshots/soins/04-administrations.png)
 
 ## Hospitalisation: suspend, then resume
 

@@ -158,6 +158,8 @@ in-room, absent). Each card shows the photo, the **room**, the **sector**, the
 **diet** badge and, where applicable, an **Alert**, **Warning** or **Served**
 badge.
 
+![Distribution board: three columns Absent, Dining room and In room, with one card per resident showing the room, the sector and the diet badge](../assets/screenshots/repas/03-distribution.png)
+
 From the meal services **list**, two header buttons let you act on a **multiple
 selection**: **Mark served** and **Mark absent**. The **Action** menu also offers
 to mark services as **in the dining room** or **in the room**.

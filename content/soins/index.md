@@ -26,6 +26,8 @@ When you open it, the **dashboard** highlights what needs attention today: care
 to carry out, points to watch, administrations to give. You start from here for
 your round.
 
+![Care dashboard: overview counters, clinical registers and quick buttons to schedule care, add a note or record vital signs](../assets/screenshots/soins/01-tableau-de-bord.png)
+
 ## What the application covers
 
 - **Prescriptions and medication** — Medication catalogue, prescriptions, administrations, batches and stock. → [Prescriptions](prescriptions.md)

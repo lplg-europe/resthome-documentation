@@ -99,7 +99,7 @@ The total ranges from 6 to 23. **Warning: the lower the score, the higher the ri
 | 10-12 | High risk |
 | 9 or less | Very high risk |
 
-<!-- screenshot to add: Braden form with radio scoring and risk badge -->
+![Braden assessments list: the total score and the risk level as a colored badge, from No risk to Very high risk](../assets/screenshots/katz/03-braden.png)
 
 ## MNA — nutritional status
 

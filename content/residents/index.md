@@ -24,6 +24,8 @@ the daily record: **admission**, **stay**, **assessments (Katz)**, **room** and
 **condition report**. The resident is the central record all the other apps
 build on — care, meals and billing.
 
+![Residents kanban: one card per resident with the reference, the MR or MRS stay type, the age and the room occupied](../assets/screenshots/residents/04-liste-residents.png)
+
 ## Key principles
 
 - **Admission**: managed as a **CRM pipeline**, from the first contact to the

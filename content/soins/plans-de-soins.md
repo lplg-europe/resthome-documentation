@@ -33,11 +33,20 @@ A **care plan** describes the **goals** of a resident's care and the actions to 
 
 Each plan carries its own **goals**, which makes follow-up measurable.
 
+![Care plans list: reference, resident, start date, next review, Katz category and care coordinator](../assets/screenshots/soins/06-plans-de-soins.png)
+
 ## Care scheduling
 
 - **Today's care** — the list of care tasks to perform today.
 - **My assigned care** — what is assigned to you personally.
 - Each scheduled care task can be **started**, **completed**, **cancelled** or marked **missed** — the round stays traceable.
+
+![Today's care: one row per task with the scheduled time, the resident, the type of care, the assignee and the status](../assets/screenshots/soins/03-soins-du-jour.png)
+
+The same care can be read as a **calendar**, which makes the workload of each day
+of the week visible at a glance.
+
+![Weekly care schedule in calendar view, with the care tasks laid out by time slot](../assets/screenshots/soins/02-planning-des-soins.png)
 
 ## Vital signs
 
