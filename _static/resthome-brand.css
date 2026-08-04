@@ -234,16 +234,16 @@
   .md-nav--primary label.md-nav__link[for="__toc"],
   .md-nav--primary label.md-nav__link[for="__toc"] ~ .md-nav { display: none !important; }
 }
-/* Fond neutre (blanc), comme la doc Odoo — pas de teinte. */
+/* Fond neutre (blanc) — pas de teinte. */
 .md-sidebar--primary .md-nav--primary { background: transparent; }
 
-/* Typo aérée façon Odoo : Inter, liens plus espacés, encre douce. */
+/* Typo aérée : Inter, liens plus espacés, encre douce. */
 .md-nav { font-size: 0.74rem; line-height: 1.45; }
 .md-nav--primary .md-nav__link { padding-top: 0.34rem; padding-bottom: 0.34rem; color: #3c4551; }
 .md-nav--primary .md-nav__link:hover { color: var(--lplg-blue); }
 [data-md-color-scheme="slate"] .md-nav--primary .md-nav__link { color: #b7c0cc; }
 
-/* Item actif façon Odoo : gras + couleur de marque, léger fond + filet à
+/* Item actif : gras + couleur de marque, léger fond + filet à
    gauche (PAS de pilule bleue pleine). */
 .md-nav__item > .md-nav__link--active {
   color: var(--lplg-blue) !important;
@@ -305,7 +305,7 @@
 .md-nav--primary > .md-nav__list > .md-nav__item:nth-child(11) > .md-nav__link { --si: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M6 2a2 2 0 00-2 2v16a2 2 0 002 2h13V2H6zm0 16h11v2H6a1 1 0 010-2zM8 5h7v2H8z'/></svg>"); }      /* Glossaire (livre) */
 .md-nav--primary > .md-nav__list > .md-nav__item:nth-child(12) > .md-nav__link { --si: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 1a9 9 0 00-9 9v6a3 3 0 003 3h2v-8H5v-1a7 7 0 0114 0v1h-3v8h2a3 3 0 003-3v-6a9 9 0 00-9-9z'/></svg>"); }      /* Support (casque) */
 
-/* Chevron « › » sur les 7 sections repliables (nth-child 3–9), façon Odoo. */
+/* Chevron « › » sur les 7 sections repliables (nth-child 3–9). */
 .md-nav--primary > .md-nav__list > .md-nav__item:nth-child(n+3):nth-child(-n+9) > .md-nav__link::after {
   content: "";
   width: 0.42rem; height: 0.42rem;

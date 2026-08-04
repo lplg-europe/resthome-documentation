@@ -9,7 +9,10 @@ How do I check a resident's insurability (MDA)?
 : From the resident's record or a billing period, run Check MDA. Resthome queries MyCareNet/WalCareNet and confirms coverage, as an individual check (immediate) or as a batch for a whole period.
 
 What does Resthome update after a successful MDA?
-: The actual health insurance fund (insurer), the BIM status, the membership number, identity details if fields were missing, and the date of death if the insurer reports it.
+: The actual health insurance fund (insurer), the BIM status, the membership number, and the date of death if the insurer reports it. Date of birth and sex are overwritten with the insurer's values — a birth date that disagrees with the NISS gets the eFact rejected — and each change is listed in the resident's thread.
+
+Why can't I edit a resident's date of birth any more?
+: Once an MDA reply exists, the fields it owns (name, date of birth, sex, insurer) are locked so a manual edit cannot contradict the insurer. A manager can lift the lock record by record with "Allow manual identity edit", but the next MDA refresh will overwrite the manual value.
 
 What should I do if a resident isn't insured?
 : Don't bill them under third-party payer (tiers payant) for the period, or the invoice will be rejected. Clarify the situation with the resident or their health insurance fund, and bill the amount to the resident in the meantime.
@@ -137,9 +140,48 @@ After a successful response, the resident record is **corrected automatically**:
 
 - **Health insurance fund (OA)**: if the OA that responds differs from the profile,
   the profile is updated (and the OA created if it was missing).
-- **BIM status**, **membership number**, and **identity** (name, date of birth,
-  sex) if fields were missing.
+- **BIM status** and **membership number**.
+- **Date of birth** and **sex**: the insurer's values **win**, even when the record
+  already holds something else (see below).
 - **Date of death** if the OA reports it → alert on the record.
+
+### On identity, the insurer wins
+
+Date of birth and sex are **overwritten**, not merely filled in when empty. This is
+deliberate: a birth date that disagrees with the NISS gets the **eFact rejected**,
+and a typo entered at admission would otherwise survive every check — the operator
+believing the MDA had validated the file. The insurer applies the same rule.
+
+When an existing value changes, Resthome posts **MDA — identity corrected** in the
+resident's thread, listing each change as ~~old~~ → **new**. Nothing moves silently.
+
+:::{admonition} The date of death is the exception
+:class: note
+
+If the insurer reports a **date of death** that differs from the one on file,
+Resthome **does not** overwrite it: it posts *"MDA — date of death differs"* and
+leaves you to arbitrate. That date closes the stay and caps the allowance — too
+consequential to change automatically.
+:::
+
+### Identity fields are locked after the first reply
+
+Once a resident has an MDA reply, the fields the MDA owns — name, date of birth,
+sex, health insurance fund — become **read-only** on the record. It prevents a
+manual edit from silently contradicting what the insurer holds.
+
+The lock is not absolute:
+
+- **before** any MDA the fields are free — that is how you create a candidate;
+- a **manager** can lift it record by record with **Allow manual identity edit**.
+
+:::{admonition} Lifting the lock is temporary
+:class: warning
+
+Use **Allow manual identity edit** only when the insurer's reply is genuinely
+wrong. The **next MDA refresh overwrites your correction** — settle the disagreement
+with the insurer rather than maintaining the difference by hand.
+:::
 
 :::{admonition} Safeguard for special schemes
 :class: warning

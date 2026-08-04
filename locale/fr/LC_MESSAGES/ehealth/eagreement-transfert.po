@@ -1,0 +1,421 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-04 16:28+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: fr <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/ehealth/eagreement-transfert.md:5
+msgid "Internal transfer (MR ↔ MRS)"
+msgstr "Transfert interne (MR ↔ MRS)"
+
+#: ../../content/ehealth/eagreement-transfert.md:8
+msgid ""
+"Move a resident between sectors (MR, MRS, day care) in Resthome: the "
+"internal transfer assistant closes the stay, opens the new one and produces "
+"the two annexes the insurer expects."
+msgstr ""
+"Faire passer un résident d'un secteur à l'autre (MR, MRS, centre de jour) "
+"dans Resthome : l'assistant de transfert interne clôture le séjour, ouvre le"
+" nouveau et produit les deux annexes attendues par l'organisme assureur."
+
+#: ../../content/ehealth/eagreement-transfert.md:12
+msgid "How do I move a resident from MR to MRS?"
+msgstr "Comment faire passer un résident de MR à MRS ?"
+
+#: ../../content/ehealth/eagreement-transfert.md:13
+msgid ""
+"From their current stay, use Internal Transfer. The assistant ends the stay,"
+" opens the new one in the destination sector and creates the two eAgreement "
+"requests the insurer expects: an end-of-stay notice (Annexe 11) then a new "
+"intervention request (Annexe 7)."
+msgstr ""
+"Depuis son séjour en cours, utilisez Transfert interne. L'assistant clôture "
+"le séjour, ouvre le nouveau dans le secteur de destination et crée les deux "
+"demandes eAgreement attendues par l'organisme assureur : une notification de"
+" fin de séjour (annexe 11) puis une nouvelle demande d'intervention (annexe "
+"7)."
+
+#: ../../content/ehealth/eagreement-transfert.md:15
+msgid "Why can't I just change the sector on the stay?"
+msgstr "Pourquoi ne puis-je pas simplement changer le secteur sur le séjour ?"
+
+#: ../../content/ehealth/eagreement-transfert.md:16
+msgid ""
+"Because a bare edit produces no document for the insurer. The sector field "
+"is read-only on purpose: only the transfer assistant generates the Annexe 11"
+" / Annexe 7 pair that makes the change official."
+msgstr ""
+"Parce qu'une simple modification ne produit aucun document pour l'organisme "
+"assureur. Le champ secteur est en lecture seule à dessein : seul l'assistant"
+" de transfert génère la paire annexe 11 / annexe 7 qui officialise le "
+"changement."
+
+#: ../../content/ehealth/eagreement-transfert.md:18
+msgid "Can I transfer a resident to MRS with any Katz category?"
+msgstr ""
+"Puis-je transférer un résident en MRS avec n'importe quelle catégorie Katz ?"
+
+#: ../../content/ehealth/eagreement-transfert.md:19
+msgid ""
+"No. MRS requires category B or higher. If the latest assessment is O or A, "
+"the assistant refuses and tells you to record a new Katz assessment or to "
+"pick MR as the destination."
+msgstr ""
+"Non. La MRS exige la catégorie B ou supérieure. Si la dernière évaluation "
+"est O ou A, l'assistant refuse et vous invite à enregistrer une nouvelle "
+"évaluation Katz ou à choisir MR comme destination."
+
+#: ../../content/ehealth/eagreement-transfert.md:21
+msgid "Do I have to change room to transfer a resident?"
+msgstr "Dois-je changer de chambre pour transférer un résident ?"
+
+#: ../../content/ehealth/eagreement-transfert.md:22
+msgid ""
+"No. The room defaults to the current one — the same room simply gets "
+"reclassified. Change it only if the resident physically moves."
+msgstr ""
+"Non. La chambre proposée est celle du séjour en cours — la même chambre est "
+"simplement reclassée. Ne la changez que si le résident déménage réellement."
+
+#: ../../content/ehealth/eagreement-transfert.md:25
+msgid ""
+"A resident whose condition changes may move from **MR** to **MRS** (or the "
+"other way round, or to day care). For the insurer this is not a detail of "
+"internal organisation: it ends one intervention and starts another, and it "
+"takes **two documents** to make it official."
+msgstr ""
+"Un résident dont l'état évolue peut passer de **MR** à **MRS** (ou "
+"l'inverse, ou en centre de jour). Pour l'organisme assureur, ce n'est pas un"
+" détail d'organisation interne : cela clôture une intervention et en ouvre "
+"une autre, et il faut **deux documents** pour l'officialiser."
+
+#: ../../content/ehealth/eagreement-transfert.md:30
+msgid ""
+"Resthome does it in one step: from the resident's current stay, open "
+"**Internal Transfer**."
+msgstr ""
+"Resthome le fait en une étape : depuis le séjour en cours du résident, "
+"ouvrez **Transfert interne**."
+
+#: ../../content/ehealth/eagreement-transfert.md:33
+msgid "Why the sector field is read-only on the stay"
+msgstr "Pourquoi le champ secteur est en lecture seule sur le séjour"
+
+#: ../../content/ehealth/eagreement-transfert.md:36
+msgid ""
+"You cannot change the sector by editing the stay directly. A bare edit would"
+" change your records while the insurer still believes the resident is in the"
+" old sector — and would produce **no annexe**. The assistant is the only "
+"path that generates the pair of documents."
+msgstr ""
+"Vous ne pouvez pas changer le secteur en modifiant directement le séjour. "
+"Une simple modification changerait vos données alors que l'organisme "
+"assureur croit toujours le résident dans l'ancien secteur — et ne produirait"
+" **aucune annexe**. L'assistant est le seul chemin qui génère la paire de "
+"documents."
+
+#: ../../content/ehealth/eagreement-transfert.md:42
+msgid "What the assistant asks"
+msgstr "Ce que l'assistant demande"
+
+#: ../../content/ehealth/eagreement-transfert.md:33
+msgid "Field"
+msgstr "Champ"
+
+#: ../../content/ehealth/eagreement-transfert.md:33
+msgid "What to do"
+msgstr "Que faire"
+
+#: ../../content/ehealth/eagreement-transfert.md:33
+msgid "**Destination type**"
+msgstr "**Type de destination**"
+
+#: ../../content/ehealth/eagreement-transfert.md:33
+msgid "MR, MRS or day care. Defaults to the opposite of the current sector."
+msgstr "MR, MRS ou centre de jour. Par défaut, l'inverse du secteur actuel."
+
+#: ../../content/ehealth/eagreement-transfert.md:33
+msgid "**New room**"
+msgstr "**Nouvelle chambre**"
+
+#: ../../content/ehealth/eagreement-transfert.md:33
+msgid ""
+"Defaults to the current room — the same room simply gets reclassified. "
+"Change it only if the resident physically moves."
+msgstr ""
+"Par défaut la chambre actuelle — la même chambre est simplement reclassée. "
+"Ne la changez que si le résident déménage réellement."
+
+#: ../../content/ehealth/eagreement-transfert.md:33
+msgid "**Transfer date**"
+msgstr "**Date de transfert**"
+
+#: ../../content/ehealth/eagreement-transfert.md:33
+msgid "Ends the current stay and starts the new one, on the same day."
+msgstr "Clôture le séjour en cours et démarre le nouveau, le même jour."
+
+#: ../../content/ehealth/eagreement-transfert.md:33
+msgid "**Transfer time**"
+msgstr "**Heure du transfert**"
+
+#: ../../content/ehealth/eagreement-transfert.md:33
+msgid ""
+"The moment of the handover. It appears on the end-of-stay annexe (*\"at … "
+"hours\"*)."
+msgstr ""
+"Le moment du passage. Elle figure sur l'annexe de fin de séjour (*« à … "
+"heures »*)."
+
+#: ../../content/ehealth/eagreement-transfert.md:33
+msgid "**With Katz category change**"
+msgstr "**Avec changement de catégorie Katz**"
+
+#: ../../content/ehealth/eagreement-transfert.md:33
+msgid ""
+"Tick this when the transfer comes with a new assessment, then pick or create"
+" it."
+msgstr ""
+"Cochez si le transfert s'accompagne d'une nouvelle évaluation, puis "
+"choisissez-la ou créez-la."
+
+#: ../../content/ehealth/eagreement-transfert.md:52
+msgid "What it produces"
+msgstr "Ce qu'il produit"
+
+#: ../../content/ehealth/eagreement-transfert.md:54
+msgid "In a single operation the assistant:"
+msgstr "En une seule opération, l'assistant :"
+
+#: ../../content/ehealth/eagreement-transfert.md:56
+msgid ""
+"**ends** the current stay, with *transfer* as the departure reason, the time"
+" you entered, and the destination sector;"
+msgstr ""
+"**clôture** le séjour en cours, avec *transfert* comme motif de départ, "
+"l'heure saisie et le secteur de destination ;"
+
+#: ../../content/ehealth/eagreement-transfert.md:58
+msgid ""
+"**opens** the new stay in the destination sector, starting at that same "
+"moment;"
+msgstr ""
+"**ouvre** le nouveau séjour dans le secteur de destination, à partir de ce "
+"même moment ;"
+
+#: ../../content/ehealth/eagreement-transfert.md:60
+msgid ""
+"creates the **two eAgreement requests**, in order: an **end-of-stay notice**"
+" (Annexe 11) for the sector being left, then an **intervention request** "
+"(Annexe 7) for the sector being entered."
+msgstr ""
+"crée les **deux demandes eAgreement**, dans l'ordre : une **notification de "
+"fin de séjour** (annexe 11) pour le secteur quitté, puis une **demande "
+"d'intervention** (annexe 7) pour le secteur rejoint."
+
+#: ../../content/ehealth/eagreement-transfert.md:64
+msgid ""
+"The INAMI intervention of the old stay ends at the transfer moment, so no "
+"day is billed twice."
+msgstr ""
+"L'intervention INAMI de l'ancien séjour s'arrête au moment du transfert, de "
+"sorte qu'aucune journée n'est facturée deux fois."
+
+#: ../../content/ehealth/eagreement-transfert.md:67
+msgid "Exactly two documents, not four"
+msgstr "Exactement deux documents, pas quatre"
+
+#: ../../content/ehealth/eagreement-transfert.md:70
+msgid ""
+"Ending a stay and opening one normally each trigger their own eAgreement "
+"request. During a transfer, Resthome suppresses those automatic requests — "
+"you get exactly the two transfer documents, in the right order, and nothing "
+"else."
+msgstr ""
+"Clôturer un séjour et en ouvrir un déclenchent normalement chacun leur "
+"propre demande eAgreement. Pendant un transfert, Resthome supprime ces "
+"demandes automatiques — vous obtenez exactement les deux documents de "
+"transfert, dans le bon ordre, et rien d'autre."
+
+#: ../../content/ehealth/eagreement-transfert.md:75
+msgid "What the assistant refuses"
+msgstr "Ce que l'assistant refuse"
+
+#: ../../content/ehealth/eagreement-transfert.md:77
+msgid ""
+"**A transfer that changes nothing.** If the destination sector and the room "
+"are both identical to the current stay, the assistant refuses: it would "
+"close a live stay and reopen an identical one, and cancelling that new stay "
+"afterwards would leave the resident with no stay at all. It tells you what "
+"you probably meant:"
+msgstr ""
+"**Un transfert qui ne change rien.** Si le secteur de destination et la "
+"chambre sont tous deux identiques au séjour en cours, l'assistant refuse : "
+"il clôturerait un séjour vivant pour en rouvrir un identique, et annuler "
+"ensuite ce nouveau séjour laisserait le résident sans aucun séjour. Il vous "
+"indique ce que vous vouliez probablement faire :"
+
+#: ../../content/ehealth/eagreement-transfert.md:82
+msgid "another sector → pick it in the assistant;"
+msgstr "un autre secteur → choisissez-le dans l'assistant ;"
+
+#: ../../content/ehealth/eagreement-transfert.md:83
+msgid "another room, same sector → use **Change Room**;"
+msgstr "une autre chambre, même secteur → utilisez **Changer de chambre** ;"
+
+#: ../../content/ehealth/eagreement-transfert.md:84
+msgid ""
+"the **short-stay** flag → tick it directly on the stay, it is a modality, "
+"not a transfer."
+msgstr ""
+"l'indicateur **court séjour** → cochez-le directement sur le séjour, c'est "
+"une modalité, pas un transfert."
+
+#: ../../content/ehealth/eagreement-transfert.md:87
+msgid ""
+"**MRS below category B.** MRS requires a Katz category of **B or higher**. "
+"If the resident's latest validated assessment is **O** or **A**, the "
+"assistant stops before touching anything and asks you either to record a new"
+" assessment (tick *With Katz category change*) or to set the destination to "
+"MR."
+msgstr ""
+"**MRS en dessous de la catégorie B.** La MRS exige une catégorie Katz **B ou"
+" supérieure**. Si la dernière évaluation validée du résident est **O** ou "
+"**A**, l'assistant s'arrête avant de toucher à quoi que ce soit et vous "
+"demande soit d'enregistrer une nouvelle évaluation (cochez *Avec changement "
+"de catégorie Katz*), soit de mettre MR en destination."
+
+#: ../../content/ehealth/eagreement-transfert.md:92
+msgid ""
+"**A transfer already done.** If the stay is no longer active, the assistant "
+"refuses rather than creating a duplicate destination stay. Start any new "
+"transfer from the resident's current active stay."
+msgstr ""
+"**Un transfert déjà effectué.** Si le séjour n'est plus actif, l'assistant "
+"refuse plutôt que de créer un séjour de destination en double. Démarrez tout"
+" nouveau transfert depuis le séjour actif en cours du résident."
+
+#: ../../content/ehealth/eagreement-transfert.md:96
+msgid "Cancelling a transfer"
+msgstr "Annuler un transfert"
+
+#: ../../content/ehealth/eagreement-transfert.md:98
+msgid ""
+"If you cancel the stay a transfer opened, the transfer never happened — and "
+"the two annexes it created must not stay in the queue waiting to declare a "
+"move to the insurer that will not take place."
+msgstr ""
+"Si vous annulez le séjour ouvert par un transfert, le transfert n'a jamais "
+"eu lieu — et les deux annexes qu'il a créées ne doivent pas rester en file "
+"d'attente à déclarer à l'organisme assureur un mouvement qui n'aura pas "
+"lieu."
+
+#: ../../content/ehealth/eagreement-transfert.md:102
+msgid ""
+"Resthome cleans up on its own, but the rule depends on whether the annex has"
+" already left:"
+msgstr ""
+"Resthome fait le ménage tout seul, mais la règle dépend du fait que l'annexe"
+" soit déjà partie ou non :"
+
+#: ../../content/ehealth/eagreement-transfert.md:105
+msgid ""
+"**Still in draft** — the pair is **removed**, and the resident's thread "
+"records it: *\"Internal transfer cancelled — its draft eAgreement requests "
+"were removed.\"*"
+msgstr ""
+"**Encore en brouillon** — la paire est **supprimée**, et le fil du résident "
+"le consigne : *« Transfert interne annulé — ses demandes eAgreement en "
+"brouillon ont été supprimées. »*"
+
+#: ../../content/ehealth/eagreement-transfert.md:108
+msgid ""
+"**Already sent** — the annex is **left alone**, and the thread warns you: "
+"*\"Internal transfer cancelled, but … was already sent to the OA.\"*"
+msgstr ""
+"**Déjà envoyée** — l'annexe est **laissée intacte**, et le fil vous avertit "
+": *« Transfert interne annulé, mais … a déjà été envoyée à l'OA. »*"
+
+#: ../../content/ehealth/eagreement-transfert.md:111
+msgid "A sent annexe is retracted with the insurer, not in the software"
+msgstr ""
+"Une annexe envoyée se retire auprès de l'organisme assureur, pas dans le "
+"logiciel"
+
+#: ../../content/ehealth/eagreement-transfert.md:114
+msgid ""
+"Resthome will never silently delete a declaration the insurer has already "
+"received. If the transfer annexe went out and the transfer is cancelled, the"
+" insurer holds a move that did not happen: **contact them** to correct it. "
+"The same rule applies when you reopen a stay whose end-of-stay annexe was "
+"already sent — Resthome then refuses the reopening outright rather than "
+"leaving a contradiction."
+msgstr ""
+"Resthome ne supprimera jamais en silence une déclaration que l'organisme "
+"assureur a déjà reçue. Si l'annexe de transfert est partie et que le "
+"transfert est annulé, l'organisme assureur détient un mouvement qui n'a pas "
+"eu lieu : **contactez-le** pour le corriger. La même règle s'applique quand "
+"vous rouvrez un séjour dont l'annexe de fin de séjour a déjà été envoyée — "
+"Resthome refuse alors purement et simplement la réouverture plutôt que de "
+"laisser une contradiction."
+
+#: ../../content/ehealth/eagreement-transfert.md:122
+msgid ""
+"Only the pair created with that stay is touched. A request belonging to an "
+"earlier transfer of the same resident is never affected, and the cleanup "
+"never blocks the cancellation itself."
+msgstr ""
+"Seule la paire créée avec ce séjour est touchée. Une demande appartenant à "
+"un transfert antérieur du même résident n'est jamais affectée, et le "
+"nettoyage ne bloque jamais l'annulation elle-même."
+
+#: ../../content/ehealth/eagreement-transfert.md:126
+msgid "Further reading"
+msgstr "Pour aller plus loin"
+
+#: ../../content/ehealth/eagreement-transfert.md:128
+msgid ""
+"[Agreements (eAgreement Light)](eagreement.md) — the requests the transfer "
+"creates."
+msgstr ""
+"[Les accords (eAgreement Light)](eagreement.md) — les demandes créées par le"
+" transfert."
+
+#: ../../content/ehealth/eagreement-transfert.md:129
+msgid ""
+"[Following a request](eagreement-suivi.md) — deadlines and the insurer's "
+"decision."
+msgstr ""
+"[Suivre une demande](eagreement-suivi.md) — les délais et la décision de "
+"l'organisme assureur."
+
+#: ../../content/ehealth/eagreement-transfert.md:130
+msgid ""
+"[Room change and transfer](../residents/changement-chambre.md) — moving room"
+" within the same sector."
+msgstr ""
+"[Changement de chambre et transfert](../residents/changement-chambre.md) — "
+"changer de chambre dans le même secteur."
+
+#: ../../content/ehealth/eagreement-transfert.md:131
+msgid ""
+"[The Katz assessment](../residents/katz.md) — the category that conditions "
+"MRS."
+msgstr ""
+"[L'évaluation Katz](../residents/katz.md) — la catégorie qui conditionne la "
+"MRS."

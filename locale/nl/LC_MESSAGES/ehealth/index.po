@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-18 19:30+0200\n"
+"POT-Creation-Date: 2026-08-04 16:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nl <LL@li.org>\n"
@@ -32,7 +32,7 @@ msgstr ""
 "Verzekerbaarheid MDA, elektronische facturatie eFact en akkoorden eAgreement"
 " in Resthome."
 
-#: ../../content/ehealth/index.md:7
+#: ../../content/ehealth/index.md:24
 msgid ""
 "Resthome is connected to the Belgian e-health ecosystem (eHealth, MyCareNet,"
 " WalCareNet) to exchange directly with the mutualities."
@@ -40,15 +40,15 @@ msgstr ""
 "Resthome is verbonden met het Belgische e-gezondheidsecosysteem (eHealth, "
 "MyCareNet, WalCareNet) om rechtstreeks met de mutualiteiten uit te wisselen."
 
-#: ../../content/ehealth/index.md:10
+#: ../../content/ehealth/index.md:27
 msgid "The services"
 msgstr "De diensten"
 
-#: ../../content/ehealth/index.md:12
+#: ../../content/ehealth/index.md:29
 msgid "**MDA — Insurability**"
 msgstr "**MDA — Verzekerbaarheid**"
 
-#: ../../content/ehealth/index.md:14
+#: ../../content/ehealth/index.md:31
 msgid ""
 "Checks that a resident is **insured** and retrieves their mutuality and BIM "
 "status, individually or in batch."
@@ -56,15 +56,15 @@ msgstr ""
 "Controleert of een bewoner **verzekerd** is en haalt zijn mutualiteit en "
 "BIM-status op, individueel of in batch."
 
-#: ../../content/ehealth/index.md:17
+#: ../../content/ehealth/index.md:34
 msgid "→ [Insurability in detail](mda.md)"
 msgstr "→ [De verzekerbaarheid in detail](mda.md)"
 
-#: ../../content/ehealth/index.md:19
+#: ../../content/ehealth/index.md:36
 msgid "**eFact — Electronic invoicing**"
 msgstr "**eFact — Elektronische facturatie**"
 
-#: ../../content/ehealth/index.md:21
+#: ../../content/ehealth/index.md:38
 msgid ""
 "Sends the **mutuality share** (message 920000) to the insurance "
 "organisations and follows the acknowledgements and settlements."
@@ -72,15 +72,21 @@ msgstr ""
 "Verstuurt het **mutualiteitsaandeel** (bericht 920000) naar de "
 "verzekeringsinstellingen en volgt de ontvangstbewijzen en afrekeningen op."
 
-#: ../../content/ehealth/index.md:24
-msgid "→ [eFact invoicing in detail](efact.md)"
-msgstr "→ [De eFact-facturatie in detail](efact.md)"
+#: ../../content/ehealth/index.md:41
+msgid ""
+"→ [eFact invoicing in detail](efact.md) · [Rejections](efact-rejets.md) · "
+"[Corrections and credit notes](efact-corrections.md) · [Settlements](efact-"
+"paiements.md)"
+msgstr ""
+"→ [eFact-facturatie in detail](efact.md) · [Verwerpingen](efact-rejets.md) ·"
+" [Correcties en creditnota's](efact-corrections.md) · [Afrekeningen](efact-"
+"paiements.md)"
 
-#: ../../content/ehealth/index.md:26
+#: ../../content/ehealth/index.md:44
 msgid "**eAgreement — Agreements**"
 msgstr "**eAgreement — Akkoorden**"
 
-#: ../../content/ehealth/index.md:28
+#: ../../content/ehealth/index.md:46
 msgid ""
 "Notifies the OA on an **admission**, an **end of stay** or an **absence** "
 "(Annexes 7, 10, 11…)."
@@ -88,39 +94,45 @@ msgstr ""
 "Meldt de VI bij een **opname**, een **einde verblijf** of een "
 "**afwezigheid** (Bijlagen 7, 10, 11…)."
 
-#: ../../content/ehealth/index.md:31
-msgid "→ [Agreements in detail](eagreement.md)"
-msgstr "→ [De akkoorden in detail](eagreement.md)"
+#: ../../content/ehealth/index.md:49
+msgid ""
+"→ [Agreements in detail](eagreement.md) · [Signing the annexes](eagreement-"
+"signature.md) · [Following a request](eagreement-suivi.md) · [Internal "
+"transfer](eagreement-transfert.md)"
+msgstr ""
+"→ [De akkoorden in detail](eagreement.md) · [De bijlagen "
+"ondertekenen](eagreement-signature.md) · [Een aanvraag opvolgen](eagreement-"
+"suivi.md) · [Interne overplaatsing](eagreement-transfert.md)"
 
-#: ../../content/ehealth/index.md:33
+#: ../../content/ehealth/index.md:52
 msgid "Prerequisites"
 msgstr "Vereisten"
 
-#: ../../content/ehealth/index.md:35
+#: ../../content/ehealth/index.md:54
 msgid "To check before sending"
 msgstr "Te controleren vóór het versturen"
 
-#: ../../content/ehealth/index.md:37
+#: ../../content/ehealth/index.md:56
 msgid "The resident has a valid **NISS**."
 msgstr "De bewoner heeft een geldig **NISS**."
 
-#: ../../content/ehealth/index.md:38
+#: ../../content/ehealth/index.md:57
 msgid "Their **mutuality** is filled in."
 msgstr "Zijn **mutualiteit** is ingevuld."
 
-#: ../../content/ehealth/index.md:39
+#: ../../content/ehealth/index.md:58
 msgid "An **insurability (MDA)** has been checked for the period."
 msgstr "Er is een **verzekerbaarheid (MDA)** gecontroleerd voor de periode."
 
-#: ../../content/ehealth/index.md:40
+#: ../../content/ehealth/index.md:59
 msgid "The establishment's **eHealth certificate** is active."
 msgstr "Het **eHealth-certificaat** van de instelling is actief."
 
-#: ../../content/ehealth/index.md:43
+#: ../../content/ehealth/index.md:62
 msgid "Good to know"
 msgstr "Goed om te weten"
 
-#: ../../content/ehealth/index.md:45
+#: ../../content/ehealth/index.md:64
 msgid ""
 "An **absence** of more than 72 h (or any hospitalisation) triggers an end-"
 "of-accommodation **Annexe 11**; the **return** generates a readmission "
@@ -130,7 +142,7 @@ msgstr ""
 "**Bijlage 11** einde verblijf uit; de **terugkeer** genereert een **Bijlage "
 "7** heropname."
 
-#: ../../content/ehealth/index.md:48
+#: ../../content/ehealth/index.md:67
 msgid ""
 "An invoice that is already **posted** \"freezes\" the month's billing for "
 "that resident: to change it, reset it to draft (or issue a credit note), "
@@ -140,11 +152,11 @@ msgstr ""
 "die bewoner: om ze te wijzigen, zet ze terug naar concept (of maak een "
 "creditnota op) en vernieuw dan."
 
-#: ../../content/ehealth/index.md:52
+#: ../../content/ehealth/index.md:71
 msgid "What's next"
 msgstr "Verder"
 
-#: ../../content/ehealth/index.md:54
+#: ../../content/ehealth/index.md:73
 msgid ""
 "[Agreements (eAgreement)](eagreement.md) — admission, absence, return, "
 "discharge (Annexes 7, 10, 11)."
@@ -152,7 +164,7 @@ msgstr ""
 "[Akkoorden (eAgreement)](eagreement.md) — opname, afwezigheid, terugkeer, "
 "vertrek (Bijlagen 7, 10, 11)."
 
-#: ../../content/ehealth/index.md:56
+#: ../../content/ehealth/index.md:75
 msgid ""
 "[The billing journey](../parcours-facturation.md) — from admission to "
 "payment."
@@ -160,14 +172,20 @@ msgstr ""
 "[Het facturatietraject](../parcours-facturation.md) — van opname tot "
 "betaling."
 
-#: ../../content/ehealth/index.md:57
+#: ../../content/ehealth/index.md:76
 msgid "[Absences and hospitalisations](../facturation/absences.md)"
 msgstr "[Afwezigheden en hospitalisaties](../facturation/absences.md)"
 
-#: ../../content/ehealth/index.md:58
+#: ../../content/ehealth/index.md:77
 msgid "[Billing](../facturation/index.md)"
 msgstr "[Facturatie](../facturation/index.md)"
 
-#: ../../content/ehealth/index.md:59
+#: ../../content/ehealth/index.md:78
 msgid "[FAQ](../faq.md) · [Glossary](../glossaire.md)"
 msgstr "[FAQ](../faq.md) · [Woordenlijst](../glossaire.md)"
+
+#~ msgid "→ [eFact invoicing in detail](efact.md)"
+#~ msgstr "→ [De eFact-facturatie in detail](efact.md)"
+
+#~ msgid "→ [Agreements in detail](eagreement.md)"
+#~ msgstr "→ [De akkoorden in detail](eagreement.md)"

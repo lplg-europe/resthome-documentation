@@ -1,0 +1,425 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-04 16:28+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: nl <LL@li.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/ehealth/eagreement-transfert.md:5
+msgid "Internal transfer (MR ↔ MRS)"
+msgstr "Interne overplaatsing (ROB ↔ RVT)"
+
+#: ../../content/ehealth/eagreement-transfert.md:8
+msgid ""
+"Move a resident between sectors (MR, MRS, day care) in Resthome: the "
+"internal transfer assistant closes the stay, opens the new one and produces "
+"the two annexes the insurer expects."
+msgstr ""
+"Een bewoner tussen sectoren verplaatsen (ROB, RVT, dagverzorging) in "
+"Resthome: de assistent voor interne overplaatsing sluit het verblijf af, "
+"opent het nieuwe en levert de twee bijlagen die het ziekenfonds verwacht."
+
+#: ../../content/ehealth/eagreement-transfert.md:12
+msgid "How do I move a resident from MR to MRS?"
+msgstr "Hoe verplaats ik een bewoner van ROB naar RVT?"
+
+#: ../../content/ehealth/eagreement-transfert.md:13
+msgid ""
+"From their current stay, use Internal Transfer. The assistant ends the stay,"
+" opens the new one in the destination sector and creates the two eAgreement "
+"requests the insurer expects: an end-of-stay notice (Annexe 11) then a new "
+"intervention request (Annexe 7)."
+msgstr ""
+"Gebruik vanuit het lopende verblijf Interne overplaatsing. De assistent "
+"sluit het verblijf af, opent het nieuwe in de bestemmingssector en maakt de "
+"twee eAgreement-aanvragen aan die het ziekenfonds verwacht: een melding van "
+"einde verblijf (bijlage 11) en vervolgens een nieuwe aanvraag tot "
+"tegemoetkoming (bijlage 7)."
+
+#: ../../content/ehealth/eagreement-transfert.md:15
+msgid "Why can't I just change the sector on the stay?"
+msgstr "Waarom kan ik de sector niet gewoon op het verblijf wijzigen?"
+
+#: ../../content/ehealth/eagreement-transfert.md:16
+msgid ""
+"Because a bare edit produces no document for the insurer. The sector field "
+"is read-only on purpose: only the transfer assistant generates the Annexe 11"
+" / Annexe 7 pair that makes the change official."
+msgstr ""
+"Omdat een loutere wijziging geen enkel document voor het ziekenfonds "
+"oplevert. Het sectorveld staat bewust op alleen-lezen: enkel de "
+"overplaatsingsassistent genereert het paar bijlage 11 / bijlage 7 dat de "
+"wijziging officieel maakt."
+
+#: ../../content/ehealth/eagreement-transfert.md:18
+msgid "Can I transfer a resident to MRS with any Katz category?"
+msgstr ""
+"Kan ik een bewoner naar RVT overplaatsen met om het even welke Katz-"
+"categorie?"
+
+#: ../../content/ehealth/eagreement-transfert.md:19
+msgid ""
+"No. MRS requires category B or higher. If the latest assessment is O or A, "
+"the assistant refuses and tells you to record a new Katz assessment or to "
+"pick MR as the destination."
+msgstr ""
+"Nee. RVT vereist categorie B of hoger. Als de laatste evaluatie O of A is, "
+"weigert de assistent en vraagt hij u een nieuwe Katz-evaluatie te "
+"registreren of ROB als bestemming te kiezen."
+
+#: ../../content/ehealth/eagreement-transfert.md:21
+msgid "Do I have to change room to transfer a resident?"
+msgstr "Moet ik van kamer veranderen om een bewoner over te plaatsen?"
+
+#: ../../content/ehealth/eagreement-transfert.md:22
+msgid ""
+"No. The room defaults to the current one — the same room simply gets "
+"reclassified. Change it only if the resident physically moves."
+msgstr ""
+"Nee. De voorgestelde kamer is die van het lopende verblijf — dezelfde kamer "
+"wordt gewoon geherklasseerd. Wijzig ze enkel als de bewoner werkelijk "
+"verhuist."
+
+#: ../../content/ehealth/eagreement-transfert.md:25
+msgid ""
+"A resident whose condition changes may move from **MR** to **MRS** (or the "
+"other way round, or to day care). For the insurer this is not a detail of "
+"internal organisation: it ends one intervention and starts another, and it "
+"takes **two documents** to make it official."
+msgstr ""
+"Een bewoner van wie de toestand verandert, kan van **ROB** naar **RVT** gaan"
+" (of omgekeerd, of naar dagverzorging). Voor het ziekenfonds is dat geen "
+"detail van interne organisatie: het beëindigt de ene tegemoetkoming en start"
+" een andere, en er zijn **twee documenten** nodig om het officieel te maken."
+
+#: ../../content/ehealth/eagreement-transfert.md:30
+msgid ""
+"Resthome does it in one step: from the resident's current stay, open "
+"**Internal Transfer**."
+msgstr ""
+"Resthome doet dat in één stap: open **Interne overplaatsing** vanuit het "
+"lopende verblijf van de bewoner."
+
+#: ../../content/ehealth/eagreement-transfert.md:33
+msgid "Why the sector field is read-only on the stay"
+msgstr "Waarom het sectorveld op het verblijf alleen-lezen is"
+
+#: ../../content/ehealth/eagreement-transfert.md:36
+msgid ""
+"You cannot change the sector by editing the stay directly. A bare edit would"
+" change your records while the insurer still believes the resident is in the"
+" old sector — and would produce **no annexe**. The assistant is the only "
+"path that generates the pair of documents."
+msgstr ""
+"U kunt de sector niet wijzigen door het verblijf rechtstreeks te bewerken. "
+"Een loutere wijziging zou uw gegevens aanpassen terwijl het ziekenfonds de "
+"bewoner nog steeds in de oude sector waant — en zou **geen enkele bijlage** "
+"opleveren. De assistent is het enige pad dat het documentenpaar genereert."
+
+#: ../../content/ehealth/eagreement-transfert.md:42
+msgid "What the assistant asks"
+msgstr "Wat de assistent vraagt"
+
+#: ../../content/ehealth/eagreement-transfert.md:33
+msgid "Field"
+msgstr "Veld"
+
+#: ../../content/ehealth/eagreement-transfert.md:33
+msgid "What to do"
+msgstr "Wat te doen"
+
+#: ../../content/ehealth/eagreement-transfert.md:33
+msgid "**Destination type**"
+msgstr "**Bestemmingstype**"
+
+#: ../../content/ehealth/eagreement-transfert.md:33
+msgid "MR, MRS or day care. Defaults to the opposite of the current sector."
+msgstr ""
+"ROB, RVT of dagverzorging. Standaard het tegenovergestelde van de huidige "
+"sector."
+
+#: ../../content/ehealth/eagreement-transfert.md:33
+msgid "**New room**"
+msgstr "**Nieuwe kamer**"
+
+#: ../../content/ehealth/eagreement-transfert.md:33
+msgid ""
+"Defaults to the current room — the same room simply gets reclassified. "
+"Change it only if the resident physically moves."
+msgstr ""
+"Standaard de huidige kamer — dezelfde kamer wordt gewoon geherklasseerd. "
+"Wijzig ze enkel als de bewoner werkelijk verhuist."
+
+#: ../../content/ehealth/eagreement-transfert.md:33
+msgid "**Transfer date**"
+msgstr "**Datum van overplaatsing**"
+
+#: ../../content/ehealth/eagreement-transfert.md:33
+msgid "Ends the current stay and starts the new one, on the same day."
+msgstr "Sluit het lopende verblijf af en start het nieuwe, op dezelfde dag."
+
+#: ../../content/ehealth/eagreement-transfert.md:33
+msgid "**Transfer time**"
+msgstr "**Uur van de overplaatsing**"
+
+#: ../../content/ehealth/eagreement-transfert.md:33
+msgid ""
+"The moment of the handover. It appears on the end-of-stay annexe (*\"at … "
+"hours\"*)."
+msgstr ""
+"Het moment van de overdracht. Het verschijnt op de bijlage einde verblijf "
+"(*« om … uur »*)."
+
+#: ../../content/ehealth/eagreement-transfert.md:33
+msgid "**With Katz category change**"
+msgstr "**Met wijziging van Katz-categorie**"
+
+#: ../../content/ehealth/eagreement-transfert.md:33
+msgid ""
+"Tick this when the transfer comes with a new assessment, then pick or create"
+" it."
+msgstr ""
+"Vink dit aan wanneer de overplaatsing gepaard gaat met een nieuwe evaluatie,"
+" en kies of maak ze dan aan."
+
+#: ../../content/ehealth/eagreement-transfert.md:52
+msgid "What it produces"
+msgstr "Wat hij oplevert"
+
+#: ../../content/ehealth/eagreement-transfert.md:54
+msgid "In a single operation the assistant:"
+msgstr "In één enkele bewerking doet de assistent het volgende:"
+
+#: ../../content/ehealth/eagreement-transfert.md:56
+msgid ""
+"**ends** the current stay, with *transfer* as the departure reason, the time"
+" you entered, and the destination sector;"
+msgstr ""
+"**sluit** het lopende verblijf af, met *overplaatsing* als vertrekreden, het"
+" ingevoerde uur en de bestemmingssector;"
+
+#: ../../content/ehealth/eagreement-transfert.md:58
+msgid ""
+"**opens** the new stay in the destination sector, starting at that same "
+"moment;"
+msgstr ""
+"**opent** het nieuwe verblijf in de bestemmingssector, vanaf datzelfde "
+"moment;"
+
+#: ../../content/ehealth/eagreement-transfert.md:60
+msgid ""
+"creates the **two eAgreement requests**, in order: an **end-of-stay notice**"
+" (Annexe 11) for the sector being left, then an **intervention request** "
+"(Annexe 7) for the sector being entered."
+msgstr ""
+"maakt de **twee eAgreement-aanvragen** aan, in volgorde: een **melding van "
+"einde verblijf** (bijlage 11) voor de verlaten sector, daarna een **aanvraag"
+" tot tegemoetkoming** (bijlage 7) voor de nieuwe sector."
+
+#: ../../content/ehealth/eagreement-transfert.md:64
+msgid ""
+"The INAMI intervention of the old stay ends at the transfer moment, so no "
+"day is billed twice."
+msgstr ""
+"De RIZIV-tegemoetkoming van het oude verblijf stopt op het moment van de "
+"overplaatsing, zodat geen enkele dag dubbel wordt gefactureerd."
+
+#: ../../content/ehealth/eagreement-transfert.md:67
+msgid "Exactly two documents, not four"
+msgstr "Precies twee documenten, geen vier"
+
+#: ../../content/ehealth/eagreement-transfert.md:70
+msgid ""
+"Ending a stay and opening one normally each trigger their own eAgreement "
+"request. During a transfer, Resthome suppresses those automatic requests — "
+"you get exactly the two transfer documents, in the right order, and nothing "
+"else."
+msgstr ""
+"Een verblijf afsluiten en er een openen leiden normaal elk tot hun eigen "
+"eAgreement-aanvraag. Tijdens een overplaatsing onderdrukt Resthome die "
+"automatische aanvragen — u krijgt precies de twee overplaatsingsdocumenten, "
+"in de juiste volgorde, en niets anders."
+
+#: ../../content/ehealth/eagreement-transfert.md:75
+msgid "What the assistant refuses"
+msgstr "Wat de assistent weigert"
+
+#: ../../content/ehealth/eagreement-transfert.md:77
+msgid ""
+"**A transfer that changes nothing.** If the destination sector and the room "
+"are both identical to the current stay, the assistant refuses: it would "
+"close a live stay and reopen an identical one, and cancelling that new stay "
+"afterwards would leave the resident with no stay at all. It tells you what "
+"you probably meant:"
+msgstr ""
+"**Een overplaatsing die niets verandert.** Als zowel de bestemmingssector "
+"als de kamer identiek zijn aan het lopende verblijf, weigert de assistent: "
+"hij zou een levend verblijf afsluiten om een identiek te heropenen, en dat "
+"nieuwe verblijf nadien annuleren zou de bewoner zonder enig verblijf "
+"achterlaten. Hij vertelt u wat u waarschijnlijk bedoelde:"
+
+#: ../../content/ehealth/eagreement-transfert.md:82
+msgid "another sector → pick it in the assistant;"
+msgstr "een andere sector → kies ze in de assistent;"
+
+#: ../../content/ehealth/eagreement-transfert.md:83
+msgid "another room, same sector → use **Change Room**;"
+msgstr "een andere kamer, dezelfde sector → gebruik **Van kamer veranderen**;"
+
+#: ../../content/ehealth/eagreement-transfert.md:84
+msgid ""
+"the **short-stay** flag → tick it directly on the stay, it is a modality, "
+"not a transfer."
+msgstr ""
+"de markering **kortverblijf** → vink ze rechtstreeks op het verblijf aan, "
+"het is een modaliteit, geen overplaatsing."
+
+#: ../../content/ehealth/eagreement-transfert.md:87
+msgid ""
+"**MRS below category B.** MRS requires a Katz category of **B or higher**. "
+"If the resident's latest validated assessment is **O** or **A**, the "
+"assistant stops before touching anything and asks you either to record a new"
+" assessment (tick *With Katz category change*) or to set the destination to "
+"MR."
+msgstr ""
+"**RVT onder categorie B.** RVT vereist een Katz-categorie **B of hoger**. "
+"Als de laatste gevalideerde evaluatie van de bewoner **O** of **A** is, "
+"stopt de assistent voordat hij iets aanraakt en vraagt hij u ofwel een "
+"nieuwe evaluatie te registreren (vink *Met wijziging van Katz-categorie* "
+"aan), ofwel ROB als bestemming in te stellen."
+
+#: ../../content/ehealth/eagreement-transfert.md:92
+msgid ""
+"**A transfer already done.** If the stay is no longer active, the assistant "
+"refuses rather than creating a duplicate destination stay. Start any new "
+"transfer from the resident's current active stay."
+msgstr ""
+"**Een reeds uitgevoerde overplaatsing.** Als het verblijf niet meer actief "
+"is, weigert de assistent in plaats van een dubbel bestemmingsverblijf aan te"
+" maken. Start elke nieuwe overplaatsing vanuit het lopende actieve verblijf "
+"van de bewoner."
+
+#: ../../content/ehealth/eagreement-transfert.md:96
+msgid "Cancelling a transfer"
+msgstr "Een overplaatsing annuleren"
+
+#: ../../content/ehealth/eagreement-transfert.md:98
+msgid ""
+"If you cancel the stay a transfer opened, the transfer never happened — and "
+"the two annexes it created must not stay in the queue waiting to declare a "
+"move to the insurer that will not take place."
+msgstr ""
+"Als u het verblijf annuleert dat een overplaatsing heeft geopend, heeft de "
+"overplaatsing nooit plaatsgevonden — en mogen de twee bijlagen die ze heeft "
+"aangemaakt niet in de wachtrij blijven staan om aan het ziekenfonds een "
+"verhuizing te melden die niet zal gebeuren."
+
+#: ../../content/ehealth/eagreement-transfert.md:102
+msgid ""
+"Resthome cleans up on its own, but the rule depends on whether the annex has"
+" already left:"
+msgstr ""
+"Resthome ruimt zelf op, maar de regel hangt ervan af of de bijlage al "
+"vertrokken is:"
+
+#: ../../content/ehealth/eagreement-transfert.md:105
+msgid ""
+"**Still in draft** — the pair is **removed**, and the resident's thread "
+"records it: *\"Internal transfer cancelled — its draft eAgreement requests "
+"were removed.\"*"
+msgstr ""
+"**Nog in concept** — het paar wordt **verwijderd**, en de draad van de "
+"bewoner noteert het: *« Interne overplaatsing geannuleerd — de eAgreement-"
+"aanvragen in concept werden verwijderd. »*"
+
+#: ../../content/ehealth/eagreement-transfert.md:108
+msgid ""
+"**Already sent** — the annex is **left alone**, and the thread warns you: "
+"*\"Internal transfer cancelled, but … was already sent to the OA.\"*"
+msgstr ""
+"**Reeds verzonden** — de bijlage blijft **ongemoeid**, en de draad "
+"waarschuwt u: *« Interne overplaatsing geannuleerd, maar … werd al naar het "
+"ziekenfonds verzonden. »*"
+
+#: ../../content/ehealth/eagreement-transfert.md:111
+msgid "A sent annexe is retracted with the insurer, not in the software"
+msgstr ""
+"Een verzonden bijlage wordt bij het ziekenfonds ingetrokken, niet in de "
+"software"
+
+#: ../../content/ehealth/eagreement-transfert.md:114
+msgid ""
+"Resthome will never silently delete a declaration the insurer has already "
+"received. If the transfer annexe went out and the transfer is cancelled, the"
+" insurer holds a move that did not happen: **contact them** to correct it. "
+"The same rule applies when you reopen a stay whose end-of-stay annexe was "
+"already sent — Resthome then refuses the reopening outright rather than "
+"leaving a contradiction."
+msgstr ""
+"Resthome zal nooit stilzwijgend een verklaring verwijderen die het "
+"ziekenfonds al heeft ontvangen. Als de overplaatsingsbijlage is vertrokken "
+"en de overplaatsing wordt geannuleerd, houdt het ziekenfonds een verhuizing "
+"bij die niet heeft plaatsgevonden: **neem contact met hen op** om het te "
+"corrigeren. Dezelfde regel geldt wanneer u een verblijf heropent waarvan de "
+"bijlage einde verblijf al is verzonden — Resthome weigert de heropening dan "
+"ronduit in plaats van een tegenstrijdigheid te laten bestaan."
+
+#: ../../content/ehealth/eagreement-transfert.md:122
+msgid ""
+"Only the pair created with that stay is touched. A request belonging to an "
+"earlier transfer of the same resident is never affected, and the cleanup "
+"never blocks the cancellation itself."
+msgstr ""
+"Enkel het paar dat met dat verblijf is aangemaakt, wordt geraakt. Een "
+"aanvraag die tot een eerdere overplaatsing van dezelfde bewoner behoort, "
+"wordt nooit beïnvloed, en de opruiming blokkeert de annulering zelf nooit."
+
+#: ../../content/ehealth/eagreement-transfert.md:126
+msgid "Further reading"
+msgstr "Meer lezen"
+
+#: ../../content/ehealth/eagreement-transfert.md:128
+msgid ""
+"[Agreements (eAgreement Light)](eagreement.md) — the requests the transfer "
+"creates."
+msgstr ""
+"[De akkoorden (eAgreement Light)](eagreement.md) — de aanvragen die de "
+"overplaatsing aanmaakt."
+
+#: ../../content/ehealth/eagreement-transfert.md:129
+msgid ""
+"[Following a request](eagreement-suivi.md) — deadlines and the insurer's "
+"decision."
+msgstr ""
+"[Een aanvraag opvolgen](eagreement-suivi.md) — de termijnen en de beslissing"
+" van het ziekenfonds."
+
+#: ../../content/ehealth/eagreement-transfert.md:130
+msgid ""
+"[Room change and transfer](../residents/changement-chambre.md) — moving room"
+" within the same sector."
+msgstr ""
+"[Kamerwissel en overplaatsing](../residents/changement-chambre.md) — van "
+"kamer veranderen binnen dezelfde sector."
+
+#: ../../content/ehealth/eagreement-transfert.md:131
+msgid ""
+"[The Katz assessment](../residents/katz.md) — the category that conditions "
+"MRS."
+msgstr ""
+"[De Katz-evaluatie](../residents/katz.md) — de categorie die RVT bepaalt."

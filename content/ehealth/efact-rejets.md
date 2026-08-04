@@ -59,6 +59,34 @@ rest is paid — which is why it pays to handle the self-check and the MDA
 **before** sending.
 :::
 
+## Reading a list where batches have been resent
+
+A rejected batch is never modified in place: fixing it produces a **resend**, a
+new batch that takes over. Over a month, one invoice can therefore be carried by
+a **chain** of batches. The list is built to show you the **thread**, not the
+paperwork.
+
+- The status you see on a row is the status of the **whole thread** — the last
+  resend in the chain. A batch that was rejected, resent and then paid reads
+  **Settled**, because that is where the invoice actually stands.
+- The **Current batch** column names the live batch of the thread.
+- Opening a rejected head lands you on a banner — **Resend already created** —
+  with an **Open the live resend** button. Its own status below is historical:
+  the corrections belong on the live resend, not here.
+
+:::{admonition} "My batches have disappeared"
+:class: tip
+
+The list opens on the **Active threads** filter, which folds away the threads
+already superseded — globally rejected then re-submitted, or waived — when a
+fresh submission covers the same insurer for the same month. One live row per
+insurer, instead of a pile of dead ends.
+
+Nothing is deleted. Switch to the **Superseded / waived** filter to see them, or
+open the live batch and use its **Resends / lifecycle** (☰) button, which lists
+every batch that has billed this insurer for this month.
+:::
+
 On each refused line, a **code** and a **rejection reason** in plain language
 point to the cause.
 

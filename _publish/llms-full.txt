@@ -321,6 +321,22 @@ Resthome protège la cohérence du pipeline :
 - **Détection de doublon** — l’admission est rattachée au **résident**, pas seulement à la piste. Si un séjour existe déjà pour cette personne, Resthome le réutilise plutôt que d’en créer un second ; un séjour confirmé appartenant à une **autre** piste n’est jamais « volé ».
 - **Re-glisser une piste** — si vous rouvrez l’assistant sur une piste qui a déjà un séjour, la **chambre** de ce séjour est pré-remplie.
 
+### Quand le numéro national existe déjà
+
+Une personne doit avoir **un seul dossier**. Dès que vous saisissez un numéro national (NISS) qui appartient déjà à un résident, une bannière orange apparaît sur l’opportunité : **Ce NISS appartient déjà à un résident**, en nommant le dossier existant.
+
+Ce n’est pas un avertissement que l’on peut ignorer : **l’admission sera refusée** tant que l’opportunité pointe vers un dossier séparé. Sans la bannière, vous ne le découvririez qu’à la dernière étape — l’assistant qui échoue, l’étape qui revient en arrière, et aucune explication à l’écran.
+
+Le bouton **Rattacher à ce résident** règle le problème en un clic : l’opportunité est repointée vers le dossier existant, et le doublon vide créé au passage est archivé.
+
+Un dossier utilisé n’est jamais archivé
+
+Resthome n’archive le doublon que s’il ne porte **rien** — aucun séjour, aucun contrôle d’assurabilité, aucune autre opportunité. Un dossier déjà utilisé est laissé intact, et les deux restent à fusionner à la main.
+
+Réadmettre un ancien résident
+
+C’est le chemin normal pour quelqu’un qui revient : saisissez son NISS, cliquez **Rattacher à ce résident**, et l’admission se poursuit sur son dossier existant — historique, évaluations et documents compris, plutôt que d’en ouvrir un second.
+
 ## Points clés à retenir
 
 - Le pipeline **Admissions** vit dans l’application **CRM** ; chaque candidat est une piste que vous faites progresser en kanban.
@@ -1961,12 +1977,12 @@ Resthome est connecté à l’écosystème e-santé belge (eHealth, MyCareNet, W
 
   Envoie la **part mutuelle** (message 920000) aux organismes assureurs et suit les accusés et décomptes.
 
-  → [La facturation eFact en détail](efact/)
+  → [La facturation eFact en détail](efact/) · [Rejets](efact-rejets/) · [Corrections et notes de crédit](efact-corrections/) · [Décomptes](efact-paiements/)
 - **eAgreement — Accords**
 
   Notifie l’OA lors d’une **admission**, d’une **fin de séjour** ou d’une **absence** (Annexes 7, 10, 11…).
 
-  → [Les accords en détail](eagreement/)
+  → [Les accords en détail](eagreement/) · [Signer les annexes](eagreement-signature/) · [Suivre une demande](eagreement-suivi/) · [Transfert interne](eagreement-transfert/)
 
 ## Prérequis
 
@@ -2088,8 +2104,32 @@ Sur un lot, les mêmes actions existent en version groupée (**Envoyer**, **Vér
 Après une réponse réussie, la fiche résident est **corrigée automatiquement** :
 
 - **Mutuelle (OA)** : si l’OA qui répond diffère du profil, le profil est mis à jour (et l’OA créé s’il manquait).
-- **Statut BIM**, **numéro d’affiliation**, et **identité** (nom, date de naissance, sexe) si des champs manquaient.
+- Le **statut BIM** et le **numéro d’affilié**.
+- La **date de naissance** et le **sexe** : les valeurs de l’organisme assureur **l’emportent**, même si la fiche contient déjà autre chose (voir ci-dessous).
 - **Date de décès** si l’OA la signale → alerte sur la fiche.
+
+### Sur l’identité, l’organisme assureur l’emporte
+
+La date de naissance et le sexe sont **écrasés**, et pas seulement complétés lorsqu’ils sont vides. C’est délibéré : une date de naissance en désaccord avec le NISS fait **rejeter l’eFact**, et une faute de frappe saisie à l’admission survivrait sinon à tous les contrôles — l’opérateur croyant que le MDA avait validé le dossier. L’organisme assureur applique la même règle.
+
+Quand une valeur existante change, Resthome publie **MDA — identité corrigée** dans le fil du résident, en listant chaque changement sous la forme ~~ancien~~ → **nouveau**. Rien ne bouge en silence.
+
+La date de décès fait exception
+
+Si l’organisme assureur communique une **date de décès** différente de celle du dossier, Resthome ne l’écrase **pas** : il publie *« MDA — la date de décès diverge »* et vous laisse arbitrer. Cette date clôture le séjour et plafonne le forfait — trop lourde de conséquences pour être modifiée automatiquement.
+
+### Les champs d’identité sont verrouillés après la première réponse
+
+Dès qu’un résident a une réponse MDA, les champs que le MDA possède — nom, date de naissance, sexe, mutuelle — passent en **lecture seule** sur la fiche. Cela évite qu’une modification manuelle contredise en silence ce que détient l’organisme assureur.
+
+Le verrou n’est pas absolu :
+
+- **avant** tout MDA les champs sont libres — c’est ainsi qu’on crée un candidat ;
+- un **manager** peut le lever fiche par fiche avec **Autoriser la modification manuelle de l’identité**.
+
+Lever le verrou est temporaire
+
+N’utilisez **Autoriser la modification manuelle de l’identité** que si la réponse de l’organisme assureur est réellement erronée. Le **prochain rafraîchissement MDA écrase votre correction** — réglez le désaccord avec l’organisme assureur plutôt que d’entretenir l’écart à la main.
 
 Garde-fou régimes spéciaux
 
@@ -2295,7 +2335,54 @@ Chaque ligne de lot affiche :
 - les **montants** : facturé, accepté, refusé ;
 - en cas de refus, le **code** et le **motif** de rejet.
 
-## 6. Envoyer et suivre les réponses
+## 6. Les contrôles avant envoi
+
+Avant qu’un lot ne parte, Resthome le passe au crible de tout ce qu’il peut vérifier **sans interroger l’organisme assureur**. Un lot en Brouillon ou Prêt porte un bouton **Contrôles** : vert **Contrôles OK**, ou rouge avec le nombre de problèmes trouvés.
+
+En l’ouvrant, une ligne par problème s’affiche, avec le résident concerné (ou *« (tout le lot) »*), une **Sévérité**, le rejet que renverrait l’organisme assureur, et une colonne **Que faire**.
+
+| Sévérité | Signification |
+| --- | --- |
+| **Bloquant** | L’envoi est refusé, quel que soit l’environnement. |
+| **Bloquant en production** | Toléré en test, refusé en production. |
+| **Avertissement** | Mérite un regard ; n’empêche jamais l’envoi. |
+
+Un envoi refusé, c’est la fonction qui marche
+
+Si **Envoyer à l’OA** refuse, c’est délibéré. Chaque transmission consomme un **numéro d’envoi**, et un lot envoyé avec un défaut connu revient en rejet après avoir brûlé ce numéro pour rien. Corrigez la cause, régénérez le message, renvoyez.
+
+### Ce que les contrôles cherchent
+
+| Problème | Pourquoi l’organisme assureur le rejetterait | Que faire |
+| --- | --- | --- |
+| **Message non généré** | Il n’y a pas de fichier à envoyer. | Cliquez **Générer le message**. |
+| **Période ≠ jours facturés** | La période facturée couvre plus de jours qu’elle n’en facture (rejet **302240**). | Régénérez la **période de facturation**, pas le lot — le forfait est alors découpé autour de l’absence. |
+| **Forfait au-delà de la fin d’intervention** | La ligne facture au-delà de la date de décès ou de départ. | Régénérez la période, ou émettez une note de crédit. |
+| **Facturation dans le futur** | Le dernier jour facturé n’est pas encore écoulé (rejet **300610 / 500610**). | Transmettez une fois le mois écoulé (M+1). |
+| **Code d’union au lieu d’une mutuelle membre** | Facturé sous un code de fédération ; l’organisme assureur attend la mutuelle membre. | Relancez le MDA, ou assignez une mutuelle membre au résident. |
+| **Assurabilité non confirmée** | Aucun MDA exploitable ne couvre la période facturée. | Lancez **Refaire le MDA** pour ce résident. |
+| **Non assuré selon le MDA** | L’organisme assureur a répondu *« non assuré »* pour la période. | Utilisez **Scinder les non-assurés** (voir ci-dessous). |
+| **CT1/CT2 partirait à vide** | Les codes titulaire se résolvent en zéros (rejet **202703**). | Relancez le MDA pour la période facturée, puis régénérez le message. |
+| **L’assurabilité vient d’une simulation** | Un MDA simulé **fabrique** les codes titulaire. | Lancez un vrai MDA, puis régénérez le message. |
+| **Le dernier MDA a échoué — l’assurabilité est périmée** *(avertissement)* | Ce qui s’affiche est le reliquat d’un succès plus ancien. | Réglez la cause avec l’organisme assureur, puis relancez le MDA. |
+
+## 7. Couverture d’assurabilité et lots retenus
+
+Chaque lot porte une pastille **Couverture MDA** — **OK**, **Partielle**, **Manquante** ou **En attente** — avec le nombre de résidents réellement envoyables (*« 5/7 envoyables »*). Le même indicateur figure dans l’onglet eHealth de la période.
+
+Quand une partie du lot n’est pas couverte, vous n’avez pas à choisir entre retarder tout le monde et envoyer un fichier que vous savez rejeté :
+
+- **Scinder les non-assurés** ne garde dans le lot que les résidents dont le MDA confirme l’assurance, et déplace tous les autres — sans MDA, *« non assuré »*, ou MDA en erreur — dans un lot **retenu** distinct. La partie saine peut partir tout de suite.
+- Le lot retenu attend. Relancez-y le MDA, réintégrez les résidents qui retrouvent une couverture, ou facturez-les directement.
+- **Libérer le lot retenu** le remet en circulation dès que la couverture est **OK**.
+
+La libération est refusée tant que la couverture n’est pas OK
+
+**Libérer le lot retenu** refuse tant que la couverture n’est pas **OK**, et vous indique l’état courant. Rafraîchissez d’abord l’assurabilité — tout l’intérêt du lot retenu est qu’il ne parte jamais dans un état que l’organisme assureur rejetterait.
+
+À la libération, Resthome traite aussi le cas où un MDA a **changé la mutuelle d’un résident** : ces lignes sont réaiguillées vers le lot du bon organisme assureur — fusionnées dans un lot existant, ou placées dans un nouveau, lui-même retenu si un lot est déjà en vol pour cet organisme.
+
+## 8. Envoyer et suivre les réponses
 
 Une fois les lots construits, **envoyez-les** : la transmission part vers les organismes assureurs via le réseau eHealth.
 
@@ -2311,11 +2398,11 @@ Si un lot (ou une partie) est **rejeté**, le **code** et le **motif** de rejet 
 
 Le bouton **Réintégration** permet, le cas échéant, de réintégrer des lignes (par exemple après correction) dans un nouvel envoi.
 
-## 7. Le Cockpit eFact
+## 9. Le cockpit eFact
 
 Depuis une période ou une carte du tableau de bord, le **Cockpit eFact** offre une **vue de pilotage** : l’état de tous les lots et envois d’un coup d’œil — transmis, acceptés, rejetés, en attente. C’est l’écran idéal pour **suivre une campagne mensuelle** et repérer ce qui bloque.
 
-## 8. Notes de crédit et régularisations
+## 10. Notes de crédit et régularisations
 
 Lorsqu’un résident **part** ou **décède** au cours d’un mois déjà facturé, une partie de l’hébergement ou du forfait a été **surfacturée**. Resthome le détecte (voir l’autocontrôle ci-dessus) et prépare la **note de crédit** ou le **reliquat** correspondant, pour rembourser la période indue — côté résident **et**, si nécessaire, côté mutuelle via un lot correctif.
 
@@ -2365,6 +2452,20 @@ Après l’envoi d’un lot, les réponses de l’OA font évoluer le **statut d
 Quand un lot est-il rejeté globalement ?
 
 L’organisme assureur rejette **tout le lot** (920099) en cas d”**erreur bloquante** ou lorsque le **taux d’erreurs dépasse environ 5 %** des lignes. En dessous, les lignes fautives font l’objet d’un **rejet partiel** et le reste est payé — d’où l’intérêt de traiter l’auto-contrôle et le MDA **avant** d’envoyer.
+
+## Lire une liste où des lots ont été renvoyés
+
+Un lot rejeté n’est jamais modifié sur place : le corriger produit un **renvoi**, un nouveau lot qui prend le relais. Sur un mois, une même facture peut donc être portée par une **chaîne** de lots. La liste est faite pour vous montrer le **fil**, pas la paperasse.
+
+- Le statut affiché sur une ligne est celui du **fil entier** — le dernier renvoi de la chaîne. Un lot rejeté, renvoyé puis payé se lit **Décompté**, parce que c’est là qu’en est réellement la facture.
+- La colonne **Lot en cours** nomme le lot vivant du fil.
+- Ouvrir une tête rejetée vous amène sur une bannière — **Renvoi déjà créé** — avec un bouton **Ouvrir le renvoi en cours**. Son propre statut, en dessous, est historique : les corrections se font sur le renvoi vivant, pas ici.
+
+« Mes lots ont disparu »
+
+La liste s’ouvre sur le filtre **Fils actifs**, qui replie les fils déjà remplacés — rejetés globalement puis resoumis, ou abandonnés — dès qu’un nouvel envoi couvre le même organisme assureur pour le même mois. Une ligne vivante par organisme assureur, au lieu d’un empilement d’impasses.
+
+Rien n’est supprimé. Passez au filtre **Remplacés / abandonnés** pour les retrouver, ou ouvrez le lot vivant et utilisez son bouton **Renvois / cycle de vie** (☰), qui liste tous les lots ayant facturé cet organisme assureur pour ce mois.
 
 Sur chaque ligne refusée, un **code** et un **motif de rejet** en clair pointent la cause.
 
@@ -2527,7 +2628,25 @@ Un encart **Status** indique en un badge ce que le lot attend : *Awaiting OA res
 
 Dans la liste des lots, les filtres **Paid** / **Unpaid** (payé / impayé) et les colonnes optionnelles **Payment Ref.**, **Payment Date**, **Amount Paid** aident à faire le point mois par mois.
 
-## 4. Le Cockpit eFact : « ai-je été payé ? » d’un coup d’œil
+## 4. Comptabiliser l’envoi
+
+Une créance en tiers payant transite par le réseau santé et **ne passe aucune écriture dans vos livres**. Sans une action délibérée, tout le flux de revenus des organismes assureurs resterait invisible pour la comptabilité.
+
+Sur un lot **décompté** ou **clôturé**, **Créer le document comptable** le comptabilise en facture client vers l’organisme assureur, dans le journal INAMI. Les prestations de l’envoi sont reprises **groupées par résident**, chacune avec son compte de produits.
+
+Seulement une fois le décompte reçu
+
+Le bouton n’apparaît qu’à partir de **décompté**, et c’est bien le principe : avant le décompte, le montant n’est pas définitif. Resthome comptabilise **ce que l’organisme assureur a réellement accepté**, ligne par ligne — une prestation acceptée pour moins que réclamé est comptabilisée au montant accepté, et une prestation ventilée à zéro ne l’est pas du tout.
+
+Une [note de crédit](../efact-corrections/) fonctionne de la même façon, signes inversés : comme elle rend de l’argent à l’organisme assureur, elle se comptabilise en **avoir** plutôt qu’en facture.
+
+Une fois créé, le document est accessible depuis le lot, et le lot depuis le document — de sorte qu’un comptable qui regarde une ligne du journal INAMI peut remonter à l’envoi qui l’a produite.
+
+Comptabiliser deux fois est refusé
+
+Un lot portant déjà un document comptable vivant ne peut pas être comptabilisé une seconde fois : Resthome nomme le document existant et vous demande de l’annuler d’abord. Si rien n’a été accepté sur l’envoi, il n’y a rien à comptabiliser et l’action le dit, plutôt que de créer un document vide.
+
+## 5. Le cockpit eFact : « ai-je été payé ? » d’un coup d’œil
 
 Menu **eHealth → eFact → Cockpit** (aussi accessible depuis une période ou une carte du tableau de bord). Le Cockpit range tout le travail en **piles d’action**, avec un compteur et un bouton par pile. Trois piles répondent directement à la question du paiement.
 
@@ -2546,13 +2665,13 @@ Aller chercher les réponses
 
 Si des lots restent en attente, le bouton **Fetch responses** (récupérer les réponses) interroge la plateforme OA et met à jour les statuts. Les réponses arrivent aussi automatiquement, mais ce bouton force une vérification immédiate.
 
-## 5. Relancer un OA en retard
+## 6. Relancer un organisme assureur en retard
 
 La pile **Overdue payments** liste les envois **introduits dans les délais**, **acceptés** par l’OA mais **non payés** au-delà de l’échéance. Le bouton **Chase (by OA)** ouvre ces lots **regroupés par organisme assureur** : vous voyez immédiatement **qui relancer** et **pour quel montant** (le total accepté est additionné par OA).
 
 Pour écrire à l’OA, le bouton **Contact OA** (présent sur chaque lot) prépare la prise de contact avec le bon interlocuteur de facturation.
 
-## 6. Intérêts de retard (intérêts moratoires)
+## 7. Intérêts de retard (intérêts moratoires)
 
 Un envoi payé trop tard peut donner droit à des **intérêts de retard**. Resthome applique la règle AViQ :
 
@@ -2836,9 +2955,17 @@ La marche à suivre, sur une demande en **Brouillon** :
 3. Dans la fenêtre **Signer l’annexe**, vérifiez le **signataire** (vous par défaut), son **rôle**, la **date de signature** et l”**aperçu** de la signature.
 4. Cliquez sur **Signer et remplacer le PDF**. Resthome régénère un PDF propre, y place la signature et coche l’annexe comme **signée** (un ✓ vert « Signé » apparaît à côté de l’annexe).
 
-La signature est un préalable à l’envoi
+Envoyer sans signer : possible, mais sous votre responsabilité
 
-Tant qu’une annexe générée n’est **pas signée**, le bouton **Envoyer la demande** reste masqué. Signez d’abord toutes les annexes, puis envoyez. Re-signer est sans risque : Resthome repart d’un PDF vierge à chaque fois, sans empiler les signatures.
+Resthome **ne bloque pas** l’envoi quand une annexe n’est pas signée — il demande une confirmation. Le bouton **Envoyer la demande** affiche alors : *« L’annexe n’est pas signée. En eAgreement Light, l’OA décide à partir du PDF de l’annexe — envoyer quand même ? »*. Annulez pour signer d’abord, ou confirmez pour envoyer en l’état.
+
+Si vous confirmez, la demande part avec une **annexe non signée** et Resthome consigne un avertissement dans le fil de la demande : *« Envoyée avec une annexe NON SIGNÉE »*. Comme l’organisme assureur décide **à partir de ce PDF**, une annexe non signée vous expose à un refus — il faudrait alors signer et renvoyer la demande **entière**.
+
+Resigner est sans risque : Resthome repart d’un PDF vierge à chaque fois, sans empiler les signatures.
+
+Remplacer un PDF efface sa signature
+
+Régénérer une annexe, ou téléverser un nouveau PDF par-dessus l’existant, remet l’annexe à **non signée** — même si le document que vous téléversez porte déjà une signature manuscrite. Recochez **Annexe signée** (annexes 7 / 11), ou relancez **Signer l’annexe N**, sinon le prochain envoi redemandera une confirmation.
 
 Katz déjà signé lors de l’évaluation
 
@@ -3311,8 +3438,7 @@ Chaque plan porte ses **objectifs**, ce qui rend le suivi mesurable.
 
 ![Soins du jour : une ligne par soin avec l'heure prévue, le résident, le type de soin, la personne assignée et le statut](../../_images/03-soins-du-jour.png)
 
-The same care can be read as a **calendar**, which makes the workload of each day
-of the week visible at a glance.
+Les mêmes soins se lisent aussi en **calendrier**, ce qui rend visible d’un coup d’œil la charge de chaque jour de la semaine.
 
 ![Planning hebdomadaire des soins en vue calendrier, les soins répartis par créneau horaire](../../_images/02-planning-des-soins.png)
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-18 19:04+0200\n"
+"POT-Creation-Date: 2026-08-04 16:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nl <LL@li.org>\n"
@@ -682,10 +682,317 @@ msgid "in case of refusal, the rejection **code** and **reason**."
 msgstr "bij weigering, de weigerings**code** en **-reden**."
 
 #: ../../content/ehealth/efact.md:192
-msgid "6. Send and follow the responses"
-msgstr "6\\. Versturen en de antwoorden opvolgen"
+msgid "6. The pre-send checks"
+msgstr "6\\. De controles vóór verzending"
 
 #: ../../content/ehealth/efact.md:194
+msgid ""
+"Before a batch leaves, Resthome inspects it against everything it can verify"
+" **without asking the insurer**. A batch in Draft or Ready carries a "
+"**Checks** button: green **Checks OK**, or red with the number of problems "
+"found."
+msgstr ""
+"Voordat een zending vertrekt, toetst Resthome ze aan alles wat het kan "
+"nagaan **zonder het ziekenfonds te bevragen**. Een zending in Concept of "
+"Klaar draagt een knop **Controles**: groen **Controles OK**, of rood met het"
+" aantal gevonden problemen."
+
+#: ../../content/ehealth/efact.md:198
+msgid ""
+"Opening it lists one row per problem, with the resident concerned (or "
+"*\"(whole batch)\"*), a **Severity**, the reject the insurer would return, "
+"and a **What to do** column."
+msgstr ""
+"Bij het openen verschijnt één regel per probleem, met de betrokken bewoner "
+"(of *« (volledige zending) »*), een **Ernst**, de verwerping die het "
+"ziekenfonds zou terugsturen, en een kolom **Wat te doen**."
+
+#: ../../content/ehealth/efact.md:175
+msgid "Severity"
+msgstr "Ernst"
+
+#: ../../content/ehealth/efact.md:175
+msgid "Meaning"
+msgstr "Betekenis"
+
+#: ../../content/ehealth/efact.md:175
+msgid "**Blocking**"
+msgstr "**Blokkerend**"
+
+#: ../../content/ehealth/efact.md:175
+msgid "The send is refused, whatever the environment."
+msgstr "De verzending wordt geweigerd, ongeacht de omgeving."
+
+#: ../../content/ehealth/efact.md:175
+msgid "**Blocking in production**"
+msgstr "**Blokkerend in productie**"
+
+#: ../../content/ehealth/efact.md:175
+msgid "Tolerated while testing, refused in production."
+msgstr "Getolereerd bij het testen, geweigerd in productie."
+
+#: ../../content/ehealth/efact.md:175
+msgid "**Warning**"
+msgstr "**Waarschuwing**"
+
+#: ../../content/ehealth/efact.md:175
+msgid "Deserves a look; never stops the send."
+msgstr "Verdient aandacht; verhindert de verzending nooit."
+
+#: ../../content/ehealth/efact.md:208
+msgid "A refused send is the feature working"
+msgstr "Een geweigerde verzending betekent dat de functie werkt"
+
+#: ../../content/ehealth/efact.md:211
+msgid ""
+"If **Send to OA** refuses, that is deliberate. Every transmission consumes a"
+" **mailing number**, and a batch sent with a known defect comes back as a "
+"rejection that has burned that number for nothing. Fix the cause, regenerate"
+" the message, send again."
+msgstr ""
+"Als **Naar het ziekenfonds verzenden** weigert, is dat bewust. Elke "
+"transmissie verbruikt een **zendingsnummer**, en een zending die met een "
+"gekend gebrek vertrekt, keert terug als verwerping nadat dat nummer voor "
+"niets is opgebruikt. Corrigeer de oorzaak, genereer het bericht opnieuw, "
+"verzend opnieuw."
+
+#: ../../content/ehealth/efact.md:217
+msgid "What the checks look for"
+msgstr "Waar de controles naar zoeken"
+
+#: ../../content/ehealth/efact.md:208
+msgid "Problem"
+msgstr "Probleem"
+
+#: ../../content/ehealth/efact.md:208
+msgid "Why the insurer would reject it"
+msgstr "Waarom het ziekenfonds het zou verwerpen"
+
+#: ../../content/ehealth/efact.md:208
+msgid "What to do"
+msgstr "Wat te doen"
+
+#: ../../content/ehealth/efact.md:208
+msgid "**Message not generated**"
+msgstr "**Bericht niet gegenereerd**"
+
+#: ../../content/ehealth/efact.md:208
+msgid "There is no file to send."
+msgstr "Er is geen bestand om te verzenden."
+
+#: ../../content/ehealth/efact.md:208
+msgid "Click **Generate message**."
+msgstr "Klik op **Bericht genereren**."
+
+#: ../../content/ehealth/efact.md:208
+msgid "**Period ≠ billed days**"
+msgstr "**Periode ≠ gefactureerde dagen**"
+
+#: ../../content/ehealth/efact.md:208
+msgid "The billed period spans more days than it bills (reject **302240**)."
+msgstr ""
+"De gefactureerde periode beslaat meer dagen dan ze factureert (verwerping "
+"**302240**)."
+
+#: ../../content/ehealth/efact.md:208
+msgid ""
+"Regenerate the **billing period**, not the batch — the allowance is then "
+"split around the absence."
+msgstr ""
+"Genereer de **facturatieperiode** opnieuw, niet de zending — de forfait "
+"wordt dan opgesplitst rond de afwezigheid."
+
+#: ../../content/ehealth/efact.md:208
+msgid "**Forfait past intervention end**"
+msgstr "**Forfait na het einde van de tegemoetkoming**"
+
+#: ../../content/ehealth/efact.md:208
+msgid "The line bills beyond the death or departure date."
+msgstr "De regel factureert verder dan de overlijdens- of vertrekdatum."
+
+#: ../../content/ehealth/efact.md:208
+msgid "Regenerate the period, or issue a credit note."
+msgstr "Genereer de periode opnieuw, of maak een creditnota op."
+
+#: ../../content/ehealth/efact.md:208
+msgid "**Future-dated billing**"
+msgstr "**Facturatie in de toekomst**"
+
+#: ../../content/ehealth/efact.md:208
+msgid "The last billed day has not elapsed (reject **300610 / 500610**)."
+msgstr ""
+"De laatste gefactureerde dag is nog niet verstreken (verwerping **300610 / "
+"500610**)."
+
+#: ../../content/ehealth/efact.md:208
+msgid "Transmit once the month is over (M+1)."
+msgstr "Verzend zodra de maand voorbij is (M+1)."
+
+#: ../../content/ehealth/efact.md:208
+msgid "**Union code instead of a member fund**"
+msgstr "**Unie-code in plaats van een aangesloten ziekenfonds**"
+
+#: ../../content/ehealth/efact.md:208
+msgid "Billed under a federation code; the insurer wants the member fund."
+msgstr ""
+"Gefactureerd onder een federatiecode; het ziekenfonds verwacht het "
+"aangesloten ziekenfonds."
+
+#: ../../content/ehealth/efact.md:208
+msgid "Re-run the MDA, or assign a member fund to the resident."
+msgstr ""
+"Voer de MDA opnieuw uit, of wijs de bewoner een aangesloten ziekenfonds toe."
+
+#: ../../content/ehealth/efact.md:208
+msgid "**Insurability not confirmed**"
+msgstr "**Verzekerbaarheid niet bevestigd**"
+
+#: ../../content/ehealth/efact.md:208
+msgid "No usable MDA covering the billed period."
+msgstr "Geen bruikbare MDA die de gefactureerde periode dekt."
+
+#: ../../content/ehealth/efact.md:208
+msgid "Run **Redo MDA** for that resident."
+msgstr "Voer **MDA opnieuw uitvoeren** uit voor die bewoner."
+
+#: ../../content/ehealth/efact.md:208
+msgid "**Not insured per MDA**"
+msgstr "**Niet verzekerd volgens de MDA**"
+
+#: ../../content/ehealth/efact.md:208
+msgid "The insurer answered *\"not insured\"* for the period."
+msgstr "Het ziekenfonds antwoordde *« niet verzekerd »* voor de periode."
+
+#: ../../content/ehealth/efact.md:208
+msgid "Use **Split Non-Insured** (see below)."
+msgstr "Gebruik **Niet-verzekerden afsplitsen** (zie hieronder)."
+
+#: ../../content/ehealth/efact.md:208
+msgid "**CT1/CT2 would be sent empty**"
+msgstr "**CT1/CT2 zou leeg vertrekken**"
+
+#: ../../content/ehealth/efact.md:208
+msgid "The titularity codes resolve to zeros (reject **202703**)."
+msgstr "De titulariscodes resulteren in nullen (verwerping **202703**)."
+
+#: ../../content/ehealth/efact.md:208
+msgid "Re-run the MDA for the billed period, then regenerate the message."
+msgstr ""
+"Voer de MDA opnieuw uit voor de gefactureerde periode en genereer het "
+"bericht opnieuw."
+
+#: ../../content/ehealth/efact.md:208
+msgid "**Insurability comes from a stub run**"
+msgstr "**De verzekerbaarheid komt uit een simulatie**"
+
+#: ../../content/ehealth/efact.md:208
+msgid "A simulated MDA **fabricates** the titularity codes."
+msgstr "Een gesimuleerde MDA **verzint** de titulariscodes."
+
+#: ../../content/ehealth/efact.md:208
+msgid "Run a real MDA, then regenerate the message."
+msgstr "Voer een echte MDA uit en genereer het bericht opnieuw."
+
+#: ../../content/ehealth/efact.md:208
+msgid "**Latest MDA failed — insurability is stale** *(warning)*"
+msgstr ""
+"**De laatste MDA is mislukt — de verzekerbaarheid is verouderd** "
+"*(waarschuwing)*"
+
+#: ../../content/ehealth/efact.md:208
+msgid "What is displayed is left over from an older successful run."
+msgstr ""
+"Wat wordt weergegeven is het overblijfsel van een oudere geslaagde poging."
+
+#: ../../content/ehealth/efact.md:208
+msgid "Settle the cause with the insurer, then re-run the MDA."
+msgstr "Regel de oorzaak met het ziekenfonds en voer de MDA opnieuw uit."
+
+#: ../../content/ehealth/efact.md:232
+msgid "7. Insurability coverage and held batches"
+msgstr "7\\. Verzekerbaarheidsdekking en vastgehouden zendingen"
+
+#: ../../content/ehealth/efact.md:234
+msgid ""
+"Each batch carries an **MDA Coverage** badge — **OK**, **Partial**, "
+"**Missing** or **Pending** — with a count of the residents that can actually"
+" be sent (*\"5/7 sendable\"*). The same indicator appears in the period's "
+"eHealth tab."
+msgstr ""
+"Elke zending draagt een label **MDA-dekking** — **OK**, **Gedeeltelijk**, "
+"**Ontbrekend** of **In afwachting** — met het aantal bewoners dat werkelijk "
+"verzendbaar is (*« 5/7 verzendbaar »*). Dezelfde indicator staat in het "
+"eHealth-tabblad van de periode."
+
+#: ../../content/ehealth/efact.md:238
+msgid ""
+"When part of the batch is not covered, you do not have to choose between "
+"delaying everyone and sending a file you know will be rejected:"
+msgstr ""
+"Wanneer een deel van de zending niet gedekt is, hoeft u niet te kiezen "
+"tussen iedereen uitstellen en een bestand verzenden waarvan u weet dat het "
+"verworpen wordt:"
+
+#: ../../content/ehealth/efact.md:241
+msgid ""
+"**Split Non-Insured** keeps in the batch only the residents with a confirmed"
+" insured MDA, and moves all the others — no MDA, *\"not insured\"*, or MDA "
+"in error — into a separate **held** batch. The clean part can be sent at "
+"once."
+msgstr ""
+"**Niet-verzekerden afsplitsen** houdt in de zending enkel de bewoners over "
+"met een MDA die de verzekering bevestigt, en verplaatst alle andere — zonder"
+" MDA, *« niet verzekerd »*, of MDA in fout — naar een aparte "
+"**vastgehouden** zending. Het gezonde deel kan meteen vertrekken."
+
+#: ../../content/ehealth/efact.md:244
+msgid ""
+"The held batch waits. Re-run the MDA on it, reintegrate the residents who "
+"regain coverage, or bill them directly."
+msgstr ""
+"De vastgehouden zending wacht. Voer er de MDA opnieuw uit, reïntegreer de "
+"bewoners die opnieuw gedekt zijn, of factureer hen rechtstreeks."
+
+#: ../../content/ehealth/efact.md:246
+msgid ""
+"**Release Held** puts it back into circulation once coverage is **OK**."
+msgstr ""
+"**Vastgehouden zending vrijgeven** brengt ze weer in omloop zodra de dekking"
+" **OK** is."
+
+#: ../../content/ehealth/efact.md:248
+msgid "Releasing is refused while coverage is not OK"
+msgstr "De vrijgave wordt geweigerd zolang de dekking niet OK is"
+
+#: ../../content/ehealth/efact.md:251
+msgid ""
+"**Release Held** refuses as long as coverage is not **OK**, and tells you "
+"the current state. Refresh the insurability first — the whole point of the "
+"held batch is that it never leaves in a state the insurer would reject."
+msgstr ""
+"**Vastgehouden zending vrijgeven** weigert zolang de dekking niet **OK** is,"
+" en toont u de huidige toestand. Ververs eerst de verzekerbaarheid — het "
+"hele nut van de vastgehouden zending is dat ze nooit vertrekt in een "
+"toestand die het ziekenfonds zou verwerpen."
+
+#: ../../content/ehealth/efact.md:256
+msgid ""
+"On release, Resthome also handles the case where an MDA has **changed a "
+"resident's fund**: those lines are rerouted to the batch of the correct "
+"insurer — merged into an existing one, or placed in a new one, itself held "
+"if a batch for that insurer is already in flight."
+msgstr ""
+"Bij de vrijgave behandelt Resthome ook het geval waarin een MDA **het "
+"ziekenfonds van een bewoner heeft gewijzigd**: die regels worden omgeleid "
+"naar de zending van het juiste ziekenfonds — samengevoegd met een bestaande,"
+" of in een nieuwe geplaatst, die zelf wordt vastgehouden als er al een "
+"zending onderweg is voor dat ziekenfonds."
+
+#: ../../content/ehealth/efact.md:261
+msgid "8. Send and follow the responses"
+msgstr "8\\. Verzenden en de antwoorden opvolgen"
+
+#: ../../content/ehealth/efact.md:263
 msgid ""
 "Once the batches are built, **send them**: the transmission goes to the "
 "insurance organisations through the eHealth network."
@@ -693,11 +1000,11 @@ msgstr ""
 "Zodra de loten opgebouwd zijn, **verstuurt u ze**: de verzending vertrekt "
 "naar de verzekeringsinstellingen via het eHealth-netwerk."
 
-#: ../../content/ehealth/efact.md:197
+#: ../../content/ehealth/efact.md:266
 msgid "The response cycle is automatic:"
 msgstr "De antwoordcyclus is automatisch:"
 
-#: ../../content/ehealth/efact.md:199
+#: ../../content/ehealth/efact.md:268
 msgid ""
 "**Acknowledgement of receipt (931000)** — the OA confirms having "
 "**received** the batch and passed the first check. **This is normal: there "
@@ -707,7 +1014,7 @@ msgstr ""
 "**ontvangen** en de eerste controle te hebben doorstaan. **Dit is normaal: "
 "er is niets opnieuw te versturen, wacht op de afrekening** (enkele dagen)."
 
-#: ../../content/ehealth/efact.md:202
+#: ../../content/ehealth/efact.md:271
 msgid ""
 "**Notification with warnings (920098)** or **global rejection (920099)** — "
 "where applicable: either the batch is accepted despite minor errors, or the "
@@ -718,7 +1025,7 @@ msgstr ""
 "kleine fouten, ofwel wordt het volledige lot geweigerd (te corrigeren en "
 "opnieuw te versturen)."
 
-#: ../../content/ehealth/efact.md:205
+#: ../../content/ehealth/efact.md:274
 msgid ""
 "**Settlement (920900)** — the final result: **accepted** and/or **rejected**"
 " amounts. Resthome **reconciles** the responses and updates each batch "
@@ -728,11 +1035,11 @@ msgstr ""
 "**geweigerde** bedragen. Resthome **stemt** de antwoorden af en werkt elk "
 "lot bij (weigeringscode en -reden)."
 
-#: ../../content/ehealth/efact.md:209
+#: ../../content/ehealth/efact.md:278
 msgid "Handling a rejection"
 msgstr "Een weigering behandelen"
 
-#: ../../content/ehealth/efact.md:211
+#: ../../content/ehealth/efact.md:280
 msgid ""
 "If a batch (or part of it) is **rejected**, the rejection **code** and "
 "**reason** tell you why (insurability, allowance, dates…). Fix the cause, "
@@ -744,7 +1051,7 @@ msgstr ""
 "data…). Corrigeer de oorzaak en **verstuur opnieuw**. De teller "
 "**Herzendingen** houdt de herzendingen bij om dubbels te vermijden."
 
-#: ../../content/ehealth/efact.md:217
+#: ../../content/ehealth/efact.md:286
 msgid ""
 "The **Reintegration** button lets you, where applicable, reintegrate lines "
 "(for example after correction) into a new sending."
@@ -752,11 +1059,11 @@ msgstr ""
 "De knop **Herintegratie** laat u toe om, indien van toepassing, regels "
 "(bijvoorbeeld na correctie) in een nieuwe verzending te herintegreren."
 
-#: ../../content/ehealth/efact.md:220
-msgid "7. The eFact Cockpit"
-msgstr "7\\. De eFact-cockpit"
+#: ../../content/ehealth/efact.md:289
+msgid "9. The eFact Cockpit"
+msgstr "9\\. De eFact-cockpit"
 
-#: ../../content/ehealth/efact.md:222
+#: ../../content/ehealth/efact.md:291
 msgid ""
 "From a period or a dashboard card, the **eFact Cockpit** offers a **steering"
 " view**: the state of all batches and sendings at a glance — transmitted, "
@@ -769,11 +1076,11 @@ msgstr ""
 " scherm om **een maandelijkse campagne op te volgen** en te zien wat "
 "blokkeert."
 
-#: ../../content/ehealth/efact.md:227
-msgid "8. Credit notes and regularisations"
-msgstr "8\\. Creditnota's en regularisaties"
+#: ../../content/ehealth/efact.md:296
+msgid "10. Credit notes and regularisations"
+msgstr "10\\. Creditnota's en regularisaties"
 
-#: ../../content/ehealth/efact.md:229
+#: ../../content/ehealth/efact.md:298
 msgid ""
 "When a resident **leaves** or **dies** during an already invoiced month, "
 "part of the accommodation or the allowance was **over-invoiced**. Resthome "
@@ -789,35 +1096,35 @@ msgstr ""
 "onterechte periode terug te betalen — aan bewonerszijde **en**, indien "
 "nodig, aan mutualiteitszijde via een corrigerend lot."
 
-#: ../../content/ehealth/efact.md:235
+#: ../../content/ehealth/efact.md:304
 msgid "Prerequisites"
 msgstr "Vereisten"
 
-#: ../../content/ehealth/efact.md:237
+#: ../../content/ehealth/efact.md:306
 msgid "To check before sending"
 msgstr "Te controleren vóór het versturen"
 
-#: ../../content/ehealth/efact.md:239
+#: ../../content/ehealth/efact.md:308
 msgid "**Insurability (MDA)** checked for the period."
 msgstr "**Verzekerbaarheid (MDA)** gecontroleerd voor de periode."
 
-#: ../../content/ehealth/efact.md:240
+#: ../../content/ehealth/efact.md:309
 msgid "Correct **mutuality** on each resident."
 msgstr "Correcte **mutualiteit** op elke bewoner."
 
-#: ../../content/ehealth/efact.md:241
+#: ../../content/ehealth/efact.md:310
 msgid "Invoices **posted** (period in *Invoiced* state)."
 msgstr "Facturen **geboekt** (periode in de toestand *Gefactureerd*)."
 
-#: ../../content/ehealth/efact.md:242
+#: ../../content/ehealth/efact.md:311
 msgid "Active **eHealth certificate**."
 msgstr "Actief **eHealth-certificaat**."
 
-#: ../../content/ehealth/efact.md:245
+#: ../../content/ehealth/efact.md:314
 msgid "Key points to remember"
 msgstr "Belangrijke punten om te onthouden"
 
-#: ../../content/ehealth/efact.md:247
+#: ../../content/ehealth/efact.md:316
 msgid ""
 "The period always follows the order **Draft → Generated → Invoiced → "
 "Closed**."
@@ -825,27 +1132,27 @@ msgstr ""
 "De periode volgt altijd de volgorde **Concept → Gegenereerd → Gefactureerd →"
 " Afgesloten**."
 
-#: ../../content/ehealth/efact.md:248
+#: ../../content/ehealth/efact.md:317
 msgid "**Check before invoicing**: handle every self-check message."
 msgstr "**Controleer vóór het factureren**: behandel elk zelfcontrolebericht."
 
-#: ../../content/ehealth/efact.md:249
+#: ../../content/ehealth/efact.md:318
 msgid "**Check the MDA** — no third-party payment without valid insurability."
 msgstr ""
 "**Controleer de MDA** — geen derdebetaler zonder geldige verzekerbaarheid."
 
-#: ../../content/ehealth/efact.md:250
+#: ../../content/ehealth/efact.md:319
 msgid "**One eFact batch per union** of mutualities, not per mutuality."
 msgstr ""
 "**Eén eFact-lot per landsbond** van mutualiteiten, niet per mutualiteit."
 
-#: ../../content/ehealth/efact.md:251
+#: ../../content/ehealth/efact.md:320
 msgid "Respect the sending **deadline** of each period (\"deadline exceeded\")."
 msgstr ""
 "Respecteer de verzend**termijn** van elke periode (« termijn overschreden "
 "»)."
 
-#: ../../content/ehealth/efact.md:252
+#: ../../content/ehealth/efact.md:321
 msgid ""
 "A **rejection** is fixed then **resent** — the Resends counter avoids "
 "duplicates."

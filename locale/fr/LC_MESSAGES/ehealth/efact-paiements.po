@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-22 03:20+0200\n"
+"POT-Creation-Date: 2026-08-04 16:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -509,10 +509,92 @@ msgstr ""
 "Paid** aident à faire le point mois par mois."
 
 #: ../../content/ehealth/efact-paiements.md:153
-msgid "4. The eFact Cockpit: \"have I been paid?\" at a glance"
-msgstr "4\\. Le Cockpit eFact : « ai-je été payé ? » d'un coup d'œil"
+msgid "4. Booking the sending in the accounts"
+msgstr "4\\. Comptabiliser l'envoi"
 
 #: ../../content/ehealth/efact-paiements.md:155
+msgid ""
+"A third-party-payer claim travels over the health network and **posts "
+"nothing in your books**. Without a deliberate step, the entire insurer "
+"revenue stream would be invisible to accounting."
+msgstr ""
+"Une créance en tiers payant transite par le réseau santé et **ne passe "
+"aucune écriture dans vos livres**. Sans une action délibérée, tout le flux "
+"de revenus des organismes assureurs resterait invisible pour la "
+"comptabilité."
+
+#: ../../content/ehealth/efact-paiements.md:159
+msgid ""
+"On a **settled** or **closed** batch, **Create Accounting Document** books "
+"it as a customer invoice towards the insurer, in the INAMI journal. The "
+"services of the sending are carried over **grouped by resident**, each with "
+"its own income account."
+msgstr ""
+"Sur un lot **décompté** ou **clôturé**, **Créer le document comptable** le "
+"comptabilise en facture client vers l'organisme assureur, dans le journal "
+"INAMI. Les prestations de l'envoi sont reprises **groupées par résident**, "
+"chacune avec son compte de produits."
+
+#: ../../content/ehealth/efact-paiements.md:164
+msgid "Only once the insurer has settled"
+msgstr "Seulement une fois le décompte reçu"
+
+#: ../../content/ehealth/efact-paiements.md:167
+msgid ""
+"The button appears only from **settled** onwards, and that is the point: "
+"before the settlement the amount is not final. Resthome books **what the "
+"insurer actually accepted**, line by line — a service accepted for less than"
+" claimed is booked at the accepted amount, and one ventilated down to zero "
+"is not booked at all."
+msgstr ""
+"Le bouton n'apparaît qu'à partir de **décompté**, et c'est bien le principe "
+": avant le décompte, le montant n'est pas définitif. Resthome comptabilise "
+"**ce que l'organisme assureur a réellement accepté**, ligne par ligne — une "
+"prestation acceptée pour moins que réclamé est comptabilisée au montant "
+"accepté, et une prestation ventilée à zéro ne l'est pas du tout."
+
+#: ../../content/ehealth/efact-paiements.md:174
+msgid ""
+"A [credit note](efact-corrections.md) works the same way with the signs "
+"reversed: since it gives money back to the insurer, it is booked as a "
+"**refund** rather than an invoice."
+msgstr ""
+"Une [note de crédit](efact-corrections.md) fonctionne de la même façon, "
+"signes inversés : comme elle rend de l'argent à l'organisme assureur, elle "
+"se comptabilise en **avoir** plutôt qu'en facture."
+
+#: ../../content/ehealth/efact-paiements.md:178
+msgid ""
+"Once created, the document is reachable from the batch, and the batch from "
+"the document — so an accountant looking at a line in the INAMI journal can "
+"trace it back to the sending that produced it."
+msgstr ""
+"Une fois créé, le document est accessible depuis le lot, et le lot depuis le"
+" document — de sorte qu'un comptable qui regarde une ligne du journal INAMI "
+"peut remonter à l'envoi qui l'a produite."
+
+#: ../../content/ehealth/efact-paiements.md:182
+msgid "Booking twice is refused"
+msgstr "Comptabiliser deux fois est refusé"
+
+#: ../../content/ehealth/efact-paiements.md:185
+msgid ""
+"A batch already carrying a live accounting document cannot be booked again: "
+"Resthome names the existing document and asks you to cancel it first. If "
+"nothing was accepted on the sending, there is nothing to book and the action"
+" says so rather than creating an empty document."
+msgstr ""
+"Un lot portant déjà un document comptable vivant ne peut pas être "
+"comptabilisé une seconde fois : Resthome nomme le document existant et vous "
+"demande de l'annuler d'abord. Si rien n'a été accepté sur l'envoi, il n'y a "
+"rien à comptabiliser et l'action le dit, plutôt que de créer un document "
+"vide."
+
+#: ../../content/ehealth/efact-paiements.md:191
+msgid "5. The eFact Cockpit: \"have I been paid?\" at a glance"
+msgstr "5\\. Le cockpit eFact : « ai-je été payé ? » d'un coup d'œil"
+
+#: ../../content/ehealth/efact-paiements.md:193
 msgid ""
 "Menu **eHealth → eFact → Cockpit** (also accessible from a period or a "
 "dashboard card). The Cockpit organizes all the work into **action stacks**, "
@@ -524,7 +606,7 @@ msgstr ""
 "d'action**, avec un compteur et un bouton par pile. Trois piles répondent "
 "directement à la question du paiement."
 
-#: ../../content/ehealth/efact-paiements.md:160
+#: ../../content/ehealth/efact-paiements.md:198
 msgid ""
 "![eFact Cockpit with the action stacks (To send, Awaiting OA, To correct, To"
 " reconcile, Overdue OA payments) and the \"Rejects by cause\" "
@@ -534,7 +616,7 @@ msgstr ""
 "corriger, À pointer, Paiements OA en retard) et le tableau « Rejets par "
 "cause »](../assets/screenshots/ehealth/11-efact-cockpit.webp)"
 
-#: ../../content/ehealth/efact-paiements.md:160
+#: ../../content/ehealth/efact-paiements.md:198
 msgid ""
 "eFact Cockpit with the action stacks (To send, Awaiting OA, To correct, To "
 "reconcile, Overdue OA payments) and the \"Rejects by cause\" table"
@@ -543,7 +625,7 @@ msgstr ""
 "corriger, À pointer, Paiements OA en retard) et le tableau « Rejets par "
 "cause »"
 
-#: ../../content/ehealth/efact-paiements.md:162
+#: ../../content/ehealth/efact-paiements.md:200
 msgid ""
 "**To reconcile** — the batches **settled but whose payment is not yet "
 "confirmed**. The total expected amount is shown; the **Reconcile payments** "
@@ -553,7 +635,7 @@ msgstr ""
 "n'est pas encore confirmé**. Le montant total attendu est affiché ; le "
 "bouton **Reconcile payments** ouvre la liste pour les pointer un à un."
 
-#: ../../content/ehealth/efact-paiements.md:165
+#: ../../content/ehealth/efact-paiements.md:203
 msgid ""
 "**Overdue payments** — the batches **accepted but still unpaid** whose **OA "
 "payment deadline has passed**. See chasing below."
@@ -562,7 +644,7 @@ msgstr ""
 "toujours impayés** dont l'**échéance de paiement OA est dépassée**. Voir la "
 "relance ci-dessous."
 
-#: ../../content/ehealth/efact-paiements.md:167
+#: ../../content/ehealth/efact-paiements.md:205
 msgid ""
 "**Rejected lines** — the **worklist** of rejected lines still to be resent "
 "(resident + code + amount), filterable by cause, OA and month."
@@ -571,11 +653,11 @@ msgstr ""
 "rejetées encore à renvoyer (résident + code + montant), filtrable par cause,"
 " OA et mois."
 
-#: ../../content/ehealth/efact-paiements.md:170
+#: ../../content/ehealth/efact-paiements.md:208
 msgid "Two markers round out the picture:"
 msgstr "Deux repères complètent le tableau :"
 
-#: ../../content/ehealth/efact-paiements.md:172
+#: ../../content/ehealth/efact-paiements.md:210
 msgid ""
 "**OA retrievals** — the **complete log** of everything the OA has returned: "
 "acknowledgements, settlements and rejections, filterable by OA, month and "
@@ -585,7 +667,7 @@ msgstr ""
 " l'OA a renvoyé : accusés, décomptes et rejets, filtrables par OA, mois et "
 "type, avec un bouton **Export XLSX**."
 
-#: ../../content/ehealth/efact-paiements.md:175
+#: ../../content/ehealth/efact-paiements.md:213
 msgid ""
 "**Rejects by cause** — a table that groups the rejected lines **by reason**,"
 " to tackle the systemic cause rather than line by line."
@@ -594,11 +676,11 @@ msgstr ""
 " rejetées **par motif**, pour traiter la cause systémique plutôt que ligne "
 "par ligne."
 
-#: ../../content/ehealth/efact-paiements.md:178
+#: ../../content/ehealth/efact-paiements.md:216
 msgid "Fetch the responses"
 msgstr "Aller chercher les réponses"
 
-#: ../../content/ehealth/efact-paiements.md:181
+#: ../../content/ehealth/efact-paiements.md:219
 msgid ""
 "If batches stay pending, the **Fetch responses** button queries the OA "
 "platform and updates the statuses. Responses also arrive automatically, but "
@@ -609,11 +691,11 @@ msgstr ""
 "réponses arrivent aussi automatiquement, mais ce bouton force une "
 "vérification immédiate."
 
-#: ../../content/ehealth/efact-paiements.md:186
-msgid "5. Chasing an overdue OA"
-msgstr "5\\. Relancer un OA en retard"
+#: ../../content/ehealth/efact-paiements.md:224
+msgid "6. Chasing an overdue OA"
+msgstr "6\\. Relancer un organisme assureur en retard"
 
-#: ../../content/ehealth/efact-paiements.md:188
+#: ../../content/ehealth/efact-paiements.md:226
 msgid ""
 "The **Overdue payments** stack lists the batches **submitted on time**, "
 "**accepted** by the OA but **unpaid** beyond the deadline. The **Chase (by "
@@ -627,7 +709,7 @@ msgstr ""
 "assureur** : vous voyez immédiatement **qui relancer** et **pour quel "
 "montant** (le total accepté est additionné par OA)."
 
-#: ../../content/ehealth/efact-paiements.md:193
+#: ../../content/ehealth/efact-paiements.md:231
 msgid ""
 "To write to the OA, the **Contact OA** button (present on each batch) "
 "prepares contact with the right billing correspondent."
@@ -635,11 +717,11 @@ msgstr ""
 "Pour écrire à l'OA, le bouton **Contact OA** (présent sur chaque lot) "
 "prépare la prise de contact avec le bon interlocuteur de facturation."
 
-#: ../../content/ehealth/efact-paiements.md:196
-msgid "6. Late-payment interest (moratory interest)"
-msgstr "6\\. Intérêts de retard (intérêts moratoires)"
+#: ../../content/ehealth/efact-paiements.md:234
+msgid "7. Late-payment interest (moratory interest)"
+msgstr "7\\. Intérêts de retard (intérêts moratoires)"
 
-#: ../../content/ehealth/efact-paiements.md:198
+#: ../../content/ehealth/efact-paiements.md:236
 msgid ""
 "A batch paid too late may entitle you to **late-payment interest**. Resthome"
 " applies the AViQ rule:"
@@ -647,7 +729,7 @@ msgstr ""
 "Un envoi payé trop tard peut donner droit à des **intérêts de retard**. "
 "Resthome applique la règle AViQ :"
 
-#: ../../content/ehealth/efact-paiements.md:201
+#: ../../content/ehealth/efact-paiements.md:239
 msgid ""
 "the batch must have been **submitted on time** (sent by the **20th of month "
 "M+1** at the latest) — this is the **eligibility** condition;"
@@ -655,7 +737,7 @@ msgstr ""
 "l'envoi doit avoir été **introduit dans les délais** (envoyé au plus tard le"
 " **20 du mois M+1**) — c'est la condition d'**éligibilité** ;"
 
-#: ../../content/ehealth/efact-paiements.md:203
+#: ../../content/ehealth/efact-paiements.md:241
 msgid ""
 "the OA must pay **by the end of the 2nd month following submission**: this "
 "is the **OA Payment Deadline**;"
@@ -663,7 +745,7 @@ msgstr ""
 "l'OA doit payer **pour la fin du 2e mois suivant l'introduction** : c'est "
 "l'**OA Payment Deadline** (échéance de paiement) ;"
 
-#: ../../content/ehealth/efact-paiements.md:205
+#: ../../content/ehealth/efact-paiements.md:243
 msgid ""
 "past this date, interest accrues, calculated as: **accepted amount × annual "
 "legal rate × days late / 365**."
@@ -671,7 +753,7 @@ msgstr ""
 "passé cette date, les intérêts courent, calculés ainsi : **montant accepté ×"
 " taux légal annuel × jours de retard / 365**."
 
-#: ../../content/ehealth/efact-paiements.md:208
+#: ../../content/ehealth/efact-paiements.md:246
 msgid ""
 "On the batch, as soon as the deadline has passed and the batch is still "
 "unpaid, a **Late-payment interest (OA)** group appears with the "
@@ -685,11 +767,11 @@ msgstr ""
 " **OA Payment Overdue** et une colonne **OA Pay Deadline** (en rouge si "
 "dépassée)."
 
-#: ../../content/ehealth/efact-paiements.md:213
+#: ../../content/ehealth/efact-paiements.md:251
 msgid "Enter the legal rate"
 msgstr "Renseigner le taux légal"
 
-#: ../../content/ehealth/efact-paiements.md:216
+#: ../../content/ehealth/efact-paiements.md:254
 msgid ""
 "The calculation stays at **0 as long as the legal rate is not entered**. "
 "Enter the **annual legal interest rate** published under **eHealth → "
@@ -703,11 +785,11 @@ msgstr ""
 "ehealth.md). C'est une valeur **propre à votre établissement / à l'année** "
 "en cours."
 
-#: ../../content/ehealth/efact-paiements.md:222
+#: ../../content/ehealth/efact-paiements.md:260
 msgid "Key points to remember"
 msgstr "Points clés à retenir"
 
-#: ../../content/ehealth/efact-paiements.md:224
+#: ../../content/ehealth/efact-paiements.md:262
 msgid ""
 "The **acknowledgement (931000)** pays nothing; only the **settlement "
 "(920900)** tells you what is actually paid."
@@ -715,7 +797,7 @@ msgstr ""
 "L'**accusé (931000)** ne paie rien ; seul le **décompte (920900)** dit ce "
 "qui est réellement payé."
 
-#: ../../content/ehealth/efact-paiements.md:226
+#: ../../content/ehealth/efact-paiements.md:264
 msgid ""
 "Resthome **reconciles the settlement automatically**: lines allocated, batch"
 " status updated, remainder created for the rejections."
@@ -723,7 +805,7 @@ msgstr ""
 "Resthome **rapproche le décompte automatiquement** : lignes ventilées, "
 "statut du lot mis à jour, reliquat créé pour les rejets."
 
-#: ../../content/ehealth/efact-paiements.md:228
+#: ../../content/ehealth/efact-paiements.md:266
 msgid ""
 "Under **Account C**, a settlement with a real payment reference marks the "
 "batch **Paid** automatically (the payment date may stay empty)."
@@ -731,7 +813,7 @@ msgstr ""
 "En **Compte C**, un décompte avec référence de paiement réelle marque le lot"
 " **Payé** automatiquement (la date de paiement peut rester vide)."
 
-#: ../../content/ehealth/efact-paiements.md:230
+#: ../../content/ehealth/efact-paiements.md:268
 msgid ""
 "**Reconciling** a settlement (**Mark Reconciled**) means confirming the "
 "money received; the Cockpit gathers the **To reconcile** and the **OAs to "
@@ -740,7 +822,7 @@ msgstr ""
 "**Pointer** un décompte (**Mark Reconciled**), c'est confirmer l'argent reçu"
 " ; le Cockpit regroupe le **À pointer** et les **OA à relancer**."
 
-#: ../../content/ehealth/efact-paiements.md:232
+#: ../../content/ehealth/efact-paiements.md:270
 msgid ""
 "**Late-payment interest** is only calculated after entering the **legal "
 "rate** in the eHealth settings."
@@ -748,26 +830,26 @@ msgstr ""
 "Les **intérêts de retard** ne se calculent qu'après avoir renseigné le "
 "**taux légal** dans les réglages eHealth."
 
-#: ../../content/ehealth/efact-paiements.md:235
+#: ../../content/ehealth/efact-paiements.md:273
 msgid "Further reading"
 msgstr "Pour aller plus loin"
 
-#: ../../content/ehealth/efact-paiements.md:237
+#: ../../content/ehealth/efact-paiements.md:275
 msgid "[Electronic billing (eFact)](efact.md)"
 msgstr "[Facturation électronique (eFact)](efact.md)"
 
-#: ../../content/ehealth/efact-paiements.md:238
+#: ../../content/ehealth/efact-paiements.md:276
 msgid "[eFact rejections — causes and solutions](efact-rejets.md)"
 msgstr "[Rejets eFact — causes et solutions](efact-rejets.md)"
 
-#: ../../content/ehealth/efact-paiements.md:239
+#: ../../content/ehealth/efact-paiements.md:277
 msgid "[Billing a month](../facturation/facturer-un-mois.md)"
 msgstr "[Facturer un mois](../facturation/facturer-un-mois.md)"
 
-#: ../../content/ehealth/efact-paiements.md:240
+#: ../../content/ehealth/efact-paiements.md:278
 msgid "[eHealth settings](../configuration/reglages-ehealth.md)"
 msgstr "[Réglages eHealth](../configuration/reglages-ehealth.md)"
 
-#: ../../content/ehealth/efact-paiements.md:241
+#: ../../content/ehealth/efact-paiements.md:279
 msgid "[eHealth overview](index.md)"
 msgstr "[Vue d'ensemble eHealth](index.md)"

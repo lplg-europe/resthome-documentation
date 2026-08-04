@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-22 14:20+0200\n"
+"POT-Creation-Date: 2026-08-04 16:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nl <LL@li.org>\n"
@@ -623,10 +623,79 @@ msgstr ""
 "een verblijf heeft, dan wordt de **kamer** van dat verblijf voorgevuld."
 
 #: ../../content/residents/admissions.md:208
+msgid "When the national number already exists"
+msgstr "Wanneer het rijksregisternummer al bestaat"
+
+#: ../../content/residents/admissions.md:210
+msgid ""
+"A person must have **one single file**. As soon as you enter a national "
+"number (NISS) that already belongs to a resident, an orange banner appears "
+"on the opportunity: **This NISS already belongs to a resident**, naming the "
+"existing file."
+msgstr ""
+"Een persoon moet **één enkel dossier** hebben. Zodra u een "
+"rijksregisternummer invoert dat al aan een bewoner toebehoort, verschijnt er"
+" een oranje banner op de opportuniteit: **Dit rijksregisternummer behoort al"
+" toe aan een bewoner**, met vermelding van het bestaande dossier."
+
+#: ../../content/residents/admissions.md:215
+msgid ""
+"This is not a warning you can ignore: **the admission will be refused** as "
+"long as the opportunity points at a separate file. Without the banner you "
+"would only discover it at the last step — the wizard failing, the stage "
+"rolling back, and no explanation on screen."
+msgstr ""
+"Dit is geen waarschuwing die u kunt negeren: **de opname wordt geweigerd** "
+"zolang de opportuniteit naar een apart dossier verwijst. Zonder de banner "
+"zou u het pas bij de laatste stap ontdekken — de assistent die faalt, de "
+"fase die terugvalt, en geen enkele uitleg op het scherm."
+
+#: ../../content/residents/admissions.md:220
+msgid ""
+"The **Link to that resident** button fixes it in one click: the opportunity "
+"is repointed at the existing file, and the empty duplicate created along the"
+" way is archived."
+msgstr ""
+"De knop **Aan die bewoner koppelen** lost het in één klik op: de "
+"opportuniteit wordt naar het bestaande dossier verlegd, en het lege "
+"duplicaat dat onderweg is aangemaakt, wordt gearchiveerd."
+
+#: ../../content/residents/admissions.md:224
+msgid "A file that is in use is never archived"
+msgstr "Een dossier dat in gebruik is, wordt nooit gearchiveerd"
+
+#: ../../content/residents/admissions.md:227
+msgid ""
+"Resthome only archives the duplicate when it carries **nothing** — no stay, "
+"no insurability check, no other opportunity. A file already in use is left "
+"untouched, and the two remain to be merged by hand."
+msgstr ""
+"Resthome archiveert het duplicaat enkel wanneer het **niets** draagt — geen "
+"verblijf, geen verzekerbaarheidscontrole, geen andere opportuniteit. Een "
+"dossier dat al in gebruik is, blijft ongemoeid, en beide moeten dan "
+"handmatig worden samengevoegd."
+
+#: ../../content/residents/admissions.md:232
+msgid "Readmitting a former resident"
+msgstr "Een vroegere bewoner opnieuw opnemen"
+
+#: ../../content/residents/admissions.md:235
+msgid ""
+"This is the normal path for someone coming back: enter their NISS, click "
+"**Link to that resident**, and the admission continues on their existing "
+"file — history, assessments and documents included, rather than starting a "
+"second one."
+msgstr ""
+"Dit is het normale pad voor iemand die terugkeert: voer het "
+"rijksregisternummer in, klik op **Aan die bewoner koppelen**, en de opname "
+"gaat verder op het bestaande dossier — geschiedenis, evaluaties en "
+"documenten inbegrepen, in plaats van een tweede te openen."
+
+#: ../../content/residents/admissions.md:240
 msgid "Key takeaways"
 msgstr "Kernpunten om te onthouden"
 
-#: ../../content/residents/admissions.md:210
+#: ../../content/residents/admissions.md:242
 msgid ""
 "The **Admissions** pipeline lives in the **CRM** app; each prospect is a "
 "lead that you move forward on the kanban board."
@@ -634,7 +703,7 @@ msgstr ""
 "De pijplijn **Opnames** leeft in de **CRM**-toepassing; elke kandidaat is "
 "een lead die u in kanban laat vorderen."
 
-#: ../../content/residents/admissions.md:212
+#: ../../content/residents/admissions.md:244
 msgid ""
 "The **Resident admission** tab centralizes the prospect's identity, health "
 "insurer and **MDA** check."
@@ -642,7 +711,7 @@ msgstr ""
 "Het tabblad **Opname bewoner** centraliseert de identiteit, de mutualiteit "
 "en de **MDA**-controle van de kandidaat."
 
-#: ../../content/residents/admissions.md:214
+#: ../../content/residents/admissions.md:246
 msgid ""
 "Moving to **Admitted** (drag-and-drop or the **Won** button) opens the "
 "wizard: **room required** + **stay start date**, then creation of the "
@@ -652,7 +721,7 @@ msgstr ""
 "assistent: **kamer verplicht** + **startdatum verblijf**, daarna aanmaak van"
 " de **bewoner** en het **verblijf**."
 
-#: ../../content/residents/admissions.md:217
+#: ../../content/residents/admissions.md:249
 msgid ""
 "Admission is **blocked** without a stay type filled in and without a "
 "**successful MDA** (unless the MDA check is unchecked)."
@@ -660,7 +729,7 @@ msgstr ""
 "De opname is **geblokkeerd** zonder ingevuld verblijfstype en zonder "
 "geslaagde **MDA** (behalve als de MDA-controle is uitgevinkt)."
 
-#: ../../content/residents/admissions.md:219
+#: ../../content/residents/admissions.md:251
 msgid ""
 "Moving a lead out of **Admitted** cancels its **draft/confirmed** stays; "
 "**active** stays are preserved."
@@ -668,27 +737,27 @@ msgstr ""
 "Een lead uit **Opgenomen** halen annuleert zijn verblijven in "
 "**concept/bevestigd**; **lopende** verblijven blijven behouden."
 
-#: ../../content/residents/admissions.md:222
+#: ../../content/residents/admissions.md:254
 msgid "Further reading"
 msgstr "Verder lezen"
 
-#: ../../content/residents/admissions.md:224
+#: ../../content/residents/admissions.md:256
 msgid "[Manage a resident](gerer-un-resident.md)"
 msgstr "[Een bewoner beheren](gerer-un-resident.md)"
 
-#: ../../content/residents/admissions.md:225
+#: ../../content/residents/admissions.md:257
 msgid "[The Katz assessment](katz.md)"
 msgstr "[De Katz-evaluatie](katz.md)"
 
-#: ../../content/residents/admissions.md:226
+#: ../../content/residents/admissions.md:258
 msgid "[Insurability (MDA)](../ehealth/mda.md)"
 msgstr "[Verzekerbaarheid (MDA)](../ehealth/mda.md)"
 
-#: ../../content/residents/admissions.md:227
+#: ../../content/residents/admissions.md:259
 msgid "[eAgreement agreements](../ehealth/eagreement.md)"
 msgstr "[eAgreement-akkoorden](../ehealth/eagreement.md)"
 
-#: ../../content/residents/admissions.md:228
+#: ../../content/residents/admissions.md:260
 msgid "[Billing journey](../parcours-facturation.md)"
 msgstr "[Facturatietraject](../parcours-facturation.md)"
 

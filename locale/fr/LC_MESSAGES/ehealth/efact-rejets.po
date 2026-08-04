@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-01 02:06+0200\n"
+"POT-Creation-Date: 2026-08-04 16:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -199,6 +199,74 @@ msgstr ""
 "**avant** d'envoyer."
 
 #: ../../content/ehealth/efact-rejets.md:62
+msgid "Reading a list where batches have been resent"
+msgstr "Lire une liste où des lots ont été renvoyés"
+
+#: ../../content/ehealth/efact-rejets.md:64
+msgid ""
+"A rejected batch is never modified in place: fixing it produces a "
+"**resend**, a new batch that takes over. Over a month, one invoice can "
+"therefore be carried by a **chain** of batches. The list is built to show "
+"you the **thread**, not the paperwork."
+msgstr ""
+"Un lot rejeté n'est jamais modifié sur place : le corriger produit un "
+"**renvoi**, un nouveau lot qui prend le relais. Sur un mois, une même "
+"facture peut donc être portée par une **chaîne** de lots. La liste est faite"
+" pour vous montrer le **fil**, pas la paperasse."
+
+#: ../../content/ehealth/efact-rejets.md:69
+msgid ""
+"The status you see on a row is the status of the **whole thread** — the last"
+" resend in the chain. A batch that was rejected, resent and then paid reads "
+"**Settled**, because that is where the invoice actually stands."
+msgstr ""
+"Le statut affiché sur une ligne est celui du **fil entier** — le dernier "
+"renvoi de la chaîne. Un lot rejeté, renvoyé puis payé se lit **Décompté**, "
+"parce que c'est là qu'en est réellement la facture."
+
+#: ../../content/ehealth/efact-rejets.md:72
+msgid "The **Current batch** column names the live batch of the thread."
+msgstr "La colonne **Lot en cours** nomme le lot vivant du fil."
+
+#: ../../content/ehealth/efact-rejets.md:73
+msgid ""
+"Opening a rejected head lands you on a banner — **Resend already created** —"
+" with an **Open the live resend** button. Its own status below is "
+"historical: the corrections belong on the live resend, not here."
+msgstr ""
+"Ouvrir une tête rejetée vous amène sur une bannière — **Renvoi déjà créé** —"
+" avec un bouton **Ouvrir le renvoi en cours**. Son propre statut, en "
+"dessous, est historique : les corrections se font sur le renvoi vivant, pas "
+"ici."
+
+#: ../../content/ehealth/efact-rejets.md:77
+msgid "\"My batches have disappeared\""
+msgstr "« Mes lots ont disparu »"
+
+#: ../../content/ehealth/efact-rejets.md:80
+msgid ""
+"The list opens on the **Active threads** filter, which folds away the "
+"threads already superseded — globally rejected then re-submitted, or waived "
+"— when a fresh submission covers the same insurer for the same month. One "
+"live row per insurer, instead of a pile of dead ends."
+msgstr ""
+"La liste s'ouvre sur le filtre **Fils actifs**, qui replie les fils déjà "
+"remplacés — rejetés globalement puis resoumis, ou abandonnés — dès qu'un "
+"nouvel envoi couvre le même organisme assureur pour le même mois. Une ligne "
+"vivante par organisme assureur, au lieu d'un empilement d'impasses."
+
+#: ../../content/ehealth/efact-rejets.md:85
+msgid ""
+"Nothing is deleted. Switch to the **Superseded / waived** filter to see "
+"them, or open the live batch and use its **Resends / lifecycle** (☰) button,"
+" which lists every batch that has billed this insurer for this month."
+msgstr ""
+"Rien n'est supprimé. Passez au filtre **Remplacés / abandonnés** pour les "
+"retrouver, ou ouvrez le lot vivant et utilisez son bouton **Renvois / cycle "
+"de vie** (☰), qui liste tous les lots ayant facturé cet organisme assureur "
+"pour ce mois."
+
+#: ../../content/ehealth/efact-rejets.md:90
 msgid ""
 "On each refused line, a **code** and a **rejection reason** in plain "
 "language point to the cause."
@@ -206,7 +274,7 @@ msgstr ""
 "Sur chaque ligne refusée, un **code** et un **motif de rejet** en clair "
 "pointent la cause."
 
-#: ../../content/ehealth/efact-rejets.md:65
+#: ../../content/ehealth/efact-rejets.md:93
 msgid ""
 "![eFact batch lines list showing the refused lines with their rejection code"
 " and reason](../assets/screenshots/ehealth/13-efact-lignes-rejetees.webp)"
@@ -215,7 +283,7 @@ msgstr ""
 "et leur motif de rejet](../assets/screenshots/ehealth/13-efact-lignes-"
 "rejetees.webp)"
 
-#: ../../content/ehealth/efact-rejets.md:65
+#: ../../content/ehealth/efact-rejets.md:93
 msgid ""
 "eFact batch lines list showing the refused lines with their rejection code "
 "and reason"
@@ -223,27 +291,27 @@ msgstr ""
 "Liste des lignes de lot eFact montrant les lignes rejetées avec leur code et"
 " leur motif de rejet"
 
-#: ../../content/ehealth/efact-rejets.md:67
+#: ../../content/ehealth/efact-rejets.md:95
 msgid "Frequent rejection causes → action"
 msgstr "Causes de rejet fréquentes → action"
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid "Cause"
 msgstr "Cause"
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid "What you see"
 msgstr "Ce que vous voyez"
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid "Action in Resthome"
 msgstr "Action dans Resthome"
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid "**Invalid or missing insurability (MDA)**"
 msgstr "**Assurabilité (MDA) non valide ou manquante**"
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid ""
 "The **MDA** counter is not green; batch held back at sending; or an OA "
 "rejection for insurability"
@@ -251,7 +319,7 @@ msgstr ""
 "Compteur **MDA** pas au vert ; lot retenu à l'envoi ; ou rejet de l'OA pour "
 "assurabilité"
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid ""
 "Run **Check MDA**, get the **Success** status for each resident, then "
 "**regenerate** the eFact. The MDA must be validated **before** generating."
@@ -259,17 +327,17 @@ msgstr ""
 "Lancer **Vérifier MDA**, obtenir le statut **Succès** pour chaque résident, "
 "puis **régénérer** l'eFact. Le MDA doit être validé **avant** de générer."
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid "**Wrong or missing mutuality**"
 msgstr "**Mutuelle erronée ou absente**"
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid ""
 "The allowance goes to the wrong OA (rejection) or does not appear in the "
 "batch"
 msgstr "Le forfait part au mauvais OA (rejet) ou n'apparaît pas dans le lot"
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid ""
 "Enter/correct the **mutuality** on the resident's record, then "
 "**regenerate**. Check that each resident invoiced under third-party payment "
@@ -279,11 +347,11 @@ msgstr ""
 "**régénérer**. Vérifier que chaque résident facturé en tiers payant a bien "
 "une mutuelle."
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid "**Allowance declared beyond the end of the intervention**"
 msgstr "**Forfait déclaré au-delà de la fin d'intervention**"
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid ""
 "Self-check: **\"Over-declared OA allowance\"**; the OA refuses the extra "
 "days"
@@ -291,70 +359,70 @@ msgstr ""
 "Auto-contrôle : **« forfait OA sur-déclaré »** ; l'OA refuse les jours en "
 "trop"
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid ""
 "Issue a **credit note / remainder** for the over-declared days (see below)."
 msgstr ""
 "Émettre une **note de crédit / un reliquat** pour les jours sur-déclarés "
 "(voir plus bas)."
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid "**Room freed / death — accommodation still invoiced**"
 msgstr "**Chambre libérée / décès — hébergement encore facturé**"
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid "Self-check: **over-invoicing**; refusal of the undue days"
 msgstr "Auto-contrôle : **surfacturation** ; refus des jours indus"
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid "**Close the accommodation** on the correct date + **credit note**."
 msgstr "**Clôturer l'hébergement** à la bonne date + **note de crédit**."
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid "**Unclosed absence**"
 msgstr "**Absence non clôturée**"
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid "The **Absences** counter is active; allowance days are distorted"
 msgstr "Compteur **Absences** actif ; jours de forfait faussés"
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid "Close the period's absences, then re-check."
 msgstr "Clôturer les absences de la période, puis re-contrôler."
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid "**Missing Katz category or expired evaluation**"
 msgstr "**Catégorie Katz manquante ou évaluation expirée**"
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid "The **\"Katz to do\"** counter; blocked at generation"
 msgstr "Compteur **« Katz à faire »** ; blocage à la génération"
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid "Complete or renew the **Katz evaluation**, then **regenerate**."
 msgstr "Compléter ou renouveler l'**évaluation Katz**, puis **régénérer**."
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid "**Missing or incorrect NISS**"
 msgstr "**NISS manquant ou incorrect**"
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid "Mandatory identification data → technical rejection"
 msgstr "Donnée d'identification obligatoire → rejet technique"
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid "Correct the **NISS** on the resident's record, then regenerate."
 msgstr "Corriger le **NISS** sur la fiche du résident, puis régénérer."
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid "**Duplicate sending**"
 msgstr "**Double envoi**"
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid "The OA reports an **already received sending**"
 msgstr "L'OA signale un **envoi déjà reçu**"
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid ""
 "Do not resend an **already accepted** batch. For a legitimate resend, rely "
 "on the **Resends** counter (anti-duplicate)."
@@ -362,15 +430,15 @@ msgstr ""
 "Ne pas renvoyer un lot **déjà accepté**. Pour un renvoi légitime, s'appuyer "
 "sur le compteur **Renvois** (anti-doublon)."
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid "**Amount / rate mismatch**"
 msgstr "**Discordance de montant / tarif**"
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid "The OA returns an **unexpected amount/rate**"
 msgstr "L'OA renvoie un **montant/tarif inattendu**"
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid ""
 "Check the applied **rate** and the line amount, correct the configuration, "
 "regenerate, resend."
@@ -378,15 +446,15 @@ msgstr ""
 "Vérifier le **tarif** appliqué et le montant de la ligne, corriger le "
 "paramétrage, régénérer, renvoyer."
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid "**Technical / format rejection**"
 msgstr "**Rejet technique / de format**"
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid "**Global rejection**: the file did not pass the format check"
 msgstr "**Rejet global** : le fichier n'a pas passé le contrôle de format"
 
-#: ../../content/ehealth/efact-rejets.md:52
+#: ../../content/ehealth/efact-rejets.md:77
 msgid ""
 "Rare case to escalate: use **Contact OA** or **Helpdesk**, fix, then resend "
 "a new batch."
@@ -394,20 +462,20 @@ msgstr ""
 "Cas rare à escalader : utiliser **Contact OA** ou **Helpdesk**, corriger, "
 "puis renvoyer un lot neuf."
 
-#: ../../content/ehealth/efact-rejets.md:82
+#: ../../content/ehealth/efact-rejets.md:110
 msgid "Resend, or waive the rejection"
 msgstr "Renvoyer, ou renoncer au rejet"
 
-#: ../../content/ehealth/efact-rejets.md:84
+#: ../../content/ehealth/efact-rejets.md:112
 msgid "A rejected batch leaves you with two paths, and Resthome tracks both."
 msgstr ""
 "Un lot rejeté vous laisse deux voies, et Resthome garde trace des deux."
 
-#: ../../content/ehealth/efact-rejets.md:86
+#: ../../content/ehealth/efact-rejets.md:114
 msgid "Retransmit"
 msgstr "Retransmettre"
 
-#: ../../content/ehealth/efact-rejets.md:88
+#: ../../content/ehealth/efact-rejets.md:116
 msgid ""
 "**Retransmit** builds a **new batch** from the rejected one. Each line is "
 "re-routed to the health insurance fund the resident **actually** belongs to "
@@ -418,7 +486,7 @@ msgstr ""
 "appartient **réellement** aujourd'hui — ce qui est souvent l'objet même du "
 "rejet."
 
-#: ../../content/ehealth/efact-rejets.md:92
+#: ../../content/ehealth/efact-rejets.md:120
 msgid ""
 "If the lines now belong to **several funds**, Resthome creates **one batch "
 "per fund**."
@@ -426,7 +494,7 @@ msgstr ""
 "Si les lignes relèvent désormais de **plusieurs mutuelles**, Resthome crée "
 "**un lot par mutuelle**."
 
-#: ../../content/ehealth/efact-rejets.md:94
+#: ../../content/ehealth/efact-rejets.md:122
 msgid ""
 "A batch can only be retransmitted **once**: if a resend already exists, "
 "Resthome points you to it rather than creating a duplicate."
@@ -434,11 +502,11 @@ msgstr ""
 "Un lot ne peut être retransmis qu'**une fois** : si un renvoi existe déjà, "
 "Resthome vous y renvoie plutôt que d'en créer un doublon."
 
-#: ../../content/ehealth/efact-rejets.md:97
+#: ../../content/ehealth/efact-rejets.md:125
 msgid "Retransmit re-sends unchanged content"
 msgstr "Retransmettre renvoie un contenu inchangé"
 
-#: ../../content/ehealth/efact-rejets.md:100
+#: ../../content/ehealth/efact-rejets.md:128
 msgid ""
 "If the billing was **corrected** since the batch was sent — a stay closed, a"
 " death capped, lines regenerated — retransmitting would re-send the amounts "
@@ -450,11 +518,11 @@ msgstr ""
 "d'*avant* la correction. Resthome le détecte et vous oriente vers le flux de"
 " régénération, qui reconstruit à partir de la facturation actuelle."
 
-#: ../../content/ehealth/efact-rejets.md:106
+#: ../../content/ehealth/efact-rejets.md:134
 msgid "Waive"
 msgstr "Renoncer"
 
-#: ../../content/ehealth/efact-rejets.md:108
+#: ../../content/ehealth/efact-rejets.md:136
 msgid ""
 "Sometimes the rejection is right and there is nothing to correct. **Waive** "
 "records that decision: the batch **will not be resent**, the fund's "
@@ -464,7 +532,7 @@ msgstr ""
 "cette décision : le lot **ne sera pas renvoyé**, le rejet de la mutuelle est"
 " définitif, et le lot quitte la liste « À renvoyer »."
 
-#: ../../content/ehealth/efact-rejets.md:112
+#: ../../content/ehealth/efact-rejets.md:140
 msgid ""
 "It is **reversible**: a waived batch can be put back on the worklist at any "
 "time. Both the waiver and its cancellation are written to the batch's log, "
@@ -474,11 +542,11 @@ msgstr ""
 "liste à tout moment. La renonciation comme son annulation sont consignées "
 "dans le journal du lot : la décision reste traçable."
 
-#: ../../content/ehealth/efact-rejets.md:116
+#: ../../content/ehealth/efact-rejets.md:144
 msgid "Waiving is a management decision"
 msgstr "Renoncer est une décision de gestion"
 
-#: ../../content/ehealth/efact-rejets.md:119
+#: ../../content/ehealth/efact-rejets.md:147
 msgid ""
 "It is not a way of tidying up the list. Waiving means accepting the loss of "
 "the amount concerned — which is sometimes the right call when the correction"
@@ -488,11 +556,11 @@ msgstr ""
 "accepter la perte du montant concerné — ce qui est parfois le bon choix "
 "quand la correction coûterait plus qu'elle ne rapporte."
 
-#: ../../content/ehealth/efact-rejets.md:124
+#: ../../content/ehealth/efact-rejets.md:152
 msgid "Fix, then resend"
 msgstr "Corriger, puis renvoyer"
 
-#: ../../content/ehealth/efact-rejets.md:126
+#: ../../content/ehealth/efact-rejets.md:154
 msgid ""
 "The principle: **you do not resend a rejected batch as-is — you fix the "
 "cause at the source, then resend.**"
@@ -500,7 +568,7 @@ msgstr ""
 "Le principe : **on ne repousse pas un lot rejeté tel quel — on corrige la "
 "cause à la source, puis on renvoie.**"
 
-#: ../../content/ehealth/efact-rejets.md:129
+#: ../../content/ehealth/efact-rejets.md:157
 msgid ""
 "**Fix → resend loop.** After handling the cause (MDA, mutuality, Katz, "
 "absence, dates…), regenerate the affected part and resend. The **Resends** "
@@ -512,7 +580,7 @@ msgstr ""
 "compteur **Renvois** garde la trace de chaque retransmission pour **éviter "
 "d'envoyer deux fois** le même lot."
 
-#: ../../content/ehealth/efact-rejets.md:133
+#: ../../content/ehealth/efact-rejets.md:161
 msgid ""
 "**Reintegration.** The **Reintegration** button lets you reintegrate lines "
 "(for example rejected lines, once corrected) into a **new sending**, rather "
@@ -522,7 +590,7 @@ msgstr ""
 "lignes (par exemple des lignes rejetées, une fois corrigées) dans un "
 "**nouvel envoi**, plutôt que de tout refaire."
 
-#: ../../content/ehealth/efact-rejets.md:136
+#: ../../content/ehealth/efact-rejets.md:164
 msgid ""
 "**Credit note / corrective batch.** Whenever you have **invoiced more than "
 "due** — a departure or death during an already invoiced month, an over-"
@@ -536,11 +604,11 @@ msgstr ""
 "mutuelle est concernée, un **lot correctif** vers l'OA. Les lignes de crédit"
 " sont intégrées à l'**envoi eFact suivant**."
 
-#: ../../content/ehealth/efact-rejets.md:142
+#: ../../content/ehealth/efact-rejets.md:170
 msgid "The responses you may come across"
 msgstr "Les réponses que vous pouvez croiser"
 
-#: ../../content/ehealth/efact-rejets.md:144
+#: ../../content/ehealth/efact-rejets.md:172
 msgid ""
 "Depending on the message returned by the OA, you may see, in the statuses or"
 " the batch log:"
@@ -548,40 +616,40 @@ msgstr ""
 "Selon le message renvoyé par l'OA, vous pouvez apercevoir, dans les statuts "
 "ou le journal du lot :"
 
-#: ../../content/ehealth/efact-rejets.md:116
+#: ../../content/ehealth/efact-rejets.md:144
 msgid "Response"
 msgstr "Réponse"
 
-#: ../../content/ehealth/efact-rejets.md:116
+#: ../../content/ehealth/efact-rejets.md:144
 msgid "What it means"
 msgstr "Ce que ça veut dire"
 
-#: ../../content/ehealth/efact-rejets.md:116
+#: ../../content/ehealth/efact-rejets.md:144
 msgid "**Acknowledgement of receipt**"
 msgstr "**Accusé de réception**"
 
-#: ../../content/ehealth/efact-rejets.md:116
+#: ../../content/ehealth/efact-rejets.md:144
 msgid ""
 "The OA has **received** the file and it passed the first check. Normal step."
 msgstr ""
 "L'OA a **reçu** le fichier et il a passé le premier contrôle. Étape normale."
 
-#: ../../content/ehealth/efact-rejets.md:116
+#: ../../content/ehealth/efact-rejets.md:144
 msgid "**Notification with warnings**"
 msgstr "**Notification avec avertissements**"
 
-#: ../../content/ehealth/efact-rejets.md:116
+#: ../../content/ehealth/efact-rejets.md:144
 msgid ""
 "The batch is **accepted**, but with **warnings** (minor errors) to read."
 msgstr ""
 "Le lot est **accepté**, mais avec des **avertissements** (erreurs mineures) "
 "à lire."
 
-#: ../../content/ehealth/efact-rejets.md:116
+#: ../../content/ehealth/efact-rejets.md:144
 msgid "**Settlement**"
 msgstr "**Décompte**"
 
-#: ../../content/ehealth/efact-rejets.md:116
+#: ../../content/ehealth/efact-rejets.md:144
 msgid ""
 "The **line-by-line result**: **accepted** and **refused** amounts. This is "
 "where the partial rejections to fix appear."
@@ -589,11 +657,11 @@ msgstr ""
 "Le **résultat ligne par ligne** : montants **acceptés** et **refusés**. "
 "C'est ici qu'apparaissent les rejets partiels à corriger."
 
-#: ../../content/ehealth/efact-rejets.md:116
+#: ../../content/ehealth/efact-rejets.md:144
 msgid "**Global rejection**"
 msgstr "**Rejet global**"
 
-#: ../../content/ehealth/efact-rejets.md:116
+#: ../../content/ehealth/efact-rejets.md:144
 msgid ""
 "The **whole batch is refused** (too many errors). Fix the cause and **resend"
 " a new batch**."
@@ -601,11 +669,11 @@ msgstr ""
 "Le **lot entier est refusé** (trop d'erreurs). Corriger la cause et "
 "**renvoyer un lot neuf**."
 
-#: ../../content/ehealth/efact-rejets.md:116
+#: ../../content/ehealth/efact-rejets.md:144
 msgid "**Technical rejection**"
 msgstr "**Rejet technique**"
 
-#: ../../content/ehealth/efact-rejets.md:116
+#: ../../content/ehealth/efact-rejets.md:144
 msgid ""
 "The file did not pass the **format check**; retransmission required after "
 "correction."
@@ -613,11 +681,11 @@ msgstr ""
 "Le fichier n'a pas passé le **contrôle de format** ; retransmission "
 "nécessaire après correction."
 
-#: ../../content/ehealth/efact-rejets.md:155
+#: ../../content/ehealth/efact-rejets.md:183
 msgid "Key points"
 msgstr "Points clés"
 
-#: ../../content/ehealth/efact-rejets.md:157
+#: ../../content/ehealth/efact-rejets.md:185
 msgid ""
 "**Prevent rather than cure**: handle the **self-check** messages and "
 "validate the **MDA** before invoicing — this way, most rejections are "
@@ -627,7 +695,7 @@ msgstr ""
 " validez le **MDA** avant de facturer — la plupart des rejets sont ainsi "
 "évités."
 
-#: ../../content/ehealth/efact-rejets.md:159
+#: ../../content/ehealth/efact-rejets.md:187
 msgid ""
 "A **partial rejection** is fixed **line by line**; a **global rejection** is"
 " **resent as a new batch**."
@@ -635,7 +703,7 @@ msgstr ""
 "Un **rejet partiel** se corrige **ligne par ligne** ; un **rejet global** se"
 " **renvoie en lot neuf**."
 
-#: ../../content/ehealth/efact-rejets.md:161
+#: ../../content/ehealth/efact-rejets.md:189
 msgid ""
 "An **over-invoicing** (departure, death, over-declared allowance) is "
 "corrected with a **credit note / corrective batch**, not with a simple "
@@ -644,22 +712,22 @@ msgstr ""
 "Une **surfacturation** (départ, décès, forfait sur-déclaré) se corrige par "
 "une **note de crédit / un lot correctif**, pas par un simple renvoi."
 
-#: ../../content/ehealth/efact-rejets.md:164
+#: ../../content/ehealth/efact-rejets.md:192
 msgid "Further reading"
 msgstr "Pour aller plus loin"
 
-#: ../../content/ehealth/efact-rejets.md:166
+#: ../../content/ehealth/efact-rejets.md:194
 msgid "[Electronic invoicing (eFact)](efact.md)"
 msgstr "[Facturation électronique (eFact)](efact.md)"
 
-#: ../../content/ehealth/efact-rejets.md:167
+#: ../../content/ehealth/efact-rejets.md:195
 msgid "[Insurability (MDA)](mda.md) · [MDA errors](mda-erreurs.md)"
 msgstr "[Assurabilité (MDA)](mda.md) · [Erreurs MDA](mda-erreurs.md)"
 
-#: ../../content/ehealth/efact-rejets.md:168
+#: ../../content/ehealth/efact-rejets.md:196
 msgid "[Departure and death](../facturation/depart-deces.md)"
 msgstr "[Départ et décès](../facturation/depart-deces.md)"
 
-#: ../../content/ehealth/efact-rejets.md:169
+#: ../../content/ehealth/efact-rejets.md:197
 msgid "[FAQ](../faq.md) · [Glossary](../glossaire.md)"
 msgstr "[FAQ](../faq.md) · [Glossaire](../glossaire.md)"

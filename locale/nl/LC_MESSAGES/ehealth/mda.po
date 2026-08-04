@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-28 16:45+0200\n"
+"POT-Creation-Date: 2026-08-04 16:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nl <LL@li.org>\n"
@@ -54,18 +54,40 @@ msgstr "Wat werkt Resthome bij na een geslaagde MDA?"
 #: ../../content/ehealth/mda.md:12
 msgid ""
 "The actual health insurance fund (insurer), the BIM status, the membership "
-"number, identity details if fields were missing, and the date of death if "
-"the insurer reports it."
+"number, and the date of death if the insurer reports it. Date of birth and "
+"sex are overwritten with the insurer's values — a birth date that disagrees "
+"with the NISS gets the eFact rejected — and each change is listed in the "
+"resident's thread."
 msgstr ""
-"Het reële ziekenfonds (verzekeringsinstelling), het BIM-statuut, het "
-"aansluitingsnummer, de identiteit als er velden ontbraken, en de "
-"overlijdensdatum als de instelling die meldt."
+"Het werkelijke ziekenfonds, de RVV-status, het aansluitingsnummer, en de "
+"overlijdensdatum als het ziekenfonds die meldt. De geboortedatum en het "
+"geslacht worden overschreven door de waarden van het ziekenfonds — een "
+"geboortedatum die niet strookt met het rijksregisternummer doet de eFact "
+"verwerpen — en elke wijziging wordt vermeld in de draad van de bewoner."
 
 #: ../../content/ehealth/mda.md:14
+msgid "Why can't I edit a resident's date of birth any more?"
+msgstr "Waarom kan ik de geboortedatum van een bewoner niet meer wijzigen?"
+
+#: ../../content/ehealth/mda.md:15
+msgid ""
+"Once an MDA reply exists, the fields it owns (name, date of birth, sex, "
+"insurer) are locked so a manual edit cannot contradict the insurer. A "
+"manager can lift the lock record by record with \"Allow manual identity "
+"edit\", but the next MDA refresh will overwrite the manual value."
+msgstr ""
+"Zodra er een MDA-antwoord bestaat, worden de velden die het bezit (naam, "
+"geboortedatum, geslacht, ziekenfonds) vergrendeld zodat een handmatige "
+"wijziging het ziekenfonds niet kan tegenspreken. Een beheerder kan de "
+"vergrendeling per fiche opheffen met « Handmatige identiteitswijziging "
+"toestaan », maar de volgende MDA-verversing overschrijft de handmatige "
+"waarde."
+
+#: ../../content/ehealth/mda.md:17
 msgid "What should I do if a resident isn't insured?"
 msgstr "Wat te doen als een bewoner niet verzekerd is?"
 
-#: ../../content/ehealth/mda.md:15
+#: ../../content/ehealth/mda.md:18
 msgid ""
 "Don't bill them under third-party payer (tiers payant) for the period, or "
 "the invoice will be rejected. Clarify the situation with the resident or "
@@ -76,7 +98,7 @@ msgstr ""
 "geweigerd. Klaar de situatie uit met de bewoner of zijn ziekenfonds, en "
 "factureer het aandeel ondertussen aan de bewoner."
 
-#: ../../content/ehealth/mda.md:18
+#: ../../content/ehealth/mda.md:21
 msgid ""
 "Before billing, you must make sure the resident's **insurability is in "
 "order** and know their exact **health insurance fund**. The **MDA** queries "
@@ -90,12 +112,12 @@ msgstr ""
 " voor een bepaalde **periode**. Het is de onmisbare voorwaarde voor de "
 "[eFact](efact.md)-verzending."
 
-#: ../../content/ehealth/mda.md:24
+#: ../../content/ehealth/mda.md:27
 msgid "Menu: **eHealth → Insurability → MDA Requests** (and **MDA Batches**)."
 msgstr ""
 "Menu: **eHealth → Verzekerbaarheid → MDA-aanvragen** (en **MDA-loten**)."
 
-#: ../../content/ehealth/mda.md:26
+#: ../../content/ehealth/mda.md:29
 msgid ""
 "![MDA requests list: one row per request with the resident, the current and "
 "responding health insurance funds, the period and the "
@@ -105,7 +127,7 @@ msgstr ""
 "en de antwoordende verzekeringsinstelling, de periode en de "
 "status](../assets/screenshots/ehealth/20-mda-liste.webp)"
 
-#: ../../content/ehealth/mda.md:26
+#: ../../content/ehealth/mda.md:29
 msgid ""
 "MDA requests list: one row per request with the resident, the current and "
 "responding health insurance funds, the period and the status"
@@ -113,15 +135,15 @@ msgstr ""
 "Lijst van MDA-aanvragen: één lijn per aanvraag met de bewoner, de huidige en"
 " de antwoordende verzekeringsinstelling, de periode en de status"
 
-#: ../../content/ehealth/mda.md:28
+#: ../../content/ehealth/mda.md:31
 msgid "What the MDA retrieves"
 msgstr "Wat de MDA ophaalt"
 
-#: ../../content/ehealth/mda.md:30
+#: ../../content/ehealth/mda.md:33
 msgid "**Insured or not** for the period."
 msgstr "**Verzekerd of niet** voor de periode."
 
-#: ../../content/ehealth/mda.md:31
+#: ../../content/ehealth/mda.md:34
 msgid ""
 "The **health insurance fund (OA)** that actually responded — compared with "
 "the one on the profile (a **change** of health insurance fund is detected "
@@ -131,11 +153,11 @@ msgstr ""
 "van het profiel (een **verandering** van mutualiteit wordt gedetecteerd en "
 "gesignaleerd)."
 
-#: ../../content/ehealth/mda.md:33
+#: ../../content/ehealth/mda.md:36
 msgid "The **BIM status** (increased reimbursement)."
 msgstr "De **BIM**-status (verhoogde tegemoetkoming)."
 
-#: ../../content/ehealth/mda.md:35
+#: ../../content/ehealth/mda.md:38
 msgid ""
 "![MDA request for a beneficiary with BIM status: the BIM confirmed box is "
 "ticked and the CT1/CT2 codes are those of increased "
@@ -145,7 +167,7 @@ msgstr ""
 " is aangevinkt en de CT1/CT2-codes zijn die van de verhoogde "
 "tegemoetkoming](../assets/screenshots/ehealth/25-mda-bim.webp)"
 
-#: ../../content/ehealth/mda.md:35
+#: ../../content/ehealth/mda.md:38
 msgid ""
 "MDA request for a beneficiary with BIM status: the BIM confirmed box is "
 "ticked and the CT1/CT2 codes are those of increased reimbursement"
@@ -153,7 +175,7 @@ msgstr ""
 "MDA-aanvraag voor een rechthebbende met VT-statuut: het vakje VT bevestigd "
 "is aangevinkt en de CT1/CT2-codes zijn die van de verhoogde tegemoetkoming"
 
-#: ../../content/ehealth/mda.md:36
+#: ../../content/ehealth/mda.md:39
 msgid ""
 "The **coverage periods** (start/end dates; several sub-periods if the "
 "insurance changed during the interval)."
@@ -161,11 +183,11 @@ msgstr ""
 "De **dekkingsperiodes** (begin-/einddata; meerdere deelperiodes als de "
 "verzekering tijdens het interval veranderde)."
 
-#: ../../content/ehealth/mda.md:38
+#: ../../content/ehealth/mda.md:41
 msgid "The **membership number** with the health insurance fund."
 msgstr "Het **aansluitingsnummer** bij de mutualiteit."
 
-#: ../../content/ehealth/mda.md:39
+#: ../../content/ehealth/mda.md:42
 msgid ""
 "Where applicable: **third-party payer (tiers payant)**, **date of death** "
 "reported by the OA, and depending on the request, the **reference "
@@ -176,11 +198,11 @@ msgstr ""
 "**overlijdensdatum**, en naargelang de aanvraag de **referentieapotheek**, "
 "het **GMD**, de **palliatieve status** of een **hospitalisatie**."
 
-#: ../../content/ehealth/mda.md:43
+#: ../../content/ehealth/mda.md:46
 msgid "The \"not in order\" case"
 msgstr "Het geval « niet in orde »"
 
-#: ../../content/ehealth/mda.md:46
+#: ../../content/ehealth/mda.md:49
 msgid ""
 "If the beneficiary codes come back as zero (insured but unpaid contributions"
 " / a problematic file), Resthome shows an **alert**: the resident is "
@@ -192,27 +214,27 @@ msgstr ""
 "aangesloten maar **niet in orde**. Te verduidelijken met hem of zijn "
 "mutualiteit vóór u aan de VI factureert."
 
-#: ../../content/ehealth/mda.md:52
+#: ../../content/ehealth/mda.md:55
 msgid "Prerequisites"
 msgstr "Vereisten"
 
-#: ../../content/ehealth/mda.md:54
+#: ../../content/ehealth/mda.md:57
 msgid "To check"
 msgstr "Te controleren"
 
-#: ../../content/ehealth/mda.md:57
+#: ../../content/ehealth/mda.md:60
 msgid "The resident has a valid **NISS**."
 msgstr "De bewoner heeft een geldig **NISS**."
 
-#: ../../content/ehealth/mda.md:58
+#: ../../content/ehealth/mda.md:61
 msgid "The facility's **INAMI number** is configured."
 msgstr "Het **RIZIV-nummer** van de instelling is geconfigureerd."
 
-#: ../../content/ehealth/mda.md:59
+#: ../../content/ehealth/mda.md:62
 msgid "The **eHealth certificate** is active."
 msgstr "Het **eHealth-certificaat** is actief."
 
-#: ../../content/ehealth/mda.md:61
+#: ../../content/ehealth/mda.md:64
 msgid ""
 "The **profile's health insurance fund** isn't blocking (the actual OA is "
 "identified by the response), but filling it in helps spot changes."
@@ -221,7 +243,7 @@ msgstr ""
 "door het antwoord geïdentificeerd), maar ze invullen helpt om veranderingen "
 "op te sporen."
 
-#: ../../content/ehealth/mda.md:65
+#: ../../content/ehealth/mda.md:68
 msgid ""
 "Resthome also applies automatic period rules: the end must be after the "
 "start, at most **5 years** of history, and a standard MDA doesn't go beyond "
@@ -231,11 +253,11 @@ msgstr ""
 "begin liggen, hoogstens **5 jaar** geschiedenis, en een standaard-MDA gaat "
 "niet voorbij de lopende maand."
 
-#: ../../content/ehealth/mda.md:68
+#: ../../content/ehealth/mda.md:71
 msgid "Individual check"
 msgstr "Individuele controle"
 
-#: ../../content/ehealth/mda.md:70
+#: ../../content/ehealth/mda.md:73
 msgid ""
 "Create an **MDA request** (resident, NISS pre-filled, period = the current "
 "month by default)."
@@ -243,7 +265,7 @@ msgstr ""
 "Maak een **MDA-aanvraag** (bewoner, vooraf ingevuld NISS, periode = "
 "standaard de lopende maand)."
 
-#: ../../content/ehealth/mda.md:72
+#: ../../content/ehealth/mda.md:75
 msgid ""
 "Click **Send (Sync)**: sending is **immediate** and the response comes back "
 "right away."
@@ -251,11 +273,11 @@ msgstr ""
 "Klik **Verzenden (Sync)**: de verzending is **onmiddellijk** en het antwoord"
 " komt meteen terug."
 
-#: ../../content/ehealth/mda.md:74
+#: ../../content/ehealth/mda.md:77
 msgid "Review the summary and the insurability periods."
 msgstr "Raadpleeg de samenvatting en de verzekerbaarheidsperiodes."
 
-#: ../../content/ehealth/mda.md:76
+#: ../../content/ehealth/mda.md:79
 msgid ""
 "![Completed MDA request, Insurability tab: three coverage periods with their"
 " CT1/CT2 codes and the health insurance fund "
@@ -265,7 +287,7 @@ msgstr ""
 "met hun CT1/CT2-codes en de code van de "
 "verzekeringsinstelling](../assets/screenshots/ehealth/21-mda-reponse.webp)"
 
-#: ../../content/ehealth/mda.md:76
+#: ../../content/ehealth/mda.md:79
 msgid ""
 "Completed MDA request, Insurability tab: three coverage periods with their "
 "CT1/CT2 codes and the health insurance fund code"
@@ -273,11 +295,11 @@ msgstr ""
 "Afgeronde MDA-aanvraag, tabblad Verzekerbaarheid: drie dekkingsperiodes met "
 "hun CT1/CT2-codes en de code van de verzekeringsinstelling"
 
-#: ../../content/ehealth/mda.md:78
+#: ../../content/ehealth/mda.md:81
 msgid "One MDA per resident and per period"
 msgstr "Eén MDA per bewoner en per periode"
 
-#: ../../content/ehealth/mda.md:81
+#: ../../content/ehealth/mda.md:84
 msgid ""
 "Running a check again for the same resident and the same period **reuses** "
 "the existing request — no duplicate."
@@ -285,11 +307,11 @@ msgstr ""
 "Een controle overdoen voor dezelfde bewoner en periode **hergebruikt** de "
 "bestaande aanvraag — geen dubbel."
 
-#: ../../content/ehealth/mda.md:85
+#: ../../content/ehealth/mda.md:88
 msgid "Batch check (recommended at the start of the month)"
 msgstr "Bulkcontrole (aanbevolen bij het begin van de maand)"
 
-#: ../../content/ehealth/mda.md:87
+#: ../../content/ehealth/mda.md:90
 msgid ""
 "For a whole period, run the **batch** check: select the residents (you can "
 "**paste a column** of names/NISS), the period, and send the whole batch at "
@@ -299,11 +321,11 @@ msgstr ""
 "(u kunt een **kolom** namen/NISS plakken), de periode, en verstuur het hele "
 "lot in één keer."
 
-#: ../../content/ehealth/mda.md:90
+#: ../../content/ehealth/mda.md:93
 msgid "**Immediate send (Sync)**: for small volumes."
 msgstr "**Onmiddellijke verzending (Sync)**: voor kleine volumes."
 
-#: ../../content/ehealth/mda.md:91
+#: ../../content/ehealth/mda.md:94
 msgid ""
 "**Grouped send (Async)**: for **large monthly batches** — the request goes "
 "out, and the response is retrieved a bit later with **Check responses** "
@@ -313,7 +335,7 @@ msgstr ""
 "de aanvraag vertrekt, en het antwoord haalt u iets later op met **Antwoorden"
 " controleren** (vereist minstens 2 bewoners)."
 
-#: ../../content/ehealth/mda.md:95
+#: ../../content/ehealth/mda.md:98
 msgid ""
 "The batch shows **counters**: Insured, Not insured, Errors, Pending, and "
 "\"Deaths detected\"."
@@ -321,7 +343,7 @@ msgstr ""
 "Het lot toont **tellers**: Verzekerd, Niet verzekerd, Fouten, In afwachting,"
 " en « Overlijdens gedetecteerd »."
 
-#: ../../content/ehealth/mda.md:98
+#: ../../content/ehealth/mda.md:101
 msgid ""
 "![MDA batch with its counters — Insured, Not insured, Errors, Pending — and "
 "the list of residents in the batch](../assets/screenshots/ehealth/22-mda-"
@@ -331,7 +353,7 @@ msgstr ""
 "afwachting — en de lijst van bewoners in het "
 "lot](../assets/screenshots/ehealth/22-mda-lot.webp)"
 
-#: ../../content/ehealth/mda.md:98
+#: ../../content/ehealth/mda.md:101
 msgid ""
 "MDA batch with its counters — Insured, Not insured, Errors, Pending — and "
 "the list of residents in the batch"
@@ -339,11 +361,11 @@ msgstr ""
 "MDA-lot met zijn tellers — Verzekerd, Niet verzekerd, Fouten, In afwachting "
 "— en de lijst van bewoners in het lot"
 
-#: ../../content/ehealth/mda.md:100
+#: ../../content/ehealth/mda.md:103
 msgid "The right habit"
 msgstr "Het goede reflex"
 
-#: ../../content/ehealth/mda.md:103
+#: ../../content/ehealth/mda.md:106
 msgid ""
 "Run the MDA **at the start of the month**, before generating invoices: you "
 "avoid later eFact rejections caused by a wrong health insurance fund or a "
@@ -353,67 +375,67 @@ msgstr ""
 "facturen: zo vermijdt u latere eFact-weigeringen door een verkeerde "
 "mutualiteit of een verlies van verzekerbaarheid."
 
-#: ../../content/ehealth/mda.md:108
+#: ../../content/ehealth/mda.md:111
 msgid "Statuses"
 msgstr "De statussen"
 
-#: ../../content/ehealth/mda.md:100
+#: ../../content/ehealth/mda.md:103
 msgid "Status"
 msgstr "Status"
 
-#: ../../content/ehealth/mda.md:100
+#: ../../content/ehealth/mda.md:103
 msgid "Meaning"
 msgstr "Betekenis"
 
-#: ../../content/ehealth/mda.md:100
+#: ../../content/ehealth/mda.md:103
 msgid "**Draft**"
 msgstr "**Concept**"
 
-#: ../../content/ehealth/mda.md:100
+#: ../../content/ehealth/mda.md:103
 msgid "Not yet sent"
 msgstr "Nog niet verstuurd"
 
-#: ../../content/ehealth/mda.md:100
+#: ../../content/ehealth/mda.md:103
 msgid "**Sent / Pending**"
 msgstr "**Verstuurd / In afwachting**"
 
-#: ../../content/ehealth/mda.md:100
+#: ../../content/ehealth/mda.md:103
 msgid "Transmitted, response awaited (especially when grouped)"
 msgstr "Doorgestuurd, antwoord verwacht (vooral bij bulk)"
 
-#: ../../content/ehealth/mda.md:100
+#: ../../content/ehealth/mda.md:103
 msgid "**Success**"
 msgstr "**Succes**"
 
-#: ../../content/ehealth/mda.md:100
+#: ../../content/ehealth/mda.md:103
 msgid "Response received, resident insured"
 msgstr "Antwoord ontvangen, bewoner verzekerd"
 
-#: ../../content/ehealth/mda.md:100
+#: ../../content/ehealth/mda.md:103
 msgid "**Not insured**"
 msgstr "**Niet verzekerd**"
 
-#: ../../content/ehealth/mda.md:100
+#: ../../content/ehealth/mda.md:103
 msgid "Response OK, but resident not covered"
 msgstr "Antwoord OK, maar bewoner niet gedekt"
 
-#: ../../content/ehealth/mda.md:100
+#: ../../content/ehealth/mda.md:103
 msgid "**No response**"
 msgstr "**Zonder antwoord**"
 
-#: ../../content/ehealth/mda.md:100
+#: ../../content/ehealth/mda.md:103
 msgid "The platform closed without a response from an OA (retry)"
 msgstr "Het platform sloot af zonder antwoord van een VI (opnieuw proberen)"
 
-#: ../../content/ehealth/mda.md:100
+#: ../../content/ehealth/mda.md:103
 msgid "**Error**"
 msgstr "**Fout**"
 
-#: ../../content/ehealth/mda.md:100
+#: ../../content/ehealth/mda.md:103
 msgid "The OA or the platform returned an error"
 msgstr "De VI of het platform gaf een fout terug"
 
-#: ../../content/ehealth/mda.md:119
+#: ../../content/ehealth/mda.md:122
 msgid ""
 "![MDA request whose response reports a beneficiary who is not insured for "
 "the period](../assets/screenshots/ehealth/24-mda-non-assure.webp)"
@@ -421,7 +443,7 @@ msgstr ""
 "![MDA-aanvraag waarvan het antwoord een niet-verzekerde rechthebbende voor "
 "de periode meldt](../assets/screenshots/ehealth/24-mda-non-assure.webp)"
 
-#: ../../content/ehealth/mda.md:119
+#: ../../content/ehealth/mda.md:122
 msgid ""
 "MDA request whose response reports a beneficiary who is not insured for the "
 "period"
@@ -429,59 +451,59 @@ msgstr ""
 "MDA-aanvraag waarvan het antwoord een niet-verzekerde rechthebbende voor de "
 "periode meldt"
 
-#: ../../content/ehealth/mda.md:121
+#: ../../content/ehealth/mda.md:124
 msgid "Buttons"
 msgstr "De knoppen"
 
-#: ../../content/ehealth/mda.md:100
+#: ../../content/ehealth/mda.md:103
 msgid "Button"
 msgstr "Knop"
 
-#: ../../content/ehealth/mda.md:100
+#: ../../content/ehealth/mda.md:103
 msgid "Effect"
 msgstr "Effect"
 
-#: ../../content/ehealth/mda.md:100
+#: ../../content/ehealth/mda.md:103
 msgid "**Send (Sync)**"
 msgstr "**Verzenden (Sync)**"
 
-#: ../../content/ehealth/mda.md:100
+#: ../../content/ehealth/mda.md:103
 msgid "Immediate send, response right away"
 msgstr "Onmiddellijke verzending, meteen antwoord"
 
-#: ../../content/ehealth/mda.md:100
+#: ../../content/ehealth/mda.md:103
 msgid "**Check response**"
 msgstr "**Antwoord controleren**"
 
-#: ../../content/ehealth/mda.md:100
+#: ../../content/ehealth/mda.md:103
 msgid "Retrieves a response from a grouped send"
 msgstr "Haalt een antwoord van een gegroepeerde verzending op"
 
-#: ../../content/ehealth/mda.md:100
+#: ../../content/ehealth/mda.md:103
 msgid "**Retry**"
 msgstr "**Opnieuw proberen**"
 
-#: ../../content/ehealth/mda.md:100
+#: ../../content/ehealth/mda.md:103
 msgid "Resets to draft to resend"
 msgstr "Zet terug naar concept om te herverzenden"
 
-#: ../../content/ehealth/mda.md:100
+#: ../../content/ehealth/mda.md:103
 msgid "**Contact the OA**"
 msgstr "**VI contacteren**"
 
-#: ../../content/ehealth/mda.md:100
+#: ../../content/ehealth/mda.md:103
 msgid "Opens a pre-filled email to the health insurance fund that responded"
 msgstr "Opent een vooraf ingevulde e-mail naar de mutualiteit die antwoordde"
 
-#: ../../content/ehealth/mda.md:100 ../../content/ehealth/mda.md:144
+#: ../../content/ehealth/mda.md:103 ../../content/ehealth/mda.md:186
 msgid "**Report to InterMut**"
 msgstr "**Melden aan intermut.**"
 
-#: ../../content/ehealth/mda.md:100
+#: ../../content/ehealth/mda.md:103
 msgid "Opens an email to the CIN for platform blockages"
 msgstr "Opent een e-mail naar het CIN voor platformblokkeringen"
 
-#: ../../content/ehealth/mda.md:131
+#: ../../content/ehealth/mda.md:134
 msgid ""
 "On a batch, the same actions exist in grouped form (**Send**, **Check "
 "responses**, **Retry errors**, **Retry no-responses**)."
@@ -490,11 +512,11 @@ msgstr ""
 "**Antwoorden controleren**, **Fouten opnieuw proberen**, **Zonder-antwoord "
 "opnieuw proberen**)."
 
-#: ../../content/ehealth/mda.md:134
+#: ../../content/ehealth/mda.md:137
 msgid "What Resthome updates automatically"
 msgstr "Wat Resthome automatisch bijwerkt"
 
-#: ../../content/ehealth/mda.md:136
+#: ../../content/ehealth/mda.md:139
 msgid ""
 "After a successful response, the resident record is **corrected "
 "automatically**:"
@@ -502,7 +524,7 @@ msgstr ""
 "Na een geslaagd antwoord wordt de bewonersfiche **automatisch "
 "gecorrigeerd**:"
 
-#: ../../content/ehealth/mda.md:138
+#: ../../content/ehealth/mda.md:141
 msgid ""
 "**Health insurance fund (OA)**: if the OA that responds differs from the "
 "profile, the profile is updated (and the OA created if it was missing)."
@@ -510,23 +532,121 @@ msgstr ""
 "**Mutualiteit (VI)**: verschilt de antwoordende VI van het profiel, dan "
 "wordt het profiel bijgewerkt (en de VI aangemaakt als ze ontbrak)."
 
-#: ../../content/ehealth/mda.md:140
-msgid ""
-"**BIM status**, **membership number**, and **identity** (name, date of "
-"birth, sex) if fields were missing."
-msgstr ""
-"**BIM-status**, **aansluitingsnummer** en **identiteit** (naam, "
-"geboortedatum, geslacht) als velden ontbraken."
+#: ../../content/ehealth/mda.md:143
+msgid "**BIM status** and **membership number**."
+msgstr "De **RVV-status** en het **aansluitingsnummer**."
 
-#: ../../content/ehealth/mda.md:142
+#: ../../content/ehealth/mda.md:144
+msgid ""
+"**Date of birth** and **sex**: the insurer's values **win**, even when the "
+"record already holds something else (see below)."
+msgstr ""
+"De **geboortedatum** en het **geslacht**: de waarden van het ziekenfonds "
+"**halen het**, zelfs als de fiche al iets anders bevat (zie hieronder)."
+
+#: ../../content/ehealth/mda.md:146
 msgid "**Date of death** if the OA reports it → alert on the record."
 msgstr "**Overlijdensdatum** als de VI ze meldt → waarschuwing op de fiche."
 
-#: ../../content/ehealth/mda.md:144
+#: ../../content/ehealth/mda.md:148
+msgid "On identity, the insurer wins"
+msgstr "Op het vlak van identiteit haalt het ziekenfonds het"
+
+#: ../../content/ehealth/mda.md:150
+msgid ""
+"Date of birth and sex are **overwritten**, not merely filled in when empty. "
+"This is deliberate: a birth date that disagrees with the NISS gets the "
+"**eFact rejected**, and a typo entered at admission would otherwise survive "
+"every check — the operator believing the MDA had validated the file. The "
+"insurer applies the same rule."
+msgstr ""
+"De geboortedatum en het geslacht worden **overschreven**, niet enkel "
+"ingevuld wanneer ze leeg zijn. Dat is bewust: een geboortedatum die niet "
+"strookt met het rijksregisternummer doet de **eFact verwerpen**, en een "
+"tikfout die bij de opname is ingevoerd zou anders elke controle overleven — "
+"waarbij de gebruiker denkt dat de MDA het dossier had gevalideerd. Het "
+"ziekenfonds past dezelfde regel toe."
+
+#: ../../content/ehealth/mda.md:155
+msgid ""
+"When an existing value changes, Resthome posts **MDA — identity corrected** "
+"in the resident's thread, listing each change as ~~old~~ → **new**. Nothing "
+"moves silently."
+msgstr ""
+"Wanneer een bestaande waarde verandert, plaatst Resthome **MDA — identiteit "
+"gecorrigeerd** in de draad van de bewoner, met elke wijziging als ~~oud~~ → "
+"**nieuw**. Niets verandert stilzwijgend."
+
+#: ../../content/ehealth/mda.md:158
+msgid "The date of death is the exception"
+msgstr "De overlijdensdatum vormt de uitzondering"
+
+#: ../../content/ehealth/mda.md:161
+msgid ""
+"If the insurer reports a **date of death** that differs from the one on "
+"file, Resthome **does not** overwrite it: it posts *\"MDA — date of death "
+"differs\"* and leaves you to arbitrate. That date closes the stay and caps "
+"the allowance — too consequential to change automatically."
+msgstr ""
+"Als het ziekenfonds een **overlijdensdatum** meldt die verschilt van die in "
+"het dossier, overschrijft Resthome ze **niet**: het plaatst *« MDA — de "
+"overlijdensdatum verschilt »* en laat u beslissen. Die datum sluit het "
+"verblijf af en begrenst de forfait — te ingrijpend om automatisch te "
+"wijzigen."
+
+#: ../../content/ehealth/mda.md:167
+msgid "Identity fields are locked after the first reply"
+msgstr "De identiteitsvelden worden vergrendeld na het eerste antwoord"
+
+#: ../../content/ehealth/mda.md:169
+msgid ""
+"Once a resident has an MDA reply, the fields the MDA owns — name, date of "
+"birth, sex, health insurance fund — become **read-only** on the record. It "
+"prevents a manual edit from silently contradicting what the insurer holds."
+msgstr ""
+"Zodra een bewoner een MDA-antwoord heeft, worden de velden die de MDA bezit "
+"— naam, geboortedatum, geslacht, ziekenfonds — **alleen-lezen** op de fiche."
+" Zo kan een handmatige wijziging niet stilzwijgend tegenspreken wat het "
+"ziekenfonds bijhoudt."
+
+#: ../../content/ehealth/mda.md:173
+msgid "The lock is not absolute:"
+msgstr "De vergrendeling is niet absoluut:"
+
+#: ../../content/ehealth/mda.md:175
+msgid ""
+"**before** any MDA the fields are free — that is how you create a candidate;"
+msgstr "**vóór** elke MDA zijn de velden vrij — zo maakt u een kandidaat aan;"
+
+#: ../../content/ehealth/mda.md:176
+msgid ""
+"a **manager** can lift it record by record with **Allow manual identity "
+"edit**."
+msgstr ""
+"een **beheerder** kan ze per fiche opheffen met **Handmatige "
+"identiteitswijziging toestaan**."
+
+#: ../../content/ehealth/mda.md:178
+msgid "Lifting the lock is temporary"
+msgstr "De vergrendeling opheffen is tijdelijk"
+
+#: ../../content/ehealth/mda.md:181
+msgid ""
+"Use **Allow manual identity edit** only when the insurer's reply is "
+"genuinely wrong. The **next MDA refresh overwrites your correction** — "
+"settle the disagreement with the insurer rather than maintaining the "
+"difference by hand."
+msgstr ""
+"Gebruik **Handmatige identiteitswijziging toestaan** enkel wanneer het "
+"antwoord van het ziekenfonds echt fout is. De **volgende MDA-verversing "
+"overschrijft uw correctie** — regel het meningsverschil met het ziekenfonds "
+"in plaats van het verschil handmatig te onderhouden."
+
+#: ../../content/ehealth/mda.md:186
 msgid "Safeguard for special schemes"
 msgstr "Vangnet bijzondere regimes"
 
-#: ../../content/ehealth/mda.md:147
+#: ../../content/ehealth/mda.md:189
 msgid ""
 "For residents under a **special scheme** (INIG, EEC, Fedasil, foreign, "
 "private…), Resthome **does not overwrite** the profile's health insurance "
@@ -538,15 +658,15 @@ msgstr ""
 " niet: een bericht legt uit dat het MDA-antwoord genegeerd werd om een niet-"
 "standaard dekking niet te breken."
 
-#: ../../content/ehealth/mda.md:153
+#: ../../content/ehealth/mda.md:195
 msgid "Reinstatement (loss then return of insurability)"
 msgstr "Herintegratie (verlies en daarna terugkeer van verzekerbaarheid)"
 
-#: ../../content/ehealth/mda.md:155
+#: ../../content/ehealth/mda.md:197
 msgid "Resthome compares with the previous check:"
 msgstr "Resthome vergelijkt met de vorige controle:"
 
-#: ../../content/ehealth/mda.md:157
+#: ../../content/ehealth/mda.md:199
 msgid ""
 "**Not insured → insured**: a notification appears on the period, and the "
 "**Reinstatement** action lets you move the lines that had been billed to the"
@@ -556,7 +676,7 @@ msgstr ""
 "actie **Herintegratie** laat toe de regels die aan de bewoner werden "
 "gefactureerd naar de VI over te hevelen."
 
-#: ../../content/ehealth/mda.md:160
+#: ../../content/ehealth/mda.md:202
 msgid ""
 "**Insured → not insured**: Resthome flags that the resident is \"no longer "
 "in order\" — their dependency fee (forfait) is excluded from OA billing for "
@@ -566,72 +686,88 @@ msgstr ""
 "meer in orde » is — zijn forfait wordt uit de VI-facturatie van de periode "
 "gehaald en aan de bewoner gefactureerd tot herstel."
 
-#: ../../content/ehealth/mda.md:164
+#: ../../content/ehealth/mda.md:206
 msgid "Error handling"
 msgstr "Foutbeheer"
 
-#: ../../content/ehealth/mda.md:144
+#: ../../content/ehealth/mda.md:186
 msgid "Situation"
 msgstr "Situatie"
 
-#: ../../content/ehealth/mda.md:144
+#: ../../content/ehealth/mda.md:186
 msgid "What to do"
 msgstr "Wat te doen"
 
-#: ../../content/ehealth/mda.md:144
+#: ../../content/ehealth/mda.md:186
 msgid "**No response** (platform)"
 msgstr "**Zonder antwoord** (platform)"
 
-#: ../../content/ehealth/mda.md:144
+#: ../../content/ehealth/mda.md:186
 msgid "**Retry no-responses**; if it persists, **Report to InterMut**"
 msgstr ""
 "**Zonder-antwoord opnieuw proberen**; blijft het duren, **Melden aan "
 "intermut.**"
 
-#: ../../content/ehealth/mda.md:144
+#: ../../content/ehealth/mda.md:186
 msgid "**OA rejection**"
 msgstr "**Weigering van de VI**"
 
-#: ../../content/ehealth/mda.md:144
+#: ../../content/ehealth/mda.md:186
 msgid "**Contact the OA** (reason shown)"
 msgstr "**VI contacteren** (reden getoond)"
 
-#: ../../content/ehealth/mda.md:144
+#: ../../content/ehealth/mda.md:186
 msgid "**Technical error**"
 msgstr "**Technische fout**"
 
-#: ../../content/ehealth/mda.md:144
+#: ../../content/ehealth/mda.md:186
 msgid "**Resident with no health insurance fund**"
 msgstr "**Bewoner zonder mutualiteit**"
 
-#: ../../content/ehealth/mda.md:144
+#: ../../content/ehealth/mda.md:186
 msgid "Non-blocking: the actual OA comes from the response"
 msgstr "Niet blokkerend: de echte VI komt uit het antwoord"
 
-#: ../../content/ehealth/mda.md:144
+#: ../../content/ehealth/mda.md:186
 msgid "**Pending (grouped)**"
 msgstr "**In afwachting (bulk)**"
 
-#: ../../content/ehealth/mda.md:144
+#: ../../content/ehealth/mda.md:186
 msgid "**Check responses** or wait"
 msgstr "**Antwoorden controleren** of wachten"
 
-#: ../../content/ehealth/mda.md:174
+#: ../../content/ehealth/mda.md:216
 msgid "Learn more"
 msgstr "Verder"
 
-#: ../../content/ehealth/mda.md:176
+#: ../../content/ehealth/mda.md:218
 msgid "[MDA errors — causes and solutions](mda-erreurs.md)"
 msgstr "[MDA-fouten — oorzaken en oplossingen](mda-erreurs.md)"
 
-#: ../../content/ehealth/mda.md:177
+#: ../../content/ehealth/mda.md:219
 msgid "[Electronic billing (eFact)](efact.md)"
 msgstr "[Elektronische facturatie (eFact)](efact.md)"
 
-#: ../../content/ehealth/mda.md:178
+#: ../../content/ehealth/mda.md:220
 msgid "[Agreements (eAgreement)](eagreement.md)"
 msgstr "[Akkoorden (eAgreement)](eagreement.md)"
 
-#: ../../content/ehealth/mda.md:179
+#: ../../content/ehealth/mda.md:221
 msgid "[Billing overview](../facturation/index.md)"
 msgstr "[Facturatie-overzicht](../facturation/index.md)"
+
+#~ msgid ""
+#~ "The actual health insurance fund (insurer), the BIM status, the membership "
+#~ "number, identity details if fields were missing, and the date of death if "
+#~ "the insurer reports it."
+#~ msgstr ""
+#~ "Het reële ziekenfonds (verzekeringsinstelling), het BIM-statuut, het "
+#~ "aansluitingsnummer, de identiteit als er velden ontbraken, en de "
+#~ "overlijdensdatum als de instelling die meldt."
+
+#~ msgid ""
+#~ "**BIM status**, **membership number**, and **identity** (name, date of "
+#~ "birth, sex) if fields were missing."
+#~ msgstr ""
+#~ "**BIM-status**, **aansluitingsnummer** en **identiteit** (naam, "
+#~ "geboortedatum, geslacht) als velden ontbraken."

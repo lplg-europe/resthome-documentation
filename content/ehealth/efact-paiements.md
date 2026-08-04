@@ -150,7 +150,45 @@ In the batch list, the **Paid** / **Unpaid** filters and the optional **Payment
 Ref.**, **Payment Date**, **Amount Paid** columns help you take stock month by
 month.
 
-## 4. The eFact Cockpit: "have I been paid?" at a glance
+## 4. Booking the sending in the accounts
+
+A third-party-payer claim travels over the health network and **posts nothing in
+your books**. Without a deliberate step, the entire insurer revenue stream would
+be invisible to accounting.
+
+On a **settled** or **closed** batch, **Create Accounting Document** books it as
+a customer invoice towards the insurer, in the INAMI journal. The services of the
+sending are carried over **grouped by resident**, each with its own income
+account.
+
+:::{admonition} Only once the insurer has settled
+:class: important
+
+The button appears only from **settled** onwards, and that is the point: before
+the settlement the amount is not final. Resthome books **what the insurer
+actually accepted**, line by line — a service accepted for less than claimed is
+booked at the accepted amount, and one ventilated down to zero is not booked at
+all.
+:::
+
+A [credit note](efact-corrections.md) works the same way with the signs
+reversed: since it gives money back to the insurer, it is booked as a **refund**
+rather than an invoice.
+
+Once created, the document is reachable from the batch, and the batch from the
+document — so an accountant looking at a line in the INAMI journal can trace it
+back to the sending that produced it.
+
+:::{admonition} Booking twice is refused
+:class: note
+
+A batch already carrying a live accounting document cannot be booked again:
+Resthome names the existing document and asks you to cancel it first. If nothing
+was accepted on the sending, there is nothing to book and the action says so
+rather than creating an empty document.
+:::
+
+## 5. The eFact Cockpit: "have I been paid?" at a glance
 
 Menu **eHealth → eFact → Cockpit** (also accessible from a period or a
 dashboard card). The Cockpit organizes all the work into **action stacks**,
@@ -183,7 +221,7 @@ and updates the statuses. Responses also arrive automatically, but this button
 forces an immediate check.
 :::
 
-## 5. Chasing an overdue OA
+## 6. Chasing an overdue OA
 
 The **Overdue payments** stack lists the batches **submitted on time**,
 **accepted** by the OA but **unpaid** beyond the deadline. The **Chase (by
@@ -193,7 +231,7 @@ OA)** button opens these batches **grouped by insurer**: you immediately see
 To write to the OA, the **Contact OA** button (present on each batch) prepares
 contact with the right billing correspondent.
 
-## 6. Late-payment interest (moratory interest)
+## 7. Late-payment interest (moratory interest)
 
 A batch paid too late may entitle you to **late-payment interest**. Resthome
 applies the AViQ rule:

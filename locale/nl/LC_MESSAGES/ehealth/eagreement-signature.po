@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-22 14:20+0200\n"
+"POT-Creation-Date: 2026-08-04 16:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nl <LL@li.org>\n"
@@ -609,25 +609,71 @@ msgstr ""
 "**ondertekend** (een groene ✓ « Ondertekend » verschijnt naast de bijlage)."
 
 #: ../../content/ehealth/eagreement-signature.md:165
-msgid "Signing is a prerequisite for sending"
-msgstr "Ondertekenen is een voorwaarde om te versturen"
+msgid "Sending without signing: possible, but on your responsibility"
+msgstr ""
+"Verzenden zonder handtekening: mogelijk, maar op uw verantwoordelijkheid"
 
 #: ../../content/ehealth/eagreement-signature.md:168
 msgid ""
-"As long as a generated annex is **not signed**, the **Send Request** button "
-"stays hidden. Sign all the annexes first, then send. Re-signing is safe: "
-"Resthome starts from a blank PDF each time, without stacking signatures."
+"Resthome does **not block** the send when an annex is unsigned — it asks you"
+" to confirm. The **Send Request** button then displays *\"The annex is not "
+"signed. In eAgreement Light the OA decides from the annex PDF — send "
+"anyway?\"*. Cancel to sign first, or confirm to send as-is."
 msgstr ""
-"Zolang een gegenereerde bijlage **niet ondertekend** is, blijft de knop "
-"**Aanvraag versturen** verborgen. Onderteken eerst alle bijlagen en verstuur"
-" dan. Opnieuw ondertekenen is veilig: Resthome vertrekt telkens van een "
-"blanco PDF, zonder handtekeningen op elkaar te stapelen."
+"Resthome **blokkeert** de verzending niet wanneer een bijlage niet "
+"ondertekend is — het vraagt om een bevestiging. De knop **Aanvraag "
+"verzenden** toont dan: *« De bijlage is niet ondertekend. In eAgreement "
+"Light beslist het ziekenfonds op basis van de PDF-bijlage — toch verzenden? "
+"»*. Annuleer om eerst te ondertekenen, of bevestig om te verzenden zoals ze "
+"is."
 
 #: ../../content/ehealth/eagreement-signature.md:173
+msgid ""
+"If you confirm, the request leaves with an **unsigned annex** and Resthome "
+"records a warning in the request's thread: *\"Sent with an UNSIGNED "
+"annex\"*. Since the insurer decides **from that PDF**, an unsigned annex "
+"exposes you to a refusal — you would then have to sign and resend the "
+"**whole** request."
+msgstr ""
+"Als u bevestigt, vertrekt de aanvraag met een **niet-ondertekende bijlage** "
+"en noteert Resthome een waarschuwing in de draad van de aanvraag: *« "
+"Verzonden met een NIET-ONDERTEKENDE bijlage »*. Aangezien het ziekenfonds "
+"beslist **op basis van die PDF**, stelt een niet-ondertekende bijlage u "
+"bloot aan een weigering — u zou dan moeten ondertekenen en de **volledige** "
+"aanvraag opnieuw verzenden."
+
+#: ../../content/ehealth/eagreement-signature.md:178
+msgid ""
+"Re-signing is safe: Resthome starts from a blank PDF each time, without "
+"stacking signatures."
+msgstr ""
+"Opnieuw ondertekenen is veilig: Resthome vertrekt telkens van een blanco "
+"PDF, zonder handtekeningen op elkaar te stapelen."
+
+#: ../../content/ehealth/eagreement-signature.md:182
+msgid "Replacing a PDF clears its signature"
+msgstr "Een PDF vervangen wist de handtekening ervan"
+
+#: ../../content/ehealth/eagreement-signature.md:185
+msgid ""
+"Regenerating an annex, or uploading a new PDF over an existing one, resets "
+"the annex to **not signed** — even if the document you upload already "
+"carries a handwritten signature. Tick **Annex signed** again (Annexe 7 / "
+"11), or re-run **Sign Annexe N**, otherwise the next send will ask for "
+"confirmation again."
+msgstr ""
+"Een bijlage opnieuw genereren, of een nieuwe PDF over een bestaande "
+"uploaden, zet de bijlage terug op **niet ondertekend** — zelfs als het "
+"document dat u uploadt al een handgeschreven handtekening draagt. Vink "
+"opnieuw **Bijlage ondertekend** aan (bijlagen 7 / 11), of voer **Bijlage N "
+"ondertekenen** opnieuw uit, anders vraagt de volgende verzending weer om een"
+" bevestiging."
+
+#: ../../content/ehealth/eagreement-signature.md:191
 msgid "Katz already signed during the assessment"
 msgstr "Katz al ondertekend tijdens de evaluatie"
 
-#: ../../content/ehealth/eagreement-signature.md:176
+#: ../../content/ehealth/eagreement-signature.md:194
 msgid ""
 "If the Katz assessment was **signed in the app** at scoring time, the Annexe"
 " 10 PDF already carries the signature: Resthome marks it **signed "
@@ -637,35 +683,35 @@ msgstr ""
 "scoring, draagt de PDF van Bijlage 10 al de handtekening: Resthome markeert "
 "die **automatisch als ondertekend** en de bovenstaande stap is niet nodig."
 
-#: ../../content/ehealth/eagreement-signature.md:181
+#: ../../content/ehealth/eagreement-signature.md:199
 msgid "Who can sign (signature rules)"
 msgstr "Wie mag ondertekenen (ondertekenregels)"
 
-#: ../../content/ehealth/eagreement-signature.md:173
+#: ../../content/ehealth/eagreement-signature.md:191
 msgid "Situation"
 msgstr "Situatie"
 
-#: ../../content/ehealth/eagreement-signature.md:173
+#: ../../content/ehealth/eagreement-signature.md:191
 msgid "Allowed signer"
 msgstr "Toegestane ondertekenaar"
 
-#: ../../content/ehealth/eagreement-signature.md:173
+#: ../../content/ehealth/eagreement-signature.md:191
 msgid "Annexe 10 — standard case"
 msgstr "Bijlage 10 — standaardgeval"
 
-#: ../../content/ehealth/eagreement-signature.md:173
+#: ../../content/ehealth/eagreement-signature.md:191
 msgid "**Physician OR nurse**"
 msgstr "**Arts OF verpleegkundige**"
 
-#: ../../content/ehealth/eagreement-signature.md:173
+#: ../../content/ehealth/eagreement-signature.md:191
 msgid "Annexe 10 — Katz **category D / Cd**"
 msgstr "Bijlage 10 — Katz-**categorie D / Cd**"
 
-#: ../../content/ehealth/eagreement-signature.md:173
+#: ../../content/ehealth/eagreement-signature.md:191
 msgid "**Physician mandatory** (no nurse fallback)"
 msgstr "**Arts verplicht** (geen terugval naar verpleegkundige)"
 
-#: ../../content/ehealth/eagreement-signature.md:173
+#: ../../content/ehealth/eagreement-signature.md:191
 msgid ""
 "Annexe 10 — **quick revision** (new Katz less than 6 months after the "
 "previous one)"
@@ -673,19 +719,19 @@ msgstr ""
 "Bijlage 10 — **snelle herziening** (nieuwe Katz minder dan 6 maanden na de "
 "vorige)"
 
-#: ../../content/ehealth/eagreement-signature.md:173
+#: ../../content/ehealth/eagreement-signature.md:191
 msgid "**Physician mandatory**"
 msgstr "**Arts verplicht**"
 
-#: ../../content/ehealth/eagreement-signature.md:173
+#: ../../content/ehealth/eagreement-signature.md:191
 msgid "Annexe 7 (admission) / Annexe 11 (end of stay)"
 msgstr "Bijlage 7 (opname) / Bijlage 11 (einde verblijf)"
 
-#: ../../content/ehealth/eagreement-signature.md:173
+#: ../../content/ehealth/eagreement-signature.md:191
 msgid "**Institution manager** — no medical rule"
 msgstr "**Beheerder van de instelling** — geen medische regel"
 
-#: ../../content/ehealth/eagreement-signature.md:190
+#: ../../content/ehealth/eagreement-signature.md:208
 msgid ""
 "The signing window recalls the applicable rule in a **signature rules** "
 "banner. If the rule requires a physician and the signer is not one, the "
@@ -695,11 +741,11 @@ msgstr ""
 "**ondertekenregels**. Vereist de regel een arts en is de ondertekenaar er "
 "geen, dan wordt de handtekening geweigerd met een duidelijke melding."
 
-#: ../../content/ehealth/eagreement-signature.md:194
+#: ../../content/ehealth/eagreement-signature.md:212
 msgid "Readmission after a long absence"
 msgstr "Heropname na een lange afwezigheid"
 
-#: ../../content/ehealth/eagreement-signature.md:197
+#: ../../content/ehealth/eagreement-signature.md:215
 msgid ""
 "A **readmission** after more than 30 days of absence may require a **new "
 "Katz assessment**, but it does **not** require a physician: the Annexe 10 "
@@ -709,11 +755,11 @@ msgstr ""
 "evaluatie** vereisen, maar vereist **geen** arts: de Bijlage 10 mag worden "
 "ondertekend door een **arts OF een verpleegkundige**."
 
-#: ../../content/ehealth/eagreement-signature.md:202
+#: ../../content/ehealth/eagreement-signature.md:220
 msgid "Everyone signs with their own signature"
 msgstr "Iedereen tekent met zijn eigen handtekening"
 
-#: ../../content/ehealth/eagreement-signature.md:204
+#: ../../content/ehealth/eagreement-signature.md:222
 msgid ""
 "For safety, you can only sign **with your own** signature image. Signing "
 "**on behalf of another** clinician — whose name and role appear on a legal "
@@ -728,11 +774,11 @@ msgstr ""
 "blijft de **werkelijke auteur** van de actie geregistreerd in het "
 "auditlogboek."
 
-#: ../../content/ehealth/eagreement-signature.md:209
+#: ../../content/ehealth/eagreement-signature.md:227
 msgid "If no signature image is configured"
 msgstr "Als er geen handtekeningafbeelding is geconfigureerd"
 
-#: ../../content/ehealth/eagreement-signature.md:211
+#: ../../content/ehealth/eagreement-signature.md:229
 msgid ""
 "If the signer has **no** signature image on their employee record, the "
 "window warns you and the **Sign & replace PDF** button is not offered. Two "
@@ -742,13 +788,13 @@ msgstr ""
 "werknemersfiche, dan waarschuwt het venster u en wordt de knop "
 "**Ondertekenen en PDF vervangen** niet aangeboden. Twee opties:"
 
-#: ../../content/ehealth/eagreement-signature.md:214
+#: ../../content/ehealth/eagreement-signature.md:232
 msgid "**upload a signature image** on the employee record, then start again;"
 msgstr ""
 "**upload een handtekeningafbeelding** op de werknemersfiche en begin "
 "opnieuw;"
 
-#: ../../content/ehealth/eagreement-signature.md:215
+#: ../../content/ehealth/eagreement-signature.md:233
 msgid ""
 "**keep the manual route**: print the annex, have it signed, scan the signed "
 "document and re-upload it on the request (for Annexe 7 / 11, tick **Annex "
@@ -758,11 +804,11 @@ msgstr ""
 "het ondertekende document en upload het opnieuw op de aanvraag (voor Bijlage"
 " 7 / 11, vink **Bijlage ondertekend** aan)."
 
-#: ../../content/ehealth/eagreement-signature.md:219
+#: ../../content/ehealth/eagreement-signature.md:237
 msgid "Key points to remember"
 msgstr "Belangrijkste punten"
 
-#: ../../content/ehealth/eagreement-signature.md:221
+#: ../../content/ehealth/eagreement-signature.md:239
 msgid ""
 "The **responsible practitioner** is the **Katz assessor**, not the sender; "
 "Resthome resolves their **NIHII** in a cascade: assessor → head nurse → "
@@ -772,7 +818,7 @@ msgstr ""
 "verzender; Resthome bepaalt zijn **RIZIV-nummer** in cascade: beoordelaar → "
 "hoofdverpleegkundige → coördinerend arts → generiek nummer."
 
-#: ../../content/ehealth/eagreement-signature.md:224
+#: ../../content/ehealth/eagreement-signature.md:242
 msgid ""
 "A Katz **category D** requires a **physician**; configure a fallback "
 "**coordinating physician** in the eHealth settings."
@@ -780,7 +826,7 @@ msgstr ""
 "Een Katz-**categorie D** vereist een **arts**; configureer een "
 "terugval-**coördinerend arts** in de eHealth-instellingen."
 
-#: ../../content/ehealth/eagreement-signature.md:226
+#: ../../content/ehealth/eagreement-signature.md:244
 msgid ""
 "The **NIHII**, **role** and **signature image** live on the **employee "
 "record** (*Nursing Home* tab) — no user license needed for caregivers who "
@@ -790,7 +836,7 @@ msgstr ""
 "de **werknemersfiche** (tabblad *Woonzorgcentrum*) — geen gebruikerslicentie"
 " nodig voor zorgverleners die af en toe tekenen."
 
-#: ../../content/ehealth/eagreement-signature.md:229
+#: ../../content/ehealth/eagreement-signature.md:247
 msgid ""
 "**Sign Annexe 10 / 7 / 11** places your signature image on the PDF: no more "
 "printing / signing / scanning. Signing is a **prerequisite for sending**."
@@ -799,7 +845,7 @@ msgstr ""
 " PDF: geen afdrukken / ondertekenen / scannen meer. Ondertekenen is een "
 "**voorwaarde om te versturen**."
 
-#: ../../content/ehealth/eagreement-signature.md:231
+#: ../../content/ehealth/eagreement-signature.md:249
 msgid ""
 "**Signature rules**: physician OR nurse by default; **physician mandatory** "
 "in category D or a quick revision (< 6 months)."
@@ -807,7 +853,7 @@ msgstr ""
 "**Ondertekenregels**: standaard arts OF verpleegkundige; **arts verplicht** "
 "in categorie D of bij een snelle herziening (< 6 maanden)."
 
-#: ../../content/ehealth/eagreement-signature.md:233
+#: ../../content/ehealth/eagreement-signature.md:251
 msgid ""
 "You sign **only with your own** signature, unless you have **eHealth "
 "manager** rights."
@@ -815,31 +861,31 @@ msgstr ""
 "U tekent **alleen met uw eigen** handtekening, tenzij u **eHealth-"
 "beheerdersrechten** hebt."
 
-#: ../../content/ehealth/eagreement-signature.md:236
+#: ../../content/ehealth/eagreement-signature.md:254
 msgid "Further reading"
 msgstr "Verder"
 
-#: ../../content/ehealth/eagreement-signature.md:238
+#: ../../content/ehealth/eagreement-signature.md:256
 msgid "[Agreements (eAgreement)](eagreement.md)"
 msgstr "[Akkoorden (eAgreement)](eagreement.md)"
 
-#: ../../content/ehealth/eagreement-signature.md:239
+#: ../../content/ehealth/eagreement-signature.md:257
 msgid ""
 "[Refused agreement (eAgreement) — causes and solutions](eagreement-refus.md)"
 msgstr ""
 "[Akkoord geweigerd (eAgreement) — oorzaken en oplossingen](eagreement-"
 "refus.md)"
 
-#: ../../content/ehealth/eagreement-signature.md:240
+#: ../../content/ehealth/eagreement-signature.md:258
 msgid "[The dependency scale (Katz)](../residents/katz.md)"
 msgstr "[De afhankelijkheidsschaal (Katz)](../residents/katz.md)"
 
-#: ../../content/ehealth/eagreement-signature.md:241
+#: ../../content/ehealth/eagreement-signature.md:259
 msgid "[eHealth and eFact settings](../configuration/reglages-ehealth.md)"
 msgstr ""
 "[eHealth- en eFact-instellingen](../configuration/reglages-ehealth.md)"
 
-#: ../../content/ehealth/eagreement-signature.md:242
+#: ../../content/ehealth/eagreement-signature.md:260
 msgid "[eHealth overview](index.md)"
 msgstr "[eHealth-overzicht](index.md)"
 
@@ -858,3 +904,16 @@ msgstr "[eHealth-overzicht](index.md)"
 #~ msgstr ""
 #~ "eAgreement-aanvraag in concept, met de knop Bijlage 7 ondertekenen in de "
 #~ "actiebalk en de sectie Bijlagen"
+
+#~ msgid "Signing is a prerequisite for sending"
+#~ msgstr "Ondertekenen is een voorwaarde om te versturen"
+
+#~ msgid ""
+#~ "As long as a generated annex is **not signed**, the **Send Request** button "
+#~ "stays hidden. Sign all the annexes first, then send. Re-signing is safe: "
+#~ "Resthome starts from a blank PDF each time, without stacking signatures."
+#~ msgstr ""
+#~ "Zolang een gegenereerde bijlage **niet ondertekend** is, blijft de knop "
+#~ "**Aanvraag versturen** verborgen. Onderteken eerst alle bijlagen en verstuur"
+#~ " dan. Opnieuw ondertekenen is veilig: Resthome vertrekt telkens van een "
+#~ "blanco PDF, zonder handtekeningen op elkaar te stapelen."

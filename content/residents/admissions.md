@@ -205,6 +205,38 @@ Resthome protects the consistency of the pipeline:
 - **Re-dragging a lead** — if you reopen the wizard on a lead that already has a
   stay, that stay's **room** is pre-filled.
 
+### When the national number already exists
+
+A person must have **one single file**. As soon as you enter a national number
+(NISS) that already belongs to a resident, an orange banner appears on the
+opportunity: **This NISS already belongs to a resident**, naming the existing
+file.
+
+This is not a warning you can ignore: **the admission will be refused** as long
+as the opportunity points at a separate file. Without the banner you would only
+discover it at the last step — the wizard failing, the stage rolling back, and
+no explanation on screen.
+
+The **Link to that resident** button fixes it in one click: the opportunity is
+repointed at the existing file, and the empty duplicate created along the way is
+archived.
+
+:::{admonition} A file that is in use is never archived
+:class: note
+
+Resthome only archives the duplicate when it carries **nothing** — no stay, no
+insurability check, no other opportunity. A file already in use is left
+untouched, and the two remain to be merged by hand.
+:::
+
+:::{admonition} Readmitting a former resident
+:class: tip
+
+This is the normal path for someone coming back: enter their NISS, click **Link
+to that resident**, and the admission continues on their existing file — history,
+assessments and documents included, rather than starting a second one.
+:::
+
 ## Key takeaways
 
 - The **Admissions** pipeline lives in the **CRM** app; each prospect is a lead

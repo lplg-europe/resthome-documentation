@@ -189,7 +189,76 @@ Each batch line shows:
 - the **amounts**: invoiced, accepted, refused;
 - in case of refusal, the rejection **code** and **reason**.
 
-## 6. Send and follow the responses
+## 6. The pre-send checks
+
+Before a batch leaves, Resthome inspects it against everything it can verify
+**without asking the insurer**. A batch in Draft or Ready carries a **Checks**
+button: green **Checks OK**, or red with the number of problems found.
+
+Opening it lists one row per problem, with the resident concerned (or *"(whole
+batch)"*), a **Severity**, the reject the insurer would return, and a **What to
+do** column.
+
+| Severity | Meaning |
+|---|---|
+| **Blocking** | The send is refused, whatever the environment. |
+| **Blocking in production** | Tolerated while testing, refused in production. |
+| **Warning** | Deserves a look; never stops the send. |
+
+:::{admonition} A refused send is the feature working
+:class: important
+
+If **Send to OA** refuses, that is deliberate. Every transmission consumes a
+**mailing number**, and a batch sent with a known defect comes back as a
+rejection that has burned that number for nothing. Fix the cause, regenerate the
+message, send again.
+:::
+
+### What the checks look for
+
+| Problem | Why the insurer would reject it | What to do |
+|---|---|---|
+| **Message not generated** | There is no file to send. | Click **Generate message**. |
+| **Period ≠ billed days** | The billed period spans more days than it bills (reject **302240**). | Regenerate the **billing period**, not the batch — the allowance is then split around the absence. |
+| **Forfait past intervention end** | The line bills beyond the death or departure date. | Regenerate the period, or issue a credit note. |
+| **Future-dated billing** | The last billed day has not elapsed (reject **300610 / 500610**). | Transmit once the month is over (M+1). |
+| **Union code instead of a member fund** | Billed under a federation code; the insurer wants the member fund. | Re-run the MDA, or assign a member fund to the resident. |
+| **Insurability not confirmed** | No usable MDA covering the billed period. | Run **Redo MDA** for that resident. |
+| **Not insured per MDA** | The insurer answered *"not insured"* for the period. | Use **Split Non-Insured** (see below). |
+| **CT1/CT2 would be sent empty** | The titularity codes resolve to zeros (reject **202703**). | Re-run the MDA for the billed period, then regenerate the message. |
+| **Insurability comes from a stub run** | A simulated MDA **fabricates** the titularity codes. | Run a real MDA, then regenerate the message. |
+| **Latest MDA failed — insurability is stale** *(warning)* | What is displayed is left over from an older successful run. | Settle the cause with the insurer, then re-run the MDA. |
+
+## 7. Insurability coverage and held batches
+
+Each batch carries an **MDA Coverage** badge — **OK**, **Partial**, **Missing**
+or **Pending** — with a count of the residents that can actually be sent
+(*"5/7 sendable"*). The same indicator appears in the period's eHealth tab.
+
+When part of the batch is not covered, you do not have to choose between
+delaying everyone and sending a file you know will be rejected:
+
+- **Split Non-Insured** keeps in the batch only the residents with a confirmed
+  insured MDA, and moves all the others — no MDA, *"not insured"*, or MDA in
+  error — into a separate **held** batch. The clean part can be sent at once.
+- The held batch waits. Re-run the MDA on it, reintegrate the residents who
+  regain coverage, or bill them directly.
+- **Release Held** puts it back into circulation once coverage is **OK**.
+
+:::{admonition} Releasing is refused while coverage is not OK
+:class: warning
+
+**Release Held** refuses as long as coverage is not **OK**, and tells you the
+current state. Refresh the insurability first — the whole point of the held
+batch is that it never leaves in a state the insurer would reject.
+:::
+
+On release, Resthome also handles the case where an MDA has **changed a
+resident's fund**: those lines are rerouted to the batch of the correct
+insurer — merged into an existing one, or placed in a new one, itself held if a
+batch for that insurer is already in flight.
+
+## 8. Send and follow the responses
 
 Once the batches are built, **send them**: the transmission goes to the
 insurance organisations through the eHealth network.
@@ -217,14 +286,14 @@ duplicates.
 The **Reintegration** button lets you, where applicable, reintegrate lines
 (for example after correction) into a new sending.
 
-## 7. The eFact Cockpit
+## 9. The eFact Cockpit
 
 From a period or a dashboard card, the **eFact Cockpit** offers a **steering
 view**: the state of all batches and sendings at a glance — transmitted,
 accepted, rejected, pending. It is the ideal screen to **follow a monthly
 campaign** and spot what is blocking.
 
-## 8. Credit notes and regularisations
+## 10. Credit notes and regularisations
 
 When a resident **leaves** or **dies** during an already invoiced month, part
 of the accommodation or the allowance was **over-invoiced**. Resthome detects

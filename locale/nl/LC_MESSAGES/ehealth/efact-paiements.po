@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-22 03:20+0200\n"
+"POT-Creation-Date: 2026-08-04 16:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nl <LL@li.org>\n"
@@ -514,10 +514,94 @@ msgstr ""
 "**Amount Paid** om maand per maand de balans op te maken."
 
 #: ../../content/ehealth/efact-paiements.md:153
-msgid "4. The eFact Cockpit: \"have I been paid?\" at a glance"
-msgstr "4\\. De eFact Cockpit: « ben ik betaald? » in één oogopslag"
+msgid "4. Booking the sending in the accounts"
+msgstr "4\\. De zending boekhoudkundig verwerken"
 
 #: ../../content/ehealth/efact-paiements.md:155
+msgid ""
+"A third-party-payer claim travels over the health network and **posts "
+"nothing in your books**. Without a deliberate step, the entire insurer "
+"revenue stream would be invisible to accounting."
+msgstr ""
+"Een vordering in derdebetalersregeling loopt over het gezondheidsnetwerk en "
+"**boekt niets in uw boeken**. Zonder een bewuste stap zou de volledige "
+"inkomstenstroom van de ziekenfondsen onzichtbaar blijven voor de "
+"boekhouding."
+
+#: ../../content/ehealth/efact-paiements.md:159
+msgid ""
+"On a **settled** or **closed** batch, **Create Accounting Document** books "
+"it as a customer invoice towards the insurer, in the INAMI journal. The "
+"services of the sending are carried over **grouped by resident**, each with "
+"its own income account."
+msgstr ""
+"Op een **afgerekende** of **afgesloten** zending boekt **Boekhoudkundig "
+"document aanmaken** ze als klantenfactuur naar het ziekenfonds, in het "
+"RIZIV-journaal. De prestaties van de zending worden **gegroepeerd per "
+"bewoner** overgenomen, elk met hun eigen opbrengstenrekening."
+
+#: ../../content/ehealth/efact-paiements.md:164
+msgid "Only once the insurer has settled"
+msgstr "Pas nadat het ziekenfonds heeft afgerekend"
+
+#: ../../content/ehealth/efact-paiements.md:167
+msgid ""
+"The button appears only from **settled** onwards, and that is the point: "
+"before the settlement the amount is not final. Resthome books **what the "
+"insurer actually accepted**, line by line — a service accepted for less than"
+" claimed is booked at the accepted amount, and one ventilated down to zero "
+"is not booked at all."
+msgstr ""
+"De knop verschijnt pas vanaf **afgerekend**, en dat is precies de bedoeling:"
+" vóór de afrekening is het bedrag niet definitief. Resthome boekt **wat het "
+"ziekenfonds werkelijk heeft aanvaard**, regel per regel — een prestatie die "
+"voor minder dan het gevorderde wordt aanvaard, wordt geboekt tegen het "
+"aanvaarde bedrag, en een die tot nul is herleid, wordt helemaal niet "
+"geboekt."
+
+#: ../../content/ehealth/efact-paiements.md:174
+msgid ""
+"A [credit note](efact-corrections.md) works the same way with the signs "
+"reversed: since it gives money back to the insurer, it is booked as a "
+"**refund** rather than an invoice."
+msgstr ""
+"Een [creditnota](efact-corrections.md) werkt op dezelfde manier met "
+"omgekeerde tekens: omdat ze geld teruggeeft aan het ziekenfonds, wordt ze "
+"geboekt als **creditnota** in plaats van als factuur."
+
+#: ../../content/ehealth/efact-paiements.md:178
+msgid ""
+"Once created, the document is reachable from the batch, and the batch from "
+"the document — so an accountant looking at a line in the INAMI journal can "
+"trace it back to the sending that produced it."
+msgstr ""
+"Eenmaal aangemaakt is het document bereikbaar vanuit de zending, en de "
+"zending vanuit het document — zodat een boekhouder die een regel in het "
+"RIZIV-journaal bekijkt, kan teruggaan naar de zending die ze heeft "
+"voortgebracht."
+
+#: ../../content/ehealth/efact-paiements.md:182
+msgid "Booking twice is refused"
+msgstr "Twee keer boeken wordt geweigerd"
+
+#: ../../content/ehealth/efact-paiements.md:185
+msgid ""
+"A batch already carrying a live accounting document cannot be booked again: "
+"Resthome names the existing document and asks you to cancel it first. If "
+"nothing was accepted on the sending, there is nothing to book and the action"
+" says so rather than creating an empty document."
+msgstr ""
+"Een zending die al een levend boekhoudkundig document draagt, kan niet "
+"opnieuw worden geboekt: Resthome noemt het bestaande document en vraagt u "
+"het eerst te annuleren. Als er niets is aanvaard op de zending, valt er "
+"niets te boeken en zegt de actie dat, in plaats van een leeg document aan te"
+" maken."
+
+#: ../../content/ehealth/efact-paiements.md:191
+msgid "5. The eFact Cockpit: \"have I been paid?\" at a glance"
+msgstr "5\\. De eFact-cockpit: « ben ik betaald? » in één oogopslag"
+
+#: ../../content/ehealth/efact-paiements.md:193
 msgid ""
 "Menu **eHealth → eFact → Cockpit** (also accessible from a period or a "
 "dashboard card). The Cockpit organizes all the work into **action stacks**, "
@@ -529,7 +613,7 @@ msgstr ""
 " teller en een knop per stapel. Drie stapels beantwoorden rechtstreeks de "
 "vraag naar de betaling."
 
-#: ../../content/ehealth/efact-paiements.md:160
+#: ../../content/ehealth/efact-paiements.md:198
 msgid ""
 "![eFact Cockpit with the action stacks (To send, Awaiting OA, To correct, To"
 " reconcile, Overdue OA payments) and the \"Rejects by cause\" "
@@ -540,7 +624,7 @@ msgstr ""
 "Verwerpingen per oorzaak »](../assets/screenshots/ehealth/11-efact-"
 "cockpit.webp)"
 
-#: ../../content/ehealth/efact-paiements.md:160
+#: ../../content/ehealth/efact-paiements.md:198
 msgid ""
 "eFact Cockpit with the action stacks (To send, Awaiting OA, To correct, To "
 "reconcile, Overdue OA payments) and the \"Rejects by cause\" table"
@@ -549,7 +633,7 @@ msgstr ""
 "corrigeren, Af te punten, Achterstallige VI-betalingen) en de tabel « "
 "Verwerpingen per oorzaak »"
 
-#: ../../content/ehealth/efact-paiements.md:162
+#: ../../content/ehealth/efact-paiements.md:200
 msgid ""
 "**To reconcile** — the batches **settled but whose payment is not yet "
 "confirmed**. The total expected amount is shown; the **Reconcile payments** "
@@ -559,7 +643,7 @@ msgstr ""
 " nog niet bevestigd is**. Het totale verwachte bedrag staat vermeld; de knop"
 " **Reconcile payments** opent de lijst om ze één voor één af te punten."
 
-#: ../../content/ehealth/efact-paiements.md:165
+#: ../../content/ehealth/efact-paiements.md:203
 msgid ""
 "**Overdue payments** — the batches **accepted but still unpaid** whose **OA "
 "payment deadline has passed**. See chasing below."
@@ -568,7 +652,7 @@ msgstr ""
 "**aanvaard maar nog steeds onbetaald** zijn en waarvan de **VI-betaaltermijn"
 " verstreken** is. Zie het aanmanen hieronder."
 
-#: ../../content/ehealth/efact-paiements.md:167
+#: ../../content/ehealth/efact-paiements.md:205
 msgid ""
 "**Rejected lines** — the **worklist** of rejected lines still to be resent "
 "(resident + code + amount), filterable by cause, OA and month."
@@ -577,11 +661,11 @@ msgstr ""
 "regels die nog opnieuw verzonden moeten worden (bewoner + code + bedrag), "
 "filterbaar op oorzaak, VI en maand."
 
-#: ../../content/ehealth/efact-paiements.md:170
+#: ../../content/ehealth/efact-paiements.md:208
 msgid "Two markers round out the picture:"
 msgstr "Twee bakens vervolledigen het beeld:"
 
-#: ../../content/ehealth/efact-paiements.md:172
+#: ../../content/ehealth/efact-paiements.md:210
 msgid ""
 "**OA retrievals** — the **complete log** of everything the OA has returned: "
 "acknowledgements, settlements and rejections, filterable by OA, month and "
@@ -591,7 +675,7 @@ msgstr ""
 "de VI terugstuurde: ontvangstbewijzen, afrekeningen en weigeringen, "
 "filterbaar op VI, maand en type, met een knop **Export XLSX**."
 
-#: ../../content/ehealth/efact-paiements.md:175
+#: ../../content/ehealth/efact-paiements.md:213
 msgid ""
 "**Rejects by cause** — a table that groups the rejected lines **by reason**,"
 " to tackle the systemic cause rather than line by line."
@@ -600,11 +684,11 @@ msgstr ""
 " regels **per reden** groepeert, om de systemische oorzaak aan te pakken in "
 "plaats van regel per regel."
 
-#: ../../content/ehealth/efact-paiements.md:178
+#: ../../content/ehealth/efact-paiements.md:216
 msgid "Fetch the responses"
 msgstr "De antwoorden gaan ophalen"
 
-#: ../../content/ehealth/efact-paiements.md:181
+#: ../../content/ehealth/efact-paiements.md:219
 msgid ""
 "If batches stay pending, the **Fetch responses** button queries the OA "
 "platform and updates the statuses. Responses also arrive automatically, but "
@@ -615,11 +699,11 @@ msgstr ""
 "antwoorden komen ook automatisch binnen, maar deze knop forceert een "
 "onmiddellijke controle."
 
-#: ../../content/ehealth/efact-paiements.md:186
-msgid "5. Chasing an overdue OA"
-msgstr "5\\. Een trage VI aanmanen"
+#: ../../content/ehealth/efact-paiements.md:224
+msgid "6. Chasing an overdue OA"
+msgstr "6\\. Een laattijdig ziekenfonds aanmanen"
 
-#: ../../content/ehealth/efact-paiements.md:188
+#: ../../content/ehealth/efact-paiements.md:226
 msgid ""
 "The **Overdue payments** stack lists the batches **submitted on time**, "
 "**accepted** by the OA but **unpaid** beyond the deadline. The **Chase (by "
@@ -633,7 +717,7 @@ msgstr ""
 "verzekeringsinstelling**: u ziet meteen **wie u moet aanmanen** en **voor "
 "welk bedrag** (het aanvaarde totaal wordt per VI opgeteld)."
 
-#: ../../content/ehealth/efact-paiements.md:193
+#: ../../content/ehealth/efact-paiements.md:231
 msgid ""
 "To write to the OA, the **Contact OA** button (present on each batch) "
 "prepares contact with the right billing correspondent."
@@ -641,11 +725,11 @@ msgstr ""
 "Om de VI aan te schrijven bereidt de knop **Contact OA** (aanwezig op elk "
 "lot) het contact met de juiste facturatiecontactpersoon voor."
 
-#: ../../content/ehealth/efact-paiements.md:196
-msgid "6. Late-payment interest (moratory interest)"
-msgstr "6\\. Nalatigheidsintresten"
+#: ../../content/ehealth/efact-paiements.md:234
+msgid "7. Late-payment interest (moratory interest)"
+msgstr "7\\. Verwijlintresten (moratoire intresten)"
 
-#: ../../content/ehealth/efact-paiements.md:198
+#: ../../content/ehealth/efact-paiements.md:236
 msgid ""
 "A batch paid too late may entitle you to **late-payment interest**. Resthome"
 " applies the AViQ rule:"
@@ -653,7 +737,7 @@ msgstr ""
 "Een te laat betaalde zending kan recht geven op **nalatigheidsintresten**. "
 "Resthome past de AViQ-regel toe:"
 
-#: ../../content/ehealth/efact-paiements.md:201
+#: ../../content/ehealth/efact-paiements.md:239
 msgid ""
 "the batch must have been **submitted on time** (sent by the **20th of month "
 "M+1** at the latest) — this is the **eligibility** condition;"
@@ -661,7 +745,7 @@ msgstr ""
 "de zending moet **tijdig ingediend** zijn (verstuurd uiterlijk de **20e van "
 "maand M+1**) — dat is de voorwaarde voor **aanspraak**;"
 
-#: ../../content/ehealth/efact-paiements.md:203
+#: ../../content/ehealth/efact-paiements.md:241
 msgid ""
 "the OA must pay **by the end of the 2nd month following submission**: this "
 "is the **OA Payment Deadline**;"
@@ -669,7 +753,7 @@ msgstr ""
 "de VI moet betalen **tegen het einde van de 2e maand na de indiening**: dat "
 "is de **OA Payment Deadline** (betaaltermijn);"
 
-#: ../../content/ehealth/efact-paiements.md:205
+#: ../../content/ehealth/efact-paiements.md:243
 msgid ""
 "past this date, interest accrues, calculated as: **accepted amount × annual "
 "legal rate × days late / 365**."
@@ -677,7 +761,7 @@ msgstr ""
 "na die datum lopen de intresten, berekend als: **aanvaard bedrag × "
 "jaarlijkse wettelijke rentevoet × dagen vertraging / 365**."
 
-#: ../../content/ehealth/efact-paiements.md:208
+#: ../../content/ehealth/efact-paiements.md:246
 msgid ""
 "On the batch, as soon as the deadline has passed and the batch is still "
 "unpaid, a **Late-payment interest (OA)** group appears with the "
@@ -691,11 +775,11 @@ msgstr ""
 " filter **OA Payment Overdue** en een kolom **OA Pay Deadline** (rood indien"
 " verstreken)."
 
-#: ../../content/ehealth/efact-paiements.md:213
+#: ../../content/ehealth/efact-paiements.md:251
 msgid "Enter the legal rate"
 msgstr "De wettelijke rentevoet invullen"
 
-#: ../../content/ehealth/efact-paiements.md:216
+#: ../../content/ehealth/efact-paiements.md:254
 msgid ""
 "The calculation stays at **0 as long as the legal rate is not entered**. "
 "Enter the **annual legal interest rate** published under **eHealth → "
@@ -709,11 +793,11 @@ msgstr ""
 "instellingen](../configuration/reglages-ehealth.md). Dat is een waarde "
 "**eigen aan uw instelling / aan het lopende jaar**."
 
-#: ../../content/ehealth/efact-paiements.md:222
+#: ../../content/ehealth/efact-paiements.md:260
 msgid "Key points to remember"
 msgstr "Belangrijkste punten"
 
-#: ../../content/ehealth/efact-paiements.md:224
+#: ../../content/ehealth/efact-paiements.md:262
 msgid ""
 "The **acknowledgement (931000)** pays nothing; only the **settlement "
 "(920900)** tells you what is actually paid."
@@ -721,7 +805,7 @@ msgstr ""
 "Het **ontvangstbewijs (931000)** betaalt niets; enkel de **afrekening "
 "(920900)** zegt wat effectief betaald wordt."
 
-#: ../../content/ehealth/efact-paiements.md:226
+#: ../../content/ehealth/efact-paiements.md:264
 msgid ""
 "Resthome **reconciles the settlement automatically**: lines allocated, batch"
 " status updated, remainder created for the rejections."
@@ -729,7 +813,7 @@ msgstr ""
 "Resthome **punt de afrekening automatisch af**: regels verdeeld, lotstatus "
 "bijgewerkt, reliquat aangemaakt voor de weigeringen."
 
-#: ../../content/ehealth/efact-paiements.md:228
+#: ../../content/ehealth/efact-paiements.md:266
 msgid ""
 "Under **Account C**, a settlement with a real payment reference marks the "
 "batch **Paid** automatically (the payment date may stay empty)."
@@ -737,7 +821,7 @@ msgstr ""
 "In **Rekening C** markeert een afrekening met echte betalingsreferentie het "
 "lot automatisch als **Betaald** (de betaaldatum kan leeg blijven)."
 
-#: ../../content/ehealth/efact-paiements.md:230
+#: ../../content/ehealth/efact-paiements.md:268
 msgid ""
 "**Reconciling** a settlement (**Mark Reconciled**) means confirming the "
 "money received; the Cockpit gathers the **To reconcile** and the **OAs to "
@@ -747,7 +831,7 @@ msgstr ""
 "geld bevestigen; de Cockpit bundelt de **af te punten** loten en de **aan te"
 " manen VI's**."
 
-#: ../../content/ehealth/efact-paiements.md:232
+#: ../../content/ehealth/efact-paiements.md:270
 msgid ""
 "**Late-payment interest** is only calculated after entering the **legal "
 "rate** in the eHealth settings."
@@ -755,26 +839,26 @@ msgstr ""
 "**Nalatigheidsintresten** worden pas berekend nadat u de **wettelijke "
 "rentevoet** in de eHealth-instellingen hebt ingevuld."
 
-#: ../../content/ehealth/efact-paiements.md:235
+#: ../../content/ehealth/efact-paiements.md:273
 msgid "Further reading"
 msgstr "Meer weten"
 
-#: ../../content/ehealth/efact-paiements.md:237
+#: ../../content/ehealth/efact-paiements.md:275
 msgid "[Electronic billing (eFact)](efact.md)"
 msgstr "[Elektronische facturatie (eFact)](efact.md)"
 
-#: ../../content/ehealth/efact-paiements.md:238
+#: ../../content/ehealth/efact-paiements.md:276
 msgid "[eFact rejections — causes and solutions](efact-rejets.md)"
 msgstr "[eFact-weigeringen — oorzaken en oplossingen](efact-rejets.md)"
 
-#: ../../content/ehealth/efact-paiements.md:239
+#: ../../content/ehealth/efact-paiements.md:277
 msgid "[Billing a month](../facturation/facturer-un-mois.md)"
 msgstr "[Een maand factureren](../facturation/facturer-un-mois.md)"
 
-#: ../../content/ehealth/efact-paiements.md:240
+#: ../../content/ehealth/efact-paiements.md:278
 msgid "[eHealth settings](../configuration/reglages-ehealth.md)"
 msgstr "[eHealth-instellingen](../configuration/reglages-ehealth.md)"
 
-#: ../../content/ehealth/efact-paiements.md:241
+#: ../../content/ehealth/efact-paiements.md:279
 msgid "[eHealth overview](index.md)"
 msgstr "[eHealth-overzicht](index.md)"

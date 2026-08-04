@@ -19,7 +19,7 @@ copyright = "LPLG — CC BY 4.0"
 # -- Général ------------------------------------------------------------------
 extensions = [
     "myst_parser",
-    "sphinx_design",          # grilles de cartes (accueil façon Odoo)
+    "sphinx_design",          # grilles de cartes (accueil)
     "sphinx_immaterial",
     "sphinxcontrib.mermaid",
     "resthome_meta",          # _ext/ : description/faq + JSON-LD + hreflang

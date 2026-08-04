@@ -11,11 +11,14 @@ mda
 mda-erreurs
 efact
 efact-rejets
+efact-corrections
 efact-paiements
 eagreement
-eagreement-refus
-vacances-collectives
 eagreement-signature
+eagreement-suivi
+eagreement-refus
+eagreement-transfert
+vacances-collectives
 :::
 
 Resthome is connected to the Belgian e-health ecosystem (eHealth, MyCareNet,
@@ -35,14 +38,16 @@ WalCareNet) to exchange directly with the mutualities.
   Sends the **mutuality share** (message 920000) to the insurance organisations
   and follows the acknowledgements and settlements.
 
-  → [eFact invoicing in detail](efact.md)
+  → [eFact invoicing in detail](efact.md) · [Rejections](efact-rejets.md)
+  · [Corrections and credit notes](efact-corrections.md) · [Settlements](efact-paiements.md)
 
 - **eAgreement — Agreements**
 
   Notifies the OA on an **admission**, an **end of stay** or an **absence**
   (Annexes 7, 10, 11…).
 
-  → [Agreements in detail](eagreement.md)
+  → [Agreements in detail](eagreement.md) · [Signing the annexes](eagreement-signature.md)
+  · [Following a request](eagreement-suivi.md) · [Internal transfer](eagreement-transfert.md)
 
 ## Prerequisites
 

@@ -162,12 +162,30 @@ The path, on a request in **Draft**:
    signature on it and ticks the annex as **signed** (a green ✓ "Signed" appears
    next to the annex).
 
-:::{admonition} Signing is a prerequisite for sending
-:class: tip
+:::{admonition} Sending without signing: possible, but on your responsibility
+:class: warning
 
-As long as a generated annex is **not signed**, the **Send Request** button stays
-hidden. Sign all the annexes first, then send. Re-signing is safe: Resthome starts
-from a blank PDF each time, without stacking signatures.
+Resthome does **not block** the send when an annex is unsigned — it asks you to
+confirm. The **Send Request** button then displays *"The annex is not signed. In
+eAgreement Light the OA decides from the annex PDF — send anyway?"*. Cancel to
+sign first, or confirm to send as-is.
+
+If you confirm, the request leaves with an **unsigned annex** and Resthome records
+a warning in the request's thread: *"Sent with an UNSIGNED annex"*. Since the
+insurer decides **from that PDF**, an unsigned annex exposes you to a refusal —
+you would then have to sign and resend the **whole** request.
+
+Re-signing is safe: Resthome starts from a blank PDF each time, without stacking
+signatures.
+:::
+
+:::{admonition} Replacing a PDF clears its signature
+:class: note
+
+Regenerating an annex, or uploading a new PDF over an existing one, resets the
+annex to **not signed** — even if the document you upload already carries a
+handwritten signature. Tick **Annex signed** again (Annexe 7 / 11), or re-run
+**Sign Annexe N**, otherwise the next send will ask for confirmation again.
 :::
 
 :::{admonition} Katz already signed during the assessment

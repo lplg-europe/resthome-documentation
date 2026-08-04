@@ -8,7 +8,9 @@ Règles :
   `content/assets/screenshots/` — c'est la source unique.
 - Les annotations tutoriel sont bienvenues, mais **jamais en rouge** :
   pastilles chartées LPLG (bleu #0F43FF / jaune #FBBC05), coins arrondis.
-- Environnement de prise de vue : `odoo-screenshots` → http://localhost:8075
-  (base `test_screenshots`, clone jetable de `odoo_doc`, admin/screenshots).
+- Les captures sont prises sur un jeu de données **entièrement fictif** :
+  aucun nom, identifiant national ou numéro d'agrément réel n'y figure.
+  Les paramètres de l'environnement de prise de vue sont documentés dans
+  l'outillage interne, pas ici.
 - `periode-residents.webp` : recadrage du tableau résidents de
   `efact/04-periode-generated.webp` (sans les annotations rouges).

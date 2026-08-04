@@ -1,0 +1,341 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-04 16:28+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: nl <LL@li.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/ehealth/efact-corrections.md:5
+msgid "Correcting an already-settled sending"
+msgstr "Een reeds afgerekende zending corrigeren"
+
+#: ../../content/ehealth/efact-corrections.md:8
+msgid ""
+"How to correct an eFact sending the insurer has already settled: credit "
+"notes for what was over-billed, and remainders to re-bill a rejected line "
+"after fixing it."
+msgstr ""
+"Hoe u een eFact-zending corrigeert die het ziekenfonds al heeft afgerekend: "
+"creditnota's voor wat te veel is gefactureerd, en restanten om een verworpen"
+" regel na correctie opnieuw te factureren."
+
+#: ../../content/ehealth/efact-corrections.md:12
+msgid "How do I cancel an allowance already paid by the insurer?"
+msgstr "Hoe annuleer ik een forfait dat het ziekenfonds al heeft betaald?"
+
+#: ../../content/ehealth/efact-corrections.md:13
+msgid ""
+"Create a credit note from the settled batch. Resthome builds a dedicated "
+"correction sending that references the original invoice — you do not simply "
+"put a negative line in next month's file."
+msgstr ""
+"Maak een creditnota aan vanuit de afgerekende zending. Resthome bouwt een "
+"specifieke correctiezending die naar de oorspronkelijke factuur verwijst — u"
+" zet niet zomaar een negatieve regel in het bestand van de volgende maand."
+
+#: ../../content/ehealth/efact-corrections.md:15
+msgid "Can I credit only one service instead of the whole invoice?"
+msgstr ""
+"Kan ik één enkele prestatie crediteren in plaats van de volledige factuur?"
+
+#: ../../content/ehealth/efact-corrections.md:16
+msgid ""
+"Yes. The credit-note assistant lists every service in the sending, all "
+"ticked by default. Untick the correct ones to credit only the incorrect "
+"service."
+msgstr ""
+"Ja. De creditnota-assistent somt alle prestaties van de zending op, "
+"standaard allemaal aangevinkt. Vink de correcte prestaties uit om enkel de "
+"foutieve te crediteren."
+
+#: ../../content/ehealth/efact-corrections.md:18
+msgid ""
+"A line was rejected but the amount was simply wrong — do I resend "
+"everything?"
+msgstr ""
+"Een regel werd verworpen maar het bedrag was gewoon fout — moet ik alles "
+"opnieuw verzenden?"
+
+#: ../../content/ehealth/efact-corrections.md:19
+msgid ""
+"No. Use \"Correct & re-bill\" on the rejected line: enter the right amount "
+"and Resthome adds it to a remainder that re-introduces only that line, "
+"referencing the original invoice."
+msgstr ""
+"Nee. Gebruik « Corrigeren en opnieuw factureren » op de verworpen regel: "
+"voer het juiste bedrag in en Resthome voegt het toe aan een restant dat "
+"enkel die regel opnieuw indient, met verwijzing naar de oorspronkelijke "
+"factuur."
+
+#: ../../content/ehealth/efact-corrections.md:21
+msgid "What is the difference between a credit note and a remainder?"
+msgstr "Wat is het verschil tussen een creditnota en een restant?"
+
+#: ../../content/ehealth/efact-corrections.md:22
+msgid ""
+"A credit note **takes back** something already accepted and paid. A "
+"remainder **re-introduces** something the insurer refused, after you fixed "
+"the cause. Opposite directions, different regulatory codes."
+msgstr ""
+"Een creditnota **neemt terug** wat al aanvaard en betaald is. Een restant "
+"**dient opnieuw in** wat het ziekenfonds heeft geweigerd, nadat u de oorzaak"
+" hebt gecorrigeerd. Tegengestelde richtingen, verschillende reglementaire "
+"codes."
+
+#: ../../content/ehealth/efact-corrections.md:25
+msgid ""
+"Once a sending is **settled**, it is history: you never edit it. Two "
+"instruments exist to correct it afterwards, and picking the right one "
+"matters — the insurer reads them differently."
+msgstr ""
+"Zodra een zending **afgerekend** is, behoort ze tot het verleden: u wijzigt "
+"ze nooit. Er bestaan twee instrumenten om ze nadien te corrigeren, en de "
+"juiste kiezen doet ertoe — het ziekenfonds leest ze verschillend."
+
+#: ../../content/ehealth/efact-corrections.md:11
+msgid "Instrument"
+msgstr "Instrument"
+
+#: ../../content/ehealth/efact-corrections.md:11
+msgid "Use it when"
+msgstr "Te gebruiken wanneer"
+
+#: ../../content/ehealth/efact-corrections.md:11
+msgid "Direction"
+msgstr "Richting"
+
+#: ../../content/ehealth/efact-corrections.md:11
+msgid "**Credit note**"
+msgstr "**Creditnota**"
+
+#: ../../content/ehealth/efact-corrections.md:11
+msgid ""
+"The insurer **accepted and paid** something that should not have been "
+"billed."
+msgstr ""
+"Het ziekenfonds heeft iets **aanvaard en betaald** dat niet gefactureerd had"
+" mogen worden."
+
+#: ../../content/ehealth/efact-corrections.md:11
+msgid "Takes money back"
+msgstr "Neemt geld terug"
+
+#: ../../content/ehealth/efact-corrections.md:11
+msgid "**Remainder**"
+msgstr "**Restant**"
+
+#: ../../content/ehealth/efact-corrections.md:11
+msgid "The insurer **refused** a line, and you have fixed the cause."
+msgstr ""
+"Het ziekenfonds heeft een regel **geweigerd**, en u hebt de oorzaak "
+"gecorrigeerd."
+
+#: ../../content/ehealth/efact-corrections.md:11
+msgid "Re-bills what was refused"
+msgstr "Factureert opnieuw wat geweigerd werd"
+
+#: ../../content/ehealth/efact-corrections.md:34
+msgid "Credit note — taking back what was over-billed"
+msgstr "Creditnota — terugnemen wat te veel is gefactureerd"
+
+#: ../../content/ehealth/efact-corrections.md:36
+msgid ""
+"Typical cases: a resident died or left mid-month and the allowance was "
+"billed to the end; a category was billed higher than the one finally agreed."
+msgstr ""
+"Typische gevallen: een bewoner is midden in de maand overleden of vertrokken"
+" en de forfait werd tot het einde gefactureerd; een categorie werd hoger "
+"gefactureerd dan de uiteindelijk toegekende."
+
+#: ../../content/ehealth/efact-corrections.md:39
+msgid ""
+"From a **settled** or **closed** batch, click **Create credit note**. An "
+"assistant lists every service in the sending, **all ticked by default**."
+msgstr ""
+"Klik vanuit een **afgerekende** of **afgesloten** zending op **Creditnota "
+"aanmaken**. Een assistent somt alle prestaties van de zending op, "
+"**standaard allemaal aangevinkt**."
+
+#: ../../content/ehealth/efact-corrections.md:42
+msgid "Leave everything ticked to credit the **whole** invoice."
+msgstr "Laat alles aangevinkt om de **volledige** factuur te crediteren."
+
+#: ../../content/ehealth/efact-corrections.md:43
+msgid "Untick the correct services to credit **only** the incorrect one."
+msgstr ""
+"Vink de correcte prestaties uit om **enkel** de foutieve te crediteren."
+
+#: ../../content/ehealth/efact-corrections.md:45
+msgid ""
+"Confirm: Resthome creates a **dedicated correction sending**, a first-class "
+"batch of its own, visible in the eFact list with its own message. It carries"
+" the regulatory markers of a credit note and **back-references the original "
+"invoice**, so the insurer can match it to what it paid."
+msgstr ""
+"Bevestig: Resthome maakt een **specifieke correctiezending** aan, een "
+"volwaardige zending op zich, zichtbaar in de eFact-lijst met haar eigen "
+"bericht. Ze draagt de reglementaire markeringen van een creditnota en "
+"**verwijst terug naar de oorspronkelijke factuur**, zodat het ziekenfonds ze"
+" kan koppelen aan wat het heeft betaald."
+
+#: ../../content/ehealth/efact-corrections.md:50
+msgid "Never a negative line in next month's file"
+msgstr "Nooit een negatieve regel in het bestand van de volgende maand"
+
+#: ../../content/ehealth/efact-corrections.md:53
+msgid ""
+"A credit note is **not** a negative line slipped into the next monthly "
+"sending. That form carries no reference to the original invoice and does not"
+" comply with the INAMI instructions — the insurer cannot tell what is being "
+"taken back. Always go through **Create credit note** from the batch "
+"concerned."
+msgstr ""
+"Een creditnota is **geen** negatieve regel die in de volgende maandelijkse "
+"zending wordt geschoven. Die vorm verwijst niet naar de oorspronkelijke "
+"factuur en voldoet niet aan de RIZIV-instructies — het ziekenfonds kan niet "
+"zien wat er wordt teruggenomen. Ga altijd via **Creditnota aanmaken** vanuit"
+" de betrokken zending."
+
+#: ../../content/ehealth/efact-corrections.md:59
+msgid "Only from a settled sending"
+msgstr "Enkel vanuit een afgerekende zending"
+
+#: ../../content/ehealth/efact-corrections.md:62
+msgid ""
+"The button is offered only on **settled** or **closed** batches. Before that"
+" there is nothing to credit: a sending still awaiting its settlement is "
+"corrected by fixing the period and regenerating."
+msgstr ""
+"De knop wordt enkel aangeboden op **afgerekende** of **afgesloten** "
+"zendingen. Daarvóór valt er niets te crediteren: een zending die nog op haar"
+" afrekening wacht, corrigeert u door de periode aan te passen en opnieuw te "
+"genereren."
+
+#: ../../content/ehealth/efact-corrections.md:67
+msgid "Remainder — re-billing a line the insurer refused"
+msgstr ""
+"Restant — een door het ziekenfonds geweigerde regel opnieuw factureren"
+
+#: ../../content/ehealth/efact-corrections.md:69
+msgid ""
+"When a settlement refuses part of a sending, the rest is paid and only the "
+"refused lines need attention. On a rejected line, **Correct & re-bill** "
+"opens an assistant showing:"
+msgstr ""
+"Wanneer een afrekening een deel van een zending weigert, wordt de rest "
+"betaald en vragen enkel de geweigerde regels om actie. Op een verworpen "
+"regel opent **Corrigeren en opnieuw factureren** een assistent die toont:"
+
+#: ../../content/ehealth/efact-corrections.md:73
+msgid "the amount **originally billed**;"
+msgstr "het **oorspronkelijk gefactureerde** bedrag;"
+
+#: ../../content/ehealth/efact-corrections.md:74
+msgid "the insurer's **rejection** — code and reason, as returned;"
+msgstr ""
+"de **verwerping** van het ziekenfonds — code en reden, zoals teruggestuurd;"
+
+#: ../../content/ehealth/efact-corrections.md:75
+msgid "the **corrected amount** to re-bill, pre-filled with the original."
+msgstr ""
+"het **gecorrigeerde bedrag** om opnieuw te factureren, vooraf ingevuld met "
+"het origineel."
+
+#: ../../content/ehealth/efact-corrections.md:77
+msgid ""
+"Enter the right amount, add a short note on what you corrected, and confirm."
+msgstr ""
+"Voer het juiste bedrag in, voeg een korte notitie toe over wat u hebt "
+"gecorrigeerd, en bevestig."
+
+#: ../../content/ehealth/efact-corrections.md:79
+msgid "Resthome then:"
+msgstr "Resthome doet dan het volgende:"
+
+#: ../../content/ehealth/efact-corrections.md:81
+msgid ""
+"**leaves the original line rejected** — that is the insurer's own follow-up "
+"status and it must not be rewritten;"
+msgstr ""
+"**laat de oorspronkelijke regel verworpen** — dat is de eigen "
+"opvolgingsstatus van het ziekenfonds en mag niet worden herschreven;"
+
+#: ../../content/ehealth/efact-corrections.md:83
+msgid ""
+"adds the corrected amount to a **remainder** sending, which re-introduces "
+"the line with a back-reference to the original invoice."
+msgstr ""
+"voegt het gecorrigeerde bedrag toe aan een **restant**zending, die de regel "
+"opnieuw indient met een verwijzing naar de oorspronkelijke factuur."
+
+#: ../../content/ehealth/efact-corrections.md:86
+msgid ""
+"The remainder is an ordinary batch: generate its message, run the [pre-send "
+"checks](efact.md) and send it like any other."
+msgstr ""
+"Het restant is een gewone zending: genereer het bericht, doorloop de "
+"[controles vóór verzending](efact.md) en verzend ze zoals elke andere."
+
+#: ../../content/ehealth/efact-corrections.md:89
+msgid "Correct the cause first, the amount second"
+msgstr "Corrigeer eerst de oorzaak, daarna het bedrag"
+
+#: ../../content/ehealth/efact-corrections.md:92
+msgid ""
+"Re-billing the same line with a different amount does not fix a rejection "
+"whose cause was insurability, dates or category. Read the reject reason: if "
+"it points at the resident's file, fix that first — otherwise the remainder "
+"comes back refused too."
+msgstr ""
+"Dezelfde regel opnieuw factureren met een ander bedrag lost geen verwerping "
+"op waarvan de oorzaak de verzekerbaarheid, de data of de categorie was. Lees"
+" de reden van de verwerping: als ze naar het dossier van de bewoner wijst, "
+"corrigeer dat eerst — anders komt ook het restant geweigerd terug."
+
+#: ../../content/ehealth/efact-corrections.md:98
+msgid "Further reading"
+msgstr "Meer lezen"
+
+#: ../../content/ehealth/efact-corrections.md:100
+msgid ""
+"[Rejections and how to fix them](efact-rejets.md) — reading a settlement, "
+"reject codes."
+msgstr ""
+"[Verwerpingen en hoe ze te corrigeren](efact-rejets.md) — een afrekening "
+"lezen, de verwerpingscodes."
+
+#: ../../content/ehealth/efact-corrections.md:101
+msgid ""
+"[Settlements and payments](efact-paiements.md) — what the insurer actually "
+"paid."
+msgstr ""
+"[Afrekeningen en betalingen](efact-paiements.md) — wat het ziekenfonds "
+"werkelijk heeft betaald."
+
+#: ../../content/ehealth/efact-corrections.md:102
+msgid "[Electronic invoicing (eFact)](efact.md) — the full cycle."
+msgstr ""
+"[De elektronische facturatie (eFact)](efact.md) — de volledige cyclus."
+
+#: ../../content/ehealth/efact-corrections.md:103
+msgid ""
+"[Departure and death](../facturation/depart-deces.md) — the most common "
+"cause of an over-billed allowance."
+msgstr ""
+"[Vertrek en overlijden](../facturation/depart-deces.md) — de meest "
+"voorkomende oorzaak van een te veel gefactureerde forfait."

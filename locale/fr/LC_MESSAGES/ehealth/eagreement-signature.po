@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-22 14:20+0200\n"
+"POT-Creation-Date: 2026-08-04 16:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -595,25 +595,67 @@ msgstr ""
 "» apparaît à côté de l'annexe)."
 
 #: ../../content/ehealth/eagreement-signature.md:165
-msgid "Signing is a prerequisite for sending"
-msgstr "La signature est un préalable à l'envoi"
+msgid "Sending without signing: possible, but on your responsibility"
+msgstr "Envoyer sans signer : possible, mais sous votre responsabilité"
 
 #: ../../content/ehealth/eagreement-signature.md:168
 msgid ""
-"As long as a generated annex is **not signed**, the **Send Request** button "
-"stays hidden. Sign all the annexes first, then send. Re-signing is safe: "
-"Resthome starts from a blank PDF each time, without stacking signatures."
+"Resthome does **not block** the send when an annex is unsigned — it asks you"
+" to confirm. The **Send Request** button then displays *\"The annex is not "
+"signed. In eAgreement Light the OA decides from the annex PDF — send "
+"anyway?\"*. Cancel to sign first, or confirm to send as-is."
 msgstr ""
-"Tant qu'une annexe générée n'est **pas signée**, le bouton **Envoyer la "
-"demande** reste masqué. Signez d'abord toutes les annexes, puis envoyez. Re-"
-"signer est sans risque : Resthome repart d'un PDF vierge à chaque fois, sans"
-" empiler les signatures."
+"Resthome **ne bloque pas** l'envoi quand une annexe n'est pas signée — il "
+"demande une confirmation. Le bouton **Envoyer la demande** affiche alors : "
+"*« L'annexe n'est pas signée. En eAgreement Light, l'OA décide à partir du "
+"PDF de l'annexe — envoyer quand même ? »*. Annulez pour signer d'abord, ou "
+"confirmez pour envoyer en l'état."
 
 #: ../../content/ehealth/eagreement-signature.md:173
+msgid ""
+"If you confirm, the request leaves with an **unsigned annex** and Resthome "
+"records a warning in the request's thread: *\"Sent with an UNSIGNED "
+"annex\"*. Since the insurer decides **from that PDF**, an unsigned annex "
+"exposes you to a refusal — you would then have to sign and resend the "
+"**whole** request."
+msgstr ""
+"Si vous confirmez, la demande part avec une **annexe non signée** et "
+"Resthome consigne un avertissement dans le fil de la demande : *« Envoyée "
+"avec une annexe NON SIGNÉE »*. Comme l'organisme assureur décide **à partir "
+"de ce PDF**, une annexe non signée vous expose à un refus — il faudrait "
+"alors signer et renvoyer la demande **entière**."
+
+#: ../../content/ehealth/eagreement-signature.md:178
+msgid ""
+"Re-signing is safe: Resthome starts from a blank PDF each time, without "
+"stacking signatures."
+msgstr ""
+"Resigner est sans risque : Resthome repart d'un PDF vierge à chaque fois, "
+"sans empiler les signatures."
+
+#: ../../content/ehealth/eagreement-signature.md:182
+msgid "Replacing a PDF clears its signature"
+msgstr "Remplacer un PDF efface sa signature"
+
+#: ../../content/ehealth/eagreement-signature.md:185
+msgid ""
+"Regenerating an annex, or uploading a new PDF over an existing one, resets "
+"the annex to **not signed** — even if the document you upload already "
+"carries a handwritten signature. Tick **Annex signed** again (Annexe 7 / "
+"11), or re-run **Sign Annexe N**, otherwise the next send will ask for "
+"confirmation again."
+msgstr ""
+"Régénérer une annexe, ou téléverser un nouveau PDF par-dessus l'existant, "
+"remet l'annexe à **non signée** — même si le document que vous téléversez "
+"porte déjà une signature manuscrite. Recochez **Annexe signée** (annexes 7 /"
+" 11), ou relancez **Signer l'annexe N**, sinon le prochain envoi redemandera"
+" une confirmation."
+
+#: ../../content/ehealth/eagreement-signature.md:191
 msgid "Katz already signed during the assessment"
 msgstr "Katz déjà signé lors de l'évaluation"
 
-#: ../../content/ehealth/eagreement-signature.md:176
+#: ../../content/ehealth/eagreement-signature.md:194
 msgid ""
 "If the Katz assessment was **signed in the app** at scoring time, the Annexe"
 " 10 PDF already carries the signature: Resthome marks it **signed "
@@ -623,35 +665,35 @@ msgstr ""
 "cotation, le PDF de l'Annexe 10 porte déjà la signature : Resthome le marque"
 " **signé automatiquement** et l'étape ci-dessus est inutile."
 
-#: ../../content/ehealth/eagreement-signature.md:181
+#: ../../content/ehealth/eagreement-signature.md:199
 msgid "Who can sign (signature rules)"
 msgstr "Qui peut signer (règles de signature)"
 
-#: ../../content/ehealth/eagreement-signature.md:173
+#: ../../content/ehealth/eagreement-signature.md:191
 msgid "Situation"
 msgstr "Situation"
 
-#: ../../content/ehealth/eagreement-signature.md:173
+#: ../../content/ehealth/eagreement-signature.md:191
 msgid "Allowed signer"
 msgstr "Signataire autorisé"
 
-#: ../../content/ehealth/eagreement-signature.md:173
+#: ../../content/ehealth/eagreement-signature.md:191
 msgid "Annexe 10 — standard case"
 msgstr "Annexe 10 — cas standard"
 
-#: ../../content/ehealth/eagreement-signature.md:173
+#: ../../content/ehealth/eagreement-signature.md:191
 msgid "**Physician OR nurse**"
 msgstr "**Médecin OU infirmier**"
 
-#: ../../content/ehealth/eagreement-signature.md:173
+#: ../../content/ehealth/eagreement-signature.md:191
 msgid "Annexe 10 — Katz **category D / Cd**"
 msgstr "Annexe 10 — catégorie Katz **D / Cd**"
 
-#: ../../content/ehealth/eagreement-signature.md:173
+#: ../../content/ehealth/eagreement-signature.md:191
 msgid "**Physician mandatory** (no nurse fallback)"
 msgstr "**Médecin obligatoire** (pas de repli infirmier)"
 
-#: ../../content/ehealth/eagreement-signature.md:173
+#: ../../content/ehealth/eagreement-signature.md:191
 msgid ""
 "Annexe 10 — **quick revision** (new Katz less than 6 months after the "
 "previous one)"
@@ -659,19 +701,19 @@ msgstr ""
 "Annexe 10 — **révision rapide** (nouveau Katz moins de 6 mois après le "
 "précédent)"
 
-#: ../../content/ehealth/eagreement-signature.md:173
+#: ../../content/ehealth/eagreement-signature.md:191
 msgid "**Physician mandatory**"
 msgstr "**Médecin obligatoire**"
 
-#: ../../content/ehealth/eagreement-signature.md:173
+#: ../../content/ehealth/eagreement-signature.md:191
 msgid "Annexe 7 (admission) / Annexe 11 (end of stay)"
 msgstr "Annexe 7 (admission) / Annexe 11 (fin de séjour)"
 
-#: ../../content/ehealth/eagreement-signature.md:173
+#: ../../content/ehealth/eagreement-signature.md:191
 msgid "**Institution manager** — no medical rule"
 msgstr "**Responsable de l'établissement** — pas de règle médicale"
 
-#: ../../content/ehealth/eagreement-signature.md:190
+#: ../../content/ehealth/eagreement-signature.md:208
 msgid ""
 "The signing window recalls the applicable rule in a **signature rules** "
 "banner. If the rule requires a physician and the signer is not one, the "
@@ -681,11 +723,11 @@ msgstr ""
 "**règles de signature**. Si la règle exige un médecin et que le signataire "
 "n'en est pas un, la signature est refusée avec un message clair."
 
-#: ../../content/ehealth/eagreement-signature.md:194
+#: ../../content/ehealth/eagreement-signature.md:212
 msgid "Readmission after a long absence"
 msgstr "Réadmission après une longue absence"
 
-#: ../../content/ehealth/eagreement-signature.md:197
+#: ../../content/ehealth/eagreement-signature.md:215
 msgid ""
 "A **readmission** after more than 30 days of absence may require a **new "
 "Katz assessment**, but it does **not** require a physician: the Annexe 10 "
@@ -695,11 +737,11 @@ msgstr ""
 "**nouvelle évaluation Katz**, mais elle n'exige **pas** de médecin : "
 "l'Annexe 10 peut être signée par un **médecin OU un infirmier**."
 
-#: ../../content/ehealth/eagreement-signature.md:202
+#: ../../content/ehealth/eagreement-signature.md:220
 msgid "Everyone signs with their own signature"
 msgstr "Chacun signe avec sa propre signature"
 
-#: ../../content/ehealth/eagreement-signature.md:204
+#: ../../content/ehealth/eagreement-signature.md:222
 msgid ""
 "For safety, you can only sign **with your own** signature image. Signing "
 "**on behalf of another** clinician — whose name and role appear on a legal "
@@ -713,11 +755,11 @@ msgstr ""
 "droits de **gestionnaire eHealth**. Dans tous les cas, l'**auteur réel** de "
 "l'action reste enregistré dans le journal d'audit."
 
-#: ../../content/ehealth/eagreement-signature.md:209
+#: ../../content/ehealth/eagreement-signature.md:227
 msgid "If no signature image is configured"
 msgstr "Si aucune image de signature n'est configurée"
 
-#: ../../content/ehealth/eagreement-signature.md:211
+#: ../../content/ehealth/eagreement-signature.md:229
 msgid ""
 "If the signer has **no** signature image on their employee record, the "
 "window warns you and the **Sign & replace PDF** button is not offered. Two "
@@ -727,13 +769,13 @@ msgstr ""
 "la fenêtre vous en avertit et le bouton **Signer et remplacer le PDF** n'est"
 " pas proposé. Deux options :"
 
-#: ../../content/ehealth/eagreement-signature.md:214
+#: ../../content/ehealth/eagreement-signature.md:232
 msgid "**upload a signature image** on the employee record, then start again;"
 msgstr ""
 "**téléversez une image de signature** sur la fiche d'employé, puis "
 "recommencez ;"
 
-#: ../../content/ehealth/eagreement-signature.md:215
+#: ../../content/ehealth/eagreement-signature.md:233
 msgid ""
 "**keep the manual route**: print the annex, have it signed, scan the signed "
 "document and re-upload it on the request (for Annexe 7 / 11, tick **Annex "
@@ -743,11 +785,11 @@ msgstr ""
 "scannez le document signé et re-téléversez-le sur la demande (pour l'Annexe "
 "7 / 11, cochez **Annexe signée**)."
 
-#: ../../content/ehealth/eagreement-signature.md:219
+#: ../../content/ehealth/eagreement-signature.md:237
 msgid "Key points to remember"
 msgstr "Points clés à retenir"
 
-#: ../../content/ehealth/eagreement-signature.md:221
+#: ../../content/ehealth/eagreement-signature.md:239
 msgid ""
 "The **responsible practitioner** is the **Katz assessor**, not the sender; "
 "Resthome resolves their **NIHII** in a cascade: assessor → head nurse → "
@@ -757,7 +799,7 @@ msgstr ""
 "Resthome résout son **numéro INAMI** en cascade : évaluateur → infirmier en "
 "chef → médecin coordinateur → numéro générique."
 
-#: ../../content/ehealth/eagreement-signature.md:224
+#: ../../content/ehealth/eagreement-signature.md:242
 msgid ""
 "A Katz **category D** requires a **physician**; configure a fallback "
 "**coordinating physician** in the eHealth settings."
@@ -765,7 +807,7 @@ msgstr ""
 "Une **catégorie D** Katz exige un **médecin** ; configurez un **médecin "
 "coordinateur** de repli dans les réglages eHealth."
 
-#: ../../content/ehealth/eagreement-signature.md:226
+#: ../../content/ehealth/eagreement-signature.md:244
 msgid ""
 "The **NIHII**, **role** and **signature image** live on the **employee "
 "record** (*Nursing Home* tab) — no user license needed for caregivers who "
@@ -775,7 +817,7 @@ msgstr ""
 " **fiche d'employé** (onglet *Maison de repos*) — aucune licence utilisateur"
 " nécessaire pour les soignants qui signent occasionnellement."
 
-#: ../../content/ehealth/eagreement-signature.md:229
+#: ../../content/ehealth/eagreement-signature.md:247
 msgid ""
 "**Sign Annexe 10 / 7 / 11** places your signature image on the PDF: no more "
 "printing / signing / scanning. Signing is a **prerequisite for sending**."
@@ -784,7 +826,7 @@ msgstr ""
 "plus d'impression / signature / scan. La signature est un **préalable à "
 "l'envoi**."
 
-#: ../../content/ehealth/eagreement-signature.md:231
+#: ../../content/ehealth/eagreement-signature.md:249
 msgid ""
 "**Signature rules**: physician OR nurse by default; **physician mandatory** "
 "in category D or a quick revision (< 6 months)."
@@ -792,7 +834,7 @@ msgstr ""
 "**Règles de signature** : médecin OU infirmier par défaut ; **médecin "
 "obligatoire** en catégorie D ou en révision rapide (< 6 mois)."
 
-#: ../../content/ehealth/eagreement-signature.md:233
+#: ../../content/ehealth/eagreement-signature.md:251
 msgid ""
 "You sign **only with your own** signature, unless you have **eHealth "
 "manager** rights."
@@ -800,29 +842,29 @@ msgstr ""
 "Vous signez **uniquement avec votre propre** signature, sauf si vous "
 "disposez des droits de **gestionnaire eHealth**."
 
-#: ../../content/ehealth/eagreement-signature.md:236
+#: ../../content/ehealth/eagreement-signature.md:254
 msgid "Further reading"
 msgstr "Pour aller plus loin"
 
-#: ../../content/ehealth/eagreement-signature.md:238
+#: ../../content/ehealth/eagreement-signature.md:256
 msgid "[Agreements (eAgreement)](eagreement.md)"
 msgstr "[Accords (eAgreement)](eagreement.md)"
 
-#: ../../content/ehealth/eagreement-signature.md:239
+#: ../../content/ehealth/eagreement-signature.md:257
 msgid ""
 "[Refused agreement (eAgreement) — causes and solutions](eagreement-refus.md)"
 msgstr ""
 "[Accord refusé (eAgreement) — causes et solutions](eagreement-refus.md)"
 
-#: ../../content/ehealth/eagreement-signature.md:240
+#: ../../content/ehealth/eagreement-signature.md:258
 msgid "[The dependency scale (Katz)](../residents/katz.md)"
 msgstr "[L'échelle de dépendance (Katz)](../residents/katz.md)"
 
-#: ../../content/ehealth/eagreement-signature.md:241
+#: ../../content/ehealth/eagreement-signature.md:259
 msgid "[eHealth and eFact settings](../configuration/reglages-ehealth.md)"
 msgstr "[Réglages eHealth et eFact](../configuration/reglages-ehealth.md)"
 
-#: ../../content/ehealth/eagreement-signature.md:242
+#: ../../content/ehealth/eagreement-signature.md:260
 msgid "[eHealth overview](index.md)"
 msgstr "[Aperçu eHealth](index.md)"
 
@@ -841,3 +883,16 @@ msgstr "[Aperçu eHealth](index.md)"
 #~ msgstr ""
 #~ "Demande eAgreement en brouillon, avec le bouton Signer l'Annexe 7 dans la "
 #~ "barre d'actions et la section Annexes"
+
+#~ msgid "Signing is a prerequisite for sending"
+#~ msgstr "La signature est un préalable à l'envoi"
+
+#~ msgid ""
+#~ "As long as a generated annex is **not signed**, the **Send Request** button "
+#~ "stays hidden. Sign all the annexes first, then send. Re-signing is safe: "
+#~ "Resthome starts from a blank PDF each time, without stacking signatures."
+#~ msgstr ""
+#~ "Tant qu'une annexe générée n'est **pas signée**, le bouton **Envoyer la "
+#~ "demande** reste masqué. Signez d'abord toutes les annexes, puis envoyez. Re-"
+#~ "signer est sans risque : Resthome repart d'un PDF vierge à chaque fois, sans"
+#~ " empiler les signatures."
