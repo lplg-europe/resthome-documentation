@@ -2,10 +2,20 @@
   "version": "0.0.1",
   "configurations": [
     {
+      "//": "Site DEJA CONSTRUIT (site/) : le seul moyen de voir les traductions FR/NL.",
+      "//2": "Lancez `make build` avant, ou `make serve` qui fait les deux.",
       "name": "docs",
-      "runtimeExecutable": ".venv/Scripts/sphinx-autobuild.exe",
-      "runtimeArgs": ["-c", ".", "content", "_build/live", "-a", "127.0.0.1:8000"],
-      "port": 8000
+      "runtimeExecutable": ".venv/Scripts/python.exe",
+      "runtimeArgs": ["docs-ops/mk.py", "preview", "--port", "8010"],
+      "port": 8010
+    },
+    {
+      "//": "Rechargement a chaud de la SOURCE anglaise — ne montre PAS les traductions.",
+      "//2": "Invoque par -m : le chemin de l'exe differe entre Scripts/ et bin/.",
+      "name": "docs-live",
+      "runtimeExecutable": ".venv/Scripts/python.exe",
+      "runtimeArgs": ["docs-ops/mk.py", "live", "--live-port", "8011"],
+      "port": 8011
     }
   ]
 }

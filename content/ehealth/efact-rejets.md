@@ -172,13 +172,13 @@ at the source, then resend.**
 Depending on the message returned by the OA, you may see, in the statuses or
 the batch log:
 
-| Response | What it means |
-|---|---|
-| **Acknowledgement of receipt** | The OA has **received** the file and it passed the first check. Normal step. |
-| **Notification with warnings** | The batch is **accepted**, but with **warnings** (minor errors) to read. |
-| **Settlement** | The **line-by-line result**: **accepted** and **refused** amounts. This is where the partial rejections to fix appear. |
-| **Global rejection** | The **whole batch is refused** (too many errors). Fix the cause and **resend a new batch**. |
-| **Technical rejection** | The file did not pass the **format check**; retransmission required after correction. |
+| Response | Code | What it means |
+|---|---|---|
+| **Acknowledgement of receipt** | 931000 | The OA has **received** the file and it passed the first check. Normal step. |
+| **Notification with warnings** | 920098 | The batch is **accepted**, but with **warnings** (minor errors) to read. |
+| **Settlement** | 920900 | The **line-by-line result**: **accepted** and **refused** amounts. This is where the partial rejections to fix appear. |
+| **Global rejection** | 920099 | The **whole batch is refused** (too many errors). Fix the cause and **resend a new batch**. |
+| **Technical rejection** | 920999 | The file did not pass the **format check**; retransmission required after correction. |
 
 ## Key points
 

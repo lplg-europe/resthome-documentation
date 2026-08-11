@@ -24,16 +24,19 @@ python -m venv .venv
 .venv\Scripts\activate            # Windows
 # source .venv/bin/activate       # Linux / macOS
 pip install -r requirements.txt
-python build_docs.py              # ./site (FR racine, /nl, /en) + statiques + sitemap
-python -m http.server 8000 --directory site
+make serve                        # construit ./site puis le sert sur :8010
 ```
 
-Ouvrez **http://127.0.0.1:8000/2026/** (le `/` sans version redirige vers la
-dernière). Édition rapide d'une langue avec rechargement auto :
+Ouvrez **http://localhost:8010/** — le français est à la racine, `/nl/` et
+`/en/` pour les autres langues. `make` seul liste toutes les cibles.
 
-```bash
-sphinx-autobuild -c . content _build/live
-```
+Pendant la rédaction, `make live` recharge à chaud, mais rend la **source
+anglaise** : il ne montre pas les traductions. Pour relire une page traduite,
+c'est `make serve`.
+
+:warning: Les cibles `make` passent toutes par le venv et évitent les outils
+POSIX : sous Windows, `make` lance `cmd.exe`, qui n'a ni `test` ni `rm`. La
+logique correspondante vit dans `docs-ops/mk.py`.
 
 ## Traductions (catalogues gettext)
 

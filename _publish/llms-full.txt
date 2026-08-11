@@ -2523,13 +2523,13 @@ Le principe : **on ne repousse pas un lot rejeté tel quel — on corrige la cau
 
 Selon le message renvoyé par l’OA, vous pouvez apercevoir, dans les statuts ou le journal du lot :
 
-| Réponse | Ce que ça veut dire |
-| --- | --- |
-| **Accusé de réception** | L’OA a **reçu** le fichier et il a passé le premier contrôle. Étape normale. |
-| **Notification avec avertissements** | Le lot est **accepté**, mais avec des **avertissements** (erreurs mineures) à lire. |
-| **Décompte** | Le **résultat ligne par ligne** : montants **acceptés** et **refusés**. C’est ici qu’apparaissent les rejets partiels à corriger. |
-| **Rejet global** | Le **lot entier est refusé** (trop d’erreurs). Corriger la cause et **renvoyer un lot neuf**. |
-| **Rejet technique** | Le fichier n’a pas passé le **contrôle de format** ; retransmission nécessaire après correction. |
+| Réponse | Code | Ce que ça veut dire |
+| --- | --- | --- |
+| **Accusé de réception** | 931000 | L’OA a **reçu** le fichier et il a passé le premier contrôle. Étape normale. |
+| **Notification avec avertissements** | 920098 | Le lot est **accepté**, mais avec des **avertissements** (erreurs mineures) à lire. |
+| **Décompte** | 920900 | Le **résultat ligne par ligne** : montants **acceptés** et **refusés**. C’est ici qu’apparaissent les rejets partiels à corriger. |
+| **Rejet global** | 920099 | Le **lot entier est refusé** (trop d’erreurs). Corriger la cause et **renvoyer un lot neuf**. |
+| **Rejet technique** | 920999 | Le fichier n’a pas passé le **contrôle de format** ; retransmission nécessaire après correction. |
 
 ## Points clés
 

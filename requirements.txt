@@ -6,8 +6,14 @@
 # Build :   python build_docs.py            (3 langues + statiques + sitemap)
 # i18n  :   python build_docs.py --gettext  (met à jour les catalogues locale/)
 
-sphinx>=7.2,<9
-myst-parser>=2,<5
+# Les deux plafonds ci-dessous doivent rester COHERENTS AVEC LE VENV DE DEV.
+# Avec les anciens (`sphinx<9`, `myst-parser<5`), la resolution donnait
+# Sphinx 8.2.3 + myst-parser 4.0.1 : la CI publiait donc un site bati avec une
+# chaine differente de celle validee en local (Sphinx 9.1 + myst 5.1), alors
+# que le rendu de certaines constructions — l'echappement des titres numerotes
+# traduits, notamment — depend de la version de MyST.
+sphinx>=9.1,<10
+myst-parser>=5.1,<6
 sphinx-immaterial>=0.12
 sphinxcontrib-mermaid>=0.9
 sphinx-intl>=2.1          # extraction / mise à jour des catalogues .po
