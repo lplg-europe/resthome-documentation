@@ -58,4 +58,5 @@ On a billing period, the **Create supplement envelopes** action prepares, in one
 ## Further reading
 
 - [Billing overview](index.md)
+- [Recharging a vendor bill](refacturation-fournisseur.md)
 - [Absences and hospitalizations](absences.md)

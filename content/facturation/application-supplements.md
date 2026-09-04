@@ -216,6 +216,7 @@ generated** for the relevant month.
 ## Further reading
 
 - [Supplements](supplements.md)
+- [Recharging a vendor bill](refacturation-fournisseur.md)
 - [Billing a month, step by step](facturer-un-mois.md)
 - [Billing overview](index.md)
 - [Billing settings](../configuration/reglages-facturation.md)

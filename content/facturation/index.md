@@ -12,6 +12,7 @@ forfait-inami
 facturer-un-mois
 supplements
 application-supplements
+refacturation-fournisseur
 absences
 depart-deces
 note-de-frais-annexe12
