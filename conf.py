@@ -21,7 +21,6 @@ extensions = [
     "myst_parser",
     "sphinx_design",          # grilles de cartes (accueil)
     "sphinx_immaterial",
-    "sphinxcontrib.mermaid",
     "resthome_meta",          # _ext/ : description/faq + JSON-LD + hreflang
     "redirects",              # _ext/ : redirige les anciennes URLs (redirects.txt)
 ]
@@ -40,7 +39,7 @@ myst_enable_extensions = [
     "deflist",          # listes de définitions (directive rh-faq)
     "attrs_block",
 ]
-myst_fence_as_directive = ["mermaid"]   # les fences ```mermaid → directive
+myst_fence_as_directive = ["mermaid"]   # les fences ```mermaid → directive (voir setup())
 myst_heading_anchors = 3
 
 # -- i18n (le cœur du modèle docs-as-code) -------------------------------------------
@@ -48,6 +47,13 @@ myst_heading_anchors = 3
 # résolvent pas les chemins relatifs pareil → on force l'absolu, seul robuste.
 locale_dirs = [os.path.join(os.path.dirname(os.path.abspath(__file__)), "locale")]
 gettext_compact = False        # un catalogue par page (granulaire)
+# PAS de "literal-block" dans gettext_additional_targets, et ce n'est pas un
+# oubli : les pages sont écrites en MyST, or Sphinx re-parse le message traduit
+# avec le parser du document APRÈS l'avoir préfixé du « :: » de la syntaxe RST.
+# En Markdown, ce « :: » n'est qu'un paragraphe : le bloc traduit sortait réduit
+# à « :: » (mesuré le 04/09/2026 en FR et en NL, l'anglais restant correct).
+# Conséquence assumée : les libellés des diagrammes mermaid restent en anglais
+# dans les trois langues.
 gettext_uuid = False
 gettext_location = True
 
@@ -111,3 +117,64 @@ if len(rh_versions) > 1:
 html_theme_options["repo_url"] = "https://github.com/lplg-europe/resthome-documentation"
 html_theme_options["repo_name"] = "resthome-documentation"
 html_theme_options["icon"] = {"repo": "fontawesome/brands/github"}
+
+
+# -- Diagrammes mermaid ---------------------------------------------------------------
+# Rendus par `_static/rh-mermaid.js`, depuis le bundle que sphinx-immaterial
+# livre dans son paquet — jamais depuis un CDN.
+#
+# Ni `sphinxcontrib.mermaid` ni la directive du thème ne conviennent :
+#   * la première charge mermaid depuis jsdelivr et ne fait pas copier le
+#     bundle, si bien que le thème échouait sur « Invalid script:
+#     _static/mermaid/mermaid.min.js » et le diagramme restait en texte brut ;
+#   * la seconde fait bien copier le bundle, mais son propre rendu laisse un
+#     conteneur VIDE (constaté le 04/09/2026 sur toutes les pages à diagramme,
+#     alors qu'un appel direct à `mermaid.render` sur le même contenu rend un
+#     SVG complet).
+#
+# La classe est `rh-mermaid` et non `mermaid` : le thème ne touche qu'aux
+# secondes, les deux mécanismes ne se marchent donc pas dessus.
+def _mermaid_bundle(app, exception):
+    """Copie le bundle mermaid à côté du script qui le charge."""
+    import shutil
+    from pathlib import Path
+
+    import sphinx_immaterial
+
+    # `dirhtml`, pas `html` : c'est le builder que build_docs.py appelle.
+    if exception is not None or "html" not in app.builder.name:
+        return
+    source = Path(sphinx_immaterial.__file__).parent / "bundles" / "mermaid"
+    target = Path(app.outdir) / "_static" / "mermaid"
+    if source.exists() and not target.exists():
+        shutil.copytree(str(source), str(target))
+
+
+def setup(app):
+    """Routage des fences ```mermaid + chargement du rendu maison."""
+    from docutils import nodes
+    from sphinx.util.docutils import SphinxDirective
+
+    class RhMermaid(SphinxDirective):
+        """Un bloc littéral CLASSÉ, pas un bloc brut.
+
+        Un `nodes.raw` serait plus court, mais gettext ne l'extrait pas : les
+        libellés des diagrammes resteraient en anglais sur les pages FR et NL.
+        Un literal_block, lui, est extrait dès que `gettext_additional_targets`
+        contient « literal-block » — ce qu'active ce fichier plus haut.
+        """
+
+        has_content = True
+
+        def run(self):
+            text = "\n".join(self.content)
+            node = nodes.literal_block(text, text)
+            node["language"] = "none"
+            node["classes"] = ["rh-mermaid"]
+            self.set_source_info(node)
+            return [node]
+
+    app.add_directive("mermaid", RhMermaid)
+    app.add_js_file("rh-mermaid.js", loading_method="defer")
+    app.connect("build-finished", _mermaid_bundle)
+    return {"parallel_read_safe": True, "parallel_write_safe": True}

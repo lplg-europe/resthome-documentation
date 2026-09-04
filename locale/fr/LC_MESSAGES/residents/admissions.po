@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-04 16:28+0200\n"
+"POT-Creation-Date: 2026-09-04 22:00+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -143,6 +143,16 @@ msgstr ""
 #: ../../content/residents/admissions.md:40
 msgid "Overview"
 msgstr "Vue d'ensemble"
+
+#: ../../content/residents/admissions.md:42
+msgid ""
+"graph LR\n"
+"  A[First contact] --> B[Visit scheduled]\n"
+"  B --> C[Visit done]\n"
+"  C --> D[File complete]\n"
+"  D --> E[Admitted]\n"
+"  D -.-> F[Refused / Withdrawn]"
+msgstr ""
 
 #: ../../content/residents/admissions.md:51
 msgid "Two dates not to confuse"

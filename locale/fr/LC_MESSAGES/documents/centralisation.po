@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-01 07:25+0200\n"
+"POT-Creation-Date: 2026-09-04 22:00+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -185,6 +185,16 @@ msgstr ""
 "d'un message dans le fil** ou **directement sur sa fiche** — Resthome crée "
 "une entrée correspondante dans l'application Documents, à l'intérieur du "
 "dossier de cet habitant."
+
+#: ../../content/documents/centralisation.md:52
+#, python-brace-format
+msgid ""
+"graph LR\n"
+"  A[Attachment on a resident's record<br/>or thread] --> B{Resident?<br/>Centralization on?}\n"
+"  B -->|Yes| C[Entry created in<br/>the resident's Documents folder]\n"
+"  C --> D[Default tags<br/>applied automatically]\n"
+"  B -->|No| E[Nothing is filed]"
+msgstr ""
 
 #: ../../content/documents/centralisation.md:60
 msgid "Three conditions trigger the filing:"

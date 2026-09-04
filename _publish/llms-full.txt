@@ -138,7 +138,7 @@ Source : https://www.lplg.eu/resthome/documentation/parcours-facturation/
 De l”**admission** au **paiement**, une facture correcte suit toujours les mêmes étapes. Cette page relie l’ensemble du parcours ; chaque étape renvoie vers sa page détaillée.
 
 ```
-        flowchart TD
+flowchart TD
     A[Admission] --> B[Insurability — MDA]
     B --> C[Admission agreement — eAgreement]
     C --> D[Katz evaluation]
@@ -206,7 +206,7 @@ Vous le trouvez dans l’application **CRM**, sur l’équipe **Admissions**. Ch
 ## Vue d’ensemble
 
 ```
-        graph LR
+graph LR
   A[First contact] --> B[Visit scheduled]
   B --> C[Visit done]
   C --> D[File complete]
@@ -365,7 +365,7 @@ Cette page décrit le parcours complet d’un habitant dans Resthome : de sa **c
 ## Vue d’ensemble
 
 ```
-        graph LR
+graph LR
   A[Create the resident] --> B[Convention]
   B --> C[Confirm the stay]
   C --> D[Start the stay]
@@ -823,7 +823,7 @@ Maintenance et Réservée bloquent l’assignation
 Tant qu’une chambre est **En maintenance** ou **Réservée**, le bouton **Assigner un habitant** est masqué et la chambre n’apparaît **pas** dans les listes de chambres disponibles (admission, transfert). Repassez-la en **Mode automatique** pour la rendre à nouveau assignable.
 
 ```
-        graph LR
+graph LR
   A[Available] -->|a resident assigned| B[Occupied]
   B -->|all beds freed| A
   A -->|Set Under Maintenance| C[Under maintenance]
@@ -890,7 +890,7 @@ L”**état des lieux** consigne l”**état d’une chambre** et de ses équipe
 Chaque état des lieux relie un **habitant**, une **chambre** et un **représentant**, liste les **équipements** constatés (conformes ou non), et produit un **rapport PDF** à votre en-tête, prêt à signer.
 
 ```
-        graph LR
+graph LR
   A[To do] --> B[Planned]
   B --> C[Done]
   A --> C[Done]
@@ -1038,7 +1038,7 @@ Source : https://www.lplg.eu/resthome/documentation/residents/procedure-emmenage
 Vous choisissez ces responsables dans **Réglages ▸ Maison de repos ▸ Hébergement**.
 
 ```
-        graph LR
+graph LR
   A[New stay] --> B[Move-in checklist — resident's thread]
   A --> C[Room preparation — room's thread]
 ```
@@ -1422,7 +1422,7 @@ Détails et boutons avancés : [Facturation électronique (eFact)](../../ehealth
 ## Récapitulatif du parcours
 
 ```
-        graph TD
+graph TD
   A[Open the period] --> B[Check MDA]
   B --> C[Generate]
   C --> D[Create invoices]
@@ -3747,7 +3747,7 @@ Le bloc **Statut de dénutrition** est en **lecture seule** : Resthome le calcul
 Sous le badge, l’onglet affiche le **poids**, l”**IMC**, un indicateur **IMC bas** (IMC bas ajusté à l’âge) et la **perte de poids** sur 1 mois et sur 6 mois.
 
 ```
-        flowchart TD
+flowchart TD
     A[Weight, height and BMI up to date] --> B{Last MNA = undernourished?}
     B -- Yes --> C[Undernutrition]
     B -- No --> D{AViQ signal active?}
@@ -3920,7 +3920,7 @@ Cette fonctionnalité repose sur l’application **Documents** d’Odoo : elle d
 Dès qu’un habitant est créé (ou dès que sa fiche devient une fiche habitant), Resthome crée son **dossier personnel** sous le dossier racine **« Habitants »**, avec **trois sous-dossiers prêts à l’emploi** :
 
 ```
-        graph TD
+graph TD
   A[Residents] --> B[Blank forms]
   A --> C[Resident name]
   C --> D[Medical documents]
@@ -4024,7 +4024,7 @@ Cette fonctionnalité repose sur l’application **Documents** d’Odoo : elle n
 Dès qu’un fichier est joint à un habitant — que ce soit **en pièce jointe d’un message dans le fil** ou **directement sur sa fiche** — Resthome crée une entrée correspondante dans l’application Documents, à l’intérieur du dossier de cet habitant.
 
 ```
-        graph LR
+graph LR
   A[Attachment on a resident's record<br/>or thread] --> B{Resident?<br/>Centralization on?}
   B -->|Yes| C[Entry created in<br/>the resident's Documents folder]
   C --> D[Default tags<br/>applied automatically]

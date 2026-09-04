@@ -151,7 +151,14 @@
 .md-header .md-version__link { color: inherit; }
 
 .md-grid { max-width: 100%; }
-.md-content { max-width: 50rem; }
+/* Largeur de lecture. Mesuré le 04/09/2026 : à 50rem, une ligne portait 108
+   caractères — la lisibilité décroche au-delà de 80, et l'œil perd la ligne
+   suivante en revenant à la marge. 40rem ramène la mesure autour de 85 tout en
+   gardant aux captures la largeur d'affichage que demande leur charte
+   (768-933 px). `margin: auto` centre le bloc entre la navigation et le
+   sommaire : sans lui, le texte reste collé à gauche et le sommaire dérive
+   très loin à droite sur un grand écran. */
+.md-content { max-width: 40rem; margin-left: auto; margin-right: auto; }
 .md-header__inner { position: relative; gap: 0.35rem; }
 
 /* Recherche CENTRÉE sur écran large : titre à gauche, contrôles à droite,

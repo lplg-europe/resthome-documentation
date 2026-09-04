@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-21 00:45+0200\n"
+"POT-Creation-Date: 2026-09-04 22:00+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nl <LL@li.org>\n"
@@ -305,6 +305,23 @@ msgstr ""
 #: ../../content/facturation/facturer-un-mois.md:105
 msgid "Process recap"
 msgstr "Overzicht van het traject"
+
+#: ../../content/facturation/facturer-un-mois.md:107
+#, python-brace-format
+msgid ""
+"graph TD\n"
+"  A[Open the period] --> B[Check MDA]\n"
+"  B --> C[Generate]\n"
+"  C --> D[Create invoices]\n"
+"  D --> E[Post]\n"
+"  E --> F[Generate eFact]\n"
+"  F --> G[Send to insurers]\n"
+"  G --> H[Fetch responses]\n"
+"  H --> I{Accepted?}\n"
+"  I -->|Yes| J[Done]\n"
+"  I -->|Rejected| K[Correct and resend]\n"
+"  K --> G"
+msgstr ""
 
 #: ../../content/facturation/facturer-un-mois.md:122
 msgid "Going further"

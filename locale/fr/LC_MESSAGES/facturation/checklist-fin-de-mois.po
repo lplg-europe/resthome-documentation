@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-31 17:54+0200\n"
+"POT-Creation-Date: 2026-09-04 22:00+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -122,6 +122,18 @@ msgstr ""
 #: ../../content/facturation/checklist-fin-de-mois.md:30
 msgid "Overview"
 msgstr "Vue d'ensemble"
+
+#: ../../content/facturation/checklist-fin-de-mois.md:32
+msgid ""
+"graph LR\n"
+"  A[1. MDA] --> B[2. Absences]\n"
+"  B --> C[3. Katz]\n"
+"  C --> D[4. Supplements]\n"
+"  D --> E[5. Generate]\n"
+"  E --> F[6. Invoice]\n"
+"  F --> G[7. eFact]\n"
+"  G --> H[8. Reconcile]"
+msgstr ""
 
 #: ../../content/facturation/checklist-fin-de-mois.md:43
 msgid "Before generating"

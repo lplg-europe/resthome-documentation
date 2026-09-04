@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-01 07:25+0200\n"
+"POT-Creation-Date: 2026-09-04 22:00+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -293,6 +293,19 @@ msgstr ""
 "Sous le badge, l'onglet affiche le **poids**, l'**IMC**, un indicateur **IMC"
 " bas** (IMC bas ajusté à l'âge) et la **perte de poids** sur 1 mois et sur 6"
 " mois."
+
+#: ../../content/repas/suivi-nutritionnel.md:68
+#, python-brace-format
+msgid ""
+"flowchart TD\n"
+"    A[Weight, height and BMI up to date] --> B{Last MNA = undernourished?}\n"
+"    B -- Yes --> C[Undernutrition]\n"
+"    B -- No --> D{AViQ signal active?}\n"
+"    D -- Yes --> E[Re-screen MNA]\n"
+"    D -- No --> F{Last MNA = at risk?}\n"
+"    F -- Yes --> G[To monitor]\n"
+"    F -- No --> H[No concern]"
+msgstr ""
 
 #: ../../content/repas/suivi-nutritionnel.md:79
 msgid "What triggers \"Re-screen (MNA)\""

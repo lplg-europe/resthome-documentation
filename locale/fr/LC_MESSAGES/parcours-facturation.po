@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-22 01:43+0200\n"
+"POT-Creation-Date: 2026-09-04 22:00+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -41,6 +41,20 @@ msgstr ""
 "De l'**admission** au **paiement**, une facture correcte suit toujours les "
 "mêmes étapes. Cette page relie l'ensemble du parcours ; chaque étape renvoie"
 " vers sa page détaillée."
+
+#: ../../content/parcours-facturation.md:11
+msgid ""
+"flowchart TD\n"
+"    A[Admission] --> B[Insurability — MDA]\n"
+"    B --> C[Admission agreement — eAgreement]\n"
+"    C --> D[Katz evaluation]\n"
+"    D --> E[Electronic invoicing — eFact]\n"
+"    E --> F[Payment / settlement]"
+msgstr ""
+
+#: ../../content/parcours-facturation.md:20
+msgid "Admission ─► MDA ─► eAgreement ─► Katz ─► eFact ─► Payment\n"
+msgstr ""
 
 #: ../../content/parcours-facturation.md:24
 msgid "**Admission** — Create the resident's file and open their stay."
