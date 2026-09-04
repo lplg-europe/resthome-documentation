@@ -30,7 +30,7 @@ msgid ""
 " board by status, room record, maintenance and assigning a resident."
 msgstr ""
 "Suivre l'occupation des chambres en maison de repos (MR/MRS) avec Resthome :"
-" kanban par statut, fiche chambre, maintenance et assignation d'un résident."
+" kanban par statut, fiche chambre, maintenance et assignation d'un habitant."
 
 #: ../../content/residents/chambres.md:12
 msgid "Where is the room occupancy board in Resthome?"
@@ -78,7 +78,7 @@ msgstr ""
 
 #: ../../content/residents/chambres.md:21
 msgid "How do I assign a resident directly from a room?"
-msgstr "Comment assigner un résident directement depuis une chambre ?"
+msgstr "Comment assigner un habitant directement depuis une chambre ?"
 
 #: ../../content/residents/chambres.md:22
 msgid ""
@@ -86,13 +86,13 @@ msgid ""
 "the entry date: Resthome creates the stay, in the In Progress state, on that"
 " room."
 msgstr ""
-"Ouvrez une chambre disponible et cliquez sur Assigner un résident. "
-"Choisissez le résident et la date d'entrée : Resthome crée le séjour, à "
+"Ouvrez une chambre disponible et cliquez sur Assigner un habitant. "
+"Choisissez l'habitant et la date d'entrée : Resthome crée le séjour, à "
 "l'état En cours, sur cette chambre."
 
 #: ../../content/residents/chambres.md:24
 msgid "What happens if the resident already occupies a room?"
-msgstr "Que se passe-t-il si le résident occupe déjà une chambre ?"
+msgstr "Que se passe-t-il si l'habitant occupe déjà une chambre ?"
 
 #: ../../content/residents/chambres.md:25
 msgid ""
@@ -116,7 +116,7 @@ msgid ""
 msgstr ""
 "Non. C'est le prix de l'hébergement (la chambre), une valeur propre à votre "
 "établissement, définie sur le type de chambre. Le forfait de dépendance "
-"dépend, lui, de la catégorie Katz du résident, pas de la chambre."
+"dépend, lui, de la catégorie Katz de l'habitant, pas de la chambre."
 
 #: ../../content/residents/chambres.md:31
 msgid ""
@@ -128,7 +128,7 @@ msgstr ""
 "L'espace **Chambres** vous donne une vue en temps réel de l'**occupation** "
 "de l'établissement : quelles chambres sont libres, occupées, réservées ou en"
 " travaux, combien de lits restent disponibles, et à quel tarif. Depuis une "
-"chambre, vous pouvez aussi **assigner directement un résident**, ce qui "
+"chambre, vous pouvez aussi **assigner directement un habitant**, ce qui "
 "ouvre son séjour."
 
 #: ../../content/residents/chambres.md:36
@@ -176,7 +176,7 @@ msgstr "le **type de chambre** ;"
 
 #: ../../content/residents/chambres.md:51
 msgid "the **resident(s) present**, if any;"
-msgstr "le ou les **résidents présents**, le cas échéant ;"
+msgstr "le ou les **habitants présents**, le cas échéant ;"
 
 #: ../../content/residents/chambres.md:52
 msgid "the **daily accommodation rate**."
@@ -215,7 +215,7 @@ msgstr ""
 "reste **Disponible** : il y a encore une place. Elle ne bascule en "
 "**Occupée** que lorsque **tous** les lits sont pris. Une chambre "
 "individuelle (capacité 1) passe donc directement de Disponible à Occupée dès"
-" le premier résident."
+" le premier habitant."
 
 #: ../../content/residents/chambres.md:65
 msgid ""
@@ -353,8 +353,8 @@ msgstr ""
 "Le **tarif journalier** est le **prix de l'hébergement** (la chambre), une "
 "valeur **propre à votre établissement**, définie sur le **type de chambre**."
 " Il est distinct du **forfait de dépendance** (la part mutuelle), qui dépend"
-" de la **catégorie Katz** du résident — la même pour toutes les catégories "
-"aux tarifs AViQ — et non de la chambre."
+" de la **catégorie Katz** de l'habitant — la même pour toutes les catégories"
+" aux tarifs AViQ — et non de la chambre."
 
 #: ../../content/residents/chambres.md:103
 msgid "Amenities"
@@ -387,8 +387,8 @@ msgid ""
 "**Current Occupancy** — the residents present in the room (name, resident "
 "code, age)."
 msgstr ""
-"**Occupation actuelle** — les résidents présents dans la chambre (nom, code "
-"résident, âge)."
+"**Occupation actuelle** — les habitants présents dans la chambre (nom, code "
+"habitant, âge)."
 
 #: ../../content/residents/chambres.md:116
 msgid ""
@@ -397,7 +397,7 @@ msgid ""
 "Progress**, **Done**)."
 msgstr ""
 "**Historique des séjours** — tous les séjours qui ont concerné cette "
-"chambre, avec le résident, les dates de début et de fin, et l'état "
+"chambre, avec l'habitant, les dates de début et de fin, et l'état "
 "(**Brouillon**, **Confirmé**, **En cours**, **Terminé**)."
 
 #: ../../content/residents/chambres.md:119
@@ -454,13 +454,13 @@ msgid ""
 "Mode** to make it assignable again."
 msgstr ""
 "Tant qu'une chambre est **En maintenance** ou **Réservée**, le bouton "
-"**Assigner un résident** est masqué et la chambre n'apparaît **pas** dans "
+"**Assigner un habitant** est masqué et la chambre n'apparaît **pas** dans "
 "les listes de chambres disponibles (admission, transfert). Repassez-la en "
 "**Mode automatique** pour la rendre à nouveau assignable."
 
 #: ../../content/residents/chambres.md:152
 msgid "Assigning a resident from the room"
-msgstr "Assigner un résident depuis la chambre"
+msgstr "Assigner un habitant depuis la chambre"
 
 #: ../../content/residents/chambres.md:154
 msgid ""
@@ -480,12 +480,12 @@ msgstr ""
 
 #: ../../content/residents/chambres.md:159
 msgid "Click **Assign a Resident**."
-msgstr "Cliquez sur **Assigner un résident**."
+msgstr "Cliquez sur **Assigner un habitant**."
 
 #: ../../content/residents/chambres.md:160
 msgid "In the wizard, choose the **resident** (only residents are offered)."
 msgstr ""
-"Dans l'assistant, choisissez le **résident** (seuls les résidents sont "
+"Dans l'assistant, choisissez le **habitant** (seuls les habitants sont "
 "proposés)."
 
 #: ../../content/residents/chambres.md:161
@@ -509,7 +509,7 @@ msgid ""
 "Optionally add an **admission reason**, then click **Assign a Resident**."
 msgstr ""
 "Ajoutez éventuellement un **motif d'admission**, puis cliquez sur **Assigner"
-" un résident**."
+" un habitant**."
 
 #: ../../content/residents/chambres.md:167
 msgid ""
@@ -521,7 +521,7 @@ msgstr ""
 
 #: ../../content/residents/chambres.md:172
 msgid "When the resident is already housed: the transfer"
-msgstr "Cas du résident déjà logé : le transfert"
+msgstr "Cas de l'habitant déjà logé : le transfert"
 
 #: ../../content/residents/chambres.md:174
 msgid ""
@@ -531,9 +531,9 @@ msgid ""
 "the old stay (reason: *transfer*) and **opens** a new stay in the chosen "
 "room."
 msgstr ""
-"Si le résident choisi **occupe déjà une chambre**, l'assistant le détecte et"
-" affiche un **avertissement de transfert** rappelant sa chambre actuelle. Le"
-" bouton devient alors **Transférer le résident**. En confirmant, Resthome "
+"Si l'habitant choisi **occupe déjà une chambre**, l'assistant le détecte et "
+"affiche un **avertissement de transfert** rappelant sa chambre actuelle. Le "
+"bouton devient alors **Transférer l'habitant**. En confirmant, Resthome "
 "**termine** l'ancien séjour (motif : *transfert*) et **ouvre** un nouveau "
 "séjour dans la chambre choisie."
 
@@ -549,7 +549,7 @@ msgid ""
 "**continuous** (no new agreement), prefer the **Change Room** action on the "
 "**stay** — see [Room change and transfer](changement-chambre.md)."
 msgstr ""
-"Assigner depuis la chambre un résident **déjà logé** effectue un "
+"Assigner depuis la chambre un habitant **déjà logé** effectue un "
 "**transfert** simple. Pour un changement de chambre qui **scinde proprement "
 "la facturation** de l'hébergement à la date exacte tout en gardant "
 "l'intervention INAMI **continue** (sans nouvel accord), préférez l'action "
@@ -637,7 +637,7 @@ msgid ""
 "**Assign a Resident** from the room creates the stay; if the resident is "
 "already housed, the operation becomes a **transfer**."
 msgstr ""
-"**Assigner un résident** depuis la chambre crée le séjour ; si le résident "
+"**Assigner un habitant** depuis la chambre crée le séjour ; si l'habitant "
 "est déjà logé, l'opération devient un **transfert**."
 
 #: ../../content/residents/chambres.md:214
@@ -655,7 +655,7 @@ msgstr "Pour aller plus loin"
 
 #: ../../content/residents/chambres.md:219
 msgid "[Managing a resident](gerer-un-resident.md)"
-msgstr "[Gérer un résident](gerer-un-resident.md)"
+msgstr "[Gérer un habitant](gerer-un-resident.md)"
 
 #: ../../content/residents/chambres.md:220
 msgid "[Room change and transfer](changement-chambre.md)"

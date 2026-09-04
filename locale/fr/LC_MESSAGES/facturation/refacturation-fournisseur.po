@@ -29,9 +29,9 @@ msgid ""
 "Pass a supplier's bill on to the residents it concerns: doctor co-payments, "
 "hairdresser or chiropody statements become one supplement per resident."
 msgstr ""
-"Répercuter une facture fournisseur sur les résidents concernés : tickets "
+"Répercuter une facture fournisseur sur les habitants concernés : tickets "
 "modérateurs du médecin, relevés du coiffeur ou du pédicure deviennent un "
-"supplément par résident."
+"supplément par habitant."
 
 #: ../../content/facturation/refacturation-fournisseur.md:12
 msgid "What is a vendor-bill recharge?"
@@ -45,7 +45,7 @@ msgid ""
 "kept."
 msgstr ""
 "Un document intermédiaire qui reprend les lignes d'une facture payée par la "
-"maison, vous laisse désigner le résident de chaque ligne, puis écrit un "
+"maison, vous laisse désigner l'habitant de chaque ligne, puis écrit un "
 "supplément sur l'enveloppe de chacun. Le lien vers la facture d'origine est "
 "conservé."
 
@@ -60,7 +60,7 @@ msgid ""
 "is the common case for a hairdresser's statement."
 msgstr ""
 "Toute facture fournisseur comptabilisée portant au moins une ligne dont le "
-"produit est marqué « Refacturable aux résidents » — ou une ligne encodée "
+"produit est marqué « Refacturable aux habitants » — ou une ligne encodée "
 "sans aucun produit, cas courant du relevé de coiffeur."
 
 #: ../../content/facturation/refacturation-fournisseur.md:18
@@ -68,7 +68,7 @@ msgid ""
 "How do I charge the same amount to several residents, or split it between "
 "them?"
 msgstr ""
-"Comment facturer le même montant à plusieurs résidents, ou le partager entre"
+"Comment facturer le même montant à plusieurs habitants, ou le partager entre"
 " eux ?"
 
 #: ../../content/facturation/refacturation-fournisseur.md:19
@@ -78,12 +78,12 @@ msgid ""
 "cent."
 msgstr ""
 "Chaque ligne porte une méthode de répartition. « Identique » facture le "
-"montant entier à chaque résident désigné sur la ligne ; « Répartie » le "
+"montant entier à chaque habitant désigné sur la ligne ; « Répartie » le "
 "divise entre eux, au centime près."
 
 #: ../../content/facturation/refacturation-fournisseur.md:21
 msgid "What happens to a resident already covered by a flat-rate agreement?"
-msgstr "Qu'advient-il d'un résident déjà couvert par un forfait ?"
+msgstr "Qu'advient-il d'un habitant déjà couvert par un forfait ?"
 
 #: ../../content/facturation/refacturation-fournisseur.md:22
 msgid ""
@@ -91,7 +91,7 @@ msgid ""
 "passed on to the other residents."
 msgstr ""
 "Il est écarté et apparaît dans la colonne « Ignorés ». Sa part n'est pas "
-"reportée sur les autres résidents."
+"reportée sur les autres habitants."
 
 #: ../../content/facturation/refacturation-fournisseur.md:24
 msgid "Can I cancel a recharge?"
@@ -102,7 +102,7 @@ msgid ""
 "Yes, as long as no supplement it created has reached a resident invoice. "
 "Cancelling withdraws the lines from the envelopes."
 msgstr ""
-"Oui, tant qu'aucun supplément créé n'a atteint une facture de résident. "
+"Oui, tant qu'aucun supplément créé n'a atteint une facture de habitant. "
 "L'annulation retire les lignes des enveloppes."
 
 #: ../../content/facturation/refacturation-fournisseur.md:28
@@ -116,10 +116,10 @@ msgid ""
 msgstr ""
 "La maison paie **une** facture — le relevé des tickets modérateurs du "
 "médecin, le décompte mensuel du coiffeur ou du pédicure — puis doit "
-"répercuter chaque ligne sur le résident concerné. L'écran **Refacturations "
-"de factures fournisseur** le fait en un seul document : les lignes de la "
-"facture arrivent d'elles-mêmes, vous désignez le résident de chacune, et la "
-"validation écrit un supplément sur l'enveloppe de chaque résident."
+"répercuter chaque ligne sur l'habitant concerné. L'écran **Refacturations de"
+" factures fournisseur** le fait en un seul document : les lignes de la "
+"facture arrivent d'elles-mêmes, vous désignez l'habitant de chacune, et la "
+"validation écrit un supplément sur l'enveloppe de chaque habitant."
 
 #: ../../content/facturation/refacturation-fournisseur.md:34
 msgid "Where the charges land"
@@ -131,8 +131,8 @@ msgid ""
 "described in [Supplements](supplements.md). From the billing period onwards,"
 " a recharged supplement behaves exactly like one keyed by hand."
 msgstr ""
-"Une refacturation écrit sur l'**enveloppe de suppléments** du résident, la "
-"même que celle décrite dans [Les suppléments](supplements.md). À partir de "
+"Une refacturation écrit sur l'**enveloppe de suppléments** de l'habitant, la"
+" même que celle décrite dans [Les suppléments](supplements.md). À partir de "
 "la période de facturation, un supplément refacturé se comporte exactement "
 "comme un supplément encodé à la main."
 
@@ -146,7 +146,7 @@ msgid ""
 "residents' supplements, so Resthome refuses it."
 msgstr ""
 "La facture doit être **comptabilisée** : une facture brouillon peut encore "
-"changer sous les suppléments des résidents, Resthome la refuse donc."
+"changer sous les suppléments des habitants, Resthome la refuse donc."
 
 #: ../../content/facturation/refacturation-fournisseur.md:47
 msgid ""
@@ -156,7 +156,7 @@ msgid ""
 "catalog."
 msgstr ""
 "Les produits que vous achetez et répercutez portent une case dans leur "
-"fiche, **Refacturable aux résidents**. C'est elle qui fait apparaître le "
+"fiche, **Refacturable aux habitants**. C'est elle qui fait apparaître le "
 "bouton sur la facture. Cochez-la sur les produits de coiffure, de pédicurie "
 "ou d'honoraires de votre catalogue."
 
@@ -187,7 +187,7 @@ msgid ""
 " eligible bill line — product, wording and untaxed amount — and opens it."
 msgstr ""
 "Ouvrez la facture fournisseur dans **Comptabilité → Factures fournisseurs** "
-"et cliquez sur **Refacturer aux résidents**. Resthome crée la refacturation,"
+"et cliquez sur **Refacturer aux habitants**. Resthome crée la refacturation,"
 " préremplie d'une ligne par ligne de facture éligible — produit, libellé et "
 "montant hors TVA — et l'ouvre."
 
@@ -196,14 +196,14 @@ msgid ""
 "![Posted vendor bill with the Recharge to residents button in the "
 "header](../assets/screenshots/facturation/10-facture-fournisseur-bouton.png)"
 msgstr ""
-"![Facture fournisseur comptabilisée, avec le bouton Refacturer aux résidents"
+"![Facture fournisseur comptabilisée, avec le bouton Refacturer aux habitants"
 " dans l'en-tête](../assets/screenshots/facturation/10-facture-fournisseur-"
 "bouton.png)"
 
 #: ../../content/facturation/refacturation-fournisseur.md:66
 msgid "Posted vendor bill with the Recharge to residents button in the header"
 msgstr ""
-"Facture fournisseur comptabilisée, avec le bouton Refacturer aux résidents "
+"Facture fournisseur comptabilisée, avec le bouton Refacturer aux habitants "
 "dans l'en-tête"
 
 #: ../../content/facturation/refacturation-fournisseur.md:68
@@ -232,13 +232,13 @@ msgstr ""
 
 #: ../../content/facturation/refacturation-fournisseur.md:79
 msgid "2. Say who each line is for"
-msgstr "2\\. Désigner le résident de chaque ligne"
+msgstr "2\\. Désigner l'habitant de chaque ligne"
 
 #: ../../content/facturation/refacturation-fournisseur.md:81
 msgid ""
 "On each line, name the **resident(s)** and choose how the amount is split."
 msgstr ""
-"Sur chaque ligne, désignez le ou les **résidents** et choisissez la "
+"Sur chaque ligne, désignez le ou les **habitants** et choisissez la "
 "répartition du montant."
 
 #: ../../content/facturation/refacturation-fournisseur.md:83
@@ -248,7 +248,7 @@ msgid ""
 "lignes.png)"
 msgstr ""
 "![Formulaire de refacturation : les lignes de la facture avec leurs "
-"résidents, la méthode de répartition et le montant facturé à "
+"habitants, la méthode de répartition et le montant facturé à "
 "chacun](../assets/screenshots/facturation/11-refacturation-lignes.png)"
 
 #: ../../content/facturation/refacturation-fournisseur.md:83
@@ -256,7 +256,7 @@ msgid ""
 "Recharge form: bill lines with their residents, the split method and the "
 "amount charged to each"
 msgstr ""
-"Formulaire de refacturation : les lignes de la facture avec leurs résidents,"
+"Formulaire de refacturation : les lignes de la facture avec leurs habitants,"
 " la méthode de répartition et le montant facturé à chacun"
 
 #: ../../content/facturation/refacturation-fournisseur.md:72
@@ -276,7 +276,7 @@ msgid ""
 "Who this line is charged to. Left empty, the line goes to the **Resident** "
 "named at the top of the recharge"
 msgstr ""
-"À qui la ligne est facturée. Laissée vide, elle va au **résident** désigné "
+"À qui la ligne est facturée. Laissée vide, elle va au **habitant** désigné "
 "en haut de la refacturation"
 
 #: ../../content/facturation/refacturation-fournisseur.md:72
@@ -289,9 +289,9 @@ msgid ""
 "case, where the line already states one resident's share. **Spread**: the "
 "amount is divided between them — a 100 € outing for five residents"
 msgstr ""
-"**Identique** : chaque résident paie le montant entier — le cas du ticket "
-"modérateur, où la ligne porte déjà la part d'un seul résident. **Répartie** "
-": le montant est divisé entre eux — une sortie à 100 € pour cinq résidents"
+"**Identique** : chaque habitant paie le montant entier — le cas du ticket "
+"modérateur, où la ligne porte déjà la part d'un seul habitant. **Répartie** "
+": le montant est divisé entre eux — une sortie à 100 € pour cinq habitants"
 
 #: ../../content/facturation/refacturation-fournisseur.md:72
 msgid "**Fee (%)**"
@@ -314,7 +314,7 @@ msgid ""
 "What each resident actually pays. When they do not all pay the same, the "
 "**Split** column spells the division out"
 msgstr ""
-"Ce que chaque résident paie réellement. Quand ils ne paient pas tous la même"
+"Ce que chaque habitant paie réellement. Quand ils ne paient pas tous la même"
 " chose, la colonne **Répartition** détaille la division"
 
 #: ../../content/facturation/refacturation-fournisseur.md:72
@@ -323,7 +323,7 @@ msgstr "**Ignorés**"
 
 #: ../../content/facturation/refacturation-fournisseur.md:72
 msgid "The residents a flat-rate agreement takes out"
-msgstr "Les résidents qu'un forfait écarte"
+msgstr "Les habitants qu'un forfait écarte"
 
 #: ../../content/facturation/refacturation-fournisseur.md:93
 msgid ""
@@ -331,8 +331,8 @@ msgid ""
 "ticked at once and applied to one line, to the lines you selected, or to the"
 " whole recharge — the answer to a thirty-line statement."
 msgstr ""
-"Le bouton **Affecter des résidents** ouvre un sélecteur où l'on coche "
-"plusieurs résidents d'un coup pour les appliquer à une ligne, aux lignes "
+"Le bouton **Affecter des habitants** ouvre un sélecteur où l'on coche "
+"plusieurs habitants d'un coup pour les appliquer à une ligne, aux lignes "
 "choisies ou à toute la refacturation — la réponse à un relevé de trente "
 "lignes."
 
@@ -342,7 +342,7 @@ msgid ""
 " different amounts."
 msgstr ""
 "Utilisez **Dupliquer cette ligne** quand une ligne de facture couvre "
-"plusieurs résidents avec des montants différents."
+"plusieurs habitants avec des montants différents."
 
 #: ../../content/facturation/refacturation-fournisseur.md:100
 msgid "Rounding never loses a cent"
@@ -354,8 +354,8 @@ msgid ""
 " remainder always goes to the first resident, so the shares add back up to "
 "the line total."
 msgstr ""
-"En **Répartie**, 100 € pour trois résidents donnent 33,34 + 33,33 + 33,33. "
-"Le reliquat va toujours au premier résident, de sorte que les parts "
+"En **Répartie**, 100 € pour trois habitants donnent 33,34 + 33,33 + 33,33. "
+"Le reliquat va toujours au premier habitant, de sorte que les parts "
 "redonnent exactement le total de la ligne."
 
 #: ../../content/facturation/refacturation-fournisseur.md:108
@@ -369,10 +369,10 @@ msgid ""
 "then add opens with that wording and with the **next resident of the "
 "house**, in order of entry."
 msgstr ""
-"Un relevé de coiffeur, c'est une ligne par résident, toutes libellées "
+"Un relevé de coiffeur, c'est une ligne par habitant, toutes libellées "
 "pareil. Cochez **Ajouter en cascade** et remplissez le **Texte cascade** : "
 "chaque ligne que vous ajoutez ensuite s'ouvre avec ce libellé et avec le "
-"**résident suivant de la maison**, par ordre d'entrée."
+"**habitant suivant de la maison**, par ordre d'entrée."
 
 #: ../../content/facturation/refacturation-fournisseur.md:115
 msgid ""
@@ -401,7 +401,7 @@ msgid ""
 "Residents are served **in order of entry**, oldest first, and only those "
 "currently present."
 msgstr ""
-"Les résidents sont servis **par ordre d'entrée**, du plus ancien au plus "
+"Les habitants sont servis **par ordre d'entrée**, du plus ancien au plus "
 "récent, et seulement ceux présents aujourd'hui."
 
 #: ../../content/facturation/refacturation-fournisseur.md:121
@@ -415,7 +415,7 @@ msgstr ""
 #: ../../content/facturation/refacturation-fournisseur.md:123
 msgid "A wording or a resident you have already keyed is left alone."
 msgstr ""
-"Un libellé ou un résident que vous avez déjà encodé est laissé intact."
+"Un libellé ou un habitant que vous avez déjà encodé est laissé intact."
 
 #: ../../content/facturation/refacturation-fournisseur.md:125
 msgid "4. Check, then validate"
@@ -428,7 +428,7 @@ msgid ""
 "Nothing is written yet."
 msgstr ""
 "**Calculer** est un essai à blanc : le bouton rafraîchit ce que chaque "
-"résident paierait et annonce le total ainsi que les résidents qu'un forfait "
+"habitant paierait et annonce le total ainsi que les habitants qu'un forfait "
 "écarte. Rien n'est encore écrit."
 
 #: ../../content/facturation/refacturation-fournisseur.md:131
@@ -436,7 +436,7 @@ msgid ""
 "**Validate** writes one supplement on each resident's open envelope. "
 "Resthome refuses first — before writing anything — when:"
 msgstr ""
-"**Valider** écrit un supplément sur l'enveloppe ouverte de chaque résident. "
+"**Valider** écrit un supplément sur l'enveloppe ouverte de chaque habitant. "
 "Resthome refuse d'abord — avant d'écrire quoi que ce soit — lorsque :"
 
 #: ../../content/facturation/refacturation-fournisseur.md:134
@@ -452,7 +452,7 @@ msgid ""
 "a resident has already been charged for the same bill line by another "
 "recharge;"
 msgstr ""
-"un résident a déjà été facturé pour la même ligne de facture par une autre "
+"un habitant a déjà été facturé pour la même ligne de facture par une autre "
 "refacturation ;"
 
 #: ../../content/facturation/refacturation-fournisseur.md:138
@@ -461,13 +461,13 @@ msgid ""
 "invoiced or they have no stay. All of them are listed at once, with the "
 "reason for each."
 msgstr ""
-"l'enveloppe d'un résident est inatteignable, parce que son mois est déjà "
+"l'enveloppe d'un habitant est inatteignable, parce que son mois est déjà "
 "facturé ou qu'il n'a pas de séjour. Ils sont tous listés d'un coup, avec le "
 "motif de chacun."
 
 #: ../../content/facturation/refacturation-fournisseur.md:142
 msgid "A resident on a flat rate is never charged twice"
-msgstr "Un résident au forfait n'est jamais facturé deux fois"
+msgstr "Un habitant au forfait n'est jamais facturé deux fois"
 
 #: ../../content/facturation/refacturation-fournisseur.md:145
 msgid ""
@@ -476,7 +476,7 @@ msgid ""
 "column. Their share is **not** passed on to the others: a flat rate must "
 "never make the neighbours pay more."
 msgstr ""
-"Si un résident est couvert par une **convention de suppléments** active sur "
+"Si un habitant est couvert par une **convention de suppléments** active sur "
 "le même produit, il est écarté de la facturation et apparaît dans la colonne"
 " **Ignorés**. Sa part n'est **pas** reportée sur les autres : un forfait ne "
 "doit jamais faire payer les voisins davantage."
@@ -493,9 +493,9 @@ msgid ""
 "the generation of a period and its invoicing. Delete that draft invoice, or "
 "issue a credit note, and cancel afterwards."
 msgstr ""
-"**Annuler** retire des enveloppes des résidents les suppléments créés par la"
+"**Annuler** retire des enveloppes des habitants les suppléments créés par la"
 " refacturation. L'action refuse dès que l'un d'eux figure sur une facture de"
-" résident — facture brouillon comprise, puisque c'est l'état normal entre la"
+" habitant — facture brouillon comprise, puisque c'est l'état normal entre la"
 " génération d'une période et sa facturation. Supprimez cette facture "
 "brouillon, ou établissez une note de crédit, puis annulez."
 
@@ -515,7 +515,7 @@ msgid ""
 "being charged a second time. The recharge says so in a banner."
 msgstr ""
 "Une **note de crédit** fournisseur se refacture exactement de la même façon "
-"et rend l'argent : les résidents sont **crédités** sur leur enveloppe au "
+"et rend l'argent : les habitants sont **crédités** sur leur enveloppe au "
 "lieu d'être facturés une seconde fois. La refacturation l'annonce dans un "
 "bandeau."
 
@@ -555,14 +555,14 @@ msgid ""
 "One posted bill, one recharge, one supplement per resident — with the link "
 "back to the source bill kept in both directions."
 msgstr ""
-"Une facture comptabilisée, une refacturation, un supplément par résident — "
+"Une facture comptabilisée, une refacturation, un supplément par habitant — "
 "avec le lien vers la facture d'origine conservé dans les deux sens."
 
 #: ../../content/facturation/refacturation-fournisseur.md:181
 msgid ""
 "**Equal** charges the full amount to each resident; **Spread** divides it."
 msgstr ""
-"**Identique** facture le montant entier à chaque résident ; **Répartie** le "
+"**Identique** facture le montant entier à chaque habitant ; **Répartie** le "
 "divise."
 
 #: ../../content/facturation/refacturation-fournisseur.md:182
@@ -571,14 +571,14 @@ msgid ""
 "next resident, in order of entry."
 msgstr ""
 "**Ajouter en cascade** préremplit chaque nouvelle ligne d'un libellé commun "
-"et du résident suivant, par ordre d'entrée."
+"et de l'habitant suivant, par ordre d'entrée."
 
 #: ../../content/facturation/refacturation-fournisseur.md:184
 msgid ""
 "A resident covered by a **flat-rate agreement** is skipped, visibly, and the"
 " others pay no more for it."
 msgstr ""
-"Un résident couvert par un **forfait** est écarté, visiblement, et les "
+"Un habitant couvert par un **forfait** est écarté, visiblement, et les "
 "autres n'en paient pas davantage."
 
 #: ../../content/facturation/refacturation-fournisseur.md:186

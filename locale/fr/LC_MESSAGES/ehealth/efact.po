@@ -150,7 +150,7 @@ msgid ""
 "Can I invoice a resident through eFact if their insurability (MDA) is not "
 "validated?"
 msgstr ""
-"Puis-je facturer un résident via eFact si son assurabilité (MDA) n'est pas "
+"Puis-je facturer un habitant via eFact si son assurabilité (MDA) n'est pas "
 "validée ?"
 
 #: ../../content/ehealth/efact.md:34
@@ -159,9 +159,9 @@ msgid ""
 " mutuality under third-party payment. Run Check MDA before creating the "
 "invoices and correct the resident's mutuality if needed."
 msgstr ""
-"Non. Sans assurabilité (MDA) valide, le résident ne peut pas être facturé à "
+"Non. Sans assurabilité (MDA) valide, l'habitant ne peut pas être facturé à "
 "la mutuelle en tiers payant. Lancez Vérifier MDA avant de créer les factures"
-" et corrigez la mutuelle du résident si nécessaire."
+" et corrigez la mutuelle de l'habitant si nécessaire."
 
 #: ../../content/ehealth/efact.md:36
 msgid "Is electronic invoicing (eFact) mandatory?"
@@ -184,7 +184,7 @@ msgid ""
 "A resident leaves or dies during an already invoiced month, what happens to "
 "the eFact?"
 msgstr ""
-"Un résident part ou décède au cours d'un mois déjà facturé, qu'advient-il de"
+"Un habitant part ou décède au cours d'un mois déjà facturé, qu'advient-il de"
 " l'eFact ?"
 
 #: ../../content/ehealth/efact.md:40
@@ -196,7 +196,7 @@ msgid ""
 msgstr ""
 "Une partie du forfait a été surfacturée. Resthome le détecte lors de "
 "l'autocontrôle et prépare la note de crédit (ou le reliquat) correspondante,"
-" côté résident et, si nécessaire, côté mutuelle via un lot correctif."
+" côté habitant et, si nécessaire, côté mutuelle via un lot correctif."
 
 #: ../../content/ehealth/efact.md:42
 msgid ""
@@ -291,7 +291,7 @@ msgstr "**Générée**"
 msgid ""
 "Allowances and shares are computed, resident by resident. To be checked."
 msgstr ""
-"Les forfaits et les parts sont calculés, résident par résident. À vérifier."
+"Les forfaits et les parts sont calculés, habitant par habitant. À vérifier."
 
 #: ../../content/ehealth/efact.md:54
 msgid "**Invoiced**"
@@ -358,7 +358,7 @@ msgstr "**Factures** (nombre de factures) et **Total** ;"
 
 #: ../../content/ehealth/efact.md:87
 msgid "**Resident Part** (the share charged to the resident);"
-msgstr "**Part résident** (la part à charge du résident) ;"
+msgstr "**Part habitant** (la part à charge de l'habitant) ;"
 
 #: ../../content/ehealth/efact.md:88
 msgid "the **eFact deadline** (e.g. \"eFact: 20 Sep\");"
@@ -423,13 +423,13 @@ msgid ""
 "![Generate billing wizard: period, dates, residents and MDA "
 "loading](../assets/screenshots/efact/03-generer-wizard.webp)"
 msgstr ""
-"![Assistant Générer la facturation : période, dates, résidents et chargement"
+"![Assistant Générer la facturation : période, dates, habitants et chargement"
 " MDA](../assets/screenshots/efact/03-generer-wizard.webp)"
 
 #: ../../content/ehealth/efact.md:106
 msgid "Generate billing wizard: period, dates, residents and MDA loading"
 msgstr ""
-"Assistant Générer la facturation : période, dates, résidents et chargement "
+"Assistant Générer la facturation : période, dates, habitants et chargement "
 "MDA"
 
 #: ../../content/ehealth/efact.md:108
@@ -441,8 +441,8 @@ msgid ""
 "**Residents**: leave **empty for all active residents** (or target one "
 "resident for a specific case)."
 msgstr ""
-"**Résidents** : laissez **vide pour tous les résidents actifs** (ou ciblez "
-"un résident pour un cas particulier)."
+"**Habitants** : laissez **vide pour tous les habitants actifs** (ou ciblez "
+"un habitant pour un cas particulier)."
 
 #: ../../content/ehealth/efact.md:111
 msgid ""
@@ -459,8 +459,8 @@ msgid ""
 "the **resident share**."
 msgstr ""
 "Cliquez sur **Générer**. La période devient **Générée** : Resthome a "
-"calculé, pour **chaque résident**, le forfait Katz, la **part INAMI** "
-"(mutuelle) et la **part résident**."
+"calculé, pour **chaque habitant**, le forfait Katz, la **part INAMI** "
+"(mutuelle) et la **part habitant**."
 
 #: ../../content/ehealth/efact.md:118
 msgid ""
@@ -469,8 +469,8 @@ msgid ""
 "share](../assets/screenshots/efact/04-periode-generated.webp)"
 msgstr ""
 "![Période à l'état Générée : barre d'outils Créer les factures / Vérifier "
-"MDA / Générer l'eFact, et tableau des résidents avec part INAMI et part "
-"résident](../assets/screenshots/efact/04-periode-generated.webp)"
+"MDA / Générer l'eFact, et tableau des habitants avec part INAMI et part "
+"habitant](../assets/screenshots/efact/04-periode-generated.webp)"
 
 #: ../../content/ehealth/efact.md:118
 msgid ""
@@ -478,11 +478,11 @@ msgid ""
 "eFact, and residents table with INAMI share and resident share"
 msgstr ""
 "Période à l'état Générée : barre d'outils Créer les factures / Vérifier MDA "
-"/ Générer l'eFact, et tableau des résidents avec part INAMI et part résident"
+"/ Générer l'eFact, et tableau des habitants avec part INAMI et part habitant"
 
 #: ../../content/ehealth/efact.md:120
 msgid "In the **Residents** tab, you find line by line:"
-msgstr "Dans l'onglet **Résidents**, vous trouvez ligne par ligne :"
+msgstr "Dans l'onglet **Habitants**, vous trouvez ligne par ligne :"
 
 #: ../../content/ehealth/efact.md:122
 msgid "the **stay type** (MR / MRS) and the **room**;"
@@ -498,7 +498,7 @@ msgstr "les **jours de présence** et **jours d'absence** ;"
 
 #: ../../content/ehealth/efact.md:125
 msgid "the **INAMI share**, the **resident share** and the **total amount**."
-msgstr "la **part INAMI**, la **part résident** et le **montant total**."
+msgstr "la **part INAMI**, la **part habitant** et le **montant total**."
 
 #: ../../content/ehealth/efact.md:127
 msgid ""
@@ -544,7 +544,7 @@ msgid ""
 "room during the month, but the accommodation is still being invoiced. → "
 "Issue a **credit note** or close the accommodation."
 msgstr ""
-"**Chambre libérée mais toujours facturée** (surfacturation) — un résident a "
+"**Chambre libérée mais toujours facturée** (surfacturation) — un habitant a "
 "quitté sa chambre en cours de mois, mais l'hébergement est toujours facturé."
 " → Émettez une **note de crédit** ou clôturez l'hébergement."
 
@@ -563,7 +563,7 @@ msgid ""
 "**Death — accommodation still invoiced** — the resident died but the room "
 "has not yet been freed (\"Close the accommodation\")."
 msgstr ""
-"**Décès — hébergement toujours facturé** — le résident est décédé mais la "
+"**Décès — hébergement toujours facturé** — l'habitant est décédé mais la "
 "chambre n'a pas encore été libérée (« Clôturer l'hébergement »)."
 
 #: ../../content/ehealth/efact.md:150
@@ -583,7 +583,7 @@ msgid ""
 "cannot be invoiced under third-party payment."
 msgstr ""
 "**Vérifier MDA** — le bouton **Vérifier MDA** contrôle l'**assurabilité** de"
-" vos résidents auprès des mutuelles. Un résident sans couverture valide ne "
+" vos habitants auprès des mutuelles. Un habitant sans couverture valide ne "
 "peut pas être facturé en tiers payant."
 
 #: ../../content/ehealth/efact.md:159
@@ -602,7 +602,7 @@ msgstr ""
 msgid ""
 "the **resident invoices** (share charged to the resident / the family);"
 msgstr ""
-"les **factures résident** (part à charge du résident / de la famille) ;"
+"les **factures habitant** (part à charge de l'habitant / de la famille) ;"
 
 #: ../../content/ehealth/efact.md:165
 msgid "the **mutuality share**, which will feed the eFact."
@@ -697,9 +697,9 @@ msgid ""
 "*\"(whole batch)\"*), a **Severity**, the reject the insurer would return, "
 "and a **What to do** column."
 msgstr ""
-"En l'ouvrant, une ligne par problème s'affiche, avec le résident concerné "
-"(ou *« (tout le lot) »*), une **Sévérité**, le rejet que renverrait "
-"l'organisme assureur, et une colonne **Que faire**."
+"En l'ouvrant, une ligne par problème s'affiche, avec l'habitant concerné (ou"
+" *« (tout le lot) »*), une **Sévérité**, le rejet que renverrait l'organisme"
+" assureur, et une colonne **Que faire**."
 
 #: ../../content/ehealth/efact.md:175
 msgid "Severity"
@@ -832,7 +832,7 @@ msgstr ""
 
 #: ../../content/ehealth/efact.md:208
 msgid "Re-run the MDA, or assign a member fund to the resident."
-msgstr "Relancez le MDA, ou assignez une mutuelle membre au résident."
+msgstr "Relancez le MDA, ou assignez une mutuelle membre à l'habitant."
 
 #: ../../content/ehealth/efact.md:208
 msgid "**Insurability not confirmed**"
@@ -844,7 +844,7 @@ msgstr "Aucun MDA exploitable ne couvre la période facturée."
 
 #: ../../content/ehealth/efact.md:208
 msgid "Run **Redo MDA** for that resident."
-msgstr "Lancez **Refaire le MDA** pour ce résident."
+msgstr "Lancez **Refaire le MDA** pour cet habitant."
 
 #: ../../content/ehealth/efact.md:208
 msgid "**Not insured per MDA**"
@@ -907,7 +907,7 @@ msgid ""
 "eHealth tab."
 msgstr ""
 "Chaque lot porte une pastille **Couverture MDA** — **OK**, **Partielle**, "
-"**Manquante** ou **En attente** — avec le nombre de résidents réellement "
+"**Manquante** ou **En attente** — avec le nombre de habitants réellement "
 "envoyables (*« 5/7 envoyables »*). Le même indicateur figure dans l'onglet "
 "eHealth de la période."
 
@@ -926,7 +926,7 @@ msgid ""
 "in error — into a separate **held** batch. The clean part can be sent at "
 "once."
 msgstr ""
-"**Scinder les non-assurés** ne garde dans le lot que les résidents dont le "
+"**Scinder les non-assurés** ne garde dans le lot que les habitants dont le "
 "MDA confirme l'assurance, et déplace tous les autres — sans MDA, *« non "
 "assuré »*, ou MDA en erreur — dans un lot **retenu** distinct. La partie "
 "saine peut partir tout de suite."
@@ -936,7 +936,7 @@ msgid ""
 "The held batch waits. Re-run the MDA on it, reintegrate the residents who "
 "regain coverage, or bill them directly."
 msgstr ""
-"Le lot retenu attend. Relancez-y le MDA, réintégrez les résidents qui "
+"Le lot retenu attend. Relancez-y le MDA, réintégrez les habitants qui "
 "retrouvent une couverture, ou facturez-les directement."
 
 #: ../../content/ehealth/efact.md:246
@@ -969,7 +969,7 @@ msgid ""
 "if a batch for that insurer is already in flight."
 msgstr ""
 "À la libération, Resthome traite aussi le cas où un MDA a **changé la "
-"mutuelle d'un résident** : ces lignes sont réaiguillées vers le lot du bon "
+"mutuelle d'un habitant** : ces lignes sont réaiguillées vers le lot du bon "
 "organisme assureur — fusionnées dans un lot existant, ou placées dans un "
 "nouveau, lui-même retenu si un lot est déjà en vol pour cet organisme."
 
@@ -1072,11 +1072,11 @@ msgid ""
 "resident side **and**, if needed, on the mutuality side through a corrective"
 " batch."
 msgstr ""
-"Lorsqu'un résident **part** ou **décède** au cours d'un mois déjà facturé, "
+"Lorsqu'un habitant **part** ou **décède** au cours d'un mois déjà facturé, "
 "une partie de l'hébergement ou du forfait a été **surfacturée**. Resthome le"
 " détecte (voir l'autocontrôle ci-dessus) et prépare la **note de crédit** ou"
 " le **reliquat** correspondant, pour rembourser la période indue — côté "
-"résident **et**, si nécessaire, côté mutuelle via un lot correctif."
+"habitant **et**, si nécessaire, côté mutuelle via un lot correctif."
 
 #: ../../content/ehealth/efact.md:304
 msgid "Prerequisites"
@@ -1092,7 +1092,7 @@ msgstr "**Assurabilité (MDA)** vérifiée pour la période."
 
 #: ../../content/ehealth/efact.md:309
 msgid "Correct **mutuality** on each resident."
-msgstr "**Mutuelle** correcte sur chaque résident."
+msgstr "**Mutuelle** correcte sur chaque habitant."
 
 #: ../../content/ehealth/efact.md:310
 msgid "Invoices **posted** (period in *Invoiced* state)."

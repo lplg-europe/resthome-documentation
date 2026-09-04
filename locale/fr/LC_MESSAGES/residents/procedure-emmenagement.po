@@ -47,7 +47,7 @@ msgid ""
 msgstr ""
 "Automatiquement, à l'ouverture de chaque nouveau séjour (admission, "
 "changement de chambre, transfert interne, réadmission). Resthome planifie 6 "
-"activités sur le fil du résident, avec pour échéance la date de début du "
+"activités sur le fil de l'habitant, avec pour échéance la date de début du "
 "séjour, assignées au Responsable procédure d'emménagement. Vous n'avez rien "
 "à déclencher à la main."
 
@@ -61,8 +61,8 @@ msgid ""
 "condition report, updating the resident's private inventory, the medication "
 "locker and the laundry, and disinfecting the new (or the old) room."
 msgstr ""
-"Signer l'accord avec le représentant du résident, l'état des lieux entrée / "
-"sortie, la mise à jour de l'inventaire privé du résident, du casier à "
+"Signer l'accord avec le représentant de l'habitant, l'état des lieux entrée "
+"/ sortie, la mise à jour de l'inventaire privé de l'habitant, du casier à "
 "médicaments et de la buanderie, et la désinfection de la nouvelle (ou de "
 "l'ancienne) chambre."
 
@@ -83,7 +83,7 @@ msgstr ""
 
 #: ../../content/residents/procedure-emmenagement.md:17
 msgid "Who prepares the room when the resident arrives?"
-msgstr "Qui prépare la chambre à l'arrivée du résident ?"
+msgstr "Qui prépare la chambre à l'arrivée de l'habitant ?"
 
 #: ../../content/residents/procedure-emmenagement.md:18
 msgid ""
@@ -122,7 +122,7 @@ msgid ""
 " the room preparation activities."
 msgstr ""
 "Oui. Laissez le champ Responsable procédure d'emménagement vide pour "
-"désactiver la checklist du résident, et le champ Responsable technique "
+"désactiver la checklist de l'habitant, et le champ Responsable technique "
 "chambres vide pour désactiver les activités de préparation de chambre."
 
 #: ../../content/residents/procedure-emmenagement.md:27
@@ -136,10 +136,11 @@ msgid ""
 msgstr ""
 "À chaque **nouveau séjour** — admission, changement de chambre, transfert "
 "interne ou réadmission — Resthome ouvre automatiquement la **procédure "
-"d'emménagement** du résident : une **checklist d'activités administratives**"
-" sur le fil du résident, et la **préparation de la chambre** côté technique."
-" Rien à déclencher à la main : les tâches apparaissent dans les "
-"**activités** des responsables concernés et sur les fils correspondants."
+"d'emménagement** de l'habitant : une **checklist d'activités "
+"administratives** sur le fil de l'habitant, et la **préparation de la "
+"chambre** côté technique. Rien à déclencher à la main : les tâches "
+"apparaissent dans les **activités** des responsables concernés et sur les "
+"fils correspondants."
 
 #: ../../content/residents/procedure-emmenagement.md:34
 msgid ""
@@ -187,7 +188,7 @@ msgstr "Événement"
 
 #: ../../content/residents/procedure-emmenagement.md:42
 msgid "Resident checklist"
-msgstr "Checklist résident"
+msgstr "Checklist habitant"
 
 #: ../../content/residents/procedure-emmenagement.md:42
 #: ../../content/residents/procedure-emmenagement.md:98
@@ -240,7 +241,7 @@ msgid ""
 msgstr ""
 "Les activités sont **idempotentes** : si vous enregistrez à nouveau le "
 "séjour, Resthome ne réempile pas une activité identique déjà ouverte. Un "
-"séjour **annulé**, ou sans chambre ni résident, ne génère aucune tâche."
+"séjour **annulé**, ou sans chambre ni habitant, ne génère aucune tâche."
 
 #: ../../content/residents/procedure-emmenagement.md:73
 msgid "The move-in checklist (six tasks)"
@@ -252,7 +253,7 @@ msgid ""
 "**Move-in procedure**), assigned to the **Move-in Procedure Manager**. It "
 "has six tasks:"
 msgstr ""
-"La checklist est planifiée sur le **fil du résident** (activité de type "
+"La checklist est planifiée sur le **fil de l'habitant** (activité de type "
 "**Procédure d'emménagement**), assignée au **Responsable procédure "
 "d'emménagement**. Elle comporte six tâches :"
 
@@ -266,7 +267,7 @@ msgstr "À quoi elle sert"
 
 #: ../../content/residents/procedure-emmenagement.md:65
 msgid "**Sign the agreement with the resident's representative**"
-msgstr "**Signer l'accord avec le représentant du résident**"
+msgstr "**Signer l'accord avec le représentant de l'habitant**"
 
 #: ../../content/residents/procedure-emmenagement.md:65
 msgid "Have the accommodation agreement signed with the reference person"
@@ -287,7 +288,7 @@ msgstr ""
 
 #: ../../content/residents/procedure-emmenagement.md:65
 msgid "**Update the resident's private inventory**"
-msgstr "**Mettre à jour l'inventaire privé du résident**"
+msgstr "**Mettre à jour l'inventaire privé de l'habitant**"
 
 #: ../../content/residents/procedure-emmenagement.md:65
 msgid ""
@@ -311,7 +312,7 @@ msgstr "**Mettre à jour la buanderie**"
 
 #: ../../content/residents/procedure-emmenagement.md:65
 msgid "Update the resident's laundry service"
-msgstr "Mettre à jour le service linge du résident"
+msgstr "Mettre à jour le service linge de l'habitant"
 
 #: ../../content/residents/procedure-emmenagement.md:65
 msgid "**Disinfect the new / old room**"
@@ -344,8 +345,8 @@ msgid ""
 "the stay start date](../assets/screenshots/residents/emmenagement-"
 "activites.png)"
 msgstr ""
-"![Fil du résident : les six activités de la procédure d'emménagement, toutes"
-" échues à la date de début du "
+"![Fil de l'habitant : les six activités de la procédure d'emménagement, "
+"toutes échues à la date de début du "
 "séjour](../assets/screenshots/residents/emmenagement-activites.png)"
 
 #: ../../content/residents/procedure-emmenagement.md:96
@@ -353,8 +354,8 @@ msgid ""
 "Resident thread showing the six move-in procedure activities, all due on the"
 " stay start date"
 msgstr ""
-"Fil du résident : les six activités de la procédure d'emménagement, toutes "
-"échues à la date de début du séjour"
+"Fil de l'habitant : les six activités de la procédure d'emménagement, toutes"
+" échues à la date de début du séjour"
 
 #: ../../content/residents/procedure-emmenagement.md:100
 msgid ""
@@ -382,7 +383,7 @@ msgid ""
 msgstr ""
 "**Remettre la chambre en état — départ de …** : planifiée sur la **chambre "
 "quittée**, uniquement lors d'un **changement de chambre** ou d'un "
-"**transfert interne** (là où le résident libère réellement une chambre "
+"**transfert interne** (là où l'habitant libère réellement une chambre "
 "occupée)."
 
 #: ../../content/residents/procedure-emmenagement.md:110
@@ -419,8 +420,8 @@ msgid ""
 "checklist (the 6 tasks above). Leaving it empty **disables** the checklist."
 msgstr ""
 "**Responsable procédure d'emménagement** — l'utilisateur qui reçoit la "
-"checklist du résident (les 6 tâches ci-dessus). Laisser vide **désactive** "
-"la checklist."
+"checklist de l'habitant (les 6 tâches ci-dessus). Laisser vide **désactive**"
+" la checklist."
 
 #: ../../content/residents/procedure-emmenagement.md:125
 msgid ""
@@ -464,8 +465,8 @@ msgid ""
 "It has two parts: a **6-task checklist** on the resident's thread and the "
 "**room preparation** on the room's thread."
 msgstr ""
-"Elle comporte deux volets : une **checklist de 6 tâches** sur le fil du "
-"résident et la **préparation de la chambre** sur le fil de la chambre."
+"Elle comporte deux volets : une **checklist de 6 tâches** sur le fil de "
+"l'habitant et la **préparation de la chambre** sur le fil de la chambre."
 
 #: ../../content/residents/procedure-emmenagement.md:145
 msgid ""
@@ -499,7 +500,7 @@ msgstr "Pour aller plus loin"
 
 #: ../../content/residents/procedure-emmenagement.md:155
 msgid "[Manage a resident](gerer-un-resident.md)"
-msgstr "[Gérer un résident](gerer-un-resident.md)"
+msgstr "[Gérer un habitant](gerer-un-resident.md)"
 
 #: ../../content/residents/procedure-emmenagement.md:156
 msgid "[Room change and transfer](changement-chambre.md)"
@@ -513,5 +514,5 @@ msgstr "[L'état des lieux (entrée et sortie)](etat-des-lieux.md)"
 msgid ""
 "[General settings (residents, rooms)](../configuration/reglages-generaux.md)"
 msgstr ""
-"[Réglages généraux (résidents, chambres)](../configuration/reglages-"
+"[Réglages généraux (habitants, chambres)](../configuration/reglages-"
 "generaux.md)"

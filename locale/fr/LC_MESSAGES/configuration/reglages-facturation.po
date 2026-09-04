@@ -69,7 +69,7 @@ msgstr ""
 msgid ""
 "What is the difference between the INAMI Journal and the Resident Journal?"
 msgstr ""
-"Quelle est la différence entre le Journal INAMI et le Journal résident ?"
+"Quelle est la différence entre le Journal INAMI et le Journal habitant ?"
 
 #: ../../content/configuration/reglages-facturation.md:15
 msgid ""
@@ -79,7 +79,7 @@ msgid ""
 "facility, preferably kept separate for clear accounting tracking."
 msgstr ""
 "Le Journal INAMI reçoit les factures de la part mutuelle (envoyées via "
-"eFact) ; le Journal résident reçoit celles de la part résident (hébergement "
+"eFact) ; le Journal habitant reçoit celles de la part habitant (hébergement "
 "et suppléments). Ce sont deux journaux de ventes de votre établissement, de "
 "préférence distincts pour un suivi comptable clair."
 
@@ -95,7 +95,7 @@ msgid ""
 "This is a facility-specific value."
 msgstr ""
 "Uniquement si votre établissement détient l'agrément qui autorise à facturer"
-" le forfait coma Ccoma. Sans cet agrément, un résident classé Ccoma ne peut "
+" le forfait coma Ccoma. Sans cet agrément, un habitant classé Ccoma ne peut "
 "être facturé via eFact ; l'hébergement, lui, reste facturé. C'est une valeur"
 " propre à l'établissement."
 
@@ -111,7 +111,7 @@ msgid ""
 msgstr ""
 "Oui. Cocher « Facturation partagée (débiteurs alimentaires) » installe le "
 "module correspondant ; le décocher le désinstalle. Activez-le si des "
-"débiteurs alimentaires se partagent la part résident."
+"débiteurs alimentaires se partagent la part habitant."
 
 #: ../../content/configuration/reglages-facturation.md:23
 msgid "What is the Katz activity assignee for?"
@@ -286,7 +286,7 @@ msgid ""
 "its own sales journal."
 msgstr ""
 "Resthome émet **deux flux** de factures : la **part mutuelle** (forfait de "
-"dépendance, envoyé à l'organisme assureur via eFact) et la **part résident**"
+"dépendance, envoyé à l'organisme assureur via eFact) et la **part habitant**"
 " (hébergement et suppléments). Chaque flux va dans son propre journal de "
 "ventes."
 
@@ -308,14 +308,14 @@ msgstr "Un journal de ventes de votre établissement."
 
 #: ../../content/configuration/reglages-facturation.md:57
 msgid "**Resident Journal**"
-msgstr "**Journal résident**"
+msgstr "**Journal habitant**"
 
 #: ../../content/configuration/reglages-facturation.md:57
 msgid ""
 "Sales journal that receives the invoices for the **resident share** "
 "(accommodation and supplements)."
 msgstr ""
-"Journal de ventes qui reçoit les factures de la **part résident** "
+"Journal de ventes qui reçoit les factures de la **part habitant** "
 "(hébergement et suppléments)."
 
 #: ../../content/configuration/reglages-facturation.md:57
@@ -333,7 +333,7 @@ msgid ""
 "other) makes reconciliation and per-payer tracking easier."
 msgstr ""
 "Ces deux journaux dépendent de **votre plan comptable**. Choisissez des "
-"journaux de **ventes** existants. Les séparer (INAMI d'un côté, résident de "
+"journaux de **ventes** existants. Les séparer (INAMI d'un côté, habitant de "
 "l'autre) facilite le lettrage et le suivi par payeur."
 
 #: ../../content/configuration/reglages-facturation.md:85
@@ -360,7 +360,7 @@ msgid ""
 "still billed."
 msgstr ""
 "Cochez si l'établissement détient l'agrément lui permettant de facturer le "
-"forfait coma **Ccoma**. Sans lui, un résident classé Ccoma n'est **pas** "
+"forfait coma **Ccoma**. Sans lui, un habitant classé Ccoma n'est **pas** "
 "facturable via eFact (ni régional ni fédéral) ; l'hébergement reste facturé."
 
 #: ../../content/configuration/reglages-facturation.md:77
@@ -406,13 +406,13 @@ msgid ""
 "Splits the resident share of the monthly invoice among several debtors, each"
 " paying a percentage. Ticking this box **installs** the module."
 msgstr ""
-"Répartit la part résident de la facture mensuelle entre plusieurs débiteurs,"
+"Répartit la part habitant de la facture mensuelle entre plusieurs débiteurs,"
 " chacun payant un pourcentage. Cocher cette case **installe** le module."
 
 #: ../../content/configuration/reglages-facturation.md:94
 msgid "Enable it **if** maintenance debtors share the resident share."
 msgstr ""
-"Activez-la **si** des débiteurs alimentaires se partagent la part résident."
+"Activez-la **si** des débiteurs alimentaires se partagent la part habitant."
 
 #: ../../content/configuration/reglages-facturation.md:113
 msgid "What the checkbox does"
@@ -425,7 +425,7 @@ msgid ""
 "debtors](../facturation/split-billing.md)."
 msgstr ""
 "Cocher installe le module et décocher le désinstalle (convention Odoo). Une "
-"fois activée, la répartition se configure par résident. Voir [Débiteurs "
+"fois activée, la répartition se configure par habitant. Voir [Débiteurs "
 "alimentaires](../facturation/split-billing.md)."
 
 #: ../../content/configuration/reglages-facturation.md:121

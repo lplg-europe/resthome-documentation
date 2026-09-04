@@ -31,11 +31,11 @@ msgid ""
 msgstr ""
 "La prise en charge CPAS en maison de repos (MR/MRS) : enregistrer la "
 "décision, la couverture totale ou partielle, et router la facture de la part"
-" résident."
+" habitant."
 
 #: ../../content/facturation/cpas.md:12
 msgid "How do I record that a resident is covered by the CPAS?"
-msgstr "Comment indiquer qu'un résident est pris en charge par le CPAS ?"
+msgstr "Comment indiquer qu'un habitant est pris en charge par le CPAS ?"
 
 #: ../../content/facturation/cpas.md:13
 msgid ""
@@ -43,7 +43,7 @@ msgid ""
 "choose the responsible CPAS and the coverage (full or partial). These fields"
 " record the CPAS decision and are tracked in the financial audit log."
 msgstr ""
-"Sur la fiche du résident, ouvrez l'onglet Facturation, cochez « Pris en "
+"Sur la fiche de l'habitant, ouvrez l'onglet Facturation, cochez « Pris en "
 "charge CPAS », choisissez le CPAS responsable et la couverture (totale ou "
 "partielle). Ces champs enregistrent la décision du CPAS et sont tracés dans "
 "le journal d'audit financier."
@@ -60,9 +60,9 @@ msgid ""
 "family."
 msgstr ""
 "Les deux cas sont prévus. « Prise en charge totale » : le CPAS prend en "
-"charge toute la part résident. « Prise en charge partielle » : le CPAS paie "
+"charge toute la part habitant. « Prise en charge partielle » : le CPAS paie "
 "une part et vous saisissez le « Montant mensuel CPAS » ; le reste est à "
-"charge du résident ou de sa famille."
+"charge de l'habitant ou de sa famille."
 
 #: ../../content/facturation/cpas.md:18
 msgid ""
@@ -79,9 +79,9 @@ msgid ""
 "maintenance debtors (split billing)."
 msgstr ""
 "Non. La section CPAS est un enregistrement de la décision, pas un moteur de "
-"répartition. Pour adresser la part résident au CPAS, renseignez le « Contact"
-" facturation » du résident (le CPAS) ; pour un partage entre le CPAS et un "
-"autre payeur, utilisez les débiteurs alimentaires (facturation partagée)."
+"répartition. Pour adresser la part habitant au CPAS, renseignez le « Contact"
+" facturation » de l'habitant (le CPAS) ; pour un partage entre le CPAS et un"
+" autre payeur, utilisez les débiteurs alimentaires (facturation partagée)."
 
 #: ../../content/facturation/cpas.md:21
 msgid "Where do you create a CPAS in Resthome?"
@@ -95,7 +95,7 @@ msgid ""
 msgstr ""
 "Dans l'application Facturation → Configuration → CPAS. Créez le contact "
 "(société) et cochez « Est un CPAS ». Seuls les contacts marqués ainsi "
-"apparaissent dans le champ CPAS de la fiche résident."
+"apparaissent dans le champ CPAS de la fiche habitant."
 
 #: ../../content/facturation/cpas.md:24
 msgid "Is the dependency allowance affected by CPAS coverage?"
@@ -109,12 +109,12 @@ msgid ""
 "accommodation (the room) and supplements."
 msgstr ""
 "Non. Le forfait de dépendance part vers la mutuelle via l'eFact (tiers "
-"payant). La prise en charge CPAS concerne uniquement la part résident : "
+"payant). La prise en charge CPAS concerne uniquement la part habitant : "
 "l'hébergement (la chambre) et les suppléments."
 
 #: ../../content/facturation/cpas.md:27
 msgid "Is the CPAS monthly amount the same for all residents?"
-msgstr "Le montant mensuel CPAS est-il le même pour tous les résidents ?"
+msgstr "Le montant mensuel CPAS est-il le même pour tous les habitants ?"
 
 #: ../../content/facturation/cpas.md:28
 msgid ""
@@ -122,7 +122,7 @@ msgid ""
 " specific to each case, to be entered based on the notification received "
 "from the CPAS."
 msgstr ""
-"Non. Le montant dépend de la décision du CPAS pour ce résident : c'est une "
+"Non. Le montant dépend de la décision du CPAS pour cet habitant : c'est une "
 "valeur propre à chaque dossier, à saisir d'après la notification reçue du "
 "CPAS."
 
@@ -134,11 +134,11 @@ msgid ""
 "**record this decision** on the resident record and **route the invoice** to"
 " the right debtor."
 msgstr ""
-"Quand un résident n'a pas les moyens de couvrir sa **part personnelle** "
+"Quand un habitant n'a pas les moyens de couvrir sa **part personnelle** "
 "(hébergement et suppléments), le **CPAS** (Centre Public d'Action Sociale) "
 "de sa commune peut la **prendre en charge**, en totalité ou en partie. "
-"Resthome vous permet d'**enregistrer cette décision** sur la fiche du "
-"résident et de **router la facture** vers le bon débiteur."
+"Resthome vous permet d'**enregistrer cette décision** sur la fiche de "
+"l'habitant et de **router la facture** vers le bon débiteur."
 
 #: ../../content/facturation/cpas.md:37
 msgid ""
@@ -146,7 +146,7 @@ msgid ""
 "and the list of CPAS in **Billing → Configuration → CPAS**."
 msgstr ""
 "Vous trouvez ces réglages dans l'onglet **Facturation** de la fiche "
-"résident, et la liste des CPAS dans **Facturation → Configuration → CPAS**."
+"habitant, et la liste des CPAS dans **Facturation → Configuration → CPAS**."
 
 #: ../../content/facturation/cpas.md:40
 msgid "What the CPAS covers"
@@ -159,7 +159,7 @@ msgid ""
 "insurance fund and billed via [eFact](../ehealth/efact.md). See [The INAMI "
 "dependency allowance](forfait-inami.md)."
 msgstr ""
-"Le CPAS intervient sur la **part résident** (chambre + suppléments), pas sur"
+"Le CPAS intervient sur la **part habitant** (chambre + suppléments), pas sur"
 " le **forfait de dépendance** : celui-ci est pris en charge à 100 % par la "
 "mutuelle et facturé via l'[eFact](../ehealth/efact.md). Voir [Le forfait "
 "INAMI (dépendance)](forfait-inami.md)."
@@ -189,8 +189,8 @@ msgid ""
 " the resident, their family, or the CPAS. This routing is driven by the "
 "**Billing contact** or by **maintenance debtors** (see below)."
 msgstr ""
-"**Router la facture** — décider **à qui** Resthome adresse la part résident "
-": au résident, à sa famille, ou au CPAS. Ce routage se pilote via le "
+"**Router la facture** — décider **à qui** Resthome adresse la part habitant "
+": à l'habitant, à sa famille, ou au CPAS. Ce routage se pilote via le "
 "**Contact facturation** ou les **débiteurs alimentaires** (voir plus bas)."
 
 #: ../../content/facturation/cpas.md:60
@@ -198,13 +198,13 @@ msgid ""
 "![Resident record showing the default payer and the CPAS support "
 "details](../assets/screenshots/facturation/cpas-onglet.png)"
 msgstr ""
-"![Fiche résident : le payeur par défaut et le détail de la prise en charge "
+"![Fiche habitant : le payeur par défaut et le détail de la prise en charge "
 "CPAS](../assets/screenshots/facturation/cpas-onglet.png)"
 
 #: ../../content/facturation/cpas.md:60
 msgid "Resident record showing the default payer and the CPAS support details"
 msgstr ""
-"Fiche résident : le payeur par défaut et le détail de la prise en charge "
+"Fiche habitant : le payeur par défaut et le détail de la prise en charge "
 "CPAS"
 
 #: ../../content/facturation/cpas.md:62
@@ -214,7 +214,7 @@ msgstr "1\\. Déclarer le CPAS comme organisme"
 #: ../../content/facturation/cpas.md:64
 msgid "Before linking a resident to a CPAS, the CPAS must exist as a contact."
 msgstr ""
-"Avant de rattacher un résident à un CPAS, le CPAS doit exister comme "
+"Avant de rattacher un habitant à un CPAS, le CPAS doit exister comme "
 "contact."
 
 #: ../../content/facturation/cpas.md:66
@@ -249,17 +249,17 @@ msgid ""
 "**\"Is a CPAS\"**. A CPAS created elsewhere (in the generic contacts) will "
 "appear in the list only if this box is ticked on its record."
 msgstr ""
-"Le champ **CPAS** de la fiche résident ne propose que les contacts marqués "
+"Le champ **CPAS** de la fiche habitant ne propose que les contacts marqués "
 "**« Est un CPAS »**. Un CPAS créé ailleurs (dans les contacts génériques) "
 "n'apparaîtra dans la liste que si cette case est cochée sur sa fiche."
 
 #: ../../content/facturation/cpas.md:79
 msgid "2. Enter the coverage on the resident record"
-msgstr "2\\. Renseigner la prise en charge sur le résident"
+msgstr "2\\. Renseigner la prise en charge sur l'habitant"
 
 #: ../../content/facturation/cpas.md:81
 msgid "Open the **resident** record and the **Billing** tab."
-msgstr "Ouvrez la fiche du **résident** et l'onglet **Facturation**."
+msgstr "Ouvrez la fiche du **habitant** et l'onglet **Facturation**."
 
 #: ../../content/facturation/cpas.md:82
 msgid "In the **CPAS assistance** group, tick **Covered by CPAS**."
@@ -374,7 +374,7 @@ msgstr "3\\. Router la facture vers le CPAS"
 msgid ""
 "This is the step that decides **who** the resident-share invoice goes to."
 msgstr ""
-"C'est l'étape qui décide **à qui** part la facture de la part résident."
+"C'est l'étape qui décide **à qui** part la facture de la part habitant."
 
 #: ../../content/facturation/cpas.md:110
 msgid ""
@@ -382,9 +382,9 @@ msgid ""
 "the *Default payer* group) to the **CPAS** contact. The monthly resident-"
 "share invoice will then be **sent to the CPAS**."
 msgstr ""
-"**Le CPAS paie tout** → renseignez le **Contact facturation** du résident "
+"**Le CPAS paie tout** → renseignez le **Contact facturation** de l'habitant "
 "(dans le groupe *Payeur par défaut*) avec le contact du **CPAS**. La facture"
-" mensuelle de la part résident sera alors **adressée au CPAS**."
+" mensuelle de la part habitant sera alors **adressée au CPAS**."
 
 #: ../../content/facturation/cpas.md:113
 msgid ""
@@ -394,7 +394,7 @@ msgid ""
 msgstr ""
 "**Le CPAS paie une partie** → utilisez les [débiteurs alimentaires "
 "(facturation partagée)](split-billing.md) : ajoutez le CPAS comme débiteur "
-"avec son **pourcentage**, et le reste des payeurs (résident, famille) pour "
+"avec son **pourcentage**, et le reste des payeurs (habitant, famille) pour "
 "le solde."
 
 #: ../../content/facturation/cpas.md:118
@@ -414,10 +414,10 @@ msgstr ""
 "Les champs de la section **Aide CPAS** documentent la décision et basculent "
 "le **Payeur par défaut** sur CPAS, mais **ils ne redirigent pas et ne "
 "scindent pas automatiquement la facture**. Le destinataire de la facture "
-"reste déterminé par le **Contact facturation** du résident (ou le contact de"
-" facturation du séjour), et la répartition partielle par la **facturation "
-"partagée**. Sans l'un de ces deux leviers, la part résident continue d'être "
-"adressée **au résident**."
+"reste déterminé par le **Contact facturation** de l'habitant (ou le contact "
+"de facturation du séjour), et la répartition partielle par la **facturation "
+"partagée**. Sans l'un de ces deux leviers, la part habitant continue d'être "
+"adressée **à l'habitant**."
 
 #: ../../content/facturation/cpas.md:129
 msgid "What Resthome does — and does not do"
@@ -459,7 +459,7 @@ msgstr "Non — via le **Contact facturation**"
 
 #: ../../content/facturation/cpas.md:118
 msgid "Split the resident share between CPAS and family"
-msgstr "Répartir la part résident entre CPAS et famille"
+msgstr "Répartir la part habitant entre CPAS et famille"
 
 #: ../../content/facturation/cpas.md:118
 msgid "No — via [split billing](split-billing.md)"
@@ -482,7 +482,7 @@ msgid ""
 "CPAS coverage concerns the **resident share** (room + supplements), not the "
 "**dependency allowance** (health-insurance-fund share, via eFact)."
 msgstr ""
-"La prise en charge CPAS concerne la **part résident** (chambre + "
+"La prise en charge CPAS concerne la **part habitant** (chambre + "
 "suppléments), pas le **forfait de dépendance** (part mutuelle, via eFact)."
 
 #: ../../content/facturation/cpas.md:143
@@ -491,7 +491,7 @@ msgid ""
 "CPAS\"** box), then link it to the resident in the **Billing** tab."
 msgstr ""
 "Créez d'abord le CPAS dans **Facturation → Configuration → CPAS** (case **« "
-"Est un CPAS »**), puis rattachez-le au résident dans l'onglet "
+"Est un CPAS »**), puis rattachez-le à l'habitant dans l'onglet "
 "**Facturation**."
 
 #: ../../content/facturation/cpas.md:145
@@ -526,7 +526,7 @@ msgstr "Pour aller plus loin"
 
 #: ../../content/facturation/cpas.md:155
 msgid "[Manage a resident](../residents/gerer-un-resident.md)"
-msgstr "[Gérer un résident](../residents/gerer-un-resident.md)"
+msgstr "[Gérer un habitant](../residents/gerer-un-resident.md)"
 
 #: ../../content/facturation/cpas.md:156
 msgid "[Bill a month](facturer-un-mois.md)"

@@ -61,14 +61,14 @@ msgid ""
 "threshold (75% by default), a deficit alert is created. Lower the threshold "
 "to be alerted later, raise it to be alerted sooner."
 msgstr ""
-"Resthome compare l'apport moyen sur 3 jours aux besoins du résident (énergie"
-" et protéines). Lorsque cet apport couvre moins que le seuil configuré (75 %"
-" par défaut), une alerte de déficit est créée. Abaissez le seuil pour être "
-"alerté plus tard, relevez-le pour être alerté plus tôt."
+"Resthome compare l'apport moyen sur 3 jours aux besoins de l'habitant "
+"(énergie et protéines). Lorsque cet apport couvre moins que le seuil "
+"configuré (75 % par défaut), une alerte de déficit est créée. Abaissez le "
+"seuil pour être alerté plus tard, relevez-le pour être alerté plus tôt."
 
 #: ../../content/configuration/reglages-repas.md:14
 msgid "Are the ESPEN targets the same for every resident?"
-msgstr "Les objectifs ESPEN sont-ils les mêmes pour chaque résident ?"
+msgstr "Les objectifs ESPEN sont-ils les mêmes pour chaque habitant ?"
 
 #: ../../content/configuration/reglages-repas.md:15
 msgid ""
@@ -80,8 +80,8 @@ msgstr ""
 "Non. Les coefficients (30 kcal/kg, 1 g/kg de protéines, 1,6 l pour les "
 "femmes et 2,0 l pour les hommes) sont des réglages valables pour tout "
 "l'établissement. Resthome calcule ensuite l'objectif propre à chaque "
-"résident à partir de son poids et de son sexe. La plage énergétique monte à "
-"35 kcal/kg pour un résident en insuffisance pondérale (IMC inférieur ou égal"
+"habitant à partir de son poids et de son sexe. La plage énergétique monte à "
+"35 kcal/kg pour un habitant en insuffisance pondérale (IMC inférieur ou égal"
 " à 21)."
 
 #: ../../content/configuration/reglages-repas.md:17
@@ -97,8 +97,8 @@ msgid ""
 msgstr ""
 "L'envoi d'e-mails nécessite un serveur de messagerie sortant configuré dans "
 "Odoo. Sans cela, activer l'option n'envoie rien. Configurez d'abord le "
-"serveur sortant, puis activez la notification globale et l'adhésion résident"
-" par résident."
+"serveur sortant, puis activez la notification globale et l'adhésion habitant"
+" par habitant."
 
 #: ../../content/configuration/reglages-repas.md:20
 msgid "Where are these settings located?"
@@ -314,10 +314,10 @@ msgid ""
 "resident."
 msgstr ""
 "Sans **serveur de messagerie sortant** configuré dans Odoo, activer l'option"
-" n'envoie rien. L'envoi dépend aussi d'une **adhésion par résident** : "
+" n'envoie rien. L'envoi dépend aussi d'une **adhésion par habitant** : "
 "seules les familles qui l'ont acceptée reçoivent les e-mails. Configurez le "
-"serveur sortant, activez la notification globale, puis l'adhésion résident "
-"par résident."
+"serveur sortant, activez la notification globale, puis l'adhésion habitant "
+"par habitant."
 
 #: ../../content/configuration/reglages-repas.md:86
 msgid "Nutritional targets (ESPEN)"
@@ -330,7 +330,7 @@ msgid ""
 "to trigger the **deficit alerts**."
 msgstr ""
 "Ces coefficients, tirés des recommandations gériatriques **ESPEN**, servent "
-"à calculer l'**objectif propre à chaque résident** (à partir de son poids et"
+"à calculer l'**objectif propre à chaque habitant** (à partir de son poids et"
 " de son sexe) et à déclencher les **alertes de déficit**."
 
 #: ../../content/configuration/reglages-repas.md:77
@@ -354,7 +354,7 @@ msgid ""
 "Raised target for an undernourished resident (BMI less than or equal to 21);"
 " ESPEN suggests 32 to 38."
 msgstr ""
-"Objectif relevé pour un résident dénutri (IMC inférieur ou égal à 21) ; "
+"Objectif relevé pour un habitant dénutri (IMC inférieur ou égal à 21) ; "
 "l'ESPEN suggère 32 à 38."
 
 #: ../../content/configuration/reglages-repas.md:77
@@ -420,7 +420,7 @@ msgstr "75"
 
 #: ../../content/configuration/reglages-repas.md:101
 msgid "A target calculated per resident"
-msgstr "Un objectif calculé par résident"
+msgstr "Un objectif calculé par habitant"
 
 #: ../../content/configuration/reglages-repas.md:104
 msgid ""
@@ -431,7 +431,7 @@ msgid ""
 "regimes.md)."
 msgstr ""
 "Ici, vous fixez les **coefficients** ; Resthome en déduit l'**objectif "
-"individuel** de chaque résident à partir de son poids et de son sexe, puis "
+"individuel** de chaque habitant à partir de son poids et de son sexe, puis "
 "compare l'**apport** réel à ces objectifs. Le suivi de la couverture et le "
 "dépistage de la dénutrition sont décrits dans [Menus, régimes et "
 "hydratation](../repas/menus-regimes.md)."

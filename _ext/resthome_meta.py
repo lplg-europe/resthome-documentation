@@ -235,7 +235,7 @@ def html_page_context(app, pagename, templatename, context, doctree):
             "operatingSystem": "Web", "url": "https://www.lplg.eu/resthome",
             "inLanguage": lang_tag, "description": desc,
             "featureList": [
-                "Dossier résident", "Évaluation Katz",
+                "Dossier habitant", "Évaluation Katz",
                 "Facturation INAMI et forfaits mutuelle",
                 "Assurabilité MDA (MyCareNet)",
                 "Facturation électronique eFact", "Accords eAgreement",
