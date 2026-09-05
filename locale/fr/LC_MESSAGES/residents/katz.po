@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-01 06:29+0200\n"
+"POT-Creation-Date: 2026-09-05 03:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -308,10 +308,118 @@ msgstr ""
 " la **signature** du clinicien vient compléter le document."
 
 #: ../../content/residents/katz.md:90
+msgid "When the category no longer matches the bed"
+msgstr "Quand la catégorie ne correspond plus au lit"
+
+#: ../../content/residents/katz.md:92
+msgid ""
+"An **MRS** bed only takes categories **B and above**. A resident assessed at"
+" **O or A** belongs in an **MR** bed."
+msgstr ""
+"Un lit **MRS** n’admet que les catégories **B et au-delà**. Un habitant "
+"évalué en **O ou A** relève d’un lit **MR**."
+
+#: ../../content/residents/katz.md:95
+msgid ""
+"Nothing stops a resident's condition from improving — and when a new "
+"assessment comes out at A while they occupy an MRS bed, Resthome says so "
+"instead of letting it pass. The banner appears **as soon as you validate** "
+"the assessment, and stays on the resident's record until the sector is "
+"changed:"
+msgstr ""
+"Rien n’empêche l’état d’un habitant de s’améliorer — et lorsqu’une nouvelle "
+"évaluation ressort en A alors qu’il occupe un lit MRS, Resthome le dit au "
+"lieu de laisser passer. La bannière apparaît **dès la validation** de "
+"l’évaluation et reste sur la fiche tant que le secteur n’a pas changé :"
+
+#: ../../content/residents/katz.md:100
+msgid ""
+"![Banner on the resident's record: Katz A in an MRS bed, with the Internal "
+"transfer button](../assets/screenshots/katz/04-secteur-a-changer-fiche.png)"
+msgstr ""
+"![Bannière sur la fiche de l’habitant : Katz A dans un lit MRS, avec le "
+"bouton Transfert interne](../assets/screenshots/katz/04-secteur-a-changer-"
+"fiche.png)"
+
+#: ../../content/residents/katz.md:100
+msgid ""
+"Banner on the resident's record: Katz A in an MRS bed, with the Internal "
+"transfer button"
+msgstr ""
+"Bannière sur la fiche de l’habitant : Katz A dans un lit MRS, avec le bouton"
+" Transfert interne"
+
+#: ../../content/residents/katz.md:102
+msgid ""
+"The **Internal transfer** button on the banner opens the transfer wizard "
+"with the destination already set to MR — see [Room change and "
+"transfer](changement-chambre.md)."
+msgstr ""
+"Le bouton **Transfert interne** de la bannière ouvre l’assistant avec la "
+"destination déjà réglée sur MR — voir [Changement de chambre et "
+"transfert](changement-chambre.md)."
+
+#: ../../content/residents/katz.md:106
+msgid ""
+"The same signal follows the resident everywhere they are listed. On the "
+"board, the card carries an **MRS → MR** badge:"
+msgstr ""
+"Le même signal suit l’habitant partout où il est listé. Sur le tableau, sa "
+"carte porte un badge **MRS → MR** :"
+
+#: ../../content/residents/katz.md:109
+msgid ""
+"![Resident card carrying the MRS to MR "
+"badge](../assets/screenshots/katz/05-secteur-a-changer-kanban.png)"
+msgstr ""
+"![Carte de l’habitant portant le badge MRS → "
+"MR](../assets/screenshots/katz/05-secteur-a-changer-kanban.png)"
+
+#: ../../content/residents/katz.md:109
+msgid "Resident card carrying the MRS to MR badge"
+msgstr "Carte de l’habitant portant le badge MRS → MR"
+
+#: ../../content/residents/katz.md:111
+msgid ""
+"And the residents list has a **Sector to be changed** filter, to see "
+"everyone waiting for a transfer in one go:"
+msgstr ""
+"Et la liste des habitants offre un filtre **Secteur à changer**, pour voir "
+"d’un coup tous ceux qui attendent un transfert :"
+
+#: ../../content/residents/katz.md:114
+msgid ""
+"![The Sector to be changed filter in the search "
+"menu](../assets/screenshots/katz/06-secteur-a-changer-filtre.png)"
+msgstr ""
+"![Le filtre Secteur à changer dans le menu de "
+"recherche](../assets/screenshots/katz/06-secteur-a-changer-filtre.png)"
+
+#: ../../content/residents/katz.md:114
+msgid "The Sector to be changed filter in the search menu"
+msgstr "Le filtre Secteur à changer dans le menu de recherche"
+
+#: ../../content/residents/katz.md:116
+msgid "What this changes for billing"
+msgstr "Ce que cela change pour la facturation"
+
+#: ../../content/residents/katz.md:119
+msgid ""
+"Until the transfer is done, the stay is still declared to the mutuelle **in "
+"MRS**, with a category that sector does not accept. The banner is a task, "
+"not an informational note: the sooner the transfer is entered, the shorter "
+"the period to correct."
+msgstr ""
+"Tant que le transfert n’est pas fait, le séjour reste déclaré à la mutuelle "
+"**en MRS**, avec une catégorie que ce secteur n’accepte pas. La bannière est"
+" une tâche, pas une information : plus tôt le transfert est encodé, plus "
+"courte est la période à corriger."
+
+#: ../../content/residents/katz.md:125
 msgid "Learn more"
 msgstr "Pour aller plus loin"
 
-#: ../../content/residents/katz.md:92
+#: ../../content/residents/katz.md:127
 msgid ""
 "[The INAMI allowance (dependency)](../facturation/forfait-inami.md) — from "
 "category to billed amount."
@@ -319,14 +427,14 @@ msgstr ""
 "[Le forfait INAMI (dépendance)](../facturation/forfait-inami.md) — de la "
 "catégorie au montant facturé."
 
-#: ../../content/residents/katz.md:93
+#: ../../content/residents/katz.md:128
 msgid "[Managing a resident](gerer-un-resident.md)"
 msgstr "[Gérer un habitant](gerer-un-resident.md)"
 
-#: ../../content/residents/katz.md:94
+#: ../../content/residents/katz.md:129
 msgid "[Billing](../facturation/index.md)"
 msgstr "[Facturation](../facturation/index.md)"
 
-#: ../../content/residents/katz.md:95
+#: ../../content/residents/katz.md:130
 msgid "[Agreements (eAgreement)](../ehealth/eagreement.md)"
 msgstr "[Accords (eAgreement)](../ehealth/eagreement.md)"

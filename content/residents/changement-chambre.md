@@ -53,6 +53,20 @@ Resthome splits billing at the transfer date and **updates the flat rate**
 according to the new type. Where applicable, it prepares the corresponding
 **eHealth notification**.
 
+:::{admonition} Katz B and above for MRS
+:class: warning
+
+An MRS bed only takes Katz categories **B and above**. Resthome refuses to
+**put or keep a stay in MRS** for a resident assessed at O or A — at admission
+and at transfer time.
+
+A **room change is not blocked**, though: a resident whose category no longer
+matches their bed can still be moved from one room to another. What flags the
+situation is the banner on their record (and the **MRS → MR** badge on their
+card), which stays up until the transfer is entered — see
+[The Katz assessment](katz.md).
+:::
+
 :::{admonition} Billing follows automatically
 :class: tip
 

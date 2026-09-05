@@ -522,6 +522,28 @@ Ce que Resthome fait pour vous
 
 Si l’état de l’habitant se dégrade, saisissez une **nouvelle évaluation** avec un **motif d’aggravation**. Resthome prépare alors la mise à jour de l’accord (**Annexe 10**) : le motif renseigné est repris automatiquement, et la **signature** du clinicien vient compléter le document.
 
+## Quand la catégorie ne correspond plus au lit
+
+Un lit **MRS** n’admet que les catégories **B et au-delà**. Un habitant évalué en **O ou A** relève d’un lit **MR**.
+
+Rien n’empêche l’état d’un habitant de s’améliorer — et lorsqu’une nouvelle évaluation ressort en A alors qu’il occupe un lit MRS, Resthome le dit au lieu de laisser passer. La bannière apparaît **dès la validation** de l’évaluation et reste sur la fiche tant que le secteur n’a pas changé :
+
+![Bannière sur la fiche de l’habitant : Katz A dans un lit MRS, avec le bouton Transfert interne](../../_images/04-secteur-a-changer-fiche.png)
+
+Le bouton **Transfert interne** de la bannière ouvre l’assistant avec la destination déjà réglée sur MR — voir [Changement de chambre et transfert](../changement-chambre/).
+
+Le même signal suit l’habitant partout où il est listé. Sur le tableau, sa carte porte un badge **MRS → MR** :
+
+![Carte de l’habitant portant le badge MRS → MR](../../_images/05-secteur-a-changer-kanban.png)
+
+Et la liste des habitants offre un filtre **Secteur à changer**, pour voir d’un coup tous ceux qui attendent un transfert :
+
+![Le filtre Secteur à changer dans le menu de recherche](../../_images/06-secteur-a-changer-filtre.png)
+
+Ce que cela change pour la facturation
+
+Tant que le transfert n’est pas fait, le séjour reste déclaré à la mutuelle **en MRS**, avec une catégorie que ce secteur n’accepte pas. La bannière est une tâche, pas une information : plus tôt le transfert est encodé, plus courte est la période à corriger.
+
 ## Pour aller plus loin
 
 - [Le forfait INAMI (dépendance)](../../facturation/forfait-inami/) — de la catégorie au montant facturé.
@@ -732,6 +754,12 @@ Le passage d’un type de soins à l’autre (MR ↔ MRS) est un **transfert int
 3. **Validez.**
 
 Resthome scinde la facturation à la date de transfert et **met à jour le forfait** selon le nouveau type. Le cas échéant, il prépare la **notification eHealth** correspondante.
+
+Katz B et au-delà pour la MRS
+
+Un lit MRS n’admet que les catégories Katz **B et au-delà**. Resthome refuse de **placer ou de maintenir un séjour en MRS** pour un habitant évalué en O ou A — à l’admission comme au transfert.
+
+Un **changement de chambre n’est pas bloqué** pour autant : un habitant dont la catégorie ne correspond plus à son lit peut toujours changer de chambre. Ce qui signale la situation, c’est la bannière sur sa fiche (et le badge **MRS → MR** sur sa carte), qui reste affichée tant que le transfert n’est pas encodé — voir [L’évaluation Katz](../katz/).
 
 La facturation suit toute seule
 

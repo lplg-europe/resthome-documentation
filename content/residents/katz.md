@@ -87,6 +87,41 @@ If the resident's condition deteriorates, enter a **new assessment** with a
 (**Annexe 10**): the reason you entered is carried over automatically, and the
 clinician's **signature** completes the document.
 
+## When the category no longer matches the bed
+
+An **MRS** bed only takes categories **B and above**. A resident assessed at
+**O or A** belongs in an **MR** bed.
+
+Nothing stops a resident's condition from improving — and when a new assessment
+comes out at A while they occupy an MRS bed, Resthome says so instead of
+letting it pass. The banner appears **as soon as you validate** the assessment,
+and stays on the resident's record until the sector is changed:
+
+![Banner on the resident's record: Katz A in an MRS bed, with the Internal transfer button](../assets/screenshots/katz/04-secteur-a-changer-fiche.png)
+
+The **Internal transfer** button on the banner opens the transfer wizard with
+the destination already set to MR — see
+[Room change and transfer](changement-chambre.md).
+
+The same signal follows the resident everywhere they are listed. On the board,
+the card carries an **MRS → MR** badge:
+
+![Resident card carrying the MRS to MR badge](../assets/screenshots/katz/05-secteur-a-changer-kanban.png)
+
+And the residents list has a **Sector to be changed** filter, to see everyone
+waiting for a transfer in one go:
+
+![The Sector to be changed filter in the search menu](../assets/screenshots/katz/06-secteur-a-changer-filtre.png)
+
+:::{admonition} What this changes for billing
+:class: warning
+
+Until the transfer is done, the stay is still declared to the mutuelle **in
+MRS**, with a category that sector does not accept. The banner is a task, not
+an informational note: the sooner the transfer is entered, the shorter the
+period to correct.
+:::
+
 ## Learn more
 
 - [The INAMI allowance (dependency)](../facturation/forfait-inami.md) — from category to billed amount.
