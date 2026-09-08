@@ -109,14 +109,14 @@ line total.
 
 A hairdresser's statement is one line per resident, all worded the same. Tick
 **Add in cascade** and fill in the **Cascade text**: every line you then add
-opens with that wording and with the **next resident of the house**, in order
-of entry.
+opens with that wording and with the **next resident of the house**, in
+alphabetical order.
 
 ![The Add in cascade box ticked, revealing the Cascade text field on the recharge](../assets/screenshots/facturation/12-refacturation-cascade.png)
 
 Adding a line then comes down to keying the amount.
 
-- Residents are served **in order of entry**, oldest first, and only those
+- Residents are served **in alphabetical order**, A to Z, and only those
   currently present.
 - The lines that came from the bill are **never** rewritten, so you can tick
   the box halfway through a document.
@@ -180,7 +180,7 @@ is the safer behaviour for a home that has not decided.
   back to the source bill kept in both directions.
 - **Equal** charges the full amount to each resident; **Spread** divides it.
 - **Add in cascade** pre-fills each new line with a common wording and the next
-  resident, in order of entry.
+  resident, in alphabetical order.
 - A resident covered by a **flat-rate agreement** is skipped, visibly, and the
   others pay no more for it.
 - Cancelling is possible right up to the moment an invoice carries the
