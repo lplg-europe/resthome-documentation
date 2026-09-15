@@ -113,7 +113,7 @@ checkbox.
 
 Ticking installs the module and unticking uninstalls it (Odoo convention). Once
 enabled, the split is configured per resident. See
-[Maintenance debtors](../facturation/split-billing.md).
+[Maintenance debtors](../facturation-partagee/index.md).
 :::
 
 ## Absence management
@@ -140,5 +140,5 @@ assessment**. The assigned activity acts as a reminder. See
 - [Billing overview](../facturation/index.md)
 - [Bill a month, step by step](../facturation/facturer-un-mois.md)
 - [The INAMI lump sum (dependency)](../facturation/forfait-inami.md)
-- [Maintenance debtors](../facturation/split-billing.md)
+- [Maintenance debtors](../facturation-partagee/index.md)
 - [Absences and hospitalizations](../facturation/absences.md)

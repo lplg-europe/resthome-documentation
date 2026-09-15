@@ -49,7 +49,7 @@ a data import or a gradual roll-out.
 
 ## What triggers at every new stay
 
-As soon as a **stay** is created (by the [admission wizard](admissions.md), the
+As soon as a **stay** is created (by the [admission wizard](../admissions/admettre.md), the
 conversion of a CRM opportunity, or a
 [room change / transfer](changement-chambre.md)), Resthome schedules **both
 parts** of the procedure at the same time. The deadline of every activity is

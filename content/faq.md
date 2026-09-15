@@ -398,7 +398,7 @@ and their **percentage** (the total must be 100%), then **Save**. On each
 monthly invoice, Resthome splits the resident share according to this key; only
 the resident share is split, not the INAMI allowance (which goes to the
 mutuality through the eFact).
-→ [Support debtors (split billing)](facturation/split-billing.md)
+→ [Support debtors (split billing)](facturation-partagee/index.md)
 
 ### What happens when an invoice is already posted?
 

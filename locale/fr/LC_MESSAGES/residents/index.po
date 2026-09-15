@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-01 06:29+0200\n"
+"POT-Creation-Date: 2026-09-16 01:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -34,7 +34,7 @@ msgstr ""
 "séjour, évaluations Katz et gériatriques, chambres, état des lieux et "
 "mobilier privé."
 
-#: ../../content/residents/index.md:22
+#: ../../content/residents/index.md:21
 msgid ""
 "Everything about a resident's life in the facility, from the first contact "
 "to the daily record: **admission**, **stay**, **assessments (Katz)**, "
@@ -46,7 +46,7 @@ msgstr ""
 "**chambre** et **état des lieux**. L'habitant est la fiche centrale sur "
 "laquelle s'appuient les autres applications — soins, repas et facturation."
 
-#: ../../content/residents/index.md:27
+#: ../../content/residents/index.md:26
 msgid ""
 "![Residents kanban: one card per resident with the reference, the MR or MRS "
 "stay type, the age and the room "
@@ -56,7 +56,7 @@ msgstr ""
 "de séjour MR ou MRS, l'âge et la chambre "
 "occupée](../assets/screenshots/residents/04-liste-residents.png)"
 
-#: ../../content/residents/index.md:27
+#: ../../content/residents/index.md:26
 msgid ""
 "Residents kanban: one card per resident with the reference, the MR or MRS "
 "stay type, the age and the room occupied"
@@ -64,17 +64,19 @@ msgstr ""
 "Kanban des habitants : une carte par habitant avec la référence, le type de "
 "séjour MR ou MRS, l'âge et la chambre occupée"
 
-#: ../../content/residents/index.md:29
+#: ../../content/residents/index.md:28
 msgid "Key principles"
 msgstr "Principes clés"
 
-#: ../../content/residents/index.md:31
+#: ../../content/residents/index.md:30
 msgid ""
-"**Admission**: managed as a **CRM pipeline**, from the first contact to the "
-"move-in; a wizard creates the resident and opens their stay."
+"**Admission**: handled in its own application, from the first enquiry to the"
+" move-in; it creates the resident and opens their stay. See "
+"[Admissions](../admissions/index.md)."
 msgstr ""
-"**Admission** : gérée comme un **pipeline CRM**, du premier contact à "
-"l'emménagement ; un assistant crée l'habitant et ouvre son séjour."
+"**Admission** : traitée dans son application propre, de la première demande "
+"à l'emménagement ; elle crée l'habitant et ouvre son séjour. Voir "
+"[Admissions](../admissions/index.md)."
 
 #: ../../content/residents/index.md:33
 msgid ""
@@ -111,22 +113,15 @@ msgid "What's next"
 msgstr "À suivre"
 
 #: ../../content/residents/index.md:44
-msgid ""
-"[Admissions (CRM pipeline)](admissions.md) — from first contact to move-in."
-msgstr ""
-"[Les admissions (pipeline CRM)](admissions.md) — du premier contact à "
-"l'emménagement."
-
-#: ../../content/residents/index.md:45
 msgid "[Managing a resident](gerer-un-resident.md) — the central record."
 msgstr "[Gérer un habitant](gerer-un-resident.md) — la fiche centrale."
 
-#: ../../content/residents/index.md:46
+#: ../../content/residents/index.md:45
 msgid "[The Katz assessment](katz.md) — dependency scoring and category."
 msgstr ""
 "[L'évaluation Katz](katz.md) — cotation de la dépendance et catégorie."
 
-#: ../../content/residents/index.md:47
+#: ../../content/residents/index.md:46
 msgid ""
 "[Geriatric assessments (beyond Katz)](evaluations.md) — MNA, Braden and "
 "others."
@@ -134,22 +129,28 @@ msgstr ""
 "[Les évaluations gériatriques (hors Katz)](evaluations.md) — MNA, Braden et "
 "autres."
 
-#: ../../content/residents/index.md:48
+#: ../../content/residents/index.md:47
 msgid "[Room change and transfer](changement-chambre.md)"
 msgstr "[Changement de chambre et transfert](changement-chambre.md)"
 
-#: ../../content/residents/index.md:49
+#: ../../content/residents/index.md:48
 msgid "[Rooms and occupancy](chambres.md)"
 msgstr "[Les chambres et l'occupation](chambres.md)"
 
-#: ../../content/residents/index.md:50
+#: ../../content/residents/index.md:49
 msgid "[The condition report (move-in and move-out)](etat-des-lieux.md)"
 msgstr "[L'état des lieux (entrée et sortie)](etat-des-lieux.md)"
 
-#: ../../content/residents/index.md:51
+#: ../../content/residents/index.md:50
 msgid "[The move-in procedure](procedure-emmenagement.md)"
 msgstr "[La procédure d'emménagement](procedure-emmenagement.md)"
 
-#: ../../content/residents/index.md:52
+#: ../../content/residents/index.md:51
 msgid "[The resident's private furniture](mobilier.md)"
 msgstr "[Le mobilier privé de l'habitant](mobilier.md)"
+
+#~ msgid ""
+#~ "[Admissions (CRM pipeline)](admissions.md) — from first contact to move-in."
+#~ msgstr ""
+#~ "[Les admissions (pipeline CRM)](admissions.md) — du premier contact à "
+#~ "l'emménagement."

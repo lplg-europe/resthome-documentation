@@ -41,5 +41,7 @@ Since everything comes from the same menus in Resthome, the portal, the public p
 
 ## Going further
 
+- [Family portal](../portail-famille/index.md) — the accesses that open the menus
+  to a relative, and everything else they may see.
 - [Menus, diets and hydration](menus-regimes.md)
 - [Meals overview](index.md)

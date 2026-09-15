@@ -17,7 +17,6 @@ absences
 depart-deces
 note-de-frais-annexe12
 cpas
-split-billing
 :::
 
 Resthome automates MR/MRS billing: the **insurer's share** (INAMI package)
@@ -81,7 +80,8 @@ see the whole [billing journey](../parcours-facturation.md).
   72-hour rule, automatic eHealth notification.
 - [Departure and death](depart-deces.md) — stopping billing, credit note for
   prepaid accommodation.
-- [Maintenance debtors](split-billing.md) — split the resident's share between debtors.
+- [Split billing](../facturation-partagee/index.md) — the resident's share divided
+  among several debtors, one invoice each.
 - [Agreements (eAgreement)](../ehealth/eagreement.md) — notify the insurer
   (admission, absence, return, discharge).
 - [eHealth](../ehealth/index.md) — sending the insurer's share (eFact) and agreements.

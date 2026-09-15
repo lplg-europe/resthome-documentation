@@ -7,7 +7,6 @@ Managing residents in a nursing home (MR/MRS) with Resthome: admission, stay, Ka
 :::{toctree}
 :hidden:
 
-admissions
 gerer-un-resident
 katz
 evaluations
@@ -28,8 +27,9 @@ build on — care, meals and billing.
 
 ## Key principles
 
-- **Admission**: managed as a **CRM pipeline**, from the first contact to the
-  move-in; a wizard creates the resident and opens their stay.
+- **Admission**: handled in its own application, from the first enquiry to the
+  move-in; it creates the resident and opens their stay. See
+  [Admissions](../admissions/index.md).
 - **Stay**: the period during which the resident occupies a **room**. It drives
   presence, billing and the end-of-stay procedures.
 - **Katz assessment**: scores the resident's dependency; it determines the
@@ -41,7 +41,6 @@ build on — care, meals and billing.
 
 ## What's next
 
-- [Admissions (CRM pipeline)](admissions.md) — from first contact to move-in.
 - [Managing a resident](gerer-un-resident.md) — the central record.
 - [The Katz assessment](katz.md) — dependency scoring and category.
 - [Geriatric assessments (beyond Katz)](evaluations.md) — MNA, Braden and others.

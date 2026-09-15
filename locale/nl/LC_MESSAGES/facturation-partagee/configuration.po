@@ -1,0 +1,234 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-16 01:30+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: nl <LL@li.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/facturation-partagee/configuration.md:1
+msgid "Setting up a split"
+msgstr "Een verdeling instellen"
+
+#: ../../content/facturation-partagee/configuration.md:4
+msgid ""
+"Setting up split billing in Resthome: the accounting settings, the debtors "
+"on the resident's record, capture at admission, and the terms frozen on the "
+"stay."
+msgstr ""
+"Gedeelde facturatie instellen in Resthome: de boekhoudkundige instellingen, "
+"de schuldenaars op de bewonersfiche, de invoer bij de opname, en de "
+"voorwaarden die op het verblijf vastgelegd worden."
+
+#: ../../content/facturation-partagee/configuration.md:8
+msgid "Where do I set the debtors?"
+msgstr "Waar stel ik de schuldenaars in?"
+
+#: ../../content/facturation-partagee/configuration.md:9
+msgid ""
+"On the resident's record, Billing tab: choose a split **Invoice Type**, then"
+" fill in the **Split Billing Partners** list."
+msgstr ""
+"Op de bewonersfiche, tabblad Facturatie: kies een gedeeld **Factuurtype** en"
+" vul daarna de lijst **Partners gesplitste facturatie** in."
+
+#: ../../content/facturation-partagee/configuration.md:11
+msgid "What must be configured before the first split invoice?"
+msgstr "Wat moet er ingesteld zijn vóór de eerste gedeelde factuur?"
+
+#: ../../content/facturation-partagee/configuration.md:12
+msgid ""
+"A dedicated split billing journal and a suspense account, in the MR/MRS "
+"settings. Without them, generation stops before anything is produced."
+msgstr ""
+"Een eigen dagboek voor gesplitste facturatie en een wachtrekening, in de "
+"instellingen ROB/RVT. Zonder die stopt de generatie vóór er iets gemaakt "
+"wordt."
+
+#: ../../content/facturation-partagee/configuration.md:14
+msgid "I changed the debtors and the current month did not change. Why?"
+msgstr ""
+"Ik heb de schuldenaars gewijzigd en de lopende maand veranderde niet. "
+"Waarom?"
+
+#: ../../content/facturation-partagee/configuration.md:15
+msgid ""
+"Because a stay bills under the terms it was opened with. New debtors apply "
+"to the next stay."
+msgstr ""
+"Omdat een verblijf factureert onder de voorwaarden waaronder het geopend "
+"werd. Nieuwe schuldenaars gelden voor het volgende verblijf."
+
+#: ../../content/facturation-partagee/configuration.md:18
+msgid "1. The accounting settings"
+msgstr "1\\. De boekhoudkundige instellingen"
+
+#: ../../content/facturation-partagee/configuration.md:20
+msgid "In **Settings → MR/MRS**, under the optional features:"
+msgstr "In **Instellingen → ROB/RVT**, onder de optionele functies:"
+
+#: ../../content/facturation-partagee/configuration.md:22
+msgid ""
+"**Split Billing Journal** — a journal of its own, separate from the resident"
+" journal."
+msgstr ""
+"**Dagboek gesplitste facturatie** — een eigen dagboek, los van het "
+"bewonersdagboek."
+
+#: ../../content/facturation-partagee/configuration.md:24
+msgid ""
+"**Split Billing Suspense Account** — the account that carries the resident "
+"statement."
+msgstr ""
+"**Wachtrekening gesplitste facturatie** — de rekening die de "
+"bewonersafrekening draagt."
+
+#: ../../content/facturation-partagee/configuration.md:27
+msgid "Required before generating"
+msgstr "Verplicht vóór elke generatie"
+
+#: ../../content/facturation-partagee/configuration.md:30
+msgid ""
+"Without these two settings, the generation of split invoices stops "
+"**before** touching anything. Nothing is produced, nothing is deleted."
+msgstr ""
+"Zonder deze twee instellingen stopt de generatie van gedeelde facturen "
+"**vóór** er iets aangeraakt wordt. Er wordt niets gemaakt en niets "
+"verwijderd."
+
+#: ../../content/facturation-partagee/configuration.md:34
+msgid "2. The debtors on the resident"
+msgstr "2\\. De schuldenaars op de bewoner"
+
+#: ../../content/facturation-partagee/configuration.md:36
+msgid "On the **resident's record**, **Billing** tab:"
+msgstr "Op de **bewonersfiche**, tabblad **Facturatie**:"
+
+#: ../../content/facturation-partagee/configuration.md:38
+msgid ""
+"Set **Invoice Type** to **Split Billing — Anticipatory** or **Split Billing "
+"— Arrears**, depending on whether the month is billed in advance or in "
+"arrears."
+msgstr ""
+"Zet het **Factuurtype** op **Gedeelde facturatie op voorschot** of "
+"**Gedeelde facturatie na afloop van de periode**, naargelang de maand vooraf"
+" of achteraf gefactureerd wordt."
+
+#: ../../content/facturation-partagee/configuration.md:41
+msgid ""
+"Fill in the **Split Billing Partners** list: the **debtor**, the "
+"**intervention type** (**Percentage**, **Fixed amount** or **Variable**), "
+"and the percentage or the amount."
+msgstr ""
+"Vul de lijst **Partners gesplitste facturatie** in: de **schuldenaar**, het "
+"**type tussenkomst** (**Percentage**, **Vast bedrag** of **Variabel**), en "
+"het percentage of het bedrag."
+
+#: ../../content/facturation-partagee/configuration.md:44
+msgid "Save."
+msgstr "Sla op."
+
+#: ../../content/facturation-partagee/configuration.md:46
+msgid ""
+"The order of the lines matters: the **last** line absorbs the rounding."
+msgstr ""
+"De volgorde van de regels telt: de **laatste** regel vangt de afronding op."
+
+#: ../../content/facturation-partagee/configuration.md:48
+msgid "Percentages balance themselves"
+msgstr "Percentages balanceren zichzelf"
+
+#: ../../content/facturation-partagee/configuration.md:51
+msgid ""
+"On saving, lines left at zero share what remains; otherwise the last "
+"untouched line absorbs the difference. Deleting a line frees its share to "
+"the last one. Fixed amounts are never rebalanced automatically."
+msgstr ""
+"Bij het opslaan verdelen de regels die op nul staan de rest; anders vangt de"
+" laatste onaangeroerde regel het verschil op. Een regel verwijderen geeft "
+"zijn aandeel aan de laatste. Vaste bedragen worden nooit automatisch "
+"herverdeeld."
+
+#: ../../content/facturation-partagee/configuration.md:56
+msgid "A few rules worth knowing:"
+msgstr "Enkele regels om te kennen:"
+
+#: ../../content/facturation-partagee/configuration.md:58
+msgid "a resident cannot be their own debtor, and each debtor appears once;"
+msgstr ""
+"een bewoner kan niet zijn eigen schuldenaar zijn, en elke schuldenaar komt "
+"één keer voor;"
+
+#: ../../content/facturation-partagee/configuration.md:59
+msgid "a fixed amount must be positive;"
+msgstr "een vast bedrag moet positief zijn;"
+
+#: ../../content/facturation-partagee/configuration.md:60
+msgid "**an archived debtor blocks generation**, naming the person concerned;"
+msgstr ""
+"**een gearchiveerde schuldenaar blokkeert de generatie**, met vermelding van"
+" de betrokken persoon;"
+
+#: ../../content/facturation-partagee/configuration.md:61
+msgid "a resident set to split billing **without any debtor** is refused."
+msgstr ""
+"een bewoner in gedeelde facturatie **zonder enige schuldenaar** wordt "
+"geweigerd."
+
+#: ../../content/facturation-partagee/configuration.md:63
+msgid "3. At admission"
+msgstr "3\\. Bij de opname"
+
+#: ../../content/facturation-partagee/configuration.md:65
+msgid ""
+"The [admission wizard](../admissions/admettre.md) carries the same list: the"
+" debtors can be recorded straight away. If the resident already has some, "
+"the wizard shows them for reference only, with a note saying to change them "
+"on the resident's record rather than in the dialog."
+msgstr ""
+"De [opnamewizard](../admissions/admettre.md) draagt dezelfde lijst: de "
+"schuldenaars kunnen meteen ingevoerd worden. Heeft de bewoner er al, dan "
+"toont de wizard ze enkel ter informatie, met een nota die naar de "
+"bewonersfiche verwijst in plaats van naar het venster."
+
+#: ../../content/facturation-partagee/configuration.md:70
+msgid "4. The terms are frozen on the stay"
+msgstr "4\\. De voorwaarden liggen vast op het verblijf"
+
+#: ../../content/facturation-partagee/configuration.md:72
+msgid ""
+"A stay bills under the terms it was **opened** with: the invoice type and "
+"the debtors are copied onto it. Changing the debtors on the resident today "
+"affects the **next** stay, not the one in progress."
+msgstr ""
+"Een verblijf factureert onder de voorwaarden waaronder het **geopend** werd:"
+" het factuurtype en de schuldenaars worden erop overgenomen. De schuldenaars"
+" vandaag wijzigen op de bewoner geldt voor het **volgende** verblijf, niet "
+"voor het lopende."
+
+#: ../../content/facturation-partagee/configuration.md:76
+msgid "What's next"
+msgstr "Hoe verder"
+
+#: ../../content/facturation-partagee/configuration.md:78
+msgid "[The documents produced](factures.md)"
+msgstr "[De geproduceerde documenten](factures.md)"
+
+#: ../../content/facturation-partagee/configuration.md:79
+msgid "[Invoicing a month, step by step](../facturation/facturer-un-mois.md)"
+msgstr ""
+"[Een maand factureren, stap voor stap](../facturation/facturer-un-mois.md)"

@@ -344,19 +344,25 @@
     background: var(--rh-app-icon) center / contain no-repeat; border-radius: 3px;
   }
   #__nav_2_1 + .md-nav__container > a { --rh-app-icon: url("app-icons/residents.png"); }
-  #__nav_2_2 + .md-nav__container > a { --rh-app-icon: url("app-icons/billing.png"); }
-  #__nav_2_4 + .md-nav__container > a { --rh-app-icon: url("app-icons/care.png"); }
-  #__nav_2_5 + .md-nav__container > a { --rh-app-icon: url("app-icons/care-mobile.png"); }
-  #__nav_2_6 + .md-nav__container > a { --rh-app-icon: url("app-icons/meals.png"); }
-  /* eHealth et Documents n'ont pas d'icône d'app : pictogramme à la couleur du texte. */
-  #__nav_2_3 + .md-nav__container > a::before,
-  #__nav_2_7 + .md-nav__container > a::before {
+  #__nav_2_3 + .md-nav__container > a { --rh-app-icon: url("app-icons/billing.png"); }
+  #__nav_2_4 + .md-nav__container > a { --rh-app-icon: url("app-icons/split-billing.png"); }
+  #__nav_2_5 + .md-nav__container > a { --rh-app-icon: url("app-icons/funding.png"); }
+  #__nav_2_7 + .md-nav__container > a { --rh-app-icon: url("app-icons/care.png"); }
+  #__nav_2_8 + .md-nav__container > a { --rh-app-icon: url("app-icons/care-mobile.png"); }
+  #__nav_2_9 + .md-nav__container > a { --rh-app-icon: url("app-icons/meals.png"); }
+  #__nav_2_10 + .md-nav__container > a { --rh-app-icon: url("app-icons/family-portal.png"); }
+  /* Admissions, eHealth et Documents n'ont pas d'icône d'app : pictogramme à la
+     couleur du texte. */
+  #__nav_2_2 + .md-nav__container > a::before,
+  #__nav_2_6 + .md-nav__container > a::before,
+  #__nav_2_11 + .md-nav__container > a::before {
     background: currentColor; opacity: 0.75;
     -webkit-mask: var(--rh-app-icon) center / contain no-repeat;
     mask: var(--rh-app-icon) center / contain no-repeat;
   }
-  #__nav_2_3 + .md-nav__container > a { --rh-app-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M20.5 9.5C20.5 12 12 20 12 20S3.5 12 3.5 9.5 5.5 5 8 5c1.5 0 3 1 4 2.5C13 6 14.5 5 16 5c2.5 0 4.5 2 4.5 4.5z'/></svg>"); }
-  #__nav_2_7 + .md-nav__container > a { --rh-app-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M6 2h8l4 4v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm7 1.5V8h4.5L13 3.5zM8 13h8v-2H8zm0 4h8v-2H8z'/></svg>"); }
+  #__nav_2_2 + .md-nav__container > a { --rh-app-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M5 3h7a2 2 0 012 2v3h-2V5H5v14h7v-3h2v3a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2zm11 5.6L20.4 13 16 17.4 14.6 16l2-2H9v-2h7.6l-2-2z'/></svg>"); }
+  #__nav_2_6 + .md-nav__container > a { --rh-app-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M20.5 9.5C20.5 12 12 20 12 20S3.5 12 3.5 9.5 5.5 5 8 5c1.5 0 3 1 4 2.5C13 6 14.5 5 16 5c2.5 0 4.5 2 4.5 4.5z'/></svg>"); }
+  #__nav_2_11 + .md-nav__container > a { --rh-app-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M6 2h8l4 4v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm7 1.5V8h4.5L13 3.5zM8 13h8v-2H8zm0 4h8v-2H8z'/></svg>"); }
 
   /* --- Mode sombre ------------------------------------------------------ */
   [data-md-color-scheme="slate"] .md-nav--primary > .md-nav__list > .md-nav__item--section > .md-nav__link { color: #8aa2ff; }

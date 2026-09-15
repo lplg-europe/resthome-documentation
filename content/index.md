@@ -34,11 +34,32 @@ The big picture: admission → MDA → eAgreement → Katz → eFact → payment
 Admission, stay, Katz and geriatric assessments, rooms and the condition report.
 :::
 
+:::{grid-item-card} Admissions
+:link: admissions/index
+:link-type: doc
+
+From the first enquiry to the move-in: the pipeline, the candidate's file, the admission.
+:::
+
 :::{grid-item-card} Billing
 :link: facturation/index
 :link-type: doc
 
 Billing periods, INAMI packages, supplements, absences and invoices.
+:::
+
+:::{grid-item-card} Split billing
+:link: facturation-partagee/index
+:link-type: doc
+
+The resident's share divided among several debtors, one invoice each.
+:::
+
+:::{grid-item-card} Institutional allowance
+:link: forfait/index
+:link-type: doc
+
+Computing the AViQ allowance from the days billed and the staff present.
 :::
 
 :::{grid-item-card} eHealth
@@ -67,6 +88,13 @@ The shift, the cares, the medication round, notes and vital signs on a phone or 
 :link-type: doc
 
 Menus and diets, meal distribution, nutrition monitoring and the family portal.
+:::
+
+:::{grid-item-card} Family portal
+:link: portail-famille/index
+:link-type: doc
+
+What relatives may see: liaison notebook, documents, invoices, health summary.
 :::
 
 :::{grid-item-card} Resident documents
@@ -108,11 +136,15 @@ parcours-facturation
 :caption: Applications
 
 residents/index
+admissions/index
 facturation/index
+facturation-partagee/index
+forfait/index
 ehealth/index
 soins/index
 soins-mobile/index
 repas/index
+portail-famille/index
 documents/index
 :::
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-01 06:29+0200\n"
+"POT-Creation-Date: 2026-09-16 01:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nl <LL@li.org>\n"
@@ -34,7 +34,7 @@ msgstr ""
 "verblijf, Katz- en geriatrische evaluaties, kamers, plaatsbeschrijving en "
 "privémeubilair."
 
-#: ../../content/residents/index.md:22
+#: ../../content/residents/index.md:21
 msgid ""
 "Everything about a resident's life in the facility, from the first contact "
 "to the daily record: **admission**, **stay**, **assessments (Katz)**, "
@@ -47,7 +47,7 @@ msgstr ""
 "fiche waarop de andere toepassingen voortbouwen — zorg, maaltijden en "
 "facturatie."
 
-#: ../../content/residents/index.md:27
+#: ../../content/residents/index.md:26
 msgid ""
 "![Residents kanban: one card per resident with the reference, the MR or MRS "
 "stay type, the age and the room "
@@ -57,7 +57,7 @@ msgstr ""
 "verblijfstype MR of MRS, de leeftijd en de bezette "
 "kamer](../assets/screenshots/residents/04-liste-residents.png)"
 
-#: ../../content/residents/index.md:27
+#: ../../content/residents/index.md:26
 msgid ""
 "Residents kanban: one card per resident with the reference, the MR or MRS "
 "stay type, the age and the room occupied"
@@ -65,17 +65,19 @@ msgstr ""
 "Kanban van de bewoners: één kaart per bewoner met de referentie, het "
 "verblijfstype MR of MRS, de leeftijd en de bezette kamer"
 
-#: ../../content/residents/index.md:29
+#: ../../content/residents/index.md:28
 msgid "Key principles"
 msgstr "Kernprincipes"
 
-#: ../../content/residents/index.md:31
+#: ../../content/residents/index.md:30
 msgid ""
-"**Admission**: managed as a **CRM pipeline**, from the first contact to the "
-"move-in; a wizard creates the resident and opens their stay."
+"**Admission**: handled in its own application, from the first enquiry to the"
+" move-in; it creates the resident and opens their stay. See "
+"[Admissions](../admissions/index.md)."
 msgstr ""
-"**Opname**: beheerd als een **CRM-pijplijn**, van het eerste contact tot de "
-"intrede; een assistent maakt de bewoner aan en opent zijn verblijf."
+"**Opname**: behandeld in een eigen toepassing, van de eerste aanvraag tot de"
+" verhuizing; ze maakt de bewoner aan en opent zijn verblijf. Zie "
+"[Opnames](../admissions/index.md)."
 
 #: ../../content/residents/index.md:33
 msgid ""
@@ -115,20 +117,14 @@ msgid "What's next"
 msgstr "Verder"
 
 #: ../../content/residents/index.md:44
-msgid ""
-"[Admissions (CRM pipeline)](admissions.md) — from first contact to move-in."
-msgstr ""
-"[Opnames (CRM-pijplijn)](admissions.md) — van eerste contact tot intrede."
-
-#: ../../content/residents/index.md:45
 msgid "[Managing a resident](gerer-un-resident.md) — the central record."
 msgstr "[Een bewoner beheren](gerer-un-resident.md) — de centrale fiche."
 
-#: ../../content/residents/index.md:46
+#: ../../content/residents/index.md:45
 msgid "[The Katz assessment](katz.md) — dependency scoring and category."
 msgstr "[De Katz-evaluatie](katz.md) — afhankelijkheidsscore en categorie."
 
-#: ../../content/residents/index.md:47
+#: ../../content/residents/index.md:46
 msgid ""
 "[Geriatric assessments (beyond Katz)](evaluations.md) — MNA, Braden and "
 "others."
@@ -136,22 +132,27 @@ msgstr ""
 "[Geriatrische evaluaties (buiten Katz)](evaluations.md) — MNA, Braden en "
 "andere."
 
-#: ../../content/residents/index.md:48
+#: ../../content/residents/index.md:47
 msgid "[Room change and transfer](changement-chambre.md)"
 msgstr "[Kamerwissel en overdracht](changement-chambre.md)"
 
-#: ../../content/residents/index.md:49
+#: ../../content/residents/index.md:48
 msgid "[Rooms and occupancy](chambres.md)"
 msgstr "[Kamers en bezetting](chambres.md)"
 
-#: ../../content/residents/index.md:50
+#: ../../content/residents/index.md:49
 msgid "[The condition report (move-in and move-out)](etat-des-lieux.md)"
 msgstr "[De plaatsbeschrijving (intrede en uittrede)](etat-des-lieux.md)"
 
-#: ../../content/residents/index.md:51
+#: ../../content/residents/index.md:50
 msgid "[The move-in procedure](procedure-emmenagement.md)"
 msgstr "[De intredeprocedure](procedure-emmenagement.md)"
 
-#: ../../content/residents/index.md:52
+#: ../../content/residents/index.md:51
 msgid "[The resident's private furniture](mobilier.md)"
 msgstr "[Het privémeubilair van de bewoner](mobilier.md)"
+
+#~ msgid ""
+#~ "[Admissions (CRM pipeline)](admissions.md) — from first contact to move-in."
+#~ msgstr ""
+#~ "[Opnames (CRM-pijplijn)](admissions.md) — van eerste contact tot intrede."

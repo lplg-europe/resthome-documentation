@@ -111,7 +111,7 @@ This is the step that decides **who** the resident-share invoice goes to.
   *Default payer* group) to the **CPAS** contact. The monthly resident-share
   invoice will then be **sent to the CPAS**.
 - **The CPAS pays part of it** → use
-  [maintenance debtors (split billing)](split-billing.md): add the CPAS as a debtor
+  [maintenance debtors (split billing)](../facturation-partagee/index.md): add the CPAS as a debtor
   with its **percentage**, and the remaining payers (resident, family) for the
   balance.
 
@@ -133,7 +133,7 @@ billing**. Without one of these two levers, the resident share keeps being sent
 | Track the CPAS decision (financial audit) | Yes, as soon as it's entered |
 | Switch the **Default payer** to CPAS when you tick "Covered by CPAS" | Yes |
 | Send the invoice to the CPAS | No — via the **Billing contact** |
-| Split the resident share between CPAS and family | No — via [split billing](split-billing.md) |
+| Split the resident share between CPAS and family | No — via [split billing](../facturation-partagee/index.md) |
 | Deduct the **CPAS monthly amount** from the billed amounts | No — informational field |
 
 ## Key points to remember
@@ -154,5 +154,5 @@ billing**. Without one of these two levers, the resident share keeps being sent
 
 - [Manage a resident](../residents/gerer-un-resident.md)
 - [Bill a month](facturer-un-mois.md)
-- [Maintenance debtors (split billing)](split-billing.md)
+- [Maintenance debtors (split billing)](../facturation-partagee/index.md)
 - [The INAMI dependency allowance](forfait-inami.md)

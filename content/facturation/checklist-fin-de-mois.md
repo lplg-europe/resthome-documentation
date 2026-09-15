@@ -107,7 +107,7 @@ invoicing, not after.
 Click **Create invoices**. The resident's share becomes an invoice; where a
 split is set up, each maintenance debtor receives their portion.
 
-→ [Maintenance debtors](split-billing.md) · [Public welfare centre (CPAS)](cpas.md)
+→ [Maintenance debtors](../facturation-partagee/index.md) · [Public welfare centre (CPAS)](cpas.md)
 
 :::{admonition} After this point, corrections have a cost
 :class: warning
