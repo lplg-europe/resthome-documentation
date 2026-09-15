@@ -55,6 +55,13 @@ Insurability (MDA), electronic invoicing (eFact) and agreements (eAgreement).
 Clinical record, prescriptions, care plans and clinical registers.
 :::
 
+:::{grid-item-card} Care app
+:link: soins-mobile/index
+:link-type: doc
+
+The shift, the cares, the medication round, notes and vital signs on a phone or tablet.
+:::
+
 :::{grid-item-card} Meals
 :link: repas/index
 :link-type: doc
@@ -89,16 +96,39 @@ readable by AI assistants — you can ask your question in plain language.
 :::{toctree}
 :hidden:
 :maxdepth: 2
+:caption: Getting started
 
 premiers-pas
 parcours-facturation
+:::
+
+:::{toctree}
+:hidden:
+:maxdepth: 2
+:caption: Applications
+
 residents/index
 facturation/index
 ehealth/index
 soins/index
+soins-mobile/index
 repas/index
 documents/index
+:::
+
+:::{toctree}
+:hidden:
+:maxdepth: 2
+:caption: Administration
+
 configuration/index
+:::
+
+:::{toctree}
+:hidden:
+:maxdepth: 2
+:caption: Help
+
 faq
 glossaire
 support

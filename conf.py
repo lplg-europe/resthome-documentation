@@ -63,6 +63,10 @@ html_title = "Resthome docs"
 html_theme_options = {
     "site_url": "https://www.lplg.eu/resthome/documentation/",
     "font": False,   # pas de fetch Google Fonts au build ; notre CSS importe Inter/Roboto Slab
+    # Arbre COMPLET dans la barre latérale : sans ça le thème n'écrit que les
+    # sous-pages de la section active, et les autres sections ne peuvent pas
+    # porter de chevron dépliable (disposition « à la Odoo »).
+    "globaltoc_collapse": False,
     "palette": [
         {"media": "(prefers-color-scheme: light)", "scheme": "default",
          "toggle": {"icon": "material/weather-night", "name": "Mode sombre"}},

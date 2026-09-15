@@ -101,8 +101,12 @@ def cmd_preview(args):
                                directory=str(site))
     # allow_reuse_address : sans lui, un relancement immediat apres Ctrl+C
     # echoue avec « Address already in use » pendant la temporisation TIME_WAIT.
-    class Server(socketserver.TCPServer):
+    # Threading : un TCPServer simple traite UNE requete a la fois ; une seule
+    # connexion restee ouverte (onglet, apercu) figeait tout le site (16/09/2026 :
+    # port a l'ecoute, plus aucune reponse).
+    class Server(socketserver.ThreadingTCPServer):
         allow_reuse_address = True
+        daemon_threads = True
     try:
         with Server(("", args.port), handler) as httpd:
             httpd.serve_forever()
