@@ -20,7 +20,7 @@ PORT      ?= 8010
 LIVE_PORT ?= 8011
 
 .DEFAULT_GOAL := help
-.PHONY: help build serve preview live check gettext pdf pdf-nl publish clean
+.PHONY: help build serve preview live check gettext ai-index pdf pdf-nl publish clean
 
 help:
 	@$(MK) help --port $(PORT) --live-port $(LIVE_PORT)
@@ -45,6 +45,20 @@ check:
 
 gettext:
 	$(PY) build_docs.py --gettext
+
+# L'index que l'assistant de `widecare_ai` interroge dans Odoo. Le site doit
+# etre construit AVANT : l'index est decoupe dans le HTML publie, traductions
+# comprises. La copie vers le module est faite ici, pas par le script : un
+# script de construction n'ecrit pas dans un autre depot sans qu'on le demande.
+AI_MODULE ?= ../resthome/resthome-odoo/widecare_ai/data/doc-index
+ai-index:
+	$(PY) docs-ops/gen_doc_index.py
+	@if [ -d "$(AI_MODULE)" ]; then \
+		cp _publish/doc-index/*.json "$(AI_MODULE)/" ; \
+		echo "Index copie dans $(AI_MODULE) — deployer avec : make update module=widecare_ai db=<base>" ; \
+	else \
+		echo "Module widecare_ai introuvable ($(AI_MODULE)) : index laisse dans _publish/doc-index/" ; \
+	fi
 
 pdf:
 	$(PY) build_pdf.py fr

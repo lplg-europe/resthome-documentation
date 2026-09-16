@@ -165,7 +165,7 @@ Source : https://www.lplg.eu/resthome/documentation/parcours-facturation/
 
 # Le parcours de facturation
 
-De l”**admission** au **paiement**, une facture correcte suit toujours les mêmes étapes. Cette page relie l’ensemble du parcours ; chaque étape renvoie vers sa page détaillée.
+De l’**admission** au **paiement**, une facture correcte suit toujours les mêmes étapes. Cette page relie l’ensemble du parcours ; chaque étape renvoie vers sa page détaillée.
 
 ```
 flowchart TD
@@ -189,7 +189,7 @@ Admission ─► MDA ─► eAgreement ─► Katz ─► eFact ─► Payment
 
 En pratique
 
-L”**assurabilité (MDA)** en début de mois et une **évaluation Katz validée** sont les deux préalables qui évitent la plupart des rejets eFact. Traitez-les avant de générer les factures.
+L’**assurabilité (MDA)** en début de mois et une **évaluation Katz validée** sont les deux préalables qui évitent la plupart des rejets eFact. Traitez-les avant de générer les factures.
 
 
 ---
@@ -235,7 +235,7 @@ Source : https://www.lplg.eu/resthome/documentation/residents/gerer-un-resident/
 
 # Gérer un habitant
 
-Cette page décrit le parcours complet d’un habitant dans Resthome : de sa **création** à son **séjour actif**, en passant par l”**évaluation Katz** qui conditionne la facturation INAMI.
+Cette page décrit le parcours complet d’un habitant dans Resthome : de sa **création** à son **séjour actif**, en passant par l’**évaluation Katz** qui conditionne la facturation INAMI.
 
 ## Vue d’ensemble
 
@@ -302,8 +302,8 @@ Au démarrage, Resthome :
 
 - ajoute l’habitant aux **périodes de facturation** ouvertes ;
 - crée, pour un habitant facturé en avance, la **première facture d’hébergement** du mois d’admission ;
-- ouvre l”**enveloppe de suppléments** du mois ;
-- crée l”**eAgreement d’admission** (si le NISS est présent).
+- ouvre l’**enveloppe de suppléments** du mois ;
+- crée l’**eAgreement d’admission** (si le NISS est présent).
 
 ## 4. Saisir l’évaluation Katz
 
@@ -344,7 +344,7 @@ Source : https://www.lplg.eu/resthome/documentation/residents/katz/
 
 # L’évaluation Katz
 
-L”**échelle de Katz** mesure le degré de **dépendance** d’un habitant. C’est elle qui détermine sa **catégorie** de soins et donc le **forfait INAMI** remboursé par la mutuelle. Dans Resthome, la saisie est guidée et le calcul est automatique.
+L’**échelle de Katz** mesure le degré de **dépendance** d’un habitant. C’est elle qui détermine sa **catégorie** de soins et donc le **forfait INAMI** remboursé par la mutuelle. Dans Resthome, la saisie est guidée et le calcul est automatique.
 
 ![Liste des évaluations Katz : une ligne par habitant avec la catégorie, le score total, la date de prochaine évaluation et l'indicateur de renouvellement](../../_images/01-evaluations.png)
 
@@ -433,7 +433,7 @@ Source : https://www.lplg.eu/resthome/documentation/residents/evaluations/
 
 # Les évaluations gériatriques (hors Katz)
 
-Au-delà de l”[échelle de Katz](../katz/), Resthome regroupe les principales **échelles gériatriques** utilisées en maison de repos (MR/MRS) pour objectiver la cognition, le risque d’escarre, l’état nutritionnel, la santé bucco-dentaire et le risque de chute. Vous les retrouvez à deux endroits :
+Au-delà de l’[échelle de Katz](../katz/), Resthome regroupe les principales **échelles gériatriques** utilisées en maison de repos (MR/MRS) pour objectiver la cognition, le risque d’escarre, l’état nutritionnel, la santé bucco-dentaire et le risque de chute. Vous les retrouvez à deux endroits :
 
 - sur la **fiche de l’habitant**, onglet **« Evaluation Tools »**, où chaque échelle affiche l’historique de l’habitant et permet une saisie directe ;
 - via le menu **Healthcare > Evaluation Tools**, qui liste toutes les évaluations de l’établissement, échelle par échelle.
@@ -523,7 +523,7 @@ Le suivi de la dénutrition (rappels de re-cotation MNA, apports vs besoins, hyd
 
 ## OHAT — santé bucco-dentaire
 
-L”**OHAT** (Oral Health Assessment Tool) évalue la **santé bucco-dentaire** en **8 catégories**, cotées de 0 (sain) à 2 (à traiter) : lèvres, langue, gencives et tissus, salive, dents naturelles, prothèses, propreté buccale et douleur dentaire.
+L’**OHAT** (Oral Health Assessment Tool) évalue la **santé bucco-dentaire** en **8 catégories**, cotées de 0 (sain) à 2 (à traiter) : lèvres, langue, gencives et tissus, salive, dents naturelles, prothèses, propreté buccale et douleur dentaire.
 
 Le total va de 0 à 16. **Ici, plus le score est haut, plus la situation est préoccupante.**
 
@@ -539,7 +539,7 @@ Les catégories **Dents naturelles** et **Prothèses** disposent d’une option 
 
 ## Tinetti — équilibre, marche et risque de chute
 
-L’échelle de **Tinetti** (POMA) évalue l”**équilibre** et la **marche** pour estimer le **risque de chute** :
+L’échelle de **Tinetti** (POMA) évalue l’**équilibre** et la **marche** pour estimer le **risque de chute** :
 
 - Section Équilibre : 9 items, /16
 - Section Marche : /12
@@ -562,7 +562,7 @@ L’onglet « Evaluation Tools » propose **Tinetti**. Pour l’échelle de **Mo
 Toutes les échelles suivent le même circuit :
 
 1. Ouvrez l’échelle : depuis l’onglet **« Evaluation Tools »** de l’habitant, ou via **Healthcare > Evaluation Tools**.
-2. **Nouveau** : l’habitant, la **date** (aujourd’hui par défaut) et l”**évaluateur** (vous) sont pré-remplis. Cotez les items.
+2. **Nouveau** : l’habitant, la **date** (aujourd’hui par défaut) et l’**évaluateur** (vous) sont pré-remplis. Cotez les items.
 3. **Confirmer** : l’évaluation passe de **Brouillon** à **Confirmé**.
 4. **Valider** : l’infirmier-chef ou le médecin valide ; l’évaluation passe à **Validé**, avec le validateur et la date de validation enregistrés.
 
@@ -574,11 +574,11 @@ Une évaluation **validée** est **verrouillée** : ses cotations ne sont plus m
 
 Une évaluation par jour
 
-Il ne peut exister qu”**une seule évaluation par habitant, par date et par échelle**. La date ne peut pas être dans le futur, et aucune évaluation ne peut être créée pour un habitant décédé.
+Il ne peut exister qu’**une seule évaluation par habitant, par date et par échelle**. La date ne peut pas être dans le futur, et aucune évaluation ne peut être créée pour un habitant décédé.
 
 ## Suivi et ré-évaluation
 
-- L’onglet « Evaluation Tools » conserve l”**historique daté** de chaque échelle : pour ré-évaluer, saisissez une **nouvelle évaluation** à une nouvelle date.
+- L’onglet « Evaluation Tools » conserve l’**historique daté** de chaque échelle : pour ré-évaluer, saisissez une **nouvelle évaluation** à une nouvelle date.
 - L’échelle de **Katz** a son propre **cycle de renouvellement** (échéance de validité, rappels). Voir [L’évaluation Katz](../katz/).
 - Pour un **cycle de ré-évaluation périodique** structuré (échéance calculée, décision maintenir / modifier / arrêter, journal de suivi), utilisez les [registres cliniques](../../soins/registres/).
 
@@ -652,7 +652,7 @@ Source : https://www.lplg.eu/resthome/documentation/residents/chambres/
 
 # Les chambres et l’occupation
 
-L’espace **Chambres** vous donne une vue en temps réel de l”**occupation** de l’établissement : quelles chambres sont libres, occupées, réservées ou en travaux, combien de lits restent disponibles, et à quel tarif. Depuis une chambre, vous pouvez aussi **assigner directement un habitant**, ce qui ouvre son séjour.
+L’espace **Chambres** vous donne une vue en temps réel de l’**occupation** de l’établissement : quelles chambres sont libres, occupées, réservées ou en travaux, combien de lits restent disponibles, et à quel tarif. Depuis une chambre, vous pouvez aussi **assigner directement un habitant**, ce qui ouvre son séjour.
 
 Vous le trouvez dans l’application **MR/MRS → Hébergement → Chambres**.
 
@@ -760,7 +760,7 @@ Assigner depuis la chambre un habitant **déjà logé** effectue un **transfert*
 
 La structure des chambres se prépare dans la configuration, via **MR/MRS → Configuration → Chambres** :
 
-- **Types de chambres** — définissez chaque type (individuelle, double…), son **tarif journalier**, sa **capacité par défaut** et l”**article de facturation** associé. Le tarif d’une chambre découle de son type.
+- **Types de chambres** — définissez chaque type (individuelle, double…), son **tarif journalier**, sa **capacité par défaut** et l’**article de facturation** associé. Le tarif d’une chambre découle de son type.
 - **Équipement de chambre** — tenez le **catalogue** des équipements proposés (confort, médical, technologie, extérieur), que vous cochez ensuite sur chaque fiche chambre.
 
 Pour le détail des réglages, voir [Configuration](../../configuration/).
@@ -788,7 +788,7 @@ Source : https://www.lplg.eu/resthome/documentation/residents/etat-des-lieux/
 
 # L’état des lieux (entrée et sortie)
 
-L”**état des lieux** consigne l”**état d’une chambre** et de ses équipements à un moment précis : à l”**entrée** de l’habitant, puis à sa **sortie**. C’est un **constat contradictoire** à valeur légale, signé par l’habitant (ou son représentant) et par l’établissement. Vous le trouvez dans le menu **Hébergement ▸ États des lieux**.
+L’**état des lieux** consigne l’**état d’une chambre** et de ses équipements à un moment précis : à l’**entrée** de l’habitant, puis à sa **sortie**. C’est un **constat contradictoire** à valeur légale, signé par l’habitant (ou son représentant) et par l’établissement. Vous le trouvez dans le menu **Hébergement ▸ États des lieux**.
 
 Chaque état des lieux relie un **habitant**, une **chambre** et un **représentant**, liste les **équipements** constatés (conformes ou non), et produit un **rapport PDF** à votre en-tête, prêt à signer.
 
@@ -826,7 +826,7 @@ Ces deux champs restent modifiables si besoin.
 
 Renseignez le champ **Type d’état des lieux** :
 
-- **Entrée** — l’état de la chambre au moment de l”**arrivée** de l’habitant.
+- **Entrée** — l’état de la chambre au moment de l’**arrivée** de l’habitant.
 - **Sortie** — l’état au moment du **départ**, à comparer avec l’entrée.
 
 Le type détermine le **badge** affiché sur le rapport PDF (Entrée / Sortie).
@@ -1119,7 +1119,7 @@ Resthome automatise la facturation MR/MRS : la **part mutuelle** (forfait INAMI)
 - **Période de facturation** : un mois. On la **génère**, puis on **facture**.
 - **Forfait INAMI** : calculé selon la **catégorie Katz** et les jours de présence ; c’est la part remboursée par la mutuelle.
 - **Hébergement** : la part payée par l’habitant (la chambre), selon le tarif.
-- **Suppléments** : prestations ponctuelles ou récurrentes (chambre individuelle, TV, coiffeur…), via l”**enveloppe de suppléments** de l’habitant.
+- **Suppléments** : prestations ponctuelles ou récurrentes (chambre individuelle, TV, coiffeur…), via l’**enveloppe de suppléments** de l’habitant.
 - **Absences** : une absence (hospitalisation, vacances) **réduit le forfait** sur la période concernée et peut déclencher une notification eHealth.
 
 Facturation anticipative
@@ -1139,7 +1139,7 @@ Bon à savoir
 
 1. **Nouvelle période** (le mois).
 2. **Générer** les lignes de facturation.
-3. Vérifier l”**assurabilité (MDA)** des habitants.
+3. Vérifier l’**assurabilité (MDA)** des habitants.
 4. **Créer les factures** (part habitant).
 5. **Comptabiliser** les factures.
 6. **Générer l’eFact** (part mutuelle) puis l’envoyer.
@@ -1168,13 +1168,13 @@ Source : https://www.lplg.eu/resthome/documentation/facturation/forfait-inami/
 
 # Le forfait INAMI (dépendance)
 
-Le **forfait de dépendance** est le montant **journalier** pris en charge par la mutuelle pour les **soins** d’un habitant. Il dépend de son **degré de dépendance**, mesuré par l”**[évaluation Katz](../../residents/katz/)**, et il est envoyé à l’organisme assureur (OA) via la **[facturation électronique (eFact)](../../ehealth/efact/)**.
+Le **forfait de dépendance** est le montant **journalier** pris en charge par la mutuelle pour les **soins** d’un habitant. Il dépend de son **degré de dépendance**, mesuré par l’**[évaluation Katz](../../residents/katz/)**, et il est envoyé à l’organisme assureur (OA) via la **[facturation électronique (eFact)](../../ehealth/efact/)**.
 
 Cette page explique la chaîne complète : **évaluation Katz → catégorie → montant facturé**.
 
 ## De l’évaluation Katz à la catégorie
 
-L”[évaluation Katz](../../residents/katz/) cote **6 critères** (se laver, s’habiller, transfert et déplacements, aller à la toilette, continence, manger) de **1** (autonome) à **4** (totalement dépendant). À partir de ces cotations, Resthome calcule une **catégorie de dépendance**, qui est **déclarée à la mutuelle** :
+L’[évaluation Katz](../../residents/katz/) cote **6 critères** (se laver, s’habiller, transfert et déplacements, aller à la toilette, continence, manger) de **1** (autonome) à **4** (totalement dépendant). À partir de ces cotations, Resthome calcule une **catégorie de dépendance**, qui est **déclarée à la mutuelle** :
 
 | Catégorie | Dépendance | Forfait INAMI |
 | --- | --- | --- |
@@ -1187,11 +1187,11 @@ L”[évaluation Katz](../../residents/katz/) cote **6 critères** (se laver, s�
 
 Le montant est le même pour toutes les catégories
 
-Dans les tarifs **AViQ**, le **montant** du forfait de dépendance est **identique pour toutes les catégories Katz**, y compris **O** : un **tarif journalier unique**, indexé chaque année (par ex. **85,72 €/jour en 2026**). La catégorie ne change donc **pas le montant** — elle sert à **déclarer le bon profil** à la mutuelle (l”**accord OA**) et aux **normes de soins**. Le tarif reste **configurable par catégorie** dans *Configuration → INAMI Rates* si une convention l’exige.
+Dans les tarifs **AViQ**, le **montant** du forfait de dépendance est **identique pour toutes les catégories Katz**, y compris **O** : un **tarif journalier unique**, indexé chaque année (par ex. **85,72 €/jour en 2026**). La catégorie ne change donc **pas le montant** — elle sert à **déclarer le bon profil** à la mutuelle (l’**accord OA**) et aux **normes de soins**. Le tarif reste **configurable par catégorie** dans *Configuration → INAMI Rates* si une convention l’exige.
 
 Catégorie O par défaut
 
-Tant qu’aucune évaluation Katz n’est **validée**, l’habitant est en catégorie **O** par défaut et un rappel **« Katz à faire »** apparaît. Validez l’évaluation Katz pour **déclarer la bonne catégorie** à la mutuelle et obtenir l”**accord** correspondant.
+Tant qu’aucune évaluation Katz n’est **validée**, l’habitant est en catégorie **O** par défaut et un rappel **« Katz à faire »** apparaît. Validez l’évaluation Katz pour **déclarer la bonne catégorie** à la mutuelle et obtenir l’**accord** correspondant.
 
 Patient comateux
 
@@ -1209,7 +1209,7 @@ Le forfait facturé pour un habitant suit une règle simple :
 
 Forfait = mutuelle · hébergement = habitant
 
-Le **forfait de dépendance** est pris en charge à **100 % par la mutuelle** (tiers payant, via l’eFact). L”**hébergement** (la chambre) est une **ligne distincte**, à charge du **habitant**. Les deux avancent en parallèle sur la même période de facturation.
+Le **forfait de dépendance** est pris en charge à **100 % par la mutuelle** (tiers payant, via l’eFact). L’**hébergement** (la chambre) est une **ligne distincte**, à charge du **habitant**. Les deux avancent en parallèle sur la même période de facturation.
 
 ## Catégorie clinique et catégorie facturée
 
@@ -1218,7 +1218,7 @@ Deux notions coexistent, et il est important de ne pas les confondre :
 - La **catégorie clinique** — votre **dernière évaluation Katz validée** ; elle reflète la dépendance réelle et sert aux soins.
 - La **catégorie facturée** — celle qui figure sur la facture envoyée à la mutuelle.
 
-**Elles peuvent différer.** La mutuelle rembourse **la catégorie qu’elle a approuvée** dans l”**[accord (eAgreement)](../../ehealth/eagreement/)**, pas forcément votre dernière évaluation. Concrètement :
+**Elles peuvent différer.** La mutuelle rembourse **la catégorie qu’elle a approuvée** dans l’**[accord (eAgreement)](../../ehealth/eagreement/)**, pas forcément votre dernière évaluation. Concrètement :
 
 - Si un **accord OA** est en vigueur → on facture **la catégorie de cet accord**.
 - Si un **changement de catégorie** est demandé mais l’accord est **encore en attente** de la mutuelle → Resthome **maintient la catégorie précédente** en facturation.
@@ -1230,11 +1230,11 @@ Facturer une catégorie qui **diverge de l’accord** provoque un **rejet** de l
 
 ## Aggravation de la dépendance
 
-Si l’état d’un habitant se dégrade, saisissez une **nouvelle évaluation Katz** avec un **motif d’aggravation**. Resthome prépare la mise à jour de l’accord de soins (**Annexe 10**), avec le motif repris automatiquement et la **signature** du clinicien. La **nouvelle catégorie** ne devient **facturée** qu’une fois l”**accord de la mutuelle obtenu** (voir ci-dessus).
+Si l’état d’un habitant se dégrade, saisissez une **nouvelle évaluation Katz** avec un **motif d’aggravation**. Resthome prépare la mise à jour de l’accord de soins (**Annexe 10**), avec le motif repris automatiquement et la **signature** du clinicien. La **nouvelle catégorie** ne devient **facturée** qu’une fois l’**accord de la mutuelle obtenu** (voir ci-dessus).
 
 ## Configurer les tarifs de forfait
 
-Les tarifs sont configurés dans l’application **MR/MRS → Configuration → INAMI Rates** : un **tarif par catégorie Katz**, avec une **période de validité**. Resthome applique automatiquement le tarif en vigueur à la date de facturation. Pour l”**indexation annuelle**, on ajoute une nouvelle ligne de tarif (nouvelle date de début) et on clôture l’ancienne. Le même écran gère aussi le **tarif d’hébergement** (à charge de l’habitant).
+Les tarifs sont configurés dans l’application **MR/MRS → Configuration → INAMI Rates** : un **tarif par catégorie Katz**, avec une **période de validité**. Resthome applique automatiquement le tarif en vigueur à la date de facturation. Pour l’**indexation annuelle**, on ajoute une nouvelle ligne de tarif (nouvelle date de début) et on clôture l’ancienne. Le même écran gère aussi le **tarif d’hébergement** (à charge de l’habitant).
 
 ## Points clés
 
@@ -1365,7 +1365,7 @@ Pour chaque habitant et chaque période, Resthome tient une **enveloppe** qui ra
 
 ## Ajouter un supplément
 
-1. Ouvrez l”**enveloppe de suppléments** de l’habitant (depuis sa fiche ou la période de facturation).
+1. Ouvrez l’**enveloppe de suppléments** de l’habitant (depuis sa fiche ou la période de facturation).
 2. Ajoutez une ligne : **produit/prestation**, **quantité**, **prix**.
 3. Indiquez s’il est **ponctuel** (une fois) ou **récurrent** (chaque mois).
 4. **Enregistrez.**
@@ -1377,7 +1377,7 @@ Ajouter, modifier ou retirer un supplément **met à jour automatiquement** la f
 ## Suppléments ponctuels et récurrents
 
 - **Ponctuel** : facturé une seule fois (ex. une coupe chez le coiffeur).
-- **Récurrent** : reconduit chaque mois tant qu’il est actif (ex. supplément chambre individuelle, TV). Vous pouvez l”**arrêter** à tout moment ; il cesse d’être facturé le mois suivant.
+- **Récurrent** : reconduit chaque mois tant qu’il est actif (ex. supplément chambre individuelle, TV). Vous pouvez l’**arrêter** à tout moment ; il cesse d’être facturé le mois suivant.
 
 Mois déjà comptabilisé
 
@@ -1406,7 +1406,7 @@ Vous la trouvez dans le **menu principal → application Suppléments**.
 
 Cette page complète « Les suppléments »
 
-Les notions de base — l”**enveloppe de suppléments** par habitant et par mois, la **synchronisation automatique** de la facture, la protection quand un mois est déjà comptabilisé — sont expliquées dans [Les suppléments](../supplements/). Cette page-ci décrit l”**application dédiée** et ses raccourcis de saisie. L’application ne crée aucune donnée parallèle : elle agit sur les mêmes enveloppes et les mêmes conventions.
+Les notions de base — l’**enveloppe de suppléments** par habitant et par mois, la **synchronisation automatique** de la facture, la protection quand un mois est déjà comptabilisé — sont expliquées dans [Les suppléments](../supplements/). Cette page-ci décrit l’**application dédiée** et ses raccourcis de saisie. L’application ne crée aucune donnée parallèle : elle agit sur les mêmes enveloppes et les mêmes conventions.
 
 ![Application Suppléments sur l'écran Habitants en vue kanban, une carte par habitant avec la chambre et le type de séjour](../../_images/01-app-supplements-residents.webp)
 
@@ -1452,7 +1452,7 @@ L’application distingue les deux natures de suppléments déjà présentées d
 
 Où est passé mon supplément ?
 
-À chaque ajout, Resthome affiche une notification indiquant **sur quelle(s) période(s)** le supplément a été facturé — ou vous prévient qu”**aucune période ouverte** ne correspond encore à sa date (il ne sera alors facturé que lorsque le mois concerné sera généré). Vérifiez la **date de début** si le supplément n’apparaît pas où vous l’attendiez.
+À chaque ajout, Resthome affiche une notification indiquant **sur quelle(s) période(s)** le supplément a été facturé — ou vous prévient qu’**aucune période ouverte** ne correspond encore à sa date (il ne sera alors facturé que lorsque le mois concerné sera généré). Vérifiez la **date de début** si le supplément n’apparaît pas où vous l’attendiez.
 
 ## Les conventions de suppléments
 
@@ -1600,7 +1600,7 @@ Quand un habitant quitte l’établissement ou décède, il suffit de **clôture
 
 - **Arrêt de la facturation** à la bonne date : plus rien n’est facturé après la sortie.
 - **Note de crédit de l’hébergement prépayé** : comme l’hébergement est facturé **un mois à l’avance** (facturation anticipative), si l’habitant part en cours de mois déjà facturé, Resthome prépare **automatiquement une note de crédit** pour rembourser la période non occupée. Vous êtes **notifié** de sa création.
-- **Notification eHealth** : la sortie prépare l”**Annexe 11** vers la mutuelle. Voir [Accords (eAgreement)](../../ehealth/eagreement/).
+- **Notification eHealth** : la sortie prépare l’**Annexe 11** vers la mutuelle. Voir [Accords (eAgreement)](../../ehealth/eagreement/).
 
 Facturation anticipative, en clair
 
@@ -1627,7 +1627,7 @@ Source : https://www.lplg.eu/resthome/documentation/facturation/note-de-frais-an
 
 # La note de frais (Annexe 12)
 
-L”**Annexe 12** est le document officiel qui justifie, mois par mois, les frais d’hébergement et de soins d’un habitant de maison de repos (MR/MRS). Resthome la produit sous deux formes complémentaires :
+L’**Annexe 12** est le document officiel qui justifie, mois par mois, les frais d’hébergement et de soins d’un habitant de maison de repos (MR/MRS). Resthome la produit sous deux formes complémentaires :
 
 - la **Note de Frais Individuelle** — un justificatif détaillé **par habitant** ;
 - la **Note de Frais Récapitulative** — un tableau **par organisme assureur (O.A.)** qui regroupe tous les habitants d’une même mutuelle.
@@ -1651,13 +1651,13 @@ Chaque ligne de la note récapitulative porte un **n° de note individuelle** qu
 
 ## La Note de Frais Individuelle (par habitant)
 
-C’est le justificatif complet d”**un seul habitant** pour le mois. Resthome le génère sur le **formulaire officiel** en trois pages.
+C’est le justificatif complet d’**un seul habitant** pour le mois. Resthome le génère sur le **formulaire officiel** en trois pages.
 
 | Page | Contenu |
 | --- | --- |
 | **1. Récapitulatif de l’habitant** | Identification de l’institution (nom, adresse, n° INAMI) et de la mutuelle, période, ligne de l’habitant (nom, n° d’inscription NISS, jours de présence) et les **trois montants obligatoires** : à charge O.A., à charge patient, total. |
 | **2. Frais fixes** | Le **forfait de soins** (part organisme assureur), avec son **pseudo-code AViQ**, le prix journalier, le nombre de jours et le montant — ventilé par sous-période le cas échéant — ainsi que la **ristourne incontinence**. |
-| **3. Suppléments** | L”**hébergement** (la chambre), les **suppléments** (télévision, téléphone, buanderie, pédicure, chambre individuelle…), les **médicaments** (para)pharmaceutiques et le **total des suppléments**. |
+| **3. Suppléments** | L’**hébergement** (la chambre), les **suppléments** (télévision, téléphone, buanderie, pédicure, chambre individuelle…), les **médicaments** (para)pharmaceutiques et le **total des suppléments**. |
 
 Les trois montants obligatoires
 
@@ -1684,8 +1684,8 @@ La note récapitulative regroupe, pour un mois, **tous les habitants d’un mêm
 
 En-tête de chaque page :
 
-- l”**identification de l’institution** : nom, adresse, téléphone, **n° INAMI** ;
-- l”**identification de la mutualité** : n° (code O.A.) et nom ;
+- l’**identification de l’institution** : nom, adresse, téléphone, **n° INAMI** ;
+- l’**identification de la mutualité** : n° (code O.A.) et nom ;
 - la **période** couverte (« Note récapitulative du … au … — établie le … »).
 
 Le tableau des habitants comporte les colonnes suivantes :
@@ -1743,13 +1743,13 @@ Source : https://www.lplg.eu/resthome/documentation/facturation/cpas/
 
 # La prise en charge CPAS
 
-Quand un habitant n’a pas les moyens de couvrir sa **part personnelle** (hébergement et suppléments), le **CPAS** (Centre Public d’Action Sociale) de sa commune peut la **prendre en charge**, en totalité ou en partie. Resthome vous permet d”**enregistrer cette décision** sur la fiche de l’habitant et de **router la facture** vers le bon débiteur.
+Quand un habitant n’a pas les moyens de couvrir sa **part personnelle** (hébergement et suppléments), le **CPAS** (Centre Public d’Action Sociale) de sa commune peut la **prendre en charge**, en totalité ou en partie. Resthome vous permet d’**enregistrer cette décision** sur la fiche de l’habitant et de **router la facture** vers le bon débiteur.
 
 Vous trouvez ces réglages dans l’onglet **Facturation** de la fiche habitant, et la liste des CPAS dans **Facturation → Configuration → CPAS**.
 
 Ce que couvre le CPAS
 
-Le CPAS intervient sur la **part habitant** (chambre + suppléments), pas sur le **forfait de dépendance** : celui-ci est pris en charge à 100 % par la mutuelle et facturé via l”[eFact](../../ehealth/efact/). Voir [Le forfait INAMI (dépendance)](../forfait-inami/).
+Le CPAS intervient sur la **part habitant** (chambre + suppléments), pas sur le **forfait de dépendance** : celui-ci est pris en charge à 100 % par la mutuelle et facturé via l’[eFact](../../ehealth/efact/). Voir [Le forfait INAMI (dépendance)](../forfait-inami/).
 
 ## À quoi sert la prise en charge CPAS
 
@@ -2096,7 +2096,7 @@ Pour un régime particulier, en cas de doute sur l’organisme à facturer, rapp
   - **Envoi immédiat (Sync)** pour les **petits volumes** ;
   - **Envoi groupé (Async)** pour les **gros lots mensuels** : la demande part, puis on **récupère les réponses** un peu plus tard avec **Vérifier les réponses** (nécessite au moins 2 habitants).
 - Le lot affiche des **compteurs** (Assurés, Non assurés, Erreurs, En attente, Décès) pour repérer d’un coup d’œil ce qui reste à traiter.
-- **Ce que Resthome met à jour** après un MDA réussi : la **mutualité (OA)** réelle, le **statut BIM**, le **numéro d’affiliation**, l”**identité** si des champs manquaient, et la **date de décès** si l’organisme la signale. Exception : la mutualité d’un **régime particulier** n’est pas écrasée.
+- **Ce que Resthome met à jour** après un MDA réussi : la **mutualité (OA)** réelle, le **statut BIM**, le **numéro d’affiliation**, l’**identité** si des champs manquaient, et la **date de décès** si l’organisme la signale. Exception : la mutualité d’un **régime particulier** n’est pas écrasée.
 
 ## Pour aller plus loin
 
@@ -2111,7 +2111,7 @@ Source : https://www.lplg.eu/resthome/documentation/ehealth/efact/
 
 # Facturation électronique (eFact)
 
-L”**eFact** est l’envoi **électronique** de la **part mutuelle** (le forfait INAMI) aux **organismes assureurs** (OA), via le réseau eHealth / MyCareNet. Resthome construit les fichiers, les transmet et **suit les réponses** pour vous — accusés de réception, décomptes, acceptations et rejets.
+L’**eFact** est l’envoi **électronique** de la **part mutuelle** (le forfait INAMI) aux **organismes assureurs** (OA), via le réseau eHealth / MyCareNet. Resthome construit les fichiers, les transmet et **suit les réponses** pour vous — accusés de réception, décomptes, acceptations et rejets.
 
 Ce guide vous accompagne du début à la fin : générer une période, vérifier, facturer, envoyer l’eFact et traiter les retours.
 
@@ -2143,7 +2143,7 @@ Sur chaque carte :
 - le **statut** de la période (Facturée, Générée…) ;
 - **Factures** (nombre de factures) et **Total** ;
 - **Part habitant** (la part à charge de l’habitant) ;
-- l”**échéance eFact** (p. ex. « eFact : 20 sept. ») ;
+- l’**échéance eFact** (p. ex. « eFact : 20 sept. ») ;
 - des raccourcis : **Voir les factures**, **eFact** (les lots), **Cockpit eFact**.
 
 « Échéance dépassée »
@@ -2192,7 +2192,7 @@ Après la génération, Resthome parcourt la période et **signale les anomalies
 
 Traitez chaque point (bouton **Fait** une fois réglé) avant de facturer.
 
-**Vérifier MDA** — le bouton **Vérifier MDA** contrôle l”**assurabilité** de vos habitants auprès des mutuelles. Un habitant sans couverture valide ne peut pas être facturé en tiers payant.
+**Vérifier MDA** — le bouton **Vérifier MDA** contrôle l’**assurabilité** de vos habitants auprès des mutuelles. Un habitant sans couverture valide ne peut pas être facturé en tiers payant.
 
 ## 4. Créer les factures (Générée → Facturée)
 
@@ -2213,9 +2213,9 @@ Les envois sont regroupés **par union** (les grandes familles d’OA), pas par 
 
 Chaque ligne de lot affiche :
 
-- l”**OA** et son **code** ;
+- l’**OA** et son **code** ;
 - la **référence** du lot (p. ex. `EF/2026/…`) et le **mois** de facturation ;
-- l”**échéance** d’envoi et l’état **MDA** ;
+- l’**échéance** d’envoi et l’état **MDA** ;
 - le **statut** du lot (Brouillon, envoyé, accepté, rejeté…) ;
 - les **montants** : facturé, accepté, refusé ;
 - en cas de refus, le **code** et le **motif** de rejet.
@@ -2306,7 +2306,7 @@ Lorsqu’un habitant **part** ou **décède** au cours d’un mois déjà factur
 - **Vérifiez avant de facturer** : traitez chaque message d’autocontrôle.
 - **Vérifiez le MDA** — pas de tiers payant sans assurabilité valide.
 - **Un lot eFact par union** de mutualités, pas par mutuelle.
-- Respectez l”**échéance** d’envoi de chaque période (« échéance dépassée »).
+- Respectez l’**échéance** d’envoi de chaque période (« échéance dépassée »).
 - Un **rejet** se corrige puis se **renvoie** — le compteur Renvois évite les doublons.
 
 
@@ -2316,7 +2316,7 @@ Source : https://www.lplg.eu/resthome/documentation/ehealth/efact-rejets/
 
 # Rejets eFact — causes et solutions
 
-Quand vous envoyez l”[eFact](../efact/), l”**organisme assureur (OA)** vérifie chaque ligne et vous renvoie un résultat. Cette page explique **comment lire une réponse**, **pourquoi un lot ou une ligne est rejeté**, et **comment corriger puis renvoyer**.
+Quand vous envoyez l’[eFact](../efact/), l’**organisme assureur (OA)** vérifie chaque ligne et vous renvoie un résultat. Cette page explique **comment lire une réponse**, **pourquoi un lot ou une ligne est rejeté**, et **comment corriger puis renvoyer**.
 
 Deux lignes de défense
 
@@ -2336,7 +2336,7 @@ Après l’envoi d’un lot, les réponses de l’OA font évoluer le **statut d
 
 Quand un lot est-il rejeté globalement ?
 
-L’organisme assureur rejette **tout le lot** (920099) en cas d”**erreur bloquante** ou lorsque le **taux d’erreurs dépasse environ 5 %** des lignes. En dessous, les lignes fautives font l’objet d’un **rejet partiel** et le reste est payé — d’où l’intérêt de traiter l’auto-contrôle et le MDA **avant** d’envoyer.
+L’organisme assureur rejette **tout le lot** (920099) en cas d’**erreur bloquante** ou lorsque le **taux d’erreurs dépasse environ 5 %** des lignes. En dessous, les lignes fautives font l’objet d’un **rejet partiel** et le reste est payé — d’où l’intérêt de traiter l’auto-contrôle et le MDA **avant** d’envoyer.
 
 ## Lire une liste où des lots ont été renvoyés
 
@@ -2365,7 +2365,7 @@ Sur chaque ligne refusée, un **code** et un **motif de rejet** en clair pointen
 | **Forfait déclaré au-delà de la fin d’intervention** | Auto-contrôle : **« forfait OA sur-déclaré »** ; l’OA refuse les jours en trop | Émettre une **note de crédit / un reliquat** pour les jours sur-déclarés (voir plus bas). |
 | **Chambre libérée / décès — hébergement encore facturé** | Auto-contrôle : **surfacturation** ; refus des jours indus | **Clôturer l’hébergement** à la bonne date + **note de crédit**. |
 | **Absence non clôturée** | Compteur **Absences** actif ; jours de forfait faussés | Clôturer les absences de la période, puis re-contrôler. |
-| **Catégorie Katz manquante ou évaluation expirée** | Compteur **« Katz à faire »** ; blocage à la génération | Compléter ou renouveler l”**évaluation Katz**, puis **régénérer**. |
+| **Catégorie Katz manquante ou évaluation expirée** | Compteur **« Katz à faire »** ; blocage à la génération | Compléter ou renouveler l’**évaluation Katz**, puis **régénérer**. |
 | **NISS manquant ou incorrect** | Donnée d’identification obligatoire → rejet technique | Corriger le **NISS** sur la fiche de l’habitant, puis régénérer. |
 | **Double envoi** | L’OA signale un **envoi déjà reçu** | Ne pas renvoyer un lot **déjà accepté**. Pour un renvoi légitime, s’appuyer sur le compteur **Renvois** (anti-doublon). |
 | **Discordance de montant / tarif** | L’OA renvoie un **montant/tarif inattendu** | Vérifier le **tarif** appliqué et le montant de la ligne, corriger le paramétrage, régénérer, renvoyer. |
@@ -2380,11 +2380,11 @@ Un lot rejeté vous laisse deux voies, et Resthome garde trace des deux.
 **Retransmettre** construit un **nouveau lot** à partir du lot rejeté. Chaque ligne est réacheminée vers la mutuelle à laquelle l’habitant appartient **réellement** aujourd’hui — ce qui est souvent l’objet même du rejet.
 
 - Si les lignes relèvent désormais de **plusieurs mutuelles**, Resthome crée **un lot par mutuelle**.
-- Un lot ne peut être retransmis qu”**une fois** : si un renvoi existe déjà, Resthome vous y renvoie plutôt que d’en créer un doublon.
+- Un lot ne peut être retransmis qu’**une fois** : si un renvoi existe déjà, Resthome vous y renvoie plutôt que d’en créer un doublon.
 
 Retransmettre renvoie un contenu inchangé
 
-Si la facturation a été **corrigée** depuis l’envoi du lot — séjour clôturé, décès plafonné, lignes régénérées — retransmettre renverrait les montants d”*avant* la correction. Resthome le détecte et vous oriente vers le flux de régénération, qui reconstruit à partir de la facturation actuelle.
+Si la facturation a été **corrigée** depuis l’envoi du lot — séjour clôturé, décès plafonné, lignes régénérées — retransmettre renverrait les montants d’*avant* la correction. Resthome le détecte et vous oriente vers le flux de régénération, qui reconstruit à partir de la facturation actuelle.
 
 ### Renoncer
 
@@ -2402,7 +2402,7 @@ Le principe : **on ne repousse pas un lot rejeté tel quel — on corrige la cau
 
 - **Boucle corriger → renvoyer.** Après avoir traité la cause (MDA, mutuelle, Katz, absence, dates…), régénérez la partie concernée et renvoyez. Le compteur **Renvois** garde la trace de chaque retransmission pour **éviter d’envoyer deux fois** le même lot.
 - **Réintégration.** Le bouton **Réintégration** permet de réintégrer des lignes (par exemple des lignes rejetées, une fois corrigées) dans un **nouvel envoi**, plutôt que de tout refaire.
-- **Note de crédit / lot correctif.** Chaque fois que vous avez **facturé plus que dû** — départ ou décès en cours de mois facturé, forfait sur-déclaré — Resthome prépare une **note de crédit** (côté habitant) et, si la part mutuelle est concernée, un **lot correctif** vers l’OA. Les lignes de crédit sont intégrées à l”**envoi eFact suivant**.
+- **Note de crédit / lot correctif.** Chaque fois que vous avez **facturé plus que dû** — départ ou décès en cours de mois facturé, forfait sur-déclaré — Resthome prépare une **note de crédit** (côté habitant) et, si la part mutuelle est concernée, un **lot correctif** vers l’OA. Les lignes de crédit sont intégrées à l’**envoi eFact suivant**.
 
 ## Les réponses que vous pouvez croiser
 
@@ -2418,7 +2418,7 @@ Selon le message renvoyé par l’OA, vous pouvez apercevoir, dans les statuts o
 
 ## Points clés
 
-- **Prévenez plutôt que guérir** : traitez les messages d”**auto-contrôle** et validez le **MDA** avant de facturer — la plupart des rejets sont ainsi évités.
+- **Prévenez plutôt que guérir** : traitez les messages d’**auto-contrôle** et validez le **MDA** avant de facturer — la plupart des rejets sont ainsi évités.
 - Un **rejet partiel** se corrige **ligne par ligne** ; un **rejet global** se **renvoie en lot neuf**.
 - Une **surfacturation** (départ, décès, forfait sur-déclaré) se corrige par une **note de crédit / un lot correctif**, pas par un simple renvoi.
 
@@ -2446,7 +2446,7 @@ Vous trouverez tout dans l’application **MR/MRS → eHealth → eFact** :
 
 Accusé de réception ≠ décompte
 
-Ne confondez pas les deux réponses de l’OA. L”**accusé de réception (931000)** dit juste « bien reçu ». Le **décompte (920900)** dit « voici ce que je paie ». C’est le décompte qui compte pour l’argent.
+Ne confondez pas les deux réponses de l’OA. L’**accusé de réception (931000)** dit juste « bien reçu ». Le **décompte (920900)** dit « voici ce que je paie ». C’est le décompte qui compte pour l’argent.
 
 ## Accusé (931000) ou décompte (920900) : le bon repère
 
@@ -2538,7 +2538,7 @@ Menu **eHealth → eFact → Cockpit** (aussi accessible depuis une période ou 
 ![Cockpit eFact avec les piles d'actions (À envoyer, En attente OA, À corriger, À pointer, Paiements OA en retard) et le tableau « Rejets par cause »](../../_images/11-efact-cockpit.webp)
 
 - **To reconcile** (à pointer) — les lots **décomptés mais dont le paiement n’est pas encore confirmé**. Le montant total attendu est affiché ; le bouton **Reconcile payments** ouvre la liste pour les pointer un à un.
-- **Overdue payments** (paiements en retard) — les envois **acceptés mais toujours impayés** dont l”**échéance de paiement OA est dépassée**. Voir la relance ci-dessous.
+- **Overdue payments** (paiements en retard) — les envois **acceptés mais toujours impayés** dont l’**échéance de paiement OA est dépassée**. Voir la relance ci-dessous.
 - **Rejected lines** (lignes rejetées) — la **liste de travail** des lignes rejetées encore à renvoyer (habitant + code + montant), filtrable par cause, OA et mois.
 
 Deux repères complètent le tableau :
@@ -2560,11 +2560,11 @@ Pour écrire à l’OA, le bouton **Contact OA** (présent sur chaque lot) prép
 
 Un envoi payé trop tard peut donner droit à des **intérêts de retard**. Resthome applique la règle AViQ :
 
-- l’envoi doit avoir été **introduit dans les délais** (envoyé au plus tard le **20 du mois M+1**) — c’est la condition d”**éligibilité** ;
-- l’OA doit payer **pour la fin du 2e mois suivant l’introduction** : c’est l”**OA Payment Deadline** (échéance de paiement) ;
+- l’envoi doit avoir été **introduit dans les délais** (envoyé au plus tard le **20 du mois M+1**) — c’est la condition d’**éligibilité** ;
+- l’OA doit payer **pour la fin du 2e mois suivant l’introduction** : c’est l’**OA Payment Deadline** (échéance de paiement) ;
 - passé cette date, les intérêts courent, calculés ainsi : **montant accepté × taux légal annuel × jours de retard / 365**.
 
-Sur le lot, dès que l’échéance est dépassée et le lot toujours impayé, un groupe **Late-payment interest (OA)** apparaît avec l”**échéance**, les **jours de retard** et l”**intérêt dû**. La liste des lots propose le filtre **OA Payment Overdue** et une colonne **OA Pay Deadline** (en rouge si dépassée).
+Sur le lot, dès que l’échéance est dépassée et le lot toujours impayé, un groupe **Late-payment interest (OA)** apparaît avec l’**échéance**, les **jours de retard** et l’**intérêt dû**. La liste des lots propose le filtre **OA Payment Overdue** et une colonne **OA Pay Deadline** (en rouge si dépassée).
 
 Renseigner le taux légal
 
@@ -2572,7 +2572,7 @@ Le calcul reste à **0 tant que le taux légal n’est pas saisi**. Indiquez le 
 
 ## Points clés à retenir
 
-- L”**accusé (931000)** ne paie rien ; seul le **décompte (920900)** dit ce qui est réellement payé.
+- L’**accusé (931000)** ne paie rien ; seul le **décompte (920900)** dit ce qui est réellement payé.
 - Resthome **rapproche le décompte automatiquement** : lignes ventilées, statut du lot mis à jour, reliquat créé pour les rejets.
 - En **Compte C**, un décompte avec référence de paiement réelle marque le lot **Payé** automatiquement (la date de paiement peut rester vide).
 - **Pointer** un décompte (**Mark Reconciled**), c’est confirmer l’argent reçu ; le Cockpit regroupe le **À pointer** et les **OA à relancer**.
@@ -2614,7 +2614,7 @@ Vous faites l’action métier habituelle ; Resthome en déduit la notification.
 
 Le principe, en une phrase
 
-Vous gérez le **habitant** (entrée, absence, retour, sortie) ; Resthome gère l”**eHealth** derrière. Les manipulations de facturation et d’accords que vous voyez apparaître sont le reflet automatique de ce que vous venez de faire.
+Vous gérez le **habitant** (entrée, absence, retour, sortie) ; Resthome gère l’**eHealth** derrière. Les manipulations de facturation et d’accords que vous voyez apparaître sont le reflet automatique de ce que vous venez de faire.
 
 ## Ce qu’il faut avant d’envoyer
 
@@ -2668,7 +2668,7 @@ Si la mutuelle rejette une demande, Resthome affiche le **motif de rejet en clai
 
 ## Cas particuliers utiles
 
-- **Absence de courte durée** : une absence de plus de **72 h** (ou toute **hospitalisation**) déclenche l”**Annexe 11** de sortie ; le **retour** génère l”**Annexe 7** de réadmission. Voir [Absences et hospitalisations](../../facturation/absences/).
+- **Absence de courte durée** : une absence de plus de **72 h** (ou toute **hospitalisation**) déclenche l’**Annexe 11** de sortie ; le **retour** génère l’**Annexe 7** de réadmission. Voir [Absences et hospitalisations](../../facturation/absences/).
 - **Facturation déjà clôturée** : si la facture du mois concerné est **déjà comptabilisée** pour cet habitant, Resthome **ne recrée pas** d’accord en double pour ce mois — il protège la cohérence. Repassez la facture en brouillon (ou faites une note de crédit) si vous devez vraiment modifier ce mois, puis actualisez.
 - **Réadmission après un long congé** : selon la durée, la réadmission peut nécessiter une **nouvelle évaluation Katz** — Resthome vous le signale.
 
@@ -2732,7 +2732,7 @@ Les statuts visibles : **Brouillon → Envoyé → Accepté / Rejeté**, avec le
 
 ## Bonnes pratiques (éviter le refus)
 
-- **MDA d’abord** — vérifiez l”[assurabilité](../mda/) **avant** de préparer l’accord : c’est le blocage le plus fréquent, et il s’anticipe.
+- **MDA d’abord** — vérifiez l’[assurabilité](../mda/) **avant** de préparer l’accord : c’est le blocage le plus fréquent, et il s’anticipe.
 - **Fiche habitant complète** — NISS valide (eID), mutuelle renseignée, identité correcte, avant tout mouvement.
 - **Le bon document, une fois** — une situation = une annexe (7 admission/retour, 10 Katz, 11 sortie/décès). Ne renvoyez pas un accord déjà transmis.
 - **Katz validé** avant l’envoi pour les admissions et aggravations.
@@ -2763,7 +2763,7 @@ Les boutons de signature apparaissent sur la **demande eAgreement** (accessible 
 Deux identités à ne pas confondre
 
 - **Le praticien responsable** : l’identité **électronique** enregistrée dans la demande envoyée à l’organisme assureur — le clinicien qui a réalisé l’évaluation **Katz**. Resthome la **résout automatiquement** (voir ci-dessous).
-- **Le signataire** : la personne dont l”**image de signature** est placée sur le **PDF** de l’annexe. Par défaut, c’est **vous** (l’utilisateur connecté).
+- **Le signataire** : la personne dont l’**image de signature** est placée sur le **PDF** de l’annexe. Par défaut, c’est **vous** (l’utilisateur connecté).
 
 Dans la plupart des cas, ces deux rôles coïncident, mais ils sont distincts : un secrétariat peut envoyer une demande dont le praticien responsable est l’infirmier qui a coté le Katz.
 
@@ -2774,7 +2774,7 @@ Le praticien responsable est le **clinicien qui a réalisé l’évaluation [Kat
 | Ordre | Resthome utilise… | Quand |
 | --- | --- | --- |
 | 1 | **L’évaluateur Katz**, s’il a un numéro INAMI personnel | Cas normal |
-| 2 | L”**infirmier en chef** configuré (son numéro INAMI) | L’évaluateur (infirmier, aide-soignant) n’a pas de numéro INAMI |
+| 2 | L’**infirmier en chef** configuré (son numéro INAMI) | L’évaluateur (infirmier, aide-soignant) n’a pas de numéro INAMI |
 | 3 | Le **médecin coordinateur** configuré (son numéro INAMI) | Ni l’évaluateur ni l’infirmier en chef n’ont de numéro INAMI |
 | 4 | Un **numéro d’infirmier générique AViQ** | En dernier recours, aucun numéro INAMI disponible |
 
@@ -2788,7 +2788,7 @@ Si personne dans la chaîne n’a de numéro INAMI utilisable, Resthome se rabat
 
 ## Où sont stockées les identités (fiche d’employé)
 
-Le **numéro INAMI**, le **rôle** et l”**image de signature** d’un soignant figurent sur sa **fiche d’employé**, pas sur un compte utilisateur. Ainsi, un soignant qui signe une Annexe 10 de temps en temps **ne consomme pas de licence utilisateur** : il doit seulement exister en tant qu’employé.
+Le **numéro INAMI**, le **rôle** et l’**image de signature** d’un soignant figurent sur sa **fiche d’employé**, pas sur un compte utilisateur. Ainsi, un soignant qui signe une Annexe 10 de temps en temps **ne consomme pas de licence utilisateur** : il doit seulement exister en tant qu’employé.
 
 **Application Employés → fiche d’employé → onglet Maison de repos.**
 
@@ -2825,7 +2825,7 @@ Un médecin **transfrontalier** qui n’a **pas** de numéro INAMI belge ne peut
 
 ## Signer une annexe dans l’application
 
-Plutôt qu”**imprimer, signer à la main puis scanner**, Resthome place votre **image de signature** sur le PDF de l’annexe et l’enregistre — une voie conforme aux **règles de signature applicables**. Les annexes concernées :
+Plutôt qu’**imprimer, signer à la main puis scanner**, Resthome place votre **image de signature** sur le PDF de l’annexe et l’enregistre — une voie conforme aux **règles de signature applicables**. Les annexes concernées :
 
 - **Annexe 10** — l’échelle de Katz (accord de soins) ;
 - **Annexe 7** — l’accord d’admission (admission / réadmission) ;
@@ -2837,7 +2837,7 @@ La marche à suivre, sur une demande en **Brouillon** :
 
 1. **Générez l’annexe** si ce n’est pas déjà fait (l’Annexe 10 est produite à partir du Katz ; l’Annexe 7 ou 11 à partir de la demande).
 2. Cliquez sur **Signer l’Annexe 10** (ou **Signer l’Annexe 7** / **Signer l’Annexe 11**). Ces boutons n’apparaissent qu’en Brouillon, lorsque l’annexe existe et n’est **pas encore signée**.
-3. Dans la fenêtre **Signer l’annexe**, vérifiez le **signataire** (vous par défaut), son **rôle**, la **date de signature** et l”**aperçu** de la signature.
+3. Dans la fenêtre **Signer l’annexe**, vérifiez le **signataire** (vous par défaut), son **rôle**, la **date de signature** et l’**aperçu** de la signature.
 4. Cliquez sur **Signer et remplacer le PDF**. Resthome régénère un PDF propre, y place la signature et coche l’annexe comme **signée** (un ✓ vert « Signé » apparaît à côté de l’annexe).
 
 Envoyer sans signer : possible, mais sous votre responsabilité
@@ -2873,7 +2873,7 @@ Une **réadmission** après plus de 30 jours d’absence peut nécessiter une **
 
 ### Chacun signe avec sa propre signature
 
-Par sécurité, vous ne pouvez signer qu”**avec votre propre** image de signature. Signer **au nom d’un autre** clinicien — dont le nom et le rôle figurent sur une annexe légale transmise à l’organisme assureur — exige les droits de **gestionnaire eHealth**. Dans tous les cas, l”**auteur réel** de l’action reste enregistré dans le journal d’audit.
+Par sécurité, vous ne pouvez signer qu’**avec votre propre** image de signature. Signer **au nom d’un autre** clinicien — dont le nom et le rôle figurent sur une annexe légale transmise à l’organisme assureur — exige les droits de **gestionnaire eHealth**. Dans tous les cas, l’**auteur réel** de l’action reste enregistré dans le journal d’audit.
 
 ### Si aucune image de signature n’est configurée
 
@@ -2884,9 +2884,9 @@ Si le signataire n’a **aucune** image de signature sur sa fiche d’employé, 
 
 ## Points clés à retenir
 
-- Le **praticien responsable** est l”**évaluateur Katz**, pas l’expéditeur ; Resthome résout son **numéro INAMI** en cascade : évaluateur → infirmier en chef → médecin coordinateur → numéro générique.
+- Le **praticien responsable** est l’**évaluateur Katz**, pas l’expéditeur ; Resthome résout son **numéro INAMI** en cascade : évaluateur → infirmier en chef → médecin coordinateur → numéro générique.
 - Une **catégorie D** Katz exige un **médecin** ; configurez un **médecin coordinateur** de repli dans les réglages eHealth.
-- Le **numéro INAMI**, le **rôle** et l”**image de signature** figurent sur la **fiche d’employé** (onglet *Maison de repos*) — aucune licence utilisateur nécessaire pour les soignants qui signent occasionnellement.
+- Le **numéro INAMI**, le **rôle** et l’**image de signature** figurent sur la **fiche d’employé** (onglet *Maison de repos*) — aucune licence utilisateur nécessaire pour les soignants qui signent occasionnellement.
 - **Signer l’Annexe 10 / 7 / 11** place votre image de signature sur le PDF : plus d’impression / signature / scan. La signature est un **préalable à l’envoi**.
 - **Règles de signature** : médecin OU infirmier par défaut ; **médecin obligatoire** en catégorie D ou en révision rapide (< 6 mois).
 - Vous signez **uniquement avec votre propre** signature, sauf si vous disposez des droits de **gestionnaire eHealth**.
@@ -2944,7 +2944,7 @@ Source : https://www.lplg.eu/resthome/documentation/soins/dossier-medical/
 
 # Le dossier médical de l’habitant
 
-L’onglet **Informations médicales** de la fiche habitant constitue son **dossier clinique** dans Resthome. Il rassemble en une page les **mesures**, l”**état clinique**, les **sens et risques**, les **dispositifs**, les **diagnostics (CIM-10)**, les **allergies**, les **contacts médicaux** et les **directives anticipées**.
+L’onglet **Informations médicales** de la fiche habitant constitue son **dossier clinique** dans Resthome. Il rassemble en une page les **mesures**, l’**état clinique**, les **sens et risques**, les **dispositifs**, les **diagnostics (CIM-10)**, les **allergies**, les **contacts médicaux** et les **directives anticipées**.
 
 Vous le trouvez sur la **fiche de l’habitant** (application **Habitants** ou **Soins**), dans l’onglet **Informations médicales**. L’onglet n’apparaît que pour les **habitants**.
 
@@ -2967,7 +2967,7 @@ La section **Mesures** réunit les données morphologiques de base :
 
 Le poids passe par les signes vitaux
 
-Le champ **Poids** n’est pas saisi directement ici : il reprend la dernière valeur enregistrée lors d’une **saisie de signes vitaux**. Utilisez le bouton **Saisir les signes vitaux** en haut de la fiche, ou le petit **+** à côté du champ Poids. L”**IMC** se recalcule alors tout seul dès que la taille et le poids sont connus.
+Le champ **Poids** n’est pas saisi directement ici : il reprend la dernière valeur enregistrée lors d’une **saisie de signes vitaux**. Utilisez le bouton **Saisir les signes vitaux** en haut de la fiche, ou le petit **+** à côté du champ Poids. L’**IMC** se recalcule alors tout seul dès que la taille et le poids sont connus.
 
 ## La dépendance (Katz)
 
@@ -2977,7 +2977,7 @@ La section **Dépendance** affiche, en lecture, la synthèse de la dépendance d
 - la **fin de validité** de l’évaluation Katz ;
 - le **plan de soins actif**, s’il en existe un.
 
-Ces informations proviennent de l”**évaluation Katz** et du **plan de soins** ; vous ne les modifiez pas depuis le dossier médical.
+Ces informations proviennent de l’**évaluation Katz** et du **plan de soins** ; vous ne les modifiez pas depuis le dossier médical.
 
 La catégorie Katz se déclare, elle ne fixe pas le montant
 
@@ -3089,7 +3089,7 @@ Enfin, un champ **Notes médicales** en texte libre permet de consigner toute in
 ## Points clés à retenir
 
 - Le dossier médical est l’onglet **Informations médicales** de la fiche habitant ; il est **réservé au personnel soignant** et **journalisé** (RGPD).
-- Le **poids** vient des **signes vitaux** (lecture seule) et l”**IMC** se calcule automatiquement à partir de la taille et du poids.
+- Le **poids** vient des **signes vitaux** (lecture seule) et l’**IMC** se calcule automatiquement à partir de la taille et du poids.
 - La **catégorie Katz** et le **plan de soins actif** s’y affichent en lecture ; la catégorie **déclare** le profil, elle ne fixe pas le montant du forfait.
 - Les **diagnostics** utilisent la **CIM-10** ; **sévérité** et **statut** (Actif / Résolu) sont propres à l’habitant.
 - Les **allergènes médicamenteux** protègent la prescription : **Critique** bloque, les autres avertissent.
@@ -3152,7 +3152,7 @@ Au retour, la même action en mode **Retour** **reprend** les prescriptions susp
 
 ### Le dossier de liaison
 
-Avant le départ de l’habitant, imprimez le **dossier de liaison** : le document que l’hôpital demande à l’admission. Il rassemble ce dont le service a besoin — identité, traitements, allergies, dépendance, et les préférences d’hospitalisation consignées dans l”[anamnèse](../anamnese/).
+Avant le départ de l’habitant, imprimez le **dossier de liaison** : le document que l’hôpital demande à l’admission. Il rassemble ce dont le service a besoin — identité, traitements, allergies, dépendance, et les préférences d’hospitalisation consignées dans l’[anamnèse](../anamnese/).
 
 Un clic, au bon moment
 
@@ -3319,7 +3319,7 @@ Chaque plan porte ses **objectifs**, ce qui rend le suivi mesurable.
 
 - **Soins du jour** — la liste des soins à réaliser aujourd’hui.
 - **Mes soins assignés** — ce qui vous revient personnellement.
-- Chaque soin planifié se **démarre**, se **termine**, s”**annule** ou se marque **manqué** — la tournée reste traçable.
+- Chaque soin planifié se **démarre**, se **termine**, s’**annule** ou se marque **manqué** — la tournée reste traçable.
 
 ![Soins du jour : une ligne par soin avec l'heure prévue, l'habitant, le type de soin, la personne assignée et le statut](../../_images/03-soins-du-jour.png)
 
@@ -3377,25 +3377,25 @@ Les **registres cliniques** sont la mémoire de ce qui est arrivé : une chute, 
 
 Un registre n’est pas une échelle
 
-Un registre consigne des **événements**. Une **échelle** mesure un état à un instant donné — Braden, MNA, Tinetti, MMSE, les échelles de douleur. Elles se remplissent depuis la fiche de l’habitant ou depuis l”[app Soins](../../soins-mobile/evaluations/), et sont décrites sous [Évaluations gériatriques](../../residents/evaluations/).
+Un registre consigne des **événements**. Une **échelle** mesure un état à un instant donné — Braden, MNA, Tinetti, MMSE, les échelles de douleur. Elles se remplissent depuis la fiche de l’habitant ou depuis l’[app Soins](../../soins-mobile/evaluations/), et sont décrites sous [Évaluations gériatriques](../../residents/evaluations/).
 
 ## Comment fonctionne un registre
 
 1. Ouvrez le registre voulu depuis l’application **Soins** → **Registres**.
 2. Créez l’entrée pour l’habitant concerné, et décrivez l’événement.
-3. Le registre garde l”**historique** : chaque nouvelle entrée s’ajoute au dossier au lieu de le remplacer.
+3. Le registre garde l’**historique** : chaque nouvelle entrée s’ajoute au dossier au lieu de le remplacer.
 4. **Clôturez-le** quand la situation est terminée ; **rouvrez-le** si elle revient.
 
 ![Le registre des chutes : une ligne par entrée, avec le type, la gravité de la blessure et l'état](../../_images/registre-chutes-liste.png)
 
 ## Ce qu’il alimente
 
-- L”**app Soins** écrit dans les registres depuis le chevet : une note de chute, une note de plaie avec sa photo et ses mesures, une note de change. Voir [Notes](../../soins-mobile/notes/).
+- L’**app Soins** écrit dans les registres depuis le chevet : une note de chute, une note de plaie avec sa photo et ses mesures, une note de change. Voir [Notes](../../soins-mobile/notes/).
 - Le **registre des plaies** porte les plaies que l’app Soins propose de suivre.
 
 ![Une plaie dans le registre : le type, le schéma corporel, l'état de la plaie et la prochaine évaluation](../../_images/registre-plaies-fiche.png)
 
-- Un registre d”**infection** ou d”**isolement** est ce qu’une inspection demande à voir.
+- Un registre d’**infection** ou d’**isolement** est ce qu’une inspection demande à voir.
 
 ## Pour aller plus loin
 
@@ -3458,7 +3458,7 @@ Les **plats** sont décrits une fois dans le **catalogue** (ingrédients, catég
 
 ## Services de repas
 
-Un **service de repas** représente un repas servi à un moment donné. Il suit un cycle simple : **Confirmer** → **Marquer comme servi**, avec possibilité d”**annuler** ou de **remettre en brouillon**.
+Un **service de repas** représente un repas servi à un moment donné. Il suit un cycle simple : **Confirmer** → **Marquer comme servi**, avec possibilité d’**annuler** ou de **remettre en brouillon**.
 
 ![Liste des menus : une ligne par date et type de repas, avec l'état Brouillon, Confirmé ou Servi](../../_images/02-menus.png)
 
@@ -3474,9 +3474,9 @@ Le menu **Alertes diététiques** remonte les cas où un plat prévu ne convient
 
 ## Suivi nutritionnel et hydratation
 
-- Resthome suit la **couverture nutritionnelle** (énergie, protéines) et l”**hydratation** des habitants, avec des cibles adaptées.
+- Resthome suit la **couverture nutritionnelle** (énergie, protéines) et l’**hydratation** des habitants, avec des cibles adaptées.
 - Le dépistage de la **dénutrition** s’appuie sur le **MNA** (voir [Registres cliniques](../../soins/registres/)).
-- L”**hydratation** se consigne au fil de la journée pour repérer un apport insuffisant.
+- L’**hydratation** se consigne au fil de la journée pour repérer un apport insuffisant.
 
 ## Pour aller plus loin
 
@@ -3492,7 +3492,7 @@ Source : https://www.lplg.eu/resthome/documentation/repas/distribution/
 
 La **tournée de distribution** suit chaque repas jusqu’à l’habitant : qui mange **où**, qui a été **servi**, qui est **absent** et **combien** chacun a mangé. Resthome propose deux outils complémentaires, tous deux dans l’application **Repas → Opérations** :
 
-- l”**assistant sur tablette** (bouton **Distribution rapide**) pour pointer les habitants **un par un** à l’écran ;
+- l’**assistant sur tablette** (bouton **Distribution rapide**) pour pointer les habitants **un par un** à l’écran ;
 - les **feuilles de distribution imprimables** par secteur, comme solution **papier**.
 
 Avant de distribuer
@@ -3507,7 +3507,7 @@ Le **menu** du repas doit être à l’état **Confirmé**. Les **services de re
 
 Démarrer le service ou Distribution rapide ?
 
-**Démarrer le service** crée les services de repas pour tous les habitants et ouvre leur **liste**. **Distribution rapide** effectue la même préparation, puis lance directement l”**assistant** de pointage. Pour la tournée, utilisez **Distribution rapide**.
+**Démarrer le service** crée les services de repas pour tous les habitants et ouvre leur **liste**. **Distribution rapide** effectue la même préparation, puis lance directement l’**assistant** de pointage. Pour la tournée, utilisez **Distribution rapide**.
 
 ## 2. Filtrer et charger la tournée
 
@@ -3553,7 +3553,7 @@ Le **pourcentage mangé** s’enregistre sur le **service de repas** de l’habi
 | **75%** | Environ trois quarts. |
 | **Tout mangé** | Repas terminé. |
 
-La quantité mangée n’est pas qu’une note : combinée aux plats servis, elle calcule l”**apport réel** (énergie, protéines) qui alimente la **couverture nutritionnelle** sur la fiche de l’habitant. Voir [Suivi nutritionnel](../suivi-nutritionnel/).
+La quantité mangée n’est pas qu’une note : combinée aux plats servis, elle calcule l’**apport réel** (énergie, protéines) qui alimente la **couverture nutritionnelle** sur la fiche de l’habitant. Voir [Suivi nutritionnel](../suivi-nutritionnel/).
 
 Faible apport et familles
 
@@ -3610,7 +3610,7 @@ Source : https://www.lplg.eu/resthome/documentation/repas/suivi-nutritionnel/
 
 # Suivi nutritionnel et dénutrition
 
-Resthome dépiste la **dénutrition** et suit les **apports** de chaque habitant, en s’appuyant sur les recommandations gériatriques **ESPEN** et les règles de dépistage **AViQ**. Tout se lit dans l”**onglet Nutrition** de la fiche de l’habitant et se pilote depuis le **tableau de bord Repas**.
+Resthome dépiste la **dénutrition** et suit les **apports** de chaque habitant, en s’appuyant sur les recommandations gériatriques **ESPEN** et les règles de dépistage **AViQ**. Tout se lit dans l’**onglet Nutrition** de la fiche de l’habitant et se pilote depuis le **tableau de bord Repas**.
 
 Le principe est simple : vous saisissez le **poids**, les **repas servis** et les **boissons** ; Resthome en déduit un **statut de risque de dénutrition**, des **cibles** d’énergie, de protéines et de liquides, une **couverture** des apports, et lève des **alertes** lorsqu’un habitant décroche.
 
@@ -3635,7 +3635,7 @@ Le bloc **Statut de dénutrition** est en **lecture seule** : Resthome le calcul
 | **Re-dépister (MNA)** | Un signal AViQ est actif : refaire ou renouveler le MNA | Orange |
 | **Dénutrition** | Dénutrition confirmée (dernier MNA « dénutrition ») | Rouge |
 
-Sous le badge, l’onglet affiche le **poids**, l”**IMC**, un indicateur **IMC bas** (IMC bas ajusté à l’âge) et la **perte de poids** sur 1 mois et sur 6 mois.
+Sous le badge, l’onglet affiche le **poids**, l’**IMC**, un indicateur **IMC bas** (IMC bas ajusté à l’âge) et la **perte de poids** sur 1 mois et sur 6 mois.
 
 ```
 flowchart TD
@@ -3661,7 +3661,7 @@ Les seuils correspondent aux valeurs par défaut du dépistage AViQ/PWNS-be-A.
 
 Pesez régulièrement pour obtenir la perte de poids
 
-La perte de poids sur 1 et 6 mois est calculée à partir des **poids consignés dans les signes vitaux** (notes infirmières). Sans pesées régulières, Resthome ne peut pas comparer et ces pourcentages restent à zéro. La **taille** est nécessaire pour l”**IMC**.
+La perte de poids sur 1 et 6 mois est calculée à partir des **poids consignés dans les signes vitaux** (notes infirmières). Sans pesées régulières, Resthome ne peut pas comparer et ces pourcentages restent à zéro. La **taille** est nécessaire pour l’**IMC**.
 
 ### Le dernier MNA
 
@@ -3747,7 +3747,7 @@ Le seuil de couverture de **75 %** qui déclenche les alertes de déficit se mod
 
 ## Points clés à retenir
 
-- L”**onglet Nutrition** de l’habitant rassemble le statut de dénutrition, le dernier MNA, les cibles ESPEN et la couverture des apports — en lecture seule pour les mesures calculées.
+- L’**onglet Nutrition** de l’habitant rassemble le statut de dénutrition, le dernier MNA, les cibles ESPEN et la couverture des apports — en lecture seule pour les mesures calculées.
 - Le **statut de dénutrition** suit les règles AViQ/ESPEN : perte de poids, IMC ajusté à l’âge, MNA en retard ou MNA « dénutrition ».
 - Les **cibles** (énergie, protéines, liquides) sont propres à chaque habitant, calculées à partir de son poids et de son sexe avec les coefficients ESPEN configurables.
 - Les **apports** sont dérivés de la **quantité mangée** aux repas et des **boissons consignées** ; la couverture est une moyenne sur 3 jours.
@@ -3855,7 +3855,7 @@ En multi-société, **chaque établissement a son propre dossier racine** « Hab
 
 ## Étiquettes prédéfinies
 
-Resthome fournit une liste d”**étiquettes** prêtes à l’emploi pour **catégoriser** les documents et **les retrouver par filtre** dans l’application Documents :
+Resthome fournit une liste d’**étiquettes** prêtes à l’emploi pour **catégoriser** les documents et **les retrouver par filtre** dans l’application Documents :
 
 | Étiquette | Usage typique |
 | --- | --- |
@@ -4062,7 +4062,7 @@ Source : https://www.lplg.eu/resthome/documentation/configuration/reglages-gener
 
 # Réglages généraux (habitants, chambres)
 
-Cet onglet rassemble les réglages qui structurent le fonctionnement quotidien de votre maison : la gestion des **habitants**, l”**hébergement** (durée de séjour, capacité, responsables), et l’affichage du **tableau de bord** de soins.
+Cet onglet rassemble les réglages qui structurent le fonctionnement quotidien de votre maison : la gestion des **habitants**, l’**hébergement** (durée de séjour, capacité, responsables), et l’affichage du **tableau de bord** de soins.
 
 Vous les trouvez dans l’application **Réglages** :
 
@@ -4095,7 +4095,7 @@ Ces réglages ne sont visibles que par les utilisateurs qui détiennent le rôle
 
 Deux responsables complémentaires
 
-À chaque **[changement de chambre ou transfert](../../residents/changement-chambre/)** ainsi qu’à l”**[admission](../../residents/gerer-un-resident/)**, Resthome ouvre un nouveau séjour et déclenche automatiquement :
+À chaque **[changement de chambre ou transfert](../../residents/changement-chambre/)** ainsi qu’à l’**[admission](../../residents/gerer-un-resident/)**, Resthome ouvre un nouveau séjour et déclenche automatiquement :
 
 - une activité **« préparer la chambre »** pour le **responsable technique** ;
 - la **checklist d’emménagement** (si un **responsable de procédure** est défini) sur la fiche de l’habitant.
@@ -4205,7 +4205,7 @@ Les règles de **jour de présence** (règle de midi, hospitalisation, congé) s
 
 | Réglage | Ce que ça fait | Valeur recommandée (MR/MRS) |
 | --- | --- | --- |
-| **Responsable de l’activité Katz** | Utilisateur à qui l’activité « Nouveau Katz requis » est attribuée lorsqu’une réadmission hospitalière dépasse **30 jours**. Si vide : utilisateur courant (s’il est clinique), sinon le premier infirmier en chef, infirmier ou médecin trouvé. | L”**infirmier en chef** (ou le responsable des soins). |
+| **Responsable de l’activité Katz** | Utilisateur à qui l’activité « Nouveau Katz requis » est attribuée lorsqu’une réadmission hospitalière dépasse **30 jours**. Si vide : utilisateur courant (s’il est clinique), sinon le premier infirmier en chef, infirmier ou médecin trouvé. | L’**infirmier en chef** (ou le responsable des soins). |
 
 Pourquoi 30 jours ?
 
@@ -4283,7 +4283,7 @@ Au démarrage : **Acceptation + Mode stub activé**. Vous validez tout le flux s
 
 | Réglage | À quoi ça sert | Valeur recommandée (MR/MRS) |
 | --- | --- | --- |
-| **Infirmier en chef (repli NIHII)** | Son NIHII identifie le praticien responsable lorsque l’évaluateur Katz (infirmier, aide-soignant) n’a pas de NIHII. | Renseignez l”**infirmier en chef** de l’établissement. |
+| **Infirmier en chef (repli NIHII)** | Son NIHII identifie le praticien responsable lorsque l’évaluateur Katz (infirmier, aide-soignant) n’a pas de NIHII. | Renseignez l’**infirmier en chef** de l’établissement. |
 | **Médecin coordinateur (repli NIHII)** | Repli lorsqu’aucun NIHII d’infirmier n’est disponible, et **obligatoire** pour un Katz de catégorie D (médecin requis). | Renseignez le **médecin coordinateur** — essentiel pour un Katz de catégorie D. |
 
 La catégorie Katz sert à déclarer, pas à fixer le montant
@@ -4309,7 +4309,7 @@ La licence de package est délivrée par le **CIN/NIC** lors de l’accréditati
 
 | Réglage | À quoi ça sert | Valeur recommandée (MR/MRS) |
 | --- | --- | --- |
-| **Journal bancaire Compte C** | Le journal bancaire du compte wallon. L”**IBAN** (ET 10 Z 45-47a) et le **BIC** (Z 53-54a) inscrits dans le 920000 en sont dérivés. | Le **journal Compte C** de votre établissement. Renseignez l’IBAN sur le compte bancaire et le BIC sur la banque. |
+| **Journal bancaire Compte C** | Le journal bancaire du compte wallon. L’**IBAN** (ET 10 Z 45-47a) et le **BIC** (Z 53-54a) inscrits dans le 920000 en sont dérivés. | Le **journal Compte C** de votre établissement. Renseignez l’IBAN sur le compte bancaire et le BIC sur la banque. |
 
 Sinon, rejet WalCareNet
 
@@ -4340,7 +4340,7 @@ Source : https://www.lplg.eu/resthome/documentation/configuration/reglages-repas
 
 # Réglages des repas et de la nutrition
 
-L’onglet de réglages **Repas** rassemble la configuration de l’application Repas : la **source des données nutritionnelles**, l”**apparence du menu public et du kiosque**, les **notifications aux familles** et les **objectifs nutritionnels (ESPEN)** utilisés pour le suivi de la dénutrition. Vous le trouvez sous **Réglages > Repas**.
+L’onglet de réglages **Repas** rassemble la configuration de l’application Repas : la **source des données nutritionnelles**, l’**apparence du menu public et du kiosque**, les **notifications aux familles** et les **objectifs nutritionnels (ESPEN)** utilisés pour le suivi de la dénutrition. Vous le trouvez sous **Réglages > Repas**.
 
 Ces réglages s’appliquent à tout l’établissement : vous les définissez une fois, après quoi ils nécessitent rarement un ajustement.
 
@@ -4384,7 +4384,7 @@ Sans **serveur de messagerie sortant** configuré dans Odoo, activer l’option 
 
 ## Objectifs nutritionnels (ESPEN)
 
-Ces coefficients, tirés des recommandations gériatriques **ESPEN**, servent à calculer l”**objectif propre à chaque habitant** (à partir de son poids et de son sexe) et à déclencher les **alertes de déficit**.
+Ces coefficients, tirés des recommandations gériatriques **ESPEN**, servent à calculer l’**objectif propre à chaque habitant** (à partir de son poids et de son sexe) et à déclencher les **alertes de déficit**.
 
 | Réglage | Ce qu’il fait | Valeur recommandée (MR/MRS) |
 | --- | --- | --- |
@@ -4397,7 +4397,7 @@ Ces coefficients, tirés des recommandations gériatriques **ESPEN**, servent à
 
 Un objectif calculé par habitant
 
-Ici, vous fixez les **coefficients** ; Resthome en déduit l”**objectif individuel** de chaque habitant à partir de son poids et de son sexe, puis compare l”**apport** réel à ces objectifs. Le suivi de la couverture et le dépistage de la dénutrition sont décrits dans [Menus, régimes et hydratation](../../repas/menus-regimes/).
+Ici, vous fixez les **coefficients** ; Resthome en déduit l’**objectif individuel** de chaque habitant à partir de son poids et de son sexe, puis compare l’**apport** réel à ces objectifs. Le suivi de la couverture et le dépistage de la dénutrition sont décrits dans [Menus, régimes et hydratation](../../repas/menus-regimes/).
 
 ## Pour aller plus loin
 
@@ -4558,7 +4558,7 @@ Si les codes bénéficiaire reviennent à zéro (assuré mais cotisations impay�
 
 ### Que met à jour Resthome après un MDA réussi ?
 
-La fiche habitant est corrigée automatiquement : la **mutuelle (OA)** si elle diffère du profil, le **statut BIM**, le **numéro d’affiliation**, l”**identité** si des champs manquaient, et la **date de décès** si l’OA la signale. Pour les habitants sous régime particulier (INIG, CEE, Fedasil, étranger, privé…), Resthome **n’écrase pas** la mutuelle du profil. → [Assurabilité (MDA)](../ehealth/mda/)
+La fiche habitant est corrigée automatiquement : la **mutuelle (OA)** si elle diffère du profil, le **statut BIM**, le **numéro d’affiliation**, l’**identité** si des champs manquaient, et la **date de décès** si l’OA la signale. Pour les habitants sous régime particulier (INIG, CEE, Fedasil, étranger, privé…), Resthome **n’écrase pas** la mutuelle du profil. → [Assurabilité (MDA)](../ehealth/mda/)
 
 ### Que faire en cas d’erreur ou d’absence de réponse MDA ?
 
@@ -4578,7 +4578,7 @@ Quand un habitant entre, s’absente, revient ou quitte l’établissement, la m
 
 ### Quelle est la différence entre eAgreement et eAgreement Light ?
 
-L”**eAgreement** est l’accord de prise en charge des soins (lié à la catégorie Katz et au forfait). L”**eAgreement Light** regroupe les notifications plus simples liées aux **mouvements** de l’habitant (admission, absence, départ, retour) — ce sont elles que Resthome génère tout seul au fil de vos actions. → [Accords (eAgreement)](../ehealth/eagreement/)
+L’**eAgreement** est l’accord de prise en charge des soins (lié à la catégorie Katz et au forfait). L’**eAgreement Light** regroupe les notifications plus simples liées aux **mouvements** de l’habitant (admission, absence, départ, retour) — ce sont elles que Resthome génère tout seul au fil de vos actions. → [Accords (eAgreement)](../ehealth/eagreement/)
 
 ### Quel document est préparé selon l’action ?
 
@@ -4598,7 +4598,7 @@ Sans NISS, l’accord ne peut pas être transmis. Vous pouvez tout de même enre
 
 ### Qu’est-ce que l’eFact ?
 
-L”**eFact** est l’envoi **électronique** de la **part mutuelle** (le forfait INAMI) aux **organismes assureurs (OA)** via le réseau eHealth / MyCareNet. Resthome constitue les fichiers, les transmet et **suit les réponses** — accusés de réception, décomptes, acceptations et rejets. → [Facturation électronique (eFact)](../ehealth/efact/)
+L’**eFact** est l’envoi **électronique** de la **part mutuelle** (le forfait INAMI) aux **organismes assureurs (OA)** via le réseau eHealth / MyCareNet. Resthome constitue les fichiers, les transmet et **suit les réponses** — accusés de réception, décomptes, acceptations et rejets. → [Facturation électronique (eFact)](../ehealth/efact/)
 
 ### Quels sont les états d’une période de facturation ?
 
@@ -4646,7 +4646,7 @@ Ouvrez la période (**MR/MRS → Facturation → Périodes de facturation**), **
 
 ### Qu’est-ce que la facturation anticipative ?
 
-Pour les habitants facturés en avance, l”**hébergement** d’un mois est facturé **le mois précédent**, tandis que le **forfait** et les **suppléments** sont facturés sur le mois de prestation. → [Facturation](../facturation/)
+Pour les habitants facturés en avance, l’**hébergement** d’un mois est facturé **le mois précédent**, tandis que le **forfait** et les **suppléments** sont facturés sur le mois de prestation. → [Facturation](../facturation/)
 
 ### À quoi sert le bouton « Actualiser » ?
 
@@ -4654,7 +4654,7 @@ Sur une période, l’action **Actualiser** recalcule tout en un clic (lignes de
 
 ### Comment ajouter un supplément ?
 
-Ouvrez l”**enveloppe de suppléments** de l’habitant (depuis sa fiche ou la période), ajoutez une ligne (produit/prestation, quantité, prix), indiquez s’il est **ponctuel** (une fois) ou **récurrent** (chaque mois), puis **Enregistrez**. L’ajout, la modification ou le retrait met à jour automatiquement la facture de l’habitant concerné — pas besoin de cliquer « Actualiser ». → [Les suppléments](../facturation/supplements/)
+Ouvrez l’**enveloppe de suppléments** de l’habitant (depuis sa fiche ou la période), ajoutez une ligne (produit/prestation, quantité, prix), indiquez s’il est **ponctuel** (une fois) ou **récurrent** (chaque mois), puis **Enregistrez**. L’ajout, la modification ou le retrait met à jour automatiquement la facture de l’habitant concerné — pas besoin de cliquer « Actualiser ». → [Les suppléments](../facturation/supplements/)
 
 ### Comment répartir la part habitant entre plusieurs débiteurs ?
 
@@ -4718,7 +4718,7 @@ Les termes et sigles utilisés dans Resthome et dans la facturation des maisons 
 
 ## Annexe 7
 
-Document eHealth d”**accord d’admission** (prise en charge) transmis à la mutuelle au démarrage d’un séjour ou lors d’une **réadmission** après une absence. Voir : [Accords (eAgreement)](../ehealth/eagreement/)
+Document eHealth d’**accord d’admission** (prise en charge) transmis à la mutuelle au démarrage d’un séjour ou lors d’une **réadmission** après une absence. Voir : [Accords (eAgreement)](../ehealth/eagreement/)
 
 ## Annexe 10
 
@@ -4750,7 +4750,7 @@ Envoi **électronique** de la **part mutuelle** (le forfait INAMI) aux organisme
 
 ## eHealth
 
-Plateforme belge d”**échanges électroniques sécurisés** dans les soins de santé. Resthome l’utilise pour le MDA, l’eAgreement et l’eFact (via MyCareNet / WalCareNet).
+Plateforme belge d’**échanges électroniques sécurisés** dans les soins de santé. Resthome l’utilise pour le MDA, l’eAgreement et l’eFact (via MyCareNet / WalCareNet).
 
 ## Enveloppe de suppléments
 
@@ -4758,7 +4758,7 @@ Le **regroupement mensuel des suppléments** d’un habitant (produits et presta
 
 ## Facturation anticipative
 
-Mode de facturation où l”**hébergement** d’un mois est facturé **le mois précédent**, tandis que le **forfait INAMI** et les **suppléments** sont facturés sur le mois de prestation. Voir : [Vue d’ensemble de la facturation](../facturation/)
+Mode de facturation où l’**hébergement** d’un mois est facturé **le mois précédent**, tandis que le **forfait INAMI** et les **suppléments** sont facturés sur le mois de prestation. Voir : [Vue d’ensemble de la facturation](../facturation/)
 
 ## Forfait INAMI
 
@@ -4857,7 +4857,7 @@ Si la documentation ne suffit pas, contactez notre équipe :
 Pour une réponse rapide, précisez
 
 - Le **nom de votre établissement**.
-- Ce que vous faisiez et l”**écran** concerné — une **capture d’écran** aide beaucoup.
+- Ce que vous faisiez et l’**écran** concerné — une **capture d’écran** aide beaucoup.
 - Le **message d’erreur** exact ou le **code** (eFact, MDA, eAgreement…).
 - La **période** de facturation ou le **habitant** concerné (référence interne).
 
