@@ -27,6 +27,8 @@ thread of that space:
 Relatives can **answer**: their reply comes back into the same thread, and the
 team reads it there.
 
+![The family space: the accesses in progress, then the liaison notebook with the messages written to the family](../assets/screenshots/portail-famille/03-espace.png)
+
 ## Shared documents
 
 Documents are added to the family space, in the **Shared Documents** tab: a
@@ -40,6 +42,8 @@ The category decides who sees the document:
 | **Administrative**, **Other** | **Documents** |
 | **Billing** | **Invoices** |
 | **Care** | **Health** — and therefore a recorded consent |
+
+![The shared documents: date, resident, title, category and file](../assets/screenshots/portail-famille/04-documents.png)
 
 ## Invoices
 

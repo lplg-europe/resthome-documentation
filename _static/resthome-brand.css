@@ -266,6 +266,27 @@
   /* Le thème réserve à droite `100% - 11,5rem` : sans ça le contenu restait
      à 230 px quelle que soit la largeur de la colonne. */
   .md-sidebar--primary .md-sidebar__inner { padding-right: 0; }
+  /* Le thème décale tout le corps de 30px sous l'en-tête : le filet de la
+     colonne de gauche démarrait 30px trop bas et ne rejoignait pas la barre
+     du haut — un blanc en escalier. La colonne part du bas de l'en-tête,
+     l'air est rendu au contenu. */
+  .md-main__inner { margin-top: 0; }
+  /* Ni le thème ni nous ne touchions l'ascenseur des colonnes : Chrome sous
+     Windows posait donc sa barre par défaut, 10px avec ses deux flèches,
+     entre la colonne et le contenu. Fine, sans flèches, visible au survol. */
+  .md-sidebar__scrollwrap { scrollbar-width: thin; scrollbar-color: transparent transparent; }
+  .md-sidebar__scrollwrap:hover { scrollbar-color: #c3cad6 transparent; }
+  .md-sidebar__scrollwrap::-webkit-scrollbar { width: 6px; }
+  .md-sidebar__scrollwrap::-webkit-scrollbar-button { display: none; width: 0; height: 0; }
+  .md-sidebar__scrollwrap::-webkit-scrollbar-track { background: transparent; }
+  .md-sidebar__scrollwrap::-webkit-scrollbar-thumb {
+    background: transparent; border-radius: 3px; transition: background 0.2s;
+  }
+  .md-sidebar__scrollwrap:hover::-webkit-scrollbar-thumb { background: #c3cad6; }
+  [data-md-color-scheme="slate"] .md-sidebar__scrollwrap:hover { scrollbar-color: #3a4558 transparent; }
+  [data-md-color-scheme="slate"] .md-sidebar__scrollwrap:hover::-webkit-scrollbar-thumb { background: #3a4558; }
+  .md-sidebar--primary { padding-top: 0.9rem; }
+  .md-content__inner { padding-top: 1.6rem; }
   /* Une seule source d'indentation (la marge des sous-pages plus bas) : le
      padding de chaque liste du thème s'empilait niveau après niveau. */
   .md-nav--primary .md-nav__list { padding-left: 0; }
@@ -275,25 +296,40 @@
   .md-nav--primary label.md-nav__link[for="__toc"],
   .md-nav--primary label.md-nav__link[for="__toc"] ~ .md-nav { display: none !important; }
 
+  /* Une seule colonne de texte pour toute la barre, comme chez Odoo :
+       [chevron 1,25rem][icône 1,05rem + 0,4rem][texte]
+     Les pages simples réservent les deux premières cases, les sous-pages
+     repartent de ce rail et descendent d'un cran par niveau. */
+  .md-nav--primary {
+    --rh-nav-chevron: 1.25rem;   /* gouttière du chevron */
+    --rh-nav-icon: 1.45rem;      /* icône + son écart */
+    --rh-nav-rail: 2.85rem;      /* chevron + icône : le rail du texte */
+    --rh-nav-step: 1.05rem;      /* un niveau d'imbrication */
+  }
+
   /* --- Groupes --------------------------------------------------------- */
   .md-nav--primary > .md-nav__list > .md-nav__item--section { margin: 0 0 1.15rem; }
+  /* L'icône du groupe se cale sur celles des sections : même abscisse,
+     même rail de texte ensuite. */
   .md-nav--primary > .md-nav__list > .md-nav__item--section > .md-nav__link {
-    display: flex; align-items: center; gap: 0.55rem;
-    margin: 0 0 0.3rem; padding: 0.25rem 0.35rem;
+    display: flex; align-items: center; gap: 0.4rem;
+    margin: 0 0 0.3rem; padding: 0.25rem 0.5rem 0.25rem var(--rh-nav-chevron);
     font-size: 0.8rem; font-weight: 600; letter-spacing: 0;
     color: var(--lplg-blue); background: none; cursor: default;
   }
   .md-nav--primary > .md-nav__list > .md-nav__item--section > .md-nav__link .md-nav__icon { display: none; }
   .md-nav--primary > .md-nav__list > .md-nav__item--section > .md-nav__link::before {
-    content: ""; flex: 0 0 auto; width: 1.2rem; height: 1.2rem;
+    content: ""; flex: 0 0 auto; width: 1.05rem; height: 1.05rem;
     background-color: currentColor;
     -webkit-mask: var(--rh-group-icon) center / contain no-repeat;
     mask: var(--rh-group-icon) center / contain no-repeat;
   }
   #__nav_1_label { --rh-group-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 2c3.4 2.2 5.2 6 5 10.2l2.3 3.3V19l-3.4-1.4H8.1L4.7 19v-3.5L7 12.2C6.8 8 8.6 4.2 12 2zm0 6.2a1.9 1.9 0 100 3.8 1.9 1.9 0 000-3.8zM10 19h4l-2 3z'/></svg>"); }
   #__nav_2_label { --rh-group-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M4 3h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1V4a1 1 0 011-1zm10 0h6a1 1 0 011 1v6a1 1 0 01-1 1h-6a1 1 0 01-1-1V4a1 1 0 011-1zM4 13h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6a1 1 0 011-1zm13 0a4 4 0 110 8 4 4 0 010-8z'/></svg>"); }
-  #__nav_3_label { --rh-group-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 8a4 4 0 100 8 4 4 0 000-8zm9 5v-2l-2.3-.5a7 7 0 00-.7-1.7l1.3-2-1.4-1.4-2 1.3a7 7 0 00-1.7-.7L13 3h-2l-.5 2.3a7 7 0 00-1.7.7l-2-1.3-1.4 1.4 1.3 2a7 7 0 00-.7 1.7L3 11v2l2.3.5c.2.6.4 1.2.7 1.7l-1.3 2 1.4 1.4 2-1.3c.5.3 1.1.5 1.7.7L11 21h2l.5-2.3c.6-.2 1.2-.4 1.7-.7l2 1.3 1.4-1.4-1.3-2c.3-.5.5-1.1.7-1.7L21 13z'/></svg>"); }
-  #__nav_4_label { --rh-group-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 2a10 10 0 100 20 10 10 0 000-20zm0 15.5a1.3 1.3 0 110-2.6 1.3 1.3 0 010 2.6zm1.7-6.3c-.6.5-1 .9-1.1 1.5 0 .2-.1.5-.1.8h-2c0-.4 0-.8.1-1.1.2-.7.7-1.2 1.2-1.6.6-.5.9-.8.9-1.4a1.4 1.4 0 00-2.8 0H8a3.4 3.4 0 116.8 0c0 .9-.5 1.5-1.1 2z'/></svg>"); }
+  /* Belgique : un jalon de carte — ce groupe est le pack pays. */
+  #__nav_3_label { --rh-group-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 2a7 7 0 00-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 00-7-7zm0 4.2a2.8 2.8 0 110 5.6 2.8 2.8 0 010-5.6z'/></svg>"); }
+  #__nav_4_label { --rh-group-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 8a4 4 0 100 8 4 4 0 000-8zm9 5v-2l-2.3-.5a7 7 0 00-.7-1.7l1.3-2-1.4-1.4-2 1.3a7 7 0 00-1.7-.7L13 3h-2l-.5 2.3a7 7 0 00-1.7.7l-2-1.3-1.4 1.4 1.3 2a7 7 0 00-.7 1.7L3 11v2l2.3.5c.2.6.4 1.2.7 1.7l-1.3 2 1.4 1.4 2-1.3c.5.3 1.1.5 1.7.7L11 21h2l.5-2.3c.6-.2 1.2-.4 1.7-.7l2 1.3 1.4-1.4-1.3-2c.3-.5.5-1.1.7-1.7L21 13z'/></svg>"); }
+  #__nav_5_label { --rh-group-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 2a10 10 0 100 20 10 10 0 000-20zm0 15.5a1.3 1.3 0 110-2.6 1.3 1.3 0 010 2.6zm1.7-6.3c-.6.5-1 .9-1.1 1.5 0 .2-.1.5-.1.8h-2c0-.4 0-.8.1-1.1.2-.7.7-1.2 1.2-1.6.6-.5.9-.8.9-1.4a1.4 1.4 0 00-2.8 0H8a3.4 3.4 0 116.8 0c0 .9-.5 1.5-1.1 2z'/></svg>"); }
   .md-nav--primary > .md-nav__list > .md-nav__item--section > .md-nav { margin: 0; }
   .md-nav--primary > .md-nav__list > .md-nav__item--section > .md-nav > .md-nav__list { padding: 0 0 0 0.2rem; }
 
@@ -301,22 +337,22 @@
   .md-nav--primary .md-nav__item { padding: 0; }
   .md-nav--primary .md-nav__list .md-nav__link {
     display: flex; align-items: center;
-    margin: 1px 0; padding: 0.32rem 0.5rem 0.32rem 1.55rem;
+    margin: 1px 0; padding: 0.32rem 0.5rem 0.32rem var(--rh-nav-rail);
     border-radius: 6px; color: #2b3440;
   }
   .md-nav--primary .md-nav__list .md-nav__link:hover { background: #f1f3f7; color: #1b2733; }
 
   /* Section repliable : [chevron][titre], le chevron passe à GAUCHE. */
   .md-nav--primary .md-nav__list .md-nav__container {
-    display: flex; align-items: stretch;
+    display: flex; align-items: stretch; gap: 0;  /* le thème en met 8px */
     margin: 1px 0; padding: 0; border-radius: 6px;
   }
   .md-nav--primary .md-nav__list .md-nav__container:hover { background: #f1f3f7; }
   .md-nav--primary .md-nav__list .md-nav__container > .md-nav__link { margin: 0; background: none; }
   .md-nav--primary .md-nav__list .md-nav__container > a.md-nav__link { flex: 1 1 auto; padding-left: 0.15rem; }
   .md-nav--primary .md-nav__list .md-nav__container > label.md-nav__link {
-    order: -1; flex: 0 0 1.4rem; justify-content: center;
-    padding: 0 0 0 0.3rem; cursor: pointer;
+    order: -1; flex: 0 0 var(--rh-nav-chevron); justify-content: center;
+    padding: 0; cursor: pointer;
   }
   .md-nav--primary .md-nav__container .md-nav__icon { width: 0.9rem; height: 0.9rem; margin: 0; }
   .md-nav--primary .md-nav__container .md-nav__icon::after {
@@ -325,9 +361,21 @@
   .md-nav--primary .md-nav__toggle:checked + .md-nav__container .md-nav__icon::after { transform: rotate(90deg); }
   /* Section ouverte : titre en gras. */
   .md-nav--primary .md-nav__toggle:checked + .md-nav__container > a.md-nav__link { font-weight: 700; color: #1b2733; }
+  /* Section qui contient la page ouverte : en couleur de marque, pour qu'on
+     voie la branche où l'on se trouve sans avoir à lire toute la colonne. */
+  .md-nav--primary .md-nav__item--nested:has(.md-nav__link--active) > .md-nav__container > a.md-nav__link,
+  .md-nav--primary .md-nav__item--nested:has(.md-nav__link--active) > .md-nav__container > label .md-nav__icon {
+    color: var(--lplg-blue);
+  }
 
-  /* Sous-pages : indentées sous le titre de leur section. */
-  .md-nav--primary .md-nav__item--nested:not(.md-nav__item--section) > .md-nav > .md-nav__list { margin-left: 1.1rem; }
+  /* Sous-pages : un cran à droite du titre de leur section, jamais à gauche. */
+  .md-nav--primary .md-nav__item--nested:not(.md-nav__item--section) > .md-nav > .md-nav__list {
+    margin-left: var(--rh-nav-step); padding: 0;  /* le thème remet 12px à gauche */
+  }
+  /* Le dépliage du thème anime la hauteur de la boîte, mais la laissait
+     `overflow: visible` : en se refermant, les sous-pages débordaient sur la
+     section suivante. Découpée, la liste s'enroule comme un store. */
+  .md-nav--primary .md-nav__item--nested:not(.md-nav__item--section) > .md-nav { overflow: hidden; }
 
   /* Page active : pastille pleine de marque. */
   .md-nav--primary .md-nav__list .md-nav__link--active,
@@ -339,30 +387,37 @@
   .md-nav--primary .md-nav__list .md-nav__container:has(> a.md-nav__link--active):hover { background: var(--lplg-blue); }
 
   /* --- Icônes d'app devant les sections d'application ------------------ */
-  .md-nav--primary [id^="__nav_2_"] + .md-nav__container > a.md-nav__link::before {
-    content: ""; flex: 0 0 auto; width: 1.05rem; height: 1.05rem; margin-right: 0.45rem;
+  /* La case est réservée sur TOUTES les sections, même celles qui n'ont pas
+     d'icône (Configuration) : sinon leur titre revient sur le rail du chevron
+     et casse la colonne. Sans `--rh-app-icon`, la case reste vide. */
+  .md-nav--primary { --rh-app-icon: none; }
+  .md-nav--primary .md-nav__list .md-nav__container > a.md-nav__link::before {
+    content: ""; flex: 0 0 auto; width: 1.05rem; height: 1.05rem; margin-right: 0.4rem;
     background: var(--rh-app-icon) center / contain no-repeat; border-radius: 3px;
   }
   #__nav_2_1 + .md-nav__container > a { --rh-app-icon: url("app-icons/residents.png"); }
+  #__nav_2_2 + .md-nav__container > a { --rh-app-icon: url("app-icons/admissions.png"); }
   #__nav_2_3 + .md-nav__container > a { --rh-app-icon: url("app-icons/billing.png"); }
   #__nav_2_4 + .md-nav__container > a { --rh-app-icon: url("app-icons/split-billing.png"); }
-  #__nav_2_5 + .md-nav__container > a { --rh-app-icon: url("app-icons/funding.png"); }
-  #__nav_2_7 + .md-nav__container > a { --rh-app-icon: url("app-icons/care.png"); }
-  #__nav_2_8 + .md-nav__container > a { --rh-app-icon: url("app-icons/care-mobile.png"); }
-  #__nav_2_9 + .md-nav__container > a { --rh-app-icon: url("app-icons/meals.png"); }
-  #__nav_2_10 + .md-nav__container > a { --rh-app-icon: url("app-icons/family-portal.png"); }
-  /* Admissions, eHealth et Documents n'ont pas d'icône d'app : pictogramme à la
-     couleur du texte. */
-  #__nav_2_2 + .md-nav__container > a::before,
-  #__nav_2_6 + .md-nav__container > a::before,
-  #__nav_2_11 + .md-nav__container > a::before {
+  #__nav_2_5 + .md-nav__container > a { --rh-app-icon: url("app-icons/care.png"); }
+  #__nav_2_6 + .md-nav__container > a { --rh-app-icon: url("app-icons/care-mobile.png"); }
+  #__nav_2_7 + .md-nav__container > a { --rh-app-icon: url("app-icons/meals.png"); }
+  #__nav_2_8 + .md-nav__container > a { --rh-app-icon: url("app-icons/family-portal.png"); }
+  /* Groupe Belgique : eHealth et Forfait sont les deux seules sections
+     dépliables, les autres entrées sont des pages simples (pas d'icône). */
+  #__nav_3_3 + .md-nav__container > a { --rh-app-icon: url("app-icons/funding.png"); }
+  /* eHealth et Documents n'ont pas d'icône d'app : pictogramme à la couleur
+     du texte. */
+  #__nav_3_2 + .md-nav__container > a::before,
+  #__nav_2_9 + .md-nav__container > a::before {
     background: currentColor; opacity: 0.75;
     -webkit-mask: var(--rh-app-icon) center / contain no-repeat;
     mask: var(--rh-app-icon) center / contain no-repeat;
   }
-  #__nav_2_2 + .md-nav__container > a { --rh-app-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M5 3h7a2 2 0 012 2v3h-2V5H5v14h7v-3h2v3a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2zm11 5.6L20.4 13 16 17.4 14.6 16l2-2H9v-2h7.6l-2-2z'/></svg>"); }
-  #__nav_2_6 + .md-nav__container > a { --rh-app-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M20.5 9.5C20.5 12 12 20 12 20S3.5 12 3.5 9.5 5.5 5 8 5c1.5 0 3 1 4 2.5C13 6 14.5 5 16 5c2.5 0 4.5 2 4.5 4.5z'/></svg>"); }
-  #__nav_2_11 + .md-nav__container > a { --rh-app-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M6 2h8l4 4v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm7 1.5V8h4.5L13 3.5zM8 13h8v-2H8zm0 4h8v-2H8z'/></svg>"); }
+  /* La page d'accueil du groupe occupe la position 1 : eHealth est en 2,
+     le Forfait en 3. */
+  #__nav_3_2 + .md-nav__container > a { --rh-app-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M20.5 9.5C20.5 12 12 20 12 20S3.5 12 3.5 9.5 5.5 5 8 5c1.5 0 3 1 4 2.5C13 6 14.5 5 16 5c2.5 0 4.5 2 4.5 4.5z'/></svg>"); }
+  #__nav_2_9 + .md-nav__container > a { --rh-app-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M6 2h8l4 4v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm7 1.5V8h4.5L13 3.5zM8 13h8v-2H8zm0 4h8v-2H8z'/></svg>"); }
 
   /* --- Mode sombre ------------------------------------------------------ */
   [data-md-color-scheme="slate"] .md-nav--primary > .md-nav__list > .md-nav__item--section > .md-nav__link { color: #8aa2ff; }
@@ -370,6 +425,8 @@
   [data-md-color-scheme="slate"] .md-nav--primary .md-nav__list .md-nav__link:hover,
   [data-md-color-scheme="slate"] .md-nav--primary .md-nav__list .md-nav__container:hover { background: #1b2636; color: #eef2f7; }
   [data-md-color-scheme="slate"] .md-nav--primary .md-nav__toggle:checked + .md-nav__container > a.md-nav__link { color: #eef2f7; }
+  [data-md-color-scheme="slate"] .md-nav--primary .md-nav__item--nested:has(.md-nav__link--active) > .md-nav__container > a.md-nav__link,
+  [data-md-color-scheme="slate"] .md-nav--primary .md-nav__item--nested:has(.md-nav__link--active) > .md-nav__container > label .md-nav__icon { color: #8aa2ff; }
   [data-md-color-scheme="slate"] .md-nav--primary .md-nav__list .md-nav__link--active,
   [data-md-color-scheme="slate"] .md-nav--primary .md-nav__list .md-nav__container:has(> a.md-nav__link--active) { background: #3b5bff; }
 }

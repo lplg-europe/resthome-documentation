@@ -49,6 +49,8 @@ example); each one is granted separately.
 
 The first three are ticked by default; invoices and health are not.
 
+![The list of family accesses: the resident, the relative, their role, what they may see, the account and the status](../assets/screenshots/portail-famille/01-acces.png)
+
 :::{admonition} Health is never opened without consent
 :class: warning
 

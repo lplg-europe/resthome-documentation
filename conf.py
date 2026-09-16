@@ -84,6 +84,9 @@ html_theme_options = {
 html_logo = "content/assets/logo.svg"
 html_favicon = "content/assets/favicon.svg"
 html_css_files = ["resthome-brand.css"]
+# rh-mermaid.js est chargé par la directive elle-même (voir setup()) ; celui-ci
+# vaut pour toutes les pages : il remet la colonne de navigation en place.
+html_js_files = ["rh-sidebar.js"]
 html_static_path = ["_static"]
 templates_path = ["_templates"]
 html_show_sourcelink = False

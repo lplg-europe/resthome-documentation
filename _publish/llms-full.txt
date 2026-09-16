@@ -49,11 +49,11 @@ La part habitant répartie entre plusieurs débiteurs, une facture chacun.
 
 [Facturation partagée](facturation-partagee/)
 
-Forfait institutionnel
+Belgique
 
-Le calcul du forfait AViQ à partir des journées facturées et du personnel présent.
+Ce qui vient des règles belges : eHealth, le forfait INAMI, le Katz, le forfait institutionnel.
 
-[Forfait institutionnel](forfait/)
+[Belgique](belgique/)
 
 eHealth
 
@@ -3359,41 +3359,49 @@ Source : https://www.lplg.eu/resthome/documentation/soins/registres/
 
 # Registres cliniques
 
-Les **registres cliniques** structurent le suivi des risques et des évaluations gériatriques. Chaque registre regroupe les évaluations d’un même thème, dans le temps, pour chaque habitant.
+Les **registres cliniques** sont la mémoire de ce qui est arrivé : une chute, une plaie, un épisode infectieux. Chaque registre suit un thème, pour un habitant, dans la durée — c’est ce dont une inspection, une transmission ou un entretien avec la famille ont besoin.
 
-## Les registres disponibles
+## Les sept registres
 
-| Registre | À quoi il sert |
+| Registre | Ce qu’il consigne |
 | --- | --- |
-| **Chutes** | Consigner et analyser les chutes |
-| **Escarres (Braden)** | Risque d’escarres via l’échelle de Braden |
-| **Plaies** | Suivi des plaies et de leur cicatrisation |
-| **Douleur** | Évaluation et suivi de la douleur |
-| **Contention** | Traçabilité des mesures de contention |
-| **Nutrition (MNA)** | Dépistage de la dénutrition (Mini Nutritional Assessment) |
-| **Continence** | Suivi de la continence |
-| **Mobilité (Tinetti)** | Équilibre et risque de chute |
-| **Cognition (MMSE)** | Fonctions cognitives |
+| **Registre des contentions** | Chaque mesure de contention, son motif et sa durée |
+| **Registre des chutes** | Les chutes, leurs circonstances et leurs suites |
+| **Registre de continence** | La situation de continence et son évolution |
+| **Registre des plaies** | Les plaies, leurs soins et leur cicatrisation |
+| **Registre des infections** | Les épisodes infectieux et les mesures prises |
+| **Registre des procédures** | Les procédures invasives (cathéter, sonde…) |
+| **Registre des isolements** | Les mesures d’isolement et leur suivi |
 
-## Comment ça marche
+![Une contention : l'habitant, le type de contention, l'évaluation du danger et les membres concernés](../../_images/registre-contentions-fiche.png)
 
-1. Ouvrez le registre voulu depuis l’application Soins → **Registres**.
-2. **Nouvelle évaluation** pour l’habitant concerné : saisissez les items ; Resthome calcule le **score** et le niveau de risque.
-3. Le registre **suit l’évolution** : chaque nouvelle évaluation s’ajoute à l’historique.
-4. Un registre ouvert peut être **clôturé / arrêté**, puis **rouvert** si besoin.
+Un registre n’est pas une échelle
 
-Relié à la facturation et à l’eHealth
+Un registre consigne des **événements**. Une **échelle** mesure un état à un instant donné — Braden, MNA, Tinetti, MMSE, les échelles de douleur. Elles se remplissent depuis la fiche de l’habitant ou depuis l”[app Soins](../../soins-mobile/evaluations/), et sont décrites sous [Évaluations gériatriques](../../residents/evaluations/).
 
-Certaines évaluations ont un impact ailleurs : le **MNA** alimente le suivi nutritionnel (côté [Repas](../../repas/)), et le **Katz** conditionne le forfait (voir [L’évaluation Katz](../../residents/katz/)).
+## Comment fonctionne un registre
 
-Le bon registre au bon moment
+1. Ouvrez le registre voulu depuis l’application **Soins** → **Registres**.
+2. Créez l’entrée pour l’habitant concerné, et décrivez l’événement.
+3. Le registre garde l”**historique** : chaque nouvelle entrée s’ajoute au dossier au lieu de le remplacer.
+4. **Clôturez-le** quand la situation est terminée ; **rouvrez-le** si elle revient.
 
-Ouvrez un registre dès qu’un risque est identifié (après une chute, à l’apparition d’une plaie…) : l’historique constitué facilite les transmissions et les contrôles.
+![Le registre des chutes : une ligne par entrée, avec le type, la gravité de la blessure et l'état](../../_images/registre-chutes-liste.png)
+
+## Ce qu’il alimente
+
+- L”**app Soins** écrit dans les registres depuis le chevet : une note de chute, une note de plaie avec sa photo et ses mesures, une note de change. Voir [Notes](../../soins-mobile/notes/).
+- Le **registre des plaies** porte les plaies que l’app Soins propose de suivre.
+
+![Une plaie dans le registre : le type, le schéma corporel, l'état de la plaie et la prochaine évaluation](../../_images/registre-plaies-fiche.png)
+
+- Un registre d”**infection** ou d”**isolement** est ce qu’une inspection demande à voir.
 
 ## Pour aller plus loin
 
+- [Les notes dans l’app Soins](../../soins-mobile/notes/)
+- [Évaluations gériatriques](../../residents/evaluations/)
 - [Plans de soins et signes vitaux](../plans-de-soins/)
-- [L’évaluation Katz](../../residents/katz/)
 
 
 ---

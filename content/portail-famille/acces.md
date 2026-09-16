@@ -46,6 +46,8 @@ The **Consent** group asks for:
 It is required as soon as **Health** is ticked: without it, Resthome refuses to
 save.
 
+![An access: the relative, their role, the boxes of what they may see, and the consent block](../assets/screenshots/portail-famille/02-acces-fiche.png)
+
 ## 3. Invite
 
 Click **Invite**. Resthome creates the portal account (login = the e-mail

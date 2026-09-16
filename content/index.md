@@ -55,11 +55,11 @@ Billing periods, INAMI packages, supplements, absences and invoices.
 The resident's share divided among several debtors, one invoice each.
 :::
 
-:::{grid-item-card} Institutional allowance
-:link: forfait/index
+:::{grid-item-card} Belgium
+:link: belgique/index
 :link-type: doc
 
-Computing the AViQ allowance from the days billed and the staff present.
+What comes from Belgian rules: eHealth, the INAMI package, Katz, the institutional allowance.
 :::
 
 :::{grid-item-card} eHealth
@@ -127,7 +127,6 @@ readable by AI assistants — you can ask your question in plain language.
 :caption: Getting started
 
 premiers-pas
-parcours-facturation
 :::
 
 :::{toctree}
@@ -139,13 +138,26 @@ residents/index
 admissions/index
 facturation/index
 facturation-partagee/index
-forfait/index
-ehealth/index
 soins/index
 soins-mobile/index
 repas/index
 portail-famille/index
 documents/index
+:::
+
+:::{toctree}
+:hidden:
+:maxdepth: 2
+:caption: Belgium
+
+belgique/index
+ehealth/index
+forfait/index
+facturation/forfait-inami
+residents/katz
+facturation/note-de-frais-annexe12
+facturation/cpas
+parcours-facturation
 :::
 
 :::{toctree}

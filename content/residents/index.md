@@ -8,7 +8,6 @@ Managing residents in a nursing home (MR/MRS) with Resthome: admission, stay, Ka
 :hidden:
 
 gerer-un-resident
-katz
 evaluations
 changement-chambre
 chambres
