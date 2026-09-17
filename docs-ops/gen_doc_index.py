@@ -35,6 +35,13 @@ LANGS = {"fr": "", "nl": "nl", "en": "en"}
 # Sous ce nombre de caractères, une section n'apporte rien toute seule
 # (un titre suivi d'une phrase de liaison) : elle est recollée à la précédente.
 MIN_CHARS = 180
+# Sections de navigation : une liste de liens, jamais une réponse. Indexées,
+# elles gagnaient les recherches — courtes, elles citent tous les mots-clés du
+# domaine sans rien expliquer. L'ancre est en anglais quelle que soit la langue
+# de la page, donc ce filtre vaut pour les trois catalogues.
+NAVIGATION_ANCHORS = {
+    "further-reading", "going-further", "what-s-next", "learn-more",
+}
 
 
 def _clean(article) -> None:
@@ -118,6 +125,8 @@ def build(site: Path, lang: str, subdir: str) -> list[dict]:
         if not sections:
             continue
         for section in sections:
+            if section["url"].partition("#")[2] in NAVIGATION_ANCHORS:
+                continue
             # Une section trop courte n'est pas un sujet : on la recolle.
             if records and records[-1]["page"] == title and len(section["text"]) < MIN_CHARS:
                 records[-1]["text"] += "\n\n" + section["heading"] + "\n" + section["text"]

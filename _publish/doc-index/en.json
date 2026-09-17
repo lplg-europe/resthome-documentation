@@ -40,14 +40,6 @@
   "text": "- **Closing the wizard** creates nothing and brings the card back to its\n  previous stage: the file is only won by **Admit**.\n- **Moving a file out of Admitted** cancels the stays still in **draft** or\n  **confirmed**; a stay already **started** is left untouched.\n- **No duplicate stay**: the wizard reuses the file’s existing stay, or a stay\n  of the resident that belongs to no file — never one belonging to another file.\n  The room, the date and the stay type are pre-filled."
  },
  {
-  "id": "en:admissions/admettre#what-s-next",
-  "lang": "en",
-  "page": "Admitting a candidate",
-  "heading": "What’s next",
-  "url": "https://www.lplg.eu/resthome/documentation/en/admissions/admettre/#what-s-next",
-  "text": "- [Managing a resident](https://www.lplg.eu/resthome/documentation/en/residents/gerer-un-resident/)\n- [The Katz assessment](https://www.lplg.eu/resthome/documentation/en/residents/katz/)\n- [The move-in procedure](https://www.lplg.eu/resthome/documentation/en/residents/procedure-emmenagement/)\n- [The billing journey](https://www.lplg.eu/resthome/documentation/en/parcours-facturation/)"
- },
- {
   "id": "en:admissions/dossier-candidat#",
   "lang": "en",
   "page": "The candidate’s file",
@@ -77,7 +69,7 @@
   "page": "The candidate’s file",
   "heading": "Key contacts",
   "url": "https://www.lplg.eu/resthome/documentation/en/admissions/dossier-candidat/#key-contacts",
-  "text": "Three roles, each with a box to tick when the person does not exist:\n\n- **Emergency contact** — or **No emergency contact**\n- **Legal representative** — or **No legal representative**\n- **Trusted person** — or **No trusted person**\n\nThe box matters: it tells the team that the question was asked, rather than\nleaving an empty field that looks like an oversight.\n\nWhat’s next\n- [Admitting a candidate](https://www.lplg.eu/resthome/documentation/en/admissions/admettre/)\n- [Insurability (MDA)](https://www.lplg.eu/resthome/documentation/en/ehealth/mda/)"
+  "text": "Three roles, each with a box to tick when the person does not exist:\n\n- **Emergency contact** — or **No emergency contact**\n- **Legal representative** — or **No legal representative**\n- **Trusted person** — or **No trusted person**\n\nThe box matters: it tells the team that the question was asked, rather than\nleaving an empty field that looks like an oversight."
  },
  {
   "id": "en:admissions#",
@@ -110,14 +102,6 @@
   "heading": "Giving up an enquiry",
   "url": "https://www.lplg.eu/resthome/documentation/en/admissions/#giving-up-an-enquiry",
   "text": "When an enquiry does not go ahead, click **Give up** on the file and choose the\nreason:\n\n- **Admitted to another home**\n- **Withdrew — staying at home**\n- **Died before admission**\n\nThe reason stays on the file: it is what lets you read, months later, why the\nplace was not taken."
- },
- {
-  "id": "en:admissions#what-s-next",
-  "lang": "en",
-  "page": "Admissions",
-  "heading": "What’s next",
-  "url": "https://www.lplg.eu/resthome/documentation/en/admissions/#what-s-next",
-  "text": "- [The candidate’s file](https://www.lplg.eu/resthome/documentation/en/admissions/dossier-candidat/) — identity, health insurer, key contacts.\n- [Admitting a candidate](https://www.lplg.eu/resthome/documentation/en/admissions/admettre/) — the checks, the wizard, the stay.\n- [Managing a resident](https://www.lplg.eu/resthome/documentation/en/residents/gerer-un-resident/) — once admitted."
  },
  {
   "id": "en:belgique#",
@@ -192,14 +176,6 @@
   "text": "Resthome handles **multiple companies** in a single database: each company has its own residents, rooms and billing, kept separate. Useful for a group that operates several facilities.\n\nThe activity log\n\nAn **activity log** tracks access to sensitive data (GDPR). It can be viewed from the configuration — useful for compliance."
  },
  {
-  "id": "en:configuration#learn-more",
-  "lang": "en",
-  "page": "Configuration",
-  "heading": "Learn more",
-  "url": "https://www.lplg.eu/resthome/documentation/en/configuration/#learn-more",
-  "text": "- [Getting started](https://www.lplg.eu/resthome/documentation/en/premiers-pas/)\n- [Managing a resident](https://www.lplg.eu/resthome/documentation/en/residents/gerer-un-resident/)"
- },
- {
   "id": "en:configuration/reglages-documents#",
   "lang": "en",
   "page": "Document settings",
@@ -238,14 +214,6 @@
   "heading": "Disabling centralization",
   "url": "https://www.lplg.eu/resthome/documentation/en/configuration/reglages-documents/#disabling-centralization",
   "text": "Unchecking the **Nursing home** block **stops** the automatic filing of future\nattachments. Documents already filed in the resident folders **stay in\nplace** — nothing is deleted or moved."
- },
- {
-  "id": "en:configuration/reglages-documents#going-further",
-  "lang": "en",
-  "page": "Document settings",
-  "heading": "Going further",
-  "url": "https://www.lplg.eu/resthome/documentation/en/configuration/reglages-documents/#going-further",
-  "text": "- [Configuration](https://www.lplg.eu/resthome/documentation/en/configuration/)\n- [Manage a resident](https://www.lplg.eu/resthome/documentation/en/residents/gerer-un-resident/)\n- [FAQ](https://www.lplg.eu/resthome/documentation/en/faq/) · [Glossary](https://www.lplg.eu/resthome/documentation/en/glossaire/)"
  },
  {
   "id": "en:configuration/reglages-ehealth#",
@@ -312,14 +280,6 @@
   "text": "**Settings > MR/MRS > eFact Header.** The header information carried by each\n[eFact](https://www.lplg.eu/resthome/documentation/en/ehealth/efact/) 920000 message (segment 300).\n\n| Setting | What it is for | Recommended value (MR/MRS) |\n| --- | --- | --- |\n| **eFact Contact Person** | Name and phone written in the header (Z305 surname / Z306 first name / Z307 phone) — the person an insurer contacts for a billing question. | For example, the establishment’s **director**. If empty, the establishment name is used. |\n| **eFact Invoice Type (Z308)** | The Z308 “invoice type” zone: 01 Hospitalisation, 03 Ambulatory, 09 Mixed. | **01** by default (accepted at the 931000 check). Only switch to **03** if AViQ/CIN confirms it. |"
  },
  {
-  "id": "en:configuration/reglages-ehealth#further-reading",
-  "lang": "en",
-  "page": "eHealth and eFact Settings",
-  "heading": "Further reading",
-  "url": "https://www.lplg.eu/resthome/documentation/en/configuration/reglages-ehealth/#further-reading",
-  "text": "- [Configuration](https://www.lplg.eu/resthome/documentation/en/configuration/)\n- [eHealth — overview](https://www.lplg.eu/resthome/documentation/en/ehealth/)\n- [Electronic billing (eFact)](https://www.lplg.eu/resthome/documentation/en/ehealth/efact/)\n- [Insurability (MDA)](https://www.lplg.eu/resthome/documentation/en/ehealth/mda/)\n- [Agreements (eAgreement)](https://www.lplg.eu/resthome/documentation/en/ehealth/eagreement/)\n- [eFact rejections — causes and solutions](https://www.lplg.eu/resthome/documentation/en/ehealth/efact-rejets/)"
- },
- {
   "id": "en:configuration/reglages-facturation#",
   "lang": "en",
   "page": "Billing settings (MR/MRS)",
@@ -368,14 +328,6 @@
   "text": "The **presence day** rules (noon rule, hospitalization, leave) are **built into**\nResthome and are not configured here. Only the **assignee** of a follow-up activity\nis configurable.\n\n| Setting | What it does | Recommended value (MR/MRS) |\n| --- | --- | --- |\n| **Katz activity assignee** | User to whom the “New Katz required” activity is assigned when a hospital readmission exceeds **30 days**. If empty: current user (if clinical), otherwise the first head nurse, nurse or doctor found. | The **head nurse** (or the care manager). |\n\nWhy 30 days?\n\nA readmission after more than 30 days of hospitalization requires a **new Katz\nassessment**. The assigned activity acts as a reminder. See\n[Absences and hospitalizations](https://www.lplg.eu/resthome/documentation/en/facturation/absences/)."
  },
  {
-  "id": "en:configuration/reglages-facturation#going-further",
-  "lang": "en",
-  "page": "Billing settings (MR/MRS)",
-  "heading": "Going further",
-  "url": "https://www.lplg.eu/resthome/documentation/en/configuration/reglages-facturation/#going-further",
-  "text": "- [Configuration](https://www.lplg.eu/resthome/documentation/en/configuration/) — rooms, rates, health insurance funds, facility.\n- [Billing overview](https://www.lplg.eu/resthome/documentation/en/facturation/)\n- [Bill a month, step by step](https://www.lplg.eu/resthome/documentation/en/facturation/facturer-un-mois/)\n- [The INAMI lump sum (dependency)](https://www.lplg.eu/resthome/documentation/en/facturation/forfait-inami/)\n- [Maintenance debtors](https://www.lplg.eu/resthome/documentation/en/facturation-partagee/)\n- [Absences and hospitalizations](https://www.lplg.eu/resthome/documentation/en/facturation/absences/)"
- },
- {
   "id": "en:configuration/reglages-generaux#",
   "lang": "en",
   "page": "General settings (residents, rooms)",
@@ -416,14 +368,6 @@
   "text": "*Settings > Nursing Home > Demo Data.* A way to fill a **test** database with\nfictitious residents, rooms, stays and invoices.\n\n| Setting | What it does | Recommended value (MR/MRS) |\n| --- | --- | --- |\n| **Load Demo Data** | Creates fictitious residents, rooms, stays, billing periods, medical data and meals. | Keep it for a **test** environment. |\n| **Update Demo Data** | Re-runs the loader to add demo records added since (furniture, supplements, etc.) without duplicating existing ones. | Testing only. |\n\nNever on your real database\n\nDemo data creates **fictitious residents and invoices**. Only use these buttons on\na test or training database, **never** on your production environment."
  },
  {
-  "id": "en:configuration/reglages-generaux#going-further",
-  "lang": "en",
-  "page": "General settings (residents, rooms)",
-  "heading": "Going further",
-  "url": "https://www.lplg.eu/resthome/documentation/en/configuration/reglages-generaux/#going-further",
-  "text": "- [Configuration](https://www.lplg.eu/resthome/documentation/en/configuration/)\n- [Manage a resident](https://www.lplg.eu/resthome/documentation/en/residents/gerer-un-resident/)\n- [Room change and transfer](https://www.lplg.eu/resthome/documentation/en/residents/changement-chambre/)\n- [Getting started](https://www.lplg.eu/resthome/documentation/en/premiers-pas/)\n- [FAQ](https://www.lplg.eu/resthome/documentation/en/faq/) · [Glossary](https://www.lplg.eu/resthome/documentation/en/glossaire/)"
- },
- {
   "id": "en:configuration/reglages-repas#",
   "lang": "en",
   "page": "Meal and nutrition settings",
@@ -462,14 +406,6 @@
   "heading": "Nutritional targets (ESPEN)",
   "url": "https://www.lplg.eu/resthome/documentation/en/configuration/reglages-repas/#nutritional-targets-espen",
   "text": "These coefficients, drawn from the **ESPEN** geriatric guidelines, are used to\ncalculate each **resident’s own target** (from their weight and sex) and to\ntrigger the **deficit alerts**.\n\n| Setting | What it does | Recommended value (MR/MRS) |\n| --- | --- | --- |\n| **Energy (kcal/kg/day)** | Energy target per kilo of body weight. | 30 |\n| **Energy if underweight (kcal/kg/day)** | Raised target for an undernourished resident (BMI less than or equal to 21); ESPEN suggests 32 to 38. | 35 |\n| **Protein (g/kg/day)** | Protein target per kilo of body weight (at least 1; 1.2 to 1.5 in case of illness). | 1 |\n| **Fluids — women (ml/day)** | Daily hydration target for women. | 1600 |\n| **Fluids — men (ml/day)** | Daily hydration target for men. | 2000 |\n| **Intake deficit alert (% coverage)** | Threshold below which an alert is created when the 3-day average intake does not cover enough of the energy or protein target. | 75 |\n\nA target calculated per resident\n\nHere you set the **coefficients**; Resthome derives each resident’s\n**individual target** from their weight and sex, then compares the actual\n**intake** against those targets. Coverage monitoring and undernutrition\nscreening are described in [Menus, diets, and hydration](https://www.lplg.eu/resthome/documentation/en/repas/menus-regimes/)."
- },
- {
-  "id": "en:configuration/reglages-repas#further-reading",
-  "lang": "en",
-  "page": "Meal and nutrition settings",
-  "heading": "Further reading",
-  "url": "https://www.lplg.eu/resthome/documentation/en/configuration/reglages-repas/#further-reading",
-  "text": "- [Menus, diets, and hydration](https://www.lplg.eu/resthome/documentation/en/repas/menus-regimes/)\n- [Family portal and kiosk](https://www.lplg.eu/resthome/documentation/en/repas/portail-familles/)\n- [Meals overview](https://www.lplg.eu/resthome/documentation/en/repas/)\n- [Clinical registers](https://www.lplg.eu/resthome/documentation/en/soins/registres/)"
  },
  {
   "id": "en:documents/centralisation#",
@@ -528,14 +464,6 @@
   "text": "- Every attachment added to a resident’s **message thread** or **record** is\n  **automatically copied** into their Documents folder.\n- Filing concerns **residents only** — not contacts, vendors or employees.\n- The facility’s **default tags** are **applied automatically** to every centralized\n  document.\n- The resident’s **personal folder** (and its subfolders) is created automatically; the\n  **Documents** button on the record opens it directly.\n- Centralization is **enabled by default** and is disabled by unchecking the **Nursing\n  home** block — documents already filed stay in place.\n- The setting and root folder are **specific to each facility**."
  },
  {
-  "id": "en:documents/centralisation#further-reading",
-  "lang": "en",
-  "page": "Automatic centralization of attachments",
-  "heading": "Further reading",
-  "url": "https://www.lplg.eu/resthome/documentation/en/documents/centralisation/#further-reading",
-  "text": "- [Documents](https://www.lplg.eu/resthome/documentation/en/documents/)\n- [Document settings](https://www.lplg.eu/resthome/documentation/en/configuration/reglages-documents/)\n- [Manage a resident](https://www.lplg.eu/resthome/documentation/en/residents/gerer-un-resident/)"
- },
- {
   "id": "en:documents#",
   "lang": "en",
   "page": "Resident documents",
@@ -592,14 +520,6 @@
   "text": "- Each resident has an **automatic personal folder** with three subfolders:\n  **medical**, **administrative**, **billing**.\n- The folder follows the **resident’s name** and renames itself; folders are\n  **protected from accidental deletion**.\n- The record’s **“Documents” button** opens the folder and counts the files,\n  subfolders included.\n- At the facility level, Resthome creates the **“Residents”** and\n  **“Blank forms”** folders, **separated per company**.\n- Nine predefined **tags** (Katz, eAgreement, GDPR, CPAS…) make filtering easier,\n  and can be applied automatically."
  },
  {
-  "id": "en:documents#further-reading",
-  "lang": "en",
-  "page": "Resident documents",
-  "heading": "Further reading",
-  "url": "https://www.lplg.eu/resthome/documentation/en/documents/#further-reading",
-  "text": "- [Document centralization](https://www.lplg.eu/resthome/documentation/en/documents/centralisation/)\n- [Managing a resident](https://www.lplg.eu/resthome/documentation/en/residents/gerer-un-resident/)\n- [Document settings](https://www.lplg.eu/resthome/documentation/en/configuration/reglages-documents/)\n- [FAQ](https://www.lplg.eu/resthome/documentation/en/faq/) · [Glossary](https://www.lplg.eu/resthome/documentation/en/glossaire/)"
- },
- {
   "id": "en:ehealth/eagreement#",
   "lang": "en",
   "page": "Agreements (eAgreement)",
@@ -648,14 +568,6 @@
   "text": "- **Short absence**: an absence of more than **72 h** (or any\n  **hospitalisation**) triggers the departure **Annexe 11**; the **return**\n  generates the readmission **Annexe 7**. See [Absences and\n  hospitalisations](https://www.lplg.eu/resthome/documentation/en/facturation/absences/).\n- **Billing already closed**: if the invoice of the month concerned is **already\n  posted** for this resident, Resthome **does not recreate** a duplicate\n  agreement for this month — it protects consistency. Reset the invoice to draft\n  (or issue a credit note) if you really must modify this month, then refresh.\n- **Readmission after a long leave**: depending on the duration, the readmission\n  may require a **new Katz evaluation** — Resthome flags it for you."
  },
  {
-  "id": "en:ehealth/eagreement#going-further",
-  "lang": "en",
-  "page": "Agreements (eAgreement)",
-  "heading": "Going further",
-  "url": "https://www.lplg.eu/resthome/documentation/en/ehealth/eagreement/#going-further",
-  "text": "- [Refused agreement (eAgreement) — causes and solutions](https://www.lplg.eu/resthome/documentation/en/ehealth/eagreement-refus/)\n- [Absences and hospitalisations](https://www.lplg.eu/resthome/documentation/en/facturation/absences/)\n- [Departure and death](https://www.lplg.eu/resthome/documentation/en/facturation/depart-deces/)\n- [eHealth overview](https://www.lplg.eu/resthome/documentation/en/ehealth/)"
- },
- {
   "id": "en:ehealth/eagreement-refus#",
   "lang": "en",
   "page": "Refused agreement (eAgreement) — causes and solutions",
@@ -694,14 +606,6 @@
   "heading": "Best practices (avoiding refusal)",
   "url": "https://www.lplg.eu/resthome/documentation/en/ehealth/eagreement-refus/#best-practices-avoiding-refusal",
   "text": "- **MDA first** — check [insurability](https://www.lplg.eu/resthome/documentation/en/ehealth/mda/) **before** preparing the agreement: it is the most\n  frequent blocker, and it can be anticipated.\n- **Complete resident record** — valid NISS (eID), health insurer filled in, correct identity,\n  before any movement.\n- **The right document, once** — one situation = one annexe (7 admission/return, 10 Katz,\n  11 discharge/death). Do not resend an agreement that has already been transmitted.\n- **Katz validated** before sending for admissions and aggravations.\n- **Active eHealth certificate** and up-to-date facility configuration (INAMI number).\n- **Let Resthome do the work** — manage the resident (admission, leave, return, discharge);\n  Resthome derives the notification. Most often: check and send."
- },
- {
-  "id": "en:ehealth/eagreement-refus#learn-more",
-  "lang": "en",
-  "page": "Refused agreement (eAgreement) — causes and solutions",
-  "heading": "Learn more",
-  "url": "https://www.lplg.eu/resthome/documentation/en/ehealth/eagreement-refus/#learn-more",
-  "text": "- [Agreements (eAgreement)](https://www.lplg.eu/resthome/documentation/en/ehealth/eagreement/)\n- [Insurability (MDA)](https://www.lplg.eu/resthome/documentation/en/ehealth/mda/) · [MDA errors](https://www.lplg.eu/resthome/documentation/en/ehealth/mda-erreurs/)\n- [eFact rejections](https://www.lplg.eu/resthome/documentation/en/ehealth/efact-rejets/)\n- [FAQ](https://www.lplg.eu/resthome/documentation/en/faq/) · [Glossary](https://www.lplg.eu/resthome/documentation/en/glossaire/)"
  },
  {
   "id": "en:ehealth/eagreement-signature#",
@@ -760,14 +664,6 @@
   "text": "- The **responsible practitioner** is the **Katz assessor**, not the sender;\n  Resthome resolves their **NIHII** in a cascade: assessor → head nurse →\n  coordinating physician → generic number.\n- A Katz **category D** requires a **physician**; configure a fallback\n  **coordinating physician** in the eHealth settings.\n- The **NIHII**, **role** and **signature image** live on the **employee record**\n  (*Nursing Home* tab) — no user license needed for caregivers who sign\n  occasionally.\n- **Sign Annexe 10 / 7 / 11** places your signature image on the PDF: no more\n  printing / signing / scanning. Signing is a **prerequisite for sending**.\n- **Signature rules**: physician OR nurse by default; **physician mandatory** in\n  category D or a quick revision (< 6 months).\n- You sign **only with your own** signature, unless you have **eHealth manager**\n  rights."
  },
  {
-  "id": "en:ehealth/eagreement-signature#further-reading",
-  "lang": "en",
-  "page": "Responsible practitioner and annex signatures",
-  "heading": "Further reading",
-  "url": "https://www.lplg.eu/resthome/documentation/en/ehealth/eagreement-signature/#further-reading",
-  "text": "- [Agreements (eAgreement)](https://www.lplg.eu/resthome/documentation/en/ehealth/eagreement/)\n- [Refused agreement (eAgreement) — causes and solutions](https://www.lplg.eu/resthome/documentation/en/ehealth/eagreement-refus/)\n- [The dependency scale (Katz)](https://www.lplg.eu/resthome/documentation/en/residents/katz/)\n- [eHealth and eFact settings](https://www.lplg.eu/resthome/documentation/en/configuration/reglages-ehealth/)\n- [eHealth overview](https://www.lplg.eu/resthome/documentation/en/ehealth/)"
- },
- {
   "id": "en:ehealth/eagreement-suivi#",
   "lang": "en",
   "page": "Following a request: deadlines and decision",
@@ -808,14 +704,6 @@
   "text": "When the letter arrives — or when the tacit deadline passes — open the request\nand click **Paper decision received**. The button is available from **Sent**\nonwards.\n\nThree outcomes:\n\n### Acceptance\n\nThe insurer grants the allowance. Copy from the letter:\n\n- the **agreement number** printed on it — it also serves as the reference in\n  case of dispute;\n- the **start** and **end** of the agreement;\n- the **agreed category** — which may differ from the one you requested;\n- the **CT1/CT2 entitlement code**: pick the pair from the list, the two codes\n  always go together.\n\n### Refusal\n\nRecord the **reason** as stated on the letter. It is required — a refusal\nwithout a written reason cannot be contested later.\n\n### Tacit agreement\n\nThe regulatory fallback when the 15 days elapsed with no reply. Same effect as an\nacceptance; fill in the agreement dates and category as you requested them.\n\n### Common to all three\n\nWhatever the outcome, also record:\n\n- the **decision date** written on the letter;\n- the **medical advisor** who signed it. Pick from those already registered on\n  the resident’s insurer, or create one inline — it is filed under that insurer\n  so you only type it once;\n- the **scanned letter** itself, as proof.\n\nThe agreed category is what gets billed\n\nThe insurer may grant a category **lower** than the one you requested. What is\nrecorded here is what is billed — not what you asked for. If the gap is not\njustified, contest it with the insurer rather than correcting it by hand."
  },
  {
-  "id": "en:ehealth/eagreement-suivi#further-reading",
-  "lang": "en",
-  "page": "Following a request: deadlines and decision",
-  "heading": "Further reading",
-  "url": "https://www.lplg.eu/resthome/documentation/en/ehealth/eagreement-suivi/#further-reading",
-  "text": "- [Agreements (eAgreement Light)](https://www.lplg.eu/resthome/documentation/en/ehealth/eagreement/) — creating and sending a request.\n- [Signing the annexes](https://www.lplg.eu/resthome/documentation/en/ehealth/eagreement-signature/) — before sending.\n- [Refusals and rejects](https://www.lplg.eu/resthome/documentation/en/ehealth/eagreement-refus/) — what to do with a negative outcome.\n- [The Katz assessment](https://www.lplg.eu/resthome/documentation/en/residents/katz/) — the category that is requested."
- },
- {
   "id": "en:ehealth/eagreement-transfert#",
   "lang": "en",
   "page": "Internal transfer (MR ↔ MRS)",
@@ -854,14 +742,6 @@
   "heading": "Cancelling a transfer",
   "url": "https://www.lplg.eu/resthome/documentation/en/ehealth/eagreement-transfert/#cancelling-a-transfer",
   "text": "If you cancel the stay a transfer opened, the transfer never happened — and the\ntwo annexes it created must not stay in the queue waiting to declare a move to\nthe insurer that will not take place.\n\nResthome cleans up on its own, but the rule depends on whether the annex has\nalready left:\n\n- **Still in draft** — the pair is **removed**, and the resident’s thread records\n  it: *“Internal transfer cancelled — its draft eAgreement requests were\n  removed.”*\n- **Already sent** — the annex is **left alone**, and the thread warns you:\n  *“Internal transfer cancelled, but … was already sent to the OA.”*\n\nA sent annexe is retracted with the insurer, not in the software\n\nResthome will never silently delete a declaration the insurer has already\nreceived. If the transfer annexe went out and the transfer is cancelled, the\ninsurer holds a move that did not happen: **contact them** to correct it. The\nsame rule applies when you reopen a stay whose end-of-stay annexe was already\nsent — Resthome then refuses the reopening outright rather than leaving a\ncontradiction.\n\nOnly the pair created with that stay is touched. A request belonging to an\nearlier transfer of the same resident is never affected, and the cleanup never\nblocks the cancellation itself."
- },
- {
-  "id": "en:ehealth/eagreement-transfert#further-reading",
-  "lang": "en",
-  "page": "Internal transfer (MR ↔ MRS)",
-  "heading": "Further reading",
-  "url": "https://www.lplg.eu/resthome/documentation/en/ehealth/eagreement-transfert/#further-reading",
-  "text": "- [Agreements (eAgreement Light)](https://www.lplg.eu/resthome/documentation/en/ehealth/eagreement/) — the requests the transfer creates.\n- [Following a request](https://www.lplg.eu/resthome/documentation/en/ehealth/eagreement-suivi/) — deadlines and the insurer’s decision.\n- [Room change and transfer](https://www.lplg.eu/resthome/documentation/en/residents/changement-chambre/) — moving room within the same sector.\n- [The Katz assessment](https://www.lplg.eu/resthome/documentation/en/residents/katz/) — the category that conditions MRS."
  },
  {
   "id": "en:ehealth/efact#",
@@ -1000,14 +880,6 @@
   "text": "When a settlement refuses part of a sending, the rest is paid and only the\nrefused lines need attention. On a rejected line, **Correct & re-bill** opens an\nassistant showing:\n\n- the amount **originally billed**;\n- the insurer’s **rejection** — code and reason, as returned;\n- the **corrected amount** to re-bill, pre-filled with the original.\n\nEnter the right amount, add a short note on what you corrected, and confirm.\n\nResthome then:\n\n- **leaves the original line rejected** — that is the insurer’s own follow-up\n  status and it must not be rewritten;\n- adds the corrected amount to a **remainder** sending, which re-introduces the\n  line with a back-reference to the original invoice.\n\nThe remainder is an ordinary batch: generate its message, run the [pre-send\nchecks](https://www.lplg.eu/resthome/documentation/en/ehealth/efact/) and send it like any other.\n\nCorrect the cause first, the amount second\n\nRe-billing the same line with a different amount does not fix a rejection whose\ncause was insurability, dates or category. Read the reject reason: if it points\nat the resident’s file, fix that first — otherwise the remainder comes back\nrefused too."
  },
  {
-  "id": "en:ehealth/efact-corrections#further-reading",
-  "lang": "en",
-  "page": "Correcting an already-settled sending",
-  "heading": "Further reading",
-  "url": "https://www.lplg.eu/resthome/documentation/en/ehealth/efact-corrections/#further-reading",
-  "text": "- [Rejections and how to fix them](https://www.lplg.eu/resthome/documentation/en/ehealth/efact-rejets/) — reading a settlement, reject codes.\n- [Settlements and payments](https://www.lplg.eu/resthome/documentation/en/ehealth/efact-paiements/) — what the insurer actually paid.\n- [Electronic invoicing (eFact)](https://www.lplg.eu/resthome/documentation/en/ehealth/efact/) — the full cycle.\n- [Departure and death](https://www.lplg.eu/resthome/documentation/en/facturation/depart-deces/) — the most common cause of an over-billed allowance."
- },
- {
   "id": "en:ehealth/efact-paiements#",
   "lang": "en",
   "page": "Payment tracking and settlement reconciliation",
@@ -1088,14 +960,6 @@
   "text": "- The **acknowledgement (931000)** pays nothing; only the **settlement\n  (920900)** tells you what is actually paid.\n- Resthome **reconciles the settlement automatically**: lines allocated, batch\n  status updated, remainder created for the rejections.\n- Under **Account C**, a settlement with a real payment reference marks the\n  batch **Paid** automatically (the payment date may stay empty).\n- **Reconciling** a settlement (**Mark Reconciled**) means confirming the money\n  received; the Cockpit gathers the **To reconcile** and the **OAs to chase**.\n- **Late-payment interest** is only calculated after entering the **legal rate**\n  in the eHealth settings."
  },
  {
-  "id": "en:ehealth/efact-paiements#further-reading",
-  "lang": "en",
-  "page": "Payment tracking and settlement reconciliation",
-  "heading": "Further reading",
-  "url": "https://www.lplg.eu/resthome/documentation/en/ehealth/efact-paiements/#further-reading",
-  "text": "- [Electronic billing (eFact)](https://www.lplg.eu/resthome/documentation/en/ehealth/efact/)\n- [eFact rejections — causes and solutions](https://www.lplg.eu/resthome/documentation/en/ehealth/efact-rejets/)\n- [Billing a month](https://www.lplg.eu/resthome/documentation/en/facturation/facturer-un-mois/)\n- [eHealth settings](https://www.lplg.eu/resthome/documentation/en/configuration/reglages-ehealth/)\n- [eHealth overview](https://www.lplg.eu/resthome/documentation/en/ehealth/)"
- },
- {
   "id": "en:ehealth/efact-rejets#",
   "lang": "en",
   "page": "eFact rejections — causes and solutions",
@@ -1160,14 +1024,6 @@
   "text": "- **Prevent rather than cure**: handle the **self-check** messages and validate\n  the **MDA** before invoicing — this way, most rejections are avoided.\n- A **partial rejection** is fixed **line by line**; a **global rejection** is\n  **resent as a new batch**.\n- An **over-invoicing** (departure, death, over-declared allowance) is corrected\n  with a **credit note / corrective batch**, not with a simple resend."
  },
  {
-  "id": "en:ehealth/efact-rejets#further-reading",
-  "lang": "en",
-  "page": "eFact rejections — causes and solutions",
-  "heading": "Further reading",
-  "url": "https://www.lplg.eu/resthome/documentation/en/ehealth/efact-rejets/#further-reading",
-  "text": "- [Electronic invoicing (eFact)](https://www.lplg.eu/resthome/documentation/en/ehealth/efact/)\n- [Insurability (MDA)](https://www.lplg.eu/resthome/documentation/en/ehealth/mda/) · [MDA errors](https://www.lplg.eu/resthome/documentation/en/ehealth/mda-erreurs/)\n- [Departure and death](https://www.lplg.eu/resthome/documentation/en/facturation/depart-deces/)\n- [FAQ](https://www.lplg.eu/resthome/documentation/en/faq/) · [Glossary](https://www.lplg.eu/resthome/documentation/en/glossaire/)"
- },
- {
   "id": "en:ehealth#",
   "lang": "en",
   "page": "eHealth",
@@ -1198,14 +1054,6 @@
   "heading": "Good to know",
   "url": "https://www.lplg.eu/resthome/documentation/en/ehealth/#good-to-know",
   "text": "- An **absence** of more than 72 h (or any hospitalisation) triggers an\n  end-of-accommodation **Annexe 11**; the **return** generates a readmission\n  **Annexe 7**.\n- An invoice that is already **posted** “freezes” the month’s billing for that\n  resident: to change it, reset it to draft (or issue a credit note), then\n  refresh."
- },
- {
-  "id": "en:ehealth#what-s-next",
-  "lang": "en",
-  "page": "eHealth",
-  "heading": "What’s next",
-  "url": "https://www.lplg.eu/resthome/documentation/en/ehealth/#what-s-next",
-  "text": "- [Agreements (eAgreement)](https://www.lplg.eu/resthome/documentation/en/ehealth/eagreement/) — admission, absence, return,\n  discharge (Annexes 7, 10, 11).\n- [The billing journey](https://www.lplg.eu/resthome/documentation/en/parcours-facturation/) — from admission to payment.\n- [Absences and hospitalisations](https://www.lplg.eu/resthome/documentation/en/facturation/absences/)\n- [Billing](https://www.lplg.eu/resthome/documentation/en/facturation/)\n- [FAQ](https://www.lplg.eu/resthome/documentation/en/faq/) · [Glossary](https://www.lplg.eu/resthome/documentation/en/glossaire/)"
  },
  {
   "id": "en:ehealth/mda#",
@@ -1288,14 +1136,6 @@
   "text": "| Situation | What to do |\n| --- | --- |\n| **No response** (platform) | **Retry no-responses**; if it persists, **Report to InterMut** |\n| **OA rejection** | **Contact the OA** (reason shown) |\n| **Technical error** | **Report to InterMut** |\n| **Resident with no health insurance fund** | Non-blocking: the actual OA comes from the response |\n| **Pending (grouped)** | **Check responses** or wait |"
  },
  {
-  "id": "en:ehealth/mda#learn-more",
-  "lang": "en",
-  "page": "Insurability (MDA)",
-  "heading": "Learn more",
-  "url": "https://www.lplg.eu/resthome/documentation/en/ehealth/mda/#learn-more",
-  "text": "- [MDA errors — causes and solutions](https://www.lplg.eu/resthome/documentation/en/ehealth/mda-erreurs/)\n- [Electronic billing (eFact)](https://www.lplg.eu/resthome/documentation/en/ehealth/efact/)\n- [Agreements (eAgreement)](https://www.lplg.eu/resthome/documentation/en/ehealth/eagreement/)\n- [Billing overview](https://www.lplg.eu/resthome/documentation/en/facturation/)"
- },
- {
   "id": "en:ehealth/mda-erreurs#",
   "lang": "en",
   "page": "MDA errors — causes and solutions",
@@ -1326,14 +1166,6 @@
   "heading": "Best practices",
   "url": "https://www.lplg.eu/resthome/documentation/en/ehealth/mda-erreurs/#best-practices",
   "text": "- **MDA at the start of the month, before billing.**\n- **Individual check** (immediate) for a specific resident; **batch check** for\n  a whole period — paste a column of names/NISS if needed.\n\n  - **Immediate send (Sync)** for **small volumes**;\n  - **Grouped send (Async)** for **large monthly batches**: the request goes\n    out, then you **retrieve the responses** a little later with **Check\n    responses** (requires at least 2 residents).\n- The batch displays **counters** (Insured, Not insured, Errors, Pending,\n  Deaths) to spot at a glance what remains to process.\n- **What Resthome updates** after a successful MDA: the actual **mutuality\n  (OA)**, the **BIM status**, the **affiliation number**, the **identity** if\n  fields were missing, and the **date of death** if the organisation reports it.\n  Exception: the mutuality of a **special scheme** is not overwritten."
- },
- {
-  "id": "en:ehealth/mda-erreurs#further-reading",
-  "lang": "en",
-  "page": "MDA errors — causes and solutions",
-  "heading": "Further reading",
-  "url": "https://www.lplg.eu/resthome/documentation/en/ehealth/mda-erreurs/#further-reading",
-  "text": "- [Insurability (MDA)](https://www.lplg.eu/resthome/documentation/en/ehealth/mda/)\n- [eFact rejections](https://www.lplg.eu/resthome/documentation/en/ehealth/efact-rejets/) · [Electronic invoicing (eFact)](https://www.lplg.eu/resthome/documentation/en/ehealth/efact/)\n- [FAQ](https://www.lplg.eu/resthome/documentation/en/faq/) · [Glossary](https://www.lplg.eu/resthome/documentation/en/glossaire/)"
  },
  {
   "id": "en:ehealth/vacances-collectives#",
@@ -1384,14 +1216,6 @@
   "text": "- One record covers the whole trip: **dates, destination, participants**.\n- The **14 days per year** quota is checked per resident, with the year’s\n  running total.\n- **Communicate to OAs** produces one **Annexe 7** per resident, to their own\n  fund.\n- Notify **two weeks ahead**; a shorter notice warns without blocking."
  },
  {
-  "id": "en:ehealth/vacances-collectives#further-reading",
-  "lang": "en",
-  "page": "Collective holidays",
-  "heading": "Further reading",
-  "url": "https://www.lplg.eu/resthome/documentation/en/ehealth/vacances-collectives/#further-reading",
-  "text": "- [Absences and hospitalisations](https://www.lplg.eu/resthome/documentation/en/facturation/absences/)\n- [Agreements (eAgreement)](https://www.lplg.eu/resthome/documentation/en/ehealth/eagreement/)\n- [Manage a resident](https://www.lplg.eu/resthome/documentation/en/residents/gerer-un-resident/)"
- },
- {
   "id": "en:facturation/absences#",
   "lang": "en",
   "page": "Absences and hospitalisations",
@@ -1430,14 +1254,6 @@
   "heading": "Cancel an absence",
   "url": "https://www.lplg.eu/resthome/documentation/en/facturation/absences/#cancel-an-absence",
   "text": "An absence entered by mistake? **Delete it** or set it back to draft: Resthome\n**rolls it back cleanly** — the allowance is recomputed as if the absence had\nnever happened, and the prepared notifications are withdrawn as long as they\nhave not been validated on the mutuality side.\n\nMonth already invoiced\n\nIf the month’s invoice is **already posted** for this resident, Resthome does\nnot change that month automatically (protection against double invoicing). To\ncorrect it anyway: reset the invoice to **draft** (or create a **credit note**),\nthen **refresh**. The other residents in the period are not affected."
- },
- {
-  "id": "en:facturation/absences#going-further",
-  "lang": "en",
-  "page": "Absences and hospitalisations",
-  "heading": "Going further",
-  "url": "https://www.lplg.eu/resthome/documentation/en/facturation/absences/#going-further",
-  "text": "- [Agreements (eAgreement)](https://www.lplg.eu/resthome/documentation/en/ehealth/eagreement/)\n- [Departure and death](https://www.lplg.eu/resthome/documentation/en/facturation/depart-deces/)\n- [Billing overview](https://www.lplg.eu/resthome/documentation/en/facturation/)"
  },
  {
   "id": "en:facturation/application-supplements#",
@@ -1504,14 +1320,6 @@
   "text": "- The **Supplements** app is a dedicated entry screen; it acts on the\n  **same envelopes and conventions** as billing — no duplicate data.\n- The **Residents** screen is the starting point: click a resident to open\n  their catalog, or **select several** (Ctrl+click / long press /\n  **Multiple selection**) then **Supplements (N)** to serve them all at once.\n- **One-off** = once on the envelope; **convention** = recurring, on the\n  resident, surviving stay changes.\n- A product under an **active convention** cannot be entered as one-off.\n- The **catalog** carries the type and the price (value specific to the\n  facility); the **reporting** tracks amounts per resident, product and month."
  },
  {
-  "id": "en:facturation/application-supplements#further-reading",
-  "lang": "en",
-  "page": "The Supplements App",
-  "heading": "Further reading",
-  "url": "https://www.lplg.eu/resthome/documentation/en/facturation/application-supplements/#further-reading",
-  "text": "- [Supplements](https://www.lplg.eu/resthome/documentation/en/facturation/supplements/)\n- [Recharging a vendor bill](https://www.lplg.eu/resthome/documentation/en/facturation/refacturation-fournisseur/)\n- [Billing a month, step by step](https://www.lplg.eu/resthome/documentation/en/facturation/facturer-un-mois/)\n- [Billing overview](https://www.lplg.eu/resthome/documentation/en/facturation/)\n- [Billing settings](https://www.lplg.eu/resthome/documentation/en/configuration/reglages-facturation/)"
- },
- {
   "id": "en:facturation/checklist-fin-de-mois#",
   "lang": "en",
   "page": "Month-end checklist",
@@ -1566,14 +1374,6 @@
   "heading": "The deadline not to miss",
   "url": "https://www.lplg.eu/resthome/documentation/en/facturation/checklist-fin-de-mois/#the-deadline-not-to-miss",
   "text": "eFact batches must reach the insurer by the **20th of the following month**.\nWorking backwards, the MDA and the corrections should be done in the **first\nweek** — which leaves room to handle a rejection without missing the deadline."
- },
- {
-  "id": "en:facturation/checklist-fin-de-mois#further-reading",
-  "lang": "en",
-  "page": "Month-end checklist",
-  "heading": "Further reading",
-  "url": "https://www.lplg.eu/resthome/documentation/en/facturation/checklist-fin-de-mois/#further-reading",
-  "text": "- [Invoice a month](https://www.lplg.eu/resthome/documentation/en/facturation/facturer-un-mois/)\n- [The billing journey](https://www.lplg.eu/resthome/documentation/en/parcours-facturation/)\n- [Electronic billing (eFact)](https://www.lplg.eu/resthome/documentation/en/ehealth/efact/)"
  },
  {
   "id": "en:facturation/cpas#",
@@ -1632,14 +1432,6 @@
   "text": "- CPAS coverage concerns the **resident share** (room + supplements), not the\n  **dependency allowance** (health-insurance-fund share, via eFact).\n- First create the CPAS in **Billing → Configuration → CPAS** (**“Is a CPAS”**\n  box), then link it to the resident in the **Billing** tab.\n- Coverage is **full** or **partial**; the **CPAS monthly amount** only applies to\n  partial coverage.\n- The **CPAS assistance** section **records** the decision; to **route** the\n  invoice, use the **Billing contact** (full coverage) or **split billing**\n  (partial coverage).\n- The **CPAS monthly amount** and the decision reference are **specific to each\n  case**, based on the CPAS notification."
  },
  {
-  "id": "en:facturation/cpas#going-further",
-  "lang": "en",
-  "page": "CPAS coverage",
-  "heading": "Going further",
-  "url": "https://www.lplg.eu/resthome/documentation/en/facturation/cpas/#going-further",
-  "text": "- [Manage a resident](https://www.lplg.eu/resthome/documentation/en/residents/gerer-un-resident/)\n- [Bill a month](https://www.lplg.eu/resthome/documentation/en/facturation/facturer-un-mois/)\n- [Maintenance debtors (split billing)](https://www.lplg.eu/resthome/documentation/en/facturation-partagee/)\n- [The INAMI dependency allowance](https://www.lplg.eu/resthome/documentation/en/facturation/forfait-inami/)"
- },
- {
   "id": "en:facturation/depart-deces#",
   "lang": "en",
   "page": "Departure and death",
@@ -1662,14 +1454,6 @@
   "heading": "Reopen a stay closed by mistake",
   "url": "https://www.lplg.eu/resthome/documentation/en/facturation/depart-deces/#reopen-a-stay-closed-by-mistake",
   "text": "If you closed a stay in error (or in the case of a death recorded by mistake), you can **reopen** it: Resthome restores billing and cancels the adjustments as long as they are not yet final.\n\nIf the month is already posted\n\nAs everywhere, if the invoice in question is already **posted**, the correction goes first through a **reset to draft** or a **credit note**, then a **refresh**. Other residents are not affected."
- },
- {
-  "id": "en:facturation/depart-deces#further-reading",
-  "lang": "en",
-  "page": "Departure and death",
-  "heading": "Further reading",
-  "url": "https://www.lplg.eu/resthome/documentation/en/facturation/depart-deces/#further-reading",
-  "text": "- [Absences and hospitalizations](https://www.lplg.eu/resthome/documentation/en/facturation/absences/)\n- [Agreements (eAgreement)](https://www.lplg.eu/resthome/documentation/en/ehealth/eagreement/)\n- [Billing overview](https://www.lplg.eu/resthome/documentation/en/facturation/)"
  },
  {
   "id": "en:facturation/facturer-un-mois#",
@@ -1728,14 +1512,6 @@
   "text": "```\ngraph TD\n  A[Open the period] --> B[Check MDA]\n  B --> C[Generate]\n  C --> D[Create invoices]\n  D --> E[Post]\n  E --> F[Generate eFact]\n  F --> G[Send to insurers]\n  G --> H[Fetch responses]\n  H --> I{Accepted?}\n  I -->|Yes| J[Done]\n  I -->|Rejected| K[Correct and resend]\n  K --> G\n```"
  },
  {
-  "id": "en:facturation/facturer-un-mois#going-further",
-  "lang": "en",
-  "page": "Billing a month, step by step",
-  "heading": "Going further",
-  "url": "https://www.lplg.eu/resthome/documentation/en/facturation/facturer-un-mois/#going-further",
-  "text": "- [Insurability (MDA)](https://www.lplg.eu/resthome/documentation/en/ehealth/mda/)\n- [Electronic billing (eFact)](https://www.lplg.eu/resthome/documentation/en/ehealth/efact/)\n- [Absences and hospitalisations](https://www.lplg.eu/resthome/documentation/en/facturation/absences/)\n- [Agreements (eAgreement)](https://www.lplg.eu/resthome/documentation/en/ehealth/eagreement/)"
- },
- {
   "id": "en:facturation/forfait-inami#",
   "lang": "en",
   "page": "The INAMI dependency allowance",
@@ -1792,14 +1568,6 @@
   "text": "- The **daily allowance** is the **same amount for all categories** (including\n  **O**); the category is used to **declare the correct profile** to the health\n  insurance fund (OA agreement).\n- The billed allowance = **daily rate × days of presence** (INAMI intervention\n  period, minus absences).\n- We bill the **category agreed with the health insurance fund** (agreement), not\n  necessarily the latest clinical assessment.\n- **Allowance = health insurance fund**, **accommodation = resident**, over the\n  same period."
  },
  {
-  "id": "en:facturation/forfait-inami#further-reading",
-  "lang": "en",
-  "page": "The INAMI dependency allowance",
-  "heading": "Further reading",
-  "url": "https://www.lplg.eu/resthome/documentation/en/facturation/forfait-inami/#further-reading",
-  "text": "- [The Katz assessment](https://www.lplg.eu/resthome/documentation/en/residents/katz/)\n- [Electronic billing (eFact)](https://www.lplg.eu/resthome/documentation/en/ehealth/efact/) · [eFact rejections](https://www.lplg.eu/resthome/documentation/en/ehealth/efact-rejets/)\n- [Agreements (eAgreement)](https://www.lplg.eu/resthome/documentation/en/ehealth/eagreement/)\n- [Absences and hospitalizations](https://www.lplg.eu/resthome/documentation/en/facturation/absences/)\n- [FAQ](https://www.lplg.eu/resthome/documentation/en/faq/) · [Glossary](https://www.lplg.eu/resthome/documentation/en/glossaire/)"
- },
- {
   "id": "en:facturation#",
   "lang": "en",
   "page": "Billing",
@@ -1830,14 +1598,6 @@
   "heading": "The period cycle",
   "url": "https://www.lplg.eu/resthome/documentation/en/facturation/#the-period-cycle",
   "text": "1. **New period** (the month).\n2. **Generate** the billing lines.\n3. Check the residents’ **insurability (MDA)**.\n4. **Create the invoices** (resident’s share).\n5. **Post** the invoices.\n6. **Generate the eFact** (insurer’s share) then send it.\n\nStep by step\n\nFollow the detailed guide [Invoicing a month, step by step](https://www.lplg.eu/resthome/documentation/en/facturation/facturer-un-mois/), or\nsee the whole [billing journey](https://www.lplg.eu/resthome/documentation/en/parcours-facturation/)."
- },
- {
-  "id": "en:facturation#what-s-next",
-  "lang": "en",
-  "page": "Billing",
-  "heading": "What’s next",
-  "url": "https://www.lplg.eu/resthome/documentation/en/facturation/#what-s-next",
-  "text": "- [Invoicing a month, step by step](https://www.lplg.eu/resthome/documentation/en/facturation/facturer-un-mois/) — the complete month guide.\n- [The INAMI package (dependency)](https://www.lplg.eu/resthome/documentation/en/facturation/forfait-inami/) — Katz → category → invoiced amount.\n- [Supplements](https://www.lplg.eu/resthome/documentation/en/facturation/supplements/) — supplements envelope, one-off or recurring.\n- [Absences and hospitalisations](https://www.lplg.eu/resthome/documentation/en/facturation/absences/) — effect on the package, the\n  72-hour rule, automatic eHealth notification.\n- [Departure and death](https://www.lplg.eu/resthome/documentation/en/facturation/depart-deces/) — stopping billing, credit note for\n  prepaid accommodation.\n- [Split billing](https://www.lplg.eu/resthome/documentation/en/facturation-partagee/) — the resident’s share divided\n  among several debtors, one invoice each.\n- [Agreements (eAgreement)](https://www.lplg.eu/resthome/documentation/en/ehealth/eagreement/) — notify the insurer\n  (admission, absence, return, discharge).\n- [eHealth](https://www.lplg.eu/resthome/documentation/en/ehealth/) — sending the insurer’s share (eFact) and agreements.\n- [Managing a resident](https://www.lplg.eu/resthome/documentation/en/residents/gerer-un-resident/)\n- [The billing journey](https://www.lplg.eu/resthome/documentation/en/parcours-facturation/) · [FAQ](https://www.lplg.eu/resthome/documentation/en/faq/) · [Glossary](https://www.lplg.eu/resthome/documentation/en/glossaire/)"
  },
  {
   "id": "en:facturation/note-de-frais-annexe12#",
@@ -1886,14 +1646,6 @@
   "heading": "Key points to remember",
   "url": "https://www.lplg.eu/resthome/documentation/en/facturation/note-de-frais-annexe12/#key-points-to-remember",
   "text": "- Annexe 12 exists in **two forms**: the **individual note** (per resident) and the\n  **summary note** (per insurance organisation).\n- Both are generated from the **Print** button: the summary on the **period**, the\n  individual one on the **per-resident billing record**.\n- The individual note carries the **three mandatory amounts**: payable by O.A.,\n  payable by patient and total.\n- The summary produces **one page per insurance organisation** and totals the\n  **Grand total for the O.A.**.\n- A **copy of the individual note** must be **given to the resident**.\n- The institution’s INAMI number and the tariffs are **specific to your\n  establishment**: check that they are configured correctly."
- },
- {
-  "id": "en:facturation/note-de-frais-annexe12#further-reading",
-  "lang": "en",
-  "page": "The Expense Note (Annexe 12)",
-  "heading": "Further reading",
-  "url": "https://www.lplg.eu/resthome/documentation/en/facturation/note-de-frais-annexe12/#further-reading",
-  "text": "- [Billing a month, step by step](https://www.lplg.eu/resthome/documentation/en/facturation/facturer-un-mois/)\n- [Supplements](https://www.lplg.eu/resthome/documentation/en/facturation/supplements/)\n- [Billing overview](https://www.lplg.eu/resthome/documentation/en/facturation/)\n- [Departure and death](https://www.lplg.eu/resthome/documentation/en/facturation/depart-deces/)"
  },
  {
   "id": "en:facturation/refacturation-fournisseur#",
@@ -1976,14 +1728,6 @@
   "text": "- One posted bill, one recharge, one supplement per resident — with the link\n  back to the source bill kept in both directions.\n- **Equal** charges the full amount to each resident; **Spread** divides it.\n- **Add in cascade** pre-fills each new line with a common wording and the next\n  resident, in alphabetical order.\n- A resident covered by a **flat-rate agreement** is skipped, visibly, and the\n  others pay no more for it.\n- Cancelling is possible right up to the moment an invoice carries the\n  supplement."
  },
  {
-  "id": "en:facturation/refacturation-fournisseur#further-reading",
-  "lang": "en",
-  "page": "Recharging a vendor bill",
-  "heading": "Further reading",
-  "url": "https://www.lplg.eu/resthome/documentation/en/facturation/refacturation-fournisseur/#further-reading",
-  "text": "- [Supplements](https://www.lplg.eu/resthome/documentation/en/facturation/supplements/)\n- [The Supplements app](https://www.lplg.eu/resthome/documentation/en/facturation/application-supplements/)\n- [Billing a month, step by step](https://www.lplg.eu/resthome/documentation/en/facturation/facturer-un-mois/)\n- [Billing overview](https://www.lplg.eu/resthome/documentation/en/facturation/)"
- },
- {
   "id": "en:facturation/supplements#",
   "lang": "en",
   "page": "Supplements",
@@ -2014,14 +1758,6 @@
   "heading": "One-off and recurring supplements",
   "url": "https://www.lplg.eu/resthome/documentation/en/facturation/supplements/#one-off-and-recurring-supplements",
   "text": "- **One-off**: billed only once (e.g. a haircut at the hairdresser).\n- **Recurring**: renewed each month as long as it is active (e.g. single-room supplement, TV). You can **stop** it at any time; it stops being billed the following month.\n\nMonth already posted\n\nIf the resident’s invoice is **already posted**, adding a supplement does not touch it automatically (protection). Set the invoice back to **draft** (or issue a credit note), then **refresh**.\n\nCreating envelopes in bulk\nOn a billing period, the **Create supplement envelopes** action prepares, in one click, the envelopes for all residents active during the month — handy at the start of a period."
- },
- {
-  "id": "en:facturation/supplements#further-reading",
-  "lang": "en",
-  "page": "Supplements",
-  "heading": "Further reading",
-  "url": "https://www.lplg.eu/resthome/documentation/en/facturation/supplements/#further-reading",
-  "text": "- [Billing overview](https://www.lplg.eu/resthome/documentation/en/facturation/)\n- [Recharging a vendor bill](https://www.lplg.eu/resthome/documentation/en/facturation/refacturation-fournisseur/)\n- [Absences and hospitalizations](https://www.lplg.eu/resthome/documentation/en/facturation/absences/)"
  },
  {
   "id": "en:facturation-partagee/configuration#the-accounting-settings",
@@ -2056,14 +1792,6 @@
   "text": "A stay bills under the terms it was **opened** with: the invoice type and the\ndebtors are copied onto it. Changing the debtors on the resident today affects\nthe **next** stay, not the one in progress."
  },
  {
-  "id": "en:facturation-partagee/configuration#what-s-next",
-  "lang": "en",
-  "page": "Setting up a split",
-  "heading": "What’s next",
-  "url": "https://www.lplg.eu/resthome/documentation/en/facturation-partagee/configuration/#what-s-next",
-  "text": "- [The documents produced](https://www.lplg.eu/resthome/documentation/en/facturation-partagee/factures/)\n- [Invoicing a month, step by step](https://www.lplg.eu/resthome/documentation/en/facturation/facturer-un-mois/)"
- },
- {
   "id": "en:facturation-partagee/factures#",
   "lang": "en",
   "page": "The documents produced",
@@ -2096,14 +1824,6 @@
   "text": "- A **posted** deposit blocks regeneration: Resthome names the invoices to reset\n  to draft first.\n- **Draft** deposits are replaced, never stacked.\n- Resetting the period to draft deletes the statement **and** its deposits\n  together."
  },
  {
-  "id": "en:facturation-partagee/factures#what-s-next",
-  "lang": "en",
-  "page": "The documents produced",
-  "heading": "What’s next",
-  "url": "https://www.lplg.eu/resthome/documentation/en/facturation-partagee/factures/#what-s-next",
-  "text": "- [Setting up a split](https://www.lplg.eu/resthome/documentation/en/facturation-partagee/configuration/)\n- [Invoicing a month, step by step](https://www.lplg.eu/resthome/documentation/en/facturation/facturer-un-mois/)\n- [Departure and death](https://www.lplg.eu/resthome/documentation/en/facturation/depart-deces/)"
- },
- {
   "id": "en:facturation-partagee#",
   "lang": "en",
   "page": "Split billing",
@@ -2126,14 +1846,6 @@
   "heading": "Two ways of splitting",
   "url": "https://www.lplg.eu/resthome/documentation/en/facturation-partagee/#two-ways-of-splitting",
   "text": "- **By percentage** — every debtor has a share; the total must be **exactly\n  100 %**. A message shows what is **left to allocate**.\n- **By fixed amount** — one or several debtors owe an agreed amount, and\n  **exactly one** debtor is **Variable**: they take what is left.\n\nWhen the amounts do not fit\n\nFixed amounts are invoiced first. If the resident’s share is **smaller** than\nthe sum of the fixed amounts, each of them is invoiced pro rata and the variable\ndebtor gets nothing."
- },
- {
-  "id": "en:facturation-partagee#what-s-next",
-  "lang": "en",
-  "page": "Split billing",
-  "heading": "What’s next",
-  "url": "https://www.lplg.eu/resthome/documentation/en/facturation-partagee/#what-s-next",
-  "text": "- [Setting up a split](https://www.lplg.eu/resthome/documentation/en/facturation-partagee/configuration/) — the settings, the debtors, the admission.\n- [The documents produced](https://www.lplg.eu/resthome/documentation/en/facturation-partagee/factures/) — the statement, the invoices, the PDF."
  },
  {
   "id": "en:faq#",
@@ -2256,14 +1968,6 @@
   "text": "**Apply to the INAMI rates** writes the computed allowance into the billing rate\ngrid, for the whole funding year, and closes the previous rates the day before.\n\nOnly from a validated calculation\n\nThe action refuses a calculation that is not validated, and refuses a\nsimulation. Running it again replaces the rates — it never stacks them."
  },
  {
-  "id": "en:forfait/calcul#what-s-next",
-  "lang": "en",
-  "page": "Computing the allowance",
-  "heading": "What’s next",
-  "url": "https://www.lplg.eu/resthome/documentation/en/forfait/calcul/#what-s-next",
-  "text": "- [Simulations and live tracking](https://www.lplg.eu/resthome/documentation/en/forfait/suivi-simulations/)\n- [The INAMI package (dependency)](https://www.lplg.eu/resthome/documentation/en/facturation/forfait-inami/)"
- },
- {
   "id": "en:forfait#",
   "lang": "en",
   "page": "Institutional allowance",
@@ -2288,14 +1992,6 @@
   "text": "- **Taken automatically**: the days billed to the health insurers, the average\n  number of residents, the dependency rate, the licensed beds, and the norms,\n  salary scales and parameters of the region.\n- **Entered by you**: about thirty figures a year — the FTE per qualification\n  and per quarter, the seniority, the disoriented residents, the function\n  complements, the dementia reference person, and the **allowance notified** by\n  the payer.\n\nRegions\nOnly the **Wallonia (AViQ)** assembly is implemented. Brussels (Iriscare) and\nFlanders raise an error rather than approximate a figure that would be wrong."
  },
  {
-  "id": "en:forfait#what-s-next",
-  "lang": "en",
-  "page": "Institutional allowance",
-  "heading": "What’s next",
-  "url": "https://www.lplg.eu/resthome/documentation/en/forfait/#what-s-next",
-  "text": "- [Computing the allowance](https://www.lplg.eu/resthome/documentation/en/forfait/calcul/) — the steps, from collection to the rates.\n- [Simulations and live tracking](https://www.lplg.eu/resthome/documentation/en/forfait/suivi-simulations/) — trying a change, following the year in progress."
- },
- {
   "id": "en:forfait/suivi-simulations#simulating-a-change",
   "lang": "en",
   "page": "Simulations and live tracking",
@@ -2309,7 +2005,7 @@
   "page": "Simulations and live tracking",
   "heading": "Following the year in progress",
   "url": "https://www.lplg.eu/resthome/documentation/en/forfait/suivi-simulations/#following-the-year-in-progress",
-  "text": "A calculation marked **Live tracking** follows the period that is still open: it\nis recomputed every time the menu is opened, so you see where the facility\nstands without waiting for the period to close.\n\n- It is **excluded** from the reference calculations and from the dashboard, so\n  it never passes for a settled figure.\n- It **cannot be validated**.\n- A nightly refresh exists, delivered switched off.\n\nThe dashboard\nThe **Forfait** dashboard of the reporting application reads the validated\ncalculations: allowance per funding year, breakdown by part, staff, and\ndependency mix.\n\nWhat’s next\n- [Computing the allowance](https://www.lplg.eu/resthome/documentation/en/forfait/calcul/)\n- [Institutional allowance](https://www.lplg.eu/resthome/documentation/en/forfait/)"
+  "text": "A calculation marked **Live tracking** follows the period that is still open: it\nis recomputed every time the menu is opened, so you see where the facility\nstands without waiting for the period to close.\n\n- It is **excluded** from the reference calculations and from the dashboard, so\n  it never passes for a settled figure.\n- It **cannot be validated**.\n- A nightly refresh exists, delivered switched off.\n\nThe dashboard\nThe **Forfait** dashboard of the reporting application reads the validated\ncalculations: allowance per funding year, breakdown by part, staff, and\ndependency mix."
  },
  {
   "id": "en:glossaire#",
@@ -2496,14 +2192,6 @@
   "text": "The large **families of insurers** used to group eFact transmissions: **100** (Alliance\nnationale), **300** (Solidaris), **500** (Union nationale), **600** (CAAMI), **900** (HR\nRail)…\nSee: [Electronic billing (eFact)](https://www.lplg.eu/resthome/documentation/en/ehealth/efact/)\n\n---"
  },
  {
-  "id": "en:glossaire#further-reading",
-  "lang": "en",
-  "page": "Glossary",
-  "heading": "Further reading",
-  "url": "https://www.lplg.eu/resthome/documentation/en/glossaire/#further-reading",
-  "text": "- [FAQ — Frequently asked questions](https://www.lplg.eu/resthome/documentation/en/faq/)\n- [The billing journey](https://www.lplg.eu/resthome/documentation/en/parcours-facturation/)\n- [Billing overview](https://www.lplg.eu/resthome/documentation/en/facturation/)"
- },
- {
   "id": "en:index#",
   "lang": "en",
   "page": "Welcome to the Resthome documentation",
@@ -2568,14 +2256,6 @@
   "text": "- Care staff **read** the accesses.\n- The **administrative team** and **managers** create, invite and revoke.\n- Only **management** may delete.\n\nIn other words, a nurse can write in the notebook without being able to open an\naccess to anybody."
  },
  {
-  "id": "en:portail-famille/acces#what-s-next",
-  "lang": "en",
-  "page": "Granting an access",
-  "heading": "What’s next",
-  "url": "https://www.lplg.eu/resthome/documentation/en/portail-famille/acces/#what-s-next",
-  "text": "- [Notebook, documents and invoices](https://www.lplg.eu/resthome/documentation/en/portail-famille/carnet-documents/)\n- [What the relative sees](https://www.lplg.eu/resthome/documentation/en/portail-famille/cote-famille/)"
- },
- {
   "id": "en:portail-famille/carnet-documents#the-liaison-notebook",
   "lang": "en",
   "page": "Notebook, documents and invoices",
@@ -2600,14 +2280,6 @@
   "text": "A relative with the **Invoices** scope sees the resident’s **posted** invoices:\nnumber, date, due date, amount and status — **Paid**, **Partially paid** or\n**To pay** — and can download the PDF.\n\nA debtor’s own invoices\n\nA relative who pays a share under [split billing](https://www.lplg.eu/resthome/documentation/en/facturation-partagee/)\nreceives **their own** invoices, which they find in their portal as any customer\nwould. That does not depend on the family portal."
  },
  {
-  "id": "en:portail-famille/carnet-documents#what-s-next",
-  "lang": "en",
-  "page": "Notebook, documents and invoices",
-  "heading": "What’s next",
-  "url": "https://www.lplg.eu/resthome/documentation/en/portail-famille/carnet-documents/#what-s-next",
-  "text": "- [Granting an access](https://www.lplg.eu/resthome/documentation/en/portail-famille/acces/)\n- [What the relative sees](https://www.lplg.eu/resthome/documentation/en/portail-famille/cote-famille/)"
- },
- {
   "id": "en:portail-famille/cote-famille#the-home-page",
   "lang": "en",
   "page": "What the relative sees",
@@ -2622,14 +2294,6 @@
   "heading": "The resident’s page",
   "url": "https://www.lplg.eu/resthome/documentation/en/portail-famille/cote-famille/#the-resident-s-page",
   "text": "The main column is the **liaison notebook**: what the team writes about the\nresident, with a field to reply — the team reads the answers.\n\nA side panel carries what the access opens:\n\n- **Health** — the dependency category, the **care plan** in progress and its\n  objectives, the **next review**, the **last weight**. It is a summary, never\n  the nursing notes.\n- **Documents** — the documents handed over, to be downloaded.\n- **Invoices** — the resident’s posted invoices and their PDF.\n- **Meals** — the menus and how the meals went.\n\nWhen a scope is not open, the page says so instead of staying empty: the\nnotebook announces that it is not open on this access, and the health panel that\nthere is nothing to show.\n\nMeals follow the access too\n\nOnce the family portal is installed, the meal pages read the **accesses**: a\nperson listed in the resident’s contacts, but without an access carrying\n**Meals**, no longer sees the menus."
- },
- {
-  "id": "en:portail-famille/cote-famille#what-s-next",
-  "lang": "en",
-  "page": "What the relative sees",
-  "heading": "What’s next",
-  "url": "https://www.lplg.eu/resthome/documentation/en/portail-famille/cote-famille/#what-s-next",
-  "text": "- [Granting an access](https://www.lplg.eu/resthome/documentation/en/portail-famille/acces/)\n- [Menus, diets and hydration](https://www.lplg.eu/resthome/documentation/en/repas/menus-regimes/)"
  },
  {
   "id": "en:portail-famille#",
@@ -2654,14 +2318,6 @@
   "heading": "What the access opens, scope by scope",
   "url": "https://www.lplg.eu/resthome/documentation/en/portail-famille/#what-the-access-opens-scope-by-scope",
   "text": "| Scope | What it shows |\n| --- | --- |\n| **Liaison Notebook** | What the team writes, and the family’s replies |\n| **Documents** | The documents handed over to the family |\n| **Meals** | The menus and how the meals went |\n| **Invoices** | The resident’s posted invoices, and their PDF |\n| **Health** | A care summary — **requires a recorded consent** |\n\nThe first three are ticked by default; invoices and health are not.\n\n![The list of family accesses: the resident, the relative, their role, what they may see, the account and the status](https://www.lplg.eu/resthome/documentation/en/_images/01-acces.png)\n\nHealth is never opened without consent\n\nTicking **Health** requires recording **who gave the consent** and **when**.\nResthome refuses the access otherwise. Every reading of the health panel is\nlogged.\n\nThe resident’s family space\nEach resident has a **family space**, created the first time it is needed. Its\ndiscussion thread **is** the liaison notebook: what the team posts there is what\nthe family reads."
- },
- {
-  "id": "en:portail-famille#what-s-next",
-  "lang": "en",
-  "page": "Family portal",
-  "heading": "What’s next",
-  "url": "https://www.lplg.eu/resthome/documentation/en/portail-famille/#what-s-next",
-  "text": "- [Granting an access](https://www.lplg.eu/resthome/documentation/en/portail-famille/acces/) — invitation, scopes, consent, revocation.\n- [Notebook, documents and invoices](https://www.lplg.eu/resthome/documentation/en/portail-famille/carnet-documents/) — what the team publishes.\n- [What the relative sees](https://www.lplg.eu/resthome/documentation/en/portail-famille/cote-famille/) — a tour of the portal pages."
  },
  {
   "id": "en:premiers-pas#",
@@ -2701,7 +2357,7 @@
   "page": "Getting started",
   "heading": "Finding your way around a screen",
   "url": "https://www.lplg.eu/resthome/documentation/en/premiers-pas/#finding-your-way-around-a-screen",
-  "text": "- **Left menu / top tabs**: the sections of the app.\n- **Breadcrumb** (at the top): your position; click it to go back.\n- **Gear button / Actions menu**: the additional actions on the open record.\n- **Chatter** (right-hand column): the history and notes of a record.\n\nWhat’s next?\nMove on to managing a resident:\n\n→ [Manage a resident](https://www.lplg.eu/resthome/documentation/en/residents/gerer-un-resident/)"
+  "text": "- **Left menu / top tabs**: the sections of the app.\n- **Breadcrumb** (at the top): your position; click it to go back.\n- **Gear button / Actions menu**: the additional actions on the open record.\n- **Chatter** (right-hand column): the history and notes of a record."
  },
  {
   "id": "en:repas/distribution#",
@@ -2776,14 +2432,6 @@
   "text": "- The round lives in **Meals → Operations**; it starts from a menu in the\n  **Confirmed** state.\n- **Quick distribution** is the tablet assistant: four buttons **Served**,\n  **Skip**, **Absent**, **Room**, with automatic advance to the next resident.\n- The **Amount eaten** (Not eaten → All eaten) is noted on the **meal service**\n  and feeds **nutritional tracking**.\n- The **printable sheets by sector** (checkboxes + signature) are the paper\n  fallback.\n- A **served** service or menu cannot be deleted: Resthome keeps the record."
  },
  {
-  "id": "en:repas/distribution#learn-more",
-  "lang": "en",
-  "page": "The meal distribution round",
-  "heading": "Learn more",
-  "url": "https://www.lplg.eu/resthome/documentation/en/repas/distribution/#learn-more",
-  "text": "- [Menus, diets and hydration](https://www.lplg.eu/resthome/documentation/en/repas/menus-regimes/)\n- [Nutritional tracking](https://www.lplg.eu/resthome/documentation/en/repas/suivi-nutritionnel/)\n- [Family portal and kiosk](https://www.lplg.eu/resthome/documentation/en/repas/portail-familles/)\n- [Meals app overview](https://www.lplg.eu/resthome/documentation/en/repas/)"
- },
- {
   "id": "en:repas#",
   "lang": "en",
   "page": "Meals",
@@ -2814,14 +2462,6 @@
   "heading": "Main menus",
   "url": "https://www.lplg.eu/resthome/documentation/en/repas/#main-menus",
   "text": "- **Operations** — Menus, meal services, distribution, **dietary alerts**,\n  hydration.\n- **Catalogue** — dishes, dish categories, products.\n- **Statistics** — catering reporting.\n- **Configuration** — diets, allergies, meal types.\n\nA dietitian role\n\nA **dietitian** profile lets you entrust the management of menus, diets and\nnutritional follow-up to the people concerned, without opening up all the rest\nof Resthome to them."
- },
- {
-  "id": "en:repas#going-further",
-  "lang": "en",
-  "page": "Meals",
-  "heading": "Going further",
-  "url": "https://www.lplg.eu/resthome/documentation/en/repas/#going-further",
-  "text": "- [Menus, diets and hydration](https://www.lplg.eu/resthome/documentation/en/repas/menus-regimes/)\n- [Family portal and kiosk](https://www.lplg.eu/resthome/documentation/en/repas/portail-familles/)"
  },
  {
   "id": "en:repas/menus-regimes#building-a-menu",
@@ -2856,14 +2496,6 @@
   "text": "- Resthome tracks residents’ **nutritional coverage** (energy, protein) and\n  **hydration**, with tailored targets.\n- **Malnutrition** screening relies on the **MNA** (see [Clinical\n  registers](https://www.lplg.eu/resthome/documentation/en/soins/registres/)).\n- **Hydration** is logged throughout the day to spot insufficient intake."
  },
  {
-  "id": "en:repas/menus-regimes#going-further",
-  "lang": "en",
-  "page": "Menus, diets and hydration",
-  "heading": "Going further",
-  "url": "https://www.lplg.eu/resthome/documentation/en/repas/menus-regimes/#going-further",
-  "text": "- [Family portal and kiosk](https://www.lplg.eu/resthome/documentation/en/repas/portail-familles/)\n- [Clinical registers](https://www.lplg.eu/resthome/documentation/en/soins/registres/)"
- },
- {
   "id": "en:repas/portail-familles#",
   "lang": "en",
   "page": "Family portal and kiosk",
@@ -2894,14 +2526,6 @@
   "heading": "Kiosk mode",
   "url": "https://www.lplg.eu/resthome/documentation/en/repas/portail-familles/#kiosk-mode",
   "text": "**Kiosk mode** displays the menu in **full screen**, ideal for a screen or a television in the **dining room**. Residents and staff see the current meal at a glance, with no interaction needed.\n\nAlways up to date\n\nSince everything comes from the same menus in Resthome, the portal, the public page and the kiosk **automatically** display the latest version — no double entry."
- },
- {
-  "id": "en:repas/portail-familles#going-further",
-  "lang": "en",
-  "page": "Family portal and kiosk",
-  "heading": "Going further",
-  "url": "https://www.lplg.eu/resthome/documentation/en/repas/portail-familles/#going-further",
-  "text": "- [Family portal](https://www.lplg.eu/resthome/documentation/en/portail-famille/) — the accesses that open the menus\n  to a relative, and everything else they may see.\n- [Menus, diets and hydration](https://www.lplg.eu/resthome/documentation/en/repas/menus-regimes/)\n- [Meals overview](https://www.lplg.eu/resthome/documentation/en/repas/)"
  },
  {
   "id": "en:repas/suivi-nutritionnel#",
@@ -2960,14 +2584,6 @@
   "text": "- The resident’s **Nutrition tab** brings together the undernutrition status, latest\n  MNA, ESPEN targets and intake coverage — read-only for the computed measurements.\n- The **undernutrition status** follows the AViQ/ESPEN rules: weight loss,\n  age-adjusted BMI, overdue MNA or “undernourished” MNA.\n- The **targets** (energy, protein, fluids) are specific to each resident, computed\n  from their weight and sex using the configurable ESPEN coefficients.\n- The **intake** is derived from the **amount eaten** at meals and the **logged\n  drinks**; coverage is a 3-day average.\n- The **Meals dashboard** (Statistics) and the **daily alerts** surface at-risk\n  residents; this monitoring does **not** change the allowance, which depends on the\n  Katz category."
  },
  {
-  "id": "en:repas/suivi-nutritionnel#further-reading",
-  "lang": "en",
-  "page": "Nutritional monitoring and undernutrition",
-  "heading": "Further reading",
-  "url": "https://www.lplg.eu/resthome/documentation/en/repas/suivi-nutritionnel/#further-reading",
-  "text": "- [Menus, diets and hydration](https://www.lplg.eu/resthome/documentation/en/repas/menus-regimes/)\n- [Family portal and kiosk](https://www.lplg.eu/resthome/documentation/en/repas/portail-familles/)\n- [Meals overview](https://www.lplg.eu/resthome/documentation/en/repas/)\n- [Clinical registers (MNA)](https://www.lplg.eu/resthome/documentation/en/soins/registres/)\n- [Meal and nutrition settings](https://www.lplg.eu/resthome/documentation/en/configuration/reglages-repas/)\n- [The allowance and the Katz category](https://www.lplg.eu/resthome/documentation/en/residents/katz/)"
- },
- {
   "id": "en:residents/chambres#",
   "lang": "en",
   "page": "Rooms and occupancy",
@@ -3024,14 +2640,6 @@
   "text": "- The occupancy board lives in **MR/MRS → Accommodation → Rooms**, as a **kanban\n  grouped by status** (Available, Occupied, Under maintenance, Reserved).\n- Each card’s **badge** shows the occupancy “occupied / capacity” and its color\n  reflects the status; a shared room stays **Available** as long as one bed is\n  free.\n- The **Set Under Maintenance** / **Mark as Reserved** buttons force a status;\n  **Automatic Mode** restores automatic computation.\n- A room **under maintenance** or **reserved** is **not** assignable.\n- **Assign a Resident** from the room creates the stay; if the resident is already\n  housed, the operation becomes a **transfer**.\n- The **daily rate** is the accommodation price specific to the facility (per room\n  type), not to be confused with the **dependency package** tied to Katz."
  },
  {
-  "id": "en:residents/chambres#going-further",
-  "lang": "en",
-  "page": "Rooms and occupancy",
-  "heading": "Going further",
-  "url": "https://www.lplg.eu/resthome/documentation/en/residents/chambres/#going-further",
-  "text": "- [Managing a resident](https://www.lplg.eu/resthome/documentation/en/residents/gerer-un-resident/)\n- [Room change and transfer](https://www.lplg.eu/resthome/documentation/en/residents/changement-chambre/)\n- [The condition report](https://www.lplg.eu/resthome/documentation/en/residents/etat-des-lieux/)\n- [Configuration](https://www.lplg.eu/resthome/documentation/en/configuration/)"
- },
- {
   "id": "en:residents/changement-chambre#",
   "lang": "en",
   "page": "Room change and transfer",
@@ -3053,7 +2661,7 @@
   "page": "Room change and transfer",
   "heading": "MR ↔ MRS transfer",
   "url": "https://www.lplg.eu/resthome/documentation/en/residents/changement-chambre/#mr-mrs-transfer",
-  "text": "Moving from one type of care to the other (MR ↔ MRS) is an **internal transfer**:\n\n1. On the stay, use the **Internal transfer** action.\n2. Enter the **date/time** of the transfer and the **new type of care**.\n3. **Validate.**\n\nResthome splits billing at the transfer date and **updates the flat rate**\naccording to the new type. Where applicable, it prepares the corresponding\n**eHealth notification**.\n\nKatz B and above for MRS\n\nAn MRS bed only takes Katz categories **B and above**. Resthome refuses to\n**put or keep a stay in MRS** for a resident assessed at O or A — at admission\nand at transfer time.\n\nA **room change is not blocked**, though: a resident whose category no longer\nmatches their bed can still be moved from one room to another. What flags the\nsituation is the banner on their record (and the **MRS → MR** badge on their\ncard), which stays up until the transfer is entered — see\n[The Katz assessment](https://www.lplg.eu/resthome/documentation/en/residents/katz/).\n\nBilling follows automatically\n\nAfter a room change or a transfer, you have nothing to recalculate by hand: each\nsegment is billed at its own rate, and the flat rate continues without\ninterruption.\n\nLearn more\n- [Manage a resident](https://www.lplg.eu/resthome/documentation/en/residents/gerer-un-resident/)\n- [Billing overview](https://www.lplg.eu/resthome/documentation/en/facturation/)"
+  "text": "Moving from one type of care to the other (MR ↔ MRS) is an **internal transfer**:\n\n1. On the stay, use the **Internal transfer** action.\n2. Enter the **date/time** of the transfer and the **new type of care**.\n3. **Validate.**\n\nResthome splits billing at the transfer date and **updates the flat rate**\naccording to the new type. Where applicable, it prepares the corresponding\n**eHealth notification**.\n\nKatz B and above for MRS\n\nAn MRS bed only takes Katz categories **B and above**. Resthome refuses to\n**put or keep a stay in MRS** for a resident assessed at O or A — at admission\nand at transfer time.\n\nA **room change is not blocked**, though: a resident whose category no longer\nmatches their bed can still be moved from one room to another. What flags the\nsituation is the banner on their record (and the **MRS → MR** badge on their\ncard), which stays up until the transfer is entered — see\n[The Katz assessment](https://www.lplg.eu/resthome/documentation/en/residents/katz/).\n\nBilling follows automatically\n\nAfter a room change or a transfer, you have nothing to recalculate by hand: each\nsegment is billed at its own rate, and the flat rate continues without\ninterruption."
  },
  {
   "id": "en:residents/entretien-chambres#",
@@ -3086,14 +2694,6 @@
   "heading": "Key takeaways",
   "url": "https://www.lplg.eu/resthome/documentation/en/residents/entretien-chambres/#key-takeaways",
   "text": "- Housekeeping is **independent of occupancy**: the two are tracked separately.\n- Arrivals and departures set the **starting point**; the team moves the rest.\n- The board is driven by **drag and drop**, with **Mark ready** as the shortcut."
- },
- {
-  "id": "en:residents/entretien-chambres#further-reading",
-  "lang": "en",
-  "page": "Room housekeeping",
-  "heading": "Further reading",
-  "url": "https://www.lplg.eu/resthome/documentation/en/residents/entretien-chambres/#further-reading",
-  "text": "- [Rooms and occupancy](https://www.lplg.eu/resthome/documentation/en/residents/chambres/)\n- [Move-in procedure](https://www.lplg.eu/resthome/documentation/en/residents/procedure-emmenagement/)\n- [Condition report](https://www.lplg.eu/resthome/documentation/en/residents/etat-des-lieux/)"
  },
  {
   "id": "en:residents/etat-des-lieux#",
@@ -3150,14 +2750,6 @@
   "heading": "Key points to remember",
   "url": "https://www.lplg.eu/resthome/documentation/en/residents/etat-des-lieux/#key-points-to-remember",
   "text": "- The condition report is a legally binding **joint assessment**: move-in then\n  move-out, signed by the resident’s representative and the facility.\n- The **resident**, the **room** (taken from the stay) and the **representative**\n  are pre-filled automatically.\n- Each line carries an **item of equipment** and a **Compliant / Non-compliant**\n  condition, with a photo and an observation; **sections** and **notes**\n  structure the list.\n- **Templates** save you from re-entering the same list; the **equipment\n  catalogue** is shared with the rooms.\n- The **PDF report** is in your house style, with a Move-in/Move-out badge,\n  summary, signatures and a photo appendix, ready for **Odoo Sign** (eIDAS)."
- },
- {
-  "id": "en:residents/etat-des-lieux#going-further",
-  "lang": "en",
-  "page": "The condition report (move-in and move-out)",
-  "heading": "Going further",
-  "url": "https://www.lplg.eu/resthome/documentation/en/residents/etat-des-lieux/#going-further",
-  "text": "- [Manage a resident](https://www.lplg.eu/resthome/documentation/en/residents/gerer-un-resident/)\n- [Room change and transfer](https://www.lplg.eu/resthome/documentation/en/residents/changement-chambre/)\n- [Furniture and equipment](https://www.lplg.eu/resthome/documentation/en/residents/mobilier/)\n- [General settings (residents, rooms)](https://www.lplg.eu/resthome/documentation/en/configuration/reglages-generaux/)"
  },
  {
   "id": "en:residents/evaluations#",
@@ -3240,14 +2832,6 @@
   "text": "- Five scales beyond Katz: MMSE, Braden, MNA, OHAT and Tinetti, on the resident’s\n  « Evaluation Tools » tab.\n- Score meaning: MMSE and Tinetti, a **high** score = favorable situation; Braden\n  and MNA, a **low** score = more at risk; OHAT, a **high** score = more at risk.\n- Common flow: **Draft → Confirmed → Validated**; validation is restricted to the\n  head nurse or the physician.\n- Validated = **locked and retained**; reset to draft to correct.\n- One assessment per resident, per date and per scale."
  },
  {
-  "id": "en:residents/evaluations#learn-more",
-  "lang": "en",
-  "page": "Geriatric assessments (beyond Katz)",
-  "heading": "Learn more",
-  "url": "https://www.lplg.eu/resthome/documentation/en/residents/evaluations/#learn-more",
-  "text": "- [The Katz assessment](https://www.lplg.eu/resthome/documentation/en/residents/katz/) — dependency category and flat-rate fee.\n- [The clinical registers](https://www.lplg.eu/resthome/documentation/en/soins/registres/) — falls (Morse), restraint, pain, wounds, periodic reassessments.\n- [Care plans](https://www.lplg.eu/resthome/documentation/en/soins/plans-de-soins/)\n- [Managing a resident](https://www.lplg.eu/resthome/documentation/en/residents/gerer-un-resident/)"
- },
- {
   "id": "en:residents/gerer-un-resident#",
   "lang": "en",
   "page": "Manage a resident",
@@ -3309,7 +2893,7 @@
   "page": "Manage a resident",
   "heading": "Special cases",
   "url": "https://www.lplg.eu/resthome/documentation/en/residents/gerer-un-resident/#special-cases",
-  "text": "- **Room change**: use the dedicated action on the stay — accommodation billing is split across the two rates, without a new admission.\n- **MR ↔ MRS transfer**: a wizard records the transfer date and updates the stay type.\n- **Absence / hospitalization**: see the [Billing](https://www.lplg.eu/resthome/documentation/en/facturation/) section — an absence adjusts the flat-rate fee and can generate an eHealth notification (Annexe 11).\n- **End of stay / death**: close the stay; Resthome stops billing on the correct date and prepares the credit note if needed.\n\nFurther reading\n- [Billing](https://www.lplg.eu/resthome/documentation/en/facturation/)\n- [eHealth](https://www.lplg.eu/resthome/documentation/en/ehealth/)"
+  "text": "- **Room change**: use the dedicated action on the stay — accommodation billing is split across the two rates, without a new admission.\n- **MR ↔ MRS transfer**: a wizard records the transfer date and updates the stay type.\n- **Absence / hospitalization**: see the [Billing](https://www.lplg.eu/resthome/documentation/en/facturation/) section — an absence adjusts the flat-rate fee and can generate an eHealth notification (Annexe 11).\n- **End of stay / death**: close the stay; Resthome stops billing on the correct date and prepares the credit note if needed."
  },
  {
   "id": "en:residents#",
@@ -3326,14 +2910,6 @@
   "heading": "Key principles",
   "url": "https://www.lplg.eu/resthome/documentation/en/residents/#key-principles",
   "text": "- **Admission**: handled in its own application, from the first enquiry to the\n  move-in; it creates the resident and opens their stay. See\n  [Admissions](https://www.lplg.eu/resthome/documentation/en/admissions/).\n- **Stay**: the period during which the resident occupies a **room**. It drives\n  presence, billing and the end-of-stay procedures.\n- **Katz assessment**: scores the resident’s dependency; it determines the\n  **category** used to declare the profile to the insurer and to bill the\n  dependency package.\n- **Room**: taken from the stay; occupancy is tracked per status.\n- **Condition report**: a joint move-in/move-out assessment of the room and its\n  equipment, signed by the representative and the facility."
- },
- {
-  "id": "en:residents#what-s-next",
-  "lang": "en",
-  "page": "Residents",
-  "heading": "What’s next",
-  "url": "https://www.lplg.eu/resthome/documentation/en/residents/#what-s-next",
-  "text": "- [Managing a resident](https://www.lplg.eu/resthome/documentation/en/residents/gerer-un-resident/) — the central record.\n- [The Katz assessment](https://www.lplg.eu/resthome/documentation/en/residents/katz/) — dependency scoring and category.\n- [Geriatric assessments (beyond Katz)](https://www.lplg.eu/resthome/documentation/en/residents/evaluations/) — MNA, Braden and others.\n- [Room change and transfer](https://www.lplg.eu/resthome/documentation/en/residents/changement-chambre/)\n- [Rooms and occupancy](https://www.lplg.eu/resthome/documentation/en/residents/chambres/)\n- [The condition report (move-in and move-out)](https://www.lplg.eu/resthome/documentation/en/residents/etat-des-lieux/)\n- [The move-in procedure](https://www.lplg.eu/resthome/documentation/en/residents/procedure-emmenagement/)\n- [The resident’s private furniture](https://www.lplg.eu/resthome/documentation/en/residents/mobilier/)"
  },
  {
   "id": "en:residents/katz#",
@@ -3382,14 +2958,6 @@
   "heading": "When the category no longer matches the bed",
   "url": "https://www.lplg.eu/resthome/documentation/en/residents/katz/#when-the-category-no-longer-matches-the-bed",
   "text": "An **MRS** bed only takes categories **B and above**. A resident assessed at\n**O or A** belongs in an **MR** bed.\n\nNothing stops a resident’s condition from improving — and when a new assessment\ncomes out at A while they occupy an MRS bed, Resthome says so instead of\nletting it pass. The banner appears **as soon as you validate** the assessment,\nand stays on the resident’s record until the sector is changed:\n\n![Banner on the resident's record: Katz A in an MRS bed, with the Internal transfer button](https://www.lplg.eu/resthome/documentation/en/_images/04-secteur-a-changer-fiche.png)\n\nThe **Internal transfer** button on the banner opens the transfer wizard with\nthe destination already set to MR — see\n[Room change and transfer](https://www.lplg.eu/resthome/documentation/en/residents/changement-chambre/).\n\nThe same signal follows the resident everywhere they are listed. On the board,\nthe card carries an **MRS → MR** badge:\n\n![Resident card carrying the MRS to MR badge](https://www.lplg.eu/resthome/documentation/en/_images/05-secteur-a-changer-kanban.png)\n\nAnd the residents list has a **Sector to be changed** filter, to see everyone\nwaiting for a transfer in one go:\n\n![The Sector to be changed filter in the search menu](https://www.lplg.eu/resthome/documentation/en/_images/06-secteur-a-changer-filtre.png)\n\nWhat this changes for billing\n\nUntil the transfer is done, the stay is still declared to the mutuelle **in\nMRS**, with a category that sector does not accept. The banner is a task, not\nan informational note: the sooner the transfer is entered, the shorter the\nperiod to correct."
- },
- {
-  "id": "en:residents/katz#learn-more",
-  "lang": "en",
-  "page": "The Katz Assessment",
-  "heading": "Learn more",
-  "url": "https://www.lplg.eu/resthome/documentation/en/residents/katz/#learn-more",
-  "text": "- [The INAMI allowance (dependency)](https://www.lplg.eu/resthome/documentation/en/facturation/forfait-inami/) — from category to billed amount.\n- [Managing a resident](https://www.lplg.eu/resthome/documentation/en/residents/gerer-un-resident/)\n- [Billing](https://www.lplg.eu/resthome/documentation/en/facturation/)\n- [Agreements (eAgreement)](https://www.lplg.eu/resthome/documentation/en/ehealth/eagreement/)"
  },
  {
   "id": "en:residents/mobilier#",
@@ -3448,14 +3016,6 @@
   "text": "- The furniture inventory is kept on the resident’s record, **Convention** tab,\n  **Resident furniture** section.\n- One line = one piece of furniture or object: **Description** (required),\n  **Comment**, **Date**.\n- The list is **directly editable**; the **handle** lets you reorder the lines.\n- Furniture that is taken back is **deactivated** (the **Active** box unchecked),\n  not deleted: its history is kept.\n- The inventory **follows the resident** when they change room or are\n  transferred."
  },
  {
-  "id": "en:residents/mobilier#learn-more",
-  "lang": "en",
-  "page": "The resident’s private furniture",
-  "heading": "Learn more",
-  "url": "https://www.lplg.eu/resthome/documentation/en/residents/mobilier/#learn-more",
-  "text": "- [Managing a resident](https://www.lplg.eu/resthome/documentation/en/residents/gerer-un-resident/)\n- [Room change and transfer](https://www.lplg.eu/resthome/documentation/en/residents/changement-chambre/)\n- [The inspection](https://www.lplg.eu/resthome/documentation/en/residents/etat-des-lieux/)"
- },
- {
   "id": "en:residents/procedure-emmenagement#",
   "lang": "en",
   "page": "The move-in procedure",
@@ -3502,14 +3062,6 @@
   "heading": "Key points to remember",
   "url": "https://www.lplg.eu/resthome/documentation/en/residents/procedure-emmenagement/#key-points-to-remember",
   "text": "- The move-in procedure triggers **automatically** when any new stay opens:\n  admission, room change, internal transfer, readmission.\n- It has two parts: a **6-task checklist** on the resident’s thread and the\n  **room preparation** on the room’s thread.\n- Every activity is **due on the stay’s start date** and is assigned to the\n  configured **managers**.\n- The six tasks: **agreement**, **condition report**, **private inventory**,\n  **medication locker**, **laundry**, **disinfection** — the manager closes or\n  deletes those that do not apply.\n- You set the managers in **Settings ▸ Nursing Home ▸ Accommodation**; an empty\n  field **disables** the corresponding automation."
- },
- {
-  "id": "en:residents/procedure-emmenagement#learn-more",
-  "lang": "en",
-  "page": "The move-in procedure",
-  "heading": "Learn more",
-  "url": "https://www.lplg.eu/resthome/documentation/en/residents/procedure-emmenagement/#learn-more",
-  "text": "- [Manage a resident](https://www.lplg.eu/resthome/documentation/en/residents/gerer-un-resident/)\n- [Room change and transfer](https://www.lplg.eu/resthome/documentation/en/residents/changement-chambre/)\n- [The condition report (entry and exit)](https://www.lplg.eu/resthome/documentation/en/residents/etat-des-lieux/)\n- [General settings (residents, rooms)](https://www.lplg.eu/resthome/documentation/en/configuration/reglages-generaux/)"
  },
  {
   "id": "en:soins/anamnese#",
@@ -3582,14 +3134,6 @@
   "heading": "Key takeaways",
   "url": "https://www.lplg.eu/resthome/documentation/en/soins/anamnese/#key-takeaways",
   "text": "- The anamnesis is a **dated intake per discipline**, not a second record.\n- What the record already holds is **composed, never re-entered**: correcting a\n  fact here corrects it everywhere.\n- The **life project** and end-of-life wishes are gathered here and stay visible\n  on the resident’s record.\n- **Complete** makes the anamnesis part of the clinical record — it can then be\n  reopened, but no longer deleted."
- },
- {
-  "id": "en:soins/anamnese#further-reading",
-  "lang": "en",
-  "page": "Anamnesis and life project",
-  "heading": "Further reading",
-  "url": "https://www.lplg.eu/resthome/documentation/en/soins/anamnese/#further-reading",
-  "text": "- [Manage a resident](https://www.lplg.eu/resthome/documentation/en/residents/gerer-un-resident/)\n- [The Katz assessment](https://www.lplg.eu/resthome/documentation/en/residents/katz/)\n- [Care plans and vital signs](https://www.lplg.eu/resthome/documentation/en/soins/plans-de-soins/)\n- [Clinical registers](https://www.lplg.eu/resthome/documentation/en/soins/registres/)"
  },
  {
   "id": "en:soins/dossier-medical#",
@@ -3680,14 +3224,6 @@
   "text": "- The medical record is the **Medical Information** tab of the resident record;\n  it is **reserved for care staff** and **logged** (GDPR).\n- The **weight** comes from the **vital signs** (read-only) and the **BMI** is\n  calculated automatically from height and weight.\n- The **Katz category** and the **active care plan** are shown there read-only;\n  the category **declares** the profile, it does not set the allowance amount.\n- The **diagnoses** use **ICD-10**; **severity** and **status** (Active /\n  Resolved) are specific to the resident.\n- **Drug allergens** protect prescribing: **Critical** blocks, the others warn.\n- The **DNR** triggers a **banner**, a **kanban/list badge** and a search\n  **filter**."
  },
  {
-  "id": "en:soins/dossier-medical#further-reading",
-  "lang": "en",
-  "page": "The resident’s medical record",
-  "heading": "Further reading",
-  "url": "https://www.lplg.eu/resthome/documentation/en/soins/dossier-medical/#further-reading",
-  "text": "- [Prescriptions and medications](https://www.lplg.eu/resthome/documentation/en/soins/prescriptions/) — allergies and interactions when prescribing.\n- [Care plans and vital signs](https://www.lplg.eu/resthome/documentation/en/soins/plans-de-soins/)\n- [Clinical registers](https://www.lplg.eu/resthome/documentation/en/soins/registres/)\n- [The Katz assessment](https://www.lplg.eu/resthome/documentation/en/residents/katz/) — from dependency to category."
- },
- {
   "id": "en:soins#",
   "lang": "en",
   "page": "Care",
@@ -3718,14 +3254,6 @@
   "heading": "Main menus",
   "url": "https://www.lplg.eu/resthome/documentation/en/soins/#main-menus",
   "text": "- **Medical** — Katz, nursing notes, attention points, vital signs entry, care\n  planning, today’s care, my assigned care, care plans, prescriptions,\n  administrations, hospitalisation.\n- **Registers** — the dedicated clinical registers.\n- **Stock** — medication batches, stock withdrawals.\n- **Configuration** — medication catalogue, pathologies (ICD-10), allergens,\n  drug interactions, SAM database.\n\nSeparate but connected\n\nThe Care application is separate from billing, but **connected to the\nresidents**: a hospitalisation entered here appears, on the billing side, as an\n[absence](https://www.lplg.eu/resthome/documentation/en/facturation/absences/) that adjusts the allowance."
- },
- {
-  "id": "en:soins#going-further",
-  "lang": "en",
-  "page": "Care",
-  "heading": "Going further",
-  "url": "https://www.lplg.eu/resthome/documentation/en/soins/#going-further",
-  "text": "- [Prescriptions and medication](https://www.lplg.eu/resthome/documentation/en/soins/prescriptions/)\n- [Care plans and vital signs](https://www.lplg.eu/resthome/documentation/en/soins/plans-de-soins/)\n- [Clinical registers](https://www.lplg.eu/resthome/documentation/en/soins/registres/)"
  },
  {
   "id": "en:soins/plans-de-soins#",
@@ -3768,14 +3296,6 @@
   "text": "**Nursing notes** record observations. Items that need attention surface under **Watch points** / **Attention required**, and are marked **resolved** once handled.\n\n![Nursing notes list: date and time, resident, note type, priority and author, with the notes needing attention highlighted](https://www.lplg.eu/resthome/documentation/en/_images/notes-infirmieres.png)"
  },
  {
-  "id": "en:soins/plans-de-soins#learn-more",
-  "lang": "en",
-  "page": "Care plans and vital signs",
-  "heading": "Learn more",
-  "url": "https://www.lplg.eu/resthome/documentation/en/soins/plans-de-soins/#learn-more",
-  "text": "- [Prescriptions and medications](https://www.lplg.eu/resthome/documentation/en/soins/prescriptions/)\n- [Clinical registers](https://www.lplg.eu/resthome/documentation/en/soins/registres/)"
- },
- {
   "id": "en:soins/prescriptions#",
   "lang": "en",
   "page": "Prescriptions and medications",
@@ -3816,14 +3336,6 @@
   "text": "- **Pathologies (ICD-10)** — the resident’s history and diagnoses.\n- **Allergens** — known allergies.\n- **Drug interactions** — vigilance rules.\n- **SAM database** — reference catalogue of Belgian medications."
  },
  {
-  "id": "en:soins/prescriptions#going-further",
-  "lang": "en",
-  "page": "Prescriptions and medications",
-  "heading": "Going further",
-  "url": "https://www.lplg.eu/resthome/documentation/en/soins/prescriptions/#going-further",
-  "text": "- [Care plans and vital signs](https://www.lplg.eu/resthome/documentation/en/soins/plans-de-soins/)\n- [Clinical registers](https://www.lplg.eu/resthome/documentation/en/soins/registres/)"
- },
- {
   "id": "en:soins/registres#",
   "lang": "en",
   "page": "Clinical registers",
@@ -3854,14 +3366,6 @@
   "heading": "What it feeds",
   "url": "https://www.lplg.eu/resthome/documentation/en/soins/registres/#what-it-feeds",
   "text": "- The **care app** writes into the registers straight from the bedside: a fall\n  note, a wound note with its photo and its measurements, a continence note.\n  See [Notes](https://www.lplg.eu/resthome/documentation/en/soins-mobile/notes/).\n- The **wound register** carries the wounds that the care app offers to follow.\n\n![A wound in the register: the type, the body map, the state of the wound and the next review](https://www.lplg.eu/resthome/documentation/en/_images/registre-plaies-fiche.png)\n\n- An **infection** or **isolation** register is what an inspection asks to see."
- },
- {
-  "id": "en:soins/registres#going-further",
-  "lang": "en",
-  "page": "Clinical registers",
-  "heading": "Going further",
-  "url": "https://www.lplg.eu/resthome/documentation/en/soins/registres/#going-further",
-  "text": "- [Notes in the care app](https://www.lplg.eu/resthome/documentation/en/soins-mobile/notes/)\n- [Geriatric assessments](https://www.lplg.eu/resthome/documentation/en/residents/evaluations/)\n- [Care plans and vital signs](https://www.lplg.eu/resthome/documentation/en/soins/plans-de-soins/)"
  },
  {
   "id": "en:soins/sam-base-medicaments#",
@@ -3902,14 +3406,6 @@
   "heading": "Key takeaways",
   "url": "https://www.lplg.eu/resthome/documentation/en/soins/sam-base-medicaments/#key-takeaways",
   "text": "- **SAM = the official Belgian medication reference database**, embedded in\n  Resthome as the foundation of the catalog.\n- **Two entry points**: browsing (Care → Configuration → SAM Database) and the\n  **Search SAM** import wizard (MR/MRS → Configuration → eHealth Configuration).\n- The search accepts the **name**, the **CNK code** or the **active ingredient**,\n  and works **offline** on the local copy.\n- **Import Selected** creates the records; a re-import **updates** medications\n  already present (matching by CNK).\n- SAM provides **ATC, BCFI class, Black Triangle, SmPC and leaflet (FR/NL)** —\n  reliable data, for reference."
- },
- {
-  "id": "en:soins/sam-base-medicaments#further-reading",
-  "lang": "en",
-  "page": "The SAM medication database",
-  "heading": "Further reading",
-  "url": "https://www.lplg.eu/resthome/documentation/en/soins/sam-base-medicaments/#further-reading",
-  "text": "- [Prescriptions and medications](https://www.lplg.eu/resthome/documentation/en/soins/prescriptions/)\n- [Care plans and vital signs](https://www.lplg.eu/resthome/documentation/en/soins/plans-de-soins/)\n- [The eHealth integration](https://www.lplg.eu/resthome/documentation/en/ehealth/)"
  },
  {
   "id": "en:soins-mobile/evaluations#",
@@ -4005,7 +3501,7 @@
   "page": "Care app",
   "heading": "Night mode and back office",
   "url": "https://www.lplg.eu/resthome/documentation/en/soins-mobile/#night-mode-and-back-office",
-  "text": "On the **My shift** screen, the buttons at the top right:\n\n- the **moon** switches to a dark display for the night shift, the **sun**\n  switches back — the phone remembers the choice;\n- the **screen** icon goes back to the back office. It only appears for head\n  nurses, nurses, physicians, direction and administration.\n\nGoing further\n- [Care](https://www.lplg.eu/resthome/documentation/en/soins/) — care plans, prescriptions and registers, managed\n  in the back office."
+  "text": "On the **My shift** screen, the buttons at the top right:\n\n- the **moon** switches to a dark display for the night shift, the **sun**\n  switches back — the phone remembers the choice;\n- the **screen** icon goes back to the back office. It only appears for head\n  nurses, nurses, physicians, direction and administration."
  },
  {
   "id": "en:soins-mobile/notes#",
@@ -4190,13 +3686,5 @@
   "heading": "2. Open a ticket with LPLG support",
   "url": "https://www.lplg.eu/resthome/documentation/en/support/#open-a-ticket-with-lplg-support",
   "text": "If the documentation is not enough, contact our team:\n\n- **Email: [support@lplg.eu](mailto:support%40lplg.eu)** — each message automatically opens\n  a tracking **ticket**.\n- The **Support** button at the bottom right of every page brings you here.\n\nFor a fast reply, please specify\n\n- The **name of your facility**.\n- What you were doing and the **screen** involved — a **screenshot** helps a lot.\n- The exact **error message** or the **code** (eFact, MDA, eAgreement…).\n- The billing **period** or the **resident** involved (internal reference).\n\nSensitive data (GDPR)\n\nAvoid sending a **NISS** or complete medical data by email unless necessary. An\n**anonymized screenshot** is usually enough — hide the name and the national\nnumber."
- },
- {
-  "id": "en:support#further-reading",
-  "lang": "en",
-  "page": "Support and assistance",
-  "heading": "Further reading",
-  "url": "https://www.lplg.eu/resthome/documentation/en/support/#further-reading",
-  "text": "- [FAQ](https://www.lplg.eu/resthome/documentation/en/faq/) · [Glossary](https://www.lplg.eu/resthome/documentation/en/glossaire/)\n- [Getting started](https://www.lplg.eu/resthome/documentation/en/premiers-pas/)\n- [eFact rejections](https://www.lplg.eu/resthome/documentation/en/ehealth/efact-rejets/) · [MDA errors](https://www.lplg.eu/resthome/documentation/en/ehealth/mda-erreurs/)"
  }
 ]
