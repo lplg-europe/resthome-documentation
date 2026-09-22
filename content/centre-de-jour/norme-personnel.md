@@ -39,7 +39,7 @@ Create a check for the **Billing Year**. The reference period fills itself:
 
 ## 2. Collect the billed days
 
-Click **Collect the billed days**: the four quarters, **Q1 Days** to
+Click **Collect the billed days** (2): the four quarters, **Q1 Days** to
 **Q4 Days**, are filled with the CSJ forfait days claimed from the health
 insurers over the reference period — what was claimed, not what was lived.
 A centre whose reference period predates Resthome types its four quarters in.
@@ -49,8 +49,8 @@ opens some 250 days a year, not 365.
 
 ## 3. Enter the staff
 
-Click **Add the staff rows**, then enter, per qualification and per quarter,
-the FTE of the centre's own staff:
+Click **Add the staff rows** (3), then enter, per qualification and per
+quarter, the FTE of the centre's own staff:
 
 - **Nurse A1** and **Nurse A2**;
 - **Care assistant**;
@@ -78,7 +78,7 @@ limits:
   20 % of that norm each;
 - a therapist shortage is never made up.
 
-The **Lowest Norm Held**, after compensation, decides:
+The **Lowest Norm Held**, after compensation, decides the **Verdict** (4):
 
 | Lowest norm held | Forfait of the billing year |
 | --- | --- |
@@ -88,14 +88,16 @@ The **Lowest Norm Held**, after compensation, decides:
 | Under 75 % | No forfait |
 
 **Forfait** shows the daily forfait of the year, **Forfait Payable** what
-remains of it after the **Forfait Reduction**.
+remains of it after the **Forfait Reduction**. In the staff table, the row
+that decides the verdict is highlighted, with the norm it holds.
 
-<!-- screenshot to add: a check with its staff rows and its verdict -->
+![A staffing norm check: the verdict banner, a norm held at 91.8 % by the therapists, the four quarters of billed days, and the staff rows with their FTE, norm and norm held](../assets/screenshots/centre-de-jour/12-norme-personnel.png)
 
 ## 5. Apply the verdict to the billing
 
 Click **Apply to billing** and confirm: every CSJ forfait of the billing year
-is then claimed at the reduced amount.
+is then claimed at the reduced amount. Until then, the blue banner says so:
+the invoices still carry the full tariff.
 
 - The action is refused while the FTE are empty.
 - A year is billed under **one** verdict: a second check cannot be applied to

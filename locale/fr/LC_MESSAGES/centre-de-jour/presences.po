@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-21 16:38+0200\n"
+"POT-Creation-Date: 2026-09-22 15:57+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -103,11 +103,11 @@ msgstr "Le registre du jour"
 #: ../../content/centre-de-jour/presences.md:27
 msgid ""
 "**Accommodation → Day care register** opens the register of one day: every "
-"day care user whose stay runs that day. The days already recorded come "
+"day care user whose stay runs that day (1). The days already recorded come "
 "ticked, with their hours."
 msgstr ""
 "**Hébergement → Registre de présence CSJ** ouvre le registre d'un jour : "
-"chaque usager dont le séjour court ce jour-là. Les jours déjà inscrits "
+"chaque usager dont le séjour court ce jour-là (1). Les jours déjà inscrits "
 "arrivent cochés, avec leurs heures."
 
 #: ../../content/centre-de-jour/presences.md:31
@@ -127,14 +127,39 @@ msgid "Click **Save the register**."
 msgstr "Cliquez sur **Enregistrer le registre**."
 
 #: ../../content/centre-de-jour/presences.md:36
-msgid "Unticking a user removes their day."
-msgstr "Décocher un usager retire sa journée."
+msgid ""
+"![The day's register: four users, three of them ticked with their arrival "
+"and departure hours, and the banner saying the register closed at "
+"13:00](../assets/screenshots/centre-de-jour/07-registre-du-jour.png)"
+msgstr ""
+"![Le registre du jour : quatre usagers, trois cochés avec leurs heures "
+"d'arrivée et de départ, et la bannière disant que le registre est clôturé "
+"depuis 13 h](../assets/screenshots/centre-de-jour/07-registre-du-jour.png)"
 
-#: ../../content/centre-de-jour/presences.md:40
+#: ../../content/centre-de-jour/presences.md:36
+msgid ""
+"The day's register: four users, three of them ticked with their arrival and "
+"departure hours, and the banner saying the register closed at 13:00"
+msgstr ""
+"Le registre du jour : quatre usagers, trois cochés avec leurs heures "
+"d'arrivée et de départ, et la bannière disant que le registre est clôturé "
+"depuis 13 h"
+
+#: ../../content/centre-de-jour/presences.md:38
+msgid ""
+"Unticking a user removes their day. From 13:00 the banner says the register "
+"is closed to arrivals: the departures can still be completed, and a user "
+"added now is marked as recorded after the closure."
+msgstr ""
+"Décocher un usager retire sa journée. Dès 13 h, la bannière dit que le "
+"registre est fermé aux arrivées : les départs peuvent encore être complétés,"
+" et un usager ajouté maintenant est marqué comme saisi après la clôture."
+
+#: ../../content/centre-de-jour/presences.md:42
 msgid "One day for one user"
 msgstr "Un jour pour un usager"
 
-#: ../../content/centre-de-jour/presences.md:42
+#: ../../content/centre-de-jour/presences.md:44
 msgid ""
 "On the user's file, **Add a day of attendance** opens a dialog for a single "
 "day — the right tool to catch up a fortnight for one person."
@@ -143,72 +168,96 @@ msgstr ""
 "pour un seul jour — le bon outil pour rattraper une quinzaine pour une "
 "personne."
 
-#: ../../content/centre-de-jour/presences.md:45
-msgid "Choose the **Date**: today by default."
-msgstr "Choisissez la **Date** : aujourd'hui par défaut."
-
-#: ../../content/centre-de-jour/presences.md:46
-msgid ""
-"Check **Arrival** and **Departure**: they start from the centre's hours."
-msgstr ""
-"Vérifiez **Arrivée** et **Départ** : ils partent des heures du centre."
-
 #: ../../content/centre-de-jour/presences.md:47
-msgid ""
-"If a hospitalisation or a death interrupted the day, choose it under **Day "
-"Cut Short**."
-msgstr ""
-"Si une hospitalisation ou un décès a interrompu la journée, choisissez-le "
-"sous **Journée écourtée**."
+msgid "Choose the **Date** (1): today by default."
+msgstr "Choisissez la **Date** (1) : aujourd'hui par défaut."
 
-#: ../../content/centre-de-jour/presences.md:49
+#: ../../content/centre-de-jour/presences.md:48
 msgid ""
-"Read the verdict before saving: **Forfait Due**, or its **Why Not Due**."
+"Check **Arrival** and **Departure** (2): they start from the centre's hours."
 msgstr ""
-"Lisez le verdict avant d'enregistrer : **Forfait dû**, ou son **Motif**."
+"Vérifiez **Arrivée** et **Départ** (2) : ils partent des heures du centre."
 
 #: ../../content/centre-de-jour/presences.md:50
+msgid ""
+"If a hospitalisation or a death interrupted the day, choose it under **Day "
+"Cut Short** (3)."
+msgstr ""
+"Si une hospitalisation ou un décès a interrompu la journée, choisissez-le "
+"sous **Journée écourtée** (3)."
+
+#: ../../content/centre-de-jour/presences.md:52
+msgid ""
+"Read the verdict before saving (4): the forfait is due, or the reason it is "
+"not."
+msgstr ""
+"Lisez le verdict avant d'enregistrer (4) : le forfait est dû, ou le motif "
+"pour lequel il ne l'est pas."
+
+#: ../../content/centre-de-jour/presences.md:54
 msgid ""
 "Click **Save**, or **Save and next day** to move on to the following day."
 msgstr ""
 "Cliquez sur **Enregistrer**, ou sur **Enregistrer et jour suivant** pour "
 "passer au jour suivant."
 
-#: ../../content/centre-de-jour/presences.md:52
+#: ../../content/centre-de-jour/presences.md:56
+msgid ""
+"![The Add a day of attendance dialog: the date, the arrival at 08:00 and the"
+" departure at 18:00, the Day Cut Short field, and the green banner saying "
+"the forfait is due](../assets/screenshots/centre-de-jour/08-jour-de-"
+"presence.png)"
+msgstr ""
+"![La fenêtre Ajouter un jour de présence : la date, l'arrivée à 08:00 et le "
+"départ à 18:00, le champ Journée écourtée, et la bannière verte disant que "
+"le forfait est dû](../assets/screenshots/centre-de-jour/08-jour-de-"
+"presence.png)"
+
+#: ../../content/centre-de-jour/presences.md:56
+msgid ""
+"The Add a day of attendance dialog: the date, the arrival at 08:00 and the "
+"departure at 18:00, the Day Cut Short field, and the green banner saying the"
+" forfait is due"
+msgstr ""
+"La fenêtre Ajouter un jour de présence : la date, l'arrivée à 08:00 et le "
+"départ à 18:00, le champ Journée écourtée, et la bannière verte disant que "
+"le forfait est dû"
+
+#: ../../content/centre-de-jour/presences.md:58
 msgid ""
 "A day already in the register is loaded, never doubled: saving updates it."
 msgstr ""
 "Un jour déjà au registre est chargé, jamais doublé : enregistrer le met à "
 "jour."
 
-#: ../../content/centre-de-jour/presences.md:53
+#: ../../content/centre-de-jour/presences.md:59
 msgid "The next day always starts blank, on the centre's hours."
 msgstr "Le jour suivant repart toujours vierge, sur les heures du centre."
 
-#: ../../content/centre-de-jour/presences.md:54
+#: ../../content/centre-de-jour/presences.md:60
 msgid ""
 "A notification confirms each day saved, and says whether the forfait is due."
 msgstr ""
 "Une notification confirme chaque jour enregistré, et dit si le forfait est "
 "dû."
 
-#: ../../content/centre-de-jour/presences.md:58
+#: ../../content/centre-de-jour/presences.md:62
 msgid "A day that earns the forfait"
 msgstr "Une journée qui donne droit au forfait"
 
-#: ../../content/centre-de-jour/presences.md:60
+#: ../../content/centre-de-jour/presences.md:64
 msgid "A day earns the forfait when the user:"
 msgstr "Une journée donne droit au forfait quand l'usager :"
 
-#: ../../content/centre-de-jour/presences.md:62
+#: ../../content/centre-de-jour/presences.md:66
 msgid "stayed at least **6 hours**, and"
 msgstr "est resté au moins **6 heures**, et"
 
-#: ../../content/centre-de-jour/presences.md:63
+#: ../../content/centre-de-jour/presences.md:67
 msgid "arrived by **12:00**;"
 msgstr "est arrivé au plus tard à **12 h** ;"
 
-#: ../../content/centre-de-jour/presences.md:65
+#: ../../content/centre-de-jour/presences.md:69
 msgid ""
 "or when the day was **cut short** by a hospitalisation or a death, however "
 "short. Otherwise the register says why: **Less than 6 hours**, **Arrived "
@@ -219,7 +268,7 @@ msgstr ""
 "heures**, **Arrivé après 12 h**, ou **Heure d'arrivée ou de départ "
 "manquante**."
 
-#: ../../content/centre-de-jour/presences.md:69
+#: ../../content/centre-de-jour/presences.md:73
 msgid ""
 "A day that earns no forfait is still recorded: the user came, and the centre"
 " bills them its day price."
@@ -227,22 +276,22 @@ msgstr ""
 "Une journée qui ne donne pas droit au forfait s'inscrit quand même : "
 "l'usager est venu, et le centre lui facture son prix de journée."
 
-#: ../../content/centre-de-jour/presences.md:72
+#: ../../content/centre-de-jour/presences.md:76
 msgid "The 13:00 closure"
 msgstr "La clôture de 13 h"
 
-#: ../../content/centre-de-jour/presences.md:74
+#: ../../content/centre-de-jour/presences.md:78
 msgid "Before **13:00**, the register of the day is open."
 msgstr "Avant **13 h**, le registre du jour est ouvert."
 
-#: ../../content/centre-de-jour/presences.md:75
+#: ../../content/centre-de-jour/presences.md:79
 msgid ""
 "From **13:00**, it is closed to arrivals; departures can still be entered."
 msgstr ""
 "Dès **13 h**, il est fermé aux arrivées ; les départs peuvent encore être "
 "encodés."
 
-#: ../../content/centre-de-jour/presences.md:76
+#: ../../content/centre-de-jour/presences.md:80
 msgid ""
 "A **past day** can only be amended by a manager, and every change is kept in"
 " the audit log."
@@ -250,12 +299,12 @@ msgstr ""
 "Un **jour passé** ne peut être modifié que par un responsable, et chaque "
 "changement est conservé dans le journal d'audit."
 
-#: ../../content/centre-de-jour/presences.md:78
+#: ../../content/centre-de-jour/presences.md:82
 msgid "A line added after the closure is marked **Recorded after closure**."
 msgstr ""
 "Une ligne ajoutée après la clôture est marquée **Saisi après la clôture**."
 
-#: ../../content/centre-de-jour/presences.md:80
+#: ../../content/centre-de-jour/presences.md:84
 msgid ""
 "Once the register has closed, its silence is an answer: a user who was "
 "expected and not ticked in **did not come** that day."
@@ -263,11 +312,11 @@ msgstr ""
 "Une fois le registre clôturé, son silence est une réponse : un usager "
 "attendu et non pointé **n'est pas venu** ce jour-là."
 
-#: ../../content/centre-de-jour/presences.md:83
+#: ../../content/centre-de-jour/presences.md:87
 msgid "The history"
 msgstr "L'historique"
 
-#: ../../content/centre-de-jour/presences.md:85
+#: ../../content/centre-de-jour/presences.md:89
 msgid ""
 "**Accommodation → Day care attendance** lists the days recorded, with the "
 "filters **Today**, **This month**, **Forfait not due**, **Recorded after "
@@ -277,20 +326,45 @@ msgstr ""
 "**Aujourd'hui**, **Ce mois-ci**, **Forfait non dû**, **Saisi après la "
 "clôture** et **Centre fermé ce jour-là**, groupés par habitant ou par jour."
 
-#: ../../content/centre-de-jour/presences.md:89
+#: ../../content/centre-de-jour/presences.md:93
 msgid ""
-"A day recorded on a weekday the centre does not open is flagged, never "
-"refused: it is either a date typed wrong, or an exceptional opening."
+"![The attendance history of the month: a day in red that earns no forfait "
+"with its reason, a day cut short by a hospitalisation, and a line in orange "
+"recorded after the closure](../assets/screenshots/centre-de-"
+"jour/09-historique.png)"
 msgstr ""
-"Un jour inscrit un jour de semaine où le centre n'ouvre pas est signalé, "
-"jamais refusé : c'est soit une date mal encodée, soit une ouverture "
-"exceptionnelle."
+"![L'historique des présences du mois : une journée en rouge sans forfait "
+"avec son motif, une journée écourtée par une hospitalisation, et une ligne "
+"en orange saisie après la clôture](../assets/screenshots/centre-de-"
+"jour/09-historique.png)"
 
-#: ../../content/centre-de-jour/presences.md:92
+#: ../../content/centre-de-jour/presences.md:93
+msgid ""
+"The attendance history of the month: a day in red that earns no forfait with"
+" its reason, a day cut short by a hospitalisation, and a line in orange "
+"recorded after the closure"
+msgstr ""
+"L'historique des présences du mois : une journée en rouge sans forfait avec "
+"son motif, une journée écourtée par une hospitalisation, et une ligne en "
+"orange saisie après la clôture"
+
+#: ../../content/centre-de-jour/presences.md:95
+msgid ""
+"A day that earns no forfait shows in red, with its reason under **Why Not "
+"Due**; a day recorded after the closure shows in orange. A day recorded on a"
+" weekday the centre does not open is flagged, never refused: it is either a "
+"date typed wrong, or an exceptional opening."
+msgstr ""
+"Une journée sans forfait s'affiche en rouge, avec son motif sous **Motif** ;"
+" une journée saisie après la clôture s'affiche en orange. Un jour inscrit un"
+" jour de semaine où le centre n'ouvre pas est signalé, jamais refusé : c'est"
+" soit une date mal encodée, soit une ouverture exceptionnelle."
+
+#: ../../content/centre-de-jour/presences.md:100
 msgid "What's next"
 msgstr "À suivre"
 
-#: ../../content/centre-de-jour/presences.md:94
+#: ../../content/centre-de-jour/presences.md:102
 msgid ""
 "[Billing a day care month](facturation.md) — what the days recorded become "
 "on the invoices."
@@ -298,7 +372,7 @@ msgstr ""
 "[Facturer un mois de centre de jour](facturation.md) — ce que deviennent les"
 " jours inscrits sur les factures."
 
-#: ../../content/centre-de-jour/presences.md:95
+#: ../../content/centre-de-jour/presences.md:103
 msgid ""
 "[Care for a day care user](soins.md) — how the register decides the care of "
 "the day."

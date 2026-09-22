@@ -25,18 +25,21 @@ the day price instead of a room.
 ## Open the stay
 
 Admit the user from the [admission pipeline](../admissions/admettre.md) or from
-their file, with **CSJ** as **Stay Type**:
+their file, with **CSJ** as **Stay Type** (1):
 
-- the **Room** picker offers the **day places** only;
-- the stay shows no nightly rate and no short-stay option: there is no bed.
+- the **Room** picker (2) offers the **day places** only;
+- the stay shows no nightly rate, no short-stay option and no invoice type:
+  there is no bed, and a day care month is billed after the days happened.
 
 From a day room, **Assign Resident** opens a CSJ stay straight away.
 
 ## The days the user is expected
 
-On the stay, **Expected on** holds the days agreed with the family: **Mon** to
-**Sun**. They drive everything that plans work for the user — care tasks,
-medication, the missed-care count.
+On the stay, **Expected on** (3) holds the days agreed with the family:
+**Mon** to **Sun**. They drive everything that plans work for the user — care
+tasks, medication, the missed-care count.
+
+![A CSJ stay: the stay type, the day room with its 15 day places, and the days expected ticked on Monday, Wednesday and Friday](../assets/screenshots/centre-de-jour/05-sejour-csj.png)
 
 - Nothing ticked: the user is expected on **every day the centre opens**.
 - A day recorded in the register always counts, even outside the agreed days.
@@ -46,8 +49,10 @@ medication, the missed-care count.
 Click **Start Stay** on the user's first day. Resthome then:
 
 - subscribes the centre's **day price** (CSJ Stay Supplement), from the
-  **admission day**;
+  **admission day** — it appears under the **Conventions** tab of the file;
 - shows the **Add a day of attendance** button on the user's file.
+
+![The file of a day care user: the Add a day of attendance button in the header, the CSJ marker and the category badge F next to the name](../assets/screenshots/centre-de-jour/06-fiche-usager.png)
 
 :::{note}
 Starting a stay needs the admission hour: it declares when the INAMI

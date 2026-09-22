@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-21 16:38+0200\n"
+"POT-Creation-Date: 2026-09-22 15:57+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -157,10 +157,41 @@ msgstr ""
 "mois pour cet usager, comme le fait un changement d'absence."
 
 #: ../../content/centre-de-jour/facturation.md:45
+msgid ""
+"![The billing lines of a user who comes every opening day: five forfait "
+"lines, one per week, then the day price on 21 "
+"days](../assets/screenshots/centre-de-jour/10-lignes-du-mois.png)"
+msgstr ""
+"![Les lignes de facturation d'une usagère qui vient chaque jour d'ouverture "
+": cinq lignes de forfait, une par semaine, puis le prix de journée sur 21 "
+"jours](../assets/screenshots/centre-de-jour/10-lignes-du-mois.png)"
+
+#: ../../content/centre-de-jour/facturation.md:45
+msgid ""
+"The billing lines of a user who comes every opening day: five forfait lines,"
+" one per week, then the day price on 21 days"
+msgstr ""
+"Les lignes de facturation d'une usagère qui vient chaque jour d'ouverture : "
+"cinq lignes de forfait, une par semaine, puis le prix de journée sur 21 "
+"jours"
+
+#: ../../content/centre-de-jour/facturation.md:47
+msgid ""
+"The lines are read on the period, under its **Billing Lines** tab, or on the"
+" stay's tab of the same name. Each forfait line carries the CSJ category, "
+"its pseudo-code and the health insurer as payer; the day price line names "
+"the user."
+msgstr ""
+"Les lignes se lisent sur la période, sous son onglet **Lignes de "
+"facturation**, ou sur l'onglet du même nom du séjour. Chaque ligne de "
+"forfait porte la catégorie CSJ, son pseudo-code et la mutuelle comme payeur "
+"; la ligne du prix de journée nomme l'usager."
+
+#: ../../content/centre-de-jour/facturation.md:52
 msgid "The month nobody ticked"
 msgstr "Le mois que personne n'a pointé"
 
-#: ../../content/centre-de-jour/facturation.md:47
+#: ../../content/centre-de-jour/facturation.md:54
 msgid ""
 "When a user's month bills nothing, refreshing the period says why in its "
 "chatter: **nothing recorded in the attendance register** for them, with the "
@@ -173,7 +204,26 @@ msgstr ""
 "concerné. Une date récente dit que le registre n'a pas été tenu ; « jamais »"
 " dit que l'usager n'est jamais venu."
 
-#: ../../content/centre-de-jour/facturation.md:52
+#: ../../content/centre-de-jour/facturation.md:59
+msgid ""
+"![The note on the period: nothing recorded in the attendance register for "
+"this month, so nothing is owed, with the user's name and the last day "
+"recorded](../assets/screenshots/centre-de-jour/11-registre-vide.png)"
+msgstr ""
+"![La note sur la période : rien n'est enregistré au registre de présence "
+"pour ce mois, donc rien n'est dû, avec le nom de l'usager et le dernier jour"
+" pointé](../assets/screenshots/centre-de-jour/11-registre-vide.png)"
+
+#: ../../content/centre-de-jour/facturation.md:59
+msgid ""
+"The note on the period: nothing recorded in the attendance register for this"
+" month, so nothing is owed, with the user's name and the last day recorded"
+msgstr ""
+"La note sur la période : rien n'est enregistré au registre de présence pour "
+"ce mois, donc rien n'est dû, avec le nom de l'usager et le dernier jour "
+"pointé"
+
+#: ../../content/centre-de-jour/facturation.md:61
 msgid ""
 "Fill in the register — see [Recording attendance](presences.md) — then "
 "**Refresh** the period."
@@ -181,11 +231,11 @@ msgstr ""
 "Complétez le registre — voir [Enregistrer les présences](presences.md) — "
 "puis **Actualisez** la période."
 
-#: ../../content/centre-de-jour/facturation.md:55
+#: ../../content/centre-de-jour/facturation.md:64
 msgid "When the staffing norm reduces the forfait"
 msgstr "Quand la norme de personnel réduit le forfait"
 
-#: ../../content/centre-de-jour/facturation.md:57
+#: ../../content/centre-de-jour/facturation.md:66
 #, python-format
 msgid ""
 "A staffing norm applied to the billing year reduces every CSJ forfait of "
@@ -200,11 +250,11 @@ msgstr ""
 "demande à 0,00 EUR — et la période indique **Forfait retiré par le "
 "secteur**. Voir [La norme de personnel](norme-personnel.md)."
 
-#: ../../content/centre-de-jour/facturation.md:62
+#: ../../content/centre-de-jour/facturation.md:71
 msgid "Sending to the health insurers"
 msgstr "L'envoi aux mutuelles"
 
-#: ../../content/centre-de-jour/facturation.md:64
+#: ../../content/centre-de-jour/facturation.md:73
 msgid ""
 "The forfaits go to the health insurers by **eFact**, under the day care "
 "centre's **own INAMI number**, in their own sending. See [Electronic "
@@ -214,11 +264,11 @@ msgstr ""
 "numéro INAMI** du centre de jour, dans leur propre envoi. Voir [Facturation "
 "électronique (eFact)](../ehealth/efact.md)."
 
-#: ../../content/centre-de-jour/facturation.md:68
+#: ../../content/centre-de-jour/facturation.md:77
 msgid "What's next"
 msgstr "À suivre"
 
-#: ../../content/centre-de-jour/facturation.md:70
+#: ../../content/centre-de-jour/facturation.md:79
 msgid ""
 "[The staffing norm](norme-personnel.md) — the yearly check that can reduce "
 "the forfait."
@@ -226,7 +276,7 @@ msgstr ""
 "[La norme de personnel](norme-personnel.md) — le contrôle annuel qui peut "
 "réduire le forfait."
 
-#: ../../content/centre-de-jour/facturation.md:71
+#: ../../content/centre-de-jour/facturation.md:80
 msgid ""
 "[Recording attendance](presences.md) — the register every line of the month "
 "comes from."

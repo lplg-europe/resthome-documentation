@@ -25,7 +25,7 @@ and per day, with the arrival and departure hours.
 ## The day's register
 
 **Accommodation → Day care register** opens the register of one day: every day
-care user whose stay runs that day. The days already recorded come ticked,
+care user whose stay runs that day (1). The days already recorded come ticked,
 with their hours.
 
 1. Tick the users who came.
@@ -33,27 +33,31 @@ with their hours.
    forfait.
 3. Click **Save the register**.
 
-Unticking a user removes their day.
+![The day's register: four users, three of them ticked with their arrival and departure hours, and the banner saying the register closed at 13:00](../assets/screenshots/centre-de-jour/07-registre-du-jour.png)
 
-<!-- screenshot to add: the day's register with the users ticked -->
+Unticking a user removes their day. From 13:00 the banner says the register is
+closed to arrivals: the departures can still be completed, and a user added
+now is marked as recorded after the closure.
 
 ## One day for one user
 
 On the user's file, **Add a day of attendance** opens a dialog for a single
 day — the right tool to catch up a fortnight for one person.
 
-1. Choose the **Date**: today by default.
-2. Check **Arrival** and **Departure**: they start from the centre's hours.
+1. Choose the **Date** (1): today by default.
+2. Check **Arrival** and **Departure** (2): they start from the centre's
+   hours.
 3. If a hospitalisation or a death interrupted the day, choose it under
-   **Day Cut Short**.
-4. Read the verdict before saving: **Forfait Due**, or its **Why Not Due**.
+   **Day Cut Short** (3).
+4. Read the verdict before saving (4): the forfait is due, or the reason it
+   is not.
 5. Click **Save**, or **Save and next day** to move on to the following day.
+
+![The Add a day of attendance dialog: the date, the arrival at 08:00 and the departure at 18:00, the Day Cut Short field, and the green banner saying the forfait is due](../assets/screenshots/centre-de-jour/08-jour-de-presence.png)
 
 - A day already in the register is loaded, never doubled: saving updates it.
 - The next day always starts blank, on the centre's hours.
 - A notification confirms each day saved, and says whether the forfait is due.
-
-<!-- screenshot to add: the Add a day of attendance dialog -->
 
 ## A day that earns the forfait
 
@@ -86,8 +90,12 @@ expected and not ticked in **did not come** that day.
 filters **Today**, **This month**, **Forfait not due**, **Recorded after
 closure** and **Centre closed that day**, grouped by resident or by day.
 
-A day recorded on a weekday the centre does not open is flagged, never
-refused: it is either a date typed wrong, or an exceptional opening.
+![The attendance history of the month: a day in red that earns no forfait with its reason, a day cut short by a hospitalisation, and a line in orange recorded after the closure](../assets/screenshots/centre-de-jour/09-historique.png)
+
+A day that earns no forfait shows in red, with its reason under **Why Not
+Due**; a day recorded after the closure shows in orange. A day recorded on a
+weekday the centre does not open is flagged, never refused: it is either a
+date typed wrong, or an exceptional opening.
 
 ## What's next
 

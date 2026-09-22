@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-21 16:38+0200\n"
+"POT-Creation-Date: 2026-09-22 15:57+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -97,84 +97,125 @@ msgstr "Ouvrir le séjour"
 #: ../../content/centre-de-jour/admission.md:27
 msgid ""
 "Admit the user from the [admission pipeline](../admissions/admettre.md) or "
-"from their file, with **CSJ** as **Stay Type**:"
+"from their file, with **CSJ** as **Stay Type** (1):"
 msgstr ""
 "Admettez l'usager depuis le [pipeline "
 "d'admission](../admissions/admettre.md) ou depuis sa fiche, avec **CSJ** "
-"comme **Type de séjour** :"
+"comme **Type de séjour** (1) :"
 
 #: ../../content/centre-de-jour/admission.md:30
-msgid "the **Room** picker offers the **day places** only;"
-msgstr "le choix de la **Chambre** ne propose que les **places de jour** ;"
+msgid "the **Room** picker (2) offers the **day places** only;"
+msgstr ""
+"le choix de la **Chambre** (2) ne propose que les **places de jour** ;"
 
 #: ../../content/centre-de-jour/admission.md:31
 msgid ""
-"the stay shows no nightly rate and no short-stay option: there is no bed."
+"the stay shows no nightly rate, no short-stay option and no invoice type: "
+"there is no bed, and a day care month is billed after the days happened."
 msgstr ""
-"le séjour n'affiche ni prix par nuit ni option de court séjour : il n'y a "
-"pas de lit."
+"le séjour n'affiche ni prix par nuit, ni option de court séjour, ni type de "
+"facture : il n'y a pas de lit, et un mois de centre de jour se facture après"
+" coup."
 
-#: ../../content/centre-de-jour/admission.md:33
+#: ../../content/centre-de-jour/admission.md:34
 msgid "From a day room, **Assign Resident** opens a CSJ stay straight away."
 msgstr ""
 "Depuis une salle de jour, **Affecter un habitant** ouvre directement un "
 "séjour CSJ."
 
-#: ../../content/centre-de-jour/admission.md:35
+#: ../../content/centre-de-jour/admission.md:36
 msgid "The days the user is expected"
 msgstr "Les jours où l'usager est attendu"
 
-#: ../../content/centre-de-jour/admission.md:37
+#: ../../content/centre-de-jour/admission.md:38
 msgid ""
-"On the stay, **Expected on** holds the days agreed with the family: **Mon** "
-"to **Sun**. They drive everything that plans work for the user — care tasks,"
-" medication, the missed-care count."
+"On the stay, **Expected on** (3) holds the days agreed with the family: "
+"**Mon** to **Sun**. They drive everything that plans work for the user — "
+"care tasks, medication, the missed-care count."
 msgstr ""
-"Sur le séjour, **Attendu les** reprend les jours convenus avec la famille : "
-"de **Lun** à **Dim**. Ils pilotent tout ce qui planifie le travail pour "
-"l'usager — tâches de soins, médication, décompte des soins manqués."
+"Sur le séjour, **Attendu les** (3) reprend les jours convenus avec la "
+"famille : de **Lun** à **Dim**. Ils pilotent tout ce qui planifie le travail"
+" pour l'usager — tâches de soins, médication, décompte des soins manqués."
 
-#: ../../content/centre-de-jour/admission.md:41
+#: ../../content/centre-de-jour/admission.md:42
+msgid ""
+"![A CSJ stay: the stay type, the day room with its 15 day places, and the "
+"days expected ticked on Monday, Wednesday and "
+"Friday](../assets/screenshots/centre-de-jour/05-sejour-csj.png)"
+msgstr ""
+"![Un séjour CSJ : le type de séjour, la salle de jour et ses 15 places de "
+"jour, et les jours attendus cochés le lundi, le mercredi et le "
+"vendredi](../assets/screenshots/centre-de-jour/05-sejour-csj.png)"
+
+#: ../../content/centre-de-jour/admission.md:42
+msgid ""
+"A CSJ stay: the stay type, the day room with its 15 day places, and the days"
+" expected ticked on Monday, Wednesday and Friday"
+msgstr ""
+"Un séjour CSJ : le type de séjour, la salle de jour et ses 15 places de "
+"jour, et les jours attendus cochés le lundi, le mercredi et le vendredi"
+
+#: ../../content/centre-de-jour/admission.md:44
 msgid ""
 "Nothing ticked: the user is expected on **every day the centre opens**."
 msgstr ""
 "Rien de coché : l'usager est attendu **chaque jour d'ouverture du centre**."
 
-#: ../../content/centre-de-jour/admission.md:42
+#: ../../content/centre-de-jour/admission.md:45
 msgid ""
 "A day recorded in the register always counts, even outside the agreed days."
 msgstr ""
 "Un jour inscrit au registre compte toujours, même en dehors des jours "
 "convenus."
 
-#: ../../content/centre-de-jour/admission.md:44
+#: ../../content/centre-de-jour/admission.md:47
 msgid "Start the stay"
 msgstr "Démarrer le séjour"
 
-#: ../../content/centre-de-jour/admission.md:46
+#: ../../content/centre-de-jour/admission.md:49
 msgid "Click **Start Stay** on the user's first day. Resthome then:"
 msgstr ""
 "Cliquez sur **Démarrer le séjour** le premier jour de l'usager. Resthome "
 "alors :"
 
-#: ../../content/centre-de-jour/admission.md:48
+#: ../../content/centre-de-jour/admission.md:51
 msgid ""
 "subscribes the centre's **day price** (CSJ Stay Supplement), from the "
-"**admission day**;"
+"**admission day** — it appears under the **Conventions** tab of the file;"
 msgstr ""
 "souscrit le **prix de journée** du centre (Supplément de séjour CSJ), à "
-"partir du **jour d'admission** ;"
+"partir du **jour d'admission** — il apparaît sous l'onglet **Conventions** "
+"de la fiche ;"
 
-#: ../../content/centre-de-jour/admission.md:50
+#: ../../content/centre-de-jour/admission.md:53
 msgid "shows the **Add a day of attendance** button on the user's file."
 msgstr ""
 "affiche le bouton **Ajouter un jour de présence** sur la fiche de l'usager."
 
-#: ../../content/centre-de-jour/admission.md:52
+#: ../../content/centre-de-jour/admission.md:55
+msgid ""
+"![The file of a day care user: the Add a day of attendance button in the "
+"header, the CSJ marker and the category badge F next to the "
+"name](../assets/screenshots/centre-de-jour/06-fiche-usager.png)"
+msgstr ""
+"![La fiche d'un usager du centre de jour : le bouton Ajouter un jour de "
+"présence dans l'en-tête, la mention CSJ et le badge de catégorie F à côté du"
+" nom](../assets/screenshots/centre-de-jour/06-fiche-usager.png)"
+
+#: ../../content/centre-de-jour/admission.md:55
+msgid ""
+"The file of a day care user: the Add a day of attendance button in the "
+"header, the CSJ marker and the category badge F next to the name"
+msgstr ""
+"La fiche d'un usager du centre de jour : le bouton Ajouter un jour de "
+"présence dans l'en-tête, la mention CSJ et le badge de catégorie F à côté du"
+" nom"
+
+#: ../../content/centre-de-jour/admission.md:57
 msgid "Note"
 msgstr ""
 
-#: ../../content/centre-de-jour/admission.md:53
+#: ../../content/centre-de-jour/admission.md:58
 msgid ""
 "Starting a stay needs the admission hour: it declares when the INAMI "
 "intervention begins."
@@ -182,11 +223,11 @@ msgstr ""
 "Démarrer un séjour demande l'heure d'admission : elle déclare le début de "
 "l'intervention INAMI."
 
-#: ../../content/centre-de-jour/admission.md:57
+#: ../../content/centre-de-jour/admission.md:62
 msgid "The CSJ category"
 msgstr "La catégorie CSJ"
 
-#: ../../content/centre-de-jour/admission.md:59
+#: ../../content/centre-de-jour/admission.md:64
 msgid ""
 "The same Katz evaluation serves both sectors. For a day care user, Resthome "
 "reads its **CSJ category**:"
@@ -194,14 +235,14 @@ msgstr ""
 "La même évaluation Katz sert aux deux secteurs. Pour un usager du centre de "
 "jour, Resthome en lit la **catégorie CSJ** :"
 
-#: ../../content/centre-de-jour/admission.md:62
+#: ../../content/centre-de-jour/admission.md:67
 msgid ""
 "**F** — dependent for washing and dressing, and for transfer or toileting;"
 msgstr ""
 "**F** — dépendant pour se laver et s'habiller, et pour les transferts ou "
 "aller à la toilette ;"
 
-#: ../../content/centre-de-jour/admission.md:63
+#: ../../content/centre-de-jour/admission.md:68
 msgid ""
 "**Fd** — disoriented in time and space, and dependent for washing or "
 "dressing;"
@@ -209,13 +250,13 @@ msgstr ""
 "**Fd** — désorienté dans le temps et l'espace, et dépendant pour se laver ou"
 " s'habiller ;"
 
-#: ../../content/centre-de-jour/admission.md:65
+#: ../../content/centre-de-jour/admission.md:70
 msgid "**D** — dementia diagnosed by a specialist, with a written report."
 msgstr ""
 "**D** — démence diagnostiquée par un médecin spécialiste, avec un rapport "
 "écrit."
 
-#: ../../content/centre-de-jour/admission.md:67
+#: ../../content/centre-de-jour/admission.md:72
 msgid ""
 "A user in none of the three earns **no** day care forfait. The badge on the "
 "file and the name of the evaluation carry the CSJ letter, and the "
@@ -227,11 +268,11 @@ msgstr ""
 "lettre CSJ, et la **Catégorie facturée** de l'évaluation est celle envoyée à"
 " la mutuelle. Voir [L'évaluation Katz](../residents/katz.md)."
 
-#: ../../content/centre-de-jour/admission.md:72
+#: ../../content/centre-de-jour/admission.md:77
 msgid "The agreement request"
 msgstr "La demande d'accord"
 
-#: ../../content/centre-de-jour/admission.md:74
+#: ../../content/centre-de-jour/admission.md:79
 msgid ""
 "A day care admission asks the health insurer for its agreement with a "
 "request of its own, **csj-in**, and its Annexe 14; the end of care is a "
@@ -243,11 +284,11 @@ msgstr ""
 "est un **csj-out**. L'accord court un an, puis demande à être renouvelé. "
 "Voir [Accords (eAgreement)](../ehealth/eagreement.md)."
 
-#: ../../content/centre-de-jour/admission.md:79
+#: ../../content/centre-de-jour/admission.md:84
 msgid "Moving between the rest home and the day care centre"
 msgstr "Passer de la maison de repos au centre de jour"
 
-#: ../../content/centre-de-jour/admission.md:81
+#: ../../content/centre-de-jour/admission.md:86
 msgid ""
 "A resident who leaves a bed for the day care centre — or the other way round"
 " — changes sector: use the **internal transfer**, which closes one stay, "
@@ -259,17 +300,17 @@ msgstr ""
 "ouvre l'autre et produit les annexes attendues par la mutuelle. Voir "
 "[Transfert interne](../ehealth/eagreement-transfert.md)."
 
-#: ../../content/centre-de-jour/admission.md:86
+#: ../../content/centre-de-jour/admission.md:91
 msgid "What's next"
 msgstr "À suivre"
 
-#: ../../content/centre-de-jour/admission.md:88
+#: ../../content/centre-de-jour/admission.md:93
 msgid "[Recording attendance](presences.md) — ticking the days the user came."
 msgstr ""
 "[Enregistrer les présences](presences.md) — cocher les jours où l'usager est"
 " venu."
 
-#: ../../content/centre-de-jour/admission.md:89
+#: ../../content/centre-de-jour/admission.md:94
 msgid ""
 "[Care for a day care user](soins.md) — the care plan and the tasks of the "
 "days expected."

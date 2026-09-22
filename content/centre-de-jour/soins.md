@@ -34,6 +34,8 @@ people who come by day or for any stay, that match their CSJ category —
 Resthome ships one for **F**, **Fd** and **D**. See
 [Care plans](../soins/plans-de-soins.md).
 
+![The care plan templates: six Katz templates written for people who stay the night, three CSJ templates written for people who come by day](../assets/screenshots/centre-de-jour/13-plans-types.png)
+
 ## Tasks on the days the user comes
 
 Care tasks are planned only on the days the user is **expected**:
@@ -41,6 +43,8 @@ Care tasks are planned only on the days the user is **expected**:
 - the days ticked under **Expected on**, on the stay;
 - with none ticked, every day the centre opens;
 - and any day actually recorded in the register, even outside those days.
+
+![The week of a user who comes on Tuesday and Thursday, in the care calendar: the morning, noon and afternoon cares on those two days, nothing on the five others](../assets/screenshots/centre-de-jour/14-taches-jours-attendus.png)
 
 The medication follows the same days. On the other days, the plan says the
 user is away and plans nothing.

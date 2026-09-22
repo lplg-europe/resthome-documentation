@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-21 16:38+0200\n"
+"POT-Creation-Date: 2026-09-22 15:57+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -104,44 +104,91 @@ msgstr "1\\. Enregistrer l'agrément CSJ"
 
 #: ../../content/centre-de-jour/configuration.md:30
 msgid ""
-"Go to **Settings → Approvals → Manage establishments and approvals**, open "
-"the establishment of the day care centre and add its **CSJ** approval, with "
-"the number of places it covers."
-msgstr ""
-"Allez dans **Paramètres → Agréments → Gérer les établissements et les "
-"agréments**, ouvrez l'établissement du centre de jour et ajoutez son "
-"agrément **CSJ**, avec le nombre de places qu'il couvre."
-
-#: ../../content/centre-de-jour/configuration.md:34
-msgid ""
-"A day care centre has **its own INAMI number**: it is recorded on its "
-"establishment, with its eHealth certificate — see [eHealth and eFact "
+"A day care centre has **its own INAMI number** — one starting with 755 to "
+"758, ending in 000 — and Resthome records it on an **establishment** of its "
+"own, with its eHealth certificate. See [eHealth and eFact "
 "settings](../configuration/reglages-ehealth.md)."
 msgstr ""
-"Un centre de jour a **son propre numéro INAMI** : il est enregistré sur son "
-"établissement, avec son certificat eHealth — voir [Réglages eHealth et "
+"Un centre de jour a **son propre numéro INAMI** — il commence par 755 à 758 "
+"et se termine par 000 — et Resthome l'enregistre sur un **établissement** à "
+"part, avec son certificat eHealth. Voir [Réglages eHealth et "
 "eFact](../configuration/reglages-ehealth.md)."
 
+#: ../../content/centre-de-jour/configuration.md:35
+msgid ""
+"Go to **Settings → Approvals → Manage establishments and approvals** and "
+"create the establishment of the day care centre: its name and its INAMI "
+"number. Resthome reads the type from the number."
+msgstr ""
+"Allez dans **Paramètres → Agréments → Gérer les établissements et les "
+"agréments** et créez l'établissement du centre de jour : son nom et son "
+"numéro INAMI. Resthome lit le type dans le numéro."
+
 #: ../../content/centre-de-jour/configuration.md:38
-msgid "2. Set the opening days and hours"
-msgstr "2\\. Fixer les jours et heures d'ouverture"
+msgid ""
+"Under its **Sectors** tab, add a line with **CSJ** as sector and the number "
+"of places it covers under **Beds / places** (1)."
+msgstr ""
+"Sous son onglet **Secteurs**, ajoutez une ligne avec **CSJ** comme secteur "
+"et le nombre de places couvertes sous **Lits / places** (1)."
 
 #: ../../content/centre-de-jour/configuration.md:40
 msgid ""
-"On the CSJ approval, the **Opening days and hours** section says when the "
-"centre opens: the days from **Monday** to **Sunday**, **Opens at** and "
+"Open the line: the approval's own form carries the reference, the date and "
+"the opening days below."
+msgstr ""
+"Ouvrez la ligne : le formulaire de l'agrément porte la référence, la date "
+"et, plus bas, les jours d'ouverture."
+
+#: ../../content/centre-de-jour/configuration.md:43
+msgid ""
+"A house that runs a rest home as well keeps its MR and MRS approvals next to"
+" it, on the rest home's own establishment: an admission is only offered the "
+"sectors the house is licensed for."
+msgstr ""
+"Une maison qui exploite aussi une maison de repos garde ses agréments MR et "
+"MRS à côté, sur l'établissement propre de la maison de repos : une admission"
+" ne se voit proposer que les secteurs pour lesquels la maison est agréée."
+
+#: ../../content/centre-de-jour/configuration.md:47
+msgid "2. Set the opening days and hours"
+msgstr "2\\. Fixer les jours et heures d'ouverture"
+
+#: ../../content/centre-de-jour/configuration.md:49
+msgid ""
+"On the CSJ approval, the **Opening days and hours** section (2) says when "
+"the centre opens: the days from **Monday** to **Sunday**, **Opens at** and "
 "**Closes at**. It starts from Monday to Friday, 8:00 to 18:00 — the legal "
 "floor."
 msgstr ""
-"Sur l'agrément CSJ, la section **Jours et heures d'ouverture** dit quand le "
-"centre ouvre : les jours de **Lundi** à **Dimanche**, **Ouvre à** et **Ferme"
-" à**. Elle part du lundi au vendredi, de 8 h à 18 h — le minimum légal."
+"Sur l'agrément CSJ, la section **Jours et heures d'ouverture** (2) dit quand"
+" le centre ouvre : les jours de **Lundi** à **Dimanche**, **Ouvre à** et "
+"**Ferme à**. Elle part du lundi au vendredi, de 8 h à 18 h — le minimum "
+"légal."
 
-#: ../../content/centre-de-jour/configuration.md:45
+#: ../../content/centre-de-jour/configuration.md:54
+msgid ""
+"![The CSJ approval: the sector and its 15 places, then the opening days "
+"ticked from Monday to Friday and the hours, 08:00 to "
+"18:00](../assets/screenshots/centre-de-jour/01-agrement-csj.png)"
+msgstr ""
+"![L'agrément CSJ : le secteur et ses 15 places, puis les jours d'ouverture "
+"cochés du lundi au vendredi et les heures, de 08:00 à "
+"18:00](../assets/screenshots/centre-de-jour/01-agrement-csj.png)"
+
+#: ../../content/centre-de-jour/configuration.md:54
+msgid ""
+"The CSJ approval: the sector and its 15 places, then the opening days ticked"
+" from Monday to Friday and the hours, 08:00 to 18:00"
+msgstr ""
+"L'agrément CSJ : le secteur et ses 15 places, puis les jours d'ouverture "
+"cochés du lundi au vendredi et les heures, de 08:00 à 18:00"
+
+#: ../../content/centre-de-jour/configuration.md:56
 msgid "**Open Days / Week** counts the days ticked."
 msgstr "**Jours d'ouverture / semaine** compte les jours cochés."
 
-#: ../../content/centre-de-jour/configuration.md:46
+#: ../../content/centre-de-jour/configuration.md:57
 msgid ""
 "**Below the Norm** lights up under five days a week, or with a window "
 "narrower than 8:00–18:00. It is said, never blocked: what the centre opens "
@@ -151,7 +198,17 @@ msgstr ""
 "plus étroite que 8 h–18 h. C'est signalé, jamais bloqué : ce que le centre "
 "ouvre, c'est à lui de le déclarer."
 
-#: ../../content/centre-de-jour/configuration.md:50
+#: ../../content/centre-de-jour/configuration.md:60
+msgid ""
+"**Occupied** and **Occupancy** count the users enrolled against the places: "
+"more users than places is normal for a day care centre — they do not all "
+"come the same day."
+msgstr ""
+"**Occupés** et **Occupation** comptent les usagers inscrits par rapport aux "
+"places : plus d'usagers que de places est normal pour un centre de jour — "
+"ils ne viennent pas tous le même jour."
+
+#: ../../content/centre-de-jour/configuration.md:64
 msgid ""
 "These days are read everywhere else: a day recorded in the register on a day"
 " the centre is closed is flagged **Centre closed that day**, and a user with"
@@ -161,36 +218,39 @@ msgstr ""
 " fermeture est signalé **Centre fermé ce jour-là**, et un usager sans jours "
 "convenus est attendu chaque jour d'ouverture du centre."
 
-#: ../../content/centre-de-jour/configuration.md:54
+#: ../../content/centre-de-jour/configuration.md:68
 msgid "Note"
 msgstr ""
 
-#: ../../content/centre-de-jour/configuration.md:55
+#: ../../content/centre-de-jour/configuration.md:69
 msgid ""
 "Public holidays are not known yet: a holiday still reads as an open day."
 msgstr ""
 "Les jours fériés ne sont pas encore connus : un jour férié se lit encore "
 "comme un jour d'ouverture."
 
-#: ../../content/centre-de-jour/configuration.md:58
+#: ../../content/centre-de-jour/configuration.md:72
 msgid "3. Create the day room"
 msgstr "3\\. Créer la salle de jour"
 
-#: ../../content/centre-de-jour/configuration.md:60
+#: ../../content/centre-de-jour/configuration.md:74
 msgid "A day care user holds a **day place**, never a licensed bed."
 msgstr ""
 "Un usager du centre de jour occupe une **place de jour**, jamais un lit "
 "agréé."
 
-#: ../../content/centre-de-jour/configuration.md:62
+#: ../../content/centre-de-jour/configuration.md:76
 msgid ""
 "Under **Configuration → Rooms → Room Types**, create the type of the day "
-"room and tick **Day Place**."
+"room and tick **Day Place** (3). Its **Daily Rate** stays at 0.00: a place "
+"is not rented, the user pays the day price set in step 5."
 msgstr ""
 "Sous **Configuration → Chambres → Types de chambres**, créez le type de la "
-"salle de jour et cochez **Place de jour**."
+"salle de jour et cochez **Place de jour** (3). Son **Tarif journalier** "
+"reste à 0,00 : une place ne se loue pas, l'usager paie le prix de journée "
+"fixé à l'étape 5."
 
-#: ../../content/centre-de-jour/configuration.md:64
+#: ../../content/centre-de-jour/configuration.md:79
 msgid ""
 "Under **Accommodation → Rooms**, create the room with that type, and the "
 "number of places as its **capacity**."
@@ -198,18 +258,36 @@ msgstr ""
 "Sous **Hébergement → Chambres**, créez la salle avec ce type, et le nombre "
 "de places comme **capacité**."
 
-#: ../../content/centre-de-jour/configuration.md:67
+#: ../../content/centre-de-jour/configuration.md:82
+msgid ""
+"![The room type of the day room: code CSJ-DAY, a default capacity of 15, and"
+" the Day Place box ticked](../assets/screenshots/centre-de-jour/02-type-"
+"place-de-jour.png)"
+msgstr ""
+"![Le type de chambre de la salle de jour : le code CSJ-DAY, une capacité par"
+" défaut de 15, et la case Place de jour "
+"cochée](../assets/screenshots/centre-de-jour/02-type-place-de-jour.png)"
+
+#: ../../content/centre-de-jour/configuration.md:82
+msgid ""
+"The room type of the day room: code CSJ-DAY, a default capacity of 15, and "
+"the Day Place box ticked"
+msgstr ""
+"Le type de chambre de la salle de jour : le code CSJ-DAY, une capacité par "
+"défaut de 15, et la case Place de jour cochée"
+
+#: ../../content/centre-de-jour/configuration.md:84
 msgid "From then on:"
 msgstr "Dès lors :"
 
-#: ../../content/centre-de-jour/configuration.md:69
+#: ../../content/centre-de-jour/configuration.md:86
 msgid ""
 "a day care stay only goes in a day place, and a residential stay never does;"
 msgstr ""
 "un séjour CSJ ne va que sur une place de jour, et un séjour résidentiel "
 "jamais ;"
 
-#: ../../content/centre-de-jour/configuration.md:70
+#: ../../content/centre-de-jour/configuration.md:87
 msgid ""
 "every room picker offers day places to a day care stay, and beds to the "
 "others;"
@@ -217,7 +295,7 @@ msgstr ""
 "chaque choix de chambre propose des places de jour à un séjour CSJ, et des "
 "lits aux autres ;"
 
-#: ../../content/centre-de-jour/configuration.md:72
+#: ../../content/centre-de-jour/configuration.md:89
 msgid ""
 "a day room reads « 15 day places » in the pickers, never « free beds »: the "
 "places are shared, and a centre enrols more users than it has places."
@@ -226,11 +304,11 @@ msgstr ""
 " libres » : les places sont partagées, et un centre inscrit plus d'usagers "
 "qu'il n'a de places."
 
-#: ../../content/centre-de-jour/configuration.md:77
+#: ../../content/centre-de-jour/configuration.md:92
 msgid "4. Fill in the CSJ rates"
 msgstr "4\\. Compléter les tarifs CSJ"
 
-#: ../../content/centre-de-jour/configuration.md:79
+#: ../../content/centre-de-jour/configuration.md:94
 msgid ""
 "The health insurer pays a **daily forfait** per CSJ category. Under "
 "**Billing → Configuration → INAMI Rates**, the grid carries one row per CSJ "
@@ -240,60 +318,82 @@ msgstr ""
 "**Facturation → Configuration → Tarifs INAMI**, la grille porte une ligne "
 "par catégorie CSJ, chacune avec son propre **pseudo-code** :"
 
-#: ../../content/centre-de-jour/configuration.md:54
+#: ../../content/centre-de-jour/configuration.md:68
 msgid "Category"
 msgstr "Catégorie"
 
-#: ../../content/centre-de-jour/configuration.md:54
+#: ../../content/centre-de-jour/configuration.md:68
 msgid "Pseudo-code"
 msgstr "Pseudo-code"
 
-#: ../../content/centre-de-jour/configuration.md:54
+#: ../../content/centre-de-jour/configuration.md:68
 msgid "F"
 msgstr "F"
 
-#: ../../content/centre-de-jour/configuration.md:54
+#: ../../content/centre-de-jour/configuration.md:68
 msgid "126036"
 msgstr "126036"
 
-#: ../../content/centre-de-jour/configuration.md:54
+#: ../../content/centre-de-jour/configuration.md:68
 msgid "Fp"
 msgstr "Fp"
 
-#: ../../content/centre-de-jour/configuration.md:54
+#: ../../content/centre-de-jour/configuration.md:68
 msgid "126073"
 msgstr "126073"
 
-#: ../../content/centre-de-jour/configuration.md:54
+#: ../../content/centre-de-jour/configuration.md:68
 msgid "D"
 msgstr "D"
 
-#: ../../content/centre-de-jour/configuration.md:54
+#: ../../content/centre-de-jour/configuration.md:68
 msgid "126095"
 msgstr "126095"
 
-#: ../../content/centre-de-jour/configuration.md:54
+#: ../../content/centre-de-jour/configuration.md:68
 msgid "Fd"
 msgstr "Fd"
 
-#: ../../content/centre-de-jour/configuration.md:54
+#: ../../content/centre-de-jour/configuration.md:68
 msgid "126117"
 msgstr "126117"
 
-#: ../../content/centre-de-jour/configuration.md:90
+#: ../../content/centre-de-jour/configuration.md:105
 msgid ""
-"Enter the amount in force from its start date. The amount is the **same for "
-"every category**: the category declares the user's profile to the insurer."
+"Enter the amount in force from its start date (4). The amount is the **same "
+"for every category**: the category declares the user's profile to the "
+"insurer. The list opens on the current year: use the **Currently valid** "
+"filter to see the rates in force whatever year they started."
 msgstr ""
-"Encodez le montant en vigueur à partir de sa date de début. Le montant est "
-"**le même pour toutes les catégories** : la catégorie déclare le profil de "
-"l'usager à la mutuelle."
+"Encodez le montant en vigueur à partir de sa date de début (4). Le montant "
+"est **le même pour toutes les catégories** : la catégorie déclare le profil "
+"de l'usager à la mutuelle. La liste s'ouvre sur l'année en cours : utilisez "
+"le filtre **Actuellement valides** pour voir les tarifs en vigueur, quelle "
+"que soit l'année où ils ont commencé."
 
-#: ../../content/centre-de-jour/configuration.md:93
+#: ../../content/centre-de-jour/configuration.md:110
+msgid ""
+"![The INAMI rates filtered on CSJ: the four categories D, F, Fd and Fp, each"
+" with its pseudo-code, at the same amount from 1 February "
+"2025](../assets/screenshots/centre-de-jour/03-tarifs-csj.png)"
+msgstr ""
+"![Les tarifs INAMI filtrés sur CSJ : les quatre catégories D, F, Fd et Fp, "
+"chacune avec son pseudo-code, au même montant depuis le 1er février "
+"2025](../assets/screenshots/centre-de-jour/03-tarifs-csj.png)"
+
+#: ../../content/centre-de-jour/configuration.md:110
+msgid ""
+"The INAMI rates filtered on CSJ: the four categories D, F, Fd and Fp, each "
+"with its pseudo-code, at the same amount from 1 February 2025"
+msgstr ""
+"Les tarifs INAMI filtrés sur CSJ : les quatre catégories D, F, Fd et Fp, "
+"chacune avec son pseudo-code, au même montant depuis le 1er février 2025"
+
+#: ../../content/centre-de-jour/configuration.md:112
 msgid "Warning"
 msgstr ""
 
-#: ../../content/centre-de-jour/configuration.md:94
+#: ../../content/centre-de-jour/configuration.md:113
 msgid ""
 "A rate left at 0.00 EUR bills no forfait. Resthome never sends a claim at "
 "zero: the month's generation says which users were left without one, and "
@@ -303,19 +403,40 @@ msgstr ""
 "jamais de demande à zéro : la génération du mois dit quels usagers en sont "
 "restés privés, et pourquoi."
 
-#: ../../content/centre-de-jour/configuration.md:98
+#: ../../content/centre-de-jour/configuration.md:117
 msgid "5. Set the centre's day price"
 msgstr "5\\. Fixer le prix de journée du centre"
 
-#: ../../content/centre-de-jour/configuration.md:100
+#: ../../content/centre-de-jour/configuration.md:119
 msgid ""
 "What the user pays is the centre's **day price**: the product **CSJ Stay "
-"Supplement** (SUPP-CSJ-STAY). Set its sales price."
+"Supplement** (SUPP-CSJ-STAY), under **Billing → Configuration → Supplement "
+"Types**. Set its **Sales Price** (5)."
 msgstr ""
 "Ce que paie l'usager, c'est le **prix de journée** du centre : le produit "
-"**Supplément de séjour CSJ** (SUPP-CSJ-STAY). Fixez son prix de vente."
+"**Supplément de séjour CSJ** (SUPP-CSJ-STAY), sous **Facturation → "
+"Configuration → Types de suppléments**. Fixez son **Prix de vente** (5)."
 
-#: ../../content/centre-de-jour/configuration.md:103
+#: ../../content/centre-de-jour/configuration.md:123
+msgid ""
+"![The CSJ Stay Supplement product: a service, its sales price, the reference"
+" SUPP-CSJ-STAY and the supplement type Daily on presence "
+"days](../assets/screenshots/centre-de-jour/04-prix-de-journee.png)"
+msgstr ""
+"![Le produit Supplément de séjour CSJ : un service, son prix de vente, la "
+"référence SUPP-CSJ-STAY et le type de supplément Journalier — jours de "
+"présence](../assets/screenshots/centre-de-jour/04-prix-de-journee.png)"
+
+#: ../../content/centre-de-jour/configuration.md:123
+msgid ""
+"The CSJ Stay Supplement product: a service, its sales price, the reference "
+"SUPP-CSJ-STAY and the supplement type Daily on presence days"
+msgstr ""
+"Le produit Supplément de séjour CSJ : un service, son prix de vente, la "
+"référence SUPP-CSJ-STAY et le type de supplément Journalier — jours de "
+"présence"
+
+#: ../../content/centre-de-jour/configuration.md:125
 msgid ""
 "Each user is **subscribed automatically** when their stay starts, from the "
 "admission day."
@@ -323,11 +444,11 @@ msgstr ""
 "Chaque usager y est **inscrit automatiquement** au démarrage de son séjour, "
 "à partir du jour d'admission."
 
-#: ../../content/centre-de-jour/configuration.md:105
+#: ../../content/centre-de-jour/configuration.md:127
 msgid "A user who follows the tariff follows its yearly **indexation** too."
 msgstr "Un usager qui suit le tarif en suit aussi l'**indexation** annuelle."
 
-#: ../../content/centre-de-jour/configuration.md:106
+#: ../../content/centre-de-jour/configuration.md:128
 msgid ""
 "A price agreed with one user goes on their convention, with **Negotiated "
 "price** ticked: the indexation then leaves it alone. See "
@@ -337,11 +458,11 @@ msgstr ""
 "négocié** coché : l'indexation n'y touche alors plus. Voir [Les "
 "suppléments](../facturation/supplements.md)."
 
-#: ../../content/centre-de-jour/configuration.md:110
+#: ../../content/centre-de-jour/configuration.md:132
 msgid "What's next"
 msgstr "À suivre"
 
-#: ../../content/centre-de-jour/configuration.md:112
+#: ../../content/centre-de-jour/configuration.md:134
 msgid ""
 "[Admitting a day care user](admission.md) — the stay, the days expected, the"
 " category, the agreement."
@@ -349,7 +470,7 @@ msgstr ""
 "[Admettre un usager du centre de jour](admission.md) — le séjour, les jours "
 "attendus, la catégorie, l'accord."
 
-#: ../../content/centre-de-jour/configuration.md:113
+#: ../../content/centre-de-jour/configuration.md:135
 msgid ""
 "[Recording attendance](presences.md) — the register of the day, and one day "
 "at a time."

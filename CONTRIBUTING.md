@@ -79,7 +79,10 @@ Réserver aux mises en garde / astuces utiles, sans en abuser.
 
 - **Largeur 768–933 px** (pas de plein écran). **Compresser** les PNG/WebP.
 - **Texte alt** = une phrase décrivant l'action, non répétitive.
-- **Pas de flèches/rectangles** en surimpression : recadrer et légender.
+- **Annotations** uniquement celles de l'outil de capture : pastilles numérotées
+  (le numéro = l'étape de la page), encadré bleu sur ce qu'il faut lire, curseur
+  sur le bouton à cliquer. Jamais de rouge (il veut dire « erreur » à l'écran),
+  jamais de flèche ou de rectangle dessiné à la main : recadrer et légender.
 - Fichiers en **minuscules-avec-traits-d'union**, rangés sous `content/assets/…`.
 - Placeholder tant que la capture manque : `<!-- screenshot to add: … -->`.
 

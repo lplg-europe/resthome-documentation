@@ -27,25 +27,39 @@ opening days, a day room, the amounts of the CSJ forfait and its own day price.
 
 ## 1. Record the CSJ approval
 
-Go to **Settings → Approvals → Manage establishments and approvals**, open the
-establishment of the day care centre and add its **CSJ** approval, with the
-number of places it covers.
-
-A day care centre has **its own INAMI number**: it is recorded on its
-establishment, with its eHealth certificate — see
+A day care centre has **its own INAMI number** — one starting with 755 to 758,
+ending in 000 — and Resthome records it on an **establishment** of its own,
+with its eHealth certificate. See
 [eHealth and eFact settings](../configuration/reglages-ehealth.md).
+
+1. Go to **Settings → Approvals → Manage establishments and approvals** and
+   create the establishment of the day care centre: its name and its INAMI
+   number. Resthome reads the type from the number.
+2. Under its **Sectors** tab, add a line with **CSJ** as sector and the number
+   of places it covers under **Beds / places** (1).
+3. Open the line: the approval's own form carries the reference, the date and
+   the opening days below.
+
+A house that runs a rest home as well keeps its MR and MRS approvals next to
+it, on the rest home's own establishment: an admission is only offered the
+sectors the house is licensed for.
 
 ## 2. Set the opening days and hours
 
-On the CSJ approval, the **Opening days and hours** section says when the
+On the CSJ approval, the **Opening days and hours** section (2) says when the
 centre opens: the days from **Monday** to **Sunday**, **Opens at** and
 **Closes at**. It starts from Monday to Friday, 8:00 to 18:00 — the legal
 floor.
+
+![The CSJ approval: the sector and its 15 places, then the opening days ticked from Monday to Friday and the hours, 08:00 to 18:00](../assets/screenshots/centre-de-jour/01-agrement-csj.png)
 
 - **Open Days / Week** counts the days ticked.
 - **Below the Norm** lights up under five days a week, or with a window
   narrower than 8:00–18:00. It is said, never blocked: what the centre opens
   is its own to declare.
+- **Occupied** and **Occupancy** count the users enrolled against the places:
+  more users than places is normal for a day care centre — they do not all
+  come the same day.
 
 These days are read everywhere else: a day recorded in the register on a day
 the centre is closed is flagged **Centre closed that day**, and a user with no
@@ -60,9 +74,12 @@ Public holidays are not known yet: a holiday still reads as an open day.
 A day care user holds a **day place**, never a licensed bed.
 
 1. Under **Configuration → Rooms → Room Types**, create the type of the day
-   room and tick **Day Place**.
+   room and tick **Day Place** (3). Its **Daily Rate** stays at 0.00: a place
+   is not rented, the user pays the day price set in step 5.
 2. Under **Accommodation → Rooms**, create the room with that type, and the
    number of places as its **capacity**.
+
+![The room type of the day room: code CSJ-DAY, a default capacity of 15, and the Day Place box ticked](../assets/screenshots/centre-de-jour/02-type-place-de-jour.png)
 
 From then on:
 
@@ -71,8 +88,6 @@ From then on:
   others;
 - a day room reads « 15 day places » in the pickers, never « free beds »: the
   places are shared, and a centre enrols more users than it has places.
-
-<!-- screenshot to add: the room type form with Day Place ticked -->
 
 ## 4. Fill in the CSJ rates
 
@@ -87,8 +102,12 @@ category, each with its own **pseudo-code**:
 | D | 126095 |
 | Fd | 126117 |
 
-Enter the amount in force from its start date. The amount is the **same for
-every category**: the category declares the user's profile to the insurer.
+Enter the amount in force from its start date (4). The amount is the **same
+for every category**: the category declares the user's profile to the insurer.
+The list opens on the current year: use the **Currently valid** filter to see
+the rates in force whatever year they started.
+
+![The INAMI rates filtered on CSJ: the four categories D, F, Fd and Fp, each with its pseudo-code, at the same amount from 1 February 2025](../assets/screenshots/centre-de-jour/03-tarifs-csj.png)
 
 :::{warning}
 A rate left at 0.00 EUR bills no forfait. Resthome never sends a claim at zero:
@@ -98,7 +117,10 @@ the month's generation says which users were left without one, and why.
 ## 5. Set the centre's day price
 
 What the user pays is the centre's **day price**: the product **CSJ Stay
-Supplement** (SUPP-CSJ-STAY). Set its sales price.
+Supplement** (SUPP-CSJ-STAY), under **Billing → Configuration → Supplement
+Types**. Set its **Sales Price** (5).
+
+![The CSJ Stay Supplement product: a service, its sales price, the reference SUPP-CSJ-STAY and the supplement type Daily on presence days](../assets/screenshots/centre-de-jour/04-prix-de-journee.png)
 
 - Each user is **subscribed automatically** when their stay starts, from the
   admission day.
