@@ -61,6 +61,12 @@ Assurabilité (MDA), facturation électronique (eFact) et accords (eAgreement).
 
 [eHealth](ehealth/)
 
+Centre de soins de jour (CSJ)
+
+Places de jour, registre de présence, forfait CSJ et norme de personnel.
+
+[Centre de soins de jour (CSJ)](centre-de-jour/)
+
 Soins
 
 Dossier clinique, prescriptions, plans de soins et registres cliniques.
@@ -4736,6 +4742,10 @@ Document de **mise à jour de l’accord de soins**, préparé lors d’une **ag
 
 Vue de **pilotage** de la facturation électronique : l’état de tous les lots et envois d’un coup d’œil (transmis, acceptés, rejetés, en attente). Voir : [Facturation électronique (eFact)](../ehealth/efact/)
 
+## CSJ (centre de soins de jour)
+
+**Centre de soins de jour** : un centre dont les usagers vivent chez eux et viennent pour la journée. Son forfait est payé par journée qui y donne droit — six heures, une arrivée avant midi — pour les catégories CSJ **F**, **Fd** et **D**. Voir : [Centre de soins de jour (CSJ)](../centre-de-jour/)
+
 ## eAgreement
 
 **Accord de prise en charge des soins** (lié à la catégorie Katz et au forfait), échangé électroniquement avec la mutuelle via eHealth. Voir : [Accords (eAgreement)](../ehealth/eagreement/)
@@ -4803,6 +4813,10 @@ La **mutualité** de l’habitant, destinataire de la part INAMI via l’eFact. 
 ## Période de facturation
 
 Le **mois de facturation** dans Resthome, qui passe par quatre états : **Draft** (brouillon), **Generated** (calculée), **Invoiced** (facturée) et **Closed** (clôturée). Voir : [Facturer un mois, pas à pas](../facturation/facturer-un-mois/)
+
+## Place de jour
+
+Une **place dans une salle de jour**, partagée par les usagers du centre de jour qui viennent à des jours différents — jamais un lit agréé. Un séjour CSJ ne va que sur une place de jour, et un séjour résidentiel jamais. Voir : [Configurer un centre de jour](../centre-de-jour/configuration/)
 
 ## Réintégration
 

@@ -69,6 +69,13 @@ What comes from Belgian rules: eHealth, the INAMI package, Katz, the institution
 Insurability (MDA), electronic invoicing (eFact) and agreements (eAgreement).
 :::
 
+:::{grid-item-card} Day care centre (CSJ)
+:link: centre-de-jour/index
+:link-type: doc
+
+Day places, the attendance register, the CSJ forfait and the staffing norm.
+:::
+
 :::{grid-item-card} Care
 :link: soins/index
 :link-type: doc
@@ -153,6 +160,7 @@ documents/index
 belgique/index
 ehealth/index
 forfait/index
+centre-de-jour/index
 facturation/forfait-inami
 residents/katz
 facturation/note-de-frais-annexe12

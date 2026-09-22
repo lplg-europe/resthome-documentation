@@ -35,6 +35,7 @@ billing and its supplements.
 | [The INAMI package](../facturation/forfait-inami.md) | The dependency allowance paid by the health insurer |
 | [The Katz assessment](../residents/katz.md) | The scale that determines the category and the allowance |
 | [Institutional allowance](../forfait/index.md) | The AViQ allowance of the facility, from days billed and staff |
+| [Day care centre (CSJ)](../centre-de-jour/index.md) | Day places, the attendance register, the CSJ forfait and the staffing norm |
 | [Expense note (Annexe 12)](../facturation/note-de-frais-annexe12.md) | The Belgian annexe for expenses advanced |
 | [Public welfare centre (CPAS)](../facturation/cpas.md) | When a CPAS pays for the resident |
 | [The billing journey](../parcours-facturation.md) | Admission → MDA → eAgreement → Katz → eFact → payment |

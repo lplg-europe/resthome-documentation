@@ -39,6 +39,13 @@ See: [Insurability (MDA)](ehealth/mda.md)
 at a glance (transmitted, accepted, rejected, pending).
 See: [Electronic billing (eFact)](ehealth/efact.md)
 
+## CSJ (day care centre)
+
+**Day care centre** (*centre de soins de jour*): a centre whose users live at home and
+come for the day. Its forfait is paid per day that earns it — six hours, an arrival by
+noon — for the CSJ categories **F**, **Fd** and **D**.
+See: [Day care centre (CSJ)](centre-de-jour/index.md)
+
 ## eAgreement
 
 **Care coverage agreement** (linked to the Katz category and the package), exchanged
@@ -143,6 +150,13 @@ See: [Insurability (MDA)](ehealth/mda.md)
 The **billing month** in Resthome, which moves through four states: **Draft**,
 **Generated** (calculated), **Invoiced** and **Closed**.
 See: [Billing a month, step by step](facturation/facturer-un-mois.md)
+
+## Day place
+
+A **place in a day room**, shared by the day care users who come on different days —
+never a licensed bed. A day care stay only goes in a day place, and a residential stay
+never does.
+See: [Setting up a day care centre](centre-de-jour/configuration.md)
 
 ## Reintegration
 

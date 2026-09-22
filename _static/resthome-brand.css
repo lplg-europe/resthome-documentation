@@ -403,19 +403,23 @@
   #__nav_2_6 + .md-nav__container > a { --rh-app-icon: url("app-icons/care-mobile.png"); }
   #__nav_2_7 + .md-nav__container > a { --rh-app-icon: url("app-icons/meals.png"); }
   #__nav_2_8 + .md-nav__container > a { --rh-app-icon: url("app-icons/family-portal.png"); }
-  /* Groupe Belgique : eHealth et Forfait sont les deux seules sections
-     dépliables, les autres entrées sont des pages simples (pas d'icône). */
+  /* Groupe Belgique : eHealth, Forfait et Centre de jour sont les seules
+     sections dépliables, les autres entrées sont des pages simples (pas
+     d'icône). */
   #__nav_3_3 + .md-nav__container > a { --rh-app-icon: url("app-icons/funding.png"); }
-  /* eHealth et Documents n'ont pas d'icône d'app : pictogramme à la couleur
-     du texte. */
+  /* eHealth, Centre de jour et Documents n'ont pas d'icône d'app propre :
+     pictogramme à la couleur du texte. */
   #__nav_3_2 + .md-nav__container > a::before,
+  #__nav_3_4 + .md-nav__container > a::before,
   #__nav_2_9 + .md-nav__container > a::before {
     background: currentColor; opacity: 0.75;
     -webkit-mask: var(--rh-app-icon) center / contain no-repeat;
     mask: var(--rh-app-icon) center / contain no-repeat;
   }
   /* La page d'accueil du groupe occupe la position 1 : eHealth est en 2,
-     le Forfait en 3. */
+     le Forfait en 3, le Centre de jour en 4 (un soleil : on vient la
+     journée). */
+  #__nav_3_4 + .md-nav__container > a { --rh-app-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 7.5a4.5 4.5 0 100 9 4.5 4.5 0 000-9zM11 1h2v3.2h-2zm0 18.8h2V23h-2zM1 11h3.2v2H1zm18.8 0H23v2h-3.2zM4.1 5.5l1.4-1.4 2.3 2.3-1.4 1.4zm12.1 12.1l1.4-1.4 2.3 2.3-1.4 1.4zM4.1 18.5l2.3-2.3 1.4 1.4-2.3 2.3zm12.1-12.1l2.3-2.3 1.4 1.4-2.3 2.3z'/></svg>"); }
   #__nav_3_2 + .md-nav__container > a { --rh-app-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M20.5 9.5C20.5 12 12 20 12 20S3.5 12 3.5 9.5 5.5 5 8 5c1.5 0 3 1 4 2.5C13 6 14.5 5 16 5c2.5 0 4.5 2 4.5 4.5z'/></svg>"); }
   #__nav_2_9 + .md-nav__container > a { --rh-app-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M6 2h8l4 4v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm7 1.5V8h4.5L13 3.5zM8 13h8v-2H8zm0 4h8v-2H8z'/></svg>"); }
 

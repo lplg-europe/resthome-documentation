@@ -1,0 +1,360 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-21 16:38+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: nl <LL@li.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/centre-de-jour/configuration.md:5
+msgid "Setting up a day care centre"
+msgstr "Een dagverzorgingscentrum instellen"
+
+#: ../../content/centre-de-jour/configuration.md:8
+msgid ""
+"Setting up a day care centre (CSJ) in Resthome: the approval and opening "
+"hours, day places, CSJ forfait rates and the day price."
+msgstr ""
+"Een dagverzorgingscentrum (CSJ) instellen in Resthome: erkenning en "
+"openingsuren, dagplaatsen, tarieven van het CSJ-forfait en de dagprijs."
+
+#: ../../content/centre-de-jour/configuration.md:12
+msgid "Where do I enter the days the centre opens?"
+msgstr "Waar voer ik de openingsdagen van het centrum in?"
+
+#: ../../content/centre-de-jour/configuration.md:13
+msgid ""
+"On the CSJ approval of the establishment: Settings, Approvals, Manage "
+"establishments and approvals. Monday to Friday, 8:00 to 18:00, by default."
+msgstr ""
+"Op de CSJ-erkenning van de instelling: Instellingen, Erkenningen, "
+"Instellingen en erkenningen beheren. Standaard van maandag tot vrijdag, van "
+"8 tot 18 uur."
+
+#: ../../content/centre-de-jour/configuration.md:15
+msgid "Why is a bedroom refused to a day care user?"
+msgstr ""
+"Waarom wordt een kamer geweigerd aan een gebruiker van het "
+"dagverzorgingscentrum?"
+
+#: ../../content/centre-de-jour/configuration.md:16
+msgid ""
+"Because a bedroom is a licensed bed. A day care stay only goes in a day "
+"place, and a residential stay never does: tick Day Place on the room type of"
+" the day room."
+msgstr ""
+"Omdat een kamer een erkend bed is. Een CSJ-verblijf gaat alleen naar een "
+"dagplaats, en een residentieel verblijf nooit: vink Dagplaats aan op het "
+"kamertype van de dagzaal."
+
+#: ../../content/centre-de-jour/configuration.md:18
+msgid "Does the capacity of the day room limit the admissions?"
+msgstr "Beperkt de capaciteit van de dagzaal de opnames?"
+
+#: ../../content/centre-de-jour/configuration.md:19
+msgid ""
+"No. A centre enrols more people than it has places, and they share them day "
+"by day. The capacity is the number of places the room offers."
+msgstr ""
+"Nee. Een centrum schrijft meer mensen in dan het plaatsen heeft, en ze delen"
+" die dag na dag. De capaciteit is het aantal plaatsen dat de zaal biedt."
+
+#: ../../content/centre-de-jour/configuration.md:21
+msgid "What if the day price is still 0.00 EUR when a user starts?"
+msgstr "En als de dagprijs nog op 0,00 EUR staat wanneer een gebruiker start?"
+
+#: ../../content/centre-de-jour/configuration.md:22
+msgid ""
+"Nothing is subscribed, and the user's file says so. Set the price on the "
+"product: every user who started in the meantime is subscribed at once, from "
+"their admission day."
+msgstr ""
+"Er wordt niets ingeschreven, en de fiche van de gebruiker meldt het. Stel de"
+" prijs in op het product: elke gebruiker die intussen gestart is, wordt "
+"meteen ingeschreven, vanaf zijn opnamedag."
+
+#: ../../content/centre-de-jour/configuration.md:25
+msgid ""
+"A day care centre needs five things before its first user: its approval, its"
+" opening days, a day room, the amounts of the CSJ forfait and its own day "
+"price."
+msgstr ""
+"Een dagverzorgingscentrum heeft vijf dingen nodig vóór zijn eerste "
+"gebruiker: zijn erkenning, zijn openingsdagen, een dagzaal, de bedragen van "
+"het CSJ-forfait en zijn eigen dagprijs."
+
+#: ../../content/centre-de-jour/configuration.md:28
+msgid "1. Record the CSJ approval"
+msgstr "1\\. De CSJ-erkenning registreren"
+
+#: ../../content/centre-de-jour/configuration.md:30
+msgid ""
+"Go to **Settings → Approvals → Manage establishments and approvals**, open "
+"the establishment of the day care centre and add its **CSJ** approval, with "
+"the number of places it covers."
+msgstr ""
+"Ga naar **Instellingen → Erkenningen → Instellingen en erkenningen "
+"beheren**, open de instelling van het dagverzorgingscentrum en voeg de "
+"**CSJ**-erkenning toe, met het aantal plaatsen dat ze dekt."
+
+#: ../../content/centre-de-jour/configuration.md:34
+msgid ""
+"A day care centre has **its own INAMI number**: it is recorded on its "
+"establishment, with its eHealth certificate — see [eHealth and eFact "
+"settings](../configuration/reglages-ehealth.md)."
+msgstr ""
+"Een dagverzorgingscentrum heeft **een eigen RIZIV-nummer**: het staat op "
+"zijn instelling, samen met zijn eHealth-certificaat — zie [eHealth- en "
+"eFact-instellingen](../configuration/reglages-ehealth.md)."
+
+#: ../../content/centre-de-jour/configuration.md:38
+msgid "2. Set the opening days and hours"
+msgstr "2\\. De openingsdagen en -uren instellen"
+
+#: ../../content/centre-de-jour/configuration.md:40
+msgid ""
+"On the CSJ approval, the **Opening days and hours** section says when the "
+"centre opens: the days from **Monday** to **Sunday**, **Opens at** and "
+"**Closes at**. It starts from Monday to Friday, 8:00 to 18:00 — the legal "
+"floor."
+msgstr ""
+"Op de CSJ-erkenning zegt de sectie **Openingsdagen en -uren** wanneer het "
+"centrum open is: de dagen van **Maandag** tot **Zondag**, **Opent om** en "
+"**Sluit om**. Ze start van maandag tot vrijdag, van 8 tot 18 uur — het "
+"wettelijke minimum."
+
+#: ../../content/centre-de-jour/configuration.md:45
+msgid "**Open Days / Week** counts the days ticked."
+msgstr "**Openingsdagen / week** telt de aangevinkte dagen."
+
+#: ../../content/centre-de-jour/configuration.md:46
+msgid ""
+"**Below the Norm** lights up under five days a week, or with a window "
+"narrower than 8:00–18:00. It is said, never blocked: what the centre opens "
+"is its own to declare."
+msgstr ""
+"**Onder de norm** licht op onder vijf dagen per week, of met een venster "
+"smaller dan 8–18 uur. Het wordt gemeld, nooit geblokkeerd: wat het centrum "
+"openstelt, geeft het zelf aan."
+
+#: ../../content/centre-de-jour/configuration.md:50
+msgid ""
+"These days are read everywhere else: a day recorded in the register on a day"
+" the centre is closed is flagged **Centre closed that day**, and a user with"
+" no agreed days is expected on every day the centre opens."
+msgstr ""
+"Die dagen worden overal elders gelezen: een dag die in het register staat op"
+" een sluitingsdag, wordt gemarkeerd als **Centrum die dag gesloten**, en een"
+" gebruiker zonder afgesproken dagen wordt verwacht op elke dag dat het "
+"centrum open is."
+
+#: ../../content/centre-de-jour/configuration.md:54
+msgid "Note"
+msgstr ""
+
+#: ../../content/centre-de-jour/configuration.md:55
+msgid ""
+"Public holidays are not known yet: a holiday still reads as an open day."
+msgstr ""
+"Feestdagen zijn nog niet gekend: een feestdag wordt nog als een openingsdag "
+"gelezen."
+
+#: ../../content/centre-de-jour/configuration.md:58
+msgid "3. Create the day room"
+msgstr "3\\. De dagzaal aanmaken"
+
+#: ../../content/centre-de-jour/configuration.md:60
+msgid "A day care user holds a **day place**, never a licensed bed."
+msgstr ""
+"Een gebruiker van het dagverzorgingscentrum bezet een **dagplaats**, nooit "
+"een erkend bed."
+
+#: ../../content/centre-de-jour/configuration.md:62
+msgid ""
+"Under **Configuration → Rooms → Room Types**, create the type of the day "
+"room and tick **Day Place**."
+msgstr ""
+"Maak onder **Configuratie → Kamers → Kamertypes** het type van de dagzaal "
+"aan en vink **Dagplaats** aan."
+
+#: ../../content/centre-de-jour/configuration.md:64
+msgid ""
+"Under **Accommodation → Rooms**, create the room with that type, and the "
+"number of places as its **capacity**."
+msgstr ""
+"Maak onder **Huisvesting → Kamers** de zaal aan met dat type, en het aantal "
+"plaatsen als **capaciteit**."
+
+#: ../../content/centre-de-jour/configuration.md:67
+msgid "From then on:"
+msgstr "Vanaf dan:"
+
+#: ../../content/centre-de-jour/configuration.md:69
+msgid ""
+"a day care stay only goes in a day place, and a residential stay never does;"
+msgstr ""
+"gaat een CSJ-verblijf alleen naar een dagplaats, en een residentieel "
+"verblijf nooit;"
+
+#: ../../content/centre-de-jour/configuration.md:70
+msgid ""
+"every room picker offers day places to a day care stay, and beds to the "
+"others;"
+msgstr ""
+"biedt elke kamerkeuze dagplaatsen aan een CSJ-verblijf, en bedden aan de "
+"andere;"
+
+#: ../../content/centre-de-jour/configuration.md:72
+msgid ""
+"a day room reads « 15 day places » in the pickers, never « free beds »: the "
+"places are shared, and a centre enrols more users than it has places."
+msgstr ""
+"staat een dagzaal in de keuzelijsten als ‘15 dagplaatsen’, nooit als ‘vrije "
+"bedden’: de plaatsen worden gedeeld, en een centrum schrijft meer gebruikers"
+" in dan het plaatsen heeft."
+
+#: ../../content/centre-de-jour/configuration.md:77
+msgid "4. Fill in the CSJ rates"
+msgstr "4\\. De CSJ-tarieven invullen"
+
+#: ../../content/centre-de-jour/configuration.md:79
+msgid ""
+"The health insurer pays a **daily forfait** per CSJ category. Under "
+"**Billing → Configuration → INAMI Rates**, the grid carries one row per CSJ "
+"category, each with its own **pseudo-code**:"
+msgstr ""
+"Het ziekenfonds betaalt een **dagforfait** per CSJ-categorie. Onder "
+"**Facturatie → Configuratie → RIZIV-tarieven** bevat het rooster één regel "
+"per CSJ-categorie, elk met een eigen **pseudocode**:"
+
+#: ../../content/centre-de-jour/configuration.md:54
+msgid "Category"
+msgstr "Categorie"
+
+#: ../../content/centre-de-jour/configuration.md:54
+msgid "Pseudo-code"
+msgstr "Pseudocode"
+
+#: ../../content/centre-de-jour/configuration.md:54
+msgid "F"
+msgstr "F"
+
+#: ../../content/centre-de-jour/configuration.md:54
+msgid "126036"
+msgstr "126036"
+
+#: ../../content/centre-de-jour/configuration.md:54
+msgid "Fp"
+msgstr "Fp"
+
+#: ../../content/centre-de-jour/configuration.md:54
+msgid "126073"
+msgstr "126073"
+
+#: ../../content/centre-de-jour/configuration.md:54
+msgid "D"
+msgstr "D"
+
+#: ../../content/centre-de-jour/configuration.md:54
+msgid "126095"
+msgstr "126095"
+
+#: ../../content/centre-de-jour/configuration.md:54
+msgid "Fd"
+msgstr "Fd"
+
+#: ../../content/centre-de-jour/configuration.md:54
+msgid "126117"
+msgstr "126117"
+
+#: ../../content/centre-de-jour/configuration.md:90
+msgid ""
+"Enter the amount in force from its start date. The amount is the **same for "
+"every category**: the category declares the user's profile to the insurer."
+msgstr ""
+"Voer het geldende bedrag in vanaf de begindatum. Het bedrag is **hetzelfde "
+"voor elke categorie**: de categorie geeft het profiel van de gebruiker aan "
+"het ziekenfonds door."
+
+#: ../../content/centre-de-jour/configuration.md:93
+msgid "Warning"
+msgstr ""
+
+#: ../../content/centre-de-jour/configuration.md:94
+msgid ""
+"A rate left at 0.00 EUR bills no forfait. Resthome never sends a claim at "
+"zero: the month's generation says which users were left without one, and "
+"why."
+msgstr ""
+"Een tarief dat op 0,00 EUR blijft, factureert geen forfait. Resthome "
+"verstuurt nooit een aanvraag van nul: de generatie van de maand zegt welke "
+"gebruikers er zonder vielen, en waarom."
+
+#: ../../content/centre-de-jour/configuration.md:98
+msgid "5. Set the centre's day price"
+msgstr "5\\. De dagprijs van het centrum instellen"
+
+#: ../../content/centre-de-jour/configuration.md:100
+msgid ""
+"What the user pays is the centre's **day price**: the product **CSJ Stay "
+"Supplement** (SUPP-CSJ-STAY). Set its sales price."
+msgstr ""
+"Wat de gebruiker betaalt, is de **dagprijs** van het centrum: het product "
+"**Verblijfssupplement CSJ** (SUPP-CSJ-STAY). Stel de verkoopprijs in."
+
+#: ../../content/centre-de-jour/configuration.md:103
+msgid ""
+"Each user is **subscribed automatically** when their stay starts, from the "
+"admission day."
+msgstr ""
+"Elke gebruiker wordt **automatisch ingeschreven** bij de start van zijn "
+"verblijf, vanaf de opnamedag."
+
+#: ../../content/centre-de-jour/configuration.md:105
+msgid "A user who follows the tariff follows its yearly **indexation** too."
+msgstr ""
+"Een gebruiker die het tarief volgt, volgt ook de jaarlijkse **indexering**."
+
+#: ../../content/centre-de-jour/configuration.md:106
+msgid ""
+"A price agreed with one user goes on their convention, with **Negotiated "
+"price** ticked: the indexation then leaves it alone. See "
+"[Supplements](../facturation/supplements.md)."
+msgstr ""
+"Een prijs die met één gebruiker is afgesproken, komt op zijn overeenkomst, "
+"met **Onderhandelde prijs** aangevinkt: de indexering laat die dan "
+"ongemoeid. Zie [De supplementen](../facturation/supplements.md)."
+
+#: ../../content/centre-de-jour/configuration.md:110
+msgid "What's next"
+msgstr "Verder lezen"
+
+#: ../../content/centre-de-jour/configuration.md:112
+msgid ""
+"[Admitting a day care user](admission.md) — the stay, the days expected, the"
+" category, the agreement."
+msgstr ""
+"[Een gebruiker opnemen in het dagverzorgingscentrum](admission.md) — het "
+"verblijf, de verwachte dagen, de categorie, het akkoord."
+
+#: ../../content/centre-de-jour/configuration.md:113
+msgid ""
+"[Recording attendance](presences.md) — the register of the day, and one day "
+"at a time."
+msgstr ""
+"[Aanwezigheden registreren](presences.md) — het register van de dag, en dag "
+"per dag."
