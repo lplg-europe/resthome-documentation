@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-22 15:57+0200\n"
+"POT-Creation-Date: 2026-09-23 14:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -310,17 +310,29 @@ msgid "No forfait"
 msgstr "Aucun forfait"
 
 #: ../../content/centre-de-jour/norme-personnel.md:90
+#, python-format
 msgid ""
 "**Forfait** shows the daily forfait of the year, **Forfait Payable** what "
-"remains of it after the **Forfait Reduction**. In the staff table, the row "
-"that decides the verdict is highlighted, with the norm it holds."
+"remains of it after the **Forfait Reduction**. In the staff table, each row "
+"shows under **Norm Held** the share of its norm it holds after compensation:"
+" a row under 100 % shows in orange, under 75 % in red, and the row with the "
+"lowest share decides the verdict. The two nurse rows share one norm: the "
+"**Nurse A2** row carries the **Norm**, **After Compensation** and **Norm "
+"Held** of all the nurses, A1 and A2 together; the **Nurse A1** row shows 0 "
+"in these columns, and its 0 % never counts in the verdict."
 msgstr ""
 "**Forfait** affiche le forfait journalier de l'année, **Forfait payable** ce"
 " qu'il en reste après la **Réduction du forfait**. Dans le tableau du "
-"personnel, la ligne qui décide du verdict est mise en évidence, avec la "
-"norme qu'elle respecte."
+"personnel, chaque ligne indique sous **Norme respectée** la part de sa norme"
+" qu'elle atteint après compensation : une ligne sous 100 % s'affiche en "
+"orange, sous 75 % en rouge, et la ligne dont la part est la plus basse "
+"décide du verdict. Les deux lignes d'infirmiers partagent une seule norme : "
+"la ligne **Infirmier A2** porte les colonnes **Norme**, **Après "
+"compensation** et **Norme respectée** de tous les infirmiers, A1 et A2 "
+"ensemble ; la ligne **Infirmier A1** affiche 0 dans ces colonnes, et son 0 %"
+" ne compte jamais dans le verdict."
 
-#: ../../content/centre-de-jour/norme-personnel.md:94
+#: ../../content/centre-de-jour/norme-personnel.md:99
 msgid ""
 "![A staffing norm check: the verdict banner, a norm held at 91.8 % by the "
 "therapists, the four quarters of billed days, and the staff rows with their "
@@ -332,7 +344,7 @@ msgstr ""
 "facturées, et les lignes de personnel avec leurs ETP, la norme et la norme "
 "respectée](../assets/screenshots/centre-de-jour/12-norme-personnel.png)"
 
-#: ../../content/centre-de-jour/norme-personnel.md:94
+#: ../../content/centre-de-jour/norme-personnel.md:99
 msgid ""
 "A staffing norm check: the verdict banner, a norm held at 91.8 % by the "
 "therapists, the four quarters of billed days, and the staff rows with their "
@@ -343,11 +355,11 @@ msgstr ""
 "facturées, et les lignes de personnel avec leurs ETP, la norme et la norme "
 "respectée"
 
-#: ../../content/centre-de-jour/norme-personnel.md:96
+#: ../../content/centre-de-jour/norme-personnel.md:101
 msgid "5. Apply the verdict to the billing"
 msgstr "5\\. Appliquer le verdict à la facturation"
 
-#: ../../content/centre-de-jour/norme-personnel.md:98
+#: ../../content/centre-de-jour/norme-personnel.md:103
 msgid ""
 "Click **Apply to billing** and confirm: every CSJ forfait of the billing "
 "year is then claimed at the reduced amount. Until then, the blue banner says"
@@ -357,11 +369,11 @@ msgstr ""
 " de l'année de facturation est alors réclamé au montant réduit. D'ici là, la"
 " bannière bleue le dit : les factures portent toujours le tarif plein."
 
-#: ../../content/centre-de-jour/norme-personnel.md:102
+#: ../../content/centre-de-jour/norme-personnel.md:107
 msgid "The action is refused while the FTE are empty."
 msgstr "L'action est refusée tant que les ETP sont vides."
 
-#: ../../content/centre-de-jour/norme-personnel.md:103
+#: ../../content/centre-de-jour/norme-personnel.md:108
 msgid ""
 "A year is billed under **one** verdict: a second check cannot be applied to "
 "the same year."
@@ -369,7 +381,7 @@ msgstr ""
 "Une année se facture sous **un seul** verdict : un second contrôle ne peut "
 "pas être appliqué à la même année."
 
-#: ../../content/centre-de-jour/norme-personnel.md:105
+#: ../../content/centre-de-jour/norme-personnel.md:110
 msgid ""
 "The chatter of the check lists the months of the year already generated: a "
 "posted invoice needs a **credit note**; a month generated but not invoiced "
@@ -379,7 +391,7 @@ msgstr ""
 "comptabilisée demande une **note de crédit** ; un mois généré mais pas "
 "encore facturé prend le nouveau prix une fois **regénéré**."
 
-#: ../../content/centre-de-jour/norme-personnel.md:109
+#: ../../content/centre-de-jour/norme-personnel.md:114
 msgid ""
 "**Stop applying it** puts the full tariff back, and lists the months "
 "generated under the reduction in the same way."
@@ -387,11 +399,11 @@ msgstr ""
 "**Ne plus l'appliquer** rétablit le tarif plein, et liste de la même façon "
 "les mois générés sous la réduction."
 
-#: ../../content/centre-de-jour/norme-personnel.md:112
+#: ../../content/centre-de-jour/norme-personnel.md:117
 msgid "Warning"
 msgstr ""
 
-#: ../../content/centre-de-jour/norme-personnel.md:113
+#: ../../content/centre-de-jour/norme-personnel.md:118
 #, python-format
 msgid ""
 "Under 75 % of the norm, no forfait is claimed at all: the month produces no "
@@ -402,11 +414,11 @@ msgstr ""
 "aucune ligne de forfait — jamais une demande à 0,00 EUR — et la période "
 "indique **Forfait retiré par le secteur**."
 
-#: ../../content/centre-de-jour/norme-personnel.md:118
+#: ../../content/centre-de-jour/norme-personnel.md:123
 msgid "What's next"
 msgstr "À suivre"
 
-#: ../../content/centre-de-jour/norme-personnel.md:120
+#: ../../content/centre-de-jour/norme-personnel.md:125
 msgid ""
 "[Billing a day care month](facturation.md) — what the verdict changes on the"
 " month."
@@ -414,7 +426,7 @@ msgstr ""
 "[Facturer un mois de centre de jour](facturation.md) — ce que le verdict "
 "change sur le mois."
 
-#: ../../content/centre-de-jour/norme-personnel.md:121
+#: ../../content/centre-de-jour/norme-personnel.md:126
 msgid ""
 "[Institutional allowance](../forfait/index.md) — the allowance of a rest "
 "home, computed from its own staff."

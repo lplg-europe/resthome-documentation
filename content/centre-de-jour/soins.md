@@ -14,7 +14,7 @@ Which care plan templates are offered for a day care user?
 A care was not given because the user did not come. Is it missed?
 : No. Once the register has closed, the care of a user who did not come is cancelled, not counted as missed.
 
-A task was due at 9:00 and the user has not been ticked in yet. Is it missed at 11:00?
+A task was due at 9:00 and the user has not been marked present yet. Is it missed at 11:00?
 : No. Until 13:00 the register may still receive the user: the task stays planned, and the check after the closure decides.
 :::
 
@@ -28,9 +28,10 @@ On the file of a user without a plan, **Create the care plan** opens it. From
 the plan, **Apply a template** adds the objectives and cares a plan of that
 kind usually carries.
 
-A template says who it is **Written for**: **Any stay**, **Stays the night** or
-**Comes by day**. A day care user is offered only the templates written for
-people who come by day or for any stay, that match their CSJ category —
+The **Written for** field of a template says who it is meant for:
+**Any stay**, **Stays the night** or **Comes by day**. A day care user is
+offered only the templates written for people who come by day or for any stay,
+that match their CSJ category —
 Resthome ships one for **F**, **Fd** and **D**. See
 [Care plans](../soins/plans-de-soins.md).
 
@@ -53,8 +54,8 @@ user is away and plans nothing.
 
 - **Before 13:00**, the register is open: the care of the day stays planned,
   since the user may still arrive.
-- **From 13:00**, a user expected and not ticked in did not come: the care of
-  the day is **cancelled**, not counted as missed.
+- **From 13:00**, a user expected and not marked present did not come: the
+  care of the day is **cancelled**, not counted as missed.
 - A **hospitalisation** is recorded as for any resident, and pauses the care
   in the same way.
 

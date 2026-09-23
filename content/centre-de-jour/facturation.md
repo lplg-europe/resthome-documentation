@@ -42,7 +42,7 @@ And what it never bills:
 A day recorded, corrected or removed after the month was generated bills the
 month again for that user, as a change of absence does.
 
-![The billing lines of a user who comes every opening day: five forfait lines, one per week, then the day price on 21 days](../assets/screenshots/centre-de-jour/10-lignes-du-mois.png)
+![The billing lines of a user who comes every opening day: five forfait lines, one per week, then the day price, the CSJ Stay Supplement line, on 21 days](../assets/screenshots/centre-de-jour/10-lignes-du-mois.png)
 
 The lines are read on the period, under its **Billing Lines** tab, or on the
 stay's tab of the same name. Each forfait line carries the CSJ category, its

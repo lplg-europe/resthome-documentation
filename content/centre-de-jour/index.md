@@ -47,8 +47,8 @@ home or without it.
 
 ## A day at the centre
 
-1. In the morning, the users arrive: tick them in the **Day care register**
-   before **13:00**, when the register closes to arrivals.
+1. In the morning, the users arrive: mark them present in the
+   **Day care register** before **13:00**, when the register closes to arrivals.
 2. Care, tasks and medication are planned only for the users **expected**
    that day.
 3. At the end of the month, the billing counts the days recorded: the

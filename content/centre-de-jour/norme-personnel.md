@@ -88,8 +88,13 @@ The **Lowest Norm Held**, after compensation, decides the **Verdict** (4):
 | Under 75 % | No forfait |
 
 **Forfait** shows the daily forfait of the year, **Forfait Payable** what
-remains of it after the **Forfait Reduction**. In the staff table, the row
-that decides the verdict is highlighted, with the norm it holds.
+remains of it after the **Forfait Reduction**. In the staff table, each row
+shows under **Norm Held** the share of its norm it holds after compensation: a
+row under 100 % shows in orange, under 75 % in red, and the row with the lowest
+share decides the verdict. The two nurse rows share one norm: the **Nurse A2**
+row carries the **Norm**, **After Compensation** and **Norm Held** of all the
+nurses, A1 and A2 together; the **Nurse A1** row shows 0 in these columns, and
+its 0 % never counts in the verdict.
 
 ![A staffing norm check: the verdict banner, a norm held at 91.8 % by the therapists, the four quarters of billed days, and the staff rows with their FTE, norm and norm held](../assets/screenshots/centre-de-jour/12-norme-personnel.png)
 

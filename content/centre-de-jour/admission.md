@@ -90,5 +90,5 @@ other and produces the annexes the insurer expects. See
 
 ## What's next
 
-- [Recording attendance](presences.md) — ticking the days the user came.
+- [Recording attendance](presences.md) — marking present the users who came, one day at a time.
 - [Care for a day care user](soins.md) — the care plan and the tasks of the days expected.

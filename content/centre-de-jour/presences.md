@@ -14,8 +14,8 @@ A user came for three hours: do I record the day?
 Can I still record a day after 13:00?
 : The departures, yes. From 13:00 the register is closed to arrivals, and a past day can only be amended by a manager; each change is kept in the audit log.
 
-I forgot to tick a user yesterday. What happens to their care?
-: Once the register has closed, a user who was expected and not ticked in is considered absent: the care of that day is cancelled, not counted as missed. A manager can still add the day; the billing then follows.
+I forgot to mark a user present yesterday. What happens to their care?
+: Once the register has closed, a user who was expected and not marked present is considered absent: the care of that day is cancelled, not counted as missed. A manager can still add the day; the billing then follows.
 :::
 
 The **attendance register** is what the whole day care centre rests on: it
@@ -25,19 +25,19 @@ and per day, with the arrival and departure hours.
 ## The day's register
 
 **Accommodation → Day care register** opens the register of one day: every day
-care user whose stay runs that day (1). The days already recorded come ticked,
-with their hours.
+care user whose stay runs that day (1). The days already recorded come marked
+**Present**, with their hours.
 
-1. Tick the users who came.
+1. Switch on **Present** for the users who came.
 2. Enter their arrival and departure hours: without them, the day earns no
    forfait.
 3. Click **Save the register**.
 
-![The day's register: four users, three of them ticked with their arrival and departure hours, and the banner saying the register closed at 13:00](../assets/screenshots/centre-de-jour/07-registre-du-jour.png)
+![The day's register: four users, three of them marked present with their arrival and departure hours, and the banner saying the register closed at 13:00](../assets/screenshots/centre-de-jour/07-registre-du-jour.png)
 
-Unticking a user removes their day. From 13:00 the banner says the register is
-closed to arrivals: the departures can still be completed, and a user added
-now is marked as recorded after the closure.
+Switching **Present** off removes the user's day. From 13:00 the banner says
+the register is closed to arrivals: the departures can still be completed, and
+a user added now is marked as recorded after the closure.
 
 ## One day for one user
 
@@ -82,7 +82,7 @@ bills them its day price.
 - A line added after the closure is marked **Recorded after closure**.
 
 Once the register has closed, its silence is an answer: a user who was
-expected and not ticked in **did not come** that day.
+expected and not marked present **did not come** that day.
 
 ## The history
 
@@ -90,7 +90,7 @@ expected and not ticked in **did not come** that day.
 filters **Today**, **This month**, **Forfait not due**, **Recorded after
 closure** and **Centre closed that day**, grouped by resident or by day.
 
-![The attendance history of the month: a day in red that earns no forfait with its reason, a day cut short by a hospitalisation, and a line in orange recorded after the closure](../assets/screenshots/centre-de-jour/09-historique.png)
+![The attendance history of the month: two days in red that earn no forfait, each with its reason, a day cut short by a hospitalisation, and a line in orange recorded after the closure](../assets/screenshots/centre-de-jour/09-historique.png)
 
 A day that earns no forfait shows in red, with its reason under **Why Not
 Due**; a day recorded after the closure shows in orange. A day recorded on a
