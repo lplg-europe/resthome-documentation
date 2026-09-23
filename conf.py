@@ -12,7 +12,7 @@ import sys
 sys.path.insert(0, os.path.abspath("_ext"))
 
 # -- Projet -------------------------------------------------------------------
-project = "Resthome docs"
+project = "WideCare · Resthome"
 author = "LPLG"
 copyright = "LPLG — CC BY 4.0"
 
@@ -60,7 +60,7 @@ gettext_location = True
 
 # -- HTML ---------------------------------------------------------------------
 html_theme = "sphinx_immaterial"
-html_title = "Resthome docs"
+html_title = "WideCare · Resthome"
 html_theme_options = {
     "site_url": "https://www.lplg.eu/resthome/documentation/",
     "font": False,   # pas de fetch Google Fonts au build ; notre CSS importe Inter/Roboto Slab
@@ -112,8 +112,39 @@ rh_countries = [
      "label": {"en": "France", "fr": "France", "nl": "Frankrijk"}},
     {"code": "lu", "space": "luxembourg", "status": "soon",
      "label": {"en": "Luxembourg", "fr": "Luxembourg", "nl": "Luxemburg"}},
+    {"code": "de", "space": "allemagne", "status": "soon",
+     "label": {"en": "Germany", "fr": "Allemagne", "nl": "Duitsland"}},
+    {"code": "es", "space": "espagne", "status": "soon",
+     "label": {"en": "Spain", "fr": "Espagne", "nl": "Spanje"}},
 ]
+# -- Suites WideCare (_ext/countries.py) --------------------------------------------
+# WideCare est l'écosystème ; chaque suite sert un métier et a SON site (un site
+# par suite). En-tête : « [WideCare] › [suite ▾] › [pays ▾] ». « WideCare » mène
+# au portail (rh_portal) ; le menu de la suite liste les autres suites.
+# status "soon" : la suite n'a pas encore de documentation (badge « Bientôt »).
+rh_suites = [
+    {"code": "resthome", "status": "live", "name": "Resthome",
+     "label": {"en": "Nursing homes", "fr": "Maisons de repos", "nl": "Woonzorgcentra"}},
+    {"code": "hospital", "status": "soon",
+     "label": {"en": "Hospitals", "fr": "Hôpitaux", "nl": "Ziekenhuizen"}},
+    {"code": "dental", "status": "soon",
+     "label": {"en": "Dentists", "fr": "Dentistes", "nl": "Tandartsen"}},
+    {"code": "orthodontics", "status": "soon",
+     "label": {"en": "Orthodontists", "fr": "Orthodontistes", "nl": "Orthodontisten"}},
+    {"code": "speech", "status": "soon",
+     "label": {"en": "Speech therapists", "fr": "Logopèdes", "nl": "Logopedisten"}},
+]
+rh_suite_code = "resthome"   # la suite publiée par CE site
+rh_portal = "widecare"       # page portail WideCare (content/widecare.md)
 rh_default_country = "be"   # pays montré tant que le lecteur n'en a pas choisi
+# Icône de chaque groupe de la barre latérale, repéré par la PREMIÈRE page de son
+# toctree dans content/index.md (les groupes pays reçoivent leur drapeau).
+rh_nav_group_icons = {
+    "premiers-pas": "start",
+    "residents/index": "apps",
+    "configuration/index": "admin",
+    "faq": "help",
+}
 
 # -- Multi-version (modèle docs-as-code) ----------------------------------------------
 # URL = base + <version>/ + <préfixe langue> + page  (ex. /documentation/2026/nl/…).

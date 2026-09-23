@@ -49,7 +49,7 @@ ORDER = [
     "belgique/note-de-frais-annexe12", "belgique/cpas", "belgique/forfait/index",
     "belgique/centre-de-jour/index", "belgique/soins", "belgique/sam-base-medicaments",
     "belgique/reglages", "belgique/reglages-ehealth", "belgique/faq", "belgique/glossaire",
-    "france/index", "luxembourg/index",
+    "france/index", "luxembourg/index", "allemagne/index", "espagne/index",
     "configuration/index", "configuration/reglages-generaux",
     "configuration/reglages-facturation", "configuration/reglages-repas",
     "configuration/reglages-documents",

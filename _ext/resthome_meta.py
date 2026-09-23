@@ -176,7 +176,7 @@ def html_page_context(app, pagename, templatename, context, doctree):
         "headline": title, "description": desc, "url": page_url,
         "inLanguage": lang_tag,
         "author": {"@type": "Organization", "name": "LPLG", "url": "https://www.lplg.eu/"},
-        "isPartOf": {"@type": "WebSite", "name": "Resthome docs", "url": base},
+        "isPartOf": {"@type": "WebSite", "name": "WideCare · Resthome", "url": base},
         "about": {"@type": "SoftwareApplication", "name": "Resthome",
                   "applicationCategory": "BusinessApplication",
                   "applicationSubCategory":

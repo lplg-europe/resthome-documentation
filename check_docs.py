@@ -29,7 +29,14 @@ CONTENT = pathlib.Path(__file__).resolve().parent / "content"
 errors = []
 
 # Espaces pays (conf.py : rh_countries) — leurs pages parlent le langage du pays.
-COUNTRY_SPACES = {"belgique": "be", "france": "fr", "luxembourg": "lu"}
+def _conf():
+    """Les réglages pays de conf.py (source unique : ajouter un pays = une ligne)."""
+    ns = {"__file__": str(CONTENT.parent / "conf.py")}
+    exec(compile((CONTENT.parent / "conf.py").read_text(encoding="utf-8"), "conf.py", "exec"), ns)
+    return ns
+
+
+COUNTRY_SPACES = {c["space"]: c["code"] for c in _conf()["rh_countries"]}
 # Suites publiées par CE site (un site par suite — voir CONTRIBUTING.md).
 SITE_SUITES = {"platform", "resthome"}
 MODULES = json.loads((CONTENT.parent / "docs-ops" / "modules.json").read_text(encoding="utf-8"))

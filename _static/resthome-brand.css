@@ -324,20 +324,17 @@
     -webkit-mask: var(--rh-group-icon) center / contain no-repeat;
     mask: var(--rh-group-icon) center / contain no-repeat;
   }
-  #__nav_1_label { --rh-group-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 2c3.4 2.2 5.2 6 5 10.2l2.3 3.3V19l-3.4-1.4H8.1L4.7 19v-3.5L7 12.2C6.8 8 8.6 4.2 12 2zm0 6.2a1.9 1.9 0 100 3.8 1.9 1.9 0 000-3.8zM10 19h4l-2 3z'/></svg>"); }
-  #__nav_2_label { --rh-group-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M4 3h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1V4a1 1 0 011-1zm10 0h6a1 1 0 011 1v6a1 1 0 01-1 1h-6a1 1 0 01-1-1V4a1 1 0 011-1zM4 13h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6a1 1 0 011-1zm13 0a4 4 0 110 8 4 4 0 010-8z'/></svg>"); }
-  /* Espaces pays (3 Belgique, 4 France, 5 Luxembourg) : leur drapeau, en
-     couleurs — un seul est visible à la fois (sélecteur de pays, en-tête). */
-  #__nav_3_label, #__nav_4_label, #__nav_5_label { --rh-group-icon: none; }
-  #__nav_3_label::before, #__nav_4_label::before, #__nav_5_label::before {
-    -webkit-mask: none; mask: none; width: 1.05rem; height: 0.7rem; border-radius: 2px;
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.18); background: var(--rh-flag) center / cover no-repeat;
+  /* Icône de chaque groupe : variables ci-dessous ; QUEL groupe les reçoit est
+     calculé au build par _ext/countries.py, d'après la première page de chaque
+     toctree de content/index.md (rh_nav_group_icons dans conf.py). Les groupes
+     pays reçoivent leur drapeau de la même façon : ajouter un pays ne décale
+     plus rien ici. */
+  :root {
+    --rh-icon-start: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 2c3.4 2.2 5.2 6 5 10.2l2.3 3.3V19l-3.4-1.4H8.1L4.7 19v-3.5L7 12.2C6.8 8 8.6 4.2 12 2zm0 6.2a1.9 1.9 0 100 3.8 1.9 1.9 0 000-3.8zM10 19h4l-2 3z'/></svg>");
+    --rh-icon-apps: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M4 3h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1V4a1 1 0 011-1zm10 0h6a1 1 0 011 1v6a1 1 0 01-1 1h-6a1 1 0 01-1-1V4a1 1 0 011-1zM4 13h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6a1 1 0 011-1zm13 0a4 4 0 110 8 4 4 0 010-8z'/></svg>");
+    --rh-icon-admin: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 8a4 4 0 100 8 4 4 0 000-8zm9 5v-2l-2.3-.5a7 7 0 00-.7-1.7l1.3-2-1.4-1.4-2 1.3a7 7 0 00-1.7-.7L13 3h-2l-.5 2.3a7 7 0 00-1.7.7l-2-1.3-1.4 1.4 1.3 2a7 7 0 00-.7 1.7L3 11v2l2.3.5c.2.6.4 1.2.7 1.7l-1.3 2 1.4 1.4 2-1.3c.5.3 1.1.5 1.7.7L11 21h2l.5-2.3c.6-.2 1.2-.4 1.7-.7l2 1.3 1.4-1.4-1.3-2c.3-.5.5-1.1.7-1.7L21 13z'/></svg>");
+    --rh-icon-help: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 2a10 10 0 100 20 10 10 0 000-20zm0 15.5a1.3 1.3 0 110-2.6 1.3 1.3 0 010 2.6zm1.7-6.3c-.6.5-1 .9-1.1 1.5 0 .2-.1.5-.1.8h-2c0-.4 0-.8.1-1.1.2-.7.7-1.2 1.2-1.6.6-.5.9-.8.9-1.4a1.4 1.4 0 00-2.8 0H8a3.4 3.4 0 116.8 0c0 .9-.5 1.5-1.1 2z'/></svg>");
   }
-  #__nav_3_label { --rh-flag: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'><rect width='1' height='2' fill='%231a1a1a'/><rect x='1' width='1' height='2' fill='%23FDDA24'/><rect x='2' width='1' height='2' fill='%23EF3340'/></svg>"); }
-  #__nav_4_label { --rh-flag: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'><rect width='1' height='2' fill='%23002395'/><rect x='1' width='1' height='2' fill='%23fff'/><rect x='2' width='1' height='2' fill='%23ED2939'/></svg>"); }
-  #__nav_5_label { --rh-flag: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'><rect width='3' height='.67' fill='%23EF3340'/><rect y='.67' width='3' height='.66' fill='%23fff'/><rect y='1.33' width='3' height='.67' fill='%2300A3E0'/></svg>"); }
-  #__nav_6_label { --rh-group-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 8a4 4 0 100 8 4 4 0 000-8zm9 5v-2l-2.3-.5a7 7 0 00-.7-1.7l1.3-2-1.4-1.4-2 1.3a7 7 0 00-1.7-.7L13 3h-2l-.5 2.3a7 7 0 00-1.7.7l-2-1.3-1.4 1.4 1.3 2a7 7 0 00-.7 1.7L3 11v2l2.3.5c.2.6.4 1.2.7 1.7l-1.3 2 1.4 1.4 2-1.3c.5.3 1.1.5 1.7.7L11 21h2l.5-2.3c.6-.2 1.2-.4 1.7-.7l2 1.3 1.4-1.4-1.3-2c.3-.5.5-1.1.7-1.7L21 13z'/></svg>"); }
-  #__nav_7_label { --rh-group-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 2a10 10 0 100 20 10 10 0 000-20zm0 15.5a1.3 1.3 0 110-2.6 1.3 1.3 0 010 2.6zm1.7-6.3c-.6.5-1 .9-1.1 1.5 0 .2-.1.5-.1.8h-2c0-.4 0-.8.1-1.1.2-.7.7-1.2 1.2-1.6.6-.5.9-.8.9-1.4a1.4 1.4 0 00-2.8 0H8a3.4 3.4 0 116.8 0c0 .9-.5 1.5-1.1 2z'/></svg>"); }
   .md-nav--primary > .md-nav__list > .md-nav__item--section > .md-nav { margin: 0; }
   .md-nav--primary > .md-nav__list > .md-nav__item--section > .md-nav > .md-nav__list { padding: 0 0 0 0.2rem; }
 
@@ -411,22 +408,22 @@
   #__nav_2_6 + .md-nav__container > a { --rh-app-icon: url("app-icons/care-mobile.png"); }
   #__nav_2_7 + .md-nav__container > a { --rh-app-icon: url("app-icons/meals.png"); }
   #__nav_2_8 + .md-nav__container > a { --rh-app-icon: url("app-icons/family-portal.png"); }
-  /* Groupe Belgique : eHealth (8), Forfait (11) et Centre de jour (12) sont les
-     seules sections dépliables — positions du toctree « Belgium » de
-     content/index.md ; les autres entrées sont des pages simples. */
-  #__nav_3_11 + .md-nav__container > a { --rh-app-icon: url("app-icons/funding.png"); }
+  /* Espace Belgique : eHealth, Forfait et Centre de jour sont les seules
+     sections dépliables. On les reconnaît à leurs sous-pages (jamais à leur
+     position, qui change dès qu'on ajoute une page). */
+  .md-nav__item--nested:has(> nav a[href*="suivi-simulations/"]) > .md-nav__container > a { --rh-app-icon: url("app-icons/funding.png"); }
   /* eHealth, Centre de jour et Documents n'ont pas d'icône d'app propre :
      pictogramme à la couleur du texte. */
-  #__nav_3_8 + .md-nav__container > a::before,
-  #__nav_3_12 + .md-nav__container > a::before,
+  .md-nav__item--nested:has(> nav a[href*="mda-erreurs/"]) > .md-nav__container > a::before,
+  .md-nav__item--nested:has(> nav a[href*="norme-personnel/"]) > .md-nav__container > a::before,
   #__nav_2_9 + .md-nav__container > a::before {
     background: currentColor; opacity: 0.75;
     -webkit-mask: var(--rh-app-icon) center / contain no-repeat;
     mask: var(--rh-app-icon) center / contain no-repeat;
   }
   /* Le Centre de jour a un soleil : on vient la journée. */
-  #__nav_3_12 + .md-nav__container > a { --rh-app-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 7.5a4.5 4.5 0 100 9 4.5 4.5 0 000-9zM11 1h2v3.2h-2zm0 18.8h2V23h-2zM1 11h3.2v2H1zm18.8 0H23v2h-3.2zM4.1 5.5l1.4-1.4 2.3 2.3-1.4 1.4zm12.1 12.1l1.4-1.4 2.3 2.3-1.4 1.4zM4.1 18.5l2.3-2.3 1.4 1.4-2.3 2.3zm12.1-12.1l2.3-2.3 1.4 1.4-2.3 2.3z'/></svg>"); }
-  #__nav_3_8 + .md-nav__container > a { --rh-app-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M20.5 9.5C20.5 12 12 20 12 20S3.5 12 3.5 9.5 5.5 5 8 5c1.5 0 3 1 4 2.5C13 6 14.5 5 16 5c2.5 0 4.5 2 4.5 4.5z'/></svg>"); }
+  .md-nav__item--nested:has(> nav a[href*="norme-personnel/"]) > .md-nav__container > a { --rh-app-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 7.5a4.5 4.5 0 100 9 4.5 4.5 0 000-9zM11 1h2v3.2h-2zm0 18.8h2V23h-2zM1 11h3.2v2H1zm18.8 0H23v2h-3.2zM4.1 5.5l1.4-1.4 2.3 2.3-1.4 1.4zm12.1 12.1l1.4-1.4 2.3 2.3-1.4 1.4zM4.1 18.5l2.3-2.3 1.4 1.4-2.3 2.3zm12.1-12.1l2.3-2.3 1.4 1.4-2.3 2.3z'/></svg>"); }
+  .md-nav__item--nested:has(> nav a[href*="mda-erreurs/"]) > .md-nav__container > a { --rh-app-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M20.5 9.5C20.5 12 12 20 12 20S3.5 12 3.5 9.5 5.5 5 8 5c1.5 0 3 1 4 2.5C13 6 14.5 5 16 5c2.5 0 4.5 2 4.5 4.5z'/></svg>"); }
   #__nav_2_9 + .md-nav__container > a { --rh-app-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M6 2h8l4 4v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm7 1.5V8h4.5L13 3.5zM8 13h8v-2H8zm0 4h8v-2H8z'/></svg>"); }
 
   /* --- Mode sombre ------------------------------------------------------ */
@@ -470,42 +467,42 @@
 
 /* Sélecteur de pays (en-tête) — _static/rh-country.js, _ext/countries.py.
    Même gabarit que le sélecteur de langue, à sa gauche. */
-.rh-countryswitch { position: relative; flex: 0 0 auto; margin: 0 0.15rem 0 0.3rem; }
-.rh-countryswitch__button {
+.rh-switch { position: relative; flex: 0 0 auto; margin: 0 0.15rem 0 0.3rem; }
+.rh-switch__button {
   display: inline-flex; align-items: center; gap: 0.35rem;
   padding: 0.2rem 0.45rem; font: inherit; font-size: 0.7rem; font-weight: 700;
   color: inherit; background: transparent; cursor: pointer;
   border: 1px solid var(--lplg-border); border-radius: 7px;
 }
-.rh-countryswitch__button:hover,
-.rh-countryswitch.is-open .rh-countryswitch__button { background: var(--md-accent-fg-color--transparent); }
+.rh-switch__button:hover,
+.rh-switch.is-open .rh-switch__button { background: var(--md-accent-fg-color--transparent); }
 .rh-flag { width: 1.05rem; height: 0.7rem; flex: 0 0 auto; border-radius: 2px;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.18); }
 .rh-caret { width: 0.9rem; height: 0.9rem; fill: currentColor; opacity: 0.75; margin-right: -0.15rem; }
-.rh-countryswitch__menu {
+.rh-switch__menu {
   display: none; position: absolute; top: calc(100% + 0.35rem); right: 0; z-index: 10;
   min-width: 12rem; padding: 0.3rem; border-radius: 9px;
   background: var(--md-default-bg-color); color: var(--md-default-fg-color);
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.22); border: 1px solid var(--lplg-border);
 }
-.rh-countryswitch.is-open .rh-countryswitch__menu { display: block; }
-.rh-country {
+.rh-switch.is-open .rh-switch__menu { display: block; }
+.rh-switch__menu .rh-country {
   display: flex; align-items: center; gap: 0.55rem; padding: 0.45rem 0.6rem;
   border-radius: 6px; font-size: 0.72rem; font-weight: 600; color: inherit !important;
   text-decoration: none;
 }
-.rh-country:hover, .rh-country:focus { background: var(--md-accent-fg-color--transparent); outline: none; }
-.rh-country.is-current { background: var(--lplg-blue); color: #fff !important; }
+.rh-switch__menu .rh-country:hover, .rh-switch__menu .rh-country:focus { background: var(--md-accent-fg-color--transparent); outline: none; }
+.rh-switch__menu .rh-country.is-current { background: var(--lplg-blue); color: #fff !important; }
 .rh-country__name { flex: 1 1 auto; }
 .rh-soon {
   white-space: nowrap;
   font-size: 0.58rem; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase;
   padding: 0.1rem 0.4rem; border-radius: 1rem; background: #FBBC05; color: #1a1a1a;
 }
-[data-md-color-scheme="slate"] .rh-countryswitch__button,
-[data-md-color-scheme="slate"] .rh-countryswitch__menu { border-color: #223247; }
+[data-md-color-scheme="slate"] .rh-switch__button,
+[data-md-color-scheme="slate"] .rh-switch__menu { border-color: #223247; }
 /* Téléphone : le drapeau seul dans l'en-tête, le nom reste dans le menu. */
-@media screen and (max-width: 44.9375em) { .rh-countryswitch__name { display: none; } }
+@media screen and (max-width: 44.9375em) { .rh-switch__name { display: none; } }
 
 /* Encadré pays dans une page commune — `:class: rh-country rh-country-be`.
    Il ne s'affiche que pour le pays choisi (CSS émise par _ext/countries.py)
@@ -517,7 +514,55 @@
   width: 1.05rem; height: 0.7rem; top: 50%; transform: translateY(-50%); left: 0.7rem;
   border-radius: 2px; box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.18);
 }
-.md-typeset .admonition.rh-country-be { --rh-flag: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'><rect width='1' height='2' fill='%231a1a1a'/><rect x='1' width='1' height='2' fill='%23FDDA24'/><rect x='2' width='1' height='2' fill='%23EF3340'/></svg>"); }
-.md-typeset .admonition.rh-country-fr { --rh-flag: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'><rect width='1' height='2' fill='%23002395'/><rect x='1' width='1' height='2' fill='%23fff'/><rect x='2' width='1' height='2' fill='%23ED2939'/></svg>"); }
-.md-typeset .admonition.rh-country-lu { --rh-flag: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'><rect width='3' height='.67' fill='%23EF3340'/><rect y='.67' width='3' height='.66' fill='%23fff'/><rect y='1.33' width='3' height='.67' fill='%2300A3E0'/></svg>"); }
 [data-md-color-scheme="slate"] .md-typeset .admonition.rh-country > .admonition-title { background: #1b2a4a; }
+
+/* En-tête : « WideCare › Resthome · Maisons de repos › [pays ▾] » — la
+   hiérarchie de la documentation, lue de gauche à droite (layout.html,
+   _static/rh-country.js). Le titre ne s'étire plus : le sélecteur de pays le
+   suit, et ce qui vient ensuite (recherche, langues) est poussé à droite. */
+.md-header__title { flex-grow: 0; }
+.rh-countryswitch { margin-right: auto; }
+.rh-switch { margin-left: 0.1rem; }
+.rh-switch::before {
+  content: "›"; margin-right: 0.45rem; opacity: 0.55; font-weight: 400;
+}
+.rh-switch { display: inline-flex; align-items: center; }
+.rh-brand { font-weight: 800; letter-spacing: 0.01em; }
+.rh-crumb-sep { margin: 0 0.45rem; opacity: 0.55; font-weight: 400; }
+.rh-suite { font-weight: 700; }
+.rh-suite-label {
+  margin-left: 0.45rem; padding: 0.05rem 0.45rem; border-radius: 1rem;
+  font-size: 0.62rem; font-weight: 600; vertical-align: middle;
+  background: var(--md-accent-fg-color--transparent); opacity: 0.9;
+}
+/* Téléphone : le fil se réduit à « Resthome », le pays reste en drapeau. */
+@media screen and (max-width: 44.9375em) {
+  .rh-brand, .rh-suite-label, .rh-switch__name, .rh-suiteswitch::before { display: none; }
+}
+
+/* Menu des suites : le nom de la suite, et son métier en petit dessous. */
+.rh-suite-sub { display: block; font-size: 0.6rem; font-weight: 500; opacity: 0.75; }
+.rh-brand { color: inherit !important; text-decoration: none; }
+.rh-brand:hover { text-decoration: underline; }
+
+/* Portail WideCare (content/widecare.md, directive {rh-suites}) : une carte
+   par suite ; celle qui a sa documentation s'ouvre, les autres sont annoncées. */
+.rh-suite-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(11.5rem, 1fr));
+  gap: 0.8rem; margin: 1.2rem 0 1.6rem; }
+.md-typeset .rh-suite-card { display: flex; flex-direction: column; gap: 0.25rem;
+  padding: 0.9rem 1rem; border: 1px solid var(--lplg-border); border-radius: 10px;
+  color: inherit; text-decoration: none; min-height: 6.5rem; }
+.md-typeset a.rh-suite-card.is-live { border-color: var(--lplg-blue);
+  box-shadow: 0 2px 10px rgba(15, 67, 255, 0.12); }
+.md-typeset a.rh-suite-card.is-live:hover { transform: translateY(-2px);
+  box-shadow: 0 5px 16px rgba(15, 67, 255, 0.2); }
+.rh-suite-card__name { font-size: 0.95rem; font-weight: 800; }
+.rh-suite-card__label { font-size: 0.72rem; opacity: 0.75; }
+.rh-suite-card__badge { margin-top: auto; align-self: flex-start; font-size: 0.6rem;
+  font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; padding: 0.12rem 0.5rem;
+  border-radius: 1rem; background: var(--lplg-blue); color: #fff; }
+.rh-suite-card__badge.is-soon { background: #FBBC05; color: #1a1a1a; }
+.md-typeset div.rh-suite-card { opacity: 0.85; }
+/* Portail (pas de menus de suite ni de pays) : le titre repousse lui-même le
+   reste de l'en-tête à droite. */
+.md-header__inner:not(:has(.rh-switch)) .md-header__title { margin-right: auto; }

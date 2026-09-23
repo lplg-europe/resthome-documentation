@@ -8,7 +8,7 @@ modules: []
 User documentation for Resthome, the software for nursing and care homes built on Odoo: residents, admissions, care, meals, billing and the family portal, with a space for each country's rules.
 :::
 
-**Resthome** is the management software for **nursing and care homes**,
+**Resthome** is the **WideCare** suite for **nursing and care homes**,
 published by LPLG **on Odoo**: residents, admissions, care, meals, billing and
 the family portal, all in one place. This documentation guides you day by day,
 step by step, with screenshots.
@@ -42,6 +42,20 @@ Coming soon.
 
 :::{grid-item-card} Luxembourg
 :link: luxembourg/index
+:link-type: doc
+
+Coming soon.
+:::
+
+:::{grid-item-card} Germany
+:link: allemagne/index
+:link-type: doc
+
+Coming soon.
+:::
+
+:::{grid-item-card} Spain
+:link: espagne/index
 :link-type: doc
 
 Coming soon.
@@ -204,6 +218,22 @@ france/index
 :caption: Luxembourg
 
 luxembourg/index
+:::
+
+:::{toctree}
+:hidden:
+:maxdepth: 2
+:caption: Germany
+
+allemagne/index
+:::
+
+:::{toctree}
+:hidden:
+:maxdepth: 2
+:caption: Spain
+
+espagne/index
 :::
 
 :::{toctree}

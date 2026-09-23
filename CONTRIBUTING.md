@@ -113,16 +113,30 @@ et par langue, quel que soit le pays (pas de page dupliquée par pays).
 - **Sélecteur de pays** (en-tête) : `_ext/countries.py` + `_static/rh-country.js`.
   La barre latérale ne montre que les groupes communs et celui du pays choisi ;
   sur une page d'un espace pays, le pays est celui de la page.
-- **Ajouter un pays** : une entrée dans `rh_countries` (`conf.py`, `status:
-  "soon"` tant que l'espace est vide), un dossier `content/<espace>/index.md`,
-  un toctree `:caption:` à son nom dans `content/index.md`, son drapeau
-  (`FLAGS` de `_ext/countries.py`, `#__nav_N_label` et `.rh-country-<code>` de
-  `_static/resthome-brand.css`).
-- ⚠️ Les icônes de la barre latérale sont **positionnelles** (`#__nav_3_5` = 5e
-  entrée du 3e groupe) : réordonner un toctree de `content/index.md` impose de
-  revoir `_static/resthome-brand.css`.
+- **Ajouter un pays** : une ligne dans `rh_countries` (`conf.py`, `status:
+  "soon"` tant que l'espace est vide), son drapeau dans `FLAGS`
+  (`_ext/countries.py`), une page `content/<espace>/index.md` et un toctree
+  `:caption:` à son nom dans `content/index.md`. Rien d'autre : le drapeau du
+  groupe, celui des encadrés et le filtre de la barre latérale sont générés,
+  et `check_docs.py` lit la liste des pays dans `conf.py`.
+- **Icônes de la barre latérale** : repérées par la première page de chaque
+  toctree de `content/index.md` (`rh_nav_group_icons`, `conf.py`), plus par
+  leur position — réordonner un toctree ne casse rien.
 
 ## Modules documentés : la doc suit le graphe du code
+
+Hiérarchie : **WideCare** (l'écosystème) › **suite** (Resthome = maisons de
+repos : ce site) › **pays**. L'en-tête l'affiche ainsi :
+« [WideCare] › [Resthome · Maisons de repos ▾] › [🇧🇪 Belgique ▾] ».
+
+- **WideCare** mène au **portail** (`content/widecare.md`, hors navigation) :
+  une carte par suite, générée depuis `rh_suites` (`conf.py`) par la directive
+  `:::{rh-suites}`.
+- Le **menu de la suite** liste `rh_suites` : celle de ce site
+  (`rh_suite_code`) ouvre l'accueil, une suite « soon » ouvre le portail.
+  Ajouter une suite = une ligne dans `rh_suites` ; quand elle aura sa
+  documentation, elle aura son propre site (un site par suite).
+- Le socle commun est documenté DANS chaque suite, avec son vocabulaire.
 
 La documentation est une **projection du code** : produit WideCare = socle
 (`healthcare_*`) + une **suite** métier (Resthome aujourd'hui ; dentaire,

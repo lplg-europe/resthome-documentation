@@ -27,6 +27,27 @@
       var h = document.querySelector(".md-header__inner");
       if (!h) return;
       var gh = h.querySelector(".md-header__source");
+      // Fil « [WideCare] › [suite ▾] › [pays ▾] » à la place du titre du site :
+      // WideCare est l'écosystème, la suite est le métier de CE site (un site
+      // par suite), le pays filtre la navigation.
+      var suite = document.getElementById("rh-suite");
+      var topic = h.querySelector(".md-header__title .md-header__topic .md-ellipsis");
+      if (suite && topic && !topic.querySelector(".rh-brand")) {
+        // « WideCare » mène au portail ; la suite et le pays sont des menus
+        // (_static/rh-country.js), placés juste après.
+        topic.innerHTML = "<a class='rh-brand' href='" + suite.getAttribute("data-portal") +
+          "'>WideCare</a>";
+        // Les titres du thème sont en position absolue (bascule vers le titre
+        // de la page au défilement) : le bloc n'a pas de largeur propre. On lui
+        // donne celle du fil, pour que le sélecteur de pays le suive.
+        var box = h.querySelector(".md-header__title");
+        var fit = function () {
+          box.style.width = "";
+          box.style.width = Math.ceil(topic.scrollWidth + 12) + "px";
+        };
+        fit();
+        window.addEventListener("resize", fit);
+      }
       // Lien vers le site vitrine lplg.eu/resthome.
       if (!h.querySelector(".lplg-site-link")) {
         var a = document.createElement("a");
