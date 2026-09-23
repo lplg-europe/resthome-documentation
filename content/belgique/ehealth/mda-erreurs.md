@@ -1,5 +1,5 @@
 ---
-modules: [l10n_health_be_mda]
+modules: [l10n_health_be_mda, l10n_health_be_perdiem_ehealth]
 ---
 
 # MDA errors — causes and solutions
@@ -31,9 +31,10 @@ follow.
 :::{admonition} The right habit
 :class: tip
 
-Run the MDA **at the start of the month, before generating the invoices**: you
-avoid later [eFact rejections](efact-rejets.md) caused by a wrong mutuality or a
-loss of insurability discovered too late.
+Run the MDA **at the start of the month**, and in any case **before generating
+the eFact** (**Check MDA** on the generated period, then **Generate eFact**):
+you avoid later [eFact rejections](efact-rejets.md) caused by a wrong mutuality
+or a loss of insurability discovered too late.
 :::
 
 ## MDA situations → action
@@ -85,7 +86,7 @@ with the mutuality or the organisation concerned before issuing the invoice.
 
 ## Best practices
 
-- **MDA at the start of the month, before billing.**
+- **MDA at the start of the month, and before generating the eFact.**
 - **Individual check** (immediate) for a specific resident; **batch check** for
   a whole period — paste a column of names/NISS if needed.
     - **Immediate send (Sync)** for **small volumes**;

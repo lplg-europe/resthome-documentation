@@ -211,16 +211,15 @@ Source : https://www.lplg.eu/resthome/documentation/residents/gerer-un-resident/
 
 # Gérer un habitant
 
-Cette page décrit le parcours complet d’un habitant dans Resthome : de sa **création** à son **séjour actif**, en passant par l’**évaluation de la dépendance** sur laquelle repose le forfait de soins payé par l’assureur santé.
+Cette page décrit le parcours complet d’un habitant dans Resthome : de sa **création** à son **séjour actif**, et où consulter sa **catégorie de dépendance**.
 
 ## Vue d’ensemble
 
 ```
 graph LR
-  A[Create the resident] --> B[Convention]
+  A[Create the resident] --> B[Stay agreement]
   B --> C[Confirm the stay]
   C --> D[Start the stay]
-  D --> E[Dependency assessment]
 ```
 
 Deux dates à ne pas confondre
@@ -235,25 +234,24 @@ Elles sont souvent identiques, mais peuvent différer — Resthome gère les deu
 1. Ouvrez l’application **Maison de repos → Habitants**.
 2. Cliquez sur **Nouveau**.
 3. Renseignez au minimum : **nom**, **date de naissance** et **genre**.
-4. Renseignez le **numéro d’identification national** et l’**assureur santé** de l’habitant, lorsque votre pack pays prévoit ces champs.
-5. **Enregistrez**.
+4. **Enregistrez**.
 
-![Fiche habitant : les pastilles de catégorie de dépendance et de type de séjour, l'onglet des informations personnelles, le séjour en cours et les données de l'assureur santé](../../_images/05-fiche-resident.png)
+![Fiche habitant : les pastilles de catégorie et de type de séjour, l'onglet Identité et le séjour en cours](../../_images/05-fiche-resident.png)
 
-Le champ **Numéro de carte d’identité** conserve le numéro du document d’identité présenté à l’admission. Ce n’est pas le numéro d’identification national : la carte expire et se renouvelle, le numéro de la personne, lui, ne change pas.
+Le champ **Numéro de carte d’identité** conserve le numéro du document d’identité présenté à l’admission. Il identifie la carte, qui expire et se renouvelle — pas la personne.
 
 En Belgique
 
-Le pack belge ajoute le **NISS**, le champ **Mutuelle** et la lecture de la carte eID, qui renseigne l’identité et le NISS directement depuis la puce. Sans NISS, MDA et eAgreement ne peuvent pas être envoyés — voir [Le dossier de l’habitant en Belgique](../../belgique/dossier-resident/).
+Le pack belge ajoute le **NISS**, le champ **Mutuelle** et la lecture de la carte eID, qui renseigne l’identité et le NISS directement depuis la puce. Le bouton **Vérifier Assurabilité** lance le contrôle MDA depuis la fiche et met à jour la mutuelle et le statut BIM ; sans NISS, MDA et eAgreement ne peuvent pas être envoyés — voir [Le dossier de l’habitant en Belgique](../../belgique/dossier-resident/).
 
 ## 2. Ouvrir une convention de séjour
 
 Le **séjour** relie l’habitant à une chambre et déclenche la facturation.
 
 1. Sur la fiche de l’habitant, ouvrez l’onglet **Convention**.
-2. Cliquez sur **Ajouter une ligne**.
-3. Choisissez la **chambre** (seules les chambres disponibles sont proposées).
-4. Indiquez le **type de séjour** — l’un des secteurs pour lesquels la maison est agréée — et la **date de début de séjour**.
+2. Cliquez sur **Créer le premier séjour**. Le bouton n’apparaît que tant que l’habitant n’a aucun séjour : les séjours suivants sont ouverts par les actions d’admission, de changement de chambre ou de transfert, qui enchaînent les dates.
+3. Choisissez la **Chambre** (seules les chambres disponibles sont proposées).
+4. Indiquez le **Type de séjour** — l’un des secteurs pour lesquels la maison est agréée — et la **Date de début de séjour**.
 5. **Enregistrez**.
 
 Le séjour est alors en état **Brouillon**.
@@ -263,7 +261,7 @@ Le séjour est alors en état **Brouillon**.
 Le séjour passe par deux étapes :
 
 1. **Confirmer** — le séjour devient *Confirmé* (la chambre est réservée). Les champs **date et heure d’admission** apparaissent : complétez-les.
-2. **Start Stay (Démarrer)** — le séjour devient *En cours* (l’habitant est effectivement présent).
+2. **Démarrer le séjour** — le séjour devient *Actif* (l’habitant est effectivement présent).
 
 Ce que le démarrage déclenche automatiquement
 
@@ -277,40 +275,25 @@ En Belgique
 
 Le démarrage du séjour crée aussi l’**eAgreement d’admission** (Annexe 7) lorsque le NISS est présent et que le type de séjour est le secteur MR ou MRS — voir [Le dossier de l’habitant en Belgique](../../belgique/dossier-resident/).
 
-## 4. Saisir l’évaluation de la dépendance
+## Catégorie de dépendance
 
-La **catégorie de dépendance** détermine le **forfait de soins payé par l’assureur santé**. L’échelle qui la produit dépend du pays.
+La **catégorie de dépendance** est ce sur quoi repose le forfait de soins payé par l’assureur santé. L’échelle qui la produit, et la manière dont une évaluation est saisie et validée, sont fournies par le pack pays : chaque pays mesure la dépendance selon sa propre échelle.
 
-1. Depuis la fiche de l’habitant, ouvrez l’échelle de dépendance à partir de l’onglet **Outils d’évaluation**.
-2. Cliquez sur **Nouveau** et cotez les critères.
-3. **Confirmez** puis **Validez** l’évaluation.
-
-Pas d’évaluation validée ?
-
-Tant qu’aucune évaluation validée n’existe, l’habitant garde la catégorie par défaut du pays, et un rappel apparaît sur le tableau de bord.
+La carte de l’habitant dans la liste **Habitants** affiche la catégorie actuellement enregistrée. Sans pack pays, ou tant que l’habitant n’a pas d’évaluation valide, aucune catégorie n’est affichée.
 
 En Belgique
 
-L’échelle est **Katz** : six critères, catégories O, A, B, C et Cd, catégorie O par défaut et un rappel « Katz à faire » — voir [L’évaluation Katz](../../belgique/katz/).
-
-## 5. Vérifier l’assurabilité
-
-Avant de facturer, vérifiez que l’habitant est bien assuré auprès de son assureur santé. Là où le pays prévoit une vérification électronique de l’assurabilité, lancez-la depuis la période de facturation du mois ou depuis la fiche de l’habitant : Resthome met à jour l’**assureur santé** et les données de couverture de l’habitant.
-
-En Belgique
-
-La vérification est la demande **MDA** (MyCareNet/WalCareNet) : elle met à jour la mutuelle et le statut BIM — voir [Le dossier de l’habitant en Belgique](../../belgique/dossier-resident/).
+L’échelle est **Katz** : six critères, catégories O, A, B, C et Cd ; l’évaluation est saisie depuis la fiche, puis confirmée et validée. La catégorie O s’applique par défaut, avec un rappel « Katz à faire » sur le tableau de bord — voir [L’évaluation Katz](../../belgique/katz/).
 
 ## Cas particuliers
 
 - **Changement de chambre** : utilisez l’action dédiée sur le séjour — la facturation de l’hébergement est scindée aux deux tarifs, sans nouvelle admission.
-- **Transfert entre secteurs** : lorsque la maison est agréée pour plusieurs secteurs, un assistant enregistre la date de transfert et met à jour le type de séjour.
-- **Absence / hospitalisation** : voir la section [Facturation](../../facturation/) — une absence ajuste le forfait de soins et, là où le pays l’exige, est notifiée à l’assureur santé.
+- **Absence / hospitalisation** : voir la section [Facturation](../../facturation/) — une absence ajuste la facturation des jours concernés.
 - **Fin de séjour / décès** : clôturez le séjour ; Resthome arrête la facturation à la bonne date et prépare, si nécessaire, la note de crédit.
 
 En Belgique
 
-Le transfert entre secteurs est le transfert interne **MR ↔ MRS**, et une absence peut générer une notification **Annexe 11** — voir [Le dossier de l’habitant en Belgique](../../belgique/dossier-resident/).
+Un changement de secteur est le transfert interne **MR ↔ MRS**, saisi avec son propre assistant qui enregistre la date de transfert et met à jour le type de séjour ; une absence peut générer une notification **Annexe 11** — voir [Le dossier de l’habitant en Belgique](../../belgique/dossier-resident/).
 
 ## Pour aller plus loin
 
@@ -1305,82 +1288,86 @@ Source : https://www.lplg.eu/resthome/documentation/facturation/facturer-un-mois
 
 # Facturer un mois, pas à pas
 
-Ce guide vous accompagne **du début à la fin** d’un mois de facturation : ouvrir la période, vérifier l’assurabilité, générer les factures, les comptabiliser, puis **envoyer la part de l’assureur** et suivre les réponses. Suivez-le en gardant Resthome ouvert à côté : chaque étape indique **où cliquer**.
+Ce guide vous accompagne **du début à la fin** d’un mois de facturation : ouvrir la période, générer la facturation, créer et confirmer les factures, puis clôturer le mois. Suivez-le en gardant Resthome ouvert à côté : chaque étape indique **où cliquer**.
 
 L’idée en deux parties
 
-Chaque mois se facture en **deux flux** :
+Chaque mois peut se facturer en **deux flux** :
 
-- la **part habitant** — hébergement, suppléments et conventions de suppléments, prestations de soins, médicaments, ajustés selon les absences → factures classiques ;
-- la **part de l’assureur** (le forfait de soins payé par l’assureur santé) → envoyée aux assureurs santé, via les échanges électroniques avec l’assureur santé là où le pays en dispose.
+- la **part habitant** — hébergement, suppléments et conventions de suppléments, prestations de soins, médicaments, ajustés selon les absences → factures classiques, l’objet de cette page ;
+- la **part de l’assureur** (le forfait de soins payé par l’assureur santé), là où le pack pays en facture une → envoyée aux assureurs santé selon les règles du pays.
 
 Resthome les mène en parallèle sur une même **période**.
 
 En Belgique
 
-La part de l’assureur est le forfait INAMI facturé à la mutuelle, envoyé par eFact après un **Vérifier MDA** ; chaque étape ci-dessous a son équivalent eHealth. Voir [Facturer un mois en Belgique](../../belgique/facturation/).
+La part de l’assureur est le forfait INAMI : entre **Générer** et **Créer les factures**, la période ajoute une étape **Vérifier MDA** (assurabilité) et une étape **Générer eFact** ; les lots sont ensuite envoyés et suivis dans le Cockpit eFact avant la clôture. Voir [Facturer un mois en Belgique](../../belgique/facturation/).
 
 ## Étape 1 — Ouvrir la période du mois
 
 1. Menu principal → **Maison de repos**.
 2. **Facturation → Facturation → Périodes de facturation**.
-3. Ouvrez la période du mois, ou créez-la avec **Nouvelle période**.
+3. Ouvrez la période du mois, ou créez-la avec **Nouveau**.
 
-La période liste les habitants concernés et son **état** en haut (brouillon → générée → facturée → clôturée).
+La période affiche son **état** en haut (Brouillon → Généré → Facturé → Clôturé). Le bouton de l’étape suivante est toujours celui **le plus à gauche**, mis en évidence.
 
-## Étape 2 — Vérifier l’assurabilité
+## Étape 2 — Générer les lignes de facturation
 
-Avant de facturer l’assureur, vérifiez que chacun est **en ordre** : chaque habitant doit être assuré, auprès de l’assureur santé que vous allez facturer.
+1. Cliquez sur **Générer**. La fenêtre **Générer la facturation** s’ouvre.
+2. Laissez **Habitants** vide pour facturer tous les habitants actifs (ou choisissez un habitant pour un cas particulier), puis cliquez sur **Générer**.
+3. Pour chaque habitant, Resthome calcule l”**hébergement**, les **suppléments** et **conventions de suppléments**, les **prestations de soins** et les **médicaments**, applique les **absences** et ajoute le **forfait de soins** là où le pack pays en facture un.
 
-1. Sur la période, lancez la vérification d’assurabilité pour tous les habitants en une fois.
-2. Attendez les réponses ; corrigez les cas signalés (mutuelle erronée, perte d’assurabilité).
-
-C’est l’étape qui évite les rejets plus tard.
-
-## Étape 3 — Générer les lignes de facturation
-
-1. Cliquez **Générer**.
-2. Pour chaque habitant, Resthome calcule : **hébergement**, **forfait de soins** (sur les jours de présence), **suppléments** et **conventions de suppléments**, **prestations de soins**, **médicaments**, et applique les **absences**.
+La période passe à l’état **Généré**.
 
 Anticipative
 
 L’hébergement est facturé **un mois d’avance** ; le forfait de soins et les suppléments, sur le mois presté. Voir [Vue d’ensemble](../).
 
+## Étape 3 — Contrôler le résultat
+
+Avant de facturer, lisez ce qui a été généré :
+
+- l’onglet **Habitants** — une ligne par habitant, avec la chambre, le type de séjour, les jours de présence et d’absence et les montants ;
+- l’onglet **Lignes de facturation** — le détail, ligne par ligne ;
+- les compteurs en haut de la période — **Absences** (les absences qui ont réduit les jours de présence) et **Non facturés** (les habitants absents tout le mois, pas facturés du tout).
+
+Une erreur coûte moins cher à corriger maintenant : corrigez la source (séjour, absence, supplément), puis lancez **Actualiser** depuis le menu engrenage de la période.
+
+En Belgique
+
+Avant de créer les factures, la période demande deux étapes de plus : **Vérifier MDA** (l’assurabilité des habitants ; **Réessayer les MDA échoués** pour les demandes en échec), puis **Générer eFact**, qui constitue un lot par union de mutualités à partir des lignes de la période. Voir [Facturer un mois en Belgique](../../belgique/facturation/).
+
 ## Étape 4 — Créer les factures (part habitant)
 
-1. Cliquez **Créer les factures**.
-2. Les factures **brouillon** de la part habitant sont générées.
-3. Vérifiez-les, puis **Comptabilisez**-les.
+1. Cliquez sur **Créer les factures**.
+2. Les factures de la part habitant sont générées en **brouillon**, dans l’onglet **Factures**.
+3. Vérifiez-les, puis cliquez sur **Confirmer**.
 
-Une facture comptabilisée « fige » le mois
+La période passe à l’état **Facturé**.
+
+Une facture confirmée « fige » le mois
 
 Une fois **comptabilisée**, la facture d’un habitant est verrouillée pour ce mois (protection). Pour la corriger : remettez-la en **brouillon** ou faites une **note de crédit**, puis **Actualisez**. Les autres habitants ne sont pas touchés.
 
-## Étape 5 — Envoyer la part de l’assureur
+En Belgique
 
-Une fois les factures comptabilisées, Resthome prépare la part de l’assureur, **regroupée par assureur santé**, et l’envoie — via les échanges électroniques avec l’assureur santé, là où le pays en dispose.
+Les lots eFact constitués avant les factures sont ensuite envoyés aux mutuelles, et leurs accusés de réception, décomptes et rejets sont suivis ; la période ne se clôture qu’une fois que chaque lot a atteint un résultat définitif. Voir [Facturer un mois en Belgique](../../belgique/facturation/) et [Facturation électronique (eFact)](../../belgique/ehealth/efact/).
 
-## Étape 6 — Suivre les réponses
+## Étape 5 — Clôturer la période
 
-1. Récupérez les accusés de réception et les décomptes des assureurs santé.
-2. Chaque envoi passe de **envoyé** à **accusé**, puis à **accepté** ou **rejeté**.
-3. En cas de **rejet**, corrigez la cause (assurabilité, dates, montants) et **renvoyez**.
+Une fois qu’aucune facture ne reste en brouillon, cliquez sur **Clôturer la période**. Le mois est verrouillé.
+
+Si le bouton n’apparaît pas, un message sous l’en-tête indique ce qui bloque encore la clôture. Une période clôturée peut être rouverte avec **Rouvrir**.
 
 ## Récapitulatif du parcours
 
 ```
 graph TD
-  A[Open the period] --> B[Check insurability]
-  B --> C[Generate]
-  C --> D[Create invoices]
-  D --> E[Post]
-  E --> F[Prepare the insurer's share]
-  F --> G[Send to insurers]
-  G --> H[Fetch responses]
-  H --> I{Accepted?}
-  I -->|Yes| J[Done]
-  I -->|Rejected| K[Correct and resend]
-  K --> G
+  A[Open the period] --> B[Generate]
+  B --> C[Review]
+  C --> D[Create Invoices]
+  D --> E[Confirm the invoices]
+  E --> F[Close Period]
 ```
 
 ## Pour aller plus loin
@@ -1399,72 +1386,59 @@ Source : https://www.lplg.eu/resthome/documentation/facturation/checklist-fin-de
 
 Cette page rassemble, **dans l’ordre**, tout ce qu’exige une fin de mois. Chaque étape renvoie à la page qui la détaille.
 
-L’ordre n’est pas arbitraire : chaque étape **alimente la suivante**, et en sauter une se paie plusieurs étapes plus loin sous forme d’un rejet bien plus coûteux à corriger.
-
-En Belgique
-
-La check-list se déroule côté eHealth : MDA par lot, évaluations Katz, lots eFact envoyés pour le 20 du mois suivant, et le cockpit eFact. Voir [Facturer un mois en Belgique](../../belgique/facturation/).
+L’ordre n’est pas arbitraire : chaque étape **alimente la suivante**, et en sauter une se paie plusieurs étapes plus loin par une correction bien plus coûteuse.
 
 ## Vue d’ensemble
 
 ```
 graph LR
-  A[1. Insurability] --> B[2. Absences]
-  B --> C[3. Dependency]
-  C --> D[4. Supplements]
-  D --> E[5. Generate]
-  E --> F[6. Invoice]
-  F --> G[7. Insurer's share]
-  G --> H[8. Reconcile]
+  A[1. Absences] --> B[2. Supplements]
+  B --> C[3. Generate]
+  C --> D[4. Invoice]
+  D --> E[5. Close]
 ```
 
 ## Avant de générer
 
-### 1. Vérifier l’assurabilité
+En Belgique
 
-Vérifiez, pour tout le mois, qui est assuré et surtout **quel assureur santé répond réellement**. Un habitant qui a changé d’assureur sans vous prévenir est repéré ici — pas par un rejet trois semaines plus tard.
+Le mois commence par un contrôle groupé de l”**assurabilité** (MDA), qui confirme qui est assuré et quelle mutuelle répond réellement ; ses résultats sont chargés à la génération de la période. Voir [Facturer un mois en Belgique](../../belgique/facturation/).
 
-- Chaque habitant doit être confirmé comme assuré.
-- Traitez les habitants **non assurés** : leur part va à l’habitant, pas à l’assureur.
-- Relancez les vérifications terminées en erreur ou sans réponse.
-
-L’étape la plus utile
-
-La plupart des rejets par les assureurs santé viennent d’un mauvais assureur ou d’une perte d’assurabilité. Vérifier l’assurabilité en **début** de mois, avant tout le reste, élimine toute cette famille de problèmes.
-
-### 2. Clôturer les absences
+### 1. Clôturer les absences
 
 Chaque absence du mois doit avoir son **retour** renseigné — ou rester sciemment ouverte si l’habitant est toujours absent.
 
-Le compteur **Absences** de la période montre celles encore ouvertes. Une absence ouverte fausse le décompte des jours, et donc le forfait de soins.
+Le compteur **Absences** de la période montre les absences prises en compte. Une absence ouverte fausse le décompte des jours, et donc les montants facturés.
 
 → [Absences et hospitalisations](../absences/)
 
-### 3. Mettre à jour les évaluations de la dépendance
-
-La catégorie de dépendance est déclarée à l’assureur santé avec le forfait de soins. Une évaluation manquante ou expirée laisse l’habitant dans la catégorie par défaut, et la facturation ne correspond plus à son profil.
-
-Un compteur du tableau de bord liste les évaluations encore à faire.
-
-### 4. Saisir les suppléments
+### 2. Saisir les suppléments
 
 Les suppléments ponctuels du mois (coiffeur, pédicure, boissons…) doivent être saisis **avant** de générer. Les suppléments récurrents se reconduisent seuls.
 
 → [Suppléments](../supplements/) · [L’application Suppléments](../application-supplements/)
 
+En Belgique
+
+Les évaluations **Katz** doivent être à jour : une évaluation manquante ou expirée laisse l’habitant en catégorie O. Le compteur **Katz à faire** les recense. Voir [L’évaluation Katz](../../belgique/katz/).
+
 ## Générer et facturer
 
-### 5. Générer la période
+### 3. Générer la période
 
-Ouvrez la période du mois et cliquez sur **Générer**. Resthome calcule, pour chaque habitant, le forfait de soins, l’hébergement et les suppléments.
+Ouvrez la période du mois et cliquez sur **Générer**. Resthome calcule, pour chaque habitant, l’hébergement, les suppléments et les médicaments — ainsi que le forfait de soins, là où le pack pays en facture un — et applique les absences.
 
-Lisez les **auto-contrôles** affichés à droite : forfait surdéclaré, chambre libérée mais encore facturée, absence non clôturée. Ils sont là pour être traités avant la facturation, pas après.
+Passez en revue les onglets **Habitants** et **Lignes de facturation**, ainsi que tout message que Resthome publie dans le fil de discussion de la période : ils sont là pour être traités avant la facturation, pas après.
 
 → [Facturer un mois, pas à pas](../facturer-un-mois/)
 
-### 6. Créer les factures
+En Belgique
 
-Cliquez sur **Créer les factures**. La part habitant devient une facture ; là où une répartition est paramétrée, chaque débiteur d’aliments — un proche, un organisme public d’aide sociale — reçoit sa quote-part.
+Avant de créer les factures, lancez **Vérifier MDA** sur la période générée, puis **Générer eFact** : les lots sont constitués à partir des lignes de la période, pas des factures. Voir [Facturer un mois en Belgique](../../belgique/facturation/).
+
+### 4. Créer les factures
+
+Cliquez sur **Créer les factures**, vérifiez les factures en brouillon, puis confirmez-les. La part habitant devient une facture ; là où une répartition est paramétrée, chaque débiteur d’aliments — un proche, un organisme public d’aide sociale — reçoit sa quote-part.
 
 → [Facturation partagée](../../facturation-partagee/)
 
@@ -1472,36 +1446,25 @@ Passé ce point, corriger a un coût
 
 Une fois les factures **comptabilisées**, Resthome ne les modifie plus automatiquement. Une correction passe par une **remise en brouillon** ou une **note de crédit**, puis un rafraîchissement. C’est une protection contre la double facturation, pas un obstacle.
 
-## Envoyer et suivre
+## Clôturer le mois
 
-### 7. Envoyer la part de l’assureur
+### 5. Clôturer la période
 
-Resthome prépare la part de l’assureur, un envoi par assureur santé — via les échanges électroniques avec l’assureur santé, là où le pays en dispose. Vérifiez les envois, puis envoyez-les.
+Dès qu’aucune facture n’est plus en brouillon, cliquez sur **Clôturer la période**. Si le bouton n’apparaît pas, le message sous l’en-tête indique ce qui bloque encore.
 
-### 8. Suivre les réponses
+En Belgique
 
-Envoyer ne suffit pas. Chaque envoi passe par un **accusé de réception** puis un **décompte** :
-
-- **lignes rejetées** — corrigez la cause et émettez un reliquat ;
-- **envoi rejeté** — un problème de format, à faire remonter ;
-- **décompte** — vérifiez le montant payé au regard du montant accepté.
+Avant la clôture, les lots eFact constitués à l’étape 3 — un par union de mutualités — sont envoyés au plus tard le **20 du mois suivant**, puis suivis — accusés de réception, décomptes, lignes rejetées à corriger et reliquats — dans le **Cockpit eFact**. Voir [Facturer un mois en Belgique](../../belgique/facturation/).
 
 ## Check-list express
 
 | # | Étape | Terminé quand |
 | --- | --- | --- |
-| 1 | **Assurabilité** | chaque habitant est confirmé comme assuré |
-| 2 | **Absences** | aucune absence ouverte non voulue |
-| 3 | **Dépendance** | plus aucune évaluation à faire |
-| 4 | **Suppléments** | les saisies ponctuelles du mois sont faites |
-| 5 | **Générer** | la période est Générée, auto-contrôles traités |
-| 6 | **Facturer** | les factures habitant sont créées |
-| 7 | **Part de l’assureur** | les envois sont partis |
-| 8 | **Suivre** | chaque envoi est décompté et pointé |
-
-## L’échéance à ne pas manquer
-
-Les assureurs santé fixent généralement une échéance pour recevoir la facturation du mois. À rebours, la vérification de l’assurabilité et les corrections doivent être faites la **première semaine** — ce qui laisse de la marge pour traiter un rejet sans manquer l’échéance.
+| 1 | **Absences** | aucune absence ouverte non voulue |
+| 2 | **Suppléments** | les saisies ponctuelles du mois sont faites |
+| 3 | **Générer** | la période est à l’état Généré, ses messages traités |
+| 4 | **Facturer** | les factures habitant sont créées et confirmées |
+| 5 | **Clôturer** | la période est à l’état Clôturé |
 
 ## Pour aller plus loin
 
@@ -1698,7 +1661,7 @@ Source : https://www.lplg.eu/resthome/documentation/facturation/absences/
 
 # Absences et hospitalisations
 
-Quand un habitant s’absente (hospitalisation, vacances, congé familial), cela influence **le forfait de soins** de la période et peut déclencher une **notification à l’assureur santé**. Resthome gère les deux automatiquement à partir de l’absence que vous saisissez.
+Quand un habitant s’absente (hospitalisation, vacances, congé familial), cela influence **la facturation** de la période — avant tout le **forfait de soins**. Resthome l’ajuste automatiquement à partir de l’absence que vous enregistrez.
 
 ## Enregistrer une absence
 
@@ -1712,7 +1675,7 @@ Quand un habitant s’absente (hospitalisation, vacances, congé familial), cela
 
 Vous n’avez pas besoin de cliquer sur « Actualiser »
 
-Ajouter, modifier ou supprimer une absence **synchronise automatiquement** la facturation de l’habitant concerné : le forfait de soins est recalculé et, le cas échéant, la notification à l’assureur santé est préparée. Voir la [facturation](../).
+Ajouter, modifier ou supprimer une absence **synchronise automatiquement** la facturation de l’habitant concerné : le forfait de soins est recalculé. Voir la [facturation](../).
 
 ## Effet sur le forfait
 
@@ -1722,19 +1685,13 @@ Le fait qu’un jour de départ ou de retour compte comme jour de présence dép
 
 La **part hébergement** (la chambre, payée par l’habitant) suit ses propres règles selon votre convention.
 
-## Notification à l’assureur santé
-
-Lorsque le pays l’exige, certaines absences doivent être signalées à l’assureur santé de l’habitant — typiquement une longue absence ou une hospitalisation, puis le retour de l’habitant.
-
-Resthome crée ces notifications **au moment où vous enregistrez l’absence et le retour**, par les échanges électroniques avec l’assureur santé, sans manipulation supplémentaire. Vous n’avez qu’à les vérifier et à les envoyer.
-
 En Belgique
 
-Les jours sont comptés selon la présence à midi (heure de Bruxelles). Une absence de plus de 72 heures, ou toute hospitalisation, prépare une Annexe 11 pour la mutuelle ; le retour prépare une Annexe 7. Voir [Facturer un mois en Belgique](../../belgique/facturation/) et [Accords (eAgreement)](../../belgique/ehealth/eagreement/).
+Les jours sont comptés selon la présence à midi (heure de Bruxelles). Une absence de plus de 72 heures, ou toute hospitalisation, prépare une notification Annexe 11 pour la mutuelle dès son enregistrement ; le retour prépare une Annexe 7. Supprimer l’absence les retire tant que la mutuelle ne les a pas validées. Voir [Facturer un mois en Belgique](../../belgique/facturation/) et [Accords (eAgreement)](../../belgique/ehealth/eagreement/).
 
 ## Annuler une absence
 
-Une absence saisie par erreur ? **Supprimez-la** ou remettez-la en brouillon : Resthome **fait machine arrière proprement** — le forfait de soins est recalculé comme si l’absence n’avait jamais eu lieu, et les notifications préparées sont retirées tant qu’elles n’ont pas été validées par l’assureur santé.
+Une absence saisie par erreur ? **Supprimez-la** ou remettez-la en brouillon : Resthome **fait machine arrière proprement** — le forfait de soins est recalculé comme si l’absence n’avait jamais eu lieu.
 
 Mois déjà facturé
 
@@ -1753,23 +1710,23 @@ Source : https://www.lplg.eu/resthome/documentation/facturation/depart-deces/
 
 # Départ et décès
 
-Quand un habitant quitte l’établissement ou décède, il suffit de **clôturer son séjour** : Resthome arrête la facturation à la bonne date, prépare la **régularisation** de ce qui a été facturé d’avance et signale le départ à l’assureur santé là où le pays l’exige.
+Quand un habitant quitte l’établissement ou décède, il suffit de **clôturer son séjour** : Resthome arrête la facturation à la bonne date et prépare la **régularisation** de ce qui a été facturé d’avance.
 
 ## Clôturer le séjour
 
 1. Ouvrez la fiche de l’habitant → son **séjour**.
-2. Indiquez la **date de sortie** (et l’heure), avec le **motif** (départ, décès, transfert…).
-3. **Validez** la clôture.
+2. Cliquez sur **Terminer le séjour**.
+3. Saisissez la **Date et heure de fin** et le **Motif de départ** (décès, transfert externe, retour à domicile…).
+4. Cliquez sur **Terminer le séjour** pour confirmer.
 
 ## Ce que Resthome fait automatiquement
 
 - **Arrêt de la facturation** à la bonne date : plus rien n’est facturé après la sortie.
 - **Note de crédit de l’hébergement prépayé** : comme l’hébergement est facturé **un mois à l’avance** (facturation anticipative), si l’habitant part en cours de mois déjà facturé, Resthome prépare **automatiquement une note de crédit** pour rembourser la période non occupée. Vous êtes **notifié** de sa création.
-- **Notification à l’assureur santé** : là où le pays l’exige, le départ prépare la notification de sortie vers l’assureur santé de l’habitant, via les échanges électroniques avec l’assureur santé.
 
 En Belgique
 
-La clôture prépare la notification de sortie Annexe 11 vers la mutuelle, et le forfait INAMI s’arrête à la fin de l’intervention INAMI. Voir [Facturer un mois en Belgique](../../belgique/facturation/) et [Accords (eAgreement)](../../belgique/ehealth/eagreement/).
+La clôture prépare aussi la notification de sortie Annexe 11 vers la mutuelle, et le forfait INAMI s’arrête à la fin de l’intervention INAMI. Voir [Facturer un mois en Belgique](../../belgique/facturation/) et [Accords (eAgreement)](../../belgique/ehealth/eagreement/).
 
 Facturation anticipative, en clair
 
@@ -2660,7 +2617,7 @@ Source : https://www.lplg.eu/resthome/documentation/repas/menus-regimes/
 
 ## Composer un menu
 
-1. Dans l’application Repas → **Menus**, créez le menu de la journée ou de la semaine.
+1. Dans l’application Repas → **Opérations** → **Menus**, créez le menu de la journée ou de la semaine.
 2. Ajoutez les **plats** depuis le catalogue, par **type de repas** (petit déjeuner, dîner, souper, collations).
 3. **Enregistrez.**
 
@@ -3356,12 +3313,12 @@ Admission ─► MDA ─► eAgreement ─► Katz ─► eFact ─► Payment
 2. **Assurabilité (MDA)** — Vérifiez l’assurabilité et la mutuelle exacte auprès de MyCareNet / WalCareNet.
 3. **Accord d’admission (eAgreement)** — La notification de prise en charge (Annexe 7) est préparée pour la mutuelle.
 4. **Évaluation Katz** — Cotez la dépendance : la catégorie Katz est déclarée à la mutuelle pour le forfait INAMI.
-5. **Facturation électronique (eFact)** — Générez la période, créez les factures et transmettez la part mutuelle aux organismes assureurs. → [Facturer un mois en Belgique](../facturation/) · [Facturation électronique (eFact)](../ehealth/efact/)
+5. **Facturation électronique (eFact)** — Générez la période, vérifiez le MDA, générez l’eFact, créez les factures des habitants, puis transmettez la part mutuelle aux organismes assureurs. → [Facturer un mois en Belgique](../facturation/) · [Facturation électronique (eFact)](../ehealth/efact/)
 6. **Paiement / décompte** — La part habitant est facturée, la part mutuelle suivie jusqu’au décompte de l’OA (accusé, acceptation, rejet).
 
 En pratique
 
-L’**assurabilité (MDA)** en début de mois et une **évaluation Katz validée** sont les deux préalables qui évitent la plupart des rejets eFact. Traitez-les avant de générer les factures.
+L’**assurabilité (MDA)** en début de mois et une **évaluation Katz validée** sont les deux préalables qui évitent la plupart des rejets eFact. Traitez-les avant de générer l’eFact — qui précède les factures.
 
 ## Pour continuer
 
@@ -3422,9 +3379,11 @@ Un habitant relevant d’un **Régime d’assurance** autre que standard est exc
 
 Avant de facturer, vérifiez que l’habitant est bien assuré :
 
-1. Ouvrez la période de facturation du mois, ou la fiche de l’habitant.
-2. Lancez une **vérification MDA** (assurabilité MyCareNet/WalCareNet).
+1. Ouvrez la fiche de l’habitant, ou la période de facturation du mois.
+2. Lancez la vérification MDA (assurabilité MyCareNet/WalCareNet) : **Vérifier Assurabilité** dans l’en-tête de la fiche — affiché une fois le NISS renseigné — ou **Vérifier MDA** sur la période, pour tous les habitants en une fois.
 3. Resthome met automatiquement à jour la **Mutuelle** et le **Statut BIM** le cas échéant.
+
+Le bouton **Historique MDA** de la fiche liste les demandes passées de l’habitant.
 
 Voir [Assurabilité (MDA)](../ehealth/mda/). Lorsqu’un **CPAS** paie pour l’habitant, la facture peut lui être adressée — voir [La prise en charge CPAS](../cpas/).
 
@@ -3668,22 +3627,25 @@ En Belgique, les secteurs pour lesquels une maison est agréée sont la **MR** (
 
 ## Le mois, étape par étape, côté belge
 
-Le guide commun [Facturer un mois, pas à pas](../../facturation/facturer-un-mois/) donne l’enchaînement. En Belgique, chaque étape a son pendant eHealth :
+Le guide commun [Facturer un mois, pas à pas](../../facturation/facturer-un-mois/) donne l’enchaînement commun à tous les pays. En Belgique, il s’enrichit de ses étapes eHealth :
 
 1. **Ouvrez la période** dans **Facturation → Facturation → Périodes de facturation**.
-2. **Vérifiez l’assurabilité** — sur la période, cliquez sur **Vérifier MDA** (contrôle groupé), attendez les réponses et corrigez les cas signalés (mauvaise mutuelle, perte d’assurabilité). Voir [Assurabilité (MDA)](../ehealth/mda/).
-3. **Générer** — le forfait est calculé sur les jours de présence de la **période d’intervention INAMI**, avec la catégorie Katz facturée.
-4. **Créez les factures** (part habitant), contrôlez-les, puis **comptabilisez**-les.
-5. **Générer eFact** — Resthome constitue les **lots** eFact, regroupés **par union** de mutualités.
+2. **Générer** — dans la fenêtre **Générer la facturation**, **Charger MDA Succès** (et **Charger MDA en attente**) pré-remplissent les habitants dont l’assurabilité a déjà été vérifiée, par exemple par un lot MDA lancé en début de mois. Le forfait est calculé sur les jours de présence de la **période d’intervention INAMI**, avec la catégorie Katz facturée. La période passe à l’état **Généré**.
+3. **Vérifiez l’assurabilité** — cliquez sur **Vérifier MDA** : une requête par habitant de la période, envoyée en un lot groupé. L’étape est franchie dès que chaque habitant facturé à une mutuelle a une requête — les réponses peuvent arriver plus tard. Corrigez les cas signalés (mauvaise mutuelle, perte d’assurabilité) ; **Réessayer les MDA échoués** renvoie les requêtes tombées en erreur. Voir [Assurabilité (MDA)](../ehealth/mda/).
+4. **Générer eFact** — dans la fenêtre **Générer les envois eFact**, cliquez sur **Générer les envois** : Resthome constitue les **lots** eFact à partir des lignes mutuelle de la période, regroupés **par union** de mutuelles. Un habitant sans évaluation Katz bloque cette étape.
+5. **Créer les factures** — la part habitant devient des factures en **brouillon** ; vérifiez-les, puis cliquez sur **Confirmer**. La période passe à l’état **Facturé**.
 6. **Envoyez** — ouvrez **eHealth → eFact → Cockpit** (ou les lots) et cliquez sur **Tout envoyer**, ou envoyez lot par lot. Les envois partent vers les organismes assureurs via le réseau eHealth.
 7. **Suivez les réponses** — cliquez sur **Récupérer les réponses** pour rapatrier les accusés de réception et les décomptes. Chaque lot passe par **Envoyé → Accusé reçu → Accepté / Rejeté**. En cas de **rejet**, corrigez la cause (assurabilité, dates, montants) et **renvoyez**.
-8. **Imprimez les notes de frais** — [Annexe 12](../note-de-frais-annexe12/), individuelle et récapitulative, une fois le mois facturé.
+8. **Clôturer la période** — possible dès qu’aucune facture n’est plus en brouillon, que chaque lot a abouti à un résultat définitif, qu’aucune ligne mutuelle n’est hors lot et que chaque prestation refusée par l’organisme assureur a été corrigée.
+9. **Imprimez les notes de frais** — [Annexe 12](../note-de-frais-annexe12/), individuelle et récapitulative, une fois le mois facturé.
+
+La période indique elle-même l’étape suivante : son bouton mis en évidence (et la colonne **À faire** de la liste **Périodes de facturation**) affiche **Vérifier l’assurabilité (MDA)**, puis **Générer l’envoi eFact**, puis **Créer les factures**. L’ordre est un conseil, pas un verrou : **Vérifier MDA** et **Générer eFact** restent disponibles sur une période à l’état **Facturé**, pour un habitant ajouté tardivement ou un lot reconstruit.
 
 Les écrans, les contrôles avant envoi et les boutons avancés sont décrits dans [Facturation électronique (eFact)](../ehealth/efact/) ; le parcours complet, de l’admission au paiement, se trouve dans [Le parcours de facturation](../parcours-facturation/).
 
 ## La check-list de fin de mois, côté eHealth
 
-La [Check-list de fin de mois](../../facturation/checklist-fin-de-mois/) s’applique telle quelle. En Belgique, ses étapes se lisent comme suit.
+La [Check-list de fin de mois](../../facturation/checklist-fin-de-mois/) s’applique telle quelle. En Belgique, elle s’enrichit des étapes eHealth suivantes.
 
 ### Assurabilité (MDA)
 
@@ -3691,13 +3653,13 @@ Lancez le **MDA groupé** du mois : il confirme qui est assuré et surtout **que
 
 - Chaque habitant doit atteindre l’état **Succès**.
 - Traitez les cas **Non assuré** : leur part va à l’habitant, pas à la mutuelle.
-- Relancez les **erreurs** et les **absences de réponse**.
+- Relancez les **erreurs** et les **sans-réponse** — sur la période, **Réessayer les MDA échoués** renvoie les requêtes tombées en erreur.
 
 → [Assurabilité (MDA)](../ehealth/mda/) · [Erreurs MDA](../ehealth/mda-erreurs/)
 
 L’étape la plus utile
 
-La plupart des rejets eFact viennent d’une mauvaise mutuelle ou d’une assurabilité perdue. Lancer le MDA en **début** de mois, avant toute autre chose, élimine toute cette catégorie de problèmes.
+La plupart des rejets eFact viennent d’une mauvaise mutuelle ou d’une assurabilité perdue. Lancer un lot MDA en **début** de mois (**eHealth → Assurabilité → Lots MDA**), puis **Vérifier MDA** sur la période générée pour les habitants restants, élimine toute cette catégorie de problèmes avant le départ de l’eFact.
 
 ### Évaluations Katz
 
@@ -3707,7 +3669,7 @@ La catégorie Katz facturée est le profil déclaré à la mutuelle avec le forf
 
 ### Lots eFact et réponses
 
-**Générer eFact** constitue un lot par organisme assureur (par union de mutualités). Contrôlez-les, puis envoyez-les. Chaque lot passe ensuite par un **accusé de réception** et un **décompte** :
+**Générer eFact** constitue un lot par organisme assureur (par union de mutualités), juste après le MDA et avant les factures. Contrôlez-les, puis envoyez-les. Chaque lot passe ensuite par un **accusé de réception** et un **décompte** :
 
 - **lignes rejetées** — corrigez la cause et émettez un reliquat ;
 - **lot rejeté** — un problème de format, à faire remonter ;
@@ -3983,7 +3945,7 @@ Le lot affiche des **compteurs** : Assurés, Non assurés, Erreurs, En attente, 
 
 Le bon réflexe
 
-Faites le MDA **en début de mois**, avant de générer les factures : vous évitez les rejets eFact ultérieurs dus à une mutuelle erronée ou à une perte d’assurabilité.
+Lancez un MDA groupé **en début de mois** : la génération de la période en charge les résultats (**Charger MDA Succès**). Ensuite, sur la période générée, **Vérifier MDA** couvre les habitants encore sans demande — toujours avant **Générer eFact**. Vous évitez les rejets eFact ultérieurs dus à une mutuelle erronée ou à une perte d’assurabilité.
 
 ## Les statuts
 
@@ -4077,11 +4039,11 @@ Source : https://www.lplg.eu/resthome/documentation/belgique/ehealth/mda-erreurs
 
 # Erreurs MDA — causes et solutions
 
-Le [MDA](../mda/) interroge pour vous la plateforme des mutualités (MyCareNet / WalCareNet) pour confirmer qu’un habitant est **assuré sur la période** et identifier **la mutualité qui le couvre réellement**. C’est le **préalable à l’eFact**. Cette page regroupe les erreurs et cas particuliers, avec la marche à suivre.
+Le [MDA](../mda/) interroge pour vous la plateforme des mutuelles (MyCareNet / WalCareNet) pour confirmer qu’un habitant est **assuré sur la période** et identifier **la mutuelle qui le couvre réellement**. C’est le **préalable à l’eFact**. Cette page regroupe les erreurs et cas particuliers, avec la marche à suivre.
 
 Le bon réflexe
 
-Lancez le MDA **en début de mois, avant de générer les factures** : vous évitez les [rejets eFact](../efact-rejets/) ultérieurs dus à une mauvaise mutualité ou à une perte d’assurabilité découverte trop tard.
+Lancez le MDA **en début de mois**, et en tout cas **avant de générer l’eFact** (**Vérifier MDA** sur la période générée, puis **Générer eFact**) : vous évitez les [rejets eFact](../efact-rejets/) ultérieurs dus à une mauvaise mutuelle ou à une perte d’assurabilité découverte trop tard.
 
 ## Situations MDA → action
 
@@ -4089,40 +4051,40 @@ Rappel des statuts que Resthome peut afficher : **Brouillon · Envoyé / En atte
 
 | Situation | Ce que Resthome affiche | Cause probable | Action |
 | --- | --- | --- | --- |
-| **NISS non reconnu** | **Erreur** : la demande est refusée avant d’arriver à une mutualité | Le **NISS** est mal saisi (chiffre inversé, faute de frappe) : format invalide | Vérifier le NISS (carte d’identité), **le corriger**, puis **Réessayer**. C’est la cause la plus fréquente. |
+| **NISS non reconnu** | **Erreur** : la demande est refusée avant d’arriver à une mutuelle | Le **NISS** est mal saisi (chiffre inversé, faute de frappe) : format invalide | Vérifier le NISS (carte d’identité), **le corriger**, puis **Réessayer**. C’est la cause la plus fréquente. |
 | **Bénéficiaire introuvable** | **Erreur** : « non trouvé » | NISS bien formé mais **pas (encore) connu** de la plateforme (inscription très récente, cas particulier) | Confirmer le NISS et l’affiliation. Si le numéro est correct : **Contacter l’OA** ; en dernier recours **Signaler à l’intermut.** |
 | **Assuré mais « pas en ordre »** | **Non assuré** + **alerte** | Affiliation existante mais **couverture non valide** (cotisations impayées, dossier à régulariser) | Ne pas facturer l’OA pour cette période. **Contacter l’OA** ou l’habitant pour régulariser ; facturer la part **à l’habitant** en attendant. |
-| **Pas de mutualité sur la fiche** | Non bloquant : après un MDA réussi, la mutualité est **remplie automatiquement** | Profil incomplet (nouveau habitant) | Lancer le MDA : s’il aboutit, Resthome **renseigne** la mutualité et le n° d’affiliation. Sinon, revérifier le NISS. |
-| **Changement de mutualité (mutation)** | **Mutation détectée** : le profil est **mis à jour** | L’habitant a changé de mutualité ; le profil n’était pas à jour | Laisser Resthome corriger le profil ; **vérifier** la nouvelle mutualité avant de facturer. |
+| **Pas de mutuelle sur la fiche** | Non bloquant : après un MDA réussi, la mutuelle est **remplie automatiquement** | Profil incomplet (nouveau habitant) | Lancer le MDA : s’il aboutit, Resthome **renseigne** la mutuelle et le n° d’affiliation. Sinon, revérifier le NISS. |
+| **Changement de mutuelle (mutation)** | **Mutation détectée** : le profil est **mis à jour** | L’habitant a changé de mutuelle ; le profil n’était pas à jour | Laisser Resthome corriger le profil ; **vérifier** la nouvelle mutuelle avant de facturer. |
 | **« Sans réponse »** | **Sans réponse** | La plateforme a clôturé la demande sans réponse — souvent **hors horaires** (soir/week-end) ou indisponibilité temporaire. Ce n’est pas une erreur de votre part | **Réessayer** aux heures ouvrables. Si cela persiste, **Signaler à l’intermut.** |
-| **Erreur technique** | **Erreur** + détail technique | Panne temporaire côté plateforme ou mutualité | **Réessayer** plus tard ; si l’erreur revient, **Signaler à l’intermut.** Ne pas relancer en boucle. |
-| **Décès signalé par la mutualité** | **Date de décès** sur la fiche + alerte | L’OA signale un décès (couverture close) | Vérifier et **arrêter la facturation** à la bonne date. |
-| **Régime particulier** | La réponse MDA est **ignorée** ; la mutualité du profil **reste inchangée** | L’habitant relève d’un régime spécial (voir plus bas) | Ne rien corriger : le garde-fou est **volontaire**. Facturer selon le régime particulier. |
+| **Erreur technique** | **Erreur** + détail technique | Panne temporaire côté plateforme ou mutuelle | **Réessayer** plus tard ; si l’erreur revient, **Signaler à l’intermut.** Ne pas relancer en boucle. |
+| **Décès signalé par la mutuelle** | **Date de décès** sur la fiche + alerte | L’OA signale un décès (couverture close) | Vérifier et **arrêter la facturation** à la bonne date. |
+| **Régime particulier** | La réponse MDA est **ignorée** ; la mutuelle du profil **reste inchangée** | L’habitant relève d’un régime spécial (voir plus bas) | Ne rien corriger : le garde-fou est **volontaire**. Facturer selon le régime particulier. |
 
 ![Demande MDA à l'état Erreur, avec le type d'erreur et le code renvoyé par la plateforme](../../../_images/23-mda-erreur.webp)
 
 ## Régimes particuliers
 
-Certains habitants ne relèvent **pas** du flux mutualité standard. Dans ces cas, Resthome **n’écrase pas** la mutualité de leur profil avec la réponse du MDA, et la facturation se fait souvent **sur papier**, adressée au véritable payeur (ou à l’habitant), plutôt qu’en eFact.
+Certains habitants ne relèvent **pas** du flux mutuelle standard. Dans ces cas, Resthome **n’écrase pas** la mutuelle de leur profil avec la réponse du MDA, et la facturation se fait souvent **sur papier**, adressée au véritable payeur (ou à l’habitant), plutôt qu’en eFact.
 
 - **Statut BIM (intervention majorée)** — ce n’est pas un régime à part : le MDA le **récupère et met à jour tout seul**. Il ouvre droit à un **ticket modérateur réduit** pour l’habitant (la part à sa charge diminue) ; le forfait journalier, lui, est inchangé.
-- **Invalides de guerre / victimes civiles** — l’habitant a **deux couvertures** : sa mutualité standard (visible dans le MDA) **et** une couverture spécifique qui **ne passe pas** par le MDA. Le garde-fou évite d’écraser cette configuration.
-- **Retraités d’institutions internationales** — couverts par un régime propre à leur organisation, pas par une mutualité belge classique.
-- **Pensionnés étrangers** — couverture d’un régime étranger via les formulaires européens de coordination ; en pratique, beaucoup s’affilient tout de même à une mutualité belge.
+- **Invalides de guerre / victimes civiles** — l’habitant a **deux couvertures** : sa mutuelle standard (visible dans le MDA) **et** une couverture spécifique qui **ne passe pas** par le MDA. Le garde-fou évite d’écraser cette configuration.
+- **Retraités d’institutions internationales** — couverts par un régime propre à leur organisation, pas par une mutuelle belge classique.
+- **Pensionnés étrangers** — couverture d’un régime étranger via les formulaires européens de coordination ; en pratique, beaucoup s’affilient tout de même à une mutuelle belge.
 
 En cas de doute
 
-Pour un régime particulier, en cas de doute sur l’organisme à facturer, rapprochez-vous de la mutualité ou de l’organisme concerné avant d’émettre la facture.
+Pour un régime particulier, en cas de doute sur l’organisme à facturer, rapprochez-vous de la mutuelle ou de l’organisme concerné avant d’émettre la facture.
 
 ## Bonnes pratiques
 
-- **MDA en début de mois, avant de facturer.**
+- **MDA en début de mois, et avant de générer l’eFact.**
 - **Contrôle individuel** (immédiat) pour un habitant précis ; **contrôle par lot** pour une période entière — collez au besoin une colonne de noms/NISS.
 
   - **Envoi immédiat (Sync)** pour les **petits volumes** ;
   - **Envoi groupé (Async)** pour les **gros lots mensuels** : la demande part, puis on **récupère les réponses** un peu plus tard avec **Vérifier les réponses** (nécessite au moins 2 habitants).
 - Le lot affiche des **compteurs** (Assurés, Non assurés, Erreurs, En attente, Décès) pour repérer d’un coup d’œil ce qui reste à traiter.
-- **Ce que Resthome met à jour** après un MDA réussi : la **mutualité (OA)** réelle, le **statut BIM**, le **numéro d’affiliation**, l’**identité** si des champs manquaient, et la **date de décès** si l’organisme la signale. Exception : la mutualité d’un **régime particulier** n’est pas écrasée.
+- **Ce que Resthome met à jour** après un MDA réussi : la **mutuelle (OA)** réelle, le **statut BIM**, le **numéro d’affiliation**, l’**identité** si des champs manquaient, et la **date de décès** si l’organisme la signale. Exception : la mutuelle d’un **régime particulier** n’est pas écrasée.
 
 ## Pour aller plus loin
 
@@ -4139,7 +4101,7 @@ Source : https://www.lplg.eu/resthome/documentation/belgique/ehealth/efact/
 
 L’**eFact** est l’envoi **électronique** de la **part mutuelle** (le forfait INAMI) aux **organismes assureurs** (OA), via le réseau eHealth / MyCareNet. Resthome construit les fichiers, les transmet et **suit les réponses** pour vous — accusés de réception, décomptes, acceptations et rejets.
 
-Ce guide vous accompagne du début à la fin : générer une période, vérifier, facturer, envoyer l’eFact et traiter les retours.
+Ce guide vous accompagne du début à la fin : générer une période, vérifier la période et l’assurabilité, constituer l’eFact, facturer la part habitant, envoyer l’eFact et traiter les retours.
 
 Obligation 2026
 
@@ -4152,11 +4114,11 @@ Chaque mois de facturation est une **période** qui passe par quatre états, dan
 | État | Ce que cela signifie |
 | --- | --- |
 | **Brouillon** | La période est créée, rien n’est encore calculé. |
-| **Générée** | Les forfaits et les parts sont calculés, habitant par habitant. À vérifier. |
-| **Facturée** | Les factures sont comptabilisées. L’eFact peut être construit et envoyé. |
+| **Générée** | Les forfaits et les parts sont calculés, habitant par habitant. À ce stade, la période est vérifiée, le MDA demandé et l’eFact constitué. |
+| **Facturée** | Les factures habitant sont créées. Les lots eFact sont envoyés et suivis jusqu’à la clôture. |
 | **Clôturée** | La période est terminée et verrouillée. |
 
-Le fil conducteur : **Générer → vérifier → Créer les factures → Générer l’eFact → envoyer → suivre les réponses**.
+Le fil conducteur, dans l’ordre que la période propose elle-même : **Générer → vérifier → Vérifier MDA → Générer eFact → Créer les factures → envoyer → suivre les réponses → Clôturer la période**. À chaque étape, l’étape suivante est le bouton mis en évidence à gauche de la période — et la colonne **À faire** de la liste.
 
 ## 1. Le tableau de bord des périodes
 
@@ -4188,7 +4150,7 @@ Un assistant **« Générer la facturation »** s’ouvre.
 
 - **Période de facturation / dates** : rappel du mois concerné.
 - **Habitants** : laissez **vide pour tous les habitants actifs** (ou ciblez un habitant pour un cas particulier).
-- **Charger le MDA** : charge l’assurabilité (MDA) déjà vérifiée — « Succès » ou « en attente ». La légende indique l’état MDA de la période.
+- **Charger MDA Succès** / **Charger MDA en attente** : pré-remplissent les habitants dont l’assurabilité (MDA) est déjà vérifiée ou encore en cours — par exemple à partir d’un lot MDA lancé en début de mois. La légende indique l’état MDA de la période.
 
 Cliquez sur **Générer**. La période devient **Générée** : Resthome a calculé, pour **chaque habitant**, le forfait Katz, la **part INAMI** (mutuelle) et la **part habitant**.
 
@@ -4203,7 +4165,7 @@ Dans l’onglet **Habitants**, vous trouvez ligne par ligne :
 
 Les autres onglets : **Lignes de facturation** (le détail des lignes), **Factures**, **eHealth** (les échanges) et **Info**.
 
-## 3. Vérifier avant de facturer
+## 3. Check the period and the insurability
 
 C’est l’étape la plus importante. En haut de la période, des **compteurs** donnent l’état de santé du mois : **Suppléments**, **Absences**, **Non facturé**, **MDA** et **Katz à faire** (évaluations Katz manquantes à compléter).
 
@@ -4218,20 +4180,13 @@ Après la génération, Resthome parcourt la période et **signale les anomalies
 
 Traitez chaque point (bouton **Fait** une fois réglé) avant de facturer.
 
-**Vérifier MDA** — le bouton **Vérifier MDA** contrôle l’**assurabilité** de vos habitants auprès des mutuelles. Un habitant sans couverture valide ne peut pas être facturé en tiers payant.
+**Vérifier MDA** — une fois la période générée, le bouton **Vérifier MDA** envoie aux mutuelles une requête d’assurabilité par habitant de la période, en un lot groupé. C’est l’étape suivante tant qu’un habitant facturé à une mutuelle n’a pas de requête ; l’étape est franchie dès que toutes les requêtes sont **envoyées**, sans attendre les réponses. **Réessayer les MDA échoués** renvoie les requêtes tombées en erreur. Un habitant sans couverture valide ne peut pas être facturé en tiers payant.
 
-## 4. Créer les factures (Générée → Facturée)
+## 4. Generate the eFact (the batches)
 
-Lorsque les contrôles sont au vert, cliquez sur **Créer les factures**. Resthome génère et comptabilise :
+Une fois le MDA demandé, cliquez sur **Générer eFact**, puis sur **Générer les envois** dans la fenêtre qui s’ouvre. Resthome constitue les **lots** à partir des lignes mutuelle de la période — et non des factures, qui n’existent pas encore — un fichier électronique par organisme assureur, puis affiche la liste des **Envois eFact**.
 
-- les **factures habitant** (part à charge de l’habitant / de la famille) ;
-- la **part mutuelle**, qui alimentera l’eFact.
-
-La période devient **Facturée**. Vous pouvez encore **Remettre en brouillon** tant que vous n’avez pas envoyé l’eFact, si une correction est nécessaire.
-
-## 5. Générer l’eFact (les lots)
-
-Cliquez sur **Générer l’eFact**. Resthome construit les **lots** — un fichier électronique par organisme assureur — puis affiche la liste des **Lots eFact**.
+La génération est refusée tant qu’un habitant n’a aucune évaluation Katz : le message ouvre ses évaluations Katz. Elle est incrémentale — un deuxième passage ne regroupe que les lignes qui ne sont pas encore dans un lot ; **Générer eFact** reste donc disponible sur une période à l’état **Facturé**.
 
 Un lot par union de mutualités
 
@@ -4245,6 +4200,14 @@ Chaque ligne de lot affiche :
 - le **statut** du lot (Brouillon, envoyé, accepté, rejeté…) ;
 - les **montants** : facturé, accepté, refusé ;
 - en cas de refus, le **code** et le **motif** de rejet.
+
+## 5. Create the invoices (Generated → Invoiced)
+
+Une fois l’eFact constitué, cliquez sur **Créer les factures**. Resthome crée les **factures habitant** (part à charge de l’habitant / de la famille) en **brouillon** : vérifiez-les, puis cliquez sur **Confirmer**. La période passe à l’état **Facturé**.
+
+La **part mutuelle** n’est pas facturée ici : elle part dans les lots eFact. Une fois qu’un lot est réglé par l’organisme assureur, sa pièce comptable est créée depuis la liste **À facturer** d’eFact (**Créer les pièces comptables** dans le menu Actions).
+
+Vous pouvez encore **Remettre en brouillon** tant que vous n’avez pas envoyé l’eFact, si une correction est nécessaire.
 
 ## 6. Les contrôles avant envoi
 
@@ -4321,17 +4284,17 @@ Lorsqu’un habitant **part** ou **décède** au cours d’un mois déjà factur
 
 À vérifier avant d’envoyer
 
-- **Assurabilité (MDA)** vérifiée pour la période.
+- **Assurabilité (MDA)** demandée pour la période (**Vérifier MDA**).
 - **Mutuelle** correcte sur chaque habitant.
-- Factures **comptabilisées** (période à l’état *Facturée*).
+- Une évaluation **Katz** pour chaque habitant facturé à une mutuelle.
 - **Certificat eHealth** actif.
 
 ## Points clés à retenir
 
 - La période suit toujours l’ordre **Brouillon → Générée → Facturée → Clôturée**.
 - **Vérifiez avant de facturer** : traitez chaque message d’autocontrôle.
-- **Vérifiez le MDA** — pas de tiers payant sans assurabilité valide.
-- **Un lot eFact par union** de mutualités, pas par mutuelle.
+- **Vérifier MDA, puis Générer eFact, puis Créer les factures** — pas de tiers payant sans assurabilité valide.
+- **Un lot eFact par union** de mutuelles, pas par mutuelle.
 - Respectez l’**échéance** d’envoi de chaque période (« échéance dépassée »).
 - Un **rejet** se corrige puis se **renvoie** — le compteur Renvois évite les doublons.
 
@@ -4386,7 +4349,7 @@ Sur chaque ligne refusée, un **code** et un **motif de rejet** en clair pointen
 
 | Cause | Ce que vous voyez | Action dans Resthome |
 | --- | --- | --- |
-| **Assurabilité (MDA) non valide ou manquante** | Compteur **MDA** pas au vert ; lot retenu à l’envoi ; ou rejet de l’OA pour assurabilité | Lancer **Vérifier MDA**, obtenir le statut **Succès** pour chaque habitant, puis **régénérer** l’eFact. Le MDA doit être validé **avant** de générer. |
+| **Assurabilité (MDA) non valide ou manquante** | Compteur **MDA** pas au vert ; lot retenu à l’envoi ; ou rejet de l’OA pour assurabilité | Lancer **Vérifier MDA**, obtenir le statut **Succès** pour chaque habitant, puis **régénérer** l’eFact. Le MDA doit être validé **avant** de générer l’eFact. |
 | **Mutuelle erronée ou absente** | Le forfait part au mauvais OA (rejet) ou n’apparaît pas dans le lot | Renseigner/corriger la **mutuelle** sur la fiche de l’habitant, puis **régénérer**. Vérifier que chaque habitant facturé en tiers payant a bien une mutuelle. |
 | **Forfait déclaré au-delà de la fin d’intervention** | Auto-contrôle : **« forfait OA sur-déclaré »** ; l’OA refuse les jours en trop | Émettre une **note de crédit / un reliquat** pour les jours sur-déclarés (voir plus bas). |
 | **Chambre libérée / décès — hébergement encore facturé** | Auto-contrôle : **surfacturation** ; refus des jours indus | **Clôturer l’hébergement** à la bonne date + **note de crédit**. |
@@ -4444,7 +4407,7 @@ Selon le message renvoyé par l’OA, vous pouvez apercevoir, dans les statuts o
 
 ## Points clés
 
-- **Prévenez plutôt que guérir** : traitez les messages d’**auto-contrôle** et validez le **MDA** avant de facturer — la plupart des rejets sont ainsi évités.
+- **Prévenez plutôt que guérir** : traitez les messages d”**auto-contrôle** et lancez **Vérifier MDA** avant **Générer eFact** — la plupart des rejets sont ainsi évités.
 - Un **rejet partiel** se corrige **ligne par ligne** ; un **rejet global** se **renvoie en lot neuf**.
 - Une **surfacturation** (départ, décès, forfait sur-déclaré) se corrige par une **note de crédit / un lot correctif**, pas par un simple renvoi.
 
@@ -4735,7 +4698,7 @@ Un accusé électronique « bien reçu » signifie **reçu**, **pas accepté**. 
 | --- | --- | --- |
 | **NISS non reconnu** | Rejet « bénéficiaire inconnu » ; l’accord repasse en *Rejeté* | Vérifier le NISS (carte d’identité / eID), corriger, renvoyer. |
 | **NISS mal formé / incomplet** | Rejet « identifiant invalide » (format) | Ressaisir les 11 chiffres du NISS, renvoyer. |
-| **Numéro de mutuelle inconnu** | Rejet « numéro de mutualité inconnu » | Vérifier la mutuelle et le n° d’affiliation ; privilégier l’identification par NISS ; renvoyer. |
+| **Numéro de mutuelle inconnu** | Rejet « numéro de mutuelle inconnu » | Vérifier la mutuelle et le n° d’affiliation ; privilégier l’identification par NISS ; renvoyer. |
 | **Assurabilité (MDA) non confirmée** | Resthome **bloque l’envoi** : assurabilité pas en ordre | Relancer / mettre à jour la [vérification MDA](../mda/), corriger mutuelle/NISS, réessayer. *(Les notifications de sortie/décès ne sont pas bloquées par ce contrôle.)* |
 | **Données habitant incomplètes** | Rejet « donnée obligatoire manquante » (nom, identifiant) | Compléter la fiche habitant, renvoyer. |
 | **Document (annexe) absent ou mauvais format** | Envoi bloqué si l’annexe est vide ; sinon rejet « format de pièce invalide » | Régénérer / joindre l’Annexe **en PDF**, vérifier qu’elle s’ouvre, renvoyer. |
@@ -4990,7 +4953,7 @@ La note récapitulative regroupe, pour un mois, **tous les habitants d’un mêm
 En-tête de chaque page :
 
 - l’**identification de l’institution** : nom, adresse, téléphone, **n° INAMI** ;
-- l’**identification de la mutualité** : n° (code O.A.) et nom ;
+- l’**identification de la mutuelle** : n° (code O.A.) et nom ;
 - la **période** couverte (« Note récapitulative du … au … — établie le … »).
 
 Le tableau des habitants comporte les colonnes suivantes :
@@ -5300,7 +5263,7 @@ Source : https://www.lplg.eu/resthome/documentation/belgique/sam-base-medicament
 Deux points d’entrée :
 
 - **Consulter** la base de référence — application **Soins** → **Configuration** → **Base SAM** (lecture seule).
-- **Rechercher et importer** — l’assistant **Rechercher SAM**, dans l’application **Maison de repos** → **Configuration** → **Configuration eHealth** → **Rechercher SAM**.
+- **Rechercher et importer** — l’assistant **Rechercher SAM**, dans l’application **Soins** → **Configuration** → **Catalogues de médication** → **Rechercher SAM**.
 
 Une fonctionnalité de l’intégration eHealth
 
@@ -5569,7 +5532,7 @@ Au démarrage : **Acceptation + Mode stub activé**. Vous validez tout le flux s
 
 | Réglage | À quoi ça sert | Valeur recommandée (MR/MRS) |
 | --- | --- | --- |
-| **Contrôle MDA automatique** | Vérifie automatiquement l’assurabilité de chaque habitant avant de générer l’eFact — évite les rejets pour assurabilité invalide (voir [MDA](../ehealth/mda/)). | **Activé** dès que le MDA est en production. |
+| **Contrôle MDA automatique** | Quand vous cliquez sur **Générer** sur une période de facturation, ouvre d’abord le contrôle MDA pour les habitants actifs qui n’ont pas encore de demande pour cette période — évite les rejets pour assurabilité invalide (voir [MDA](../ehealth/mda/)). | **Activé** dès que le MDA est en production. |
 | **Conservation des journaux (jours)** | Nombre de jours pendant lesquels les journaux de communication et d’audit sont conservés ; les plus anciens sont purgés par le cron mensuel. | **2555** (7 ans, obligation légale belge pour les données de santé). |
 | **E-mail de signalement no-facet** | Adresse utilisée par le bouton *Signaler à l’intermut* sur une demande MDA restée « no-facet » (aucune mutuelle n’a répondu dans les 24 h) — à escalader vers le CIN/intermut. | Laissez l’adresse **intermut** par défaut. |
 
@@ -5712,7 +5675,7 @@ Lancez le contrôle **par lot** : sélectionnez les habitants (vous pouvez **col
 
 ### Quand faut-il faire le MDA ?
 
-Faites le MDA **en début de mois**, avant de générer les factures : vous évitez ainsi les rejets eFact ultérieurs dus à une mutuelle erronée ou à une perte d’assurabilité. → [Assurabilité (MDA)](../ehealth/mda/)
+Faites un lot MDA **en début de mois** (**eHealth → Assurabilité → Lots MDA**) : l’assistant de génération charge ses résultats. Ensuite, sur la période générée, **Vérifier MDA** couvre les habitants encore sans requête — toujours **avant** de générer l’eFact. Vous évitez ainsi les rejets eFact ultérieurs dus à une mauvaise mutuelle ou à une perte d’assurabilité. → [Assurabilité (MDA)](../ehealth/mda/)
 
 ### Que signifie « assuré mais pas en ordre » ?
 
@@ -5764,19 +5727,19 @@ L’**eFact** est l’envoi **électronique** de la **part mutuelle** (le forfai
 
 ### Comment générer une période eFact ?
 
-Ouvrez la période du mois en état **Draft** et cliquez **Générer** ; dans l’assistant, laissez **Residents** vide pour tous les habitants actifs et cliquez **Charger MDA**, puis **Generate**. La période passe en **Generated** : Resthome a calculé, pour chaque habitant, le forfait Katz, la part INAMI et la part habitant. → [Facturation électronique (eFact)](../ehealth/efact/)
+Ouvrez la période du mois à l’état **Brouillon** et cliquez sur **Générer** ; dans l’assistant, laissez **Habitants** vide pour tous les habitants actifs (ou pré-remplissez-le avec **Charger MDA Succès** / **Charger MDA en attente**), puis cliquez sur **Générer**. La période passe à l’état **Généré** : Resthome a calculé, pour chaque habitant, le forfait Katz, la part INAMI et la part habitant. → [Facturation électronique (eFact)](../ehealth/efact/)
 
 ### Comment contrôler une période avant de facturer en Belgique ?
 
-Parmi les compteurs en haut de la période, **MDA** et **Katz à faire** sont belges : traitez-les avec les autres, et lancez **Vérifier MDA** pour contrôler l’assurabilité avant de facturer. → [Facturer un mois en Belgique](../facturation/)
+Parmi les compteurs en haut de la période, **MDA** et **Katz à faire** sont belges : traitez-les avec les autres. Lancez ensuite **Vérifier MDA** pour contrôler l’assurabilité, puis **Générer eFact** — tous deux avant **Créer les factures**. → [Facturer un mois en Belgique](../facturation/)
 
 ### Comment générer les lots eFact ?
 
-Une fois les factures comptabilisées (période **Invoiced**), cliquez **Générer eFact** : Resthome constitue les **lots** — un fichier électronique par organisme assureur — puis affiche la liste **Lots eFact** (OA, référence, mois, date limite, statut, montants facturé/accepté/refusé, et code + motif en cas de refus). → [Facturation électronique (eFact)](../ehealth/efact/)
+Une fois la période à l’état **Généré** et le MDA demandé, cliquez sur **Générer eFact** — avant **Créer les factures** ; les lots sont constitués à partir des lignes mutuelle de la période, et non des factures. Resthome constitue les **lots** — un fichier électronique par organisme assureur — puis affiche la liste **Envois eFact** (OA, référence, mois, date limite, statut, montants facturé/accepté/refusé, et code + motif en cas de refus). → [Facturation électronique (eFact)](../ehealth/efact/)
 
 ### Qu’est-ce qu’un lot par union ?
 
-Les envois sont regroupés **par union** (les grandes familles d’OA), pas par petite mutualité individuelle : **100** (Alliance nationale), **300** (Solidaris), **500** (Union nationale), **600** (CAAMI), **900** (HR Rail)… Resthome s’occupe du regroupement. → [Facturation électronique (eFact)](../ehealth/efact/)
+Les envois sont regroupés **par union** (les grandes familles d’OA), pas par petite mutuelle individuelle : **100** (Alliance nationale), **300** (Solidaris), **500** (Union nationale), **600** (CAAMI), **900** (HR Rail)… Resthome s’occupe du regroupement. → [Facturation électronique (eFact)](../ehealth/efact/)
 
 ### Comment envoyer une période eFact et suivre les réponses ?
 
@@ -5800,7 +5763,7 @@ La **date limite d’envoi** de cette période est **dépassée**. Envoyez sans 
 
 ### Comment facturer un mois de A à Z en Belgique ?
 
-Ouvrez la période (**Facturation → Facturation → Périodes de facturation**), cliquez sur **Vérifier MDA**, puis sur **Générer**, **Créer les factures** et **Comptabiliser** pour la part habitant, ensuite sur **Générer eFact** pour envoyer la part mutuelle aux OA, et enfin sur **Récupérer les réponses**. Resthome mène en parallèle, sur la même période, la part habitant (factures classiques) et la part mutuelle (eFact). → [Facturer un mois en Belgique](../facturation/)
+Ouvrez la période (**Facturation → Facturation → Périodes de facturation**), cliquez sur **Générer**, puis sur **Vérifier MDA**, sur **Générer eFact**, sur **Créer les factures** et sur **Confirmer** pour la part habitant. Envoyez les lots eFact aux OA, récupérez les réponses et, enfin, cliquez sur **Clôturer la période**. Le bouton mis en évidence de la période indique toujours l’étape suivante. Resthome mène en parallèle, sur la même période, la part habitant (factures classiques) et la part mutuelle (eFact). → [Facturer un mois en Belgique](../facturation/)
 
 ### Le forfait INAMI est-il réparti entre les débiteurs ?
 
@@ -5921,7 +5884,7 @@ Ce que l’établissement reçoit par jour et par habitant pour une année de fi
 
 La **mutuelle** de l’habitant (*organisme assureur*, OA), destinataire de la part INAMI via eFact. Les mutuelles sont regroupées en grandes **unions**. Voir : [Assurabilité (MDA)](../ehealth/mda/)
 
-## Union de mutualités
+## Union de mutuelles
 
 Les grandes **familles de mutuelles** utilisées pour regrouper les transmissions eFact : **100** (Alliance nationale), **300** (Solidaris), **500** (Union nationale), **600** (CAAMI), **900** (HR Rail)… Voir : [Facturation électronique (eFact)](../ehealth/efact/)
 
@@ -5939,7 +5902,7 @@ Les grandes **familles de mutuelles** utilisées pour regrouper les transmission
 
 ## MyCareNet / WalCareNet
 
-Les **guichets électroniques** des mutualités (via eHealth) que Resthome interroge pour le MDA, l’eAgreement et l’eFact. WalCareNet est le pendant wallon.
+Les **guichets électroniques** des mutuelles (via eHealth) que Resthome interroge pour le MDA, l’eAgreement et l’eFact. WalCareNet est le pendant wallon.
 
 ## NISS
 

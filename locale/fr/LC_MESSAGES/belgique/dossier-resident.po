@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 15:49+0200\n"
+"POT-Creation-Date: 2026-09-23 17:25+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -328,14 +328,21 @@ msgid "Before billing, check that the resident is properly insured:"
 msgstr "Avant de facturer, vérifiez que l'habitant est bien assuré :"
 
 #: ../../content/belgique/dossier-resident.md:98
-msgid "Open the month's billing period, or the resident record."
-msgstr "Ouvrez la période de facturation du mois, ou la fiche de l'habitant."
+msgid "Open the resident record, or the month's billing period."
+msgstr "Ouvrez la fiche de l'habitant, ou la période de facturation du mois."
 
 #: ../../content/belgique/dossier-resident.md:99
-msgid "Run an **MDA check** (MyCareNet/WalCareNet insurability)."
-msgstr "Lancez une **vérification MDA** (assurabilité MyCareNet/WalCareNet)."
+msgid ""
+"Run the MDA check (MyCareNet/WalCareNet insurability): **Verify "
+"Insurability** in the header of the record — shown once the NISS is filled "
+"in — or **Check MDA** on the period, for every resident at once."
+msgstr ""
+"Lancez la vérification MDA (assurabilité MyCareNet/WalCareNet) : **Vérifier "
+"Assurabilité** dans l'en-tête de la fiche — affiché une fois le NISS "
+"renseigné — ou **Vérifier MDA** sur la période, pour tous les habitants en "
+"une fois."
 
-#: ../../content/belgique/dossier-resident.md:100
+#: ../../content/belgique/dossier-resident.md:102
 msgid ""
 "Resthome automatically updates the **Health Insurance** and the **BIM "
 "Status** where applicable."
@@ -343,7 +350,14 @@ msgstr ""
 "Resthome met automatiquement à jour la **Mutuelle** et le **Statut BIM** le "
 "cas échéant."
 
-#: ../../content/belgique/dossier-resident.md:103
+#: ../../content/belgique/dossier-resident.md:105
+msgid ""
+"The **MDA History** button on the record lists the resident's past requests."
+msgstr ""
+"Le bouton **Historique MDA** de la fiche liste les demandes passées de "
+"l'habitant."
+
+#: ../../content/belgique/dossier-resident.md:107
 msgid ""
 "See [Insurability (MDA)](ehealth/mda.md). When a **CPAS** pays for the "
 "resident, the invoice can be addressed to it — see [CPAS coverage](cpas.md)."
@@ -352,11 +366,11 @@ msgstr ""
 "l'habitant, la facture peut lui être adressée — voir [La prise en charge "
 "CPAS](cpas.md)."
 
-#: ../../content/belgique/dossier-resident.md:106
+#: ../../content/belgique/dossier-resident.md:110
 msgid "The sectors: MR, MRS and short stay"
 msgstr "Les secteurs : MR, MRS et court séjour"
 
-#: ../../content/belgique/dossier-resident.md:108
+#: ../../content/belgique/dossier-resident.md:112
 msgid ""
 "The **Stay Type** of a Belgian stay is the sector the home is accredited "
 "for:"
@@ -364,11 +378,11 @@ msgstr ""
 "Le **Type de séjour** d'un séjour belge est le secteur pour lequel la maison"
 " est agréée :"
 
-#: ../../content/belgique/dossier-resident.md:110
+#: ../../content/belgique/dossier-resident.md:114
 msgid "**MR** — maison de repos;"
 msgstr "**MR** — maison de repos pour personnes âgées ;"
 
-#: ../../content/belgique/dossier-resident.md:111
+#: ../../content/belgique/dossier-resident.md:115
 msgid ""
 "**MRS** — maison de repos et de soins, which only takes Katz categories **B "
 "and above**;"
@@ -376,7 +390,7 @@ msgstr ""
 "**MRS** — maison de repos et de soins, qui n'accueille que les catégories "
 "Katz **B et au-delà** ;"
 
-#: ../../content/belgique/dossier-resident.md:113
+#: ../../content/belgique/dossier-resident.md:117
 msgid ""
 "the day care centre (CSJ), when the home runs one — see [Day care centre "
 "(CSJ)](centre-de-jour/index.md)."
@@ -384,7 +398,7 @@ msgstr ""
 "le centre de soins de jour (CSJ), lorsque la maison en exploite un — voir "
 "[Centre de soins de jour (CSJ)](centre-de-jour/index.md)."
 
-#: ../../content/belgique/dossier-resident.md:116
+#: ../../content/belgique/dossier-resident.md:120
 msgid ""
 "A **short stay** (court séjour, 90 days at most) is not a sector: it is a "
 "modality of an **MR** bed, carried by the **Short stay** box. At admission, "
@@ -400,11 +414,11 @@ msgstr ""
 "codes AViQ (123214 à 123516), son propre forfait et la case « Court Séjour "
 "OUI » de l'Annexe 7. Resthome refuse l'indicateur sur tout autre secteur."
 
-#: ../../content/belgique/dossier-resident.md:123
+#: ../../content/belgique/dossier-resident.md:127
 msgid "MRS and the Katz category"
 msgstr "La MRS et la catégorie Katz"
 
-#: ../../content/belgique/dossier-resident.md:126
+#: ../../content/belgique/dossier-resident.md:130
 msgid ""
 "Resthome refuses to **put or keep a stay in MRS** for a resident assessed at"
 " O or A — at admission and at transfer time. A room change is not blocked; "
@@ -417,11 +431,11 @@ msgstr ""
 "MR** signalent l'habitant tant que le transfert n'est pas encodé — voir "
 "[L'évaluation Katz](katz.md)."
 
-#: ../../content/belgique/dossier-resident.md:132
+#: ../../content/belgique/dossier-resident.md:136
 msgid "The Katz category on the record"
 msgstr "La catégorie Katz sur la fiche"
 
-#: ../../content/belgique/dossier-resident.md:134
+#: ../../content/belgique/dossier-resident.md:138
 msgid ""
 "The resident's record shows the **Katz category** (O, A, B, C, Cd) as a "
 "badge, next to the stay type. It is the category declared to the mutualité "
@@ -431,7 +445,7 @@ msgstr ""
 "forme de badge, à côté du type de séjour. C'est la catégorie déclarée à la "
 "mutuelle pour le forfait INAMI de dépendance."
 
-#: ../../content/belgique/dossier-resident.md:138
+#: ../../content/belgique/dossier-resident.md:142
 msgid ""
 "As long as no validated Katz exists, the resident is in category **O** by "
 "default, and a \"Katz to do\" reminder appears on the dashboard. Scoring, "
@@ -444,7 +458,7 @@ msgstr ""
 " Katz](katz.md) ; le forfait lui-même dans [Le forfait INAMI "
 "(dépendance)](forfait-inami.md)."
 
-#: ../../content/belgique/dossier-resident.md:143
+#: ../../content/belgique/dossier-resident.md:147
 msgid ""
 "Validated assessments — Katz and the geriatric scales alike — cannot be "
 "deleted: health data must be retained under the GDPR and the INAMI rules."
@@ -453,11 +467,11 @@ msgstr ""
 " être supprimées : les données de santé doivent être conservées en vertu du "
 "RGPD et des règles de l'INAMI."
 
-#: ../../content/belgique/dossier-resident.md:146
+#: ../../content/belgique/dossier-resident.md:150
 msgid "Annexes at admission and transfer"
 msgstr "Les annexes à l'admission et au transfert"
 
-#: ../../content/belgique/dossier-resident.md:148
+#: ../../content/belgique/dossier-resident.md:152
 msgid ""
 "The stay has two dates. The **stay start date** starts the accommodation "
 "billing; the **Admission Date** is the start of the **INAMI intervention** —"
@@ -468,27 +482,27 @@ msgstr ""
 "l'**intervention INAMI** — la « date d'entrée » de l'Annexe 7, à partir de "
 "laquelle le forfait est payé."
 
-#: ../../content/belgique/dossier-resident.md:123
+#: ../../content/belgique/dossier-resident.md:127
 msgid "Event"
 msgstr "Événement"
 
-#: ../../content/belgique/dossier-resident.md:123
+#: ../../content/belgique/dossier-resident.md:127
 msgid "What Resthome prepares for the mutualité"
 msgstr "Ce que Resthome prépare pour la mutuelle"
 
-#: ../../content/belgique/dossier-resident.md:123
+#: ../../content/belgique/dossier-resident.md:127
 msgid "**Start of the stay**"
 msgstr "**Début du séjour**"
 
-#: ../../content/belgique/dossier-resident.md:123
+#: ../../content/belgique/dossier-resident.md:127
 msgid "The **admission eAgreement** (Annexe 7), when the NISS is present."
 msgstr "L'**eAgreement d'admission** (Annexe 7), lorsque le NISS est présent."
 
-#: ../../content/belgique/dossier-resident.md:123
+#: ../../content/belgique/dossier-resident.md:127
 msgid "**Room change**"
 msgstr "**Changement de chambre**"
 
-#: ../../content/belgique/dossier-resident.md:123
+#: ../../content/belgique/dossier-resident.md:127
 msgid ""
 "Nothing: the INAMI intervention stays continuous, the Admission Date is "
 "unchanged, no new agreement is requested."
@@ -496,11 +510,11 @@ msgstr ""
 "Rien : l'intervention INAMI reste continue, la Date d'admission ne change "
 "pas, aucun nouvel accord n'est demandé."
 
-#: ../../content/belgique/dossier-resident.md:123
+#: ../../content/belgique/dossier-resident.md:127
 msgid "**Internal transfer (MR ↔ MRS)**"
 msgstr "**Transfert interne (MR ↔ MRS)**"
 
-#: ../../content/belgique/dossier-resident.md:123
+#: ../../content/belgique/dossier-resident.md:127
 msgid ""
 "An end-of-stay notice (**Annexe 11**) then a new request (**Annexe 7**); the"
 " Admission Date moves to the transfer date."
@@ -508,21 +522,21 @@ msgstr ""
 "Un avis de fin de séjour (**Annexe 11**) puis une nouvelle demande (**Annexe"
 " 7**) ; la Date d'admission passe à la date du transfert."
 
-#: ../../content/belgique/dossier-resident.md:123
+#: ../../content/belgique/dossier-resident.md:127
 msgid "**Worsening of dependency**"
 msgstr "**Aggravation de la dépendance**"
 
-#: ../../content/belgique/dossier-resident.md:123
+#: ../../content/belgique/dossier-resident.md:127
 msgid "The agreement update (**Annexe 10**), with the new Katz assessment."
 msgstr ""
 "La mise à jour de l'accord (**Annexe 10**), avec la nouvelle évaluation "
 "Katz."
 
-#: ../../content/belgique/dossier-resident.md:123
+#: ../../content/belgique/dossier-resident.md:127
 msgid "**Absence / hospitalization**"
 msgstr "**Absence / hospitalisation**"
 
-#: ../../content/belgique/dossier-resident.md:123
+#: ../../content/belgique/dossier-resident.md:127
 msgid ""
 "The forfait is adjusted, and an eHealth notification (**Annexe 11**) can be "
 "generated."
@@ -530,7 +544,7 @@ msgstr ""
 "Le forfait est ajusté, et une notification eHealth (**Annexe 11**) peut être"
 " générée."
 
-#: ../../content/belgique/dossier-resident.md:160
+#: ../../content/belgique/dossier-resident.md:164
 msgid ""
 "The **Stay Type** is read-only once the stay is confirmed: a bare edit would"
 " produce no document for the mutualité. The **Internal Transfer** button is "
@@ -542,34 +556,40 @@ msgstr ""
 "bouton **Transfert interne** est le seul moyen de changer de secteur — voir "
 "[Transfert interne (MR ↔ MRS)](ehealth/eagreement-transfert.md)."
 
-#: ../../content/belgique/dossier-resident.md:164
+#: ../../content/belgique/dossier-resident.md:168
 msgid "What's next"
 msgstr "Pour continuer"
 
-#: ../../content/belgique/dossier-resident.md:166
+#: ../../content/belgique/dossier-resident.md:170
 msgid "[The Katz assessment](katz.md) — scoring, category and renewal."
 msgstr "[L'évaluation Katz](katz.md) — cotation, catégorie et renouvellement."
 
-#: ../../content/belgique/dossier-resident.md:167
+#: ../../content/belgique/dossier-resident.md:171
 msgid "[Insurability (MDA)](ehealth/mda.md)"
 msgstr "[Assurabilité (MDA)](ehealth/mda.md)"
 
-#: ../../content/belgique/dossier-resident.md:168
+#: ../../content/belgique/dossier-resident.md:172
 msgid "[Agreements (eAgreement)](ehealth/eagreement.md)"
 msgstr "[Accords (eAgreement)](ehealth/eagreement.md)"
 
-#: ../../content/belgique/dossier-resident.md:169
+#: ../../content/belgique/dossier-resident.md:173
 msgid "[Internal transfer (MR ↔ MRS)](ehealth/eagreement-transfert.md)"
 msgstr "[Transfert interne (MR ↔ MRS)](ehealth/eagreement-transfert.md)"
 
-#: ../../content/belgique/dossier-resident.md:170
+#: ../../content/belgique/dossier-resident.md:174
 msgid "[The INAMI dependency allowance](forfait-inami.md)"
 msgstr "[Le forfait INAMI (dépendance)](forfait-inami.md)"
 
-#: ../../content/belgique/dossier-resident.md:171
+#: ../../content/belgique/dossier-resident.md:175
 msgid "[The billing journey](parcours-facturation.md)"
 msgstr "[Le parcours de facturation](parcours-facturation.md)"
 
-#: ../../content/belgique/dossier-resident.md:172
+#: ../../content/belgique/dossier-resident.md:176
 msgid "[Manage a resident](../residents/gerer-un-resident.md)"
 msgstr "[Gérer un habitant](../residents/gerer-un-resident.md)"
+
+#~ msgid "Open the month's billing period, or the resident record."
+#~ msgstr "Ouvrez la période de facturation du mois, ou la fiche de l'habitant."
+
+#~ msgid "Run an **MDA check** (MyCareNet/WalCareNet insurability)."
+#~ msgstr "Lancez une **vérification MDA** (assurabilité MyCareNet/WalCareNet)."

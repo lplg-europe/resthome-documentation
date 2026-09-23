@@ -95,10 +95,14 @@ INIG, CEE or Fedasil.
 
 Before billing, check that the resident is properly insured:
 
-1. Open the month's billing period, or the resident record.
-2. Run an **MDA check** (MyCareNet/WalCareNet insurability).
+1. Open the resident record, or the month's billing period.
+2. Run the MDA check (MyCareNet/WalCareNet insurability): **Verify
+   Insurability** in the header of the record — shown once the NISS is filled
+   in — or **Check MDA** on the period, for every resident at once.
 3. Resthome automatically updates the **Health Insurance** and the **BIM
    Status** where applicable.
+
+The **MDA History** button on the record lists the resident's past requests.
 
 See [Insurability (MDA)](ehealth/mda.md). When a **CPAS** pays for the resident,
 the invoice can be addressed to it — see [CPAS coverage](cpas.md).

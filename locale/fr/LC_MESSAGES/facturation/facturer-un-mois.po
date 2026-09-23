@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 17:05+0200\n"
+"POT-Creation-Date: 2026-09-23 17:25+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -26,11 +26,11 @@ msgstr "Facturer un mois, pas à pas"
 
 #: ../../content/facturation/facturer-un-mois.md:8
 msgid ""
-"Billing a month in a care home with Resthome, step by step: from the period "
-"to sending the insurer's share to the health insurers."
+"Billing a month in a care home with Resthome, step by step: from opening the"
+" period to closing it once the invoices are confirmed."
 msgstr ""
-"Facturer un mois en maison de repos avec Resthome, pas à pas : de la période"
-" à l'envoi de la part de l'assureur aux assureurs santé."
+"Facturer un mois en maison de repos avec Resthome, pas à pas : de "
+"l'ouverture de la période à sa clôture, une fois les factures confirmées."
 
 #: ../../content/facturation/facturer-un-mois.md:12
 msgid "How do I bill a month in Resthome?"
@@ -38,14 +38,12 @@ msgstr "Comment facturer un mois dans Resthome ?"
 
 #: ../../content/facturation/facturer-un-mois.md:13
 msgid ""
-"Open the month's period, check insurability, generate, review (insurability,"
-" dependency assessments, anomalies), create the invoices, post them, then "
-"send the insurer's share to the health insurers and track the responses."
+"Open the month's period, click Generate, review the result, click Create "
+"Invoices, check and confirm the invoices, then close the period."
 msgstr ""
-"Ouvrez la période du mois, vérifiez l'assurabilité, générez, contrôlez "
-"(assurabilité, évaluations de la dépendance, anomalies), créez les factures,"
-" comptabilisez-les, puis envoyez la part de l'assureur aux assureurs santé "
-"et suivez les réponses."
+"Ouvrez la période du mois, cliquez sur Générer, contrôlez le résultat, "
+"cliquez sur Créer les factures, vérifiez et confirmez les factures, puis "
+"clôturez la période."
 
 #: ../../content/facturation/facturer-un-mois.md:15
 msgid "In what order should I bill?"
@@ -53,12 +51,13 @@ msgstr "Dans quel ordre facturer ?"
 
 #: ../../content/facturation/facturer-un-mois.md:16
 msgid ""
-"Always: check insurability → Generate → review → Create invoices → post → "
-"send the insurer's share → track the responses."
+"Always: Generate → review → Create Invoices → confirm the invoices → Close "
+"Period. On the period, the next step is always the leftmost button, "
+"highlighted."
 msgstr ""
-"Toujours : vérifier l'assurabilité → Générer → contrôler → Créer les "
-"factures → comptabiliser → envoyer la part de l'assureur → suivre les "
-"réponses."
+"Toujours : Générer → contrôler → Créer les factures → confirmer les factures"
+" → Clôturer la période. Sur la période, l'étape suivante est toujours le "
+"bouton le plus à gauche, mis en évidence."
 
 #: ../../content/facturation/facturer-un-mois.md:18
 msgid "Can I make corrections after billing?"
@@ -67,151 +66,140 @@ msgstr "Peut-on corriger après avoir facturé ?"
 #: ../../content/facturation/facturer-un-mois.md:19
 msgid ""
 "Yes. Set the resident's invoice back to draft or issue a credit note, then "
-"refresh. Once the insurer's share has been sent, it is corrected on the "
-"insurer's side as well."
+"refresh. Other residents are not affected."
 msgstr ""
 "Oui. Remettez la facture de l'habitant en brouillon ou émettez une note de "
-"crédit, puis actualisez. Une fois la part de l'assureur envoyée, elle se "
-"corrige aussi du côté de l'assureur."
+"crédit, puis actualisez. Les autres habitants ne sont pas concernés."
 
 #: ../../content/facturation/facturer-un-mois.md:22
 msgid ""
 "This guide walks you **from start to finish** through a billing month: open "
-"the period, check insurability, generate the invoices, post them, then "
-"**send the insurer's share** and track the responses. Follow it with "
-"Resthome open alongside: each step tells you **where to click**."
+"the period, generate the billing, create and confirm the invoices, then "
+"close the month. Follow it with Resthome open alongside: each step tells you"
+" **where to click**."
 msgstr ""
 "Ce guide vous accompagne **du début à la fin** d'un mois de facturation : "
-"ouvrir la période, vérifier l'assurabilité, générer les factures, les "
-"comptabiliser, puis **envoyer la part de l'assureur** et suivre les "
-"réponses. Suivez-le en gardant Resthome ouvert à côté : chaque étape indique"
-" **où cliquer**."
+"ouvrir la période, générer la facturation, créer et confirmer les factures, "
+"puis clôturer le mois. Suivez-le en gardant Resthome ouvert à côté : chaque "
+"étape indique **où cliquer**."
 
 #: ../../content/facturation/facturer-un-mois.md:27
 msgid "The idea in two parts"
 msgstr "L'idée en deux parties"
 
 #: ../../content/facturation/facturer-un-mois.md:30
-msgid "Each month is billed in **two flows**:"
-msgstr "Chaque mois se facture en **deux flux** :"
+msgid "Each month can be billed in **two flows**:"
+msgstr "Chaque mois peut se facturer en **deux flux** :"
 
 #: ../../content/facturation/facturer-un-mois.md:32
 msgid ""
 "the **resident's share** — accommodation, supplements and supplement "
 "agreements, care services, medication, adjusted for absences → standard "
-"invoices;"
+"invoices, the subject of this page;"
 msgstr ""
 "la **part habitant** — hébergement, suppléments et conventions de "
 "suppléments, prestations de soins, médicaments, ajustés selon les absences →"
-" factures classiques ;"
+" factures classiques, l'objet de cette page ;"
 
-#: ../../content/facturation/facturer-un-mois.md:34
+#: ../../content/facturation/facturer-un-mois.md:35
 msgid ""
-"the **insurer's share** (the care allowance paid by the health insurer) → "
-"sent to the health insurers, through the electronic exchanges with the "
-"health insurer where the country has them."
+"the **insurer's share** (the care allowance paid by the health insurer), "
+"where the country pack bills one → sent to the health insurers according to "
+"the country's rules."
 msgstr ""
-"la **part de l'assureur** (le forfait de soins payé par l'assureur santé) → "
-"envoyée aux assureurs santé, via les échanges électroniques avec l'assureur "
-"santé là où le pays en dispose."
+"la **part de l'assureur** (le forfait de soins payé par l'assureur santé), "
+"là où le pack pays en facture une → envoyée aux assureurs santé selon les "
+"règles du pays."
 
-#: ../../content/facturation/facturer-un-mois.md:38
+#: ../../content/facturation/facturer-un-mois.md:39
 msgid "Resthome runs them in parallel on a single **period**."
 msgstr "Resthome les mène en parallèle sur une même **période**."
 
-#: ../../content/facturation/facturer-un-mois.md:41
+#: ../../content/facturation/facturer-un-mois.md:42
+#: ../../content/facturation/facturer-un-mois.md:95
+#: ../../content/facturation/facturer-un-mois.md:122
 msgid "In Belgium"
 msgstr "En Belgique"
 
-#: ../../content/facturation/facturer-un-mois.md:44
+#: ../../content/facturation/facturer-un-mois.md:45
 msgid ""
-"The insurer's share is the INAMI allowance, sent through eFact after a "
-"**Check MDA**; each step below has its eHealth counterpart. See [Billing a "
-"month in Belgium](../belgique/facturation.md)."
+"The insurer's share is the INAMI allowance: between **Generate** and "
+"**Create Invoices**, the period adds a **Check MDA** step (insurability) and"
+" a **Generate eFact** step; the batches are then sent and followed up in the"
+" eFact Cockpit before the close. See [Billing a month in "
+"Belgium](../belgique/facturation.md)."
 msgstr ""
-"La part de l'assureur est le forfait INAMI facturé à la mutuelle, envoyé par"
-" eFact après un **Vérifier MDA** ; chaque étape ci-dessous a son équivalent "
-"eHealth. Voir [Facturer un mois en Belgique](../belgique/facturation.md)."
+"La part de l'assureur est le forfait INAMI : entre **Générer** et **Créer "
+"les factures**, la période ajoute une étape **Vérifier MDA** (assurabilité) "
+"et une étape **Générer eFact** ; les lots sont ensuite envoyés et suivis "
+"dans le Cockpit eFact avant la clôture. Voir [Facturer un mois en "
+"Belgique](../belgique/facturation.md)."
 
-#: ../../content/facturation/facturer-un-mois.md:50
+#: ../../content/facturation/facturer-un-mois.md:52
 msgid "Step 1 — Open the month's period"
 msgstr "Étape 1 — Ouvrir la période du mois"
 
-#: ../../content/facturation/facturer-un-mois.md:52
+#: ../../content/facturation/facturer-un-mois.md:54
 msgid "Main menu → **Nursing Home**."
 msgstr "Menu principal → **Maison de repos**."
 
-#: ../../content/facturation/facturer-un-mois.md:53
+#: ../../content/facturation/facturer-un-mois.md:55
 msgid "**Billing → Facturation → Billing Periods**."
 msgstr "**Facturation → Facturation → Périodes de facturation**."
 
-#: ../../content/facturation/facturer-un-mois.md:54
-msgid "Open the month's period, or create it with **New period**."
-msgstr "Ouvrez la période du mois, ou créez-la avec **Nouvelle période**."
-
 #: ../../content/facturation/facturer-un-mois.md:56
-msgid ""
-"The period lists the residents concerned and its **status** at the top "
-"(Draft → Generated → Invoiced → Closed)."
-msgstr ""
-"La période liste les habitants concernés et son **état** en haut (brouillon "
-"→ générée → facturée → clôturée)."
+msgid "Open the month's period, or create it with **New**."
+msgstr "Ouvrez la période du mois, ou créez-la avec **Nouveau**."
 
-#: ../../content/facturation/facturer-un-mois.md:59
-msgid "Step 2 — Check insurability"
-msgstr "Étape 2 — Vérifier l'assurabilité"
-
-#: ../../content/facturation/facturer-un-mois.md:61
+#: ../../content/facturation/facturer-un-mois.md:58
 msgid ""
-"Before billing the insurer, check that everyone is **in order**: each "
-"resident must be insured, with the health insurer you are about to bill."
+"The period shows its **status** at the top (Draft → Generated → Invoiced → "
+"Closed). The button for the next step is always the **leftmost** one, "
+"highlighted."
 msgstr ""
-"Avant de facturer l'assureur, vérifiez que chacun est **en ordre** : chaque "
-"habitant doit être assuré, auprès de l'assureur santé que vous allez "
-"facturer."
+"La période affiche son **état** en haut (Brouillon → Généré → Facturé → "
+"Clôturé). Le bouton de l'étape suivante est toujours celui **le plus à "
+"gauche**, mis en évidence."
+
+#: ../../content/facturation/facturer-un-mois.md:62
+msgid "Step 2 — Generate the billing lines"
+msgstr "Étape 2 — Générer les lignes de facturation"
 
 #: ../../content/facturation/facturer-un-mois.md:64
-msgid "On the period, run the insurability check for all residents at once."
+msgid "Click **Generate**. The **Generate Billing** window opens."
 msgstr ""
-"Sur la période, lancez la vérification d'assurabilité pour tous les "
-"habitants en une fois."
+"Cliquez sur **Générer**. La fenêtre **Générer la facturation** s'ouvre."
 
 #: ../../content/facturation/facturer-un-mois.md:65
 msgid ""
-"Wait for the responses; fix the flagged cases (wrong insurer, loss of "
-"insurability)."
+"Leave **Residents** empty to bill all active residents (or pick one resident"
+" for a specific case), then click **Generate**."
 msgstr ""
-"Attendez les réponses ; corrigez les cas signalés (mutuelle erronée, perte "
-"d'assurabilité)."
+"Laissez **Habitants** vide pour facturer tous les habitants actifs (ou "
+"choisissez un habitant pour un cas particulier), puis cliquez sur "
+"**Générer**."
 
-#: ../../content/facturation/facturer-un-mois.md:68
-msgid "This is the step that avoids rejections later."
-msgstr "C'est l'étape qui évite les rejets plus tard."
-
-#: ../../content/facturation/facturer-un-mois.md:70
-msgid "Step 3 — Generate the billing lines"
-msgstr "Étape 3 — Générer les lignes de facturation"
+#: ../../content/facturation/facturer-un-mois.md:67
+msgid ""
+"For each resident, Resthome computes the **accommodation**, the "
+"**supplements** and **supplement agreements**, the **care services** and the"
+" **medication**, applies the **absences**, and adds the **care allowance** "
+"where the country pack bills one."
+msgstr ""
+"Pour chaque habitant, Resthome calcule l'**hébergement**, les "
+"**suppléments** et **conventions de suppléments**, les **prestations de "
+"soins** et les **médicaments**, applique les **absences** et ajoute le "
+"**forfait de soins** là où le pack pays en facture un."
 
 #: ../../content/facturation/facturer-un-mois.md:72
-msgid "Click **Generate**."
-msgstr "Cliquez **Générer**."
+msgid "The period becomes **Generated**."
+msgstr "La période passe à l'état **Généré**."
 
-#: ../../content/facturation/facturer-un-mois.md:73
-msgid ""
-"For each resident, Resthome computes: **accommodation**, **care allowance** "
-"(on the days present), **supplements** and **supplement agreements**, **care"
-" services**, **medication**, and applies the **absences**."
-msgstr ""
-"Pour chaque habitant, Resthome calcule : **hébergement**, **forfait de "
-"soins** (sur les jours de présence), **suppléments** et **conventions de "
-"suppléments**, **prestations de soins**, **médicaments**, et applique les "
-"**absences**."
-
-#: ../../content/facturation/facturer-un-mois.md:77
+#: ../../content/facturation/facturer-un-mois.md:74
 msgid "Advance billing"
 msgstr "Anticipative"
 
-#: ../../content/facturation/facturer-un-mois.md:80
+#: ../../content/facturation/facturer-un-mois.md:77
 msgid ""
 "Accommodation is billed **one month in advance**; the care allowance and "
 "supplements for the month served. See [Overview](index.md)."
@@ -219,27 +207,88 @@ msgstr ""
 "L'hébergement est facturé **un mois d'avance** ; le forfait de soins et les "
 "suppléments, sur le mois presté. Voir [Vue d'ensemble](index.md)."
 
-#: ../../content/facturation/facturer-un-mois.md:84
+#: ../../content/facturation/facturer-un-mois.md:81
+msgid "Step 3 — Review the result"
+msgstr "Étape 3 — Contrôler le résultat"
+
+#: ../../content/facturation/facturer-un-mois.md:83
+msgid "Before invoicing, read what was generated:"
+msgstr "Avant de facturer, lisez ce qui a été généré :"
+
+#: ../../content/facturation/facturer-un-mois.md:85
+msgid ""
+"the **Residents** tab — one row per resident, with the room, the stay type, "
+"the presence and absence days and the amounts;"
+msgstr ""
+"l'onglet **Habitants** — une ligne par habitant, avec la chambre, le type de"
+" séjour, les jours de présence et d'absence et les montants ;"
+
+#: ../../content/facturation/facturer-un-mois.md:87
+msgid "the **Billing Lines** tab — the detail, line by line;"
+msgstr "l'onglet **Lignes de facturation** — le détail, ligne par ligne ;"
+
+#: ../../content/facturation/facturer-un-mois.md:88
+msgid ""
+"the counters at the top of the period — **Absences** (the absences that "
+"reduced the presence days) and **Unbilled** (the residents absent for the "
+"whole month, not billed at all)."
+msgstr ""
+"les compteurs en haut de la période — **Absences** (les absences qui ont "
+"réduit les jours de présence) et **Non facturés** (les habitants absents "
+"tout le mois, pas facturés du tout)."
+
+#: ../../content/facturation/facturer-un-mois.md:92
+msgid ""
+"A mistake is cheaper to fix now: correct the source (stay, absence, "
+"supplement), then run **Refresh** from the gear menu of the period."
+msgstr ""
+"Une erreur coûte moins cher à corriger maintenant : corrigez la source "
+"(séjour, absence, supplément), puis lancez **Actualiser** depuis le menu "
+"engrenage de la période."
+
+#: ../../content/facturation/facturer-un-mois.md:98
+msgid ""
+"Before creating the invoices, the period asks for two more steps: **Check "
+"MDA** (the insurability of the residents; **Retry Failed MDA** for the "
+"requests that failed), then **Generate eFact**, which builds one batch per "
+"union of mutualities from the period's lines. See [Billing a month in "
+"Belgium](../belgique/facturation.md)."
+msgstr ""
+"Avant de créer les factures, la période demande deux étapes de plus : "
+"**Vérifier MDA** (l'assurabilité des habitants ; **Réessayer les MDA "
+"échoués** pour les demandes en échec), puis **Générer eFact**, qui constitue"
+" un lot par union de mutualités à partir des lignes de la période. Voir "
+"[Facturer un mois en Belgique](../belgique/facturation.md)."
+
+#: ../../content/facturation/facturer-un-mois.md:105
 msgid "Step 4 — Create the invoices (resident's share)"
 msgstr "Étape 4 — Créer les factures (part habitant)"
 
-#: ../../content/facturation/facturer-un-mois.md:86
-msgid "Click **Create invoices**."
-msgstr "Cliquez **Créer les factures**."
+#: ../../content/facturation/facturer-un-mois.md:107
+msgid "Click **Create Invoices**."
+msgstr "Cliquez sur **Créer les factures**."
 
-#: ../../content/facturation/facturer-un-mois.md:87
-msgid "The **draft** invoices for the resident's share are generated."
-msgstr "Les factures **brouillon** de la part habitant sont générées."
+#: ../../content/facturation/facturer-un-mois.md:108
+msgid ""
+"The **draft** invoices for the resident's share are generated, in the "
+"**Invoices** tab."
+msgstr ""
+"Les factures de la part habitant sont générées en **brouillon**, dans "
+"l'onglet **Factures**."
 
-#: ../../content/facturation/facturer-un-mois.md:88
-msgid "Check them, then **Post** them."
-msgstr "Vérifiez-les, puis **Comptabilisez**-les."
+#: ../../content/facturation/facturer-un-mois.md:110
+msgid "Check them, then **Confirm** them."
+msgstr "Vérifiez-les, puis cliquez sur **Confirmer**."
 
-#: ../../content/facturation/facturer-un-mois.md:90
-msgid "A posted invoice \"freezes\" the month"
-msgstr "Une facture comptabilisée « fige » le mois"
+#: ../../content/facturation/facturer-un-mois.md:112
+msgid "The period becomes **Invoiced**."
+msgstr "La période passe à l'état **Facturé**."
 
-#: ../../content/facturation/facturer-un-mois.md:93
+#: ../../content/facturation/facturer-un-mois.md:114
+msgid "A confirmed invoice \"freezes\" the month"
+msgstr "Une facture confirmée « fige » le mois"
+
+#: ../../content/facturation/facturer-un-mois.md:117
 msgid ""
 "Once **posted**, a resident's invoice is locked for that month (protection)."
 " To correct it: set it back to **draft** or issue a **credit note**, then "
@@ -250,67 +299,62 @@ msgstr ""
 "faites une **note de crédit**, puis **Actualisez**. Les autres habitants ne "
 "sont pas touchés."
 
-#: ../../content/facturation/facturer-un-mois.md:98
-msgid "Step 5 — Send the insurer's share"
-msgstr "Étape 5 — Envoyer la part de l'assureur"
-
-#: ../../content/facturation/facturer-un-mois.md:100
+#: ../../content/facturation/facturer-un-mois.md:125
 msgid ""
-"Once the invoices are posted, Resthome prepares the insurer's share, "
-"**grouped by health insurer**, and sends it — through the electronic "
-"exchanges with the health insurer, where the country has them."
+"The eFact batches built before the invoices are then sent to the "
+"mutualities, and their acknowledgements, settlements and rejections followed"
+" up; the period closes only once every batch has reached a final outcome. "
+"See [Billing a month in Belgium](../belgique/facturation.md) and [Electronic"
+" invoicing (eFact)](../belgique/ehealth/efact.md)."
 msgstr ""
-"Une fois les factures comptabilisées, Resthome prépare la part de "
-"l'assureur, **regroupée par assureur santé**, et l'envoie — via les échanges"
-" électroniques avec l'assureur santé, là où le pays en dispose."
+"Les lots eFact constitués avant les factures sont ensuite envoyés aux "
+"mutuelles, et leurs accusés de réception, décomptes et rejets sont suivis ; "
+"la période ne se clôture qu'une fois que chaque lot a atteint un résultat "
+"définitif. Voir [Facturer un mois en Belgique](../belgique/facturation.md) "
+"et [Facturation électronique (eFact)](../belgique/ehealth/efact.md)."
 
-#: ../../content/facturation/facturer-un-mois.md:104
-msgid "Step 6 — Track the responses"
-msgstr "Étape 6 — Suivre les réponses"
+#: ../../content/facturation/facturer-un-mois.md:132
+msgid "Step 5 — Close the period"
+msgstr "Étape 5 — Clôturer la période"
 
-#: ../../content/facturation/facturer-un-mois.md:106
+#: ../../content/facturation/facturer-un-mois.md:134
 msgid ""
-"Bring back the acknowledgements and settlements of the health insurers."
+"Once no invoice is left in draft, click **Close Period**. The month is "
+"locked."
 msgstr ""
-"Récupérez les accusés de réception et les décomptes des assureurs santé."
+"Une fois qu'aucune facture ne reste en brouillon, cliquez sur **Clôturer la "
+"période**. Le mois est verrouillé."
 
-#: ../../content/facturation/facturer-un-mois.md:107
+#: ../../content/facturation/facturer-un-mois.md:136
 msgid ""
-"Each submission moves from **sent** to **acknowledged**, then **accepted** "
-"or **rejected**."
+"If the button does not show, a message under the header says what is still "
+"blocking the close. A closed period can be reopened with **Reopen**."
 msgstr ""
-"Chaque envoi passe de **envoyé** à **accusé**, puis à **accepté** ou "
-"**rejeté**."
+"Si le bouton n'apparaît pas, un message sous l'en-tête indique ce qui bloque"
+" encore la clôture. Une période clôturée peut être rouverte avec "
+"**Rouvrir**."
 
-#: ../../content/facturation/facturer-un-mois.md:109
-msgid ""
-"In case of a **rejection**, fix the cause (insurability, dates, amounts) and"
-" **resend**."
-msgstr ""
-"En cas de **rejet**, corrigez la cause (assurabilité, dates, montants) et "
-"**renvoyez**."
-
-#: ../../content/facturation/facturer-un-mois.md:112
+#: ../../content/facturation/facturer-un-mois.md:139
 msgid "Process recap"
 msgstr "Récapitulatif du parcours"
 
-#: ../../content/facturation/facturer-un-mois.md:129
+#: ../../content/facturation/facturer-un-mois.md:150
 msgid "Going further"
 msgstr "Pour aller plus loin"
 
-#: ../../content/facturation/facturer-un-mois.md:131
+#: ../../content/facturation/facturer-un-mois.md:152
 msgid "[Month-end checklist](checklist-fin-de-mois.md)"
 msgstr "[Check-list de fin de mois](checklist-fin-de-mois.md)"
 
-#: ../../content/facturation/facturer-un-mois.md:132
+#: ../../content/facturation/facturer-un-mois.md:153
 msgid "[Absences and hospitalisations](absences.md)"
 msgstr "[Absences et hospitalisations](absences.md)"
 
-#: ../../content/facturation/facturer-un-mois.md:133
+#: ../../content/facturation/facturer-un-mois.md:154
 msgid "[Departure and death](depart-deces.md)"
 msgstr "[Départ et décès](depart-deces.md)"
 
-#: ../../content/facturation/facturer-un-mois.md:134
+#: ../../content/facturation/facturer-un-mois.md:155
 msgid "[Split billing](../facturation-partagee/index.md)"
 msgstr "[Facturation partagée](../facturation-partagee/index.md)"
 
@@ -394,3 +438,88 @@ msgstr "[Facturation partagée](../facturation-partagee/index.md)"
 
 #~ msgid "[Agreements (eAgreement)](../belgique/ehealth/eagreement.md)"
 #~ msgstr "[Accords (eAgreement)](../belgique/ehealth/eagreement.md)"
+
+#~ msgid ""
+#~ "Open the month's period, check insurability, generate, review (insurability,"
+#~ " dependency assessments, anomalies), create the invoices, post them, then "
+#~ "send the insurer's share to the health insurers and track the responses."
+#~ msgstr ""
+#~ "Ouvrez la période du mois, vérifiez l'assurabilité, générez, contrôlez "
+#~ "(assurabilité, évaluations de la dépendance, anomalies), créez les factures,"
+#~ " comptabilisez-les, puis envoyez la part de l'assureur aux assureurs santé "
+#~ "et suivez les réponses."
+
+#~ msgid ""
+#~ "Always: check insurability → Generate → review → Create invoices → post → "
+#~ "send the insurer's share → track the responses."
+#~ msgstr ""
+#~ "Toujours : vérifier l'assurabilité → Générer → contrôler → Créer les "
+#~ "factures → comptabiliser → envoyer la part de l'assureur → suivre les "
+#~ "réponses."
+
+#~ msgid ""
+#~ "The period lists the residents concerned and its **status** at the top "
+#~ "(Draft → Generated → Invoiced → Closed)."
+#~ msgstr ""
+#~ "La période liste les habitants concernés et son **état** en haut (brouillon "
+#~ "→ générée → facturée → clôturée)."
+
+#~ msgid "Step 2 — Check insurability"
+#~ msgstr "Étape 2 — Vérifier l'assurabilité"
+
+#~ msgid ""
+#~ "Before billing the insurer, check that everyone is **in order**: each "
+#~ "resident must be insured, with the health insurer you are about to bill."
+#~ msgstr ""
+#~ "Avant de facturer l'assureur, vérifiez que chacun est **en ordre** : chaque "
+#~ "habitant doit être assuré, auprès de l'assureur santé que vous allez "
+#~ "facturer."
+
+#~ msgid "On the period, run the insurability check for all residents at once."
+#~ msgstr ""
+#~ "Sur la période, lancez la vérification d'assurabilité pour tous les "
+#~ "habitants en une fois."
+
+#~ msgid ""
+#~ "Wait for the responses; fix the flagged cases (wrong insurer, loss of "
+#~ "insurability)."
+#~ msgstr ""
+#~ "Attendez les réponses ; corrigez les cas signalés (mutuelle erronée, perte "
+#~ "d'assurabilité)."
+
+#~ msgid "This is the step that avoids rejections later."
+#~ msgstr "C'est l'étape qui évite les rejets plus tard."
+
+#~ msgid "Click **Generate**."
+#~ msgstr "Cliquez **Générer**."
+
+#~ msgid "Step 5 — Send the insurer's share"
+#~ msgstr "Étape 5 — Envoyer la part de l'assureur"
+
+#~ msgid ""
+#~ "Once the invoices are posted, Resthome prepares the insurer's share, "
+#~ "**grouped by health insurer**, and sends it — through the electronic "
+#~ "exchanges with the health insurer, where the country has them."
+#~ msgstr ""
+#~ "Une fois les factures comptabilisées, Resthome prépare la part de "
+#~ "l'assureur, **regroupée par assureur santé**, et l'envoie — via les échanges"
+#~ " électroniques avec l'assureur santé, là où le pays en dispose."
+
+#~ msgid ""
+#~ "Bring back the acknowledgements and settlements of the health insurers."
+#~ msgstr ""
+#~ "Récupérez les accusés de réception et les décomptes des assureurs santé."
+
+#~ msgid ""
+#~ "Each submission moves from **sent** to **acknowledged**, then **accepted** "
+#~ "or **rejected**."
+#~ msgstr ""
+#~ "Chaque envoi passe de **envoyé** à **accusé**, puis à **accepté** ou "
+#~ "**rejeté**."
+
+#~ msgid ""
+#~ "In case of a **rejection**, fix the cause (insurability, dates, amounts) and"
+#~ " **resend**."
+#~ msgstr ""
+#~ "En cas de **rejet**, corrigez la cause (assurabilité, dates, montants) et "
+#~ "**renvoyez**."

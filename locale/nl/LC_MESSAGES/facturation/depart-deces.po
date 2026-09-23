@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 15:49+0200\n"
+"POT-Creation-Date: 2026-09-23 17:25+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nl <LL@li.org>\n"
@@ -27,12 +27,11 @@ msgstr "Vertrek en overlijden"
 #: ../../content/facturation/depart-deces.md:8
 msgid ""
 "Close a stay (departure or death) in Resthome — billing stops on the correct"
-" date, automatic credit note for prepaid accommodation, notification to the "
-"health insurer."
+" date, automatic credit note for prepaid accommodation."
 msgstr ""
 "Een verblijf afsluiten (vertrek of overlijden) in Resthome — de facturatie "
 "stopt op de juiste datum, automatische creditnota voor het vooraf "
-"gefactureerde verblijf, melding aan de zorgverzekeraar."
+"gefactureerde verblijf."
 
 #: ../../content/facturation/depart-deces.md:12
 msgid "How do I close a stay on departure or death?"
@@ -40,12 +39,13 @@ msgstr "Hoe sluit ik een verblijf af bij vertrek of overlijden?"
 
 #: ../../content/facturation/depart-deces.md:13
 msgid ""
-"Open the resident's record and their stay, enter the departure date and time"
-" with the reason (departure, death, transfer...), then validate the closure."
+"Open the resident's stay and click End Stay. Enter the end date and time "
+"with the departure reason (death, external transfer, return home...), then "
+"confirm with End Stay."
 msgstr ""
-"Open het dossier van de bewoner en zijn verblijf, vul de datum en het uur "
-"van vertrek in met de reden (vertrek, overlijden, overdracht…), en bevestig "
-"de afsluiting."
+"Open het verblijf van de bewoner en klik op Verblijf beëindigen. Vul de "
+"einddatum en -tijd in met de reden van vertrek (overlijden, externe "
+"overplaatsing, terugkeer naar huis…), en bevestig met Verblijf beëindigen."
 
 #: ../../content/facturation/depart-deces.md:15
 msgid "Does Resthome issue a credit note automatically?"
@@ -77,22 +77,10 @@ msgstr ""
 "gefactureerd op de werkelijk gepresteerde maand."
 
 #: ../../content/facturation/depart-deces.md:21
-msgid "Is the health insurer notified of the departure?"
-msgstr "Wordt de zorgverzekeraar op de hoogte gebracht van het vertrek?"
-
-#: ../../content/facturation/depart-deces.md:22
-msgid ""
-"Where the country requires it, yes: the closure prepares the departure "
-"notification to the resident's health insurer."
-msgstr ""
-"Ja, waar het land dat vereist: de afsluiting bereidt de vertrekmelding naar "
-"de zorgverzekeraar van de bewoner voor."
-
-#: ../../content/facturation/depart-deces.md:24
 msgid "Can I reopen a stay closed by mistake?"
 msgstr "Kan ik een per vergissing afgesloten verblijf heropenen?"
 
-#: ../../content/facturation/depart-deces.md:25
+#: ../../content/facturation/depart-deces.md:22
 msgid ""
 "Yes. Resthome restores billing and cancels the adjustments, as long as they "
 "are not yet final. If the month is already posted, go through a reset to "
@@ -102,43 +90,45 @@ msgstr ""
 "die nog niet definitief zijn. Als de maand al geboekt is, ga dan eerst via "
 "een terugzetting naar concept of een creditnota."
 
-#: ../../content/facturation/depart-deces.md:28
+#: ../../content/facturation/depart-deces.md:25
 msgid ""
 "When a resident leaves the facility or passes away, all you need to do is "
-"**close their stay**: Resthome stops billing on the correct date, prepares "
-"the **adjustment** for what was billed in advance, and notifies the health "
-"insurer of the departure where the country requires it."
+"**close their stay**: Resthome stops billing on the correct date and "
+"prepares the **adjustment** for what was billed in advance."
 msgstr ""
 "Wanneer een bewoner de instelling verlaat of overlijdt, volstaat het om zijn"
-" **verblijf af te sluiten**: Resthome stopt de facturatie op de juiste "
-"datum, bereidt de **regularisatie** voor van wat vooraf werd gefactureerd, "
-"en meldt het vertrek aan de zorgverzekeraar waar het land dat vereist."
+" **verblijf af te sluiten**: Resthome stopt de facturatie op de juiste datum"
+" en bereidt de **regularisatie** voor van wat vooraf werd gefactureerd."
 
-#: ../../content/facturation/depart-deces.md:30
+#: ../../content/facturation/depart-deces.md:27
 msgid "Close the stay"
 msgstr "Het verblijf afsluiten"
 
-#: ../../content/facturation/depart-deces.md:32
+#: ../../content/facturation/depart-deces.md:29
 msgid "Open the resident's record → their **stay**."
 msgstr "Open de fiche van de bewoner → zijn **verblijf**."
 
-#: ../../content/facturation/depart-deces.md:33
+#: ../../content/facturation/depart-deces.md:30
+msgid "Click **End Stay**."
+msgstr "Klik op **Verblijf beëindigen**."
+
+#: ../../content/facturation/depart-deces.md:31
 msgid ""
-"Enter the **departure date** (and the time), with the **reason** (departure,"
-" death, transfer…)."
+"Enter the **End Date & Time** and the **Departure Reason** (death, external "
+"transfer, return home…)."
 msgstr ""
-"Geef de **vertrekdatum** (en het uur) op, met de **reden** (vertrek, "
-"overlijden, overdracht…)."
+"Vul de **Einddatum en -tijd** en de **Reden van vertrek** in (overlijden, "
+"externe overplaatsing, terugkeer naar huis…)."
+
+#: ../../content/facturation/depart-deces.md:32
+msgid "Click **End Stay** to confirm."
+msgstr "Klik op **Verblijf beëindigen** om te bevestigen."
 
 #: ../../content/facturation/depart-deces.md:34
-msgid "**Validate** the closure."
-msgstr "**Valideer** de afsluiting."
-
-#: ../../content/facturation/depart-deces.md:36
 msgid "What Resthome does automatically"
 msgstr "Wat Resthome automatisch doet"
 
-#: ../../content/facturation/depart-deces.md:38
+#: ../../content/facturation/depart-deces.md:36
 msgid ""
 "**Billing stops** on the correct date: nothing is billed after the "
 "departure."
@@ -146,7 +136,7 @@ msgstr ""
 "**Stop van de facturatie** op de juiste datum: na het vertrek wordt niets "
 "meer gefactureerd."
 
-#: ../../content/facturation/depart-deces.md:39
+#: ../../content/facturation/depart-deces.md:37
 msgid ""
 "**Credit note for prepaid accommodation**: since accommodation is billed "
 "**one month in advance** (anticipatory billing), if the resident leaves "
@@ -160,37 +150,27 @@ msgstr ""
 " tijdens een reeds gefactureerde maand, om de niet-bewoonde periode terug te"
 " betalen. U wordt **verwittigd** van de aanmaak ervan."
 
-#: ../../content/facturation/depart-deces.md:40
-msgid ""
-"**Notification to the health insurer**: where the country requires it, the "
-"departure prepares the departure notification to the resident's health "
-"insurer, through the electronic exchanges with the health insurer."
-msgstr ""
-"**Melding aan de zorgverzekeraar**: waar het land dat vereist, bereidt het "
-"vertrek de vertrekmelding naar de zorgverzekeraar van de bewoner voor, via "
-"de elektronische uitwisselingen met de zorgverzekeraar."
-
-#: ../../content/facturation/depart-deces.md:42
+#: ../../content/facturation/depart-deces.md:39
 msgid "In Belgium"
 msgstr "In België"
 
-#: ../../content/facturation/depart-deces.md:45
+#: ../../content/facturation/depart-deces.md:42
 msgid ""
-"The closure prepares the Annexe 11 departure notification to the mutuality, "
-"and the INAMI allowance stops at the end of the INAMI intervention. See "
-"[Billing a month in Belgium](../belgique/facturation.md) and [Agreements "
-"(eAgreement)](../belgique/ehealth/eagreement.md)."
+"The closure also prepares the Annexe 11 departure notification to the "
+"mutuality, and the INAMI allowance stops at the end of the INAMI "
+"intervention. See [Billing a month in Belgium](../belgique/facturation.md) "
+"and [Agreements (eAgreement)](../belgique/ehealth/eagreement.md)."
 msgstr ""
-"De afsluiting bereidt de vertrekmelding Bijlage 11 naar het ziekenfonds "
+"De afsluiting bereidt ook de vertrekmelding Bijlage 11 naar het ziekenfonds "
 "voor, en het RIZIV-forfait stopt op het einde van de RIZIV-tussenkomst. Zie "
 "[Een maand factureren in België](../belgique/facturation.md) en [Akkoorden "
 "(eAgreement)](../belgique/ehealth/eagreement.md)."
 
-#: ../../content/facturation/depart-deces.md:51
+#: ../../content/facturation/depart-deces.md:48
 msgid "Anticipatory billing, in plain terms"
 msgstr "Anticipatieve facturatie, in klare taal"
 
-#: ../../content/facturation/depart-deces.md:54
+#: ../../content/facturation/depart-deces.md:51
 msgid ""
 "One month of accommodation is billed **the previous month**. That is why a "
 "departure partway through a month gives rise to a **refund** (credit note): "
@@ -204,11 +184,11 @@ msgstr ""
 " vertrek geregulariseerd. Het zorgforfait en de supplementen worden wél "
 "gefactureerd op de werkelijk gepresteerde maand."
 
-#: ../../content/facturation/depart-deces.md:57
+#: ../../content/facturation/depart-deces.md:54
 msgid "Reopen a stay closed by mistake"
 msgstr "Een per vergissing afgesloten verblijf heropenen"
 
-#: ../../content/facturation/depart-deces.md:59
+#: ../../content/facturation/depart-deces.md:56
 msgid ""
 "If you closed a stay in error (or in the case of a death recorded by "
 "mistake), you can **reopen** it: Resthome restores billing and cancels the "
@@ -218,11 +198,11 @@ msgstr ""
 "geregistreerd), dan kunt u het **heropenen**: Resthome herstelt de "
 "facturatie en annuleert de regularisaties zolang ze niet definitief zijn."
 
-#: ../../content/facturation/depart-deces.md:61
+#: ../../content/facturation/depart-deces.md:58
 msgid "If the month is already posted"
 msgstr "Als de maand al geboekt is"
 
-#: ../../content/facturation/depart-deces.md:64
+#: ../../content/facturation/depart-deces.md:61
 msgid ""
 "As everywhere, if the invoice in question is already **posted**, the "
 "correction goes first through a **reset to draft** or a **credit note**, "
@@ -232,19 +212,19 @@ msgstr ""
 "correctie eerst via een **terugzetten naar concept** of een **creditnota**, "
 "en daarna een **vernieuwing**. De andere bewoners worden niet geraakt."
 
-#: ../../content/facturation/depart-deces.md:67
+#: ../../content/facturation/depart-deces.md:64
 msgid "Further reading"
 msgstr "Verder"
 
-#: ../../content/facturation/depart-deces.md:69
+#: ../../content/facturation/depart-deces.md:66
 msgid "[Absences and hospitalizations](absences.md)"
 msgstr "[Afwezigheden en hospitalisaties](absences.md)"
 
-#: ../../content/facturation/depart-deces.md:70
+#: ../../content/facturation/depart-deces.md:67
 msgid "[Split billing](../facturation-partagee/index.md)"
 msgstr "[Gedeelde facturatie](../facturation-partagee/index.md)"
 
-#: ../../content/facturation/depart-deces.md:71
+#: ../../content/facturation/depart-deces.md:68
 msgid "[Billing overview](index.md)"
 msgstr "[Facturatie-overzicht](index.md)"
 
@@ -259,3 +239,32 @@ msgstr "[Facturatie-overzicht](index.md)"
 
 #~ msgid "[Agreements (eAgreement)](../belgique/ehealth/eagreement.md)"
 #~ msgstr "[Akkoorden (eAgreement)](../belgique/ehealth/eagreement.md)"
+
+#~ msgid "Is the health insurer notified of the departure?"
+#~ msgstr "Wordt de zorgverzekeraar op de hoogte gebracht van het vertrek?"
+
+#~ msgid ""
+#~ "Where the country requires it, yes: the closure prepares the departure "
+#~ "notification to the resident's health insurer."
+#~ msgstr ""
+#~ "Ja, waar het land dat vereist: de afsluiting bereidt de vertrekmelding naar "
+#~ "de zorgverzekeraar van de bewoner voor."
+
+#~ msgid ""
+#~ "Enter the **departure date** (and the time), with the **reason** (departure,"
+#~ " death, transfer…)."
+#~ msgstr ""
+#~ "Geef de **vertrekdatum** (en het uur) op, met de **reden** (vertrek, "
+#~ "overlijden, overdracht…)."
+
+#~ msgid "**Validate** the closure."
+#~ msgstr "**Valideer** de afsluiting."
+
+#~ msgid ""
+#~ "**Notification to the health insurer**: where the country requires it, the "
+#~ "departure prepares the departure notification to the resident's health "
+#~ "insurer, through the electronic exchanges with the health insurer."
+#~ msgstr ""
+#~ "**Melding aan de zorgverzekeraar**: waar het land dat vereist, bereidt het "
+#~ "vertrek de vertrekmelding naar de zorgverzekeraar van de bewoner voor, via "
+#~ "de elektronische uitwisselingen met de zorgverzekeraar."

@@ -100,7 +100,7 @@ point to the cause.
 
 | Cause | What you see | Action in Resthome |
 |---|---|---|
-| **Invalid or missing insurability (MDA)** | The **MDA** counter is not green; batch held back at sending; or an OA rejection for insurability | Run **Check MDA**, get the **Success** status for each resident, then **regenerate** the eFact. The MDA must be validated **before** generating. |
+| **Invalid or missing insurability (MDA)** | The **MDA** counter is not green; batch held back at sending; or an OA rejection for insurability | Run **Check MDA**, get the **Success** status for each resident, then **regenerate** the eFact. The MDA must be validated **before** generating the eFact. |
 | **Wrong or missing mutuality** | The allowance goes to the wrong OA (rejection) or does not appear in the batch | Enter/correct the **mutuality** on the resident's record, then **regenerate**. Check that each resident invoiced under third-party payment does have a mutuality. |
 | **Allowance declared beyond the end of the intervention** | Self-check: **"Over-declared OA allowance"**; the OA refuses the extra days | Issue a **credit note / remainder** for the over-declared days (see below). |
 | **Room freed / death — accommodation still invoiced** | Self-check: **over-invoicing**; refusal of the undue days | **Close the accommodation** on the correct date + **credit note**. |
@@ -186,8 +186,9 @@ the batch log:
 
 ## Key points
 
-- **Prevent rather than cure**: handle the **self-check** messages and validate
-  the **MDA** before invoicing — this way, most rejections are avoided.
+- **Prevent rather than cure**: handle the **self-check** messages and run
+  **Check MDA** before **Generate eFact** — this way, most rejections are
+  avoided.
 - A **partial rejection** is fixed **line by line**; a **global rejection** is
   **resent as a new batch**.
 - An **over-invoicing** (departure, death, over-declared allowance) is corrected

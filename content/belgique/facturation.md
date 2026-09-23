@@ -10,10 +10,10 @@ What Belgium adds to the monthly billing in Resthome: the INAMI allowance and it
 
 :::{rh-faq}
 In what order do I bill a month in Belgium?
-: Check MDA → Generate → review (MDA, Katz, anomalies) → Create invoices → post → Generate eFact → send → track the responses. Insurability (MDA) always comes before the invoices.
+: Generate → Check MDA → Generate eFact → Create Invoices → confirm the invoices → send the batches and track the responses → Close Period. On the period, the next step is always the highlighted button on the left.
 
-Why must the MDA come before generating the period?
-: Because the MDA determines the health insurance fund and the insurability of each resident. Generating before it means billing the wrong insurer, and the eFact batch comes back rejected.
+Why must the MDA come before the eFact?
+: Because the MDA determines the health insurance fund and the insurability of each resident. Sending the eFact before it means billing the wrong insurer, and the batch comes back rejected. You can also run a batch MDA at the start of the month, before generating: the generation wizard then loads its results.
 
 Can I make corrections after billing?
 : As long as the eFact has not been sent, you can set the period back to draft. After sending, correct through a credit note or a corrective batch.
@@ -75,17 +75,26 @@ sectors. A supplement convention survives an **MR ↔ MRS** transfer.
 ## The month, step by step, on the Belgian side
 
 The common guide [Billing a month, step by step](../facturation/facturer-un-mois.md)
-gives the sequence. In Belgium, each step has its eHealth counterpart:
+gives the sequence common to every country. In Belgium, it gains its eHealth
+steps:
 
 1. **Open the period** in **Billing → Facturation → Billing Periods**.
-2. **Check insurability** — on the period, click **Check MDA** (batch check),
-   wait for the responses, and fix the flagged cases (wrong mutuality, loss of
-   insurability). See [Insurability (MDA)](ehealth/mda.md).
-3. **Generate** — the allowance is computed on the days of presence over the
-   **INAMI intervention period**, with the billed Katz category.
-4. **Create the invoices** (resident's share), check them, then **post** them.
-5. **Generate eFact** — Resthome builds the eFact **batches**, grouped **by
-   union** of mutualities.
+2. **Generate** — in the **Generate Billing** window, **Load MDA Success** (and
+   **Load MDA Pending**) pre-fill the residents whose insurability was already
+   checked, for instance by a batch MDA run at the start of the month. The
+   allowance is computed on the days of presence over the **INAMI intervention
+   period**, with the billed Katz category. The period becomes **Generated**.
+3. **Check insurability** — click **Check MDA**: one request per resident of the
+   period, sent as a batch. The step is done as soon as every resident billed to
+   a mutuality has a request — the responses may come later. Fix the flagged
+   cases (wrong mutuality, loss of insurability); **Retry Failed MDA** resends
+   the requests that ended in an error. See [Insurability (MDA)](ehealth/mda.md).
+4. **Generate eFact** — in the **Generate eFact Batches** window, click
+   **Generate Batches**: Resthome builds the eFact **batches** from the
+   period's mutuality lines, grouped **by union** of mutualities. A resident
+   with no Katz assessment blocks this step.
+5. **Create Invoices** — the resident's share becomes **draft** invoices; check
+   them, then **Confirm** them. The period becomes **Invoiced**.
 6. **Send** — open **eHealth → eFact → Cockpit** (or the batches) and click
    **Send all**, or send batch by batch. The submissions go out to the insurers
    through the eHealth network.
@@ -93,8 +102,17 @@ gives the sequence. In Belgium, each step has its eHealth counterpart:
    acknowledgements and settlements. Each batch moves through **Sent →
    Acknowledged → Accepted / Rejected**. In case of a **rejection**, fix the
    cause (insurability, dates, amounts) and **resend**.
-8. **Print the expense notes** — [Annexe 12](note-de-frais-annexe12.md),
+8. **Close Period** — possible once no invoice is left in draft, every batch has
+   reached a final outcome, no mutuality line is outside a batch and every
+   service refused by the insurer has been corrected.
+9. **Print the expense notes** — [Annexe 12](note-de-frais-annexe12.md),
    individual and summary, once the month is billed.
+
+The period points at the next step itself: its highlighted button (and the
+**To do** column of the **Billing Periods** list) reads **Check insurability
+(MDA)**, then **Generate the eFact envoi**, then **Create the invoices**. The
+order is advice, not a lock: **Check MDA** and **Generate eFact** stay available
+on an **Invoiced** period, for a resident added late or a batch rebuilt.
 
 The screens, the pre-send checks and the advanced buttons are described in
 [Electronic invoicing (eFact)](ehealth/efact.md); the whole journey from
@@ -103,7 +121,7 @@ admission to payment is in [The billing journey](parcours-facturation.md).
 ## The month-end checklist, eHealth side
 
 The [Month-end checklist](../facturation/checklist-fin-de-mois.md) applies as is.
-In Belgium, its steps read as follows.
+In Belgium, it gains the following eHealth steps.
 
 ### Insurability (MDA)
 
@@ -114,7 +132,8 @@ telling you is caught here — not by an eFact rejection three weeks later.
 - Every resident must reach the **Success** status.
 - Handle the **Not insured** cases: their share goes to the resident, not to the
   mutuality.
-- Retry the **errors** and the **no-responses**.
+- Retry the **errors** and the **no-responses** — on the period, **Retry
+  Failed MDA** resends the requests that ended in an error.
 
 → [Insurability (MDA)](ehealth/mda.md) · [MDA errors](ehealth/mda-erreurs.md)
 
@@ -122,8 +141,9 @@ telling you is caught here — not by an eFact rejection three weeks later.
 :class: tip
 
 Most eFact rejections come from a wrong mutuality or a lost insurability.
-Running the MDA at the **start** of the month, before anything else, removes
-that whole class of problems.
+Running a batch MDA at the **start** of the month (**eHealth → Insurability →
+MDA Batches**), then **Check MDA** on the generated period for anyone left,
+removes that whole class of problems before the eFact leaves.
 :::
 
 ### Katz assessments
@@ -137,8 +157,8 @@ to do** counter lists them.
 
 ### eFact batches and responses
 
-**Generate eFact** builds one batch per insurer (per union of mutualities).
-Check them, then send. Each batch then goes through an **acknowledgement** and a
+**Generate eFact** builds one batch per insurer (per union of mutualities),
+right after the MDA and before the invoices. Check them, then send. Each batch then goes through an **acknowledgement** and a
 **settlement**:
 
 - **rejected lines** — fix the cause and issue a remainder;

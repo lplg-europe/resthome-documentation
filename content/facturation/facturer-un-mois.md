@@ -1,39 +1,40 @@
 ---
-modules: [healthcare_accommodation_billing, l10n_health_be_perdiem_ehealth, l10n_health_be_efact]
+modules: [healthcare_accommodation_billing]
 ---
 
 # Billing a month, step by step
 
 :::{rh-description}
-Billing a month in a care home with Resthome, step by step: from the period to sending the insurer's share to the health insurers.
+Billing a month in a care home with Resthome, step by step: from opening the period to closing it once the invoices are confirmed.
 :::
 
 :::{rh-faq}
 How do I bill a month in Resthome?
-: Open the month's period, check insurability, generate, review (insurability, dependency assessments, anomalies), create the invoices, post them, then send the insurer's share to the health insurers and track the responses.
+: Open the month's period, click Generate, review the result, click Create Invoices, check and confirm the invoices, then close the period.
 
 In what order should I bill?
-: Always: check insurability → Generate → review → Create invoices → post → send the insurer's share → track the responses.
+: Always: Generate → review → Create Invoices → confirm the invoices → Close Period. On the period, the next step is always the leftmost button, highlighted.
 
 Can I make corrections after billing?
-: Yes. Set the resident's invoice back to draft or issue a credit note, then refresh. Once the insurer's share has been sent, it is corrected on the insurer's side as well.
+: Yes. Set the resident's invoice back to draft or issue a credit note, then refresh. Other residents are not affected.
 :::
 
 This guide walks you **from start to finish** through a billing month: open the
-period, check insurability, generate the invoices, post them, then **send the
-insurer's share** and track the responses. Follow it with Resthome open
-alongside: each step tells you **where to click**.
+period, generate the billing, create and confirm the invoices, then close the
+month. Follow it with Resthome open alongside: each step tells you **where to
+click**.
 
 :::{admonition} The idea in two parts
 :class: tip
 
-Each month is billed in **two flows**:
+Each month can be billed in **two flows**:
 
-- the **resident's share** — accommodation, supplements and supplement agreements,
-  care services, medication, adjusted for absences → standard invoices;
-- the **insurer's share** (the care allowance paid by the health insurer) → sent
-  to the health insurers, through the electronic exchanges with the health
-  insurer where the country has them.
+- the **resident's share** — accommodation, supplements and supplement
+  agreements, care services, medication, adjusted for absences → standard
+  invoices, the subject of this page;
+- the **insurer's share** (the care allowance paid by the health insurer), where
+  the country pack bills one → sent to the health insurers according to the
+  country's rules.
 
 Resthome runs them in parallel on a single **period**.
 :::
@@ -41,9 +42,10 @@ Resthome runs them in parallel on a single **period**.
 :::{admonition} In Belgium
 :class: rh-country rh-country-be
 
-The insurer's share is the INAMI
-allowance, sent through eFact after a **Check MDA**; each step below has its
-eHealth counterpart. See
+The insurer's share is the INAMI allowance: between **Generate** and **Create
+Invoices**, the period adds a **Check MDA** step (insurability) and a
+**Generate eFact** step; the batches are then sent and followed up in the eFact
+Cockpit before the close. See
 [Billing a month in Belgium](../belgique/facturation.md).
 :::
 
@@ -51,28 +53,23 @@ eHealth counterpart. See
 
 1. Main menu → **Nursing Home**.
 2. **Billing → Facturation → Billing Periods**.
-3. Open the month's period, or create it with **New period**.
+3. Open the month's period, or create it with **New**.
 
-The period lists the residents concerned and its **status** at the top (Draft →
-Generated → Invoiced → Closed).
+The period shows its **status** at the top (Draft → Generated → Invoiced →
+Closed). The button for the next step is always the **leftmost** one,
+highlighted.
 
-## Step 2 — Check insurability
+## Step 2 — Generate the billing lines
 
-Before billing the insurer, check that everyone is **in order**: each resident
-must be insured, with the health insurer you are about to bill.
+1. Click **Generate**. The **Generate Billing** window opens.
+2. Leave **Residents** empty to bill all active residents (or pick one
+   resident for a specific case), then click **Generate**.
+3. For each resident, Resthome computes the **accommodation**, the
+   **supplements** and **supplement agreements**, the **care services** and the
+   **medication**, applies the **absences**, and adds the **care allowance**
+   where the country pack bills one.
 
-1. On the period, run the insurability check for all residents at once.
-2. Wait for the responses; fix the flagged cases (wrong insurer, loss of
-   insurability).
-
-This is the step that avoids rejections later.
-
-## Step 3 — Generate the billing lines
-
-1. Click **Generate**.
-2. For each resident, Resthome computes: **accommodation**, **care allowance**
-   (on the days present), **supplements** and **supplement agreements**, **care
-   services**, **medication**, and applies the **absences**.
+The period becomes **Generated**.
 
 :::{admonition} Advance billing
 :class: note
@@ -81,13 +78,40 @@ Accommodation is billed **one month in advance**; the care allowance and
 supplements for the month served. See [Overview](index.md).
 :::
 
+## Step 3 — Review the result
+
+Before invoicing, read what was generated:
+
+- the **Residents** tab — one row per resident, with the room, the stay type,
+  the presence and absence days and the amounts;
+- the **Billing Lines** tab — the detail, line by line;
+- the counters at the top of the period — **Absences** (the absences that
+  reduced the presence days) and **Unbilled** (the residents absent for the
+  whole month, not billed at all).
+
+A mistake is cheaper to fix now: correct the source (stay, absence,
+supplement), then run **Refresh** from the gear menu of the period.
+
+:::{admonition} In Belgium
+:class: rh-country rh-country-be
+
+Before creating the invoices, the period asks for two more steps: **Check MDA**
+(the insurability of the residents; **Retry Failed MDA** for the requests that
+failed), then **Generate eFact**, which builds one batch per union of
+mutualities from the period's lines. See
+[Billing a month in Belgium](../belgique/facturation.md).
+:::
+
 ## Step 4 — Create the invoices (resident's share)
 
-1. Click **Create invoices**.
-2. The **draft** invoices for the resident's share are generated.
-3. Check them, then **Post** them.
+1. Click **Create Invoices**.
+2. The **draft** invoices for the resident's share are generated, in the
+   **Invoices** tab.
+3. Check them, then **Confirm** them.
 
-:::{admonition} A posted invoice "freezes" the month
+The period becomes **Invoiced**.
+
+:::{admonition} A confirmed invoice "freezes" the month
 :class: warning
 
 Once **posted**, a resident's invoice is locked for that month (protection). To
@@ -95,35 +119,32 @@ correct it: set it back to **draft** or issue a **credit note**, then **Refresh*
 Other residents are not affected.
 :::
 
-## Step 5 — Send the insurer's share
+:::{admonition} In Belgium
+:class: rh-country rh-country-be
 
-Once the invoices are posted, Resthome prepares the insurer's share, **grouped
-by health insurer**, and sends it — through the electronic exchanges with the
-health insurer, where the country has them.
+The eFact batches built before the invoices are then sent to the mutualities,
+and their acknowledgements, settlements and rejections followed up; the period
+closes only once every batch has reached a final outcome. See
+[Billing a month in Belgium](../belgique/facturation.md) and
+[Electronic invoicing (eFact)](../belgique/ehealth/efact.md).
+:::
 
-## Step 6 — Track the responses
+## Step 5 — Close the period
 
-1. Bring back the acknowledgements and settlements of the health insurers.
-2. Each submission moves from **sent** to **acknowledged**, then **accepted** or
-   **rejected**.
-3. In case of a **rejection**, fix the cause (insurability, dates, amounts) and
-   **resend**.
+Once no invoice is left in draft, click **Close Period**. The month is locked.
+
+If the button does not show, a message under the header says what is still
+blocking the close. A closed period can be reopened with **Reopen**.
 
 ## Process recap
 
 ```mermaid
 graph TD
-  A[Open the period] --> B[Check insurability]
-  B --> C[Generate]
-  C --> D[Create invoices]
-  D --> E[Post]
-  E --> F[Prepare the insurer's share]
-  F --> G[Send to insurers]
-  G --> H[Fetch responses]
-  H --> I{Accepted?}
-  I -->|Yes| J[Done]
-  I -->|Rejected| K[Correct and resend]
-  K --> G
+  A[Open the period] --> B[Generate]
+  B --> C[Review]
+  C --> D[Create Invoices]
+  D --> E[Confirm the invoices]
+  E --> F[Close Period]
 ```
 
 ## Going further

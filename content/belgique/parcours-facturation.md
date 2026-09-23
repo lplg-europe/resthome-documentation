@@ -32,8 +32,9 @@ Admission ─► MDA ─► eAgreement ─► Katz ─► eFact ─► Payment
    prepared for the mutuality.
 4. **Katz evaluation** — Score the dependency: the Katz category is declared to
    the mutuality for the INAMI allowance.
-5. **Electronic invoicing (eFact)** — Generate the period, create the invoices
-   and send the mutuality share to the insurance organisations.
+5. **Electronic invoicing (eFact)** — Generate the period, check the MDA,
+   generate the eFact, create the resident invoices, then send the mutuality
+   share to the insurance organisations.
    → [Billing a month in Belgium](facturation.md) · [Electronic invoicing (eFact)](ehealth/efact.md)
 6. **Payment / settlement** — The resident share is invoiced, the mutuality
    share is followed up to the insurer's settlement (acknowledgement,
@@ -43,7 +44,7 @@ Admission ─► MDA ─► eAgreement ─► Katz ─► eFact ─► Payment
 :class: tip
 **Insurability (MDA)** at the start of the month and a **validated Katz
 evaluation** are the two prerequisites that avoid most eFact rejections. Handle
-them before generating the invoices.
+them before generating the eFact — which comes before the invoices.
 :::
 
 ## What's next

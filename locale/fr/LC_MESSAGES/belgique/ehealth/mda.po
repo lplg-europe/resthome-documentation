@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-04 16:28+0200\n"
+"POT-Creation-Date: 2026-09-23 17:25+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -364,15 +364,19 @@ msgstr "Le bon réflexe"
 
 #: ../../content/belgique/ehealth/mda.md:110
 msgid ""
-"Run the MDA **at the start of the month**, before generating invoices: you "
-"avoid later eFact rejections caused by a wrong health insurance fund or a "
-"loss of insurability."
+"Run a batch MDA **at the start of the month**: the generation of the period "
+"loads its results (**Load MDA Success**). Then, on the generated period, "
+"**Check MDA** covers the residents still without a request — always before "
+"**Generate eFact**. You avoid later eFact rejections caused by a wrong "
+"health insurance fund or a loss of insurability."
 msgstr ""
-"Faites le MDA **en début de mois**, avant de générer les factures : vous "
-"évitez les rejets eFact ultérieurs dus à une mutuelle erronée ou à une perte"
-" d'assurabilité."
+"Lancez un MDA groupé **en début de mois** : la génération de la période en "
+"charge les résultats (**Charger MDA Succès**). Ensuite, sur la période "
+"générée, **Vérifier MDA** couvre les habitants encore sans demande — "
+"toujours avant **Générer eFact**. Vous évitez les rejets eFact ultérieurs "
+"dus à une mutuelle erronée ou à une perte d'assurabilité."
 
-#: ../../content/belgique/ehealth/mda.md:115
+#: ../../content/belgique/ehealth/mda.md:117
 msgid "Statuses"
 msgstr "Les statuts"
 
@@ -432,7 +436,7 @@ msgstr "**Erreur**"
 msgid "The OA or the platform returned an error"
 msgstr "L'OA ou la plateforme a renvoyé une erreur"
 
-#: ../../content/belgique/ehealth/mda.md:126
+#: ../../content/belgique/ehealth/mda.md:128
 msgid ""
 "![MDA request whose response reports a beneficiary who is not insured for "
 "the period](../../assets/screenshots/ehealth/24-mda-non-assure.webp)"
@@ -440,7 +444,7 @@ msgstr ""
 "![Demande MDA dont la réponse signale un bénéficiaire non assuré pour la "
 "période](../../assets/screenshots/ehealth/24-mda-non-assure.webp)"
 
-#: ../../content/belgique/ehealth/mda.md:126
+#: ../../content/belgique/ehealth/mda.md:128
 msgid ""
 "MDA request whose response reports a beneficiary who is not insured for the "
 "period"
@@ -448,7 +452,7 @@ msgstr ""
 "Demande MDA dont la réponse signale un bénéficiaire non assuré pour la "
 "période"
 
-#: ../../content/belgique/ehealth/mda.md:128
+#: ../../content/belgique/ehealth/mda.md:130
 msgid "Buttons"
 msgstr "Les boutons"
 
@@ -493,7 +497,7 @@ msgid "Opens a pre-filled email to the health insurance fund that responded"
 msgstr "Ouvre un e-mail pré-rempli vers la mutuelle qui a répondu"
 
 #: ../../content/belgique/ehealth/mda.md:107
-#: ../../content/belgique/ehealth/mda.md:190
+#: ../../content/belgique/ehealth/mda.md:192
 msgid "**Report to InterMut**"
 msgstr "**Signaler à l'intermut.**"
 
@@ -501,7 +505,7 @@ msgstr "**Signaler à l'intermut.**"
 msgid "Opens an email to the CIN for platform blockages"
 msgstr "Ouvre un e-mail vers le CIN pour les blocages plateforme"
 
-#: ../../content/belgique/ehealth/mda.md:138
+#: ../../content/belgique/ehealth/mda.md:140
 msgid ""
 "On a batch, the same actions exist in grouped form (**Send**, **Check "
 "responses**, **Retry errors**, **Retry no-responses**)."
@@ -510,11 +514,11 @@ msgstr ""
 "**Vérifier les réponses**, **Réessayer les erreurs**, **Réessayer les sans-"
 "réponse**)."
 
-#: ../../content/belgique/ehealth/mda.md:141
+#: ../../content/belgique/ehealth/mda.md:143
 msgid "What Resthome updates automatically"
 msgstr "Ce que Resthome met à jour tout seul"
 
-#: ../../content/belgique/ehealth/mda.md:143
+#: ../../content/belgique/ehealth/mda.md:145
 msgid ""
 "After a successful response, the resident record is **corrected "
 "automatically**:"
@@ -522,7 +526,7 @@ msgstr ""
 "Après une réponse réussie, la fiche habitant est **corrigée "
 "automatiquement** :"
 
-#: ../../content/belgique/ehealth/mda.md:145
+#: ../../content/belgique/ehealth/mda.md:147
 msgid ""
 "**Health insurance fund (OA)**: if the OA that responds differs from the "
 "profile, the profile is updated (and the OA created if it was missing)."
@@ -530,11 +534,11 @@ msgstr ""
 "**Mutuelle (OA)** : si l'OA qui répond diffère du profil, le profil est mis "
 "à jour (et l'OA créé s'il manquait)."
 
-#: ../../content/belgique/ehealth/mda.md:147
+#: ../../content/belgique/ehealth/mda.md:149
 msgid "**BIM status** and **membership number**."
 msgstr "Le **statut BIM** et le **numéro d'affilié**."
 
-#: ../../content/belgique/ehealth/mda.md:148
+#: ../../content/belgique/ehealth/mda.md:150
 msgid ""
 "**Date of birth** and **sex**: the insurer's values **win**, even when the "
 "record already holds something else (see below)."
@@ -543,15 +547,15 @@ msgstr ""
 "assureur **l'emportent**, même si la fiche contient déjà autre chose (voir "
 "ci-dessous)."
 
-#: ../../content/belgique/ehealth/mda.md:150
+#: ../../content/belgique/ehealth/mda.md:152
 msgid "**Date of death** if the OA reports it → alert on the record."
 msgstr "**Date de décès** si l'OA la signale → alerte sur la fiche."
 
-#: ../../content/belgique/ehealth/mda.md:152
+#: ../../content/belgique/ehealth/mda.md:154
 msgid "On identity, the insurer wins"
 msgstr "Sur l'identité, l'organisme assureur l'emporte"
 
-#: ../../content/belgique/ehealth/mda.md:154
+#: ../../content/belgique/ehealth/mda.md:156
 msgid ""
 "Date of birth and sex are **overwritten**, not merely filled in when empty. "
 "This is deliberate: a birth date that disagrees with the NISS gets the "
@@ -565,7 +569,7 @@ msgstr ""
 "l'admission survivrait sinon à tous les contrôles — l'opérateur croyant que "
 "le MDA avait validé le dossier. L'organisme assureur applique la même règle."
 
-#: ../../content/belgique/ehealth/mda.md:159
+#: ../../content/belgique/ehealth/mda.md:161
 msgid ""
 "When an existing value changes, Resthome posts **MDA — identity corrected** "
 "in the resident's thread, listing each change as ~~old~~ → **new**. Nothing "
@@ -575,11 +579,11 @@ msgstr ""
 "corrigée** dans le fil de l'habitant, en listant chaque changement sous la "
 "forme ~~ancien~~ → **nouveau**. Rien ne bouge en silence."
 
-#: ../../content/belgique/ehealth/mda.md:162
+#: ../../content/belgique/ehealth/mda.md:164
 msgid "The date of death is the exception"
 msgstr "La date de décès fait exception"
 
-#: ../../content/belgique/ehealth/mda.md:165
+#: ../../content/belgique/ehealth/mda.md:167
 msgid ""
 "If the insurer reports a **date of death** that differs from the one on "
 "file, Resthome **does not** overwrite it: it posts *\"MDA — date of death "
@@ -592,11 +596,11 @@ msgstr ""
 "plafonne le forfait — trop lourde de conséquences pour être modifiée "
 "automatiquement."
 
-#: ../../content/belgique/ehealth/mda.md:171
+#: ../../content/belgique/ehealth/mda.md:173
 msgid "Identity fields are locked after the first reply"
 msgstr "Les champs d'identité sont verrouillés après la première réponse"
 
-#: ../../content/belgique/ehealth/mda.md:173
+#: ../../content/belgique/ehealth/mda.md:175
 msgid ""
 "Once a resident has an MDA reply, the fields the MDA owns — name, date of "
 "birth, sex, health insurance fund — become **read-only** on the record. It "
@@ -607,18 +611,18 @@ msgstr ""
 "fiche. Cela évite qu'une modification manuelle contredise en silence ce que "
 "détient l'organisme assureur."
 
-#: ../../content/belgique/ehealth/mda.md:177
+#: ../../content/belgique/ehealth/mda.md:179
 msgid "The lock is not absolute:"
 msgstr "Le verrou n'est pas absolu :"
 
-#: ../../content/belgique/ehealth/mda.md:179
+#: ../../content/belgique/ehealth/mda.md:181
 msgid ""
 "**before** any MDA the fields are free — that is how you create a candidate;"
 msgstr ""
 "**avant** tout MDA les champs sont libres — c'est ainsi qu'on crée un "
 "candidat ;"
 
-#: ../../content/belgique/ehealth/mda.md:180
+#: ../../content/belgique/ehealth/mda.md:182
 msgid ""
 "a **manager** can lift it record by record with **Allow manual identity "
 "edit**."
@@ -626,11 +630,11 @@ msgstr ""
 "un **manager** peut le lever fiche par fiche avec **Autoriser la "
 "modification manuelle de l'identité**."
 
-#: ../../content/belgique/ehealth/mda.md:182
+#: ../../content/belgique/ehealth/mda.md:184
 msgid "Lifting the lock is temporary"
 msgstr "Lever le verrou est temporaire"
 
-#: ../../content/belgique/ehealth/mda.md:185
+#: ../../content/belgique/ehealth/mda.md:187
 msgid ""
 "Use **Allow manual identity edit** only when the insurer's reply is "
 "genuinely wrong. The **next MDA refresh overwrites your correction** — "
@@ -642,11 +646,11 @@ msgstr ""
 "rafraîchissement MDA écrase votre correction** — réglez le désaccord avec "
 "l'organisme assureur plutôt que d'entretenir l'écart à la main."
 
-#: ../../content/belgique/ehealth/mda.md:190
+#: ../../content/belgique/ehealth/mda.md:192
 msgid "Safeguard for special schemes"
 msgstr "Garde-fou régimes spéciaux"
 
-#: ../../content/belgique/ehealth/mda.md:193
+#: ../../content/belgique/ehealth/mda.md:195
 msgid ""
 "For residents under a **special scheme** (INIG, EEC, Fedasil, foreign, "
 "private…), Resthome **does not overwrite** the profile's health insurance "
@@ -658,15 +662,15 @@ msgstr ""
 "message explique que la réponse MDA a été ignorée pour ne pas casser une "
 "couverture non standard."
 
-#: ../../content/belgique/ehealth/mda.md:199
+#: ../../content/belgique/ehealth/mda.md:201
 msgid "Reinstatement (loss then return of insurability)"
 msgstr "Réintégration (perte puis retour d'assurabilité)"
 
-#: ../../content/belgique/ehealth/mda.md:201
+#: ../../content/belgique/ehealth/mda.md:203
 msgid "Resthome compares with the previous check:"
 msgstr "Resthome compare avec le contrôle précédent :"
 
-#: ../../content/belgique/ehealth/mda.md:203
+#: ../../content/belgique/ehealth/mda.md:205
 msgid ""
 "**Not insured → insured**: a notification appears on the period, and the "
 "**Reinstatement** action lets you move the lines that had been billed to the"
@@ -676,7 +680,7 @@ msgstr ""
 "l'action **Réintégration** permet de basculer vers l'OA les lignes qui "
 "avaient été facturées à l'habitant."
 
-#: ../../content/belgique/ehealth/mda.md:206
+#: ../../content/belgique/ehealth/mda.md:208
 msgid ""
 "**Insured → not insured**: Resthome flags that the resident is \"no longer "
 "in order\" — their dependency fee (forfait) is excluded from OA billing for "
@@ -686,72 +690,72 @@ msgstr ""
 "ordre » — son forfait est exclu de la facturation OA de la période et "
 "facturé à l'habitant jusqu'au rétablissement."
 
-#: ../../content/belgique/ehealth/mda.md:210
+#: ../../content/belgique/ehealth/mda.md:212
 msgid "Error handling"
 msgstr "Gestion des erreurs"
 
-#: ../../content/belgique/ehealth/mda.md:190
+#: ../../content/belgique/ehealth/mda.md:192
 msgid "Situation"
 msgstr "Situation"
 
-#: ../../content/belgique/ehealth/mda.md:190
+#: ../../content/belgique/ehealth/mda.md:192
 msgid "What to do"
 msgstr "Quoi faire"
 
-#: ../../content/belgique/ehealth/mda.md:190
+#: ../../content/belgique/ehealth/mda.md:192
 msgid "**No response** (platform)"
 msgstr "**Sans réponse** (plateforme)"
 
-#: ../../content/belgique/ehealth/mda.md:190
+#: ../../content/belgique/ehealth/mda.md:192
 msgid "**Retry no-responses**; if it persists, **Report to InterMut**"
 msgstr ""
 "**Réessayer les sans-réponse** ; si ça persiste, **Signaler à l'intermut.**"
 
-#: ../../content/belgique/ehealth/mda.md:190
+#: ../../content/belgique/ehealth/mda.md:192
 msgid "**OA rejection**"
 msgstr "**Rejet de l'OA**"
 
-#: ../../content/belgique/ehealth/mda.md:190
+#: ../../content/belgique/ehealth/mda.md:192
 msgid "**Contact the OA** (reason shown)"
 msgstr "**Contacter l'OA** (motif affiché)"
 
-#: ../../content/belgique/ehealth/mda.md:190
+#: ../../content/belgique/ehealth/mda.md:192
 msgid "**Technical error**"
 msgstr "**Erreur technique**"
 
-#: ../../content/belgique/ehealth/mda.md:190
+#: ../../content/belgique/ehealth/mda.md:192
 msgid "**Resident with no health insurance fund**"
 msgstr "**Habitant sans mutuelle**"
 
-#: ../../content/belgique/ehealth/mda.md:190
+#: ../../content/belgique/ehealth/mda.md:192
 msgid "Non-blocking: the actual OA comes from the response"
 msgstr "Non bloquant : l'OA réel vient de la réponse"
 
-#: ../../content/belgique/ehealth/mda.md:190
+#: ../../content/belgique/ehealth/mda.md:192
 msgid "**Pending (grouped)**"
 msgstr "**En attente (groupé)**"
 
-#: ../../content/belgique/ehealth/mda.md:190
+#: ../../content/belgique/ehealth/mda.md:192
 msgid "**Check responses** or wait"
 msgstr "**Vérifier les réponses** ou patienter"
 
-#: ../../content/belgique/ehealth/mda.md:220
+#: ../../content/belgique/ehealth/mda.md:222
 msgid "Learn more"
 msgstr "Pour aller plus loin"
 
-#: ../../content/belgique/ehealth/mda.md:222
+#: ../../content/belgique/ehealth/mda.md:224
 msgid "[MDA errors — causes and solutions](mda-erreurs.md)"
 msgstr "[Erreurs MDA — causes et solutions](mda-erreurs.md)"
 
-#: ../../content/belgique/ehealth/mda.md:223
+#: ../../content/belgique/ehealth/mda.md:225
 msgid "[Electronic billing (eFact)](efact.md)"
 msgstr "[Facturation électronique (eFact)](efact.md)"
 
-#: ../../content/belgique/ehealth/mda.md:224
+#: ../../content/belgique/ehealth/mda.md:226
 msgid "[Agreements (eAgreement)](eagreement.md)"
 msgstr "[Accords (eAgreement)](eagreement.md)"
 
-#: ../../content/belgique/ehealth/mda.md:225
+#: ../../content/belgique/ehealth/mda.md:227
 msgid "[Billing overview](../../facturation/index.md)"
 msgstr "[Vue d'ensemble de la facturation](../../facturation/index.md)"
 

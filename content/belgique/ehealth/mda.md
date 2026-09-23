@@ -107,9 +107,11 @@ The batch shows **counters**: Insured, Not insured, Errors, Pending, and
 :::{admonition} The right habit
 :class: tip
 
-Run the MDA **at the start of the month**, before generating invoices: you avoid
-later eFact rejections caused by a wrong health insurance fund or a loss of
-insurability.
+Run a batch MDA **at the start of the month**: the generation of the period
+loads its results (**Load MDA Success**). Then, on the generated period,
+**Check MDA** covers the residents still without a request — always before
+**Generate eFact**. You avoid later eFact rejections caused by a wrong health
+insurance fund or a loss of insurability.
 :::
 
 ## Statuses

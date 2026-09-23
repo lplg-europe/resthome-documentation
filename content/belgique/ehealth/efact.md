@@ -6,7 +6,7 @@ howto_auto: true
 # Electronic invoicing (eFact)
 
 :::{rh-description}
-The complete eFact guide for nursing homes (MR/MRS) with Resthome: generate, check, invoice and send the INAMI allowances to the mutualities, step by step.
+The complete eFact guide for nursing homes (MR/MRS) with Resthome: generate, check insurability, build and send the INAMI allowances to the mutualities, invoice the resident share, step by step.
 :::
 
 :::{rh-faq}
@@ -32,7 +32,7 @@ How do I reintegrate rejected eFact lines into a new sending?
 : After fixing the cause of the rejection, use the Reintegration button: it puts the affected lines back into a new sending, without redoing the whole period.
 
 Can I invoice a resident through eFact if their insurability (MDA) is not validated?
-: No. Without valid insurability (MDA), the resident cannot be invoiced to the mutuality under third-party payment. Run Check MDA before creating the invoices and correct the resident's mutuality if needed.
+: No. Without valid insurability (MDA), the resident cannot be invoiced to the mutuality under third-party payment. Run Check MDA on the generated period before generating the eFact, and correct the resident's mutuality if needed.
 
 Is electronic invoicing (eFact) mandatory?
 : Yes. The electronic sending of the INAMI allowances is mandatory: production started in April 2026 and the final deadline to be compliant is 1 October 2026. Resthome respects the sending deadlines per period and warns you when a deadline approaches or is exceeded.
@@ -49,8 +49,9 @@ INAMI allowance) to the **insurance organisations** (OA), through the eHealth /
 MyCareNet network. Resthome builds the files, transmits them and **follows the
 responses** for you — acknowledgements, settlements, acceptances and rejections.
 
-This guide walks you through from start to finish: generate a period, check,
-invoice, send the eFact and handle the returns.
+This guide walks you through from start to finish: generate a period, check it
+and the insurability, build the eFact, invoice the resident share, send the
+eFact and handle the returns.
 
 :::{admonition} 2026 obligation
 :class: info
@@ -67,12 +68,14 @@ Each billing month is a **period** that goes through four states, in order:
 | State | What it means |
 |------|---------------------|
 | **Draft** | The period is created, nothing is computed yet. |
-| **Generated** | Allowances and shares are computed, resident by resident. To be checked. |
-| **Invoiced** | The invoices are posted. The eFact can be built and sent. |
+| **Generated** | Allowances and shares are computed, resident by resident. The period is checked, the MDA requested and the eFact built at this stage. |
+| **Invoiced** | The resident invoices are created. The eFact batches are sent and followed up until the close. |
 | **Closed** | The period is finished and locked. |
 
-The guiding thread: **Generate → check → Create invoices → Generate eFact →
-send → follow the responses**.
+The guiding thread, in the order the period itself proposes: **Generate →
+check → Check MDA → Generate eFact → Create Invoices → send → follow the
+responses → Close Period**. At each stage the next step is the highlighted
+button on the left of the period — and the **To do** column of the list.
 
 ## 1. The periods dashboard
 
@@ -109,8 +112,10 @@ A **"Generate billing"** wizard opens.
 - **Billing Period / dates**: reminder of the month concerned.
 - **Residents**: leave **empty for all active residents** (or target one
   resident for a specific case).
-- **Load MDA**: loads the already verified insurability (MDA) — "Success" or
-  "pending". The legend shows the MDA state of the period.
+- **Load MDA Success** / **Load MDA Pending**: pre-fill the residents whose
+  insurability (MDA) is already verified or still in flight — for instance
+  from a batch MDA run at the start of the month. The legend shows the MDA
+  state of the period.
 
 Click **Generate**. The period becomes **Generated**: Resthome computed, for
 **each resident**, the Katz allowance, the **INAMI share** (mutuality) and the
@@ -128,7 +133,7 @@ In the **Residents** tab, you find line by line:
 The other tabs: **Billing Lines** (the line details), **Invoices**, **eHealth**
 (the exchanges) and **Info**.
 
-## 3. Check before invoicing
+## 3. Check the period and the insurability
 
 This is the most important step. At the top of the period, **counters** give
 the health state of the month: **Supplements**, **Absences**, **Not invoiced**,
@@ -153,25 +158,25 @@ the discussion thread (on the right). Each message describes the problem
 Handle each point (**Done** button once settled) before invoicing.
 :::
 
-**Check MDA** — the **Check MDA** button verifies the **insurability** of your
-residents with the mutualities. A resident without valid coverage cannot be
-invoiced under third-party payment.
+**Check MDA** — once the period is generated, the **Check MDA** button sends
+one insurability request per resident of the period to the mutualities, as a
+batch. It is the next step as long as a resident billed to a mutuality has no
+request; the step moves on once every request is **sent**, without waiting for
+the answers. **Retry Failed MDA** resends the requests that ended in an error.
+A resident without valid coverage cannot be invoiced under third-party payment.
 
-## 4. Create the invoices (Generated → Invoiced)
+## 4. Generate the eFact (the batches)
 
-When the checks are green, click **Create invoices**. Resthome generates and
-posts:
+Once the MDA is requested, click **Generate eFact**, then **Generate Batches**
+in the window that opens. Resthome builds the **batches** from the period's
+mutuality lines — not from the invoices, which do not exist yet — one
+electronic file per insurance organisation, then shows the **eFact Batches**
+list.
 
-- the **resident invoices** (share charged to the resident / the family);
-- the **mutuality share**, which will feed the eFact.
-
-The period becomes **Invoiced**. You can still **Reset to draft** as long as
-you have not sent the eFact, if a correction is needed.
-
-## 5. Generate the eFact (the batches)
-
-Click **Generate eFact**. Resthome builds the **batches** — one electronic
-file per insurance organisation — then shows the **eFact Batches** list.
+Generation is refused while a resident has no Katz assessment at all: the
+message opens their Katz evaluations. It is incremental — a second run only
+bundles the lines not yet in a batch, so **Generate eFact** stays available on
+an **Invoiced** period.
 
 :::{admonition} One batch per union of mutualities
 :class: note
@@ -189,6 +194,20 @@ Each batch line shows:
 - the batch **status** (Draft, sent, accepted, rejected…);
 - the **amounts**: invoiced, accepted, refused;
 - in case of refusal, the rejection **code** and **reason**.
+
+## 5. Create the invoices (Generated → Invoiced)
+
+Once the eFact is built, click **Create Invoices**. Resthome creates the
+**resident invoices** (share charged to the resident / the family) in
+**draft**: check them, then **Confirm** them. The period becomes **Invoiced**.
+
+The **mutuality share** is not invoiced here: it leaves in the eFact batches.
+Once the insurer has settled a batch, its accounting document is created from
+the **To invoice** list of eFact (**Create accounting documents** in the
+Actions menu).
+
+You can still **Reset to Draft** as long as you have not sent the eFact, if a
+correction is needed.
 
 ## 6. The pre-send checks
 
@@ -306,9 +325,9 @@ if needed, on the mutuality side through a corrective batch.
 
 :::{admonition} To check before sending
 :class: warning
-- **Insurability (MDA)** checked for the period.
+- **Insurability (MDA)** requested for the period (**Check MDA**).
 - Correct **mutuality** on each resident.
-- Invoices **posted** (period in *Invoiced* state).
+- A **Katz** assessment for every resident billed to a mutuality.
 - Active **eHealth certificate**.
 :::
 
@@ -316,7 +335,8 @@ if needed, on the mutuality side through a corrective batch.
 
 - The period always follows the order **Draft → Generated → Invoiced → Closed**.
 - **Check before invoicing**: handle every self-check message.
-- **Check the MDA** — no third-party payment without valid insurability.
+- **Check MDA, then Generate eFact, then Create Invoices** — no third-party
+  payment without valid insurability.
 - **One eFact batch per union** of mutualities, not per mutuality.
 - Respect the sending **deadline** of each period ("deadline exceeded").
 - A **rejection** is fixed then **resent** — the Resends counter avoids

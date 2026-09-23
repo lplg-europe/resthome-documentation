@@ -84,7 +84,7 @@ around insurability and logs.
 
 | Setting | What it is for | Recommended value (MR/MRS) |
 |---|---|---|
-| **Auto MDA Check** | Automatically checks each resident's insurability before generating the eFact — avoids rejections for invalid insurability (see [MDA](ehealth/mda.md)). | **Enabled** as soon as the MDA is in production. |
+| **Auto MDA Check** | When you click **Generate** on a billing period, first opens the MDA check for the active residents who have no request for that period yet — avoids rejections for invalid insurability (see [MDA](ehealth/mda.md)). | **Enabled** as soon as the MDA is in production. |
 | **Log Retention (days)** | Number of days communication and audit logs are kept; the oldest are purged by the monthly cron. | **2555** (7 years, Belgian legal requirement for health data). |
 | **No-Facet Report Email** | Address used by the *Report to intermut* button on an MDA request that remained "no-facet" (no insurer answered within 24 h) — to be escalated to the CIN/intermut. | Leave the default **intermut** address. |
 

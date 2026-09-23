@@ -10,10 +10,10 @@ Short answers to frequently asked questions on what is Belgian in Resthome: Katz
 
 :::{rh-faq}
 How do I check a resident's insurability (MDA)?
-: Create an MDA request (eHealth → Insurability → MDA Requests) with the resident, the pre-filled NISS and the period, then click Send (Sync): the response comes back immediately. Do it at the start of the month, before invoicing, to avoid eFact rejections.
+: Create an MDA request (eHealth → Insurability → MDA Requests) with the resident, the pre-filled NISS and the period, then click Send (Sync): the response comes back immediately. For a whole month, run a batch at the start of the month, then Check MDA on the generated period for anyone left, before generating the eFact.
 
 How do I generate an eFact period?
-: Open the month's period in Draft state, click Generate, leave Residents empty for all active residents, click Load MDA then Generate. The period moves to Generated: the Katz allowance, the INAMI share and the resident share are computed for each resident.
+: Open the month's period in Draft state, click Generate, leave Residents empty for all active residents (or pre-fill them with Load MDA Success / Load MDA Pending), then click Generate. The period moves to Generated: the Katz allowance, the INAMI share and the resident share are computed for each resident.
 
 How do I send an eFact period and follow the responses?
 : From the eFact Cockpit or the batches, click Send all: the batches go to the mutualities through eHealth. Then click Get responses; each batch moves Sent → Acknowledged → Accepted / Rejected, with Resthome reconciling the amounts automatically.
@@ -31,7 +31,7 @@ What are the Katz categories?
 : O (independent), A (light dependency), B (moderate dependency), C (heavy dependency) and Cd / Cc (heavy dependency with disorientation or special cases). Under the AViQ rates, the dependency allowance is the same amount for every category; the category serves to declare the right profile to the mutuality.
 
 How do I invoice a month from A to Z in Belgium?
-: Open the period, check the MDA, click Generate, Create invoices then post the resident share; then Generate eFact, send the mutuality share to the insurance organisations and get the responses. The resident share and the mutuality share progress in parallel on the same period.
+: Open the period and click Generate, then Check MDA, then Generate eFact, then Create Invoices and confirm the resident share; send the eFact batches to the insurance organisations, get the responses, then close the period. The resident share and the mutuality share progress in parallel on the same period.
 :::
 
 This page gathers the short answers to the questions that only arise in
@@ -153,9 +153,11 @@ least 2 residents).
 
 ### When should the MDA be done?
 
-Do the MDA **at the start of the month**, before generating the invoices: this
-avoids later eFact rejections due to a wrong mutuality or a loss of
-insurability.
+Do a batch MDA **at the start of the month** (**eHealth → Insurability → MDA
+Batches**): the generation wizard loads its results. Then, on the generated
+period, **Check MDA** covers the residents still without a request — always
+**before** generating the eFact. This avoids later eFact rejections due to a
+wrong mutuality or a loss of insurability.
 → [Insurability (MDA)](ehealth/mda.md)
 
 ### What does "insured but not in order" mean?
@@ -250,8 +252,8 @@ rejections.
 ### How do I generate an eFact period?
 
 Open the month's period in **Draft** state and click **Generate**; in the
-wizard, leave **Residents** empty for all active residents and click **Load
-MDA**, then **Generate**. The period moves to **Generated**: Resthome has
+wizard, leave **Residents** empty for all active residents (or pre-fill them
+with **Load MDA Success** / **Load MDA Pending**), then click **Generate**. The period moves to **Generated**: Resthome has
 computed, for each resident, the Katz allowance, the INAMI share and the
 resident share.
 → [Electronic invoicing (eFact)](ehealth/efact.md)
@@ -259,14 +261,15 @@ resident share.
 ### How do I check a period before invoicing in Belgium?
 
 Among the counters at the top of the period, **MDA** and **Katz to do** are
-Belgian: handle them with the others, and run **Check MDA** to verify
-insurability before invoicing.
+Belgian: handle them with the others. Then run **Check MDA** to verify
+insurability, and **Generate eFact** — both come before **Create Invoices**.
 → [Billing a month in Belgium](facturation.md)
 
 ### How do I generate the eFact batches?
 
-Once the invoices are posted (period **Invoiced**), click **Generate eFact**:
-Resthome builds the **batches** — one electronic file per insurance organisation
+Once the period is **Generated** and the MDA requested, click **Generate eFact**
+— before **Create Invoices**; the batches are built from the period's
+mutuality lines, not from the invoices. Resthome builds the **batches** — one electronic file per insurance organisation
 — then shows the **eFact Batches** list (OA, reference, month, deadline, status,
 invoiced/accepted/refused amounts, and code + reason in case of refusal).
 → [Electronic invoicing (eFact)](ehealth/efact.md)
@@ -321,10 +324,11 @@ beyond it, some insurance organisations may refuse the batch.
 
 ### How do I invoice a month from A to Z in Belgium?
 
-Open the period (**Billing → Facturation → Billing Periods**), **Check the MDA**,
-click **Generate**, **Create invoices** then **Post** the resident share, then
-**Generate eFact** and send the mutuality share to the OAs, finally **Get the
-responses**. Resthome runs in parallel the resident share (classic invoices) and
+Open the period (**Billing → Facturation → Billing Periods**), click
+**Generate**, then **Check MDA**, then **Generate eFact**, then **Create
+Invoices** and **Confirm** the resident share. Send the eFact batches to the
+OAs, get the responses, and finally **Close Period**. The highlighted button of
+the period always shows the next step. Resthome runs in parallel the resident share (classic invoices) and
 the mutuality share (eFact) on the same period.
 → [Billing a month in Belgium](facturation.md)
 

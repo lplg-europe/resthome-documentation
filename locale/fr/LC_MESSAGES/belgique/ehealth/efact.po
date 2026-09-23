@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 17:05+0200\n"
+"POT-Creation-Date: 2026-09-23 17:25+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -27,12 +27,12 @@ msgstr "Facturation électronique (eFact)"
 #: ../../content/belgique/ehealth/efact.md:9
 msgid ""
 "The complete eFact guide for nursing homes (MR/MRS) with Resthome: generate,"
-" check, invoice and send the INAMI allowances to the mutualities, step by "
-"step."
+" check insurability, build and send the INAMI allowances to the mutualities,"
+" invoice the resident share, step by step."
 msgstr ""
 "Le guide eFact complet en maison de repos (MR/MRS) avec Resthome : générer, "
-"vérifier, facturer et envoyer les forfaits INAMI aux mutuelles, étape par "
-"étape."
+"vérifier l'assurabilité, constituer et envoyer les forfaits INAMI aux "
+"mutuelles, facturer la part habitant, étape par étape."
 
 #: ../../content/belgique/ehealth/efact.md:13
 msgid ""
@@ -156,12 +156,13 @@ msgstr ""
 #: ../../content/belgique/ehealth/efact.md:35
 msgid ""
 "No. Without valid insurability (MDA), the resident cannot be invoiced to the"
-" mutuality under third-party payment. Run Check MDA before creating the "
-"invoices and correct the resident's mutuality if needed."
+" mutuality under third-party payment. Run Check MDA on the generated period "
+"before generating the eFact, and correct the resident's mutuality if needed."
 msgstr ""
 "Non. Sans assurabilité (MDA) valide, l'habitant ne peut pas être facturé à "
-"la mutuelle en tiers payant. Lancez Vérifier MDA avant de créer les factures"
-" et corrigez la mutuelle de l'habitant si nécessaire."
+"la mutuelle en tiers payant. Lancez Vérifier MDA sur la période générée "
+"avant de générer l'eFact, et corrigez la mutuelle de l'habitant si "
+"nécessaire."
 
 #: ../../content/belgique/ehealth/efact.md:37
 msgid "Is electronic invoicing (eFact) mandatory?"
@@ -234,17 +235,19 @@ msgstr ""
 
 #: ../../content/belgique/ehealth/efact.md:52
 msgid ""
-"This guide walks you through from start to finish: generate a period, check,"
-" invoice, send the eFact and handle the returns."
+"This guide walks you through from start to finish: generate a period, check "
+"it and the insurability, build the eFact, invoice the resident share, send "
+"the eFact and handle the returns."
 msgstr ""
-"Ce guide vous accompagne du début à la fin : générer une période, vérifier, "
-"facturer, envoyer l'eFact et traiter les retours."
+"Ce guide vous accompagne du début à la fin : générer une période, vérifier "
+"la période et l'assurabilité, constituer l'eFact, facturer la part habitant,"
+" envoyer l'eFact et traiter les retours."
 
-#: ../../content/belgique/ehealth/efact.md:55
+#: ../../content/belgique/ehealth/efact.md:56
 msgid "2026 obligation"
 msgstr "Obligation 2026"
 
-#: ../../content/belgique/ehealth/efact.md:57
+#: ../../content/belgique/ehealth/efact.md:58
 msgid ""
 "Electronic invoicing of the allowances is **mandatory**. Production started "
 "in **April 2026**; the final deadline to be compliant is **1 October 2026**."
@@ -256,73 +259,83 @@ msgstr ""
 "le **1er octobre 2026**. Resthome respecte les **échéances** d'envoi par "
 "période et vous alerte lorsqu'une échéance approche ou est dépassée."
 
-#: ../../content/belgique/ehealth/efact.md:63
+#: ../../content/belgique/ehealth/efact.md:64
 msgid "The cycle of a period, at a glance"
 msgstr "Le cycle d'une période, en un coup d'œil"
 
-#: ../../content/belgique/ehealth/efact.md:65
+#: ../../content/belgique/ehealth/efact.md:66
 msgid ""
 "Each billing month is a **period** that goes through four states, in order:"
 msgstr ""
 "Chaque mois de facturation est une **période** qui passe par quatre états, "
 "dans l'ordre :"
 
-#: ../../content/belgique/ehealth/efact.md:55
+#: ../../content/belgique/ehealth/efact.md:56
 msgid "State"
 msgstr "État"
 
-#: ../../content/belgique/ehealth/efact.md:55
+#: ../../content/belgique/ehealth/efact.md:56
 msgid "What it means"
 msgstr "Ce que cela signifie"
 
-#: ../../content/belgique/ehealth/efact.md:55
+#: ../../content/belgique/ehealth/efact.md:56
 msgid "**Draft**"
 msgstr "**Brouillon**"
 
-#: ../../content/belgique/ehealth/efact.md:55
+#: ../../content/belgique/ehealth/efact.md:56
 msgid "The period is created, nothing is computed yet."
 msgstr "La période est créée, rien n'est encore calculé."
 
-#: ../../content/belgique/ehealth/efact.md:55
+#: ../../content/belgique/ehealth/efact.md:56
 msgid "**Generated**"
 msgstr "**Générée**"
 
-#: ../../content/belgique/ehealth/efact.md:55
+#: ../../content/belgique/ehealth/efact.md:56
 msgid ""
-"Allowances and shares are computed, resident by resident. To be checked."
+"Allowances and shares are computed, resident by resident. The period is "
+"checked, the MDA requested and the eFact built at this stage."
 msgstr ""
-"Les forfaits et les parts sont calculés, habitant par habitant. À vérifier."
+"Les forfaits et les parts sont calculés, habitant par habitant. À ce stade, "
+"la période est vérifiée, le MDA demandé et l'eFact constitué."
 
-#: ../../content/belgique/ehealth/efact.md:55
+#: ../../content/belgique/ehealth/efact.md:56
 msgid "**Invoiced**"
 msgstr "**Facturée**"
 
-#: ../../content/belgique/ehealth/efact.md:55
-msgid "The invoices are posted. The eFact can be built and sent."
+#: ../../content/belgique/ehealth/efact.md:56
+msgid ""
+"The resident invoices are created. The eFact batches are sent and followed "
+"up until the close."
 msgstr ""
-"Les factures sont comptabilisées. L'eFact peut être construit et envoyé."
+"Les factures habitant sont créées. Les lots eFact sont envoyés et suivis "
+"jusqu'à la clôture."
 
-#: ../../content/belgique/ehealth/efact.md:55
+#: ../../content/belgique/ehealth/efact.md:56
 msgid "**Closed**"
 msgstr "**Clôturée**"
 
-#: ../../content/belgique/ehealth/efact.md:55
+#: ../../content/belgique/ehealth/efact.md:56
 msgid "The period is finished and locked."
 msgstr "La période est terminée et verrouillée."
 
-#: ../../content/belgique/ehealth/efact.md:74
+#: ../../content/belgique/ehealth/efact.md:75
 msgid ""
-"The guiding thread: **Generate → check → Create invoices → Generate eFact → "
-"send → follow the responses**."
+"The guiding thread, in the order the period itself proposes: **Generate → "
+"check → Check MDA → Generate eFact → Create Invoices → send → follow the "
+"responses → Close Period**. At each stage the next step is the highlighted "
+"button on the left of the period — and the **To do** column of the list."
 msgstr ""
-"Le fil conducteur : **Générer → vérifier → Créer les factures → Générer "
-"l'eFact → envoyer → suivre les réponses**."
+"Le fil conducteur, dans l'ordre que la période propose elle-même : **Générer"
+" → vérifier → Vérifier MDA → Générer eFact → Créer les factures → envoyer → "
+"suivre les réponses → Clôturer la période**. À chaque étape, l'étape "
+"suivante est le bouton mis en évidence à gauche de la période — et la "
+"colonne **À faire** de la liste."
 
-#: ../../content/belgique/ehealth/efact.md:77
+#: ../../content/belgique/ehealth/efact.md:80
 msgid "1. The periods dashboard"
 msgstr "1\\. Le tableau de bord des périodes"
 
-#: ../../content/belgique/ehealth/efact.md:79
+#: ../../content/belgique/ehealth/efact.md:82
 msgid ""
 "Open the **Billing → Dashboard** application. Each month is a card "
 "summarising the essentials."
@@ -330,7 +343,7 @@ msgstr ""
 "Ouvrez l'application **Facturation → Tableau de bord**. Chaque mois est une "
 "carte qui résume l'essentiel."
 
-#: ../../content/belgique/ehealth/efact.md:82
+#: ../../content/belgique/ehealth/efact.md:85
 msgid ""
 "![Billing periods dashboard, one card per month with the eFact "
 "status](../../assets/screenshots/efact/01-tableau-de-bord.webp)"
@@ -338,44 +351,44 @@ msgstr ""
 "![Tableau de bord des périodes de facturation, une carte par mois avec le "
 "statut eFact](../../assets/screenshots/efact/01-tableau-de-bord.webp)"
 
-#: ../../content/belgique/ehealth/efact.md:82
+#: ../../content/belgique/ehealth/efact.md:85
 msgid "Billing periods dashboard, one card per month with the eFact status"
 msgstr ""
 "Tableau de bord des périodes de facturation, une carte par mois avec le "
 "statut eFact"
 
-#: ../../content/belgique/ehealth/efact.md:84
+#: ../../content/belgique/ehealth/efact.md:87
 msgid "On each card:"
 msgstr "Sur chaque carte :"
 
-#: ../../content/belgique/ehealth/efact.md:86
+#: ../../content/belgique/ehealth/efact.md:89
 msgid "the **status** of the period (Invoiced, Generated…);"
 msgstr "le **statut** de la période (Facturée, Générée…) ;"
 
-#: ../../content/belgique/ehealth/efact.md:87
+#: ../../content/belgique/ehealth/efact.md:90
 msgid "**Invoices** (number of invoices) and **Total**;"
 msgstr "**Factures** (nombre de factures) et **Total** ;"
 
-#: ../../content/belgique/ehealth/efact.md:88
+#: ../../content/belgique/ehealth/efact.md:91
 msgid "**Resident Part** (the share charged to the resident);"
 msgstr "**Part habitant** (la part à charge de l'habitant) ;"
 
-#: ../../content/belgique/ehealth/efact.md:89
+#: ../../content/belgique/ehealth/efact.md:92
 msgid "the **eFact deadline** (e.g. \"eFact: 20 Sep\");"
 msgstr "l’**échéance eFact** (p. ex. « eFact : 20 sept. ») ;"
 
-#: ../../content/belgique/ehealth/efact.md:90
+#: ../../content/belgique/ehealth/efact.md:93
 msgid ""
 "shortcuts: **View Invoices**, **eFact** (the batches), **eFact Cockpit**."
 msgstr ""
 "des raccourcis : **Voir les factures**, **eFact** (les lots), **Cockpit "
 "eFact**."
 
-#: ../../content/belgique/ehealth/efact.md:92
+#: ../../content/belgique/ehealth/efact.md:95
 msgid "\"Deadline exceeded\""
 msgstr "« Échéance dépassée »"
 
-#: ../../content/belgique/ehealth/efact.md:94
+#: ../../content/belgique/ehealth/efact.md:97
 msgid ""
 "If a card shows **eFact: deadline exceeded** in red, the sending deadline of"
 " this period has **passed**. Send without delay — beyond it, some insurance "
@@ -385,11 +398,11 @@ msgstr ""
 "d'envoi de cette période est **passée**. Envoyez sans tarder — au-delà, "
 "certains organismes assureurs peuvent refuser le lot."
 
-#: ../../content/belgique/ehealth/efact.md:99
+#: ../../content/belgique/ehealth/efact.md:102
 msgid "2. Generate the period (Draft → Generated)"
 msgstr "2\\. Générer la période (Brouillon → Générée)"
 
-#: ../../content/belgique/ehealth/efact.md:101
+#: ../../content/belgique/ehealth/efact.md:104
 msgid ""
 "Open the month's period. In **Draft** state, one button matters: "
 "**Generate**."
@@ -397,7 +410,7 @@ msgstr ""
 "Ouvrez la période du mois. À l'état **Brouillon**, un bouton compte : "
 "**Générer**."
 
-#: ../../content/belgique/ehealth/efact.md:103
+#: ../../content/belgique/ehealth/efact.md:106
 msgid ""
 "![Billing period in Draft state, with the Generate button and the self-check"
 " messages on the right](../../assets/screenshots/efact/02-periode-"
@@ -407,7 +420,7 @@ msgstr ""
 "messages d'autocontrôle à droite](../../assets/screenshots/efact/02-periode-"
 "draft.webp)"
 
-#: ../../content/belgique/ehealth/efact.md:103
+#: ../../content/belgique/ehealth/efact.md:106
 msgid ""
 "Billing period in Draft state, with the Generate button and the self-check "
 "messages on the right"
@@ -415,11 +428,11 @@ msgstr ""
 "Période de facturation à l'état Brouillon, avec le bouton Générer et les "
 "messages d'autocontrôle à droite"
 
-#: ../../content/belgique/ehealth/efact.md:105
+#: ../../content/belgique/ehealth/efact.md:108
 msgid "A **\"Generate billing\"** wizard opens."
 msgstr "Un assistant **« Générer la facturation »** s'ouvre."
 
-#: ../../content/belgique/ehealth/efact.md:107
+#: ../../content/belgique/ehealth/efact.md:110
 msgid ""
 "![Generate billing wizard: period, dates, residents and MDA "
 "loading](../../assets/screenshots/efact/03-generer-wizard.webp)"
@@ -427,17 +440,17 @@ msgstr ""
 "![Assistant Générer la facturation : période, dates, habitants et chargement"
 " MDA](../../assets/screenshots/efact/03-generer-wizard.webp)"
 
-#: ../../content/belgique/ehealth/efact.md:107
+#: ../../content/belgique/ehealth/efact.md:110
 msgid "Generate billing wizard: period, dates, residents and MDA loading"
 msgstr ""
 "Assistant Générer la facturation : période, dates, habitants et chargement "
 "MDA"
 
-#: ../../content/belgique/ehealth/efact.md:109
+#: ../../content/belgique/ehealth/efact.md:112
 msgid "**Billing Period / dates**: reminder of the month concerned."
 msgstr "**Période de facturation / dates** : rappel du mois concerné."
 
-#: ../../content/belgique/ehealth/efact.md:110
+#: ../../content/belgique/ehealth/efact.md:113
 msgid ""
 "**Residents**: leave **empty for all active residents** (or target one "
 "resident for a specific case)."
@@ -445,15 +458,19 @@ msgstr ""
 "**Habitants** : laissez **vide pour tous les habitants actifs** (ou ciblez "
 "un habitant pour un cas particulier)."
 
-#: ../../content/belgique/ehealth/efact.md:112
-msgid ""
-"**Load MDA**: loads the already verified insurability (MDA) — \"Success\" or"
-" \"pending\". The legend shows the MDA state of the period."
-msgstr ""
-"**Charger le MDA** : charge l'assurabilité (MDA) déjà vérifiée — « Succès » "
-"ou « en attente ». La légende indique l'état MDA de la période."
-
 #: ../../content/belgique/ehealth/efact.md:115
+msgid ""
+"**Load MDA Success** / **Load MDA Pending**: pre-fill the residents whose "
+"insurability (MDA) is already verified or still in flight — for instance "
+"from a batch MDA run at the start of the month. The legend shows the MDA "
+"state of the period."
+msgstr ""
+"**Charger MDA Succès** / **Charger MDA en attente** : pré-remplissent les "
+"habitants dont l'assurabilité (MDA) est déjà vérifiée ou encore en cours — "
+"par exemple à partir d'un lot MDA lancé en début de mois. La légende indique"
+" l'état MDA de la période."
+
+#: ../../content/belgique/ehealth/efact.md:120
 msgid ""
 "Click **Generate**. The period becomes **Generated**: Resthome computed, for"
 " **each resident**, the Katz allowance, the **INAMI share** (mutuality) and "
@@ -463,7 +480,7 @@ msgstr ""
 "calculé, pour **chaque habitant**, le forfait Katz, la **part INAMI** "
 "(mutuelle) et la **part habitant**."
 
-#: ../../content/belgique/ehealth/efact.md:119
+#: ../../content/belgique/ehealth/efact.md:124
 msgid ""
 "![Period in Generated state: toolbar Create invoices / Check MDA / Generate "
 "eFact, and residents table with INAMI share and resident "
@@ -473,7 +490,7 @@ msgstr ""
 "MDA / Générer l'eFact, et tableau des habitants avec part INAMI et part "
 "habitant](../../assets/screenshots/efact/04-periode-generated.webp)"
 
-#: ../../content/belgique/ehealth/efact.md:119
+#: ../../content/belgique/ehealth/efact.md:124
 msgid ""
 "Period in Generated state: toolbar Create invoices / Check MDA / Generate "
 "eFact, and residents table with INAMI share and resident share"
@@ -481,27 +498,27 @@ msgstr ""
 "Période à l'état Générée : barre d'outils Créer les factures / Vérifier MDA "
 "/ Générer l'eFact, et tableau des habitants avec part INAMI et part habitant"
 
-#: ../../content/belgique/ehealth/efact.md:121
+#: ../../content/belgique/ehealth/efact.md:126
 msgid "In the **Residents** tab, you find line by line:"
 msgstr "Dans l'onglet **Habitants**, vous trouvez ligne par ligne :"
 
-#: ../../content/belgique/ehealth/efact.md:123
+#: ../../content/belgique/ehealth/efact.md:128
 msgid "the **stay type** (MR / MRS) and the **room**;"
 msgstr "le **type de séjour** (MR / MRS) et la **chambre** ;"
 
-#: ../../content/belgique/ehealth/efact.md:124
+#: ../../content/belgique/ehealth/efact.md:129
 msgid "the **Katz category** (B, C, Cd, D…) or **No Katz**;"
 msgstr "la **catégorie Katz** (B, C, Cd, D…) ou **Pas de Katz** ;"
 
-#: ../../content/belgique/ehealth/efact.md:125
+#: ../../content/belgique/ehealth/efact.md:130
 msgid "the **presence days** and **absence days**;"
 msgstr "les **jours de présence** et **jours d'absence** ;"
 
-#: ../../content/belgique/ehealth/efact.md:126
+#: ../../content/belgique/ehealth/efact.md:131
 msgid "the **INAMI share**, the **resident share** and the **total amount**."
 msgstr "la **part INAMI**, la **part habitant** et le **montant total**."
 
-#: ../../content/belgique/ehealth/efact.md:128
+#: ../../content/belgique/ehealth/efact.md:133
 msgid ""
 "The other tabs: **Billing Lines** (the line details), **Invoices**, "
 "**eHealth** (the exchanges) and **Info**."
@@ -509,11 +526,11 @@ msgstr ""
 "Les autres onglets : **Lignes de facturation** (le détail des lignes), "
 "**Factures**, **eHealth** (les échanges) et **Info**."
 
-#: ../../content/belgique/ehealth/efact.md:131
-msgid "3. Check before invoicing"
-msgstr "3\\. Vérifier avant de facturer"
+#: ../../content/belgique/ehealth/efact.md:136
+msgid "3. Check the period and the insurability"
+msgstr "3. Vérifier la période et l'assurabilité"
 
-#: ../../content/belgique/ehealth/efact.md:133
+#: ../../content/belgique/ehealth/efact.md:138
 msgid ""
 "This is the most important step. At the top of the period, **counters** give"
 " the health state of the month: **Supplements**, **Absences**, **Not "
@@ -525,11 +542,11 @@ msgstr ""
 "facturé**, **MDA** et **Katz à faire** (évaluations Katz manquantes à "
 "compléter)."
 
-#: ../../content/belgique/ehealth/efact.md:137
+#: ../../content/belgique/ehealth/efact.md:142
 msgid "Resthome's self-check"
 msgstr "L'autocontrôle de Resthome"
 
-#: ../../content/belgique/ehealth/efact.md:139
+#: ../../content/belgique/ehealth/efact.md:144
 msgid ""
 "After generation, Resthome combs through the period and **flags anomalies** "
 "in the discussion thread (on the right). Each message describes the problem "
@@ -539,7 +556,7 @@ msgstr ""
 "anomalies** dans le fil de discussion (à droite). Chaque message décrit le "
 "problème **et** l'action à mener. Les cas les plus fréquents :"
 
-#: ../../content/belgique/ehealth/efact.md:143
+#: ../../content/belgique/ehealth/efact.md:148
 msgid ""
 "**Room freed but still invoiced** (over-invoicing) — a resident left their "
 "room during the month, but the accommodation is still being invoiced. → "
@@ -549,7 +566,7 @@ msgstr ""
 "quitté sa chambre en cours de mois, mais l'hébergement est toujours facturé."
 " → Émettez une **note de crédit** ou clôturez l'hébergement."
 
-#: ../../content/belgique/ehealth/efact.md:146
+#: ../../content/belgique/ehealth/efact.md:151
 msgid ""
 "**Over-declared OA allowance** — the end of INAMI intervention (or a death) "
 "precedes the end of the period, but the allowance was declared beyond. → "
@@ -559,7 +576,7 @@ msgstr ""
 "précède la fin de la période, mais le forfait a été déclaré au-delà. → "
 "Émettez une **note de crédit / reliquat** pour les jours surdéclarés."
 
-#: ../../content/belgique/ehealth/efact.md:149
+#: ../../content/belgique/ehealth/efact.md:154
 msgid ""
 "**Death — accommodation still invoiced** — the resident died but the room "
 "has not yet been freed (\"Close the accommodation\")."
@@ -567,75 +584,70 @@ msgstr ""
 "**Décès — hébergement toujours facturé** — l'habitant est décédé mais la "
 "chambre n'a pas encore été libérée (« Clôturer l'hébergement »)."
 
-#: ../../content/belgique/ehealth/efact.md:151
+#: ../../content/belgique/ehealth/efact.md:156
 msgid "**Ongoing absences** — unclosed absences influence the allowance."
 msgstr ""
 "**Absences en cours** — des absences non clôturées influencent le forfait."
 
-#: ../../content/belgique/ehealth/efact.md:153
+#: ../../content/belgique/ehealth/efact.md:158
 msgid "Handle each point (**Done** button once settled) before invoicing."
 msgstr ""
 "Traitez chaque point (bouton **Fait** une fois réglé) avant de facturer."
 
-#: ../../content/belgique/ehealth/efact.md:156
+#: ../../content/belgique/ehealth/efact.md:161
 msgid ""
-"**Check MDA** — the **Check MDA** button verifies the **insurability** of "
-"your residents with the mutualities. A resident without valid coverage "
-"cannot be invoiced under third-party payment."
+"**Check MDA** — once the period is generated, the **Check MDA** button sends"
+" one insurability request per resident of the period to the mutualities, as "
+"a batch. It is the next step as long as a resident billed to a mutuality has"
+" no request; the step moves on once every request is **sent**, without "
+"waiting for the answers. **Retry Failed MDA** resends the requests that "
+"ended in an error. A resident without valid coverage cannot be invoiced "
+"under third-party payment."
 msgstr ""
-"**Vérifier MDA** — le bouton **Vérifier MDA** contrôle l’**assurabilité** de"
-" vos habitants auprès des mutuelles. Un habitant sans couverture valide ne "
-"peut pas être facturé en tiers payant."
-
-#: ../../content/belgique/ehealth/efact.md:160
-msgid "4. Create the invoices (Generated → Invoiced)"
-msgstr "4\\. Créer les factures (Générée → Facturée)"
-
-#: ../../content/belgique/ehealth/efact.md:162
-msgid ""
-"When the checks are green, click **Create invoices**. Resthome generates and"
-" posts:"
-msgstr ""
-"Lorsque les contrôles sont au vert, cliquez sur **Créer les factures**. "
-"Resthome génère et comptabilise :"
-
-#: ../../content/belgique/ehealth/efact.md:165
-msgid ""
-"the **resident invoices** (share charged to the resident / the family);"
-msgstr ""
-"les **factures habitant** (part à charge de l'habitant / de la famille) ;"
-
-#: ../../content/belgique/ehealth/efact.md:166
-msgid "the **mutuality share**, which will feed the eFact."
-msgstr "la **part mutuelle**, qui alimentera l'eFact."
+"**Vérifier MDA** — une fois la période générée, le bouton **Vérifier MDA** "
+"envoie aux mutuelles une requête d'assurabilité par habitant de la période, "
+"en un lot groupé. C'est l'étape suivante tant qu'un habitant facturé à une "
+"mutuelle n'a pas de requête ; l'étape est franchie dès que toutes les "
+"requêtes sont **envoyées**, sans attendre les réponses. **Réessayer les MDA "
+"échoués** renvoie les requêtes tombées en erreur. Un habitant sans "
+"couverture valide ne peut pas être facturé en tiers payant."
 
 #: ../../content/belgique/ehealth/efact.md:168
-msgid ""
-"The period becomes **Invoiced**. You can still **Reset to draft** as long as"
-" you have not sent the eFact, if a correction is needed."
-msgstr ""
-"La période devient **Facturée**. Vous pouvez encore **Remettre en "
-"brouillon** tant que vous n'avez pas envoyé l'eFact, si une correction est "
-"nécessaire."
+msgid "4. Generate the eFact (the batches)"
+msgstr "4. Générer l'eFact (les lots)"
 
-#: ../../content/belgique/ehealth/efact.md:171
-msgid "5. Generate the eFact (the batches)"
-msgstr "5\\. Générer l'eFact (les lots)"
-
-#: ../../content/belgique/ehealth/efact.md:173
+#: ../../content/belgique/ehealth/efact.md:170
 msgid ""
-"Click **Generate eFact**. Resthome builds the **batches** — one electronic "
-"file per insurance organisation — then shows the **eFact Batches** list."
+"Once the MDA is requested, click **Generate eFact**, then **Generate "
+"Batches** in the window that opens. Resthome builds the **batches** from the"
+" period's mutuality lines — not from the invoices, which do not exist yet — "
+"one electronic file per insurance organisation, then shows the **eFact "
+"Batches** list."
 msgstr ""
-"Cliquez sur **Générer l'eFact**. Resthome construit les **lots** — un "
-"fichier électronique par organisme assureur — puis affiche la liste des "
-"**Lots eFact**."
+"Une fois le MDA demandé, cliquez sur **Générer eFact**, puis sur **Générer "
+"les envois** dans la fenêtre qui s'ouvre. Resthome constitue les **lots** à "
+"partir des lignes mutuelle de la période — et non des factures, qui "
+"n'existent pas encore — un fichier électronique par organisme assureur, puis"
+" affiche la liste des **Envois eFact**."
 
 #: ../../content/belgique/ehealth/efact.md:176
+msgid ""
+"Generation is refused while a resident has no Katz assessment at all: the "
+"message opens their Katz evaluations. It is incremental — a second run only "
+"bundles the lines not yet in a batch, so **Generate eFact** stays available "
+"on an **Invoiced** period."
+msgstr ""
+"La génération est refusée tant qu'un habitant n'a aucune évaluation Katz : "
+"le message ouvre ses évaluations Katz. Elle est incrémentale — un deuxième "
+"passage ne regroupe que les lignes qui ne sont pas encore dans un lot ; "
+"**Générer eFact** reste donc disponible sur une période à l'état "
+"**Facturé**."
+
+#: ../../content/belgique/ehealth/efact.md:181
 msgid "One batch per union of mutualities"
 msgstr "Un lot par union de mutualités"
 
-#: ../../content/belgique/ehealth/efact.md:178
+#: ../../content/belgique/ehealth/efact.md:183
 msgid ""
 "Sendings are grouped **per union** (the big OA families), not per small "
 "individual mutuality: **100** (National Alliance), **300** (Solidaris), "
@@ -647,40 +659,76 @@ msgstr ""
 "(Solidaris), **500** (Union nationale), **600** (CAAMI), **900** (HR Rail)… "
 "Resthome se charge du regroupement."
 
-#: ../../content/belgique/ehealth/efact.md:184
+#: ../../content/belgique/ehealth/efact.md:189
 msgid "Each batch line shows:"
 msgstr "Chaque ligne de lot affiche :"
 
-#: ../../content/belgique/ehealth/efact.md:186
+#: ../../content/belgique/ehealth/efact.md:191
 msgid "the **OA** and its **code**;"
 msgstr "l’**OA** et son **code** ;"
 
-#: ../../content/belgique/ehealth/efact.md:187
+#: ../../content/belgique/ehealth/efact.md:192
 msgid "the batch **reference** (e.g. `EF/2026/…`) and the billing **month**;"
 msgstr ""
 "la **référence** du lot (p. ex. `EF/2026/…`) et le **mois** de facturation ;"
 
-#: ../../content/belgique/ehealth/efact.md:188
+#: ../../content/belgique/ehealth/efact.md:193
 msgid "the sending **deadline** and the **MDA** state;"
 msgstr "l’**échéance** d'envoi et l'état **MDA** ;"
 
-#: ../../content/belgique/ehealth/efact.md:189
+#: ../../content/belgique/ehealth/efact.md:194
 msgid "the batch **status** (Draft, sent, accepted, rejected…);"
 msgstr "le **statut** du lot (Brouillon, envoyé, accepté, rejeté…) ;"
 
-#: ../../content/belgique/ehealth/efact.md:190
+#: ../../content/belgique/ehealth/efact.md:195
 msgid "the **amounts**: invoiced, accepted, refused;"
 msgstr "les **montants** : facturé, accepté, refusé ;"
 
-#: ../../content/belgique/ehealth/efact.md:191
+#: ../../content/belgique/ehealth/efact.md:196
 msgid "in case of refusal, the rejection **code** and **reason**."
 msgstr "en cas de refus, le **code** et le **motif** de rejet."
 
-#: ../../content/belgique/ehealth/efact.md:193
+#: ../../content/belgique/ehealth/efact.md:198
+msgid "5. Create the invoices (Generated → Invoiced)"
+msgstr "5. Créer les factures (Généré → Facturé)"
+
+#: ../../content/belgique/ehealth/efact.md:200
+msgid ""
+"Once the eFact is built, click **Create Invoices**. Resthome creates the "
+"**resident invoices** (share charged to the resident / the family) in "
+"**draft**: check them, then **Confirm** them. The period becomes "
+"**Invoiced**."
+msgstr ""
+"Une fois l'eFact constitué, cliquez sur **Créer les factures**. Resthome "
+"crée les **factures habitant** (part à charge de l'habitant / de la famille)"
+" en **brouillon** : vérifiez-les, puis cliquez sur **Confirmer**. La période"
+" passe à l'état **Facturé**."
+
+#: ../../content/belgique/ehealth/efact.md:204
+msgid ""
+"The **mutuality share** is not invoiced here: it leaves in the eFact "
+"batches. Once the insurer has settled a batch, its accounting document is "
+"created from the **To invoice** list of eFact (**Create accounting "
+"documents** in the Actions menu)."
+msgstr ""
+"La **part mutuelle** n'est pas facturée ici : elle part dans les lots eFact."
+" Une fois qu'un lot est réglé par l'organisme assureur, sa pièce comptable "
+"est créée depuis la liste **À facturer** d'eFact (**Créer les pièces "
+"comptables** dans le menu Actions)."
+
+#: ../../content/belgique/ehealth/efact.md:209
+msgid ""
+"You can still **Reset to Draft** as long as you have not sent the eFact, if "
+"a correction is needed."
+msgstr ""
+"Vous pouvez encore **Remettre en brouillon** tant que vous n'avez pas envoyé"
+" l'eFact, si une correction est nécessaire."
+
+#: ../../content/belgique/ehealth/efact.md:212
 msgid "6. The pre-send checks"
 msgstr "6\\. Les contrôles avant envoi"
 
-#: ../../content/belgique/ehealth/efact.md:195
+#: ../../content/belgique/ehealth/efact.md:214
 msgid ""
 "Before a batch leaves, Resthome inspects it against everything it can verify"
 " **without asking the insurer**. A batch in Draft or Ready carries a "
@@ -692,7 +740,7 @@ msgstr ""
 "Prêt porte un bouton **Contrôles** : vert **Contrôles OK**, ou rouge avec le"
 " nombre de problèmes trouvés."
 
-#: ../../content/belgique/ehealth/efact.md:199
+#: ../../content/belgique/ehealth/efact.md:218
 msgid ""
 "Opening it lists one row per problem, with the resident concerned (or "
 "*\"(whole batch)\"*), a **Severity**, the reject the insurer would return, "
@@ -702,43 +750,43 @@ msgstr ""
 " *« (tout le lot) »*), une **Sévérité**, le rejet que renverrait l'organisme"
 " assureur, et une colonne **Que faire**."
 
-#: ../../content/belgique/ehealth/efact.md:176
+#: ../../content/belgique/ehealth/efact.md:181
 msgid "Severity"
 msgstr "Sévérité"
 
-#: ../../content/belgique/ehealth/efact.md:176
+#: ../../content/belgique/ehealth/efact.md:181
 msgid "Meaning"
 msgstr "Signification"
 
-#: ../../content/belgique/ehealth/efact.md:176
+#: ../../content/belgique/ehealth/efact.md:181
 msgid "**Blocking**"
 msgstr "**Bloquant**"
 
-#: ../../content/belgique/ehealth/efact.md:176
+#: ../../content/belgique/ehealth/efact.md:181
 msgid "The send is refused, whatever the environment."
 msgstr "L'envoi est refusé, quel que soit l'environnement."
 
-#: ../../content/belgique/ehealth/efact.md:176
+#: ../../content/belgique/ehealth/efact.md:181
 msgid "**Blocking in production**"
 msgstr "**Bloquant en production**"
 
-#: ../../content/belgique/ehealth/efact.md:176
+#: ../../content/belgique/ehealth/efact.md:181
 msgid "Tolerated while testing, refused in production."
 msgstr "Toléré en test, refusé en production."
 
-#: ../../content/belgique/ehealth/efact.md:176
+#: ../../content/belgique/ehealth/efact.md:181
 msgid "**Warning**"
 msgstr "**Avertissement**"
 
-#: ../../content/belgique/ehealth/efact.md:176
+#: ../../content/belgique/ehealth/efact.md:181
 msgid "Deserves a look; never stops the send."
 msgstr "Mérite un regard ; n'empêche jamais l'envoi."
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "A refused send is the feature working"
 msgstr "Un envoi refusé, c'est la fonction qui marche"
 
-#: ../../content/belgique/ehealth/efact.md:212
+#: ../../content/belgique/ehealth/efact.md:231
 msgid ""
 "If **Send to OA** refuses, that is deliberate. Every transmission consumes a"
 " **mailing number**, and a batch sent with a known defect comes back as a "
@@ -750,45 +798,45 @@ msgstr ""
 "rejet après avoir brûlé ce numéro pour rien. Corrigez la cause, régénérez le"
 " message, renvoyez."
 
-#: ../../content/belgique/ehealth/efact.md:218
+#: ../../content/belgique/ehealth/efact.md:237
 msgid "What the checks look for"
 msgstr "Ce que les contrôles cherchent"
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "Problem"
 msgstr "Problème"
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "Why the insurer would reject it"
 msgstr "Pourquoi l'organisme assureur le rejetterait"
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "What to do"
 msgstr "Que faire"
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "**Message not generated**"
 msgstr "**Message non généré**"
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "There is no file to send."
 msgstr "Il n'y a pas de fichier à envoyer."
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "Click **Generate message**."
 msgstr "Cliquez **Générer le message**."
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "**Period ≠ billed days**"
 msgstr "**Période ≠ jours facturés**"
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "The billed period spans more days than it bills (reject **302240**)."
 msgstr ""
 "La période facturée couvre plus de jours qu'elle n'en facture (rejet "
 "**302240**)."
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid ""
 "Regenerate the **billing period**, not the batch — the allowance is then "
 "split around the absence."
@@ -796,111 +844,111 @@ msgstr ""
 "Régénérez la **période de facturation**, pas le lot — le forfait est alors "
 "découpé autour de l'absence."
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "**Forfait past intervention end**"
 msgstr "**Forfait au-delà de la fin d'intervention**"
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "The line bills beyond the death or departure date."
 msgstr "La ligne facture au-delà de la date de décès ou de départ."
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "Regenerate the period, or issue a credit note."
 msgstr "Régénérez la période, ou émettez une note de crédit."
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "**Future-dated billing**"
 msgstr "**Facturation dans le futur**"
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "The last billed day has not elapsed (reject **300610 / 500610**)."
 msgstr ""
 "Le dernier jour facturé n'est pas encore écoulé (rejet **300610 / 500610**)."
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "Transmit once the month is over (M+1)."
 msgstr "Transmettez une fois le mois écoulé (M+1)."
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "**Union code instead of a member fund**"
 msgstr "**Code d'union au lieu d'une mutuelle membre**"
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "Billed under a federation code; the insurer wants the member fund."
 msgstr ""
 "Facturé sous un code de fédération ; l'organisme assureur attend la mutuelle"
 " membre."
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "Re-run the MDA, or assign a member fund to the resident."
 msgstr "Relancez le MDA, ou assignez une mutuelle membre à l'habitant."
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "**Insurability not confirmed**"
 msgstr "**Assurabilité non confirmée**"
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "No usable MDA covering the billed period."
 msgstr "Aucun MDA exploitable ne couvre la période facturée."
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "Run **Redo MDA** for that resident."
 msgstr "Lancez **Refaire le MDA** pour cet habitant."
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "**Not insured per MDA**"
 msgstr "**Non assuré selon le MDA**"
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "The insurer answered *\"not insured\"* for the period."
 msgstr "L'organisme assureur a répondu *« non assuré »* pour la période."
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "Use **Split Non-Insured** (see below)."
 msgstr "Utilisez **Scinder les non-assurés** (voir ci-dessous)."
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "**CT1/CT2 would be sent empty**"
 msgstr "**CT1/CT2 partirait à vide**"
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "The titularity codes resolve to zeros (reject **202703**)."
 msgstr "Les codes titulaire se résolvent en zéros (rejet **202703**)."
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "Re-run the MDA for the billed period, then regenerate the message."
 msgstr "Relancez le MDA pour la période facturée, puis régénérez le message."
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "**Insurability comes from a stub run**"
 msgstr "**L'assurabilité vient d'une simulation**"
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "A simulated MDA **fabricates** the titularity codes."
 msgstr "Un MDA simulé **fabrique** les codes titulaire."
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "Run a real MDA, then regenerate the message."
 msgstr "Lancez un vrai MDA, puis régénérez le message."
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "**Latest MDA failed — insurability is stale** *(warning)*"
 msgstr ""
 "**Le dernier MDA a échoué — l'assurabilité est périmée** *(avertissement)*"
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "What is displayed is left over from an older successful run."
 msgstr "Ce qui s'affiche est le reliquat d'un succès plus ancien."
 
-#: ../../content/belgique/ehealth/efact.md:209
+#: ../../content/belgique/ehealth/efact.md:228
 msgid "Settle the cause with the insurer, then re-run the MDA."
 msgstr "Réglez la cause avec l'organisme assureur, puis relancez le MDA."
 
-#: ../../content/belgique/ehealth/efact.md:233
+#: ../../content/belgique/ehealth/efact.md:252
 msgid "7. Insurability coverage and held batches"
 msgstr "7\\. Couverture d'assurabilité et lots retenus"
 
-#: ../../content/belgique/ehealth/efact.md:235
+#: ../../content/belgique/ehealth/efact.md:254
 msgid ""
 "Each batch carries an **MDA Coverage** badge — **OK**, **Partial**, "
 "**Missing** or **Pending** — with a count of the residents that can actually"
@@ -912,7 +960,7 @@ msgstr ""
 "envoyables (*« 5/7 envoyables »*). Le même indicateur figure dans l'onglet "
 "eHealth de la période."
 
-#: ../../content/belgique/ehealth/efact.md:239
+#: ../../content/belgique/ehealth/efact.md:258
 msgid ""
 "When part of the batch is not covered, you do not have to choose between "
 "delaying everyone and sending a file you know will be rejected:"
@@ -920,7 +968,7 @@ msgstr ""
 "Quand une partie du lot n'est pas couverte, vous n'avez pas à choisir entre "
 "retarder tout le monde et envoyer un fichier que vous savez rejeté :"
 
-#: ../../content/belgique/ehealth/efact.md:242
+#: ../../content/belgique/ehealth/efact.md:261
 msgid ""
 "**Split Non-Insured** keeps in the batch only the residents with a confirmed"
 " insured MDA, and moves all the others — no MDA, *\"not insured\"*, or MDA "
@@ -932,7 +980,7 @@ msgstr ""
 "assuré »*, ou MDA en erreur — dans un lot **retenu** distinct. La partie "
 "saine peut partir tout de suite."
 
-#: ../../content/belgique/ehealth/efact.md:245
+#: ../../content/belgique/ehealth/efact.md:264
 msgid ""
 "The held batch waits. Re-run the MDA on it, reintegrate the residents who "
 "regain coverage, or bill them directly."
@@ -940,18 +988,18 @@ msgstr ""
 "Le lot retenu attend. Relancez-y le MDA, réintégrez les habitants qui "
 "retrouvent une couverture, ou facturez-les directement."
 
-#: ../../content/belgique/ehealth/efact.md:247
+#: ../../content/belgique/ehealth/efact.md:266
 msgid ""
 "**Release Held** puts it back into circulation once coverage is **OK**."
 msgstr ""
 "**Libérer le lot retenu** le remet en circulation dès que la couverture est "
 "**OK**."
 
-#: ../../content/belgique/ehealth/efact.md:249
+#: ../../content/belgique/ehealth/efact.md:268
 msgid "Releasing is refused while coverage is not OK"
 msgstr "La libération est refusée tant que la couverture n'est pas OK"
 
-#: ../../content/belgique/ehealth/efact.md:252
+#: ../../content/belgique/ehealth/efact.md:271
 msgid ""
 "**Release Held** refuses as long as coverage is not **OK**, and tells you "
 "the current state. Refresh the insurability first — the whole point of the "
@@ -962,7 +1010,7 @@ msgstr ""
 "l'intérêt du lot retenu est qu'il ne parte jamais dans un état que "
 "l'organisme assureur rejetterait."
 
-#: ../../content/belgique/ehealth/efact.md:257
+#: ../../content/belgique/ehealth/efact.md:276
 msgid ""
 "On release, Resthome also handles the case where an MDA has **changed a "
 "resident's fund**: those lines are rerouted to the batch of the correct "
@@ -974,11 +1022,11 @@ msgstr ""
 "organisme assureur — fusionnées dans un lot existant, ou placées dans un "
 "nouveau, lui-même retenu si un lot est déjà en vol pour cet organisme."
 
-#: ../../content/belgique/ehealth/efact.md:262
+#: ../../content/belgique/ehealth/efact.md:281
 msgid "8. Send and follow the responses"
 msgstr "8\\. Envoyer et suivre les réponses"
 
-#: ../../content/belgique/ehealth/efact.md:264
+#: ../../content/belgique/ehealth/efact.md:283
 msgid ""
 "Once the batches are built, **send them**: the transmission goes to the "
 "insurance organisations through the eHealth network."
@@ -986,11 +1034,11 @@ msgstr ""
 "Une fois les lots construits, **envoyez-les** : la transmission part vers "
 "les organismes assureurs via le réseau eHealth."
 
-#: ../../content/belgique/ehealth/efact.md:267
+#: ../../content/belgique/ehealth/efact.md:286
 msgid "The response cycle is automatic:"
 msgstr "Le cycle des réponses est automatique :"
 
-#: ../../content/belgique/ehealth/efact.md:269
+#: ../../content/belgique/ehealth/efact.md:288
 msgid ""
 "**Acknowledgement of receipt (931000)** — the OA confirms having "
 "**received** the batch and passed the first check. **This is normal: there "
@@ -1000,7 +1048,7 @@ msgstr ""
 "passé le premier contrôle. **C'est normal : il n'y a rien à renvoyer, "
 "attendez le décompte** (quelques jours)."
 
-#: ../../content/belgique/ehealth/efact.md:272
+#: ../../content/belgique/ehealth/efact.md:291
 msgid ""
 "**Notification with warnings (920098)** or **global rejection (920099)** — "
 "where applicable: either the batch is accepted despite minor errors, or the "
@@ -1010,7 +1058,7 @@ msgstr ""
 " le cas échéant : soit le lot est accepté malgré des erreurs mineures, soit "
 "l'ensemble du lot est refusé (à corriger et renvoyer)."
 
-#: ../../content/belgique/ehealth/efact.md:275
+#: ../../content/belgique/ehealth/efact.md:294
 msgid ""
 "**Settlement (920900)** — the final result: **accepted** and/or **rejected**"
 " amounts. Resthome **reconciles** the responses and updates each batch "
@@ -1020,11 +1068,11 @@ msgstr ""
 "**rejetés**. Resthome **rapproche** les réponses et met à jour chaque lot "
 "(code et motif de rejet)."
 
-#: ../../content/belgique/ehealth/efact.md:279
+#: ../../content/belgique/ehealth/efact.md:298
 msgid "Handling a rejection"
 msgstr "Traiter un rejet"
 
-#: ../../content/belgique/ehealth/efact.md:281
+#: ../../content/belgique/ehealth/efact.md:300
 msgid ""
 "If a batch (or part of it) is **rejected**, the rejection **code** and "
 "**reason** tell you why (insurability, allowance, dates…). Fix the cause, "
@@ -1036,7 +1084,7 @@ msgstr ""
 "cause, puis **renvoyez**. Le compteur **Renvois** assure le suivi des "
 "retransmissions pour éviter les doublons."
 
-#: ../../content/belgique/ehealth/efact.md:287
+#: ../../content/belgique/ehealth/efact.md:306
 msgid ""
 "The **Reintegration** button lets you, where applicable, reintegrate lines "
 "(for example after correction) into a new sending."
@@ -1044,11 +1092,11 @@ msgstr ""
 "Le bouton **Réintégration** permet, le cas échéant, de réintégrer des lignes"
 " (par exemple après correction) dans un nouvel envoi."
 
-#: ../../content/belgique/ehealth/efact.md:290
+#: ../../content/belgique/ehealth/efact.md:309
 msgid "9. The eFact Cockpit"
 msgstr "9\\. Le cockpit eFact"
 
-#: ../../content/belgique/ehealth/efact.md:292
+#: ../../content/belgique/ehealth/efact.md:311
 msgid ""
 "From a period or a dashboard card, the **eFact Cockpit** offers a **steering"
 " view**: the state of all batches and sendings at a glance — transmitted, "
@@ -1060,11 +1108,11 @@ msgstr ""
 "d'œil — transmis, acceptés, rejetés, en attente. C'est l'écran idéal pour "
 "**suivre une campagne mensuelle** et repérer ce qui bloque."
 
-#: ../../content/belgique/ehealth/efact.md:297
+#: ../../content/belgique/ehealth/efact.md:316
 msgid "10. Credit notes and regularisations"
 msgstr "10\\. Notes de crédit et régularisations"
 
-#: ../../content/belgique/ehealth/efact.md:299
+#: ../../content/belgique/ehealth/efact.md:318
 msgid ""
 "When a resident **leaves** or **dies** during an already invoiced month, "
 "part of the accommodation or the allowance was **over-invoiced**. Resthome "
@@ -1079,35 +1127,35 @@ msgstr ""
 " le **reliquat** correspondant, pour rembourser la période indue — côté "
 "habitant **et**, si nécessaire, côté mutuelle via un lot correctif."
 
-#: ../../content/belgique/ehealth/efact.md:305
+#: ../../content/belgique/ehealth/efact.md:324
 msgid "Prerequisites"
 msgstr "Prérequis"
 
-#: ../../content/belgique/ehealth/efact.md:307
+#: ../../content/belgique/ehealth/efact.md:326
 msgid "To check before sending"
 msgstr "À vérifier avant d'envoyer"
 
-#: ../../content/belgique/ehealth/efact.md:309
-msgid "**Insurability (MDA)** checked for the period."
-msgstr "**Assurabilité (MDA)** vérifiée pour la période."
+#: ../../content/belgique/ehealth/efact.md:328
+msgid "**Insurability (MDA)** requested for the period (**Check MDA**)."
+msgstr "**Assurabilité (MDA)** demandée pour la période (**Vérifier MDA**)."
 
-#: ../../content/belgique/ehealth/efact.md:310
+#: ../../content/belgique/ehealth/efact.md:329
 msgid "Correct **mutuality** on each resident."
 msgstr "**Mutuelle** correcte sur chaque habitant."
 
-#: ../../content/belgique/ehealth/efact.md:311
-msgid "Invoices **posted** (period in *Invoiced* state)."
-msgstr "Factures **comptabilisées** (période à l'état *Facturée*)."
+#: ../../content/belgique/ehealth/efact.md:330
+msgid "A **Katz** assessment for every resident billed to a mutuality."
+msgstr "Une évaluation **Katz** pour chaque habitant facturé à une mutuelle."
 
-#: ../../content/belgique/ehealth/efact.md:312
+#: ../../content/belgique/ehealth/efact.md:331
 msgid "Active **eHealth certificate**."
 msgstr "**Certificat eHealth** actif."
 
-#: ../../content/belgique/ehealth/efact.md:315
+#: ../../content/belgique/ehealth/efact.md:334
 msgid "Key points to remember"
 msgstr "Points clés à retenir"
 
-#: ../../content/belgique/ehealth/efact.md:317
+#: ../../content/belgique/ehealth/efact.md:336
 msgid ""
 "The period always follows the order **Draft → Generated → Invoiced → "
 "Closed**."
@@ -1115,28 +1163,80 @@ msgstr ""
 "La période suit toujours l'ordre **Brouillon → Générée → Facturée → "
 "Clôturée**."
 
-#: ../../content/belgique/ehealth/efact.md:318
+#: ../../content/belgique/ehealth/efact.md:337
 msgid "**Check before invoicing**: handle every self-check message."
 msgstr ""
 "**Vérifiez avant de facturer** : traitez chaque message d'autocontrôle."
 
-#: ../../content/belgique/ehealth/efact.md:319
-msgid "**Check the MDA** — no third-party payment without valid insurability."
-msgstr "**Vérifiez le MDA** — pas de tiers payant sans assurabilité valide."
+#: ../../content/belgique/ehealth/efact.md:338
+msgid ""
+"**Check MDA, then Generate eFact, then Create Invoices** — no third-party "
+"payment without valid insurability."
+msgstr ""
+"**Vérifier MDA, puis Générer eFact, puis Créer les factures** — pas de tiers"
+" payant sans assurabilité valide."
 
-#: ../../content/belgique/ehealth/efact.md:320
+#: ../../content/belgique/ehealth/efact.md:340
 msgid "**One eFact batch per union** of mutualities, not per mutuality."
-msgstr "**Un lot eFact par union** de mutualités, pas par mutuelle."
+msgstr "**Un lot eFact par union** de mutuelles, pas par mutuelle."
 
-#: ../../content/belgique/ehealth/efact.md:321
+#: ../../content/belgique/ehealth/efact.md:341
 msgid "Respect the sending **deadline** of each period (\"deadline exceeded\")."
 msgstr ""
 "Respectez l’**échéance** d'envoi de chaque période (« échéance dépassée »)."
 
-#: ../../content/belgique/ehealth/efact.md:322
+#: ../../content/belgique/ehealth/efact.md:342
 msgid ""
 "A **rejection** is fixed then **resent** — the Resends counter avoids "
 "duplicates."
 msgstr ""
 "Un **rejet** se corrige puis se **renvoie** — le compteur Renvois évite les "
 "doublons."
+
+#~ msgid "The invoices are posted. The eFact can be built and sent."
+#~ msgstr ""
+#~ "Les factures sont comptabilisées. L'eFact peut être construit et envoyé."
+
+#~ msgid ""
+#~ "The guiding thread: **Generate → check → Create invoices → Generate eFact → "
+#~ "send → follow the responses**."
+#~ msgstr ""
+#~ "Le fil conducteur : **Générer → vérifier → Créer les factures → Générer "
+#~ "l'eFact → envoyer → suivre les réponses**."
+
+#~ msgid ""
+#~ "**Load MDA**: loads the already verified insurability (MDA) — \"Success\" or"
+#~ " \"pending\". The legend shows the MDA state of the period."
+#~ msgstr ""
+#~ "**Charger le MDA** : charge l'assurabilité (MDA) déjà vérifiée — « Succès » "
+#~ "ou « en attente ». La légende indique l'état MDA de la période."
+
+#~ msgid "3. Check before invoicing"
+#~ msgstr "3\\. Vérifier avant de facturer"
+
+#~ msgid ""
+#~ "**Check MDA** — the **Check MDA** button verifies the **insurability** of "
+#~ "your residents with the mutualities. A resident without valid coverage "
+#~ "cannot be invoiced under third-party payment."
+#~ msgstr ""
+#~ "**Vérifier MDA** — le bouton **Vérifier MDA** contrôle l’**assurabilité** de"
+#~ " vos habitants auprès des mutuelles. Un habitant sans couverture valide ne "
+#~ "peut pas être facturé en tiers payant."
+
+#~ msgid ""
+#~ "When the checks are green, click **Create invoices**. Resthome generates and"
+#~ " posts:"
+#~ msgstr ""
+#~ "Lorsque les contrôles sont au vert, cliquez sur **Créer les factures**. "
+#~ "Resthome génère et comptabilise :"
+
+#~ msgid ""
+#~ "the **resident invoices** (share charged to the resident / the family);"
+#~ msgstr ""
+#~ "les **factures habitant** (part à charge de l'habitant / de la famille) ;"
+
+#~ msgid "the **mutuality share**, which will feed the eFact."
+#~ msgstr "la **part mutuelle**, qui alimentera l'eFact."
+
+#~ msgid "Invoices **posted** (period in *Invoiced* state)."
+#~ msgstr "Factures **comptabilisées** (période à l'état *Facturée*)."

@@ -1,11 +1,11 @@
 ---
-modules: [healthcare_accommodation_billing, l10n_health_be_perdiem_ehealth]
+modules: [healthcare_accommodation_billing]
 ---
 
 # Absences and hospitalisations
 
 :::{rh-description}
-Record an absence or a hospitalisation in Resthome — effect on the care allowance, the day count, the notification to the health insurer, cancellation.
+Record an absence or a hospitalisation in Resthome — effect on the care allowance and the day count, cancellation.
 :::
 
 :::{rh-faq}
@@ -18,20 +18,16 @@ How does an absence affect the care allowance?
 Why do the departure and return times matter?
 : Because whether a day counts as a presence day depends on the time the resident left and came back, under the counting rule of the country. Resthome relies on the exact times for the count.
 
-Which absences must be reported to the health insurer?
-: It depends on the country. Where a notification is required, Resthome prepares it as soon as you record the absence and the return; you only check and send it.
-
 Can I cancel an absence entered by mistake?
-: Yes. Delete it or set it back to draft: the care allowance is recomputed as if the absence had never happened, and prepared notifications are withdrawn as long as the insurer has not validated them.
+: Yes. Delete it or set it back to draft: the billing is recomputed as if the absence had never happened.
 
 What if the month is already invoiced?
 : Resthome does not change a posted invoice automatically, to prevent double invoicing. Reset the invoice to draft or issue a credit note, then refresh. Other residents in the period are unaffected.
 :::
 
 When a resident is away (hospitalisation, holidays, family leave), this affects
-**the care allowance** for the period and may trigger a **notification to the
-health insurer**. Resthome handles both automatically from the absence you
-record.
+**the billing** of the period — the **care allowance** above all. Resthome
+adjusts it automatically from the absence you record.
 
 ## Record an absence
 
@@ -47,8 +43,7 @@ record.
 :class: tip
 
 Adding, modifying or deleting an absence **automatically synchronises** the
-billing of the resident concerned: the care allowance is recomputed and, where
-applicable, the notification to the health insurer is prepared. See
+billing of the resident concerned: the care allowance is recomputed. See
 [billing](index.md).
 :::
 
@@ -64,22 +59,13 @@ Resthome relies on them for an exact count.
 The **accommodation share** (the room, paid by the resident) follows its own
 rules according to your agreement.
 
-## Notification to the health insurer
-
-Where the country requires it, some absences must be reported to the resident's
-health insurer — typically a long absence or a hospitalisation, then the
-resident's return.
-
-Resthome creates these notifications **at the moment you record the absence and
-the return**, through the electronic exchanges with the health insurer, with no
-extra handling. You only have to check and send them.
-
 :::{admonition} In Belgium
 :class: rh-country rh-country-be
 
 Days are counted on presence at noon (Brussels time). An absence of more than
-72 hours, or any hospitalisation, prepares an Annexe 11 for the mutuality; the
-return prepares an Annexe 7. See
+72 hours, or any hospitalisation, prepares an Annexe 11 notification for the
+mutuality as soon as it is recorded; the return prepares an Annexe 7. Deleting
+the absence withdraws them while the mutuality has not validated them. See
 [Billing a month in Belgium](../belgique/facturation.md) and
 [Agreements (eAgreement)](../belgique/ehealth/eagreement.md).
 :::
@@ -88,8 +74,7 @@ return prepares an Annexe 7. See
 
 An absence entered by mistake? **Delete it** or set it back to draft: Resthome
 **rolls it back cleanly** — the care allowance is recomputed as if the absence
-had never happened, and the prepared notifications are withdrawn as long as
-they have not been validated by the health insurer.
+had never happened.
 
 :::{admonition} Month already invoiced
 :class: warning
