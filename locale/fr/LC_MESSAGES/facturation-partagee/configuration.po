@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-16 01:30+0200\n"
+"POT-Creation-Date: 2026-09-23 15:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -20,11 +20,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: ../../content/facturation-partagee/configuration.md:1
+#: ../../content/facturation-partagee/configuration.md:5
 msgid "Setting up a split"
 msgstr "Mettre en place une répartition"
 
-#: ../../content/facturation-partagee/configuration.md:4
+#: ../../content/facturation-partagee/configuration.md:8
 msgid ""
 "Setting up split billing in Resthome: the accounting settings, the debtors "
 "on the resident's record, capture at admission, and the terms frozen on the "
@@ -34,11 +34,11 @@ msgstr ""
 "comptables, les débiteurs sur la fiche de l'habitant, la saisie à "
 "l'admission, et les conditions gelées sur le séjour."
 
-#: ../../content/facturation-partagee/configuration.md:8
+#: ../../content/facturation-partagee/configuration.md:12
 msgid "Where do I set the debtors?"
 msgstr "Où définir les débiteurs ?"
 
-#: ../../content/facturation-partagee/configuration.md:9
+#: ../../content/facturation-partagee/configuration.md:13
 msgid ""
 "On the resident's record, Billing tab: choose a split **Invoice Type**, then"
 " fill in the **Split Billing Partners** list."
@@ -47,25 +47,26 @@ msgstr ""
 "facturation** partagé, puis remplissez la liste **Partenaires de facturation"
 " partagée**."
 
-#: ../../content/facturation-partagee/configuration.md:11
+#: ../../content/facturation-partagee/configuration.md:15
 msgid "What must be configured before the first split invoice?"
 msgstr "Que faut-il configurer avant la première facture partagée ?"
 
-#: ../../content/facturation-partagee/configuration.md:12
+#: ../../content/facturation-partagee/configuration.md:16
 msgid ""
-"A dedicated split billing journal and a suspense account, in the MR/MRS "
-"settings. Without them, generation stops before anything is produced."
+"A dedicated split billing journal and a suspense account, in the settings of"
+" the **Nursing Home** app. Without them, generation stops before anything is"
+" produced."
 msgstr ""
 "Un journal de facturation partagée dédié et un compte d'attente, dans les "
-"réglages MR/MRS. Sans eux, la génération s'arrête avant de produire quoi que"
-" ce soit."
+"réglages de l'application **Maison de repos**. Sans eux, la génération "
+"s'arrête avant de produire quoi que ce soit."
 
-#: ../../content/facturation-partagee/configuration.md:14
+#: ../../content/facturation-partagee/configuration.md:18
 msgid "I changed the debtors and the current month did not change. Why?"
 msgstr ""
 "J'ai changé les débiteurs et le mois en cours n'a pas bougé. Pourquoi ?"
 
-#: ../../content/facturation-partagee/configuration.md:15
+#: ../../content/facturation-partagee/configuration.md:19
 msgid ""
 "Because a stay bills under the terms it was opened with. New debtors apply "
 "to the next stay."
@@ -73,15 +74,19 @@ msgstr ""
 "Parce qu'un séjour facture aux conditions sous lesquelles il a été ouvert. "
 "De nouveaux débiteurs valent pour le prochain séjour."
 
-#: ../../content/facturation-partagee/configuration.md:18
+#: ../../content/facturation-partagee/configuration.md:22
 msgid "1. The accounting settings"
 msgstr "1\\. Les réglages comptables"
 
-#: ../../content/facturation-partagee/configuration.md:20
-msgid "In **Settings → MR/MRS**, under the optional features:"
-msgstr "Dans **Réglages → MR/MRS**, sous les fonctionnalités optionnelles :"
+#: ../../content/facturation-partagee/configuration.md:24
+msgid ""
+"In the **Settings** of the **Nursing Home** app, under the optional "
+"features:"
+msgstr ""
+"Dans les **Paramètres** de l'application **Maison de repos**, sous les "
+"fonctionnalités optionnelles :"
 
-#: ../../content/facturation-partagee/configuration.md:22
+#: ../../content/facturation-partagee/configuration.md:26
 msgid ""
 "**Split Billing Journal** — a journal of its own, separate from the resident"
 " journal."
@@ -89,7 +94,7 @@ msgstr ""
 "**Journal de facturation partagée** — un journal à lui, distinct du journal "
 "habitant."
 
-#: ../../content/facturation-partagee/configuration.md:24
+#: ../../content/facturation-partagee/configuration.md:28
 msgid ""
 "**Split Billing Suspense Account** — the account that carries the resident "
 "statement."
@@ -97,11 +102,11 @@ msgstr ""
 "**Compte d'attente de facturation partagée** — le compte qui porte le "
 "décompte habitant."
 
-#: ../../content/facturation-partagee/configuration.md:27
+#: ../../content/facturation-partagee/configuration.md:31
 msgid "Required before generating"
 msgstr "Obligatoire avant toute génération"
 
-#: ../../content/facturation-partagee/configuration.md:30
+#: ../../content/facturation-partagee/configuration.md:34
 msgid ""
 "Without these two settings, the generation of split invoices stops "
 "**before** touching anything. Nothing is produced, nothing is deleted."
@@ -110,15 +115,15 @@ msgstr ""
 "**avant** de toucher à quoi que ce soit. Rien n'est produit, rien n'est "
 "supprimé."
 
-#: ../../content/facturation-partagee/configuration.md:34
+#: ../../content/facturation-partagee/configuration.md:38
 msgid "2. The debtors on the resident"
 msgstr "2\\. Les débiteurs sur l'habitant"
 
-#: ../../content/facturation-partagee/configuration.md:36
+#: ../../content/facturation-partagee/configuration.md:40
 msgid "On the **resident's record**, **Billing** tab:"
 msgstr "Sur la **fiche de l'habitant**, onglet **Facturation** :"
 
-#: ../../content/facturation-partagee/configuration.md:38
+#: ../../content/facturation-partagee/configuration.md:42
 msgid ""
 "Set **Invoice Type** to **Split Billing — Anticipatory** or **Split Billing "
 "— Arrears**, depending on whether the month is billed in advance or in "
@@ -128,7 +133,7 @@ msgstr ""
 "ou **Facturation partagée période échue**, selon que le mois est facturé "
 "d'avance ou à terme échu."
 
-#: ../../content/facturation-partagee/configuration.md:41
+#: ../../content/facturation-partagee/configuration.md:45
 msgid ""
 "Fill in the **Split Billing Partners** list: the **debtor**, the "
 "**intervention type** (**Percentage**, **Fixed amount** or **Variable**), "
@@ -138,20 +143,20 @@ msgstr ""
 "**débiteur**, le **type d'intervention** (**Pourcentage**, **Montant fixe** "
 "ou **Variable**), et le pourcentage ou le montant."
 
-#: ../../content/facturation-partagee/configuration.md:44
+#: ../../content/facturation-partagee/configuration.md:48
 msgid "Save."
 msgstr "Enregistrez."
 
-#: ../../content/facturation-partagee/configuration.md:46
+#: ../../content/facturation-partagee/configuration.md:50
 msgid ""
 "The order of the lines matters: the **last** line absorbs the rounding."
 msgstr "L'ordre des lignes compte : la **dernière** ligne absorbe l'arrondi."
 
-#: ../../content/facturation-partagee/configuration.md:48
+#: ../../content/facturation-partagee/configuration.md:52
 msgid "Percentages balance themselves"
 msgstr "Les pourcentages s'équilibrent seuls"
 
-#: ../../content/facturation-partagee/configuration.md:51
+#: ../../content/facturation-partagee/configuration.md:55
 msgid ""
 "On saving, lines left at zero share what remains; otherwise the last "
 "untouched line absorbs the difference. Deleting a line frees its share to "
@@ -162,36 +167,36 @@ msgstr ""
 "libère sa part vers la dernière. Les montants fixes ne sont jamais "
 "rééquilibrés automatiquement."
 
-#: ../../content/facturation-partagee/configuration.md:56
+#: ../../content/facturation-partagee/configuration.md:60
 msgid "A few rules worth knowing:"
 msgstr "Quelques règles à connaître :"
 
-#: ../../content/facturation-partagee/configuration.md:58
+#: ../../content/facturation-partagee/configuration.md:62
 msgid "a resident cannot be their own debtor, and each debtor appears once;"
 msgstr ""
 "un habitant ne peut pas être son propre débiteur, et chaque débiteur "
 "n'apparaît qu'une fois ;"
 
-#: ../../content/facturation-partagee/configuration.md:59
+#: ../../content/facturation-partagee/configuration.md:63
 msgid "a fixed amount must be positive;"
 msgstr "un montant fixe doit être positif ;"
 
-#: ../../content/facturation-partagee/configuration.md:60
+#: ../../content/facturation-partagee/configuration.md:64
 msgid "**an archived debtor blocks generation**, naming the person concerned;"
 msgstr ""
 "**un débiteur archivé bloque la génération**, en nommant la personne "
 "concernée ;"
 
-#: ../../content/facturation-partagee/configuration.md:61
+#: ../../content/facturation-partagee/configuration.md:65
 msgid "a resident set to split billing **without any debtor** is refused."
 msgstr ""
 "un habitant en facturation partagée **sans aucun débiteur** est refusé."
 
-#: ../../content/facturation-partagee/configuration.md:63
+#: ../../content/facturation-partagee/configuration.md:67
 msgid "3. At admission"
 msgstr "3\\. À l'admission"
 
-#: ../../content/facturation-partagee/configuration.md:65
+#: ../../content/facturation-partagee/configuration.md:69
 msgid ""
 "The [admission wizard](../admissions/admettre.md) carries the same list: the"
 " debtors can be recorded straight away. If the resident already has some, "
@@ -203,11 +208,11 @@ msgstr ""
 "l'assistant les montre pour information, avec une note qui renvoie à la "
 "fiche de l'habitant plutôt qu'à la fenêtre."
 
-#: ../../content/facturation-partagee/configuration.md:70
+#: ../../content/facturation-partagee/configuration.md:74
 msgid "4. The terms are frozen on the stay"
 msgstr "4\\. Les conditions sont gelées sur le séjour"
 
-#: ../../content/facturation-partagee/configuration.md:72
+#: ../../content/facturation-partagee/configuration.md:76
 msgid ""
 "A stay bills under the terms it was **opened** with: the invoice type and "
 "the debtors are copied onto it. Changing the debtors on the resident today "
@@ -218,14 +223,14 @@ msgstr ""
 "sur l'habitant aujourd'hui vaut pour le **prochain** séjour, pas pour celui "
 "en cours."
 
-#: ../../content/facturation-partagee/configuration.md:76
+#: ../../content/facturation-partagee/configuration.md:80
 msgid "What's next"
 msgstr "Pour continuer"
 
-#: ../../content/facturation-partagee/configuration.md:78
+#: ../../content/facturation-partagee/configuration.md:82
 msgid "[The documents produced](factures.md)"
 msgstr "[Les documents produits](factures.md)"
 
-#: ../../content/facturation-partagee/configuration.md:79
+#: ../../content/facturation-partagee/configuration.md:83
 msgid "[Invoicing a month, step by step](../facturation/facturer-un-mois.md)"
 msgstr "[Facturer un mois, pas à pas](../facturation/facturer-un-mois.md)"

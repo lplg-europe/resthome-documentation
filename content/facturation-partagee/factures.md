@@ -1,3 +1,7 @@
+---
+modules: [resthome_split_billing]
+---
+
 # The documents produced
 
 :::{rh-description}

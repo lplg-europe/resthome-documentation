@@ -1,4 +1,5 @@
 ---
+modules: [l10n_health_be_eagreement_light, l10n_health_be_perdiem_ehealth]
 howto_auto: true
 ---
 
@@ -166,4 +167,4 @@ justified, contest it with the insurer rather than correcting it by hand.
 - [Agreements (eAgreement Light)](eagreement.md) — creating and sending a request.
 - [Signing the annexes](eagreement-signature.md) — before sending.
 - [Refusals and rejects](eagreement-refus.md) — what to do with a negative outcome.
-- [The Katz assessment](../residents/katz.md) — the category that is requested.
+- [The Katz assessment](../katz.md) — the category that is requested.

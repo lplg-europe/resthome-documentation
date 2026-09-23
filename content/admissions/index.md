@@ -1,3 +1,7 @@
+---
+modules: [healthcare_accommodation]
+---
+
 # Admissions
 
 :::{rh-description}
@@ -9,7 +13,7 @@ Where is the admissions pipeline?
 : In the **Admissions** application. Each enquiry is a card that you move from stage to stage on a kanban board.
 
 Who is the candidate, the resident or the relative who calls?
-: The candidate is the person to be accommodated. The relative who calls is recorded as a family contact, and the identity (NISS, date of birth) stays on the candidate.
+: The candidate is the person to be accommodated. The relative who calls is recorded as a family contact, and the identity (national identification number, date of birth) stays on the candidate.
 
 How do I close an enquiry that does not go ahead?
 : Click **Give up** on the file and choose the reason: admitted to another home, withdrew and staying at home, or died before admission.
@@ -48,6 +52,14 @@ can also be scheduled from the file itself, in the shared calendar.
 Each file carries the **Resident candidate** box, ticked by default. It opens the
 [candidate's file](dossier-candidat.md) and hides what belongs to a sales
 pipeline and not to an admission: expected revenue, probability, quotations.
+
+:::{admonition} In Belgium
+:class: rh-country rh-country-be
+
+The file also carries the NISS, the MR/MRS stay type and the MDA insurability
+check, and starting the stay prepares the admission agreement (eAgreement): see
+[Admitting a resident in Belgium](../belgique/admission.md).
+:::
 
 ## Giving up an enquiry
 

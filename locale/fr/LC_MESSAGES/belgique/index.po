@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-21 16:36+0200\n"
+"POT-Creation-Date: 2026-09-23 15:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -20,178 +20,441 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: ../../content/belgique/index.md:1
+#: ../../content/belgique/index.md:5
 msgid "Belgium"
 msgstr "Belgique"
 
-#: ../../content/belgique/index.md:4
-msgid ""
-"What Resthome does that is specific to Belgium: the INAMI dependency "
-"allowance, the Katz scale, the eHealth exchanges (eFact, MDA, eAgreement), "
-"the institutional allowance and the Belgian annexes."
-msgstr ""
-"Ce que Resthome fait de spécifiquement belge : le forfait de dépendance "
-"INAMI, l'échelle de Katz, les échanges eHealth (eFact, MDA, eAgreement), le "
-"forfait institutionnel et les annexes belges."
-
 #: ../../content/belgique/index.md:8
-msgid "Why is there a Belgium section?"
-msgstr "Pourquoi une section Belgique ?"
-
-#: ../../content/belgique/index.md:9
 msgid ""
-"Because everything in it comes from Belgian law or from Belgian "
-"institutions: INAMI, AViQ, the health insurers, eHealth. The rest of the "
-"documentation — residents, care, meals, accommodation billing — works the "
-"same way in any country."
+"Everything Resthome does that comes from Belgian rules: the Katz assessment,"
+" the INAMI allowance and billing, the eHealth exchanges (MDA, eAgreement, "
+"eFact), the institutional allowance, the day care centre and the Belgian "
+"settings."
 msgstr ""
-"Parce que tout ce qui s'y trouve vient de la loi belge ou d'institutions "
-"belges : INAMI, AViQ, les mutuelles, eHealth. Le reste de la documentation —"
-" habitants, soins, repas, facturation de l'hébergement — fonctionne de la "
-"même façon dans n'importe quel pays."
-
-#: ../../content/belgique/index.md:11
-msgid "Can Resthome run outside Belgium?"
-msgstr "Resthome peut-il tourner hors de Belgique ?"
+"Tout ce que Resthome fait en vertu des règles belges : l'évaluation Katz, le"
+" forfait INAMI et la facturation, les échanges eHealth (MDA, eAgreement, "
+"eFact), le forfait institutionnel, le centre de soins de jour et les "
+"réglages belges."
 
 #: ../../content/belgique/index.md:12
-msgid ""
-"Yes. The engine is country-neutral: a country pack brings the scale, the "
-"identifiers and the billing rules. Belgium is the one documented here; "
-"Luxembourg exists in the software."
-msgstr ""
-"Oui. Le moteur est neutre : un pack pays apporte l'échelle, les identifiants"
-" et les règles de facturation. La Belgique est celui qui est documenté ici ;"
-" le Luxembourg existe dans le logiciel."
+msgid "Why is there a Belgium space?"
+msgstr "Pourquoi un espace Belgique ?"
 
-#: ../../content/belgique/index.md:14
+#: ../../content/belgique/index.md:13
+msgid ""
+"Because everything in it comes from Belgian law or from Belgian "
+"institutions: the INAMI, the AViQ, the mutualities, the eHealth platform. "
+"The rest of the documentation — residents, admissions, care, meals, "
+"accommodation billing — works the same way in every country."
+msgstr ""
+"Parce que tout ce qu'il contient vient de la loi belge ou d'institutions "
+"belges : l'INAMI, l'AViQ, les mutuelles, la plateforme eHealth. Le reste de "
+"la documentation — habitants, admissions, soins, repas, facturation de "
+"l'hébergement — fonctionne de la même façon dans tous les pays."
+
+#: ../../content/belgique/index.md:15
+msgid "What does Belgium add to the common applications?"
+msgstr "Qu'ajoute la Belgique aux applications communes ?"
+
+#: ../../content/belgique/index.md:16
+msgid ""
+"The Katz scale and its categories, the NISS on the resident's file, the "
+"INAMI dependency allowance billed to the mutuality, the eHealth exchanges "
+"(MDA, eAgreement, eFact), the Belgian annexes, the CPAS, the institutional "
+"allowance and the day care centre (CSJ)."
+msgstr ""
+"L'échelle de Katz et ses catégories, le NISS sur le dossier de l'habitant, "
+"le forfait de dépendance INAMI facturé à la mutuelle, les échanges eHealth "
+"(MDA, eAgreement, eFact), les annexes belges, le CPAS, le forfait "
+"institutionnel et le centre de soins de jour (CSJ)."
+
+#: ../../content/belgique/index.md:18
 msgid "Where do I find the general billing?"
 msgstr "Où se trouve la facturation générale ?"
 
-#: ../../content/belgique/index.md:15
+#: ../../content/belgique/index.md:19
 msgid ""
 "Under [Billing](../facturation/index.md): periods, supplements, absences and"
-" invoices are not Belgian."
+" invoices work the same way in every country. [Billing a month in "
+"Belgium](facturation.md) adds what is Belgian."
 msgstr ""
 "Sous [Facturation](../facturation/index.md) : périodes, suppléments, "
-"absences et factures ne sont pas belges."
+"absences et factures fonctionnent de la même façon dans tous les pays. "
+"[Facturer un mois en Belgique](facturation.md) ajoute ce qui est belge."
+
+#: ../../content/belgique/index.md:21
+msgid "How do I see only the Belgian pages in the navigation?"
+msgstr "Comment n'afficher que les pages belges dans la navigation ?"
 
 #: ../../content/belgique/index.md:22
 msgid ""
-"Everything in this group comes from **Belgian** rules: the allowance paid by"
-" the health insurers, the scale that determines it, the electronic exchanges"
-" with the insurers, and the funding of the facility itself."
+"Choose **Belgium** in the country selector at the top of the page: the side "
+"bar then shows the common applications and this space."
 msgstr ""
-"Tout ce qui figure dans ce groupe vient des règles **belges** : le forfait "
-"payé par les mutuelles, l'échelle qui le détermine, les échanges "
-"électroniques avec les mutuelles, et le financement de l'établissement lui-"
-"même."
+"Choisissez **Belgique** dans le sélecteur de pays en haut de la page : la "
+"barre latérale affiche alors les applications communes et cet espace."
 
-#: ../../content/belgique/index.md:26
+#: ../../content/belgique/index.md:29
 msgid ""
-"The rest of the documentation is **country-neutral** and works the same way "
-"anywhere: residents, admissions, care, meals, the family portal, "
-"accommodation billing and its supplements."
+"This space gathers everything that comes from **Belgian** rules: the scale "
+"that measures dependency, the allowance paid by the mutualities, the "
+"electronic exchanges with them over eHealth, the funding of the facility and"
+" the day care centre."
 msgstr ""
-"Le reste de la documentation est **neutre** et fonctionne partout de la même"
-" façon : habitants, admissions, soins, repas, portail famille, facturation "
-"de l'hébergement et ses suppléments."
+"Cet espace rassemble tout ce qui vient des règles **belges** : l'échelle qui"
+" mesure la dépendance, le forfait payé par les mutuelles, les échanges "
+"électroniques avec elles via eHealth, le financement de l'établissement et "
+"le centre de soins de jour."
 
-#: ../../content/belgique/index.md:30
-msgid "What is Belgian here"
-msgstr "Ce qui est belge ici"
-
-#: ../../content/belgique/index.md:18
-msgid "Subject"
-msgstr "Sujet"
-
-#: ../../content/belgique/index.md:18
-msgid "What it covers"
-msgstr "Ce que cela couvre"
-
-#: ../../content/belgique/index.md:18
-msgid "[eHealth](../ehealth/index.md)"
-msgstr "[eHealth](../ehealth/index.md)"
-
-#: ../../content/belgique/index.md:18
+#: ../../content/belgique/index.md:34
 msgid ""
-"Insurability (MDA), electronic invoicing (eFact), agreements (eAgreement)"
+"The common pages — [Residents](../residents/index.md), "
+"[Admissions](../admissions/index.md), [Billing](../facturation/index.md), "
+"[Care](../soins/index.md), [Meals](../repas/index.md) — describe the journey"
+" in every country. Where Belgium adds something, they show an **In Belgium**"
+" box that links here."
 msgstr ""
-"Assurabilité (MDA), facturation électronique (eFact), accords (eAgreement)"
+"Les pages communes — [Habitants](../residents/index.md), "
+"[Admissions](../admissions/index.md), "
+"[Facturation](../facturation/index.md), [Soins](../soins/index.md), "
+"[Repas](../repas/index.md) — décrivent le parcours dans tous les pays. Là où"
+" la Belgique ajoute quelque chose, elles affichent un encadré **En "
+"Belgique** qui renvoie ici."
 
-#: ../../content/belgique/index.md:18
-msgid "[The INAMI package](../facturation/forfait-inami.md)"
-msgstr "[Le forfait INAMI](../facturation/forfait-inami.md)"
+#: ../../content/belgique/index.md:40
+msgid "Start here"
+msgstr "Commencer ici"
 
-#: ../../content/belgique/index.md:18
-msgid "The dependency allowance paid by the health insurer"
-msgstr "Le forfait de dépendance payé par la mutuelle"
-
-#: ../../content/belgique/index.md:18
-msgid "[The Katz assessment](../residents/katz.md)"
-msgstr "[L'évaluation Katz](../residents/katz.md)"
-
-#: ../../content/belgique/index.md:18
-msgid "The scale that determines the category and the allowance"
-msgstr "L'échelle qui détermine la catégorie et le forfait"
-
-#: ../../content/belgique/index.md:18
-msgid "[Institutional allowance](../forfait/index.md)"
-msgstr "[Forfait institutionnel](../forfait/index.md)"
-
-#: ../../content/belgique/index.md:18
-msgid "The AViQ allowance of the facility, from days billed and staff"
-msgstr ""
-"Le forfait AViQ de l'établissement, à partir des journées facturées et du "
-"personnel"
-
-#: ../../content/belgique/index.md:18
-msgid "[Day care centre (CSJ)](../centre-de-jour/index.md)"
-msgstr "[Centre de soins de jour (CSJ)](../centre-de-jour/index.md)"
-
-#: ../../content/belgique/index.md:18
+#: ../../content/belgique/index.md:42
 msgid ""
-"Day places, the attendance register, the CSJ forfait and the staffing norm"
+"[The billing journey](parcours-facturation.md) — the big picture: admission "
+"→ MDA → eAgreement → Katz → eFact → payment."
 msgstr ""
-"Places de jour, registre de présence, forfait CSJ et norme de personnel"
+"[Le parcours de facturation](parcours-facturation.md) — la vue d'ensemble : "
+"admission → MDA → eAgreement → Katz → eFact → paiement."
 
-#: ../../content/belgique/index.md:18
-msgid "[Expense note (Annexe 12)](../facturation/note-de-frais-annexe12.md)"
+#: ../../content/belgique/index.md:44
+msgid ""
+"[FAQ — Belgium](faq.md) — short answers on the Katz, the MDA, the "
+"eAgreement, the eFact and Belgian billing."
 msgstr ""
-"[La note de frais (Annexe 12)](../facturation/note-de-frais-annexe12.md)"
+"[FAQ — Belgique](faq.md) — des réponses courtes sur le Katz, le MDA, "
+"l'eAgreement, l'eFact et la facturation belge."
 
-#: ../../content/belgique/index.md:18
-msgid "The Belgian annexe for expenses advanced"
-msgstr "L'annexe belge pour les frais avancés"
+#: ../../content/belgique/index.md:46
+msgid ""
+"[Glossary — Belgium](glossaire.md) — INAMI, NISS, OA, annexes, pseudo-codes "
+"and the other Belgian terms."
+msgstr ""
+"[Glossaire — Belgique](glossaire.md) — INAMI, NISS, OA, annexes, pseudo-"
+"codes et les autres termes belges."
 
-#: ../../content/belgique/index.md:18
-msgid "[Public welfare centre (CPAS)](../facturation/cpas.md)"
-msgstr "[La prise en charge CPAS](../facturation/cpas.md)"
+#: ../../content/belgique/index.md:49
+msgid "The resident and their assessment"
+msgstr "L'habitant et son évaluation"
 
-#: ../../content/belgique/index.md:18
-msgid "When a CPAS pays for the resident"
-msgstr "Quand un CPAS paie pour l'habitant"
+#: ../../content/belgique/index.md:51
+msgid ""
+"[The resident's file in Belgium](dossier-resident.md) — the NISS and the eID"
+" reading, the mutuality (OA), the MR, MRS and short-stay sectors, the Katz "
+"category."
+msgstr ""
+"[Le dossier de l'habitant en Belgique](dossier-resident.md) — le NISS et la "
+"lecture de l'eID, la mutuelle (OA), les secteurs MR, MRS et court séjour, la"
+" catégorie Katz."
 
-#: ../../content/belgique/index.md:18
-msgid "[The billing journey](../parcours-facturation.md)"
-msgstr "[Le parcours de facturation](../parcours-facturation.md)"
+#: ../../content/belgique/index.md:54
+msgid ""
+"[Admitting a resident in Belgium](admission.md) — the MR, MRS or day care "
+"stay type, the NISS, the MDA before admission, the admission agreement."
+msgstr ""
+"[Admettre un habitant en Belgique](admission.md) — le type de séjour MR, MRS"
+" ou centre de jour, le NISS, le MDA avant l'admission, l'accord d'admission."
 
-#: ../../content/belgique/index.md:18
-msgid "Admission → MDA → eAgreement → Katz → eFact → payment"
-msgstr "Admission → MDA → eAgreement → Katz → eFact → paiement"
+#: ../../content/belgique/index.md:56
+msgid ""
+"[The Katz assessment](katz.md) — the 6 criteria, the category (O, A, B, C, "
+"Cd) and the allowance it gives."
+msgstr ""
+"[L'évaluation Katz](katz.md) — les 6 critères, la catégorie (O, A, B, C, Cd)"
+" et le forfait qui en découle."
 
-#: ../../content/belgique/index.md:43
+#: ../../content/belgique/index.md:58
+msgid ""
+"[Internal transfer (MR ↔ MRS)](ehealth/eagreement-transfert.md) — moving a "
+"resident between sectors and the two annexes the insurer expects."
+msgstr ""
+"[Transfert interne (MR ↔ MRS)](ehealth/eagreement-transfert.md) — faire "
+"passer un habitant d'un secteur à l'autre et les deux annexes qu'attend la "
+"mutuelle."
+
+#: ../../content/belgique/index.md:61
+msgid "Billing and the INAMI"
+msgstr "La facturation et l'INAMI"
+
+#: ../../content/belgique/index.md:63
+msgid ""
+"[Billing a month in Belgium](facturation.md) — the INAMI allowance and its "
+"pseudo-codes, the mutuality and resident shares, the month-end checklist."
+msgstr ""
+"[Facturer un mois en Belgique](facturation.md) — le forfait INAMI et ses "
+"pseudo-codes, la part mutuelle et la part habitant, la check-list de fin de "
+"mois."
+
+#: ../../content/belgique/index.md:65
+msgid ""
+"[The INAMI dependency allowance](forfait-inami.md) — from the Katz category "
+"to the amount billed to the mutuality."
+msgstr ""
+"[Le forfait INAMI (dépendance)](forfait-inami.md) — de la catégorie Katz au "
+"montant facturé à la mutuelle."
+
+#: ../../content/belgique/index.md:67
+msgid ""
+"[The Expense Note (Annexe 12)](note-de-frais-annexe12.md) — the individual "
+"note per resident and the summary note per insurance organisation."
+msgstr ""
+"[La note de frais (Annexe 12)](note-de-frais-annexe12.md) — la note "
+"individuelle par habitant et la note récapitulative par organisme assureur."
+
+#: ../../content/belgique/index.md:69
+msgid ""
+"[CPAS coverage](cpas.md) — when a CPAS pays all or part of the resident "
+"share."
+msgstr ""
+"[La prise en charge CPAS](cpas.md) — quand un CPAS paie tout ou partie de la"
+" part habitant."
+
+#: ../../content/belgique/index.md:72
+msgid "eHealth"
+msgstr "eHealth"
+
+#: ../../content/belgique/index.md:74
+msgid ""
+"[eHealth](ehealth/index.md) — the overview of the exchanges with the "
+"mutualities."
+msgstr ""
+"[eHealth](ehealth/index.md) — la vue d'ensemble des échanges avec les "
+"mutuelles."
+
+#: ../../content/belgique/index.md:76
+msgid ""
+"Insurability: [Insurability (MDA)](ehealth/mda.md) and [MDA errors — causes "
+"and solutions](ehealth/mda-erreurs.md)."
+msgstr ""
+"Assurabilité : [Assurabilité (MDA)](ehealth/mda.md) et [Erreurs MDA — causes"
+" et solutions](ehealth/mda-erreurs.md)."
+
+#: ../../content/belgique/index.md:78
+msgid ""
+"Agreements: [Agreements (eAgreement)](ehealth/eagreement.md), [Following a "
+"request: deadlines and decision](ehealth/eagreement-suivi.md), [Refused "
+"agreement (eAgreement) — causes and solutions](ehealth/eagreement-refus.md),"
+" [Responsible practitioner and annex signatures](ehealth/eagreement-"
+"signature.md) and [Collective holidays](ehealth/vacances-collectives.md)."
+msgstr ""
+"Accords : [Accords (eAgreement)](ehealth/eagreement.md), [Suivre une demande"
+" : délais et décision](ehealth/eagreement-suivi.md), [Accord refusé "
+"(eAgreement) — causes et solutions](ehealth/eagreement-refus.md), [Praticien"
+" responsable et signatures des annexes](ehealth/eagreement-signature.md) et "
+"[Vacances collectives](ehealth/vacances-collectives.md)."
+
+#: ../../content/belgique/index.md:83
+msgid ""
+"Electronic invoicing: [Electronic invoicing (eFact)](ehealth/efact.md), "
+"[eFact rejections — causes and solutions](ehealth/efact-rejets.md), "
+"[Correcting an already-settled sending](ehealth/efact-corrections.md) and "
+"[Payment tracking and settlement reconciliation](ehealth/efact-"
+"paiements.md)."
+msgstr ""
+"Facturation électronique : [Facturation électronique "
+"(eFact)](ehealth/efact.md), [Rejets eFact — causes et "
+"solutions](ehealth/efact-rejets.md), [Corriger un envoi déjà "
+"décompté](ehealth/efact-corrections.md) et [Suivi des paiements et "
+"rapprochement des décomptes](ehealth/efact-paiements.md)."
+
+#: ../../content/belgique/index.md:88
+msgid "The institutional allowance"
+msgstr "Le forfait institutionnel"
+
+#: ../../content/belgique/index.md:90
+msgid ""
+"[Institutional allowance](forfait/index.md) — the AViQ allowance of the "
+"facility, from the days billed and the staff present."
+msgstr ""
+"[Forfait institutionnel](forfait/index.md) — le forfait AViQ de "
+"l'établissement, à partir des journées facturées et du personnel présent."
+
+#: ../../content/belgique/index.md:92
+msgid ""
+"[Computing the allowance](forfait/calcul.md) — step by step, from the days "
+"billed to the INAMI rates."
+msgstr ""
+"[Calculer le forfait](forfait/calcul.md) — pas à pas, des journées facturées"
+" aux tarifs INAMI."
+
+#: ../../content/belgique/index.md:94
+msgid ""
+"[Simulations and live tracking](forfait/suivi-simulations.md) — trying a "
+"change and following the year in progress."
+msgstr ""
+"[Simulations et suivi en cours](forfait/suivi-simulations.md) — tester un "
+"changement et suivre l'année en cours."
+
+#: ../../content/belgique/index.md:97
+msgid "The day care centre"
+msgstr "Le centre de soins de jour"
+
+#: ../../content/belgique/index.md:99
+msgid ""
+"[Day care centre (CSJ)](centre-de-jour/index.md) — day places, the "
+"attendance register, the CSJ forfait and the staffing norm."
+msgstr ""
+"[Centre de soins de jour (CSJ)](centre-de-jour/index.md) — places de jour, "
+"registre des présences, forfait CSJ et norme de personnel."
+
+#: ../../content/belgique/index.md:101
+msgid ""
+"[Setting up a day care centre](centre-de-jour/configuration.md), [Admitting "
+"a day care user](centre-de-jour/admission.md) and [Recording "
+"attendance](centre-de-jour/presences.md)."
+msgstr ""
+"[Configurer un centre de jour](centre-de-jour/configuration.md), [Admettre "
+"un usager du centre de jour](centre-de-jour/admission.md) et [Enregistrer "
+"les présences](centre-de-jour/presences.md)."
+
+#: ../../content/belgique/index.md:104
+msgid ""
+"[Billing a day care month](centre-de-jour/facturation.md), [Care for a day "
+"care user](centre-de-jour/soins.md) and [The staffing norm](centre-de-"
+"jour/norme-personnel.md)."
+msgstr ""
+"[Facturer un mois de centre de jour](centre-de-jour/facturation.md), [Les "
+"soins d'un usager du centre de jour](centre-de-jour/soins.md) et [La norme "
+"de personnel](centre-de-jour/norme-personnel.md)."
+
+#: ../../content/belgique/index.md:108
+msgid "Care and medication"
+msgstr "Soins et médicaments"
+
+#: ../../content/belgique/index.md:110
+msgid ""
+"[Care in Belgium](soins.md) — the Katz scale in the medical record, the "
+"INAMI number of care staff, the AViQ undernutrition screening."
+msgstr ""
+"[Les soins en Belgique](soins.md) — l'échelle de Katz dans le dossier "
+"médical, le numéro INAMI des soignants, le dépistage de la dénutrition AViQ."
+
+#: ../../content/belgique/index.md:112
+msgid ""
+"[The SAM medication database](sam-base-medicaments.md) — the Belgian "
+"authentic source: ATC, BCFI class, SmPC and leaflet."
+msgstr ""
+"[La base de médicaments SAM](sam-base-medicaments.md) — la source "
+"authentique belge : ATC, classe CBIP, RCP et notice."
+
+#: ../../content/belgique/index.md:115
+msgid "Settings"
+msgstr "Réglages"
+
+#: ../../content/belgique/index.md:117
+msgid ""
+"[Belgian settings](reglages.md) — INAMI numbers and MR/MRS approvals, the Cc"
+" accreditation, INAMI rates and pseudo-codes, health insurers and CPAS."
+msgstr ""
+"[Réglages belges](reglages.md) — numéros INAMI et agréments MR/MRS, "
+"accréditation Cc, tarifs INAMI et pseudo-codes, mutuelles et CPAS."
+
+#: ../../content/belgique/index.md:119
+msgid ""
+"[eHealth and eFact Settings](reglages-ehealth.md) — certificate, platform, "
+"Walloon Account C, CIN licence and invoicing header."
+msgstr ""
+"[Réglages eHealth et eFact](reglages-ehealth.md) — certificat, plateforme, "
+"Compte C wallon, licence CIN et en-tête de facturation."
+
+#: ../../content/belgique/index.md:122
 msgid "The same software elsewhere"
 msgstr "Le même logiciel ailleurs"
 
-#: ../../content/belgique/index.md:45
+#: ../../content/belgique/index.md:124
 msgid ""
 "Resthome separates the **question** from the **answer**: the engine asks for"
-" a dependency category, a national identifier, a stay type; the country pack"
-" answers with Katz, the NISS, MR/MRS. Another country brings its own pack — "
-"and the neutral pages above do not change."
+" a dependency category, a national identification number, a stay type; the "
+"Belgian pack answers with the Katz, the NISS, MR/MRS. Another country brings"
+" its own pack, and the common pages do not change. See "
+"[France](../france/index.md) and [Luxembourg](../luxembourg/index.md)."
 msgstr ""
 "Resthome sépare la **question** de la **réponse** : le moteur demande une "
-"catégorie de dépendance, un identifiant national, un type de séjour ; le "
-"pack pays répond Katz, NISS, MR/MRS. Un autre pays apporte son propre pack —"
-" et les pages neutres ci-dessus ne changent pas."
+"catégorie de dépendance, un numéro d'identification national, un type de "
+"séjour ; le pack belge répond avec le Katz, le NISS, MR/MRS. Un autre pays "
+"apporte son propre pack, et les pages communes ne changent pas. Voir "
+"[France](../france/index.md) et [Luxembourg](../luxembourg/index.md)."
+
+#~ msgid "Can Resthome run outside Belgium?"
+#~ msgstr "Resthome peut-il tourner hors de Belgique ?"
+
+#~ msgid ""
+#~ "Yes. The engine is country-neutral: a country pack brings the scale, the "
+#~ "identifiers and the billing rules. Belgium is the one documented here; "
+#~ "Luxembourg exists in the software."
+#~ msgstr ""
+#~ "Oui. Le moteur est neutre : un pack pays apporte l'échelle, les identifiants"
+#~ " et les règles de facturation. La Belgique est celui qui est documenté ici ;"
+#~ " le Luxembourg existe dans le logiciel."
+
+#~ msgid ""
+#~ "The rest of the documentation is **country-neutral** and works the same way "
+#~ "anywhere: residents, admissions, care, meals, the family portal, "
+#~ "accommodation billing and its supplements."
+#~ msgstr ""
+#~ "Le reste de la documentation est **neutre** et fonctionne partout de la même"
+#~ " façon : habitants, admissions, soins, repas, portail famille, facturation "
+#~ "de l'hébergement et ses suppléments."
+
+#~ msgid "What is Belgian here"
+#~ msgstr "Ce qui est belge ici"
+
+#~ msgid "Subject"
+#~ msgstr "Sujet"
+
+#~ msgid "What it covers"
+#~ msgstr "Ce que cela couvre"
+
+#~ msgid "[eHealth](ehealth/index.md)"
+#~ msgstr "[eHealth](ehealth/index.md)"
+
+#~ msgid ""
+#~ "Insurability (MDA), electronic invoicing (eFact), agreements (eAgreement)"
+#~ msgstr ""
+#~ "Assurabilité (MDA), facturation électronique (eFact), accords (eAgreement)"
+
+#~ msgid "[The INAMI package](forfait-inami.md)"
+#~ msgstr "[Le forfait INAMI](forfait-inami.md)"
+
+#~ msgid "The dependency allowance paid by the health insurer"
+#~ msgstr "Le forfait de dépendance payé par la mutuelle"
+
+#~ msgid "[The Katz assessment](katz.md)"
+#~ msgstr "[L'évaluation Katz](katz.md)"
+
+#~ msgid "The scale that determines the category and the allowance"
+#~ msgstr "L'échelle qui détermine la catégorie et le forfait"
+
+#~ msgid "[Day care centre (CSJ)](centre-de-jour/index.md)"
+#~ msgstr "[Centre de soins de jour (CSJ)](centre-de-jour/index.md)"
+
+#~ msgid "[Expense note (Annexe 12)](note-de-frais-annexe12.md)"
+#~ msgstr "[La note de frais (Annexe 12)](note-de-frais-annexe12.md)"
+
+#~ msgid "The Belgian annexe for expenses advanced"
+#~ msgstr "L'annexe belge pour les frais avancés"
+
+#~ msgid "[Public welfare centre (CPAS)](cpas.md)"
+#~ msgstr "[La prise en charge CPAS](cpas.md)"
+
+#~ msgid "When a CPAS pays for the resident"
+#~ msgstr "Quand un CPAS paie pour l'habitant"
+
+#~ msgid "[The billing journey](parcours-facturation.md)"
+#~ msgstr "[Le parcours de facturation](parcours-facturation.md)"

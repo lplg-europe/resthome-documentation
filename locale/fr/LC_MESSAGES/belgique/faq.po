@@ -1,0 +1,867 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-23 17:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: fr <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/belgique/faq.md:5
+msgid "FAQ — Belgium"
+msgstr "FAQ — Belgique"
+
+#: ../../content/belgique/faq.md:8
+msgid ""
+"Short answers to frequently asked questions on what is Belgian in Resthome: "
+"Katz, NISS, MDA insurability, eAgreement, eFact, the INAMI allowance, "
+"annexes and absences seen by the mutuality."
+msgstr ""
+"Réponses courtes aux questions fréquentes sur ce qui est belge dans Resthome"
+" : Katz, NISS, assurabilité MDA, eAgreement, eFact, forfait INAMI, annexes "
+"et absences vues par la mutuelle."
+
+#: ../../content/belgique/faq.md:12
+msgid "How do I check a resident's insurability (MDA)?"
+msgstr "Comment vérifier l'assurabilité (MDA) d'un habitant ?"
+
+#: ../../content/belgique/faq.md:13
+msgid ""
+"Create an MDA request (eHealth → Insurability → MDA Requests) with the "
+"resident, the pre-filled NISS and the period, then click Send (Sync): the "
+"response comes back immediately. Do it at the start of the month, before "
+"invoicing, to avoid eFact rejections."
+msgstr ""
+"Créez une requête MDA (eHealth → Assurabilité → Requêtes MDA) avec "
+"l'habitant, le NISS pré-rempli et la période, puis cliquez Envoyer (Sync) : "
+"la réponse revient immédiatement. Faites-le en début de mois, avant de "
+"facturer, pour éviter les rejets eFact."
+
+#: ../../content/belgique/faq.md:15 ../../content/belgique/faq.md:250
+msgid "How do I generate an eFact period?"
+msgstr "Comment générer une période eFact ?"
+
+#: ../../content/belgique/faq.md:16
+msgid ""
+"Open the month's period in Draft state, click Generate, leave Residents "
+"empty for all active residents, click Load MDA then Generate. The period "
+"moves to Generated: the Katz allowance, the INAMI share and the resident "
+"share are computed for each resident."
+msgstr ""
+"Ouvrez la période du mois en état Draft, cliquez Générer, laissez Residents "
+"vide pour tous les habitants actifs, cliquez Charger MDA puis Generate. La "
+"période passe en Generated : le forfait Katz, la part INAMI et la part "
+"habitant sont calculés pour chaque habitant."
+
+#: ../../content/belgique/faq.md:18 ../../content/belgique/faq.md:282
+msgid "How do I send an eFact period and follow the responses?"
+msgstr "Comment envoyer une période eFact et suivre les réponses ?"
+
+#: ../../content/belgique/faq.md:19
+msgid ""
+"From the eFact Cockpit or the batches, click Send all: the batches go to the"
+" mutualities through eHealth. Then click Get responses; each batch moves "
+"Sent → Acknowledged → Accepted / Rejected, with Resthome reconciling the "
+"amounts automatically."
+msgstr ""
+"Depuis le Cockpit eFact ou les lots, cliquez Tout envoyer : les lots partent"
+" vers les mutuelles via eHealth. Cliquez ensuite Récupérer les réponses ; "
+"chaque lot passe Envoyé → Accusé reçu → Accepté / Rejeté, Resthome "
+"rapprochant les montants automatiquement."
+
+#: ../../content/belgique/faq.md:21 ../../content/belgique/faq.md:303
+msgid "Why is an eFact invoice rejected, and how do I fix it?"
+msgstr "Pourquoi une facture eFact est-elle rejetée, et comment corriger ?"
+
+#: ../../content/belgique/faq.md:22
+msgid ""
+"The rejection code and reason state the cause (insurability, allowance, "
+"dates). Fix it then resend; the Resends counter avoids duplicates and the "
+"Reintegration button lets you reintegrate lines into a new sending."
+msgstr ""
+"Le code et le motif de rejet indiquent la cause (assurabilité, forfait, "
+"dates). Corrigez-la puis renvoyez ; le compteur Renvois évite les doublons "
+"et le bouton Réintégration permet de réintégrer des lignes dans un nouvel "
+"envoi."
+
+#: ../../content/belgique/faq.md:24
+msgid "What is an eFact batch per union?"
+msgstr "Qu'est-ce qu'un lot eFact par union ?"
+
+#: ../../content/belgique/faq.md:25
+msgid ""
+"Sendings are grouped by union of mutualities (100 National Alliance, 300 "
+"Solidaris, 500 National Union, 600 CAAMI, 900 HR Rail…), not per small "
+"individual mutuality. Resthome takes care of the grouping."
+msgstr ""
+"Les envois sont regroupés par union de mutualités (100 Alliance nationale, "
+"300 Solidaris, 500 Union nationale, 600 CAAMI, 900 HR Rail…), pas par petite"
+" mutualité individuelle. Resthome s'occupe du regroupement."
+
+#: ../../content/belgique/faq.md:27 ../../content/belgique/faq.md:84
+msgid "How do I score a resident's Katz?"
+msgstr "Comment calculer le Katz d'un habitant ?"
+
+#: ../../content/belgique/faq.md:28
+msgid ""
+"From the resident file, open Katz, click New and score the 6 criteria "
+"(washing, dressing, transfer and mobility, toileting, continence, eating) "
+"from 1 to 4, then Confirm and Validate. The category and the allowance "
+"update automatically."
+msgstr ""
+"Depuis la fiche de l'habitant, ouvrez Katz, cliquez Nouveau et cotez les 6 "
+"critères (se laver, s'habiller, transfert et déplacements, aller à la "
+"toilette, continence, manger) de 1 à 4, puis Confirmez et Validez. La "
+"catégorie et le forfait se mettent à jour automatiquement."
+
+#: ../../content/belgique/faq.md:30 ../../content/belgique/faq.md:93
+msgid "What are the Katz categories?"
+msgstr "Quelles sont les catégories Katz ?"
+
+#: ../../content/belgique/faq.md:31
+msgid ""
+"O (independent), A (light dependency), B (moderate dependency), C (heavy "
+"dependency) and Cd / Cc (heavy dependency with disorientation or special "
+"cases). Under the AViQ rates, the dependency allowance is the same amount "
+"for every category; the category serves to declare the right profile to the "
+"mutuality."
+msgstr ""
+"O (autonome), A (dépendance légère), B (dépendance moyenne), C (forte "
+"dépendance) et Cd / Cc (forte dépendance avec désorientation ou cas "
+"particuliers). Dans les tarifs AViQ, le forfait de dépendance est le même "
+"montant pour toutes les catégories; la catégorie sert à déclarer le bon "
+"profil à la mutuelle."
+
+#: ../../content/belgique/faq.md:33 ../../content/belgique/faq.md:322
+msgid "How do I invoice a month from A to Z in Belgium?"
+msgstr "Comment facturer un mois de A à Z en Belgique ?"
+
+#: ../../content/belgique/faq.md:34
+msgid ""
+"Open the period, check the MDA, click Generate, Create invoices then post "
+"the resident share; then Generate eFact, send the mutuality share to the "
+"insurance organisations and get the responses. The resident share and the "
+"mutuality share progress in parallel on the same period."
+msgstr ""
+"Ouvrez la période, vérifiez le MDA, cliquez Générer, Créer les factures puis"
+" comptabilisez la part habitant ; ensuite Générer l'eFact, envoyez la part "
+"mutuelle aux organismes assureurs et récupérez les réponses. La part "
+"habitant et la part mutuelle avancent en parallèle sur une même période."
+
+#: ../../content/belgique/faq.md:37
+msgid ""
+"This page gathers the short answers to the questions that only arise in "
+"**Belgium**: the Katz scale, the NISS, the exchanges with the mutualities "
+"over eHealth and the INAMI allowance. Each answer links to the page that "
+"details it. The questions valid in every country are in the "
+"[FAQ](../faq.md)."
+msgstr ""
+"Cette page rassemble les réponses courtes aux questions qui ne se posent "
+"qu'en **Belgique** : l'échelle de Katz, le NISS, les échanges avec les "
+"mutuelles via eHealth et le forfait INAMI. Chaque réponse renvoie à la page "
+"qui la détaille. Les questions valables dans tous les pays se trouvent dans "
+"la [FAQ](../faq.md)."
+
+#: ../../content/belgique/faq.md:44
+msgid "Getting started in Belgium"
+msgstr "Premiers pas en Belgique"
+
+#: ../../content/belgique/faq.md:46
+msgid "What does the dashboard show in Belgium?"
+msgstr "Que montre le tableau de bord en Belgique ?"
+
+#: ../../content/belgique/faq.md:48
+msgid ""
+"On the **Nursing Home** dashboard, the pending tasks include the Belgian "
+"ones: **Katz to do**, **MDA to check**, **eFact batches**… Click a counter "
+"(e.g. \"Katz to do\") to open the list of items to handle. → [Getting "
+"started](../premiers-pas.md)"
+msgstr ""
+"Sur le tableau de bord **Maison de repos**, les tâches en attente incluent "
+"les tâches belges : **Katz à faire**, **MDA à vérifier**, **lots eFact**… "
+"Cliquez sur un compteur (par ex. « Katz à faire ») pour ouvrir la liste des "
+"éléments à traiter. → [Premiers pas](../premiers-pas.md)"
+
+#: ../../content/belgique/faq.md:53
+msgid "Where do I configure the Belgian rooms and rates?"
+msgstr "Où configurer les chambres et les tarifs belges ?"
+
+#: ../../content/belgique/faq.md:55
+msgid ""
+"In the **Configuration** application: give each room its type (**MR**, "
+"**MRS**, single, double…), define the **INAMI rates** (allowance per Katz "
+"category) next to the accommodation rates, and create the **mutualities**. →"
+" [Configuration](../configuration/index.md) · [The INAMI dependency "
+"allowance](forfait-inami.md)"
+msgstr ""
+"Dans l'application **Configuration** : donnez à chaque chambre son type "
+"(**MR**, **MRS**, individuelle, double…), définissez les **Tarifs INAMI** "
+"(forfait par catégorie Katz) à côté des tarifs d'hébergement, et créez les "
+"**mutuelles**. → [Configuration](../configuration/index.md) · [Le forfait "
+"INAMI (dépendance)](forfait-inami.md)"
+
+#: ../../content/belgique/faq.md:63
+msgid "Residents & Katz"
+msgstr "Habitants & Katz"
+
+#: ../../content/belgique/faq.md:65
+msgid "What must I enter on a resident's file in Belgium?"
+msgstr "Que dois-je encoder sur la fiche d'un habitant en Belgique ?"
+
+#: ../../content/belgique/faq.md:67
+msgid ""
+"The **NISS** if known, and the **mutuality**. Without a NISS, the MDA check "
+"and the eAgreement agreements cannot be sent, but you can create the "
+"resident and complete the NISS later. → [Admitting a resident in "
+"Belgium](admission.md)"
+msgstr ""
+"Le **NISS** s'il est connu, et la **mutuelle**. Sans NISS, la vérification "
+"MDA et les accords eAgreement ne peuvent pas être envoyés, mais vous pouvez "
+"créer l'habitant et compléter le NISS plus tard. → [Admettre un habitant en "
+"Belgique](admission.md)"
+
+#: ../../content/belgique/faq.md:72
+msgid "Which stay types exist in Belgium?"
+msgstr "Quels types de séjour existent en Belgique ?"
+
+#: ../../content/belgique/faq.md:74
+msgid ""
+"A stay is **MR**, **MRS** or **day care (CSJ)**: the stay agreement carries "
+"the type, and it drives the INAMI rates and the annexes sent to the "
+"mutuality. → [Admitting a resident in Belgium](admission.md)"
+msgstr ""
+"Un séjour est **MR**, **MRS** ou **centre de soins de jour (CSJ)** : la "
+"convention de séjour porte le type, qui détermine les tarifs INAMI et les "
+"annexes envoyées à la mutuelle. → [Admettre un habitant en "
+"Belgique](admission.md)"
+
+#: ../../content/belgique/faq.md:78
+msgid "What does starting a stay trigger in Belgium?"
+msgstr "Que déclenche le démarrage d'un séjour en Belgique ?"
+
+#: ../../content/belgique/faq.md:80
+msgid ""
+"On top of what it does in every country, starting the stay creates the "
+"**admission eAgreement** (Annexe 7), if the NISS is present. → [Admitting a "
+"resident in Belgium](admission.md)"
+msgstr ""
+"En plus de ce qu'il fait dans tous les pays, le démarrage du séjour crée "
+"l'**eAgreement d'admission** (Annexe 7), si le NISS est présent. → [Admettre"
+" un habitant en Belgique](admission.md)"
+
+#: ../../content/belgique/faq.md:86
+msgid ""
+"From the resident file, open **Katz**, click **New** and score the 6 "
+"criteria (washing, dressing, transfer and mobility, toileting, continence, "
+"eating) from **1** (independent) to **4** (totally dependent), then "
+"**Confirm** and **Validate**. Resthome computes the category in line with "
+"the regulation and updates the allowance automatically. → [The Katz "
+"assessment](katz.md)"
+msgstr ""
+"Depuis la fiche de l'habitant, ouvrez **Katz**, cliquez sur **Nouveau** et "
+"cotez les 6 critères (se laver, s'habiller, transfert et déplacements, aller"
+" à la toilette, continence, manger) de **1** (autonome) à **4** (totalement "
+"dépendant), puis cliquez sur **Confirmer** et **Valider**. Resthome calcule "
+"la catégorie conformément à la réglementation et met à jour le forfait "
+"automatiquement. → [L'évaluation Katz](katz.md)"
+
+#: ../../content/belgique/faq.md:95
+msgid ""
+"**O** (independent), **A** (light dependency), **B** (moderate dependency), "
+"**C** (heavy dependency) and **Cd / Cc** (heavy dependency with "
+"disorientation / special cases). Under the AViQ rates, the **allowance "
+"amount is the same for every category**, including O; the category serves to"
+" declare the right profile to the mutuality. → [The Katz "
+"assessment](katz.md)"
+msgstr ""
+"**O** (autonome), **A** (dépendance légère), **B** (dépendance moyenne), "
+"**C** (forte dépendance) et **Cd / Cc** (forte dépendance avec "
+"désorientation / cas particuliers). Dans les tarifs AViQ, le **montant du "
+"forfait est le même pour toutes les catégories**, y compris O ; la catégorie"
+" sert à déclarer le bon profil à la mutuelle. → [L'évaluation Katz](katz.md)"
+
+#: ../../content/belgique/faq.md:102
+msgid "What happens as long as there is no validated Katz?"
+msgstr "Que se passe-t-il tant qu'il n'y a pas de Katz validé ?"
+
+#: ../../content/belgique/faq.md:104
+msgid ""
+"As long as no **validated** Katz exists, the resident is in category **O** "
+"by default, and a \"Katz to do\" reminder appears on the dashboard. Validate"
+" the Katz and send it through an eAgreement Light request to declare the "
+"right category to the mutuality. → [The Katz assessment](katz.md)"
+msgstr ""
+"Tant qu'aucun Katz **validé** n'existe, l'habitant est en catégorie **O** "
+"par défaut, et un rappel « Katz à faire » apparaît sur le tableau de bord. "
+"Validez le Katz et envoyez-le via une demande eAgreement Light pour déclarer"
+" la bonne catégorie à la mutuelle. → [L'évaluation Katz](katz.md)"
+
+#: ../../content/belgique/faq.md:110
+msgid "How do I record a Katz worsening?"
+msgstr "Comment enregistrer une aggravation Katz ?"
+
+#: ../../content/belgique/faq.md:112
+msgid ""
+"If the resident's condition deteriorates, enter a **new evaluation** with a "
+"**worsening reason**. Resthome then prepares the update of the care "
+"agreement (**Annexe 10**): the reason is carried over automatically, and the"
+" clinician's signature completes the document. → [The Katz "
+"assessment](katz.md)"
+msgstr ""
+"Si l'état de l'habitant se dégrade, saisissez une **nouvelle évaluation** "
+"avec un **motif d'aggravation**. Resthome prépare alors la mise à jour de "
+"l'accord de soins (**Annexe 10**) : le motif est repris automatiquement, et "
+"la signature du clinicien complète le document. → [L'évaluation "
+"Katz](katz.md)"
+
+#: ../../content/belgique/faq.md:118
+msgid "How do I transfer a resident MR ↔ MRS?"
+msgstr "Comment transférer un habitant MR ↔ MRS ?"
+
+#: ../../content/belgique/faq.md:120
+msgid ""
+"On the **stay**, use **Internal Transfer**, give the new type and the "
+"date/time, then **Validate**. Resthome splits the billing on the right date,"
+" at the matching rate; this is not a new admission and the INAMI "
+"intervention (the allowance) stays continuous. → [Internal transfer (MR ↔ "
+"MRS)](ehealth/eagreement-transfert.md)"
+msgstr ""
+"Sur le **séjour**, utilisez **Transfert interne**, indiquez le nouveau type "
+"et la date/heure, puis cliquez sur **Valider**. Resthome scinde la "
+"facturation à la bonne date, au tarif correspondant ; ce n'est pas une "
+"nouvelle admission et l'intervention INAMI (le forfait) reste continue. → "
+"[Transfert interne (MR ↔ MRS)](ehealth/eagreement-transfert.md)"
+
+#: ../../content/belgique/faq.md:128
+msgid "Insurability (MDA)"
+msgstr "Assurabilité (MDA)"
+
+#: ../../content/belgique/faq.md:130
+msgid "What is the MDA and what is it for?"
+msgstr "Qu'est-ce que le MDA et à quoi sert-il ?"
+
+#: ../../content/belgique/faq.md:132
+msgid ""
+"The **MDA** checks that a resident's **insurability is in order** and "
+"identifies their **exact mutuality** by querying **MyCareNet / WalCareNet** "
+"for you over a given period. It is the essential prerequisite for the eFact "
+"sending. → [Insurability (MDA)](ehealth/mda.md)"
+msgstr ""
+"Le **MDA** vérifie qu'un habitant est **en ordre d'assurabilité** et "
+"identifie sa **mutuelle exacte** en interrogeant pour vous **MyCareNet / "
+"WalCareNet** pour une période donnée. C'est le préalable indispensable à "
+"l'envoi eFact. → [Assurabilité (MDA)](ehealth/mda.md)"
+
+#: ../../content/belgique/faq.md:137
+msgid "How do I check a resident's MDA insurability?"
+msgstr "Comment vérifier l'assurabilité MDA d'un habitant ?"
+
+#: ../../content/belgique/faq.md:139
+msgid ""
+"Create an **MDA request** (menu **eHealth → Insurability → MDA Requests**) "
+"with the resident, the pre-filled NISS and the period (current month by "
+"default), then click **Send (Sync)**: the sending is immediate and the "
+"response comes back at once. Then read the summary and the insurability "
+"periods. → [Insurability (MDA)](ehealth/mda.md)"
+msgstr ""
+"Créez une **requête MDA** (menu **eHealth → Assurabilité → Requêtes MDA**) "
+"avec l'habitant, le NISS pré-rempli et la période (mois courant par défaut),"
+" puis cliquez **Envoyer (Sync)** : l'envoi est immédiat et la réponse "
+"revient tout de suite. Consultez ensuite le résumé et les périodes "
+"d'assurabilité. → [Assurabilité (MDA)](ehealth/mda.md)"
+
+#: ../../content/belgique/faq.md:145
+msgid "How do I check several residents at once?"
+msgstr "Comment vérifier plusieurs habitants à la fois ?"
+
+#: ../../content/belgique/faq.md:147
+msgid ""
+"Launch the check **in batch**: select the residents (you can **paste a "
+"column** of names/NISS), the period, then send the whole batch. Use "
+"**Immediate sending (Sync)** for small volumes, or **Grouped sending "
+"(Async)** for large monthly batches — the response is then retrieved with "
+"**Check responses** (requires at least 2 residents). → [Insurability "
+"(MDA)](ehealth/mda.md)"
+msgstr ""
+"Lancez le contrôle **par lot** : sélectionnez les habitants (vous pouvez "
+"**coller une colonne** de noms/NISS), la période, puis envoyez tout le lot. "
+"Utilisez **Envoi immédiat (Sync)** pour de petits volumes, ou **Envoi groupé"
+" (Async)** pour les gros lots mensuels — la réponse se récupère ensuite avec"
+" **Vérifier les réponses** (nécessite au moins 2 habitants). → [Assurabilité"
+" (MDA)](ehealth/mda.md)"
+
+#: ../../content/belgique/faq.md:154
+msgid "When should the MDA be done?"
+msgstr "Quand faut-il faire le MDA ?"
+
+#: ../../content/belgique/faq.md:156
+msgid ""
+"Do the MDA **at the start of the month**, before generating the invoices: "
+"this avoids later eFact rejections due to a wrong mutuality or a loss of "
+"insurability. → [Insurability (MDA)](ehealth/mda.md)"
+msgstr ""
+"Faites le MDA **en début de mois**, avant de générer les factures : vous "
+"évitez ainsi les rejets eFact ultérieurs dus à une mutuelle erronée ou à une"
+" perte d'assurabilité. → [Assurabilité (MDA)](ehealth/mda.md)"
+
+#: ../../content/belgique/faq.md:161
+msgid "What does \"insured but not in order\" mean?"
+msgstr "Que signifie « assuré mais pas en ordre » ?"
+
+#: ../../content/belgique/faq.md:163
+msgid ""
+"If the beneficiary codes come back as zero (insured but unpaid contributions"
+" / problematic file), Resthome shows an **alert**: the resident is "
+"affiliated but **not in order**. This must be clarified with them or their "
+"mutuality before invoicing the OA. → [Insurability (MDA)](ehealth/mda.md)"
+msgstr ""
+"Si les codes bénéficiaire reviennent à zéro (assuré mais cotisations "
+"impayées / dossier à problème), Resthome affiche une **alerte** : l'habitant"
+" est affilié mais **pas en ordre**. C'est à clarifier avec lui ou sa "
+"mutuelle avant de facturer à l'OA. → [Assurabilité (MDA)](ehealth/mda.md)"
+
+#: ../../content/belgique/faq.md:169
+msgid "What does Resthome update after a successful MDA?"
+msgstr "Que met à jour Resthome après un MDA réussi ?"
+
+#: ../../content/belgique/faq.md:171
+msgid ""
+"The resident file is corrected automatically: the **mutuality (OA)** if it "
+"differs from the profile, the **BIM status**, the **affiliation number**, "
+"the **identity** if fields were missing, and the **date of death** if the OA"
+" reports it. For residents under a special scheme (INIG, CEE, Fedasil, "
+"foreign, private…), Resthome **does not overwrite** the profile's mutuality."
+" → [Insurability (MDA)](ehealth/mda.md)"
+msgstr ""
+"La fiche habitant est corrigée automatiquement : la **mutuelle (OA)** si "
+"elle diffère du profil, le **statut BIM**, le **numéro d'affiliation**, "
+"l’**identité** si des champs manquaient, et la **date de décès** si l'OA la "
+"signale. Pour les habitants sous régime particulier (INIG, CEE, Fedasil, "
+"étranger, privé…), Resthome **n'écrase pas** la mutuelle du profil. → "
+"[Assurabilité (MDA)](ehealth/mda.md)"
+
+#: ../../content/belgique/faq.md:178
+msgid "What to do in case of an MDA error or no response?"
+msgstr "Que faire en cas d'erreur ou d'absence de réponse MDA ?"
+
+#: ../../content/belgique/faq.md:180
+msgid ""
+"For a \"No response\" answer from the platform, use **Retry no-response**; "
+"if it persists, **Report to InterMut.** For a rejection by the OA, use "
+"**Contact the OA** (the reason is shown); for a technical error, **Report to"
+" InterMut.** → [MDA errors — causes and solutions](ehealth/mda-erreurs.md)"
+msgstr ""
+"Pour une réponse « Sans réponse » de la plateforme, utilisez **Réessayer les"
+" sans-réponse** ; si cela persiste, **Signaler à l'intermut.** Pour un rejet"
+" de l'OA, utilisez **Contacter l'OA** (le motif est affiché) ; pour une "
+"erreur technique, **Signaler à l'intermut.** → [Erreurs MDA — causes et "
+"solutions](ehealth/mda-erreurs.md)"
+
+#: ../../content/belgique/faq.md:185
+msgid "What is reintegration (loss then return of insurability)?"
+msgstr "Qu'est-ce que la réintégration (perte puis retour d'assurabilité) ?"
+
+#: ../../content/belgique/faq.md:187
+msgid ""
+"Resthome compares with the previous check: if a resident goes from **not "
+"insured to insured**, a notification appears and the **Reintegration** "
+"action switches the lines that had been invoiced to the resident over to the"
+" OA. Conversely (**insured → not insured**), their allowance is excluded "
+"from the period's OA billing and invoiced to the resident until it is "
+"restored. → [Insurability (MDA)](ehealth/mda.md)"
+msgstr ""
+"Resthome compare avec le contrôle précédent : si un habitant passe de **non "
+"assuré à assuré**, une notification apparaît et l'action **Réintégration** "
+"bascule vers l'OA les lignes qui avaient été facturées à l'habitant. À "
+"l'inverse (**assuré → non assuré**), son forfait est exclu de la facturation"
+" OA de la période et facturé à l'habitant jusqu'au rétablissement. → "
+"[Assurabilité (MDA)](ehealth/mda.md)"
+
+#: ../../content/belgique/faq.md:196
+msgid "Agreements (eAgreement)"
+msgstr "Accords (eAgreement)"
+
+#: ../../content/belgique/faq.md:198
+msgid "What is the eAgreement?"
+msgstr "Qu'est-ce que l'eAgreement ?"
+
+#: ../../content/belgique/faq.md:200
+msgid ""
+"When a resident is admitted, is absent, returns or leaves the institution, "
+"the mutuality must be informed electronically. Resthome **automatically "
+"prepares** the eHealth notification matching your action; most of the time, "
+"you have nothing extra to enter — just to check and, if needed, to send. → "
+"[Agreements (eAgreement)](ehealth/eagreement.md)"
+msgstr ""
+"Quand un habitant entre, s'absente, revient ou quitte l'établissement, la "
+"mutuelle doit en être informée par voie électronique. Resthome **prépare "
+"automatiquement** la notification eHealth correspondant à votre action ; la "
+"plupart du temps, vous n'avez rien à saisir en plus — juste à vérifier et, "
+"si besoin, à envoyer. → [Accords (eAgreement)](ehealth/eagreement.md)"
+
+#: ../../content/belgique/faq.md:206
+msgid "What is the difference between eAgreement and eAgreement Light?"
+msgstr "Quelle est la différence entre eAgreement et eAgreement Light ?"
+
+#: ../../content/belgique/faq.md:208
+msgid ""
+"The **eAgreement** is the care coverage agreement (linked to the Katz "
+"category and the allowance). The **eAgreement Light** groups the simpler "
+"notifications tied to the resident's **movements** (admission, absence, "
+"departure, return) — these are the ones Resthome generates on its own as you"
+" go. → [Agreements (eAgreement)](ehealth/eagreement.md)"
+msgstr ""
+"L’**eAgreement** est l'accord de prise en charge des soins (lié à la "
+"catégorie Katz et au forfait). L’**eAgreement Light** regroupe les "
+"notifications plus simples liées aux **mouvements** de l'habitant "
+"(admission, absence, départ, retour) — ce sont elles que Resthome génère "
+"tout seul au fil de vos actions. → [Accords "
+"(eAgreement)](ehealth/eagreement.md)"
+
+#: ../../content/belgique/faq.md:214
+msgid "Which document is prepared depending on the action?"
+msgstr "Quel document est préparé selon l'action ?"
+
+#: ../../content/belgique/faq.md:216
+msgid ""
+"Start a stay → **Admission agreement (Annexe 7)**; record an absence / "
+"hospitalisation → **exit notification (Annexe 11)**; resident return → "
+"**readmission (Annexe 7)**; validated Katz worsening → **update of the care "
+"agreement (Annexe 10)**; end of stay / death → **exit notification (Annexe "
+"11)**. → [Agreements (eAgreement)](ehealth/eagreement.md)"
+msgstr ""
+"Démarrer un séjour → **Accord d'admission (Annexe 7)** ; enregistrer une "
+"absence / hospitalisation → **notification de sortie (Annexe 11)** ; retour "
+"de l'habitant → **réadmission (Annexe 7)** ; aggravation Katz validée → "
+"**mise à jour de l'accord de soins (Annexe 10)** ; fin de séjour / décès → "
+"**notification de sortie (Annexe 11)**. → [Accords "
+"(eAgreement)](ehealth/eagreement.md)"
+
+#: ../../content/belgique/faq.md:222
+msgid "What are the statuses of an agreement, and what to do if rejected?"
+msgstr "Quels sont les statuts d'un accord, et que faire en cas de rejet ?"
+
+#: ../../content/belgique/faq.md:224
+msgid ""
+"An agreement goes through **Draft** (prepared, not sent), **Sent**, "
+"**Accepted** and **Rejected** (with a reason). If rejected, Resthome shows "
+"the **reason in plain language, in French and in Dutch**, directly on the "
+"agreement — so you know what to fix (often NISS, mutuality or dates) before "
+"resending. → [Refused agreement (eAgreement) — causes and "
+"solutions](ehealth/eagreement-refus.md)"
+msgstr ""
+"Un accord passe par **Brouillon** (préparé, pas envoyé), **Envoyé**, "
+"**Accepté** et **Rejeté** (avec un motif). En cas de rejet, Resthome affiche"
+" le **motif en clair, en français et en néerlandais**, directement sur "
+"l'accord — vous savez ainsi quoi corriger (souvent NISS, mutuelle ou dates) "
+"avant de renvoyer. → [Accord refusé (eAgreement) — causes et "
+"solutions](ehealth/eagreement-refus.md)"
+
+#: ../../content/belgique/faq.md:230
+msgid "Can a movement be recorded without a NISS?"
+msgstr "Peut-on enregistrer un mouvement sans NISS ?"
+
+#: ../../content/belgique/faq.md:232
+msgid ""
+"Without a NISS, the agreement cannot be transmitted. You can still record "
+"the movement (admission, absence…): Resthome notes it and invites you to "
+"complete the NISS as soon as possible. → [Agreements "
+"(eAgreement)](ehealth/eagreement.md)"
+msgstr ""
+"Sans NISS, l'accord ne peut pas être transmis. Vous pouvez tout de même "
+"enregistrer le mouvement (admission, absence…) : Resthome le note et vous "
+"invite à compléter le NISS dès que possible. → [Accords "
+"(eAgreement)](ehealth/eagreement.md)"
+
+#: ../../content/belgique/faq.md:239
+msgid "Electronic invoicing (eFact)"
+msgstr "Facturation électronique (eFact)"
+
+#: ../../content/belgique/faq.md:241
+msgid "What is the eFact?"
+msgstr "Qu'est-ce que l'eFact ?"
+
+#: ../../content/belgique/faq.md:243
+msgid ""
+"The **eFact** is the **electronic** sending of the **mutuality share** (the "
+"INAMI allowance) to the **insurance organisations (OA)** through the eHealth"
+" / MyCareNet network. Resthome builds the files, transmits them and "
+"**follows the responses** — acknowledgements of receipt, settlements, "
+"acceptances and rejections. → [Electronic invoicing "
+"(eFact)](ehealth/efact.md)"
+msgstr ""
+"L’**eFact** est l'envoi **électronique** de la **part mutuelle** (le forfait"
+" INAMI) aux **organismes assureurs (OA)** via le réseau eHealth / MyCareNet."
+" Resthome constitue les fichiers, les transmet et **suit les réponses** — "
+"accusés de réception, décomptes, acceptations et rejets. → [Facturation "
+"électronique (eFact)](ehealth/efact.md)"
+
+#: ../../content/belgique/faq.md:252
+msgid ""
+"Open the month's period in **Draft** state and click **Generate**; in the "
+"wizard, leave **Residents** empty for all active residents and click **Load "
+"MDA**, then **Generate**. The period moves to **Generated**: Resthome has "
+"computed, for each resident, the Katz allowance, the INAMI share and the "
+"resident share. → [Electronic invoicing (eFact)](ehealth/efact.md)"
+msgstr ""
+"Ouvrez la période du mois en état **Draft** et cliquez **Générer** ; dans "
+"l'assistant, laissez **Residents** vide pour tous les habitants actifs et "
+"cliquez **Charger MDA**, puis **Generate**. La période passe en "
+"**Generated** : Resthome a calculé, pour chaque habitant, le forfait Katz, "
+"la part INAMI et la part habitant. → [Facturation électronique "
+"(eFact)](ehealth/efact.md)"
+
+#: ../../content/belgique/faq.md:259
+msgid "How do I check a period before invoicing in Belgium?"
+msgstr "Comment contrôler une période avant de facturer en Belgique ?"
+
+#: ../../content/belgique/faq.md:261
+msgid ""
+"Among the counters at the top of the period, **MDA** and **Katz to do** are "
+"Belgian: handle them with the others, and run **Check MDA** to verify "
+"insurability before invoicing. → [Billing a month in "
+"Belgium](facturation.md)"
+msgstr ""
+"Parmi les compteurs en haut de la période, **MDA** et **Katz à faire** sont "
+"belges : traitez-les avec les autres, et lancez **Vérifier MDA** pour "
+"contrôler l'assurabilité avant de facturer. → [Facturer un mois en "
+"Belgique](facturation.md)"
+
+#: ../../content/belgique/faq.md:266
+msgid "How do I generate the eFact batches?"
+msgstr "Comment générer les lots eFact ?"
+
+#: ../../content/belgique/faq.md:268
+msgid ""
+"Once the invoices are posted (period **Invoiced**), click **Generate "
+"eFact**: Resthome builds the **batches** — one electronic file per insurance"
+" organisation — then shows the **eFact Batches** list (OA, reference, month,"
+" deadline, status, invoiced/accepted/refused amounts, and code + reason in "
+"case of refusal). → [Electronic invoicing (eFact)](ehealth/efact.md)"
+msgstr ""
+"Une fois les factures comptabilisées (période **Invoiced**), cliquez "
+"**Générer eFact** : Resthome constitue les **lots** — un fichier "
+"électronique par organisme assureur — puis affiche la liste **Lots eFact** "
+"(OA, référence, mois, date limite, statut, montants facturé/accepté/refusé, "
+"et code + motif en cas de refus). → [Facturation électronique "
+"(eFact)](ehealth/efact.md)"
+
+#: ../../content/belgique/faq.md:274
+msgid "What is a batch per union?"
+msgstr "Qu'est-ce qu'un lot par union ?"
+
+#: ../../content/belgique/faq.md:276
+msgid ""
+"Sendings are grouped **per union** (the big OA families), not per small "
+"individual mutuality: **100** (National Alliance), **300** (Solidaris), "
+"**500** (National Union), **600** (CAAMI), **900** (HR Rail)… Resthome takes"
+" care of the grouping. → [Electronic invoicing (eFact)](ehealth/efact.md)"
+msgstr ""
+"Les envois sont regroupés **par union** (les grandes familles d'OA), pas par"
+" petite mutualité individuelle : **100** (Alliance nationale), **300** "
+"(Solidaris), **500** (Union nationale), **600** (CAAMI), **900** (HR Rail)… "
+"Resthome s'occupe du regroupement. → [Facturation électronique "
+"(eFact)](ehealth/efact.md)"
+
+#: ../../content/belgique/faq.md:284
+msgid ""
+"Open **eHealth → eFact → Cockpit** (or the batches) and click **Send all** "
+"(or batch by batch); the sendings go to the mutualities through eHealth. "
+"Then click **Get responses**: each batch moves **Sent → Acknowledged → "
+"Accepted / Rejected**, with Resthome automatically reconciling the "
+"accepted/refused amounts. → [Billing a month in Belgium](facturation.md) · "
+"[Electronic invoicing (eFact)](ehealth/efact.md)"
+msgstr ""
+"Ouvrez **eHealth → eFact → Cockpit** (ou les lots) et cliquez sur **Tout "
+"envoyer** (ou lot par lot) ; les envois partent vers les mutuelles via "
+"eHealth. Cliquez ensuite sur **Récupérer les réponses** : chaque lot passe "
+"**Envoyé → Accusé reçu → Accepté / Rejeté**, Resthome rapprochant "
+"automatiquement les montants acceptés/refusés. → [Facturer un mois en "
+"Belgique](facturation.md) · [Facturation électronique "
+"(eFact)](ehealth/efact.md)"
+
+#: ../../content/belgique/faq.md:292
+msgid ""
+"I receive an acknowledgement of receipt (931000) after sending, should I "
+"wait?"
+msgstr ""
+"Je reçois un accusé de réception (931000) après l'envoi, dois-je attendre ?"
+
+#: ../../content/belgique/faq.md:294
+msgid ""
+"**Yes.** The **931000** only confirms that the insurance organisation "
+"**received** the batch and passed the first check — it is not the final "
+"result. There is **nothing to resend**: wait for the **settlement "
+"(920900)**, which states what is accepted and paid (a few days). In the "
+"meantime, a **920098** (warnings, accepted anyway) or a **920099** (global "
+"rejection, to fix and resend) may arrive. → [Electronic invoicing "
+"(eFact)](ehealth/efact.md) · [eFact rejections — causes and "
+"solutions](ehealth/efact-rejets.md)"
+msgstr ""
+"**Oui.** Le **931000** confirme seulement que l'organisme assureur a "
+"**reçu** le lot et passé le premier contrôle — ce n'est pas le résultat "
+"final. Vous n'avez **rien à renvoyer** : attendez le **décompte (920900)**, "
+"qui indique ce qui est accepté et payé (quelques jours). Entre-temps peuvent"
+" arriver un **920098** (avertissements, accepté malgré tout) ou un "
+"**920099** (rejet global, à corriger et renvoyer). → [Facturation "
+"électronique (eFact)](ehealth/efact.md) · [Rejets eFact — causes et "
+"solutions](ehealth/efact-rejets.md)"
+
+#: ../../content/belgique/faq.md:305
+msgid ""
+"If a batch (or part of it) is **rejected**, the rejection **code** and "
+"**reason** tell you why (insurability, allowance, dates…). Fix the cause, "
+"then **resend**: the **Resends** counter keeps track of retransmissions to "
+"avoid duplicates, and the **Reintegration** button lets you, where "
+"applicable, reintegrate lines into a new sending. → [eFact rejections — "
+"causes and solutions](ehealth/efact-rejets.md)"
+msgstr ""
+"Si un lot (ou une partie) est **rejeté**, le **code** et le **motif de "
+"rejet** vous disent pourquoi (assurabilité, forfait, dates…). Corrigez la "
+"cause, puis **renvoyez** : le compteur **Renvois** garde la trace des "
+"retransmissions pour éviter les doublons, et le bouton **Réintégration** "
+"permet le cas échéant de réintégrer des lignes dans un nouvel envoi. → "
+"[Rejets eFact — causes et solutions](ehealth/efact-rejets.md)"
+
+#: ../../content/belgique/faq.md:312
+msgid "What does \"deadline exceeded\" mean on a period card?"
+msgstr "Que signifie « échéance dépassée » sur une carte de période ?"
+
+#: ../../content/belgique/faq.md:314
+msgid ""
+"The **sending deadline** of this period has **passed**. Send without delay —"
+" beyond it, some insurance organisations may refuse the batch. → [Electronic"
+" invoicing (eFact)](ehealth/efact.md)"
+msgstr ""
+"La **date limite d'envoi** de cette période est **dépassée**. Envoyez sans "
+"tarder — au-delà, certains organismes assureurs peuvent refuser le lot. → "
+"[Facturation électronique (eFact)](ehealth/efact.md)"
+
+#: ../../content/belgique/faq.md:320
+msgid "Billing in Belgium"
+msgstr "Facturation en Belgique"
+
+#: ../../content/belgique/faq.md:324
+msgid ""
+"Open the period (**Billing → Facturation → Billing Periods**), **Check the "
+"MDA**, click **Generate**, **Create invoices** then **Post** the resident "
+"share, then **Generate eFact** and send the mutuality share to the OAs, "
+"finally **Get the responses**. Resthome runs in parallel the resident share "
+"(classic invoices) and the mutuality share (eFact) on the same period. → "
+"[Billing a month in Belgium](facturation.md)"
+msgstr ""
+"Ouvrez la période (**Facturation → Facturation → Périodes de facturation**),"
+" cliquez sur **Vérifier MDA**, puis sur **Générer**, **Créer les factures** "
+"et **Comptabiliser** pour la part habitant, ensuite sur **Générer eFact** "
+"pour envoyer la part mutuelle aux OA, et enfin sur **Récupérer les "
+"réponses**. Resthome mène en parallèle, sur la même période, la part "
+"habitant (factures classiques) et la part mutuelle (eFact). → [Facturer un "
+"mois en Belgique](facturation.md)"
+
+#: ../../content/belgique/faq.md:331
+msgid "Is the INAMI allowance split between the debtors?"
+msgstr "Le forfait INAMI est-il réparti entre les débiteurs ?"
+
+#: ../../content/belgique/faq.md:333
+msgid ""
+"No. Split billing only divides the resident share; the INAMI allowance goes "
+"to the mutuality through the eFact. → [Split billing](../facturation-"
+"partagee/index.md)"
+msgstr ""
+"Non. La facturation partagée ne répartit que la part habitant ; le forfait "
+"INAMI va à la mutuelle via l'eFact. → [Facturation partagée](../facturation-"
+"partagee/index.md)"
+
+#: ../../content/belgique/faq.md:339
+msgid "Absences & hospitalisations"
+msgstr "Absences & hospitalisations"
+
+#: ../../content/belgique/faq.md:341
+msgid "What is the effect of an absence on the INAMI allowance?"
+msgstr "Quel est l'effet d'une absence sur le forfait INAMI ?"
+
+#: ../../content/belgique/faq.md:343
+msgid ""
+"The **INAMI allowance** is computed on the **presence days**; an absence "
+"**reduces** this allowance for the days concerned. The count follows the "
+"**\"noon rule\"** (Brussels time): it is the presence at noon that "
+"determines whether the day counts, hence the importance of the departure and"
+" return dates and times. → [Billing a month in Belgium](facturation.md)"
+msgstr ""
+"Le **forfait INAMI** est calculé sur les **jours de présence** ; une absence"
+" **réduit** ce forfait pour les jours concernés. Le décompte suit la **« "
+"règle de midi »** (heure de Bruxelles) : c'est la présence à midi qui "
+"détermine si la journée compte, d'où l'importance des dates et heures de "
+"départ et de retour. → [Facturer un mois en Belgique](facturation.md)"
+
+#: ../../content/belgique/faq.md:349
+msgid "Which absences must be reported to the mutuality?"
+msgstr "Quelles absences doivent être signalées à la mutuelle ?"
+
+#: ../../content/belgique/faq.md:351
+msgid ""
+"An absence of **more than 72 h**, or **any hospitalisation**, prepares an "
+"**Annexe 11** (exit notification), and the **return** prepares an **Annexe "
+"7** (readmission). Resthome creates these notifications the moment you "
+"record the absence and the return; you only have to check and send them. → "
+"[Absences and hospitalisations](../facturation/absences.md) · [Agreements "
+"(eAgreement)](ehealth/eagreement.md)"
+msgstr ""
+"Une absence de **plus de 72 h**, ou **toute hospitalisation**, prépare une "
+"**Annexe 11** (notification de sortie), et le **retour** prépare une "
+"**Annexe 7** (réadmission). Resthome crée ces notifications au moment où "
+"vous enregistrez l'absence et le retour ; vous n'avez qu'à les vérifier et "
+"les envoyer. → [Absences et hospitalisations](../facturation/absences.md) · "
+"[Accords (eAgreement)](ehealth/eagreement.md)"
+
+#: ../../content/belgique/faq.md:360
+msgid "Departure & death"
+msgstr "Départ & décès"
+
+#: ../../content/belgique/faq.md:362
+msgid "What is sent to the mutuality on a departure or a death?"
+msgstr ""
+"Qu'est-ce qui est envoyé à la mutuelle lors d'un départ ou d'un décès ?"
+
+#: ../../content/belgique/faq.md:364
+msgid ""
+"Closing the stay prepares the **exit notification (Annexe 11)** for the "
+"mutuality. The INAMI allowance is invoiced in the month it is provided, so "
+"the credit note only concerns the accommodation invoiced in advance. → "
+"[Departure and death](../facturation/depart-deces.md) · [Agreements "
+"(eAgreement)](ehealth/eagreement.md)"
+msgstr ""
+"La clôture du séjour prépare la **notification de sortie (Annexe 11)** pour "
+"la mutuelle. Le forfait INAMI est facturé le mois où il est presté : la note"
+" de crédit ne concerne donc que l'hébergement facturé d'avance. → [Départ et"
+" décès](../facturation/depart-deces.md) · [Accords "
+"(eAgreement)](ehealth/eagreement.md)"
+
+#: ../../content/belgique/faq.md:372
+msgid "What's next"
+msgstr "Pour continuer"
+
+#: ../../content/belgique/faq.md:374
+msgid "[FAQ](../faq.md) — the questions valid in every country."
+msgstr "[FAQ](../faq.md) — les questions valables dans tous les pays."
+
+#: ../../content/belgique/faq.md:375
+msgid "[Glossary — Belgium](glossaire.md)"
+msgstr "[Glossaire — Belgique](glossaire.md)"
+
+#: ../../content/belgique/faq.md:376
+msgid "[The billing journey](parcours-facturation.md)"
+msgstr "[Le parcours de facturation](parcours-facturation.md)"

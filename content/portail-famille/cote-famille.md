@@ -1,3 +1,7 @@
+---
+modules: [resthome_family_portal, resthome_family_portal_medical, resthome_family_portal_meal]
+---
+
 # What the relative sees
 
 :::{rh-description}

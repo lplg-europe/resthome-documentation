@@ -1,3 +1,7 @@
+---
+modules: [resthome_day_care, healthcare_accommodation_billing, l10n_health_be_perdiem_billing]
+---
+
 # Billing a day care month
 
 :::{rh-description}
@@ -19,7 +23,7 @@ The month billed nothing for a user. Why?
 :::
 
 A day care month is generated like any other month — see
-[Billing a month, step by step](../facturation/facturer-un-mois.md). What
+[Billing a month, step by step](../../facturation/facturer-un-mois.md). What
 differs is what it counts: the days of the **attendance register**, not the
 calendar.
 
@@ -42,7 +46,7 @@ And what it never bills:
 A day recorded, corrected or removed after the month was generated bills the
 month again for that user, as a change of absence does.
 
-![The billing lines of a user who comes every opening day: five forfait lines, one per week, then the day price, the CSJ Stay Supplement line, on 21 days](../assets/screenshots/centre-de-jour/10-lignes-du-mois.png)
+![The billing lines of a user who comes every opening day: five forfait lines, one per week, then the day price, the CSJ Stay Supplement line, on 21 days](../../assets/screenshots/centre-de-jour/10-lignes-du-mois.png)
 
 The lines are read on the period, under its **Billing Lines** tab, or on the
 stay's tab of the same name. Each forfait line carries the CSJ category, its
@@ -56,7 +60,7 @@ chatter: **nothing recorded in the attendance register** for them, with the
 **last day recorded** of each user concerned. A recent date says the register
 was not kept up; « never » says the user never came.
 
-![The note on the period: nothing recorded in the attendance register for this month, so nothing is owed, with the user's name and the last day recorded](../assets/screenshots/centre-de-jour/11-registre-vide.png)
+![The note on the period: nothing recorded in the attendance register for this month, so nothing is owed, with the user's name and the last day recorded](../../assets/screenshots/centre-de-jour/11-registre-vide.png)
 
 Fill in the register — see [Recording attendance](presences.md) — then
 **Refresh** the period.

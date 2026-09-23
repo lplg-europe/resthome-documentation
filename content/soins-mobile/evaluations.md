@@ -1,3 +1,7 @@
+---
+modules: [healthcare_mobile, healthcare_base]
+---
+
 # Evaluations
 
 :::{rh-description}

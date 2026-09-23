@@ -1,3 +1,7 @@
+---
+modules: [l10n_health_be_perdiem_ehealth, l10n_health_be_connector, l10n_health_be_mda, l10n_health_be_efact]
+---
+
 # eHealth and eFact Settings
 
 :::{rh-description}
@@ -26,8 +30,8 @@ Which value should I choose for the Invoice Type (Z308)?
 
 This screen brings together the **technical credentials and choices** that Resthome
 uses to communicate with the Belgian e-health ecosystem (eHealth, MyCareNet,
-WalCareNet): [MDA](../ehealth/mda.md) insurability,
-[eFact](../ehealth/efact.md) billing and [eAgreement](../ehealth/eagreement.md)
+WalCareNet): [MDA](ehealth/mda.md) insurability,
+[eFact](ehealth/efact.md) billing and [eAgreement](ehealth/eagreement.md)
 agreements.
 
 The settings are split across **two tabs**:
@@ -80,7 +84,7 @@ around insurability and logs.
 
 | Setting | What it is for | Recommended value (MR/MRS) |
 |---|---|---|
-| **Auto MDA Check** | Automatically checks each resident's insurability before generating the eFact — avoids rejections for invalid insurability (see [MDA](../ehealth/mda.md)). | **Enabled** as soon as the MDA is in production. |
+| **Auto MDA Check** | Automatically checks each resident's insurability before generating the eFact — avoids rejections for invalid insurability (see [MDA](ehealth/mda.md)). | **Enabled** as soon as the MDA is in production. |
 | **Log Retention (days)** | Number of days communication and audit logs are kept; the oldest are purged by the monthly cron. | **2555** (7 years, Belgian legal requirement for health data). |
 | **No-Facet Report Email** | Address used by the *Report to intermut* button on an MDA request that remained "no-facet" (no insurer answered within 24 h) — to be escalated to the CIN/intermut. | Leave the default **intermut** address. |
 
@@ -96,7 +100,7 @@ contact** when a provider has a problem — an AViQ accreditation requirement.
 ## eAgreement Responsible Practitioner
 
 **Settings > Nursing Home > eAgreement Responsible Practitioner.** On an
-[eAgreement](../ehealth/eagreement.md) request, the responsible practitioner is
+[eAgreement](ehealth/eagreement.md) request, the responsible practitioner is
 the clinician who carried out the Katz assessment. If they have no personal
 NIHII, the request borrows the identity of the head nurse, then of the
 coordinating physician.
@@ -149,13 +153,13 @@ C**, declared to the CIN during eFact registration.
 Without a valid Account C, WalCareNet **rejects the batch**: **104511** (missing
 IBAN) or **105311** (missing BIC). The IBAN and BIC shown under the field are
 read-only — they come from the journal's bank account. See
-[eFact Rejections](../ehealth/efact-rejets.md).
+[eFact Rejections](ehealth/efact-rejets.md).
 :::
 
 ## eFact Header
 
 **Settings > MR/MRS > eFact Header.** The header information carried by each
-[eFact](../ehealth/efact.md) 920000 message (segment 300).
+[eFact](ehealth/efact.md) 920000 message (segment 300).
 
 | Setting | What it is for | Recommended value (MR/MRS) |
 |---|---|---|
@@ -164,9 +168,9 @@ read-only — they come from the journal's bank account. See
 
 ## Further reading
 
-- [Configuration](index.md)
-- [eHealth — overview](../ehealth/index.md)
-- [Electronic billing (eFact)](../ehealth/efact.md)
-- [Insurability (MDA)](../ehealth/mda.md)
-- [Agreements (eAgreement)](../ehealth/eagreement.md)
-- [eFact rejections — causes and solutions](../ehealth/efact-rejets.md)
+- [Configuration](../configuration/index.md)
+- [eHealth — overview](ehealth/index.md)
+- [Electronic billing (eFact)](ehealth/efact.md)
+- [Insurability (MDA)](ehealth/mda.md)
+- [Agreements (eAgreement)](ehealth/eagreement.md)
+- [eFact rejections — causes and solutions](ehealth/efact-rejets.md)

@@ -1,3 +1,7 @@
+---
+modules: [resthome_mr_billing, l10n_health_be_perdiem_billing, l10n_health_be_eagreement_light, l10n_health_be]
+---
+
 # The INAMI dependency allowance
 
 :::{rh-description}
@@ -23,14 +27,14 @@ Who pays for the dependency allowance?
 
 The **dependency allowance** is the **daily** amount covered by the health
 insurance fund for a resident's **care**. It depends on their **degree of
-dependency**, measured by the **[Katz assessment](../residents/katz.md)**, and it
-is sent to the insurer (OA) via **[electronic billing (eFact)](../ehealth/efact.md)**.
+dependency**, measured by the **[Katz assessment](katz.md)**, and it
+is sent to the insurer (OA) via **[electronic billing (eFact)](ehealth/efact.md)**.
 
 This page explains the full chain: **Katz assessment → category → billed amount**.
 
 ## From the Katz assessment to the category
 
-The [Katz assessment](../residents/katz.md) rates **6 criteria** (washing,
+The [Katz assessment](katz.md) rates **6 criteria** (washing,
 dressing, transfer and mobility, going to the toilet, continence, eating) from
 **1** (independent) to **4** (fully dependent). From these ratings, Resthome
 computes a **dependency category**, which is **declared to the health insurance
@@ -85,7 +89,7 @@ The allowance billed for a resident follows a simple rule:
   be **shorter** than the accommodation (admission mid-month, departure, death, end
   of intervention before the room is vacated).
 - An **absence** (hospitalization, holidays) **reduces** the number of days,
-  according to the **[noon rule](absences.md)** (Brussels time).
+  according to the **[noon rule](facturation.md)** (Brussels time).
 - The **rate** applied is the one **in force on the date** of billing; it is
   indexed over time (see below).
 
@@ -108,7 +112,7 @@ Two concepts coexist here, and it is important not to confuse them:
   insurance fund.
 
 **They can differ.** The health insurance fund reimburses **the category it
-approved** in the **[agreement (eAgreement)](../ehealth/eagreement.md)**, not
+approved** in the **[agreement (eAgreement)](ehealth/eagreement.md)**, not
 necessarily your latest assessment. In practice:
 
 - If an **OA agreement** is in force → we bill **the category of that agreement**.
@@ -136,7 +140,7 @@ insurance fund's agreement is obtained** (see above).
 
 ## Configuring the allowance rates
 
-The rates are configured in the **MR/MRS → Configuration → INAMI Rates** app: one
+The rates are configured in the **Billing → Configuration → INAMI Rates** app: one
 **rate per Katz category**, with a **validity period**. Resthome automatically
 applies the rate in force on the billing date. For the **annual indexation**, you
 add a new rate line (new start date) and close the old one. The same screen also
@@ -156,8 +160,9 @@ manages the **accommodation rate** (charged to the resident).
 
 ## Further reading
 
-- [The Katz assessment](../residents/katz.md)
-- [Electronic billing (eFact)](../ehealth/efact.md) · [eFact rejections](../ehealth/efact-rejets.md)
-- [Agreements (eAgreement)](../ehealth/eagreement.md)
-- [Absences and hospitalizations](absences.md)
+- [The Katz assessment](katz.md)
+- [Electronic billing (eFact)](ehealth/efact.md) · [eFact rejections](ehealth/efact-rejets.md)
+- [Agreements (eAgreement)](ehealth/eagreement.md)
+- [Absences and hospitalizations](../facturation/absences.md)
+- [Billing a month in Belgium](facturation.md)
 - [FAQ](../faq.md) · [Glossary](../glossaire.md)

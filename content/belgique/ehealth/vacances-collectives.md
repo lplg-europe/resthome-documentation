@@ -1,3 +1,7 @@
+---
+modules: [resthome_mr_ehealth]
+---
+
 # Collective holidays
 
 :::{rh-description}
@@ -25,7 +29,7 @@ A **collective holiday** is a group trip: the seaside, the mountains, a few days
 away. It has consequences for billing and for the health insurance funds, which
 must be told. Resthome handles the whole thing from one record.
 
-Menu: **eHealth → Collective holidays**.
+Menu: **Billing → Facturation → Collective Vacations**.
 
 ## 1. Create the trip
 
@@ -94,6 +98,6 @@ what matters.
 
 ## Further reading
 
-- [Absences and hospitalisations](../facturation/absences.md)
+- [Absences and hospitalisations](../../facturation/absences.md)
 - [Agreements (eAgreement)](eagreement.md)
-- [Manage a resident](../residents/gerer-un-resident.md)
+- [Manage a resident](../../residents/gerer-un-resident.md)

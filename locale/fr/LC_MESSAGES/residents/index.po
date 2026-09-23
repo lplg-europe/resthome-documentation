@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-16 01:30+0200\n"
+"POT-Creation-Date: 2026-09-23 15:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -20,55 +20,55 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: ../../content/residents/index.md:1
+#: ../../content/residents/index.md:5
 msgid "Residents"
 msgstr "Habitants"
 
-#: ../../content/residents/index.md:4
+#: ../../content/residents/index.md:8
 msgid ""
-"Managing residents in a nursing home (MR/MRS) with Resthome: admission, "
-"stay, Katz and geriatric assessments, rooms, condition report and private "
+"Managing residents in a nursing home with Resthome: admission, stay, "
+"dependency and geriatric assessments, rooms, condition report and private "
 "furniture."
 msgstr ""
-"Gérer les habitants en maison de repos (MR/MRS) avec Resthome : admission, "
-"séjour, évaluations Katz et gériatriques, chambres, état des lieux et "
+"Gérer les habitants en maison de repos avec Resthome : admission, séjour, "
+"évaluations de la dépendance et gériatriques, chambres, état des lieux et "
 "mobilier privé."
 
-#: ../../content/residents/index.md:21
+#: ../../content/residents/index.md:24
 msgid ""
 "Everything about a resident's life in the facility, from the first contact "
-"to the daily record: **admission**, **stay**, **assessments (Katz)**, "
-"**room** and **condition report**. The resident is the central record all "
-"the other apps build on — care, meals and billing."
+"to the daily record: **admission**, **stay**, **assessments**, **room** and "
+"**condition report**. The resident is the central record all the other apps "
+"build on — care, meals and billing."
 msgstr ""
 "Tout sur la vie d'un habitant dans l'établissement, du premier contact à la "
-"fiche quotidienne : **admission**, **séjour**, **évaluations (Katz)**, "
-"**chambre** et **état des lieux**. L'habitant est la fiche centrale sur "
-"laquelle s'appuient les autres applications — soins, repas et facturation."
+"fiche quotidienne : **admission**, **séjour**, **évaluations**, **chambre** "
+"et **état des lieux**. L'habitant est la fiche centrale sur laquelle "
+"s'appuient toutes les autres applications — soins, repas et facturation."
 
-#: ../../content/residents/index.md:26
+#: ../../content/residents/index.md:29
 msgid ""
-"![Residents kanban: one card per resident with the reference, the MR or MRS "
-"stay type, the age and the room "
-"occupied](../assets/screenshots/residents/04-liste-residents.png)"
+"![Residents kanban: one card per resident with the reference, the stay type,"
+" the age and the room occupied](../assets/screenshots/residents/04-liste-"
+"residents.png)"
 msgstr ""
 "![Kanban des habitants : une carte par habitant avec la référence, le type "
-"de séjour MR ou MRS, l'âge et la chambre "
+"de séjour, l'âge et la chambre "
 "occupée](../assets/screenshots/residents/04-liste-residents.png)"
 
-#: ../../content/residents/index.md:26
+#: ../../content/residents/index.md:29
 msgid ""
-"Residents kanban: one card per resident with the reference, the MR or MRS "
-"stay type, the age and the room occupied"
+"Residents kanban: one card per resident with the reference, the stay type, "
+"the age and the room occupied"
 msgstr ""
 "Kanban des habitants : une carte par habitant avec la référence, le type de "
-"séjour MR ou MRS, l'âge et la chambre occupée"
+"séjour, l'âge et la chambre occupée"
 
-#: ../../content/residents/index.md:28
+#: ../../content/residents/index.md:31
 msgid "Key principles"
 msgstr "Principes clés"
 
-#: ../../content/residents/index.md:30
+#: ../../content/residents/index.md:33
 msgid ""
 "**Admission**: handled in its own application, from the first enquiry to the"
 " move-in; it creates the resident and opens their stay. See "
@@ -78,7 +78,7 @@ msgstr ""
 "à l'emménagement ; elle crée l'habitant et ouvre son séjour. Voir "
 "[Admissions](../admissions/index.md)."
 
-#: ../../content/residents/index.md:33
+#: ../../content/residents/index.md:36
 msgid ""
 "**Stay**: the period during which the resident occupies a **room**. It "
 "drives presence, billing and the end-of-stay procedures."
@@ -86,21 +86,21 @@ msgstr ""
 "**Séjour** : la période pendant laquelle l'habitant occupe une **chambre**. "
 "Il pilote la présence, la facturation et les procédures de fin de séjour."
 
-#: ../../content/residents/index.md:35
-msgid ""
-"**Katz assessment**: scores the resident's dependency; it determines the "
-"**category** used to declare the profile to the insurer and to bill the "
-"dependency package."
-msgstr ""
-"**Évaluation Katz** : cote la dépendance de l'habitant ; elle détermine la "
-"**catégorie** utilisée pour déclarer le profil à la mutuelle et facturer le "
-"forfait de dépendance."
-
 #: ../../content/residents/index.md:38
+msgid ""
+"**Dependency assessment**: scores the resident's dependency on the scale the"
+" country uses; it determines the **category** declared to the health "
+"insurer, on which the care allowance it pays relies."
+msgstr ""
+"**Évaluation de la dépendance** : cote la dépendance de l'habitant sur "
+"l'échelle utilisée dans le pays ; elle détermine la **catégorie** déclarée à"
+" l'assureur santé, sur laquelle repose le forfait de soins qu'il paie."
+
+#: ../../content/residents/index.md:41
 msgid "**Room**: taken from the stay; occupancy is tracked per status."
 msgstr "**Chambre** : reprise du séjour ; l'occupation est suivie par statut."
 
-#: ../../content/residents/index.md:39
+#: ../../content/residents/index.md:42
 msgid ""
 "**Condition report**: a joint move-in/move-out assessment of the room and "
 "its equipment, signed by the representative and the facility."
@@ -108,44 +108,57 @@ msgstr ""
 "**État des lieux** : un constat contradictoire d'entrée/sortie de la chambre"
 " et de son équipement, signé par le représentant et l'établissement."
 
-#: ../../content/residents/index.md:42
+#: ../../content/residents/index.md:45
+msgid "In Belgium"
+msgstr "En Belgique"
+
+#: ../../content/residents/index.md:48
+msgid ""
+"The dependency scale is **Katz**, the stay types are the **MR** and **MRS** "
+"sectors, and the resident's file carries the NISS and the mutualité — see "
+"[The resident's file in Belgium](../belgique/dossier-resident.md) and [The "
+"Katz assessment](../belgique/katz.md)."
+msgstr ""
+"L'échelle de dépendance est **Katz**, les types de séjour sont les secteurs "
+"**MR** et **MRS**, et le dossier de l'habitant porte le NISS et la mutuelle "
+"— voir [Le dossier de l'habitant en Belgique](../belgique/dossier-"
+"resident.md) et [L'évaluation Katz](../belgique/katz.md)."
+
+#: ../../content/residents/index.md:54
 msgid "What's next"
 msgstr "À suivre"
 
-#: ../../content/residents/index.md:44
+#: ../../content/residents/index.md:56
 msgid "[Managing a resident](gerer-un-resident.md) — the central record."
 msgstr "[Gérer un habitant](gerer-un-resident.md) — la fiche centrale."
 
-#: ../../content/residents/index.md:45
-msgid "[The Katz assessment](katz.md) — dependency scoring and category."
-msgstr ""
-"[L'évaluation Katz](katz.md) — cotation de la dépendance et catégorie."
-
-#: ../../content/residents/index.md:46
+#: ../../content/residents/index.md:57
 msgid ""
-"[Geriatric assessments (beyond Katz)](evaluations.md) — MNA, Braden and "
-"others."
+"[Geriatric assessments](evaluations.md) — MMSE, Braden, MNA and others."
 msgstr ""
-"[Les évaluations gériatriques (hors Katz)](evaluations.md) — MNA, Braden et "
-"autres."
+"[Évaluations gériatriques](evaluations.md) — MMSE, Braden, MNA et autres."
 
-#: ../../content/residents/index.md:47
+#: ../../content/residents/index.md:58
 msgid "[Room change and transfer](changement-chambre.md)"
 msgstr "[Changement de chambre et transfert](changement-chambre.md)"
 
-#: ../../content/residents/index.md:48
+#: ../../content/residents/index.md:59
 msgid "[Rooms and occupancy](chambres.md)"
 msgstr "[Les chambres et l'occupation](chambres.md)"
 
-#: ../../content/residents/index.md:49
+#: ../../content/residents/index.md:60
+msgid "[Room housekeeping](entretien-chambres.md)"
+msgstr "[Entretien des chambres](entretien-chambres.md)"
+
+#: ../../content/residents/index.md:61
 msgid "[The condition report (move-in and move-out)](etat-des-lieux.md)"
 msgstr "[L'état des lieux (entrée et sortie)](etat-des-lieux.md)"
 
-#: ../../content/residents/index.md:50
+#: ../../content/residents/index.md:62
 msgid "[The move-in procedure](procedure-emmenagement.md)"
 msgstr "[La procédure d'emménagement](procedure-emmenagement.md)"
 
-#: ../../content/residents/index.md:51
+#: ../../content/residents/index.md:63
 msgid "[The resident's private furniture](mobilier.md)"
 msgstr "[Le mobilier privé de l'habitant](mobilier.md)"
 
@@ -154,3 +167,10 @@ msgstr "[Le mobilier privé de l'habitant](mobilier.md)"
 #~ msgstr ""
 #~ "[Les admissions (pipeline CRM)](admissions.md) — du premier contact à "
 #~ "l'emménagement."
+
+#~ msgid ""
+#~ "[The Katz assessment](../belgique/katz.md) — dependency scoring and "
+#~ "category."
+#~ msgstr ""
+#~ "[L'évaluation Katz](../belgique/katz.md) — cotation de la dépendance et "
+#~ "catégorie."

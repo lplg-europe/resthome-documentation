@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-16 01:34+0200\n"
+"POT-Creation-Date: 2026-09-23 15:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -20,25 +20,25 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: ../../content/admissions/admettre.md:5
+#: ../../content/admissions/admettre.md:6
 msgid "Admitting a candidate"
 msgstr "Admettre un candidat"
 
-#: ../../content/admissions/admettre.md:8
+#: ../../content/admissions/admettre.md:9
 msgid ""
 "Admitting a candidate in Resthome: the checks before Admitted, the admission"
 " wizard (room and start date), what is created, and the safeguards including"
-" the duplicate NISS."
+" the duplicate identification number."
 msgstr ""
 "Admettre un candidat dans Resthome : les contrôles avant Admis, l'assistant "
-"d'admission (chambre et date de début), ce qui est créé, et les garde-fous "
-"dont le NISS en double."
+"d'admission (chambre et date de début), ce qui est créé, et les garde-fous, "
+"dont le numéro d'identification en double."
 
-#: ../../content/admissions/admettre.md:12
+#: ../../content/admissions/admettre.md:13
 msgid "What does the admission create?"
 msgstr "Que crée l'admission ?"
 
-#: ../../content/admissions/admettre.md:13
+#: ../../content/admissions/admettre.md:14
 msgid ""
 "The contact becomes a resident, their stay opens as **Confirmed** on the "
 "chosen room and date, and the resident's record opens."
@@ -46,11 +46,11 @@ msgstr ""
 "Le contact devient un habitant, son séjour s'ouvre à l'état **Confirmé** sur"
 " la chambre et la date choisies, et la fiche de l'habitant s'ouvre."
 
-#: ../../content/admissions/admettre.md:15
+#: ../../content/admissions/admettre.md:16
 msgid "Is a room required?"
 msgstr "La chambre est-elle obligatoire ?"
 
-#: ../../content/admissions/admettre.md:16
+#: ../../content/admissions/admettre.md:17
 msgid ""
 "Yes. The wizard only offers rooms that are free, that become free on a known"
 " date, or that are on the waiting list."
@@ -58,11 +58,11 @@ msgstr ""
 "Oui. L'assistant ne propose que les chambres libres, celles qui se libèrent "
 "à une date connue, et celles de la liste d'attente."
 
-#: ../../content/admissions/admettre.md:18
-msgid "The NISS already belongs to a resident. What do I do?"
-msgstr "Le NISS appartient déjà à un habitant. Que faire ?"
-
 #: ../../content/admissions/admettre.md:19
+msgid "The identification number already belongs to a resident. What do I do?"
+msgstr "Le numéro d'identification appartient déjà à un habitant. Que faire ?"
+
+#: ../../content/admissions/admettre.md:20
 msgid ""
 "Click **Link to that resident**: the file is repointed at the existing "
 "record, and the empty duplicate is archived. This is also the normal path "
@@ -72,12 +72,12 @@ msgstr ""
 "fiche existante, et le doublon vide est archivé. C'est aussi le chemin "
 "normal pour réadmettre un ancien habitant."
 
-#: ../../content/admissions/admettre.md:21
+#: ../../content/admissions/admettre.md:22
 msgid "What happens if I move an admitted file back to an earlier stage?"
 msgstr ""
 "Que se passe-t-il si je ramène un dossier admis à une étape antérieure ?"
 
-#: ../../content/admissions/admettre.md:22
+#: ../../content/admissions/admettre.md:23
 msgid ""
 "Stays still in draft or confirmed are cancelled automatically. A stay that "
 "has already started is left untouched."
@@ -85,7 +85,7 @@ msgstr ""
 "Les séjours encore en brouillon ou confirmés sont annulés automatiquement. "
 "Un séjour déjà démarré n'est pas touché."
 
-#: ../../content/admissions/admettre.md:25
+#: ../../content/admissions/admettre.md:26
 msgid ""
 "When the file is ready, the candidate becomes a resident. Two equivalent "
 "actions open the **Admission** wizard: drag the card into the **Admitted** "
@@ -96,44 +96,47 @@ msgstr ""
 "la colonne **Admis**, ou marquer le dossier gagné depuis le dossier lui-"
 "même."
 
-#: ../../content/admissions/admettre.md:29
+#: ../../content/admissions/admettre.md:30
 msgid "1. Pass the checks"
 msgstr "1\\. Passer les contrôles"
 
-#: ../../content/admissions/admettre.md:31
+#: ../../content/admissions/admettre.md:32
 msgid "Resthome refuses the admission, on every path, as long as:"
 msgstr "Resthome refuse l'admission, par tous les chemins, tant que :"
 
-#: ../../content/admissions/admettre.md:33
-msgid ""
-"the **Desired stay type** is empty — Annexe 7 cannot be produced without it;"
-msgstr ""
-"le **Type de séjour souhaité** est vide — l'Annexe 7 ne peut pas être "
-"produite sans lui ;"
-
 #: ../../content/admissions/admettre.md:34
 msgid ""
-"the **insurability** has not been verified — unless **MDA check required** "
-"is unticked."
+"the **Desired stay type** is empty — the documents for the health insurer "
+"cannot be produced without it;"
 msgstr ""
-"l’**assurabilité** n'a pas été vérifiée — sauf si **Vérification MDA "
-"requise** est décochée."
+"le **Type de séjour souhaité** est vide — les documents destinés à "
+"l'assureur santé ne peuvent pas être produits sans lui ;"
 
-#: ../../content/admissions/admettre.md:37
+#: ../../content/admissions/admettre.md:36
 msgid ""
-"A third check is about identity: if the NISS entered already belongs to a "
-"resident, a banner names the existing record. **The admission will be "
-"refused** as long as the file points at a separate one."
+"the **insurability** has not been verified, where the country has an "
+"electronic check — unless the file waives it."
 msgstr ""
-"Un troisième contrôle porte sur l'identité : si le NISS encodé appartient "
-"déjà à un habitant, un bandeau nomme la fiche existante. **L'admission sera "
-"refusée** tant que le dossier pointe vers une fiche distincte."
+"l'**assurabilité** n'a pas été vérifiée, là où le pays prévoit un contrôle "
+"électronique — sauf si le dossier en dispense."
 
-#: ../../content/admissions/admettre.md:41
+#: ../../content/admissions/admettre.md:39
+msgid ""
+"A third check is about identity: if the national identification number "
+"entered already belongs to a resident, a banner names the existing record. "
+"**The admission will be refused** as long as the file points at a separate "
+"one."
+msgstr ""
+"Un troisième contrôle porte sur l'identité : si le numéro d'identification "
+"national encodé appartient déjà à un habitant, un bandeau nomme la fiche "
+"existante. **L'admission sera refusée** tant que le dossier pointe vers une "
+"fiche distincte."
+
+#: ../../content/admissions/admettre.md:43
 msgid "One person, one record"
 msgstr "Une personne, un dossier"
 
-#: ../../content/admissions/admettre.md:44
+#: ../../content/admissions/admettre.md:46
 msgid ""
 "The **Link to that resident** button fixes it in one click: the file is "
 "repointed at the existing record, and the empty duplicate created along the "
@@ -145,7 +148,7 @@ msgstr ""
 "archivé. Une fiche déjà utilisée n'est jamais archivée — les deux restent "
 "alors à fusionner à la main."
 
-#: ../../content/admissions/admettre.md:49
+#: ../../content/admissions/admettre.md:51
 msgid ""
 "This is the normal path for **readmitting a former resident**: their "
 "history, assessments and documents come back with them."
@@ -153,11 +156,27 @@ msgstr ""
 "C'est le chemin normal pour **réadmettre un ancien habitant** : son "
 "historique, ses évaluations et ses documents reviennent avec lui."
 
-#: ../../content/admissions/admettre.md:53
+#: ../../content/admissions/admettre.md:55
+#: ../../content/admissions/admettre.md:100
+msgid "In Belgium"
+msgstr "En Belgique"
+
+#: ../../content/admissions/admettre.md:58
+msgid ""
+"The stay type is needed to produce Annexe 7, and the insurability check is "
+"the MDA, waived by unticking **MDA check required**. See [Admitting a "
+"resident in Belgium](../belgique/admission.md)."
+msgstr ""
+"Le type de séjour est nécessaire pour produire l'Annexe 7, et le contrôle "
+"d'assurabilité est le MDA, dont on se dispense en décochant **Vérification "
+"MDA requise**. Voir [Admettre un habitant en "
+"Belgique](../belgique/admission.md)."
+
+#: ../../content/admissions/admettre.md:63
 msgid "2. Fill in the wizard"
 msgstr "2\\. Remplir l'assistant"
 
-#: ../../content/admissions/admettre.md:55
+#: ../../content/admissions/admettre.md:65
 msgid ""
 "![Admission wizard with the stay type, room and start date "
 "fields](../assets/screenshots/residents/03-assistant-admission.webp)"
@@ -165,29 +184,29 @@ msgstr ""
 "![L'assistant d'admission avec les champs type de séjour, chambre et date de"
 " début](../assets/screenshots/residents/03-assistant-admission.webp)"
 
-#: ../../content/admissions/admettre.md:55
+#: ../../content/admissions/admettre.md:65
 msgid "Admission wizard with the stay type, room and start date fields"
 msgstr ""
 "L'assistant d'admission avec les champs type de séjour, chambre et date de "
 "début"
 
-#: ../../content/admissions/admettre.md:57
+#: ../../content/admissions/admettre.md:67
 msgid "**Stay Type** — carried over from the file, read-only."
 msgstr "**Type de séjour** — repris du dossier, en lecture seule."
 
-#: ../../content/admissions/admettre.md:58
+#: ../../content/admissions/admettre.md:68
 msgid "**Room** — required."
 msgstr "**Chambre** — obligatoire."
 
-#: ../../content/admissions/admettre.md:59
+#: ../../content/admissions/admettre.md:69
 msgid "**Stay start date** — today by default."
 msgstr "**Date de début de séjour** — aujourd'hui par défaut."
 
-#: ../../content/admissions/admettre.md:60
+#: ../../content/admissions/admettre.md:70
 msgid "**Notes** — copied into the stay's admission reason."
 msgstr "**Notes** — recopiées dans le motif d'admission du séjour."
 
-#: ../../content/admissions/admettre.md:62
+#: ../../content/admissions/admettre.md:72
 msgid ""
 "Depending on the modules installed, the wizard also carries the **invoice "
 "type** and the [split billing debtors](../facturation-partagee/index.md)."
@@ -196,38 +215,38 @@ msgstr ""
 "facturation** et les [débiteurs de la facturation partagée](../facturation-"
 "partagee/index.md)."
 
-#: ../../content/admissions/admettre.md:65
+#: ../../content/admissions/admettre.md:75
 msgid "Click **Admit**."
 msgstr "Cliquez sur **Admettre**."
 
-#: ../../content/admissions/admettre.md:67
+#: ../../content/admissions/admettre.md:77
 msgid "3. Check what was created"
 msgstr "3\\. Vérifier ce qui a été créé"
 
-#: ../../content/admissions/admettre.md:69
+#: ../../content/admissions/admettre.md:79
 msgid "Resthome then:"
 msgstr "Resthome alors :"
 
-#: ../../content/admissions/admettre.md:71
+#: ../../content/admissions/admettre.md:81
 msgid "turns the contact into a **resident**;"
 msgstr "transforme le contact en **habitant** ;"
 
-#: ../../content/admissions/admettre.md:72
+#: ../../content/admissions/admettre.md:82
 msgid ""
 "opens the **stay** in the **Confirmed** state, on the chosen room and date;"
 msgstr ""
 "ouvre le **séjour** à l'état **Confirmé**, sur la chambre et la date "
 "choisies ;"
 
-#: ../../content/admissions/admettre.md:73
+#: ../../content/admissions/admettre.md:83
 msgid ""
-"opens the **resident's record**, to continue with the Katz assessment and "
-"the documents."
+"opens the **resident's record**, to continue with the dependency assessment "
+"and the documents."
 msgstr ""
-"ouvre la **fiche de l'habitant**, pour continuer avec l'évaluation Katz et "
-"les documents."
+"ouvre la **fiche de l'habitant**, pour continuer avec l'évaluation de la "
+"dépendance et les documents."
 
-#: ../../content/admissions/admettre.md:76
+#: ../../content/admissions/admettre.md:86
 msgid ""
 "The stay still has to be **started** (**Start Stay**) once the resident is "
 "actually there. See [Managing a resident](../residents/gerer-un-"
@@ -237,11 +256,11 @@ msgstr ""
 "l'habitant réellement présent. Voir [Gérer un habitant](../residents/gerer-"
 "un-resident.md)."
 
-#: ../../content/admissions/admettre.md:79
+#: ../../content/admissions/admettre.md:89
 msgid "Two dates not to confuse"
 msgstr "Deux dates à ne pas confondre"
 
-#: ../../content/admissions/admettre.md:82
+#: ../../content/admissions/admettre.md:92
 msgid ""
 "**Stay start date** — when billing for accommodation (the room) begins. This"
 " is the one in the wizard."
@@ -249,23 +268,35 @@ msgstr ""
 "**Date de début de séjour** — quand commence la facturation de l'hébergement"
 " (la chambre). C'est celle de l'assistant."
 
-#: ../../content/admissions/admettre.md:84
+#: ../../content/admissions/admettre.md:94
 msgid ""
-"**Admission Date** — when the insurer's contribution begins. It is set when "
-"the stay is **started**."
+"**Admission Date** — when the care allowance paid by the health insurer "
+"begins. It is set when the stay is **started**."
 msgstr ""
-"**Date d'admission** — quand commence l'intervention de la mutuelle. Elle "
-"est posée au **démarrage** du séjour."
+"**Date d'admission** — le début du forfait de soins payé par l'assureur "
+"santé. Elle est fixée au **démarrage** du séjour."
 
-#: ../../content/admissions/admettre.md:87
+#: ../../content/admissions/admettre.md:97
 msgid "They are often identical, but can differ."
 msgstr "Elles sont souvent identiques, mais peuvent différer."
 
-#: ../../content/admissions/admettre.md:90
+#: ../../content/admissions/admettre.md:103
+msgid ""
+"Starting the stay prepares the admission agreement (Annexe 7) sent to the "
+"health insurer through eAgreement, and the Katz assessment sets the category"
+" declared for the INAMI allowance. See [Admitting a resident in "
+"Belgium](../belgique/admission.md)."
+msgstr ""
+"Le démarrage du séjour prépare l'accord d'admission (Annexe 7) envoyé à la "
+"mutuelle via eAgreement, et l'évaluation Katz fixe la catégorie déclarée "
+"pour le forfait INAMI. Voir [Admettre un habitant en "
+"Belgique](../belgique/admission.md)."
+
+#: ../../content/admissions/admettre.md:109
 msgid "Safeguards"
 msgstr "Garde-fous"
 
-#: ../../content/admissions/admettre.md:92
+#: ../../content/admissions/admettre.md:111
 msgid ""
 "**Closing the wizard** creates nothing and brings the card back to its "
 "previous stage: the file is only won by **Admit**."
@@ -273,7 +304,7 @@ msgstr ""
 "**Fermer l'assistant** ne crée rien et ramène la carte à son étape "
 "précédente : le dossier n'est gagné que par **Admettre**."
 
-#: ../../content/admissions/admettre.md:94
+#: ../../content/admissions/admettre.md:113
 msgid ""
 "**Moving a file out of Admitted** cancels the stays still in **draft** or "
 "**confirmed**; a stay already **started** is left untouched."
@@ -281,7 +312,7 @@ msgstr ""
 "**Sortir un dossier de Admis** annule les séjours encore en **brouillon** ou"
 " **confirmés** ; un séjour déjà **démarré** n'est pas touché."
 
-#: ../../content/admissions/admettre.md:96
+#: ../../content/admissions/admettre.md:115
 msgid ""
 "**No duplicate stay**: the wizard reuses the file's existing stay, or a stay"
 " of the resident that belongs to no file — never one belonging to another "
@@ -292,28 +323,27 @@ msgstr ""
 "jamais celui d'un autre dossier. La chambre, la date et le type de séjour "
 "sont pré-remplis."
 
-#: ../../content/admissions/admettre.md:100
+#: ../../content/admissions/admettre.md:119
 msgid "What's next"
 msgstr "Pour continuer"
 
-#: ../../content/admissions/admettre.md:102
+#: ../../content/admissions/admettre.md:121
 msgid "[Managing a resident](../residents/gerer-un-resident.md)"
 msgstr "[Gérer un habitant](../residents/gerer-un-resident.md)"
 
-#: ../../content/admissions/admettre.md:103
-msgid "[The Katz assessment](../residents/katz.md)"
-msgstr "[L'évaluation Katz](../residents/katz.md)"
-
-#: ../../content/admissions/admettre.md:104
+#: ../../content/admissions/admettre.md:122
 msgid "[The move-in procedure](../residents/procedure-emmenagement.md)"
 msgstr "[La procédure d'emménagement](../residents/procedure-emmenagement.md)"
 
-#: ../../content/admissions/admettre.md:105
-msgid "[The billing journey](../parcours-facturation.md)"
-msgstr "[Le parcours de facturation](../parcours-facturation.md)"
+#: ../../content/admissions/admettre.md:123
+msgid "[Billing](../facturation/index.md)"
+msgstr "[Facturation](../facturation/index.md)"
 
 #~ msgid ""
 #~ "When the file is ready, the candidate becomes a resident. Two equivalent "
 #~ "actions open the **Admission** wizard: drag the card into the **Admitted** "
 #~ "column, or click **Won** on the file."
 #~ msgstr ""
+
+#~ msgid "[The Katz assessment](../belgique/katz.md)"
+#~ msgstr "[L'évaluation Katz](../belgique/katz.md)"

@@ -1,3 +1,7 @@
+---
+modules: [resthome_split_billing]
+---
+
 # Setting up a split
 
 :::{rh-description}
@@ -9,7 +13,7 @@ Where do I set the debtors?
 : On the resident's record, Billing tab: choose a split **Invoice Type**, then fill in the **Split Billing Partners** list.
 
 What must be configured before the first split invoice?
-: A dedicated split billing journal and a suspense account, in the MR/MRS settings. Without them, generation stops before anything is produced.
+: A dedicated split billing journal and a suspense account, in the settings of the **Nursing Home** app. Without them, generation stops before anything is produced.
 
 I changed the debtors and the current month did not change. Why?
 : Because a stay bills under the terms it was opened with. New debtors apply to the next stay.
@@ -17,7 +21,7 @@ I changed the debtors and the current month did not change. Why?
 
 ## 1. The accounting settings
 
-In **Settings → MR/MRS**, under the optional features:
+In the **Settings** of the **Nursing Home** app, under the optional features:
 
 - **Split Billing Journal** — a journal of its own, separate from the resident
   journal.

@@ -1,4 +1,5 @@
 ---
+modules: [l10n_health_be_efact, l10n_health_be_perdiem_ehealth]
 howto_auto: true
 ---
 
@@ -100,4 +101,4 @@ refused too.
 - [Rejections and how to fix them](efact-rejets.md) — reading a settlement, reject codes.
 - [Settlements and payments](efact-paiements.md) — what the insurer actually paid.
 - [Electronic invoicing (eFact)](efact.md) — the full cycle.
-- [Departure and death](../facturation/depart-deces.md) — the most common cause of an over-billed allowance.
+- [Departure and death](../../facturation/depart-deces.md) — the most common cause of an over-billed allowance.

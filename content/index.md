@@ -1,14 +1,55 @@
+---
+modules: []
+---
+
 # Welcome to the Resthome documentation
 
 :::{rh-description}
-User documentation for the Resthome software (on Odoo) for nursing and care homes (MR/MRS): residents, care, INAMI billing, eFact, MDA, eAgreement.
+User documentation for Resthome, the software for nursing and care homes built on Odoo: residents, admissions, care, meals, billing and the family portal, with a space for each country's rules.
 :::
 
-**Resthome** is the management software for **nursing homes (MR)** and **nursing
-and care homes (MRS)**, published by LPLG **on Odoo** — residents, care, meals,
-INAMI/mutuality billing and the Belgian eHealth exchanges (eFact, MDA,
-eAgreement), all in one place. This documentation guides you day by day, step by
-step, with screenshots.
+**Resthome** is the management software for **nursing and care homes**,
+published by LPLG **on Odoo**: residents, admissions, care, meals, billing and
+the family portal, all in one place. This documentation guides you day by day,
+step by step, with screenshots.
+
+The pages below apply in every country. What comes from a country's own rules —
+its dependency scale, its health insurers, its electronic exchanges, its
+funding — lives in that country's space.
+
+## Your country
+
+Each country has its own space. The **country selector** at the top of the page
+filters the navigation: the side bar shows the common applications and the
+space of the country you choose.
+
+::::{grid} 1 2 2 3
+:gutter: 3
+
+:::{grid-item-card} Belgium
+:link: belgique/index
+:link-type: doc
+
+The Belgian dependency scale, the allowance paid by the health insurers, the electronic exchanges with them, the institutional allowance and the day care centre.
+:::
+
+:::{grid-item-card} France
+:link: france/index
+:link-type: doc
+
+Coming soon.
+:::
+
+:::{grid-item-card} Luxembourg
+:link: luxembourg/index
+:link-type: doc
+
+Coming soon.
+:::
+
+::::
+
+## The applications
 
 ::::{grid} 1 2 2 3
 :gutter: 3
@@ -20,18 +61,11 @@ step, with screenshots.
 Log in, discover the apps and the dashboard, and find your way around a screen.
 :::
 
-:::{grid-item-card} The billing journey
-:link: parcours-facturation
-:link-type: doc
-
-The big picture: admission → MDA → eAgreement → Katz → eFact → payment.
-:::
-
 :::{grid-item-card} Residents
 :link: residents/index
 :link-type: doc
 
-Admission, stay, Katz and geriatric assessments, rooms and the condition report.
+The resident's file, the stay, the assessments, the rooms and the condition report.
 :::
 
 :::{grid-item-card} Admissions
@@ -45,7 +79,7 @@ From the first enquiry to the move-in: the pipeline, the candidate's file, the a
 :link: facturation/index
 :link-type: doc
 
-Billing periods, INAMI packages, supplements, absences and invoices.
+Billing periods, the care allowance, supplements, absences and invoices.
 :::
 
 :::{grid-item-card} Split billing
@@ -53,27 +87,6 @@ Billing periods, INAMI packages, supplements, absences and invoices.
 :link-type: doc
 
 The resident's share divided among several debtors, one invoice each.
-:::
-
-:::{grid-item-card} Belgium
-:link: belgique/index
-:link-type: doc
-
-What comes from Belgian rules: eHealth, the INAMI package, Katz, the institutional allowance.
-:::
-
-:::{grid-item-card} eHealth
-:link: ehealth/index
-:link-type: doc
-
-Insurability (MDA), electronic invoicing (eFact) and agreements (eAgreement).
-:::
-
-:::{grid-item-card} Day care centre (CSJ)
-:link: centre-de-jour/index
-:link-type: doc
-
-Day places, the attendance register, the CSJ forfait and the staffing norm.
 :::
 
 :::{grid-item-card} Care
@@ -115,7 +128,7 @@ Automatic document folders per resident and attachment centralization.
 :link: configuration/index
 :link-type: doc
 
-All the settings: residents, billing, eHealth, meals and documents.
+All the settings: residents, billing, meals and documents.
 :::
 
 ::::
@@ -158,14 +171,39 @@ documents/index
 :caption: Belgium
 
 belgique/index
-ehealth/index
-forfait/index
-centre-de-jour/index
-facturation/forfait-inami
-residents/katz
-facturation/note-de-frais-annexe12
-facturation/cpas
-parcours-facturation
+belgique/parcours-facturation
+belgique/dossier-resident
+belgique/admission
+belgique/katz
+belgique/facturation
+belgique/forfait-inami
+belgique/ehealth/index
+belgique/note-de-frais-annexe12
+belgique/cpas
+belgique/forfait/index
+belgique/centre-de-jour/index
+belgique/soins
+belgique/sam-base-medicaments
+belgique/reglages
+belgique/reglages-ehealth
+belgique/faq
+belgique/glossaire
+:::
+
+:::{toctree}
+:hidden:
+:maxdepth: 2
+:caption: France
+
+france/index
+:::
+
+:::{toctree}
+:hidden:
+:maxdepth: 2
+:caption: Luxembourg
+
+luxembourg/index
 :::
 
 :::{toctree}

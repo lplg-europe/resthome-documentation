@@ -1,3 +1,7 @@
+---
+modules: [healthcare_medication, healthcare_medical, resthome_geriatric]
+---
+
 # Prescriptions and medications
 
 :::{rh-description}
@@ -18,7 +22,7 @@ How is medication administration traced?
 : Administrations stem from the prescriptions: the caregiver records what was given, when and by whom, which makes traceability complete.
 
 Where does the medication catalogue come from?
-: From the Belgian SAM database, which provides the name, form and dosage of each medication and serves as the source for prescriptions.
+: From the facility's medication catalogue, which lists the name, form and dosage of each medication. You fill it by hand, or import from the national medication reference database where the country provides one.
 :::
 
 Resthome manages a resident's **medication** end to end: from prescription to
@@ -26,9 +30,18 @@ administration, including stock and safety checks (allergies, interactions).
 
 ## The medication catalogue
 
-Available medications are grouped in a **catalogue** (linked to the Belgian
-**SAM** database). It lists the name, the form and the dosage. It is the source
-of prescriptions.
+Available medications are grouped in a **catalogue**. It lists the name, the
+form and the dosage. It is the source of prescriptions. Where the country
+provides a national medication reference database, Resthome imports its
+medications into the catalogue instead of having you enter them by hand.
+
+:::{admonition} In Belgium
+:class: rh-country rh-country-be
+
+The catalogue is fed from **SAM**, the official Belgian medication database
+(CNK code, active ingredient, ATC code, leaflets). See [The SAM medication
+database](../belgique/sam-base-medicaments.md).
+:::
 
 ## Prescribing
 
@@ -96,7 +109,8 @@ quantities and consumption, with lot numbers for traceability.
 - **Pathologies (ICD-10)** — the resident's history and diagnoses.
 - **Allergens** — known allergies.
 - **Drug interactions** — vigilance rules.
-- **SAM database** — reference catalogue of Belgian medications.
+- **National medication database** — the country's reference catalogue of
+  medications, where one is provided.
 
 ## Going further
 

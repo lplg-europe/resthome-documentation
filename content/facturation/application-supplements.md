@@ -1,11 +1,15 @@
+---
+modules: [resthome_supplements, healthcare_accommodation_billing, resthome_sales]
+---
+
 # The Supplements App
 
 :::{rh-description}
-The Supplements app of a nursing home (MR/MRS): multi-resident entry via the catalog, one-off or recurring supplements, conventions, catalog and reporting.
+The Supplements app of a care home: multi-resident entry via the catalog, one-off or recurring supplements, conventions, catalog and reporting.
 :::
 
 :::{rh-faq}
-What is the Supplements app for in a nursing home (MR/MRS)?
+What is the Supplements app for in a care home?
 : It is the screen dedicated to entering supplements: opening a resident's catalog, adding supplements to several residents at once, managing recurring conventions, maintaining the supplements catalog and tracking billed amounts.
 
 How do I add a supplement to several residents at once?
@@ -15,7 +19,7 @@ What is the difference between a one-off supplement and a convention?
 : A one-off supplement is billed once on the month's envelope (hairdresser, drink…). A convention groups the resident's recurring supplements (single room, TV, phone): it lives on the resident and survives a stay closure, a room change or a transfer.
 
 Where do I define the list of supplements and their prices?
-: In Configuration → Catalog. Each supplement has a type (daily, monthly or one-off), a price specific to the facility and, if needed, an AViQ code for the declaration to the insurance body.
+: In Configuration → Catalog. Each supplement has a type (daily, monthly or one-off), a price specific to the facility and, where the country requires it, a code for the declaration to the health insurer.
 
 Can I track the supplements billed per resident or per month?
 : Yes, via the Reporting menu: graph, pivot table and list views break down the billed supplements per resident, per product and per month.
@@ -46,8 +50,8 @@ data: it acts on the same envelopes and the same conventions.
 
 On opening, the app displays the **Residents** screen: the list of
 active residents, in **kanban view** (cards) or **list view**. Each card
-shows the photo, the name, the **room** and the **stay type** (MR / MRS), with
-a basket icon "Add supplements".
+shows the photo, the name, the **room** and the **stay type** (the sector of
+the home the resident is placed in), with a basket icon "Add supplements".
 
 - **Click a resident**: Resthome directly opens the **catalog** of their
   supplements envelope for the current month. You land on the entry
@@ -59,9 +63,16 @@ a basket icon "Add supplements".
 :::{admonition} Filter and group
 :class: tip
 
-The search bar filters by **MR** / **MRS** and groups by **room**
+The search bar filters by **stay type** and groups by **room**
 or by **stay type** — handy for quickly spotting a wing or a
 floor before a bulk entry.
+:::
+
+:::{admonition} In Belgium
+:class: rh-country rh-country-be
+
+The stay type is **MR** or **MRS**, and the search bar offers **MR** / **MRS**
+filters. See [Billing a month in Belgium](../belgique/facturation.md).
 :::
 
 ## Adding supplements to several residents
@@ -128,14 +139,14 @@ supplement does not appear where you expected.
 
 A **convention** groups a resident's **recurring** supplements (single
 room, TV, phone…). It lives on the **resident**, not on the stay:
-it **survives** a stay closure, a room change or an MR ↔ MRS transfer.
+it **survives** a stay closure, a room change or a transfer between sectors.
 Each resident has **one single** convention, which gathers all their
 recurring lines.
 
 In the app, the **Conventions** menu lists the recurring supplement
 lines (resident, convention, product, type, dates, quantity, active). The
 convention itself — with its status and its buttons — is managed from
-the **MR/MRS → Billing → Supplement conventions** app.
+**Billing → Facturation → Supplement Conventions**.
 
 ![Supplement conventions list: one per resident, with the period covered and the Open or Closed status](../assets/screenshots/facturation/convention-supplements-liste.png)
 
@@ -169,15 +180,22 @@ types** ("Supplement types"). Each supplement has:
 | **Name** | Label shown in the catalog. |
 | **Supplement type** | **Daily** (billed pro rata over the days), **Monthly** (per month) or **One-off** (once). |
 | **Price** | Unit amount — **value specific to the facility**. |
-| **AViQ code** | Declaration pseudo-code, when the supplement is declared to the insurance body. |
 
-:::{admonition} Declared to the insurance body or not?
+:::{admonition} Declared to the health insurer or not?
 :class: info
 
-Depending on its **category**, a supplement is either **declared to the
-insurance body** in the eFact (ET50), or billed **only on the resident's
-invoice**. This setting is made on the product category — see
-[Billing settings](../configuration/reglages-facturation.md).
+Depending on its **category**, a supplement is either **declared to the health
+insurer** with the insurer's share, where the country requires it, or billed
+**only on the resident's invoice**. This setting is made on the product
+category — see [Billing settings](../configuration/reglages-facturation.md).
+:::
+
+:::{admonition} In Belgium
+:class: rh-country rh-country-be
+
+The catalog carries an **AViQ code** field — the declaration pseudo-code of the
+supplement — and a declared supplement goes into the eFact (ET50 record). See
+[Billing a month in Belgium](../belgique/facturation.md).
 :::
 
 ## Reporting

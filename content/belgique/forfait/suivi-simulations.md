@@ -1,3 +1,7 @@
+---
+modules: [resthome_funding_be, resthome_reporting]
+---
+
 # Simulations and live tracking
 
 :::{rh-description}

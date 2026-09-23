@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-18 19:30+0200\n"
+"POT-Creation-Date: 2026-09-23 15:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nl <LL@li.org>\n"
@@ -20,24 +20,23 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: ../../content/configuration/reglages-generaux.md:1
+#: ../../content/configuration/reglages-generaux.md:5
 msgid "General settings (residents, rooms)"
 msgstr "Algemene instellingen (bewoners, kamers)"
 
-#: ../../content/configuration/reglages-generaux.md:4
-msgid ""
-"Configure the general settings of a nursing home (MR/MRS) in Resthome: "
-"residents, accommodation, and the room and move-in managers."
-msgstr ""
-"De algemene instellingen van een woonzorgcentrum (WZC/RVT) in Resthome "
-"configureren: bewoners, huisvesting, en de verantwoordelijken voor kamer en "
-"intrek."
-
 #: ../../content/configuration/reglages-generaux.md:8
+msgid ""
+"Configure the general settings of a nursing home in Resthome: residents, "
+"accommodation, and the room and move-in managers."
+msgstr ""
+"De algemene instellingen van een woonzorgcentrum in Resthome configureren: "
+"bewoners, huisvesting, en de verantwoordelijken voor kamer en intrek."
+
+#: ../../content/configuration/reglages-generaux.md:12
 msgid "Where are the general settings?"
 msgstr "Waar bevinden zich de algemene instellingen?"
 
-#: ../../content/configuration/reglages-generaux.md:9
+#: ../../content/configuration/reglages-generaux.md:13
 msgid ""
 "In Settings > Nursing Home (residents, accommodation, demo data) and in "
 "Settings > Medical (dashboard). These screens are reserved for the "
@@ -47,11 +46,11 @@ msgstr ""
 "in Instellingen > Medisch (dashboard). Deze schermen zijn voorbehouden aan "
 "de verantwoordelijken van de instelling."
 
-#: ../../content/configuration/reglages-generaux.md:11
+#: ../../content/configuration/reglages-generaux.md:15
 msgid "What is the \"Rooms Technical Manager\" for?"
 msgstr "Waarvoor dient de « Technisch verantwoordelijke kamers »?"
 
-#: ../../content/configuration/reglages-generaux.md:12
+#: ../../content/configuration/reglages-generaux.md:16
 msgid ""
 "It is the user who receives the \"prepare the room\" activity every time a "
 "resident arrives, or a room change or transfer opens a new stay. It is a "
@@ -61,11 +60,11 @@ msgstr ""
 "telkens een bewoner aankomt, of wanneer een kamerwissel of een overdracht "
 "een nieuw verblijf opent. Het is een keuze eigen aan uw instelling."
 
-#: ../../content/configuration/reglages-generaux.md:14
+#: ../../content/configuration/reglages-generaux.md:18
 msgid "What is the \"Move-in Procedure Manager\" for?"
 msgstr "Waarvoor dient de « Verantwoordelijke intrekprocedure »?"
 
-#: ../../content/configuration/reglages-generaux.md:15
+#: ../../content/configuration/reglages-generaux.md:19
 msgid ""
 "It is the user who receives the move-in checklist (agreement, condition "
 "report, inventory, medication locker, laundry, disinfection) on the "
@@ -76,27 +75,27 @@ msgstr ""
 " de fiche van de bewoner ontvangt wanneer een verblijf wordt geopend. Leeg "
 "gelaten, is de procedure uitgeschakeld."
 
-#: ../../content/configuration/reglages-generaux.md:17
+#: ../../content/configuration/reglages-generaux.md:21
 msgid "What default values should I use for stay duration and room capacity?"
 msgstr ""
 "Welke standaardwaarden moet ik gebruiken voor de verblijfsduur en de "
 "kamercapaciteit?"
 
-#: ../../content/configuration/reglages-generaux.md:18
+#: ../../content/configuration/reglages-generaux.md:22
 msgid ""
-"30 days for the stay duration and 1 bed for the capacity suit most MR/MRS. "
+"30 days for the stay duration and 1 bed for the capacity suit most homes. "
 "These are only pre-fill values, editable afterwards on each stay or each "
 "room."
 msgstr ""
 "30 dagen voor de verblijfsduur en 1 bed voor de capaciteit passen bij de "
-"meeste WZC/RVT. Dit zijn slechts voorinvulwaarden, achteraf aanpasbaar op "
-"elk verblijf of elke kamer."
+"meeste woonzorgcentra. Dit zijn slechts voorinvulwaarden, achteraf "
+"aanpasbaar op elk verblijf of elke kamer."
 
-#: ../../content/configuration/reglages-generaux.md:20
+#: ../../content/configuration/reglages-generaux.md:24
 msgid "Should demo data be loaded in production?"
 msgstr "Moeten de demogegevens in productie worden geladen?"
 
-#: ../../content/configuration/reglages-generaux.md:21
+#: ../../content/configuration/reglages-generaux.md:25
 msgid ""
 "No. The \"Load Demo Data\" button creates fictitious residents, rooms and "
 "invoices: keep it for a test environment. Never use it on your real "
@@ -106,11 +105,11 @@ msgstr ""
 "facturen aan: houd ze voor een testomgeving. Gebruik ze nooit op uw echte "
 "database."
 
-#: ../../content/configuration/reglages-generaux.md:23
+#: ../../content/configuration/reglages-generaux.md:27
 msgid "What does \"Hide Empty Stat Cards\" do?"
 msgstr "Wat doet « Lege statistiekkaarten verbergen »?"
 
-#: ../../content/configuration/reglages-generaux.md:24
+#: ../../content/configuration/reglages-generaux.md:28
 msgid ""
 "Disabled by default, this setting keeps all dashboard cards visible even "
 "when their counter is 0. Enable it only if you prefer a cleaner screen."
@@ -119,7 +118,7 @@ msgstr ""
 "dashboard zichtbaar, zelfs wanneer hun teller op 0 staat. Schakel ze enkel "
 "in als u een strakker scherm verkiest."
 
-#: ../../content/configuration/reglages-generaux.md:27
+#: ../../content/configuration/reglages-generaux.md:31
 msgid ""
 "This tab brings together the settings that structure the day-to-day running "
 "of your home: how **residents** are managed, **accommodation** (stay "
@@ -130,26 +129,39 @@ msgstr ""
 "(verblijfsduur, capaciteit, verantwoordelijken), en de weergave van het "
 "zorg-**dashboard**."
 
-#: ../../content/configuration/reglages-generaux.md:31
+#: ../../content/configuration/reglages-generaux.md:35
 msgid "You will find them in the **Settings** application:"
 msgstr "U vindt ze in de toepassing **Instellingen**:"
 
-#: ../../content/configuration/reglages-generaux.md:33
-msgid ""
-"**Settings > Nursing Home (MR/MRS)** — residents, accommodation, demo data;"
-msgstr ""
-"**Instellingen > Woonzorgcentrum (WZC/RVT)** — bewoners, huisvesting, "
-"demogegevens;"
+#: ../../content/configuration/reglages-generaux.md:37
+msgid "**Settings > Nursing Home** — residents, accommodation, demo data;"
+msgstr "**Instellingen > Rusthuis** — bewoners, huisvesting, demogegevens;"
 
-#: ../../content/configuration/reglages-generaux.md:34
+#: ../../content/configuration/reglages-generaux.md:38
 msgid "**Settings > Medical** — dashboard."
 msgstr "**Instellingen > Medisch** — dashboard."
 
-#: ../../content/configuration/reglages-generaux.md:36
+#: ../../content/configuration/reglages-generaux.md:40
+msgid "In Belgium"
+msgstr "In België"
+
+#: ../../content/configuration/reglages-generaux.md:43
+msgid ""
+"The Belgian pack adds an **Approvals** block to the **Nursing Home** tab "
+"(the establishment's INAMI numbers, its MR/MRS approvals and their beds) and"
+" a **SAM medicines** block to the **Medical** tab. See [Belgian "
+"settings](../belgique/reglages.md)."
+msgstr ""
+"Het Belgische pakket voegt een blok **Erkenningen** toe aan het tabblad "
+"**Rusthuis** (de RIZIV-nummers van de instelling, haar MR/MRS-erkenningen en"
+" hun bedden) en een blok **SAM-geneesmiddelen** aan het tabblad **Medisch**."
+" Zie [Belgische instellingen](../belgique/reglages.md)."
+
+#: ../../content/configuration/reglages-generaux.md:49
 msgid "Reserved for managers"
 msgstr "Voorbehouden aan de verantwoordelijken"
 
-#: ../../content/configuration/reglages-generaux.md:39
+#: ../../content/configuration/reglages-generaux.md:52
 msgid ""
 "These settings are only visible to users who hold the establishment "
 "**manager** role. They are set once and then rarely change afterwards."
@@ -158,11 +170,11 @@ msgstr ""
 "**verantwoordelijke** van de instelling. Ze worden één keer ingesteld en "
 "wijzigen daarna zelden."
 
-#: ../../content/configuration/reglages-generaux.md:43
+#: ../../content/configuration/reglages-generaux.md:56
 msgid "Residents"
 msgstr "Bewoners"
 
-#: ../../content/configuration/reglages-generaux.md:45
+#: ../../content/configuration/reglages-generaux.md:58
 msgid ""
 "*Settings > Nursing Home > Residents.* Two options frame the creation and "
 "follow-up of residents."
@@ -170,30 +182,30 @@ msgstr ""
 "*Instellingen > Woonzorgcentrum > Bewoners.* Twee opties omkaderen de "
 "aanmaak en de opvolging van de bewoners."
 
-#: ../../content/configuration/reglages-generaux.md:36
-#: ../../content/configuration/reglages-generaux.md:66
+#: ../../content/configuration/reglages-generaux.md:49
+#: ../../content/configuration/reglages-generaux.md:79
 msgid "Setting"
 msgstr "Instelling"
 
-#: ../../content/configuration/reglages-generaux.md:36
-#: ../../content/configuration/reglages-generaux.md:66
+#: ../../content/configuration/reglages-generaux.md:49
+#: ../../content/configuration/reglages-generaux.md:79
 msgid "What it does"
 msgstr "Wat het doet"
 
-#: ../../content/configuration/reglages-generaux.md:36
-#: ../../content/configuration/reglages-generaux.md:66
-msgid "Recommended value (MR/MRS)"
-msgstr "Aanbevolen waarde (WZC/RVT)"
+#: ../../content/configuration/reglages-generaux.md:49
+#: ../../content/configuration/reglages-generaux.md:79
+msgid "Recommended value"
+msgstr "Aanbevolen waarde"
 
-#: ../../content/configuration/reglages-generaux.md:36
+#: ../../content/configuration/reglages-generaux.md:49
 msgid "**Medical Information**"
 msgstr "**Medische informatie**"
 
-#: ../../content/configuration/reglages-generaux.md:36
+#: ../../content/configuration/reglages-generaux.md:49
 msgid "Makes medical information mandatory for all residents."
 msgstr "Maakt de medische informatie verplicht voor alle bewoners."
 
-#: ../../content/configuration/reglages-generaux.md:36
+#: ../../content/configuration/reglages-generaux.md:49
 msgid ""
 "Establishment-specific — enable it if the head nurse requires a complete "
 "medical file from admission onwards."
@@ -201,15 +213,15 @@ msgstr ""
 "Eigen aan de instelling — schakel het in als de hoofdverpleegkundige een "
 "volledig medisch dossier vanaf de opname vereist."
 
-#: ../../content/configuration/reglages-generaux.md:36
+#: ../../content/configuration/reglages-generaux.md:49
 msgid "**Family Notifications**"
 msgstr "**Meldingen aan de families**"
 
-#: ../../content/configuration/reglages-generaux.md:36
+#: ../../content/configuration/reglages-generaux.md:49
 msgid "Sends automatic notifications to the resident's family."
 msgstr "Verstuurt automatische meldingen naar de familie van de bewoner."
 
-#: ../../content/configuration/reglages-generaux.md:36
+#: ../../content/configuration/reglages-generaux.md:49
 msgid ""
 "Establishment-specific — enable it if you communicate with families from "
 "Resthome."
@@ -217,11 +229,11 @@ msgstr ""
 "Eigen aan de instelling — schakel het in als u vanuit Resthome met de "
 "families communiceert."
 
-#: ../../content/configuration/reglages-generaux.md:53
+#: ../../content/configuration/reglages-generaux.md:66
 msgid "Accommodation"
 msgstr "Huisvesting"
 
-#: ../../content/configuration/reglages-generaux.md:55
+#: ../../content/configuration/reglages-generaux.md:68
 msgid ""
 "*Settings > Nursing Home > Accommodation.* This block sets the default "
 "values for rooms and stays, and designates **who** is notified when a "
@@ -231,38 +243,38 @@ msgstr ""
 "standaardwaarden voor de kamers en de verblijven, en duidt aan **wie** wordt"
 " verwittigd wanneer een bewoner aankomt of van kamer wisselt."
 
-#: ../../content/configuration/reglages-generaux.md:36
+#: ../../content/configuration/reglages-generaux.md:49
 msgid "**Default Stay Duration**"
 msgstr "**Standaard verblijfsduur**"
 
-#: ../../content/configuration/reglages-generaux.md:36
+#: ../../content/configuration/reglages-generaux.md:49
 msgid "Pre-fills the duration (in days) proposed when a new stay opens."
 msgstr ""
 "Vult de duur (in dagen) voor die wordt voorgesteld bij de opening van een "
 "nieuw verblijf."
 
-#: ../../content/configuration/reglages-generaux.md:36
+#: ../../content/configuration/reglages-generaux.md:49
 msgid "**30 days**"
 msgstr "**30 dagen**"
 
-#: ../../content/configuration/reglages-generaux.md:36
+#: ../../content/configuration/reglages-generaux.md:49
 msgid "**Room Capacity**"
 msgstr "**Kamercapaciteit**"
 
-#: ../../content/configuration/reglages-generaux.md:36
+#: ../../content/configuration/reglages-generaux.md:49
 msgid "Number of beds pre-filled when creating a new room."
 msgstr ""
 "Aantal bedden dat wordt vooringevuld bij het aanmaken van een nieuwe kamer."
 
-#: ../../content/configuration/reglages-generaux.md:36
+#: ../../content/configuration/reglages-generaux.md:49
 msgid "**1 bed** (single room)"
 msgstr "**1 bed** (eenpersoonskamer)"
 
-#: ../../content/configuration/reglages-generaux.md:36
+#: ../../content/configuration/reglages-generaux.md:49
 msgid "**Rooms Technical Manager**"
 msgstr "**Technisch verantwoordelijke kamers**"
 
-#: ../../content/configuration/reglages-generaux.md:36
+#: ../../content/configuration/reglages-generaux.md:49
 msgid ""
 "User who receives the \"prepare the room\" activity when a resident arrives "
 "or during a room change / transfer."
@@ -270,15 +282,15 @@ msgstr ""
 "Gebruiker die de activiteit « de kamer voorbereiden » ontvangt wanneer een "
 "bewoner aankomt of bij een kamerwissel / overdracht."
 
-#: ../../content/configuration/reglages-generaux.md:36
+#: ../../content/configuration/reglages-generaux.md:49
 msgid "The technical or maintenance staff member of your home."
 msgstr "Het lid van het technisch of onderhoudspersoneel van uw huis."
 
-#: ../../content/configuration/reglages-generaux.md:36
+#: ../../content/configuration/reglages-generaux.md:49
 msgid "**Move-in Procedure Manager**"
 msgstr "**Verantwoordelijke intrekprocedure**"
 
-#: ../../content/configuration/reglages-generaux.md:36
+#: ../../content/configuration/reglages-generaux.md:49
 msgid ""
 "User who receives the move-in checklist (agreement, condition report, "
 "inventory, medication locker, laundry, disinfection) on the resident's "
@@ -288,16 +300,16 @@ msgstr ""
 "inventaris, medicatiekastje, linnengoed, ontsmetting) op de fiche van de "
 "bewoner ontvangt."
 
-#: ../../content/configuration/reglages-generaux.md:36
+#: ../../content/configuration/reglages-generaux.md:49
 msgid "The admission coordinator — **leave empty to disable** the procedure."
 msgstr ""
 "De opnamecoördinator — **laat leeg om de procedure uit te schakelen**."
 
-#: ../../content/configuration/reglages-generaux.md:66
+#: ../../content/configuration/reglages-generaux.md:79
 msgid "Two complementary managers"
 msgstr "Twee complementaire verantwoordelijken"
 
-#: ../../content/configuration/reglages-generaux.md:69
+#: ../../content/configuration/reglages-generaux.md:82
 msgid ""
 "At every **[room change or transfer](../residents/changement-chambre.md)** "
 "as well as at **[admission](../residents/gerer-un-resident.md)**, Resthome "
@@ -307,13 +319,13 @@ msgstr ""
 " en bij de **[opname](../residents/gerer-un-resident.md)** opent Resthome "
 "een nieuw verblijf en activeert automatisch:"
 
-#: ../../content/configuration/reglages-generaux.md:73
+#: ../../content/configuration/reglages-generaux.md:86
 msgid "a **\"prepare the room\"** activity for the **technical manager**;"
 msgstr ""
 "een activiteit **« de kamer voorbereiden »** voor de **technisch "
 "verantwoordelijke**;"
 
-#: ../../content/configuration/reglages-generaux.md:74
+#: ../../content/configuration/reglages-generaux.md:87
 msgid ""
 "the **move-in checklist** (if a **procedure manager** is defined) on the "
 "resident's record."
@@ -321,17 +333,17 @@ msgstr ""
 "de **intrekchecklist** (als een **verantwoordelijke procedure** is "
 "gedefinieerd) op de fiche van de bewoner."
 
-#: ../../content/configuration/reglages-generaux.md:77
+#: ../../content/configuration/reglages-generaux.md:90
 msgid "These are work reminders: setting them avoids oversights on arrival."
 msgstr ""
 "Dit zijn werkherinneringen: ze instellen voorkomt vergetelheden bij de "
 "aankomst."
 
-#: ../../content/configuration/reglages-generaux.md:80
+#: ../../content/configuration/reglages-generaux.md:93
 msgid "Dashboard"
 msgstr "Dashboard"
 
-#: ../../content/configuration/reglages-generaux.md:82
+#: ../../content/configuration/reglages-generaux.md:95
 msgid ""
 "*Settings > Medical > Dashboard.* A single setting, which controls the "
 "display of the care dashboard's stat cards."
@@ -339,19 +351,19 @@ msgstr ""
 "*Instellingen > Medisch > Dashboard.* Eén enkele instelling, die de weergave"
 " van de statistiekkaarten van het zorgdashboard regelt."
 
-#: ../../content/configuration/reglages-generaux.md:66
+#: ../../content/configuration/reglages-generaux.md:79
 msgid "**Hide Empty Stat Cards**"
 msgstr "**Lege statistiekkaarten verbergen**"
 
-#: ../../content/configuration/reglages-generaux.md:66
+#: ../../content/configuration/reglages-generaux.md:79
 msgid ""
-"Hides the dashboard cards (missed care, attention points, Katz renewals, "
-"etc.) whose counter is 0."
+"Hides the dashboard cards (missed care, attention points, dependency "
+"reassessments, etc.) whose counter is 0."
 msgstr ""
 "Verbergt de kaarten van het dashboard (gemiste zorgen, aandachtspunten, "
-"Katz-vernieuwingen, enz.) waarvan de teller op 0 staat."
+"herevaluaties van de afhankelijkheid, enz.) waarvan de teller op 0 staat."
 
-#: ../../content/configuration/reglages-generaux.md:66
+#: ../../content/configuration/reglages-generaux.md:79
 msgid ""
 "**Leave disabled** (default): a displayed \"0\" is a positive signal, not a "
 "lack of information."
@@ -359,11 +371,11 @@ msgstr ""
 "**Laat uitgeschakeld** (standaard): een weergegeven « 0 » is een positief "
 "signaal, geen gebrek aan informatie."
 
-#: ../../content/configuration/reglages-generaux.md:89
+#: ../../content/configuration/reglages-generaux.md:102
 msgid "Demo Data"
 msgstr "Demogegevens"
 
-#: ../../content/configuration/reglages-generaux.md:91
+#: ../../content/configuration/reglages-generaux.md:104
 msgid ""
 "*Settings > Nursing Home > Demo Data.* A way to fill a **test** database "
 "with fictitious residents, rooms, stays and invoices."
@@ -372,11 +384,11 @@ msgstr ""
 "**test**database te vullen met fictieve bewoners, kamers, verblijven en "
 "facturen."
 
-#: ../../content/configuration/reglages-generaux.md:66
+#: ../../content/configuration/reglages-generaux.md:79
 msgid "**Load Demo Data**"
 msgstr "**Demogegevens laden**"
 
-#: ../../content/configuration/reglages-generaux.md:66
+#: ../../content/configuration/reglages-generaux.md:79
 msgid ""
 "Creates fictitious residents, rooms, stays, billing periods, medical data "
 "and meals."
@@ -384,15 +396,15 @@ msgstr ""
 "Maakt fictieve bewoners, kamers, verblijven, facturatieperiodes, medische "
 "gegevens en maaltijden aan."
 
-#: ../../content/configuration/reglages-generaux.md:66
+#: ../../content/configuration/reglages-generaux.md:79
 msgid "Keep it for a **test** environment."
 msgstr "Houd het voor een **test**omgeving."
 
-#: ../../content/configuration/reglages-generaux.md:66
+#: ../../content/configuration/reglages-generaux.md:79
 msgid "**Update Demo Data**"
 msgstr "**Demogegevens bijwerken**"
 
-#: ../../content/configuration/reglages-generaux.md:66
+#: ../../content/configuration/reglages-generaux.md:79
 msgid ""
 "Re-runs the loader to add demo records added since (furniture, supplements, "
 "etc.) without duplicating existing ones."
@@ -400,15 +412,15 @@ msgstr ""
 "Herstart de lader om sindsdien toegevoegde demorecords (meubilair, "
 "supplementen, enz.) toe te voegen zonder de bestaande te dupliceren."
 
-#: ../../content/configuration/reglages-generaux.md:66
+#: ../../content/configuration/reglages-generaux.md:79
 msgid "Testing only."
 msgstr "Enkel voor testen."
 
-#: ../../content/configuration/reglages-generaux.md:99
+#: ../../content/configuration/reglages-generaux.md:112
 msgid "Never on your real database"
 msgstr "Nooit op uw echte database"
 
-#: ../../content/configuration/reglages-generaux.md:102
+#: ../../content/configuration/reglages-generaux.md:115
 msgid ""
 "Demo data creates **fictitious residents and invoices**. Only use these "
 "buttons on a test or training database, **never** on your production "
@@ -418,26 +430,26 @@ msgstr ""
 "knoppen enkel op een test- of opleidingsdatabase, **nooit** op uw "
 "productieomgeving."
 
-#: ../../content/configuration/reglages-generaux.md:106
+#: ../../content/configuration/reglages-generaux.md:119
 msgid "Going further"
 msgstr "Verder gaan"
 
-#: ../../content/configuration/reglages-generaux.md:108
+#: ../../content/configuration/reglages-generaux.md:121
 msgid "[Configuration](index.md)"
 msgstr "[Configuratie](index.md)"
 
-#: ../../content/configuration/reglages-generaux.md:109
+#: ../../content/configuration/reglages-generaux.md:122
 msgid "[Manage a resident](../residents/gerer-un-resident.md)"
 msgstr "[Een bewoner beheren](../residents/gerer-un-resident.md)"
 
-#: ../../content/configuration/reglages-generaux.md:110
+#: ../../content/configuration/reglages-generaux.md:123
 msgid "[Room change and transfer](../residents/changement-chambre.md)"
 msgstr "[Kamerwissel en overdracht](../residents/changement-chambre.md)"
 
-#: ../../content/configuration/reglages-generaux.md:111
+#: ../../content/configuration/reglages-generaux.md:124
 msgid "[Getting started](../premiers-pas.md)"
 msgstr "[Aan de slag](../premiers-pas.md)"
 
-#: ../../content/configuration/reglages-generaux.md:112
+#: ../../content/configuration/reglages-generaux.md:125
 msgid "[FAQ](../faq.md) · [Glossary](../glossaire.md)"
 msgstr "[FAQ](../faq.md) · [Woordenlijst](../glossaire.md)"

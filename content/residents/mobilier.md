@@ -1,7 +1,11 @@
+---
+modules: [resthome_furniture]
+---
+
 # The resident's private furniture
 
 :::{rh-description}
-Inventory the private furniture a resident brings into a nursing home (MR/MRS) with Resthome: add, reorder and archive furniture items on their record.
+Inventory the private furniture a resident brings into a nursing home with Resthome: add, reorder and archive furniture items on their record.
 :::
 
 :::{rh-faq}
@@ -9,7 +13,7 @@ Where do I record the furniture a resident brings into a nursing home?
 : On the resident's record, Convention tab, Resident furniture section. There you keep the list of furniture and personal belongings brought in, with a description, a comment and a date.
 
 Does the furniture inventory follow the resident when they change room?
-: Yes. The list is attached to the resident, not to the room or the stay. When the resident changes room or is transferred between MR/MRS, the inventory stays unchanged and follows the resident.
+: Yes. The list is attached to the resident, not to the room or the stay. When the resident changes room or is transferred to another sector, the inventory stays unchanged and follows the resident.
 
 How do I record that a piece of furniture has been taken back by the family?
 : Uncheck the Active box on the line instead of deleting it. The furniture is archived: it leaves the active list but its history is kept, which preserves a record of what was brought in and then taken back.
@@ -39,7 +43,7 @@ on the record, the module is not installed.
 
 ## Where to find the inventory
 
-1. Open the resident's record (**MR/MRS → Residents** app).
+1. Open the resident's record (**Nursing Home → Residents** app).
 2. Go to the **Convention** tab.
 3. Scroll down to the **Resident furniture** section.
 
@@ -104,7 +108,7 @@ The inventory is attached to the **resident**, not to the room or the stay. This
 has an important practical consequence:
 
 - when the resident **changes room**, the furniture list **does not move**;
-- in the event of an **MR ↔ MRS transfer**, it also **follows** the resident.
+- in the event of a **transfer between sectors**, it also **follows** the resident.
 
 So you have **nothing to copy over** when the resident changes room: their
 furniture stays attached to their record. See

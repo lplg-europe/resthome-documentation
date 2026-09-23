@@ -32,6 +32,9 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
+      # Conventions, termes pays, et placement des pages face au graphe des
+      # modules (docs-ops/modules.json) : une page mal rangée ne se publie pas.
+      - run: python check_docs.py --coverage
       - run: python build_docs.py       # 3 langues (fr racine, /nl, /en) + statiques + sitemap
       - uses: actions/upload-pages-artifact@v3
         with:

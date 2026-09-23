@@ -1,3 +1,7 @@
+---
+modules: [l10n_health_be_mda, l10n_health_be_efact, l10n_health_be_eagreement_light]
+---
+
 # eHealth
 
 :::{rh-description}
@@ -73,6 +77,6 @@ WalCareNet) to exchange directly with the mutualities.
 - [Agreements (eAgreement)](eagreement.md) — admission, absence, return,
   discharge (Annexes 7, 10, 11).
 - [The billing journey](../parcours-facturation.md) — from admission to payment.
-- [Absences and hospitalisations](../facturation/absences.md)
-- [Billing](../facturation/index.md)
-- [FAQ](../faq.md) · [Glossary](../glossaire.md)
+- [Absences and hospitalisations](../../facturation/absences.md)
+- [Billing](../../facturation/index.md)
+- [FAQ](../../faq.md) · [Glossary](../../glossaire.md)

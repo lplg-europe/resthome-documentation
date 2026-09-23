@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-01 06:29+0200\n"
+"POT-Creation-Date: 2026-09-23 15:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nl <LL@li.org>\n"
@@ -20,11 +20,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: ../../content/soins/index.md:1
+#: ../../content/soins/index.md:5
 msgid "Care"
 msgstr "Zorg"
 
-#: ../../content/soins/index.md:4
+#: ../../content/soins/index.md:8
 msgid ""
 "The Resthome Care application — prescriptions, care plans, vital signs, "
 "nursing notes and clinical registers for the medical follow-up of residents."
@@ -33,7 +33,7 @@ msgstr ""
 "parameters, verpleegnotities en klinische registers voor de opvolging van "
 "bewoners."
 
-#: ../../content/soins/index.md:18
+#: ../../content/soins/index.md:21
 msgid ""
 "The **Care** application brings together all **medical and nursing** follow-"
 "up of residents: medication, care plans, vital signs, notes, and the "
@@ -45,11 +45,11 @@ msgstr ""
 "notities en de **klinische registers** (vallen, wonden, pijn, voeding…). Ze "
 "is ontworpen voor het dagelijkse werk van het zorgpersoneel."
 
-#: ../../content/soins/index.md:23
+#: ../../content/soins/index.md:26
 msgid "The dashboard"
 msgstr "Het dashboard"
 
-#: ../../content/soins/index.md:25
+#: ../../content/soins/index.md:28
 msgid ""
 "When you open it, the **dashboard** highlights what needs attention today: "
 "care to carry out, points to watch, administrations to give. You start from "
@@ -59,7 +59,7 @@ msgstr ""
 "uit te voeren zorgen, aandachtspunten, toe te dienen medicatie. Van daaruit "
 "start uw ronde."
 
-#: ../../content/soins/index.md:29
+#: ../../content/soins/index.md:32
 msgid ""
 "![Care dashboard: overview counters, clinical registers and quick buttons to"
 " schedule care, add a note or record vital "
@@ -69,7 +69,7 @@ msgstr ""
 "snelknoppen om zorg te plannen, een notitie toe te voegen of vitale functies"
 " te registreren](../assets/screenshots/soins/01-tableau-de-bord.png)"
 
-#: ../../content/soins/index.md:29
+#: ../../content/soins/index.md:32
 msgid ""
 "Care dashboard: overview counters, clinical registers and quick buttons to "
 "schedule care, add a note or record vital signs"
@@ -78,11 +78,11 @@ msgstr ""
 "snelknoppen om zorg te plannen, een notitie toe te voegen of vitale functies"
 " te registreren"
 
-#: ../../content/soins/index.md:31
+#: ../../content/soins/index.md:34
 msgid "What the application covers"
 msgstr "Wat de toepassing dekt"
 
-#: ../../content/soins/index.md:33
+#: ../../content/soins/index.md:36
 msgid ""
 "**Prescriptions and medication** — Medication catalogue, prescriptions, "
 "administrations, batches and stock. → [Prescriptions](prescriptions.md)"
@@ -91,7 +91,7 @@ msgstr ""
 "voorschriften, toedieningen, loten en voorraad. → "
 "[Voorschriften](prescriptions.md)"
 
-#: ../../content/soins/index.md:34
+#: ../../content/soins/index.md:37
 msgid ""
 "**Care plans and vital signs** — Care plans, planning of the day's care, "
 "vital signs and trends, nursing notes. → [Care plans](plans-de-soins.md)"
@@ -100,7 +100,7 @@ msgstr ""
 "van de dag, vitale parameters en trends, verpleegnotities. → "
 "[Zorgplannen](plans-de-soins.md)"
 
-#: ../../content/soins/index.md:35
+#: ../../content/soins/index.md:38
 msgid ""
 "**Clinical registers** — Falls, pressure ulcers (Braden), wounds, pain, "
 "restraint, nutrition (MNA), continence, mobility, cognition. → "
@@ -110,41 +110,59 @@ msgstr ""
 "fixatie, voeding (MNA), continentie, mobiliteit, cognitie. → "
 "[Registers](registres.md)"
 
-#: ../../content/soins/index.md:37
+#: ../../content/soins/index.md:40
 msgid "Main menus"
 msgstr "Hoofdmenu's"
 
-#: ../../content/soins/index.md:39
-msgid ""
-"**Medical** — Katz, nursing notes, attention points, vital signs entry, care"
-" planning, today's care, my assigned care, care plans, prescriptions, "
-"administrations, hospitalisation."
-msgstr ""
-"**Medical** — Katz, verpleegnotities, aandachtspunten, invoer vitale "
-"parameters, zorgplanning, zorgen van vandaag, mijn toegewezen zorgen, "
-"zorgplannen, voorschriften, toedieningen, hospitalisatie."
-
 #: ../../content/soins/index.md:42
+msgid ""
+"**Medical** — dependency assessment, nursing notes, attention points, vital "
+"signs entry, care planning, today's care, my assigned care, care plans, "
+"prescriptions, administrations, hospitalisation."
+msgstr ""
+"**Medisch** — afhankelijkheidsevaluatie, verpleegnotities, aandachtspunten, "
+"invoer vitale parameters, zorgplanning, zorgen van vandaag, mijn toegewezen "
+"zorgen, zorgplannen, voorschriften, toedieningen, hospitalisatie."
+
+#: ../../content/soins/index.md:45
 msgid "**Registers** — the dedicated clinical registers."
 msgstr "**Registers** — de specifieke klinische registers."
 
-#: ../../content/soins/index.md:43
+#: ../../content/soins/index.md:46
 msgid "**Stock** — medication batches, stock withdrawals."
 msgstr "**Voorraad** — geneesmiddelenloten, voorraaduitgangen."
 
-#: ../../content/soins/index.md:44
+#: ../../content/soins/index.md:47
 msgid ""
 "**Configuration** — medication catalogue, pathologies (ICD-10), allergens, "
-"drug interactions, SAM database."
+"drug interactions, and the national medication database where the country "
+"provides one."
 msgstr ""
 "**Configuratie** — geneesmiddelencatalogus, pathologieën (ICD-10), "
-"allergenen, geneesmiddeleninteracties, SAM-databank."
+"allergenen, geneesmiddeleninteracties, en de nationale "
+"geneesmiddelendatabank waar het land er een voorziet."
 
-#: ../../content/soins/index.md:47
+#: ../../content/soins/index.md:51
+msgid "In Belgium"
+msgstr "In België"
+
+#: ../../content/soins/index.md:54
+msgid ""
+"The dependency assessment is the Katz scale, and the medication catalogue is"
+" fed from the official SAM database: see [Care in "
+"Belgium](../belgique/soins.md) and [The SAM medication "
+"database](../belgique/sam-base-medicaments.md)."
+msgstr ""
+"De afhankelijkheidsevaluatie is de Katz-schaal, en de "
+"geneesmiddelencatalogus wordt gevoed door de officiële SAM-databank: zie "
+"[Zorg in België](../belgique/soins.md) en [De SAM-"
+"geneesmiddelendatabank](../belgique/sam-base-medicaments.md)."
+
+#: ../../content/soins/index.md:59
 msgid "Separate but connected"
 msgstr "Apart maar verbonden"
 
-#: ../../content/soins/index.md:50
+#: ../../content/soins/index.md:62
 msgid ""
 "The Care application is separate from billing, but **connected to the "
 "residents**: a hospitalisation entered here appears, on the billing side, as"
@@ -155,18 +173,18 @@ msgstr ""
 "facturatiezijde als [afwezigheid](../facturation/absences.md) die het "
 "forfait aanpast."
 
-#: ../../content/soins/index.md:55
+#: ../../content/soins/index.md:67
 msgid "Going further"
 msgstr "Verder"
 
-#: ../../content/soins/index.md:57
+#: ../../content/soins/index.md:69
 msgid "[Prescriptions and medication](prescriptions.md)"
 msgstr "[Voorschriften en geneesmiddelen](prescriptions.md)"
 
-#: ../../content/soins/index.md:58
+#: ../../content/soins/index.md:70
 msgid "[Care plans and vital signs](plans-de-soins.md)"
 msgstr "[Zorgplannen en vitale parameters](plans-de-soins.md)"
 
-#: ../../content/soins/index.md:59
+#: ../../content/soins/index.md:71
 msgid "[Clinical registers](registres.md)"
 msgstr "[Klinische registers](registres.md)"

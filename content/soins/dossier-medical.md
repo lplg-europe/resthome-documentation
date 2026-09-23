@@ -1,7 +1,11 @@
+---
+modules: [healthcare_medical, healthcare_medication]
+---
+
 # The resident's medical record
 
 :::{rh-description}
-The resident's clinical record in a nursing home (MR/MRS) with Resthome: measurements, clinical status, ICD-10 pathologies, allergies, devices, directives.
+The resident's clinical record in a nursing home with Resthome: measurements, clinical status, ICD-10 pathologies, allergies, devices, directives.
 :::
 
 :::{rh-faq}
@@ -42,8 +46,8 @@ filters) are only visible to **care staff**. Changes to medical data are
 :::
 
 Above the tab, a set of **stat buttons** opens the other follow-up panels:
-**Prescriptions**, **Care Plans**, **Notes**, **Katz**, **Vital Signs** and
-**Trends**. The medical record described below, for its part, focuses on the
+**Prescriptions**, **Care Plans**, **Notes**, **Vital Signs** and **Trends**,
+plus the country's dependency assessment. The medical record described below, for its part, focuses on the
 resident's **clinical profile**.
 
 ## Measurements and BMI
@@ -66,24 +70,23 @@ the top of the record, or the small **+** next to the Weight field. The **BMI**
 then recalculates on its own as soon as height and weight are known.
 :::
 
-## Dependency (Katz)
+## Dependency
 
 The **Dependency** section shows, read-only, the summary of the resident's
-dependency:
+dependency: the **active care plan**, if there is one, and — when the country
+pack provides a dependency scale — the current **dependency category** and the
+end of validity of the assessment.
 
-- the current **Katz category** (O, A, B, C, Cd);
-- the **validity end** of the Katz assessment;
-- the **active care plan**, if there is one.
+This information comes from the **dependency assessment** and the **care
+plan**; you do not edit it from the medical record.
 
-This information comes from the **Katz assessment** and the **care plan**; you do
-not edit it from the medical record.
+:::{admonition} In Belgium
+:class: rh-country rh-country-be
 
-:::{admonition} The Katz category is declared, it does not set the amount
-:class: info
-
-The category is used to **declare the dependency profile** to the health
-insurance fund. In the **AViQ** rates, the dependency allowance is the **same
-amount for all categories** (see [The Katz assessment](../residents/katz.md)).
+The section shows the current Katz category (O, A, B, C, Cd) and the end of
+validity of the Katz assessment, and a **Katz** button opens the assessments.
+The category is declared to the health insurer; it does not set the amount of
+the allowance. See [Care in Belgium](../belgique/soins.md).
 :::
 
 ## Clinical status
@@ -186,7 +189,15 @@ providers:
 
 The **Attending Physician** (the resident's assigned doctor) is set instead on
 the resident's general information. These contacts are reused elsewhere in
-Resthome (prescriptions, eHealth exchanges).
+Resthome: in prescriptions, and in the electronic exchanges with the health
+insurer, where the country has them.
+
+:::{admonition} In Belgium
+:class: rh-country rh-country-be
+
+The physicians' records carry their **INAMI Number**, used in the eHealth
+exchanges. See [Care in Belgium](../belgique/soins.md).
+:::
 
 ## Advance directives and DNR
 
@@ -221,8 +232,8 @@ information that does not fit the structured sections.
   it is **reserved for care staff** and **logged** (GDPR).
 - The **weight** comes from the **vital signs** (read-only) and the **BMI** is
   calculated automatically from height and weight.
-- The **Katz category** and the **active care plan** are shown there read-only;
-  the category **declares** the profile, it does not set the allowance amount.
+- The **dependency category** and the **active care plan** are shown there
+  read-only.
 - The **diagnoses** use **ICD-10**; **severity** and **status** (Active /
   Resolved) are specific to the resident.
 - **Drug allergens** protect prescribing: **Critical** blocks, the others warn.
@@ -234,4 +245,3 @@ information that does not fit the structured sections.
 - [Prescriptions and medications](prescriptions.md) — allergies and interactions when prescribing.
 - [Care plans and vital signs](plans-de-soins.md)
 - [Clinical registers](registres.md)
-- [The Katz assessment](../residents/katz.md) — from dependency to category.

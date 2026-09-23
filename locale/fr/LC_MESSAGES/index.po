@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-21 16:36+0200\n"
+"POT-Creation-Date: 2026-09-23 15:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -20,55 +20,76 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: ../../content/index.md:17 ../../content/index.md:131
+#: ../../content/index.md:58 ../../content/index.md:144
 msgid "Getting started"
 msgstr "Démarrer"
 
-#: ../../content/index.md:139
+#: ../../content/index.md:152
 msgid "Applications"
 msgstr "Applications"
 
-#: ../../content/index.md:59 ../../content/index.md:155
+#: ../../content/index.md:30 ../../content/index.md:168
 msgid "Belgium"
 msgstr "Belgique"
 
-#: ../../content/index.md:171
+#: ../../content/index.md:37 ../../content/index.md:193
+msgid "France"
+msgstr "France"
+
+#: ../../content/index.md:44 ../../content/index.md:201
+msgid "Luxembourg"
+msgstr "Luxembourg"
+
+#: ../../content/index.md:209
 msgid "Administration"
 msgstr "Administration"
 
-#: ../../content/index.md:179
+#: ../../content/index.md:217
 msgid "Help"
 msgstr "Aide"
 
-#: ../../content/index.md:1
+#: ../../content/index.md:5
 msgid "Welcome to the Resthome documentation"
 msgstr "Bienvenue dans la documentation Resthome"
 
-#: ../../content/index.md:4
+#: ../../content/index.md:8
 msgid ""
-"User documentation for the Resthome software (on Odoo) for nursing and care "
-"homes (MR/MRS): residents, care, INAMI billing, eFact, MDA, eAgreement."
+"User documentation for Resthome, the software for nursing and care homes "
+"built on Odoo: residents, admissions, care, meals, billing and the family "
+"portal, with a space for each country's rules."
 msgstr ""
-"Documentation utilisateur de Resthome (sur Odoo) pour maisons de repos et de"
-" soins (MR/MRS) : habitants, soins, facturation INAMI, eFact, MDA, "
-"eAgreement."
+"Documentation utilisateur de Resthome, le logiciel pour maisons de repos et "
+"de soins bâti sur Odoo : habitants, admissions, soins, repas, facturation et"
+" portail famille, avec un espace pour les règles de chaque pays."
 
-#: ../../content/index.md:7
+#: ../../content/index.md:11
 msgid ""
-"**Resthome** is the management software for **nursing homes (MR)** and "
-"**nursing and care homes (MRS)**, published by LPLG **on Odoo** — residents,"
-" care, meals, INAMI/mutuality billing and the Belgian eHealth exchanges "
-"(eFact, MDA, eAgreement), all in one place. This documentation guides you "
-"day by day, step by step, with screenshots."
+"**Resthome** is the management software for **nursing and care homes**, "
+"published by LPLG **on Odoo**: residents, admissions, care, meals, billing "
+"and the family portal, all in one place. This documentation guides you day "
+"by day, step by step, with screenshots."
 msgstr ""
-"**Resthome** est le logiciel de gestion pour **maisons de repos (MR)** et "
-"**maisons de repos et de soins (MRS)**, édité par LPLG **sur Odoo** — "
-"habitants, soins, repas, facturation INAMI/mutuelle et échanges eHealth "
-"belges (eFact, MDA, eAgreement), le tout au même endroit. Cette "
-"documentation vous accompagne au quotidien, étape par étape, avec des "
-"captures d'écran."
+"**Resthome** est le logiciel de gestion pour **maisons de repos et de "
+"soins**, édité par LPLG **sur Odoo** : habitants, admissions, soins, repas, "
+"facturation et portail famille, le tout au même endroit. Cette documentation"
+" vous accompagne au quotidien, étape par étape, avec des captures d'écran."
 
-#: ../../content/index.md:21
+#: ../../content/index.md:16
+msgid ""
+"The pages below apply in every country. What comes from a country's own "
+"rules — its dependency scale, its health insurers, its electronic exchanges,"
+" its funding — lives in that country's space."
+msgstr ""
+"Les pages ci-dessous s'appliquent dans tous les pays. Ce qui découle des "
+"règles propres à un pays — son échelle de dépendance, ses assureurs santé, "
+"ses échanges électroniques, son financement — se trouve dans l'espace de ce "
+"pays."
+
+#: ../../content/index.md:52
+msgid "The applications"
+msgstr "Les applications"
+
+#: ../../content/index.md:62
 msgid ""
 "Log in, discover the apps and the dashboard, and find your way around a "
 "screen."
@@ -76,33 +97,23 @@ msgstr ""
 "Se connecter, découvrir les applications et le tableau de bord, et se "
 "repérer dans un écran."
 
-#: ../../content/index.md:24
-msgid "The billing journey"
-msgstr "Le parcours de facturation"
-
-#: ../../content/index.md:28
-msgid ""
-"The big picture: admission → MDA → eAgreement → Katz → eFact → payment."
-msgstr ""
-"La vue d'ensemble : admission → MDA → eAgreement → Katz → eFact → paiement."
-
-#: ../../content/index.md:31
+#: ../../content/index.md:65
 msgid "Residents"
 msgstr "Habitants"
 
-#: ../../content/index.md:35
+#: ../../content/index.md:69
 msgid ""
-"Admission, stay, Katz and geriatric assessments, rooms and the condition "
+"The resident's file, the stay, the assessments, the rooms and the condition "
 "report."
 msgstr ""
-"Admission, séjour, évaluations Katz et gériatriques, chambres et état des "
-"lieux."
+"Le dossier de l'habitant, le séjour, les évaluations, les chambres et l'état"
+" des lieux."
 
-#: ../../content/index.md:38
+#: ../../content/index.md:72
 msgid "Admissions"
 msgstr "Admissions"
 
-#: ../../content/index.md:42
+#: ../../content/index.md:76
 msgid ""
 "From the first enquiry to the move-in: the pipeline, the candidate's file, "
 "the admission."
@@ -110,68 +121,40 @@ msgstr ""
 "De la première demande à l'emménagement : le pipeline, le dossier du "
 "candidat, l'admission."
 
-#: ../../content/index.md:45
+#: ../../content/index.md:79
 msgid "Billing"
 msgstr "Facturation"
 
-#: ../../content/index.md:49
-msgid "Billing periods, INAMI packages, supplements, absences and invoices."
+#: ../../content/index.md:83
+msgid ""
+"Billing periods, the care allowance, supplements, absences and invoices."
 msgstr ""
-"Périodes de facturation, forfaits INAMI, suppléments, absences et factures."
+"Périodes de facturation, forfait de soins, suppléments, absences et "
+"factures."
 
-#: ../../content/index.md:52
+#: ../../content/index.md:86
 msgid "Split billing"
 msgstr "Facturation partagée"
 
-#: ../../content/index.md:56
+#: ../../content/index.md:90
 msgid "The resident's share divided among several debtors, one invoice each."
 msgstr ""
 "La part habitant répartie entre plusieurs débiteurs, une facture chacun."
 
-#: ../../content/index.md:63
-msgid ""
-"What comes from Belgian rules: eHealth, the INAMI package, Katz, the "
-"institutional allowance."
-msgstr ""
-"Ce qui vient des règles belges : eHealth, le forfait INAMI, le Katz, le "
-"forfait institutionnel."
-
-#: ../../content/index.md:66
-msgid "eHealth"
-msgstr "eHealth"
-
-#: ../../content/index.md:70
-msgid ""
-"Insurability (MDA), electronic invoicing (eFact) and agreements "
-"(eAgreement)."
-msgstr ""
-"Assurabilité (MDA), facturation électronique (eFact) et accords "
-"(eAgreement)."
-
-#: ../../content/index.md:73
-msgid "Day care centre (CSJ)"
-msgstr "Centre de soins de jour (CSJ)"
-
-#: ../../content/index.md:77
-msgid ""
-"Day places, the attendance register, the CSJ forfait and the staffing norm."
-msgstr ""
-"Places de jour, registre de présence, forfait CSJ et norme de personnel."
-
-#: ../../content/index.md:80
+#: ../../content/index.md:93
 msgid "Care"
 msgstr "Soins"
 
-#: ../../content/index.md:84
+#: ../../content/index.md:97
 msgid "Clinical record, prescriptions, care plans and clinical registers."
 msgstr ""
 "Dossier clinique, prescriptions, plans de soins et registres cliniques."
 
-#: ../../content/index.md:87
+#: ../../content/index.md:100
 msgid "Care app"
 msgstr "App Soins"
 
-#: ../../content/index.md:91
+#: ../../content/index.md:104
 msgid ""
 "The shift, the cares, the medication round, notes and vital signs on a phone"
 " or tablet."
@@ -179,11 +162,11 @@ msgstr ""
 "Le service, les soins, le tour des médicaments, les notes et les signes "
 "vitaux sur téléphone ou tablette."
 
-#: ../../content/index.md:94
+#: ../../content/index.md:107
 msgid "Meals"
 msgstr "Repas"
 
-#: ../../content/index.md:98
+#: ../../content/index.md:111
 msgid ""
 "Menus and diets, meal distribution, nutrition monitoring and the family "
 "portal."
@@ -191,11 +174,11 @@ msgstr ""
 "Menus et régimes, distribution des repas, suivi nutritionnel et portail "
 "familles."
 
-#: ../../content/index.md:101
+#: ../../content/index.md:114
 msgid "Family portal"
 msgstr "Portail famille"
 
-#: ../../content/index.md:105
+#: ../../content/index.md:118
 msgid ""
 "What relatives may see: liaison notebook, documents, invoices, health "
 "summary."
@@ -203,30 +186,57 @@ msgstr ""
 "Ce que les proches peuvent voir : carnet de liaison, documents, factures, "
 "résumé de santé."
 
-#: ../../content/index.md:108
+#: ../../content/index.md:121
 msgid "Resident documents"
 msgstr "Documents de l'habitant"
 
-#: ../../content/index.md:112
+#: ../../content/index.md:125
 msgid "Automatic document folders per resident and attachment centralization."
 msgstr ""
 "Dossiers documentaires automatiques par habitant et centralisation des "
 "pièces jointes."
 
-#: ../../content/index.md:115
+#: ../../content/index.md:128
 msgid "Configuration"
 msgstr "Configuration"
 
-#: ../../content/index.md:119
-msgid "All the settings: residents, billing, eHealth, meals and documents."
-msgstr ""
-"Tous les réglages : habitants, facturation, eHealth, repas et documents."
+#: ../../content/index.md:132
+msgid "All the settings: residents, billing, meals and documents."
+msgstr "Tous les réglages : habitants, facturation, repas et documents."
 
-#: ../../content/index.md:123
+#: ../../content/index.md:20
+msgid "Your country"
+msgstr "Votre pays"
+
+#: ../../content/index.md:22
+msgid ""
+"Each country has its own space. The **country selector** at the top of the "
+"page filters the navigation: the side bar shows the common applications and "
+"the space of the country you choose."
+msgstr ""
+"Chaque pays a son propre espace. Le **sélecteur de pays** en haut de la page"
+" filtre la navigation : la barre latérale affiche les applications communes "
+"et l'espace du pays choisi."
+
+#: ../../content/index.md:34
+msgid ""
+"The Belgian dependency scale, the allowance paid by the health insurers, the"
+" electronic exchanges with them, the institutional allowance and the day "
+"care centre."
+msgstr ""
+"L'échelle de dépendance belge, le forfait payé par les mutuelles, les "
+"échanges électroniques avec elles, le forfait institutionnel et le centre de"
+" soins de jour."
+
+#: ../../content/index.md:41 ../../content/index.md:48
+msgid "Coming soon."
+msgstr "Bientôt disponible."
+
+#: ../../content/index.md:136
 msgid "A precise question?"
 msgstr "Une question précise ?"
 
-#: ../../content/index.md:126
+#: ../../content/index.md:139
 msgid ""
 "Use the **search bar** at the top, the **[FAQ](faq.md)** or the "
 "**[Glossary](glossaire.md)**. This documentation is public and written to be"
@@ -272,3 +282,33 @@ msgstr ""
 #~ msgstr ""
 #~ "Le calcul du forfait AViQ à partir des journées facturées et du personnel "
 #~ "présent."
+
+#~ msgid "The billing journey"
+#~ msgstr "Le parcours de facturation"
+
+#~ msgid ""
+#~ "The big picture: admission → MDA → eAgreement → Katz → eFact → payment."
+#~ msgstr ""
+#~ "La vue d'ensemble : admission → MDA → eAgreement → Katz → eFact → paiement."
+
+#~ msgid ""
+#~ "What comes from Belgian rules: eHealth, the INAMI package, Katz, the "
+#~ "institutional allowance."
+#~ msgstr ""
+#~ "Ce qui vient des règles belges : eHealth, le forfait INAMI, le Katz, le "
+#~ "forfait institutionnel."
+
+#~ msgid ""
+#~ "Insurability (MDA), electronic invoicing (eFact) and agreements "
+#~ "(eAgreement)."
+#~ msgstr ""
+#~ "Assurabilité (MDA), facturation électronique (eFact) et accords "
+#~ "(eAgreement)."
+
+#~ msgid "Day care centre (CSJ)"
+#~ msgstr "Centre de soins de jour (CSJ)"
+
+#~ msgid ""
+#~ "Day places, the attendance register, the CSJ forfait and the staffing norm."
+#~ msgstr ""
+#~ "Places de jour, registre de présence, forfait CSJ et norme de personnel."

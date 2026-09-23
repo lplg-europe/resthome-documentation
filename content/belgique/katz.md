@@ -1,3 +1,7 @@
+---
+modules: [l10n_health_be, resthome_geriatric_be, resthome_mr_billing, l10n_health_be_eagreement_light]
+---
+
 # The Katz Assessment
 
 :::{rh-description}
@@ -51,7 +55,7 @@ regulations.
 Under the **AViQ** tariffs, the amount of the dependency allowance is **identical for
 every category**, including **O**. The category does not change the amount:
 it serves to declare the correct profile to the mutuelle (see [The INAMI
-allowance](../facturation/forfait-inami.md)).
+allowance](forfait-inami.md)).
 :::
 
 :::{admonition} Category O by default
@@ -80,6 +84,14 @@ applicable, prepares the care agreement with the mutuelle. You don't have to
 re-enter the category anywhere else.
 :::
 
+## Renewal of the assessment
+
+A Katz assessment has its own **renewal cycle**: each validated assessment
+carries a **next assessment date**, and the list shows a **renewal indicator**
+per resident. When the due date approaches or passes, a reminder appears on the
+dashboard; the care dashboard counts the Katz assessments to renew and the
+missing ones. To renew, enter a new assessment — the history is kept.
+
 ## Worsening during the stay
 
 If the resident's condition deteriorates, enter a **new assessment** with a
@@ -90,7 +102,10 @@ clinician's **signature** completes the document.
 ## When the category no longer matches the bed
 
 An **MRS** bed only takes categories **B and above**. A resident assessed at
-**O or A** belongs in an **MR** bed.
+**O or A** belongs in an **MR** bed. Resthome refuses to **put or keep a stay in
+MRS** for a resident assessed at O or A — at admission and at transfer time.
+A **room change is not blocked**, though: the resident can still be moved from
+one room to another while the banner below stays up.
 
 Nothing stops a resident's condition from improving — and when a new assessment
 comes out at A while they occupy an MRS bed, Resthome says so instead of
@@ -101,7 +116,7 @@ and stays on the resident's record until the sector is changed:
 
 The **Internal transfer** button on the banner opens the transfer wizard with
 the destination already set to MR — see
-[Room change and transfer](changement-chambre.md).
+[Room change and transfer](../residents/changement-chambre.md).
 
 The same signal follows the resident everywhere they are listed. On the board,
 the card carries an **MRS → MR** badge:
@@ -124,7 +139,9 @@ period to correct.
 
 ## Learn more
 
-- [The INAMI allowance (dependency)](../facturation/forfait-inami.md) — from category to billed amount.
-- [Managing a resident](gerer-un-resident.md)
+- [The INAMI allowance (dependency)](forfait-inami.md) — from category to billed amount.
+- [Managing a resident](../residents/gerer-un-resident.md)
+- [The resident's file in Belgium](dossier-resident.md)
+- [Geriatric assessments](../residents/evaluations.md) — the international scales beside Katz.
 - [Billing](../facturation/index.md)
-- [Agreements (eAgreement)](../ehealth/eagreement.md)
+- [Agreements (eAgreement)](ehealth/eagreement.md)

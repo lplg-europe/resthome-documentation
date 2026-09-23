@@ -1,3 +1,7 @@
+---
+modules: [healthcare_mobile, healthcare_medical]
+---
+
 # Cares
 
 :::{rh-description}

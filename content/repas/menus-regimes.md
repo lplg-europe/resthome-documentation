@@ -1,3 +1,7 @@
+---
+modules: [resthome_meal]
+---
+
 # Menus, diets and hydration
 
 :::{rh-description}
@@ -20,7 +24,7 @@ How is residents' hydration tracked?
 
 ## Building a menu
 
-1. In the Meals app → **Menus**, create the menu for the day or the
+1. In the Meals app → **Operations** → **Menus**, create the menu for the day or the
    week.
 2. Add **dishes** from the catalog, by **meal type** (breakfast,
    lunch, dinner, snacks).

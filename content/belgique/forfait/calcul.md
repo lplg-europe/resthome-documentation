@@ -1,5 +1,6 @@
 ---
 howto_auto: true
+modules: [resthome_funding_be]
 ---
 
 # Computing the allowance
@@ -84,4 +85,4 @@ simulation. Running it again replaces the rates — it never stacks them.
 ## What's next
 
 - [Simulations and live tracking](suivi-simulations.md)
-- [The INAMI package (dependency)](../facturation/forfait-inami.md)
+- [The INAMI package (dependency)](../forfait-inami.md)

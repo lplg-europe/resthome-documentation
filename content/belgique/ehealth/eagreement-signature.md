@@ -1,3 +1,7 @@
+---
+modules: [l10n_health_be_perdiem_ehealth, l10n_health_be_eagreement_light, resthome_mr_ehealth, l10n_health_be, healthcare_base]
+---
+
 # Responsible practitioner and annex signatures
 
 :::{rh-description}
@@ -53,7 +57,7 @@ send a request whose responsible practitioner is the nurse who scored the Katz.
 ## The responsible practitioner
 
 The responsible practitioner is the **clinician who carried out the
-[Katz](../residents/katz.md) assessment** — the assessor — **not** the person who
+[Katz](../katz.md) assessment** — the assessor — **not** the person who
 sends the request. Resthome determines their **NIHII** by walking down a fallback
 chain, so that a consistent identity is always transmitted to the health insurer.
 
@@ -118,7 +122,7 @@ settings provide the fallback NIHII when the Katz assessor does not have their o
 | **Head Nurse (NIHII fallback)** | Their NIHII identifies the responsible practitioner when the assessor (nurse, care assistant) has no personal NIHII. |
 | **Coordinating Physician (NIHII fallback)** | Fallback when no nurse NIHII is available, and **mandatory** for a Katz category D. |
 
-See also [eHealth and eFact settings](../configuration/reglages-ehealth.md).
+See also [eHealth and eFact settings](../reglages-ehealth.md).
 
 :::{admonition} The Katz category is for declaring, not for setting the amount
 :class: note
@@ -148,7 +152,7 @@ Rather than **printing, signing by hand and then scanning**, Resthome places you
 - **Annexe 7** — the admission agreement (admission / readmission);
 - **Annexe 11** — the end-of-stay notification.
 
-![eAgreement request in Draft, with the Sign Annexe 7 button in the action bar and the Annexes section](../assets/screenshots/ehealth/12-eagreement-signature.webp)
+![eAgreement request in Draft, with the Sign Annexe 7 button in the action bar and the Annexes section](../../assets/screenshots/ehealth/12-eagreement-signature.webp)
 
 The path, on a request in **Draft**:
 
@@ -255,6 +259,6 @@ warns you and the **Sign & replace PDF** button is not offered. Two options:
 
 - [Agreements (eAgreement)](eagreement.md)
 - [Refused agreement (eAgreement) — causes and solutions](eagreement-refus.md)
-- [The dependency scale (Katz)](../residents/katz.md)
-- [eHealth and eFact settings](../configuration/reglages-ehealth.md)
+- [The dependency scale (Katz)](../katz.md)
+- [eHealth and eFact settings](../reglages-ehealth.md)
 - [eHealth overview](index.md)

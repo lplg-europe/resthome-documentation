@@ -1,3 +1,7 @@
+---
+modules: [resthome_mr_billing, healthcare_accommodation_billing]
+---
+
 # The Expense Note (Annexe 12)
 
 :::{rh-description}
@@ -88,7 +92,7 @@ insurance fund, not to set a different amount. See
 
 ### Generating an individual note
 
-1. Open the month's **billing period** (**MR/MRS → Billing → Billing periods**
+1. Open the month's **billing period** (**Billing → Facturation → Billing Periods**
    application).
 2. Open the relevant **resident's billing record** ("Billing per resident").
 3. Click **Print → Annexe 12 — Individual Expense Note**.
@@ -155,7 +159,7 @@ then regenerate the document so that it reflects the new amounts.
 The summary note is the "paper" supporting document that **accompanies the billing
 sent** to each insurance organisation. For the complete electronic flow (sending
 the flat-rate to the insurance fund), see
-[Billing a month, step by step](facturer-un-mois.md).
+[Billing a month in Belgium](facturation.md).
 :::
 
 :::{admonition} Departure or death during the month
@@ -163,7 +167,7 @@ the flat-rate to the insurance fund), see
 
 The amounts take into account the **actual days of presence**: a departure or
 death during the month is already reflected in the billing lines, and therefore in
-Annexe 12. See [Departure and death](depart-deces.md).
+Annexe 12. See [Departure and death](../facturation/depart-deces.md).
 :::
 
 ## Key points to remember
@@ -182,7 +186,8 @@ Annexe 12. See [Departure and death](depart-deces.md).
 
 ## Further reading
 
-- [Billing a month, step by step](facturer-un-mois.md)
-- [Supplements](supplements.md)
-- [Billing overview](index.md)
-- [Departure and death](depart-deces.md)
+- [Billing a month, step by step](../facturation/facturer-un-mois.md)
+- [Billing a month in Belgium](facturation.md)
+- [Supplements](../facturation/supplements.md)
+- [Billing overview](../facturation/index.md)
+- [Departure and death](../facturation/depart-deces.md)

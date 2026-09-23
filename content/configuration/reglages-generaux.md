@@ -1,7 +1,11 @@
+---
+modules: [healthcare_base, healthcare_accommodation, healthcare_medical]
+---
+
 # General settings (residents, rooms)
 
 :::{rh-description}
-Configure the general settings of a nursing home (MR/MRS) in Resthome: residents, accommodation, and the room and move-in managers.
+Configure the general settings of a nursing home in Resthome: residents, accommodation, and the room and move-in managers.
 :::
 
 :::{rh-faq}
@@ -15,7 +19,7 @@ What is the "Move-in Procedure Manager" for?
 : It is the user who receives the move-in checklist (agreement, condition report, inventory, medication locker, laundry, disinfection) on the resident's record when a stay opens. Left empty, the procedure is disabled.
 
 What default values should I use for stay duration and room capacity?
-: 30 days for the stay duration and 1 bed for the capacity suit most MR/MRS. These are only pre-fill values, editable afterwards on each stay or each room.
+: 30 days for the stay duration and 1 bed for the capacity suit most homes. These are only pre-fill values, editable afterwards on each stay or each room.
 
 Should demo data be loaded in production?
 : No. The "Load Demo Data" button creates fictitious residents, rooms and invoices: keep it for a test environment. Never use it on your real database.
@@ -30,8 +34,17 @@ capacity, managers), and the display of the care **dashboard**.
 
 You will find them in the **Settings** application:
 
-- **Settings > Nursing Home (MR/MRS)** — residents, accommodation, demo data;
+- **Settings > Nursing Home** — residents, accommodation, demo data;
 - **Settings > Medical** — dashboard.
+
+:::{admonition} In Belgium
+:class: rh-country rh-country-be
+
+The Belgian pack adds an **Approvals** block to the **Nursing Home** tab (the
+establishment's INAMI numbers, its MR/MRS approvals and their beds) and a
+**SAM medicines** block to the **Medical** tab. See
+[Belgian settings](../belgique/reglages.md).
+:::
 
 :::{admonition} Reserved for managers
 :class: info
@@ -45,7 +58,7 @@ These settings are only visible to users who hold the establishment
 *Settings > Nursing Home > Residents.* Two options frame the creation and
 follow-up of residents.
 
-| Setting | What it does | Recommended value (MR/MRS) |
+| Setting | What it does | Recommended value |
 |---|---|---|
 | **Medical Information** | Makes medical information mandatory for all residents. | Establishment-specific — enable it if the head nurse requires a complete medical file from admission onwards. |
 | **Family Notifications** | Sends automatic notifications to the resident's family. | Establishment-specific — enable it if you communicate with families from Resthome. |
@@ -56,7 +69,7 @@ follow-up of residents.
 rooms and stays, and designates **who** is notified when a resident arrives or
 changes room.
 
-| Setting | What it does | Recommended value (MR/MRS) |
+| Setting | What it does | Recommended value |
 |---|---|---|
 | **Default Stay Duration** | Pre-fills the duration (in days) proposed when a new stay opens. | **30 days** |
 | **Room Capacity** | Number of beds pre-filled when creating a new room. | **1 bed** (single room) |
@@ -82,16 +95,16 @@ These are work reminders: setting them avoids oversights on arrival.
 *Settings > Medical > Dashboard.* A single setting, which controls the display of
 the care dashboard's stat cards.
 
-| Setting | What it does | Recommended value (MR/MRS) |
+| Setting | What it does | Recommended value |
 |---|---|---|
-| **Hide Empty Stat Cards** | Hides the dashboard cards (missed care, attention points, Katz renewals, etc.) whose counter is 0. | **Leave disabled** (default): a displayed "0" is a positive signal, not a lack of information. |
+| **Hide Empty Stat Cards** | Hides the dashboard cards (missed care, attention points, dependency reassessments, etc.) whose counter is 0. | **Leave disabled** (default): a displayed "0" is a positive signal, not a lack of information. |
 
 ## Demo Data
 
 *Settings > Nursing Home > Demo Data.* A way to fill a **test** database with
 fictitious residents, rooms, stays and invoices.
 
-| Setting | What it does | Recommended value (MR/MRS) |
+| Setting | What it does | Recommended value |
 |---|---|---|
 | **Load Demo Data** | Creates fictitious residents, rooms, stays, billing periods, medical data and meals. | Keep it for a **test** environment. |
 | **Update Demo Data** | Re-runs the loader to add demo records added since (furniture, supplements, etc.) without duplicating existing ones. | Testing only. |

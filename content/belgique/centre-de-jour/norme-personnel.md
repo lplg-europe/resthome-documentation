@@ -1,4 +1,5 @@
 ---
+modules: [resthome_day_care, resthome_day_care_funding]
 howto_auto: true
 ---
 
@@ -96,7 +97,7 @@ row carries the **Norm**, **After Compensation** and **Norm Held** of all the
 nurses, A1 and A2 together; the **Nurse A1** row shows 0 in these columns, and
 its 0 % never counts in the verdict.
 
-![A staffing norm check: the verdict banner, a norm held at 91.8 % by the therapists, the four quarters of billed days, and the staff rows with their FTE, norm and norm held](../assets/screenshots/centre-de-jour/12-norme-personnel.png)
+![A staffing norm check: the verdict banner, a norm held at 91.8 % by the therapists, the four quarters of billed days, and the staff rows with their FTE, norm and norm held](../../assets/screenshots/centre-de-jour/12-norme-personnel.png)
 
 ## 5. Apply the verdict to the billing
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-05 03:38+0200\n"
+"POT-Creation-Date: 2026-09-23 15:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -20,37 +20,37 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: ../../content/residents/chambres.md:5
+#: ../../content/residents/chambres.md:6
 msgid "Rooms and occupancy"
 msgstr "Les chambres et l'occupation"
 
-#: ../../content/residents/chambres.md:8
+#: ../../content/residents/chambres.md:9
 msgid ""
-"Track the occupancy of a nursing home's (MR/MRS) rooms with Resthome: kanban"
-" board by status, room record, maintenance and assigning a resident."
+"Track the occupancy of a nursing home's rooms with Resthome: kanban board by"
+" status, room record, maintenance and assigning a resident."
 msgstr ""
-"Suivre l'occupation des chambres en maison de repos (MR/MRS) avec Resthome :"
-" kanban par statut, fiche chambre, maintenance et assignation d'un habitant."
+"Suivre l'occupation des chambres d'une maison de repos avec Resthome : "
+"kanban par statut, fiche chambre, maintenance et assignation d'un habitant."
 
-#: ../../content/residents/chambres.md:12
+#: ../../content/residents/chambres.md:13
 msgid "Where is the room occupancy board in Resthome?"
 msgstr "Où se trouve le tableau d'occupation des chambres dans Resthome ?"
 
-#: ../../content/residents/chambres.md:13
+#: ../../content/residents/chambres.md:14
 msgid ""
-"In the MR/MRS application, Accommodation → Rooms menu. Rooms are shown as a "
-"kanban, grouped by status: Available, Occupied, Under maintenance and "
+"In the Nursing Home application, Accommodation → Rooms menu. Rooms are shown"
+" as a kanban, grouped by status: Available, Occupied, Under maintenance and "
 "Reserved."
 msgstr ""
-"Dans l'application MR/MRS, menu Hébergement → Chambres. Les chambres "
-"s'affichent en kanban, regroupées par statut : Disponible, Occupée, En "
-"maintenance et Réservée."
+"Dans l'application Maison de repos, menu Hébergement → Chambres. Les "
+"chambres s'affichent en kanban, regroupées par statut : Disponible, Occupée,"
+" En maintenance et Réservée."
 
-#: ../../content/residents/chambres.md:15
+#: ../../content/residents/chambres.md:16
 msgid "What does the colored badge on each room mean?"
 msgstr "Que signifie le badge coloré affiché sur chaque chambre ?"
 
-#: ../../content/residents/chambres.md:16
+#: ../../content/residents/chambres.md:17
 msgid ""
 "It shows the occupancy \"occupied / capacity\" (for example 1/2) and its "
 "color reflects the status: green for Available, blue for Occupied, orange "
@@ -62,11 +62,11 @@ msgstr ""
 "pour En maintenance, cyan pour Réservée. Une chambre à deux lits dont un "
 "seul est pris reste Disponible."
 
-#: ../../content/residents/chambres.md:18
+#: ../../content/residents/chambres.md:19
 msgid "How do I make a room unavailable for works?"
 msgstr "Comment rendre une chambre indisponible pour des travaux ?"
 
-#: ../../content/residents/chambres.md:19
+#: ../../content/residents/chambres.md:20
 msgid ""
 "On the room record, click Set Under Maintenance (or Mark as Reserved). The "
 "room is then excluded from the assignable rooms. The Automatic Mode button "
@@ -76,11 +76,11 @@ msgstr ""
 "comme réservée). La chambre est alors exclue des chambres assignables. Le "
 "bouton Mode automatique la remet en calcul automatique du statut."
 
-#: ../../content/residents/chambres.md:21
+#: ../../content/residents/chambres.md:22
 msgid "How do I assign a resident directly from a room?"
 msgstr "Comment assigner un habitant directement depuis une chambre ?"
 
-#: ../../content/residents/chambres.md:22
+#: ../../content/residents/chambres.md:23
 msgid ""
 "Open an available room and click Assign a Resident. Choose the resident and "
 "the entry date: Resthome creates the stay, in the In Progress state, on that"
@@ -90,11 +90,11 @@ msgstr ""
 "Choisissez l'habitant et la date d'entrée : Resthome crée le séjour, à "
 "l'état En cours, sur cette chambre."
 
-#: ../../content/residents/chambres.md:24
+#: ../../content/residents/chambres.md:25
 msgid "What happens if the resident already occupies a room?"
 msgstr "Que se passe-t-il si l'habitant occupe déjà une chambre ?"
 
-#: ../../content/residents/chambres.md:25
+#: ../../content/residents/chambres.md:26
 msgid ""
 "The wizard detects the current stay and shows a transfer warning. On "
 "confirmation, Resthome ends the old stay (reason: transfer) and opens a new "
@@ -104,21 +104,25 @@ msgstr ""
 "transfert. En confirmant, Resthome termine l'ancien séjour (motif : "
 "transfert) et ouvre un nouveau séjour dans la chambre choisie."
 
-#: ../../content/residents/chambres.md:27
-msgid "Is the daily rate displayed the INAMI package?"
-msgstr "Le tarif journalier affiché est-il le forfait INAMI ?"
-
 #: ../../content/residents/chambres.md:28
 msgid ""
+"Is the daily rate displayed the care allowance paid by the health insurer?"
+msgstr ""
+"Le tarif journalier affiché est-il le forfait de soins payé par l'assureur "
+"santé ?"
+
+#: ../../content/residents/chambres.md:29
+msgid ""
 "No. It is the accommodation price (the room), a value specific to your "
-"facility, set on the room type. The dependency package, for its part, "
-"depends on the resident's Katz category, not on the room."
+"facility, set on the room type. The care allowance, for its part, follows "
+"the country's rules and the resident's dependency category, not the room."
 msgstr ""
 "Non. C'est le prix de l'hébergement (la chambre), une valeur propre à votre "
-"établissement, définie sur le type de chambre. Le forfait de dépendance "
-"dépend, lui, de la catégorie Katz de l'habitant, pas de la chambre."
+"établissement, définie sur le type de chambre. Le forfait de soins suit, "
+"lui, les règles du pays et la catégorie de dépendance de l'habitant, pas la "
+"chambre."
 
-#: ../../content/residents/chambres.md:31
+#: ../../content/residents/chambres.md:32
 msgid ""
 "The **Rooms** area gives you a real-time view of the facility's "
 "**occupancy**: which rooms are free, occupied, reserved or under "
@@ -131,16 +135,18 @@ msgstr ""
 "chambre, vous pouvez aussi **assigner directement un habitant**, ce qui "
 "ouvre son séjour."
 
-#: ../../content/residents/chambres.md:36
-msgid "You'll find it in the **MR/MRS → Accommodation → Rooms** application."
+#: ../../content/residents/chambres.md:37
+msgid ""
+"You'll find it in the **Nursing Home → Accommodation → Rooms** application."
 msgstr ""
-"Vous le trouvez dans l'application **MR/MRS → Hébergement → Chambres**."
+"Vous le trouvez dans l'application **Maison de repos → Hébergement → "
+"Chambres**."
 
-#: ../../content/residents/chambres.md:38
+#: ../../content/residents/chambres.md:39
 msgid "The occupancy board"
 msgstr "Le tableau d'occupation"
 
-#: ../../content/residents/chambres.md:40
+#: ../../content/residents/chambres.md:41
 msgid ""
 "On opening, the rooms are shown as a **kanban**, grouped by **status**: an "
 "**Available** column, an **Occupied** column, an **Under maintenance** "
@@ -152,15 +158,15 @@ msgstr ""
 "colonne **En maintenance** et une colonne **Réservée**. D'un coup d'œil, "
 "vous voyez où il reste de la place."
 
-#: ../../content/residents/chambres.md:44
+#: ../../content/residents/chambres.md:45
 msgid "Each room card shows:"
 msgstr "Chaque carte de chambre indique :"
 
-#: ../../content/residents/chambres.md:46
+#: ../../content/residents/chambres.md:47
 msgid "the room **number**;"
 msgstr "le **numéro** de la chambre ;"
 
-#: ../../content/residents/chambres.md:47
+#: ../../content/residents/chambres.md:48
 msgid ""
 "an **occupancy badge** \"occupied / capacity\" (for example 1/1 or 1/2), "
 "colored by status — green (Available), blue (Occupied), orange "
@@ -170,19 +176,19 @@ msgstr ""
 "coloré selon le statut — vert (Disponible), bleu (Occupée), orange "
 "(Maintenance), cyan (Réservée) ;"
 
-#: ../../content/residents/chambres.md:50
+#: ../../content/residents/chambres.md:51
 msgid "the **room type**;"
 msgstr "le **type de chambre** ;"
 
-#: ../../content/residents/chambres.md:51
+#: ../../content/residents/chambres.md:52
 msgid "the **resident(s) present**, if any;"
 msgstr "le ou les **habitants présents**, le cas échéant ;"
 
-#: ../../content/residents/chambres.md:52
+#: ../../content/residents/chambres.md:53
 msgid "the **daily accommodation rate**."
 msgstr "le **tarif journalier** de l'hébergement."
 
-#: ../../content/residents/chambres.md:54
+#: ../../content/residents/chambres.md:55
 msgid ""
 "![Rooms board grouped by occupancy, each card showing the room type, its "
 "occupant and the daily rate](../assets/screenshots/residents/chambres-"
@@ -192,7 +198,7 @@ msgstr ""
 " de chambre, son occupant et le prix "
 "journalier](../assets/screenshots/residents/chambres-kanban.png)"
 
-#: ../../content/residents/chambres.md:54
+#: ../../content/residents/chambres.md:55
 msgid ""
 "Rooms board grouped by occupancy, each card showing the room type, its "
 "occupant and the daily rate"
@@ -200,11 +206,11 @@ msgstr ""
 "Tableau des chambres groupé par occupation, chaque carte indiquant le type "
 "de chambre, son occupant et le prix journalier"
 
-#: ../../content/residents/chambres.md:56
+#: ../../content/residents/chambres.md:57
 msgid "The occupancy / capacity badge"
 msgstr "Le badge occupation / capacité"
 
-#: ../../content/residents/chambres.md:59
+#: ../../content/residents/chambres.md:60
 msgid ""
 "A capacity-2 room with only one bed taken shows **1/2** and stays "
 "**Available**: there is still a spot. It only switches to **Occupied** when "
@@ -217,7 +223,7 @@ msgstr ""
 "individuelle (capacité 1) passe donc directement de Disponible à Occupée dès"
 " le premier habitant."
 
-#: ../../content/residents/chambres.md:65
+#: ../../content/residents/chambres.md:66
 msgid ""
 "In the top right, you can switch from the **kanban** to the **list** "
 "(number, floor, type, capacity, occupancy, rate, amenities, status) or the "
@@ -227,11 +233,11 @@ msgstr ""
 "(numéro, étage, type, capacité, occupation, tarif, équipements, statut) ou "
 "la **fiche**."
 
-#: ../../content/residents/chambres.md:68
+#: ../../content/residents/chambres.md:69
 msgid "Filtering and grouping"
 msgstr "Filtrer et regrouper"
 
-#: ../../content/residents/chambres.md:70
+#: ../../content/residents/chambres.md:71
 msgid ""
 "The search bar offers quick **filters**: **Available**, **Occupied**, "
 "**Maintenance**, **Reserved**, as well as **Active (excluding "
@@ -244,11 +250,11 @@ msgstr ""
 "**Étage**, **Type** ou **Secteur**, et rechercher par numéro, étage, "
 "bâtiment ou secteur."
 
-#: ../../content/residents/chambres.md:75
+#: ../../content/residents/chambres.md:76
 msgid "The room record"
 msgstr "La fiche chambre"
 
-#: ../../content/residents/chambres.md:77
+#: ../../content/residents/chambres.md:78
 msgid ""
 "Click a card to open the **room record**. At the top, a **status bar** shows"
 " the current state (**Available → Occupied → Under maintenance → "
@@ -260,107 +266,122 @@ msgstr ""
 "→ Réservée**), et des **rubans** signalent visuellement une chambre « "
 "Maintenance » ou « Réservée »."
 
-#: ../../content/residents/chambres.md:81
+#: ../../content/residents/chambres.md:82
 msgid "Details and rate"
 msgstr "Informations et tarif"
 
-#: ../../content/residents/chambres.md:56
+#: ../../content/residents/chambres.md:57
 msgid "Field"
 msgstr "Champ"
 
-#: ../../content/residents/chambres.md:56
+#: ../../content/residents/chambres.md:57
 msgid "Purpose"
 msgstr "Rôle"
 
-#: ../../content/residents/chambres.md:56
+#: ../../content/residents/chambres.md:57
 msgid "**Room Number**"
 msgstr "**Numéro de chambre**"
 
-#: ../../content/residents/chambres.md:56
+#: ../../content/residents/chambres.md:57
 msgid "Unique identifier of the room."
 msgstr "Identifiant unique de la chambre."
 
-#: ../../content/residents/chambres.md:56
+#: ../../content/residents/chambres.md:57
 msgid "**Room Type**"
 msgstr "**Type de chambre**"
 
-#: ../../content/residents/chambres.md:56
+#: ../../content/residents/chambres.md:57
 msgid "Determines the **daily rate** and the default capacity."
 msgstr "Détermine le **tarif journalier** et la capacité par défaut."
 
-#: ../../content/residents/chambres.md:56
+#: ../../content/residents/chambres.md:57
 msgid "**Floor** / **Building**"
 msgstr "**Étage** / **Bâtiment**"
 
-#: ../../content/residents/chambres.md:56
+#: ../../content/residents/chambres.md:57
 msgid "Physical location."
 msgstr "Localisation physique."
 
-#: ../../content/residents/chambres.md:56
+#: ../../content/residents/chambres.md:57
 msgid "**Sector**"
 msgstr "**Secteur**"
 
-#: ../../content/residents/chambres.md:56
+#: ../../content/residents/chambres.md:57
 msgid "Sector / floor of the facility; used for grouping and access rights."
 msgstr ""
 "Secteur / étage de l'établissement ; sert au regroupement et aux droits "
 "d'accès."
 
-#: ../../content/residents/chambres.md:56
+#: ../../content/residents/chambres.md:57
 msgid "**Capacity**"
 msgstr "**Capacité**"
 
-#: ../../content/residents/chambres.md:56
+#: ../../content/residents/chambres.md:57
 msgid "Number of beds in the room."
 msgstr "Nombre de lits de la chambre."
 
-#: ../../content/residents/chambres.md:56
+#: ../../content/residents/chambres.md:57
 msgid "**Current Occupancy**"
 msgstr "**Occupation actuelle**"
 
-#: ../../content/residents/chambres.md:56
+#: ../../content/residents/chambres.md:57
 msgid "Number of occupied beds (computed automatically)."
 msgstr "Nombre de lits occupés (calculé automatiquement)."
 
-#: ../../content/residents/chambres.md:56
+#: ../../content/residents/chambres.md:57
 msgid "**Daily Rate**"
 msgstr "**Tarif journalier**"
 
-#: ../../content/residents/chambres.md:56
+#: ../../content/residents/chambres.md:57
 msgid "Accommodation price, taken from the room type."
 msgstr "Prix d'hébergement, repris du type de chambre."
 
-#: ../../content/residents/chambres.md:56
+#: ../../content/residents/chambres.md:57
 msgid "**Billing Product**"
 msgstr "**Article de facturation**"
 
-#: ../../content/residents/chambres.md:56
+#: ../../content/residents/chambres.md:57
 msgid "Product linked to the room (read-only)."
 msgstr "Produit lié à la chambre (lecture seule)."
 
-#: ../../content/residents/chambres.md:94
-msgid "The daily rate is not the INAMI package"
-msgstr "Le tarif journalier n'est pas le forfait INAMI"
+#: ../../content/residents/chambres.md:95
+msgid "The daily rate is not the care allowance"
+msgstr "Le tarif journalier n'est pas le forfait de soins"
 
-#: ../../content/residents/chambres.md:97
+#: ../../content/residents/chambres.md:98
 msgid ""
 "The **daily rate** is the **accommodation price** (the room), a value "
 "**specific to your facility**, set on the **room type**. It is distinct from"
-" the **dependency package** (the insurer's share), which depends on the "
-"resident's **Katz category** — the same for all categories under AViQ rates "
-"— and not on the room."
+" the **care allowance paid by the health insurer**, which follows the "
+"country's rules and the resident's dependency category — not the room."
 msgstr ""
 "Le **tarif journalier** est le **prix de l'hébergement** (la chambre), une "
 "valeur **propre à votre établissement**, définie sur le **type de chambre**."
-" Il est distinct du **forfait de dépendance** (la part mutuelle), qui dépend"
-" de la **catégorie Katz** de l'habitant — la même pour toutes les catégories"
-" aux tarifs AViQ — et non de la chambre."
+" Il est distinct du **forfait de soins payé par l'assureur santé**, qui suit"
+" les règles du pays et la catégorie de dépendance de l'habitant — et non la "
+"chambre."
 
-#: ../../content/residents/chambres.md:103
+#: ../../content/residents/chambres.md:104
+msgid "In Belgium"
+msgstr "En Belgique"
+
+#: ../../content/residents/chambres.md:107
+msgid ""
+"The care allowance is the INAMI dependency allowance: it is declared with "
+"the resident's Katz category, and under the AViQ rates its amount is the "
+"same for every category — see [The INAMI package](../belgique/forfait-"
+"inami.md)."
+msgstr ""
+"Le forfait de soins est le forfait INAMI de dépendance : il est déclaré avec"
+" la catégorie Katz de l'habitant, et aux tarifs AViQ son montant est le même"
+" pour toutes les catégories — voir [Le forfait INAMI "
+"(dépendance)](../belgique/forfait-inami.md)."
+
+#: ../../content/residents/chambres.md:112
 msgid "Amenities"
 msgstr "Équipements"
 
-#: ../../content/residents/chambres.md:105
+#: ../../content/residents/chambres.md:114
 msgid ""
 "The **Amenities** section lists, as tags, what the room provides "
 "(Television, Wifi, Private bathroom, Medical bed, Nurse call, Balcony…). An "
@@ -374,15 +395,15 @@ msgstr ""
 "d'ajouter une précision en texte libre. Le catalogue d'équipements se gère "
 "dans les réglages (voir [Configuration](../configuration/index.md))."
 
-#: ../../content/residents/chambres.md:110
+#: ../../content/residents/chambres.md:119
 msgid "Current occupancy and history"
 msgstr "Occupation actuelle et historique"
 
-#: ../../content/residents/chambres.md:112
+#: ../../content/residents/chambres.md:121
 msgid "Three tabs complete the record:"
 msgstr "Trois onglets complètent la fiche :"
 
-#: ../../content/residents/chambres.md:114
+#: ../../content/residents/chambres.md:123
 msgid ""
 "**Current Occupancy** — the residents present in the room (name, resident "
 "code, age)."
@@ -390,7 +411,7 @@ msgstr ""
 "**Occupation actuelle** — les habitants présents dans la chambre (nom, code "
 "habitant, âge)."
 
-#: ../../content/residents/chambres.md:116
+#: ../../content/residents/chambres.md:125
 msgid ""
 "**Stay History** — all stays that involved this room, with the resident, the"
 " start and end dates, and the status (**Draft**, **Confirmed**, **In "
@@ -400,15 +421,15 @@ msgstr ""
 "chambre, avec l'habitant, les dates de début et de fin, et l'état "
 "(**Brouillon**, **Confirmé**, **En cours**, **Terminé**)."
 
-#: ../../content/residents/chambres.md:119
+#: ../../content/residents/chambres.md:128
 msgid "**Notes** — free internal notes about the room."
 msgstr "**Notes** — notes internes libres sur la chambre."
 
-#: ../../content/residents/chambres.md:121
+#: ../../content/residents/chambres.md:130
 msgid "Changing a room's status"
 msgstr "Changer le statut d'une chambre"
 
-#: ../../content/residents/chambres.md:123
+#: ../../content/residents/chambres.md:132
 msgid ""
 "The **Available / Occupied** status is computed automatically from "
 "occupancy. You can, however, **force** a manual status from the record "
@@ -418,7 +439,7 @@ msgstr ""
 "l'occupation. Vous pouvez toutefois **forcer** un statut manuel depuis l'en-"
 "tête de la fiche :"
 
-#: ../../content/residents/chambres.md:126
+#: ../../content/residents/chambres.md:135
 msgid ""
 "**Set Under Maintenance** — the room switches to **Under maintenance** "
 "(works, deep cleaning, breakdown…) and is no longer offered for assignment."
@@ -426,7 +447,7 @@ msgstr ""
 "**Mettre en maintenance** — la chambre passe **En maintenance** (travaux, "
 "nettoyage approfondi, panne…) et n'est plus proposée à l'assignation."
 
-#: ../../content/residents/chambres.md:128
+#: ../../content/residents/chambres.md:137
 msgid ""
 "**Mark as Reserved** — the room becomes **Reserved** (for example for an "
 "upcoming admission) and drops out of the available rooms."
@@ -434,7 +455,7 @@ msgstr ""
 "**Marquer comme réservée** — la chambre devient **Réservée** (par exemple "
 "pour une admission à venir) et sort des chambres disponibles."
 
-#: ../../content/residents/chambres.md:130
+#: ../../content/residents/chambres.md:139
 msgid ""
 "**Automatic Mode** — cancels the manual override: the status is again "
 "**computed automatically** from occupancy."
@@ -442,11 +463,11 @@ msgstr ""
 "**Mode automatique** — annule l'override manuel : le statut est de nouveau "
 "**calculé automatiquement** d'après l'occupation."
 
-#: ../../content/residents/chambres.md:133
+#: ../../content/residents/chambres.md:142
 msgid "Maintenance and Reserved block assignment"
 msgstr "Maintenance et Réservée bloquent l'assignation"
 
-#: ../../content/residents/chambres.md:136
+#: ../../content/residents/chambres.md:145
 msgid ""
 "As long as a room is **Under maintenance** or **Reserved**, the **Assign a "
 "Resident** button is hidden and the room does **not** appear in the "
@@ -458,11 +479,11 @@ msgstr ""
 "les listes de chambres disponibles (admission, transfert). Repassez-la en "
 "**Mode automatique** pour la rendre à nouveau assignable."
 
-#: ../../content/residents/chambres.md:152
+#: ../../content/residents/chambres.md:161
 msgid "Assigning a resident from the room"
 msgstr "Assigner un habitant depuis la chambre"
 
-#: ../../content/residents/chambres.md:154
+#: ../../content/residents/chambres.md:163
 msgid ""
 "You can open a stay directly from a free room, without going through the "
 "admission pipeline:"
@@ -470,7 +491,7 @@ msgstr ""
 "Vous pouvez ouvrir un séjour directement depuis une chambre libre, sans "
 "passer par le pipeline d'admission :"
 
-#: ../../content/residents/chambres.md:157
+#: ../../content/residents/chambres.md:166
 msgid ""
 "Open the record of an **Available** room (neither full, nor under "
 "maintenance, nor reserved — otherwise the button does not appear)."
@@ -478,17 +499,17 @@ msgstr ""
 "Ouvrez la fiche d'une chambre **Disponible** (ni pleine, ni en maintenance, "
 "ni réservée — sinon le bouton n'apparaît pas)."
 
-#: ../../content/residents/chambres.md:159
+#: ../../content/residents/chambres.md:168
 msgid "Click **Assign a Resident**."
 msgstr "Cliquez sur **Assigner un habitant**."
 
-#: ../../content/residents/chambres.md:160
+#: ../../content/residents/chambres.md:169
 msgid "In the wizard, choose the **resident** (only residents are offered)."
 msgstr ""
 "Dans l'assistant, choisissez le **habitant** (seuls les habitants sont "
 "proposés)."
 
-#: ../../content/residents/chambres.md:161
+#: ../../content/residents/chambres.md:170
 msgid ""
 "Check the **entry date** (today by default) and, if needed, the **planned "
 "end date**."
@@ -496,22 +517,24 @@ msgstr ""
 "Vérifiez la **date d'entrée** (aujourd'hui par défaut) et, si besoin, la "
 "**date de fin prévue**."
 
-#: ../../content/residents/chambres.md:163
+#: ../../content/residents/chambres.md:172
 msgid ""
 "The **daily rate** is taken from the room; adjust the **Bill To** field if "
-"the invoice must be addressed to a third party (a relative, CPAS)."
+"the invoice must be addressed to a third party (a relative, a public welfare"
+" body)."
 msgstr ""
 "Le **tarif journalier** est repris de la chambre ; ajustez le champ "
-"**Facturer à** si la facture doit être adressée à un tiers (proche, CPAS)."
+"**Facturer à** si la facture doit être adressée à un tiers (un proche, un "
+"organisme public d'aide sociale)."
 
-#: ../../content/residents/chambres.md:165
+#: ../../content/residents/chambres.md:174
 msgid ""
 "Optionally add an **admission reason**, then click **Assign a Resident**."
 msgstr ""
 "Ajoutez éventuellement un **motif d'admission**, puis cliquez sur **Assigner"
 " un habitant**."
 
-#: ../../content/residents/chambres.md:167
+#: ../../content/residents/chambres.md:176
 msgid ""
 "Resthome then creates the **stay** on this room, in the **In Progress** "
 "state, and brings you back to the room record."
@@ -519,11 +542,11 @@ msgstr ""
 "Resthome crée alors le **séjour** sur cette chambre, à l'état **En cours**, "
 "et vous ramène sur la fiche de la chambre."
 
-#: ../../content/residents/chambres.md:172
+#: ../../content/residents/chambres.md:181
 msgid "When the resident is already housed: the transfer"
 msgstr "Cas de l'habitant déjà logé : le transfert"
 
-#: ../../content/residents/chambres.md:174
+#: ../../content/residents/chambres.md:183
 msgid ""
 "If the chosen resident **already occupies a room**, the wizard detects it "
 "and shows a **transfer warning** recalling their current room. The button "
@@ -537,38 +560,38 @@ msgstr ""
 "**termine** l'ancien séjour (motif : *transfert*) et **ouvre** un nouveau "
 "séjour dans la chambre choisie."
 
-#: ../../content/residents/chambres.md:179
+#: ../../content/residents/chambres.md:188
 msgid "Assign ≠ Change Room"
 msgstr "Assigner ≠ Changer de chambre"
 
-#: ../../content/residents/chambres.md:182
+#: ../../content/residents/chambres.md:191
 msgid ""
 "Assigning an **already-housed** resident from the room performs a simple "
 "**transfer**. For a room change that **cleanly splits the accommodation "
-"billing** on the exact date while keeping the INAMI intervention "
-"**continuous** (no new agreement), prefer the **Change Room** action on the "
+"billing** on the exact date while keeping the care allowance paid by the "
+"health insurer **continuous**, prefer the **Change Room** action on the "
 "**stay** — see [Room change and transfer](changement-chambre.md)."
 msgstr ""
-"Assigner depuis la chambre un habitant **déjà logé** effectue un "
-"**transfert** simple. Pour un changement de chambre qui **scinde proprement "
-"la facturation** de l'hébergement à la date exacte tout en gardant "
-"l'intervention INAMI **continue** (sans nouvel accord), préférez l'action "
-"**Changer de chambre** sur le **séjour** — voir [Changement de chambre et "
+"Assigner depuis la chambre un habitant **déjà logé** effectue un simple "
+"**transfert**. Pour un changement de chambre qui **scinde proprement la "
+"facturation de l'hébergement** à la date exacte tout en gardant le forfait "
+"de soins payé par l'assureur santé **continu**, préférez l'action **Changer "
+"de chambre** sur le **séjour** — voir [Changement de chambre et "
 "transfert](changement-chambre.md)."
 
-#: ../../content/residents/chambres.md:189
+#: ../../content/residents/chambres.md:198
 msgid "Configuring room types and amenities"
 msgstr "Configurer les types de chambres et l'équipement"
 
-#: ../../content/residents/chambres.md:191
+#: ../../content/residents/chambres.md:200
 msgid ""
-"The room structure is prepared in the configuration, via **MR/MRS → "
+"The room structure is prepared in the configuration, via **Nursing Home → "
 "Configuration → Rooms**:"
 msgstr ""
-"La structure des chambres se prépare dans la configuration, via **MR/MRS → "
-"Configuration → Chambres** :"
+"La structure des chambres se prépare dans la configuration, via **Maison de "
+"repos → Configuration → Chambres** :"
 
-#: ../../content/residents/chambres.md:194
+#: ../../content/residents/chambres.md:203
 msgid ""
 "**Room Types** — define each type (single, double…), its **daily rate**, its"
 " **default capacity** and the associated **billing product**. A room's rate "
@@ -578,7 +601,7 @@ msgstr ""
 "**tarif journalier**, sa **capacité par défaut** et l’**article de "
 "facturation** associé. Le tarif d'une chambre découle de son type."
 
-#: ../../content/residents/chambres.md:197
+#: ../../content/residents/chambres.md:206
 msgid ""
 "**Room Amenities** — maintain the **catalog** of available amenities "
 "(comfort, medical, technology, outdoor), which you then tick on each room "
@@ -588,28 +611,28 @@ msgstr ""
 "(confort, médical, technologie, extérieur), que vous cochez ensuite sur "
 "chaque fiche chambre."
 
-#: ../../content/residents/chambres.md:200
+#: ../../content/residents/chambres.md:209
 msgid ""
 "For the settings details, see [Configuration](../configuration/index.md)."
 msgstr ""
 "Pour le détail des réglages, voir "
 "[Configuration](../configuration/index.md)."
 
-#: ../../content/residents/chambres.md:202
+#: ../../content/residents/chambres.md:211
 msgid "Key takeaways"
 msgstr "Points clés à retenir"
 
-#: ../../content/residents/chambres.md:204
+#: ../../content/residents/chambres.md:213
 msgid ""
-"The occupancy board lives in **MR/MRS → Accommodation → Rooms**, as a "
+"The occupancy board lives in **Nursing Home → Accommodation → Rooms**, as a "
 "**kanban grouped by status** (Available, Occupied, Under maintenance, "
 "Reserved)."
 msgstr ""
-"Le tableau d'occupation vit dans **MR/MRS → Hébergement → Chambres**, en "
-"**kanban regroupé par statut** (Disponible, Occupée, En maintenance, "
-"Réservée)."
+"Le tableau d'occupation se trouve dans **Maison de repos → Hébergement → "
+"Chambres**, en **kanban regroupé par statut** (Disponible, Occupée, En "
+"maintenance, Réservée)."
 
-#: ../../content/residents/chambres.md:206
+#: ../../content/residents/chambres.md:215
 msgid ""
 "Each card's **badge** shows the occupancy \"occupied / capacity\" and its "
 "color reflects the status; a shared room stays **Available** as long as one "
@@ -619,7 +642,7 @@ msgstr ""
 "sa couleur reflète le statut ; une chambre partagée reste **Disponible** "
 "tant qu'un lit est libre."
 
-#: ../../content/residents/chambres.md:209
+#: ../../content/residents/chambres.md:218
 msgid ""
 "The **Set Under Maintenance** / **Mark as Reserved** buttons force a status;"
 " **Automatic Mode** restores automatic computation."
@@ -627,12 +650,12 @@ msgstr ""
 "Les boutons **Mettre en maintenance** / **Marquer comme réservée** forcent "
 "un statut ; **Mode automatique** rend le calcul automatique."
 
-#: ../../content/residents/chambres.md:211
+#: ../../content/residents/chambres.md:220
 msgid "A room **under maintenance** or **reserved** is **not** assignable."
 msgstr ""
 "Une chambre **en maintenance** ou **réservée** n'est **pas** assignable."
 
-#: ../../content/residents/chambres.md:212
+#: ../../content/residents/chambres.md:221
 msgid ""
 "**Assign a Resident** from the room creates the stay; if the resident is "
 "already housed, the operation becomes a **transfer**."
@@ -640,32 +663,33 @@ msgstr ""
 "**Assigner un habitant** depuis la chambre crée le séjour ; si l'habitant "
 "est déjà logé, l'opération devient un **transfert**."
 
-#: ../../content/residents/chambres.md:214
+#: ../../content/residents/chambres.md:223
 msgid ""
 "The **daily rate** is the accommodation price specific to the facility (per "
-"room type), not to be confused with the **dependency package** tied to Katz."
+"room type), not to be confused with the **care allowance** paid by the "
+"health insurer."
 msgstr ""
 "Le **tarif journalier** est le prix d'hébergement propre à l'établissement "
-"(par type de chambre), à ne pas confondre avec le **forfait de dépendance** "
-"lié à Katz."
+"(par type de chambre), à ne pas confondre avec le **forfait de soins** payé "
+"par l'assureur santé."
 
-#: ../../content/residents/chambres.md:217
+#: ../../content/residents/chambres.md:226
 msgid "Going further"
 msgstr "Pour aller plus loin"
 
-#: ../../content/residents/chambres.md:219
+#: ../../content/residents/chambres.md:228
 msgid "[Managing a resident](gerer-un-resident.md)"
 msgstr "[Gérer un habitant](gerer-un-resident.md)"
 
-#: ../../content/residents/chambres.md:220
+#: ../../content/residents/chambres.md:229
 msgid "[Room change and transfer](changement-chambre.md)"
 msgstr "[Changement de chambre et transfert](changement-chambre.md)"
 
-#: ../../content/residents/chambres.md:221
+#: ../../content/residents/chambres.md:230
 msgid "[The condition report](etat-des-lieux.md)"
 msgstr "[L'état des lieux](etat-des-lieux.md)"
 
-#: ../../content/residents/chambres.md:222
+#: ../../content/residents/chambres.md:231
 msgid "[Configuration](../configuration/index.md)"
 msgstr "[Configuration](../configuration/index.md)"
 

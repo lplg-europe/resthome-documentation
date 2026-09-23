@@ -1,0 +1,28 @@
+# Dette de placement connue — cliquet de check_docs.py.
+#
+# Une ligne = une page COMMUNE qui documente aujourd'hui un module lié à un pays.
+# Listée ici, l'erreur devient un avertissement ; toute NOUVELLE erreur fait
+# échouer la CI. On retire une ligne quand la dette est soldée — jamais on
+# n'en ajoute pour faire passer un changement.
+#
+# Format : page  module  nature  raison
+#   nature = doc   → le texte doit passer dans un encadré rh-country-be ou dans l'espace pays
+#            code  → l'écran est conceptuellement neutre mais DÉFINI dans un module pays :
+#                    c'est le code qui doit remonter la partie neutre (healthcare_* / resthome_*)
+# Relevé du 23/09/2026 (phase 1).
+
+admissions/dossier-candidat.md      l10n_health_be_perdiem_ehealth  code  onglet « Resident Admission » et bloc assurabilité déclarés dans crm_lead_views.xml du module belge
+admissions/dossier-candidat.md      l10n_health_be_perdiem_billing  code  champs neutres (type de séjour souhaité, contacts clés, groupe sanguin) sur crm.lead du module belge
+admissions/admettre.md              l10n_health_be_perdiem_billing  code  contrôle « type de séjour » et « Link to that resident » dans le module belge
+admissions/admettre.md              l10n_health_be_perdiem_ehealth  code  contrôle d'assurabilité avant admission (_assert_mda_ok_before_won) sans point d'accroche neutre
+residents/changement-chambre.md     l10n_health_be_perdiem_ehealth  code  bouton « Internal Transfer » défini dans le module belge ; pas de transfert entre secteurs neutre
+residents/changement-chambre.md     resthome_mr_billing             code  refus sous la catégorie de dépendance minimale et bandeau de décalage
+configuration/index.md              l10n_health_be                  code  aucune liste d'assureurs neutre : seul le menu belge « Mutuelles » existe
+residents/gerer-un-resident.md      l10n_health_be                  doc   sections dépendance (flux Katz) et identité (NISS, mutuelle) hors encadré
+residents/gerer-un-resident.md      l10n_health_be_mda              doc   section « vérifier l'assurabilité » depuis la fiche, hors encadré
+facturation/facturer-un-mois.md     l10n_health_be_perdiem_ehealth  doc   étapes assurabilité (Check MDA) et envoi de la part mutuelle : à passer dans belgique/facturation
+facturation/facturer-un-mois.md     l10n_health_be_efact            doc   suivi des envois eFact dans la procédure commune
+facturation/checklist-fin-de-mois.md l10n_health_be_perdiem_ehealth doc   étapes 1, 3, 7 : assurabilité, compteur d'évaluations, envoi de la part mutuelle
+facturation/checklist-fin-de-mois.md l10n_health_be_efact           doc   étape 8 : accusés, décomptes, reliquats eFact
+facturation/absences.md             l10n_health_be_perdiem_ehealth  doc   « Notification to the health insurer » (Annexe 11/7 via eAgreement) hors encadré
+facturation/depart-deces.md         l10n_health_be_perdiem_ehealth  doc   notification de départ à la mutuelle hors encadré

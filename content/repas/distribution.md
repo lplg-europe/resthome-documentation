@@ -1,11 +1,12 @@
 ---
+modules: [resthome_meal]
 howto_auto: true
 ---
 
 # The meal distribution round
 
 :::{rh-description}
-Distributing meals in a nursing home (MR/MRS) with Resthome: a resident-by-resident tablet assistant, amount eaten, and printable sheets by sector.
+Distributing meals in a nursing home with Resthome: a resident-by-resident tablet assistant, amount eaten, and printable sheets by sector.
 :::
 
 :::{rh-faq}

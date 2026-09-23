@@ -1,3 +1,7 @@
+---
+modules: [l10n_health_be_efact, l10n_health_be_perdiem_ehealth]
+---
+
 # eFact rejections — causes and solutions
 
 :::{rh-description}
@@ -90,7 +94,7 @@ every batch that has billed this insurer for this month.
 On each refused line, a **code** and a **rejection reason** in plain language
 point to the cause.
 
-![eFact batch lines list showing the refused lines with their rejection code and reason](../assets/screenshots/ehealth/13-efact-lignes-rejetees.webp)
+![eFact batch lines list showing the refused lines with their rejection code and reason](../../assets/screenshots/ehealth/13-efact-lignes-rejetees.webp)
 
 ## Frequent rejection causes → action
 
@@ -193,5 +197,5 @@ the batch log:
 
 - [Electronic invoicing (eFact)](efact.md)
 - [Insurability (MDA)](mda.md) · [MDA errors](mda-erreurs.md)
-- [Departure and death](../facturation/depart-deces.md)
-- [FAQ](../faq.md) · [Glossary](../glossaire.md)
+- [Departure and death](../../facturation/depart-deces.md)
+- [FAQ](../../faq.md) · [Glossary](../../glossaire.md)

@@ -1,7 +1,11 @@
+---
+modules: [healthcare_accommodation, healthcare_accommodation_billing, healthcare_base, l10n_health_be]
+---
+
 # Configuration
 
 :::{rh-description}
-Configure Resthome — rooms and sectors, INAMI rates and packages, supplement types, health insurers, facility and multi-company.
+Configure Resthome — rooms and sectors, billing rates, supplement types, health insurers, facility and multi-company.
 :::
 
 :::{toctree}
@@ -9,7 +13,6 @@ Configure Resthome — rooms and sectors, INAMI rates and packages, supplement t
 
 reglages-generaux
 reglages-facturation
-reglages-ehealth
 reglages-repas
 reglages-documents
 :::
@@ -18,31 +21,41 @@ Before day-to-day use, a few basic settings give Resthome its structure. They ar
 
 ## Application settings
 
-The **Settings** menu brings together all the parameters, organized by tab. For a nursing home (MR/MRS), follow these guides — each one details **every field** and its **recommended value**:
+The **Settings** menu brings together all the parameters, organized by tab. For a nursing home, follow these guides — each one details **every field** and its **recommended value**:
 
 - [General settings (residents, rooms)](reglages-generaux.md)
-- [Billing settings (MR/MRS)](reglages-facturation.md)
-- [eHealth and eFact settings](reglages-ehealth.md)
+- [Billing settings](reglages-facturation.md)
 - [Meals and nutrition settings](reglages-repas.md)
 - [Document settings](reglages-documents.md)
 
+:::{admonition} In Belgium
+:class: rh-country rh-country-be
+
+The Belgian pack adds its own settings: the INAMI numbers and approvals of the establishment, the INAMI rates and pseudo-codes, and the eHealth and eFact credentials. See [Belgian settings](../belgique/reglages.md) and [eHealth and eFact settings](../belgique/reglages-ehealth.md).
+:::
+
 ## Rooms and sectors
 
-- **Rooms**: create your rooms, with their **type** (MR, MRS, single or double room…) and their **amenities**.
+- **Rooms**: create your rooms, with their **type** (single or double room, the sector it belongs to…) and their **amenities**.
 - **Sectors / units**: group rooms by living unit.
 - A room can be set to **maintenance**, **reserved**, or switched back to **automatic** assignment based on occupancy.
 
 ## Rates and packages
 
-- **INAMI rates**: the **package** amounts per **Katz category** — the basis for health-insurer reimbursement.
-- **Accommodation rates**: the room price (resident's share).
+- **Billing Rates**: the dated amounts Resthome bills — the accommodation price (resident's share) and, where the country has one, the care allowance paid by the health insurer.
 - **Supplement types**: the catalog of billable services (see [Supplements](../facturation/supplements.md)).
-- **Absence discount rules** and **AViQ codes**: the fine-tuning of billing.
+- **Absence discount rules**: the fine-tuning of billing when a resident is away.
+
+:::{admonition} In Belgium
+:class: rh-country rh-country-be
+
+The rate menu is called **INAMI Rates** and carries the dependency allowance per Katz category and sector, next to the **Billing Codes** (pseudo-codes). See [Belgian settings](../belgique/reglages.md).
+:::
 
 ## Health insurers and reference data
 
-- **Health insurers (insurance organizations)**: the list used for insurability and eFact.
-- **Facility**: your home's information (identifiers, contact details) used in documents and eHealth submissions.
+- **Health insurers**: the list of the residents' health insurers, used for insurability checks and the electronic exchanges with the health insurer, where the country has them.
+- **Facility**: your home's information (identifiers, contact details) used in documents and in those exchanges.
 
 ## Multi-company
 

@@ -1,5 +1,6 @@
 ---
 howto_auto: true
+modules: [resthome_family_portal]
 ---
 
 # Granting an access

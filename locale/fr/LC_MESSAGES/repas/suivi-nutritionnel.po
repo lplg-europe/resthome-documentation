@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-05 03:38+0200\n"
+"POT-Creation-Date: 2026-09-23 17:05+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -20,61 +20,61 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: ../../content/repas/suivi-nutritionnel.md:1
+#: ../../content/repas/suivi-nutritionnel.md:5
 msgid "Nutritional monitoring and undernutrition"
 msgstr "Suivi nutritionnel et dénutrition"
 
-#: ../../content/repas/suivi-nutritionnel.md:4
-msgid ""
-"Screen for undernutrition and track intake in a nursing home (MR/MRS): risk "
-"status, MNA, ESPEN targets and automatic alerts."
-msgstr ""
-"Dépister la dénutrition et suivre les apports en maison de repos (MR/MRS) : "
-"statut de risque, MNA, cibles ESPEN et alertes automatiques."
-
 #: ../../content/repas/suivi-nutritionnel.md:8
+msgid ""
+"Screen for undernutrition and track intake in a nursing home: risk status, "
+"MNA, ESPEN targets and automatic alerts."
+msgstr ""
+"Dépister la dénutrition et suivre les apports en maison de repos : statut de"
+" risque, MNA, cibles ESPEN et alertes automatiques."
+
+#: ../../content/repas/suivi-nutritionnel.md:12
 msgid "How does Resthome identify a resident at risk of undernutrition?"
 msgstr "Comment Resthome identifie-t-il un habitant à risque de dénutrition ?"
 
-#: ../../content/repas/suivi-nutritionnel.md:9
+#: ../../content/repas/suivi-nutritionnel.md:13
 #, python-format
 msgid ""
-"Resthome applies the AViQ/ESPEN screening rules and updates a status: a "
+"Resthome applies screening rules drawn from ESPEN and updates a status: a "
 "weight loss of more than 5% in 1 month or more than 10% in 6 months, a BMI "
 "below 23 in a resident over 70, or an MNA overdue by more than 6 months move"
 " the resident to Re-screen (MNA). A latest MNA of \"undernourished\" places "
 "the resident directly in Undernutrition. The status is recalculated on every"
 " weight change and once a day."
 msgstr ""
-"Resthome applique les règles de dépistage AViQ/ESPEN et met à jour un statut"
-" : une perte de poids de plus de 5 % en 1 mois ou de plus de 10 % en 6 mois,"
-" un IMC inférieur à 23 chez un habitant de plus de 70 ans, ou un MNA en "
-"retard de plus de 6 mois font passer l'habitant en Re-dépister (MNA). Un "
+"Resthome applique des règles de dépistage issues de l'ESPEN et met à jour un"
+" statut : une perte de poids de plus de 5 % en 1 mois ou de plus de 10 % en "
+"6 mois, un IMC inférieur à 23 chez un habitant de plus de 70 ans, ou un MNA "
+"en retard de plus de 6 mois font passer l'habitant en Re-dépister (MNA). Un "
 "dernier MNA « dénutrition » place directement l'habitant en Dénutrition. Le "
 "statut est recalculé à chaque changement de poids et une fois par jour."
 
-#: ../../content/repas/suivi-nutritionnel.md:11
-msgid "Does the undernutrition category change the dependency allowance?"
-msgstr "La catégorie de dénutrition modifie-t-elle le forfait de dépendance ?"
+#: ../../content/repas/suivi-nutritionnel.md:15
+msgid "Does the undernutrition status change the care allowance?"
+msgstr "Le statut de dénutrition modifie-t-il le forfait de soins ?"
 
-#: ../../content/repas/suivi-nutritionnel.md:12
+#: ../../content/repas/suivi-nutritionnel.md:16
 msgid ""
-"No. The dependency allowance depends on the resident's Katz category, not on"
-" their nutritional status. Undernutrition monitoring is a clinical tool: it "
-"triggers assessments (MNA) and alerts, but has no effect on billing. The "
-"Katz category and the allowance are managed elsewhere (see the Katz page)."
+"No. Where the country has a care allowance paid by the health insurer, it "
+"follows the resident's dependency assessment, not their nutritional status. "
+"Undernutrition monitoring is a clinical tool: it triggers assessments (MNA) "
+"and alerts, but has no effect on billing."
 msgstr ""
-"Non. Le forfait de dépendance dépend de la catégorie Katz de l'habitant, pas"
-" de son état nutritionnel. Le suivi de la dénutrition est un outil clinique "
-": il déclenche des évaluations (MNA) et des alertes, mais n'a aucun effet "
-"sur la facturation. La catégorie Katz et le forfait se gèrent ailleurs (voir"
-" la page Katz)."
+"Non. Lorsque le pays prévoit un forfait de soins payé par l'assureur santé, "
+"celui-ci suit l'évaluation de la dépendance de l'habitant, pas son état "
+"nutritionnel. Le suivi de la dénutrition est un outil clinique : il "
+"déclenche des évaluations (MNA) et des alertes, mais n'a aucun effet sur la "
+"facturation."
 
-#: ../../content/repas/suivi-nutritionnel.md:14
+#: ../../content/repas/suivi-nutritionnel.md:18
 msgid "Where do the energy, protein and fluid targets come from?"
 msgstr "D'où proviennent les cibles d'énergie, de protéines et de liquides ?"
 
-#: ../../content/repas/suivi-nutritionnel.md:15
+#: ../../content/repas/suivi-nutritionnel.md:19
 msgid ""
 "The ESPEN coefficients (30 kcal/kg, 1 g/kg of protein, 1.6 L for women and "
 "2.0 L for men) are facility-wide settings. Resthome then computes each "
@@ -88,11 +88,11 @@ msgstr ""
 "kcal/kg pour un habitant en insuffisance pondérale (IMC inférieur ou égal à "
 "21)."
 
-#: ../../content/repas/suivi-nutritionnel.md:17
+#: ../../content/repas/suivi-nutritionnel.md:21
 msgid "How is actual intake calculated?"
 msgstr "Comment les apports réels sont-ils calculés ?"
 
-#: ../../content/repas/suivi-nutritionnel.md:18
+#: ../../content/repas/suivi-nutritionnel.md:22
 msgid ""
 "From the meal services: for each meal served, you record the amount eaten "
 "(Amount Eaten: none, 25%, 50%, 75%, fully). Resthome multiplies the per-"
@@ -107,11 +107,11 @@ msgstr ""
 " 3 jours aux cibles. Les plats doivent donc porter leurs portions et leurs "
 "valeurs par portion."
 
-#: ../../content/repas/suivi-nutritionnel.md:20
+#: ../../content/repas/suivi-nutritionnel.md:24
 msgid "Who receives the undernutrition or deficit alerts?"
 msgstr "Qui reçoit les alertes de dénutrition ou de déficit ?"
 
-#: ../../content/repas/suivi-nutritionnel.md:21
+#: ../../content/repas/suivi-nutritionnel.md:25
 msgid ""
 "A daily cron creates a \"to do\" activity. The undernutrition alert goes to "
 "the head nurse (then the manager); nutritional deficit or hydration deficit "
@@ -126,36 +126,37 @@ msgstr ""
 "est limitée à une fois tous les 30 jours par habitant pour éviter les "
 "doublons."
 
-#: ../../content/repas/suivi-nutritionnel.md:23
+#: ../../content/repas/suivi-nutritionnel.md:27
 msgid "Is nutritional monitoring mandatory to use Resthome?"
 msgstr "Le suivi nutritionnel est-il obligatoire pour utiliser Resthome ?"
 
-#: ../../content/repas/suivi-nutritionnel.md:24
+#: ../../content/repas/suivi-nutritionnel.md:28
 msgid ""
-"No. It is an optional screening feature, designed as a differentiator for "
-"MR/MRS. It assists the team but does not replace the judgment of a dietitian"
-" or a physician. You can use it as much or as little as you like: it "
-"activates as soon as you enter weight, MNA, meals and drinks."
+"No. It is an optional screening feature, designed for nursing homes. It "
+"assists the team but does not replace the judgment of a dietitian or a "
+"physician. You can use it as much or as little as you like: it activates as "
+"soon as you enter weight, MNA, meals and drinks."
 msgstr ""
-"Non. C'est une fonctionnalité de dépistage optionnelle, conçue comme un "
-"différenciateur pour les MR/MRS. Elle assiste l'équipe mais ne remplace pas "
-"le jugement d'un diététicien ou d'un médecin. Vous l'utilisez autant que "
-"vous le souhaitez : elle s'active dès que vous saisissez le poids, le MNA, "
-"les repas et les boissons."
+"Non. C'est une fonctionnalité de dépistage optionnelle, conçue pour les "
+"maisons de repos. Elle assiste l'équipe mais ne remplace pas le jugement "
+"d'un diététicien ou d'un médecin. Vous l'utilisez autant que vous le "
+"souhaitez : elle s'active dès que vous saisissez le poids, le MNA, les repas"
+" et les boissons."
 
-#: ../../content/repas/suivi-nutritionnel.md:27
+#: ../../content/repas/suivi-nutritionnel.md:31
 msgid ""
 "Resthome screens for **undernutrition** and tracks each resident's "
-"**intake**, drawing on the geriatric **ESPEN** recommendations and the "
-"**AViQ** screening rules. Everything is read in the resident record's "
-"**Nutrition tab** and driven from the **Meals dashboard**."
+"**intake**, drawing on the geriatric **ESPEN** recommendations and on "
+"established screening thresholds. Everything is read in the resident "
+"record's **Nutrition tab** and driven from the **Meals dashboard**."
 msgstr ""
 "Resthome dépiste la **dénutrition** et suit les **apports** de chaque "
 "habitant, en s'appuyant sur les recommandations gériatriques **ESPEN** et "
-"les règles de dépistage **AViQ**. Tout se lit dans l’**onglet Nutrition** de"
-" la fiche de l'habitant et se pilote depuis le **tableau de bord Repas**."
+"sur des seuils de dépistage reconnus. Tout se lit dans l'**onglet "
+"Nutrition** de la fiche de l'habitant et se pilote depuis le **tableau de "
+"bord Repas**."
 
-#: ../../content/repas/suivi-nutritionnel.md:32
+#: ../../content/repas/suivi-nutritionnel.md:36
 msgid ""
 "The principle is simple: you enter the **weight**, the **meals served** and "
 "the **drinks**; Resthome derives an **undernutrition risk status**, "
@@ -168,11 +169,11 @@ msgstr ""
 "**couverture** des apports, et lève des **alertes** lorsqu'un habitant "
 "décroche."
 
-#: ../../content/repas/suivi-nutritionnel.md:37
+#: ../../content/repas/suivi-nutritionnel.md:41
 msgid "A screening tool, not a diagnosis"
 msgstr "Un outil de dépistage, pas un diagnostic"
 
-#: ../../content/repas/suivi-nutritionnel.md:40
+#: ../../content/repas/suivi-nutritionnel.md:44
 msgid ""
 "Nutritional monitoring helps the team spot frail residents early. It does "
 "not replace the assessment of a **dietitian** or a **physician**: the status"
@@ -182,11 +183,11 @@ msgstr ""
 " ne remplace pas l'évaluation d'un **diététicien** ou d'un **médecin** : le "
 "statut et les alertes sont des signaux à interpréter, pas des décisions."
 
-#: ../../content/repas/suivi-nutritionnel.md:45
+#: ../../content/repas/suivi-nutritionnel.md:49
 msgid "The resident's Nutrition tab"
 msgstr "L'onglet Nutrition de l'habitant"
 
-#: ../../content/repas/suivi-nutritionnel.md:47
+#: ../../content/repas/suivi-nutritionnel.md:51
 msgid ""
 "Open a resident (the **Residents** or **Meals** app), then the **Nutrition**"
 " tab. The tab only appears for residents. It brings together the "
@@ -198,7 +199,7 @@ msgstr ""
 "statut de dénutrition, le dernier MNA, les cibles ESPEN, les apports, les "
 "régimes et les préférences alimentaires."
 
-#: ../../content/repas/suivi-nutritionnel.md:51
+#: ../../content/repas/suivi-nutritionnel.md:55
 msgid ""
 "![Nutrition tab: undernutrition status, latest MNA and the ESPEN "
 "targets](../assets/screenshots/repas/nutrition-onglet.png)"
@@ -206,15 +207,15 @@ msgstr ""
 "![Onglet Nutrition : statut de dénutrition, dernier MNA et cibles "
 "ESPEN](../assets/screenshots/repas/nutrition-onglet.png)"
 
-#: ../../content/repas/suivi-nutritionnel.md:51
+#: ../../content/repas/suivi-nutritionnel.md:55
 msgid "Nutrition tab: undernutrition status, latest MNA and the ESPEN targets"
 msgstr "Onglet Nutrition : statut de dénutrition, dernier MNA et cibles ESPEN"
 
-#: ../../content/repas/suivi-nutritionnel.md:53
+#: ../../content/repas/suivi-nutritionnel.md:57
 msgid "The undernutrition risk status"
 msgstr "Le statut de risque de dénutrition"
 
-#: ../../content/repas/suivi-nutritionnel.md:55
+#: ../../content/repas/suivi-nutritionnel.md:59
 msgid ""
 "The **Undernutrition Status** block is **read-only**: Resthome computes it, "
 "you do not edit it by hand. It shows a colored badge and the measurements "
@@ -224,67 +225,67 @@ msgstr ""
 "calcule, vous ne le modifiez pas à la main. Il affiche un badge coloré et "
 "les mesures qui l'expliquent."
 
-#: ../../content/repas/suivi-nutritionnel.md:37
+#: ../../content/repas/suivi-nutritionnel.md:41
 msgid "Displayed status"
 msgstr "Statut affiché"
 
-#: ../../content/repas/suivi-nutritionnel.md:37
+#: ../../content/repas/suivi-nutritionnel.md:41
 msgid "Meaning"
 msgstr "Signification"
 
-#: ../../content/repas/suivi-nutritionnel.md:37
+#: ../../content/repas/suivi-nutritionnel.md:41
 msgid "Badge color"
 msgstr "Couleur du badge"
 
-#: ../../content/repas/suivi-nutritionnel.md:37
+#: ../../content/repas/suivi-nutritionnel.md:41
 msgid "**No concern**"
 msgstr "**Aucune inquiétude**"
 
-#: ../../content/repas/suivi-nutritionnel.md:37
+#: ../../content/repas/suivi-nutritionnel.md:41
 msgid "No concern"
 msgstr "Aucune inquiétude"
 
-#: ../../content/repas/suivi-nutritionnel.md:37
+#: ../../content/repas/suivi-nutritionnel.md:41
 msgid "Green"
 msgstr "Vert"
 
-#: ../../content/repas/suivi-nutritionnel.md:37
+#: ../../content/repas/suivi-nutritionnel.md:41
 msgid "**To monitor**"
 msgstr "**À surveiller**"
 
-#: ../../content/repas/suivi-nutritionnel.md:37
+#: ../../content/repas/suivi-nutritionnel.md:41
 msgid "To monitor (last MNA \"at risk\")"
 msgstr "À surveiller (dernier MNA « à risque »)"
 
-#: ../../content/repas/suivi-nutritionnel.md:37
+#: ../../content/repas/suivi-nutritionnel.md:41
 msgid "Blue"
 msgstr "Bleu"
 
-#: ../../content/repas/suivi-nutritionnel.md:37
+#: ../../content/repas/suivi-nutritionnel.md:41
 msgid "**Re-screen (MNA)**"
 msgstr "**Re-dépister (MNA)**"
 
-#: ../../content/repas/suivi-nutritionnel.md:37
-msgid "An AViQ signal is active: redo or renew the MNA"
-msgstr "Un signal AViQ est actif : refaire ou renouveler le MNA"
+#: ../../content/repas/suivi-nutritionnel.md:41
+msgid "A screening signal is active: redo or renew the MNA"
+msgstr "Un signal de dépistage est actif : refaire ou renouveler le MNA"
 
-#: ../../content/repas/suivi-nutritionnel.md:37
+#: ../../content/repas/suivi-nutritionnel.md:41
 msgid "Orange"
 msgstr "Orange"
 
-#: ../../content/repas/suivi-nutritionnel.md:37
+#: ../../content/repas/suivi-nutritionnel.md:41
 msgid "**Undernutrition**"
 msgstr "**Dénutrition**"
 
-#: ../../content/repas/suivi-nutritionnel.md:37
+#: ../../content/repas/suivi-nutritionnel.md:41
 msgid "Confirmed undernutrition (last MNA \"undernourished\")"
 msgstr "Dénutrition confirmée (dernier MNA « dénutrition »)"
 
-#: ../../content/repas/suivi-nutritionnel.md:37
+#: ../../content/repas/suivi-nutritionnel.md:41
 msgid "Red"
 msgstr "Rouge"
 
-#: ../../content/repas/suivi-nutritionnel.md:65
+#: ../../content/repas/suivi-nutritionnel.md:69
 msgid ""
 "Below the badge, the tab shows the **weight**, the **BMI**, a **Low BMI** "
 "indicator (age-adjusted low BMI) and the **weight loss** over 1 month and "
@@ -294,44 +295,52 @@ msgstr ""
 " bas** (IMC bas ajusté à l'âge) et la **perte de poids** sur 1 mois et sur 6"
 " mois."
 
-#: ../../content/repas/suivi-nutritionnel.md:79
+#: ../../content/repas/suivi-nutritionnel.md:83
 msgid "What triggers \"Re-screen (MNA)\""
 msgstr "Ce qui déclenche « Re-dépister (MNA) »"
 
-#: ../../content/repas/suivi-nutritionnel.md:82
+#: ../../content/repas/suivi-nutritionnel.md:86
 msgid ""
-"An **AViQ signal** is active as soon as one of these conditions is true:"
-msgstr "Un **signal AViQ** est actif dès qu'une de ces conditions est vraie :"
+"A **screening signal** is active as soon as one of these conditions is true:"
+msgstr ""
+"Un **signal de dépistage** est actif dès qu'une de ces conditions est vraie "
+":"
 
-#: ../../content/repas/suivi-nutritionnel.md:84
+#: ../../content/repas/suivi-nutritionnel.md:88
 msgid "**weight loss** of more than **5%** over about 1 month;"
 msgstr "**perte de poids** de plus de **5 %** sur environ 1 mois ;"
 
-#: ../../content/repas/suivi-nutritionnel.md:85
+#: ../../content/repas/suivi-nutritionnel.md:89
 msgid "**weight loss** of more than **10%** over about 6 months;"
 msgstr "**perte de poids** de plus de **10 %** sur environ 6 mois ;"
 
-#: ../../content/repas/suivi-nutritionnel.md:86
+#: ../../content/repas/suivi-nutritionnel.md:90
 msgid "**BMI below 23** in a resident **over 70** (age-adjusted threshold);"
 msgstr ""
 "**IMC inférieur à 23** chez un habitant de **plus de 70 ans** (seuil ajusté "
 "à l'âge) ;"
 
-#: ../../content/repas/suivi-nutritionnel.md:87
+#: ../../content/repas/suivi-nutritionnel.md:91
 msgid "**overdue MNA**: no MNA, or a last MNA more than 6 months old."
 msgstr "**MNA en retard** : aucun MNA, ou un dernier MNA de plus de 6 mois."
 
-#: ../../content/repas/suivi-nutritionnel.md:89
-msgid ""
-"The thresholds match the default values of the AViQ/PWNS-be-A screening."
-msgstr ""
-"Les seuils correspondent aux valeurs par défaut du dépistage AViQ/PWNS-be-A."
+#: ../../content/repas/suivi-nutritionnel.md:94
+msgid "In Belgium"
+msgstr "En Belgique"
 
-#: ../../content/repas/suivi-nutritionnel.md:92
+#: ../../content/repas/suivi-nutritionnel.md:97
+msgid ""
+"These thresholds are the default values of the AViQ screening (PWNS-be-A). "
+"See [Care in Belgium](../belgique/soins.md)."
+msgstr ""
+"Ces seuils sont les valeurs par défaut du dépistage AViQ (PWNS-be-A). Voir "
+"[Les soins en Belgique](../belgique/soins.md)."
+
+#: ../../content/repas/suivi-nutritionnel.md:101
 msgid "Weigh regularly to get the weight loss"
 msgstr "Pesez régulièrement pour obtenir la perte de poids"
 
-#: ../../content/repas/suivi-nutritionnel.md:95
+#: ../../content/repas/suivi-nutritionnel.md:104
 msgid ""
 "The weight loss over 1 and 6 months is computed from the **weights logged in"
 " the vital signs** (nursing notes). Without regular weigh-ins, Resthome "
@@ -343,11 +352,11 @@ msgstr ""
 "régulières, Resthome ne peut pas comparer et ces pourcentages restent à "
 "zéro. La **taille** est nécessaire pour l’**IMC**."
 
-#: ../../content/repas/suivi-nutritionnel.md:100
+#: ../../content/repas/suivi-nutritionnel.md:109
 msgid "The latest MNA"
 msgstr "Le dernier MNA"
 
-#: ../../content/repas/suivi-nutritionnel.md:102
+#: ../../content/repas/suivi-nutritionnel.md:111
 msgid ""
 "The **Latest MNA** block summarizes the resident's most recent **MNA** (Mini"
 " Nutritional Assessment) assessment: **date**, **score** and "
@@ -357,11 +366,11 @@ msgstr ""
 "Assessment) la plus récente de l'habitant : **date**, **score** et "
 "**interprétation** (normal, à risque, dénutrition)."
 
-#: ../../content/repas/suivi-nutritionnel.md:106
+#: ../../content/repas/suivi-nutritionnel.md:115
 msgid "Two buttons give access to it:"
 msgstr "Deux boutons y donnent accès :"
 
-#: ../../content/repas/suivi-nutritionnel.md:108
+#: ../../content/repas/suivi-nutritionnel.md:117
 msgid ""
 "**New MNA** opens a new MNA assessment pre-filled for this resident, with "
 "the **BMI band** already selected based on their known BMI."
@@ -369,11 +378,11 @@ msgstr ""
 "**Nouveau MNA** ouvre une nouvelle évaluation MNA pré-remplie pour cet "
 "habitant, avec la **tranche d'IMC** déjà sélectionnée d'après son IMC connu."
 
-#: ../../content/repas/suivi-nutritionnel.md:110
+#: ../../content/repas/suivi-nutritionnel.md:119
 msgid "**MNA History** opens the list of their previous MNAs."
 msgstr "**Historique MNA** ouvre la liste de ses MNA précédents."
 
-#: ../../content/repas/suivi-nutritionnel.md:112
+#: ../../content/repas/suivi-nutritionnel.md:121
 msgid ""
 "The MNA-SF is a **14-point** scale: **12–14** = normal status, **8–11** = at"
 " risk of undernutrition, **0–7** = undernourished. It is the MNA that "
@@ -387,11 +396,11 @@ msgstr ""
 "évaluations sont des **registres cliniques** : voir [Registres "
 "cliniques](../soins/registres.md)."
 
-#: ../../content/repas/suivi-nutritionnel.md:117
+#: ../../content/repas/suivi-nutritionnel.md:126
 msgid "The ESPEN targets"
 msgstr "Les cibles ESPEN"
 
-#: ../../content/repas/suivi-nutritionnel.md:119
+#: ../../content/repas/suivi-nutritionnel.md:128
 msgid ""
 "The **Nutritional Needs (ESPEN)** block shows the target **specific to the "
 "resident**, derived from their weight and sex:"
@@ -399,39 +408,39 @@ msgstr ""
 "Le bloc **Besoins nutritionnels (ESPEN)** affiche la cible **propre à "
 "l'habitant**, dérivée de son poids et de son sexe :"
 
-#: ../../content/repas/suivi-nutritionnel.md:92
+#: ../../content/repas/suivi-nutritionnel.md:101
 msgid "Target"
 msgstr "Cible"
 
-#: ../../content/repas/suivi-nutritionnel.md:92
+#: ../../content/repas/suivi-nutritionnel.md:101
 msgid "How it is computed"
 msgstr "Comment elle est calculée"
 
-#: ../../content/repas/suivi-nutritionnel.md:92
+#: ../../content/repas/suivi-nutritionnel.md:101
 msgid "**Energy Target (kcal/day)** — energy"
 msgstr "**Cible énergétique (kcal/jour)** — énergie"
 
-#: ../../content/repas/suivi-nutritionnel.md:92
+#: ../../content/repas/suivi-nutritionnel.md:101
 msgid "Weight × 30 kcal/kg (or 35 if BMI less than or equal to 21)"
 msgstr "Poids × 30 kcal/kg (ou 35 si IMC inférieur ou égal à 21)"
 
-#: ../../content/repas/suivi-nutritionnel.md:92
+#: ../../content/repas/suivi-nutritionnel.md:101
 msgid "**Protein Target (g/day)** — protein"
 msgstr "**Cible protéique (g/jour)** — protéines"
 
-#: ../../content/repas/suivi-nutritionnel.md:92
+#: ../../content/repas/suivi-nutritionnel.md:101
 msgid "Weight × 1 g/kg"
 msgstr "Poids × 1 g/kg"
 
-#: ../../content/repas/suivi-nutritionnel.md:92
+#: ../../content/repas/suivi-nutritionnel.md:101
 msgid "**Fluid Target (ml/day)** — fluids"
 msgstr "**Cible hydrique (ml/jour)** — liquides"
 
-#: ../../content/repas/suivi-nutritionnel.md:92
+#: ../../content/repas/suivi-nutritionnel.md:101
 msgid "1600 ml (women) / 2000 ml (men)"
 msgstr "1600 ml (femmes) / 2000 ml (hommes)"
 
-#: ../../content/repas/suivi-nutritionnel.md:128
+#: ../../content/repas/suivi-nutritionnel.md:137
 msgid ""
 "The **coefficients** (30/35 kcal, 1 g, 1.6/2.0 L) are set once for the whole"
 " facility in [Meal and nutrition settings](../configuration/reglages-"
@@ -442,11 +451,11 @@ msgstr ""
 "nutrition](../configuration/reglages-repas.md). Resthome en dérive ensuite "
 "la cible individuelle de chaque habitant."
 
-#: ../../content/repas/suivi-nutritionnel.md:132
+#: ../../content/repas/suivi-nutritionnel.md:141
 msgid "Intake vs needs (3-day average)"
 msgstr "Apports vs besoins (moyenne sur 3 jours)"
 
-#: ../../content/repas/suivi-nutritionnel.md:134
+#: ../../content/repas/suivi-nutritionnel.md:143
 msgid ""
 "The **Intake vs Needs** block compares what the resident actually consumed "
 "with their targets."
@@ -454,7 +463,7 @@ msgstr ""
 "Le bloc **Apports vs besoins** compare ce que l'habitant a réellement "
 "consommé à ses cibles."
 
-#: ../../content/repas/suivi-nutritionnel.md:137
+#: ../../content/repas/suivi-nutritionnel.md:146
 msgid ""
 "The **Today** row shows the day's intake: **kcal**, **protein (g)** and "
 "**fluids (ml)**."
@@ -462,7 +471,7 @@ msgstr ""
 "La ligne **Aujourd'hui** affiche les apports du jour : **kcal**, **protéines"
 " (g)** et **liquides (ml)**."
 
-#: ../../content/repas/suivi-nutritionnel.md:139
+#: ../../content/repas/suivi-nutritionnel.md:148
 msgid ""
 "Three coverage bars — **Energy Coverage**, **Protein Coverage** and **Fluid "
 "Coverage** — give the **3-day average** as a percentage of the target."
@@ -471,7 +480,7 @@ msgstr ""
 "protéique** et **Couverture hydrique** — donnent la **moyenne sur 3 jours** "
 "en pourcentage de la cible."
 
-#: ../../content/repas/suivi-nutritionnel.md:141
+#: ../../content/repas/suivi-nutritionnel.md:150
 msgid ""
 "Two indicators, **Nutrition Deficit** and **Hydration Deficit**, become true"
 " when coverage falls below the configured threshold (75% by default)."
@@ -480,25 +489,25 @@ msgstr ""
 "deviennent vrais lorsque la couverture passe sous le seuil configuré (75 % "
 "par défaut)."
 
-#: ../../content/repas/suivi-nutritionnel.md:144
+#: ../../content/repas/suivi-nutritionnel.md:153
 msgid "Two buttons round out the block:"
 msgstr "Deux boutons complètent le bloc :"
 
-#: ../../content/repas/suivi-nutritionnel.md:146
+#: ../../content/repas/suivi-nutritionnel.md:155
 msgid "**Log Drink** quickly records a drink for this resident."
 msgstr ""
 "**Enregistrer une boisson** consigne rapidement une boisson pour cet "
 "habitant."
 
-#: ../../content/repas/suivi-nutritionnel.md:147
+#: ../../content/repas/suivi-nutritionnel.md:156
 msgid "**Hydration History** opens their drinks log."
 msgstr "**Historique d'hydratation** ouvre le journal de ses boissons."
 
-#: ../../content/repas/suivi-nutritionnel.md:149
+#: ../../content/repas/suivi-nutritionnel.md:158
 msgid "For coverage to fill in"
 msgstr "Pour que la couverture se remplisse"
 
-#: ../../content/repas/suivi-nutritionnel.md:152
+#: ../../content/repas/suivi-nutritionnel.md:161
 msgid ""
 "Food intake comes from the **meal services**: at each meal, record the "
 "**amount eaten** (see below). The **dishes** must carry their **portions** "
@@ -511,11 +520,11 @@ msgstr ""
 "protéines), sinon les apports restent à zéro. L'hydratation provient des "
 "**boissons consignées**."
 
-#: ../../content/repas/suivi-nutritionnel.md:158
+#: ../../content/repas/suivi-nutritionnel.md:167
 msgid "Logging food intake"
 msgstr "Enregistrer les apports alimentaires"
 
-#: ../../content/repas/suivi-nutritionnel.md:160
+#: ../../content/repas/suivi-nutritionnel.md:169
 msgid ""
 "Energy and protein intake is derived from the **meal services**. On a "
 "service, the **Amount Eaten** field offers: **Not Eaten**, **25%**, **50%**,"
@@ -525,7 +534,7 @@ msgstr ""
 "repas**. Sur un service, le champ **Quantité mangée** propose : **Non "
 "mangé**, **25 %**, **50 %**, **75 %** et **Mangé entièrement**."
 
-#: ../../content/repas/suivi-nutritionnel.md:164
+#: ../../content/repas/suivi-nutritionnel.md:173
 msgid ""
 "Resthome multiplies the **per-portion** nutritional value of the dishes "
 "served by this percentage to obtain the meal's actual intake, then takes the"
@@ -539,11 +548,11 @@ msgstr ""
 "Opérations** (Services de repas, Distribution) — voir [Menus, régimes et "
 "hydratation](menus-regimes.md)."
 
-#: ../../content/repas/suivi-nutritionnel.md:169
+#: ../../content/repas/suivi-nutritionnel.md:178
 msgid "Recording hydration"
 msgstr "Enregistrer l'hydratation"
 
-#: ../../content/repas/suivi-nutritionnel.md:171
+#: ../../content/repas/suivi-nutritionnel.md:180
 msgid ""
 "Drinks are logged throughout the day in **Meals → Operations → Hydration**, "
 "a directly editable list (quick entry). Each line records the resident, the "
@@ -556,7 +565,7 @@ msgstr ""
 "de boisson** : eau, café/thé, jus/soda, lait/produits laitiers, "
 "soupe/bouillon, complément oral, autre."
 
-#: ../../content/repas/suivi-nutritionnel.md:176
+#: ../../content/repas/suivi-nutritionnel.md:185
 msgid ""
 "You can also log a drink in one click from the Nutrition tab, with the **Log"
 " Drink** button. Resthome adds up the day's drinks, computes the **fluid "
@@ -567,7 +576,7 @@ msgstr ""
 "les boissons du jour, calcule la **couverture hydrique** sur 3 jours et lève"
 " une alerte si les apports sont insuffisants."
 
-#: ../../content/repas/suivi-nutritionnel.md:180
+#: ../../content/repas/suivi-nutritionnel.md:189
 msgid ""
 "![Hydration log grouped by resident, with the quantity drunk and the daily "
 "total](../assets/screenshots/repas/hydratation-saisie.png)"
@@ -575,7 +584,7 @@ msgstr ""
 "![Relevé d'hydratation groupé par habitant, avec la quantité bue et le total"
 " du jour](../assets/screenshots/repas/hydratation-saisie.png)"
 
-#: ../../content/repas/suivi-nutritionnel.md:180
+#: ../../content/repas/suivi-nutritionnel.md:189
 msgid ""
 "Hydration log grouped by resident, with the quantity drunk and the daily "
 "total"
@@ -583,61 +592,61 @@ msgstr ""
 "Relevé d'hydratation groupé par habitant, avec la quantité bue et le total "
 "du jour"
 
-#: ../../content/repas/suivi-nutritionnel.md:182
+#: ../../content/repas/suivi-nutritionnel.md:191
 msgid "The nutrition dashboard"
 msgstr "Le tableau de bord nutrition"
 
-#: ../../content/repas/suivi-nutritionnel.md:184
+#: ../../content/repas/suivi-nutritionnel.md:193
 msgid ""
-"Open **Meals → Statistics**: below the general cards (Residents, Menus, "
-"Alerts), the page brings together three nutritional banners that only appear"
-" if they concern at least one resident."
+"Open **Meals → Reporting → Statistics**: below the general cards (Residents,"
+" Menus, Alerts), the page brings together three nutritional banners that "
+"only appear if they concern at least one resident."
 msgstr ""
-"Ouvrez **Repas → Statistiques** : sous les cartes générales (Habitants, "
-"Menus, Alertes), la page rassemble trois bandeaux nutritionnels qui "
-"n'apparaissent que s'ils concernent au moins un habitant."
+"Ouvrez **Repas → Rapports → Statistiques** : sous les cartes générales "
+"(Habitants, Menus, Alertes), la page rassemble trois bandeaux nutritionnels "
+"qui n'apparaissent que s'ils concernent au moins un habitant."
 
-#: ../../content/repas/suivi-nutritionnel.md:149
+#: ../../content/repas/suivi-nutritionnel.md:158
 msgid "Banner"
 msgstr "Bandeau"
 
-#: ../../content/repas/suivi-nutritionnel.md:149
+#: ../../content/repas/suivi-nutritionnel.md:158
 msgid "Residents concerned"
 msgstr "Habitants concernés"
 
-#: ../../content/repas/suivi-nutritionnel.md:149
+#: ../../content/repas/suivi-nutritionnel.md:158
 msgid "Button"
 msgstr "Bouton"
 
-#: ../../content/repas/suivi-nutritionnel.md:149
+#: ../../content/repas/suivi-nutritionnel.md:158
 msgid "**Undernutrition risk** (red)"
 msgstr "**Risque de dénutrition** (rouge)"
 
-#: ../../content/repas/suivi-nutritionnel.md:149
+#: ../../content/repas/suivi-nutritionnel.md:158
 msgid "Re-screen (MNA) or Undernutrition status"
 msgstr "Statut Re-dépister (MNA) ou Dénutrition"
 
-#: ../../content/repas/suivi-nutritionnel.md:149
+#: ../../content/repas/suivi-nutritionnel.md:158
 msgid "**Review** opens the list of these residents"
 msgstr "**Examiner** ouvre la liste de ces habitants"
 
-#: ../../content/repas/suivi-nutritionnel.md:149
+#: ../../content/repas/suivi-nutritionnel.md:158
 msgid "**Nutritional deficit** (orange)"
 msgstr "**Déficit nutritionnel** (orange)"
 
-#: ../../content/repas/suivi-nutritionnel.md:149
+#: ../../content/repas/suivi-nutritionnel.md:158
 msgid "Intake below the ESPEN target"
 msgstr "Apports sous la cible ESPEN"
 
-#: ../../content/repas/suivi-nutritionnel.md:149
+#: ../../content/repas/suivi-nutritionnel.md:158
 msgid "**Hydration deficit** (blue)"
 msgstr "**Déficit d'hydratation** (bleu)"
 
-#: ../../content/repas/suivi-nutritionnel.md:149
+#: ../../content/repas/suivi-nutritionnel.md:158
 msgid "Fluid intake below the target"
 msgstr "Apports hydriques sous la cible"
 
-#: ../../content/repas/suivi-nutritionnel.md:194
+#: ../../content/repas/suivi-nutritionnel.md:203
 msgid ""
 "Each **Review** button opens the filtered list of residents, on their full "
 "record (Nutrition tab included) to act directly."
@@ -645,11 +654,11 @@ msgstr ""
 "Chaque bouton **Examiner** ouvre la liste filtrée des habitants, sur leur "
 "fiche complète (onglet Nutrition inclus) pour agir directement."
 
-#: ../../content/repas/suivi-nutritionnel.md:199
+#: ../../content/repas/suivi-nutritionnel.md:208
 msgid "The automatic alerts"
 msgstr "Les alertes automatiques"
 
-#: ../../content/repas/suivi-nutritionnel.md:201
+#: ../../content/repas/suivi-nutritionnel.md:210
 msgid ""
 "A **daily cron** refreshes the screening and creates **activities** for "
 "residents who fall behind. Activities are capped at **once every 30 days** "
@@ -659,47 +668,47 @@ msgstr ""
 " les habitants qui décrochent. Les activités sont limitées à **une fois tous"
 " les 30 jours** par habitant pour éviter les doublons."
 
-#: ../../content/repas/suivi-nutritionnel.md:149
+#: ../../content/repas/suivi-nutritionnel.md:158
 msgid "Alert"
 msgstr "Alerte"
 
-#: ../../content/repas/suivi-nutritionnel.md:149
+#: ../../content/repas/suivi-nutritionnel.md:158
 msgid "Condition"
 msgstr "Condition"
 
-#: ../../content/repas/suivi-nutritionnel.md:149
+#: ../../content/repas/suivi-nutritionnel.md:158
 msgid "Recipient"
 msgstr "Destinataire"
 
-#: ../../content/repas/suivi-nutritionnel.md:149
+#: ../../content/repas/suivi-nutritionnel.md:158
 msgid "**Undernutrition — redo/renew the MNA**"
 msgstr "**Dénutrition — refaire/renouveler le MNA**"
 
-#: ../../content/repas/suivi-nutritionnel.md:149
+#: ../../content/repas/suivi-nutritionnel.md:158
 msgid "Head nurse, otherwise manager"
 msgstr "Infirmier chef, sinon responsable"
 
-#: ../../content/repas/suivi-nutritionnel.md:149
+#: ../../content/repas/suivi-nutritionnel.md:158
 msgid "**Nutritional deficit — intake below target**"
 msgstr "**Déficit nutritionnel — apports sous la cible**"
 
-#: ../../content/repas/suivi-nutritionnel.md:149
+#: ../../content/repas/suivi-nutritionnel.md:158
 msgid "Energy or protein coverage below the threshold"
 msgstr "Couverture énergétique ou protéique sous le seuil"
 
-#: ../../content/repas/suivi-nutritionnel.md:149
+#: ../../content/repas/suivi-nutritionnel.md:158
 msgid "Kitchen (dietitian), otherwise head nurse, otherwise manager"
 msgstr "Cuisine (diététicien), sinon infirmier chef, sinon responsable"
 
-#: ../../content/repas/suivi-nutritionnel.md:149
+#: ../../content/repas/suivi-nutritionnel.md:158
 msgid "**Hydration deficit — fluid intake below target**"
 msgstr "**Déficit d'hydratation — apports hydriques sous la cible**"
 
-#: ../../content/repas/suivi-nutritionnel.md:149
+#: ../../content/repas/suivi-nutritionnel.md:158
 msgid "Fluid coverage below the threshold"
 msgstr "Couverture hydrique sous le seuil"
 
-#: ../../content/repas/suivi-nutritionnel.md:211
+#: ../../content/repas/suivi-nutritionnel.md:220
 msgid ""
 "In addition to the activities, the Nutrition tab shows a **warning banner** "
 "at the top as soon as the status is Re-screen (MNA) or Undernutrition, "
@@ -709,11 +718,11 @@ msgstr ""
 "d'avertissement** en haut dès que le statut est Re-dépister (MNA) ou "
 "Dénutrition, rappelant la perte de poids et invitant à refaire le MNA."
 
-#: ../../content/repas/suivi-nutritionnel.md:215
+#: ../../content/repas/suivi-nutritionnel.md:224
 msgid "Set the deficit threshold"
 msgstr "Régler le seuil de déficit"
 
-#: ../../content/repas/suivi-nutritionnel.md:218
+#: ../../content/repas/suivi-nutritionnel.md:227
 msgid ""
 "The **75%** coverage threshold that triggers the deficit alerts is changed "
 "in [Meal and nutrition settings](../configuration/reglages-repas.md). Lower "
@@ -724,11 +733,11 @@ msgstr ""
 "nutrition](../configuration/reglages-repas.md). Abaissez-le pour être alerté"
 " plus tard, relevez-le pour être alerté plus tôt."
 
-#: ../../content/repas/suivi-nutritionnel.md:223
+#: ../../content/repas/suivi-nutritionnel.md:232
 msgid "Key takeaways"
 msgstr "Points clés à retenir"
 
-#: ../../content/repas/suivi-nutritionnel.md:225
+#: ../../content/repas/suivi-nutritionnel.md:234
 msgid ""
 "The resident's **Nutrition tab** brings together the undernutrition status, "
 "latest MNA, ESPEN targets and intake coverage — read-only for the computed "
@@ -738,15 +747,15 @@ msgstr ""
 "dernier MNA, les cibles ESPEN et la couverture des apports — en lecture "
 "seule pour les mesures calculées."
 
-#: ../../content/repas/suivi-nutritionnel.md:227
+#: ../../content/repas/suivi-nutritionnel.md:236
 msgid ""
-"The **undernutrition status** follows the AViQ/ESPEN rules: weight loss, "
-"age-adjusted BMI, overdue MNA or \"undernourished\" MNA."
+"The **undernutrition status** follows the screening rules: weight loss, age-"
+"adjusted BMI, overdue MNA or \"undernourished\" MNA."
 msgstr ""
-"Le **statut de dénutrition** suit les règles AViQ/ESPEN : perte de poids, "
+"Le **statut de dénutrition** suit les règles de dépistage : perte de poids, "
 "IMC ajusté à l'âge, MNA en retard ou MNA « dénutrition »."
 
-#: ../../content/repas/suivi-nutritionnel.md:229
+#: ../../content/repas/suivi-nutritionnel.md:238
 msgid ""
 "The **targets** (energy, protein, fluids) are specific to each resident, "
 "computed from their weight and sex using the configurable ESPEN "
@@ -756,7 +765,7 @@ msgstr ""
 "habitant, calculées à partir de son poids et de son sexe avec les "
 "coefficients ESPEN configurables."
 
-#: ../../content/repas/suivi-nutritionnel.md:231
+#: ../../content/repas/suivi-nutritionnel.md:240
 msgid ""
 "The **intake** is derived from the **amount eaten** at meals and the "
 "**logged drinks**; coverage is a 3-day average."
@@ -764,44 +773,40 @@ msgstr ""
 "Les **apports** sont dérivés de la **quantité mangée** aux repas et des "
 "**boissons consignées** ; la couverture est une moyenne sur 3 jours."
 
-#: ../../content/repas/suivi-nutritionnel.md:233
+#: ../../content/repas/suivi-nutritionnel.md:242
 msgid ""
 "The **Meals dashboard** (Statistics) and the **daily alerts** surface at-"
-"risk residents; this monitoring does **not** change the allowance, which "
-"depends on the Katz category."
+"risk residents; this monitoring does **not** change the care allowance, "
+"which follows the dependency assessment."
 msgstr ""
 "Le **tableau de bord Repas** (Statistiques) et les **alertes quotidiennes** "
 "font remonter les habitants à risque ; ce suivi ne modifie **pas** le "
-"forfait, qui dépend de la catégorie Katz."
+"forfait de soins, qui suit l'évaluation de la dépendance."
 
-#: ../../content/repas/suivi-nutritionnel.md:237
+#: ../../content/repas/suivi-nutritionnel.md:246
 msgid "Further reading"
 msgstr "Pour aller plus loin"
 
-#: ../../content/repas/suivi-nutritionnel.md:239
+#: ../../content/repas/suivi-nutritionnel.md:248
 msgid "[Menus, diets and hydration](menus-regimes.md)"
 msgstr "[Menus, régimes et hydratation](menus-regimes.md)"
 
-#: ../../content/repas/suivi-nutritionnel.md:240
+#: ../../content/repas/suivi-nutritionnel.md:249
 msgid "[Family portal and kiosk](portail-familles.md)"
 msgstr "[Portail familles et kiosque](portail-familles.md)"
 
-#: ../../content/repas/suivi-nutritionnel.md:241
+#: ../../content/repas/suivi-nutritionnel.md:250
 msgid "[Meals overview](index.md)"
 msgstr "[Vue d'ensemble des Repas](index.md)"
 
-#: ../../content/repas/suivi-nutritionnel.md:242
+#: ../../content/repas/suivi-nutritionnel.md:251
 msgid "[Clinical registers (MNA)](../soins/registres.md)"
 msgstr "[Registres cliniques (MNA)](../soins/registres.md)"
 
-#: ../../content/repas/suivi-nutritionnel.md:243
+#: ../../content/repas/suivi-nutritionnel.md:252
 msgid "[Meal and nutrition settings](../configuration/reglages-repas.md)"
 msgstr ""
 "[Réglages des repas et de la nutrition](../configuration/reglages-repas.md)"
-
-#: ../../content/repas/suivi-nutritionnel.md:244
-msgid "[The allowance and the Katz category](../residents/katz.md)"
-msgstr "[Le forfait et la catégorie Katz](../residents/katz.md)"
 
 #~ msgid ""
 #~ "flowchart TD\n"
@@ -813,3 +818,6 @@ msgstr "[Le forfait et la catégorie Katz](../residents/katz.md)"
 #~ "    F -- Yes --> G[To monitor]\n"
 #~ "    F -- No --> H[No concern]"
 #~ msgstr ""
+
+#~ msgid "[The allowance and the Katz category](../belgique/katz.md)"
+#~ msgstr "[Le forfait et la catégorie Katz](../belgique/katz.md)"

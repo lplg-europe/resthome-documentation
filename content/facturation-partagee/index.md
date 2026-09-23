@@ -1,3 +1,7 @@
+---
+modules: [resthome_split_billing]
+---
+
 # Split billing
 
 :::{rh-description}
@@ -6,13 +10,13 @@ Split billing in Resthome: the resident's share divided among several debtors, b
 
 :::{rh-faq}
 What part of the invoice is split?
-: Only the resident's share — accommodation and supplements. The INAMI package is not split: it goes to the health insurer through eFact.
+: Only the resident's share — accommodation and supplements. The care allowance paid by the health insurer is not split: it goes to the health insurer in full.
 
 Can I mix percentages and fixed amounts?
 : Not freely. Either every debtor has a percentage and the total is exactly 100, or some debtors have a fixed amount and exactly one is **Variable** and takes what is left.
 
 Who can be a debtor?
-: Anyone: the maintenance debtors (children, relatives), a public welfare centre, a notary, an outside payer.
+: Anyone: the maintenance debtors (children, relatives), a public welfare body, a notary, an outside payer.
 :::
 
 :::{toctree}
@@ -37,9 +41,17 @@ per debtor.
 :::{admonition} The insurer's share is not concerned
 :class: note
 
-The INAMI package goes to the health insurer through
-[eFact](../ehealth/efact.md), as usual. Split billing only touches what the
-resident owes.
+The care allowance goes to the health insurer, as usual. Split billing only
+touches what the resident owes.
+:::
+
+:::{admonition} In Belgium
+:class: rh-country rh-country-be
+
+The INAMI allowance goes to the mutuality through eFact and is never split. A
+CPAS that pays part of the resident's share is added here as a debtor. See
+[Billing a month in Belgium](../belgique/facturation.md) and
+[CPAS coverage](../belgique/cpas.md).
 :::
 
 ## Two ways of splitting

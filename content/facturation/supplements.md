@@ -1,3 +1,7 @@
+---
+modules: [resthome_sales, healthcare_accommodation_billing]
+---
+
 # Supplements
 
 :::{rh-description}
@@ -21,7 +25,7 @@ How do I create supplement envelopes for every resident at once?
 : On a billing period, use the Create supplement envelopes action: it prepares in one click the envelopes for all residents active during the month.
 :::
 
-Beyond accommodation and the dependency package, a resident may have **supplements** to pay: single room, television, hairdresser, pedicure, drinks, telephone… Resthome groups them into a **supplement envelope** per resident and per month.
+Beyond accommodation and the care allowance, a resident may have **supplements** to pay: single room, television, hairdresser, pedicure, drinks, telephone… Resthome groups them into a **supplement envelope** per resident and per month.
 
 ## Supplement envelope
 

@@ -1,4 +1,5 @@
 ---
+modules: [l10n_health_be_efact, l10n_health_be_perdiem_ehealth, healthcare_accommodation_billing, l10n_health_be_perdiem_billing]
 howto_auto: true
 ---
 
@@ -75,10 +76,10 @@ send → follow the responses**.
 
 ## 1. The periods dashboard
 
-Open the **MR/MRS → Dashboard** application. Each month is a card summarising
+Open the **Billing → Dashboard** application. Each month is a card summarising
 the essentials.
 
-![Billing periods dashboard, one card per month with the eFact status](../assets/screenshots/efact/01-tableau-de-bord.webp)
+![Billing periods dashboard, one card per month with the eFact status](../../assets/screenshots/efact/01-tableau-de-bord.webp)
 
 On each card:
 
@@ -99,11 +100,11 @@ organisations may refuse the batch.
 
 Open the month's period. In **Draft** state, one button matters: **Generate**.
 
-![Billing period in Draft state, with the Generate button and the self-check messages on the right](../assets/screenshots/efact/02-periode-draft.webp)
+![Billing period in Draft state, with the Generate button and the self-check messages on the right](../../assets/screenshots/efact/02-periode-draft.webp)
 
 A **"Generate billing"** wizard opens.
 
-![Generate billing wizard: period, dates, residents and MDA loading](../assets/screenshots/efact/03-generer-wizard.webp)
+![Generate billing wizard: period, dates, residents and MDA loading](../../assets/screenshots/efact/03-generer-wizard.webp)
 
 - **Billing Period / dates**: reminder of the month concerned.
 - **Residents**: leave **empty for all active residents** (or target one
@@ -115,7 +116,7 @@ Click **Generate**. The period becomes **Generated**: Resthome computed, for
 **each resident**, the Katz allowance, the **INAMI share** (mutuality) and the
 **resident share**.
 
-![Period in Generated state: toolbar Create invoices / Check MDA / Generate eFact, and residents table with INAMI share and resident share](../assets/screenshots/efact/04-periode-generated.webp)
+![Period in Generated state: toolbar Create invoices / Check MDA / Generate eFact, and residents table with INAMI share and resident share](../../assets/screenshots/efact/04-periode-generated.webp)
 
 In the **Residents** tab, you find line by line:
 

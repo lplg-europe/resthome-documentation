@@ -1,11 +1,12 @@
 ---
 howto_auto: true
+modules: [healthcare_accommodation, l10n_health_be_perdiem_billing, l10n_health_be_perdiem_ehealth]
 ---
 
 # Admitting a candidate
 
 :::{rh-description}
-Admitting a candidate in Resthome: the checks before Admitted, the admission wizard (room and start date), what is created, and the safeguards including the duplicate NISS.
+Admitting a candidate in Resthome: the checks before Admitted, the admission wizard (room and start date), what is created, and the safeguards including the duplicate identification number.
 :::
 
 :::{rh-faq}
@@ -15,7 +16,7 @@ What does the admission create?
 Is a room required?
 : Yes. The wizard only offers rooms that are free, that become free on a known date, or that are on the waiting list.
 
-The NISS already belongs to a resident. What do I do?
+The identification number already belongs to a resident. What do I do?
 : Click **Link to that resident**: the file is repointed at the existing record, and the empty duplicate is archived. This is also the normal path for readmitting a former resident.
 
 What happens if I move an admitted file back to an earlier stage?
@@ -30,12 +31,13 @@ column, or mark the file as won from the file itself.
 
 Resthome refuses the admission, on every path, as long as:
 
-- the **Desired stay type** is empty — Annexe 7 cannot be produced without it;
-- the **insurability** has not been verified — unless **MDA check required** is
-  unticked.
+- the **Desired stay type** is empty — the documents for the health insurer
+  cannot be produced without it;
+- the **insurability** has not been verified, where the country has an
+  electronic check — unless the file waives it.
 
-A third check is about identity: if the NISS entered already belongs to a
-resident, a banner names the existing record. **The admission will be refused**
+A third check is about identity: if the national identification number entered
+already belongs to a resident, a banner names the existing record. **The admission will be refused**
 as long as the file points at a separate one.
 
 :::{admonition} One person, one record
@@ -48,6 +50,14 @@ by hand.
 
 This is the normal path for **readmitting a former resident**: their history,
 assessments and documents come back with them.
+:::
+
+:::{admonition} In Belgium
+:class: rh-country rh-country-be
+
+The stay type is needed to produce Annexe 7, and the insurability check is the
+MDA, waived by unticking **MDA check required**. See [Admitting a resident in
+Belgium](../belgique/admission.md).
 :::
 
 ## 2. Fill in the wizard
@@ -70,8 +80,8 @@ Resthome then:
 
 - turns the contact into a **resident**;
 - opens the **stay** in the **Confirmed** state, on the chosen room and date;
-- opens the **resident's record**, to continue with the Katz assessment and the
-  documents.
+- opens the **resident's record**, to continue with the dependency assessment
+  and the documents.
 
 The stay still has to be **started** (**Start Stay**) once the resident is
 actually there. See [Managing a resident](../residents/gerer-un-resident.md).
@@ -81,10 +91,19 @@ actually there. See [Managing a resident](../residents/gerer-un-resident.md).
 
 - **Stay start date** — when billing for accommodation (the room) begins. This
   is the one in the wizard.
-- **Admission Date** — when the insurer's contribution begins. It is set when
-  the stay is **started**.
+- **Admission Date** — when the care allowance paid by the health insurer
+  begins. It is set when the stay is **started**.
 
 They are often identical, but can differ.
+:::
+
+:::{admonition} In Belgium
+:class: rh-country rh-country-be
+
+Starting the stay prepares the admission agreement (Annexe 7) sent to the
+health insurer through eAgreement, and the Katz assessment sets the category
+declared for the INAMI allowance. See [Admitting a resident in
+Belgium](../belgique/admission.md).
 :::
 
 ## Safeguards
@@ -100,6 +119,5 @@ They are often identical, but can differ.
 ## What's next
 
 - [Managing a resident](../residents/gerer-un-resident.md)
-- [The Katz assessment](../residents/katz.md)
 - [The move-in procedure](../residents/procedure-emmenagement.md)
-- [The billing journey](../parcours-facturation.md)
+- [Billing](../facturation/index.md)

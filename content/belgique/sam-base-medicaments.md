@@ -1,5 +1,6 @@
 ---
 howto_auto: true
+modules: [resthome_mr_ehealth_medication, healthcare_medication, l10n_health_be_sam, healthcare_medical]
 ---
 
 # The SAM medication database
@@ -12,8 +13,11 @@ The Belgian SAM authentic-source database in Resthome: ATC, BCFI class, Black Tr
 What is the SAM database?
 : SAM (Source Authentique des Médicaments, the authentic source of medicines) is the official Belgian medication reference database. Resthome ships a copy of it to feed your nursing home (MR/MRS) catalog with reliable data: CNK code, active ingredient, ATC code, BCFI class, leaflets.
 
+Where does the medication catalogue come from in Belgium?
+: From the SAM database, which provides the name, form and dosage of each medication and serves as the source for prescriptions. You import medications from SAM into the facility's catalogue instead of entering them by hand.
+
 Where can I find the SAM database in Resthome?
-: Two entry points. Browsing, through the Care app → Configuration → SAM Database. And the "Search SAM" import wizard, through the MR/MRS app → Configuration → eHealth Configuration → Search SAM.
+: Two entry points. Browsing, through the Nursing Care app → Configuration → Medication Catalogues → SAM Database. And the "Search SAM" import wizard, through the Nursing Care app → Configuration → Medication Catalogues → Search SAM.
 
 How do I add a SAM medication to my catalog?
 : Open the Search SAM wizard, search by name or by CNK code, check the rows you want and click Import Selected. The medications are created in your catalog with their SAM data.
@@ -38,8 +42,8 @@ Two entry points:
 
 - **Browse** the reference database — **Care** app → **Configuration** →
   **SAM Database** (read-only).
-- **Search and import** — the **Search SAM** wizard, in the **MR/MRS** app →
-  **Configuration** → **eHealth Configuration** → **Search SAM**.
+- **Search and import** — the **Search SAM** wizard, in the **Nursing Care** app →
+  **Configuration** → **Medication Catalogues** → **Search SAM**.
 
 :::{admonition} A feature of the eHealth integration
 :class: info
@@ -47,7 +51,7 @@ Two entry points:
 The **Search SAM** wizard is part of Resthome's Belgian eHealth layer. It installs
 automatically as soon as the medical module and the eHealth module are present,
 and access is reserved for the **eHealth manager**. Browsing the database
-(Care → Configuration) remains accessible without that role.
+(Nursing Care → Configuration) remains accessible without that role.
 :::
 
 ## What the SAM database provides
@@ -96,7 +100,7 @@ documents (SmPC and leaflet, FR and NL).
 ## The Search SAM wizard
 
 The **Search SAM** wizard finds a medication in SAM and adds it to your catalog in
-one step. Open it through **MR/MRS → Configuration → eHealth Configuration →
+one step. Open it through **Nursing Care → Configuration → Medication Catalogues →
 Search SAM**.
 
 ### 1. Run a search
@@ -162,15 +166,15 @@ duplicate.
 
 Importing a medication adds it to the facility's **catalog**. You still have to
 **prescribe** it to the resident afterwards, with its dosage and period. See
-[Prescriptions and medications](prescriptions.md).
+[Prescriptions and medications](../soins/prescriptions.md).
 :::
 
 ## Key takeaways
 
 - **SAM = the official Belgian medication reference database**, embedded in
   Resthome as the foundation of the catalog.
-- **Two entry points**: browsing (Care → Configuration → SAM Database) and the
-  **Search SAM** import wizard (MR/MRS → Configuration → eHealth Configuration).
+- **Two entry points**: browsing (Nursing Care → Configuration → Medication Catalogues → SAM Database) and the
+  **Search SAM** import wizard (Nursing Care → Configuration → Medication Catalogues).
 - The search accepts the **name**, the **CNK code** or the **active ingredient**,
   and works **offline** on the local copy.
 - **Import Selected** creates the records; a re-import **updates** medications
@@ -180,6 +184,7 @@ Importing a medication adds it to the facility's **catalog**. You still have to
 
 ## Further reading
 
-- [Prescriptions and medications](prescriptions.md)
-- [Care plans and vital signs](plans-de-soins.md)
-- [The eHealth integration](../ehealth/index.md)
+- [Prescriptions and medications](../soins/prescriptions.md)
+- [Care plans and vital signs](../soins/plans-de-soins.md)
+- [The eHealth integration](ehealth/index.md)
+- [Care in Belgium](soins.md)

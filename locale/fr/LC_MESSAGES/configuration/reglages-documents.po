@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-18 19:30+0200\n"
+"POT-Creation-Date: 2026-09-23 15:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -20,24 +20,24 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: ../../content/configuration/reglages-documents.md:1
+#: ../../content/configuration/reglages-documents.md:5
 msgid "Document settings"
 msgstr "Réglages Documents"
 
-#: ../../content/configuration/reglages-documents.md:4
-msgid ""
-"Configure resident document centralization in nursing homes (MR/MRS) — root "
-"folder, default tags, automatic filing in the Documents app."
-msgstr ""
-"Configurer la centralisation des documents habitant en maison de repos "
-"(MR/MRS) : dossier racine, étiquettes par défaut, classement automatique "
-"dans Documents."
-
 #: ../../content/configuration/reglages-documents.md:8
+msgid ""
+"Configure resident document centralization in nursing homes — root folder, "
+"default tags, automatic filing in the Documents app."
+msgstr ""
+"Configurer la centralisation des documents des habitants en maison de repos "
+"— dossier racine, étiquettes par défaut, classement automatique dans "
+"l'application Documents."
+
+#: ../../content/configuration/reglages-documents.md:12
 msgid "Where are the document centralization settings?"
 msgstr "Où se trouvent les réglages de centralisation des documents ?"
 
-#: ../../content/configuration/reglages-documents.md:9
+#: ../../content/configuration/reglages-documents.md:13
 msgid ""
 "In **Settings > Documents > File centralization**, the **Nursing home** "
 "block. This block only appears when the Documents app is installed."
@@ -46,11 +46,11 @@ msgstr ""
 "**Maison de repos**. Ce bloc n'apparaît que si l'application Documents est "
 "installée."
 
-#: ../../content/configuration/reglages-documents.md:11
+#: ../../content/configuration/reglages-documents.md:15
 msgid "What exactly does resident document centralization do?"
 msgstr "Que fait exactement la centralisation des documents habitant ?"
 
-#: ../../content/configuration/reglages-documents.md:12
+#: ../../content/configuration/reglages-documents.md:16
 msgid ""
 "When enabled, every attachment added to a resident's record (chatter) is "
 "automatically filed in that resident's personal folder, in the Documents "
@@ -62,11 +62,11 @@ msgstr ""
 "cet habitant, dans l'application Documents. Vous retrouvez ainsi tous les "
 "fichiers d'un habitant au même endroit, sans classement manuel."
 
-#: ../../content/configuration/reglages-documents.md:14
+#: ../../content/configuration/reglages-documents.md:18
 msgid "Do I have to create the \"Residents\" root folder myself?"
 msgstr "Dois-je créer moi-même le dossier racine « Habitants » ?"
 
-#: ../../content/configuration/reglages-documents.md:15
+#: ../../content/configuration/reglages-documents.md:19
 msgid ""
 "No. Resthome automatically creates the \"Residents\" root folder (with a "
 "\"Blank forms\" subfolder) as soon as the company is created. The \"Root "
@@ -76,11 +76,11 @@ msgstr ""
 "sous-dossier « Formulaires vierges ») dès la création de la société. Le "
 "champ « Dossier racine » pointe déjà vers lui ; vous n'avez rien à préparer."
 
-#: ../../content/configuration/reglages-documents.md:17
+#: ../../content/configuration/reglages-documents.md:21
 msgid "What are the default tags for?"
 msgstr "À quoi servent les étiquettes par défaut ?"
 
-#: ../../content/configuration/reglages-documents.md:18
+#: ../../content/configuration/reglages-documents.md:22
 msgid ""
 "It is optional. The chosen tags are automatically applied to centralized "
 "documents, which then makes searching and filtering easier in the Documents "
@@ -90,11 +90,11 @@ msgstr ""
 "aux documents centralisés, ce qui facilite ensuite la recherche et le "
 "filtrage dans l'application Documents. Vous pouvez laisser ce champ vide."
 
-#: ../../content/configuration/reglages-documents.md:20
+#: ../../content/configuration/reglages-documents.md:24
 msgid "Can I disable centralization?"
 msgstr "Puis-je désactiver la centralisation ?"
 
-#: ../../content/configuration/reglages-documents.md:21
+#: ../../content/configuration/reglages-documents.md:25
 msgid ""
 "Yes, by unchecking the \"Nursing home\" block. Documents already filed stay "
 "in the resident folders; only future attachments are no longer centralized "
@@ -104,11 +104,11 @@ msgstr ""
 "restent dans les dossiers habitant ; seules les futures pièces jointes ne "
 "sont plus centralisées automatiquement."
 
-#: ../../content/configuration/reglages-documents.md:23
+#: ../../content/configuration/reglages-documents.md:27
 msgid "Is the setting shared across all my facilities?"
 msgstr "Le réglage est-il partagé entre tous mes établissements ?"
 
-#: ../../content/configuration/reglages-documents.md:24
+#: ../../content/configuration/reglages-documents.md:28
 msgid ""
 "No. It is specific to each company (facility) in the database. Each company "
 "has its own \"Residents\" root folder and its own configuration, which keeps"
@@ -118,7 +118,7 @@ msgstr ""
 "données. Chaque société a son propre dossier racine « Habitants » et sa "
 "propre configuration, ce qui garde les dossiers cloisonnés."
 
-#: ../../content/configuration/reglages-documents.md:27
+#: ../../content/configuration/reglages-documents.md:31
 msgid ""
 "The **Settings > Documents** tab gathers the settings of Odoo's "
 "**Documents** app. In the **File centralization** section, Resthome adds a "
@@ -132,15 +132,15 @@ msgstr ""
 "les pièces jointes de vos habitants dans leur **dossier personnel**. Vous "
 "trouvez ces réglages dans **Réglages > Documents"
 
-#: ../../content/configuration/reglages-documents.md:31
+#: ../../content/configuration/reglages-documents.md:35
 msgid "File centralization**."
 msgstr "Centralisation des fichiers**."
 
-#: ../../content/configuration/reglages-documents.md:33
+#: ../../content/configuration/reglages-documents.md:37
 msgid "Prerequisite"
 msgstr "Prérequis"
 
-#: ../../content/configuration/reglages-documents.md:36
+#: ../../content/configuration/reglages-documents.md:40
 msgid ""
 "These settings only appear if the **Documents** application is installed. "
 "The residents' root folder is created automatically — there is nothing to "
@@ -150,11 +150,11 @@ msgstr ""
 "installée. Le dossier racine des habitants est créé automatiquement — il n'y"
 " a rien à préparer avant d'activer la centralisation."
 
-#: ../../content/configuration/reglages-documents.md:41
+#: ../../content/configuration/reglages-documents.md:45
 msgid "Resident document centralization"
 msgstr "Centralisation des documents habitant"
 
-#: ../../content/configuration/reglages-documents.md:43
+#: ../../content/configuration/reglages-documents.md:47
 msgid ""
 "The **Nursing home** block controls automatic document filing. A checkbox "
 "enables centralization; once ticked, it reveals the **root folder** and the "
@@ -164,23 +164,23 @@ msgstr ""
 "documents. Une case à cocher active la centralisation ; une fois cochée, "
 "elle révèle le **dossier racine** et les **étiquettes par défaut**."
 
-#: ../../content/configuration/reglages-documents.md:33
+#: ../../content/configuration/reglages-documents.md:37
 msgid "Setting"
 msgstr "Réglage"
 
-#: ../../content/configuration/reglages-documents.md:33
+#: ../../content/configuration/reglages-documents.md:37
 msgid "What it does"
 msgstr "Ce qu'il fait"
 
-#: ../../content/configuration/reglages-documents.md:33
-msgid "Recommended value (MR/MRS)"
-msgstr "Valeur recommandée (MR/MRS)"
+#: ../../content/configuration/reglages-documents.md:37
+msgid "Recommended value"
+msgstr "Valeur recommandée"
 
-#: ../../content/configuration/reglages-documents.md:33
+#: ../../content/configuration/reglages-documents.md:37
 msgid "**Nursing home** (centralization)"
 msgstr "**Maison de repos** (centralisation)"
 
-#: ../../content/configuration/reglages-documents.md:33
+#: ../../content/configuration/reglages-documents.md:37
 msgid ""
 "Enables automatic filing: every attachment added to a resident's record is "
 "filed in their personal folder in the Documents app."
@@ -189,30 +189,30 @@ msgstr ""
 "d'un habitant est classée dans son dossier personnel dans l'application "
 "Documents."
 
-#: ../../content/configuration/reglages-documents.md:33
+#: ../../content/configuration/reglages-documents.md:37
 msgid "**Enabled** (ticked)"
 msgstr "**Activé** (coché)"
 
-#: ../../content/configuration/reglages-documents.md:33
+#: ../../content/configuration/reglages-documents.md:37
 msgid "**Root folder**"
 msgstr "**Dossier racine**"
 
-#: ../../content/configuration/reglages-documents.md:33
+#: ../../content/configuration/reglages-documents.md:37
 msgid ""
 "The Documents app folder under which Resthome files all resident folders."
 msgstr ""
 "Le dossier de l'application Documents sous lequel Resthome classe tous les "
 "dossiers habitant."
 
-#: ../../content/configuration/reglages-documents.md:33
+#: ../../content/configuration/reglages-documents.md:37
 msgid "The **\"Residents\"** folder (created automatically)"
 msgstr "Le dossier **« Habitants »** (créé automatiquement)"
 
-#: ../../content/configuration/reglages-documents.md:33
+#: ../../content/configuration/reglages-documents.md:37
 msgid "**Default tags**"
 msgstr "**Étiquettes par défaut**"
 
-#: ../../content/configuration/reglages-documents.md:33
+#: ../../content/configuration/reglages-documents.md:37
 msgid ""
 "The tags automatically applied to centralized documents, to find and filter "
 "them."
@@ -220,15 +220,15 @@ msgstr ""
 "Les étiquettes appliquées automatiquement aux documents centralisés, pour "
 "les retrouver et les filtrer."
 
-#: ../../content/configuration/reglages-documents.md:33
+#: ../../content/configuration/reglages-documents.md:37
 msgid "**Optional** — leave empty, or choose 1 or 2 tags"
 msgstr "**Facultatif** — laissez vide, ou choisissez 1 ou 2 étiquettes"
 
-#: ../../content/configuration/reglages-documents.md:53
+#: ../../content/configuration/reglages-documents.md:57
 msgid "The root folder is created for you"
 msgstr "Le dossier racine est créé pour vous"
 
-#: ../../content/configuration/reglages-documents.md:56
+#: ../../content/configuration/reglages-documents.md:60
 msgid ""
 "When the company is created, Resthome automatically creates the "
 "**\"Residents\"** folder (with a **\"Blank forms\"** subfolder for your "
@@ -242,11 +242,11 @@ msgstr ""
 "normalement aucune raison de le changer ; ne le modifiez que si vous stockez"
 " délibérément les habitants ailleurs."
 
-#: ../../content/configuration/reglages-documents.md:62
+#: ../../content/configuration/reglages-documents.md:66
 msgid "One folder per resident"
 msgstr "Un dossier par habitant"
 
-#: ../../content/configuration/reglages-documents.md:64
+#: ../../content/configuration/reglages-documents.md:68
 msgid ""
 "You do not create the folders by hand. When a resident is admitted (or when "
 "their resident record is activated), Resthome creates their **personal "
@@ -257,19 +257,19 @@ msgstr ""
 "personnel** sous le dossier racine, avec trois sous-dossiers prêts à "
 "l'emploi :"
 
-#: ../../content/configuration/reglages-documents.md:68
+#: ../../content/configuration/reglages-documents.md:72
 msgid "**Medical documents**"
 msgstr "**Documents médicaux**"
 
-#: ../../content/configuration/reglages-documents.md:69
+#: ../../content/configuration/reglages-documents.md:73
 msgid "**Administrative documents**"
 msgstr "**Documents administratifs**"
 
-#: ../../content/configuration/reglages-documents.md:70
+#: ../../content/configuration/reglages-documents.md:74
 msgid "**Billing documents**"
 msgstr "**Documents de facturation**"
 
-#: ../../content/configuration/reglages-documents.md:72
+#: ../../content/configuration/reglages-documents.md:76
 msgid ""
 "The folder is named after the **resident's name** and is renamed "
 "automatically if the name changes. The **Documents** button on the "
@@ -280,11 +280,11 @@ msgstr ""
 "le nom change. Le bouton **Documents** sur la fiche de l'habitant ouvre "
 "directement ce dossier (le compteur inclut les fichiers des sous-dossiers)."
 
-#: ../../content/configuration/reglages-documents.md:76
+#: ../../content/configuration/reglages-documents.md:80
 msgid "Isolated per facility"
 msgstr "Cloisonné par établissement"
 
-#: ../../content/configuration/reglages-documents.md:79
+#: ../../content/configuration/reglages-documents.md:83
 msgid ""
 "In a multi-company setup, **each company has its own \"Residents\" root "
 "folder**. The setting is **specific to each facility**: enable "
@@ -295,30 +295,44 @@ msgstr ""
 "établissement** : activez la centralisation dans chacun d'eux si vous gérez "
 "plusieurs maisons."
 
-#: ../../content/configuration/reglages-documents.md:84
+#: ../../content/configuration/reglages-documents.md:88
 msgid "Default tags (optional)"
 msgstr "Étiquettes par défaut (facultatif)"
 
-#: ../../content/configuration/reglages-documents.md:86
+#: ../../content/configuration/reglages-documents.md:90
 msgid ""
 "**Tags** are used to categorize and find documents. Resthome already "
-"provides a list of ready-to-use tags — for example **Katz**, **End of "
-"stay**, **eAgreement**, **OA**, **Convention**, **Medical form**, "
-"**Billing**, **CPAS**, **GDPR**. In **Default tags**, you choose the ones "
-"that will be applied **automatically** to each centralized document."
+"provides a list of ready-to-use tags — for example **End of stay**, **Stay "
+"agreement**, **Medical form**, **Billing**, **GDPR consent**. In **Default "
+"tags**, you choose the ones that will be applied **automatically** to each "
+"centralized document."
 msgstr ""
 "Les **étiquettes** servent à catégoriser et retrouver les documents. "
 "Resthome fournit déjà une liste d'étiquettes prêtes à l'emploi — par exemple"
-" **Katz**, **Fin de séjour**, **eAgreement**, **OA**, **Convention**, "
-"**Formulaire médical**, **Facturation**, **CPAS**, **RGPD**. Dans "
-"**Étiquettes par défaut**, vous choisissez celles qui seront appliquées "
-"**automatiquement** à chaque document centralisé."
+" **Fin d'hébergement**, **Convention de séjour**, **Formulaire médical**, "
+"**Facturation**, **Consentement RGPD**. Dans **Étiquettes par défaut**, vous"
+" choisissez celles qui seront appliquées **automatiquement** à chaque "
+"document centralisé."
 
-#: ../../content/configuration/reglages-documents.md:92
+#: ../../content/configuration/reglages-documents.md:95
+msgid "In Belgium"
+msgstr "En Belgique"
+
+#: ../../content/configuration/reglages-documents.md:98
+msgid ""
+"The list also holds tags for the Belgian paperwork: **Katz evaluation**, "
+"**MR/MRS agreement (eAgreement)**, **OA allocation** and **CPAS**. See "
+"[Belgian settings](../belgique/reglages.md)."
+msgstr ""
+"La liste contient aussi des étiquettes pour les démarches belges : "
+"**Évaluation Katz**, **Accord MR/MRS (eAgreement)**, **Allocation OA** et "
+"**CPAS**. Voir [Réglages belges](../belgique/reglages.md)."
+
+#: ../../content/configuration/reglages-documents.md:103
 msgid "Start light"
 msgstr "Commencez léger"
 
-#: ../../content/configuration/reglages-documents.md:95
+#: ../../content/configuration/reglages-documents.md:106
 msgid ""
 "Leave this field **empty** at first, or put a single generic tag in it. You "
 "can always tag each document more precisely afterwards in the Documents app."
@@ -327,11 +341,11 @@ msgstr ""
 "générique. Vous pourrez toujours étiqueter chaque document plus précisément "
 "par la suite dans l'application Documents."
 
-#: ../../content/configuration/reglages-documents.md:99
+#: ../../content/configuration/reglages-documents.md:110
 msgid "Disabling centralization"
 msgstr "Désactiver la centralisation"
 
-#: ../../content/configuration/reglages-documents.md:101
+#: ../../content/configuration/reglages-documents.md:112
 msgid ""
 "Unchecking the **Nursing home** block **stops** the automatic filing of "
 "future attachments. Documents already filed in the resident folders **stay "
@@ -341,18 +355,18 @@ msgstr ""
 "des futures pièces jointes. Les documents déjà classés dans les dossiers "
 "habitant **restent en place** — rien n'est supprimé ni déplacé."
 
-#: ../../content/configuration/reglages-documents.md:105
+#: ../../content/configuration/reglages-documents.md:116
 msgid "Going further"
 msgstr "Pour aller plus loin"
 
-#: ../../content/configuration/reglages-documents.md:107
+#: ../../content/configuration/reglages-documents.md:118
 msgid "[Configuration](index.md)"
 msgstr "[Configuration](index.md)"
 
-#: ../../content/configuration/reglages-documents.md:108
+#: ../../content/configuration/reglages-documents.md:119
 msgid "[Manage a resident](../residents/gerer-un-resident.md)"
 msgstr "[Gérer un habitant](../residents/gerer-un-resident.md)"
 
-#: ../../content/configuration/reglages-documents.md:109
+#: ../../content/configuration/reglages-documents.md:120
 msgid "[FAQ](../faq.md) · [Glossary](../glossaire.md)"
 msgstr "[FAQ](../faq.md) · [Glossaire](../glossaire.md)"

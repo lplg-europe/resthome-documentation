@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-05 03:38+0200\n"
+"POT-Creation-Date: 2026-09-23 15:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -20,11 +20,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: ../../content/parcours-facturation.md:1
+#: ../../content/belgique/parcours-facturation.md:5
 msgid "The billing journey"
 msgstr "Le parcours de facturation"
 
-#: ../../content/parcours-facturation.md:4
+#: ../../content/belgique/parcours-facturation.md:8
 msgid ""
 "From admission to payment: the complete billing journey of a nursing home "
 "resident with Resthome (MDA, eAgreement, Katz, eFact)."
@@ -32,7 +32,7 @@ msgstr ""
 "De l'admission au paiement : le parcours complet de facturation d'un "
 "habitant en maison de repos avec Resthome (MDA, eAgreement, Katz, eFact)."
 
-#: ../../content/parcours-facturation.md:7
+#: ../../content/belgique/parcours-facturation.md:11
 msgid ""
 "From **admission** to **payment**, a correct invoice always follows the same"
 " steps. This page connects the whole journey; each step links to its "
@@ -42,11 +42,11 @@ msgstr ""
 "mêmes étapes. Cette page relie l'ensemble du parcours ; chaque étape renvoie"
 " vers sa page détaillée."
 
-#: ../../content/parcours-facturation.md:24
+#: ../../content/belgique/parcours-facturation.md:28
 msgid "**Admission** — Create the resident's file and open their stay."
 msgstr "**Admission** — Créez le dossier de l'habitant et ouvrez son séjour."
 
-#: ../../content/parcours-facturation.md:25
+#: ../../content/belgique/parcours-facturation.md:29
 msgid ""
 "**Insurability (MDA)** — Check the insurability and the exact mutuality with"
 " MyCareNet / WalCareNet."
@@ -54,7 +54,7 @@ msgstr ""
 "**Assurabilité (MDA)** — Vérifiez l'assurabilité et la mutuelle exacte "
 "auprès de MyCareNet / WalCareNet."
 
-#: ../../content/parcours-facturation.md:27
+#: ../../content/belgique/parcours-facturation.md:31
 msgid ""
 "**Admission agreement (eAgreement)** — The care notification (Annex 7) is "
 "prepared for the mutuality."
@@ -62,7 +62,7 @@ msgstr ""
 "**Accord d'admission (eAgreement)** — La notification de prise en charge "
 "(Annexe 7) est préparée pour la mutuelle."
 
-#: ../../content/parcours-facturation.md:29
+#: ../../content/belgique/parcours-facturation.md:33
 msgid ""
 "**Katz evaluation** — Score the dependency: the Katz category is declared to"
 " the mutuality for the INAMI allowance."
@@ -70,17 +70,19 @@ msgstr ""
 "**Évaluation Katz** — Cotez la dépendance : la catégorie Katz est déclarée à"
 " la mutuelle pour le forfait INAMI."
 
-#: ../../content/parcours-facturation.md:31
+#: ../../content/belgique/parcours-facturation.md:35
 msgid ""
 "**Electronic invoicing (eFact)** — Generate the period, create the invoices "
-"and send the mutuality share to the insurance organisations. → [Electronic "
-"invoicing (eFact)](ehealth/efact.md)"
+"and send the mutuality share to the insurance organisations. → [Billing a "
+"month in Belgium](facturation.md) · [Electronic invoicing "
+"(eFact)](ehealth/efact.md)"
 msgstr ""
 "**Facturation électronique (eFact)** — Générez la période, créez les "
 "factures et transmettez la part mutuelle aux organismes assureurs. → "
-"[Facturation électronique (eFact)](ehealth/efact.md)"
+"[Facturer un mois en Belgique](facturation.md) · [Facturation électronique "
+"(eFact)](ehealth/efact.md)"
 
-#: ../../content/parcours-facturation.md:34
+#: ../../content/belgique/parcours-facturation.md:38
 msgid ""
 "**Payment / settlement** — The resident share is invoiced, the mutuality "
 "share is followed up to the insurer's settlement (acknowledgement, "
@@ -89,11 +91,11 @@ msgstr ""
 "**Paiement / décompte** — La part habitant est facturée, la part mutuelle "
 "suivie jusqu'au décompte de l'OA (accusé, acceptation, rejet)."
 
-#: ../../content/parcours-facturation.md:38
+#: ../../content/belgique/parcours-facturation.md:42
 msgid "In practice"
 msgstr "En pratique"
 
-#: ../../content/parcours-facturation.md:40
+#: ../../content/belgique/parcours-facturation.md:44
 msgid ""
 "**Insurability (MDA)** at the start of the month and a **validated Katz "
 "evaluation** are the two prerequisites that avoid most eFact rejections. "
@@ -102,6 +104,42 @@ msgstr ""
 "L’**assurabilité (MDA)** en début de mois et une **évaluation Katz validée**"
 " sont les deux préalables qui évitent la plupart des rejets eFact. Traitez-"
 "les avant de générer les factures."
+
+#: ../../content/belgique/parcours-facturation.md:49
+msgid "What's next"
+msgstr "Pour continuer"
+
+#: ../../content/belgique/parcours-facturation.md:51
+msgid ""
+"[Billing a month in Belgium](facturation.md) — the month on the Belgian "
+"side, and its month-end checklist."
+msgstr ""
+"[Facturer un mois en Belgique](facturation.md) — le mois côté belge, et sa "
+"check-list de fin de mois."
+
+#: ../../content/belgique/parcours-facturation.md:52
+msgid ""
+"[Insurability (MDA)](ehealth/mda.md) · [Agreements "
+"(eAgreement)](ehealth/eagreement.md)"
+msgstr ""
+"[Assurabilité (MDA)](ehealth/mda.md) · [Accords "
+"(eAgreement)](ehealth/eagreement.md)"
+
+#: ../../content/belgique/parcours-facturation.md:53
+msgid ""
+"[The Katz assessment](katz.md) · [The INAMI dependency allowance](forfait-"
+"inami.md)"
+msgstr ""
+"[L'évaluation Katz](katz.md) · [Le forfait INAMI (dépendance)](forfait-"
+"inami.md)"
+
+#: ../../content/belgique/parcours-facturation.md:54
+msgid ""
+"[Electronic invoicing (eFact)](ehealth/efact.md) · [Settlements and "
+"payments](ehealth/efact-paiements.md)"
+msgstr ""
+"[Facturation électronique (eFact)](ehealth/efact.md) · [Décomptes et "
+"paiements](ehealth/efact-paiements.md)"
 
 #~ msgid "Admission ─► MDA ─► eAgreement ─► Katz ─► eFact ─► Payment\n"
 #~ msgstr ""

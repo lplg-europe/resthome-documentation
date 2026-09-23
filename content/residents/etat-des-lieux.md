@@ -1,11 +1,12 @@
 ---
 howto_auto: true
+modules: [healthcare_inspection]
 ---
 
 # The condition report (move-in and move-out)
 
 :::{rh-description}
-The move-in/move-out condition report for a nursing home (MR/MRS) with Resthome: assess each item of equipment, photos, and a signed PDF report (eIDAS).
+The move-in/move-out condition report for a nursing home with Resthome: assess each item of equipment, photos, and a signed PDF report (eIDAS).
 :::
 
 :::{rh-faq}

@@ -1,3 +1,7 @@
+---
+modules: [resthome_meal, resthome_family_portal_meal]
+---
+
 # Family portal and kiosk
 
 :::{rh-description}

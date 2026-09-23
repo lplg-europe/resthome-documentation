@@ -1,3 +1,7 @@
+---
+modules: [resthome_mr_ehealth, resthome_mr_billing]
+---
+
 # The billing journey
 
 :::{rh-description}
@@ -30,7 +34,7 @@ Admission ─► MDA ─► eAgreement ─► Katz ─► eFact ─► Payment
    the mutuality for the INAMI allowance.
 5. **Electronic invoicing (eFact)** — Generate the period, create the invoices
    and send the mutuality share to the insurance organisations.
-   → [Electronic invoicing (eFact)](ehealth/efact.md)
+   → [Billing a month in Belgium](facturation.md) · [Electronic invoicing (eFact)](ehealth/efact.md)
 6. **Payment / settlement** — The resident share is invoiced, the mutuality
    share is followed up to the insurer's settlement (acknowledgement,
    acceptance, rejection).
@@ -41,3 +45,10 @@ Admission ─► MDA ─► eAgreement ─► Katz ─► eFact ─► Payment
 evaluation** are the two prerequisites that avoid most eFact rejections. Handle
 them before generating the invoices.
 :::
+
+## What's next
+
+- [Billing a month in Belgium](facturation.md) — the month on the Belgian side, and its month-end checklist.
+- [Insurability (MDA)](ehealth/mda.md) · [Agreements (eAgreement)](ehealth/eagreement.md)
+- [The Katz assessment](katz.md) · [The INAMI dependency allowance](forfait-inami.md)
+- [Electronic invoicing (eFact)](ehealth/efact.md) · [Settlements and payments](ehealth/efact-paiements.md)

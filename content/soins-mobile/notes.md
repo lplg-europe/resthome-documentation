@@ -1,3 +1,7 @@
+---
+modules: [healthcare_mobile, healthcare_medical, resthome_geriatric]
+---
+
 # Notes
 
 :::{rh-description}

@@ -1,4 +1,5 @@
 ---
+modules: [resthome_day_care, l10n_health_be_perdiem_billing, healthcare_accommodation, healthcare_accommodation_billing, resthome_day_care_ehealth]
 howto_auto: true
 ---
 
@@ -30,7 +31,7 @@ opening days, a day room, the amounts of the CSJ forfait and its own day price.
 A day care centre has **its own INAMI number** — one starting with 755 to 758,
 ending in 000 — and Resthome records it on an **establishment** of its own,
 with its eHealth certificate. See
-[eHealth and eFact settings](../configuration/reglages-ehealth.md).
+[eHealth and eFact settings](../reglages-ehealth.md).
 
 1. Go to **Settings → Approvals → Manage establishments and approvals** and
    create the establishment of the day care centre: its name and its INAMI
@@ -39,6 +40,8 @@ with its eHealth certificate. See
    of places it covers under **Beds / places** (1).
 3. Open the line: the approval's own form carries the reference, the date and
    the opening days below.
+
+![The establishment of the day care centre: its INAMI number 75599901, and under the Sectors tab the CSJ line with its 15 places](../../assets/screenshots/centre-de-jour/15-etablissement-secteurs.png)
 
 A house that runs a rest home as well keeps its MR and MRS approvals next to
 it, on the rest home's own establishment: an admission is only offered the
@@ -51,7 +54,7 @@ centre opens: the days from **Monday** to **Sunday**, **Opens at** and
 **Closes at**. It starts from Monday to Friday, 8:00 to 18:00 — the legal
 floor.
 
-![The CSJ approval: the sector and its 15 places, then the opening days ticked from Monday to Friday and the hours, 08:00 to 18:00](../assets/screenshots/centre-de-jour/01-agrement-csj.png)
+![The CSJ approval: the sector and its 15 places, then the opening days ticked from Monday to Friday and the hours, 08:00 to 18:00](../../assets/screenshots/centre-de-jour/01-agrement-csj.png)
 
 - **Open Days / Week** counts the days ticked.
 - **Below the Norm** lights up under five days a week, or with a window
@@ -79,7 +82,7 @@ A day care user holds a **day place**, never a licensed bed.
 2. Under **Accommodation → Rooms**, create the room with that type, and the
    number of places as its **capacity**.
 
-![The room type of the day room: code CSJ-DAY, a default capacity of 15, and the Day Place box ticked](../assets/screenshots/centre-de-jour/02-type-place-de-jour.png)
+![The room type of the day room: code CSJ-DAY, a default capacity of 15, and the Day Place box ticked](../../assets/screenshots/centre-de-jour/02-type-place-de-jour.png)
 
 From then on:
 
@@ -107,7 +110,7 @@ for every category**: the category declares the user's profile to the insurer.
 The list opens on the current year: use the **Currently valid** filter to see
 the rates in force whatever year they started.
 
-![The INAMI rates filtered on CSJ: the four categories D, F, Fd and Fp, each with its pseudo-code, at the same amount from 1 February 2025](../assets/screenshots/centre-de-jour/03-tarifs-csj.png)
+![The INAMI rates filtered on CSJ: the four categories D, F, Fd and Fp, each with its pseudo-code, at the same amount from 1 February 2025](../../assets/screenshots/centre-de-jour/03-tarifs-csj.png)
 
 :::{warning}
 A rate left at 0.00 EUR bills no forfait. Resthome never sends a claim at zero:
@@ -120,14 +123,14 @@ What the user pays is the centre's **day price**: the product **CSJ Stay
 Supplement** (SUPP-CSJ-STAY), under **Billing → Configuration → Supplement
 Types**. Set its **Sales Price** (5).
 
-![The CSJ Stay Supplement product: a service, its sales price, the reference SUPP-CSJ-STAY and the supplement type Daily on presence days](../assets/screenshots/centre-de-jour/04-prix-de-journee.png)
+![The CSJ Stay Supplement product: a service, its sales price, the reference SUPP-CSJ-STAY and the supplement type Daily on presence days](../../assets/screenshots/centre-de-jour/04-prix-de-journee.png)
 
 - Each user is **subscribed automatically** when their stay starts, from the
   admission day.
 - A user who follows the tariff follows its yearly **indexation** too.
 - A price agreed with one user goes on their convention, with **Negotiated
   price** ticked: the indexation then leaves it alone. See
-  [Supplements](../facturation/supplements.md).
+  [Supplements](../../facturation/supplements.md).
 
 ## What's next
 

@@ -1,3 +1,7 @@
+---
+modules: [resthome_meal]
+---
+
 # Meals
 
 :::{rh-description}

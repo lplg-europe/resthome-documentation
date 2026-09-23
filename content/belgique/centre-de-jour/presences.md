@@ -1,3 +1,7 @@
+---
+modules: [resthome_day_care]
+---
+
 # Recording attendance
 
 :::{rh-description}
@@ -33,7 +37,7 @@ care user whose stay runs that day (1). The days already recorded come marked
    forfait.
 3. Click **Save the register**.
 
-![The day's register: four users, three of them marked present with their arrival and departure hours, and the banner saying the register closed at 13:00](../assets/screenshots/centre-de-jour/07-registre-du-jour.png)
+![The day's register: four users, three of them marked present with their arrival and departure hours, and the banner saying the register closed at 13:00](../../assets/screenshots/centre-de-jour/07-registre-du-jour.png)
 
 Switching **Present** off removes the user's day. From 13:00 the banner says
 the register is closed to arrivals: the departures can still be completed, and
@@ -53,7 +57,7 @@ day — the right tool to catch up a fortnight for one person.
    is not.
 5. Click **Save**, or **Save and next day** to move on to the following day.
 
-![The Add a day of attendance dialog: the date, the arrival at 08:00 and the departure at 18:00, the Day Cut Short field, and the green banner saying the forfait is due](../assets/screenshots/centre-de-jour/08-jour-de-presence.png)
+![The Add a day of attendance dialog: the date, the arrival at 08:00 and the departure at 18:00, the Day Cut Short field, and the green banner saying the forfait is due](../../assets/screenshots/centre-de-jour/08-jour-de-presence.png)
 
 - A day already in the register is loaded, never doubled: saving updates it.
 - The next day always starts blank, on the centre's hours.
@@ -90,7 +94,7 @@ expected and not marked present **did not come** that day.
 filters **Today**, **This month**, **Forfait not due**, **Recorded after
 closure** and **Centre closed that day**, grouped by resident or by day.
 
-![The attendance history of the month: two days in red that earn no forfait, each with its reason, a day cut short by a hospitalisation, and a line in orange recorded after the closure](../assets/screenshots/centre-de-jour/09-historique.png)
+![The attendance history of the month: two days in red that earn no forfait, each with its reason, a day cut short by a hospitalisation, and a line in orange recorded after the closure](../../assets/screenshots/centre-de-jour/09-historique.png)
 
 A day that earns no forfait shows in red, with its reason under **Why Not
 Due**; a day recorded after the closure shows in orange. A day recorded on a

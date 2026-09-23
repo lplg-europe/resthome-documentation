@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-05 03:38+0200\n"
+"POT-Creation-Date: 2026-09-23 15:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -20,51 +20,55 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: ../../content/residents/gerer-un-resident.md:1
+#: ../../content/residents/gerer-un-resident.md:5
 msgid "Manage a resident"
 msgstr "Gérer un habitant"
 
-#: ../../content/residents/gerer-un-resident.md:4
-msgid ""
-"Create a resident, record their admission and stay, and enter the Katz "
-"assessment."
-msgstr ""
-"Créer un habitant, enregistrer son admission et son séjour, saisir "
-"l'évaluation Katz."
-
 #: ../../content/residents/gerer-un-resident.md:8
+msgid ""
+"Create a resident, record their admission and stay, and enter their "
+"dependency assessment."
+msgstr ""
+"Créer un habitant, enregistrer son admission et son séjour, et saisir son "
+"évaluation de la dépendance."
+
+#: ../../content/residents/gerer-un-resident.md:12
 msgid "How do I create a resident in Resthome?"
 msgstr "Comment créer un habitant dans Resthome ?"
 
-#: ../../content/residents/gerer-un-resident.md:9
+#: ../../content/residents/gerer-un-resident.md:13
 msgid ""
-"Open the MR/MRS -> Residents app and click New. Enter at least the name, "
-"date of birth, gender, the NISS if known, and the health insurance fund, "
-"then save."
+"Open the Nursing Home -> Residents app and click New. Enter at least the "
+"name, date of birth and gender, then the national identification number and "
+"the health insurer if your country pack asks for them, and save."
 msgstr ""
-"Ouvrez l'application MR/MRS → Habitants et cliquez sur Nouveau. Saisissez au"
-" minimum le nom, la date de naissance, le genre, le NISS s'il est connu, et "
-"la mutuelle, puis enregistrez."
+"Ouvrez l'application Maison de repos → Habitants et cliquez sur Nouveau. "
+"Saisissez au minimum le nom, la date de naissance et le genre, puis le "
+"numéro d'identification national et l'assureur santé si votre pack pays les "
+"demande, et enregistrez."
 
-#: ../../content/residents/gerer-un-resident.md:11
-msgid "Is the NISS mandatory to create a resident?"
-msgstr "Le NISS est-il obligatoire pour créer un habitant ?"
+#: ../../content/residents/gerer-un-resident.md:15
+msgid "Is the national identification number mandatory to create a resident?"
+msgstr ""
+"Le numéro d'identification national est-il obligatoire pour créer un "
+"habitant ?"
 
-#: ../../content/residents/gerer-un-resident.md:12
+#: ../../content/residents/gerer-un-resident.md:16
 msgid ""
-"No. You can create a resident without a NISS, but insurability checks (MDA) "
-"and agreements (eAgreement) cannot be sent without it, so fill it in as soon"
-" as possible."
+"No. You can create a resident without it, but the electronic exchanges with "
+"the health insurer, where the country has them, cannot be sent until it is "
+"filled in. Complete it as soon as possible."
 msgstr ""
-"Non. Vous pouvez créer un habitant sans NISS, mais la vérification "
-"d'assurabilité (MDA) et les accords (eAgreement) ne peuvent pas être envoyés"
-" sans lui : complétez-le dès que possible."
+"Non. Vous pouvez créer un habitant sans ce numéro, mais les échanges "
+"électroniques avec l'assureur santé, là où le pays en prévoit, ne peuvent "
+"pas être envoyés tant qu'il n'est pas renseigné. Complétez-le dès que "
+"possible."
 
-#: ../../content/residents/gerer-un-resident.md:14
+#: ../../content/residents/gerer-un-resident.md:18
 msgid "What is the difference between confirming and starting a stay?"
 msgstr "Quelle est la différence entre confirmer et démarrer un séjour ?"
 
-#: ../../content/residents/gerer-un-resident.md:15
+#: ../../content/residents/gerer-un-resident.md:19
 msgid ""
 "Confirming reserves the room and makes the admission date fields appear. "
 "Starting the stay records that the resident is actually present, and it is "
@@ -74,208 +78,201 @@ msgstr ""
 "d'admission. Démarrer le séjour acte que l'habitant est effectivement "
 "présent, et c'est cette étape qui déclenche la facturation."
 
-#: ../../content/residents/gerer-un-resident.md:17
+#: ../../content/residents/gerer-un-resident.md:21
 msgid "What does Resthome do automatically when a stay starts?"
 msgstr "Que fait Resthome automatiquement au démarrage d'un séjour ?"
 
-#: ../../content/residents/gerer-un-resident.md:18
+#: ../../content/residents/gerer-un-resident.md:22
 msgid ""
 "It adds the resident to the open billing periods, creates the first "
-"accommodation invoice for residents billed in advance, opens the month's "
-"supplements envelope, and creates the admission eAgreement when the NISS is "
-"present."
+"accommodation invoice for residents billed in advance and opens the month's "
+"supplements envelope. Where the country has electronic exchanges with the "
+"health insurer, the country pack adds its own admission steps."
 msgstr ""
 "Il ajoute l'habitant aux périodes de facturation ouvertes, crée la première "
-"facture d'hébergement pour les habitants facturés par anticipation, ouvre "
-"l'enveloppe de suppléments du mois et crée l'eAgreement d'admission lorsque "
-"le NISS est présent."
-
-#: ../../content/residents/gerer-un-resident.md:20
-msgid "What happens if the resident has no validated Katz assessment?"
-msgstr "Que se passe-t-il si l'habitant n'a pas d'évaluation Katz validée ?"
-
-#: ../../content/residents/gerer-un-resident.md:21
-msgid ""
-"The resident stays in category O by default and a \"Katz to do\" reminder "
-"appears on the dashboard, since the Katz category determines the INAMI flat-"
-"rate fee."
-msgstr ""
-"L'habitant reste en catégorie O par défaut et un rappel « Katz à faire » "
-"apparaît sur le tableau de bord, puisque la catégorie Katz détermine le "
-"forfait INAMI."
+"facture d'hébergement pour les habitants facturés par anticipation et ouvre "
+"l'enveloppe de suppléments du mois. Là où le pays prévoit des échanges "
+"électroniques avec l'assureur santé, le pack pays ajoute ses propres étapes "
+"d'admission."
 
 #: ../../content/residents/gerer-un-resident.md:24
+msgid "What happens if the resident has no validated dependency assessment?"
+msgstr ""
+"Que se passe-t-il si l'habitant n'a pas d'évaluation de la dépendance "
+"validée ?"
+
+#: ../../content/residents/gerer-un-resident.md:25
+msgid ""
+"The resident keeps the country's default category and a reminder appears on "
+"the dashboard, because the dependency category is what the care allowance "
+"paid by the health insurer relies on."
+msgstr ""
+"L'habitant garde la catégorie par défaut du pays et un rappel apparaît sur "
+"le tableau de bord, car c'est sur la catégorie de dépendance que repose le "
+"forfait de soins payé par l'assureur santé."
+
+#: ../../content/residents/gerer-un-resident.md:28
 msgid ""
 "This page describes a resident's complete journey in Resthome: from "
-"**creation** to **active stay**, including the **Katz assessment** that "
-"governs INAMI billing."
+"**creation** to **active stay**, including the **dependency assessment** "
+"that the care allowance paid by the health insurer relies on."
 msgstr ""
 "Cette page décrit le parcours complet d'un habitant dans Resthome : de sa "
-"**création** à son **séjour actif**, en passant par l’**évaluation Katz** "
-"qui conditionne la facturation INAMI."
+"**création** à son **séjour actif**, en passant par l’**évaluation de la "
+"dépendance** sur laquelle repose le forfait de soins payé par l'assureur "
+"santé."
 
-#: ../../content/residents/gerer-un-resident.md:26
+#: ../../content/residents/gerer-un-resident.md:32
 msgid "Overview"
 msgstr "Vue d'ensemble"
 
-#: ../../content/residents/gerer-un-resident.md:36
+#: ../../content/residents/gerer-un-resident.md:42
 msgid "Two dates not to confuse"
 msgstr "Deux dates à ne pas confondre"
 
-#: ../../content/residents/gerer-un-resident.md:39
+#: ../../content/residents/gerer-un-resident.md:45
 msgid "**Stay start date**: when accommodation billing begins (the room)."
 msgstr ""
 "**Date de début de séjour** : quand commence la facturation de l'hébergement"
 " (la chambre)."
 
-#: ../../content/residents/gerer-un-resident.md:40
+#: ../../content/residents/gerer-un-resident.md:46
 msgid ""
-"**Admission date**: when the INAMI intervention begins (the flat-rate fee)."
+"**Admission date**: the resident's effective entry, when the care allowance "
+"paid by the health insurer begins."
 msgstr ""
-"**Date d'admission** : quand commence l'intervention INAMI (le forfait)."
+"**Date d'admission** : l'entrée effective de l'habitant, à partir de "
+"laquelle commence le forfait de soins payé par l'assureur santé."
 
-#: ../../content/residents/gerer-un-resident.md:42
+#: ../../content/residents/gerer-un-resident.md:49
 msgid "They are often identical, but can differ — Resthome handles both."
 msgstr ""
 "Elles sont souvent identiques, mais peuvent différer — Resthome gère les "
 "deux."
 
-#: ../../content/residents/gerer-un-resident.md:45
+#: ../../content/residents/gerer-un-resident.md:52
 msgid "1. Create the resident"
 msgstr "1\\. Créer l'habitant"
 
-#: ../../content/residents/gerer-un-resident.md:47
-msgid "Open the **MR/MRS → Residents** application."
-msgstr "Ouvrez l'application **MR/MRS → Habitants**."
+#: ../../content/residents/gerer-un-resident.md:54
+msgid "Open the **Nursing Home → Residents** application."
+msgstr "Ouvrez l'application **Maison de repos → Habitants**."
 
-#: ../../content/residents/gerer-un-resident.md:48
+#: ../../content/residents/gerer-un-resident.md:55
 msgid "Click **New**."
 msgstr "Cliquez sur **Nouveau**."
 
-#: ../../content/residents/gerer-un-resident.md:49
-msgid ""
-"Enter at least: **name**, **date of birth**, **gender**, and the **NISS** "
-"(national number) if known."
-msgstr ""
-"Renseignez au minimum : **nom**, **date de naissance**, **genre**, et le "
-"**NISS** (numéro national) s'il est connu."
-
-#: ../../content/residents/gerer-un-resident.md:50
-msgid "Select the resident's **health insurance fund**."
-msgstr "Sélectionnez la **mutuelle** de l'habitant."
-
-#: ../../content/residents/gerer-un-resident.md:51
-#: ../../content/residents/gerer-un-resident.md:81
-msgid "**Save**."
-msgstr "**Enregistrez**."
-
-#: ../../content/residents/gerer-un-resident.md:53
-msgid ""
-"![Resident record: the Katz category and stay type badges, the personal "
-"information tab, the current stay and the health insurance fund "
-"details](../assets/screenshots/residents/05-fiche-resident.png)"
-msgstr ""
-"![Fiche habitant : les pastilles de catégorie Katz et de type de séjour, "
-"l'onglet des informations personnelles, le séjour en cours et les données de"
-" mutuelle](../assets/screenshots/residents/05-fiche-resident.png)"
-
-#: ../../content/residents/gerer-un-resident.md:53
-msgid ""
-"Resident record: the Katz category and stay type badges, the personal "
-"information tab, the current stay and the health insurance fund details"
-msgstr ""
-"Fiche habitant : les pastilles de catégorie Katz et de type de séjour, "
-"l'onglet des informations personnelles, le séjour en cours et les données de"
-" mutuelle"
-
-#: ../../content/residents/gerer-un-resident.md:55
-msgid "Reading the identity card (eID)"
-msgstr "Lire la carte d'identité (eID)"
+#: ../../content/residents/gerer-un-resident.md:56
+msgid "Enter at least: **name**, **date of birth** and **gender**."
+msgstr "Renseignez au minimum : **nom**, **date de naissance** et **genre**."
 
 #: ../../content/residents/gerer-un-resident.md:57
 msgid ""
-"Rather than typing the identity in, you can **read the resident's eID "
-"card**. Resthome fills in the name, the date of birth, the gender and the "
-"**NISS** from the card itself — no typo, no transposed digit."
+"Fill in the **national identification number** and the resident's **health "
+"insurer**, when your country pack provides these fields."
 msgstr ""
-"Plutôt que de saisir l'identité, vous pouvez **lire la carte eID de "
-"l'habitant**. Resthome renseigne le nom, la date de naissance, le genre et "
-"le **NISS** depuis la carte elle-même — sans faute de frappe ni chiffre "
-"inversé."
+"Renseignez le **numéro d'identification national** et l’**assureur santé** "
+"de l'habitant, lorsque votre pack pays prévoit ces champs."
+
+#: ../../content/residents/gerer-un-resident.md:59
+#: ../../content/residents/gerer-un-resident.md:85
+msgid "**Save**."
+msgstr "**Enregistrez**."
 
 #: ../../content/residents/gerer-un-resident.md:61
 msgid ""
-"From an **existing record**, the eID reading **updates** that resident."
+"![Resident record: the dependency category and stay type badges, the "
+"personal information tab, the current stay and the health insurer "
+"details](../assets/screenshots/residents/05-fiche-resident.png)"
 msgstr ""
-"Depuis une **fiche existante**, la lecture eID **met à jour** cet habitant."
+"![Fiche habitant : les pastilles de catégorie de dépendance et de type de "
+"séjour, l'onglet des informations personnelles, le séjour en cours et les "
+"données de l'assureur santé](../assets/screenshots/residents/05-fiche-"
+"resident.png)"
 
-#: ../../content/residents/gerer-un-resident.md:62
+#: ../../content/residents/gerer-un-resident.md:61
 msgid ""
-"From the **New resident via eID** menu entry, Resthome looks the person up "
-"by NISS and **creates** the record if it does not exist yet."
+"Resident record: the dependency category and stay type badges, the personal "
+"information tab, the current stay and the health insurer details"
 msgstr ""
-"Depuis l'entrée de menu **Nouveau habitant via eID**, Resthome recherche la "
-"personne par son NISS et **crée** la fiche si elle n'existe pas encore."
+"Fiche habitant : les pastilles de catégorie de dépendance et de type de "
+"séjour, l'onglet des informations personnelles, le séjour en cours et les "
+"données de l'assureur santé"
 
-#: ../../content/residents/gerer-un-resident.md:65
-msgid "A card reader must be connected to the workstation."
-msgstr "Un lecteur de carte doit être connecté au poste de travail."
+#: ../../content/residents/gerer-un-resident.md:63
+msgid ""
+"The **ID Card Number** field keeps the number of the identity document "
+"presented at admission. It is not the national identification number: the "
+"card expires and is renewed, the person's number does not."
+msgstr ""
+"Le champ **Numéro de carte d'identité** conserve le numéro du document "
+"d'identité présenté à l'admission. Ce n'est pas le numéro d'identification "
+"national : la carte expire et se renouvelle, le numéro de la personne, lui, "
+"ne change pas."
 
 #: ../../content/residents/gerer-un-resident.md:67
-msgid "The NISS is required for eHealth"
-msgstr "Le NISS est nécessaire pour l'eHealth"
+#: ../../content/residents/gerer-un-resident.md:106
+#: ../../content/residents/gerer-un-resident.md:131
+#: ../../content/residents/gerer-un-resident.md:146
+#: ../../content/residents/gerer-un-resident.md:164
+msgid "In Belgium"
+msgstr "En Belgique"
 
 #: ../../content/residents/gerer-un-resident.md:70
 msgid ""
-"Without a NISS, insurability verification (MDA) and agreements (eAgreement) "
-"cannot be sent. You can create the resident without a NISS, but remember to "
-"fill it in as soon as possible."
+"The Belgian pack adds the **NISS**, the **Health Insurance** (mutualité) and"
+" the eID card reading, which fills the identity and the NISS straight from "
+"the chip. Without a NISS, MDA and eAgreement cannot be sent — see [The "
+"resident's file in Belgium](../belgique/dossier-resident.md)."
 msgstr ""
-"Sans NISS, la vérification d'assurabilité (MDA) et les accords (eAgreement) "
-"ne peuvent pas être envoyés. Vous pouvez créer l'habitant sans NISS, mais "
-"pensez à le compléter dès que possible."
+"Le pack belge ajoute le **NISS**, le champ **Mutuelle** et la lecture de la "
+"carte eID, qui renseigne l'identité et le NISS directement depuis la puce. "
+"Sans NISS, MDA et eAgreement ne peuvent pas être envoyés — voir [Le dossier "
+"de l'habitant en Belgique](../belgique/dossier-resident.md)."
 
-#: ../../content/residents/gerer-un-resident.md:73
+#: ../../content/residents/gerer-un-resident.md:76
 msgid "2. Open a stay agreement"
 msgstr "2\\. Ouvrir une convention de séjour"
 
-#: ../../content/residents/gerer-un-resident.md:75
+#: ../../content/residents/gerer-un-resident.md:78
 msgid "The **stay** links the resident to a room and triggers billing."
 msgstr ""
 "Le **séjour** relie l'habitant à une chambre et déclenche la facturation."
 
-#: ../../content/residents/gerer-un-resident.md:77
+#: ../../content/residents/gerer-un-resident.md:80
 msgid "On the resident record, open the **Convention** tab."
 msgstr "Sur la fiche de l'habitant, ouvrez l'onglet **Convention**."
 
-#: ../../content/residents/gerer-un-resident.md:78
+#: ../../content/residents/gerer-un-resident.md:81
 msgid "Click **Add a line**."
 msgstr "Cliquez sur **Ajouter une ligne**."
 
-#: ../../content/residents/gerer-un-resident.md:79
+#: ../../content/residents/gerer-un-resident.md:82
 msgid "Choose the **room** (only available rooms are offered)."
 msgstr ""
 "Choisissez la **chambre** (seules les chambres disponibles sont proposées)."
 
-#: ../../content/residents/gerer-un-resident.md:80
-msgid "Enter the **stay type** (MR or MRS) and the **stay start date**."
-msgstr ""
-"Indiquez le **type de séjour** (MR ou MRS) et la **date de début de "
-"séjour**."
-
 #: ../../content/residents/gerer-un-resident.md:83
+msgid ""
+"Enter the **stay type** — one of the sectors the home is licensed for — and "
+"the **stay start date**."
+msgstr ""
+"Indiquez le **type de séjour** — l'un des secteurs pour lesquels la maison "
+"est agréée — et la **date de début de séjour**."
+
+#: ../../content/residents/gerer-un-resident.md:87
 msgid "The stay is then in the **Draft** state."
 msgstr "Le séjour est alors en état **Brouillon**."
 
-#: ../../content/residents/gerer-un-resident.md:85
+#: ../../content/residents/gerer-un-resident.md:89
 msgid "3. Confirm then start the stay"
 msgstr "3\\. Confirmer puis démarrer le séjour"
 
-#: ../../content/residents/gerer-un-resident.md:87
+#: ../../content/residents/gerer-un-resident.md:91
 msgid "The stay goes through two steps:"
 msgstr "Le séjour passe par deux étapes :"
 
-#: ../../content/residents/gerer-un-resident.md:89
+#: ../../content/residents/gerer-un-resident.md:93
 msgid ""
 "**Confirm** — the stay becomes *Confirmed* (the room is reserved). The "
 "**admission date and time** fields appear: fill them in."
@@ -283,7 +280,7 @@ msgstr ""
 "**Confirmer** — le séjour devient *Confirmé* (la chambre est réservée). Les "
 "champs **date et heure d'admission** apparaissent : complétez-les."
 
-#: ../../content/residents/gerer-un-resident.md:90
+#: ../../content/residents/gerer-un-resident.md:94
 msgid ""
 "**Start Stay** — the stay becomes *In Progress* (the resident is actually "
 "present)."
@@ -291,19 +288,19 @@ msgstr ""
 "**Start Stay (Démarrer)** — le séjour devient *En cours* (l'habitant est "
 "effectivement présent)."
 
-#: ../../content/residents/gerer-un-resident.md:92
+#: ../../content/residents/gerer-un-resident.md:96
 msgid "What starting the stay triggers automatically"
 msgstr "Ce que le démarrage déclenche automatiquement"
 
-#: ../../content/residents/gerer-un-resident.md:95
+#: ../../content/residents/gerer-un-resident.md:99
 msgid "When the stay starts, Resthome:"
 msgstr "Au démarrage, Resthome :"
 
-#: ../../content/residents/gerer-un-resident.md:97
+#: ../../content/residents/gerer-un-resident.md:101
 msgid "adds the resident to the open **billing periods**;"
 msgstr "ajoute l'habitant aux **périodes de facturation** ouvertes ;"
 
-#: ../../content/residents/gerer-un-resident.md:98
+#: ../../content/residents/gerer-un-resident.md:102
 msgid ""
 "for a resident billed in advance, creates the **first accommodation "
 "invoice** for the admission month;"
@@ -311,86 +308,103 @@ msgstr ""
 "crée, pour un habitant facturé en avance, la **première facture "
 "d'hébergement** du mois d'admission ;"
 
-#: ../../content/residents/gerer-un-resident.md:99
-msgid "opens the month's **supplements envelope**;"
-msgstr "ouvre l’**enveloppe de suppléments** du mois ;"
-
-#: ../../content/residents/gerer-un-resident.md:100
-msgid "creates the **admission eAgreement** (if the NISS is present)."
-msgstr "crée l’**eAgreement d'admission** (si le NISS est présent)."
-
 #: ../../content/residents/gerer-un-resident.md:103
-msgid "4. Enter the Katz assessment"
-msgstr "4\\. Saisir l'évaluation Katz"
-
-#: ../../content/residents/gerer-un-resident.md:105
-msgid ""
-"The **Katz** category (O, A, B, C, Cd) determines the **INAMI flat-rate "
-"fee**."
-msgstr ""
-"La catégorie **Katz** (O, A, B, C, Cd) détermine le **forfait INAMI**."
-
-#: ../../content/residents/gerer-un-resident.md:107
-msgid ""
-"From the resident record, open **Assessment tools → Katz** (or the **Katz** "
-"button)."
-msgstr ""
-"Depuis la fiche de l'habitant, ouvrez **Outils d'évaluation → Katz** (ou le "
-"bouton **Katz**)."
-
-#: ../../content/residents/gerer-un-resident.md:108
-msgid ""
-"Click **New** and score the 6 criteria (washing, dressing, transfer, going "
-"to the toilet, continence, eating)."
-msgstr ""
-"Cliquez sur **Nouveau** et cotez les 6 critères (toilette, habillage, "
-"transfert, aller à la toilette, continence, manger)."
+msgid "opens the month's **supplements envelope**."
+msgstr "ouvre l’**enveloppe de suppléments** du mois."
 
 #: ../../content/residents/gerer-un-resident.md:109
+msgid ""
+"Starting the stay also creates the **admission eAgreement** (Annexe 7) when "
+"the NISS is present, and the stay type is the MR or MRS sector — see [The "
+"resident's file in Belgium](../belgique/dossier-resident.md)."
+msgstr ""
+"Le démarrage du séjour crée aussi l’**eAgreement d'admission** (Annexe 7) "
+"lorsque le NISS est présent et que le type de séjour est le secteur MR ou "
+"MRS — voir [Le dossier de l'habitant en Belgique](../belgique/dossier-"
+"resident.md)."
+
+#: ../../content/residents/gerer-un-resident.md:114
+msgid "4. Enter the dependency assessment"
+msgstr "4\\. Saisir l'évaluation de la dépendance"
+
+#: ../../content/residents/gerer-un-resident.md:116
+msgid ""
+"The **dependency category** determines the **care allowance paid by the "
+"health insurer**. The scale that produces it depends on the country."
+msgstr ""
+"La **catégorie de dépendance** détermine le **forfait de soins payé par "
+"l'assureur santé**. L'échelle qui la produit dépend du pays."
+
+#: ../../content/residents/gerer-un-resident.md:119
+msgid ""
+"From the resident record, open the dependency scale from the **Evaluation "
+"Tools** tab."
+msgstr ""
+"Depuis la fiche de l'habitant, ouvrez l'échelle de dépendance à partir de "
+"l'onglet **Outils d'évaluation**."
+
+#: ../../content/residents/gerer-un-resident.md:121
+msgid "Click **New** and score the criteria."
+msgstr "Cliquez sur **Nouveau** et cotez les critères."
+
+#: ../../content/residents/gerer-un-resident.md:122
 msgid "**Confirm** then **Validate** the assessment."
 msgstr "**Confirmez** puis **Validez** l'évaluation."
 
-#: ../../content/residents/gerer-un-resident.md:111
-msgid "No validated Katz?"
-msgstr "Pas de Katz validé ?"
+#: ../../content/residents/gerer-un-resident.md:124
+msgid "No validated assessment?"
+msgstr "Pas d'évaluation validée ?"
 
-#: ../../content/residents/gerer-un-resident.md:114
+#: ../../content/residents/gerer-un-resident.md:127
 msgid ""
-"As long as no validated Katz exists, the resident is in category **O** by "
-"default, and a \"Katz to do\" reminder appears on the dashboard."
+"As long as no validated assessment exists, the resident keeps the country's "
+"default category, and a reminder appears on the dashboard."
 msgstr ""
-"Tant qu'aucun Katz validé n'existe, l'habitant est en catégorie **O** par "
-"défaut, et un rappel « Katz à faire » apparaît sur le tableau de bord."
+"Tant qu'aucune évaluation validée n'existe, l'habitant garde la catégorie "
+"par défaut du pays, et un rappel apparaît sur le tableau de bord."
 
-#: ../../content/residents/gerer-un-resident.md:117
-msgid "5. Check insurability (MDA)"
-msgstr "5\\. Vérifier l'assurabilité (MDA)"
-
-#: ../../content/residents/gerer-un-resident.md:119
-msgid "Before billing, check that the resident is properly insured:"
-msgstr "Avant de facturer, vérifiez que l'habitant est bien assuré :"
-
-#: ../../content/residents/gerer-un-resident.md:121
-msgid "Open the month's billing period, or the resident record."
-msgstr "Ouvrez la période de facturation du mois, ou la fiche de l'habitant."
-
-#: ../../content/residents/gerer-un-resident.md:122
-msgid "Run an **MDA check** (MyCareNet/WalCareNet insurability)."
-msgstr "Lancez une **vérification MDA** (assurabilité MyCareNet/WalCareNet)."
-
-#: ../../content/residents/gerer-un-resident.md:123
+#: ../../content/residents/gerer-un-resident.md:134
 msgid ""
-"Resthome automatically updates the **health insurance fund** and the **BIM**"
-" status where applicable."
+"The scale is **Katz**: six criteria, categories O, A, B, C and Cd, category "
+"O by default and a \"Katz to do\" reminder — see [The Katz "
+"assessment](../belgique/katz.md)."
 msgstr ""
-"Resthome met à jour automatiquement la **mutuelle** et le statut **BIM** le "
-"cas échéant."
+"L'échelle est **Katz** : six critères, catégories O, A, B, C et Cd, "
+"catégorie O par défaut et un rappel « Katz à faire » — voir [L'évaluation "
+"Katz](../belgique/katz.md)."
 
-#: ../../content/residents/gerer-un-resident.md:125
+#: ../../content/residents/gerer-un-resident.md:139
+msgid "5. Check insurability"
+msgstr "5\\. Vérifier l'assurabilité"
+
+#: ../../content/residents/gerer-un-resident.md:141
+msgid ""
+"Before billing, check that the resident is properly insured with their "
+"health insurer. Where the country has an electronic insurability check, run "
+"it from the month's billing period or from the resident record: Resthome "
+"updates the **health insurer** and the resident's coverage details."
+msgstr ""
+"Avant de facturer, vérifiez que l'habitant est bien assuré auprès de son "
+"assureur santé. Là où le pays prévoit une vérification électronique de "
+"l'assurabilité, lancez-la depuis la période de facturation du mois ou depuis"
+" la fiche de l'habitant : Resthome met à jour l’**assureur santé** et les "
+"données de couverture de l'habitant."
+
+#: ../../content/residents/gerer-un-resident.md:149
+msgid ""
+"The check is the **MDA** request (MyCareNet/WalCareNet): it updates the "
+"mutualité and the BIM status — see [The resident's file in "
+"Belgium](../belgique/dossier-resident.md)."
+msgstr ""
+"La vérification est la demande **MDA** (MyCareNet/WalCareNet) : elle met à "
+"jour la mutuelle et le statut BIM — voir [Le dossier de l'habitant en "
+"Belgique](../belgique/dossier-resident.md)."
+
+#: ../../content/residents/gerer-un-resident.md:154
 msgid "Special cases"
 msgstr "Cas particuliers"
 
-#: ../../content/residents/gerer-un-resident.md:127
+#: ../../content/residents/gerer-un-resident.md:156
 msgid ""
 "**Room change**: use the dedicated action on the stay — accommodation "
 "billing is split across the two rates, without a new admission."
@@ -399,25 +413,26 @@ msgstr ""
 "facturation de l'hébergement est scindée aux deux tarifs, sans nouvelle "
 "admission."
 
-#: ../../content/residents/gerer-un-resident.md:128
+#: ../../content/residents/gerer-un-resident.md:157
 msgid ""
-"**MR ↔ MRS transfer**: a wizard records the transfer date and updates the "
-"stay type."
+"**Transfer between sectors**: when the home is licensed for several sectors,"
+" a wizard records the transfer date and updates the stay type."
 msgstr ""
-"**Transfert MR ↔ MRS** : un assistant enregistre la date de transfert et met"
-" à jour le type de séjour."
+"**Transfert entre secteurs** : lorsque la maison est agréée pour plusieurs "
+"secteurs, un assistant enregistre la date de transfert et met à jour le type"
+" de séjour."
 
-#: ../../content/residents/gerer-un-resident.md:129
+#: ../../content/residents/gerer-un-resident.md:159
 msgid ""
 "**Absence / hospitalization**: see the [Billing](../facturation/index.md) "
-"section — an absence adjusts the flat-rate fee and can generate an eHealth "
-"notification (Annexe 11)."
+"section — an absence adjusts the care allowance and, where the country "
+"requires it, is notified to the health insurer."
 msgstr ""
 "**Absence / hospitalisation** : voir la section "
-"[Facturation](../facturation/index.md) — l'absence ajuste le forfait et peut"
-" générer une notification eHealth (Annexe 11)."
+"[Facturation](../facturation/index.md) — une absence ajuste le forfait de "
+"soins et, là où le pays l'exige, est notifiée à l'assureur santé."
 
-#: ../../content/residents/gerer-un-resident.md:130
+#: ../../content/residents/gerer-un-resident.md:162
 msgid ""
 "**End of stay / death**: close the stay; Resthome stops billing on the "
 "correct date and prepares the credit note if needed."
@@ -425,17 +440,31 @@ msgstr ""
 "**Fin de séjour / décès** : clôturez le séjour ; Resthome arrête la "
 "facturation à la bonne date et prépare, si nécessaire, la note de crédit."
 
-#: ../../content/residents/gerer-un-resident.md:132
+#: ../../content/residents/gerer-un-resident.md:167
+msgid ""
+"The transfer between sectors is the **MR ↔ MRS** internal transfer, and an "
+"absence can generate an **Annexe 11** notification — see [The resident's "
+"file in Belgium](../belgique/dossier-resident.md)."
+msgstr ""
+"Le transfert entre secteurs est le transfert interne **MR ↔ MRS**, et une "
+"absence peut générer une notification **Annexe 11** — voir [Le dossier de "
+"l'habitant en Belgique](../belgique/dossier-resident.md)."
+
+#: ../../content/residents/gerer-un-resident.md:172
 msgid "Further reading"
 msgstr "Pour aller plus loin"
 
-#: ../../content/residents/gerer-un-resident.md:134
+#: ../../content/residents/gerer-un-resident.md:174
 msgid "[Billing](../facturation/index.md)"
 msgstr "[Facturation](../facturation/index.md)"
 
-#: ../../content/residents/gerer-un-resident.md:135
-msgid "[eHealth](../ehealth/index.md)"
-msgstr "[eHealth](../ehealth/index.md)"
+#: ../../content/residents/gerer-un-resident.md:175
+msgid "[Geriatric assessments](evaluations.md)"
+msgstr "[Évaluations gériatriques](evaluations.md)"
+
+#: ../../content/residents/gerer-un-resident.md:176
+msgid "[Room change and transfer](changement-chambre.md)"
+msgstr "[Changement de chambre et transfert](changement-chambre.md)"
 
 #~ msgid ""
 #~ "graph LR\n"
@@ -444,3 +473,111 @@ msgstr "[eHealth](../ehealth/index.md)"
 #~ "  C --> D[Start the stay]\n"
 #~ "  D --> E[Katz assessment]"
 #~ msgstr ""
+
+#~ msgid ""
+#~ "No. You can create a resident without a NISS, but insurability checks (MDA) "
+#~ "and agreements (eAgreement) cannot be sent without it, so fill it in as soon"
+#~ " as possible."
+#~ msgstr ""
+#~ "Non. Vous pouvez créer un habitant sans NISS, mais la vérification "
+#~ "d'assurabilité (MDA) et les accords (eAgreement) ne peuvent pas être envoyés"
+#~ " sans lui : complétez-le dès que possible."
+
+#~ msgid ""
+#~ "The resident stays in category O by default and a \"Katz to do\" reminder "
+#~ "appears on the dashboard, since the Katz category determines the INAMI flat-"
+#~ "rate fee."
+#~ msgstr ""
+#~ "L'habitant reste en catégorie O par défaut et un rappel « Katz à faire » "
+#~ "apparaît sur le tableau de bord, puisque la catégorie Katz détermine le "
+#~ "forfait INAMI."
+
+#~ msgid ""
+#~ "**Admission date**: when the INAMI intervention begins (the flat-rate fee)."
+#~ msgstr ""
+#~ "**Date d'admission** : quand commence l'intervention INAMI (le forfait)."
+
+#~ msgid "Select the resident's **health insurance fund**."
+#~ msgstr "Sélectionnez la **mutuelle** de l'habitant."
+
+#~ msgid "Reading the identity card (eID)"
+#~ msgstr "Lire la carte d'identité (eID)"
+
+#~ msgid ""
+#~ "Rather than typing the identity in, you can **read the resident's eID "
+#~ "card**. Resthome fills in the name, the date of birth, the gender and the "
+#~ "**NISS** from the card itself — no typo, no transposed digit."
+#~ msgstr ""
+#~ "Plutôt que de saisir l'identité, vous pouvez **lire la carte eID de "
+#~ "l'habitant**. Resthome renseigne le nom, la date de naissance, le genre et "
+#~ "le **NISS** depuis la carte elle-même — sans faute de frappe ni chiffre "
+#~ "inversé."
+
+#~ msgid ""
+#~ "From an **existing record**, the eID reading **updates** that resident."
+#~ msgstr ""
+#~ "Depuis une **fiche existante**, la lecture eID **met à jour** cet habitant."
+
+#~ msgid ""
+#~ "From the **New resident via eID** menu entry, Resthome looks the person up "
+#~ "by NISS and **creates** the record if it does not exist yet."
+#~ msgstr ""
+#~ "Depuis l'entrée de menu **Nouveau habitant via eID**, Resthome recherche la "
+#~ "personne par son NISS et **crée** la fiche si elle n'existe pas encore."
+
+#~ msgid "A card reader must be connected to the workstation."
+#~ msgstr "Un lecteur de carte doit être connecté au poste de travail."
+
+#~ msgid "The NISS is required for eHealth"
+#~ msgstr "Le NISS est nécessaire pour l'eHealth"
+
+#~ msgid ""
+#~ "Without a NISS, insurability verification (MDA) and agreements (eAgreement) "
+#~ "cannot be sent. You can create the resident without a NISS, but remember to "
+#~ "fill it in as soon as possible."
+#~ msgstr ""
+#~ "Sans NISS, la vérification d'assurabilité (MDA) et les accords (eAgreement) "
+#~ "ne peuvent pas être envoyés. Vous pouvez créer l'habitant sans NISS, mais "
+#~ "pensez à le compléter dès que possible."
+
+#~ msgid "creates the **admission eAgreement** (if the NISS is present)."
+#~ msgstr "crée l’**eAgreement d'admission** (si le NISS est présent)."
+
+#~ msgid ""
+#~ "The **Katz** category (O, A, B, C, Cd) determines the **INAMI flat-rate "
+#~ "fee**."
+#~ msgstr ""
+#~ "La catégorie **Katz** (O, A, B, C, Cd) détermine le **forfait INAMI**."
+
+#~ msgid ""
+#~ "From the resident record, open **Assessment tools → Katz** (or the **Katz** "
+#~ "button)."
+#~ msgstr ""
+#~ "Depuis la fiche de l'habitant, ouvrez **Outils d'évaluation → Katz** (ou le "
+#~ "bouton **Katz**)."
+
+#~ msgid ""
+#~ "Click **New** and score the 6 criteria (washing, dressing, transfer, going "
+#~ "to the toilet, continence, eating)."
+#~ msgstr ""
+#~ "Cliquez sur **Nouveau** et cotez les 6 critères (toilette, habillage, "
+#~ "transfert, aller à la toilette, continence, manger)."
+
+#~ msgid "Before billing, check that the resident is properly insured:"
+#~ msgstr "Avant de facturer, vérifiez que l'habitant est bien assuré :"
+
+#~ msgid "Open the month's billing period, or the resident record."
+#~ msgstr "Ouvrez la période de facturation du mois, ou la fiche de l'habitant."
+
+#~ msgid "Run an **MDA check** (MyCareNet/WalCareNet insurability)."
+#~ msgstr "Lancez une **vérification MDA** (assurabilité MyCareNet/WalCareNet)."
+
+#~ msgid ""
+#~ "Resthome automatically updates the **health insurance fund** and the **BIM**"
+#~ " status where applicable."
+#~ msgstr ""
+#~ "Resthome met à jour automatiquement la **mutuelle** et le statut **BIM** le "
+#~ "cas échéant."
+
+#~ msgid "[eHealth](../belgique/ehealth/index.md)"
+#~ msgstr "[eHealth](../belgique/ehealth/index.md)"

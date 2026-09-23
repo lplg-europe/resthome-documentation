@@ -1,3 +1,7 @@
+---
+modules: [l10n_health_be_mda, l10n_health_be_perdiem_ehealth]
+---
+
 # Insurability (MDA)
 
 :::{rh-description}
@@ -26,7 +30,7 @@ WalCareNet** for you and retrieves up-to-date information for a given
 
 Menu: **eHealth → Insurability → MDA Requests** (and **MDA Batches**).
 
-![MDA requests list: one row per request with the resident, the current and responding health insurance funds, the period and the status](../assets/screenshots/ehealth/20-mda-liste.webp)
+![MDA requests list: one row per request with the resident, the current and responding health insurance funds, the period and the status](../../assets/screenshots/ehealth/20-mda-liste.webp)
 
 ## What the MDA retrieves
 
@@ -35,7 +39,7 @@ Menu: **eHealth → Insurability → MDA Requests** (and **MDA Batches**).
   one on the profile (a **change** of health insurance fund is detected and flagged).
 - The **BIM status** (increased reimbursement).
 
-![MDA request for a beneficiary with BIM status: the BIM confirmed box is ticked and the CT1/CT2 codes are those of increased reimbursement](../assets/screenshots/ehealth/25-mda-bim.webp)
+![MDA request for a beneficiary with BIM status: the BIM confirmed box is ticked and the CT1/CT2 codes are those of increased reimbursement](../../assets/screenshots/ehealth/25-mda-bim.webp)
 - The **coverage periods** (start/end dates; several sub-periods if the insurance
   changed during the interval).
 - The **membership number** with the health insurance fund.
@@ -76,7 +80,7 @@ most **5 years** of history, and a standard MDA doesn't go beyond the current mo
    right away.
 3. Review the summary and the insurability periods.
 
-![Completed MDA request, Insurability tab: three coverage periods with their CT1/CT2 codes and the health insurance fund code](../assets/screenshots/ehealth/21-mda-reponse.webp)
+![Completed MDA request, Insurability tab: three coverage periods with their CT1/CT2 codes and the health insurance fund code](../../assets/screenshots/ehealth/21-mda-reponse.webp)
 
 :::{admonition} One MDA per resident and per period
 :class: note
@@ -98,7 +102,7 @@ For a whole period, run the **batch** check: select the residents (you can
 The batch shows **counters**: Insured, Not insured, Errors, Pending, and
 "Deaths detected".
 
-![MDA batch with its counters — Insured, Not insured, Errors, Pending — and the list of residents in the batch](../assets/screenshots/ehealth/22-mda-lot.webp)
+![MDA batch with its counters — Insured, Not insured, Errors, Pending — and the list of residents in the batch](../../assets/screenshots/ehealth/22-mda-lot.webp)
 
 :::{admonition} The right habit
 :class: tip
@@ -119,7 +123,7 @@ insurability.
 | **No response** | The platform closed without a response from an OA (retry) |
 | **Error** | The OA or the platform returned an error |
 
-![MDA request whose response reports a beneficiary who is not insured for the period](../assets/screenshots/ehealth/24-mda-non-assure.webp)
+![MDA request whose response reports a beneficiary who is not insured for the period](../../assets/screenshots/ehealth/24-mda-non-assure.webp)
 
 ## Buttons
 
@@ -218,4 +222,4 @@ Resthome compares with the previous check:
 - [MDA errors — causes and solutions](mda-erreurs.md)
 - [Electronic billing (eFact)](efact.md)
 - [Agreements (eAgreement)](eagreement.md)
-- [Billing overview](../facturation/index.md)
+- [Billing overview](../../facturation/index.md)

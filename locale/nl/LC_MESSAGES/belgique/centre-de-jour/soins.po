@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 14:09+0200\n"
+"POT-Creation-Date: 2026-09-23 15:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nl <LL@li.org>\n"
@@ -20,11 +20,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: ../../content/centre-de-jour/soins.md:1
+#: ../../content/belgique/centre-de-jour/soins.md:5
 msgid "Care for a day care user"
 msgstr "Zorg voor een gebruiker van het dagverzorgingscentrum"
 
-#: ../../content/centre-de-jour/soins.md:4
+#: ../../content/belgique/centre-de-jour/soins.md:8
 msgid ""
 "Care for a day care user in Resthome: care plan templates for people who "
 "come by day, tasks and medication on the days they come."
@@ -32,12 +32,12 @@ msgstr ""
 "Zorg voor een gebruiker van het dagverzorgingscentrum: zorgplansjablonen "
 "voor wie overdag komt, taken en medicatie op de dagen dat hij komt."
 
-#: ../../content/centre-de-jour/soins.md:8
+#: ../../content/belgique/centre-de-jour/soins.md:12
 msgid "Why does a day care user have no task today?"
 msgstr ""
 "Waarom heeft een gebruiker van het dagverzorgingscentrum vandaag geen taak?"
 
-#: ../../content/centre-de-jour/soins.md:9
+#: ../../content/belgique/centre-de-jour/soins.md:13
 msgid ""
 "Because they are not expected today — it is not one of their days — or "
 "because the register closed without them."
@@ -45,13 +45,13 @@ msgstr ""
 "Omdat hij vandaag niet verwacht wordt — het is niet een van zijn dagen — of "
 "omdat het register zonder hem werd afgesloten."
 
-#: ../../content/centre-de-jour/soins.md:11
+#: ../../content/belgique/centre-de-jour/soins.md:15
 msgid "Which care plan templates are offered for a day care user?"
 msgstr ""
 "Welke zorgplansjablonen worden aangeboden voor een gebruiker van het "
 "dagverzorgingscentrum?"
 
-#: ../../content/centre-de-jour/soins.md:12
+#: ../../content/belgique/centre-de-jour/soins.md:16
 msgid ""
 "Those written for people who come by day, or for any stay, that match their "
 "CSJ category. A template written for someone who stays the night — night "
@@ -61,12 +61,12 @@ msgstr ""
 "zijn CSJ-categorie passen. Een sjabloon voor iemand die blijft overnachten —"
 " nachtronde inbegrepen — wordt nooit aangeboden."
 
-#: ../../content/centre-de-jour/soins.md:14
+#: ../../content/belgique/centre-de-jour/soins.md:18
 msgid "A care was not given because the user did not come. Is it missed?"
 msgstr ""
 "Een zorg werd niet gegeven omdat de gebruiker niet kwam. Is die gemist?"
 
-#: ../../content/centre-de-jour/soins.md:15
+#: ../../content/belgique/centre-de-jour/soins.md:19
 msgid ""
 "No. Once the register has closed, the care of a user who did not come is "
 "cancelled, not counted as missed."
@@ -74,7 +74,7 @@ msgstr ""
 "Nee. Zodra het register is afgesloten, wordt de zorg van een gebruiker die "
 "niet kwam geannuleerd, niet als gemist geteld."
 
-#: ../../content/centre-de-jour/soins.md:17
+#: ../../content/belgique/centre-de-jour/soins.md:21
 msgid ""
 "A task was due at 9:00 and the user has not been marked present yet. Is it "
 "missed at 11:00?"
@@ -82,7 +82,7 @@ msgstr ""
 "Een taak stond gepland om 9 uur en de gebruiker staat nog niet op aanwezig. "
 "Is ze om 11 uur gemist?"
 
-#: ../../content/centre-de-jour/soins.md:18
+#: ../../content/belgique/centre-de-jour/soins.md:22
 msgid ""
 "No. Until 13:00 the register may still receive the user: the task stays "
 "planned, and the check after the closure decides."
@@ -90,7 +90,7 @@ msgstr ""
 "Nee. Tot 13 uur kan het register de gebruiker nog ontvangen: de taak blijft "
 "gepland, en de controle na de afsluiting beslist."
 
-#: ../../content/centre-de-jour/soins.md:21
+#: ../../content/belgique/centre-de-jour/soins.md:25
 msgid ""
 "A day care user is cared for like any resident — a care plan, its tasks, the"
 " medication — but only on the days they are at the centre. Everything that "
@@ -101,11 +101,11 @@ msgstr ""
 " hij in het centrum is. Alles wat werk plant, leest hetzelfde antwoord: "
 "**wordt de gebruiker die dag verwacht?**"
 
-#: ../../content/centre-de-jour/soins.md:25
+#: ../../content/belgique/centre-de-jour/soins.md:29
 msgid "The care plan"
 msgstr "Het zorgplan"
 
-#: ../../content/centre-de-jour/soins.md:27
+#: ../../content/belgique/centre-de-jour/soins.md:31
 msgid ""
 "On the file of a user without a plan, **Create the care plan** opens it. "
 "From the plan, **Apply a template** adds the objectives and cares a plan of "
@@ -115,32 +115,50 @@ msgstr ""
 "het plan. Vanuit het plan voegt **Sjabloon toepassen** de doelstellingen en "
 "zorgtaken toe die een plan van die soort gewoonlijk bevat."
 
-#: ../../content/centre-de-jour/soins.md:31
+#: ../../content/belgique/centre-de-jour/soins.md:35
 msgid ""
 "The **Written for** field of a template says who it is meant for: **Any "
 "stay**, **Stays the night** or **Comes by day**. A day care user is offered "
 "only the templates written for people who come by day or for any stay, that "
 "match their CSJ category — Resthome ships one for **F**, **Fd** and **D**. "
-"See [Care plans](../soins/plans-de-soins.md)."
+"See [Care plans](../../soins/plans-de-soins.md)."
 msgstr ""
 "Het veld **Geschreven voor** van een sjabloon zegt voor wie het bedoeld is: "
 "**Elk verblijf**, **Blijft overnachten** of **Komt overdag**. Een gebruiker "
 "van het dagverzorgingscentrum krijgt alleen de sjablonen voor wie overdag "
 "komt of voor elk verblijf, die bij zijn CSJ-categorie passen — Resthome "
 "levert er een voor **F**, **Fd** en **D**. Zie [Zorgplannen en vitale "
-"parameters](../soins/plans-de-soins.md)."
+"parameters](../../soins/plans-de-soins.md)."
 
-#: ../../content/centre-de-jour/soins.md:38
+#: ../../content/belgique/centre-de-jour/soins.md:42
+msgid ""
+"![Apply a template from the plan of a Fd day care user: the list offers the "
+"CSJ Fd template only](../../assets/screenshots/centre-de-jour/17-appliquer-"
+"plan-type.png)"
+msgstr ""
+"![Een sjabloon toepassen vanuit het plan van een Fd-gebruiker van het "
+"dagverzorgingscentrum: de lijst biedt alleen het sjabloon CSJ Fd "
+"aan](../../assets/screenshots/centre-de-jour/17-appliquer-plan-type.png)"
+
+#: ../../content/belgique/centre-de-jour/soins.md:42
+msgid ""
+"Apply a template from the plan of a Fd day care user: the list offers the "
+"CSJ Fd template only"
+msgstr ""
+"Een sjabloon toepassen vanuit het plan van een Fd-gebruiker van het "
+"dagverzorgingscentrum: de lijst biedt alleen het sjabloon CSJ Fd aan"
+
+#: ../../content/belgique/centre-de-jour/soins.md:44
 msgid ""
 "![The care plan templates: six Katz templates written for people who stay "
 "the night, three CSJ templates written for people who come by "
-"day](../assets/screenshots/centre-de-jour/13-plans-types.png)"
+"day](../../assets/screenshots/centre-de-jour/13-plans-types.png)"
 msgstr ""
 "![De zorgplansjablonen: zes Katz-sjablonen geschreven voor mensen die "
 "blijven overnachten, drie CSJ-sjablonen voor wie overdag "
-"komt](../assets/screenshots/centre-de-jour/13-plans-types.png)"
+"komt](../../assets/screenshots/centre-de-jour/13-plans-types.png)"
 
-#: ../../content/centre-de-jour/soins.md:38
+#: ../../content/belgique/centre-de-jour/soins.md:44
 msgid ""
 "The care plan templates: six Katz templates written for people who stay the "
 "night, three CSJ templates written for people who come by day"
@@ -148,42 +166,42 @@ msgstr ""
 "De zorgplansjablonen: zes Katz-sjablonen geschreven voor mensen die blijven "
 "overnachten, drie CSJ-sjablonen voor wie overdag komt"
 
-#: ../../content/centre-de-jour/soins.md:40
+#: ../../content/belgique/centre-de-jour/soins.md:46
 msgid "Tasks on the days the user comes"
 msgstr "Taken op de dagen dat de gebruiker komt"
 
-#: ../../content/centre-de-jour/soins.md:42
+#: ../../content/belgique/centre-de-jour/soins.md:48
 msgid "Care tasks are planned only on the days the user is **expected**:"
 msgstr ""
 "Zorgtaken worden alleen gepland op de dagen dat de gebruiker **verwacht** "
 "wordt:"
 
-#: ../../content/centre-de-jour/soins.md:44
+#: ../../content/belgique/centre-de-jour/soins.md:50
 msgid "the days ticked under **Expected on**, on the stay;"
 msgstr "de dagen die onder **Verwacht op** zijn aangevinkt, op het verblijf;"
 
-#: ../../content/centre-de-jour/soins.md:45
+#: ../../content/belgique/centre-de-jour/soins.md:51
 msgid "with none ticked, every day the centre opens;"
 msgstr "zonder aangevinkte dag, elke dag dat het centrum open is;"
 
-#: ../../content/centre-de-jour/soins.md:46
+#: ../../content/belgique/centre-de-jour/soins.md:52
 msgid ""
 "and any day actually recorded in the register, even outside those days."
 msgstr "en elke dag die echt in het register staat, ook buiten die dagen."
 
-#: ../../content/centre-de-jour/soins.md:48
+#: ../../content/belgique/centre-de-jour/soins.md:54
 msgid ""
 "![The week of a user who comes on Tuesday and Thursday, in the care "
 "calendar: the morning, noon and afternoon cares on those two days, nothing "
-"on the five others](../assets/screenshots/centre-de-jour/14-taches-jours-"
+"on the five others](../../assets/screenshots/centre-de-jour/14-taches-jours-"
 "attendus.png)"
 msgstr ""
 "![De week van een gebruiker die op dinsdag en donderdag komt, in de "
 "zorgkalender: de zorg van de ochtend, de middag en de namiddag op die twee "
-"dagen, niets op de vijf andere](../assets/screenshots/centre-de-"
+"dagen, niets op de vijf andere](../../assets/screenshots/centre-de-"
 "jour/14-taches-jours-attendus.png)"
 
-#: ../../content/centre-de-jour/soins.md:48
+#: ../../content/belgique/centre-de-jour/soins.md:54
 msgid ""
 "The week of a user who comes on Tuesday and Thursday, in the care calendar: "
 "the morning, noon and afternoon cares on those two days, nothing on the five"
@@ -193,7 +211,7 @@ msgstr ""
 "zorgkalender: de zorg van de ochtend, de middag en de namiddag op die twee "
 "dagen, niets op de vijf andere"
 
-#: ../../content/centre-de-jour/soins.md:50
+#: ../../content/belgique/centre-de-jour/soins.md:56
 msgid ""
 "The medication follows the same days. On the other days, the plan says the "
 "user is away and plans nothing."
@@ -201,11 +219,11 @@ msgstr ""
 "De medicatie volgt dezelfde dagen. Op de andere dagen zegt het plan dat de "
 "gebruiker afwezig is en plant het niets."
 
-#: ../../content/centre-de-jour/soins.md:53
+#: ../../content/belgique/centre-de-jour/soins.md:59
 msgid "When the user does not come"
 msgstr "Wanneer de gebruiker niet komt"
 
-#: ../../content/centre-de-jour/soins.md:55
+#: ../../content/belgique/centre-de-jour/soins.md:61
 msgid ""
 "**Before 13:00**, the register is open: the care of the day stays planned, "
 "since the user may still arrive."
@@ -213,7 +231,7 @@ msgstr ""
 "**Vóór 13 uur** is het register open: de zorg van de dag blijft gepland, "
 "want de gebruiker kan nog aankomen."
 
-#: ../../content/centre-de-jour/soins.md:57
+#: ../../content/belgique/centre-de-jour/soins.md:63
 msgid ""
 "**From 13:00**, a user expected and not marked present did not come: the "
 "care of the day is **cancelled**, not counted as missed."
@@ -222,7 +240,7 @@ msgstr ""
 "gezet, als niet gekomen: de zorg van de dag wordt **geannuleerd**, niet als "
 "gemist geteld."
 
-#: ../../content/centre-de-jour/soins.md:59
+#: ../../content/belgique/centre-de-jour/soins.md:65
 msgid ""
 "A **hospitalisation** is recorded as for any resident, and pauses the care "
 "in the same way."
@@ -230,23 +248,41 @@ msgstr ""
 "Een **ziekenhuisopname** wordt geregistreerd zoals voor elke bewoner, en "
 "schort de zorg op dezelfde manier op."
 
-#: ../../content/centre-de-jour/soins.md:62
+#: ../../content/belgique/centre-de-jour/soins.md:68
+msgid ""
+"![The cares of a user expected on Tuesday and not marked present by 13:00: "
+"all nine cancelled, none missed](../../assets/screenshots/centre-de-"
+"jour/18-soins-annules.png)"
+msgstr ""
+"![De zorgtaken van een gebruiker die op dinsdag verwacht werd en om 13 uur "
+"niet op aanwezig stond: alle negen geannuleerd, geen enkele "
+"gemist](../../assets/screenshots/centre-de-jour/18-soins-annules.png)"
+
+#: ../../content/belgique/centre-de-jour/soins.md:68
+msgid ""
+"The cares of a user expected on Tuesday and not marked present by 13:00: all"
+" nine cancelled, none missed"
+msgstr ""
+"De zorgtaken van een gebruiker die op dinsdag verwacht werd en om 13 uur "
+"niet op aanwezig stond: alle negen geannuleerd, geen enkele gemist"
+
+#: ../../content/belgique/centre-de-jour/soins.md:70
 msgid "On the phone"
 msgstr "Op de telefoon"
 
-#: ../../content/centre-de-jour/soins.md:64
+#: ../../content/belgique/centre-de-jour/soins.md:72
 msgid ""
 "The care app shows the same tasks: the cares of the day, for the users who "
-"are expected. See [Cares](../soins-mobile/soins.md)."
+"are expected. See [Cares](../../soins-mobile/soins.md)."
 msgstr ""
 "De zorgapp toont dezelfde taken: de zorgtaken van de dag, voor de gebruikers"
-" die verwacht worden. Zie [Zorgtaken](../soins-mobile/soins.md)."
+" die verwacht worden. Zie [Zorgtaken](../../soins-mobile/soins.md)."
 
-#: ../../content/centre-de-jour/soins.md:67
+#: ../../content/belgique/centre-de-jour/soins.md:75
 msgid "What's next"
 msgstr "Verder lezen"
 
-#: ../../content/centre-de-jour/soins.md:69
+#: ../../content/belgique/centre-de-jour/soins.md:77
 msgid ""
 "[Recording attendance](presences.md) — the register that decides who is "
 "there."
@@ -254,7 +290,7 @@ msgstr ""
 "[Aanwezigheden registreren](presences.md) — het register dat beslist wie er "
 "is."
 
-#: ../../content/centre-de-jour/soins.md:70
+#: ../../content/belgique/centre-de-jour/soins.md:78
 msgid ""
 "[Admitting a day care user](admission.md) — the days expected, set on the "
 "stay."

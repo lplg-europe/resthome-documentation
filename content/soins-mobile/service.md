@@ -1,3 +1,7 @@
+---
+modules: [healthcare_mobile]
+---
+
 # Shift screen
 
 :::{rh-description}

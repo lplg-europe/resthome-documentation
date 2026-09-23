@@ -23,6 +23,7 @@ extensions = [
     "sphinx_immaterial",
     "resthome_meta",          # _ext/ : description/faq + JSON-LD + hreflang
     "redirects",              # _ext/ : redirige les anciennes URLs (redirects.txt)
+    "countries",              # _ext/ : sélecteur de pays (en-tête) + espaces pays
 ]
 source_suffix = {".md": "markdown"}
 master_doc = "index"
@@ -86,7 +87,7 @@ html_favicon = "content/assets/favicon.svg"
 html_css_files = ["resthome-brand.css"]
 # rh-mermaid.js est chargé par la directive elle-même (voir setup()) ; celui-ci
 # vaut pour toutes les pages : il remet la colonne de navigation en place.
-html_js_files = ["rh-sidebar.js"]
+html_js_files = ["rh-sidebar.js", "rh-country.js"]
 html_static_path = ["_static"]
 templates_path = ["_templates"]
 html_show_sourcelink = False
@@ -100,6 +101,19 @@ html_baseurl = "https://www.lplg.eu/resthome/documentation/"
 rh_site_base = "https://www.lplg.eu/resthome/documentation/"
 rh_languages = {"fr": "", "nl": "nl/", "en": "en/"}   # langue -> préfixe d'URL
 rh_default_language = "fr"                             # langue servie à la racine
+
+# -- Pays (_ext/countries.py) ----------------------------------------------------
+# Un espace par pays sous content/<space>/ ; le reste du site est commun.
+# status "soon" : l'espace existe mais ses pages restent à écrire (badge « Bientôt »).
+rh_countries = [
+    {"code": "be", "space": "belgique", "status": "live",
+     "label": {"en": "Belgium", "fr": "Belgique", "nl": "België"}},
+    {"code": "fr", "space": "france", "status": "soon",
+     "label": {"en": "France", "fr": "France", "nl": "Frankrijk"}},
+    {"code": "lu", "space": "luxembourg", "status": "soon",
+     "label": {"en": "Luxembourg", "fr": "Luxembourg", "nl": "Luxemburg"}},
+]
+rh_default_country = "be"   # pays montré tant que le lecteur n'en a pas choisi
 
 # -- Multi-version (modèle docs-as-code) ----------------------------------------------
 # URL = base + <version>/ + <préfixe langue> + page  (ex. /documentation/2026/nl/…).

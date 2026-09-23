@@ -1,3 +1,7 @@
+---
+modules: [l10n_health_be_eagreement_light, l10n_health_be_perdiem_ehealth]
+---
+
 # Refused agreement (eAgreement) — causes and solutions
 
 :::{rh-description}
@@ -46,7 +50,7 @@ An electronic "received" acknowledgement means **received**, **not accepted**. D
 an agreement as granted on the basis of the acknowledgement alone.
 :::
 
-![Refused agreement: red banner with the rejection reason in plain language, the recommended action, and the rejection code returned by the health insurer](../assets/screenshots/ehealth/32-eagreement-refuse.webp)
+![Refused agreement: red banner with the rejection reason in plain language, the recommended action, and the rejection code returned by the health insurer](../../assets/screenshots/ehealth/32-eagreement-refuse.webp)
 
 ## Common refusal causes → action
 
@@ -100,4 +104,4 @@ rejection.
 - [Agreements (eAgreement)](eagreement.md)
 - [Insurability (MDA)](mda.md) · [MDA errors](mda-erreurs.md)
 - [eFact rejections](efact-rejets.md)
-- [FAQ](../faq.md) · [Glossary](../glossaire.md)
+- [FAQ](../../faq.md) · [Glossary](../../glossaire.md)

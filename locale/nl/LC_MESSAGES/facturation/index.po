@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-16 01:30+0200\n"
+"POT-Creation-Date: 2026-09-23 15:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nl <LL@li.org>\n"
@@ -20,55 +20,56 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: ../../content/facturation/index.md:1
+#: ../../content/facturation/index.md:5
 msgid "Billing"
 msgstr "Facturatie"
 
-#: ../../content/facturation/index.md:4
+#: ../../content/facturation/index.md:8
 msgid ""
-"Billing periods, INAMI packages, supplements, absences and invoices in "
+"Billing periods, the care allowance, supplements, absences and invoices in "
 "Resthome."
 msgstr ""
-"Facturatieperiodes, RIZIV-forfaits, supplementen, afwezigheden en facturen "
-"in Resthome."
+"Facturatieperiodes, zorgforfait, supplementen, afwezigheden en facturen in "
+"Resthome."
 
-#: ../../content/facturation/index.md:22
+#: ../../content/facturation/index.md:23
 msgid ""
-"Resthome automates MR/MRS billing: the **insurer's share** (INAMI package) "
-"and the **resident's share** (accommodation + supplements), period by "
-"period."
+"Resthome automates the billing of the home: the **insurer's share** (the "
+"care allowance paid by the health insurer) and the **resident's share** "
+"(accommodation + supplements), period by period."
 msgstr ""
-"Resthome automatiseert de MR/MRS-facturatie: het **mutualiteitsaandeel** "
-"(RIZIV-forfait) en het **bewonersaandeel** (verblijf + supplementen), "
-"periode per periode."
+"Resthome automatiseert de facturatie van het woonzorgcentrum: het **aandeel "
+"van de zorgverzekeraar** (het zorgforfait betaald door de zorgverzekeraar) "
+"en het **bewonersaandeel** (verblijf + supplementen), periode per periode."
 
-#: ../../content/facturation/index.md:25
+#: ../../content/facturation/index.md:27
 msgid "Key principles"
 msgstr "De grote principes"
 
-#: ../../content/facturation/index.md:27
+#: ../../content/facturation/index.md:29
 msgid ""
 "**Billing period**: one month. You **generate** it, then **invoice** it."
 msgstr ""
 "**Facturatieperiode**: één maand. Ze wordt **gegenereerd** en dan "
 "**gefactureerd**."
 
-#: ../../content/facturation/index.md:28
-msgid ""
-"**INAMI package**: calculated from the **Katz category** and days of "
-"presence; this is the share reimbursed by the insurer."
-msgstr ""
-"**RIZIV-forfait**: berekend volgens de **Katz-categorie** en de "
-"aanwezigheidsdagen; het door de mutualiteit terugbetaalde deel."
-
 #: ../../content/facturation/index.md:30
+msgid ""
+"**Care allowance**: calculated from the **dependency category** and days of "
+"presence; this is the share paid by the resident's health insurer."
+msgstr ""
+"**Zorgforfait**: berekend volgens de **afhankelijkheidscategorie** en de "
+"aanwezigheidsdagen; dit is het deel dat de zorgverzekeraar van de bewoner "
+"betaalt."
+
+#: ../../content/facturation/index.md:32
 msgid ""
 "**Accommodation**: the share paid by the resident (the room), based on the "
 "rate."
 msgstr ""
 "**Verblijf**: het door de bewoner betaalde deel (de kamer), volgens tarief."
 
-#: ../../content/facturation/index.md:31
+#: ../../content/facturation/index.md:33
 msgid ""
 "**Supplements**: one-off or recurring services (single room, TV, "
 "hairdresser…), through the resident's **supplements envelope**."
@@ -76,34 +77,35 @@ msgstr ""
 "**Supplementen**: eenmalige of terugkerende prestaties (eenpersoonskamer, "
 "tv, kapper…), via de **supplementenenveloppe** van de bewoner."
 
-#: ../../content/facturation/index.md:33
+#: ../../content/facturation/index.md:35
 msgid ""
-"**Absences**: an absence (hospitalisation, holidays) **reduces the package**"
-" for the period concerned and can trigger an eHealth notification."
+"**Absences**: an absence (hospitalisation, holidays) **reduces the care "
+"allowance** for the period concerned and can trigger a notification to the "
+"health insurer."
 msgstr ""
 "**Afwezigheden**: een afwezigheid (hospitalisatie, vakantie) **vermindert "
-"het forfait** voor de betrokken periode en kan een eHealth-melding "
-"uitlokken."
+"het zorgforfait** voor de betrokken periode en kan een melding aan de "
+"zorgverzekeraar uitlokken."
 
-#: ../../content/facturation/index.md:36
+#: ../../content/facturation/index.md:39
 msgid "Anticipatory billing"
 msgstr "Anticipatieve facturatie"
 
-#: ../../content/facturation/index.md:39
+#: ../../content/facturation/index.md:42
 msgid ""
 "For residents billed in advance, one month's accommodation is invoiced **the"
-" previous month**. The package and supplements, however, are invoiced in the"
-" month of service."
+" previous month**. The care allowance and supplements, however, are invoiced"
+" in the month of service."
 msgstr ""
 "Voor vooraf gefactureerde bewoners wordt het verblijf van een maand de "
-"**voorgaande maand** gefactureerd. Het forfait en de supplementen worden "
-"daarentegen op de prestatiemaand gefactureerd."
+"**voorgaande maand** gefactureerd. Het zorgforfait en de supplementen worden"
+" daarentegen op de prestatiemaand gefactureerd."
 
-#: ../../content/facturation/index.md:44
+#: ../../content/facturation/index.md:47
 msgid "The \"Refresh\" button"
 msgstr "De knop « Vernieuwen »"
 
-#: ../../content/facturation/index.md:46
+#: ../../content/facturation/index.md:49
 msgid ""
 "On a billing period, the **Refresh** action recalculates everything in one "
 "click: billing lines, supplements and draft invoices."
@@ -111,11 +113,11 @@ msgstr ""
 "Op een facturatieperiode herberekent de actie **Vernieuwen** alles met één "
 "klik: factuurregels, supplementen en conceptfacturen."
 
-#: ../../content/facturation/index.md:49
+#: ../../content/facturation/index.md:52
 msgid "Good to know"
 msgstr "Goed om te weten"
 
-#: ../../content/facturation/index.md:52
+#: ../../content/facturation/index.md:55
 msgid ""
 "Residents whose invoice is **already posted** are left untouched; everything"
 " else is recalculated."
@@ -123,7 +125,7 @@ msgstr ""
 "Bewoners van wie de factuur **al geboekt** is, blijven ongewijzigd; al de "
 "rest wordt herberekend."
 
-#: ../../content/facturation/index.md:54
+#: ../../content/facturation/index.md:57
 msgid ""
 "Adding a supplement or an absence **synchronises automatically**: you "
 "generally don't need to click \"Refresh\"."
@@ -131,83 +133,107 @@ msgstr ""
 "Een supplement of afwezigheid toevoegen **synchroniseert automatisch**: u "
 "hoeft doorgaans niet op « Vernieuwen » te klikken."
 
-#: ../../content/facturation/index.md:58
+#: ../../content/facturation/index.md:61
 msgid "The period cycle"
 msgstr "Cyclus van een periode"
 
-#: ../../content/facturation/index.md:60
+#: ../../content/facturation/index.md:63
 msgid "**New period** (the month)."
 msgstr "**Nieuwe periode** (de maand)."
 
-#: ../../content/facturation/index.md:61
+#: ../../content/facturation/index.md:64
 msgid "**Generate** the billing lines."
 msgstr "De factuurregels **genereren**."
 
-#: ../../content/facturation/index.md:62
-msgid "Check the residents' **insurability (MDA)**."
-msgstr "De **verzekerbaarheid (MDA)** van de bewoners controleren."
+#: ../../content/facturation/index.md:65
+msgid "Check the residents' **insurability** with their health insurer."
+msgstr ""
+"De **verzekerbaarheid** van de bewoners bij hun zorgverzekeraar controleren."
 
-#: ../../content/facturation/index.md:63
+#: ../../content/facturation/index.md:66
 msgid "**Create the invoices** (resident's share)."
 msgstr "De facturen **aanmaken** (bewonersaandeel)."
 
-#: ../../content/facturation/index.md:64
+#: ../../content/facturation/index.md:67
 msgid "**Post** the invoices."
 msgstr "De facturen **boeken**."
 
-#: ../../content/facturation/index.md:65
-msgid "**Generate the eFact** (insurer's share) then send it."
-msgstr "De **eFact genereren** (mutualiteitsaandeel) en versturen."
+#: ../../content/facturation/index.md:68
+msgid ""
+"**Send the insurer's share** to the health insurers — through the electronic"
+" exchanges with the health insurer, where the country has them — then track "
+"the responses."
+msgstr ""
+"Het **aandeel van de zorgverzekeraar verzenden** naar de zorgverzekeraars — "
+"via de elektronische uitwisselingen met de zorgverzekeraar, waar het land "
+"die heeft — en daarna de antwoorden opvolgen."
 
-#: ../../content/facturation/index.md:67
+#: ../../content/facturation/index.md:72
 msgid "Step by step"
 msgstr "Stap voor stap"
 
-#: ../../content/facturation/index.md:70
+#: ../../content/facturation/index.md:75
 msgid ""
-"Follow the detailed guide [Invoicing a month, step by step](facturer-un-"
-"mois.md), or see the whole [billing journey](../parcours-facturation.md)."
+"Follow the detailed guide [Billing a month, step by step](facturer-un-"
+"mois.md), and the [Month-end checklist](checklist-fin-de-mois.md)."
 msgstr ""
 "Volg de gedetailleerde gids [Een maand factureren, stap voor stap](facturer-"
-"un-mois.md), of bekijk het volledige [facturatietraject](../parcours-"
-"facturation.md)."
+"un-mois.md) en de [Checklist einde maand](checklist-fin-de-mois.md)."
 
-#: ../../content/facturation/index.md:74
+#: ../../content/facturation/index.md:79
+msgid "In Belgium"
+msgstr "In België"
+
+#: ../../content/facturation/index.md:82
+msgid ""
+"The care allowance is the INAMI dependency allowance, set from the Katz "
+"assessment and sent to the mutualities through eFact after an MDA "
+"insurability check; absences and departures are notified through eAgreement."
+" See [Billing a month in Belgium](../belgique/facturation.md) and [The "
+"billing journey](../belgique/parcours-facturation.md)."
+msgstr ""
+"Het zorgforfait is het RIZIV-afhankelijkheidsforfait, bepaald op basis van "
+"de Katz-evaluatie en via eFact naar de ziekenfondsen verzonden na een MDA-"
+"verzekerbaarheidscontrole; afwezigheden en vertrekken worden via eAgreement "
+"gemeld. Zie [Een maand factureren in België](../belgique/facturation.md) en "
+"[Het facturatietraject](../belgique/parcours-facturation.md)."
+
+#: ../../content/facturation/index.md:89
 msgid "What's next"
 msgstr "Verder"
 
-#: ../../content/facturation/index.md:76
+#: ../../content/facturation/index.md:91
 msgid ""
-"[Invoicing a month, step by step](facturer-un-mois.md) — the complete month "
+"[Billing a month, step by step](facturer-un-mois.md) — the complete month "
 "guide."
 msgstr ""
 "[Een maand factureren, stap voor stap](facturer-un-mois.md) — de volledige "
 "gids van de maand."
 
-#: ../../content/facturation/index.md:77
+#: ../../content/facturation/index.md:92
 msgid ""
-"[The INAMI package (dependency)](forfait-inami.md) — Katz → category → "
-"invoiced amount."
+"[Month-end checklist](checklist-fin-de-mois.md) — everything a month-end "
+"requires, in order."
 msgstr ""
-"[Het RIZIV-forfait (afhankelijkheid)](forfait-inami.md) — Katz → categorie →"
-" gefactureerd bedrag."
+"[Checklist einde maand](checklist-fin-de-mois.md) — alles wat een "
+"maandafsluiting vereist, in volgorde."
 
-#: ../../content/facturation/index.md:78
+#: ../../content/facturation/index.md:94
 msgid ""
 "[Supplements](supplements.md) — supplements envelope, one-off or recurring."
 msgstr ""
 "[De supplementen](supplements.md) — supplementenenveloppe, eenmalig of "
 "terugkerend."
 
-#: ../../content/facturation/index.md:79
+#: ../../content/facturation/index.md:95
 msgid ""
-"[Absences and hospitalisations](absences.md) — effect on the package, the "
-"72-hour rule, automatic eHealth notification."
+"[Absences and hospitalisations](absences.md) — effect on the care allowance,"
+" notification to the health insurer."
 msgstr ""
-"[Afwezigheden en hospitalisaties](absences.md) — effect op het forfait, "
-"72-uurregel, automatische eHealth-melding."
+"[Afwezigheden en hospitalisaties](absences.md) — effect op het zorgforfait, "
+"melding aan de zorgverzekeraar."
 
-#: ../../content/facturation/index.md:81
+#: ../../content/facturation/index.md:97
 msgid ""
 "[Departure and death](depart-deces.md) — stopping billing, credit note for "
 "prepaid accommodation."
@@ -215,7 +241,7 @@ msgstr ""
 "[Vertrek en overlijden](depart-deces.md) — stop van de facturatie, "
 "creditnota van het vooraf gefactureerde verblijf."
 
-#: ../../content/facturation/index.md:83
+#: ../../content/facturation/index.md:99
 msgid ""
 "[Split billing](../facturation-partagee/index.md) — the resident's share "
 "divided among several debtors, one invoice each."
@@ -223,33 +249,13 @@ msgstr ""
 "[Gedeelde facturatie](../facturation-partagee/index.md) — het "
 "bewonersaandeel verdeeld over meerdere schuldenaars, elk een factuur."
 
-#: ../../content/facturation/index.md:85
-msgid ""
-"[Agreements (eAgreement)](../ehealth/eagreement.md) — notify the insurer "
-"(admission, absence, return, discharge)."
-msgstr ""
-"[Akkoorden (eAgreement)](../ehealth/eagreement.md) — de mutualiteit "
-"verwittigen (opname, afwezigheid, terugkeer, vertrek)."
-
-#: ../../content/facturation/index.md:87
-msgid ""
-"[eHealth](../ehealth/index.md) — sending the insurer's share (eFact) and "
-"agreements."
-msgstr ""
-"[eHealth](../ehealth/index.md) — versturen van het mutualiteitsaandeel "
-"(eFact) en akkoorden."
-
-#: ../../content/facturation/index.md:88
+#: ../../content/facturation/index.md:101
 msgid "[Managing a resident](../residents/gerer-un-resident.md)"
 msgstr "[Een bewoner beheren](../residents/gerer-un-resident.md)"
 
-#: ../../content/facturation/index.md:89
-msgid ""
-"[The billing journey](../parcours-facturation.md) · [FAQ](../faq.md) · "
-"[Glossary](../glossaire.md)"
-msgstr ""
-"[Het facturatietraject](../parcours-facturation.md) · [FAQ](../faq.md) · "
-"[Woordenlijst](../glossaire.md)"
+#: ../../content/facturation/index.md:102
+msgid "[FAQ](../faq.md) · [Glossary](../glossaire.md)"
+msgstr "[FAQ](../faq.md) · [Woordenlijst](../glossaire.md)"
 
 #~ msgid ""
 #~ "[Maintenance debtors](split-billing.md) — split the resident's share between"
@@ -257,3 +263,27 @@ msgstr ""
 #~ msgstr ""
 #~ "[Onderhoudsplichtigen](split-billing.md) — het bewonersaandeel over "
 #~ "debiteuren verdelen."
+
+#~ msgid "**Generate the eFact** (insurer's share) then send it."
+#~ msgstr "De **eFact genereren** (mutualiteitsaandeel) en versturen."
+
+#~ msgid ""
+#~ "[The INAMI package (dependency)](../belgique/forfait-inami.md) — Katz → "
+#~ "category → invoiced amount."
+#~ msgstr ""
+#~ "[Het RIZIV-forfait (afhankelijkheid)](../belgique/forfait-inami.md) — Katz →"
+#~ " categorie → gefactureerd bedrag."
+
+#~ msgid ""
+#~ "[Agreements (eAgreement)](../belgique/ehealth/eagreement.md) — notify the "
+#~ "insurer (admission, absence, return, discharge)."
+#~ msgstr ""
+#~ "[Akkoorden (eAgreement)](../belgique/ehealth/eagreement.md) — de mutualiteit"
+#~ " verwittigen (opname, afwezigheid, terugkeer, vertrek)."
+
+#~ msgid ""
+#~ "[eHealth](../belgique/ehealth/index.md) — sending the insurer's share "
+#~ "(eFact) and agreements."
+#~ msgstr ""
+#~ "[eHealth](../belgique/ehealth/index.md) — versturen van het "
+#~ "mutualiteitsaandeel (eFact) en akkoorden."

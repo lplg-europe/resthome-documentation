@@ -1,7 +1,11 @@
+---
+modules: [resthome_documents]
+---
+
 # Automatic centralization of attachments
 
 :::{rh-description}
-In a nursing home (MR/MRS), every attachment added to a resident's record or message thread is automatically filed in their Documents folder, with its tags.
+In a nursing home, every attachment added to a resident's record or message thread is automatically filed in their Documents folder, with its tags.
 :::
 
 :::{rh-faq}
@@ -108,15 +112,22 @@ Resthome already provides a list of ready-to-use tags tailored to the business:
 
 | Tag | Typical use |
 |---|---|
-| **Katz** | Dependency assessments |
 | **End of stay** | Discharge or death documents |
-| **eAgreement** | MR/MRS agreements (care convention) |
-| **OA** | Statements and letters from the insurance body |
-| **Convention** | Convention |
+| **Stay agreement** | The agreement signed with the resident |
 | **Medical form** | Medical forms and certificates |
 | **Billing** | Statements and invoices |
-| **CPAS** | CPAS coverage |
-| **GDPR** | GDPR consents and documents |
+| **GDPR consent** | GDPR consents and documents |
+
+Other tags cover the documents that follow the country's rules: dependency
+assessments, the health insurer's agreements and letters, and the coverage
+granted by a public welfare body.
+
+:::{admonition} In Belgium
+:class: rh-country rh-country-be
+
+These tags are **Katz evaluation**, **MR/MRS agreement (eAgreement)**, **OA
+allocation** and **CPAS**. See [Care in Belgium](../belgique/soins.md).
+:::
 
 :::{admonition} Start light
 :class: tip

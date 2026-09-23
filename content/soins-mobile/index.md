@@ -1,3 +1,7 @@
+---
+modules: [healthcare_mobile]
+---
+
 # Care app
 
 :::{rh-description}

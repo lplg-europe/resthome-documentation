@@ -1,3 +1,7 @@
+---
+modules: [healthcare_mobile]
+---
+
 # Vital signs
 
 :::{rh-description}

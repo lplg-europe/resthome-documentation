@@ -1,3 +1,7 @@
+---
+modules: [resthome_funding_be]
+---
+
 # Institutional allowance
 
 :::{rh-description}

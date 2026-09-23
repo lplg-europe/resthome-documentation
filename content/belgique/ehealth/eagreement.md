@@ -1,3 +1,7 @@
+---
+modules: [l10n_health_be_eagreement_light, resthome_mr_ehealth, l10n_health_be_perdiem_ehealth]
+---
+
 # Agreements (eAgreement)
 
 :::{rh-description}
@@ -100,9 +104,9 @@ Each agreement goes through clear **statuses**:
 From the resident record or the billing period, you see the list of agreements
 and their status, with a link to the detail.
 
-![eAgreement requests list, one row per agreement with the resident, the type of request, the health insurer and the status](../assets/screenshots/ehealth/30-eagreement-liste.webp)
+![eAgreement requests list, one row per agreement with the resident, the type of request, the health insurer and the status](../../assets/screenshots/ehealth/30-eagreement-liste.webp)
 
-![Accepted agreement showing the agreement number and the start and end dates granted by the health insurer](../assets/screenshots/ehealth/31-eagreement-accepte.webp)
+![Accepted agreement showing the agreement number and the start and end dates granted by the health insurer](../../assets/screenshots/ehealth/31-eagreement-accepte.webp)
 
 ### Answers that arrive by post or e-mail
 
@@ -129,7 +133,7 @@ know what to fix (often: NISS, mutuality, or dates) before resending.
 - **Short absence**: an absence of more than **72 h** (or any
   **hospitalisation**) triggers the departure **Annexe 11**; the **return**
   generates the readmission **Annexe 7**. See [Absences and
-  hospitalisations](../facturation/absences.md).
+  hospitalisations](../../facturation/absences.md).
 - **Billing already closed**: if the invoice of the month concerned is **already
   posted** for this resident, Resthome **does not recreate** a duplicate
   agreement for this month — it protects consistency. Reset the invoice to draft
@@ -140,6 +144,6 @@ know what to fix (often: NISS, mutuality, or dates) before resending.
 ## Going further
 
 - [Refused agreement (eAgreement) — causes and solutions](eagreement-refus.md)
-- [Absences and hospitalisations](../facturation/absences.md)
-- [Departure and death](../facturation/depart-deces.md)
+- [Absences and hospitalisations](../../facturation/absences.md)
+- [Departure and death](../../facturation/depart-deces.md)
 - [eHealth overview](index.md)

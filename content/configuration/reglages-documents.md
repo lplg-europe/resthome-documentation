@@ -1,7 +1,11 @@
+---
+modules: [resthome_documents]
+---
+
 # Document settings
 
 :::{rh-description}
-Configure resident document centralization in nursing homes (MR/MRS) — root folder, default tags, automatic filing in the Documents app.
+Configure resident document centralization in nursing homes — root folder, default tags, automatic filing in the Documents app.
 :::
 
 :::{rh-faq}
@@ -44,7 +48,7 @@ The **Nursing home** block controls automatic document filing. A checkbox
 enables centralization; once ticked, it reveals the **root folder** and the
 **default tags**.
 
-| Setting | What it does | Recommended value (MR/MRS) |
+| Setting | What it does | Recommended value |
 |---|---|---|
 | **Nursing home** (centralization) | Enables automatic filing: every attachment added to a resident's record is filed in their personal folder in the Documents app. | **Enabled** (ticked) |
 | **Root folder** | The Documents app folder under which Resthome files all resident folders. | The **"Residents"** folder (created automatically) |
@@ -84,10 +88,17 @@ them if you run several homes.
 ## Default tags (optional)
 
 **Tags** are used to categorize and find documents. Resthome already provides a
-list of ready-to-use tags — for example **Katz**, **End of stay**,
-**eAgreement**, **OA**, **Convention**, **Medical form**, **Billing**,
-**CPAS**, **GDPR**. In **Default tags**, you choose the ones that will be applied
-**automatically** to each centralized document.
+list of ready-to-use tags — for example **End of stay**, **Stay agreement**,
+**Medical form**, **Billing**, **GDPR consent**. In **Default tags**, you choose
+the ones that will be applied **automatically** to each centralized document.
+
+:::{admonition} In Belgium
+:class: rh-country rh-country-be
+
+The list also holds tags for the Belgian paperwork: **Katz evaluation**,
+**MR/MRS agreement (eAgreement)**, **OA allocation** and **CPAS**. See
+[Belgian settings](../belgique/reglages.md).
+:::
 
 :::{admonition} Start light
 :class: tip

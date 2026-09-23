@@ -326,10 +326,18 @@
   }
   #__nav_1_label { --rh-group-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 2c3.4 2.2 5.2 6 5 10.2l2.3 3.3V19l-3.4-1.4H8.1L4.7 19v-3.5L7 12.2C6.8 8 8.6 4.2 12 2zm0 6.2a1.9 1.9 0 100 3.8 1.9 1.9 0 000-3.8zM10 19h4l-2 3z'/></svg>"); }
   #__nav_2_label { --rh-group-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M4 3h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1V4a1 1 0 011-1zm10 0h6a1 1 0 011 1v6a1 1 0 01-1 1h-6a1 1 0 01-1-1V4a1 1 0 011-1zM4 13h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6a1 1 0 011-1zm13 0a4 4 0 110 8 4 4 0 010-8z'/></svg>"); }
-  /* Belgique : un jalon de carte — ce groupe est le pack pays. */
-  #__nav_3_label { --rh-group-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 2a7 7 0 00-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 00-7-7zm0 4.2a2.8 2.8 0 110 5.6 2.8 2.8 0 010-5.6z'/></svg>"); }
-  #__nav_4_label { --rh-group-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 8a4 4 0 100 8 4 4 0 000-8zm9 5v-2l-2.3-.5a7 7 0 00-.7-1.7l1.3-2-1.4-1.4-2 1.3a7 7 0 00-1.7-.7L13 3h-2l-.5 2.3a7 7 0 00-1.7.7l-2-1.3-1.4 1.4 1.3 2a7 7 0 00-.7 1.7L3 11v2l2.3.5c.2.6.4 1.2.7 1.7l-1.3 2 1.4 1.4 2-1.3c.5.3 1.1.5 1.7.7L11 21h2l.5-2.3c.6-.2 1.2-.4 1.7-.7l2 1.3 1.4-1.4-1.3-2c.3-.5.5-1.1.7-1.7L21 13z'/></svg>"); }
-  #__nav_5_label { --rh-group-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 2a10 10 0 100 20 10 10 0 000-20zm0 15.5a1.3 1.3 0 110-2.6 1.3 1.3 0 010 2.6zm1.7-6.3c-.6.5-1 .9-1.1 1.5 0 .2-.1.5-.1.8h-2c0-.4 0-.8.1-1.1.2-.7.7-1.2 1.2-1.6.6-.5.9-.8.9-1.4a1.4 1.4 0 00-2.8 0H8a3.4 3.4 0 116.8 0c0 .9-.5 1.5-1.1 2z'/></svg>"); }
+  /* Espaces pays (3 Belgique, 4 France, 5 Luxembourg) : leur drapeau, en
+     couleurs — un seul est visible à la fois (sélecteur de pays, en-tête). */
+  #__nav_3_label, #__nav_4_label, #__nav_5_label { --rh-group-icon: none; }
+  #__nav_3_label::before, #__nav_4_label::before, #__nav_5_label::before {
+    -webkit-mask: none; mask: none; width: 1.05rem; height: 0.7rem; border-radius: 2px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.18); background: var(--rh-flag) center / cover no-repeat;
+  }
+  #__nav_3_label { --rh-flag: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'><rect width='1' height='2' fill='%231a1a1a'/><rect x='1' width='1' height='2' fill='%23FDDA24'/><rect x='2' width='1' height='2' fill='%23EF3340'/></svg>"); }
+  #__nav_4_label { --rh-flag: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'><rect width='1' height='2' fill='%23002395'/><rect x='1' width='1' height='2' fill='%23fff'/><rect x='2' width='1' height='2' fill='%23ED2939'/></svg>"); }
+  #__nav_5_label { --rh-flag: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'><rect width='3' height='.67' fill='%23EF3340'/><rect y='.67' width='3' height='.66' fill='%23fff'/><rect y='1.33' width='3' height='.67' fill='%2300A3E0'/></svg>"); }
+  #__nav_6_label { --rh-group-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 8a4 4 0 100 8 4 4 0 000-8zm9 5v-2l-2.3-.5a7 7 0 00-.7-1.7l1.3-2-1.4-1.4-2 1.3a7 7 0 00-1.7-.7L13 3h-2l-.5 2.3a7 7 0 00-1.7.7l-2-1.3-1.4 1.4 1.3 2a7 7 0 00-.7 1.7L3 11v2l2.3.5c.2.6.4 1.2.7 1.7l-1.3 2 1.4 1.4 2-1.3c.5.3 1.1.5 1.7.7L11 21h2l.5-2.3c.6-.2 1.2-.4 1.7-.7l2 1.3 1.4-1.4-1.3-2c.3-.5.5-1.1.7-1.7L21 13z'/></svg>"); }
+  #__nav_7_label { --rh-group-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 2a10 10 0 100 20 10 10 0 000-20zm0 15.5a1.3 1.3 0 110-2.6 1.3 1.3 0 010 2.6zm1.7-6.3c-.6.5-1 .9-1.1 1.5 0 .2-.1.5-.1.8h-2c0-.4 0-.8.1-1.1.2-.7.7-1.2 1.2-1.6.6-.5.9-.8.9-1.4a1.4 1.4 0 00-2.8 0H8a3.4 3.4 0 116.8 0c0 .9-.5 1.5-1.1 2z'/></svg>"); }
   .md-nav--primary > .md-nav__list > .md-nav__item--section > .md-nav { margin: 0; }
   .md-nav--primary > .md-nav__list > .md-nav__item--section > .md-nav > .md-nav__list { padding: 0 0 0 0.2rem; }
 
@@ -403,24 +411,22 @@
   #__nav_2_6 + .md-nav__container > a { --rh-app-icon: url("app-icons/care-mobile.png"); }
   #__nav_2_7 + .md-nav__container > a { --rh-app-icon: url("app-icons/meals.png"); }
   #__nav_2_8 + .md-nav__container > a { --rh-app-icon: url("app-icons/family-portal.png"); }
-  /* Groupe Belgique : eHealth, Forfait et Centre de jour sont les seules
-     sections dépliables, les autres entrées sont des pages simples (pas
-     d'icône). */
-  #__nav_3_3 + .md-nav__container > a { --rh-app-icon: url("app-icons/funding.png"); }
+  /* Groupe Belgique : eHealth (8), Forfait (11) et Centre de jour (12) sont les
+     seules sections dépliables — positions du toctree « Belgium » de
+     content/index.md ; les autres entrées sont des pages simples. */
+  #__nav_3_11 + .md-nav__container > a { --rh-app-icon: url("app-icons/funding.png"); }
   /* eHealth, Centre de jour et Documents n'ont pas d'icône d'app propre :
      pictogramme à la couleur du texte. */
-  #__nav_3_2 + .md-nav__container > a::before,
-  #__nav_3_4 + .md-nav__container > a::before,
+  #__nav_3_8 + .md-nav__container > a::before,
+  #__nav_3_12 + .md-nav__container > a::before,
   #__nav_2_9 + .md-nav__container > a::before {
     background: currentColor; opacity: 0.75;
     -webkit-mask: var(--rh-app-icon) center / contain no-repeat;
     mask: var(--rh-app-icon) center / contain no-repeat;
   }
-  /* La page d'accueil du groupe occupe la position 1 : eHealth est en 2,
-     le Forfait en 3, le Centre de jour en 4 (un soleil : on vient la
-     journée). */
-  #__nav_3_4 + .md-nav__container > a { --rh-app-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 7.5a4.5 4.5 0 100 9 4.5 4.5 0 000-9zM11 1h2v3.2h-2zm0 18.8h2V23h-2zM1 11h3.2v2H1zm18.8 0H23v2h-3.2zM4.1 5.5l1.4-1.4 2.3 2.3-1.4 1.4zm12.1 12.1l1.4-1.4 2.3 2.3-1.4 1.4zM4.1 18.5l2.3-2.3 1.4 1.4-2.3 2.3zm12.1-12.1l2.3-2.3 1.4 1.4-2.3 2.3z'/></svg>"); }
-  #__nav_3_2 + .md-nav__container > a { --rh-app-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M20.5 9.5C20.5 12 12 20 12 20S3.5 12 3.5 9.5 5.5 5 8 5c1.5 0 3 1 4 2.5C13 6 14.5 5 16 5c2.5 0 4.5 2 4.5 4.5z'/></svg>"); }
+  /* Le Centre de jour a un soleil : on vient la journée. */
+  #__nav_3_12 + .md-nav__container > a { --rh-app-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 7.5a4.5 4.5 0 100 9 4.5 4.5 0 000-9zM11 1h2v3.2h-2zm0 18.8h2V23h-2zM1 11h3.2v2H1zm18.8 0H23v2h-3.2zM4.1 5.5l1.4-1.4 2.3 2.3-1.4 1.4zm12.1 12.1l1.4-1.4 2.3 2.3-1.4 1.4zM4.1 18.5l2.3-2.3 1.4 1.4-2.3 2.3zm12.1-12.1l2.3-2.3 1.4 1.4-2.3 2.3z'/></svg>"); }
+  #__nav_3_8 + .md-nav__container > a { --rh-app-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M20.5 9.5C20.5 12 12 20 12 20S3.5 12 3.5 9.5 5.5 5 8 5c1.5 0 3 1 4 2.5C13 6 14.5 5 16 5c2.5 0 4.5 2 4.5 4.5z'/></svg>"); }
   #__nav_2_9 + .md-nav__container > a { --rh-app-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M6 2h8l4 4v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm7 1.5V8h4.5L13 3.5zM8 13h8v-2H8zm0 4h8v-2H8z'/></svg>"); }
 
   /* --- Mode sombre ------------------------------------------------------ */
@@ -461,3 +467,57 @@
 .md-typeset .grid.cards .lg svg { fill: var(--md-primary-fg-color); }
 
 .md-content__button { color: var(--md-primary-fg-color); }
+
+/* Sélecteur de pays (en-tête) — _static/rh-country.js, _ext/countries.py.
+   Même gabarit que le sélecteur de langue, à sa gauche. */
+.rh-countryswitch { position: relative; flex: 0 0 auto; margin: 0 0.15rem 0 0.3rem; }
+.rh-countryswitch__button {
+  display: inline-flex; align-items: center; gap: 0.35rem;
+  padding: 0.2rem 0.45rem; font: inherit; font-size: 0.7rem; font-weight: 700;
+  color: inherit; background: transparent; cursor: pointer;
+  border: 1px solid var(--lplg-border); border-radius: 7px;
+}
+.rh-countryswitch__button:hover,
+.rh-countryswitch.is-open .rh-countryswitch__button { background: var(--md-accent-fg-color--transparent); }
+.rh-flag { width: 1.05rem; height: 0.7rem; flex: 0 0 auto; border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.18); }
+.rh-caret { width: 0.9rem; height: 0.9rem; fill: currentColor; opacity: 0.75; margin-right: -0.15rem; }
+.rh-countryswitch__menu {
+  display: none; position: absolute; top: calc(100% + 0.35rem); right: 0; z-index: 10;
+  min-width: 12rem; padding: 0.3rem; border-radius: 9px;
+  background: var(--md-default-bg-color); color: var(--md-default-fg-color);
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.22); border: 1px solid var(--lplg-border);
+}
+.rh-countryswitch.is-open .rh-countryswitch__menu { display: block; }
+.rh-country {
+  display: flex; align-items: center; gap: 0.55rem; padding: 0.45rem 0.6rem;
+  border-radius: 6px; font-size: 0.72rem; font-weight: 600; color: inherit !important;
+  text-decoration: none;
+}
+.rh-country:hover, .rh-country:focus { background: var(--md-accent-fg-color--transparent); outline: none; }
+.rh-country.is-current { background: var(--lplg-blue); color: #fff !important; }
+.rh-country__name { flex: 1 1 auto; }
+.rh-soon {
+  white-space: nowrap;
+  font-size: 0.58rem; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase;
+  padding: 0.1rem 0.4rem; border-radius: 1rem; background: #FBBC05; color: #1a1a1a;
+}
+[data-md-color-scheme="slate"] .rh-countryswitch__button,
+[data-md-color-scheme="slate"] .rh-countryswitch__menu { border-color: #223247; }
+/* Téléphone : le drapeau seul dans l'en-tête, le nom reste dans le menu. */
+@media screen and (max-width: 44.9375em) { .rh-countryswitch__name { display: none; } }
+
+/* Encadré pays dans une page commune — `:class: rh-country rh-country-be`.
+   Il ne s'affiche que pour le pays choisi (CSS émise par _ext/countries.py)
+   et renvoie vers les spécificités de ce pays. Titre précédé du drapeau. */
+.md-typeset .admonition.rh-country { border-color: var(--lplg-blue); }
+.md-typeset .admonition.rh-country > .admonition-title { background: var(--lplg-blue-2); padding-left: 2.2rem; }
+.md-typeset .admonition.rh-country > .admonition-title::before {
+  -webkit-mask: none; mask: none; background: var(--rh-flag) center / cover no-repeat;
+  width: 1.05rem; height: 0.7rem; top: 50%; transform: translateY(-50%); left: 0.7rem;
+  border-radius: 2px; box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.18);
+}
+.md-typeset .admonition.rh-country-be { --rh-flag: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'><rect width='1' height='2' fill='%231a1a1a'/><rect x='1' width='1' height='2' fill='%23FDDA24'/><rect x='2' width='1' height='2' fill='%23EF3340'/></svg>"); }
+.md-typeset .admonition.rh-country-fr { --rh-flag: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'><rect width='1' height='2' fill='%23002395'/><rect x='1' width='1' height='2' fill='%23fff'/><rect x='2' width='1' height='2' fill='%23ED2939'/></svg>"); }
+.md-typeset .admonition.rh-country-lu { --rh-flag: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'><rect width='3' height='.67' fill='%23EF3340'/><rect y='.67' width='3' height='.66' fill='%23fff'/><rect y='1.33' width='3' height='.67' fill='%2300A3E0'/></svg>"); }
+[data-md-color-scheme="slate"] .md-typeset .admonition.rh-country > .admonition-title { background: #1b2a4a; }

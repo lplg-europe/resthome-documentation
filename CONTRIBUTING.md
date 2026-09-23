@@ -86,9 +86,78 @@ Réserver aux mises en garde / astuces utiles, sans en abuser.
 - Fichiers en **minuscules-avec-traits-d'union**, rangés sous `content/assets/…`.
 - Placeholder tant que la capture manque : `<!-- screenshot to add: … -->`.
 
+## Pays : pages communes et espaces pays
+
+La documentation sert **plusieurs pays** sur **un seul site** : une URL par page
+et par langue, quel que soit le pays (pas de page dupliquée par pays).
+
+- **Pages communes** (tout ce qui n'est pas sous un espace pays) : valables
+  partout, en termes neutres — « dependency category », « national
+  identification number », « the resident's health insurer », « the care
+  allowance paid by the health insurer ». Jamais de Katz, NISS, INAMI, MR/MRS,
+  eFact, MDA, AViQ, CPAS… dans une page commune.
+- **Espaces pays** : `content/belgique/`, `content/france/`,
+  `content/luxembourg/`. Tout ce qui vient des règles d'un pays y vit, avec les
+  termes du pays (ceux listés plus haut sous « Libellés d'interface »).
+- **Renvoi depuis une page commune** : un encadré par sujet, qui ne s'affiche
+  que pour le pays choisi :
+
+  ```
+  :::{admonition} In Belgium
+  :class: rh-country rh-country-be
+
+  What Belgium adds here, in one or two sentences: see [The Katz assessment](../belgique/katz.md).
+  :::
+  ```
+
+- **Sélecteur de pays** (en-tête) : `_ext/countries.py` + `_static/rh-country.js`.
+  La barre latérale ne montre que les groupes communs et celui du pays choisi ;
+  sur une page d'un espace pays, le pays est celui de la page.
+- **Ajouter un pays** : une entrée dans `rh_countries` (`conf.py`, `status:
+  "soon"` tant que l'espace est vide), un dossier `content/<espace>/index.md`,
+  un toctree `:caption:` à son nom dans `content/index.md`, son drapeau
+  (`FLAGS` de `_ext/countries.py`, `#__nav_N_label` et `.rh-country-<code>` de
+  `_static/resthome-brand.css`).
+- ⚠️ Les icônes de la barre latérale sont **positionnelles** (`#__nav_3_5` = 5e
+  entrée du 3e groupe) : réordonner un toctree de `content/index.md` impose de
+  revoir `_static/resthome-brand.css`.
+
+## Modules documentés : la doc suit le graphe du code
+
+La documentation est une **projection du code** : produit WideCare = socle
+(`healthcare_*`) + une **suite** métier (Resthome aujourd'hui ; dentaire,
+hôpital, logopédie… demain) + un **pack pays** (`l10n_health_<pays>`).
+Cible : **un site par suite** ; le pays reste le sélecteur de l'en-tête.
+
+- Chaque page déclare en front-matter les modules dont elle décrit
+  l'interface ou le comportement — le module qui DÉFINIT l'écran, pas ceux qui
+  en dépendent :
+
+  ```
+  ---
+  modules: [resthome_day_care, healthcare_accommodation_billing]
+  ---
+  ```
+
+  `modules: []` seulement pour une page de navigation (accueil, FAQ, glossaire).
+- La suite et le pays d'une page ne s'écrivent pas : ils se **calculent** depuis
+  `docs-ops/modules.json`, un instantané du graphe (nom, suite, pays,
+  application — rien d'autre, ce dépôt est public). Le régénérer après un
+  changement de modules :
+
+  ```bash
+  python docs-ops/sync-modules.py ../widecare-odoo/resthome-odoo
+  ```
+
+- `check_docs.py` refuse une page sans `modules:`, un module inconnu, et une
+  page **mal placée** : page commune qui documente un module lié à un pays,
+  page d'espace pays sans module de ce pays.
+- `python check_docs.py --coverage` écrit `docs-ops/coverage.md` : par cellule
+  suite × pays, les modules qu'aucune page ne documente.
+
 ## Contrôle avant push
 
 ```bash
 python build_docs.py          # doit finir « 0 warning »
-python check_docs.py          # conventions (H1, rh-description, résidus MkDocs)
+python check_docs.py --coverage   # conventions, termes pays, placement vs modules, couverture
 ```

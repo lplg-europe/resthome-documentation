@@ -1,0 +1,662 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-23 15:49+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: fr <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/belgique/reglages.md:5
+msgid "Belgian settings"
+msgstr "Réglages belges"
+
+#: ../../content/belgique/reglages.md:8
+msgid ""
+"The settings the Belgian pack adds to Resthome: INAMI numbers and MR/MRS "
+"approvals, the INAMI Journal, the Cc accreditation, INAMI rates and pseudo-"
+"codes, health insurers and CPAS."
+msgstr ""
+"Les réglages que le pack belge ajoute à Resthome : numéros INAMI et "
+"agréments MR/MRS, Journal INAMI, agrément Cc, tarifs INAMI et pseudo-codes, "
+"mutuelles et CPAS."
+
+#: ../../content/belgique/reglages.md:12
+msgid "Where are the MR/MRS billing settings located?"
+msgstr "Où se trouvent les réglages de facturation MR/MRS ?"
+
+#: ../../content/belgique/reglages.md:13
+msgid ""
+"In Settings > MR/MRS Billing (MR/MRS/CSJ Billing when the day care centre is"
+" installed). The tab is only visible to managers. On top of the common "
+"billing settings, it holds the INAMI Journal, the Cc accreditation and the "
+"Katz activity assignee."
+msgstr ""
+"Dans Paramètres > Facturation MR/MRS (Facturation MR/MRS/CSJ lorsque le "
+"centre de soins de jour est installé). L'onglet n'est visible que pour les "
+"responsables. En plus des réglages de facturation communs, il contient le "
+"Journal INAMI, l'agrément Cc et le responsable de l'activité Katz."
+
+#: ../../content/belgique/reglages.md:15
+msgid ""
+"What is the difference between the INAMI Journal and the Resident Journal?"
+msgstr ""
+"Quelle est la différence entre le Journal INAMI et le Journal habitant ?"
+
+#: ../../content/belgique/reglages.md:16
+msgid ""
+"The INAMI Journal receives the invoices for the insurer share (the "
+"dependency allowance sent via eFact); the Resident Journal receives those "
+"for the resident share (accommodation and supplements). These are two sales "
+"journals of your facility, preferably kept separate for clear accounting "
+"tracking."
+msgstr ""
+"Le Journal INAMI reçoit les factures de la part mutuelle (le forfait de "
+"dépendance envoyé via eFact) ; le Journal habitant reçoit celles de la part "
+"habitant (hébergement et suppléments). Ce sont deux journaux de ventes de "
+"votre établissement, de préférence distincts pour un suivi comptable clair."
+
+#: ../../content/belgique/reglages.md:18
+msgid "When should the Cc accreditation be ticked?"
+msgstr "Quand cocher l'agrément Cc ?"
+
+#: ../../content/belgique/reglages.md:19
+msgid ""
+"Only if your facility holds the accreditation that authorizes billing the "
+"Ccoma coma allowance. Without this accreditation, a resident classified as "
+"Ccoma cannot be billed via eFact; accommodation, however, is still billed. "
+"This is a facility-specific value."
+msgstr ""
+"Uniquement si votre établissement dispose de l'agrément qui autorise la "
+"facturation du forfait coma Ccoma. Sans cet agrément, un habitant classé "
+"Ccoma ne peut pas être facturé via eFact ; l'hébergement, lui, est toujours "
+"facturé. C'est une valeur propre à chaque établissement."
+
+#: ../../content/belgique/reglages.md:21
+msgid "What is the Katz activity assignee for?"
+msgstr "À quoi sert le responsable de l'activité Katz ?"
+
+#: ../../content/belgique/reglages.md:22
+msgid ""
+"It is the user to whom Resthome assigns the \"New Katz required\" activity "
+"when a readmission after hospitalization exceeds 30 days. If the field is "
+"empty, the activity goes to the current user if they are clinical, otherwise"
+" to the first head nurse, nurse or doctor found."
+msgstr ""
+"C'est l'utilisateur à qui Resthome attribue l'activité « Nouveau Katz requis"
+" » lorsqu'une réadmission après hospitalisation dépasse 30 jours. Si le "
+"champ est vide, l'activité revient à l'utilisateur courant s'il est "
+"clinique, sinon au premier infirmier en chef, infirmier ou médecin trouvé."
+
+#: ../../content/belgique/reglages.md:24
+msgid "Where do I record the INAMI number and the approvals of the home?"
+msgstr "Où enregistrer le numéro INAMI et les agréments de la maison ?"
+
+#: ../../content/belgique/reglages.md:25
+msgid ""
+"On the establishment: Settings > Nursing Home > Approvals > Manage "
+"establishments and approvals. One establishment per INAMI number, with one "
+"line per approved sector (MR, MRS, CSJ) and the number of beds or places it "
+"covers."
+msgstr ""
+"Sur l'établissement : Paramètres > Maison de repos > Agréments > Gérer les "
+"établissements et les agréments. Un établissement par numéro INAMI, avec une"
+" ligne par secteur agréé (MR, MRS, CSJ) et le nombre de lits ou de places "
+"qu'il couvre."
+
+#: ../../content/belgique/reglages.md:27
+msgid ""
+"What default values should I use for stay duration and room capacity in an "
+"MR/MRS?"
+msgstr ""
+"Quelles valeurs par défaut utiliser pour la durée de séjour et la capacité "
+"des chambres en MR/MRS ?"
+
+#: ../../content/belgique/reglages.md:28
+msgid ""
+"30 days for the stay duration and 1 bed for the capacity suit most MR/MRS. "
+"These are only pre-fill values, editable afterwards on each stay or each "
+"room."
+msgstr ""
+"30 jours pour la durée de séjour et 1 lit pour la capacité conviennent à la "
+"plupart des MR/MRS. Ce ne sont que des valeurs de pré-remplissage, "
+"modifiables ensuite sur chaque séjour ou chaque chambre."
+
+#: ../../content/belgique/reglages.md:31
+msgid ""
+"The Belgian pack adds its own settings to the common ones: the **INAMI "
+"numbers** and **approvals** of the establishment, the journal and the "
+"accreditation used to bill the **dependency allowance**, the **INAMI rates**"
+" and their **pseudo-codes**, and the lists of **health insurers** and "
+"**CPAS**. This page gathers them; the common settings are described under "
+"[Configuration](../configuration/index.md)."
+msgstr ""
+"Le pack belge ajoute ses propres réglages aux réglages communs : les "
+"**numéros INAMI** et les **agréments** de l'établissement, le journal et "
+"l'agrément utilisés pour facturer le **forfait de dépendance**, les **tarifs"
+" INAMI** et leurs **pseudo-codes**, et les listes des **mutuelles** et des "
+"**CPAS**. Cette page les rassemble ; les réglages communs sont décrits sous "
+"[Configuration](../configuration/index.md)."
+
+#: ../../content/belgique/reglages.md:38
+msgid ""
+"The eHealth certificate, the CIN license and the eFact header are described "
+"on their own page: see [eHealth and eFact settings](reglages-ehealth.md)."
+msgstr ""
+"Le certificat eHealth, la licence CIN et l'en-tête eFact sont décrits sur "
+"leur propre page : voir [Réglages eHealth et eFact](reglages-ehealth.md)."
+
+#: ../../content/belgique/reglages.md:41
+msgid "Where the Belgian settings are"
+msgstr "Où se trouvent les réglages belges"
+
+#: ../../content/belgique/reglages.md:43
+msgid "With the Belgian pack, some common screens change their name:"
+msgstr "Avec le pack belge, certains écrans communs changent de nom :"
+
+#: ../../content/belgique/reglages.md:45
+msgid ""
+"the **Billing** app and its settings tab are called **MR/MRS Billing** — "
+"**MR/MRS/CSJ Billing** when the [day care centre](centre-de-jour/index.md) "
+"is installed;"
+msgstr ""
+"l'application **Facturation** et son onglet de réglages s'appellent "
+"**Facturation MR/MRS** — **Facturation MR/MRS/CSJ** lorsque le [centre de "
+"soins de jour](centre-de-jour/index.md) est installé ;"
+
+#: ../../content/belgique/reglages.md:48
+msgid "the **Billing Rates** menu is called **INAMI Rates**;"
+msgstr "le menu **Tarifs de facturation** s'appelle **Tarifs INAMI** ;"
+
+#: ../../content/belgique/reglages.md:49
+msgid "the **Nursing Home** settings tab gains an **Approvals** block;"
+msgstr ""
+"l'onglet de réglages **Maison de repos** reçoit un bloc **Agréments** ;"
+
+#: ../../content/belgique/reglages.md:50
+msgid ""
+"the billing configuration gains the **Mutuelles**, **Billing Codes** and "
+"**CPAS** menus."
+msgstr ""
+"la configuration de la facturation reçoit les menus **Mutuelles**, **Codes "
+"de facturation** et **CPAS**."
+
+#: ../../content/belgique/reglages.md:53
+msgid ""
+"The settings are only visible to the home's **managers**, and are set "
+"**once**, at start-up."
+msgstr ""
+"Les réglages ne sont visibles que pour les **responsables** de la maison et "
+"se règlent **une seule fois**, au démarrage."
+
+#: ../../content/belgique/reglages.md:56
+msgid "Establishments and approvals"
+msgstr "Établissements et agréments"
+
+#: ../../content/belgique/reglages.md:58
+msgid ""
+"*Settings > Nursing Home > Approvals.* The home is licensed by sector: "
+"**MR** (rest home), **MRS** (rest and care home) and, for a day care centre,"
+" **CSJ**. Resthome records these approvals on the **establishment** they "
+"were granted to, next to its INAMI number and its eHealth certificate."
+msgstr ""
+"*Paramètres > Maison de repos > Agréments.* La maison est agréée par secteur"
+" : **MR** (maison de repos), **MRS** (maison de repos et de soins) et, pour "
+"un centre de soins de jour, **CSJ**. Resthome enregistre ces agréments sur "
+"l'**établissement** auquel ils ont été accordés, à côté de son numéro INAMI "
+"et de son certificat eHealth."
+
+#: ../../content/belgique/reglages.md:11 ../../content/belgique/reglages.md:82
+#: ../../content/belgique/reglages.md:121
+msgid "Setting"
+msgstr "Réglage"
+
+#: ../../content/belgique/reglages.md:11 ../../content/belgique/reglages.md:82
+#: ../../content/belgique/reglages.md:121
+msgid "What it does"
+msgstr "Ce qu'il fait"
+
+#: ../../content/belgique/reglages.md:11 ../../content/belgique/reglages.md:82
+#: ../../content/belgique/reglages.md:121
+msgid "Recommended value"
+msgstr "Valeur recommandée"
+
+#: ../../content/belgique/reglages.md:11
+msgid "**Approvals of the establishment**"
+msgstr "**Agréments de l'établissement**"
+
+#: ../../content/belgique/reglages.md:11
+msgid ""
+"Summary of the approvals in force; **Manage establishments and approvals** "
+"opens the establishments."
+msgstr ""
+"Résumé des agréments en vigueur ; **Gérer les établissements et les "
+"agréments** ouvre les établissements."
+
+#: ../../content/belgique/reglages.md:11
+msgid "One line per approved sector, with its beds."
+msgstr "Une ligne par secteur agréé, avec ses lits."
+
+#: ../../content/belgique/reglages.md:11
+msgid "**Conventioned Establishment**"
+msgstr "**Établissement conventionné**"
+
+#: ../../content/belgique/reglages.md:11
+msgid ""
+"The establishment adheres to the agreement with the health insurers, which "
+"decides the tariff applied."
+msgstr ""
+"L'établissement adhère à la convention avec les mutuelles, qui détermine le "
+"tarif appliqué."
+
+#: ../../content/belgique/reglages.md:11
+msgid "Tick it **if** your home is conventioned."
+msgstr "Cochez **si** votre maison est conventionnée."
+
+#: ../../content/belgique/reglages.md:68
+msgid "On the **establishment** itself:"
+msgstr "Sur l'**établissement** lui-même :"
+
+#: ../../content/belgique/reglages.md:70
+msgid ""
+"**INAMI Number**: the establishment's INAMI/RIZIV number, used in every "
+"eHealth exchange; Resthome reads the type of establishment from it."
+msgstr ""
+"**Numéro INAMI** : le numéro INAMI/RIZIV de l'établissement, utilisé dans "
+"chaque échange eHealth ; Resthome en déduit le type d'établissement."
+
+#: ../../content/belgique/reglages.md:72
+msgid ""
+"**Competence Code**: the last three digits of the NIHII-11 (**110** for an "
+"MR, **210** for some MRS)."
+msgstr ""
+"**Code de compétence** : les trois derniers chiffres du numéro INAMI à 11 "
+"chiffres (**110** pour une MR, **210** pour certaines MRS)."
+
+#: ../../content/belgique/reglages.md:74
+msgid ""
+"**Sectors**: one approval per sector, with **Beds / places**, the **Approval"
+" Reference**, the **Approval Date** and the **Approval PDF**."
+msgstr ""
+"**Secteurs** : un agrément par secteur, avec **Lits / places**, la "
+"**Référence agrément**, la **Date agrément** et l'**Agrément PDF**."
+
+#: ../../content/belgique/reglages.md:77
+msgid ""
+"The beds recorded here are what the **occupancy** is measured against, and "
+"what decides which **sectors** an admission may offer. Deactivate a "
+"superseded approval rather than deleting it: its beds are what the occupancy"
+" of those months was measured against."
+msgstr ""
+"Les lits enregistrés ici servent de base à la mesure de l'**occupation** et "
+"déterminent les **secteurs** qu'une admission peut proposer. Désactivez un "
+"agrément remplacé plutôt que de le supprimer : ses lits sont ceux par "
+"rapport auxquels l'occupation de ces mois a été mesurée."
+
+#: ../../content/belgique/reglages.md:82
+msgid "Two establishments in one company"
+msgstr "Deux établissements dans une même société"
+
+#: ../../content/belgique/reglages.md:85
+msgid ""
+"A company that runs a rest home and a day care centre holds **two** INAMI "
+"numbers, so **two** establishments, each with its own certificate. See "
+"[Setting up a day care centre](centre-de-jour/configuration.md)."
+msgstr ""
+"Une société qui exploite une maison de repos et un centre de soins de jour "
+"détient **deux** numéros INAMI, donc **deux** établissements, chacun avec "
+"son propre certificat. Voir [Configurer un centre de jour](centre-de-"
+"jour/configuration.md)."
+
+#: ../../content/belgique/reglages.md:90
+msgid "Billing: journal, accreditation and Katz"
+msgstr "Facturation : journal, agrément et Katz"
+
+#: ../../content/belgique/reglages.md:92
+msgid ""
+"*Settings > MR/MRS Billing.* Next to the common blocks (see [Billing "
+"settings](../configuration/reglages-facturation.md)), the Belgian pack adds "
+"three settings. This tab contains **no secret data**: the eHealth "
+"certificate, the CIN license and the health-insurer credentials are set in "
+"the [eHealth and eFact settings](reglages-ehealth.md)."
+msgstr ""
+"*Paramètres > Facturation MR/MRS.* À côté des blocs communs (voir [Réglages "
+"de facturation](../configuration/reglages-facturation.md)), le pack belge "
+"ajoute trois réglages. Cet onglet ne contient **aucune donnée secrète** : le"
+" certificat eHealth, la licence CIN et les identifiants des mutuelles se "
+"règlent dans les [Réglages eHealth et eFact](reglages-ehealth.md)."
+
+#: ../../content/belgique/reglages.md:98
+msgid "INAMI Journal"
+msgstr "Journal INAMI"
+
+#: ../../content/belgique/reglages.md:100
+msgid ""
+"Resthome issues **two streams** of invoices: the **insurer share** (the "
+"dependency allowance, sent to the health insurer via "
+"[eFact](ehealth/efact.md)) and the **resident share** (accommodation and "
+"supplements). Each stream goes into its own sales journal."
+msgstr ""
+"Resthome émet **deux flux** de factures : la **part mutuelle** (le forfait "
+"de dépendance, envoyé à la mutuelle via [eFact](ehealth/efact.md)) et la "
+"**part habitant** (hébergement et suppléments). Chaque flux va dans son "
+"propre journal de ventes."
+
+#: ../../content/belgique/reglages.md:82
+msgid "**INAMI Journal**"
+msgstr "**Journal INAMI**"
+
+#: ../../content/belgique/reglages.md:82
+msgid ""
+"Sales journal that receives the invoices for the **insurer share** "
+"(dependency allowance sent via eFact)."
+msgstr ""
+"Journal de ventes qui reçoit les factures de la **part mutuelle** (forfait "
+"de dépendance envoyé via eFact)."
+
+#: ../../content/belgique/reglages.md:82
+msgid ""
+"A sales journal of your facility, **separate** from the **Resident "
+"Journal**."
+msgstr ""
+"Un journal de ventes de votre établissement, **distinct** du **Journal "
+"habitant**."
+
+#: ../../content/belgique/reglages.md:109
+msgid ""
+"Separating the two journals (INAMI on one side, resident on the other) makes"
+" reconciliation and per-payer tracking easier."
+msgstr ""
+"Séparer les deux journaux (INAMI d'un côté, habitant de l'autre) facilite le"
+" rapprochement et le suivi par payeur."
+
+#: ../../content/belgique/reglages.md:112
+msgid "Establishment accreditation"
+msgstr "Agrément de l'établissement"
+
+#: ../../content/belgique/reglages.md:114
+msgid ""
+"Some federal allowances require a **specific accreditation** of the "
+"facility. This is the case for the **coma (Ccoma)** allowance."
+msgstr ""
+"Certains forfaits fédéraux exigent un **agrément spécifique** de "
+"l'établissement. C'est le cas du forfait **coma (Ccoma)**."
+
+#: ../../content/belgique/reglages.md:82
+msgid "**Cc accreditation (comatose forfait)**"
+msgstr "**Agrément Cc (forfait comateux)**"
+
+#: ../../content/belgique/reglages.md:82
+msgid ""
+"Tick if the facility holds the accreditation allowing it to bill the "
+"**Ccoma** coma allowance. Without it, a resident classified as Ccoma is "
+"**not** billable via eFact (neither regional nor federal); accommodation is "
+"still billed."
+msgstr ""
+"Cochez si l'établissement dispose de l'agrément qui lui permet de facturer "
+"le forfait coma **Ccoma**. Sans cet agrément, un habitant classé Ccoma n'est"
+" **pas** facturable via eFact (ni régional ni fédéral) ; l'hébergement est "
+"toujours facturé."
+
+#: ../../content/belgique/reglages.md:82
+msgid "Tick **only** if your facility is accredited."
+msgstr "Cochez **uniquement** si votre établissement est agréé."
+
+#: ../../content/belgique/reglages.md:121
+msgid "Not to be confused with the allowance amount"
+msgstr "À ne pas confondre avec le montant du forfait"
+
+#: ../../content/belgique/reglages.md:124
+msgid ""
+"The ordinary **dependency allowance** is the **same amount** for all Katz "
+"categories; the category is used to **declare the profile** to the health "
+"insurance fund, not to set the amount (see [The INAMI dependency "
+"allowance](forfait-inami.md)). The Cc accreditation concerns only the "
+"**special case of the coma allowance**."
+msgstr ""
+"Le **forfait de dépendance** ordinaire est du **même montant** pour toutes "
+"les catégories Katz ; la catégorie sert à **déclarer le profil** à la "
+"mutuelle, pas à fixer le montant (voir [Le forfait INAMI "
+"(dépendance)](forfait-inami.md)). L'agrément Cc ne concerne que le **cas "
+"particulier du forfait coma**."
+
+#: ../../content/belgique/reglages.md:131
+msgid "Absence management"
+msgstr "Gestion des absences"
+
+#: ../../content/belgique/reglages.md:133
+msgid ""
+"The **AViQ presence-day rules** are **built into** Resthome and are not "
+"configured here: the noon rule for leave, and their own thresholds for a "
+"hospitalization. Only the **assignee** of a follow-up activity is "
+"configurable."
+msgstr ""
+"Les **règles AViQ des jours de présence** sont **intégrées** à Resthome et "
+"ne se configurent pas ici : la règle de midi pour les congés, et des seuils "
+"propres pour une hospitalisation. Seul le **responsable** d'une activité de "
+"suivi est configurable."
+
+#: ../../content/belgique/reglages.md:121
+msgid "**Katz activity assignee**"
+msgstr "**Responsable de l'activité Katz**"
+
+#: ../../content/belgique/reglages.md:121
+msgid ""
+"User to whom the \"New Katz required\" activity is assigned when a hospital "
+"readmission exceeds **30 days**. If empty: current user (if clinical), "
+"otherwise the first head nurse, nurse or doctor found."
+msgstr ""
+"Utilisateur à qui l'activité « Nouveau Katz requis » est attribuée "
+"lorsqu'une réadmission hospitalière dépasse **30 jours**. Si vide : "
+"utilisateur courant (s'il est clinique), sinon le premier infirmier en chef,"
+" infirmier ou médecin trouvé."
+
+#: ../../content/belgique/reglages.md:121
+msgid "The **head nurse** (or the care manager)."
+msgstr "L’**infirmier en chef** (ou le responsable des soins)."
+
+#: ../../content/belgique/reglages.md:141
+msgid "Why 30 days?"
+msgstr "Pourquoi 30 jours ?"
+
+#: ../../content/belgique/reglages.md:144
+msgid ""
+"A readmission after more than 30 days of hospitalization requires a **new "
+"Katz assessment**. The assigned activity acts as a reminder. See [The Katz "
+"assessment](katz.md) and [Absences and "
+"hospitalizations](../facturation/absences.md)."
+msgstr ""
+"Une réadmission après plus de 30 jours d'hospitalisation exige une "
+"**nouvelle évaluation Katz**. L'activité attribuée sert de rappel. Voir "
+"[L'évaluation Katz](katz.md) et [Absences et "
+"hospitalisations](../facturation/absences.md)."
+
+#: ../../content/belgique/reglages.md:150
+msgid "INAMI rates and pseudo-codes"
+msgstr "Tarifs INAMI et pseudo-codes"
+
+#: ../../content/belgique/reglages.md:152
+msgid ""
+"*Billing → Configuration → INAMI Rates.* The rate grid carries the amounts "
+"of the **INAMI dependency allowance** (rate type **INAMI Forfait**), dated "
+"by **Start Date** and **End Date**."
+msgstr ""
+"*Facturation → Configuration → Tarifs INAMI.* La grille tarifaire porte les "
+"montants du **forfait INAMI de dépendance** (type de tarif **Forfait "
+"INAMI**), datés par **Date de début** et **Date de fin**."
+
+#: ../../content/belgique/reglages.md:156
+msgid ""
+"**Katz Category**: O, A, B, C, Cd, D and Ccoma. Under the **AViQ** rates the"
+" amount is the **same** for every category, including O; the grid stays "
+"configurable per category if a convention requires it."
+msgstr ""
+"**Catégorie Katz** : O, A, B, C, Cd, D et Ccoma. Selon les tarifs **AViQ**, "
+"le montant est le **même** pour toutes les catégories, O compris ; la grille"
+" reste configurable par catégorie si une convention l'exige."
+
+#: ../../content/belgique/reglages.md:159
+msgid ""
+"**Stay Type**: the sector the rate prices (MR, MRS, CSJ). A rate left empty "
+"applies whatever the sector; the sector-specific one wins when both exist."
+msgstr ""
+"**Type de séjour** : le secteur que le tarif valorise (MR, MRS, CSJ). Un "
+"tarif laissé vide s'applique quel que soit le secteur ; le tarif propre au "
+"secteur l'emporte lorsque les deux existent."
+
+#: ../../content/belgique/reglages.md:162
+msgid ""
+"*Billing → Configuration → Billing Codes.* The **pseudo-codes** the health "
+"insurer is billed with. Each code carries its **Pseudo-code**, its "
+"**Category**, and, for the daily allowance:"
+msgstr ""
+"*Facturation → Configuration → Codes de facturation.* Les **pseudo-codes** "
+"avec lesquels la mutuelle est facturée. Chaque code porte son **Pseudo-"
+"code**, sa **Catégorie** et, pour le forfait journalier :"
+
+#: ../../content/belgique/reglages.md:166
+msgid ""
+"**Federated entity**: who publishes the code — Wallonia (AViQ), Brussels "
+"(Iriscare)… Each entity has its own series for the same Katz categories;"
+msgstr ""
+"**Entité fédérée** : qui publie le code — Wallonie (AViQ), Bruxelles "
+"(Iriscare)… Chaque entité a sa propre série pour les mêmes catégories Katz ;"
+
+#: ../../content/belgique/reglages.md:168
+msgid ""
+"**Katz category** and **Sector**: a Katz B resident in an MR is billed with "
+"the MR code, never the MRS one — the health insurer rejects a pseudo-code "
+"that does not match the agreed sector;"
+msgstr ""
+"**Catégorie Katz** et **Secteur** : un habitant Katz B en MR est facturé "
+"avec le code MR, jamais avec celui de la MRS — la mutuelle rejette un "
+"pseudo-code qui ne correspond pas au secteur agréé ;"
+
+#: ../../content/belgique/reglages.md:171
+msgid ""
+"**Partial intervention (IP)**: the variant where the patient carries part of"
+" the allowance."
+msgstr ""
+"**Intervention partielle (IP)** : la variante dans laquelle le patient prend"
+" en charge une partie du forfait."
+
+#: ../../content/belgique/reglages.md:174
+msgid ""
+"A supplement declared to the health insurer carries its **AViQ code** (see "
+"[Applying supplements](../facturation/application-supplements.md))."
+msgstr ""
+"Un supplément déclaré à la mutuelle porte son **Code AVIQ** (voir [Appliquer"
+" les suppléments](../facturation/application-supplements.md))."
+
+#: ../../content/belgique/reglages.md:177
+msgid "Health insurers and CPAS"
+msgstr "Mutuelles et CPAS"
+
+#: ../../content/belgique/reglages.md:179
+msgid ""
+"**Mutuelles** (*Billing → Configuration → Mutuelles*): the list of health "
+"insurers (insurance organisations, OA), used for [insurability "
+"(MDA)](ehealth/mda.md) and [eFact](ehealth/efact.md)."
+msgstr ""
+"**Mutuelles** (*Facturation → Configuration → Mutuelles*) : la liste des "
+"mutuelles (organismes assureurs, OA), utilisée pour l'[assurabilité "
+"(MDA)](ehealth/mda.md) et l'[eFact](ehealth/efact.md)."
+
+#: ../../content/belgique/reglages.md:182
+msgid ""
+"**CPAS** (*Billing → Configuration → CPAS*): the public welfare centres that"
+" pay for some residents. See [CPAS coverage](cpas.md)."
+msgstr ""
+"**CPAS** (*Facturation → Configuration → CPAS*) : les centres publics "
+"d'action sociale qui paient pour certains habitants. Voir [La prise en "
+"charge CPAS](cpas.md)."
+
+#: ../../content/belgique/reglages.md:185
+msgid "Other Belgian settings"
+msgstr "Autres réglages belges"
+
+#: ../../content/belgique/reglages.md:187
+msgid ""
+"**Nursing Home** tab: with the Belgian pack, the **Nursing Home** settings "
+"are those of an **MR/MRS**; the default values of the [general "
+"settings](../configuration/reglages-generaux.md) (30 days, 1 bed) suit most "
+"of them."
+msgstr ""
+"Onglet **Maison de repos** : avec le pack belge, les réglages **Maison de "
+"repos** sont ceux d'une **MR/MRS** ; les valeurs par défaut des [réglages "
+"généraux](../configuration/reglages-generaux.md) (30 jours, 1 lit) "
+"conviennent à la plupart d'entre elles."
+
+#: ../../content/belgique/reglages.md:191
+msgid ""
+"**Medical** tab: the **Hide Empty Stat Cards** setting also hides the **Katz"
+" renewals** card when it is at 0; the **SAM medicines** block connects "
+"Resthome to the Belgian medicines database (see [The SAM medication "
+"database](sam-base-medicaments.md))."
+msgstr ""
+"Onglet **Médical** : le réglage **Masquer les cartes statistiques vides** "
+"masque aussi la carte **Renouvellements Katz** lorsqu'elle est à 0 ; le bloc"
+" **Médicaments SAM** relie Resthome à la base de données belge des "
+"médicaments (voir [La base de médicaments SAM](sam-base-medicaments.md))."
+
+#: ../../content/belgique/reglages.md:195
+msgid ""
+"**Documents**: the ready-made tags include **Katz evaluation**, **MR/MRS "
+"agreement (eAgreement)**, **OA allocation** and **CPAS**, next to the common"
+" ones (see [Document settings](../configuration/reglages-documents.md))."
+msgstr ""
+"**Documents** : les étiquettes prêtes à l'emploi comprennent **Évaluation "
+"Katz**, **Accord MR/MRS (eAgreement)**, **Allocation OA** et **CPAS**, à "
+"côté des étiquettes communes (voir [Réglages des "
+"documents](../configuration/reglages-documents.md))."
+
+#: ../../content/belgique/reglages.md:198
+msgid ""
+"**Facility**: the establishment's identifiers are those used in the eHealth "
+"exchanges (MDA, eFact, eAgreement) — see [eHealth and eFact "
+"settings](reglages-ehealth.md)."
+msgstr ""
+"**Établissement** : les identifiants de l'établissement sont ceux utilisés "
+"dans les échanges eHealth (MDA, eFact, eAgreement) — voir [Réglages eHealth "
+"et eFact](reglages-ehealth.md)."
+
+#: ../../content/belgique/reglages.md:202
+msgid "What's next"
+msgstr "Pour continuer"
+
+#: ../../content/belgique/reglages.md:204
+msgid "[eHealth and eFact settings](reglages-ehealth.md)"
+msgstr "[Réglages eHealth et eFact](reglages-ehealth.md)"
+
+#: ../../content/belgique/reglages.md:205
+msgid "[The INAMI dependency allowance](forfait-inami.md)"
+msgstr "[Le forfait INAMI (dépendance)](forfait-inami.md)"
+
+#: ../../content/belgique/reglages.md:206
+msgid "[The Katz assessment](katz.md)"
+msgstr "[L'évaluation Katz](katz.md)"
+
+#: ../../content/belgique/reglages.md:207
+msgid "[The billing journey](parcours-facturation.md)"
+msgstr "[Le parcours de facturation](parcours-facturation.md)"
+
+#: ../../content/belgique/reglages.md:208
+msgid "[Billing settings](../configuration/reglages-facturation.md)"
+msgstr "[Réglages de facturation](../configuration/reglages-facturation.md)"
+
+#: ../../content/belgique/reglages.md:209
+msgid "[Belgium](index.md)"
+msgstr "[Belgique](index.md)"

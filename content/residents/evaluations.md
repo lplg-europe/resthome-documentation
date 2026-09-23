@@ -1,11 +1,15 @@
-# Geriatric assessments (beyond Katz)
+---
+modules: [healthcare_base]
+---
+
+# Geriatric assessments
 
 :::{rh-description}
-Geriatric scales beyond Katz in the nursing home (MR/MRS) with Resthome: MMSE, Braden, MNA, OHAT and Tinetti — entry, score, interpretation and follow-up.
+Geriatric scales in the nursing home with Resthome: MMSE, Braden, MNA, OHAT and Tinetti — entry, score, interpretation and follow-up.
 :::
 
 :::{rh-faq}
-Which geriatric scales does Resthome offer beyond Katz?
+Which geriatric scales does Resthome offer?
 : Five standard scales on the resident's « Evaluation Tools » tab: MMSE (cognition), Braden (pressure ulcer risk), MNA (nutritional status), OHAT (oral health) and Tinetti (balance, gait and fall risk).
 
 Where do you enter a geriatric assessment in Resthome?
@@ -24,8 +28,9 @@ Is the Morse scale (fall risk) available?
 : The « Evaluation Tools » tab offers Tinetti for balance and gait. The Morse scale and the falls register are found in the clinical registers of the care module.
 :::
 
-Beyond the [Katz scale](katz.md), Resthome brings together the main
-**geriatric scales** used in the nursing home (MR/MRS) to objectively measure
+Beyond the dependency assessment, which follows the scale of each country,
+Resthome brings together the main **geriatric scales** used in the nursing home
+to objectively measure
 cognition, pressure ulcer risk, nutritional status, oral health and fall risk.
 You will find them in two places:
 
@@ -46,11 +51,20 @@ You will find them in two places:
 | **OHAT** | Oral health | /16 | Higher = more at risk |
 | **Tinetti** | Balance and gait (falls) | /28 | Lower = more at risk |
 
-:::{admonition} The Katz category stays separate
+:::{admonition} The dependency category stays separate
 :class: info
 
-The Katz scale determines the **dependency category** and the **flat-rate fee**; it
-has its own page and its own renewal cycle. See [The Katz assessment](katz.md).
+The dependency scale determines the **dependency category**, on which the care
+allowance paid by the health insurer relies; it follows the country's rules and
+its own renewal cycle. The five scales below are international and do not change
+that category.
+:::
+
+:::{admonition} In Belgium
+:class: rh-country rh-country-be
+
+The dependency scale is **Katz**, with its categories, its renewal due date and
+its reminders — see [The Katz assessment](../belgique/katz.md).
 :::
 
 ## MMSE — cognitive function
@@ -196,7 +210,7 @@ The status bar follows these steps: **Draft → Confirmed → Validated** (plus
 
 A **validated** assessment is **locked**: its scores can no longer be edited. To
 correct it, click **Reset to draft** (restricted to the head nurse). Validated
-assessments **cannot be deleted**: health data must be retained (GDPR + INAMI).
+assessments **cannot be deleted**: health data must be retained (GDPR and the country's health-data retention rules).
 :::
 
 :::{admonition} One assessment per day
@@ -210,15 +224,15 @@ cannot be in the future, and no assessment can be created for a deceased residen
 
 - The « Evaluation Tools » tab keeps the **dated history** of each scale: to
   reassess, enter a **new assessment** on a new date.
-- The **Katz** scale has its own **renewal cycle** (validity due date, reminders).
-  See [The Katz assessment](katz.md).
+- The **dependency scale** has its own **renewal cycle** (validity due date,
+  reminders), set by the country pack.
 - For a structured **periodic reassessment cycle** (calculated due date, keep /
   change / stop decision, follow-up log), use the [clinical
   registers](../soins/registres.md).
 
 ## Key points to remember
 
-- Five scales beyond Katz: MMSE, Braden, MNA, OHAT and Tinetti, on the resident's
+- Five international scales: MMSE, Braden, MNA, OHAT and Tinetti, on the resident's
   « Evaluation Tools » tab.
 - Score meaning: MMSE and Tinetti, a **high** score = favorable situation; Braden
   and MNA, a **low** score = more at risk; OHAT, a **high** score = more at risk.
@@ -229,7 +243,6 @@ cannot be in the future, and no assessment can be created for a deceased residen
 
 ## Learn more
 
-- [The Katz assessment](katz.md) — dependency category and flat-rate fee.
 - [The clinical registers](../soins/registres.md) — falls (Morse), restraint, pain, wounds, periodic reassessments.
 - [Care plans](../soins/plans-de-soins.md)
 - [Managing a resident](gerer-un-resident.md)

@@ -1,3 +1,7 @@
+---
+modules: [healthcare_medical, resthome_geriatric]
+---
+
 # Care
 
 :::{rh-description}
@@ -10,7 +14,6 @@ The Resthome Care application — prescriptions, care plans, vital signs, nursin
 dossier-medical
 anamnese
 prescriptions
-sam-base-medicaments
 plans-de-soins
 registres
 :::
@@ -36,13 +39,22 @@ your round.
 
 ## Main menus
 
-- **Medical** — Katz, nursing notes, attention points, vital signs entry, care
-  planning, today's care, my assigned care, care plans, prescriptions,
-  administrations, hospitalisation.
+- **Medical** — dependency assessment, nursing notes, attention points, vital
+  signs entry, care planning, today's care, my assigned care, care plans,
+  prescriptions, administrations, hospitalisation.
 - **Registers** — the dedicated clinical registers.
 - **Stock** — medication batches, stock withdrawals.
 - **Configuration** — medication catalogue, pathologies (ICD-10), allergens,
-  drug interactions, SAM database.
+  drug interactions, and the national medication database where the country
+  provides one.
+
+:::{admonition} In Belgium
+:class: rh-country rh-country-be
+
+The dependency assessment is the Katz scale, and the medication catalogue is fed
+from the official SAM database: see [Care in Belgium](../belgique/soins.md) and
+[The SAM medication database](../belgique/sam-base-medicaments.md).
+:::
 
 :::{admonition} Separate but connected
 :class: note

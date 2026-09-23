@@ -1,3 +1,7 @@
+---
+modules: [resthome_family_portal]
+---
+
 # Notebook, documents and invoices
 
 :::{rh-description}

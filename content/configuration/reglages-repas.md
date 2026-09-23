@@ -1,7 +1,11 @@
+---
+modules: [resthome_meal]
+---
+
 # Meal and nutrition settings
 
 :::{rh-description}
-Configure Resthome's Meals tab in a nursing home (MR/MRS): nutritional data source, public menu, kiosk, family notifications, and ESPEN targets.
+Configure Resthome's Meals tab in a nursing home: nutritional data source, public menu, kiosk, family notifications, and ESPEN targets.
 :::
 
 :::{rh-faq}
@@ -34,7 +38,7 @@ they rarely need adjusting.
 This section indicates which **reference database** Resthome queries to retrieve
 the nutritional values of ingredients (calories, protein, etc.).
 
-| Setting | What it does | Recommended value (MR/MRS) |
+| Setting | What it does | Recommended value |
 |---|---|---|
 | **Nutritional data source** | Reference database of nutritional values. CIQUAL (ANSES, France): 3,484 foods, already loaded. NUBEL (Belgium): Belgian database, to be imported. | **CIQUAL** (default, already loaded) |
 
@@ -51,7 +55,7 @@ need the Belgian references — the import must then be carried out beforehand.
 These settings customise the appearance of the **daily menu**, **weekly menu**,
 and **kiosk** pages (see [Family portal and kiosk](../repas/portail-familles.md)).
 
-| Setting | What it does | Recommended value (MR/MRS) |
+| Setting | What it does | Recommended value |
 |---|---|---|
 | **Public menu colour** | Main colour of the menu and kiosk pages. | Your brand colour (default `#0d6efd`) |
 | **Show company logo** | Displays the company logo at the top of the public menu pages. | Enabled |
@@ -70,7 +74,7 @@ identity. The kiosk refresh is only useful if a screen displays the
 This block enables the automatic sending of emails to families who have accepted
 it: a **weekly summary** of meals and a **low-intake alert**.
 
-| Setting | What it does | Recommended value (MR/MRS) |
+| Setting | What it does | Recommended value |
 |---|---|---|
 | **Meal notifications to families** | Sends opted-in families a weekly summary and a low-intake alert. Requires an outgoing mail server. | Enabled **if** an outgoing mail server is configured, otherwise disabled |
 
@@ -89,7 +93,7 @@ These coefficients, drawn from the **ESPEN** geriatric guidelines, are used to
 calculate each **resident's own target** (from their weight and sex) and to
 trigger the **deficit alerts**.
 
-| Setting | What it does | Recommended value (MR/MRS) |
+| Setting | What it does | Recommended value |
 |---|---|---|
 | **Energy (kcal/kg/day)** | Energy target per kilo of body weight. | 30 |
 | **Energy if underweight (kcal/kg/day)** | Raised target for an undernourished resident (BMI less than or equal to 21); ESPEN suggests 32 to 38. | 35 |

@@ -1,3 +1,7 @@
+---
+modules: [resthome_geriatric]
+---
+
 # Clinical registers
 
 :::{rh-description}

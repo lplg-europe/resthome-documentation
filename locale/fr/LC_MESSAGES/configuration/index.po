@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-18 19:30+0200\n"
+"POT-Creation-Date: 2026-09-23 15:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -20,19 +20,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: ../../content/configuration/index.md:1
+#: ../../content/configuration/index.md:5
 msgid "Configuration"
 msgstr "Configuration"
 
-#: ../../content/configuration/index.md:4
+#: ../../content/configuration/index.md:8
 msgid ""
-"Configure Resthome — rooms and sectors, INAMI rates and packages, supplement"
-" types, health insurers, facility and multi-company."
+"Configure Resthome — rooms and sectors, billing rates, supplement types, "
+"health insurers, facility and multi-company."
 msgstr ""
-"Configurer Resthome — chambres et secteurs, tarifs et forfaits INAMI, types "
-"de suppléments, mutuelles, établissement et multi-société."
+"Configurer Resthome — chambres et secteurs, tarifs de facturation, types de "
+"suppléments, assureurs santé, établissement et multi-société."
 
-#: ../../content/configuration/index.md:7
+#: ../../content/configuration/index.md:20
 msgid ""
 "Before day-to-day use, a few basic settings give Resthome its structure. "
 "They are set up once, then only change at the margins."
@@ -40,57 +40,71 @@ msgstr ""
 "Avant l'usage quotidien, quelques réglages de base structurent Resthome. Ils"
 " se font une fois, puis n'évoluent qu'à la marge."
 
-#: ../../content/configuration/index.md:9
+#: ../../content/configuration/index.md:22
 msgid "Application settings"
 msgstr "Les réglages de l'application (Settings)"
 
-#: ../../content/configuration/index.md:11
+#: ../../content/configuration/index.md:24
 msgid ""
 "The **Settings** menu brings together all the parameters, organized by tab. "
-"For a nursing home (MR/MRS), follow these guides — each one details **every "
-"field** and its **recommended value**:"
+"For a nursing home, follow these guides — each one details **every field** "
+"and its **recommended value**:"
 msgstr ""
-"Le menu **Réglages** rassemble tous les paramètres, par onglet. Pour une "
-"maison de repos (MR/MRS), suivez ces guides — chacun détaille **chaque "
-"champ** et la **valeur conseillée** :"
+"Le menu **Paramètres** rassemble tous les réglages, par onglet. Pour une "
+"maison de repos, suivez ces guides — chacun détaille **chaque champ** et sa "
+"**valeur recommandée** :"
 
-#: ../../content/configuration/index.md:13
+#: ../../content/configuration/index.md:26
 msgid "[General settings (residents, rooms)](reglages-generaux.md)"
 msgstr "[Réglages généraux (habitants, chambres)](reglages-generaux.md)"
 
-#: ../../content/configuration/index.md:14
-msgid "[Billing settings (MR/MRS)](reglages-facturation.md)"
-msgstr "[Réglages de facturation (MR/MRS)](reglages-facturation.md)"
+#: ../../content/configuration/index.md:27
+msgid "[Billing settings](reglages-facturation.md)"
+msgstr "[Réglages de facturation](reglages-facturation.md)"
 
-#: ../../content/configuration/index.md:15
-msgid "[eHealth and eFact settings](reglages-ehealth.md)"
-msgstr "[Réglages eHealth et eFact](reglages-ehealth.md)"
-
-#: ../../content/configuration/index.md:16
+#: ../../content/configuration/index.md:28
 msgid "[Meals and nutrition settings](reglages-repas.md)"
 msgstr "[Réglages des repas et de la nutrition](reglages-repas.md)"
 
-#: ../../content/configuration/index.md:17
+#: ../../content/configuration/index.md:29
 msgid "[Document settings](reglages-documents.md)"
 msgstr "[Réglages des documents](reglages-documents.md)"
 
-#: ../../content/configuration/index.md:19
+#: ../../content/configuration/index.md:31
+#: ../../content/configuration/index.md:49
+msgid "In Belgium"
+msgstr "En Belgique"
+
+#: ../../content/configuration/index.md:34
+msgid ""
+"The Belgian pack adds its own settings: the INAMI numbers and approvals of "
+"the establishment, the INAMI rates and pseudo-codes, and the eHealth and "
+"eFact credentials. See [Belgian settings](../belgique/reglages.md) and "
+"[eHealth and eFact settings](../belgique/reglages-ehealth.md)."
+msgstr ""
+"Le pack belge ajoute ses propres réglages : les numéros INAMI et les "
+"agréments de l'établissement, les tarifs INAMI et les pseudo-codes, ainsi "
+"que les accès eHealth et eFact. Voir [Réglages "
+"belges](../belgique/reglages.md) et [Réglages eHealth et "
+"eFact](../belgique/reglages-ehealth.md)."
+
+#: ../../content/configuration/index.md:37
 msgid "Rooms and sectors"
 msgstr "Chambres et secteurs"
 
-#: ../../content/configuration/index.md:21
+#: ../../content/configuration/index.md:39
 msgid ""
-"**Rooms**: create your rooms, with their **type** (MR, MRS, single or double"
-" room…) and their **amenities**."
+"**Rooms**: create your rooms, with their **type** (single or double room, "
+"the sector it belongs to…) and their **amenities**."
 msgstr ""
-"**Chambres** : créez vos chambres, avec leur **type** (MR, MRS, chambre "
-"simple ou double…) et leurs **équipements**."
+"**Chambres** : créez vos chambres, avec leur **type** (chambre simple ou "
+"double, le secteur auquel elle appartient…) et leurs **équipements**."
 
-#: ../../content/configuration/index.md:22
+#: ../../content/configuration/index.md:40
 msgid "**Sectors / units**: group rooms by living unit."
 msgstr "**Secteurs / unités** : regroupez les chambres par unité de vie."
 
-#: ../../content/configuration/index.md:23
+#: ../../content/configuration/index.md:41
 msgid ""
 "A room can be set to **maintenance**, **reserved**, or switched back to "
 "**automatic** assignment based on occupancy."
@@ -98,23 +112,21 @@ msgstr ""
 "Une chambre peut être mise en **maintenance**, **réservée**, ou repassée en "
 "attribution **automatique** selon l'occupation."
 
-#: ../../content/configuration/index.md:25
+#: ../../content/configuration/index.md:43
 msgid "Rates and packages"
 msgstr "Tarifs et forfaits"
 
-#: ../../content/configuration/index.md:27
+#: ../../content/configuration/index.md:45
 msgid ""
-"**INAMI rates**: the **package** amounts per **Katz category** — the basis "
-"for health-insurer reimbursement."
+"**Billing Rates**: the dated amounts Resthome bills — the accommodation "
+"price (resident's share) and, where the country has one, the care allowance "
+"paid by the health insurer."
 msgstr ""
-"**Tarifs INAMI** : les montants du **forfait** par **catégorie Katz** — la "
-"base du remboursement mutuelle."
+"**Tarifs de facturation** : les montants datés que Resthome facture — le "
+"prix de l'hébergement (part habitant) et, là où le pays en prévoit un, le "
+"forfait de soins payé par l'assureur santé."
 
-#: ../../content/configuration/index.md:28
-msgid "**Accommodation rates**: the room price (resident's share)."
-msgstr "**Tarifs d'hébergement** : le prix de la chambre (part habitant)."
-
-#: ../../content/configuration/index.md:29
+#: ../../content/configuration/index.md:46
 msgid ""
 "**Supplement types**: the catalog of billable services (see "
 "[Supplements](../facturation/supplements.md))."
@@ -122,38 +134,52 @@ msgstr ""
 "**Types de suppléments** : le catalogue des prestations facturables (voir "
 "[Les suppléments](../facturation/supplements.md))."
 
-#: ../../content/configuration/index.md:30
+#: ../../content/configuration/index.md:47
 msgid ""
-"**Absence discount rules** and **AViQ codes**: the fine-tuning of billing."
+"**Absence discount rules**: the fine-tuning of billing when a resident is "
+"away."
 msgstr ""
-"**Règles de remise d'absence** et **codes AVIQ** : le paramétrage fin de la "
-"facturation."
+"**Règles de déduction d'absence** : le réglage fin de la facturation "
+"lorsqu'un habitant est absent."
 
-#: ../../content/configuration/index.md:32
+#: ../../content/configuration/index.md:52
+msgid ""
+"The rate menu is called **INAMI Rates** and carries the dependency allowance"
+" per Katz category and sector, next to the **Billing Codes** (pseudo-codes)."
+" See [Belgian settings](../belgique/reglages.md)."
+msgstr ""
+"Le menu des tarifs s'appelle **Tarifs INAMI** et porte le forfait de "
+"dépendance par catégorie Katz et par secteur, à côté des **Codes de "
+"facturation** (pseudo-codes). Voir [Réglages "
+"belges](../belgique/reglages.md)."
+
+#: ../../content/configuration/index.md:55
 msgid "Health insurers and reference data"
 msgstr "Mutuelles et données de référence"
 
-#: ../../content/configuration/index.md:34
+#: ../../content/configuration/index.md:57
 msgid ""
-"**Health insurers (insurance organizations)**: the list used for "
-"insurability and eFact."
+"**Health insurers**: the list of the residents' health insurers, used for "
+"insurability checks and the electronic exchanges with the health insurer, "
+"where the country has them."
 msgstr ""
-"**Mutuelles (organismes assureurs)** : la liste utilisée pour l'assurabilité"
-" et l'eFact."
+"**Assureurs santé** : la liste des assureurs santé des habitants, utilisée "
+"pour les vérifications d'assurabilité et les échanges électroniques avec "
+"l'assureur santé, là où le pays les prévoit."
 
-#: ../../content/configuration/index.md:35
+#: ../../content/configuration/index.md:58
 msgid ""
 "**Facility**: your home's information (identifiers, contact details) used in"
-" documents and eHealth submissions."
+" documents and in those exchanges."
 msgstr ""
 "**Établissement** : les informations de votre maison (identifiants, "
-"coordonnées) utilisées dans les documents et les envois eHealth."
+"coordonnées) utilisées dans les documents et dans ces échanges."
 
-#: ../../content/configuration/index.md:37
+#: ../../content/configuration/index.md:60
 msgid "Multi-company"
 msgstr "Multi-société"
 
-#: ../../content/configuration/index.md:39
+#: ../../content/configuration/index.md:62
 msgid ""
 "Resthome handles **multiple companies** in a single database: each company "
 "has its own residents, rooms and billing, kept separate. Useful for a group "
@@ -163,11 +189,11 @@ msgstr ""
 "ses habitants, ses chambres et sa facturation, cloisonnés. Utile pour un "
 "groupe qui exploite plusieurs établissements."
 
-#: ../../content/configuration/index.md:41
+#: ../../content/configuration/index.md:64
 msgid "The activity log"
 msgstr "Le journal d'activité"
 
-#: ../../content/configuration/index.md:44
+#: ../../content/configuration/index.md:67
 msgid ""
 "An **activity log** tracks access to sensitive data (GDPR). It can be viewed"
 " from the configuration — useful for compliance."
@@ -175,14 +201,34 @@ msgstr ""
 "Un **journal d'activité** trace les accès aux données sensibles (RGPD). Il "
 "est consultable depuis la configuration — utile pour la conformité."
 
-#: ../../content/configuration/index.md:47
+#: ../../content/configuration/index.md:70
 msgid "Learn more"
 msgstr "Pour aller plus loin"
 
-#: ../../content/configuration/index.md:49
+#: ../../content/configuration/index.md:72
 msgid "[Getting started](../premiers-pas.md)"
 msgstr "[Premiers pas](../premiers-pas.md)"
 
-#: ../../content/configuration/index.md:50
+#: ../../content/configuration/index.md:73
 msgid "[Managing a resident](../residents/gerer-un-resident.md)"
 msgstr "[Gérer un habitant](../residents/gerer-un-resident.md)"
+
+#~ msgid "[eHealth and eFact settings](../belgique/reglages-ehealth.md)"
+#~ msgstr "[Réglages eHealth et eFact](../belgique/reglages-ehealth.md)"
+
+#~ msgid ""
+#~ "**INAMI rates**: the **package** amounts per **Katz category** — the basis "
+#~ "for health-insurer reimbursement."
+#~ msgstr ""
+#~ "**Tarifs INAMI** : les montants du **forfait** par **catégorie Katz** — la "
+#~ "base du remboursement mutuelle."
+
+#~ msgid "**Accommodation rates**: the room price (resident's share)."
+#~ msgstr "**Tarifs d'hébergement** : le prix de la chambre (part habitant)."
+
+#~ msgid ""
+#~ "**Health insurers (insurance organizations)**: the list used for "
+#~ "insurability and eFact."
+#~ msgstr ""
+#~ "**Mutuelles (organismes assureurs)** : la liste utilisée pour l'assurabilité"
+#~ " et l'eFact."

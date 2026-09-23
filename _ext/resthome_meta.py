@@ -17,7 +17,9 @@ from docutils import nodes
 from docutils.parsers.rst import Directive
 from sphinx.util.docutils import SphinxDirective
 
-LANG_TAGS = {"fr": "fr-BE", "nl": "nl-BE", "en": "en"}
+# Langue seule, sans région : le site sert plusieurs pays (sélecteur de pays,
+# _ext/countries.py) avec UNE URL par page et par langue.
+LANG_TAGS = {"fr": "fr", "nl": "nl", "en": "en"}
 
 
 class rh_hidden(nodes.General, nodes.Element):
@@ -178,7 +180,7 @@ def html_page_context(app, pagename, templatename, context, doctree):
         "about": {"@type": "SoftwareApplication", "name": "Resthome",
                   "applicationCategory": "BusinessApplication",
                   "applicationSubCategory":
-                      "Logiciel de gestion pour maisons de repos (MR/MRS)",
+                      "Logiciel de gestion pour maisons de repos et de soins",
                   "operatingSystem": "Web"},
         "publisher": {"@type": "Organization", "name": "LPLG",
                       "url": "https://www.lplg.eu/",
@@ -231,7 +233,7 @@ def html_page_context(app, pagename, templatename, context, doctree):
             "name": "Resthome", "alternateName": "Resthome Suite",
             "applicationCategory": "BusinessApplication",
             "applicationSubCategory":
-                "Logiciel de gestion pour maisons de repos (MR/MRS) en Belgique",
+                "Logiciel de gestion pour maisons de repos et de soins",
             "operatingSystem": "Web", "url": "https://www.lplg.eu/resthome",
             "inLanguage": lang_tag, "description": desc,
             "featureList": [

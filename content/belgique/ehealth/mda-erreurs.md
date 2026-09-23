@@ -1,3 +1,7 @@
+---
+modules: [l10n_health_be_mda]
+---
+
 # MDA errors — causes and solutions
 
 :::{rh-description}
@@ -50,7 +54,7 @@ the response · Retry · Contact the OA · Report to the inter-mutualist.**
 | **Death reported by the mutuality** | **Date of death** on the record + alert | The OA reports a death (coverage closed) | Check and **stop billing** at the correct date. |
 | **Special scheme** | The MDA response is **ignored**; the profile's mutuality **stays unchanged** | The resident falls under a special scheme (see below) | Do not correct anything: the safeguard is **intentional**. Bill according to the special scheme. |
 
-![MDA request in Error state, with the error type and the code returned by the platform](../assets/screenshots/ehealth/23-mda-erreur.webp)
+![MDA request in Error state, with the error type and the code returned by the platform](../../assets/screenshots/ehealth/23-mda-erreur.webp)
 
 ## Special schemes
 
@@ -99,4 +103,4 @@ with the mutuality or the organisation concerned before issuing the invoice.
 
 - [Insurability (MDA)](mda.md)
 - [eFact rejections](efact-rejets.md) · [Electronic invoicing (eFact)](efact.md)
-- [FAQ](../faq.md) · [Glossary](../glossaire.md)
+- [FAQ](../../faq.md) · [Glossary](../../glossaire.md)

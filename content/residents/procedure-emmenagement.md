@@ -1,7 +1,11 @@
+---
+modules: [healthcare_accommodation]
+---
+
 # The move-in procedure
 
 :::{rh-description}
-The automatic move-in checklist for nursing homes (MR/MRS) with Resthome: 6 tasks at admission plus room preparation, assigned to the managers in charge.
+The automatic move-in checklist for nursing homes with Resthome: 6 tasks at admission plus room preparation, assigned to the managers in charge.
 :::
 
 :::{rh-faq}
@@ -59,7 +63,7 @@ the **stay's start date**.
 |---|---|---|
 | **Initial admission** | 6 tasks | Prepare the new room |
 | **Room change** | 6 tasks | Prepare the new room **and** put the old one back in order |
-| **Internal transfer** (MR ↔ MRS) | 6 tasks | Prepare the new room **and** put the old one back in order |
+| **Internal transfer** (between sectors) | 6 tasks | Prepare the new room **and** put the old one back in order |
 | **Readmission** | 6 tasks | Prepare the room (no putting back in order — the old one was already freed) |
 
 :::{admonition} No duplicates

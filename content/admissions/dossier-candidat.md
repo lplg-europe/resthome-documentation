@@ -1,3 +1,7 @@
+---
+modules: [l10n_health_be_perdiem_ehealth, l10n_health_be_perdiem_billing]
+---
+
 # The candidate's file
 
 :::{rh-description}
@@ -22,13 +26,14 @@ leaving the enquiry.
 
 ## Personal information
 
-- **Desired stay type** — MR, MRS or day care, offered according to the
-  facility's approvals. It is not required to fill in the file, but it is
-  required to admit: it determines the bed and Annexe 7.
+- **Desired stay type** — offered according to the sectors the home is licensed
+  for. It is not required to fill in the file, but it is required to admit: it
+  determines the bed and the documents the health insurer expects.
 - **Short stay** — derived from the stay type. It then asks for the
   **number of short-stay days used** this calendar year and for **notes**.
-- Identity: **NISS**, ID card and expiry, **date of birth**, **age**, **gender**,
-  **blood type**, **marital status**, **nationality**, **place of birth**.
+- Identity: the **national identification number**, ID card and expiry,
+  **date of birth**, **age**, **gender**, **blood type**, **marital status**,
+  **nationality**, **place of birth**.
 - **Resident language** and **spoken languages**, **religion**.
 - **Attending physician** and **deputy physician**.
 - **Family contacts**, telephone, e-mail.
@@ -41,35 +46,52 @@ banner **This establishment has no approval on file yet** appears, with a
 **Record the approvals** link — fill them in first.
 :::
 
-:::{admonition} Short stay: 90 days a year
+:::{admonition} Short stays
 :class: info
 
-The law caps short stays at **90 days per calendar year**. Enter the days
-already used — ask the family, or confirm with the health insurer — before
+Where the law caps the number of short-stay days per calendar year, enter the
+days already used — ask the family, or confirm with the health insurer — before
 accepting the admission.
+:::
+
+:::{admonition} In Belgium
+:class: rh-country rh-country-be
+
+The stay types are MR, MRS and day care, short stays are capped at 90 days per
+calendar year, and the identification number is the NISS: see [Admitting a
+resident in Belgium](../belgique/admission.md).
 :::
 
 ## Health insurer and insurability
 
-- **Mutuelle**, **insurance regime**, **membership code**, **CT1**, **CT2**,
-  **BIM status**.
-- **MDA Check**: **MDA check required**, **latest MDA**, **MDA status**,
-  **Insured**, **last check**.
+This block records the resident's **health insurer** and the membership details
+the country asks for.
 
-The **Check insurability** button sends an [MDA request](../ehealth/mda.md) and
-fills in the health insurer, the BIM status and the CT1/CT2 codes on its own. It
-needs the **NISS**: without it, Resthome asks for it first.
+Where the country has electronic exchanges with the health insurer, the block
+also carries an **insurability check**: one button queries the insurer and
+fills in the insurer and the membership details on its own. It needs the
+national identification number: without it, Resthome asks for it first.
 
 :::{admonition} The insurability check gates the admission
 :class: warning
 
-As long as the check has not succeeded, moving to **Admitted** is refused. For a
-case that does not require it — a candidate with no NISS, for example — untick
-**MDA check required**.
+Where the check exists, moving to **Admitted** is refused as long as it has not
+succeeded. For a case that does not require it — a candidate with no national
+identification number, for example — untick the box that makes the check
+required.
 
 If the answer comes back **not insured**, the admission is still possible: an
 orange banner warns that billing will have to be addressed to the resident, and
 the answer is recorded in the file's history.
+:::
+
+:::{admonition} In Belgium
+:class: rh-country rh-country-be
+
+The block holds the mutuality, the CT1/CT2 codes and the BIM status, and the
+check is an MDA request sent with **Check insurability**: see [Admitting a
+resident in Belgium](../belgique/admission.md) and [Insurability
+(MDA)](../belgique/ehealth/mda.md).
 :::
 
 ## Key contacts
@@ -86,4 +108,4 @@ leaving an empty field that looks like an oversight.
 ## What's next
 
 - [Admitting a candidate](admettre.md)
-- [Insurability (MDA)](../ehealth/mda.md)
+- [Managing a resident](../residents/gerer-un-resident.md)

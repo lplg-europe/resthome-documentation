@@ -1,5 +1,6 @@
 ---
 howto_auto: true
+modules: [l10n_health_be_perdiem_billing, healthcare_accommodation_billing]
 ---
 
 # CPAS coverage
@@ -42,7 +43,7 @@ list of CPAS in **Billing → Configuration → CPAS**.
 
 The CPAS steps in on the **resident share** (room + supplements), not on the
 **dependency allowance**: the latter is covered 100% by the health insurance fund
-and billed via [eFact](../ehealth/efact.md). See
+and billed via [eFact](ehealth/efact.md). See
 [The INAMI dependency allowance](forfait-inami.md).
 :::
 
@@ -153,6 +154,6 @@ billing**. Without one of these two levers, the resident share keeps being sent
 ## Going further
 
 - [Manage a resident](../residents/gerer-un-resident.md)
-- [Bill a month](facturer-un-mois.md)
+- [Bill a month](../facturation/facturer-un-mois.md) · [Billing a month in Belgium](facturation.md)
 - [Maintenance debtors (split billing)](../facturation-partagee/index.md)
 - [The INAMI dependency allowance](forfait-inami.md)

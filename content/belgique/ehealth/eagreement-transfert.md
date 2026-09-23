@@ -1,4 +1,5 @@
 ---
+modules: [l10n_health_be_perdiem_ehealth, resthome_mr_ehealth, resthome_mr_day_care]
 howto_auto: true
 ---
 
@@ -127,5 +128,5 @@ blocks the cancellation itself.
 
 - [Agreements (eAgreement Light)](eagreement.md) — the requests the transfer creates.
 - [Following a request](eagreement-suivi.md) — deadlines and the insurer's decision.
-- [Room change and transfer](../residents/changement-chambre.md) — moving room within the same sector.
-- [The Katz assessment](../residents/katz.md) — the category that conditions MRS.
+- [Room change and transfer](../../residents/changement-chambre.md) — moving room within the same sector.
+- [The Katz assessment](../katz.md) — the category that conditions MRS.

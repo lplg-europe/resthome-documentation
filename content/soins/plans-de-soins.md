@@ -1,3 +1,7 @@
+---
+modules: [healthcare_medical]
+---
+
 # Care plans and vital signs
 
 :::{rh-description}
@@ -31,11 +35,11 @@ A **care plan** describes the **goals** of a resident's care and the actions to 
 - **Put under review** then **Validate review** — periodic reassessment.
 - **Complete** / **Cancel** — closure.
 
-![Care plan form: the resident, the Katz category and validity, and the Care goals tab listing each goal with its interventions](../assets/screenshots/soins/plan-de-soins-objectifs.png)
+![Care plan form: the resident, the dependency category and its validity, and the Care goals tab listing each goal with its interventions](../assets/screenshots/soins/plan-de-soins-objectifs.png)
 
 Each plan carries its own **goals**, which makes follow-up measurable.
 
-![Care plans list: reference, resident, start date, next review, Katz category and care coordinator](../assets/screenshots/soins/06-plans-de-soins.png)
+![Care plans list: reference, resident, start date, next review, dependency category and care coordinator](../assets/screenshots/soins/06-plans-de-soins.png)
 
 ## Care scheduling
 

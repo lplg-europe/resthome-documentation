@@ -1,16 +1,17 @@
 ---
 howto_auto: true
+modules: [healthcare_accommodation]
 ---
 
 # Rooms and occupancy
 
 :::{rh-description}
-Track the occupancy of a nursing home's (MR/MRS) rooms with Resthome: kanban board by status, room record, maintenance and assigning a resident.
+Track the occupancy of a nursing home's rooms with Resthome: kanban board by status, room record, maintenance and assigning a resident.
 :::
 
 :::{rh-faq}
 Where is the room occupancy board in Resthome?
-: In the MR/MRS application, Accommodation → Rooms menu. Rooms are shown as a kanban, grouped by status: Available, Occupied, Under maintenance and Reserved.
+: In the Nursing Home application, Accommodation → Rooms menu. Rooms are shown as a kanban, grouped by status: Available, Occupied, Under maintenance and Reserved.
 
 What does the colored badge on each room mean?
 : It shows the occupancy "occupied / capacity" (for example 1/2) and its color reflects the status: green for Available, blue for Occupied, orange for Under maintenance, cyan for Reserved. A two-bed room with only one bed taken stays Available.
@@ -24,8 +25,8 @@ How do I assign a resident directly from a room?
 What happens if the resident already occupies a room?
 : The wizard detects the current stay and shows a transfer warning. On confirmation, Resthome ends the old stay (reason: transfer) and opens a new stay in the chosen room.
 
-Is the daily rate displayed the INAMI package?
-: No. It is the accommodation price (the room), a value specific to your facility, set on the room type. The dependency package, for its part, depends on the resident's Katz category, not on the room.
+Is the daily rate displayed the care allowance paid by the health insurer?
+: No. It is the accommodation price (the room), a value specific to your facility, set on the room type. The care allowance, for its part, follows the country's rules and the resident's dependency category, not the room.
 :::
 
 The **Rooms** area gives you a real-time view of the facility's **occupancy**:
@@ -33,7 +34,7 @@ which rooms are free, occupied, reserved or under maintenance, how many beds
 remain available, and at what rate. From a room, you can also **directly assign a
 resident**, which opens their stay.
 
-You'll find it in the **MR/MRS → Accommodation → Rooms** application.
+You'll find it in the **Nursing Home → Accommodation → Rooms** application.
 
 ## The occupancy board
 
@@ -91,13 +92,21 @@ current state (**Available → Occupied → Under maintenance → Reserved**), a
 | **Daily Rate** | Accommodation price, taken from the room type. |
 | **Billing Product** | Product linked to the room (read-only). |
 
-:::{admonition} The daily rate is not the INAMI package
+:::{admonition} The daily rate is not the care allowance
 :class: info
 
 The **daily rate** is the **accommodation price** (the room), a value **specific
-to your facility**, set on the **room type**. It is distinct from the **dependency
-package** (the insurer's share), which depends on the resident's **Katz category**
-— the same for all categories under AViQ rates — and not on the room.
+to your facility**, set on the **room type**. It is distinct from the **care
+allowance paid by the health insurer**, which follows the country's rules and the
+resident's dependency category — not the room.
+:::
+
+:::{admonition} In Belgium
+:class: rh-country rh-country-be
+
+The care allowance is the INAMI dependency allowance: it is declared with the
+resident's Katz category, and under the AViQ rates its amount is the same for
+every category — see [The INAMI package](../belgique/forfait-inami.md).
 :::
 
 ### Amenities
@@ -161,7 +170,7 @@ pipeline:
 4. Check the **entry date** (today by default) and, if needed, the **planned end
    date**.
 5. The **daily rate** is taken from the room; adjust the **Bill To** field if the
-   invoice must be addressed to a third party (a relative, CPAS).
+   invoice must be addressed to a third party (a relative, a public welfare body).
 6. Optionally add an **admission reason**, then click **Assign a Resident**.
 
 Resthome then creates the **stay** on this room, in the **In Progress** state, and
@@ -181,14 +190,14 @@ shows a **transfer warning** recalling their current room. The button then becom
 
 Assigning an **already-housed** resident from the room performs a simple
 **transfer**. For a room change that **cleanly splits the accommodation billing**
-on the exact date while keeping the INAMI intervention **continuous** (no new
-agreement), prefer the **Change Room** action on the **stay** — see
+on the exact date while keeping the care allowance paid by the health insurer
+**continuous**, prefer the **Change Room** action on the **stay** — see
 [Room change and transfer](changement-chambre.md).
 :::
 
 ## Configuring room types and amenities
 
-The room structure is prepared in the configuration, via **MR/MRS →
+The room structure is prepared in the configuration, via **Nursing Home →
 Configuration → Rooms**:
 
 - **Room Types** — define each type (single, double…), its **daily rate**, its
@@ -201,7 +210,7 @@ For the settings details, see [Configuration](../configuration/index.md).
 
 ## Key takeaways
 
-- The occupancy board lives in **MR/MRS → Accommodation → Rooms**, as a **kanban
+- The occupancy board lives in **Nursing Home → Accommodation → Rooms**, as a **kanban
   grouped by status** (Available, Occupied, Under maintenance, Reserved).
 - Each card's **badge** shows the occupancy "occupied / capacity" and its color
   reflects the status; a shared room stays **Available** as long as one bed is
@@ -212,7 +221,7 @@ For the settings details, see [Configuration](../configuration/index.md).
 - **Assign a Resident** from the room creates the stay; if the resident is already
   housed, the operation becomes a **transfer**.
 - The **daily rate** is the accommodation price specific to the facility (per room
-  type), not to be confused with the **dependency package** tied to Katz.
+  type), not to be confused with the **care allowance** paid by the health insurer.
 
 ## Going further
 

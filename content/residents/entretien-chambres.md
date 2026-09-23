@@ -1,3 +1,7 @@
+---
+modules: [healthcare_accommodation]
+---
+
 # Room housekeeping
 
 :::{rh-description}

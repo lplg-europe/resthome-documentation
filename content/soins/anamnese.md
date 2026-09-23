@@ -1,3 +1,7 @@
+---
+modules: [resthome_geriatric]
+---
+
 # Anamnesis and life project
 
 :::{rh-description}
@@ -8,7 +12,7 @@ The multidisciplinary anamnesis in Resthome: a dated intake per discipline (nurs
 What is the multidisciplinary anamnesis in Resthome?
 : A dated intake form, one per discipline (nursing, physiotherapy, occupational therapy, speech therapy), that gathers the resident's physical particularities, hospitalisation preferences and end-of-life wishes, together with the remarks of the professional who fills it in.
 
-Do I have to re-enter the Katz assessment, allergies or treatments?
+Do I have to re-enter the dependency assessment, allergies or treatments?
 : No. Those live in the resident's record and are reached from the anamnesis through smart buttons. The anamnesis composes the existing record instead of duplicating it, so nothing can diverge between the two.
 
 Can several disciplines fill in an anamnesis for the same resident?
@@ -36,16 +40,17 @@ record.
 - The **resident's facts** (glasses, pacemaker, walking aids, weight, wishes…)
   are stored **once on the resident** and edited straight from the anamnesis.
   Correcting the weight here corrects it everywhere.
-- The **structured clinical data** (Katz, allergies, prescriptions, assessment
-  scales) is **reached by smart button**, never copied.
+- The **structured clinical data** (dependency assessment, allergies,
+  prescriptions, assessment scales) is **reached by smart button**, never
+  copied.
 - Only the **remarks** and the **general notes** belong to the anamnesis itself:
   they are what that professional observed, on that date.
 
 :::{admonition} Why this matters
 :class: tip
 
-An intake form that re-asks for the Katz category, the allergies and the
-treatments quickly produces two versions of the truth — and staff learn to skip
+An intake form that re-asks for the dependency category, the allergies and
+the treatments quickly produces two versions of the truth — and staff learn to skip
 those blocks. Here there is nothing to skip: what already exists is shown, not
 asked again.
 :::
@@ -121,11 +126,20 @@ notes**.
 Alongside them, smart buttons open the existing clinical record without leaving
 the page:
 
-- the resident's **Katz** assessments (and their current category);
+- the resident's **dependency assessments** (and their current category);
 - their **allergies**, with a counter;
 - their **prescriptions**, with a counter;
 - the **assessment scale** suited to the discipline — Tinetti for
-  physiotherapy, MMSE for occupational therapy, Katz otherwise.
+  physiotherapy, MMSE for occupational therapy, and the country's dependency
+  scale otherwise.
+
+:::{admonition} In Belgium
+:class: rh-country rh-country-be
+
+The dependency assessment is the Katz scale: the anamnesis reaches the
+resident's Katz assessments and their current category. See [Care in
+Belgium](../belgique/soins.md).
+:::
 
 ## 6. Complete the anamnesis
 
@@ -161,6 +175,5 @@ deleted.
 ## Further reading
 
 - [Manage a resident](../residents/gerer-un-resident.md)
-- [The Katz assessment](../residents/katz.md)
 - [Care plans and vital signs](plans-de-soins.md)
 - [Clinical registers](registres.md)

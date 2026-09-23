@@ -1,3 +1,7 @@
+---
+modules: [resthome_day_care]
+---
+
 # Day care centre (CSJ)
 
 :::{rh-description}

@@ -1,15 +1,19 @@
+---
+modules: [resthome_meal, resthome_geriatric, healthcare_base]
+---
+
 # Nutritional monitoring and undernutrition
 
 :::{rh-description}
-Screen for undernutrition and track intake in a nursing home (MR/MRS): risk status, MNA, ESPEN targets and automatic alerts.
+Screen for undernutrition and track intake in a nursing home: risk status, MNA, ESPEN targets and automatic alerts.
 :::
 
 :::{rh-faq}
 How does Resthome identify a resident at risk of undernutrition?
-: Resthome applies the AViQ/ESPEN screening rules and updates a status: a weight loss of more than 5% in 1 month or more than 10% in 6 months, a BMI below 23 in a resident over 70, or an MNA overdue by more than 6 months move the resident to Re-screen (MNA). A latest MNA of "undernourished" places the resident directly in Undernutrition. The status is recalculated on every weight change and once a day.
+: Resthome applies screening rules drawn from ESPEN and updates a status: a weight loss of more than 5% in 1 month or more than 10% in 6 months, a BMI below 23 in a resident over 70, or an MNA overdue by more than 6 months move the resident to Re-screen (MNA). A latest MNA of "undernourished" places the resident directly in Undernutrition. The status is recalculated on every weight change and once a day.
 
-Does the undernutrition category change the dependency allowance?
-: No. The dependency allowance depends on the resident's Katz category, not on their nutritional status. Undernutrition monitoring is a clinical tool: it triggers assessments (MNA) and alerts, but has no effect on billing. The Katz category and the allowance are managed elsewhere (see the Katz page).
+Does the undernutrition status change the care allowance?
+: No. Where the country has a care allowance paid by the health insurer, it follows the resident's dependency assessment, not their nutritional status. Undernutrition monitoring is a clinical tool: it triggers assessments (MNA) and alerts, but has no effect on billing.
 
 Where do the energy, protein and fluid targets come from?
 : The ESPEN coefficients (30 kcal/kg, 1 g/kg of protein, 1.6 L for women and 2.0 L for men) are facility-wide settings. Resthome then computes each resident's own target from their weight and sex. The energy band rises to 35 kcal/kg for an underweight resident (BMI less than or equal to 21).
@@ -21,13 +25,13 @@ Who receives the undernutrition or deficit alerts?
 : A daily cron creates a "to do" activity. The undernutrition alert goes to the head nurse (then the manager); nutritional deficit or hydration deficit alerts go first to the Kitchen role (dietitian), then to the head nurse, then to the manager. Each alert is capped at once every 30 days per resident to avoid duplicates.
 
 Is nutritional monitoring mandatory to use Resthome?
-: No. It is an optional screening feature, designed as a differentiator for MR/MRS. It assists the team but does not replace the judgment of a dietitian or a physician. You can use it as much or as little as you like: it activates as soon as you enter weight, MNA, meals and drinks.
+: No. It is an optional screening feature, designed for nursing homes. It assists the team but does not replace the judgment of a dietitian or a physician. You can use it as much or as little as you like: it activates as soon as you enter weight, MNA, meals and drinks.
 :::
 
 Resthome screens for **undernutrition** and tracks each resident's **intake**,
-drawing on the geriatric **ESPEN** recommendations and the **AViQ** screening
-rules. Everything is read in the resident record's **Nutrition tab** and driven
-from the **Meals dashboard**.
+drawing on the geriatric **ESPEN** recommendations and on established
+screening thresholds. Everything is read in the resident record's **Nutrition
+tab** and driven from the **Meals dashboard**.
 
 The principle is simple: you enter the **weight**, the **meals served** and the
 **drinks**; Resthome derives an **undernutrition risk status**, **targets** for
@@ -59,7 +63,7 @@ not edit it by hand. It shows a colored badge and the measurements that explain 
 |---|---|---|
 | **No concern** | No concern | Green |
 | **To monitor** | To monitor (last MNA "at risk") | Blue |
-| **Re-screen (MNA)** | An AViQ signal is active: redo or renew the MNA | Orange |
+| **Re-screen (MNA)** | A screening signal is active: redo or renew the MNA | Orange |
 | **Undernutrition** | Confirmed undernutrition (last MNA "undernourished") | Red |
 
 Below the badge, the tab shows the **weight**, the **BMI**, a **Low BMI** indicator
@@ -69,7 +73,7 @@ Below the badge, the tab shows the **weight**, the **BMI**, a **Low BMI** indica
 flowchart TD
     A[Weight, height and BMI up to date] --> B{Last MNA = undernourished?}
     B -- Yes --> C[Undernutrition]
-    B -- No --> D{AViQ signal active?}
+    B -- No --> D{Screening signal active?}
     D -- Yes --> E[Re-screen MNA]
     D -- No --> F{Last MNA = at risk?}
     F -- Yes --> G[To monitor]
@@ -79,14 +83,19 @@ flowchart TD
 :::{admonition} What triggers "Re-screen (MNA)"
 :class: note
 
-An **AViQ signal** is active as soon as one of these conditions is true:
+A **screening signal** is active as soon as one of these conditions is true:
 
 - **weight loss** of more than **5%** over about 1 month;
 - **weight loss** of more than **10%** over about 6 months;
 - **BMI below 23** in a resident **over 70** (age-adjusted threshold);
 - **overdue MNA**: no MNA, or a last MNA more than 6 months old.
+:::
 
-The thresholds match the default values of the AViQ/PWNS-be-A screening.
+:::{admonition} In Belgium
+:class: rh-country rh-country-be
+
+These thresholds are the default values of the AViQ screening (PWNS-be-A). See
+[Care in Belgium](../belgique/soins.md).
 :::
 
 :::{admonition} Weigh regularly to get the weight loss
@@ -181,7 +190,7 @@ days and raises an alert if intake is insufficient.
 
 ## The nutrition dashboard
 
-Open **Meals → Statistics**: below the general cards (Residents, Menus, Alerts), the
+Open **Meals → Reporting → Statistics**: below the general cards (Residents, Menus, Alerts), the
 page brings together three nutritional banners that only appear if they concern at
 least one resident.
 
@@ -224,15 +233,15 @@ later, raise it to be alerted earlier.
 
 - The resident's **Nutrition tab** brings together the undernutrition status, latest
   MNA, ESPEN targets and intake coverage — read-only for the computed measurements.
-- The **undernutrition status** follows the AViQ/ESPEN rules: weight loss,
+- The **undernutrition status** follows the screening rules: weight loss,
   age-adjusted BMI, overdue MNA or "undernourished" MNA.
 - The **targets** (energy, protein, fluids) are specific to each resident, computed
   from their weight and sex using the configurable ESPEN coefficients.
 - The **intake** is derived from the **amount eaten** at meals and the **logged
   drinks**; coverage is a 3-day average.
 - The **Meals dashboard** (Statistics) and the **daily alerts** surface at-risk
-  residents; this monitoring does **not** change the allowance, which depends on the
-  Katz category.
+  residents; this monitoring does **not** change the care allowance, which
+  follows the dependency assessment.
 
 ## Further reading
 
@@ -241,4 +250,3 @@ later, raise it to be alerted earlier.
 - [Meals overview](index.md)
 - [Clinical registers (MNA)](../soins/registres.md)
 - [Meal and nutrition settings](../configuration/reglages-repas.md)
-- [The allowance and the Katz category](../residents/katz.md)

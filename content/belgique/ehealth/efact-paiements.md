@@ -1,4 +1,5 @@
 ---
+modules: [l10n_health_be_efact, l10n_health_be_perdiem_ehealth]
 howto_auto: true
 ---
 
@@ -33,7 +34,7 @@ remains: **"have I been paid?"**. This page explains how Resthome answers it,
 from the automatically reconciled **settlement (920900)** to **chasing overdue
 insurers (OA)**.
 
-You'll find everything in the **MR/MRS → eHealth → eFact** app:
+You'll find everything in the **eHealth → eFact** app:
 
 - the **Cockpit** — your "what to do now" control board;
 - **eFact Settlements** — the list of **settlements** received;
@@ -96,7 +97,7 @@ The list shows: the **reference**, the **batch** concerned, the **receipt
 date**, the **Accepted** / **Rejected** / **Paid** amounts and the **payment
 reference**, plus a **status** badge.
 
-![eFact settlements list: one row per settlement with the batch, receipt date, accepted, rejected and paid amounts, payment reference and status badge](../assets/screenshots/ehealth/10-efact-decomptes.webp)
+![eFact settlements list: one row per settlement with the batch, receipt date, accepted, rejected and paid amounts, payment reference and status badge](../../assets/screenshots/ehealth/10-efact-decomptes.webp)
 
 Open a settlement for the details. The screen is **read-only** (nothing is
 entered by hand) and follows three states:
@@ -195,7 +196,7 @@ dashboard card). The Cockpit organizes all the work into **action stacks**,
 with a counter and a button per stack. Three stacks answer the payment question
 directly.
 
-![eFact Cockpit with the action stacks (To send, Awaiting OA, To correct, To reconcile, Overdue OA payments) and the "Rejects by cause" table](../assets/screenshots/ehealth/11-efact-cockpit.webp)
+![eFact Cockpit with the action stacks (To send, Awaiting OA, To correct, To reconcile, Overdue OA payments) and the "Rejects by cause" table](../../assets/screenshots/ehealth/11-efact-cockpit.webp)
 
 - **To reconcile** — the batches **settled but whose payment is not yet
   confirmed**. The total expected amount is shown; the **Reconcile payments**
@@ -252,8 +253,8 @@ Overdue** filter and an **OA Pay Deadline** column (in red if passed).
 :class: warning
 
 The calculation stays at **0 as long as the legal rate is not entered**. Enter
-the **annual legal interest rate** published under **eHealth → Settings → Legal
-Interest Rate (%)** — see [eHealth settings](../configuration/reglages-ehealth.md).
+the **annual legal interest rate** published under **eHealth → Configuration → Settings**,
+setting **Legal Interest Rate (%)** — see [eHealth settings](../reglages-ehealth.md).
 This is a value **specific to your establishment / to the current year**.
 :::
 
@@ -274,6 +275,6 @@ This is a value **specific to your establishment / to the current year**.
 
 - [Electronic billing (eFact)](efact.md)
 - [eFact rejections — causes and solutions](efact-rejets.md)
-- [Billing a month](../facturation/facturer-un-mois.md)
-- [eHealth settings](../configuration/reglages-ehealth.md)
+- [Billing a month](../../facturation/facturer-un-mois.md)
+- [eHealth settings](../reglages-ehealth.md)
 - [eHealth overview](index.md)

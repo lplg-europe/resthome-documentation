@@ -1,3 +1,7 @@
+---
+modules: [healthcare_mobile]
+---
+
 # Medication round
 
 :::{rh-description}

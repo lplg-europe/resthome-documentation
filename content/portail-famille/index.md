@@ -1,3 +1,7 @@
+---
+modules: [resthome_family_portal]
+---
+
 # Family portal
 
 :::{rh-description}

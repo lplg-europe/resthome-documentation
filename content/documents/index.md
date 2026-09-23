@@ -1,7 +1,11 @@
+---
+modules: [resthome_documents]
+---
+
 # Resident documents
 
 :::{rh-description}
-The automatic document folder for every nursing home (MR/MRS) resident: subfolders, tags, and the Documents button on the record.
+The automatic document folder for every nursing home resident: subfolders, tags, and the Documents button on the record.
 :::
 
 :::{toctree}
@@ -23,7 +27,7 @@ What does the number shown on the "Documents" button count?
 Can I delete a resident folder by mistake?
 : No. Automatically created folders are protected: a standard user can drop documents into them and view them, but cannot delete the folder itself.
 
-What are tags like Katz, eAgreement, or GDPR for?
+What are tags like Medical form, Billing, or GDPR consent for?
 : They are ready-to-use tags for categorizing documents and finding them by filter in the Documents app. You can also apply some of them automatically through the settings ("Default tags").
 
 Does each facility have its own folders?
@@ -118,15 +122,22 @@ and **finding them by filter** in the Documents app:
 
 | Tag | Typical use |
 |---|---|
-| **Katz assessment** | Katz dependency assessment grids and reports. |
 | **Medical form** | Medical forms and documents. |
-| **MR/MRS agreement (eAgreement)** | Health insurer agreements (eAgreement). |
-| **OA allocation** | Decisions and allocations from the insurer. |
-| **Convention** | The convention signed with the resident. |
+| **Stay agreement** | The agreement signed with the resident. |
 | **Billing** | Invoices and billing items. |
-| **CPAS** | CPAS coverage documents. |
 | **GDPR consent** | Consents and privacy-related documents. |
 | **End of stay** | End-of-stay / departure documents. |
+
+The other predefined tags are for documents that follow the country's rules:
+the dependency assessment, the agreements and decisions of the health insurer,
+and the coverage granted by a public welfare body.
+
+:::{admonition} In Belgium
+:class: rh-country rh-country-be
+
+These tags are **Katz evaluation**, **MR/MRS agreement (eAgreement)**, **OA
+allocation** and **CPAS**. See [Care in Belgium](../belgique/soins.md).
+:::
 
 :::{admonition} Apply tags automatically
 :class: tip
@@ -159,8 +170,8 @@ The detailed behavior, use cases, and activation are described on the
   subfolders included.
 - At the facility level, Resthome creates the **"Residents"** and
   **"Blank forms"** folders, **separated per company**.
-- Nine predefined **tags** (Katz, eAgreement, GDPR, CPAS…) make filtering easier,
-  and can be applied automatically.
+- Predefined **tags** (medical form, stay agreement, billing, GDPR consent…)
+  make filtering easier, and can be applied automatically.
 
 ## Further reading
 

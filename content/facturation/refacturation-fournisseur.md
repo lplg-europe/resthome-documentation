@@ -1,4 +1,5 @@
 ---
+modules: [resthome_supplements, resthome_sales]
 howto_auto: true
 ---
 
@@ -167,8 +168,7 @@ charged a second time. The recharge says so in a banner.
 ## Settings — "Other supplement"
 
 Lines that name no supplement product stop the validation. A home that prefers
-them to go through anyway designates a fallback product in **Supplements →
-Configuration → Settings**, under **Other supplement**: those lines are charged
+them to go through anyway designates a fallback product in the **Settings**, in the **Supplements** section, under **Other supplement**: those lines are charged
 under it, and a note in the discussion thread lists them.
 
 Left empty — the default — the recharge stops and names the lines to fix, which
