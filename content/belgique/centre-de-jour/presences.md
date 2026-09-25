@@ -5,10 +5,13 @@ modules: [resthome_day_care]
 # Recording attendance
 
 :::{rh-description}
-Recording attendance in a day care centre (CSJ): the day's register, one day at a time, the days that earn the forfait, the 13:00 closure.
+Recording attendance in a day care centre (CSJ): the tap-in screen at the door, the day's register, one day at a time, the days that earn the forfait, the 13:00 closure.
 :::
 
 :::{rh-faq}
+What is the quickest way to record the arrivals of the day?
+: **Today's attendance**: one card per user, one tap on arrival, one tap on departure, the hour taken from the clock.
+
 When does a day earn the forfait?
 : When the user stayed at least 6 hours and arrived by 12:00 — or when the day was cut short by a hospitalisation or a death, however short.
 
@@ -25,6 +28,38 @@ I forgot to mark a user present yesterday. What happens to their care?
 The **attendance register** is what the whole day care centre rests on: it
 decides the forfait, the day price and the care. It holds one line per user
 and per day, with the arrival and departure hours.
+
+## Today's attendance, at the door
+
+**Accommodation → Today's attendance** opens a screen made for a tablet at
+the entrance: one card per day care user, with their photo. The same screen
+opens from the **Today's attendance** tile of the care board and of the
+billing board.
+
+1. When a user arrives, tap their card (1): the arrival is recorded at the
+   current time.
+2. When they leave, tap it again (2): the departure is recorded, and the card
+   says whether the day earns the forfait, or why not.
+3. Tapped the wrong card? Click **Undo** in the confirmation that appears.
+4. To type the hours by hand or record a day cut short, click the card's
+   **⋯** button (3): it opens the **Add a day of attendance** dialog.
+
+![Today's attendance: a user expected and not arrived yet, a user who left at 10:00 with the reason Less than 6 hours, and a user present since 08:52](../../assets/screenshots/centre-de-jour/19-presences-du-jour.png)
+
+- The screen lists the users expected today: on the weekdays agreed with the
+  family, otherwise on the days the centre opens. **Everyone** also shows the
+  others, for an unplanned visit.
+- Every tap goes through the register: the 13:00 closure, the audit log and
+  the forfait rules apply exactly as in the day's register.
+- From 13:00, a user expected and not ticked in stays on the screen, marked
+  **Not ticked in by 13:00**: the register counts them absent. Tapping their
+  card still records a late arrival, marked **Recorded after closure**.
+- Several screens can stay open at once: each one reloads every two minutes.
+
+The tile's badge counts the users expected today who have not arrived yet. It
+goes back to zero at 13:00, when the register closes to arrivals.
+
+![The Today's attendance tile on the care board, with a badge counting one user still expected](../../assets/screenshots/centre-de-jour/20-tuile-presences.png)
 
 ## The day's register
 
