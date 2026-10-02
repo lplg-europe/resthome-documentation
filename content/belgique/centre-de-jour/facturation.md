@@ -32,13 +32,16 @@ calendar.
 - **The forfait**, to the health insurer: one line per run of consecutive days
   that earn it, at the rate of the user's CSJ category. A user who comes on
   Monday, Wednesday and Friday has three runs a week.
-- **The day price**, to the user: every day recorded, whether it earns the
+- **The day price**, to the user: one line a month at the price of the day
+  place, with the days recorded as its quantity — whether they earn the
   forfait or not.
 - **The daily supplements**, on the days recorded — not on the calendar days.
+- **The transport**, on the days the register says the centre drove the user
+  in.
 
 And what it never bills:
 
-- no room: a day place is not rented;
+- no night: the day place is billed on the days recorded only;
 - nothing **ahead**: the days are billed once they happened;
 - no absence rebate, and no leave to declare: a day nobody came is simply not
   billed.
@@ -46,7 +49,7 @@ And what it never bills:
 A day recorded, corrected or removed after the month was generated bills the
 month again for that user, as a change of absence does.
 
-![The billing lines of a user who comes every opening day: five forfait lines, one per week, then the day price, the CSJ Stay Supplement line, on 21 days](../../assets/screenshots/centre-de-jour/10-lignes-du-mois.png)
+![The billing lines of a user who comes every opening day: five forfait lines, one per week, then the day price, the day room line, on 21 days attended](../../assets/screenshots/centre-de-jour/10-lignes-du-mois.png)
 
 The lines are read on the period, under its **Billing Lines** tab, or on the
 stay's tab of the same name. Each forfait line carries the CSJ category, its

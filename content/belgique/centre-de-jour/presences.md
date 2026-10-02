@@ -74,6 +74,10 @@ care user whose stay runs that day (1). The days already recorded come marked
 
 ![The day's register: four users, three of them marked present with their arrival and departure hours, and the banner saying the register closed at 13:00](../../assets/screenshots/centre-de-jour/07-registre-du-jour.png)
 
+Above the list, **Places** shows the places the approval licenses and
+**Ticked** the users marked present. More users ticked than places is said in
+a banner, never blocked: saving stays allowed.
+
 Switching **Present** off removes the user's day. From 13:00 the banner says
 the register is closed to arrivals: the departures can still be completed, and
 a user added now is marked as recorded after the closure.
@@ -95,6 +99,10 @@ day — the right tool to catch up a fortnight for one person.
 ![The Add a day of attendance dialog: the date, the arrival at 08:00 and the departure at 18:00, the Day Cut Short field, and the green banner saying the forfait is due](../../assets/screenshots/centre-de-jour/08-jour-de-presence.png)
 
 - A day already in the register is loaded, never doubled: saving updates it.
+- **Did Not Come** records a day the user was expected and did not come,
+  unannounced. It goes in as an unannounced absence, not in the register —
+  which lists who came — and is billed only where the centre's rules of
+  procedure provide for it.
 - The next day always starts blank, on the centre's hours.
 - A notification confirms each day saved, and says whether the forfait is due.
 
@@ -127,7 +135,8 @@ expected and not marked present **did not come** that day.
 
 **Accommodation → Day care attendance** lists the days recorded, with the
 filters **Today**, **This month**, **Forfait not due**, **Recorded after
-closure** and **Centre closed that day**, grouped by resident or by day.
+closure**, **Centre closed that day**, **Over the places** and **Transported
+today**, grouped by resident, by day or by transporter.
 
 ![The attendance history of the month: two days in red that earn no forfait, each with its reason, a day cut short by a hospitalisation, and a line in orange recorded after the closure](../../assets/screenshots/centre-de-jour/09-historique.png)
 
@@ -135,6 +144,12 @@ A day that earns no forfait shows in red, with its reason under **Why Not
 Due**; a day recorded after the closure shows in orange. A day recorded on a
 weekday the centre does not open is flagged, never refused: it is either a
 date typed wrong, or an exceptional opening.
+
+- **Over the Places** flags a day when more users came than the approval
+  licenses places.
+- **Transported by the Centre** says the centre drove the user in that day.
+  It is ticked from the transport days of the stay, can be corrected on the
+  line, and the transport supplement counts these days.
 
 ## What's next
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-25 10:16+0200\n"
+"POT-Creation-Date: 2026-10-01 23:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -293,6 +293,17 @@ msgstr ""
 
 #: ../../content/belgique/centre-de-jour/presences.md:77
 msgid ""
+"Above the list, **Places** shows the places the approval licenses and "
+"**Ticked** the users marked present. More users ticked than places is said "
+"in a banner, never blocked: saving stays allowed."
+msgstr ""
+"Au-dessus de la liste, **Places** montre les places de l'agrément et "
+"**Cochés** les usagers marqués présents. Plus d'usagers cochés que de places"
+" est signalé par un bandeau, jamais bloqué : l'enregistrement reste "
+"possible."
+
+#: ../../content/belgique/centre-de-jour/presences.md:81
+msgid ""
 "Switching **Present** off removes the user's day. From 13:00 the banner says"
 " the register is closed to arrivals: the departures can still be completed, "
 "and a user added now is marked as recorded after the closure."
@@ -302,11 +313,11 @@ msgstr ""
 " complétés, et un usager ajouté maintenant est marqué comme saisi après la "
 "clôture."
 
-#: ../../content/belgique/centre-de-jour/presences.md:81
+#: ../../content/belgique/centre-de-jour/presences.md:85
 msgid "One day for one user"
 msgstr "Un jour pour un usager"
 
-#: ../../content/belgique/centre-de-jour/presences.md:83
+#: ../../content/belgique/centre-de-jour/presences.md:87
 msgid ""
 "On the user's file, **Add a day of attendance** opens a dialog for a single "
 "day — the right tool to catch up a fortnight for one person."
@@ -315,17 +326,17 @@ msgstr ""
 "pour un seul jour — le bon outil pour rattraper une quinzaine pour une "
 "personne."
 
-#: ../../content/belgique/centre-de-jour/presences.md:86
+#: ../../content/belgique/centre-de-jour/presences.md:90
 msgid "Choose the **Date** (1): today by default."
 msgstr "Choisissez la **Date** (1) : aujourd'hui par défaut."
 
-#: ../../content/belgique/centre-de-jour/presences.md:87
+#: ../../content/belgique/centre-de-jour/presences.md:91
 msgid ""
 "Check **Arrival** and **Departure** (2): they start from the centre's hours."
 msgstr ""
 "Vérifiez **Arrivée** et **Départ** (2) : ils partent des heures du centre."
 
-#: ../../content/belgique/centre-de-jour/presences.md:89
+#: ../../content/belgique/centre-de-jour/presences.md:93
 msgid ""
 "If a hospitalisation or a death interrupted the day, choose it under **Day "
 "Cut Short** (3)."
@@ -333,7 +344,7 @@ msgstr ""
 "Si une hospitalisation ou un décès a interrompu la journée, choisissez-le "
 "sous **Journée écourtée** (3)."
 
-#: ../../content/belgique/centre-de-jour/presences.md:91
+#: ../../content/belgique/centre-de-jour/presences.md:95
 msgid ""
 "Read the verdict before saving (4): the forfait is due, or the reason it is "
 "not."
@@ -341,14 +352,14 @@ msgstr ""
 "Lisez le verdict avant d'enregistrer (4) : le forfait est dû, ou le motif "
 "pour lequel il ne l'est pas."
 
-#: ../../content/belgique/centre-de-jour/presences.md:93
+#: ../../content/belgique/centre-de-jour/presences.md:97
 msgid ""
 "Click **Save**, or **Save and next day** to move on to the following day."
 msgstr ""
 "Cliquez sur **Enregistrer**, ou sur **Enregistrer et jour suivant** pour "
 "passer au jour suivant."
 
-#: ../../content/belgique/centre-de-jour/presences.md:95
+#: ../../content/belgique/centre-de-jour/presences.md:99
 msgid ""
 "![The Add a day of attendance dialog: the date, the arrival at 08:00 and the"
 " departure at 18:00, the Day Cut Short field, and the green banner saying "
@@ -360,7 +371,7 @@ msgstr ""
 "le forfait est dû](../../assets/screenshots/centre-de-jour/08-jour-de-"
 "presence.png)"
 
-#: ../../content/belgique/centre-de-jour/presences.md:95
+#: ../../content/belgique/centre-de-jour/presences.md:99
 msgid ""
 "The Add a day of attendance dialog: the date, the arrival at 08:00 and the "
 "departure at 18:00, the Day Cut Short field, and the green banner saying the"
@@ -370,41 +381,53 @@ msgstr ""
 "départ à 18:00, le champ Journée écourtée, et la bannière verte disant que "
 "le forfait est dû"
 
-#: ../../content/belgique/centre-de-jour/presences.md:97
+#: ../../content/belgique/centre-de-jour/presences.md:101
 msgid ""
 "A day already in the register is loaded, never doubled: saving updates it."
 msgstr ""
 "Un jour déjà au registre est chargé, jamais doublé : enregistrer le met à "
 "jour."
 
-#: ../../content/belgique/centre-de-jour/presences.md:98
+#: ../../content/belgique/centre-de-jour/presences.md:102
+msgid ""
+"**Did Not Come** records a day the user was expected and did not come, "
+"unannounced. It goes in as an unannounced absence, not in the register — "
+"which lists who came — and is billed only where the centre's rules of "
+"procedure provide for it."
+msgstr ""
+"**Pas venu(e)** enregistre un jour où l'usager était attendu et n'est pas "
+"venu, sans prévenir. Il entre comme une absence non annoncée, pas au "
+"registre — qui liste qui est venu — et n'est facturé que là où le règlement "
+"d'ordre intérieur du centre le prévoit."
+
+#: ../../content/belgique/centre-de-jour/presences.md:106
 msgid "The next day always starts blank, on the centre's hours."
 msgstr "Le jour suivant repart toujours vierge, sur les heures du centre."
 
-#: ../../content/belgique/centre-de-jour/presences.md:99
+#: ../../content/belgique/centre-de-jour/presences.md:107
 msgid ""
 "A notification confirms each day saved, and says whether the forfait is due."
 msgstr ""
 "Une notification confirme chaque jour enregistré, et dit si le forfait est "
 "dû."
 
-#: ../../content/belgique/centre-de-jour/presences.md:101
+#: ../../content/belgique/centre-de-jour/presences.md:109
 msgid "A day that earns the forfait"
 msgstr "Une journée qui donne droit au forfait"
 
-#: ../../content/belgique/centre-de-jour/presences.md:103
+#: ../../content/belgique/centre-de-jour/presences.md:111
 msgid "A day earns the forfait when the user:"
 msgstr "Une journée donne droit au forfait quand l'usager :"
 
-#: ../../content/belgique/centre-de-jour/presences.md:105
+#: ../../content/belgique/centre-de-jour/presences.md:113
 msgid "stayed at least **6 hours**, and"
 msgstr "est resté au moins **6 heures**, et"
 
-#: ../../content/belgique/centre-de-jour/presences.md:106
+#: ../../content/belgique/centre-de-jour/presences.md:114
 msgid "arrived by **12:00**;"
 msgstr "est arrivé au plus tard à **12 h** ;"
 
-#: ../../content/belgique/centre-de-jour/presences.md:108
+#: ../../content/belgique/centre-de-jour/presences.md:116
 msgid ""
 "or when the day was **cut short** by a hospitalisation or a death, however "
 "short. Otherwise the register says why: **Less than 6 hours**, **Arrived "
@@ -415,7 +438,7 @@ msgstr ""
 "heures**, **Arrivé après 12 h**, ou **Heure d'arrivée ou de départ "
 "manquante**."
 
-#: ../../content/belgique/centre-de-jour/presences.md:112
+#: ../../content/belgique/centre-de-jour/presences.md:120
 msgid ""
 "A day that earns no forfait is still recorded: the user came, and the centre"
 " bills them its day price."
@@ -423,22 +446,22 @@ msgstr ""
 "Une journée qui ne donne pas droit au forfait s'inscrit quand même : "
 "l'usager est venu, et le centre lui facture son prix de journée."
 
-#: ../../content/belgique/centre-de-jour/presences.md:115
+#: ../../content/belgique/centre-de-jour/presences.md:123
 msgid "The 13:00 closure"
 msgstr "La clôture de 13 h"
 
-#: ../../content/belgique/centre-de-jour/presences.md:117
+#: ../../content/belgique/centre-de-jour/presences.md:125
 msgid "Before **13:00**, the register of the day is open."
 msgstr "Avant **13 h**, le registre du jour est ouvert."
 
-#: ../../content/belgique/centre-de-jour/presences.md:118
+#: ../../content/belgique/centre-de-jour/presences.md:126
 msgid ""
 "From **13:00**, it is closed to arrivals; departures can still be entered."
 msgstr ""
 "Dès **13 h**, il est fermé aux arrivées ; les départs peuvent encore être "
 "encodés."
 
-#: ../../content/belgique/centre-de-jour/presences.md:119
+#: ../../content/belgique/centre-de-jour/presences.md:127
 msgid ""
 "A **past day** can only be amended by a manager, and every change is kept in"
 " the audit log."
@@ -446,12 +469,12 @@ msgstr ""
 "Un **jour passé** ne peut être modifié que par un responsable, et chaque "
 "changement est conservé dans le journal d'audit."
 
-#: ../../content/belgique/centre-de-jour/presences.md:121
+#: ../../content/belgique/centre-de-jour/presences.md:129
 msgid "A line added after the closure is marked **Recorded after closure**."
 msgstr ""
 "Une ligne ajoutée après la clôture est marquée **Saisi après la clôture**."
 
-#: ../../content/belgique/centre-de-jour/presences.md:123
+#: ../../content/belgique/centre-de-jour/presences.md:131
 msgid ""
 "Once the register has closed, its silence is an answer: a user who was "
 "expected and not marked present **did not come** that day."
@@ -459,21 +482,24 @@ msgstr ""
 "Une fois le registre clôturé, son silence est une réponse : un usager "
 "attendu et non pointé **n'est pas venu** ce jour-là."
 
-#: ../../content/belgique/centre-de-jour/presences.md:126
+#: ../../content/belgique/centre-de-jour/presences.md:134
 msgid "The history"
 msgstr "L'historique"
 
-#: ../../content/belgique/centre-de-jour/presences.md:128
+#: ../../content/belgique/centre-de-jour/presences.md:136
 msgid ""
 "**Accommodation → Day care attendance** lists the days recorded, with the "
 "filters **Today**, **This month**, **Forfait not due**, **Recorded after "
-"closure** and **Centre closed that day**, grouped by resident or by day."
+"closure**, **Centre closed that day**, **Over the places** and **Transported"
+" today**, grouped by resident, by day or by transporter."
 msgstr ""
 "**Hébergement → Présences CSJ** liste les jours inscrits, avec les filtres "
 "**Aujourd'hui**, **Ce mois-ci**, **Forfait non dû**, **Saisi après la "
-"clôture** et **Centre fermé ce jour-là**, groupés par habitant ou par jour."
+"clôture**, **Centre fermé ce jour-là**, **Au-delà des places** et "
+"**Transportés aujourd'hui**, groupés par habitant, par jour ou par "
+"transporteur."
 
-#: ../../content/belgique/centre-de-jour/presences.md:132
+#: ../../content/belgique/centre-de-jour/presences.md:141
 msgid ""
 "![The attendance history of the month: two days in red that earn no forfait,"
 " each with its reason, a day cut short by a hospitalisation, and a line in "
@@ -485,7 +511,7 @@ msgstr ""
 " ligne en orange saisie après la clôture](../../assets/screenshots/centre-"
 "de-jour/09-historique.png)"
 
-#: ../../content/belgique/centre-de-jour/presences.md:132
+#: ../../content/belgique/centre-de-jour/presences.md:141
 msgid ""
 "The attendance history of the month: two days in red that earn no forfait, "
 "each with its reason, a day cut short by a hospitalisation, and a line in "
@@ -495,7 +521,7 @@ msgstr ""
 "chacune avec son motif, une journée écourtée par une hospitalisation, et une"
 " ligne en orange saisie après la clôture"
 
-#: ../../content/belgique/centre-de-jour/presences.md:134
+#: ../../content/belgique/centre-de-jour/presences.md:143
 msgid ""
 "A day that earns no forfait shows in red, with its reason under **Why Not "
 "Due**; a day recorded after the closure shows in orange. A day recorded on a"
@@ -507,11 +533,29 @@ msgstr ""
 " jour de semaine où le centre n'ouvre pas est signalé, jamais refusé : c'est"
 " soit une date mal encodée, soit une ouverture exceptionnelle."
 
-#: ../../content/belgique/centre-de-jour/presences.md:139
+#: ../../content/belgique/centre-de-jour/presences.md:148
+msgid ""
+"**Over the Places** flags a day when more users came than the approval "
+"licenses places."
+msgstr ""
+"**Au-delà des places** signale un jour où plus d'usagers sont venus que "
+"l'agrément ne compte de places."
+
+#: ../../content/belgique/centre-de-jour/presences.md:150
+msgid ""
+"**Transported by the Centre** says the centre drove the user in that day. It"
+" is ticked from the transport days of the stay, can be corrected on the "
+"line, and the transport supplement counts these days."
+msgstr ""
+"**Transporté par le centre** dit que le centre a conduit l'usager ce jour-"
+"là. La case est cochée d'après les jours de transport du séjour, se corrige "
+"sur la ligne, et le supplément de transport compte ces jours."
+
+#: ../../content/belgique/centre-de-jour/presences.md:154
 msgid "What's next"
 msgstr "À suivre"
 
-#: ../../content/belgique/centre-de-jour/presences.md:141
+#: ../../content/belgique/centre-de-jour/presences.md:156
 msgid ""
 "[Billing a day care month](facturation.md) — what the days recorded become "
 "on the invoices."
@@ -519,7 +563,7 @@ msgstr ""
 "[Facturer un mois de centre de jour](facturation.md) — ce que deviennent les"
 " jours inscrits sur les factures."
 
-#: ../../content/belgique/centre-de-jour/presences.md:142
+#: ../../content/belgique/centre-de-jour/presences.md:157
 msgid ""
 "[Care for a day care user](soins.md) — how the register decides the care of "
 "the day."

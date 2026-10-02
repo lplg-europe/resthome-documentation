@@ -15,8 +15,8 @@ Which stay type do I choose?
 Do I have to tick the days the user comes?
 : Only when a rhythm was agreed with the family. Left empty, the user is expected on every day the centre opens.
 
-When is the day price subscribed?
-: When the stay starts, from the admission day. Nothing is subscribed while the tariff is still 0.00 EUR: the file says so, and setting the price subscribes the user at once.
+How is the day price billed?
+: At the price of the day place, on the days attended, one line a month. Nothing is subscribed at admission; while the place is still at 0.00 EUR, a note on the user's file says so.
 
 Which category does the health insurer see?
 : The CSJ category read from the Katz evaluation — F, Fd or D. The badge on the user's file shows that letter, not the rest home one.
@@ -24,7 +24,7 @@ Which category does the health insurer see?
 
 A day care user is admitted like any resident, with a **CSJ** stay in a **day
 place**. What changes is what the stay carries: the days the user comes, and
-the day price instead of a room.
+a day place billed on the days attended instead of every night.
 
 ## Open the stay
 
@@ -47,16 +47,34 @@ tasks, medication, the missed-care count.
 
 - Nothing ticked: the user is expected on **every day the centre opens**.
 - A day recorded in the register always counts, even outside the agreed days.
+- **Usual hours** says when the user usually arrives and leaves. Left blank,
+  the centre's hours apply. They place the care and the medication of the day
+  until the register says when the user actually came.
+
+## Transport by the centre
+
+When the centre drives the user between home and the centre, tick
+**Transport by the Centre** on the stay:
+
+- under **Driven on**, the days of the transport — none ticked: every day the
+  user comes;
+- under **Transporter**, who drives them — empty: the centre's own vehicle.
+
+The register then ticks **Transported by the Centre** on those days, and the
+transport supplement counts them. A transport priced at 0.00 EUR — included in
+the day price, or billed by the transport firm itself — subscribes nobody.
 
 ## Start the stay
 
 Click **Start Stay** on the user's first day. Resthome then:
 
-- subscribes the centre's **day price** (CSJ Stay Supplement), from the
-  **admission day** — it appears under the **Conventions** tab of the file;
-- shows the **Add a day of attendance** button on the user's file.
+- shows the **Add a day of attendance** button on the user's file;
+- checks that the day place has a price: a place at 0.00 EUR bills the user
+  no day price, and a note on the file says so.
 
-![The Conventions tab of a day care user once the stay has started: the CSJ Stay Supplement subscribed from the admission day, at 21.50 EUR a day](../../assets/screenshots/centre-de-jour/16-conventions-usager.png)
+Nothing is subscribed under the **Conventions** tab: the day price is the
+place's, billed on the days attended. See
+[Setting up a day care centre](configuration.md).
 
 ![The file of a day care user: the Add a day of attendance button in the header, the CSJ marker and the category badge F next to the name](../../assets/screenshots/centre-de-jour/06-fiche-usager.png)
 

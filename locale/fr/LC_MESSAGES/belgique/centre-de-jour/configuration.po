@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 15:49+0200\n"
+"POT-Creation-Date: 2026-10-02 01:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -61,10 +61,24 @@ msgstr ""
 " de chambre de la salle de jour."
 
 #: ../../content/belgique/centre-de-jour/configuration.md:19
+msgid "How do I close the centre on public holidays?"
+msgstr "Comment fermer le centre les jours fériés ?"
+
+#: ../../content/belgique/centre-de-jour/configuration.md:20
+msgid ""
+"On the CSJ approval, click **Add the Belgian public holidays of the year**. "
+"A yearly closure is entered as a time off of the whole company in the "
+"Working Hours."
+msgstr ""
+"Sur l'agrément CSJ, cliquez sur **Ajouter les jours fériés belges de "
+"l'année**. Une fermeture annuelle s'encode comme un congé de toute la "
+"société dans les Horaires de travail."
+
+#: ../../content/belgique/centre-de-jour/configuration.md:22
 msgid "Does the capacity of the day room limit the admissions?"
 msgstr "La capacité de la salle de jour limite-t-elle les admissions ?"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:20
+#: ../../content/belgique/centre-de-jour/configuration.md:23
 msgid ""
 "No. A centre enrols more people than it has places, and they share them day "
 "by day. The capacity is the number of places the room offers."
@@ -73,22 +87,22 @@ msgstr ""
 "les partagent jour après jour. La capacité est le nombre de places qu'offre "
 "la salle."
 
-#: ../../content/belgique/centre-de-jour/configuration.md:22
-msgid "What if the day price is still 0.00 EUR when a user starts?"
+#: ../../content/belgique/centre-de-jour/configuration.md:25
+msgid "What if the day place is still at 0.00 EUR when a user starts?"
 msgstr ""
-"Et si le prix de journée est encore à 0,00 EUR au démarrage d'un usager ?"
-
-#: ../../content/belgique/centre-de-jour/configuration.md:23
-msgid ""
-"Nothing is subscribed, and the user's file says so. Set the price on the "
-"product: every user who started in the meantime is subscribed at once, from "
-"their admission day."
-msgstr ""
-"Rien n'est souscrit, et la fiche de l'usager le signale. Fixez le prix sur "
-"le produit : chaque usager démarré entre-temps y est inscrit aussitôt, à "
-"partir de son jour d'admission."
+"Et si la place de jour est encore à 0,00 EUR au démarrage d'un usager ?"
 
 #: ../../content/belgique/centre-de-jour/configuration.md:26
+msgid ""
+"The user is billed no day price, and a note on their file says so. Set the "
+"Daily Rate of the day place: every day attended is then billed at that "
+"price."
+msgstr ""
+"Aucun prix de journée n'est facturé à l'usager, et une note sur sa fiche le "
+"dit. Fixez le Tarif journalier de la place de jour : chaque jour de présence"
+" est alors facturé à ce prix."
+
+#: ../../content/belgique/centre-de-jour/configuration.md:29
 msgid ""
 "A day care centre needs five things before its first user: its approval, its"
 " opening days, a day room, the amounts of the CSJ forfait and its own day "
@@ -98,11 +112,11 @@ msgstr ""
 "agrément, ses jours d'ouverture, une salle de jour, les montants du forfait "
 "CSJ et son propre prix de journée."
 
-#: ../../content/belgique/centre-de-jour/configuration.md:29
+#: ../../content/belgique/centre-de-jour/configuration.md:32
 msgid "1. Record the CSJ approval"
 msgstr "1\\. Enregistrer l'agrément CSJ"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:31
+#: ../../content/belgique/centre-de-jour/configuration.md:34
 msgid ""
 "A day care centre has **its own INAMI number** — one starting with 755 to "
 "758, ending in 000 — and Resthome records it on an **establishment** of its "
@@ -114,7 +128,7 @@ msgstr ""
 "part, avec son certificat eHealth. Voir [Réglages eHealth et "
 "eFact](../reglages-ehealth.md)."
 
-#: ../../content/belgique/centre-de-jour/configuration.md:36
+#: ../../content/belgique/centre-de-jour/configuration.md:39
 msgid ""
 "Go to **Settings → Approvals → Manage establishments and approvals** and "
 "create the establishment of the day care centre: its name and its INAMI "
@@ -124,7 +138,7 @@ msgstr ""
 "agréments** et créez l'établissement du centre de jour : son nom et son "
 "numéro INAMI. Resthome lit le type dans le numéro."
 
-#: ../../content/belgique/centre-de-jour/configuration.md:39
+#: ../../content/belgique/centre-de-jour/configuration.md:42
 msgid ""
 "Under its **Sectors** tab, add a line with **CSJ** as sector and the number "
 "of places it covers under **Beds / places** (1)."
@@ -132,7 +146,7 @@ msgstr ""
 "Sous son onglet **Secteurs**, ajoutez une ligne avec **CSJ** comme secteur "
 "et le nombre de places couvertes sous **Lits / places** (1)."
 
-#: ../../content/belgique/centre-de-jour/configuration.md:41
+#: ../../content/belgique/centre-de-jour/configuration.md:44
 msgid ""
 "Open the line: the approval's own form carries the reference, the date and "
 "the opening days below."
@@ -140,7 +154,7 @@ msgstr ""
 "Ouvrez la ligne : le formulaire de l'agrément porte la référence, la date "
 "et, plus bas, les jours d'ouverture."
 
-#: ../../content/belgique/centre-de-jour/configuration.md:44
+#: ../../content/belgique/centre-de-jour/configuration.md:47
 msgid ""
 "![The establishment of the day care centre: its INAMI number 75599901, and "
 "under the Sectors tab the CSJ line with its 15 "
@@ -152,7 +166,7 @@ msgstr ""
 "places](../../assets/screenshots/centre-de-jour/15-etablissement-"
 "secteurs.png)"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:44
+#: ../../content/belgique/centre-de-jour/configuration.md:47
 msgid ""
 "The establishment of the day care centre: its INAMI number 75599901, and "
 "under the Sectors tab the CSJ line with its 15 places"
@@ -160,7 +174,7 @@ msgstr ""
 "L'établissement du centre de jour : son numéro INAMI 75599901, et sous "
 "l'onglet Secteurs la ligne CSJ avec ses 15 places"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:46
+#: ../../content/belgique/centre-de-jour/configuration.md:49
 msgid ""
 "A house that runs a rest home as well keeps its MR and MRS approvals next to"
 " it, on the rest home's own establishment: an admission is only offered the "
@@ -170,11 +184,11 @@ msgstr ""
 "MRS à côté, sur l'établissement propre de la maison de repos : une admission"
 " ne se voit proposer que les secteurs pour lesquels la maison est agréée."
 
-#: ../../content/belgique/centre-de-jour/configuration.md:50
+#: ../../content/belgique/centre-de-jour/configuration.md:53
 msgid "2. Set the opening days and hours"
 msgstr "2\\. Fixer les jours et heures d'ouverture"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:52
+#: ../../content/belgique/centre-de-jour/configuration.md:55
 msgid ""
 "On the CSJ approval, the **Opening days and hours** section (2) says when "
 "the centre opens: the days from **Monday** to **Sunday**, **Opens at** and "
@@ -186,7 +200,7 @@ msgstr ""
 "**Ferme à**. Elle part du lundi au vendredi, de 8 h à 18 h — le minimum "
 "légal."
 
-#: ../../content/belgique/centre-de-jour/configuration.md:57
+#: ../../content/belgique/centre-de-jour/configuration.md:60
 msgid ""
 "![The CSJ approval: the sector and its 15 places, then the opening days "
 "ticked from Monday to Friday and the hours, 08:00 to "
@@ -196,7 +210,7 @@ msgstr ""
 "cochés du lundi au vendredi et les heures, de 08:00 à "
 "18:00](../../assets/screenshots/centre-de-jour/01-agrement-csj.png)"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:57
+#: ../../content/belgique/centre-de-jour/configuration.md:60
 msgid ""
 "The CSJ approval: the sector and its 15 places, then the opening days ticked"
 " from Monday to Friday and the hours, 08:00 to 18:00"
@@ -204,11 +218,11 @@ msgstr ""
 "L'agrément CSJ : le secteur et ses 15 places, puis les jours d'ouverture "
 "cochés du lundi au vendredi et les heures, de 08:00 à 18:00"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:59
+#: ../../content/belgique/centre-de-jour/configuration.md:62
 msgid "**Open Days / Week** counts the days ticked."
 msgstr "**Jours d'ouverture / semaine** compte les jours cochés."
 
-#: ../../content/belgique/centre-de-jour/configuration.md:60
+#: ../../content/belgique/centre-de-jour/configuration.md:63
 msgid ""
 "**Below the Norm** lights up under five days a week, or with a window "
 "narrower than 8:00–18:00. It is said, never blocked: what the centre opens "
@@ -218,17 +232,24 @@ msgstr ""
 "plus étroite que 8 h–18 h. C'est signalé, jamais bloqué : ce que le centre "
 "ouvre, c'est à lui de le déclarer."
 
-#: ../../content/belgique/centre-de-jour/configuration.md:63
+#: ../../content/belgique/centre-de-jour/configuration.md:66
 msgid ""
-"**Occupied** and **Occupancy** count the users enrolled against the places: "
-"more users than places is normal for a day care centre — they do not all "
-"come the same day."
+"**Enrolled** counts the users whose stay is running: more users than places "
+"is normal for a day care centre — they do not all come the same day."
 msgstr ""
-"**Occupée** et **Occupation** comptent les usagers inscrits par rapport aux "
-"places : plus d'usagers que de places est normal pour un centre de jour — "
-"ils ne viennent pas tous le même jour."
+"**Inscrits** compte les usagers dont le séjour est en cours : plus d'usagers"
+" que de places est normal pour un centre de jour — ils ne viennent pas tous "
+"le même jour."
 
-#: ../../content/belgique/centre-de-jour/configuration.md:67
+#: ../../content/belgique/centre-de-jour/configuration.md:68
+msgid ""
+"**Occupied** and **Occupancy** count the users ticked in at today's register"
+" against the places: 0 until someone arrives."
+msgstr ""
+"**Occupée** et **Occupation** comptent les usagers pointés au registre du "
+"jour par rapport aux places : 0 tant que personne n'est arrivé."
+
+#: ../../content/belgique/centre-de-jour/configuration.md:71
 msgid ""
 "These days are read everywhere else: a day recorded in the register on a day"
 " the centre is closed is flagged **Centre closed that day**, and a user with"
@@ -238,39 +259,71 @@ msgstr ""
 " fermeture est signalé **Centre fermé ce jour-là**, et un usager sans jours "
 "convenus est attendu chaque jour d'ouverture du centre."
 
-#: ../../content/belgique/centre-de-jour/configuration.md:71
-msgid "Note"
-msgstr "Remarque"
-
-#: ../../content/belgique/centre-de-jour/configuration.md:72
-msgid ""
-"Public holidays are not known yet: a holiday still reads as an open day."
-msgstr ""
-"Les jours fériés ne sont pas encore connus : un jour férié se lit encore "
-"comme un jour d'ouverture."
-
 #: ../../content/belgique/centre-de-jour/configuration.md:75
+msgid "Public holidays and closures"
+msgstr "Jours fériés et fermetures"
+
+#: ../../content/belgique/centre-de-jour/configuration.md:77
+msgid ""
+"The **Public holidays and closures** section of the approval says which days"
+" the centre shuts, on top of its weekdays:"
+msgstr ""
+"La section **Jours fériés et fermetures** de l'agrément dit quels jours le "
+"centre ferme, en plus de ses jours de la semaine :"
+
+#: ../../content/belgique/centre-de-jour/configuration.md:80
+msgid ""
+"**Add the Belgian public holidays of the year** records the ten legal public"
+" holidays, from New Year's Day to Christmas Day, as closures of the whole "
+"company. A day already recorded is skipped."
+msgstr ""
+"**Ajouter les jours fériés belges de l'année** enregistre les dix jours "
+"fériés légaux, du Nouvel An à Noël, comme fermetures de toute la société. Un"
+" jour déjà enregistré est passé."
+
+#: ../../content/belgique/centre-de-jour/configuration.md:83
+msgid ""
+"A yearly closure is entered as a time off of the whole company in the "
+"company's **Working Hours** (Configuration)."
+msgstr ""
+"Une fermeture annuelle s'encode comme un congé de toute la société dans les "
+"**Horaires de travail** de la société (Configuration)."
+
+#: ../../content/belgique/centre-de-jour/configuration.md:85
+msgid ""
+"Below the button, the closures of the next twelve months are listed with "
+"their reason."
+msgstr ""
+"Sous le bouton, les fermetures des douze prochains mois sont listées avec "
+"leur motif."
+
+#: ../../content/belgique/centre-de-jour/configuration.md:88
+msgid ""
+"A public holiday or a closure reads as a day the centre is closed, exactly "
+"as a weekday left unticked."
+msgstr ""
+"Un jour férié ou une fermeture se lit comme un jour où le centre est fermé, "
+"exactement comme un jour de la semaine non coché."
+
+#: ../../content/belgique/centre-de-jour/configuration.md:91
 msgid "3. Create the day room"
 msgstr "3\\. Créer la salle de jour"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:77
+#: ../../content/belgique/centre-de-jour/configuration.md:93
 msgid "A day care user holds a **day place**, never a licensed bed."
 msgstr ""
 "Un usager du centre de jour occupe une **place de jour**, jamais un lit "
 "agréé."
 
-#: ../../content/belgique/centre-de-jour/configuration.md:79
+#: ../../content/belgique/centre-de-jour/configuration.md:95
 msgid ""
 "Under **Configuration → Rooms → Room Types**, create the type of the day "
-"room and tick **Day Place** (3). Its **Daily Rate** stays at 0.00: a place "
-"is not rented, the user pays the day price set in step 5."
+"room and tick **Day Place** (3)."
 msgstr ""
 "Sous **Configuration → Chambres → Types de chambres**, créez le type de la "
-"salle de jour et cochez **Place de jour** (3). Son **Tarif journalier** "
-"reste à 0,00 : une place ne se loue pas, l'usager paie le prix de journée "
-"fixé à l'étape 5."
+"salle de jour et cochez **Place de jour** (3)."
 
-#: ../../content/belgique/centre-de-jour/configuration.md:82
+#: ../../content/belgique/centre-de-jour/configuration.md:97
 msgid ""
 "Under **Accommodation → Rooms**, create the room with that type, and the "
 "number of places as its **capacity**."
@@ -278,7 +331,14 @@ msgstr ""
 "Sous **Hébergement → Chambres**, créez la salle avec ce type, et le nombre "
 "de places comme **capacité**."
 
-#: ../../content/belgique/centre-de-jour/configuration.md:85
+#: ../../content/belgique/centre-de-jour/configuration.md:100
+msgid ""
+"The **Daily Rate** of the type is the centre's day price, set in step 5."
+msgstr ""
+"Le **Tarif journalier** du type est le prix de journée du centre, fixé à "
+"l'étape 5."
+
+#: ../../content/belgique/centre-de-jour/configuration.md:102
 msgid ""
 "![The room type of the day room: code CSJ-DAY, a default capacity of 15, and"
 " the Day Place box ticked](../../assets/screenshots/centre-de-jour/02-type-"
@@ -288,7 +348,7 @@ msgstr ""
 " défaut de 15, et la case Place de jour "
 "cochée](../../assets/screenshots/centre-de-jour/02-type-place-de-jour.png)"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:85
+#: ../../content/belgique/centre-de-jour/configuration.md:102
 msgid ""
 "The room type of the day room: code CSJ-DAY, a default capacity of 15, and "
 "the Day Place box ticked"
@@ -296,18 +356,18 @@ msgstr ""
 "Le type de chambre de la salle de jour : le code CSJ-DAY, une capacité par "
 "défaut de 15, et la case Place de jour cochée"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:87
+#: ../../content/belgique/centre-de-jour/configuration.md:104
 msgid "From then on:"
 msgstr "Dès lors :"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:89
+#: ../../content/belgique/centre-de-jour/configuration.md:106
 msgid ""
 "a day care stay only goes in a day place, and a residential stay never does;"
 msgstr ""
 "un séjour CSJ ne va que sur une place de jour, et un séjour résidentiel "
 "jamais ;"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:90
+#: ../../content/belgique/centre-de-jour/configuration.md:107
 msgid ""
 "every room picker offers day places to a day care stay, and beds to the "
 "others;"
@@ -315,7 +375,7 @@ msgstr ""
 "chaque choix de chambre propose des places de jour à un séjour CSJ, et des "
 "lits aux autres ;"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:92
+#: ../../content/belgique/centre-de-jour/configuration.md:109
 msgid ""
 "a day room reads « 15 day places » in the pickers, never « free beds »: the "
 "places are shared, and a centre enrols more users than it has places."
@@ -324,11 +384,11 @@ msgstr ""
 " libres » : les places sont partagées, et un centre inscrit plus d'usagers "
 "qu'il n'a de places."
 
-#: ../../content/belgique/centre-de-jour/configuration.md:95
+#: ../../content/belgique/centre-de-jour/configuration.md:112
 msgid "4. Fill in the CSJ rates"
 msgstr "4\\. Compléter les tarifs CSJ"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:97
+#: ../../content/belgique/centre-de-jour/configuration.md:114
 msgid ""
 "The health insurer pays a **daily forfait** per CSJ category. Under "
 "**Billing → Configuration → INAMI Rates**, the grid carries one row per CSJ "
@@ -338,47 +398,47 @@ msgstr ""
 "**Facturation → Configuration → Tarifs INAMI**, la grille porte une ligne "
 "par catégorie CSJ, chacune avec son propre **pseudo-code** :"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:71
+#: ../../content/belgique/centre-de-jour/configuration.md:12
 msgid "Category"
 msgstr "Catégorie"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:71
+#: ../../content/belgique/centre-de-jour/configuration.md:12
 msgid "Pseudo-code"
 msgstr "Pseudo-code"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:71
+#: ../../content/belgique/centre-de-jour/configuration.md:12
 msgid "F"
 msgstr "F"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:71
+#: ../../content/belgique/centre-de-jour/configuration.md:12
 msgid "126036"
 msgstr "126036"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:71
+#: ../../content/belgique/centre-de-jour/configuration.md:12
 msgid "Fp"
 msgstr "Fp"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:71
+#: ../../content/belgique/centre-de-jour/configuration.md:12
 msgid "126073"
 msgstr "126073"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:71
+#: ../../content/belgique/centre-de-jour/configuration.md:12
 msgid "D"
 msgstr "D"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:71
+#: ../../content/belgique/centre-de-jour/configuration.md:12
 msgid "126095"
 msgstr "126095"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:71
+#: ../../content/belgique/centre-de-jour/configuration.md:12
 msgid "Fd"
 msgstr "Fd"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:71
+#: ../../content/belgique/centre-de-jour/configuration.md:12
 msgid "126117"
 msgstr "126117"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:108
+#: ../../content/belgique/centre-de-jour/configuration.md:125
 msgid ""
 "Enter the amount in force from its start date (4). The amount is the **same "
 "for every category**: the category declares the user's profile to the "
@@ -391,7 +451,7 @@ msgstr ""
 "le filtre **Actuellement valides** pour voir les tarifs en vigueur, quelle "
 "que soit l'année où ils ont commencé."
 
-#: ../../content/belgique/centre-de-jour/configuration.md:113
+#: ../../content/belgique/centre-de-jour/configuration.md:130
 msgid ""
 "![The INAMI rates filtered on CSJ: the four categories D, F, Fd and Fp, each"
 " with its pseudo-code, at the same amount from 1 February "
@@ -401,7 +461,7 @@ msgstr ""
 "chacune avec son pseudo-code, au même montant depuis le 1er février "
 "2025](../../assets/screenshots/centre-de-jour/03-tarifs-csj.png)"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:113
+#: ../../content/belgique/centre-de-jour/configuration.md:130
 msgid ""
 "The INAMI rates filtered on CSJ: the four categories D, F, Fd and Fp, each "
 "with its pseudo-code, at the same amount from 1 February 2025"
@@ -409,11 +469,11 @@ msgstr ""
 "Les tarifs INAMI filtrés sur CSJ : les quatre catégories D, F, Fd et Fp, "
 "chacune avec son pseudo-code, au même montant depuis le 1er février 2025"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:115
+#: ../../content/belgique/centre-de-jour/configuration.md:132
 msgid "Warning"
 msgstr "Attention"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:116
+#: ../../content/belgique/centre-de-jour/configuration.md:133
 msgid ""
 "A rate left at 0.00 EUR bills no forfait. Resthome never sends a claim at "
 "zero: the month's generation says which users were left without one, and "
@@ -423,66 +483,62 @@ msgstr ""
 "jamais de demande à zéro : la génération du mois dit quels usagers en sont "
 "restés privés, et pourquoi."
 
-#: ../../content/belgique/centre-de-jour/configuration.md:120
+#: ../../content/belgique/centre-de-jour/configuration.md:137
 msgid "5. Set the centre's day price"
 msgstr "5\\. Fixer le prix de journée du centre"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:122
+#: ../../content/belgique/centre-de-jour/configuration.md:139
 msgid ""
-"What the user pays is the centre's **day price**: the product **CSJ Stay "
-"Supplement** (SUPP-CSJ-STAY), under **Billing → Configuration → Supplement "
-"Types**. Set its **Sales Price** (5)."
+"What the user pays is the centre's **day price**: the **Daily Rate** of the "
+"day place's room type, under **Configuration → Rooms → Room Types** (5)."
 msgstr ""
-"Ce que paie l'usager, c'est le **prix de journée** du centre : le produit "
-"**Supplément de séjour CSJ** (SUPP-CSJ-STAY), sous **Facturation → "
-"Configuration → Types de suppléments**. Fixez son **Prix de vente** (5)."
+"Ce que paie l'usager, c'est le **prix de journée** du centre : le **Tarif "
+"journalier** du type de chambre de la place de jour, sous **Configuration → "
+"Chambres → Types de chambres** (5)."
 
-#: ../../content/belgique/centre-de-jour/configuration.md:126
+#: ../../content/belgique/centre-de-jour/configuration.md:142
 msgid ""
-"![The CSJ Stay Supplement product: a service, its sales price, the reference"
-" SUPP-CSJ-STAY and the supplement type Daily on presence "
-"days](../../assets/screenshots/centre-de-jour/04-prix-de-journee.png)"
+"![The room type of the day place: code CSJ-DAY, Day Place ticked, and under "
+"Pricing the daily rate of 21.50 EUR](../../assets/screenshots/centre-de-"
+"jour/04-prix-de-journee.png)"
 msgstr ""
-"![Le produit Supplément de séjour CSJ : un service, son prix de vente, la "
-"référence SUPP-CSJ-STAY et le type de supplément Journalier — jours de "
-"présence](../../assets/screenshots/centre-de-jour/04-prix-de-journee.png)"
+"![Le type de chambre de la place de jour : le code CSJ-DAY, Place de jour "
+"cochée, et sous Tarification le tarif journalier de 21,50 "
+"EUR](../../assets/screenshots/centre-de-jour/04-prix-de-journee.png)"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:126
+#: ../../content/belgique/centre-de-jour/configuration.md:142
 msgid ""
-"The CSJ Stay Supplement product: a service, its sales price, the reference "
-"SUPP-CSJ-STAY and the supplement type Daily on presence days"
+"The room type of the day place: code CSJ-DAY, Day Place ticked, and under "
+"Pricing the daily rate of 21.50 EUR"
 msgstr ""
-"Le produit Supplément de séjour CSJ : un service, son prix de vente, la "
-"référence SUPP-CSJ-STAY et le type de supplément Journalier — jours de "
-"présence"
+"Le type de chambre de la place de jour : le code CSJ-DAY, Place de jour "
+"cochée, et sous Tarification le tarif journalier de 21,50 EUR"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:128
+#: ../../content/belgique/centre-de-jour/configuration.md:144
 msgid ""
-"Each user is **subscribed automatically** when their stay starts, from the "
-"admission day."
+"Every day attended is billed at that price, on **one line a month** with the"
+" days attended as its quantity."
 msgstr ""
-"Chaque usager y est **inscrit automatiquement** au démarrage de son séjour, "
-"à partir du jour d'admission."
+"Chaque jour de présence est facturé à ce prix, sur **une ligne par mois** "
+"avec les jours de présence en quantité."
 
-#: ../../content/belgique/centre-de-jour/configuration.md:130
-msgid "A user who follows the tariff follows its yearly **indexation** too."
-msgstr "Un usager qui suit le tarif en suit aussi l'**indexation** annuelle."
+#: ../../content/belgique/centre-de-jour/configuration.md:146
+msgid "Nothing is subscribed at admission: the price follows the place."
+msgstr "Rien n'est souscrit à l'admission : le prix suit la place."
 
-#: ../../content/belgique/centre-de-jour/configuration.md:131
+#: ../../content/belgique/centre-de-jour/configuration.md:147
 msgid ""
-"A price agreed with one user goes on their convention, with **Negotiated "
-"price** ticked: the indexation then leaves it alone. See "
-"[Supplements](../../facturation/supplements.md)."
+"A place left at 0.00 EUR bills the user nothing; a note on the user's file "
+"says so when the stay starts."
 msgstr ""
-"Un prix convenu avec un usager se met sur sa convention, avec **Prix "
-"négocié** coché : l'indexation n'y touche alors plus. Voir [Les "
-"suppléments](../../facturation/supplements.md)."
+"Une place laissée à 0,00 EUR ne facture rien à l'usager ; une note sur sa "
+"fiche le dit au démarrage du séjour."
 
-#: ../../content/belgique/centre-de-jour/configuration.md:135
+#: ../../content/belgique/centre-de-jour/configuration.md:150
 msgid "What's next"
 msgstr "À suivre"
 
-#: ../../content/belgique/centre-de-jour/configuration.md:137
+#: ../../content/belgique/centre-de-jour/configuration.md:152
 msgid ""
 "[Admitting a day care user](admission.md) — the stay, the days expected, the"
 " category, the agreement."
@@ -490,10 +546,64 @@ msgstr ""
 "[Admettre un usager du centre de jour](admission.md) — le séjour, les jours "
 "attendus, la catégorie, l'accord."
 
-#: ../../content/belgique/centre-de-jour/configuration.md:138
+#: ../../content/belgique/centre-de-jour/configuration.md:153
 msgid ""
 "[Recording attendance](presences.md) — the register of the day, and one day "
 "at a time."
 msgstr ""
 "[Enregistrer les présences](presences.md) — le registre du jour, et un jour "
 "à la fois."
+
+#~ msgid "Note"
+#~ msgstr "Remarque"
+
+#~ msgid ""
+#~ "Public holidays are not known yet: a holiday still reads as an open day."
+#~ msgstr ""
+#~ "Les jours fériés ne sont pas encore connus : un jour férié se lit encore "
+#~ "comme un jour d'ouverture."
+
+#~ msgid ""
+#~ "Nothing is subscribed, and the user's file says so. Set the price on the "
+#~ "product: every user who started in the meantime is subscribed at once, from "
+#~ "their admission day."
+#~ msgstr ""
+#~ "Rien n'est souscrit, et la fiche de l'usager le signale. Fixez le prix sur "
+#~ "le produit : chaque usager démarré entre-temps y est inscrit aussitôt, à "
+#~ "partir de son jour d'admission."
+
+#~ msgid ""
+#~ "![The CSJ Stay Supplement product: a service, its sales price, the reference"
+#~ " SUPP-CSJ-STAY and the supplement type Daily on presence "
+#~ "days](../../assets/screenshots/centre-de-jour/04-prix-de-journee.png)"
+#~ msgstr ""
+#~ "![Le produit Supplément de séjour CSJ : un service, son prix de vente, la "
+#~ "référence SUPP-CSJ-STAY et le type de supplément Journalier — jours de "
+#~ "présence](../../assets/screenshots/centre-de-jour/04-prix-de-journee.png)"
+
+#~ msgid ""
+#~ "The CSJ Stay Supplement product: a service, its sales price, the reference "
+#~ "SUPP-CSJ-STAY and the supplement type Daily on presence days"
+#~ msgstr ""
+#~ "Le produit Supplément de séjour CSJ : un service, son prix de vente, la "
+#~ "référence SUPP-CSJ-STAY et le type de supplément Journalier — jours de "
+#~ "présence"
+
+#~ msgid ""
+#~ "Each user is **subscribed automatically** when their stay starts, from the "
+#~ "admission day."
+#~ msgstr ""
+#~ "Chaque usager y est **inscrit automatiquement** au démarrage de son séjour, "
+#~ "à partir du jour d'admission."
+
+#~ msgid "A user who follows the tariff follows its yearly **indexation** too."
+#~ msgstr "Un usager qui suit le tarif en suit aussi l'**indexation** annuelle."
+
+#~ msgid ""
+#~ "A price agreed with one user goes on their convention, with **Negotiated "
+#~ "price** ticked: the indexation then leaves it alone. See "
+#~ "[Supplements](../../facturation/supplements.md)."
+#~ msgstr ""
+#~ "Un prix convenu avec un usager se met sur sa convention, avec **Prix "
+#~ "négocié** coché : l'indexation n'y touche alors plus. Voir [Les "
+#~ "suppléments](../../facturation/supplements.md)."

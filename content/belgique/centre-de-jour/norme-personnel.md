@@ -58,6 +58,19 @@ quarter, the FTE of the centre's own staff:
 - **Physio / occupational / speech therapist**;
 - **Reactivation staff**.
 
+Two columns correct the quarters on each row:
+
+- **Maribel FTE (deducted)**: the « Maribel » contracts included in the
+  quarters. They do not count towards the norm.
+- **Shared with MR/MRS (FTE)** and **Day care share (%)**: staff who also work
+  in the rest home, not typed in the quarters, and the share of their time
+  spent in the day care centre.
+
+**Present** is then the average of the four quarters, less the Maribel FTE,
+plus the shared staff's day care share. A newly approved centre ticks **Newly
+Approved** and types the FTE employed on the snapshot day instead of the four
+quarters.
+
 ## 4. Read the verdict
 
 For every 15 users, the norm asks for:

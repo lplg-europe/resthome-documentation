@@ -16,11 +16,14 @@ Where do I enter the days the centre opens?
 Why is a bedroom refused to a day care user?
 : Because a bedroom is a licensed bed. A day care stay only goes in a day place, and a residential stay never does: tick Day Place on the room type of the day room.
 
+How do I close the centre on public holidays?
+: On the CSJ approval, click **Add the Belgian public holidays of the year**. A yearly closure is entered as a time off of the whole company in the Working Hours.
+
 Does the capacity of the day room limit the admissions?
 : No. A centre enrols more people than it has places, and they share them day by day. The capacity is the number of places the room offers.
 
-What if the day price is still 0.00 EUR when a user starts?
-: Nothing is subscribed, and the user's file says so. Set the price on the product: every user who started in the meantime is subscribed at once, from their admission day.
+What if the day place is still at 0.00 EUR when a user starts?
+: The user is billed no day price, and a note on their file says so. Set the Daily Rate of the day place: every day attended is then billed at that price.
 :::
 
 A day care centre needs five things before its first user: its approval, its
@@ -60,27 +63,41 @@ floor.
 - **Below the Norm** lights up under five days a week, or with a window
   narrower than 8:00–18:00. It is said, never blocked: what the centre opens
   is its own to declare.
-- **Occupied** and **Occupancy** count the users enrolled against the places:
-  more users than places is normal for a day care centre — they do not all
-  come the same day.
+- **Enrolled** counts the users whose stay is running: more users than places
+  is normal for a day care centre — they do not all come the same day.
+- **Occupied** and **Occupancy** count the users ticked in at today's
+  register against the places: 0 until someone arrives.
 
 These days are read everywhere else: a day recorded in the register on a day
 the centre is closed is flagged **Centre closed that day**, and a user with no
 agreed days is expected on every day the centre opens.
 
-:::{note}
-Public holidays are not known yet: a holiday still reads as an open day.
-:::
+### Public holidays and closures
+
+The **Public holidays and closures** section of the approval says which days
+the centre shuts, on top of its weekdays:
+
+- **Add the Belgian public holidays of the year** records the ten legal
+  public holidays, from New Year's Day to Christmas Day, as closures of the
+  whole company. A day already recorded is skipped.
+- A yearly closure is entered as a time off of the whole company in the
+  company's **Working Hours** (Configuration).
+- Below the button, the closures of the next twelve months are listed with
+  their reason.
+
+A public holiday or a closure reads as a day the centre is closed, exactly as
+a weekday left unticked.
 
 ## 3. Create the day room
 
 A day care user holds a **day place**, never a licensed bed.
 
 1. Under **Configuration → Rooms → Room Types**, create the type of the day
-   room and tick **Day Place** (3). Its **Daily Rate** stays at 0.00: a place
-   is not rented, the user pays the day price set in step 5.
+   room and tick **Day Place** (3).
 2. Under **Accommodation → Rooms**, create the room with that type, and the
    number of places as its **capacity**.
+
+The **Daily Rate** of the type is the centre's day price, set in step 5.
 
 ![The room type of the day room: code CSJ-DAY, a default capacity of 15, and the Day Place box ticked](../../assets/screenshots/centre-de-jour/02-type-place-de-jour.png)
 
@@ -119,18 +136,16 @@ the month's generation says which users were left without one, and why.
 
 ## 5. Set the centre's day price
 
-What the user pays is the centre's **day price**: the product **CSJ Stay
-Supplement** (SUPP-CSJ-STAY), under **Billing → Configuration → Supplement
-Types**. Set its **Sales Price** (5).
+What the user pays is the centre's **day price**: the **Daily Rate** of the
+day place's room type, under **Configuration → Rooms → Room Types** (5).
 
-![The CSJ Stay Supplement product: a service, its sales price, the reference SUPP-CSJ-STAY and the supplement type Daily on presence days](../../assets/screenshots/centre-de-jour/04-prix-de-journee.png)
+![The room type of the day place: code CSJ-DAY, Day Place ticked, and under Pricing the daily rate of 21.50 EUR](../../assets/screenshots/centre-de-jour/04-prix-de-journee.png)
 
-- Each user is **subscribed automatically** when their stay starts, from the
-  admission day.
-- A user who follows the tariff follows its yearly **indexation** too.
-- A price agreed with one user goes on their convention, with **Negotiated
-  price** ticked: the indexation then leaves it alone. See
-  [Supplements](../../facturation/supplements.md).
+- Every day attended is billed at that price, on **one line a month** with
+  the days attended as its quantity.
+- Nothing is subscribed at admission: the price follows the place.
+- A place left at 0.00 EUR bills the user nothing; a note on the user's file
+  says so when the stay starts.
 
 ## What's next
 
