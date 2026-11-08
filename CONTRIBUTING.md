@@ -1,4 +1,4 @@
-# Contribuer à la documentation Resthome
+# Contribuer à la documentation WideCare
 
 Doc **modèle docs-as-code** : source unique en **anglais** dans `content/` (MyST Markdown,
 Sphinx), traductions FR/NL par **catalogues gettext** (`locale/`). On écrit et on
@@ -127,16 +127,16 @@ et par langue, quel que soit le pays (pas de page dupliquée par pays).
 
 Hiérarchie : **WideCare** (le logiciel) › **secteur** › **pays**, sur UN
 seul site. L'en-tête l'affiche ainsi :
-« [WideCare] › [Resthome · Maisons de repos ▾] › [🇧🇪 Belgique ▾] ».
+« [WideCare] › [Maisons de repos ▾] › [🇧🇪 Belgique ▾] ».
 
 ### Secteurs
 
-| Code | Secteur | Produit | Pages propres |
-| --- | --- | --- | --- |
-| `mr` | Maisons de repos (MR, MRS, court séjour) | **Resthome** | chambres, forfait, occupation… |
-| `csj` | Centres de soins de jour | WideCare | `belgique/centre-de-jour/` |
-| `rs` | Résidences-services | WideCare | `residences-services/`, `belgique/residences-services*` |
-| `gp` | Médecins généralistes | WideCare | `medecins/`, `belgique/medecins/` |
+| Code | Secteur | Pages propres |
+| --- | --- | --- |
+| `mr` | Maisons de repos (MR, MRS, court séjour) | chambres, forfait, occupation… |
+| `csj` | Centres de soins de jour | `belgique/centre-de-jour/` |
+| `rs` | Résidences-services | `residences-services/`, `belgique/residences-services*` |
+| `gp` | Médecins généralistes | `medecins/`, `belgique/medecins/` |
 
 - Chaque page déclare les secteurs qu'elle concerne :
 
@@ -164,9 +164,9 @@ seul site. L'en-tête l'affiche ainsi :
   :::
   ```
 
-- **Nom du produit** : « Resthome » SEULEMENT dans une page `sectors: [mr]`.
-  Partout ailleurs, le produit s'appelle **WideCare** (`check_docs.py` le
-  refuse sinon). Les noms réels de l'interface restent tels quels (app
+- **Nom du produit** : **WideCare**, dans tous les secteurs. Plus jamais
+  « Resthome » : le secteur s'appelle « Maisons de repos » (`check_docs.py`
+  refuse « Resthome »). Les noms réels de l'interface restent tels quels (app
   WideCare, WideCareBot).
 - **WideCare** mène au **portail** (`content/widecare.md`, hors navigation) :
   une carte par secteur, générée depuis `rh_sectors` par la directive

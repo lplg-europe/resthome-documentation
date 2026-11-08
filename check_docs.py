@@ -10,8 +10,8 @@ Vérifie chaque page de content/ :
   - pas de terme propre à un pays dans une page COMMUNE (hors espace pays et
     hors encadré `rh-country-<code>`) : voir CONTRIBUTING.md, « Pays » ;
   - front-matter `modules:` présent, modules connus de docs-ops/modules.json
-  - front-matter `sectors:` présent, secteurs de conf.py (rh_sectors) ; le nom
-    d'un produit de secteur (Resthome) seulement dans une page de ce secteur
+  - front-matter `sectors:` présent, secteurs de conf.py (rh_sectors) ; jamais
+    « Resthome » : le produit s'appelle WideCare
     (instantané du code, voir docs-ops/sync-modules.py), et PLACEMENT cohérent
     avec le code : une page commune ne documente aucun module lié à un pays,
     une page d'un espace pays documente au moins un module de ce pays.
@@ -41,8 +41,6 @@ def _conf():
 COUNTRY_SPACES = {c["space"]: c["code"] for c in _conf()["rh_countries"]}
 # Secteurs de soins (conf.py : rh_sectors) — chaque page dit lesquels elle concerne.
 SECTORS = [s["code"] for s in _conf()["rh_sectors"] if s.get("status") != "soon"]
-# Le nom « Resthome » désigne le produit des maisons de repos, et lui seul.
-SECTOR_PRODUCT = {s["code"]: s["name"] for s in _conf()["rh_sectors"] if s.get("name")}
 # Suites du graphe documentées par CE site : un seul site, un sélecteur de
 # secteur dans l'en-tête (conf.py : rh_sectors, front-matter `sectors:`).
 SITE_SUITES = {"platform", "resthome", "serviced living", "general practice"}
@@ -216,8 +214,8 @@ def coverage_report():
 
 
 def check_sectors(rel, meta, body):
-    """`sectors:` obligatoire, codes connus ; le nom d'un produit de secteur
-    (Resthome) seulement dans une page de ce seul secteur."""
+    """`sectors:` obligatoire, codes connus ; jamais « Resthome » (ancien nom :
+    le produit s'appelle WideCare, le secteur « Maisons de repos »)."""
     secs = meta.get("sectors")
     if not secs:
         errors.append(f"{rel}: pas de `sectors:` en front-matter (secteurs concernés : "
@@ -226,12 +224,9 @@ def check_sectors(rel, meta, body):
     for c in secs:
         if c not in SECTORS:
             errors.append(f"{rel}: secteur inconnu `{c}` (conf.py : rh_sectors)")
-    if rel in ("index.md", "widecare.md"):
-        return
-    for code, name in SECTOR_PRODUCT.items():
-        if secs != [code] and re.search(rf"\b{name}\b", body):
-            errors.append(f"{rel}: « {name} » est le produit du seul secteur `{code}` ; "
-                          f"cette page concerne {', '.join(secs)} → écrire « WideCare »")
+    if re.search(r"\bResthome\b", body):
+        errors.append(f"{rel}: « Resthome » → écrire « WideCare » (le produit) "
+                      f"ou « maisons de repos » (le secteur)")
 
 
 def check(page, text):

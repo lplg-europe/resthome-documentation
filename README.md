@@ -1,7 +1,7 @@
 # Documentation WideCare (publique)
 
 Documentation **utilisateur** du logiciel **WideCare**, éditée par **LPLG** :
-maisons de repos (le produit **Resthome**), centres de soins de jour,
+maisons de repos, centres de soins de jour,
 résidences-services et médecins généralistes, sur un seul site filtré par un
 sélecteur de secteur. Site généré avec **Sphinx** (thème
 sphinx-immaterial), sur le **modèle docs-as-code** : **source unique en anglais** dans
@@ -91,7 +91,7 @@ Deux niveaux, déjà prévus :
    ```yaml
    plugins:
      - llmstxt:
-         markdown_description: Documentation utilisateur du logiciel Resthome (MR/MRS).
+         markdown_description: Documentation utilisateur du logiciel WideCare.
          sections:
            Documentation:
              - fr/index.md

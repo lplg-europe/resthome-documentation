@@ -7,7 +7,7 @@ sectors: [mr]
 # Computing the allowance
 
 :::{rh-description}
-Computing the institutional allowance in Resthome, step by step: collect the billed days, enter the staff, compute, compare with the notified figure, validate and apply to the INAMI rates.
+Computing the institutional allowance in WideCare, step by step: collect the billed days, enter the staff, compute, compare with the notified figure, validate and apply to the INAMI rates.
 :::
 
 :::{rh-faq}
@@ -28,7 +28,7 @@ the **region** and the **reference period**.
 
 ## 2. Collect the billed days
 
-Click **Collect billed days**: Resthome rebuilds the grid from what was actually
+Click **Collect billed days**: WideCare rebuilds the grid from what was actually
 invoiced to the health insurers over the period, per sector and Katz category,
 quarter by quarter.
 
@@ -53,14 +53,14 @@ inputs** tab.
 
 ## 4. Compute
 
-Click **Compute**. Resthome fills in:
+Click **Compute**. WideCare fills in:
 
 - the **norm** in FTE, the **present** and the **funded** FTE;
 - the **staff-shortage penalty**, if the facility is below the norm;
 - the fourteen **parts** of the allowance, in the **Parts** tab;
 - the **allowance computed**, and what is **left to the house**.
 
-Enter the **allowance notified** by the payer: Resthome then shows the **gap**,
+Enter the **allowance notified** by the payer: WideCare then shows the **gap**,
 and what it represents over a year.
 
 ## 5. Validate

@@ -6,17 +6,17 @@ sectors: [mr]
 # Room housekeeping
 
 :::{rh-description}
-The housekeeping board in Resthome: track the cleaning stage of each room — to prepare, to clean, in progress, ready — independently of who occupies it, from the desk or from the phone.
+The housekeeping board in WideCare: track the cleaning stage of each room — to prepare, to clean, in progress, ready — independently of who occupies it, from the desk or from the phone.
 :::
 
 :::{rh-faq}
-Where do I see the rooms to be cleaned in Resthome?
+Where do I see the rooms to be cleaned in WideCare?
 : In **Nursing Home → Accommodation → Housekeeping**. The board shows one column per stage — To prepare, To clean, In progress, Ready — and you move a room from one to the next by drag and drop.
 
 Is the housekeeping stage the same thing as the room being occupied?
 : No, and that is deliberate. An occupied room can perfectly well be "to clean", and a free room is not usable until it is "ready". The two states are tracked separately.
 
-Does Resthome set the housekeeping stage automatically?
+Does WideCare set the housekeeping stage automatically?
 : It sets the starting point: a room goes to "To prepare" when a resident is due to arrive, and to "To clean" when one leaves it. Each time, a task is created for the housekeeping team.
 
 Do the board and the tasks agree?
@@ -27,7 +27,7 @@ Can the housekeeping team work from a phone?
 :::
 
 A room has **two independent states**: who occupies it, and where it stands in
-the **housekeeping** cycle. Resthome tracks them separately, because they answer
+the **housekeeping** cycle. WideCare tracks them separately, because they answer
 two different questions.
 
 Menu: **Nursing Home → Accommodation → Housekeeping**.
@@ -56,7 +56,7 @@ Each card shows the room number, its occupancy badge (the same colours as the
 
 ## How a room moves through them
 
-Resthome sets the **starting point** and creates the matching
+WideCare sets the **starting point** and creates the matching
 [staff task](taches.md) for the housekeeping team:
 
 - an **arrival** (admission, room change, transfer) puts the room in **To

@@ -24,8 +24,7 @@ everywhere. Choose your sector:
 - **WideCare** — the software, and this page.
 - **A sector** — nursing homes, day care centres, serviced residences or
   general practitioners. The sector selector at the top of the page keeps only
-  the pages of your sector. **Resthome** is the name of the product for
-  nursing homes.
+  the pages of your sector.
 - **A country** — the country selector shows the common pages and the rules of
   your country.
 

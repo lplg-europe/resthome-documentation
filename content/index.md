@@ -25,7 +25,7 @@ choice is remembered for your next visit.
 :::{admonition} Nursing homes
 :class: rh-sector rh-sector-mr
 
-**Resthome** is the WideCare product for nursing and care homes, short stay
+For nursing and care homes, short stay
 included: residents and rooms, admissions, care and medicines, meals, billing,
 the family portal, staff planning and quality.
 :::

@@ -90,7 +90,7 @@ Only one observation per resident and grid can be in progress.
 
 :::{tip}
 When a resident moves into a sector marked **Adapted Unit** (on admission or
-from another wing), Resthome opens an empty observation on its own, with the
+from another wing), WideCare opens an empty observation on its own, with the
 reason **Admission or entry into the unit**, unless one is in progress or the
 last one is still current. The team fills it during the first month.
 :::

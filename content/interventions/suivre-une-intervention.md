@@ -7,7 +7,7 @@ sectors: [mr]
 # Following an intervention
 
 :::{rh-description}
-Recording a technical intervention in a resident's room with Resthome: the resident, room and stay, the products used, the time spent, the vendor bill and the total cost.
+Recording a technical intervention in a resident's room with WideCare: the resident, room and stay, the products used, the time spent, the vendor bill and the total cost.
 :::
 
 :::{rh-faq}
@@ -31,7 +31,7 @@ An intervention is a ticket of a **room maintenance** team (see
 
 1. In **Helpdesk**, open the room maintenance team and create a ticket.
 2. Give it a title and a description.
-3. Choose the **Resident**. Resthome fills in the **Room** and the **Resident
+3. Choose the **Resident**. WideCare fills in the **Room** and the **Resident
    Stay** they occupy at that moment, and the **Requestant** when it is empty.
 4. Correct the room if the job took place elsewhere.
 

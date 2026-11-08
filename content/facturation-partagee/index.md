@@ -6,7 +6,7 @@ sectors: [mr]
 # Split billing
 
 :::{rh-description}
-Split billing in Resthome: the resident's share divided among several debtors, by percentage or by fixed amount, with a neutral resident statement and one invoice per debtor.
+Split billing in WideCare: the resident's share divided among several debtors, by percentage or by fixed amount, with a neutral resident statement and one invoice per debtor.
 :::
 
 :::{rh-faq}
@@ -28,7 +28,7 @@ factures
 :::
 
 When the **resident's share** must be paid by **several people** — typically the
-maintenance debtors — Resthome splits it automatically, and produces one invoice
+maintenance debtors — WideCare splits it automatically, and produces one invoice
 per debtor.
 
 ## The principle

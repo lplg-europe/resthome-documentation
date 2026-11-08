@@ -6,7 +6,7 @@ sectors: [mr]
 # Family portal
 
 :::{rh-description}
-The Resthome family portal: an access granted per resident and per scope, a liaison notebook, documents, invoices and a health summary for relatives.
+The WideCare family portal: an access granted per resident and per scope, a liaison notebook, documents, invoices and a health summary for relatives.
 :::
 
 :::{rh-faq}
@@ -74,7 +74,7 @@ the care app is installed.
 :class: warning
 
 Ticking **Health** requires recording **who gave the consent** and **when**.
-Resthome refuses the access otherwise. Every reading of the health panel is
+WideCare refuses the access otherwise. Every reading of the health panel is
 logged, as is every access granted, changed or revoked.
 :::
 

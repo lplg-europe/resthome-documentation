@@ -6,7 +6,7 @@ sectors: [mr]
 # Setting up a split
 
 :::{rh-description}
-Setting up split billing in Resthome: the accounting settings, the debtors on the resident's contact, capture at admission, and what happens to a stay when the debtors change.
+Setting up split billing in WideCare: the accounting settings, the debtors on the resident's contact, capture at admission, and what happens to a stay when the debtors change.
 :::
 
 :::{rh-faq}

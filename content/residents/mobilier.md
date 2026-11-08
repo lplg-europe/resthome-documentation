@@ -6,7 +6,7 @@ sectors: [mr]
 # The resident's private furniture
 
 :::{rh-description}
-Keep the inventory of the furniture and belongings a resident brings into the nursing home with Resthome: one line per item on their record, which follows them from room to room.
+Keep the inventory of the furniture and belongings a resident brings into the nursing home with WideCare: one line per item on their record, which follows them from room to room.
 :::
 
 :::{rh-faq}
@@ -27,7 +27,7 @@ Is a module needed for the furniture inventory?
 :::
 
 Many residents arrive with their own **furniture and belongings**: an armchair,
-a television, picture frames, a bookcase, a personal wheelchair… Resthome keeps
+a television, picture frames, a bookcase, a personal wheelchair… WideCare keeps
 a simple **inventory** of them on the resident's record, so the house always
 knows what was brought in and what was taken back.
 

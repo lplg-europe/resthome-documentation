@@ -6,7 +6,7 @@ sectors: [mr]
 # Billing an intervention
 
 :::{rh-description}
-Billing the cost of a technical intervention to the resident in Resthome: the Bill the intervention button, the line added to the supplement envelope, and the price kept up to date.
+Billing the cost of a technical intervention to the resident in WideCare: the Bill the intervention button, the line added to the supplement envelope, and the price kept up to date.
 :::
 
 :::{rh-faq}
@@ -31,7 +31,7 @@ one click adds its cost to the resident's monthly supplements.
 
 In **Helpdesk → Configuration → Helpdesk Teams**, on the room maintenance team,
 under **Rooms maintenance**: **Intervention Service Product**. It is the service
-that carries the intervention on the resident's envelope. Resthome provides one,
+that carries the intervention on the resident's envelope. WideCare provides one,
 **Technical Intervention**. It is set at installation on the room maintenance
 teams that had none; for a team you turn on later, choose it yourself.
 
@@ -45,7 +45,7 @@ supplement: see [Billing settings](../configuration/reglages-facturation.md).
 
 ## Bill the intervention
 
-On the ticket, click **Bill the intervention**. Resthome adds **one line** to the
+On the ticket, click **Bill the intervention**. WideCare adds **one line** to the
 resident's **supplement envelope**:
 
 - the **Intervention Service Product** of the team;

@@ -6,18 +6,21 @@ sectors: [mr]
 # Pocket money
 
 :::{rh-description}
-The pocket money a nursing home holds on a resident's behalf in Resthome: the balance on the resident's record, the entries behind it and the overdrawn warning.
+The pocket money a nursing home holds on a resident's behalf in WideCare: where the money comes from, what is drawn from it, where to read the balance and the entries behind it.
 :::
 
 :::{rh-faq}
-What is pocket money in Resthome?
-: Money paid to the home by a third party (a public welfare body, the family) and kept for the resident. The resident's purchases are drawn from it. Resthome shows what is left.
+What is pocket money in WideCare?
+: Money paid to the home every month by a third party (a public welfare body, the family) and kept for the resident. The resident's purchases — the hairdresser, the pedicure — are drawn from it. WideCare keeps the account and shows what is left.
 
 Where do I see a resident's balance?
-: On the resident's record: the **Pocket money** button at the top shows the balance. Click it to see the entries that make it up.
+: On the resident's record, click **More** in the row of buttons at the top, then **Pocket money**: the button shows the balance, and opens the entries that make it up.
+
+When does the balance go up?
+: When the invoice carrying the monthly provision is **posted** — not when it is paid.
 
 What happens when the balance is negative?
-: A red **Pocket money overdrawn** banner appears on the resident's record. Nothing is blocked: the home decides whether to keep selling supplements.
+: A red **Pocket money overdrawn** banner appears on the resident's record. Nothing is blocked: the home decides whether to keep buying for the resident.
 
 Can I see every resident's balance at once?
 : Yes. In the residents list, show the optional **Pocket money balance** column.
@@ -32,9 +35,9 @@ achats-reglement
 
 Some residents do not handle their own spending money: a third party pays a
 monthly amount to the home, which **holds it for them**. The hairdresser, the
-pedicure or a newspaper bought for the resident are then **drawn from that
-money**. Resthome keeps the account of it: what was paid in, what was spent,
-what is left.
+pedicure or a newspaper bought for the resident are then **paid out of that
+money**. WideCare keeps the account of it, resident by resident: what came in,
+what went out, what is left.
 
 :::{admonition} In Belgium
 :class: rh-country rh-country-be
@@ -47,43 +50,68 @@ The pocket money of a resident supported by the CPAS is paid by the CPAS. See
 
 ```mermaid
 graph LR
-  A[Monthly provision<br/>on the ordinary invoice] -->|pays in| B[Resident's<br/>pocket money]
-  C[Purchases of the month<br/>on a second invoice] -->|draws from| B
+  A[Monthly provision<br/>on the ordinary invoice] -->|comes in| B[Pocket money<br/>account of the resident]
+  B -->|pays| C[Purchases of the month<br/>on a second invoice]
+  B -->|goes out| D[Cash handed<br/>to the resident]
 ```
 
-- **Paid in** — the provision is billed every month, as a supplement, on the
-  resident's ordinary invoice (or on the invoice of whoever pays it). Once that
-  invoice is posted, the balance rises.
-- **Spent** — what the home bought for the resident during the month goes on a
-  **second invoice**, which is paid out of the balance.
+All the money of the residents sits on **one accounting account**, the pocket
+money account. WideCare reads on it, for each resident, the entries in their
+name. Three movements change a balance:
+
+1. **The money comes in** — every month, the **provision** is billed on the
+   resident's ordinary invoice, with the accommodation. Its line is not booked
+   as revenue but on the pocket money account: as soon as that invoice is
+   posted, the balance goes up.
+2. **The purchases are paid** — what the home bought for the resident during
+   the month goes on a **second invoice**. When it is posted, WideCare pays it
+   out of the pocket money: the balance goes down and the invoice shows
+   **Paid**.
+3. **Cash handed to the resident** — when the home gives the resident money in
+   hand, the accountant passes an entry that draws it from the pocket money
+   account in the resident's name.
 
 The setup is described in [Setting up pocket money](mise-en-place.md), the
-monthly invoices in [Purchases and settlement](achats-reglement.md).
+month and the entries passed in the journals in
+[Purchases and settlement](achats-reglement.md).
 
-:::{admonition} Requires the accounting in Resthome
+:::{admonition} Requires the accounting in WideCare
 :class: note
 
 The balance is read from the home's accounting entries. Pocket money is only
-available where the home keeps its accounts in Resthome.
+available where the home keeps its accounts in WideCare.
 :::
 
-## The balance on the resident's record
+## Read a resident's balance
 
-Once the resident is set up, a **Pocket money** button at the top of their
-record shows the **available balance**: what was paid in, minus what was drawn
-from it. Only posted entries count.
+1. On the resident's record, click **More** at the end of the row of buttons
+   at the top.
+2. The **Pocket money** button shows the **available balance**: what came in,
+   minus what went out. Only posted entries count.
 
-Click it to open the **entries** behind the balance, grouped by accounting
-entry: the list adds up, line by line, to the figure on the button.
+![The More menu of a resident's record, open, with the Pocket money button showing a balance of 58.04 euros](../assets/screenshots/argent-de-poche/habitant-bouton.webp)
 
-<!-- screenshot to add: resident record with the Pocket money button and its balance -->
+Click **Pocket money** to open the **entries** behind the balance, one group
+per accounting document:
+
+![The entries behind the balance: the provision of 123.04 in credit, the purchases settlement of 45.00 and 20.00 of cash in debit, with the totals at the bottom](../assets/screenshots/argent-de-poche/habitant-ecritures.webp)
+
+- **Credit** — the money that came in: the provision of each month.
+- **Debit** — the money that went out: the purchases paid, the cash handed
+  over.
+- **Balance** = total credit − total debit. Here 123.04 − 65.00 = **58.04**, the
+  figure on the button.
+
+The **Journal Entry** column names the source: the ordinary invoice for a
+provision, a miscellaneous operation for a settlement or a cash payment. The
+entries themselves are detailed in [Purchases and settlement](achats-reglement.md).
 
 :::{admonition} Pocket money overdrawn
 :class: warning
 
-When the resident has spent more than was paid in, a red **Pocket money
-overdrawn** banner appears at the top of their record. Resthome blocks
-nothing: the home decides whether to keep selling supplements to the resident.
+When the resident has spent more than came in, a red **Pocket money
+overdrawn** banner appears at the top of their record. WideCare blocks
+nothing: the home decides whether to keep buying for the resident.
 :::
 
 ## Every balance in one list

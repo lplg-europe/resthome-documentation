@@ -6,7 +6,7 @@ sectors: [mr]
 # What the relative sees
 
 :::{rh-description}
-A tour of the Resthome family portal as a relative sees it: the My Family tile, the resident's page, the notebook, the health panel, documents, invoices, meals and the way back.
+A tour of the WideCare family portal as a relative sees it: the My Family tile, the resident's page, the notebook, the health panel, documents, invoices, meals and the way back.
 :::
 
 :::{rh-faq}

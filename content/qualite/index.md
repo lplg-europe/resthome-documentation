@@ -6,11 +6,11 @@ sectors: [mr]
 # Quality
 
 :::{rh-description}
-The quality tools of Resthome: the complaints register, the residents' council and the observation of the residents' preserved capacities.
+The quality tools of WideCare: the complaints register, the residents' council and the observation of the residents' preserved capacities.
 :::
 
 :::{rh-faq}
-Which quality registers does Resthome keep?
+Which quality registers does WideCare keep?
 : The complaints register, with the day each author was told what came of their complaint, and the residents' council, with each meeting and its written report.
 
 What is the capability observation?

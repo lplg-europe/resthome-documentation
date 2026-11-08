@@ -1,4 +1,4 @@
-# Configuration Sphinx — documentation Resthome (modèle docs-as-code).
+# Configuration Sphinx — documentation WideCare (modèle docs-as-code).
 #
 # Source UNIQUE en anglais dans content/ (slugs français conservés = URLs indexées).
 # Traductions par catalogues gettext dans locale/{fr,nl}/LC_MESSAGES/.
@@ -53,8 +53,9 @@ gettext_compact = False        # un catalogue par page (granulaire)
 # avec le parser du document APRÈS l'avoir préfixé du « :: » de la syntaxe RST.
 # En Markdown, ce « :: » n'est qu'un paragraphe : le bloc traduit sortait réduit
 # à « :: » (mesuré le 04/09/2026 en FR et en NL, l'anglais restant correct).
-# Conséquence assumée : les libellés des diagrammes mermaid restent en anglais
-# dans les trois langues.
+# Les libellés des diagrammes mermaid passent donc par un autre chemin : la
+# directive `mermaid` de ce fichier (voir setup()) les extrait un par un et
+# les remplace au rendu par leur traduction.
 gettext_uuid = False
 gettext_location = True
 
@@ -123,11 +124,10 @@ rh_countries = [
 # les secteurs qu'elle concerne (`sectors: [mr, csj]`) ; la barre latérale, les
 # cartes et les listes de pages ne montrent que celles du secteur choisi, et un
 # bloc `:class: rh-sector rh-sector-<code>` ne s'affiche que pour ce secteur.
-# « name » = le nom du produit de ce secteur (Resthome = maisons de repos SEULEMENT) ;
-# ailleurs, le produit s'appelle WideCare.
+# Le produit s'appelle WideCare dans tous les secteurs (plus de « Resthome »).
 # status "soon" : MASQUÉ (ni menu ni carte) tant qu'il n'a pas sa documentation.
 rh_sectors = [
-    {"code": "mr", "status": "live", "name": "Resthome",
+    {"code": "mr", "status": "live",
      "label": {"en": "Nursing homes", "fr": "Maisons de repos", "nl": "Woonzorgcentra"},
      "desc": {"en": "Nursing and care homes, short stay", "fr": "MR, MRS et court séjour",
               "nl": "Woonzorgcentra, rust- en verzorgingstehuizen, kortverblijf"}},
@@ -246,24 +246,59 @@ def setup(app):
     from docutils import nodes
     from sphinx.util.docutils import SphinxDirective
 
-    class RhMermaid(SphinxDirective):
-        """Un bloc littéral CLASSÉ, pas un bloc brut.
+    import re
 
-        Un `nodes.raw` serait plus court, mais gettext ne l'extrait pas : les
-        libellés des diagrammes resteraient en anglais sur les pages FR et NL.
-        Un literal_block, lui, est extrait dès que `gettext_additional_targets`
-        contient « literal-block » — ce qu'active ce fichier plus haut.
+    # Les libellés d'un diagramme : A[texte], B{texte}, -->|texte| et -- texte -->.
+    label_re = re.compile(r"(\[)([^\]]+)(\])|(\{)([^}]+)(\})|(\|)([^|]+)(\|)"
+                          r"|(--\s+)([^->][^-]*?)(\s+-->)")
+
+    class RhMermaid(SphinxDirective):
+        """Un bloc littéral CLASSÉ, pas un bloc brut, dont les LIBELLÉS se traduisent.
+
+        Le bloc entier ne peut pas passer par gettext (voir plus haut pourquoi
+        « literal-block » n'est pas dans `gettext_additional_targets`) : ce
+        sont ses libellés qui y passent, un par un. Au build `gettext`, chacun
+        devient un message de la page (un paragraphe émis pour l'extraction
+        seulement) ; au build HTML, chacun est remplacé par sa traduction, lue
+        dans le catalogue de la page. Un libellé non traduit reste en anglais,
+        comme n'importe quel message.
         """
 
         has_content = True
 
         def run(self):
             text = "\n".join(self.content)
+            labels = []
+            for m in label_re.finditer(text):
+                lab = next(g for g in m.group(2, 5, 8, 11) if g)
+                if lab.strip() and lab not in labels:
+                    labels.append(lab)
+            builder = self.env.app.builder.name
+            lang = self.config.language or "en"
+            if builder != "gettext" and lang != "en" and labels:
+                from sphinx.locale import init as init_locale
+                from sphinx.util.i18n import docname_to_domain
+                domain = docname_to_domain(self.env.docname, self.config.gettext_compact)
+                catalog, _found = init_locale(self.config.locale_dirs, lang, domain)
+
+                def translate(m):
+                    for i in (1, 4, 7, 10):
+                        lab = m.group(i + 1)
+                        if lab:
+                            return m.group(i) + catalog.gettext(lab) + m.group(i + 2)
+                    return m.group(0)
+                text = label_re.sub(translate, text)
             node = nodes.literal_block(text, text)
             node["language"] = "none"
             node["classes"] = ["rh-mermaid"]
             self.set_source_info(node)
-            return [node]
+            result = [node]
+            if builder == "gettext":
+                for lab in labels:
+                    para = nodes.paragraph(lab, "", nodes.Text(lab))
+                    self.set_source_info(para)
+                    result.append(para)
+            return result
 
     app.add_directive("mermaid", RhMermaid)
     app.add_js_file("rh-mermaid.js", loading_method="defer")

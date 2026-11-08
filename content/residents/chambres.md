@@ -7,11 +7,11 @@ sectors: [mr]
 # Rooms and occupancy
 
 :::{rh-description}
-Track the occupancy of a nursing home's rooms with Resthome: the board by status, the room record, maintenance and reservation, assigning a resident, generating the rooms of a new home and configuring room types, sectors and equipment.
+Track the occupancy of a nursing home's rooms with WideCare: the board by status, the room record, maintenance and reservation, assigning a resident, generating the rooms of a new home and configuring room types, sectors and equipment.
 :::
 
 :::{rh-faq}
-Where is the room occupancy board in Resthome?
+Where is the room occupancy board in WideCare?
 : In **Nursing Home → Accommodation → Rooms**. Rooms are shown as a kanban, grouped by status: Available, Occupied, Under Maintenance and Reserved.
 
 What does the colored badge on each room mean?
@@ -21,10 +21,10 @@ How do I make a room unavailable for works?
 : On the room record, click **Set Maintenance** (or **Set Reserved**). The room is then excluded from the assignable rooms. **Set Automatic** puts it back to the automatic status.
 
 How do I create all the rooms of a new home at once?
-: In the Rooms screen, open the gear menu and choose **Generate Rooms**: give the number of floors, the rooms per floor and the room type, and Resthome creates them, numbered by floor.
+: In the Rooms screen, open the gear menu and choose **Generate Rooms**: give the number of floors, the rooms per floor and the room type, and WideCare creates them, numbered by floor.
 
 How do I assign a resident directly from a room?
-: Open an available room and click **Assign Resident**. Choose the resident and the admission date: Resthome creates the stay, already **Active**, on that room.
+: Open an available room and click **Assign Resident**. Choose the resident and the admission date: WideCare creates the stay, already **Active**, on that room.
 
 Is the daily rate displayed the care allowance paid by the health insurer?
 : No. It is the accommodation price (the room), a value specific to your facility, set on the room type. The care allowance follows the country's rules and the resident's dependency category, not the room.
@@ -183,7 +183,7 @@ pipeline:
    body).
 6. Optionally add an **Admission Reason**, then click **Assign Resident**.
 
-Resthome creates the **stay** on this room, already **Active**, and brings you
+WideCare creates the **stay** on this room, already **Active**, and brings you
 back to the room record.
 
 <!-- screenshot to add: the Assign Resident wizard, with the Resident, Admission Date, Daily Rate and Invoice To fields -->
@@ -192,7 +192,7 @@ back to the room record.
 
 If the chosen resident **already occupies a room**, the wizard shows a
 **Transfer** warning naming their current room, and the button becomes
-**Transfer Resident**. On confirmation, Resthome **ends** the old stay (reason:
+**Transfer Resident**. On confirmation, WideCare **ends** the old stay (reason:
 internal transfer) and **opens** a new stay in the chosen room.
 
 :::{admonition} Assign ≠ Change Room

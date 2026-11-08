@@ -6,15 +6,15 @@ sectors: [mr]
 # Staff tasks
 
 :::{rh-description}
-The chores of the house in Resthome — preparing a room, the move-in steps, a repair, a reception — as tasks handed to the team that does them, with a due date, a status and an outcome.
+The chores of the house in WideCare — preparing a room, the move-in steps, a repair, a reception — as tasks handed to the team that does them, with a due date, a status and an outcome.
 :::
 
 :::{rh-faq}
-Where are the staff tasks in Resthome?
+Where are the staff tasks in WideCare?
 : In **Nursing Home → Accommodation → Tasks**. The list opens on the tasks still to do; the **Tasks** smart button of a room or a resident opens theirs.
 
 Who creates the tasks?
-: Resthome creates most of them on its own — a room to prepare on an arrival, a room to put back in order on a departure, the move-in steps of a new stay. Anyone can add one by hand, from the list or from the field app.
+: WideCare creates most of them on its own — a room to prepare on an arrival, a room to put back in order on a departure, the move-in steps of a new stay. Anyone can add one by hand, from the list or from the field app.
 
 Does a task have to be assigned to a person?
 : No. A task always goes to a **team**, filled in from its category; naming a person is optional. The team's members see it, and one of them takes it.
@@ -56,7 +56,7 @@ Most tasks are created **on their own**:
 A waiting-list room and a shared day place get no room task: nobody moves in
 or out of them.
 
-Resthome never stacks the same task twice: saving the stay again does not
+WideCare never stacks the same task twice: saving the stay again does not
 create a second copy. You can also add a task **by hand**: **New** in the list,
 or from the WideCare field app.
 

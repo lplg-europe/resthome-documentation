@@ -6,7 +6,7 @@ sectors: [mr]
 # Simulations and live tracking
 
 :::{rh-description}
-Trying a change on the institutional allowance in Resthome with a simulation, and following the year in progress with live tracking.
+Trying a change on the institutional allowance in WideCare with a simulation, and following the year in progress with live tracking.
 :::
 
 :::{rh-faq}

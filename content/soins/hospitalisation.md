@@ -6,7 +6,7 @@ sectors: [mr]
 # Hospital departure and return
 
 :::{rh-description}
-Record a resident's hospital departure and return in Resthome in one step: prescriptions suspended and resumed, care cancelled and planned again, the absence for billing, the liaison pack for the hospital and a record review at the return.
+Record a resident's hospital departure and return in WideCare in one step: prescriptions suspended and resumed, care cancelled and planned again, the absence for billing, the liaison pack for the hospital and a record review at the return.
 :::
 
 :::{rh-faq}
@@ -25,7 +25,7 @@ What does the hospital receive?
 
 When a resident leaves for hospital, several things must happen at once: stop
 the medicines, cancel the care, tell billing, give the hospital what it needs.
-Resthome does it in one step.
+WideCare does it in one step.
 
 ## 1. Record the departure
 

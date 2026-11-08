@@ -17,11 +17,11 @@ Source : https://www.lplg.eu/resthome/documentation/
 
 Choisissez votre secteur avec le **sélecteur de secteur** en haut de la page. La barre latérale et les cartes ci-dessous ne montrent alors que les pages de ce secteur, et le choix est retenu pour votre prochaine visite.
 
-[Resthome · Maisons de reposMR, MRS et court séjour](./)[Centres de soins de jourLes usagers qui viennent en journée](./)[Résidences-servicesLogements, contrats et services](./)[Médecins généralistesLe cabinet, les patients et les consultations](./)
+[Maisons de reposMR, MRS et court séjour](./)[Centres de soins de jourLes usagers qui viennent en journée](./)[Résidences-servicesLogements, contrats et services](./)[Médecins généralistesLe cabinet, les patients et les consultations](./)
 
 Maisons de repos
 
-**Resthome** est le produit WideCare des maisons de repos et de soins, court séjour compris : habitants et chambres, admissions, soins et médicaments, repas, facturation, portail famille, planning du personnel et qualité.
+Pour les maisons de repos et de soins, court séjour compris : habitants et chambres, admissions, soins et médicaments, repas, facturation, portail famille, planning du personnel et qualité.
 
 Centres de soins de jour
 
@@ -435,9 +435,9 @@ Le **séjour** relie l’habitant à une chambre pour une période. Il pilote la
 
 ```
 graph LR
-  A[Draft] --> B[Confirmed]
-  B --> C[Active]
-  C --> D[Ended]
+  A[Brouillon] --> B[Confirmé]
+  B --> C[Actif]
+  C --> D[Terminé]
 ```
 
 | Statut | Ce que ça veut dire |
@@ -674,13 +674,13 @@ Chaque échelle suit les mêmes étapes :
 
 ```
 graph LR
-  A[Draft] --> B[Confirmed]
-  B --> C[Validated]
-  A --> D[Cancelled]
+  A[Brouillon] --> B[Confirmé]
+  B --> C[Validé]
+  A --> D[Annulé]
   B --> D
   C --> D
-  D -->|Reset to Draft| A
-  B -->|Reset to Draft| A
+  D -->|Remettre en brouillon| A
+  B -->|Remettre en brouillon| A
 ```
 
 Corriger une évaluation validée
@@ -730,7 +730,7 @@ Source : https://www.lplg.eu/resthome/documentation/residents/changement-chambre
 
 # Changement de chambre et transfert
 
-Un habitant peut **changer de chambre** ou passer dans **un autre secteur** pour lequel la maison est agréée, en cours de séjour. Resthome gère la **transition** : la facturation suit à la bonne date, sans que vous ayez à refaire une admission.
+Un habitant peut **changer de chambre** ou passer dans **un autre secteur** pour lequel la maison est agréée, en cours de séjour. WideCare gère la **transition** : la facturation suit à la bonne date, sans que vous ayez à refaire une admission.
 
 ## Changer de chambre
 
@@ -745,7 +745,7 @@ Une notification dit ensuite ce qui a été fait : **Chambre changée — tarif 
 
 ### Ce que le changement fait au séjour
 
-Resthome choisit seul la bonne forme :
+WideCare choisit seul la bonne forme :
 
 | Cas | Ce qui se passe |
 | --- | --- |
@@ -774,7 +774,7 @@ Un déménagement est souvent planifié **parce que** la chambre cible n’est p
 3. Saisissez une **Date du changement** dans le futur. Pour une chambre occupée, la date doit être au plus tôt le lendemain de sa libération.
 4. Cliquez sur **Changer de chambre**.
 
-Rien n’est facturé ni crédité aujourd’hui. Resthome :
+Rien n’est facturé ni crédité aujourd’hui. WideCare :
 
 - affiche la **Chambre planifiée** et la date du **Changement de chambre planifié** sur le séjour ;
 - montre la chambre actuelle comme se libérant la veille du changement, pour que la [liste d’attente](../../admissions/liste-attente/) puisse compter dessus ;
@@ -802,11 +802,11 @@ Lorsque la maison est agréée pour plusieurs secteurs, le passage de l’un à 
 2. Indiquez la **date/heure** du transfert et le **nouveau type de soins**.
 3. **Validez.**
 
-Resthome scinde la facturation à la date du transfert et **met à jour le forfait de soins** selon le nouveau type. Si le pays l’exige, il prépare la **notification à l’assureur santé**. **Annuler le transfert**, sur le séjour ouvert par le transfert, le défait : l’habitant retrouve son séjour précédent (secteur, chambre et dates rétablis) et les tâches du déménagement sont supprimées.
+WideCare scinde la facturation à la date du transfert et **met à jour le forfait de soins** selon le nouveau type. Si le pays l’exige, il prépare la **notification à l’assureur santé**. **Annuler le transfert**, sur le séjour ouvert par le transfert, le défait : l’habitant retrouve son séjour précédent (secteur, chambre et dates rétablis) et les tâches du déménagement sont supprimées.
 
 Un secteur peut exiger une catégorie de dépendance minimale
 
-Lorsqu’un secteur n’accueille que des habitants au-delà d’une catégorie de dépendance donnée, Resthome refuse d’y **placer ou d’y maintenir un séjour** pour un habitant évalué en dessous — à l’admission comme au transfert.
+Lorsqu’un secteur n’accueille que des habitants au-delà d’une catégorie de dépendance donnée, WideCare refuse d’y **placer ou d’y maintenir un séjour** pour un habitant évalué en dessous — à l’admission comme au transfert.
 
 Un **changement de chambre n’est pas bloqué** pour autant : un habitant dont la catégorie ne correspond plus à son lit peut toujours changer de chambre. Une bannière sur sa fiche signale la situation tant que le transfert n’est pas encodé.
 
@@ -914,12 +914,12 @@ Tant qu’une chambre est **En maintenance** ou **Réservée**, le bouton **Affe
 
 ```
 graph LR
-  A[Available] -->|a resident assigned| B[Occupied]
-  B -->|all beds freed| A
-  A -->|Set Maintenance| C[Under Maintenance]
-  A -->|Set Reserved| D[Reserved]
-  C -->|Set Automatic| A
-  D -->|Set Automatic| A
+  A[Disponible] -->|un habitant attribué| B[Occupée]
+  B -->|tous les lits libérés| A
+  A -->|Mettre en maintenance| C[En maintenance]
+  A -->|Marquer comme réservée| D[Réservée]
+  C -->|Passer en automatique| A
+  D -->|Passer en automatique| A
 ```
 
 ## Affecter un habitant depuis la chambre
@@ -933,11 +933,11 @@ Vous pouvez ouvrir un séjour directement depuis une chambre libre, sans passer 
 5. Le **Tarif journalier** est repris de la chambre ; remplissez **Facturer à** si la facture doit être adressée à un tiers (un proche, un organisme public d’aide sociale).
 6. Ajoutez éventuellement un **Motif d’admission**, puis cliquez sur **Affecter un habitant**.
 
-Resthome crée le **séjour** sur cette chambre, déjà **Actif**, et vous ramène sur la fiche de la chambre.
+WideCare crée le **séjour** sur cette chambre, déjà **Actif**, et vous ramène sur la fiche de la chambre.
 
 ### Cas de l’habitant déjà logé : le transfert
 
-Si l’habitant choisi **occupe déjà une chambre**, l’assistant affiche un avertissement de **Transfert** qui nomme sa chambre actuelle, et le bouton devient **Transférer l’habitant**. En confirmant, Resthome **termine** l’ancien séjour (motif : transfert interne) et **ouvre** un nouveau séjour dans la chambre choisie.
+Si l’habitant choisi **occupe déjà une chambre**, l’assistant affiche un avertissement de **Transfert** qui nomme sa chambre actuelle, et le bouton devient **Transférer l’habitant**. En confirmant, WideCare **termine** l’ancien séjour (motif : transfert interne) et **ouvre** un nouveau séjour dans la chambre choisie.
 
 Assigner ≠ Changer de chambre
 
@@ -994,7 +994,7 @@ Source : https://www.lplg.eu/resthome/documentation/residents/entretien-chambres
 
 # Entretien des chambres
 
-Une chambre a **deux états indépendants** : qui l’occupe, et où elle en est dans le cycle d’**entretien**. Resthome les suit séparément, parce qu’ils répondent à deux questions différentes.
+Une chambre a **deux états indépendants** : qui l’occupe, et où elle en est dans le cycle d’**entretien**. WideCare les suit séparément, parce qu’ils répondent à deux questions différentes.
 
 Menu : **Maison de repos → Hébergement → Entretien**.
 
@@ -1017,7 +1017,7 @@ Chaque carte montre le numéro de la chambre, son badge d’occupation (les mêm
 
 ## Comment une chambre les traverse
 
-Resthome fixe le **point de départ** et crée la [tâche du personnel](../taches/) correspondante pour l’équipe d’entretien :
+WideCare fixe le **point de départ** et crée la [tâche du personnel](../taches/) correspondante pour l’équipe d’entretien :
 
 - une **arrivée** (admission, changement de chambre, transfert) met la chambre en **À préparer**, avec une tâche **Préparer la chambre** à échéance du jour d’arrivée ;
 - une chambre **quittée** pour une autre passe en **À nettoyer**, avec une tâche **Remettre la chambre en état** ;
@@ -1078,8 +1078,8 @@ Chaque état des lieux relie un **habitant**, une **chambre** et un **représent
 
 ```
 graph LR
-  A[To do] --> B[Planned]
-  B --> C[Done]
+  A[À faire] --> B[Planifié]
+  B --> C[Terminé]
   A --> C
 ```
 
@@ -1098,7 +1098,7 @@ Les états des lieux viennent avec leur propre module. Une fois celui-ci install
 
 La chambre et le représentant se remplissent seuls
 
-Dès que vous choisissez l”**habitant**, Resthome remplit :
+Dès que vous choisissez l”**habitant**, WideCare remplit :
 
 - la **Chambre**, d’après son **séjour en cours** ;
 - le **Représentant de l’habitant** — la personne qui signe —, d’après sa première personne de contact.
@@ -1204,17 +1204,17 @@ Source : https://www.lplg.eu/resthome/documentation/residents/procedure-emmenage
 
 # La procédure d’emménagement
 
-À chaque **nouveau séjour** — admission, changement de chambre, transfert interne ou réadmission — Resthome ouvre la **procédure d’emménagement** de l’habitant : une [tâche du personnel](../taches/) par étape, confiée à l’équipe qui la fait, et la **préparation de la chambre** pour l’équipe d’entretien. Rien à déclencher à la main.
+À chaque **nouveau séjour** — admission, changement de chambre, transfert interne ou réadmission — WideCare ouvre la **procédure d’emménagement** de l’habitant : une [tâche du personnel](../taches/) par étape, confiée à l’équipe qui la fait, et la **préparation de la chambre** pour l’équipe d’entretien. Rien à déclencher à la main.
 
 ```
 graph LR
-  A[New stay] --> B[Move-in steps — administration, nurses, laundry]
-  A --> C[Room preparation — housekeeping]
+  A[Nouveau séjour] --> B[Étapes d'emménagement — administration, infirmiers, lingerie]
+  A --> C[Préparation de la chambre — entretien]
 ```
 
 ## Ce qui se déclenche à chaque nouveau séjour
 
-Dès qu’un **séjour** est créé — par l”[admission](../../admissions/admettre/), un [changement de chambre ou un transfert](../changement-chambre/), ou une réadmission — Resthome crée les deux volets en même temps. Chaque tâche est **à échéance du premier jour du séjour** ; pour un changement de chambre fait sur le même séjour, le jour du déménagement.
+Dès qu’un **séjour** est créé — par l”[admission](../../admissions/admettre/), un [changement de chambre ou un transfert](../changement-chambre/), ou une réadmission — WideCare crée les deux volets en même temps. Chaque tâche est **à échéance du premier jour du séjour** ; pour un changement de chambre fait sur le même séjour, le jour du déménagement.
 
 | Événement | Étapes d’emménagement | Tâches de chambre |
 | --- | --- | --- |
@@ -1286,7 +1286,7 @@ Source : https://www.lplg.eu/resthome/documentation/residents/mobilier/
 
 # Le mobilier privé de l’habitant
 
-Beaucoup d’habitants arrivent avec leurs propres **meubles et objets** : un fauteuil, une télévision, des cadres photos, une bibliothèque, un fauteuil roulant personnel… Resthome en tient un **inventaire** simple sur la fiche de l’habitant, pour que la maison sache toujours ce qui a été apporté et ce qui a été repris.
+Beaucoup d’habitants arrivent avec leurs propres **meubles et objets** : un fauteuil, une télévision, des cadres photos, une bibliothèque, un fauteuil roulant personnel… WideCare en tient un **inventaire** simple sur la fiche de l’habitant, pour que la maison sache toujours ce qui a été apporté et ce qui a été repris.
 
 ## Où trouver l’inventaire
 
@@ -1799,11 +1799,11 @@ Si le bouton n’apparaît pas, un message **Clôture impossible pour l’instan
 
 ```
 graph TD
-  A[Open the period] --> B[Generate]
-  B --> C[Review]
-  C --> D[Create Invoices]
-  D --> E[Confirm the invoices]
-  E --> F[Close Period]
+  A[Ouvrir la période] --> B[Générer]
+  B --> C[Contrôler]
+  C --> D[Créer les factures]
+  D --> E[Comptabiliser les factures]
+  E --> F[Clôturer la période]
 ```
 
 ## Pour aller plus loin
@@ -1831,11 +1831,11 @@ L’ordre n’est pas arbitraire : chaque étape **alimente la suivante**, et en
 
 ```
 graph LR
-  Z[0. Arrivals and departures] --> A[1. Absences]
-  A --> B[2. Supplements]
-  B --> C[3. Generate]
-  C --> D[4. Invoice]
-  D --> E[5. Close]
+  Z[0. Entrées et sorties] --> A[1. Absences]
+  A --> B[2. Suppléments]
+  B --> C[3. Générer]
+  C --> D[4. Facturer]
+  D --> E[5. Clôturer]
 ```
 
 ## Avant de générer
@@ -2393,7 +2393,7 @@ Source : https://www.lplg.eu/resthome/documentation/facturation-partagee/
 
 # Facturation partagée
 
-Quand la **part habitant** doit être payée par **plusieurs personnes** — typiquement les débiteurs alimentaires — Resthome la répartit automatiquement et produit une facture par débiteur.
+Quand la **part habitant** doit être payée par **plusieurs personnes** — typiquement les débiteurs alimentaires — WideCare la répartit automatiquement et produit une facture par débiteur.
 
 ## Le principe
 
@@ -2533,7 +2533,7 @@ Un **montant fixe** convenu est facturé au centime ; le reste tombe sur le déb
 
 ## Garde-fous
 
-- Un acompte **comptabilisé** bloque la régénération : Resthome nomme les factures à remettre en brouillon d’abord.
+- Un acompte **comptabilisé** bloque la régénération : WideCare nomme les factures à remettre en brouillon d’abord.
 - Les acomptes en **brouillon** sont remplacés, jamais empilés.
 - Remettre la période en brouillon supprime le décompte **et** ses acomptes ensemble.
 
@@ -3659,13 +3659,13 @@ La taille s’encode directement dans l’onglet. Sans elle, WideCare affiche **
 
 ```
 flowchart TD
-    A[Weight, height and BMI up to date] --> B{Last MNA = malnourished?}
-    B -- Yes --> C[Undernutrition]
-    B -- No --> D{Screening signal active?}
-    D -- Yes --> E[Re-screen MNA]
-    D -- No --> F{Last MNA = at risk?}
-    F -- Yes --> G[To monitor]
-    F -- No --> H[No concern]
+    A[Poids, taille et IMC à jour] --> B{Dernier MNA = dénutri ?}
+    B -- Oui --> C[Dénutrition]
+    B -- Non --> D{Signal de dépistage actif ?}
+    D -- Oui --> E[Refaire le dépistage MNA]
+    D -- Non --> F{Dernier MNA = à risque ?}
+    F -- Oui --> G[À surveiller]
+    F -- Non --> H[Aucune préoccupation]
 ```
 
 Ce qui déclenche « Réévaluer (MNA) »
@@ -3909,7 +3909,7 @@ Un proche peut détenir des accès à **plusieurs habitants** (ses deux parents,
 
 La santé ne s’ouvre jamais sans consentement
 
-Cocher **Santé** exige d’enregistrer **qui a donné le consentement** et **quand**. Resthome refuse l’accès sinon. Chaque lecture du volet santé est journalisée, de même que chaque accès accordé, modifié ou révoqué.
+Cocher **Santé** exige d’enregistrer **qui a donné le consentement** et **quand**. WideCare refuse l’accès sinon. Chaque lecture du volet santé est journalisée, de même que chaque accès accordé, modifié ou révoqué.
 
 ## Le statut d’un accès
 
@@ -3963,11 +3963,11 @@ Dès qu’un habitant est créé (ou dès que sa fiche devient une fiche habitan
 
 ```
 graph TD
-  A[Residents] --> B[Blank forms]
-  A --> C[Resident name]
-  C --> D[Medical documents]
-  C --> E[Administrative documents]
-  C --> F[Billing documents]
+  A[Habitants] --> B[Formulaires vierges]
+  A --> C[Nom de l'habitant]
+  C --> D[Documents médicaux]
+  C --> E[Documents administratifs]
+  C --> F[Documents de facturation]
 ```
 
 | Sous-dossier | Ce qu’on y met |
@@ -4063,10 +4063,10 @@ Dès qu’un fichier est joint à un habitant — **sur un message du fil de dis
 
 ```
 graph LR
-  A[Attachment on a resident's record<br/>or thread] --> B{Resident?<br/>Centralization on?}
-  B -->|Yes| C[Filed in the<br/>resident's folder]
-  C --> D[Default tags<br/>applied automatically]
-  B -->|No| E[Nothing is filed]
+  A[Pièce jointe sur la fiche<br/>ou le fil d'un habitant] --> B{Habitant ?<br/>Centralisation active ?}
+  B -->|Oui| C[Classée dans le<br/>dossier de l'habitant]
+  C --> D[Étiquettes par défaut<br/>appliquées automatiquement]
+  B -->|Non| E[Rien n'est classé]
 ```
 
 Trois conditions déclenchent le classement :
@@ -4230,11 +4230,11 @@ De l’**admission** au **paiement**, une facture correcte suit toujours les mê
 
 ```
 flowchart TD
-    A[Admission] --> B[Insurability — MDA]
-    B --> C[Admission agreement — eAgreement]
-    C --> D[Katz evaluation]
-    D --> E[Electronic invoicing — eFact]
-    E --> F[Payment / settlement]
+    A[Admission] --> B[Assurabilité — MDA]
+    B --> C[Accord d'admission — eAgreement]
+    C --> D[Évaluation Katz]
+    D --> E[Facturation électronique — eFact]
+    E --> F[Paiement / décompte]
 ```
 
 ```
@@ -4750,7 +4750,7 @@ Cette page explique la chaîne complète : **évaluation Katz → catégorie →
 
 ## De l’évaluation Katz à la catégorie
 
-L”[évaluation Katz](../katz/) cote les six activités de la vie quotidienne (se laver, s’habiller, transfert, aller à la toilette, continence, manger) et l’orientation dans le temps et l’espace de **1** (autonome) à **4** (totalement dépendant). À partir de ces cotations, Resthome calcule une **catégorie de dépendance**, qui est **déclarée à la mutuelle** :
+L”[évaluation Katz](../katz/) cote les six activités de la vie quotidienne (se laver, s’habiller, transfert, aller à la toilette, continence, manger) et l’orientation dans le temps et l’espace de **1** (autonome) à **4** (totalement dépendant). À partir de ces cotations, WideCare calcule une **catégorie de dépendance**, qui est **déclarée à la mutuelle** :
 
 | Catégorie | Dépendance | Forfait INAMI |
 | --- | --- | --- |
@@ -4798,22 +4798,22 @@ Deux notions coexistent, et il est important de ne pas les confondre :
 **Elles peuvent différer.** La mutuelle rembourse **la catégorie qu’elle a approuvée** dans l’**[accord (eAgreement)](../ehealth/eagreement/)**, pas forcément votre dernière évaluation. Concrètement :
 
 - Si un **accord OA** est en vigueur → on facture **la catégorie de cet accord**.
-- Si un **changement de catégorie** est demandé mais l’accord est **encore en attente** de la mutuelle → Resthome **maintient la catégorie précédente** en facturation.
+- Si un **changement de catégorie** est demandé mais l’accord est **encore en attente** de la mutuelle → WideCare **maintient la catégorie précédente** en facturation.
 - Sinon → on facture la catégorie clinique.
 
 Pourquoi cette prudence ?
 
-Facturer une catégorie qui **diverge de l’accord** provoque un **rejet** de l’OA (« forfait incompatible avec l’accord »). Tant que la nouvelle catégorie n’est pas **acceptée par la mutuelle**, Resthome continue donc de facturer l’ancienne. La catégorie affichée cliniquement peut ainsi être **plus élevée** que celle facturée.
+Facturer une catégorie qui **diverge de l’accord** provoque un **rejet** de l’OA (« forfait incompatible avec l’accord »). Tant que la nouvelle catégorie n’est pas **acceptée par la mutuelle**, WideCare continue donc de facturer l’ancienne. La catégorie affichée cliniquement peut ainsi être **plus élevée** que celle facturée.
 
 ## Aggravation de la dépendance
 
-Si l’état d’un habitant se dégrade, saisissez une **nouvelle évaluation Katz** avec un **motif d’aggravation**. Resthome prépare la mise à jour de l’accord de soins (**Annexe 10**), avec le motif repris automatiquement et la **signature** du clinicien. La **nouvelle catégorie** ne devient **facturée** qu’une fois l’**accord de la mutuelle obtenu** (voir ci-dessus).
+Si l’état d’un habitant se dégrade, saisissez une **nouvelle évaluation Katz** avec un **motif d’aggravation**. WideCare prépare la mise à jour de l’accord de soins (**Annexe 10**), avec le motif repris automatiquement et la **signature** du clinicien. La **nouvelle catégorie** ne devient **facturée** qu’une fois l’**accord de la mutuelle obtenu** (voir ci-dessus).
 
 ## Configurer les tarifs de forfait
 
-Les tarifs se configurent dans **Facturation → Configuration → Tarifs INAMI** : un **tarif par catégorie Katz**, avec une **période de validité**. Resthome applique le tarif en vigueur à la date de facturation. Pour l”**indexation annuelle**, cliquez sur **Générer une année** au-dessus de la liste : saisissez les montants une fois et Resthome crée les tarifs de toutes les catégories pour l’année. **Nouveau** ajoute une seule ligne. Le même écran gère aussi le **tarif d’hébergement** (à charge de l’habitant).
+Les tarifs se configurent dans **Facturation → Configuration → Tarifs INAMI** : un **tarif par catégorie Katz**, avec une **période de validité**. WideCare applique le tarif en vigueur à la date de facturation. Pour l”**indexation annuelle**, cliquez sur **Générer une année** au-dessus de la liste : saisissez les montants une fois et WideCare crée les tarifs de toutes les catégories pour l’année. **Nouveau** ajoute une seule ligne. Le même écran gère aussi le **tarif d’hébergement** (à charge de l’habitant).
 
-Si un eFact est constitué pour une année qui n’a pas encore de tarif, Resthome s’arrête et propose d’ouvrir ou de créer les tarifs de cette année.
+Si un eFact est constitué pour une année qui n’a pas encore de tarif, WideCare s’arrête et propose d’ouvrir ou de créer les tarifs de cette année.
 
 ## Points clés
 
@@ -5934,7 +5934,7 @@ Source : https://www.lplg.eu/resthome/documentation/belgique/note-de-frais-annex
 
 # La note de frais (Annexe 12)
 
-L’**Annexe 12** est le document officiel qui justifie, mois par mois, les frais d’hébergement et de soins d’un habitant de maison de repos (MR/MRS). Resthome la produit sous deux formes complémentaires :
+L’**Annexe 12** est le document officiel qui justifie, mois par mois, les frais d’hébergement et de soins d’un habitant de maison de repos (MR/MRS). WideCare la produit sous deux formes complémentaires :
 
 - la **Note de Frais Individuelle** — un justificatif détaillé **par habitant** ;
 - la **Note de Frais Récapitulative** — un tableau **par organisme assureur (O.A.)** qui regroupe tous les habitants d’une même mutuelle.
@@ -5943,7 +5943,7 @@ Les deux se génèrent depuis le bouton **Imprimer** (Print), à partir d’une 
 
 Un document officiel AViQ
 
-L’Annexe 12 vise les « institutions visées à l’article 43/7, 4° du Code wallon de l’action sociale et de la santé ». Resthome remplit automatiquement le formulaire officiel avec les données de votre période : vous n’avez rien à recopier à la main.
+L’Annexe 12 vise les « institutions visées à l’article 43/7, 4° du Code wallon de l’action sociale et de la santé ». WideCare remplit automatiquement le formulaire officiel avec les données de votre période : vous n’avez rien à recopier à la main.
 
 ## Deux documents, deux portées
 
@@ -5958,7 +5958,7 @@ Chaque ligne de la note récapitulative porte un **n° de note individuelle** qu
 
 ## La Note de Frais Individuelle (par habitant)
 
-C’est le justificatif complet d’**un seul habitant** pour le mois. Resthome le génère sur le **formulaire officiel** en trois pages.
+C’est le justificatif complet d’**un seul habitant** pour le mois. WideCare le génère sur le **formulaire officiel** en trois pages.
 
 | Page | Contenu |
 | --- | --- |
@@ -5987,7 +5987,7 @@ La note récapitulative certifie qu”« un double de la note de frais individue
 
 ## La Note de Frais Récapitulative (par organisme assureur)
 
-La note récapitulative regroupe, pour un mois, **tous les habitants d’un même organisme assureur** sur un tableau unique. Resthome produit **une page par O.A.** : si votre période compte des habitants affiliés à plusieurs mutuelles, le document contient autant de pages que d’organismes.
+La note récapitulative regroupe, pour un mois, **tous les habitants d’un même organisme assureur** sur un tableau unique. WideCare produit **une page par O.A.** : si votre période compte des habitants affiliés à plusieurs mutuelles, le document contient autant de pages que d’organismes.
 
 En-tête de chaque page :
 
@@ -6013,11 +6013,11 @@ La dernière ligne totalise le **Total général pour l’O.A.**, à charge pati
 
 1. Ouvrez la **période de facturation** du mois (ou sélectionnez-la dans la liste **Périodes de facturation**).
 2. Cliquez **Imprimer → Annexe 12 — Note Récapitulative**.
-3. Resthome génère le PDF, **une page par organisme assureur**.
+3. WideCare génère le PDF, **une page par organisme assureur**.
 
 ## Quand éditer l’Annexe 12
 
-Éditez l’Annexe 12 **une fois le mois facturé** : les montants reprennent les lignes de facturation calculées par Resthome (forfait, hébergement, suppléments, médicaments, absences). Si vous modifiez une facture après coup, **actualisez** la période puis régénérez le document pour qu’il reflète les nouveaux montants.
+Éditez l’Annexe 12 **une fois le mois facturé** : les montants reprennent les lignes de facturation calculées par WideCare (forfait, hébergement, suppléments, médicaments, absences). Si vous modifiez une facture après coup, **actualisez** la période puis régénérez le document pour qu’il reflète les nouveaux montants.
 
 Elle accompagne l’eFact
 
@@ -6176,7 +6176,7 @@ Le forfait est, pour l’essentiel, la masse salariale financée divisée par le
 - les **journées facturées** aux mutuelles, par secteur et catégorie Katz ;
 - le **personnel présent**, en équivalents temps plein par qualification.
 
-À partir de là, Resthome calcule la **norme** (combien d’ETP l’établissement devrait avoir pour ses habitants), ce qui est **financé**, et les quatorze **parties** du forfait (A1 à W1).
+À partir de là, WideCare calcule la **norme** (combien d’ETP l’établissement devrait avoir pour ses habitants), ce qui est **financé**, et les quatorze **parties** du forfait (A1 à W1).
 
 Deux périodes à ne pas confondre
 
@@ -6187,7 +6187,7 @@ Perdre de l’occupation augmente le forfait
 
 C’est contre-intuitif, et cela vaut la peine d’être su : le forfait est une masse salariale divisée par des journées. Moins de journées facturées sur la période de référence donne un forfait journalier **plus élevé** l’année suivante.
 
-## Ce que Resthome prend, ce que vous saisissez
+## Ce que WideCare prend, ce que vous saisissez
 
 - **Pris automatiquement** : les journées facturées aux mutuelles, le nombre moyen d’habitants, le taux de dépendance, les lits agréés, et les normes, barèmes et paramètres de la région.
 - **Saisi par vous** : une trentaine de chiffres par an — les ETP par qualification et par trimestre, l’ancienneté, les habitants désorientés, les compléments de fonction, le référent démence, et le **forfait notifié** par le payeur.

@@ -6,15 +6,15 @@ sectors: [mr]
 # Technical interventions
 
 :::{rh-description}
-Technical interventions in the residents' rooms with Resthome and the Helpdesk app: a ticket linked to the resident, the room and the stay, and its full cost.
+Technical interventions in the residents' rooms with WideCare and the Helpdesk app: a ticket linked to the resident, the room and the stay, and its full cost.
 :::
 
 :::{rh-faq}
-What is a technical intervention in Resthome?
+What is a technical intervention in WideCare?
 : A Helpdesk ticket of a room maintenance team: a repair or a job in a resident's room, linked to the resident, the room and the stay, with what it cost.
 
 What does an intervention cost?
-: The products used, the time spent (from the timesheets) and, when an outside provider did the job, their vendor bill. Resthome adds them up in **Ticket Cost**.
+: The products used, the time spent (from the timesheets) and, when an outside provider did the job, their vendor bill. WideCare adds them up in **Ticket Cost**.
 
 Where do I find the interventions of a room or a resident?
 : On the room, the resident's record and the stay: an **Interventions** button lists them, as soon as there is one.
@@ -31,7 +31,7 @@ facturer
 :::
 
 A dripping tap, a broken bed rail, a lamp to replace: the technical team handles
-the residents' rooms through the **Helpdesk** app. Resthome turns the tickets of
+the residents' rooms through the **Helpdesk** app. WideCare turns the tickets of
 a **room maintenance** team into **interventions**: each one knows the resident,
 the room and the stay concerned, and adds up what it cost.
 

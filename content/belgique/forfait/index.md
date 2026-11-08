@@ -6,7 +6,7 @@ sectors: [mr]
 # Institutional allowance
 
 :::{rh-description}
-The Resthome Forfait application: computing the institutional allowance (AViQ) from the days billed and the staff present, over the reference period.
+The WideCare Forfait application: computing the institutional allowance (AViQ) from the days billed and the staff present, over the reference period.
 :::
 
 :::{rh-faq}
@@ -38,7 +38,7 @@ it rests on two figures, both taken over the **reference period**:
 - the **days billed** to the health insurers, per sector and Katz category;
 - the **staff present**, in full-time equivalents per qualification.
 
-From these, Resthome computes the **norm** (how many FTE the facility should
+From these, WideCare computes the **norm** (how many FTE the facility should
 have for its residents), what is **funded**, and the fourteen **parts** of the
 allowance (A1 to W1).
 
@@ -59,7 +59,7 @@ divided by days. Fewer days billed over the reference period means a **higher**
 daily allowance the following year.
 :::
 
-## What Resthome takes, what you enter
+## What WideCare takes, what you enter
 
 - **Taken automatically**: the days billed to the health insurers, the average
   number of residents, the dependency rate, the licensed beds, and the norms,

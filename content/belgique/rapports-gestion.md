@@ -6,14 +6,14 @@ sectors: [mr]
 # Management reports
 
 :::{rh-description}
-The reports of a Belgian nursing home in Resthome: the KAPPA control documents, the movement list and analysis, the occupancy of rooms and sectors, occupancy by approval and Katz category, the residence certificate and the management dashboards.
+The reports of a Belgian nursing home in WideCare: the KAPPA control documents, the movement list and analysis, the occupancy of rooms and sectors, occupancy by approval and Katz category, the residence certificate and the management dashboards.
 :::
 
 :::{rh-faq}
 Where are the management reports?
 : In **Nursing Home → Reports**: KAPPA control, Movement list, Movements, Occupancy Analysis and Occupancy by approval. The last three are reserved to managers.
 
-What does Resthome print for a KAPPA control?
+What does WideCare print for a KAPPA control?
 : **Nursing Home → Reports → KAPPA control**: the alphabetical list of the patients for the draw, the patients present with their Katz category for the sealed envelope, the staff under contract that day, and a preparation page that stays in the house.
 
 How long did a room stand empty this year?
@@ -44,7 +44,7 @@ Menu: **Nursing Home → Reports**.
 
 A **KAPPA control** is the visit of a local college of the mutualités'
 advisory physicians and nurses, who re-assess the Katz scale of a sample of
-residents and compare it with the home's. Resthome prepares the documents the
+residents and compare it with the home's. WideCare prepares the documents the
 home hands over on that day.
 
 1. Open **Nursing Home → Reports → KAPPA control** — or **Nursing Care →

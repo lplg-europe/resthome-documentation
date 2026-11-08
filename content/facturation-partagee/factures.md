@@ -6,7 +6,7 @@ sectors: [mr]
 # The documents produced
 
 :::{rh-description}
-What split billing produces in Resthome: a resident statement totalling zero, one invoice per debtor with its own VAT, the debtor PDF, rounding and safeguards.
+What split billing produces in WideCare: a resident statement totalling zero, one invoice per debtor with its own VAT, the debtor PDF, rounding and safeguards.
 :::
 
 :::{rh-faq}
@@ -88,7 +88,7 @@ An agreed **fixed amount** is invoiced to the cent; what remains falls on the
 
 ## Safeguards
 
-- A **posted** deposit blocks regeneration: Resthome names the invoices to reset
+- A **posted** deposit blocks regeneration: WideCare names the invoices to reset
   to draft first.
 - **Draft** deposits are replaced, never stacked.
 - Resetting the period to draft deletes the statement **and** its deposits

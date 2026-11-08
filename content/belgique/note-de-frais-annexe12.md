@@ -6,14 +6,14 @@ sectors: [mr]
 # The Expense Note (Annexe 12)
 
 :::{rh-description}
-Produce the Annexe 12 expense notes in a nursing home (MR/MRS) with Resthome: an individual note per resident and a summary note per insurance organisation.
+Produce the Annexe 12 expense notes in a nursing home (MR/MRS) with WideCare: an individual note per resident and a summary note per insurance organisation.
 :::
 
 :::{rh-faq}
 What is Annexe 12 used for in a nursing home (MR/MRS)?
 : It is the official AViQ document that justifies a month's expenses: an individual expense note per resident and a summary note per insurance organisation.
 
-Where do you generate Annexe 12 in Resthome?
+Where do you generate Annexe 12 in WideCare?
 : Via the Print button: on a billing period for the summary note, on a per-resident billing record for the individual note.
 
 What is the difference between an individual note and a summary note?
@@ -27,7 +27,7 @@ Do you have to give Annexe 12 to the resident?
 :::
 
 **Annexe 12** is the official document that justifies, month by month, the
-accommodation and care expenses of a nursing home (MR/MRS) resident. Resthome
+accommodation and care expenses of a nursing home (MR/MRS) resident. WideCare
 produces it in two complementary forms:
 
 - the **Individual Expense Note** — a detailed supporting document **per resident**;
@@ -41,7 +41,7 @@ Both are generated from the **Print** button, from a **billing period** or a
 :class: info
 
 Annexe 12 targets the "institutions referred to in Article 43/7, 4° of the
-Walloon Code of Social Action and Health". Resthome automatically fills in the
+Walloon Code of Social Action and Health". WideCare automatically fills in the
 official form with your period's data: you have nothing to copy out by hand.
 :::
 
@@ -64,7 +64,7 @@ individual notes for the residents.
 ## The Individual Expense Note (per resident)
 
 This is the complete supporting document for **a single resident** for the month.
-Resthome generates it on the **official form** across three pages.
+WideCare generates it on the **official form** across three pages.
 
 | Page | Content |
 |---|---|
@@ -112,7 +112,7 @@ of it) to each resident or their representative.
 ## The Summary Expense Note (per insurance organisation)
 
 The summary note groups, for a month, **all residents of the same insurance
-organisation** in a single table. Resthome produces **one page per O.A.**: if your
+organisation** in a single table. WideCare produces **one page per O.A.**: if your
 period includes residents affiliated with several insurance funds, the document
 contains as many pages as there are organisations.
 
@@ -143,14 +143,14 @@ Manager** (date, name and signature).
 1. Open the month's **billing period** (or select it in the **Billing periods**
    list).
 2. Click **Print → Annexe 12 — Note Récapitulative**.
-3. Resthome generates the PDF, **one page per insurance organisation**.
+3. WideCare generates the PDF, **one page per insurance organisation**.
 
 <!-- screenshot to add: the generated summary note, with the institution/insurance-fund header and the table of residents grouped by O.A. -->
 
 ## When to generate Annexe 12
 
 Generate Annexe 12 **once the month has been billed**: the amounts pick up the
-billing lines calculated by Resthome (flat-rate, accommodation, supplements,
+billing lines calculated by WideCare (flat-rate, accommodation, supplements,
 medication, absences). If you change an invoice afterwards, **refresh** the period
 then regenerate the document so that it reflects the new amounts.
 

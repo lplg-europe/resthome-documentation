@@ -6,12 +6,12 @@ sectors: [mr]
 # The move-in procedure
 
 :::{rh-description}
-The move-in checklist Resthome opens at every new stay: five staff tasks handed to the administration, the nurses and the laundry, plus the preparation of the room for the housekeeping team.
+The move-in checklist WideCare opens at every new stay: five staff tasks handed to the administration, the nurses and the laundry, plus the preparation of the room for the housekeeping team.
 :::
 
 :::{rh-faq}
-How is the move-in checklist created in Resthome?
-: On its own, whenever a new stay opens — admission, room change, internal transfer or readmission. Resthome creates one staff task per step, due on the first day of the stay. Nothing to trigger by hand.
+How is the move-in checklist created in WideCare?
+: On its own, whenever a new stay opens — admission, room change, internal transfer or readmission. WideCare creates one staff task per step, due on the first day of the stay. Nothing to trigger by hand.
 
 What are the steps of the move-in procedure?
 : Sign the agreement with the resident's representative, the entry / exit condition report, the resident's private inventory, the medication locker and the laundry service. The room itself is prepared by the housekeeping team, through its own task.
@@ -27,7 +27,7 @@ What do I do with a step that does not apply?
 :::
 
 At every **new stay** — admission, room change, internal transfer or
-readmission — Resthome opens the resident's **move-in procedure**: one
+readmission — WideCare opens the resident's **move-in procedure**: one
 [staff task](taches.md) per step, handed to the team that does it, and the
 **preparation of the room** for the housekeeping team. Nothing to trigger by
 hand.
@@ -42,7 +42,7 @@ graph LR
 
 As soon as a **stay** is created — by the [admission](../admissions/admettre.md),
 a [room change or a transfer](changement-chambre.md), or a readmission —
-Resthome creates both parts at once. Every task is **due on the first day of
+WideCare creates both parts at once. Every task is **due on the first day of
 the stay**; for a room change made on the same stay, on the day of the move.
 
 | Event | Move-in steps | Room tasks |

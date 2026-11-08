@@ -6,7 +6,7 @@ sectors: [mr]
 # Room change and transfer
 
 :::{rh-description}
-Move a resident to another room, now or on a later date, or transfer them between the sectors the home is licensed for in Resthome — billing follows on its own, with no new admission.
+Move a resident to another room, now or on a later date, or transfer them between the sectors the home is licensed for in WideCare — billing follows on its own, with no new admission.
 :::
 
 :::{rh-faq}
@@ -26,11 +26,11 @@ How do I undo a room change entered by mistake?
 : On the stay the change opened, click **Cancel Room Change**: the resident goes back to their previous room and stay, with their dates.
 
 How do I transfer a resident to another sector?
-: On the stay, use the **Internal Transfer** action, enter the date and time and the new type of care, then validate. Resthome updates the care allowance and, where the country requires it, prepares the notification to the health insurer.
+: On the stay, use the **Internal Transfer** action, enter the date and time and the new type of care, then validate. WideCare updates the care allowance and, where the country requires it, prepares the notification to the health insurer.
 :::
 
 A resident can **change room** or move to **another sector** the home is
-licensed for during their stay. Resthome handles the **transition**: billing
+licensed for during their stay. WideCare handles the **transition**: billing
 follows at the right date, without you having to redo an admission.
 
 ## Changing room
@@ -54,7 +54,7 @@ A notification then says what was done: **Room changed — same daily rate**, or
 
 ### What the change does to the stay
 
-Resthome picks the right shape on its own:
+WideCare picks the right shape on its own:
 
 | Case | What happens |
 |---|---|
@@ -94,7 +94,7 @@ takes room 12 when its occupant leaves at the end of the month.
    the day after it frees up at the earliest.
 4. Click **Change Room**.
 
-Nothing is billed or credited today. Resthome:
+Nothing is billed or credited today. WideCare:
 
 - shows the **Planned Room** and the **Planned Room Change** date on the stay;
 - shows the current room as freeing up on the eve of the change, so the
@@ -139,7 +139,7 @@ record, **Change stay type** next to the stay type opens the active stay.
 2. Enter the **date/time** of the transfer and the **new type of care**.
 3. **Validate.**
 
-Resthome splits billing at the transfer date and **updates the care allowance**
+WideCare splits billing at the transfer date and **updates the care allowance**
 according to the new type. Where the country requires it, it prepares the
 **notification to the health insurer**. **Cancel Transfer**, on the stay the
 transfer opened, undoes it: the resident goes back to their previous stay
@@ -148,7 +148,7 @@ transfer opened, undoes it: the resident goes back to their previous stay
 :::{admonition} A sector can require a minimum dependency category
 :class: warning
 
-When a sector only takes residents above a given dependency category, Resthome
+When a sector only takes residents above a given dependency category, WideCare
 refuses to **put or keep a stay** in it for a resident assessed below — at
 admission and at transfer time.
 

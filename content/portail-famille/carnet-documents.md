@@ -6,7 +6,7 @@ sectors: [mr]
 # Notebook, documents and invoices
 
 :::{rh-description}
-Writing in the liaison notebook and sharing documents with the family in Resthome: message or internal note, document category, and the invoices visible to the family.
+Writing in the liaison notebook and sharing documents with the family in WideCare: message or internal note, document category, and the invoices visible to the family.
 :::
 
 :::{rh-faq}

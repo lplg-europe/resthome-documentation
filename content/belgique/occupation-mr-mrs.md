@@ -6,7 +6,7 @@ sectors: [mr]
 # Occupancy MR / CS / MRS
 
 :::{rh-description}
-The occupancy board of a Belgian nursing home in Resthome: residents by sector and Katz category against the approved beds, the quarter's occupancy rate and the MR residents an MRS bed admits.
+The occupancy board of a Belgian nursing home in WideCare: residents by sector and Katz category against the approved beds, the quarter's occupancy rate and the MR residents an MRS bed admits.
 :::
 
 :::{rh-faq}
@@ -83,7 +83,7 @@ that category an MRS bed admits; click it to see them.
 
 The list **MR residents transferable to MRS** shows each resident with their
 category, room and stay start. **Transfer to MRS** on a row opens the internal
-transfer with the destination already set to MRS: Resthome prepares the end of
+transfer with the destination already set to MRS: WideCare prepares the end of
 stay (Annexe 11) and the new request (Annexe 7, with the Katz scale) for the
 mutuality.
 

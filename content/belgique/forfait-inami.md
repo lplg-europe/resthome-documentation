@@ -20,7 +20,7 @@ How is the dependency allowance calculated?
 : Allowance = the daily allowance rate (identical for all categories) × the number of billable days of presence over the INAMI intervention period. Absences reduce the days (noon rule). The applicable rate is the one in force on the billing date.
 
 Why does the billed category sometimes differ from the clinical category?
-: The health insurance fund reimburses the category it approved in the agreement (eAgreement), not necessarily your latest assessment. Until a change is accepted by the insurer (OA), Resthome keeps billing the previous category to avoid a rejection.
+: The health insurance fund reimburses the category it approved in the agreement (eAgreement), not necessarily your latest assessment. Until a change is accepted by the insurer (OA), WideCare keeps billing the previous category to avoid a rejection.
 
 Who pays for the dependency allowance?
 : The allowance is covered 100% by the health insurance fund (third-party payer, via eFact). Accommodation (the room) is a separate line, charged to the resident.
@@ -40,7 +40,7 @@ This page explains the full chain: **Katz assessment → category → billed amo
 
 The [Katz assessment](katz.md) rates the six daily activities (washing,
 dressing, transferring, toileting, continence, eating) and the orientation in
-time and space from **1** (independent) to **4** (fully dependent). From these ratings, Resthome
+time and space from **1** (independent) to **4** (fully dependent). From these ratings, WideCare
 computes a **dependency category**, which is **declared to the health insurance
 fund**:
 
@@ -123,7 +123,7 @@ necessarily your latest assessment. In practice:
 
 - If an **OA agreement** is in force → we bill **the category of that agreement**.
 - If a **category change** is requested but the agreement is **still pending** with
-  the health insurance fund → Resthome **keeps the previous category** for billing.
+  the health insurance fund → WideCare **keeps the previous category** for billing.
 - Otherwise → we bill the clinical category.
 
 :::{admonition} Why this caution?
@@ -131,7 +131,7 @@ necessarily your latest assessment. In practice:
 
 Billing a category that **diverges from the agreement** triggers a **rejection**
 by the OA ("allowance incompatible with the agreement"). As long as the new
-category is not **accepted by the health insurance fund**, Resthome therefore keeps
+category is not **accepted by the health insurance fund**, WideCare therefore keeps
 billing the old one. The clinically displayed category can thus be **higher** than
 the billed one.
 :::
@@ -139,7 +139,7 @@ the billed one.
 ## Worsening of dependency
 
 If a resident's condition deteriorates, enter a **new Katz assessment** with an
-**aggravation reason**. Resthome prepares the update of the care agreement
+**aggravation reason**. WideCare prepares the update of the care agreement
 (**Annexe 10**), with the reason carried over automatically and the clinician's
 **signature**. The **new category** only becomes **billed** once the **health
 insurance fund's agreement is obtained** (see above).
@@ -147,13 +147,13 @@ insurance fund's agreement is obtained** (see above).
 ## Configuring the allowance rates
 
 The rates are configured in **Billing → Configuration → INAMI Rates**: one
-**rate per Katz category**, with a **validity period**. Resthome applies the
+**rate per Katz category**, with a **validity period**. WideCare applies the
 rate in force on the billing date. For the **annual indexation**, click
-**Generate a year** above the list: enter the amounts once and Resthome creates
+**Generate a year** above the list: enter the amounts once and WideCare creates
 the rates of every category for the year. **New** adds a single row. The same
 screen also manages the **accommodation rate** (charged to the resident).
 
-If an eFact is built for a year that has no rate yet, Resthome stops and offers
+If an eFact is built for a year that has no rate yet, WideCare stops and offers
 to open or create the rates of that year.
 
 ## Key points

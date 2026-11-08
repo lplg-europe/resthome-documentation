@@ -7,7 +7,7 @@ sectors: [mr]
 # Granting an access
 
 :::{rh-description}
-Granting, re-inviting and revoking a family portal access in Resthome: role, scopes, consent for health data, validity date and account status.
+Granting, re-inviting and revoking a family portal access in WideCare: role, scopes, consent for health data, validity date and account status.
 :::
 
 :::{rh-faq}
@@ -68,14 +68,14 @@ The **Consent** group asks for:
   Document**.
 
 **Consent Given By** and **Consent Date** become required as soon as **Health**
-is ticked: without them, Resthome refuses to save.
+is ticked: without them, WideCare refuses to save.
 
 ![An access: the relative, their role, the boxes of what they may see, and the consent block](../assets/screenshots/portail-famille/02-acces-fiche.png)
 <!-- screenshot to update: access form with the Grant Access / Re-Invite / Revoke Access buttons and the Latest Authentication field -->
 
 ## 3. Grant the access
 
-Click **Grant Access**. Resthome:
+Click **Grant Access**. WideCare:
 
 - creates the relative's **portal account** if they have none (login = their
   e-mail address) — someone who already has a user account keeps it;

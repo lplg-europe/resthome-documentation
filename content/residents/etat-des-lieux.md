@@ -7,11 +7,11 @@ sectors: [mr]
 # The condition report (move-in and move-out)
 
 :::{rh-description}
-The move-in and move-out condition report of a room in Resthome: each item of equipment rated OK or Not OK with a photo, reusable templates, and a PDF report ready to sign.
+The move-in and move-out condition report of a room in WideCare: each item of equipment rated OK or Not OK with a photo, reusable templates, and a PDF report ready to sign.
 :::
 
 :::{rh-faq}
-Where do I create a condition report in Resthome?
+Where do I create a condition report in WideCare?
 : In **Nursing Home → Accommodation → Property Inspections**, click **New**. When you select the resident, the room (from their current stay) and the representative are filled in.
 
 What is the difference between a move-in and a move-out condition report?
@@ -66,7 +66,7 @@ procedure](procedure-emmenagement.md), as a reminder.
 :::{admonition} The room and the representative fill themselves in
 :class: tip
 
-As soon as you choose the **resident**, Resthome fills in:
+As soon as you choose the **resident**, WideCare fills in:
 
 - the **Room**, from their **current stay**;
 - the **Resident's Representative** — the person who signs —, from their first

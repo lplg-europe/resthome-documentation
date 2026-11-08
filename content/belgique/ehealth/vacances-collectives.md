@@ -6,18 +6,18 @@ sectors: [mr]
 # Collective holidays
 
 :::{rh-description}
-Organise a group trip in Resthome: register the residents taking part, watch the 14-day yearly quota and notify each health insurance fund before departure.
+Organise a group trip in WideCare: register the residents taking part, watch the 14-day yearly quota and notify each health insurance fund before departure.
 :::
 
 :::{rh-faq}
-How do I record a group trip in Resthome?
-: Create a collective holiday: give it a name, the departure and return dates, the destination, and the residents taking part. Resthome counts the days and prepares one notification per resident.
+How do I record a group trip in WideCare?
+: Create a collective holiday: give it a name, the departure and return dates, the destination, and the residents taking part. WideCare counts the days and prepares one notification per resident.
 
 How many days of collective holiday is a resident entitled to per year?
-: Fourteen days per calendar year. Resthome shows, for each resident selected, the days already taken this year plus this trip, and highlights in red anyone who would go over.
+: Fourteen days per calendar year. WideCare shows, for each resident selected, the days already taken this year plus this trip, and highlights in red anyone who would go over.
 
 When must the health insurance funds be notified?
-: At least two weeks before departure. Resthome warns you if the lead time is shorter, but does not block the send — a shorter notice may be justified.
+: At least two weeks before departure. WideCare warns you if the lead time is shorter, but does not block the send — a shorter notice may be justified.
 
 Does each resident get their own notification?
 : Yes. Each resident taking part receives a separate Annexe 7 notification to their own health insurance fund.
@@ -28,7 +28,7 @@ Can I cancel a collective holiday?
 
 A **collective holiday** is a group trip: the seaside, the mountains, a few days
 away. It has consequences for billing and for the health insurance funds, which
-must be told. Resthome handles the whole thing from one record.
+must be told. WideCare handles the whole thing from one record.
 
 Menu: **Billing → Facturation → Collective Vacations**.
 
@@ -36,7 +36,7 @@ Menu: **Billing → Facturation → Collective Vacations**.
 
 1. Give the trip a **name** — something recognisable, such as the destination
    and the year.
-2. Enter the **departure** and **return** dates. Resthome counts the days,
+2. Enter the **departure** and **return** dates. WideCare counts the days,
    **both dates included**.
 3. Note the **destination** in free text.
 4. Add the **residents** taking part.
@@ -44,14 +44,14 @@ Menu: **Billing → Facturation → Collective Vacations**.
 :::{admonition} The return cannot precede the departure
 :class: note
 
-Resthome refuses a return date earlier than the departure date — a simple guard
+WideCare refuses a return date earlier than the departure date — a simple guard
 against a slip that would otherwise distort every day count.
 :::
 
 ## 2. Watch the quota
 
 Each resident is entitled to **14 days of collective holiday per calendar
-year**. As soon as you add residents, Resthome shows, for each of them:
+year**. As soon as you add residents, WideCare shows, for each of them:
 
 - the days **already taken** this year, across the other trips;
 - the days of **this trip**;
@@ -60,7 +60,7 @@ year**. As soon as you add residents, Resthome shows, for each of them:
 :::{admonition} A warning, not a block
 :class: tip
 
-Resthome flags the overrun but lets you proceed: the decision belongs to the
+WideCare flags the overrun but lets you proceed: the decision belongs to the
 facility, which may have grounds for it. What matters is that nobody discovers
 the overrun after the fact.
 :::
@@ -74,7 +74,7 @@ Click **Communicate to OAs**. Each participating resident receives a separate
 :class: warning
 
 The funds must be notified **at least two weeks before departure**. If you send
-with a shorter lead time, Resthome records a warning in the record's log but
+with a shorter lead time, WideCare records a warning in the record's log but
 does not block the send — a late departure may be justified, and the trace is
 what matters.
 :::
