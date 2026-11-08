@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 15:49+0200\n"
+"POT-Creation-Date: 2026-11-08 19:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -27,11 +27,12 @@ msgstr "La prise en charge CPAS"
 #: ../../content/belgique/cpas.md:9
 msgid ""
 "CPAS coverage in a nursing home (MR/MRS): recording the decision, full or "
-"partial coverage, and routing the resident-share invoice."
+"partial coverage, routing the resident-share invoice, and checking a "
+"MediPrima medical card."
 msgstr ""
 "La prise en charge CPAS en maison de repos (MR/MRS) : enregistrer la "
-"décision, la couverture totale ou partielle, et router la facture de la part"
-" habitant."
+"décision, la couverture totale ou partielle, router la facture de la part "
+"habitant et vérifier une carte médicale MediPrima."
 
 #: ../../content/belgique/cpas.md:13
 msgid "How do I record that a resident is covered by the CPAS?"
@@ -39,14 +40,15 @@ msgstr "Comment indiquer qu'un habitant est pris en charge par le CPAS ?"
 
 #: ../../content/belgique/cpas.md:14
 msgid ""
-"On the resident record, open the Billing tab, tick \"Covered by CPAS\", "
-"choose the responsible CPAS and the coverage (full or partial). These fields"
-" record the CPAS decision and are tracked in the financial audit log."
+"On the resident's contact (the Contact link under their name), open the "
+"Invoicing tab, tick **CPAS Supported**, choose the responsible CPAS and the "
+"**CPAS Coverage** (full or partial). These fields record the CPAS decision "
+"and are tracked in the financial audit log."
 msgstr ""
-"Sur la fiche de l'habitant, ouvrez l'onglet Facturation, cochez « Pris en "
-"charge CPAS », choisissez le CPAS responsable et la couverture (totale ou "
-"partielle). Ces champs enregistrent la décision du CPAS et sont tracés dans "
-"le journal d'audit financier."
+"Sur le contact de l'habitant (le lien Contact sous son nom), ouvrez l'onglet"
+" Facturation, cochez **Pris en charge CPAS**, choisissez le CPAS responsable"
+" et la **Couverture CPAS** (totale ou partielle). Ces champs enregistrent la"
+" décision du CPAS et sont tracés dans le journal d'audit financier."
 
 #: ../../content/belgique/cpas.md:16
 msgid "Does the CPAS pay everything or only part of it?"
@@ -54,19 +56,19 @@ msgstr "Le CPAS paie-t-il tout ou seulement une partie ?"
 
 #: ../../content/belgique/cpas.md:17
 msgid ""
-"Both cases are supported. \"Full coverage\": the CPAS covers the entire "
-"resident share. \"Partial coverage\": the CPAS pays a share and you enter "
-"the \"CPAS monthly amount\"; the rest is borne by the resident or their "
+"Both cases are supported. **Full Coverage**: the CPAS covers the entire "
+"resident share. **Partial Coverage**: the CPAS pays a share and you enter "
+"the **CPAS Monthly Amount**; the rest is borne by the resident or their "
 "family."
 msgstr ""
-"Les deux cas sont prévus. « Prise en charge totale » : le CPAS prend en "
-"charge toute la part habitant. « Prise en charge partielle » : le CPAS paie "
-"une part et vous saisissez le « Montant mensuel CPAS » ; le reste est à "
-"charge de l'habitant ou de sa famille."
+"Les deux cas sont gérés. **Prise en charge totale** : le CPAS couvre toute "
+"la part habitant. **Prise en charge partielle** : le CPAS paie une part et "
+"vous saisissez le **Montant mensuel CPAS** ; le reste est à charge de "
+"l'habitant ou de sa famille."
 
 #: ../../content/belgique/cpas.md:19
 msgid ""
-"Does ticking \"Covered by CPAS\" automatically send the invoice to the CPAS?"
+"Does ticking \"CPAS Supported\" automatically send the invoice to the CPAS?"
 msgstr ""
 "Cocher « Pris en charge CPAS » envoie-t-il automatiquement la facture au "
 "CPAS ?"
@@ -74,13 +76,13 @@ msgstr ""
 #: ../../content/belgique/cpas.md:20
 msgid ""
 "No. The CPAS section is a record of the decision, not a splitting engine. To"
-" send the resident share to the CPAS, fill in the resident's \"Billing "
-"contact\" (the CPAS); to split between the CPAS and another payer, use "
+" send the resident share to the CPAS, fill in the resident's **Billing "
+"Contact** (the CPAS); to split between the CPAS and another payer, use "
 "maintenance debtors (split billing)."
 msgstr ""
 "Non. La section CPAS est un enregistrement de la décision, pas un moteur de "
-"répartition. Pour adresser la part habitant au CPAS, renseignez le « Contact"
-" facturation » de l'habitant (le CPAS) ; pour un partage entre le CPAS et un"
+"répartition. Pour adresser la part habitant au CPAS, renseignez le **Contact"
+" facturation** de l'habitant (le CPAS) ; pour un partage entre le CPAS et un"
 " autre payeur, utilisez les débiteurs alimentaires (facturation partagée)."
 
 #: ../../content/belgique/cpas.md:22
@@ -89,12 +91,12 @@ msgstr "Où crée-t-on un CPAS dans Resthome ?"
 
 #: ../../content/belgique/cpas.md:23
 msgid ""
-"In the Billing app, Configuration → CPAS. Create the contact (company) and "
-"tick \"Is a CPAS\". Only contacts flagged this way appear in the CPAS field "
-"of the resident record."
+"In **Billing → Configuration → CPAS**. Create the contact (company): it is "
+"flagged as a CPAS from this menu. Only contacts flagged this way appear in "
+"the CPAS field of the resident record."
 msgstr ""
-"Dans l'application Facturation → Configuration → CPAS. Créez le contact "
-"(société) et cochez « Est un CPAS ». Seuls les contacts marqués ainsi "
+"Dans **Facturation → Configuration → CPAS**. Créez le contact (société) : il"
+" est marqué comme CPAS depuis ce menu. Seuls les contacts marqués ainsi "
 "apparaissent dans le champ CPAS de la fiche habitant."
 
 #: ../../content/belgique/cpas.md:25
@@ -126,7 +128,21 @@ msgstr ""
 "valeur propre à chaque dossier, à saisir d'après la notification reçue du "
 "CPAS."
 
+#: ../../content/belgique/cpas.md:31
+msgid "What is MediPrima?"
+msgstr "Qu'est-ce que MediPrima ?"
+
 #: ../../content/belgique/cpas.md:32
+msgid ""
+"The federal register of the medical aid decisions CPAS take for people who "
+"have no mutuality. Resthome can consult the medical card of a resident "
+"through eHealth, when the MediPrima module is installed."
+msgstr ""
+"Le registre fédéral des décisions d'aide médicale que prennent les CPAS pour"
+" les personnes sans mutuelle. Resthome peut consulter la carte médicale d'un"
+" habitant via eHealth, quand le module MediPrima est installé."
+
+#: ../../content/belgique/cpas.md:35
 msgid ""
 "When a resident cannot afford their **personal share** (accommodation and "
 "supplements), the **CPAS** (Public Centre for Social Welfare) of their "
@@ -140,19 +156,21 @@ msgstr ""
 "Resthome vous permet d’**enregistrer cette décision** sur la fiche de "
 "l'habitant et de **router la facture** vers le bon débiteur."
 
-#: ../../content/belgique/cpas.md:38
-msgid ""
-"You'll find these settings in the **Billing** tab of the resident record, "
-"and the list of CPAS in **Billing → Configuration → CPAS**."
-msgstr ""
-"Vous trouvez ces réglages dans l'onglet **Facturation** de la fiche "
-"habitant, et la liste des CPAS dans **Facturation → Configuration → CPAS**."
-
 #: ../../content/belgique/cpas.md:41
+msgid ""
+"You'll find these settings in the **Invoicing** tab of the resident's "
+"contact (the **Contact** link under their name), and the list of CPAS in "
+"**Billing → Configuration → CPAS**."
+msgstr ""
+"Vous trouvez ces réglages dans l'onglet **Facturation** du contact de "
+"l'habitant (le lien **Contact** sous son nom), et la liste des CPAS dans "
+"**Facturation → Configuration → CPAS**."
+
+#: ../../content/belgique/cpas.md:45
 msgid "What the CPAS covers"
 msgstr "Ce que couvre le CPAS"
 
-#: ../../content/belgique/cpas.md:44
+#: ../../content/belgique/cpas.md:48
 msgid ""
 "The CPAS steps in on the **resident share** (room + supplements), not on the"
 " **dependency allowance**: the latter is covered 100% by the health "
@@ -164,15 +182,15 @@ msgstr ""
 "mutuelle et facturé via l’[eFact](ehealth/efact.md). Voir [Le forfait INAMI "
 "(dépendance)](forfait-inami.md)."
 
-#: ../../content/belgique/cpas.md:50
+#: ../../content/belgique/cpas.md:54
 msgid "What CPAS coverage is for"
 msgstr "À quoi sert la prise en charge CPAS"
 
-#: ../../content/belgique/cpas.md:52
+#: ../../content/belgique/cpas.md:56
 msgid "Two notions must be distinguished:"
 msgstr "Deux notions sont à distinguer :"
 
-#: ../../content/belgique/cpas.md:54
+#: ../../content/belgique/cpas.md:58
 msgid ""
 "**Record the decision** — who the CPAS is, from when, under which reference,"
 " for what coverage and what amount. This information documents the case and "
@@ -183,7 +201,7 @@ msgstr ""
 "documentent le dossier et sont **tracées dans le journal d'audit** "
 "(catégorie financière)."
 
-#: ../../content/belgique/cpas.md:57
+#: ../../content/belgique/cpas.md:61
 msgid ""
 "**Route the invoice** — decide **who** Resthome sends the resident share to:"
 " the resident, their family, or the CPAS. This routing is driven by the "
@@ -193,7 +211,7 @@ msgstr ""
 ": à l'habitant, à sa famille, ou au CPAS. Ce routage se pilote via le "
 "**Contact facturation** ou les **débiteurs alimentaires** (voir plus bas)."
 
-#: ../../content/belgique/cpas.md:61
+#: ../../content/belgique/cpas.md:65
 msgid ""
 "![Resident record showing the default payer and the CPAS support "
 "details](../assets/screenshots/facturation/cpas-onglet.png)"
@@ -201,192 +219,205 @@ msgstr ""
 "![Fiche habitant : le payeur par défaut et le détail de la prise en charge "
 "CPAS](../assets/screenshots/facturation/cpas-onglet.png)"
 
-#: ../../content/belgique/cpas.md:61
+#: ../../content/belgique/cpas.md:65
 msgid "Resident record showing the default payer and the CPAS support details"
 msgstr ""
 "Fiche habitant : le payeur par défaut et le détail de la prise en charge "
 "CPAS"
 
-#: ../../content/belgique/cpas.md:63
+#: ../../content/belgique/cpas.md:67
 msgid "1. Declare the CPAS as an organisation"
 msgstr "1\\. Déclarer le CPAS comme organisme"
 
-#: ../../content/belgique/cpas.md:65
+#: ../../content/belgique/cpas.md:69
 msgid "Before linking a resident to a CPAS, the CPAS must exist as a contact."
 msgstr ""
 "Avant de rattacher un habitant à un CPAS, le CPAS doit exister comme "
 "contact."
 
-#: ../../content/belgique/cpas.md:67
+#: ../../content/belgique/cpas.md:71
 msgid "Open **Billing → Configuration → CPAS**."
 msgstr "Ouvrez **Facturation → Configuration → CPAS**."
 
-#: ../../content/belgique/cpas.md:68
+#: ../../content/belgique/cpas.md:72
 msgid "Click **New** and enter the CPAS **name**, its city, phone and email."
 msgstr ""
 "Cliquez sur **Nouveau** et encodez le **nom** du CPAS, sa ville, son "
 "téléphone et son e-mail."
 
-#: ../../content/belgique/cpas.md:69
+#: ../../content/belgique/cpas.md:73
 msgid ""
-"Check that the **\"Is a CPAS\"** box is ticked (it is by default from this "
-"menu)."
+"Check that the **Is CPAS** box, next to the name, is ticked (it is by "
+"default from this menu)."
 msgstr ""
-"Vérifiez que la case **« Est un CPAS »** est cochée (elle l'est par défaut "
-"depuis ce menu)."
+"Vérifiez que la case **Est un CPAS**, à côté du nom, est cochée (elle l'est "
+"par défaut depuis ce menu)."
 
-#: ../../content/belgique/cpas.md:70
+#: ../../content/belgique/cpas.md:74
 msgid "**Save.**"
 msgstr "**Enregistrez.**"
 
-#: ../../content/belgique/cpas.md:72
-msgid "Why tick \"Is a CPAS\""
+#: ../../content/belgique/cpas.md:76
+msgid "Why tick \"Is CPAS\""
 msgstr "Pourquoi cocher « Est un CPAS »"
 
-#: ../../content/belgique/cpas.md:75
+#: ../../content/belgique/cpas.md:79
 msgid ""
-"The **CPAS** field on the resident record only offers contacts flagged "
-"**\"Is a CPAS\"**. A CPAS created elsewhere (in the generic contacts) will "
-"appear in the list only if this box is ticked on its record."
+"The **CPAS** field on the resident record only offers contacts flagged as a "
+"CPAS. A CPAS created elsewhere (in the generic contacts) appears in the list"
+" only once **Is CPAS** is ticked on its record."
 msgstr ""
 "Le champ **CPAS** de la fiche habitant ne propose que les contacts marqués "
-"**« Est un CPAS »**. Un CPAS créé ailleurs (dans les contacts génériques) "
-"n'apparaîtra dans la liste que si cette case est cochée sur sa fiche."
+"comme CPAS. Un CPAS créé ailleurs (dans les contacts génériques) n'apparaît "
+"dans la liste qu'une fois **Est un CPAS** coché sur sa fiche."
 
-#: ../../content/belgique/cpas.md:80
+#: ../../content/belgique/cpas.md:84
 msgid "2. Enter the coverage on the resident record"
 msgstr "2\\. Renseigner la prise en charge sur l'habitant"
 
-#: ../../content/belgique/cpas.md:82
-msgid "Open the **resident** record and the **Billing** tab."
-msgstr "Ouvrez la fiche du **habitant** et l'onglet **Facturation**."
+#: ../../content/belgique/cpas.md:86
+msgid ""
+"Open the resident's contact (the **Contact** link under their name) and the "
+"**Invoicing** tab."
+msgstr ""
+"Ouvrez le contact de l'habitant (le lien **Contact** sous son nom) et "
+"l'onglet **Facturation**."
 
-#: ../../content/belgique/cpas.md:83
-msgid "In the **CPAS assistance** group, tick **Covered by CPAS**."
-msgstr "Dans le groupe **Aide CPAS**, cochez **Pris en charge CPAS**."
+#: ../../content/belgique/cpas.md:88
+msgid ""
+"In the **CPAS Support** group, next to **Default Payer**, tick **CPAS "
+"Supported**."
+msgstr ""
+"Dans le groupe **Prise en charge CPAS**, à côté de **Payeur par défaut**, "
+"cochez **Pris en charge CPAS**."
 
-#: ../../content/belgique/cpas.md:84
+#: ../../content/belgique/cpas.md:90
 msgid "Select the responsible **CPAS**."
 msgstr "Sélectionnez le **CPAS** responsable."
 
-#: ../../content/belgique/cpas.md:85
-msgid "Choose the **CPAS coverage**: *Full coverage* or *Partial coverage*."
-msgstr ""
-"Choisissez la **Couverture CPAS** : *Prise en charge totale* ou *Prise en "
-"charge partielle*."
-
-#: ../../content/belgique/cpas.md:86
-msgid "For partial coverage, enter the **CPAS monthly amount**."
-msgstr "En couverture partielle, saisissez le **Montant mensuel CPAS**."
-
-#: ../../content/belgique/cpas.md:87
+#: ../../content/belgique/cpas.md:91
 msgid ""
-"Complete the **CPAS decision**: date, reference and, if needed, **CPAS "
-"notes**."
+"Choose the **CPAS Coverage**: **Full Coverage** or **Partial Coverage**."
 msgstr ""
-"Complétez la **Décision CPAS** : date, référence et, si besoin, des **Notes "
-"CPAS**."
+"Choisissez la **Couverture CPAS** : **Prise en charge totale** ou **Prise en"
+" charge partielle**."
 
-#: ../../content/belgique/cpas.md:72
+#: ../../content/belgique/cpas.md:92
+msgid ""
+"In the **CPAS Decision** group, fill in the **CPAS Decision Date**, the "
+"**CPAS Decision Reference** and, for partial coverage, the **CPAS Monthly "
+"Amount**; add **CPAS Notes** if needed."
+msgstr ""
+"Dans le groupe **Décision CPAS**, renseignez la **Date décision CPAS**, la "
+"**Référence décision CPAS** et, pour une prise en charge partielle, le "
+"**Montant mensuel CPAS** ; ajoutez des **Notes CPAS** si nécessaire."
+
+#: ../../content/belgique/cpas.md:76
 msgid "Field"
 msgstr "Champ"
 
-#: ../../content/belgique/cpas.md:72
+#: ../../content/belgique/cpas.md:76
 msgid "Role"
 msgstr "Rôle"
 
-#: ../../content/belgique/cpas.md:72
-msgid "**Covered by CPAS**"
+#: ../../content/belgique/cpas.md:76
+msgid "**CPAS Supported**"
 msgstr "**Pris en charge CPAS**"
 
-#: ../../content/belgique/cpas.md:72
-msgid "Activates the coverage and switches the **Default payer** to CPAS"
+#: ../../content/belgique/cpas.md:76
+msgid "Activates the coverage and switches the **Default Payer** to CPAS"
 msgstr ""
 "Active la prise en charge et bascule le **Payeur par défaut** sur CPAS"
 
-#: ../../content/belgique/cpas.md:72
+#: ../../content/belgique/cpas.md:76
 msgid "**CPAS**"
 msgstr "**CPAS**"
 
-#: ../../content/belgique/cpas.md:72
-msgid "The responsible organisation (list filtered on \"Is a CPAS\")"
-msgstr "L'organisme responsable (liste filtrée sur « Est un CPAS »)"
+#: ../../content/belgique/cpas.md:76
+msgid "The responsible organisation (only contacts flagged as a CPAS)"
+msgstr "L'organisme responsable (seuls les contacts marqués comme CPAS)"
 
-#: ../../content/belgique/cpas.md:72
-msgid "**CPAS coverage**"
+#: ../../content/belgique/cpas.md:76
+msgid "**CPAS Coverage**"
 msgstr "**Couverture CPAS**"
 
-#: ../../content/belgique/cpas.md:72
-msgid "*Full* (the CPAS pays everything) or *Partial* (the CPAS pays a share)"
-msgstr "*Totale* (le CPAS paie tout) ou *Partielle* (le CPAS paie une part)"
+#: ../../content/belgique/cpas.md:76
+msgid ""
+"**Full Coverage** (the CPAS pays everything) or **Partial Coverage** (the "
+"CPAS pays a share)"
+msgstr ""
+"**Prise en charge totale** (le CPAS paie tout) ou **Prise en charge "
+"partielle** (le CPAS paie une part)"
 
-#: ../../content/belgique/cpas.md:72
-msgid "**CPAS decision date**"
+#: ../../content/belgique/cpas.md:76
+msgid "**CPAS Decision Date**"
 msgstr "**Date décision CPAS**"
 
-#: ../../content/belgique/cpas.md:72
+#: ../../content/belgique/cpas.md:76
 msgid "Date of the grant decision"
 msgstr "Date de la décision d'octroi"
 
-#: ../../content/belgique/cpas.md:72
-msgid "**CPAS decision reference**"
+#: ../../content/belgique/cpas.md:76
+msgid "**CPAS Decision Reference**"
 msgstr "**Référence décision CPAS**"
 
-#: ../../content/belgique/cpas.md:72
-msgid "Number / reference of the received decision"
-msgstr "Numéro / référence de la décision reçue"
+#: ../../content/belgique/cpas.md:76
+msgid "Number or reference of the decision received"
+msgstr "Numéro ou référence de la décision reçue"
 
-#: ../../content/belgique/cpas.md:72
-msgid "**CPAS monthly amount**"
+#: ../../content/belgique/cpas.md:76
+msgid "**CPAS Monthly Amount**"
 msgstr "**Montant mensuel CPAS**"
 
-#: ../../content/belgique/cpas.md:72
+#: ../../content/belgique/cpas.md:76
 msgid "Amount paid by the CPAS — **partial coverage only**"
 msgstr "Montant payé par le CPAS — **couverture partielle uniquement**"
 
-#: ../../content/belgique/cpas.md:72
-msgid "**CPAS notes**"
+#: ../../content/belgique/cpas.md:76
+msgid "**CPAS Notes**"
 msgstr "**Notes CPAS**"
 
-#: ../../content/belgique/cpas.md:72
+#: ../../content/belgique/cpas.md:76
 msgid "Free text (conditions, contact, remarks)"
 msgstr "Texte libre (conditions, contact, remarques)"
 
-#: ../../content/belgique/cpas.md:99
+#: ../../content/belgique/cpas.md:106
 msgid "Fields that appear as you go"
 msgstr "Champs qui apparaissent au fur et à mesure"
 
-#: ../../content/belgique/cpas.md:102
+#: ../../content/belgique/cpas.md:109
 msgid ""
-"The CPAS, the coverage and the **CPAS decision** block only show once "
-"**\"Covered by CPAS\"** is ticked. The **CPAS monthly amount** only appears "
-"for **partial** coverage."
+"The CPAS, the coverage and the **CPAS Decision** group only show once **CPAS"
+" Supported** is ticked. The **CPAS Monthly Amount** only appears for "
+"**partial** coverage. Unticking the box sets the **Default Payer** back to "
+"the resident."
 msgstr ""
-"Le CPAS, la couverture et le bloc **Décision CPAS** ne s'affichent qu'une "
-"fois **« Pris en charge CPAS »** coché. Le **Montant mensuel CPAS** "
-"n'apparaît qu'en couverture **partielle**."
+"Le CPAS, la couverture et le groupe **Décision CPAS** n'apparaissent qu'une "
+"fois **Pris en charge CPAS** coché. Le **Montant mensuel CPAS** n'apparaît "
+"que pour une prise en charge **partielle**. Décocher la case remet le "
+"**Payeur par défaut** sur l'habitant."
 
-#: ../../content/belgique/cpas.md:107
+#: ../../content/belgique/cpas.md:114
 msgid "3. Route the invoice to the CPAS"
 msgstr "3\\. Router la facture vers le CPAS"
 
-#: ../../content/belgique/cpas.md:109
+#: ../../content/belgique/cpas.md:116
 msgid ""
 "This is the step that decides **who** the resident-share invoice goes to."
 msgstr ""
 "C'est l'étape qui décide **à qui** part la facture de la part habitant."
 
-#: ../../content/belgique/cpas.md:111
+#: ../../content/belgique/cpas.md:118
 msgid ""
-"**The CPAS pays everything** → set the resident's **Billing contact** (in "
-"the *Default payer* group) to the **CPAS** contact. The monthly resident-"
+"**The CPAS pays everything** → set the resident's **Billing Contact** (in "
+"the **Default Payer** group) to the **CPAS** contact. The monthly resident-"
 "share invoice will then be **sent to the CPAS**."
 msgstr ""
 "**Le CPAS paie tout** → renseignez le **Contact facturation** de l'habitant "
-"(dans le groupe *Payeur par défaut*) avec le contact du **CPAS**. La facture"
-" mensuelle de la part habitant sera alors **adressée au CPAS**."
+"(dans le groupe **Payeur par défaut**) avec le contact du **CPAS**. La "
+"facture mensuelle de la part habitant sera alors **adressée au CPAS**."
 
-#: ../../content/belgique/cpas.md:114
+#: ../../content/belgique/cpas.md:121
 msgid ""
 "**The CPAS pays part of it** → use [maintenance debtors (split "
 "billing)](../facturation-partagee/index.md): add the CPAS as a debtor with "
@@ -398,87 +429,86 @@ msgstr ""
 "comme débiteur avec son **pourcentage**, et les autres payeurs (habitant, "
 "famille) pour le solde."
 
-#: ../../content/belgique/cpas.md:119
-msgid "The \"CPAS assistance\" section is a record, not a splitting engine"
-msgstr ""
-"La section « Aide CPAS » est un enregistrement, pas un moteur de répartition"
+#: ../../content/belgique/cpas.md:126
+msgid "The CPAS fields are a record, not a splitting engine"
+msgstr "Les champs CPAS sont un enregistrement, pas un moteur de répartition"
 
-#: ../../content/belgique/cpas.md:122
+#: ../../content/belgique/cpas.md:129
 msgid ""
-"The fields in the **CPAS assistance** section document the decision and "
-"switch the **Default payer** to CPAS, but **they do not automatically "
-"redirect or split the invoice**. The invoice recipient stays determined by "
-"the resident's **Billing contact** (or the stay's billing contact), and the "
-"partial split by **split billing**. Without one of these two levers, the "
-"resident share keeps being sent **to the resident**."
+"The **CPAS Support** and **CPAS Decision** fields document the decision and "
+"switch the **Default Payer** to CPAS, but **they do not redirect or split "
+"the invoice**. The invoice recipient stays determined by the resident's "
+"**Billing Contact** (or the stay's billing contact), and the partial split "
+"by **split billing**. Without one of these two levers, the resident share "
+"keeps being sent **to the resident**."
 msgstr ""
-"Les champs de la section **Aide CPAS** documentent la décision et basculent "
-"le **Payeur par défaut** sur CPAS, mais **ils ne redirigent pas et ne "
-"scindent pas automatiquement la facture**. Le destinataire de la facture "
-"reste déterminé par le **Contact facturation** de l'habitant (ou le contact "
-"de facturation du séjour), et la répartition partielle par la **facturation "
-"partagée**. Sans l'un de ces deux leviers, la part habitant continue d'être "
-"adressée **à l'habitant**."
+"Les champs **Prise en charge CPAS** et **Décision CPAS** documentent la "
+"décision et basculent le **Payeur par défaut** sur CPAS, mais **ils ne "
+"redirigent pas et ne scindent pas la facture**. Le destinataire de la "
+"facture reste déterminé par le **Contact facturation** de l'habitant (ou le "
+"contact de facturation du séjour), et la répartition partielle par la "
+"**facturation partagée**. Sans l'un de ces deux leviers, la part habitant "
+"continue d'être adressée **à l'habitant**."
 
-#: ../../content/belgique/cpas.md:130
+#: ../../content/belgique/cpas.md:137
 msgid "What Resthome does — and does not do"
 msgstr "Ce que Resthome fait — et ne fait pas"
 
-#: ../../content/belgique/cpas.md:119
+#: ../../content/belgique/cpas.md:126
 msgid "Action"
 msgstr "Action"
 
-#: ../../content/belgique/cpas.md:119
+#: ../../content/belgique/cpas.md:126
 msgid "Automatic?"
 msgstr "Automatique ?"
 
-#: ../../content/belgique/cpas.md:119
+#: ../../content/belgique/cpas.md:126
 msgid "Track the CPAS decision (financial audit)"
 msgstr "Tracer la décision CPAS (audit financier)"
 
-#: ../../content/belgique/cpas.md:119
+#: ../../content/belgique/cpas.md:126
 msgid "Yes, as soon as it's entered"
 msgstr "Oui, dès la saisie"
 
-#: ../../content/belgique/cpas.md:119
-msgid "Switch the **Default payer** to CPAS when you tick \"Covered by CPAS\""
+#: ../../content/belgique/cpas.md:126
+msgid "Switch the **Default Payer** to CPAS when you tick **CPAS Supported**"
 msgstr ""
-"Basculer le **Payeur par défaut** sur CPAS quand vous cochez « Pris en "
-"charge CPAS »"
+"Basculer le **Payeur par défaut** sur CPAS quand vous cochez **Pris en "
+"charge CPAS**"
 
-#: ../../content/belgique/cpas.md:119
+#: ../../content/belgique/cpas.md:126
 msgid "Yes"
 msgstr "Oui"
 
-#: ../../content/belgique/cpas.md:119
+#: ../../content/belgique/cpas.md:126
 msgid "Send the invoice to the CPAS"
 msgstr "Adresser la facture au CPAS"
 
-#: ../../content/belgique/cpas.md:119
-msgid "No — via the **Billing contact**"
+#: ../../content/belgique/cpas.md:126
+msgid "No — via the **Billing Contact**"
 msgstr "Non — via le **Contact facturation**"
 
-#: ../../content/belgique/cpas.md:119
+#: ../../content/belgique/cpas.md:126
 msgid "Split the resident share between CPAS and family"
 msgstr "Répartir la part habitant entre CPAS et famille"
 
-#: ../../content/belgique/cpas.md:119
+#: ../../content/belgique/cpas.md:126
 msgid "No — via [split billing](../facturation-partagee/index.md)"
 msgstr "Non — via la [facturation partagée](../facturation-partagee/index.md)"
 
-#: ../../content/belgique/cpas.md:119
+#: ../../content/belgique/cpas.md:126
 msgid "Deduct the **CPAS monthly amount** from the billed amounts"
 msgstr "Déduire le **Montant mensuel CPAS** des montants facturés"
 
-#: ../../content/belgique/cpas.md:119
+#: ../../content/belgique/cpas.md:126
 msgid "No — informational field"
 msgstr "Non — champ documentaire"
 
-#: ../../content/belgique/cpas.md:140
+#: ../../content/belgique/cpas.md:147
 msgid "Key points to remember"
 msgstr "Points clés à retenir"
 
-#: ../../content/belgique/cpas.md:142
+#: ../../content/belgique/cpas.md:149
 msgid ""
 "CPAS coverage concerns the **resident share** (room + supplements), not the "
 "**dependency allowance** (health-insurance-fund share, via eFact)."
@@ -486,50 +516,135 @@ msgstr ""
 "La prise en charge CPAS concerne la **part habitant** (chambre + "
 "suppléments), pas le **forfait de dépendance** (part mutuelle, via eFact)."
 
-#: ../../content/belgique/cpas.md:144
+#: ../../content/belgique/cpas.md:151
 msgid ""
-"First create the CPAS in **Billing → Configuration → CPAS** (**\"Is a "
-"CPAS\"** box), then link it to the resident in the **Billing** tab."
+"First create the CPAS in **Billing → Configuration → CPAS**, then link it to"
+" the resident in the **Billing** tab."
 msgstr ""
-"Créez d'abord le CPAS dans **Facturation → Configuration → CPAS** (case **« "
-"Est un CPAS »**), puis rattachez-le à l'habitant dans l'onglet "
-"**Facturation**."
+"Créez d'abord le CPAS dans **Facturation → Configuration → CPAS**, puis "
+"rattachez-le à l'habitant dans l'onglet **Facturation**."
 
-#: ../../content/belgique/cpas.md:146
+#: ../../content/belgique/cpas.md:153
 msgid ""
-"Coverage is **full** or **partial**; the **CPAS monthly amount** only "
+"Coverage is **full** or **partial**; the **CPAS Monthly Amount** only "
 "applies to partial coverage."
 msgstr ""
 "La couverture est **totale** ou **partielle** ; le **Montant mensuel CPAS** "
 "ne s'applique qu'à la couverture partielle."
 
-#: ../../content/belgique/cpas.md:148
+#: ../../content/belgique/cpas.md:155
 msgid ""
-"The **CPAS assistance** section **records** the decision; to **route** the "
-"invoice, use the **Billing contact** (full coverage) or **split billing** "
-"(partial coverage)."
+"The CPAS fields **record** the decision; to **route** the invoice, use the "
+"**Billing Contact** (full coverage) or **split billing** (partial coverage)."
 msgstr ""
-"La section **Aide CPAS** **enregistre** la décision ; pour **router** la "
-"facture, utilisez le **Contact facturation** (couverture totale) ou la "
-"**facturation partagée** (couverture partielle)."
+"Les champs CPAS **enregistrent** la décision ; pour **router** la facture, "
+"utilisez le **Contact facturation** (couverture totale) ou la **facturation "
+"partagée** (couverture partielle)."
 
-#: ../../content/belgique/cpas.md:151
+#: ../../content/belgique/cpas.md:157
 msgid ""
-"The **CPAS monthly amount** and the decision reference are **specific to "
+"The **CPAS Monthly Amount** and the decision reference are **specific to "
 "each case**, based on the CPAS notification."
 msgstr ""
 "Le **Montant mensuel CPAS** et la référence de décision sont **propres à "
 "chaque dossier**, d'après la notification du CPAS."
 
-#: ../../content/belgique/cpas.md:154
+#: ../../content/belgique/cpas.md:160
+msgid "Checking a MediPrima medical card"
+msgstr "Vérifier une carte médicale MediPrima"
+
+#: ../../content/belgique/cpas.md:162
+msgid ""
+"A person who has no mutuality — someone in a reception centre, without "
+"papers — may have their care paid by a CPAS under **MediPrima**, the federal"
+" register of the medical aid decisions. With the MediPrima module installed,"
+" Resthome asks that register through eHealth."
+msgstr ""
+"Une personne sans mutuelle — quelqu'un en centre d'accueil, sans papiers — "
+"peut voir ses soins payés par un CPAS dans le cadre de **MediPrima**, le "
+"registre fédéral des décisions d'aide médicale. Avec le module MediPrima "
+"installé, Resthome interroge ce registre via eHealth."
+
+#: ../../content/belgique/cpas.md:167
+msgid ""
+"On the resident's record, open the **MediPrima** smart button, or **eHealth "
+"→ MediPrima → Consultations**."
+msgstr ""
+"Sur la fiche de l'habitant, ouvrez le bouton intelligent **MediPrima**, ou "
+"**eHealth → MediPrima → Consultations**."
+
+#: ../../content/belgique/cpas.md:169
+msgid "Create a consultation for the resident, with the **reference date**."
+msgstr ""
+"Créez une consultation pour l'habitant, avec la **date de référence**."
+
+#: ../../content/belgique/cpas.md:170
+msgid "Click **Consult MediPrima**."
+msgstr "Cliquez sur **Consulter MediPrima**."
+
+#: ../../content/belgique/cpas.md:172
+msgid "The answer comes back as:"
+msgstr "La réponse revient sous la forme :"
+
+#: ../../content/belgique/cpas.md:174
+msgid ""
+"**Covered by a CPAS** — the decision: the medical card number, the CPAS, the"
+" validity dates and, in **Covered care**, what the CPAS supports per "
+"category of care (the INAMI part, the patient part, supplements);"
+msgstr ""
+"**Pris en charge par un CPAS** — la décision : le numéro de la carte "
+"médicale, le CPAS, les dates de validité et, dans **Soins couverts**, ce que"
+" le CPAS prend en charge par catégorie de soins (la part INAMI, la part "
+"patient, les suppléments) ;"
+
+#: ../../content/belgique/cpas.md:177
+msgid "**No medical card** — no decision for that date;"
+msgstr "**Pas de carte médicale** — aucune décision à cette date ;"
+
+#: ../../content/belgique/cpas.md:178
+msgid "**Error** — the platform's message is shown on the consultation."
+msgstr ""
+"**Erreur** — le message de la plateforme s'affiche sur la consultation."
+
+#: ../../content/belgique/cpas.md:180
+msgid ""
+"When the answer is **Covered by a CPAS** and the resident's **Insurance "
+"Regime** is empty or standard, Resthome sets it to **MediPrima (CPAS medical"
+" card)**: like the other special regimes, the resident is then left out of "
+"the MDA batches. **Consult again** refreshes the answer. MediPrima is a "
+"practitioner service: the menu is reserved to eHealth practitioners and "
+"managers."
+msgstr ""
+"Quand la réponse est **Pris en charge par un CPAS** et que le **Régime "
+"d'assurance** de l'habitant est vide ou standard, Resthome le règle sur "
+"**MediPrima (carte médicale CPAS)** : comme les autres régimes particuliers,"
+" l'habitant est alors exclu des lots MDA. **Consulter à nouveau** actualise "
+"la réponse. MediPrima est un service de praticien : le menu est réservé aux "
+"praticiens et gestionnaires eHealth."
+
+#: ../../content/belgique/cpas.md:186
+msgid "MediPrima does not replace the CPAS fields"
+msgstr "MediPrima ne remplace pas les champs CPAS"
+
+#: ../../content/belgique/cpas.md:189
+msgid ""
+"The consultation tells you what the CPAS decided for the care. The resident "
+"share of the nursing home is still recorded and routed with the CPAS fields "
+"above."
+msgstr ""
+"La consultation vous indique ce que le CPAS a décidé pour les soins. La part"
+" habitant de la maison de repos s'enregistre et se route toujours avec les "
+"champs CPAS ci-dessus."
+
+#: ../../content/belgique/cpas.md:194
 msgid "Going further"
 msgstr "Pour aller plus loin"
 
-#: ../../content/belgique/cpas.md:156
+#: ../../content/belgique/cpas.md:196
 msgid "[Manage a resident](../residents/gerer-un-resident.md)"
 msgstr "[Gérer un habitant](../residents/gerer-un-resident.md)"
 
-#: ../../content/belgique/cpas.md:157
+#: ../../content/belgique/cpas.md:197
 msgid ""
 "[Bill a month](../facturation/facturer-un-mois.md) · [Billing a month in "
 "Belgium](facturation.md)"
@@ -537,13 +652,22 @@ msgstr ""
 "[Facturer un mois](../facturation/facturer-un-mois.md) · [Facturer un mois "
 "en Belgique](facturation.md)"
 
-#: ../../content/belgique/cpas.md:158
+#: ../../content/belgique/cpas.md:198
 msgid ""
 "[Maintenance debtors (split billing)](../facturation-partagee/index.md)"
 msgstr ""
 "[Débiteurs alimentaires (facturation partagée)](../facturation-"
 "partagee/index.md)"
 
-#: ../../content/belgique/cpas.md:159
+#: ../../content/belgique/cpas.md:199
+msgid ""
+"[Pocket money](../argent-de-poche/index.md) — the money the home holds for a"
+" resident; tick **Pays into pocket money** on the **Pocket money** product."
+msgstr ""
+"[Argent de poche](../argent-de-poche/index.md) — l'argent que la maison "
+"détient pour un habitant ; cochez **Alimente l'argent de poche** sur le "
+"produit **Argent de poche**."
+
+#: ../../content/belgique/cpas.md:200
 msgid "[The INAMI dependency allowance](forfait-inami.md)"
 msgstr "[Le forfait INAMI (dépendance)](forfait-inami.md)"

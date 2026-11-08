@@ -5,158 +5,126 @@ modules: [healthcare_accommodation]
 # The move-in procedure
 
 :::{rh-description}
-The automatic move-in checklist for nursing homes with Resthome: 6 tasks at admission plus room preparation, assigned to the managers in charge.
+The move-in checklist Resthome opens at every new stay: five staff tasks handed to the administration, the nurses and the laundry, plus the preparation of the room for the housekeeping team.
 :::
 
 :::{rh-faq}
 How is the move-in checklist created in Resthome?
-: Automatically, whenever a new stay opens (admission, room change, internal transfer, readmission). Resthome schedules 6 activities on the resident's thread, due on the stay's start date, assigned to the Move-in Procedure Manager. You have nothing to trigger by hand.
+: On its own, whenever a new stay opens — admission, room change, internal transfer or readmission. Resthome creates one staff task per step, due on the first day of the stay. Nothing to trigger by hand.
 
-What are the six tasks of the move-in procedure?
-: Sign the agreement with the resident's representative, the entry / exit condition report, updating the resident's private inventory, the medication locker and the laundry, and disinfecting the new (or the old) room.
+What are the steps of the move-in procedure?
+: Sign the agreement with the resident's representative, the entry / exit condition report, the resident's private inventory, the medication locker and the laundry service. The room itself is prepared by the housekeeping team, through its own task.
 
-Where is the procedure manager set?
-: In Settings ▸ Nursing Home ▸ Accommodation, the Move-in Procedure Manager field. Leaving this field empty disables the checklist entirely. The Rooms Technical Manager, just above, receives the room preparation activities.
+Who receives the tasks?
+: Each step goes to the team that does it: the agreement, the condition report and the inventory to the administration, the medication locker to the nursing team, the laundry to the housekeeping and laundry team.
 
-Who prepares the room when the resident arrives?
-: The Rooms Technical Manager receives a « Prepare the room » activity on the arrival room's thread. On a room change or an internal transfer, a second « Put the room back in order » activity is scheduled on the room being left.
+Can I name a person on these tasks?
+: Yes, in **Nursing Home → Configuration → General → Settings**, block **Accommodation**: **Named on move-in tasks** for the administrative steps, **Named on room tasks** for the room preparation. Both are optional: left empty, the task goes to the team.
 
-What do I do with a task that does not apply?
-: The list is the same for a first admission and for a room change: the manager ticks it off (marks it as done) or deletes the steps that do not apply — for example, there is no old room to disinfect on a first entry.
-
-Can these automations be disabled?
-: Yes. Leave the Move-in Procedure Manager field empty to disable the resident's checklist, and the Rooms Technical Manager field empty to disable the room preparation activities.
+What do I do with a step that does not apply?
+: The list is the same for a first admission and for a room change. Close the step with **Done**, or **Cancel task** when it does not apply.
 :::
 
 At every **new stay** — admission, room change, internal transfer or
-readmission — Resthome automatically opens the resident's **move-in
-procedure**: a **checklist of administrative activities** on the resident's
-thread, and the **room preparation** on the technical side. Nothing to trigger
-by hand: the tasks appear in the **activities** of the relevant managers and on
-the corresponding threads.
-
-You choose these managers in **Settings ▸ Nursing Home ▸ Accommodation**.
+readmission — Resthome opens the resident's **move-in procedure**: one
+[staff task](taches.md) per step, handed to the team that does it, and the
+**preparation of the room** for the housekeeping team. Nothing to trigger by
+hand.
 
 ```mermaid
 graph LR
-  A[New stay] --> B[Move-in checklist — resident's thread]
-  A --> C[Room preparation — room's thread]
+  A[New stay] --> B[Move-in steps — administration, nurses, laundry]
+  A --> C[Room preparation — housekeeping]
 ```
-
-:::{admonition} An optional automation
-:class: info
-
-Both automations trigger only if the corresponding **manager** is set in the
-settings. As long as a field is empty, the automation stays silent — handy for
-a data import or a gradual roll-out.
-:::
 
 ## What triggers at every new stay
 
-As soon as a **stay** is created (by the [admission wizard](../admissions/admettre.md), the
-conversion of a CRM opportunity, or a
-[room change / transfer](changement-chambre.md)), Resthome schedules **both
-parts** of the procedure at the same time. The deadline of every activity is
-the **stay's start date**.
+As soon as a **stay** is created — by the [admission](../admissions/admettre.md),
+a [room change or a transfer](changement-chambre.md), or a readmission —
+Resthome creates both parts at once. Every task is **due on the first day of
+the stay**; for a room change made on the same stay, on the day of the move.
 
-| Event | Resident checklist | Room preparation |
+| Event | Move-in steps | Room tasks |
 |---|---|---|
-| **Initial admission** | 6 tasks | Prepare the new room |
-| **Room change** | 6 tasks | Prepare the new room **and** put the old one back in order |
-| **Internal transfer** (between sectors) | 6 tasks | Prepare the new room **and** put the old one back in order |
-| **Readmission** | 6 tasks | Prepare the room (no putting back in order — the old one was already freed) |
+| **Admission** | 5 steps | Prepare the arrival room |
+| **Room change** | 5 steps | Prepare the new room **and** put the old one back in order |
+| **Internal transfer** | 5 steps | Prepare the new room **and** put the old one back in order |
+| **Readmission** | 5 steps | Prepare the room (the old one was cleaned at the previous departure) |
+| **Day stay** | The agreement only | None — a day place is shared, nobody moves in |
 
 :::{admonition} No duplicates
 :class: note
 
-The activities are **idempotent**: if you save the stay again, Resthome does
-not stack an identical activity that is already open. A **cancelled** stay, or
-one without a room or a resident, generates no task.
+Saving the stay again never stacks a second copy of a task already created. A
+**cancelled** stay, or one without a room or a resident, creates no task. A
+genuine later move — a new room, a new date — opens its own checklist.
 :::
 
-## The move-in checklist (six tasks)
+## The move-in steps
 
-The checklist is scheduled on the **resident's thread** (activity type
-**Move-in procedure**), assigned to the **Move-in Procedure Manager**. It has
-six tasks:
+All five tasks carry the category **Move-in** and name the resident:
 
-| Task | What it is for |
-|---|---|
-| **Sign the agreement with the resident's representative** | Have the accommodation agreement signed with the reference person |
-| **Entry / exit condition report (état des lieux)** | Draw up the joint condition report of the room (see [The condition report](etat-des-lieux.md)) |
-| **Update the resident's private inventory** | List the private furniture brought in for the new room (see [Furniture](mobilier.md)) |
-| **Update the medication locker** | Move / re-label the room's medication locker |
-| **Update the laundry service** | Update the resident's laundry service |
-| **Disinfect the new / old room** | Disinfect the arrival room (and the old one, on a room change) |
+| Task | Team | What it is for |
+|---|---|---|
+| **Sign the agreement with the resident's representative** | Management and administration | Have the accommodation agreement signed. |
+| **Entry / exit condition report (état des lieux)** | Management and administration | Draw up the joint condition report of the room — see [The condition report](etat-des-lieux.md). |
+| **Update the resident's private inventory** | Management and administration | List the furniture brought in — see [The resident's private furniture](mobilier.md). |
+| **Update the medication locker** | Nursing care | Move or re-label the resident's medication locker. |
+| **Update the laundry service** | Housekeeping and laundry | Update the resident's laundry for the new room. |
 
-:::{admonition} Tick what applies
+:::{admonition} Close what applies, cancel the rest
 :class: tip
 
-The list is **the same** for a first admission and for a room change. The
-manager **marks as done** or **deletes** the steps that do not apply — for
-example, there is no old room to disinfect on a first entry.
+The list is **the same** for a first admission and for a room change. Close
+each step with **Done** — or **Done with a comment** — and use **Cancel task**
+for a step that does not apply to this move.
 :::
 
-![Resident thread showing the six move-in procedure activities, all due on the stay start date](../assets/screenshots/residents/emmenagement-activites.png)
+![Move-in steps of a new stay, all due on the first day of the stay](../assets/screenshots/residents/emmenagement-activites.png)
+
+<!-- screenshot to update: the image shows the former chatter activities; replace it with the Tasks list filtered on Move-in for one resident, with the five steps and their teams -->
 
 ## Room preparation
 
-In parallel, Resthome schedules the **room preparation** on the **room's
-thread** (activity type **Room preparation**), assigned to the **Rooms
-Technical Manager**:
+In parallel, the housekeeping team receives the room tasks:
 
-- **Prepare the room — arrival of …**: always scheduled on the **arrival
-  room**, on the stay's start date.
-- **Put the room back in order — departure of …**: scheduled on the **room
-  being left**, only on a **room change** or an **internal transfer** (where
-  the resident actually frees an occupied room).
+- **Prepare the room — arrival of …**, on the **arrival room**, which goes to
+  **To prepare** on the housekeeping board;
+- **Put the room back in order — departure of …**, on the **room being left**,
+  only on a **room change** or an **internal transfer**.
 
-:::{admonition} No putting back in order on entry or readmission
-:class: note
+No room task is created for a waiting-list room or a shared day place. See
+[Room housekeeping](entretien-chambres.md).
 
-The « Put the room back in order » activity is **not** created for a first
-admission (no previous room) or for a readmission (the old room was already
-freed and cleaned at the previous departure).
-:::
+## Naming a person on the tasks
 
-## Setting the managers
+Every task belongs to its **team**; you can also have a person named on it.
+In **Nursing Home → Configuration → General → Settings**, block
+**Accommodation**:
 
-Both automations rely on two configuration fields, specific to your
-institution. Go to **Settings ▸ Nursing Home ▸ Accommodation**:
+1. **Named on move-in tasks** — the person named on the **administrative**
+   steps (agreement, condition report, inventory). The nursing and laundry
+   steps stay with their team.
+2. **Named on room tasks** — the person named on the room preparation and
+   cleaning tasks.
 
-1. **Move-in Procedure Manager** — the user who receives the resident's
-   checklist (the 6 tasks above). Leaving it empty **disables** the checklist.
-2. **Rooms Technical Manager** — the user who receives the room **preparation**
-   and **putting back in order** activities. Leaving it empty **disables** these
-   activities.
+Both fields are **optional**. Left empty, the task goes to the team, whose
+members see it and take it; the procedure runs either way.
 
-:::{admonition} No manager, no activities
-:class: warning
+<!-- screenshot to add: the Accommodation block of the settings with the Named on room tasks and Named on move-in tasks fields -->
 
-If a field stays empty, the corresponding automation creates **no** activity.
-Set at least the **Move-in Procedure Manager** to benefit from the checklist at
-every new stay.
-:::
+## Key takeaways
 
-<!-- screenshot to add: the Accommodation section of the settings with the Rooms Technical Manager and Move-in Procedure Manager fields -->
-
-## Key points to remember
-
-- The move-in procedure triggers **automatically** when any new stay opens:
-  admission, room change, internal transfer, readmission.
-- It has two parts: a **6-task checklist** on the resident's thread and the
-  **room preparation** on the room's thread.
-- Every activity is **due on the stay's start date** and is assigned to the
-  configured **managers**.
-- The six tasks: **agreement**, **condition report**, **private inventory**,
-  **medication locker**, **laundry**, **disinfection** — the manager closes or
-  deletes those that do not apply.
-- You set the managers in **Settings ▸ Nursing Home ▸ Accommodation**; an empty
-  field **disables** the corresponding automation.
+- The move-in procedure starts **on its own** with any new stay.
+- It creates **five staff tasks**, each for the team that does it, plus the
+  **room preparation** for the housekeeping team.
+- Every task is **due on the first day of the stay** (or on the day of the move).
+- Naming a person is **optional**; the teams receive the tasks anyway.
 
 ## Learn more
 
-- [Manage a resident](gerer-un-resident.md)
+- [Staff tasks](taches.md)
+- [Room housekeeping](entretien-chambres.md)
 - [Room change and transfer](changement-chambre.md)
-- [The condition report (entry and exit)](etat-des-lieux.md)
-- [General settings (residents, rooms)](../configuration/reglages-generaux.md)
+- [The condition report (move-in and move-out)](etat-des-lieux.md)
+- [General settings](../configuration/reglages-generaux.md)

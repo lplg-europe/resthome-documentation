@@ -10,7 +10,7 @@ What the Belgian country pack adds to the Care app in a nursing home (MR/MRS): t
 
 :::{rh-faq}
 Where is the Katz category shown in the resident's medical record?
-: In the Dependency section of the Medical Information tab, read-only: the current Katz category (O, A, B, C, Cd), the end of validity of the Katz assessment and the active care plan. A Katz button above the tab opens the resident's assessments.
+: In the Dependency section of the Care tab, read-only: the current Katz category (O, A, B, C, Cd), the end of validity of the Katz assessment and the active care plan. A Katz button above the tab opens the resident's assessments.
 
 Where does the medication catalogue come from in Belgium?
 : From SAM, the official Belgian medication database. It provides the name, form and dosage of each medication, with its CNK code, active ingredient and ATC code, and serves as the source for prescriptions.
@@ -39,7 +39,7 @@ registers, meals — is described in the neutral pages: see [Care](../soins/inde
 The dependency assessment is the **Katz** scale. It appears wherever the Care
 app shows the resident's dependency:
 
-- **Medical record** — above the **Medical Information** tab, a **Katz** stat
+- **Medical record** — above the **Care** tab, a **Katz** stat
   button opens the resident's assessments. The **Dependency** section shows,
   read-only, the current **Katz category** (O, A, B, C, Cd), the **end of
   validity** of the Katz assessment and the **active care plan**.
@@ -69,9 +69,10 @@ a medication by hand, you search for it in SAM and import it with its CNK code,
 active ingredient, ATC code and leaflets. It then serves as the source for
 prescriptions.
 
-In **Care → Configuration**, the **SAM Database** menu gives read-only access to
-the reference database. See [The SAM medication
-database](sam-base-medicaments.md).
+The **SAM Database** is a door in the **Catalogue** tab of the Medicines
+workstation (**Nursing Care → Medicines**); it gives read-only access to the
+reference database. A new medicine starts with **Find the medicine in SAM**. See
+[The SAM medication database](sam-base-medicaments.md).
 
 ## Physicians and care staff: the INAMI number
 
@@ -114,14 +115,17 @@ documents:
 | **OA allocation** | Decisions, statements and letters from the health insurer (OA). |
 | **CPAS** | Coverage documents from the CPAS. |
 
-Like the other tags, they can be applied automatically as **Default tags**. See
-[Resident documents](../documents/index.md) and [Public welfare centre
-(CPAS)](cpas.md).
+Like the other tags, they can be applied automatically as **Default Tags**. See
+[Resident documents](../documents/index.md) and [CPAS
+coverage](cpas.md).
 
 ## What's next
 
 - [The Katz assessment](katz.md)
 - [The INAMI dependency allowance](forfait-inami.md)
 - [The SAM medication database](sam-base-medicaments.md)
+- [Medication rules in Belgium](medicaments-regles.md)
+- [The pharmacy link](medicaments-lien-pharmacie.md)
+- [Prescriptions through the eHealthBox](medicaments-ehealthbox.md)
 - [eHealth](ehealth/index.md)
 - [The resident's medical record](../soins/dossier-medical.md)

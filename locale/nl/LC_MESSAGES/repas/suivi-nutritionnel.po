@@ -24,36 +24,10 @@ msgstr ""
 msgid "Nutritional monitoring and undernutrition"
 msgstr "Nutritionele opvolging en ondervoeding"
 
-#: ../../content/repas/suivi-nutritionnel.md:8
-msgid ""
-"Screen for undernutrition and track intake in a nursing home: risk status, "
-"MNA, ESPEN targets and automatic alerts."
-msgstr ""
-"Ondervoeding screenen en de inname opvolgen in een woonzorgcentrum: "
-"risicostatus, MNA, ESPEN-doelen en automatische waarschuwingen."
-
 #: ../../content/repas/suivi-nutritionnel.md:12
 msgid "How does Resthome identify a resident at risk of undernutrition?"
 msgstr ""
 "Hoe identificeert Resthome een bewoner met een risico op ondervoeding?"
-
-#: ../../content/repas/suivi-nutritionnel.md:13
-#, python-format
-msgid ""
-"Resthome applies screening rules drawn from ESPEN and updates a status: a "
-"weight loss of more than 5% in 1 month or more than 10% in 6 months, a BMI "
-"below 23 in a resident over 70, or an MNA overdue by more than 6 months move"
-" the resident to Re-screen (MNA). A latest MNA of \"undernourished\" places "
-"the resident directly in Undernutrition. The status is recalculated on every"
-" weight change and once a day."
-msgstr ""
-"Resthome past screeningsregels toe die op ESPEN zijn gebaseerd en werkt een "
-"status bij: een gewichtsverlies van meer dan 5 % op 1 maand of meer dan 10 %"
-" op 6 maanden, een BMI onder 23 bij een bewoner ouder dan 70, of een MNA die"
-" meer dan 6 maanden achterstaat, zetten de bewoner op Opnieuw screenen "
-"(MNA). Een laatste MNA « ondervoed » plaatst de bewoner rechtstreeks in "
-"Ondervoeding. De status wordt herberekend bij elke gewichtswijziging en "
-"eenmaal per dag."
 
 #: ../../content/repas/suivi-nutritionnel.md:15
 msgid "Does the undernutrition status change the care allowance?"
@@ -93,80 +67,9 @@ msgstr ""
 msgid "How is actual intake calculated?"
 msgstr "Hoe wordt de werkelijke inname berekend?"
 
-#: ../../content/repas/suivi-nutritionnel.md:22
-msgid ""
-"From the meal services: for each meal served, you record the amount eaten "
-"(Amount Eaten: none, 25%, 50%, 75%, fully). Resthome multiplies the per-"
-"portion nutritional value of the dishes served by this percentage, adds the "
-"logged hydration, then compares the 3-day average with the targets. Dishes "
-"must therefore carry their portions and their per-portion values."
-msgstr ""
-"Vanuit de maaltijddiensten: voor elke geserveerde maaltijd registreert u de "
-"gegeten hoeveelheid (Gegeten hoeveelheid: niets, 25 %, 50 %, 75 %, "
-"volledig). Resthome vermenigvuldigt de nutritionele waarde per portie van de"
-" geserveerde gerechten met dit percentage, telt de genoteerde hydratatie "
-"erbij op en vergelijkt daarna het gemiddelde over 3 dagen met de doelen. De "
-"gerechten moeten dus hun porties en hun waarden per portie dragen."
-
-#: ../../content/repas/suivi-nutritionnel.md:24
+#: ../../content/repas/suivi-nutritionnel.md:27
 msgid "Who receives the undernutrition or deficit alerts?"
 msgstr "Wie ontvangt de waarschuwingen voor ondervoeding of tekort?"
-
-#: ../../content/repas/suivi-nutritionnel.md:25
-msgid ""
-"A daily cron creates a \"to do\" activity. The undernutrition alert goes to "
-"the head nurse (then the manager); nutritional deficit or hydration deficit "
-"alerts go first to the Kitchen role (dietitian), then to the head nurse, "
-"then to the manager. Each alert is capped at once every 30 days per resident"
-" to avoid duplicates."
-msgstr ""
-"Een dagelijkse cron maakt een activiteit « te doen » aan. De waarschuwing "
-"voor ondervoeding gaat naar de hoofdverpleegkundige (daarna de "
-"verantwoordelijke); de waarschuwingen voor een nutritioneel tekort of een "
-"hydratatietekort gaan eerst naar de rol Keuken (diëtist), daarna naar de "
-"hoofdverpleegkundige, daarna naar de verantwoordelijke. Elke waarschuwing is"
-" beperkt tot eenmaal per 30 dagen per bewoner om dubbels te vermijden."
-
-#: ../../content/repas/suivi-nutritionnel.md:27
-msgid "Is nutritional monitoring mandatory to use Resthome?"
-msgstr "Is de nutritionele opvolging verplicht om Resthome te gebruiken?"
-
-#: ../../content/repas/suivi-nutritionnel.md:28
-msgid ""
-"No. It is an optional screening feature, designed for nursing homes. It "
-"assists the team but does not replace the judgment of a dietitian or a "
-"physician. You can use it as much or as little as you like: it activates as "
-"soon as you enter weight, MNA, meals and drinks."
-msgstr ""
-"Nee. Het is een optionele screeningsfunctie, ontworpen voor woonzorgcentra. "
-"Ze ondersteunt het team maar vervangt het oordeel van een diëtist of een "
-"arts niet. U gebruikt ze zoveel als u wenst: ze wordt actief zodra u het "
-"gewicht, de MNA, de maaltijden en de dranken invoert."
-
-#: ../../content/repas/suivi-nutritionnel.md:31
-msgid ""
-"Resthome screens for **undernutrition** and tracks each resident's "
-"**intake**, drawing on the geriatric **ESPEN** recommendations and on "
-"established screening thresholds. Everything is read in the resident "
-"record's **Nutrition tab** and driven from the **Meals dashboard**."
-msgstr ""
-"Resthome screent op **ondervoeding** en volgt de **inname** van elke bewoner"
-" op, steunend op de geriatrische **ESPEN**-aanbevelingen en op erkende "
-"screeningsdrempels. Alles is te lezen in het **tabblad Voeding** van de "
-"bewonersfiche en wordt aangestuurd vanuit het **dashboard Maaltijden**."
-
-#: ../../content/repas/suivi-nutritionnel.md:36
-msgid ""
-"The principle is simple: you enter the **weight**, the **meals served** and "
-"the **drinks**; Resthome derives an **undernutrition risk status**, "
-"**targets** for energy, protein and fluids, a **coverage** of intake, and "
-"raises **alerts** when a resident falls behind."
-msgstr ""
-"Het principe is eenvoudig: u voert het **gewicht**, de **geserveerde "
-"maaltijden** en de **dranken** in; Resthome leidt daaruit een **risicostatus"
-" voor ondervoeding**, **doelen** voor energie, eiwitten en vocht, een "
-"**dekking** van de inname af, en geeft **waarschuwingen** wanneer een "
-"bewoner achterop raakt."
 
 #: ../../content/repas/suivi-nutritionnel.md:41
 msgid "A screening tool, not a diagnosis"
@@ -187,19 +90,7 @@ msgstr ""
 msgid "The resident's Nutrition tab"
 msgstr "Het tabblad Voeding van de bewoner"
 
-#: ../../content/repas/suivi-nutritionnel.md:51
-msgid ""
-"Open a resident (the **Residents** or **Meals** app), then the **Nutrition**"
-" tab. The tab only appears for residents. It brings together the "
-"undernutrition status, the latest MNA, the ESPEN targets, the intake, the "
-"diets and the food preferences."
-msgstr ""
-"Open een bewoner (toepassing **Bewoners** of **Maaltijden**), daarna het "
-"tabblad **Voeding**. Het tabblad verschijnt enkel voor bewoners. Het brengt "
-"de ondervoedingsstatus, de laatste MNA, de ESPEN-doelen, de inname, de "
-"diëten en de voedingsvoorkeuren samen."
-
-#: ../../content/repas/suivi-nutritionnel.md:55
+#: ../../content/repas/suivi-nutritionnel.md:56
 msgid ""
 "![Nutrition tab: undernutrition status, latest MNA and the ESPEN "
 "targets](../assets/screenshots/repas/nutrition-onglet.png)"
@@ -207,24 +98,14 @@ msgstr ""
 "![Tabblad Voeding: ondervoedingsstatus, laatste MNA en de ESPEN-"
 "streefwaarden](../assets/screenshots/repas/nutrition-onglet.png)"
 
-#: ../../content/repas/suivi-nutritionnel.md:55
+#: ../../content/repas/suivi-nutritionnel.md:56
 msgid "Nutrition tab: undernutrition status, latest MNA and the ESPEN targets"
 msgstr ""
 "Tabblad Voeding: ondervoedingsstatus, laatste MNA en de ESPEN-streefwaarden"
 
-#: ../../content/repas/suivi-nutritionnel.md:57
+#: ../../content/repas/suivi-nutritionnel.md:60
 msgid "The undernutrition risk status"
 msgstr "De risicostatus voor ondervoeding"
-
-#: ../../content/repas/suivi-nutritionnel.md:59
-msgid ""
-"The **Undernutrition Status** block is **read-only**: Resthome computes it, "
-"you do not edit it by hand. It shows a colored badge and the measurements "
-"that explain it."
-msgstr ""
-"Het blok **Ondervoedingsstatus** is **alleen-lezen**: Resthome berekent het,"
-" u wijzigt het niet met de hand. Het toont een gekleurde badge en de "
-"metingen die het verklaren."
 
 #: ../../content/repas/suivi-nutritionnel.md:41
 msgid "Displayed status"
@@ -235,16 +116,8 @@ msgid "Meaning"
 msgstr "Betekenis"
 
 #: ../../content/repas/suivi-nutritionnel.md:41
-msgid "Badge color"
-msgstr "Kleur van de badge"
-
-#: ../../content/repas/suivi-nutritionnel.md:41
 msgid "**No concern**"
-msgstr "**Geen bezorgdheid**"
-
-#: ../../content/repas/suivi-nutritionnel.md:41
-msgid "No concern"
-msgstr "Geen bezorgdheid"
+msgstr "**Geen zorgen**"
 
 #: ../../content/repas/suivi-nutritionnel.md:41
 msgid "Green"
@@ -255,16 +128,12 @@ msgid "**To monitor**"
 msgstr "**Op te volgen**"
 
 #: ../../content/repas/suivi-nutritionnel.md:41
-msgid "To monitor (last MNA \"at risk\")"
-msgstr "Op te volgen (laatste MNA « risico »)"
-
-#: ../../content/repas/suivi-nutritionnel.md:41
 msgid "Blue"
 msgstr "Blauw"
 
 #: ../../content/repas/suivi-nutritionnel.md:41
 msgid "**Re-screen (MNA)**"
-msgstr "**Opnieuw screenen (MNA)**"
+msgstr "**Herscreenen (MNA)**"
 
 #: ../../content/repas/suivi-nutritionnel.md:41
 msgid "A screening signal is active: redo or renew the MNA"
@@ -279,58 +148,38 @@ msgid "**Undernutrition**"
 msgstr "**Ondervoeding**"
 
 #: ../../content/repas/suivi-nutritionnel.md:41
-msgid "Confirmed undernutrition (last MNA \"undernourished\")"
-msgstr "Bevestigde ondervoeding (laatste MNA « ondervoed »)"
-
-#: ../../content/repas/suivi-nutritionnel.md:41
 msgid "Red"
 msgstr "Rood"
 
-#: ../../content/repas/suivi-nutritionnel.md:69
-msgid ""
-"Below the badge, the tab shows the **weight**, the **BMI**, a **Low BMI** "
-"indicator (age-adjusted low BMI) and the **weight loss** over 1 month and "
-"over 6 months."
-msgstr ""
-"Onder de badge toont het tabblad het **gewicht**, de **BMI**, een indicator "
-"**Lage BMI** (leeftijdsgecorrigeerde lage BMI) en het **gewichtsverlies** "
-"over 1 maand en over 6 maanden."
-
-#: ../../content/repas/suivi-nutritionnel.md:83
+#: ../../content/repas/suivi-nutritionnel.md:94
 msgid "What triggers \"Re-screen (MNA)\""
-msgstr "Wat « Opnieuw screenen (MNA) » activeert"
+msgstr "Wat « Herscreenen (MNA) » activeert"
 
-#: ../../content/repas/suivi-nutritionnel.md:86
+#: ../../content/repas/suivi-nutritionnel.md:97
 msgid ""
 "A **screening signal** is active as soon as one of these conditions is true:"
 msgstr ""
 "Een **screeningssignaal** is actief zodra een van deze voorwaarden waar is:"
 
-#: ../../content/repas/suivi-nutritionnel.md:88
+#: ../../content/repas/suivi-nutritionnel.md:99
 msgid "**weight loss** of more than **5%** over about 1 month;"
 msgstr "**gewichtsverlies** van meer dan **5 %** over ongeveer 1 maand;"
 
-#: ../../content/repas/suivi-nutritionnel.md:89
+#: ../../content/repas/suivi-nutritionnel.md:100
 msgid "**weight loss** of more than **10%** over about 6 months;"
 msgstr "**gewichtsverlies** van meer dan **10 %** over ongeveer 6 maanden;"
 
-#: ../../content/repas/suivi-nutritionnel.md:90
+#: ../../content/repas/suivi-nutritionnel.md:101
 msgid "**BMI below 23** in a resident **over 70** (age-adjusted threshold);"
 msgstr ""
 "**BMI onder 23** bij een bewoner van **ouder dan 70** "
 "(leeftijdsgecorrigeerde drempel);"
 
-#: ../../content/repas/suivi-nutritionnel.md:91
-msgid "**overdue MNA**: no MNA, or a last MNA more than 6 months old."
-msgstr ""
-"**achterstallige MNA**: geen MNA, of een laatste MNA van meer dan 6 maanden "
-"oud."
-
-#: ../../content/repas/suivi-nutritionnel.md:94
+#: ../../content/repas/suivi-nutritionnel.md:106
 msgid "In Belgium"
 msgstr "In België"
 
-#: ../../content/repas/suivi-nutritionnel.md:97
+#: ../../content/repas/suivi-nutritionnel.md:109
 msgid ""
 "These thresholds are the default values of the AViQ screening (PWNS-be-A). "
 "See [Care in Belgium](../belgique/soins.md)."
@@ -338,246 +187,51 @@ msgstr ""
 "Deze drempels zijn de standaardwaarden van de AViQ-screening (PWNS-be-A). "
 "Zie [Zorg in België](../belgique/soins.md)."
 
-#: ../../content/repas/suivi-nutritionnel.md:101
+#: ../../content/repas/suivi-nutritionnel.md:116
 msgid "Weigh regularly to get the weight loss"
 msgstr "Weeg regelmatig om het gewichtsverlies te bekomen"
 
-#: ../../content/repas/suivi-nutritionnel.md:104
-msgid ""
-"The weight loss over 1 and 6 months is computed from the **weights logged in"
-" the vital signs** (nursing notes). Without regular weigh-ins, Resthome "
-"cannot compare and these percentages stay at zero. The **height** is "
-"required for the **BMI**."
-msgstr ""
-"Het gewichtsverlies over 1 en 6 maanden wordt berekend op basis van de "
-"**gewichten genoteerd in de vitale parameters** (verpleegnotities). Zonder "
-"regelmatige wegingen kan Resthome niet vergelijken en blijven deze "
-"percentages op nul. De **lengte** is nodig voor de **BMI**."
-
-#: ../../content/repas/suivi-nutritionnel.md:109
+#: ../../content/repas/suivi-nutritionnel.md:124
 msgid "The latest MNA"
 msgstr "De laatste MNA"
 
-#: ../../content/repas/suivi-nutritionnel.md:111
-msgid ""
-"The **Latest MNA** block summarizes the resident's most recent **MNA** (Mini"
-" Nutritional Assessment) assessment: **date**, **score** and "
-"**interpretation** (normal, at risk, undernourished)."
-msgstr ""
-"Het blok **Laatste MNA** vat de meest recente **MNA**-evaluatie (Mini "
-"Nutritional Assessment) van de bewoner samen: **datum**, **score** en "
-"**interpretatie** (normaal, risico, ondervoed)."
-
-#: ../../content/repas/suivi-nutritionnel.md:115
-msgid "Two buttons give access to it:"
-msgstr "Twee knoppen geven er toegang toe:"
-
-#: ../../content/repas/suivi-nutritionnel.md:117
-msgid ""
-"**New MNA** opens a new MNA assessment pre-filled for this resident, with "
-"the **BMI band** already selected based on their known BMI."
-msgstr ""
-"**Nieuwe MNA** opent een nieuwe MNA-evaluatie, vooringevuld voor deze "
-"bewoner, met de **BMI-klasse** al geselecteerd op basis van zijn gekende "
-"BMI."
-
-#: ../../content/repas/suivi-nutritionnel.md:119
-msgid "**MNA History** opens the list of their previous MNAs."
-msgstr "**MNA-geschiedenis** opent de lijst van zijn vorige MNA's."
-
-#: ../../content/repas/suivi-nutritionnel.md:121
-msgid ""
-"The MNA-SF is a **14-point** scale: **12–14** = normal status, **8–11** = at"
-" risk of undernutrition, **0–7** = undernourished. It is the MNA that "
-"switches the status to **Undernutrition** or **To monitor**. The assessments"
-" are **clinical registers**: see [Clinical "
-"registers](../soins/registres.md)."
-msgstr ""
-"De MNA-SF is een schaal op **14 punten**: **12–14** = normale status, "
-"**8–11** = risico op ondervoeding, **0–7** = ondervoed. Het is de MNA die de"
-" status doet omslaan naar **Ondervoeding** of **Op te volgen**. De "
-"evaluaties zijn **klinische registers**: zie [Klinische "
-"registers](../soins/registres.md)."
-
-#: ../../content/repas/suivi-nutritionnel.md:126
+#: ../../content/repas/suivi-nutritionnel.md:139
 msgid "The ESPEN targets"
 msgstr "De ESPEN-doelen"
 
-#: ../../content/repas/suivi-nutritionnel.md:128
-msgid ""
-"The **Nutritional Needs (ESPEN)** block shows the target **specific to the "
-"resident**, derived from their weight and sex:"
-msgstr ""
-"Het blok **Nutritionele behoeften (ESPEN)** toont het doel **eigen aan de "
-"bewoner**, afgeleid uit zijn gewicht en geslacht:"
-
-#: ../../content/repas/suivi-nutritionnel.md:101
+#: ../../content/repas/suivi-nutritionnel.md:116
 msgid "Target"
 msgstr "Doel"
 
-#: ../../content/repas/suivi-nutritionnel.md:101
+#: ../../content/repas/suivi-nutritionnel.md:116
 msgid "How it is computed"
 msgstr "Hoe het wordt berekend"
 
-#: ../../content/repas/suivi-nutritionnel.md:101
-msgid "**Energy Target (kcal/day)** — energy"
-msgstr "**Energiedoel (kcal/dag)** — energie"
-
-#: ../../content/repas/suivi-nutritionnel.md:101
+#: ../../content/repas/suivi-nutritionnel.md:116
 msgid "Weight × 30 kcal/kg (or 35 if BMI less than or equal to 21)"
 msgstr "Gewicht × 30 kcal/kg (of 35 als BMI kleiner dan of gelijk aan 21)"
 
-#: ../../content/repas/suivi-nutritionnel.md:101
-msgid "**Protein Target (g/day)** — protein"
-msgstr "**Eiwitdoel (g/dag)** — eiwitten"
-
-#: ../../content/repas/suivi-nutritionnel.md:101
+#: ../../content/repas/suivi-nutritionnel.md:116
 msgid "Weight × 1 g/kg"
 msgstr "Gewicht × 1 g/kg"
 
-#: ../../content/repas/suivi-nutritionnel.md:101
-msgid "**Fluid Target (ml/day)** — fluids"
-msgstr "**Vochtdoel (ml/dag)** — vocht"
-
-#: ../../content/repas/suivi-nutritionnel.md:101
+#: ../../content/repas/suivi-nutritionnel.md:116
 msgid "1600 ml (women) / 2000 ml (men)"
 msgstr "1600 ml (vrouwen) / 2000 ml (mannen)"
 
-#: ../../content/repas/suivi-nutritionnel.md:137
-msgid ""
-"The **coefficients** (30/35 kcal, 1 g, 1.6/2.0 L) are set once for the whole"
-" facility in [Meal and nutrition settings](../configuration/reglages-"
-"repas.md). Resthome then derives each resident's individual target."
-msgstr ""
-"De **coëfficiënten** (30/35 kcal, 1 g, 1,6/2,0 L) worden één keer voor de "
-"hele instelling ingesteld in [Instellingen voor maaltijden en "
-"voeding](../configuration/reglages-repas.md). Resthome leidt daaruit "
-"vervolgens het individuele doel van elke bewoner af."
-
-#: ../../content/repas/suivi-nutritionnel.md:141
+#: ../../content/repas/suivi-nutritionnel.md:153
 msgid "Intake vs needs (3-day average)"
 msgstr "Inname vs behoeften (gemiddelde over 3 dagen)"
 
-#: ../../content/repas/suivi-nutritionnel.md:143
-msgid ""
-"The **Intake vs Needs** block compares what the resident actually consumed "
-"with their targets."
-msgstr ""
-"Het blok **Inname vs behoeften** vergelijkt wat de bewoner werkelijk heeft "
-"verbruikt met zijn doelen."
-
-#: ../../content/repas/suivi-nutritionnel.md:146
-msgid ""
-"The **Today** row shows the day's intake: **kcal**, **protein (g)** and "
-"**fluids (ml)**."
-msgstr ""
-"De regel **Vandaag** toont de inname van de dag: **kcal**, **eiwitten (g)** "
-"en **vocht (ml)**."
-
-#: ../../content/repas/suivi-nutritionnel.md:148
-msgid ""
-"Three coverage bars — **Energy Coverage**, **Protein Coverage** and **Fluid "
-"Coverage** — give the **3-day average** as a percentage of the target."
-msgstr ""
-"Drie dekkingsbalken — **Energiedekking**, **Eiwitdekking** en "
-"**Vochtdekking** — geven het **gemiddelde over 3 dagen** als percentage van "
-"het doel."
-
-#: ../../content/repas/suivi-nutritionnel.md:150
-msgid ""
-"Two indicators, **Nutrition Deficit** and **Hydration Deficit**, become true"
-" when coverage falls below the configured threshold (75% by default)."
-msgstr ""
-"Twee indicatoren, **Nutritioneel tekort** en **Hydratatietekort**, worden "
-"waar wanneer de dekking onder de ingestelde drempel zakt (75 % standaard)."
-
-#: ../../content/repas/suivi-nutritionnel.md:153
-msgid "Two buttons round out the block:"
-msgstr "Twee knoppen vervolledigen het blok:"
-
-#: ../../content/repas/suivi-nutritionnel.md:155
-msgid "**Log Drink** quickly records a drink for this resident."
-msgstr "**Drank registreren** noteert snel een drank voor deze bewoner."
-
-#: ../../content/repas/suivi-nutritionnel.md:156
-msgid "**Hydration History** opens their drinks log."
-msgstr "**Hydratatiegeschiedenis** opent het logboek van zijn dranken."
-
-#: ../../content/repas/suivi-nutritionnel.md:158
-msgid "For coverage to fill in"
-msgstr "Opdat de dekking wordt ingevuld"
-
-#: ../../content/repas/suivi-nutritionnel.md:161
-msgid ""
-"Food intake comes from the **meal services**: at each meal, record the "
-"**amount eaten** (see below). The **dishes** must carry their **portions** "
-"and their **per-portion** values (kcal, protein), otherwise the intake stays"
-" at zero. Hydration comes from the **logged drinks**."
-msgstr ""
-"De voedselinname komt van de **maaltijddiensten**: registreer bij elke "
-"maaltijd de **gegeten hoeveelheid** (zie hieronder). De **gerechten** moeten"
-" hun **porties** en hun waarden **per portie** (kcal, eiwitten) dragen, "
-"anders blijft de inname op nul. De hydratatie komt van de **genoteerde "
-"dranken**."
-
-#: ../../content/repas/suivi-nutritionnel.md:167
+#: ../../content/repas/suivi-nutritionnel.md:198
 msgid "Logging food intake"
 msgstr "De voedselinname registreren"
 
-#: ../../content/repas/suivi-nutritionnel.md:169
-msgid ""
-"Energy and protein intake is derived from the **meal services**. On a "
-"service, the **Amount Eaten** field offers: **Not Eaten**, **25%**, **50%**,"
-" **75%** and **Fully Eaten**."
-msgstr ""
-"De inname van energie en eiwitten wordt afgeleid uit de "
-"**maaltijddiensten**. Op een dienst biedt het veld **Gegeten hoeveelheid**: "
-"**Niet gegeten**, **25 %**, **50 %**, **75 %** en **Volledig gegeten**."
-
-#: ../../content/repas/suivi-nutritionnel.md:173
-msgid ""
-"Resthome multiplies the **per-portion** nutritional value of the dishes "
-"served by this percentage to obtain the meal's actual intake, then takes the"
-" **3-day average**. Meal-by-meal entry is done in **Meals → Operations** "
-"(Meal services, Distribution) — see [Menus, diets and hydration](menus-"
-"regimes.md)."
-msgstr ""
-"Resthome vermenigvuldigt de nutritionele waarde **per portie** van de "
-"geserveerde gerechten met dit percentage om de werkelijke inname van de "
-"maaltijd te bekomen, en neemt daarna het **gemiddelde over 3 dagen**. De "
-"invoer maaltijd per maaltijd gebeurt in **Maaltijden → Verrichtingen** "
-"(Maaltijddiensten, Distributie) — zie [Menu's, diëten en hydratatie](menus-"
-"regimes.md)."
-
-#: ../../content/repas/suivi-nutritionnel.md:178
+#: ../../content/repas/suivi-nutritionnel.md:214
 msgid "Recording hydration"
 msgstr "De hydratatie registreren"
 
-#: ../../content/repas/suivi-nutritionnel.md:180
-msgid ""
-"Drinks are logged throughout the day in **Meals → Operations → Hydration**, "
-"a directly editable list (quick entry). Each line records the resident, the "
-"time, the **quantity in milliliters** and the **drink type**: water, "
-"coffee/tea, juice/soda, milk/dairy, soup/broth, oral supplement, other."
-msgstr ""
-"De dranken worden doorheen de dag genoteerd in **Maaltijden → Verrichtingen "
-"→ Hydratatie**, een rechtstreeks bewerkbare lijst (snelle invoer). Elke "
-"regel registreert de bewoner, het uur, de **hoeveelheid in milliliter** en "
-"het **dranktype**: water, koffie/thee, sap/frisdrank, melk/zuivel, "
-"soep/bouillon, oraal supplement, andere."
-
-#: ../../content/repas/suivi-nutritionnel.md:185
-msgid ""
-"You can also log a drink in one click from the Nutrition tab, with the **Log"
-" Drink** button. Resthome adds up the day's drinks, computes the **fluid "
-"coverage** over 3 days and raises an alert if intake is insufficient."
-msgstr ""
-"U kunt ook een drank in één klik registreren vanuit het tabblad Voeding, met"
-" de knop **Drank registreren**. Resthome telt de dranken van de dag op, "
-"berekent de **vochtdekking** over 3 dagen en geeft een waarschuwing als de "
-"inname onvoldoende is."
-
-#: ../../content/repas/suivi-nutritionnel.md:189
+#: ../../content/repas/suivi-nutritionnel.md:227
 msgid ""
 "![Hydration log grouped by resident, with the quantity drunk and the daily "
 "total](../assets/screenshots/repas/hydratation-saisie.png)"
@@ -586,7 +240,7 @@ msgstr ""
 "hoeveelheid en het dagtotaal](../assets/screenshots/repas/hydratation-"
 "saisie.png)"
 
-#: ../../content/repas/suivi-nutritionnel.md:189
+#: ../../content/repas/suivi-nutritionnel.md:227
 msgid ""
 "Hydration log grouped by resident, with the quantity drunk and the daily "
 "total"
@@ -594,236 +248,636 @@ msgstr ""
 "Hydratatieregistratie gegroepeerd per bewoner, met de gedronken hoeveelheid "
 "en het dagtotaal"
 
-#: ../../content/repas/suivi-nutritionnel.md:191
+#: ../../content/repas/suivi-nutritionnel.md:229
 msgid "The nutrition dashboard"
 msgstr "Het dashboard voeding"
 
-#: ../../content/repas/suivi-nutritionnel.md:193
-msgid ""
-"Open **Meals → Reporting → Statistics**: below the general cards (Residents,"
-" Menus, Alerts), the page brings together three nutritional banners that "
-"only appear if they concern at least one resident."
-msgstr ""
-"Open **Maaltijden → Rapportering → Statistieken**: onder de algemene kaarten"
-" (Bewoners, Menu's, Waarschuwingen) brengt de pagina drie nutritionele "
-"banners samen die enkel verschijnen als ze minstens één bewoner betreffen."
-
-#: ../../content/repas/suivi-nutritionnel.md:158
+#: ../../content/repas/suivi-nutritionnel.md:176
 msgid "Banner"
 msgstr "Banner"
 
-#: ../../content/repas/suivi-nutritionnel.md:158
+#: ../../content/repas/suivi-nutritionnel.md:176
 msgid "Residents concerned"
 msgstr "Betrokken bewoners"
 
-#: ../../content/repas/suivi-nutritionnel.md:158
+#: ../../content/repas/suivi-nutritionnel.md:176
 msgid "Button"
 msgstr "Knop"
 
-#: ../../content/repas/suivi-nutritionnel.md:158
-msgid "**Undernutrition risk** (red)"
-msgstr "**Risico op ondervoeding** (rood)"
-
-#: ../../content/repas/suivi-nutritionnel.md:158
+#: ../../content/repas/suivi-nutritionnel.md:176
 msgid "Re-screen (MNA) or Undernutrition status"
-msgstr "Status Opnieuw screenen (MNA) of Ondervoeding"
+msgstr "Status Herscreenen (MNA) of Ondervoeding"
 
-#: ../../content/repas/suivi-nutritionnel.md:158
-msgid "**Review** opens the list of these residents"
-msgstr "**Nakijken** opent de lijst van deze bewoners"
-
-#: ../../content/repas/suivi-nutritionnel.md:158
-msgid "**Nutritional deficit** (orange)"
-msgstr "**Nutritioneel tekort** (oranje)"
-
-#: ../../content/repas/suivi-nutritionnel.md:158
+#: ../../content/repas/suivi-nutritionnel.md:176
 msgid "Intake below the ESPEN target"
 msgstr "Inname onder het ESPEN-doel"
 
-#: ../../content/repas/suivi-nutritionnel.md:158
-msgid "**Hydration deficit** (blue)"
-msgstr "**Hydratatietekort** (blauw)"
-
-#: ../../content/repas/suivi-nutritionnel.md:158
+#: ../../content/repas/suivi-nutritionnel.md:176
 msgid "Fluid intake below the target"
 msgstr "Vochtinname onder het doel"
 
-#: ../../content/repas/suivi-nutritionnel.md:203
-msgid ""
-"Each **Review** button opens the filtered list of residents, on their full "
-"record (Nutrition tab included) to act directly."
-msgstr ""
-"Elke knop **Nakijken** opent de gefilterde lijst van bewoners, op hun "
-"volledige fiche (tabblad Voeding inbegrepen) om rechtstreeks te handelen."
-
-#: ../../content/repas/suivi-nutritionnel.md:208
+#: ../../content/repas/suivi-nutritionnel.md:246
 msgid "The automatic alerts"
 msgstr "De automatische waarschuwingen"
 
-#: ../../content/repas/suivi-nutritionnel.md:210
-msgid ""
-"A **daily cron** refreshes the screening and creates **activities** for "
-"residents who fall behind. Activities are capped at **once every 30 days** "
-"per resident to avoid duplicates."
-msgstr ""
-"Een **dagelijkse cron** vernieuwt de screening en maakt **activiteiten** aan"
-" voor bewoners die achterop raken. De activiteiten zijn beperkt tot "
-"**eenmaal per 30 dagen** per bewoner om dubbels te vermijden."
-
-#: ../../content/repas/suivi-nutritionnel.md:158
+#: ../../content/repas/suivi-nutritionnel.md:176
 msgid "Alert"
 msgstr "Waarschuwing"
 
-#: ../../content/repas/suivi-nutritionnel.md:158
+#: ../../content/repas/suivi-nutritionnel.md:176
 msgid "Condition"
 msgstr "Voorwaarde"
 
-#: ../../content/repas/suivi-nutritionnel.md:158
+#: ../../content/repas/suivi-nutritionnel.md:176
 msgid "Recipient"
 msgstr "Ontvanger"
 
-#: ../../content/repas/suivi-nutritionnel.md:158
-msgid "**Undernutrition — redo/renew the MNA**"
-msgstr "**Ondervoeding — de MNA opnieuw doen/vernieuwen**"
-
-#: ../../content/repas/suivi-nutritionnel.md:158
+#: ../../content/repas/suivi-nutritionnel.md:176
 msgid "Head nurse, otherwise manager"
 msgstr "Hoofdverpleegkundige, anders verantwoordelijke"
 
-#: ../../content/repas/suivi-nutritionnel.md:158
-msgid "**Nutritional deficit — intake below target**"
-msgstr "**Nutritioneel tekort — inname onder het doel**"
-
-#: ../../content/repas/suivi-nutritionnel.md:158
+#: ../../content/repas/suivi-nutritionnel.md:176
 msgid "Energy or protein coverage below the threshold"
 msgstr "Energie- of eiwitdekking onder de drempel"
 
-#: ../../content/repas/suivi-nutritionnel.md:158
-msgid "Kitchen (dietitian), otherwise head nurse, otherwise manager"
-msgstr ""
-"Keuken (diëtist), anders hoofdverpleegkundige, anders verantwoordelijke"
-
-#: ../../content/repas/suivi-nutritionnel.md:158
+#: ../../content/repas/suivi-nutritionnel.md:176
 msgid "**Hydration deficit — fluid intake below target**"
 msgstr "**Hydratatietekort — vochtinname onder het doel**"
 
-#: ../../content/repas/suivi-nutritionnel.md:158
+#: ../../content/repas/suivi-nutritionnel.md:176
 msgid "Fluid coverage below the threshold"
 msgstr "Vochtdekking onder de drempel"
 
-#: ../../content/repas/suivi-nutritionnel.md:220
-msgid ""
-"In addition to the activities, the Nutrition tab shows a **warning banner** "
-"at the top as soon as the status is Re-screen (MNA) or Undernutrition, "
-"recalling the weight loss and prompting to redo the MNA."
-msgstr ""
-"Naast de activiteiten toont het tabblad Voeding bovenaan een "
-"**waarschuwingsbanner** zodra de status Opnieuw screenen (MNA) of "
-"Ondervoeding is, die het gewichtsverlies in herinnering brengt en aanspoort "
-"om de MNA opnieuw te doen."
-
-#: ../../content/repas/suivi-nutritionnel.md:224
+#: ../../content/repas/suivi-nutritionnel.md:258
 msgid "Set the deficit threshold"
 msgstr "De tekortdrempel instellen"
 
-#: ../../content/repas/suivi-nutritionnel.md:227
-msgid ""
-"The **75%** coverage threshold that triggers the deficit alerts is changed "
-"in [Meal and nutrition settings](../configuration/reglages-repas.md). Lower "
-"it to be alerted later, raise it to be alerted earlier."
-msgstr ""
-"De dekkingsdrempel van **75 %** die de tekortwaarschuwingen activeert, wordt"
-" gewijzigd in [Instellingen voor maaltijden en "
-"voeding](../configuration/reglages-repas.md). Verlaag hem om later "
-"gewaarschuwd te worden, verhoog hem om vroeger gewaarschuwd te worden."
-
-#: ../../content/repas/suivi-nutritionnel.md:232
+#: ../../content/repas/suivi-nutritionnel.md:267
 msgid "Key takeaways"
 msgstr "Kernpunten om te onthouden"
 
-#: ../../content/repas/suivi-nutritionnel.md:234
-msgid ""
-"The resident's **Nutrition tab** brings together the undernutrition status, "
-"latest MNA, ESPEN targets and intake coverage — read-only for the computed "
-"measurements."
-msgstr ""
-"Het **tabblad Voeding** van de bewoner brengt de ondervoedingsstatus, de "
-"laatste MNA, de ESPEN-doelen en de dekking van de inname samen — alleen-"
-"lezen voor de berekende metingen."
-
-#: ../../content/repas/suivi-nutritionnel.md:236
-msgid ""
-"The **undernutrition status** follows the screening rules: weight loss, age-"
-"adjusted BMI, overdue MNA or \"undernourished\" MNA."
-msgstr ""
-"De **ondervoedingsstatus** volgt de screeningsregels: gewichtsverlies, "
-"leeftijdsgecorrigeerde BMI, achterstallige MNA of MNA « ondervoed »."
-
-#: ../../content/repas/suivi-nutritionnel.md:238
-msgid ""
-"The **targets** (energy, protein, fluids) are specific to each resident, "
-"computed from their weight and sex using the configurable ESPEN "
-"coefficients."
-msgstr ""
-"De **doelen** (energie, eiwitten, vocht) zijn eigen aan elke bewoner, "
-"berekend op basis van zijn gewicht en geslacht met de configureerbare ESPEN-"
-"coëfficiënten."
-
-#: ../../content/repas/suivi-nutritionnel.md:240
-msgid ""
-"The **intake** is derived from the **amount eaten** at meals and the "
-"**logged drinks**; coverage is a 3-day average."
-msgstr ""
-"De **inname** wordt afgeleid uit de **gegeten hoeveelheid** bij de "
-"maaltijden en de **genoteerde dranken**; de dekking is een gemiddelde over 3"
-" dagen."
-
-#: ../../content/repas/suivi-nutritionnel.md:242
-msgid ""
-"The **Meals dashboard** (Statistics) and the **daily alerts** surface at-"
-"risk residents; this monitoring does **not** change the care allowance, "
-"which follows the dependency assessment."
-msgstr ""
-"Het **dashboard Maaltijden** (Statistieken) en de **dagelijkse "
-"waarschuwingen** brengen de risicobewoners naar boven; deze opvolging "
-"wijzigt het zorgforfait **niet**, dat de afhankelijkheidsevaluatie volgt."
-
-#: ../../content/repas/suivi-nutritionnel.md:246
+#: ../../content/repas/suivi-nutritionnel.md:280
 msgid "Further reading"
 msgstr "Verder"
 
-#: ../../content/repas/suivi-nutritionnel.md:248
-msgid "[Menus, diets and hydration](menus-regimes.md)"
-msgstr "[Menu's, diëten en hydratatie](menus-regimes.md)"
-
-#: ../../content/repas/suivi-nutritionnel.md:249
-msgid "[Family portal and kiosk](portail-familles.md)"
-msgstr "[Familieportaal en kiosk](portail-familles.md)"
-
-#: ../../content/repas/suivi-nutritionnel.md:250
-msgid "[Meals overview](index.md)"
-msgstr "[Maaltijden-overzicht](index.md)"
-
-#: ../../content/repas/suivi-nutritionnel.md:251
+#: ../../content/repas/suivi-nutritionnel.md:285
 msgid "[Clinical registers (MNA)](../soins/registres.md)"
 msgstr "[Klinische registers (MNA)](../soins/registres.md)"
 
-#: ../../content/repas/suivi-nutritionnel.md:252
+#: ../../content/repas/suivi-nutritionnel.md:286
 msgid "[Meal and nutrition settings](../configuration/reglages-repas.md)"
 msgstr ""
 "[Instellingen voor maaltijden en voeding](../configuration/reglages-"
 "repas.md)"
 
-#~ msgid ""
-#~ "flowchart TD\n"
-#~ "    A[Weight, height and BMI up to date] --> B{Last MNA = undernourished?}\n"
-#~ "    B -- Yes --> C[Undernutrition]\n"
-#~ "    B -- No --> D{AViQ signal active?}\n"
-#~ "    D -- Yes --> E[Re-screen MNA]\n"
-#~ "    D -- No --> F{Last MNA = at risk?}\n"
-#~ "    F -- Yes --> G[To monitor]\n"
-#~ "    F -- No --> H[No concern]"
-#~ msgstr ""
+#: ../../content/repas/suivi-nutritionnel.md:8
+msgid ""
+"Screen for undernutrition and track intake in a nursing home: risk status, "
+"MNA, ESPEN targets, food and fluid coverage, and automatic alerts."
+msgstr ""
+"Screen op ondervoeding en volg de inname op in een woonzorgcentrum: "
+"risicostatus, MNA, ESPEN-doelen, voedings- en vochtdekking, en automatische "
+"waarschuwingen."
 
-#~ msgid "[The allowance and the Katz category](../belgique/katz.md)"
-#~ msgstr "[Het forfait en de Katz-categorie](../belgique/katz.md)"
+#: ../../content/repas/suivi-nutritionnel.md:13
+msgid ""
+"Resthome applies screening rules drawn from ESPEN and updates a status: a "
+"weight loss of more than 5% in 1 month or more than 10% in 6 months, a BMI "
+"below 23 in a resident over 70, or an MNA missing or more than 6 months old "
+"move the resident to Re-screen (MNA). A latest MNA of \"Malnourished\" "
+"places the resident directly in Undernutrition. The status is recalculated "
+"on every weight change and once a day."
+msgstr ""
+"Resthome past screeningsregels toe die op ESPEN gebaseerd zijn en werkt een "
+"status bij: een gewichtsverlies van meer dan 5 % in 1 maand of meer dan 10 %"
+" in 6 maanden, een BMI onder 23 bij een bewoner ouder dan 70, of een MNA die"
+" ontbreekt of ouder is dan 6 maanden, zetten de bewoner op « Herscreenen "
+"(MNA) ». Een laatste MNA « Ondervoed » zet de bewoner rechtstreeks op « "
+"Ondervoeding ». De status wordt bij elke gewichtswijziging en eenmaal per "
+"dag herberekend."
+
+#: ../../content/repas/suivi-nutritionnel.md:22
+msgid ""
+"From the meal round: for each plate served, you record the amount eaten (Not"
+" Eaten, 25%, 50%, 75%, Fully Eaten). Resthome multiplies the per-portion "
+"values of the dishes served by this percentage, adds the logged drinks, then"
+" compares the 3-day average with the targets."
+msgstr ""
+"Vanuit de maaltijdronde: voor elk geserveerd bord noteert u de gegeten "
+"hoeveelheid (Niet gegeten, 25%, 50%, 75%, Volledig gegeten). Resthome "
+"vermenigvuldigt de waarden per portie van de geserveerde gerechten met dat "
+"percentage, telt de genoteerde dranken erbij en vergelijkt daarna het "
+"gemiddelde over 3 dagen met de doelen."
+
+#: ../../content/repas/suivi-nutritionnel.md:24
+msgid "Why does the Nutrition tab say nothing was recorded?"
+msgstr "Waarom zegt het tabblad Voeding dat er niets werd genoteerd?"
+
+#: ../../content/repas/suivi-nutritionnel.md:25
+msgid ""
+"No meal was served or refused, or no drink was logged, over the last three "
+"days. Resthome then shows no coverage and raises no deficit: an empty record"
+" is not a good score. Record the round and the drinks."
+msgstr ""
+"Er werd de laatste drie dagen geen maaltijd geserveerd of geweigerd, of geen"
+" drank genoteerd. Resthome toont dan geen dekking en meldt geen tekort: een "
+"leeg dossier is geen goede score. Registreer de ronde en de dranken."
+
+#: ../../content/repas/suivi-nutritionnel.md:28
+msgid ""
+"A daily task creates a to-do activity. The undernutrition alert goes to the "
+"head nurse (then the manager); nutritional deficit or hydration deficit "
+"alerts go first to the kitchen staff, then to the head nurse, then to the "
+"manager. Each alert is repeated at most once every 30 days per resident."
+msgstr ""
+"Een dagelijkse taak maakt een te doen activiteit aan. De waarschuwing voor "
+"ondervoeding gaat naar de hoofdverpleegkundige (daarna de "
+"verantwoordelijke); de waarschuwingen voor voedingstekort of "
+"hydratatietekort gaan eerst naar het keukenpersoneel, daarna naar de "
+"hoofdverpleegkundige, daarna naar de verantwoordelijke. Elke waarschuwing "
+"wordt hoogstens eenmaal per 30 dagen per bewoner herhaald."
+
+#: ../../content/repas/suivi-nutritionnel.md:31
+msgid ""
+"Resthome screens for **undernutrition** and tracks each resident's "
+"**intake**, drawing on the geriatric **ESPEN** recommendations and on "
+"established screening thresholds. Everything is read in the resident's "
+"**Nutrition** tab and on the **Meals** statistics page."
+msgstr ""
+"Resthome screent op **ondervoeding** en volgt de **inname** van elke bewoner"
+" op, op basis van de geriatrische aanbevelingen van **ESPEN** en erkende "
+"screeningsdrempels. Alles is te lezen in het tabblad **Voeding** van de "
+"bewoner en op de statistiekenpagina **Maaltijden**."
+
+#: ../../content/repas/suivi-nutritionnel.md:36
+msgid ""
+"The principle: you enter the **weight** and **height**, record the **meals "
+"served** and the **drinks**; Resthome derives an **undernutrition risk "
+"status**, **targets** for energy, protein and fluids, a **coverage** of "
+"intake, and raises **alerts** when a resident falls behind."
+msgstr ""
+"Het principe: u voert het **gewicht** en de **lengte** in, registreert de "
+"**geserveerde maaltijden** en de **dranken**; Resthome leidt daaruit een "
+"**risicostatus voor ondervoeding** af, **doelen** voor energie, eiwitten en "
+"vocht, een **dekking** van de inname, en geeft **waarschuwingen** wanneer "
+"een bewoner achterop raakt."
+
+#: ../../content/repas/suivi-nutritionnel.md:51
+msgid ""
+"Open a resident, then the **Nutrition** tab. The clinical blocks (status, "
+"MNA, targets, intake) only appear for the residents whose care the home "
+"follows; a resident the home only feeds keeps the diets, texture, allergies "
+"and preferences."
+msgstr ""
+"Open een bewoner en daarna het tabblad **Voeding**. De klinische blokken "
+"(status, MNA, doelen, inname) verschijnen alleen voor de bewoners van wie "
+"het huis de zorg opvolgt; een bewoner die het huis alleen voedt, behoudt de "
+"diëten, textuur, allergieën en voorkeuren."
+
+#: ../../content/repas/suivi-nutritionnel.md:62
+msgid ""
+"The **Undernutrition Status** block is computed by Resthome: you do not edit"
+" the status by hand. It shows a coloured badge and the measurements that "
+"explain it."
+msgstr ""
+"Het blok **Ondervoedingsstatus** wordt door Resthome berekend: u wijzigt de "
+"status niet met de hand. Het toont een gekleurde badge en de metingen die "
+"hem verklaren."
+
+#: ../../content/repas/suivi-nutritionnel.md:41
+msgid "Badge colour"
+msgstr "Kleur van de badge"
+
+#: ../../content/repas/suivi-nutritionnel.md:41
+msgid "No screening signal"
+msgstr "Geen screeningssignaal"
+
+#: ../../content/repas/suivi-nutritionnel.md:41
+msgid "Last MNA \"At Risk\""
+msgstr "Laatste MNA « Risico »"
+
+#: ../../content/repas/suivi-nutritionnel.md:41
+msgid "Last MNA \"Malnourished\""
+msgstr "Laatste MNA « Ondervoed »"
+
+#: ../../content/repas/suivi-nutritionnel.md:72
+msgid ""
+"Below the badge: the **weight**, the **Height (cm)**, the **BMI**, **Low BMI"
+" (age-adjusted)** and the **weight loss** over 1 month and over 6 months."
+msgstr ""
+"Onder de badge: het **gewicht**, de **Hoogte (cm)**, de **BMI**, **Lage BMI "
+"(leeftijdsgecorrigeerd)** en het **gewichtsverlies** over 1 maand en over 6 "
+"maanden."
+
+#: ../../content/repas/suivi-nutritionnel.md:75
+msgid "Enter the height here"
+msgstr "Voer de lengte hier in"
+
+#: ../../content/repas/suivi-nutritionnel.md:78
+msgid ""
+"The height is entered directly in the tab. Without it, Resthome shows "
+"**Height missing**: the BMI cannot be computed and the low-BMI criterion is "
+"not evaluated, so a thin resident who has not lost weight is not caught."
+msgstr ""
+"De lengte voert u rechtstreeks in het tabblad in. Zonder lengte toont "
+"Resthome **Lengte ontbreekt**: de BMI kan niet worden berekend en het "
+"criterium van een lage BMI wordt niet geëvalueerd, zodat een magere bewoner "
+"die geen gewicht heeft verloren niet wordt opgemerkt."
+
+#: ../../content/repas/suivi-nutritionnel.md:102
+msgid ""
+"**overdue MNA**: no MNA, or a last MNA more than 6 months old (not for "
+"someone who only comes by day)."
+msgstr ""
+"**achterstallige MNA**: geen MNA, of een laatste MNA ouder dan 6 maanden "
+"(niet voor iemand die alleen overdag komt)."
+
+#: ../../content/repas/suivi-nutritionnel.md:113
+msgid ""
+"When the status is **Re-screen (MNA)** or **Undernutrition**, a banner at "
+"the top of the tab recalls the weight loss and asks to perform or renew the "
+"MNA."
+msgstr ""
+"Wanneer de status **Herscreenen (MNA)** of **Ondervoeding** is, herinnert "
+"een banner bovenaan het tabblad aan het gewichtsverlies en vraagt om de MNA "
+"uit te voeren of te hernieuwen."
+
+#: ../../content/repas/suivi-nutritionnel.md:119
+msgid ""
+"The weight loss over 1 and 6 months is computed from the **weights logged in"
+" the vital signs**. Without regular weigh-ins, Resthome cannot compare and "
+"these percentages stay at zero."
+msgstr ""
+"Het gewichtsverlies over 1 en 6 maanden wordt berekend op basis van de "
+"**gewichten die bij de vitale parameters zijn geregistreerd**. Zonder "
+"regelmatige wegingen kan Resthome niet vergelijken en blijven die "
+"percentages op nul."
+
+#: ../../content/repas/suivi-nutritionnel.md:126
+msgid ""
+"The **Latest MNA** block shows the resident's most recent **MNA** (Mini "
+"Nutritional Assessment): **date**, **score** and **result** (**Normal**, "
+"**At Risk**, **Malnourished**)."
+msgstr ""
+"Het blok **Laatste MNA** toont de recentste **MNA** (Mini Nutritional "
+"Assessment) van de bewoner: **datum**, **score** en **resultaat** "
+"(**Normaal**, **Risico**, **Ondervoed**)."
+
+#: ../../content/repas/suivi-nutritionnel.md:130
+msgid ""
+"**New MNA** opens a new MNA pre-filled for this resident, with the **BMI "
+"band** already chosen from their known BMI."
+msgstr ""
+"**Nieuwe MNA** opent een nieuwe MNA die voor deze bewoner is voorgevuld, met"
+" de **BMI-klasse** al gekozen op basis van zijn gekende BMI."
+
+#: ../../content/repas/suivi-nutritionnel.md:132
+msgid "**MNA History** opens their previous MNAs."
+msgstr "**MNA-geschiedenis** opent zijn vorige MNA's."
+
+#: ../../content/repas/suivi-nutritionnel.md:134
+msgid ""
+"The MNA-SF is a **14-point** scale: **12–14** = normal, **8–11** = at risk, "
+"**0–7** = malnourished. It is the MNA that switches the status to "
+"**Undernutrition** or **To monitor**. See [Clinical "
+"registers](../soins/registres.md)."
+msgstr ""
+"De MNA-SF is een schaal op **14 punten**: **12–14** = normaal, **8–11** = "
+"risico, **0–7** = ondervoed. Het is de MNA die de status op **Ondervoeding**"
+" of **Op te volgen** zet. Zie [Klinische registers](../soins/registres.md)."
+
+#: ../../content/repas/suivi-nutritionnel.md:141
+msgid ""
+"The **Nutritional Needs (ESPEN)** block shows the targets **specific to the "
+"resident**, derived from their weight and sex:"
+msgstr ""
+"Het blok **Voedingsbehoeften (ESPEN)** toont de doelen **eigen aan de "
+"bewoner**, afgeleid van zijn gewicht en geslacht:"
+
+#: ../../content/repas/suivi-nutritionnel.md:116
+msgid "**Energy Target (kcal/day)**"
+msgstr "**Energiedoel (kcal/dag)**"
+
+#: ../../content/repas/suivi-nutritionnel.md:116
+msgid "**Protein Target (g/day)**"
+msgstr "**Eiwitdoel (g/dag)**"
+
+#: ../../content/repas/suivi-nutritionnel.md:116
+msgid "**Fluid Target (ml/day)**"
+msgstr "**Vochtdoel (ml/dag)**"
+
+#: ../../content/repas/suivi-nutritionnel.md:150
+msgid ""
+"The coefficients are set once for the whole home in [Meal and nutrition "
+"settings](../configuration/reglages-repas.md)."
+msgstr ""
+"De coëfficiënten worden eenmaal voor het hele huis ingesteld in "
+"[Instellingen voor maaltijden en voeding](../configuration/reglages-"
+"repas.md)."
+
+#: ../../content/repas/suivi-nutritionnel.md:155
+msgid ""
+"The **Intake vs Needs (3-day avg)** block compares what the resident "
+"actually consumed with their targets."
+msgstr ""
+"Het blok **Inname vs behoeften (gemiddelde 3 dagen)** vergelijkt wat de "
+"bewoner werkelijk heeft verbruikt met zijn doelen."
+
+#: ../../content/repas/suivi-nutritionnel.md:158
+msgid "**Today** — the day's intake: kcal, protein (g) and fluids (ml)."
+msgstr "**Vandaag** — de inname van de dag: kcal, eiwitten (g) en vocht (ml)."
+
+#: ../../content/repas/suivi-nutritionnel.md:159
+msgid ""
+"**Energy Coverage**, **Protein Coverage** and **Fluid Coverage** — the "
+"**3-day average** as a percentage of the target."
+msgstr ""
+"**Energiedekking**, **Eiwitdekking** en **Vochtdekking** — het **gemiddelde "
+"over 3 dagen** als percentage van het doel."
+
+#: ../../content/repas/suivi-nutritionnel.md:161
+msgid ""
+"**Nutrition Deficit** and **Hydration Deficit** — ticked when coverage falls"
+" below the configured threshold (75% by default)."
+msgstr ""
+"**Voedingstekort** en **Hydratatietekort** — aangevinkt wanneer de dekking "
+"onder de ingestelde drempel zakt (standaard 75 %)."
+
+#: ../../content/repas/suivi-nutritionnel.md:163
+msgid ""
+"**Log Drink** records a drink for this resident; **Hydration History** opens"
+" their drinks."
+msgstr ""
+"**Drank noteren** registreert een drank voor deze bewoner; "
+"**Hydratatiegeschiedenis** opent zijn dranken."
+
+#: ../../content/repas/suivi-nutritionnel.md:166
+msgid "How the average is read:"
+msgstr "Hoe het gemiddelde wordt gelezen:"
+
+#: ../../content/repas/suivi-nutritionnel.md:168
+msgid ""
+"Only the meals **served or refused** count as recorded; a place laid but not"
+" dealt with is not a meal."
+msgstr ""
+"Alleen de maaltijden die **geserveerd of geweigerd** zijn, tellen als "
+"geregistreerd; een gedekt couvert waar niemand iets mee deed, is geen "
+"maaltijd."
+
+#: ../../content/repas/suivi-nutritionnel.md:170
+msgid ""
+"A resident admitted less than three days ago is averaged over the days since"
+" their arrival."
+msgstr ""
+"Voor een bewoner die minder dan drie dagen geleden is opgenomen, loopt het "
+"gemiddelde over de dagen sinds zijn aankomst."
+
+#: ../../content/repas/suivi-nutritionnel.md:172
+msgid ""
+"A resident who eats only some meals in the home is compared with the share "
+"of the day those meals represent (**Share of the Day's Needs** of the meal "
+"types), on the days they came."
+msgstr ""
+"Een bewoner die maar sommige maaltijden in het huis eet, wordt vergeleken "
+"met het deel van de dag dat die maaltijden vertegenwoordigen (**Aandeel in "
+"de dagbehoefte** van de maaltijdtypes), op de dagen dat hij er was."
+
+#: ../../content/repas/suivi-nutritionnel.md:176
+msgid "Nothing recorded is not a good score"
+msgstr "Niets geregistreerd is geen goede score"
+
+#: ../../content/repas/suivi-nutritionnel.md:179
+msgid ""
+"When no meal or no drink was recorded over the last three days, the tab says"
+" so (**No meal recorded over the last three days**, **No drink recorded over"
+" the last three days**) instead of showing a coverage, and no deficit is "
+"raised. Record the round and the drinks: see [The meal "
+"round](distribution.md)."
+msgstr ""
+"Wanneer de laatste drie dagen geen maaltijd of geen drank werd "
+"geregistreerd, zegt het tabblad dat (**Geen maaltijd genoteerd in de laatste"
+" drie dagen**, **Geen drank genoteerd in de laatste drie dagen**) in plaats "
+"van een dekking te tonen, en wordt er geen tekort gemeld. Registreer de "
+"ronde en de dranken: zie [De maaltijdronde](distribution.md)."
+
+#: ../../content/repas/suivi-nutritionnel.md:185
+msgid "Diets, textures and preferences"
+msgstr "Diëten, texturen en voorkeuren"
+
+#: ../../content/repas/suivi-nutritionnel.md:187
+msgid ""
+"**Diets and Textures** — **Dietary Regimes**, **Texture**, **Meal Autonomy**"
+" (**Autonomous**, **Supervised**, **Assisted**, **Fed**) and **Notify Family"
+" of Meals** (the family e-mails, see [Family portal and public "
+"menu](portail-familles.md))."
+msgstr ""
+"**Diëten en texturen** — **Diëten**, **Textuur**, **Maaltijd autonomie** "
+"(**Autonoom**, **Onder toezicht**, **Geassisteerd**, **Gevoed**) en "
+"**Familie informeren over de maaltijden** (de e-mails aan de familie, zie "
+"[Familieportaal en publiek menu](portail-familles.md))."
+
+#: ../../content/repas/suivi-nutritionnel.md:191
+msgid "**Food Allergies** — the food allergies of the resident."
+msgstr "**Voedselallergieën** — de voedselallergieën van de bewoner."
+
+#: ../../content/repas/suivi-nutritionnel.md:192
+msgid ""
+"**Preferences** and **Dislikes** — what the resident likes and does not "
+"like; carers see them at the table in the care app."
+msgstr ""
+"**Voorkeuren** en **Afkeer** — wat de bewoner lust en niet lust; de "
+"zorgverleners zien ze aan tafel in de zorg-app."
+
+#: ../../content/repas/suivi-nutritionnel.md:195
+msgid ""
+"See [Menus, diets and allergies](menus-regimes.md) and [Food textures "
+"(IDDSI)](textures.md)."
+msgstr ""
+"Zie [Menu's, diëten en allergieën](menus-regimes.md) en [Voedingstexturen "
+"(IDDSI)](textures.md)."
+
+#: ../../content/repas/suivi-nutritionnel.md:200
+msgid ""
+"Energy and protein intake comes from the **meal round**: after each meal, "
+"record the **Amount Eaten** of the plate (**Not Eaten**, **25%**, **50%**, "
+"**75%**, **Fully Eaten**), at the desk or in the care app. A refused plate "
+"counts as not eaten."
+msgstr ""
+"De inname van energie en eiwitten komt uit de **maaltijdronde**: noteer na "
+"elke maaltijd de **Hoeveelheid gegeten** van het bord (**Niet gegeten**, "
+"**25%**, **50%**, **75%**, **Volledig gegeten**), op kantoor of in de zorg-"
+"app. Een geweigerd bord telt als niet gegeten."
+
+#: ../../content/repas/suivi-nutritionnel.md:205
+msgid ""
+"Resthome multiplies the **per-portion** values of the dishes served by this "
+"percentage. The dishes must carry their values and portions: see [Dishes and"
+" nutritional values](plats.md)."
+msgstr ""
+"Resthome vermenigvuldigt de waarden **per portie** van de geserveerde "
+"gerechten met dat percentage. De gerechten moeten hun waarden en porties "
+"hebben: zie [Gerechten en voedingswaarden](plats.md)."
+
+#: ../../content/repas/suivi-nutritionnel.md:209
+msgid ""
+"For the residents followed for nutrition (status at risk or confirmed, a "
+"deficit, or an **Intake monitoring** care at that meal), the amount is "
+"**owed**: their plates carry **Intake Required** and the **Amount to Note** "
+"filter lists the ones still missing."
+msgstr ""
+"Voor de bewoners die voor voeding worden opgevolgd (status met risico of "
+"bevestigd, een tekort, of een zorg **Opvolging van de inname** bij die "
+"maaltijd), is de hoeveelheid **verplicht**: hun borden dragen **Inname "
+"verplicht** en de filter **Hoeveelheid te noteren** toont de borden die nog "
+"ontbreken."
+
+#: ../../content/repas/suivi-nutritionnel.md:216
+msgid ""
+"Drinks are logged in **Meals → Operations → Hydration**, a list you fill in "
+"directly. It opens on today's drinks grouped by resident, with the daily "
+"total. Each line records the date and time, the resident, the **Type** "
+"(**Water**, **Coffee / Tea**, **Juice / Soft drink**, **Milk / Dairy**, "
+"**Soup / Broth**, **Oral supplement**, **Other**) and the **Amount (ml)**."
+msgstr ""
+"De dranken worden genoteerd in **Maaltijden → Operaties → Hydratatie**, een "
+"lijst die u rechtstreeks invult. Ze opent op de dranken van vandaag, "
+"gegroepeerd per bewoner, met het dagtotaal. Elke regel registreert de datum "
+"en het uur, de bewoner, het **Type** (**Water**, **Koffie / Thee**, **Sap / "
+"Frisdrank**, **Melk / Zuivel**, **Soep / Bouillon**, **Oraal supplement**, "
+"**Andere**) en de **Hoeveelheid (ml)**."
+
+#: ../../content/repas/suivi-nutritionnel.md:222
+msgid ""
+"You can also log a drink from the Nutrition tab with **Log Drink**, or on "
+"the floor with the **Hydration** screen of the care app, one tap per glass: "
+"see [Meals and drinks in the care app](app-soins.md). A glass logged there "
+"also marks done the **Hydration round** care of its period."
+msgstr ""
+"U kunt ook een drank noteren vanuit het tabblad Voeding met **Drank "
+"noteren**, of op de werkvloer met het scherm **Hydratatie** van de zorg-app,"
+" één tik per glas: zie [Maaltijden en dranken in de zorg-app](app-soins.md)."
+" Een glas dat daar wordt genoteerd, markeert ook de zorg **Drinkronde** van "
+"zijn periode als gedaan."
+
+#: ../../content/repas/suivi-nutritionnel.md:231
+msgid ""
+"Open **Meals → Reporting → Statistics**. Below the cards **Residents**, "
+"**Menus**, **Warnings** and **Critical** (the last two open the alerts), "
+"three banners appear when they concern at least one resident:"
+msgstr ""
+"Open **Maaltijden → Rapportering → Statistieken**. Onder de kaarten "
+"**Bewoners**, **Menu's**, **Waarschuwingen** en **Kritiek** (de laatste twee"
+" openen de waarschuwingen) verschijnen drie banners wanneer ze minstens één "
+"bewoner betreffen:"
+
+#: ../../content/repas/suivi-nutritionnel.md:176
+msgid "Undernutrition risk (red)"
+msgstr "Risico op ondervoeding (rood)"
+
+#: ../../content/repas/suivi-nutritionnel.md:176
+msgid "**Review** opens these residents"
+msgstr "**Herziening** opent deze bewoners"
+
+#: ../../content/repas/suivi-nutritionnel.md:176
+msgid "Nutritional deficit (orange)"
+msgstr "Voedingstekort (oranje)"
+
+#: ../../content/repas/suivi-nutritionnel.md:176
+msgid "Hydration deficit (blue)"
+msgstr "Hydratatietekort (blauw)"
+
+#: ../../content/repas/suivi-nutritionnel.md:241
+msgid ""
+"The **Today's Service** card at the bottom shows the meals served, pending "
+"and absent today."
+msgstr ""
+"De kaart **Service van vandaag** onderaan toont de maaltijden die vandaag "
+"geserveerd, in afwachting en afwezig zijn."
+
+#: ../../content/repas/suivi-nutritionnel.md:248
+msgid ""
+"Every day, Resthome refreshes the screening, the targets and the coverage, "
+"then creates **activities** for the residents who fall behind. Each alert is"
+" repeated at most **once every 30 days** per resident."
+msgstr ""
+"Elke dag vernieuwt Resthome de screening, de doelen en de dekking, en maakt "
+"daarna **activiteiten** aan voor de bewoners die achterop raken. Elke "
+"waarschuwing wordt hoogstens **eenmaal per 30 dagen** per bewoner herhaald."
+
+#: ../../content/repas/suivi-nutritionnel.md:176
+msgid "**Undernutrition — perform/renew the MNA**"
+msgstr "**Ondervoeding — de MNA uitvoeren/hernieuwen**"
+
+#: ../../content/repas/suivi-nutritionnel.md:176
+msgid "**Nutrition deficit — intake below target**"
+msgstr "**Voedingstekort — inname onder het doel**"
+
+#: ../../content/repas/suivi-nutritionnel.md:176
+msgid "Kitchen staff, otherwise head nurse, otherwise manager"
+msgstr ""
+"Keukenpersoneel, anders hoofdverpleegkundige, anders verantwoordelijke"
+
+#: ../../content/repas/suivi-nutritionnel.md:261
+msgid ""
+"The **75%** threshold that triggers the deficit alerts is changed in "
+"**Intake deficit alert** of the [Meal and nutrition "
+"settings](../configuration/reglages-repas.md). Lower it to be alerted later,"
+" raise it to be alerted earlier."
+msgstr ""
+"De drempel van **75 %** die de tekortwaarschuwingen activeert, wijzigt u in "
+"**Alarm innametekort** in de [Instellingen voor maaltijden en "
+"voeding](../configuration/reglages-repas.md). Verlaag hem om later "
+"gewaarschuwd te worden, verhoog hem om vroeger gewaarschuwd te worden."
+
+#: ../../content/repas/suivi-nutritionnel.md:269
+msgid ""
+"The **Nutrition** tab gathers the undernutrition status, latest MNA, targets"
+" and intake coverage; enter the height there."
+msgstr ""
+"Het tabblad **Voeding** verzamelt de ondervoedingsstatus, de laatste MNA, de"
+" doelen en de dekking van de inname; voer er de lengte in."
+
+#: ../../content/repas/suivi-nutritionnel.md:271
+msgid ""
+"The **undernutrition status** follows the screening rules: weight loss, age-"
+"adjusted BMI, overdue MNA or \"Malnourished\" MNA."
+msgstr ""
+"De **ondervoedingsstatus** volgt de screeningsregels: gewichtsverlies, "
+"leeftijdsgecorrigeerde BMI, achterstallige MNA of MNA « Ondervoed »."
+
+#: ../../content/repas/suivi-nutritionnel.md:273
+msgid ""
+"The **targets** are specific to each resident, from their weight and sex."
+msgstr ""
+"De **doelen** zijn eigen aan elke bewoner, op basis van zijn gewicht en "
+"geslacht."
+
+#: ../../content/repas/suivi-nutritionnel.md:274
+msgid ""
+"The **intake** comes from the **amount eaten** at meals and the **logged "
+"drinks**; coverage is a 3-day average, and an empty record is said, not "
+"scored."
+msgstr ""
+"De **inname** komt van de **gegeten hoeveelheid** bij de maaltijden en de "
+"**genoteerde dranken**; de dekking is een gemiddelde over 3 dagen, en een "
+"leeg dossier wordt gemeld, niet gescoord."
+
+#: ../../content/repas/suivi-nutritionnel.md:277
+msgid ""
+"The **Statistics** page and the **daily alerts** surface the residents at "
+"risk; this monitoring does not change the care allowance."
+msgstr ""
+"De pagina **Statistieken** en de **dagelijkse waarschuwingen** brengen de "
+"bewoners met risico naar boven; deze opvolging wijzigt het zorgforfait niet."
+
+#: ../../content/repas/suivi-nutritionnel.md:282
+msgid "[The meal round](distribution.md)"
+msgstr "[De maaltijdronde](distribution.md)"
+
+#: ../../content/repas/suivi-nutritionnel.md:283
+msgid "[Meals and drinks in the care app](app-soins.md)"
+msgstr "[Maaltijden en dranken in de zorg-app](app-soins.md)"
+
+#: ../../content/repas/suivi-nutritionnel.md:284
+msgid "[Menus, diets and allergies](menus-regimes.md)"
+msgstr "[Menu's, diëten en allergieën](menus-regimes.md)"

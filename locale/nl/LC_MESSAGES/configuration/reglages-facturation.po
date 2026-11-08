@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 15:49+0200\n"
+"POT-Creation-Date: 2026-11-08 19:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nl <LL@li.org>\n"
@@ -27,11 +27,12 @@ msgstr "Facturatie-instellingen"
 #: ../../content/configuration/reglages-facturation.md:8
 msgid ""
 "Configure Resthome's Billing settings tab for a nursing home: automatic "
-"invoicing, billing refresh, journals and split billing."
+"invoicing, billing refresh, journals, the resident fiscal position, pocket "
+"money and split billing."
 msgstr ""
 "Configureer het tabblad Facturatie-instellingen van Resthome voor een "
-"woonzorgcentrum: automatische facturatie, verversing van de facturatie, "
-"dagboeken en gedeelde facturatie."
+"woonzorgcentrum: automatische facturatie, vernieuwing van de facturatie, "
+"dagboeken, fiscale positie van de bewoners, zakgeld en gedeelde facturatie."
 
 #: ../../content/configuration/reglages-facturation.md:12
 msgid "Where are the billing settings located?"
@@ -39,32 +40,31 @@ msgstr "Waar bevinden zich de facturatie-instellingen?"
 
 #: ../../content/configuration/reglages-facturation.md:13
 msgid ""
-"In Settings > Billing. The tab is only visible to the home's managers. It "
+"In Settings → Billing. The tab is only visible to the home's managers. It "
 "gathers automatic invoicing, the billing journals and the optional features "
 "such as split billing."
 msgstr ""
-"In Instellingen > Facturatie. Het tabblad is enkel zichtbaar voor de "
+"In Instellingen → Facturatie. Het tabblad is enkel zichtbaar voor de "
 "beheerders van de instelling. Het bundelt de automatische facturatie, de "
 "facturatiedagboeken en de optionele functies zoals gedeelde facturatie."
 
 #: ../../content/configuration/reglages-facturation.md:15
-msgid "Should automatic billing refresh be enabled?"
+msgid "Should automatic billing refresh be turned on?"
 msgstr ""
-"Moet de automatische verversing van de facturatie worden ingeschakeld?"
+"Moet de automatische vernieuwing van de facturatie worden ingeschakeld?"
 
 #: ../../content/configuration/reglages-facturation.md:16
 msgid ""
-"Yes, that is the recommended value. When enabled, it keeps every open "
-"billing period up to date as soon as any data changes: supplement, absence, "
-"end of stay, change of room or health insurer, mid-month admission. Only "
-"disable it if you prefer to recalculate solely by clicking \"Refresh\" on "
-"the period."
+"Yes, that is the recommended value. It keeps every open billing period up to"
+" date as soon as the data behind it changes: supplement, absence, end of "
+"stay, room change, payer change, mid-month admission. Turn it off only if "
+"you prefer to recalculate by clicking Refresh on the period."
 msgstr ""
-"Ja, dat is de aanbevolen waarde. Ingeschakeld houdt ze elke open "
-"facturatieperiode bij zodra een gegeven wijzigt: supplement, afwezigheid, "
-"einde verblijf, wissel van kamer of zorgverzekeraar, opname midden in de "
-"maand. Schakel ze alleen uit als u liever uitsluitend herberekent door op « "
-"Verversen » op de periode te klikken."
+"Ja, dat is de aanbevolen waarde. Ze houdt elke open facturatieperiode bij "
+"zodra de onderliggende gegevens wijzigen: supplement, afwezigheid, einde "
+"verblijf, kamerwissel, wissel van betaler, opname midden in de maand. "
+"Schakel ze alleen uit als u liever herberekent door op Vernieuwen op de "
+"periode te klikken."
 
 #: ../../content/configuration/reglages-facturation.md:18
 msgid "What is the Resident Journal for?"
@@ -72,31 +72,43 @@ msgstr "Waarvoor dient het Bewonersdagboek?"
 
 #: ../../content/configuration/reglages-facturation.md:19
 msgid ""
-"It is the sales journal that receives the invoices for the resident share "
+"It is the sales journal that receives the invoices for the resident's share "
 "(accommodation and supplements). Where the health insurer also pays part of "
-"the stay, its share goes into a journal of its own, kept separate for clear "
-"accounting tracking."
+"the stay, its share goes into a journal of its own."
 msgstr ""
 "Het is het verkoopdagboek dat de facturen voor het bewonersaandeel ontvangt "
 "(huisvesting en supplementen). Wanneer de zorgverzekeraar ook een deel van "
-"het verblijf betaalt, gaat zijn aandeel naar een eigen dagboek, apart "
-"gehouden voor een duidelijke boekhoudkundige opvolging."
+"het verblijf betaalt, gaat zijn aandeel naar een eigen dagboek."
 
 #: ../../content/configuration/reglages-facturation.md:21
-msgid "Does enabling split billing install a module?"
-msgstr "Installeert het inschakelen van gedeelde facturatie een module?"
+msgid "Why does the Resident Journal say \"From\" another house?"
+msgstr "Waarom vermeldt het Bewonersdagboek \"Overgenomen van\" een ander huis?"
 
 #: ../../content/configuration/reglages-facturation.md:22
 msgid ""
-"Yes. Ticking \"Split billing (maintenance debtors)\" installs the "
-"corresponding module; unticking it uninstalls it. Enable it if maintenance "
-"debtors share the resident portion."
+"In a group, a house without a journal of its own uses its parent company's. "
+"The setting shows which house it comes from; choose a journal to give the "
+"house its own."
 msgstr ""
-"Ja. Het aanvinken van « Gedeelde facturatie (onderhoudsplichtigen) » "
-"installeert de bijbehorende module; het uitvinken verwijdert ze. Schakel ze "
-"in als onderhoudsplichtigen het bewonersaandeel onder elkaar verdelen."
+"In een groep gebruikt een huis zonder eigen dagboek dat van zijn "
+"moederbedrijf. De instelling toont van welk huis het komt; kies een dagboek "
+"om het huis een eigen dagboek te geven."
+
+#: ../../content/configuration/reglages-facturation.md:24
+msgid "Does turning on split billing install something?"
+msgstr "Installeert het inschakelen van gedeelde facturatie iets?"
 
 #: ../../content/configuration/reglages-facturation.md:25
+msgid ""
+"Yes. Ticking Split Billing (food debtors) installs the split billing "
+"feature, which then adds its own journal and suspense account to the same "
+"block."
+msgstr ""
+"Ja. Het aanvinken van Gesplitste facturatie (onderhoudsplichtigen) "
+"installeert de functie gedeelde facturatie, die daarna een eigen dagboek en "
+"wachtrekening aan hetzelfde blok toevoegt."
+
+#: ../../content/configuration/reglages-facturation.md:28
 msgid ""
 "The **Billing** settings tab gathers the parameters that drive the "
 "**billing** of your nursing home: invoice generation, accounting journals "
@@ -108,40 +120,42 @@ msgstr ""
 " boekhoudkundige dagboeken en optionele functies. U configureert ze **één "
 "keer**, daarna veranderen ze nog slechts marginaal."
 
-#: ../../content/configuration/reglages-facturation.md:29
-msgid ""
-"You will find them under **Settings > Billing**. The tab is only visible to "
-"the home's **managers**."
-msgstr ""
-"U vindt ze onder **Instellingen > Facturatie**. Het tabblad is enkel "
-"zichtbaar voor de **beheerders** van de instelling."
-
 #: ../../content/configuration/reglages-facturation.md:32
+msgid ""
+"You will find them under **Settings → Billing**, or from the Billing app, "
+"**Configuration → Settings**. The tab is only visible to the home's "
+"**managers**."
+msgstr ""
+"U vindt ze onder **Instellingen → Facturatie**, of vanuit de app Facturatie,"
+" **Configuratie → Instellingen**. Het tabblad is enkel zichtbaar voor de "
+"**beheerders** van de instelling."
+
+#: ../../content/configuration/reglages-facturation.md:38
 msgid "In Belgium"
 msgstr "In België"
 
-#: ../../content/configuration/reglages-facturation.md:35
+#: ../../content/configuration/reglages-facturation.md:41
 msgid ""
-"The tab is called **MR/MRS Billing** and holds three more blocks: the "
-"**INAMI Journal**, the establishment's **Cc accreditation** for the coma "
-"allowance, and the **Katz activity assignee** used after a long "
-"hospitalization. The eHealth certificate and credentials are set elsewhere. "
-"See [Belgian settings](../belgique/reglages.md) and [eHealth and eFact "
+"The tab is called **MR/MRS Billing** and holds more settings: the **INAMI "
+"Journal**, the establishment's **Cc accreditation** for the coma allowance, "
+"and the **Katz activity assignee** used after a long hospitalization. The "
+"eHealth certificate and credentials are set elsewhere. See [Belgian "
+"settings](../belgique/reglages.md) and [eHealth and eFact "
 "settings](../belgique/reglages-ehealth.md)."
 msgstr ""
-"Het tabblad heet **MR/MRS-facturering** en bevat nog drie blokken: het "
-"**RIZIV-journaal**, de **Cc-erkenning** van de instelling voor het "
+"Het tabblad heet **MR/MRS-facturering** en bevat nog andere instellingen: "
+"het **RIZIV-journaal**, de **Cc-erkenning** van de instelling voor het "
 "comaforfait, en de **Toegewezene Katz-activiteit** die na een lange "
 "ziekenhuisopname gebruikt wordt. Het eHealth-certificaat en de eHealth-"
 "toegangsgegevens worden elders ingesteld. Zie [Belgische "
 "instellingen](../belgique/reglages.md) en [eHealth- en eFact-"
 "instellingen](../belgique/reglages-ehealth.md)."
 
-#: ../../content/configuration/reglages-facturation.md:43
-msgid "Automatic billing"
-msgstr "Automatische facturatie"
+#: ../../content/configuration/reglages-facturation.md:49
+msgid "Automatic Invoicing"
+msgstr "Automatische facturering"
 
-#: ../../content/configuration/reglages-facturation.md:45
+#: ../../content/configuration/reglages-facturation.md:51
 msgid ""
 "This block decides **how** and **when** invoices are produced, and whether "
 "open periods keep themselves up to date on their own."
@@ -149,393 +163,359 @@ msgstr ""
 "Dit blok bepaalt **hoe** en **wanneer** de facturen worden aangemaakt, en of"
 " open periodes zichzelf bijhouden."
 
-#: ../../content/configuration/reglages-facturation.md:32
-#: ../../content/configuration/reglages-facturation.md:54
-#: ../../content/configuration/reglages-facturation.md:74
+#: ../../content/configuration/reglages-facturation.md:38
+#: ../../content/configuration/reglages-facturation.md:60
+#: ../../content/configuration/reglages-facturation.md:85
 msgid "Setting"
 msgstr "Instelling"
 
-#: ../../content/configuration/reglages-facturation.md:32
-#: ../../content/configuration/reglages-facturation.md:54
-#: ../../content/configuration/reglages-facturation.md:74
+#: ../../content/configuration/reglages-facturation.md:38
+#: ../../content/configuration/reglages-facturation.md:60
+#: ../../content/configuration/reglages-facturation.md:85
 msgid "What it does"
 msgstr "Wat het doet"
 
-#: ../../content/configuration/reglages-facturation.md:32
-#: ../../content/configuration/reglages-facturation.md:54
-#: ../../content/configuration/reglages-facturation.md:74
+#: ../../content/configuration/reglages-facturation.md:38
+#: ../../content/configuration/reglages-facturation.md:60
+#: ../../content/configuration/reglages-facturation.md:85
 msgid "Recommended value"
 msgstr "Aanbevolen waarde"
 
-#: ../../content/configuration/reglages-facturation.md:32
-msgid "**Automatic billing**"
-msgstr "**Automatische facturatie**"
+#: ../../content/configuration/reglages-facturation.md:38
+msgid "**Automatic Invoicing**"
+msgstr "**Automatische facturering**"
 
-#: ../../content/configuration/reglages-facturation.md:32
+#: ../../content/configuration/reglages-facturation.md:38
 msgid ""
-"Automatically generates the monthly stay invoices, without going through the"
-" manual cycle. Disabled by default."
+"Generates the monthly stay invoices on its own, without going through the "
+"manual cycle. Off by default."
 msgstr ""
-"Genereert automatisch de maandelijkse verblijffacturen, zonder de handmatige"
-" cyclus te doorlopen. Standaard uitgeschakeld."
+"Genereert de maandelijkse verblijfsfacturen vanzelf, zonder de handmatige "
+"cyclus te doorlopen. Standaard uitgeschakeld."
 
-#: ../../content/configuration/reglages-facturation.md:32
+#: ../../content/configuration/reglages-facturation.md:38
 msgid ""
-"Depending on your organization; often left **disabled** in favor of the "
-"manual cycle (generate → invoice), which gives more control."
+"Often left **off** in favour of the manual cycle (generate → invoice), which"
+" gives more control."
 msgstr ""
-"Afhankelijk van uw organisatie; vaak **uitgeschakeld** gelaten ten voordele "
-"van de handmatige cyclus (genereren → factureren), die meer controle geeft."
+"Vaak **uitgeschakeld** gelaten ten voordele van de handmatige cyclus "
+"(genereren → factureren), die meer controle geeft."
 
-#: ../../content/configuration/reglages-facturation.md:32
-msgid "**Billing day**"
-msgstr "**Facturatiedag**"
+#: ../../content/configuration/reglages-facturation.md:38
+msgid "**Invoice Day** … **of the month**"
+msgstr "**Factureringsdag** … **van de maand**"
 
-#: ../../content/configuration/reglages-facturation.md:32
+#: ../../content/configuration/reglages-facturation.md:38
 msgid ""
-"Day of the month on which automatic invoices are generated (only visible if "
-"automatic billing is enabled)."
+"The day of the month automatic invoices are generated. Shown only when "
+"Automatic Invoicing is on."
 msgstr ""
-"Dag van de maand waarop de automatische facturen worden gegenereerd (enkel "
-"zichtbaar als de automatische facturatie is ingeschakeld)."
+"De dag van de maand waarop de automatische facturen worden gegenereerd. "
+"Alleen zichtbaar wanneer Automatische facturering is ingeschakeld."
 
-#: ../../content/configuration/reglages-facturation.md:32
-msgid ""
-"**1** (start of the month) by default; adjust according to your "
-"organization."
-msgstr "**1** (begin van de maand) standaard; pas aan volgens uw organisatie."
+#: ../../content/configuration/reglages-facturation.md:38
+msgid "**1** by default; adjust to your organisation."
+msgstr "**1** standaard; pas aan volgens uw organisatie."
 
-#: ../../content/configuration/reglages-facturation.md:32
+#: ../../content/configuration/reglages-facturation.md:38
 msgid "**Automatic billing refresh**"
 msgstr "**Automatische verversing van de facturatie**"
 
-#: ../../content/configuration/reglages-facturation.md:32
+#: ../../content/configuration/reglages-facturation.md:38
 msgid ""
-"Keeps every open period up to date as soon as any data changes: supplement, "
-"absence, end of stay, change of room or health insurer, mid-month admission."
+"Keeps every open period up to date as soon as the data behind it changes: "
+"supplement, absence, end of stay, room change, payer change, mid-month "
+"admission."
 msgstr ""
-"Houdt elke open periode bij zodra een gegeven wijzigt: supplement, "
-"afwezigheid, einde verblijf, wissel van kamer of zorgverzekeraar, opname "
-"midden in de maand."
+"Houdt elke open periode bij zodra de onderliggende gegevens wijzigen: "
+"supplement, afwezigheid, einde verblijf, kamerwissel, wissel van betaler, "
+"opname midden in de maand."
 
-#: ../../content/configuration/reglages-facturation.md:32
-msgid "**Enabled** — recommended."
+#: ../../content/configuration/reglages-facturation.md:38
+msgid "**On** — recommended."
 msgstr "**Ingeschakeld** — aanbevolen."
 
-#: ../../content/configuration/reglages-facturation.md:54
-msgid "Automatic refresh and the \"Refresh\" button"
-msgstr "De automatische verversing en de knop « Verversen »"
-
-#: ../../content/configuration/reglages-facturation.md:57
-msgid ""
-"With refresh **enabled**, adding a supplement or an absence is reflected on "
-"the period on its own: you generally have nothing to do. The period's "
-"**\"Refresh\"** button remains available for a full on-demand recalculation."
-" See [Bill a month](../facturation/facturer-un-mois.md)."
-msgstr ""
-"Met de verversing **ingeschakeld** wordt het toevoegen van een supplement of"
-" een afwezigheid vanzelf doorgerekend op de periode: u hoeft doorgaans niets"
-" te doen. De knop **« Verversen »** van de periode blijft beschikbaar voor "
-"een volledige herberekening op aanvraag. Zie [Een maand "
-"factureren](../facturation/facturer-un-mois.md)."
+#: ../../content/configuration/reglages-facturation.md:60
+msgid "Automatic refresh and the Refresh button"
+msgstr "De automatische vernieuwing en de knop Vernieuwen"
 
 #: ../../content/configuration/reglages-facturation.md:63
-msgid "Billing journals"
+msgid ""
+"With refresh **on**, adding a supplement or an absence reaches the period on"
+" its own: you generally have nothing to do. The period's **Refresh** button "
+"remains available for a full recalculation on demand. See [Billing a "
+"month](../facturation/facturer-un-mois.md)."
+msgstr ""
+"Met de vernieuwing **ingeschakeld** bereikt het toevoegen van een supplement"
+" of een afwezigheid de periode vanzelf: u hoeft doorgaans niets te doen. De "
+"knop **Vernieuwen** van de periode blijft beschikbaar voor een volledige "
+"herberekening op aanvraag. Zie [Een maand "
+"factureren](../facturation/facturer-un-mois.md)."
+
+#: ../../content/configuration/reglages-facturation.md:69
+msgid "Billing Journals"
 msgstr "Facturatiedagboeken"
 
-#: ../../content/configuration/reglages-facturation.md:65
+#: ../../content/configuration/reglages-facturation.md:71
 msgid ""
-"The **resident share** (accommodation and supplements) goes into its own "
+"The **resident's share** (accommodation and supplements) goes into its own "
 "sales journal. Where the country has a care allowance paid by the health "
 "insurer, the country pack adds a second journal for that share, so each "
 "payer is tracked separately."
 msgstr ""
 "Het **bewonersaandeel** (huisvesting en supplementen) gaat naar een eigen "
 "verkoopdagboek. Wanneer het land een zorgforfait kent dat door de "
-"zorgverzekeraar betaald wordt, voegt de landenmodule een tweede dagboek toe "
-"voor dat aandeel, zodat elke betaler afzonderlijk opgevolgd wordt."
+"zorgverzekeraar betaald wordt, voegt het landenpakket een tweede dagboek toe"
+" voor dat aandeel, zodat elke betaler afzonderlijk opgevolgd wordt."
 
-#: ../../content/configuration/reglages-facturation.md:54
+#: ../../content/configuration/reglages-facturation.md:60
 msgid "**Resident Journal**"
 msgstr "**Bewonersdagboek**"
 
-#: ../../content/configuration/reglages-facturation.md:54
+#: ../../content/configuration/reglages-facturation.md:60
 msgid ""
-"Sales journal that receives the invoices for the **resident share** "
-"(accommodation and supplements)."
+"Sales journal of the invoices for the **resident's share**. Only sales "
+"journals can be chosen. In a group, a house without its own journal shows "
+"**From** *parent house*: *journal*."
 msgstr ""
-"Verkoopdagboek dat de facturen voor het **bewonersaandeel** ontvangt "
-"(huisvesting en supplementen)."
+"Verkoopdagboek van de facturen voor het **bewonersaandeel**. Alleen "
+"verkoopdagboeken kunnen worden gekozen. In een groep toont een huis zonder "
+"eigen dagboek **Overgenomen van** *moederhuis*: *dagboek*."
 
-#: ../../content/configuration/reglages-facturation.md:54
+#: ../../content/configuration/reglages-facturation.md:60
 msgid ""
-"A sales journal of your facility, **separate** from the health insurer's one"
-" when there is one (recommended)."
+"A sales journal of your facility, **separate** from the health insurer's "
+"when there is one."
 msgstr ""
 "Een verkoopdagboek van uw instelling, **gescheiden** van dat van de "
-"zorgverzekeraar als dat er is (aanbevolen)."
+"zorgverzekeraar als dat er is."
 
-#: ../../content/configuration/reglages-facturation.md:74
+#: ../../content/configuration/reglages-facturation.md:60
+msgid "**Resident Fiscal Position**"
+msgstr "**Fiscale positie van de bewoners**"
+
+#: ../../content/configuration/reglages-facturation.md:60
+msgid ""
+"Applied to the residents' supplement envelopes. Pointed at a VAT-exempt "
+"position, everything billed to a resident comes out untaxed, while the "
+"products keep their normal taxes elsewhere."
+msgstr ""
+"Toegepast op de supplementenenveloppen van de bewoners. Verwijst ze naar een"
+" btw-vrijgestelde positie, dan komt alles wat aan een bewoner wordt "
+"gefactureerd zonder btw uit, terwijl de producten elders hun normale "
+"belastingen behouden."
+
+#: ../../content/configuration/reglages-facturation.md:60
+msgid ""
+"The fiscal position your country applies to accommodation in a care home."
+msgstr ""
+"De fiscale positie die uw land toepast op het verblijf in een "
+"woonzorgcentrum."
+
+#: ../../content/configuration/reglages-facturation.md:60
+msgid "**Pocket money journal**"
+msgstr "**Zakgeldjournaal**"
+
+#: ../../content/configuration/reglages-facturation.md:60
+msgid ""
+"Journal of the **second invoice** of residents with pocket money: what the "
+"home bought for them during the month. Empty, everything stays on a single "
+"invoice."
+msgstr ""
+"Dagboek van de **tweede factuur** van bewoners met zakgeld: wat het huis "
+"tijdens de maand voor hen heeft gekocht. Leeg blijft alles op één factuur."
+
+#: ../../content/configuration/reglages-facturation.md:60
+msgid ""
+"A journal of its own, if you hold [pocket money](../argent-de-poche/mise-en-"
+"place.md)."
+msgstr ""
+"Een eigen dagboek, als u [zakgeld](../argent-de-poche/mise-en-place.md) "
+"beheert."
+
+#: ../../content/configuration/reglages-facturation.md:60
+msgid "**Pocket money settlement journal**"
+msgstr "**Dagboek voor zakgeldafrekening**"
+
+#: ../../content/configuration/reglages-facturation.md:60
+msgid ""
+"When filled in, the second invoice is **settled automatically** out of the "
+"pocket money balance as soon as it is posted. Empty, that settlement is "
+"entered by hand."
+msgstr ""
+"Als het is ingevuld, wordt de tweede factuur **automatisch vereffend** uit "
+"het zakgeldsaldo zodra ze geboekt is. Leeg wordt die vereffening met de hand"
+" ingevoerd."
+
+#: ../../content/configuration/reglages-facturation.md:60
+#: ../../content/configuration/reglages-facturation.md:85
+msgid "Ask your accountant."
+msgstr "Vraag het aan uw boekhouder."
+
+#: ../../content/configuration/reglages-facturation.md:83
+msgid ""
+"The two pocket money settings only appear when pocket money is installed."
+msgstr ""
+"De twee zakgeldinstellingen verschijnen alleen wanneer zakgeld geïnstalleerd"
+" is."
+
+#: ../../content/configuration/reglages-facturation.md:85
 msgid "Facility-specific value"
 msgstr "Waarde eigen aan de instelling"
 
-#: ../../content/configuration/reglages-facturation.md:77
+#: ../../content/configuration/reglages-facturation.md:88
 msgid ""
-"The journal depends on **your chart of accounts**. Choose an existing "
-"**sales** journal. Keeping one journal per payer makes reconciliation and "
-"per-payer tracking easier."
+"The journals depend on **your chart of accounts**. Choose existing **sales**"
+" journals. Keeping one journal per payer makes reconciliation and per-payer "
+"tracking easier."
 msgstr ""
-"Het dagboek hangt af van **uw rekeningstelsel**. Kies een bestaand "
-"**verkoop**dagboek. Eén dagboek per betaler bijhouden vergemakkelijkt de "
+"De dagboeken hangen af van **uw rekeningstelsel**. Kies bestaande "
+"**verkoop**dagboeken. Eén dagboek per betaler bijhouden vergemakkelijkt de "
 "afpunting en de opvolging per betaler."
 
-#: ../../content/configuration/reglages-facturation.md:82
+#: ../../content/configuration/reglages-facturation.md:93
 msgid "Optional features"
 msgstr "Optionele functies"
 
-#: ../../content/configuration/reglages-facturation.md:84
-msgid ""
-"An additional module is installed directly from the settings, by ticking a "
-"checkbox."
-msgstr ""
-"Een bijkomende module wordt rechtstreeks vanuit de instellingen "
-"geïnstalleerd, door een selectievakje aan te vinken."
+#: ../../content/configuration/reglages-facturation.md:85
+msgid "**Split Billing (food debtors)**"
+msgstr "**Gesplitste facturatie (onderhoudsplichtigen)**"
 
-#: ../../content/configuration/reglages-facturation.md:74
-msgid "**Split billing (maintenance debtors)**"
-msgstr "**Gedeelde facturatie (onderhoudsplichtigen)**"
-
-#: ../../content/configuration/reglages-facturation.md:74
+#: ../../content/configuration/reglages-facturation.md:85
 msgid ""
-"Splits the resident share of the monthly invoice among several debtors, each"
-" paying a percentage. Ticking this box **installs** the module."
+"Splits the resident's share of the monthly invoice among several debtors. "
+"Ticking it **installs** the feature."
 msgstr ""
 "Verdeelt het bewonersaandeel van de maandelijkse factuur over meerdere "
-"debiteuren, die elk een percentage betalen. Het aanvinken van dit vakje "
-"**installeert** de module."
+"schuldenaars. Het aanvinken **installeert** de functie."
 
-#: ../../content/configuration/reglages-facturation.md:74
-msgid "Enable it **if** maintenance debtors share the resident share."
-msgstr ""
-"Schakel ze in **als** onderhoudsplichtigen het bewonersaandeel onder elkaar "
-"verdelen."
+#: ../../content/configuration/reglages-facturation.md:85
+msgid "Tick it **if** debtors share the resident's share."
+msgstr "Vink ze aan **als** schuldenaars het bewonersaandeel delen."
 
-#: ../../content/configuration/reglages-facturation.md:91
-msgid "What the checkbox does"
-msgstr "Wat het selectievakje doet"
+#: ../../content/configuration/reglages-facturation.md:85
+msgid "**Split Billing Journal**"
+msgstr "**Dagboek gesplitste facturatie**"
 
-#: ../../content/configuration/reglages-facturation.md:94
+#: ../../content/configuration/reglages-facturation.md:85
 msgid ""
-"Ticking installs the module and unticking uninstalls it (Odoo convention). "
-"Once enabled, the split is configured per resident. See [Maintenance "
-"debtors](../facturation-partagee/index.md)."
+"Sales journal, with its own sequence, of the split-billing resident "
+"statements. Shown once split billing is installed."
 msgstr ""
-"Aanvinken installeert de module en uitvinken verwijdert ze (Odoo-conventie)."
-" Eenmaal ingeschakeld, wordt de verdeling per bewoner geconfigureerd. Zie "
-"[Onderhoudsplichtigen](../facturation-partagee/index.md)."
+"Verkoopdagboek, met een eigen nummering, van de bewonersafrekeningen van de "
+"gedeelde facturatie. Zichtbaar zodra gedeelde facturatie geïnstalleerd is."
 
-#: ../../content/configuration/reglages-facturation.md:99
-msgid "Absences"
-msgstr "Afwezigheden"
+#: ../../content/configuration/reglages-facturation.md:85
+msgid "A journal used for nothing else."
+msgstr "Een dagboek dat nergens anders voor dient."
 
-#: ../../content/configuration/reglages-facturation.md:101
+#: ../../content/configuration/reglages-facturation.md:85
+msgid "**Split Billing Suspense Account**"
+msgstr "**Wachtrekening gesplitste facturatie**"
+
+#: ../../content/configuration/reglages-facturation.md:85
 msgid ""
-"Absences are **not** configured in this tab. The discount granted for an "
-"absence is set under **Billing > Configuration > Absence Discount Rules**. "
-"Whether a day counts as a presence day is **built in**: a departure after "
-"noon or a return before noon counts as a presence day, unless the country "
-"pack applies its own thresholds. See [Absences and "
-"hospitalizations](../facturation/absences.md)."
+"The suspense account carrying every line of the split-billing resident "
+"statements. Shown once split billing is installed."
 msgstr ""
-"Afwezigheden worden **niet** in dit tabblad ingesteld. De korting die voor "
-"een afwezigheid wordt toegekend, stelt u in onder **Facturatie > "
-"Configuratie > Regels voor afwezigheidskorting**. Of een dag als "
-"aanwezigheidsdag telt, is **ingebouwd**: een vertrek na de middag of een "
-"terugkeer vóór de middag telt als aanwezigheidsdag, tenzij de landenmodule "
-"eigen drempels toepast. Zie [Afwezigheden en "
-"hospitalisaties](../facturation/absences.md)."
+"De wachtrekening die elke lijn van de bewonersafrekeningen van de gedeelde "
+"facturatie draagt. Zichtbaar zodra gedeelde facturatie geïnstalleerd is."
 
-#: ../../content/configuration/reglages-facturation.md:108
+#: ../../content/configuration/reglages-facturation.md:85
+msgid "**Other supplement**"
+msgstr "**Ander supplement**"
+
+#: ../../content/configuration/reglages-facturation.md:85
+msgid ""
+"Product charged when a [recharged vendor bill](../facturation/refacturation-"
+"fournisseur.md) line names no supplement of its own. Empty, such a line "
+"stops the recharge instead."
+msgstr ""
+"Product dat wordt aangerekend wanneer een lijn van een [doorgerekende "
+"leveranciersfactuur](../facturation/refacturation-fournisseur.md) geen eigen"
+" supplement noemt. Leeg houdt zo'n lijn de doorrekening tegen."
+
+#: ../../content/configuration/reglages-facturation.md:85
+msgid "Empty until the home has decided — the safer default."
+msgstr ""
+"Leeg zolang het huis niet heeft beslist — de veiligste standaardwaarde."
+
+#: ../../content/configuration/reglages-facturation.md:102
+msgid "What the split billing checkbox does"
+msgstr "Wat het vakje voor gedeelde facturatie doet"
+
+#: ../../content/configuration/reglages-facturation.md:105
+msgid ""
+"Ticking installs the feature and unticking uninstalls it. Once installed, "
+"the split is set per resident. See [Setting up a split](../facturation-"
+"partagee/configuration.md)."
+msgstr ""
+"Aanvinken installeert de functie en uitvinken verwijdert ze. Eenmaal "
+"geïnstalleerd wordt de verdeling per bewoner ingesteld. Zie [Een verdeling "
+"instellen](../facturation-partagee/configuration.md)."
+
+#: ../../content/configuration/reglages-facturation.md:110
+msgid "What is set elsewhere"
+msgstr "Wat elders wordt ingesteld"
+
+#: ../../content/configuration/reglages-facturation.md:112
+msgid ""
+"**Absences** — the discount granted for an absence is set under **Billing → "
+"Configuration → Absence Discount Rules**. Whether a day counts as a presence"
+" day is **built in**: a departure after noon or a return before noon counts "
+"as a presence day, unless the country pack applies its own thresholds. See "
+"[Absences and hospitalizations](../facturation/absences.md)."
+msgstr ""
+"**Afwezigheden** — de korting die voor een afwezigheid wordt toegekend, "
+"stelt u in onder **Facturatie → Configuratie → Regels voor "
+"afwezigheidskorting**. Of een dag als aanwezigheidsdag telt, is "
+"**ingebouwd**: een vertrek na de middag of een terugkeer vóór de middag telt"
+" als aanwezigheidsdag, tenzij het landenpakket eigen drempels toepast. Zie "
+"[Afwezigheden en hospitalisaties](../facturation/absences.md)."
+
+#: ../../content/configuration/reglages-facturation.md:117
+msgid ""
+"**Prices** — the supplement prices and their yearly increase. See [Price "
+"indexation](../facturation/indexation-des-prix.md)."
+msgstr ""
+"**Prijzen** — de supplementprijzen en hun jaarlijkse verhoging. Zie "
+"[Prijsindexering](../facturation/indexation-des-prix.md)."
+
+#: ../../content/configuration/reglages-facturation.md:119
+msgid ""
+"**The invoice type** of each resident (in advance or in arrears) — on the "
+"resident's contact. See [Invoice type](../facturation/type-de-facture.md)."
+msgstr ""
+"**Het factuurtype** van elke bewoner (op voorschot of na afloop) — op het "
+"contact van de bewoner. Zie [Factuurtype](../facturation/type-de-"
+"facture.md)."
+
+#: ../../content/configuration/reglages-facturation.md:121
+msgid ""
+"**The accounting bridge** — under **Settings → Sync**. See [Accounting "
+"bridge](../facturation/pont-comptable.md)."
+msgstr ""
+"**De boekhoudkundige brug** — onder **Instellingen → Synchronisatie**. Zie "
+"[Boekhoudkundige brug](../facturation/pont-comptable.md)."
+
+#: ../../content/configuration/reglages-facturation.md:124
 msgid "Going further"
 msgstr "Verder gaan"
 
-#: ../../content/configuration/reglages-facturation.md:110
+#: ../../content/configuration/reglages-facturation.md:126
 msgid "[Configuration](index.md) — rooms, rates, health insurers, facility."
 msgstr ""
 "[Configuratie](index.md) — kamers, tarieven, zorgverzekeraars, instelling."
 
-#: ../../content/configuration/reglages-facturation.md:111
+#: ../../content/configuration/reglages-facturation.md:127
 msgid "[Billing overview](../facturation/index.md)"
 msgstr "[Overzicht van de facturatie](../facturation/index.md)"
 
-#: ../../content/configuration/reglages-facturation.md:112
-msgid "[Bill a month, step by step](../facturation/facturer-un-mois.md)"
+#: ../../content/configuration/reglages-facturation.md:128
+msgid "[Billing a month, step by step](../facturation/facturer-un-mois.md)"
 msgstr ""
 "[Een maand factureren, stap voor stap](../facturation/facturer-un-mois.md)"
 
-#: ../../content/configuration/reglages-facturation.md:113
-msgid "[Maintenance debtors](../facturation-partagee/index.md)"
-msgstr "[Onderhoudsplichtigen](../facturation-partagee/index.md)"
-
-#: ../../content/configuration/reglages-facturation.md:114
-msgid "[Absences and hospitalizations](../facturation/absences.md)"
-msgstr "[Afwezigheden en hospitalisaties](../facturation/absences.md)"
-
-#~ msgid ""
-#~ "What is the difference between the INAMI Journal and the Resident Journal?"
-#~ msgstr "Wat is het verschil tussen het RIZIV-dagboek en het Bewonersdagboek?"
-
-#~ msgid "When should the Cc accreditation be ticked?"
-#~ msgstr "Wanneer moet de Cc-erkenning worden aangevinkt?"
-
-#~ msgid ""
-#~ "Only if your facility holds the accreditation that authorizes billing the "
-#~ "Ccoma coma lump sum. Without this accreditation, a resident classified as "
-#~ "Ccoma cannot be billed via eFact; accommodation, however, is still billed. "
-#~ "This is a facility-specific value."
-#~ msgstr ""
-#~ "Alleen als uw instelling de erkenning bezit die toelaat het comaforfait "
-#~ "Ccoma te factureren. Zonder deze erkenning kan een als Ccoma "
-#~ "geclassificeerde bewoner niet via eFact worden gefactureerd; de huisvesting "
-#~ "wordt echter wel gefactureerd. Dit is een waarde die eigen is aan de "
-#~ "instelling."
-
-#~ msgid "What is the Katz activity assignee for?"
-#~ msgstr "Waarvoor dient de toegewezene van de Katz-activiteit?"
-
-#~ msgid ""
-#~ "It is the user to whom Resthome assigns the \"New Katz required\" activity "
-#~ "when a readmission after hospitalization exceeds 30 days. If the field is "
-#~ "empty, the activity goes to the current user if they are clinical, otherwise"
-#~ " to the first head nurse, nurse or doctor found."
-#~ msgstr ""
-#~ "Het is de gebruiker aan wie Resthome de activiteit « Nieuwe Katz vereist » "
-#~ "toewijst wanneer een heropname na hospitalisatie meer dan 30 dagen bedraagt."
-#~ " Is het veld leeg, dan gaat de activiteit naar de huidige gebruiker als die "
-#~ "klinisch is, anders naar de eerste gevonden hoofdverpleegkundige, "
-#~ "verpleegkundige of arts."
-
-#~ msgid "eHealth secrets are configured elsewhere"
-#~ msgstr "eHealth-geheimen worden elders geconfigureerd"
-
-#~ msgid ""
-#~ "The **eHealth certificate (.p12)**, the **CIN license** and the health-"
-#~ "insurer connection credentials are **not** found in this tab, but in the "
-#~ "**[eHealth](../belgique/ehealth/index.md)** configuration. This tab contains"
-#~ " **no secret data**; you enter neither password nor key here."
-#~ msgstr ""
-#~ "Het **eHealth-certificaat (.p12)**, de **CIN-licentie** en de "
-#~ "verbindingsgegevens met de mutualiteiten bevinden zich **niet** in dit "
-#~ "tabblad, maar in de "
-#~ "**[eHealth](../belgique/ehealth/index.md)**-configuratie. Dit tabblad bevat "
-#~ "**geen geheime gegevens**; u voert hier noch wachtwoord noch sleutel in."
-
-#~ msgid ""
-#~ "Resthome issues **two streams** of invoices: the **insurer share** "
-#~ "(dependency lump sum, sent to the insuring body via eFact) and the "
-#~ "**resident share** (accommodation and supplements). Each stream goes into "
-#~ "its own sales journal."
-#~ msgstr ""
-#~ "Resthome maakt **twee stromen** facturen aan: het **mutualiteitsaandeel** "
-#~ "(afhankelijkheidsforfait, verzonden naar de verzekeringsinstelling via "
-#~ "eFact) en het **bewonersaandeel** (huisvesting en supplementen). Elke stroom"
-#~ " gaat in zijn eigen verkoopdagboek."
-
-#~ msgid "**INAMI Journal**"
-#~ msgstr "**RIZIV-dagboek**"
-
-#~ msgid ""
-#~ "Sales journal that receives the invoices for the **insurer share** "
-#~ "(dependency lump sum sent via eFact)."
-#~ msgstr ""
-#~ "Verkoopdagboek dat de facturen voor het **mutualiteitsaandeel** ontvangt "
-#~ "(afhankelijkheidsforfait verzonden via eFact)."
-
-#~ msgid "A sales journal of your facility."
-#~ msgstr "Een verkoopdagboek van uw instelling."
-
-#~ msgid "Facility accreditation"
-#~ msgstr "Erkenning van de instelling"
-
-#~ msgid ""
-#~ "Some federal lump sums require a **specific accreditation** of the facility."
-#~ " This is the case for the **coma (Ccoma)** lump sum."
-#~ msgstr ""
-#~ "Sommige federale forfaits vereisen een **specifieke erkenning** van de "
-#~ "instelling. Dat is het geval voor het **coma (Ccoma)**-forfait."
-
-#~ msgid "**Cc accreditation (coma lump sum)**"
-#~ msgstr "**Cc-erkenning (comaforfait)**"
-
-#~ msgid ""
-#~ "Tick if the facility holds the accreditation allowing it to bill the "
-#~ "**Ccoma** coma lump sum. Without it, a resident classified as Ccoma is "
-#~ "**not** billable via eFact (neither regional nor federal); accommodation is "
-#~ "still billed."
-#~ msgstr ""
-#~ "Vink aan als de instelling de erkenning bezit om het comaforfait **Ccoma** "
-#~ "te factureren. Zonder deze is een als Ccoma geclassificeerde bewoner "
-#~ "**niet** factureerbaar via eFact (noch regionaal noch federaal); de "
-#~ "huisvesting wordt wel gefactureerd."
-
-#~ msgid "Tick **only** if your facility is accredited."
-#~ msgstr "Vink **enkel** aan als uw instelling erkend is."
-
-#~ msgid "Not to be confused with the lump-sum amount"
-#~ msgstr "Niet te verwarren met het bedrag van het forfait"
-
-#~ msgid ""
-#~ "The ordinary **dependency lump sum** is the **same amount** for all Katz "
-#~ "categories; the category is used to **declare the profile** to the health "
-#~ "insurance fund, not to set the amount (see [The INAMI lump "
-#~ "sum](../belgique/forfait-inami.md)). The Cc accreditation, for its part, "
-#~ "concerns only the **special case of the coma lump sum**."
-#~ msgstr ""
-#~ "Het gewone **afhankelijkheidsforfait** is **hetzelfde bedrag** voor alle "
-#~ "Katz-categorieën; de categorie dient om **het profiel te verklaren** aan de "
-#~ "mutualiteit, niet om het bedrag te bepalen (zie [Het RIZIV-"
-#~ "forfait](../belgique/forfait-inami.md)). De Cc-erkenning betreft enkel het "
-#~ "**bijzondere geval van het comaforfait**."
-
-#~ msgid "Absence management"
-#~ msgstr "Beheer van afwezigheden"
-
-#~ msgid ""
-#~ "The **presence day** rules (noon rule, hospitalization, leave) are **built "
-#~ "into** Resthome and are not configured here. Only the **assignee** of a "
-#~ "follow-up activity is configurable."
-#~ msgstr ""
-#~ "De regels voor de **aanwezigheidsdag** (middagregel, hospitalisatie, verlof)"
-#~ " zijn **ingebouwd** in Resthome en worden hier niet geconfigureerd. Enkel de"
-#~ " **toegewezene** van een opvolgingsactiviteit is configureerbaar."
-
-#~ msgid "**Katz activity assignee**"
-#~ msgstr "**Toegewezene van de Katz-activiteit**"
-
-#~ msgid ""
-#~ "User to whom the \"New Katz required\" activity is assigned when a hospital "
-#~ "readmission exceeds **30 days**. If empty: current user (if clinical), "
-#~ "otherwise the first head nurse, nurse or doctor found."
-#~ msgstr ""
-#~ "Gebruiker aan wie de activiteit « Nieuwe Katz vereist » wordt toegewezen "
-#~ "wanneer een heropname na hospitalisatie meer dan **30 dagen** bedraagt. "
-#~ "Indien leeg: huidige gebruiker (als die klinisch is), anders de eerste "
-#~ "gevonden hoofdverpleegkundige, verpleegkundige of arts."
-
-#~ msgid "The **head nurse** (or the care manager)."
-#~ msgstr "De **hoofdverpleegkundige** (of de zorgverantwoordelijke)."
-
-#~ msgid "Why 30 days?"
-#~ msgstr "Waarom 30 dagen?"
-
-#~ msgid ""
-#~ "A readmission after more than 30 days of hospitalization requires a **new "
-#~ "Katz assessment**. The assigned activity acts as a reminder. See [Absences "
-#~ "and hospitalizations](../facturation/absences.md)."
-#~ msgstr ""
-#~ "Een heropname na meer dan 30 dagen hospitalisatie vereist een **nieuwe Katz-"
-#~ "evaluatie**. De toegewezen activiteit dient als herinnering. Zie "
-#~ "[Afwezigheden en hospitalisaties](../facturation/absences.md)."
-
-#~ msgid "[The INAMI lump sum (dependency)](../belgique/forfait-inami.md)"
-#~ msgstr "[Het RIZIV-forfait (afhankelijkheid)](../belgique/forfait-inami.md)"
+#: ../../content/configuration/reglages-facturation.md:129
+msgid "[Split billing](../facturation-partagee/index.md)"
+msgstr "[Gedeelde facturatie](../facturation-partagee/index.md)"

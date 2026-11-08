@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-16 00:24+0200\n"
+"POT-Creation-Date: 2026-11-08 19:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nl <LL@li.org>\n"
@@ -26,12 +26,13 @@ msgstr "Medicatieronde"
 
 #: ../../content/soins-mobile/tour-medicaments.md:8
 msgid ""
-"The Round screen of the Resthome care app: the doses of each moment of the "
-"day, resident by resident, recorded as given, refused or not given."
+"The Round screen of the WideCare app: the doses of each moment of the day, "
+"resident by resident, distributed then taken, refused or not given, recorded"
+" afterwards, and the glucose before an insulin."
 msgstr ""
-"Het scherm Ronde van de zorg-app van Resthome: de dosissen van elk moment "
-"van de dag, bewoner per bewoner, geregistreerd als toegediend, geweigerd of "
-"niet toegediend."
+"Het scherm Ronde van de WideCare-app: de dosissen van elk moment van de dag,"
+" bewoner per bewoner, uitgedeeld en daarna ingenomen, geweigerd of niet "
+"gegeven, achteraf geregistreerd, en de glucose vóór een insuline."
 
 #: ../../content/soins-mobile/tour-medicaments.md:12
 msgid "Why is the round sorted by resident and not by medication?"
@@ -47,153 +48,410 @@ msgstr ""
 "moeten krijgen, komen eerst; wie al klaar is, volgt onder **Alles in orde**."
 
 #: ../../content/soins-mobile/tour-medicaments.md:15
-msgid "How do I record a refused medication?"
-msgstr "Hoe registreer ik een geweigerd geneesmiddel?"
+msgid "Why two steps, distributed and taken?"
+msgstr "Waarom twee stappen, uitgedeeld en ingenomen?"
 
 #: ../../content/soins-mobile/tour-medicaments.md:16
 msgid ""
-"Tap the cross next to the dose, choose the reason under **Refused by the "
-"resident**, add a remark if needed and tap **Record refusal**."
+"Handing the medication over and seeing it taken are two acts. **Distribute "
+"only** records the first; **Taken** records both, or the second once the "
+"dose is distributed."
 msgstr ""
-"Tik op het kruisje naast de dosis, kies de reden onder **Geweigerd door de "
-"bewoner**, voeg zo nodig een opmerking toe en tik op **Weigering "
-"registreren**."
+"De medicatie overhandigen en ze zien innemen zijn twee handelingen. **Alleen"
+" uitdelen** registreert de eerste; **Ingenomen** registreert beide, of de "
+"tweede zodra de dosis uitgedeeld is."
 
 #: ../../content/soins-mobile/tour-medicaments.md:18
-msgid "What if the medication is missing or the resident is away?"
-msgstr "En als het geneesmiddel ontbreekt of de bewoner afwezig is?"
+msgid "How do I record a refused medication?"
+msgstr "Hoe registreer ik een geweigerd geneesmiddel?"
 
 #: ../../content/soins-mobile/tour-medicaments.md:19
 msgid ""
-"Tap the cross, then **Not available**, **In hospital** or **Skipped** under "
-"**Or not given because**."
+"Swipe the dose to the left, choose the reason under **Refused by the "
+"resident**, add a remark if needed and tap **Record refusal**."
 msgstr ""
-"Tik op het kruisje en daarna op **Niet beschikbaar**, **In het ziekenhuis** "
-"of **Overgeslagen** onder **Of niet toegediend omdat**."
+"Veeg de dosis naar links, kies de reden onder **Geweigerd door de bewoner**,"
+" voeg zo nodig een opmerking toe en tik op **Weigering registreren**."
+
+#: ../../content/soins-mobile/tour-medicaments.md:21
+msgid "I gave a dose at its hour but could not record it then. What do I do?"
+msgstr ""
+"Ik heb een dosis op haar uur gegeven maar kon ze toen niet registreren. Wat "
+"moet ik doen?"
 
 #: ../../content/soins-mobile/tour-medicaments.md:22
 msgid ""
+"Press and hold the dose, choose **Given earlier**, enter the hour it was "
+"given and tap **Record as given**. The record keeps that hour, your name, "
+"and that it was written afterwards."
+msgstr ""
+"Houd de dosis ingedrukt, kies **Achteraf registreren**, vul het uur in "
+"waarop ze gegeven is en tik op **Registreren als gegeven**. De registratie "
+"bewaart dat uur, uw naam, en dat ze achteraf geschreven werd."
+
+#: ../../content/soins-mobile/tour-medicaments.md:24
+msgid "I recorded the wrong dose. Can I correct it?"
+msgstr "Ik heb de verkeerde dosis geregistreerd. Kan ik dat corrigeren?"
+
+#: ../../content/soins-mobile/tour-medicaments.md:25
+msgid ""
+"Within a few seconds, tap **Undo** on the message. Later, a nurse or a "
+"physician corrects the record from the resident's sheet, with the reason."
+msgstr ""
+"Tik binnen enkele seconden op **Ongedaan maken** in het bericht. Later "
+"corrigeert een verpleegkundige of een arts de registratie vanuit de fiche "
+"van de bewoner, met de reden."
+
+#: ../../content/soins-mobile/tour-medicaments.md:28
+msgid ""
 "The **Round** screen shows the doses to give at each moment of the day, "
-"taken from the prescriptions entered in the back office."
+"taken from the prescriptions entered in the back office. It appears for "
+"whoever gives medication."
 msgstr ""
-"Het scherm **Ronde** toont de dosissen die op elk moment van de dag gegeven "
-"moeten worden, afgeleid van de voorschriften die in de kantooromgeving "
-"ingevoerd zijn."
+"Het scherm **Ronde** toont de dosissen die op elk moment van de dag "
+"toegediend moeten worden, afkomstig van de voorschriften die in de "
+"kantooromgeving ingevoerd zijn. Het verschijnt voor wie medicatie toedient."
 
-#: ../../content/soins-mobile/tour-medicaments.md:25
+#: ../../content/soins-mobile/tour-medicaments.md:32
 msgid ""
-"![The Round screen on the phone: the tabs of the moments of the day, then "
-"each resident with the medication, the dose, the route and the Given "
-"button](../assets/screenshots/soins-mobile/phone-04-tour.png)"
+"![The Round screen on the phone: the moment of the round, then each resident"
+" with the medication, the dose and the route](../assets/screenshots/soins-"
+"mobile/phone-04-tour.png)"
 msgstr ""
-"![Het scherm Ronde op de smartphone: de tabbladen van de momenten van de "
-"dag, daarna elke bewoner met het geneesmiddel, de dosis, de toedieningsweg "
-"en de knop Toegediend](../assets/screenshots/soins-mobile/phone-04-tour.png)"
+"![Het scherm Ronde op de smartphone: het moment van de ronde, daarna elke "
+"bewoner met het geneesmiddel, de dosis en de "
+"toedieningsweg](../assets/screenshots/soins-mobile/phone-04-tour.png)"
 
-#: ../../content/soins-mobile/tour-medicaments.md:25
+#: ../../content/soins-mobile/tour-medicaments.md:32
 msgid ""
-"The Round screen on the phone: the tabs of the moments of the day, then each"
-" resident with the medication, the dose, the route and the Given button"
+"The Round screen on the phone: the moment of the round, then each resident "
+"with the medication, the dose and the route"
 msgstr ""
-"Het scherm Ronde op de smartphone: de tabbladen van de momenten van de dag, "
-"daarna elke bewoner met het geneesmiddel, de dosis, de toedieningsweg en de "
-"knop Toegediend"
-
-#: ../../content/soins-mobile/tour-medicaments.md:27
-msgid "Moments of the day"
-msgstr "Momenten van de dag"
-
-#: ../../content/soins-mobile/tour-medicaments.md:29
-msgid ""
-"The tabs at the top are the moments of the round (morning, noon, afternoon, "
-"evening, night). A number gives the doses still to give; a red dot says "
-"doses of that moment were missed."
-msgstr ""
-"De tabbladen bovenaan zijn de momenten van de ronde (ochtend, middag, "
-"namiddag, avond, nacht). Een getal geeft de dosissen die nog gegeven moeten "
-"worden; een rode stip geeft aan dat dosissen van dat moment gemist werden."
-
-#: ../../content/soins-mobile/tour-medicaments.md:33
-msgid "What a dose shows"
-msgstr "Wat een dosis toont"
+"Het scherm Ronde op de smartphone: het moment van de ronde, daarna elke "
+"bewoner met het geneesmiddel, de dosis en de toedieningsweg"
 
 #: ../../content/soins-mobile/tour-medicaments.md:35
-msgid "the medication and the dose;"
-msgstr "het geneesmiddel en de dosis;"
-
-#: ../../content/soins-mobile/tour-medicaments.md:36
-msgid "the route (oral, sublingual…) and the moment relative to the meal;"
-msgstr ""
-"de toedieningsweg (oraal, sublinguaal…) en het moment ten opzichte van de "
-"maaltijd;"
+msgid "Choosing the moment"
+msgstr "Het moment kiezen"
 
 #: ../../content/soins-mobile/tour-medicaments.md:37
-msgid "the special instructions of the prescription."
-msgstr "de bijzondere instructies van het voorschrift."
-
-#: ../../content/soins-mobile/tour-medicaments.md:39
-msgid "Recording a dose given"
-msgstr "Een toegediende dosis registreren"
+msgid ""
+"The button beside the title gives the moment of the round: morning, noon, "
+"afternoon, evening, night, or **All day**. Tap it to change. Each moment "
+"shows the doses it still holds; a **red dot** says doses of that moment were"
+" missed."
+msgstr ""
+"De knop naast de titel geeft het moment van de ronde: ochtend, middag, "
+"namiddag, avond, nacht, of **De hele dag**. Tik erop om te wijzigen. Elk "
+"moment toont de dosissen die het nog bevat; een **rode stip** zegt dat er "
+"dosissen van dat moment gemist zijn."
 
 #: ../../content/soins-mobile/tour-medicaments.md:41
 msgid ""
-"Tap **Given**. The line then shows the status, the time and who gave it."
+"When the moment chosen has no dose, the screen says **No dose on this "
+"round** and names the round where doses are waiting, with **Go there**."
 msgstr ""
-"Tik op **Toegediend**. De regel toont dan de status, het uur en wie ze gaf."
+"Wanneer het gekozen moment geen dosis heeft, zegt het scherm **Geen dosis op"
+" deze ronde** en noemt het de ronde waar dosissen wachten, met **Ga "
+"erheen**."
 
-#: ../../content/soins-mobile/tour-medicaments.md:43
-msgid "Recording a dose not given"
-msgstr "Een niet toegediende dosis registreren"
-
-#: ../../content/soins-mobile/tour-medicaments.md:45
-msgid "Tap the **cross** next to the dose."
-msgstr "Tik op het **kruisje** naast de dosis."
+#: ../../content/soins-mobile/tour-medicaments.md:44
+msgid "What a dose shows"
+msgstr "Wat een dosis toont"
 
 #: ../../content/soins-mobile/tour-medicaments.md:46
-msgid "Choose:"
-msgstr "Kies:"
-
-#: ../../content/soins-mobile/tour-medicaments.md:47
 msgid ""
-"under **Refused by the resident**, the reason of the refusal, add a remark "
-"if useful, then tap **Record refusal**;"
+"the hour, and the day in red when the dose belongs to another day "
+"(**Yesterday**, a date);"
 msgstr ""
-"onder **Geweigerd door de bewoner**, de reden van de weigering, voeg zo "
-"nodig een opmerking toe en tik op **Weigering registreren**;"
+"het uur, en de dag in het rood wanneer de dosis bij een andere dag hoort "
+"(**Gisteren**, een datum);"
+
+#: ../../content/soins-mobile/tour-medicaments.md:48
+msgid "the medication and the dose;"
+msgstr "het geneesmiddel en de dosis;"
 
 #: ../../content/soins-mobile/tour-medicaments.md:49
 msgid ""
-"or, under **Or not given because**, **Not available**, **In hospital** or "
-"**Skipped**."
+"the moment of the round, the route (oral, sublingual…) and the moment "
+"relative to the meal;"
 msgstr ""
-"of, onder **Of niet toegediend omdat**, **Niet beschikbaar**, **In het "
-"ziekenhuis** of **Overgeslagen**."
+"het moment van de ronde, de toedieningsweg (oraal, sublinguaal…) en het "
+"moment ten opzichte van de maaltijd;"
 
-#: ../../content/soins-mobile/tour-medicaments.md:52
+#: ../../content/soins-mobile/tour-medicaments.md:51
+msgid ""
+"**If needed**, **Narcotic**, and what changes the act: do not crush, in "
+"food, a glucose first…"
+msgstr ""
+"**Indien nodig**, **Verdovend middel**, en wat de handeling verandert: niet "
+"pletten, in het eten, eerst een glucose…"
+
+#: ../../content/soins-mobile/tour-medicaments.md:53
+msgid "the special instructions of the prescription."
+msgstr "de bijzondere instructies van het voorschrift."
+
+#: ../../content/soins-mobile/tour-medicaments.md:55
+msgid ""
+"When the house tracks its pillboxes, a dose may also show **Not prepared**, "
+"**Issue at the check** or **Missing: the pharmacy is told**. See "
+"[Pillboxes](piluliers.md)."
+msgstr ""
+"Wanneer het huis zijn pillendozen opvolgt, kan een dosis ook **Niet "
+"klaargezet**, **Afwijking bij controle** of **Ontbreekt: de apotheek is "
+"verwittigd** tonen. Zie [Pillendozen](piluliers.md)."
+
+#: ../../content/soins-mobile/tour-medicaments.md:59
+msgid "Recording a dose"
+msgstr "Een dosis registreren"
+
+#: ../../content/soins-mobile/tour-medicaments.md:61
+msgid ""
+"Swipe the dose to the **right**: **Taken**. The line then shows the status, "
+"the time and who gave it."
+msgstr ""
+"Veeg de dosis naar **rechts**: **Ingenomen**. De regel toont dan de status, "
+"het uur en wie ze gegeven heeft."
+
+#: ../../content/soins-mobile/tour-medicaments.md:64
+msgid "Press and hold the dose for the other choices:"
+msgstr "Houd de dosis ingedrukt voor de andere keuzes:"
+
+#: ../../content/soins-mobile/tour-medicaments.md:66
+msgid "**Taken** — handed over and seen taken;"
+msgstr "**Ingenomen** — overhandigd en zien innemen;"
+
+#: ../../content/soins-mobile/tour-medicaments.md:67
+msgid ""
+"**Distribute only** — handed over; the intake is still to be seen. The line "
+"then shows the hand icon and the hour. Swipe it **Taken** once seen;"
+msgstr ""
+"**Alleen uitdelen** — overhandigd; de inname moet nog gezien worden. De "
+"regel toont dan het handicoon en het uur. Veeg ze naar **Ingenomen** zodra "
+"gezien;"
+
+#: ../../content/soins-mobile/tour-medicaments.md:69
+msgid "**Not given** — see below;"
+msgstr "**Niet gegeven** — zie hieronder;"
+
+#: ../../content/soins-mobile/tour-medicaments.md:70
+msgid "**Given earlier** — see below."
+msgstr "**Achteraf registreren** — zie hieronder."
+
+#: ../../content/soins-mobile/tour-medicaments.md:72
+msgid ""
+"A wrong swipe is taken back with **Undo**, offered for a few seconds. Later,"
+" the record is corrected from the [resident's sheet](habitants.md) by a "
+"nurse or a physician."
+msgstr ""
+"Een verkeerde veegbeweging wordt teruggedraaid met **Ongedaan maken**, dat "
+"enkele seconden aangeboden wordt. Later wordt de registratie gecorrigeerd "
+"vanuit de [fiche van de bewoner](habitants.md) door een verpleegkundige of "
+"een arts."
+
+#: ../../content/soins-mobile/tour-medicaments.md:76
+msgid "Tip"
+msgstr "Tip"
+
+#: ../../content/soins-mobile/tour-medicaments.md:77
+msgid ""
+"A distributed dose whose round is over and that nobody confirmed appears in "
+"the bell under **Intakes to confirm**."
+msgstr ""
+"Een uitgedeelde dosis waarvan de ronde voorbij is en die niemand bevestigd "
+"heeft, verschijnt in de bel onder **Te bevestigen innames**."
+
+#: ../../content/soins-mobile/tour-medicaments.md:81
+msgid "The whole round at once"
+msgstr "De hele ronde in één keer"
+
+#: ../../content/soins-mobile/tour-medicaments.md:83
+msgid "At the top of the round and under each resident:"
+msgstr "Bovenaan de ronde en onder elke bewoner:"
+
+#: ../../content/soins-mobile/tour-medicaments.md:85
+msgid ""
+"**Distribute all** — records every dose shown as distributed, by you, now;"
+msgstr ""
+"**Alles uitdelen** — registreert elke getoonde dosis als uitgedeeld, door u,"
+" nu;"
+
+#: ../../content/soins-mobile/tour-medicaments.md:86
+msgid "**All taken** — records every distributed dose as taken, by you, now."
+msgstr ""
+"**Alles ingenomen** — registreert elke uitgedeelde dosis als ingenomen, door"
+" u, nu."
+
+#: ../../content/soins-mobile/tour-medicaments.md:88
+msgid ""
+"A sheet first says how many doses and residents are concerned, and lists "
+"what is **Left aside** and why: a dose waiting on the phone, an insulin "
+"whose glucose is to read first… Confirm with the button of the sheet. A "
+"refusal or a dose not taken is then recorded dose by dose."
+msgstr ""
+"Een paneel zegt eerst hoeveel dosissen en bewoners betrokken zijn, en somt "
+"op wat onder **Terzijde gelaten** staat en waarom: een dosis die op de "
+"telefoon wacht, een insuline waarvan eerst de glucose gemeten moet worden… "
+"Bevestig met de knop van het paneel. Een weigering of een niet ingenomen "
+"dosis wordt daarna dosis per dosis geregistreerd."
+
+#: ../../content/soins-mobile/tour-medicaments.md:93
+msgid "Recording a dose not given"
+msgstr "Een niet toegediende dosis registreren"
+
+#: ../../content/soins-mobile/tour-medicaments.md:95
+msgid "Swipe the dose to the **left**."
+msgstr "Veeg de dosis naar **links**."
+
+#: ../../content/soins-mobile/tour-medicaments.md:96
+msgid "Choose:"
+msgstr "Kies:"
+
+#: ../../content/soins-mobile/tour-medicaments.md:97
+msgid ""
+"under **Refused by the resident**, the reason of the refusal, add a remark "
+"under **Anything worth noting** if useful, then tap **Record refusal**;"
+msgstr ""
+"onder **Geweigerd door de bewoner**, de reden van de weigering, voeg zo "
+"nodig een opmerking toe onder **Iets om te melden**, en tik daarna op "
+"**Weigering registreren**;"
+
+#: ../../content/soins-mobile/tour-medicaments.md:99
+msgid ""
+"or, under **Or not given because**: **Missing: tell the pharmacy**, **In "
+"hospital**, **Skipped** — and **Away** for someone who only comes by day."
+msgstr ""
+"of, onder **Of niet toegediend omdat**: **Ontbreekt: apotheek verwittigen**,"
+" **In het ziekenhuis**, **Overgeslagen** — en **Afwezig** voor iemand die "
+"alleen overdag komt."
+
+#: ../../content/soins-mobile/tour-medicaments.md:102
+msgid ""
+"**Missing: tell the pharmacy** puts the medication in the house's next order"
+" to the pharmacy."
+msgstr ""
+"**Ontbreekt: apotheek verwittigen** zet het geneesmiddel in de volgende "
+"bestelling van het huis bij de apotheek."
+
+#: ../../content/soins-mobile/tour-medicaments.md:105
+msgid ""
+"For a dose already distributed, the sheet asks **Distributed, and not taken "
+"because**: choose the reason and tap **Record not taken**."
+msgstr ""
+"Voor een dosis die al uitgedeeld is, vraagt het paneel **Uitgedeeld, en niet"
+" ingenomen omdat**: kies de reden en tik op **Noteren als niet ingenomen**."
+
+#: ../../content/soins-mobile/tour-medicaments.md:108
 msgid ""
 "![The window of a dose not given: the refusal reasons, the remark field, "
-"Record refusal, and the Not available, In hospital and Skipped "
-"buttons](../assets/screenshots/soins-mobile/phone-05-tour-non-donnee.png)"
+"Record refusal, and the reasons a dose is not "
+"given](../assets/screenshots/soins-mobile/phone-05-tour-non-donnee.png)"
 msgstr ""
-"![Het venster van een niet toegediende dosis: de redenen van weigering, het "
-"opmerkingenveld, Weigering registreren, en de knoppen Niet beschikbaar, In "
-"het ziekenhuis en Overgeslagen](../assets/screenshots/soins-"
-"mobile/phone-05-tour-non-donnee.png)"
+"![Het venster van een niet gegeven dosis: de redenen van weigering, het "
+"opmerkingenveld, Weigering registreren, en de redenen waarom een dosis niet "
+"gegeven wordt](../assets/screenshots/soins-mobile/phone-05-tour-non-"
+"donnee.png)"
 
-#: ../../content/soins-mobile/tour-medicaments.md:52
+#: ../../content/soins-mobile/tour-medicaments.md:108
 msgid ""
 "The window of a dose not given: the refusal reasons, the remark field, "
-"Record refusal, and the Not available, In hospital and Skipped buttons"
+"Record refusal, and the reasons a dose is not given"
 msgstr ""
-"Het venster van een niet toegediende dosis: de redenen van weigering, het "
-"opmerkingenveld, Weigering registreren, en de knoppen Niet beschikbaar, In "
-"het ziekenhuis en Overgeslagen"
+"Het venster van een niet gegeven dosis: de redenen van weigering, het "
+"opmerkingenveld, Weigering registreren, en de redenen waarom een dosis niet "
+"gegeven wordt"
 
-#: ../../content/soins-mobile/tour-medicaments.md:54
+#: ../../content/soins-mobile/tour-medicaments.md:111
+msgid "A dose given earlier"
+msgstr "Een dosis die eerder gegeven is"
+
+#: ../../content/soins-mobile/tour-medicaments.md:113
+msgid "A dose given at its hour and recorded only now:"
+msgstr "Een dosis die op haar uur gegeven is en pas nu geregistreerd wordt:"
+
+#: ../../content/soins-mobile/tour-medicaments.md:115
+msgid "Press and hold the dose and choose **Given earlier**."
+msgstr "Houd de dosis ingedrukt en kies **Achteraf registreren**."
+
+#: ../../content/soins-mobile/tour-medicaments.md:116
+msgid ""
+"Under **Given at**, enter the hour it was given. The hour of the round is "
+"proposed."
+msgstr ""
+"Vul onder **Gegeven om** het uur in waarop ze gegeven is. Het uur van de "
+"ronde wordt voorgesteld."
+
+#: ../../content/soins-mobile/tour-medicaments.md:118
+msgid "Tap **Record as given**."
+msgstr "Tik op **Registreren als gegeven**."
+
+#: ../../content/soins-mobile/tour-medicaments.md:120
+msgid ""
+"The record keeps this hour, your name, and that it was written afterwards. "
+"The line then shows **recorded afterwards**. A dose of a day already over "
+"can only be recorded this way. An hour still to come is refused."
+msgstr ""
+"De registratie bewaart dat uur, uw naam, en dat ze achteraf geschreven werd."
+" De regel toont dan **achteraf geregistreerd**. Een dosis van een dag die al"
+" voorbij is, kan alleen zo geregistreerd worden. Een uur dat nog moet komen,"
+" wordt geweigerd."
+
+#: ../../content/soins-mobile/tour-medicaments.md:124
+msgid "Glucose before an insulin"
+msgstr "Glucose vóór een insuline"
+
+#: ../../content/soins-mobile/tour-medicaments.md:126
+msgid ""
+"An insulin asks for the capillary glucose first. When you record it as "
+"taken, a sheet asks the **Capillary glucose (mg/dL)**:"
+msgstr ""
+"Een insuline vraagt eerst de capillaire glucose. Wanneer u ze als ingenomen "
+"registreert, vraagt een paneel de **Capillaire glucose (mg/dl)**:"
+
+#: ../../content/soins-mobile/tour-medicaments.md:129
+msgid "enter the value and tap **Taken, glucose recorded**;"
+msgstr "vul de waarde in en tik op **Ingenomen, glucose genoteerd**;"
+
+#: ../../content/soins-mobile/tour-medicaments.md:130
+msgid "or tap **Taken, no glucose read**."
+msgstr "of tik op **Ingenomen, geen glucose gemeten**."
+
+#: ../../content/soins-mobile/tour-medicaments.md:132
+msgid "An impossible value is refused with the range accepted."
+msgstr "Een onmogelijke waarde wordt geweigerd, met het aanvaarde bereik."
+
+#: ../../content/soins-mobile/tour-medicaments.md:134
+msgid "Unplanned medication or care"
+msgstr "Niet-geplande medicatie of zorg"
+
+#: ../../content/soins-mobile/tour-medicaments.md:136
+msgid ""
+"The **+** button at the top records a medication that is not on the "
+"treatment sheet, or a care nobody planned. See [New task](nouvelle-"
+"tache.md)."
+msgstr ""
+"De knop **+** bovenaan registreert een geneesmiddel dat niet op de "
+"behandelingsfiche staat, of een zorg die niemand gepland had. Zie [Nieuwe "
+"taak](nouvelle-tache.md)."
+
+#: ../../content/soins-mobile/tour-medicaments.md:139
+msgid "Pillboxes"
+msgstr "Pillendozen"
+
+#: ../../content/soins-mobile/tour-medicaments.md:141
+msgid ""
+"For the nurses, the **pillboxes** button at the top opens the preparation "
+"and the check of the pillboxes. See [Pillboxes](piluliers.md)."
+msgstr ""
+"Voor de verpleegkundigen opent de knop **pillendozen** bovenaan de "
+"voorbereiding en de controle van de pillendozen. Zie "
+"[Pillendozen](piluliers.md)."
+
+#: ../../content/soins-mobile/tour-medicaments.md:144
 msgid "Note"
 msgstr "Opmerking"
 
-#: ../../content/soins-mobile/tour-medicaments.md:55
+#: ../../content/soins-mobile/tour-medicaments.md:145
 msgid ""
 "The administrations recorded here are the same as in the back office: they "
 "feed the resident's history and the refusal counters of the prescription. "
@@ -203,3 +461,24 @@ msgstr ""
 "kantooromgeving: ze voeden de geschiedenis van de bewoner en de "
 "weigeringstellers van het voorschrift. Zie "
 "[Voorschriften](../soins/prescriptions.md)."
+
+#: ../../content/soins-mobile/tour-medicaments.md:150
+msgid "Going further"
+msgstr "Verder"
+
+#: ../../content/soins-mobile/tour-medicaments.md:152
+msgid ""
+"[The medication round at the desk](../medicaments/tour.md) — corrections and"
+" incidents."
+msgstr ""
+"[De medicatieronde aan het bureau](../medicaments/tour.md) — correcties en "
+"incidenten."
+
+#: ../../content/soins-mobile/tour-medicaments.md:153
+msgid "[Pillboxes and the pharmacy's sachets](../medicaments/piluliers.md)"
+msgstr ""
+"[Pillendozen en de zakjes van de apotheek](../medicaments/piluliers.md)"
+
+#: ../../content/soins-mobile/tour-medicaments.md:154
+msgid "[Medicines](../medicaments/index.md)"
+msgstr "[Geneesmiddelen](../medicaments/index.md)"

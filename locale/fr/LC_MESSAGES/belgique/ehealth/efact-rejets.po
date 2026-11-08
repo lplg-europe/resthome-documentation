@@ -226,7 +226,7 @@ msgstr ""
 
 #: ../../content/belgique/ehealth/efact-rejets.md:76
 msgid "The **Current batch** column names the live batch of the thread."
-msgstr "La colonne **Lot en cours** nomme le lot vivant du fil."
+msgstr "La colonne **Envoi courant** nomme le lot vivant du fil."
 
 #: ../../content/belgique/ehealth/efact-rejets.md:77
 msgid ""
@@ -235,7 +235,7 @@ msgid ""
 "historical: the corrections belong on the live resend, not here."
 msgstr ""
 "Ouvrir une tête rejetée vous amène sur une bannière — **Renvoi déjà créé** —"
-" avec un bouton **Ouvrir le renvoi en cours**. Son propre statut, en "
+" avec un bouton **Ouvrir le renvoi actif en cours**. Son propre statut, en "
 "dessous, est historique : les corrections se font sur le renvoi vivant, pas "
 "ici."
 
@@ -261,10 +261,10 @@ msgid ""
 "them, or open the live batch and use its **Resends / lifecycle** (☰) button,"
 " which lists every batch that has billed this insurer for this month."
 msgstr ""
-"Rien n'est supprimé. Passez au filtre **Remplacés / abandonnés** pour les "
-"retrouver, ou ouvrez le lot vivant et utilisez son bouton **Renvois / cycle "
-"de vie** (☰), qui liste tous les lots ayant facturé cet organisme assureur "
-"pour ce mois."
+"Rien n'est supprimé. Passez au filtre **Remplacés / classés sans suite** "
+"pour les retrouver, ou ouvrez le lot vivant et utilisez son bouton **Renvois"
+" / cycle de vie** (☰), qui liste tous les lots ayant facturé cet organisme "
+"assureur pour ce mois."
 
 #: ../../content/belgique/ehealth/efact-rejets.md:94
 msgid ""
@@ -397,10 +397,6 @@ msgid "**Missing Katz category or expired evaluation**"
 msgstr "**Catégorie Katz manquante ou évaluation expirée**"
 
 #: ../../content/belgique/ehealth/efact-rejets.md:81
-msgid "The **\"Katz to do\"** counter; blocked at generation"
-msgstr "Compteur **« Katz à faire »** ; blocage à la génération"
-
-#: ../../content/belgique/ehealth/efact-rejets.md:81
 msgid "Complete or renew the **Katz evaluation**, then **regenerate**."
 msgstr "Compléter ou renouveler l’**évaluation Katz**, puis **régénérer**."
 
@@ -530,9 +526,9 @@ msgid ""
 "records that decision: the batch **will not be resent**, the fund's "
 "rejection stands, and the batch leaves the \"To resend\" worklist."
 msgstr ""
-"Parfois le rejet est fondé et il n'y a rien à corriger. **Renoncer** acte "
-"cette décision : le lot **ne sera pas renvoyé**, le rejet de la mutuelle est"
-" définitif, et le lot quitte la liste « À renvoyer »."
+"Parfois le rejet est fondé et il n'y a rien à corriger. **Classer sans "
+"suite** acte cette décision : le lot **ne sera pas renvoyé**, le rejet de la"
+" mutuelle est définitif, et le lot quitte la liste « À renvoyer »."
 
 #: ../../content/belgique/ehealth/efact-rejets.md:144
 msgid ""
@@ -757,3 +753,11 @@ msgstr "[Départ et décès](../../facturation/depart-deces.md)"
 #: ../../content/belgique/ehealth/efact-rejets.md:202
 msgid "[FAQ](../../faq.md) · [Glossary](../../glossaire.md)"
 msgstr "[FAQ](../../faq.md) · [Glossaire](../../glossaire.md)"
+
+#: ../../content/belgique/ehealth/efact-rejets.md:81
+msgid ""
+"The **Katz à faire** counter; the resident's row shows **No Katz** and gets "
+"no allowance"
+msgstr ""
+"Le compteur **Katz à faire** ; la ligne de l'habitant affiche **Pas de "
+"Katz** et ne reçoit aucun forfait"

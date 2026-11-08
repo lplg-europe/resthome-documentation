@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 15:49+0200\n"
+"POT-Creation-Date: 2026-11-08 19:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nl <LL@li.org>\n"
@@ -21,16 +21,19 @@ msgstr ""
 "Generated-By: Babel 2.18.0\n"
 
 #: ../../content/soins/plans-de-soins.md:5
-msgid "Care plans and vital signs"
-msgstr "Zorgplannen en vitale parameters"
+msgid "Care plans"
+msgstr "Zorgplannen"
 
 #: ../../content/soins/plans-de-soins.md:8
 msgid ""
-"Care plans, daily care schedule, vital signs entry and trends, and nursing "
-"notes in Resthome."
+"Care plans in Resthome: objectives and care lines with their moments of the "
+"day, hour and frequency, templates to add or replace, suspension, stop and "
+"archive, periodic review and the care plan coordinator."
 msgstr ""
-"Zorgplannen, planning van de zorgen van de dag, invoer van vitale parameters"
-" en trends, verpleegnotities in Resthome."
+"Zorgplannen in Resthome: doelstellingen en zorglijnen met hun momenten van "
+"de dag, hun uur en hun frequentie, sjablonen om toe te voegen of te "
+"vervangen, opschorting, stopzetting en archivering, periodieke herziening en"
+" de zorgcoördinator."
 
 #: ../../content/soins/plans-de-soins.md:12
 msgid "What is a care plan in Resthome?"
@@ -38,126 +41,134 @@ msgstr "Wat is een zorgplan in Resthome?"
 
 #: ../../content/soins/plans-de-soins.md:13
 msgid ""
-"A plan describing the goals of a resident's care and the actions to carry "
-"out. It is activated, put under review then validated periodically, and "
-"finally completed or cancelled."
+"The plan of a resident's care: **objectives** (why) and **care lines** (what"
+" is done, when and how often). Every night, the care lines become care tasks"
+" for the coming days. A resident has one live plan at a time."
 msgstr ""
-"Een plan dat de zorgdoelstellingen van een bewoner en de uit te voeren "
-"acties beschrijft. Het wordt geactiveerd, in herziening gezet en periodiek "
-"gevalideerd, en ten slotte afgerond of geannuleerd."
+"Het plan van de zorg voor een bewoner: **doelstellingen** (waarom) en "
+"**zorglijnen** (wat er gedaan wordt, wanneer en hoe vaak). Elke nacht worden"
+" de zorglijnen zorgtaken voor de komende dagen. Een bewoner heeft telkens "
+"één levend plan."
 
 #: ../../content/soins/plans-de-soins.md:15
-msgid "Where do I see the care to be carried out today?"
-msgstr "Waar zie ik de zorg die vandaag moet worden uitgevoerd?"
+msgid "Can I delete a care line?"
+msgstr "Kan ik een zorglijn verwijderen?"
 
 #: ../../content/soins/plans-de-soins.md:16
 msgid ""
-"In \"Today's care\" for the whole list, and \"My assigned care\" for what is"
-" assigned to you personally. Each task can be started, completed, cancelled "
-"or marked missed."
+"Only on a **draft** plan, for a care that nothing has happened on: the bin "
+"removes it. On a plan in force, a care is part of the record: stop it, or "
+"stop and archive it, with a reason. It then moves to **Care History**."
 msgstr ""
-"In « Zorg van vandaag » voor de volledige lijst, en « Mijn toegewezen zorg »"
-" voor wat persoonlijk aan u is toegewezen. Elke taak kan worden gestart, "
-"afgerond, geannuleerd of als gemist gemarkeerd."
+"Alleen op een zorgplan in **concept**, voor een zorg waarop nog niets "
+"gebeurd is: de prullenbak verwijdert ze. Op een geldend plan maakt een zorg "
+"deel uit van het dossier: stop ze, of stop en archiveer ze, met een reden. "
+"Ze gaat dan naar **Zorggeschiedenis**."
 
 #: ../../content/soins/plans-de-soins.md:18
-msgid "How do I record vital signs?"
-msgstr "Hoe registreer ik de vitale parameters?"
+msgid "Why can't I activate the care plan?"
+msgstr "Waarom kan ik het zorgplan niet activeren?"
 
 #: ../../content/soins/plans-de-soins.md:19
 msgid ""
-"From the resident record, open Vital signs entry and fill in the "
-"measurements (blood pressure, pulse, temperature, weight, saturation...), "
-"then save."
+"A plan cannot be put in force for a resident who no longer has a stay in the"
+" house (departed for good or deceased). The resident's form then no longer "
+"offers **Create the care plan**."
 msgstr ""
-"Open vanuit het bewonersdossier de Invoer van vitale parameters en vul de "
-"metingen in (bloeddruk, pols, temperatuur, gewicht, saturatie…), en bewaar."
+"Een plan kan niet van kracht worden voor een bewoner die geen verblijf meer "
+"heeft in het huis (definitief vertrokken of overleden). De bewonersfiche "
+"biedt dan geen **Het zorgplan aanmaken** meer aan."
 
 #: ../../content/soins/plans-de-soins.md:21
-msgid "Can I see how a resident's vital signs evolve?"
-msgstr "Kan ik de evolutie van de vitale parameters van een bewoner zien?"
+msgid "How do I give the same care morning and evening?"
+msgstr "Hoe geef ik dezelfde zorg 's ochtends en 's avonds?"
 
 #: ../../content/soins/plans-de-soins.md:22
 msgid ""
-"Yes. The Trends tool shows how measurements change over time, which helps "
-"spot a deterioration before it sets in."
+"On one line: pick several **Moments of the Day**. A single moment can carry "
+"a precise **Hour**; left empty, the care takes the start of its moment."
 msgstr ""
-"Ja. De tool Trends toont de evolutie van de metingen in de tijd, wat helpt "
-"om een achteruitgang op te merken voor ze zich doorzet."
+"Op één lijn: kies meerdere **Momenten van de dag**. Eén enkel moment kan een"
+" exact **Uur** krijgen; leeg gelaten neemt de zorg het begin van het moment."
 
 #: ../../content/soins/plans-de-soins.md:24
-msgid "What are nursing notes used for?"
-msgstr "Waarvoor dienen de zorgnota's?"
+msgid ""
+"What happens when I pick a template on a plan that already has content?"
+msgstr ""
+"Wat gebeurt er wanneer ik een sjabloon kies op een plan dat al inhoud heeft?"
 
 #: ../../content/soins/plans-de-soins.md:25
 msgid ""
-"To record observations. Items needing attention surface under Watch points /"
-" Attention required, and are marked resolved once handled."
+"Resthome asks first. On a draft plan you choose **Add to the plan** (what is"
+" already there is kept and duplicates are skipped) or **Replace everything**"
+" (what was written on the draft goes; care already given or noted stays). On"
+" a plan in force, a template can only be added."
 msgstr ""
-"Om observaties vast te leggen. Elementen die aandacht vragen komen naar "
-"boven onder Aandachtspunten / Aandacht vereist, en worden als opgelost "
-"gemarkeerd zodra ze zijn behandeld."
+"Resthome vraagt het eerst. Op een zorgplan in concept kiest u **Toevoegen "
+"aan het plan** (wat er al staat, blijft behouden en dubbels worden "
+"overgeslagen) of **Alles vervangen** (wat op het concept geschreven werd, "
+"verdwijnt; reeds gegeven of genoteerde zorg blijft). Op een geldend plan kan"
+" een sjabloon alleen toegevoegd worden."
 
 #: ../../content/soins/plans-de-soins.md:28
 msgid ""
-"Beyond medication, the Care app organizes **day-to-day nursing work**: care "
-"plans, scheduling, vital signs and notes."
+"A **care plan** describes the care of one resident: the **objectives** the "
+"team pursues and the **care lines** that are carried out every day. It lives"
+" in the **Nursing Care** app, under **Nursing Care → Care → Plans and "
+"Meetings → Care Plans**."
 msgstr ""
-"Naast de medicatie organiseert de toepassing Zorg het **dagelijkse "
-"verpleegkundige werk**: zorgplannen, planning, vitale parameters en "
-"notities."
+"Een **zorgplan** beschrijft de zorg voor één bewoner: de **doelstellingen** "
+"die het team nastreeft en de **zorglijnen** die elke dag uitgevoerd worden. "
+"Het staat in de app **Zorg**, onder **Zorg → Zorg → Plannen en overleg → "
+"Zorgplannen**."
 
-#: ../../content/soins/plans-de-soins.md:30
-msgid "Care plans"
-msgstr "Zorgplannen"
-
-#: ../../content/soins/plans-de-soins.md:32
-msgid ""
-"A **care plan** describes the **goals** of a resident's care and the actions"
-" to carry out. It follows a clear cycle:"
-msgstr ""
-"Een **zorgplan** beschrijft de **doelstellingen** van de begeleiding van een"
-" bewoner en de uit te voeren acties. Het volgt een duidelijke cyclus:"
-
-#: ../../content/soins/plans-de-soins.md:34
-msgid "**Activate** — the plan becomes effective."
-msgstr "**Activeren** — het plan wordt van kracht."
+#: ../../content/soins/plans-de-soins.md:33
+msgid "Open or create a plan"
+msgstr "Een plan openen of aanmaken"
 
 #: ../../content/soins/plans-de-soins.md:35
-msgid "**Put under review** then **Validate review** — periodic reassessment."
+msgid ""
+"From the resident's form: **Create the care plan** when there is none, or "
+"**Care Plan** to open it."
 msgstr ""
-"**In herziening zetten** en daarna **Herziening valideren** — periodieke "
-"herevaluatie."
+"Vanuit de bewonersfiche: **Het zorgplan aanmaken** als er geen is, of "
+"**Zorgplan** om het te openen."
 
-#: ../../content/soins/plans-de-soins.md:36
-msgid "**Complete** / **Cancel** — closure."
-msgstr "**Beëindigen** / **Annuleren** — afsluiten."
+#: ../../content/soins/plans-de-soins.md:37
+msgid "From the list **Care Plans**: **New**, then pick the resident."
+msgstr "Vanuit de lijst **Zorgplannen**: **Nieuw**, en kies dan de bewoner."
 
 #: ../../content/soins/plans-de-soins.md:38
 msgid ""
-"![Care plan form: the resident, the dependency category and its validity, "
-"and the Care goals tab listing each goal with its "
-"interventions](../assets/screenshots/soins/plan-de-soins-objectifs.png)"
+"From a [multidisciplinary meeting](reunion-pluridisciplinaire.md): **Create "
+"the care plan** on the resident's card."
 msgstr ""
-"![Formulier zorgplan: de bewoner, de afhankelijkheidscategorie en de "
-"geldigheid ervan, en het tabblad Zorgdoelen met elk doel en zijn "
-"interventies](../assets/screenshots/soins/plan-de-soins-objectifs.png)"
+"Vanuit een [multidisciplinair overleg](reunion-pluridisciplinaire.md): **Het"
+" zorgplan aanmaken** op de kaart van de bewoner."
 
-#: ../../content/soins/plans-de-soins.md:38
+#: ../../content/soins/plans-de-soins.md:41
 msgid ""
-"Care plan form: the resident, the dependency category and its validity, and "
-"the Care goals tab listing each goal with its interventions"
+"The nurse who opens the plan becomes its **Care Coordinator** by default. A "
+"plan in force must have one."
 msgstr ""
-"Formulier zorgplan: de bewoner, de afhankelijkheidscategorie en de "
-"geldigheid ervan, en het tabblad Zorgdoelen met elk doel en zijn "
-"interventies"
+"De verpleegkundige die het plan opent, wordt standaard de "
+"**Zorgcoördinator**. Een geldend plan moet er een hebben."
 
-#: ../../content/soins/plans-de-soins.md:40
-msgid "Each plan carries its own **goals**, which makes follow-up measurable."
+#: ../../content/soins/plans-de-soins.md:44
+msgid "One live plan per resident"
+msgstr "Eén levend plan per bewoner"
+
+#: ../../content/soins/plans-de-soins.md:47
+msgid ""
+"A resident has a single live plan (draft, active or under review). A plan "
+"cannot be activated for someone who no longer has a stay in the house: the "
+"end of the stay closes the plan."
 msgstr ""
-"Elk plan draagt zijn **doelstellingen**, wat de opvolging meetbaar maakt."
+"Een bewoner heeft één levend plan (concept, actief of in herziening). Een "
+"plan kan niet geactiveerd worden voor iemand die geen verblijf meer heeft in"
+" het huis: het einde van het verblijf sluit het plan af."
 
-#: ../../content/soins/plans-de-soins.md:42
+#: ../../content/soins/plans-de-soins.md:52
 msgid ""
 "![Care plans list: reference, resident, start date, next review, dependency "
 "category and care coordinator](../assets/screenshots/soins/06-plans-de-"
@@ -167,7 +178,7 @@ msgstr ""
 "herziening, afhankelijkheidscategorie en "
 "zorgcoördinator](../assets/screenshots/soins/06-plans-de-soins.png)"
 
-#: ../../content/soins/plans-de-soins.md:42
+#: ../../content/soins/plans-de-soins.md:52
 msgid ""
 "Care plans list: reference, resident, start date, next review, dependency "
 "category and care coordinator"
@@ -175,163 +186,679 @@ msgstr ""
 "Lijst van zorgplannen: referentie, bewoner, startdatum, volgende herziening,"
 " afhankelijkheidscategorie en zorgcoördinator"
 
+#: ../../content/soins/plans-de-soins.md:55
+msgid "The plan's life cycle"
+msgstr "De levenscyclus van het plan"
+
 #: ../../content/soins/plans-de-soins.md:44
-msgid "Care scheduling"
-msgstr "Zorgplanning"
+msgid "State"
+msgstr "Status"
 
-#: ../../content/soins/plans-de-soins.md:46
-msgid "**Today's care** — the list of care tasks to perform today."
-msgstr "**Zorgen van vandaag** — de lijst met vandaag uit te voeren zorgen."
+#: ../../content/soins/plans-de-soins.md:44
+#: ../../content/soins/plans-de-soins.md:130
+msgid "Meaning"
+msgstr "Betekenis"
 
-#: ../../content/soins/plans-de-soins.md:47
-msgid "**My assigned care** — what is assigned to you personally."
-msgstr "**Mijn toegewezen zorgen** — wat u persoonlijk toekomt."
+#: ../../content/soins/plans-de-soins.md:44
+#: ../../content/soins/plans-de-soins.md:130
+msgid "**Draft**"
+msgstr "**Concept**"
 
-#: ../../content/soins/plans-de-soins.md:48
-msgid ""
-"Each scheduled care task can be **started**, **completed**, **cancelled** or"
-" marked **missed** — the round stays traceable."
-msgstr ""
-"Elke geplande zorg wordt **gestart**, **beëindigd**, **geannuleerd** of als "
-"**gemist** gemarkeerd — de ronde blijft traceerbaar."
+#: ../../content/soins/plans-de-soins.md:44
+msgid "Being written: lines can still be edited or removed"
+msgstr "In opmaak: de lijnen kunnen nog bewerkt of verwijderd worden"
 
-#: ../../content/soins/plans-de-soins.md:50
-msgid ""
-"![Today's care: one row per task with the scheduled time, the resident, the "
-"type of care, the assignee and the "
-"status](../assets/screenshots/soins/03-soins-du-jour.png)"
-msgstr ""
-"![Zorg van vandaag: één regel per zorgtaak met het geplande uur, de bewoner,"
-" het type zorg, de toegewezen medewerker en de "
-"status](../assets/screenshots/soins/03-soins-du-jour.png)"
+#: ../../content/soins/plans-de-soins.md:44
+msgid "**Active**"
+msgstr "**Actief**"
 
-#: ../../content/soins/plans-de-soins.md:50
-msgid ""
-"Today's care: one row per task with the scheduled time, the resident, the "
-"type of care, the assignee and the status"
-msgstr ""
-"Zorg van vandaag: één regel per zorgtaak met het geplande uur, de bewoner, "
-"het type zorg, de toegewezen medewerker en de status"
+#: ../../content/soins/plans-de-soins.md:44
+msgid "In force: its care lines create care tasks"
+msgstr "Van kracht: de zorglijnen maken zorgtaken aan"
 
-#: ../../content/soins/plans-de-soins.md:52
-msgid ""
-"The same care can be read as a **calendar**, which makes the workload of "
-"each day of the week visible at a glance."
-msgstr ""
-"Dezelfde zorg is ook leesbaar als **kalender**, waardoor de belasting van "
-"elke dag van de week in één oogopslag zichtbaar wordt."
+#: ../../content/soins/plans-de-soins.md:44
+msgid "**Under Review**"
+msgstr "**In herziening**"
 
-#: ../../content/soins/plans-de-soins.md:55
-msgid ""
-"![Weekly care schedule in calendar view, with the care tasks laid out by "
-"time slot](../assets/screenshots/soins/02-planning-des-soins.png)"
-msgstr ""
-"![Weekplanning van de zorg in kalenderweergave, met de zorgtaken verdeeld "
-"over de tijdvakken](../assets/screenshots/soins/02-planning-des-soins.png)"
+#: ../../content/soins/plans-de-soins.md:44
+msgid "Being revised"
+msgstr "Wordt herzien"
 
-#: ../../content/soins/plans-de-soins.md:55
-msgid ""
-"Weekly care schedule in calendar view, with the care tasks laid out by time "
-"slot"
-msgstr ""
-"Weekplanning van de zorg in kalenderweergave, met de zorgtaken verdeeld over"
-" de tijdvakken"
+#: ../../content/soins/plans-de-soins.md:44
+msgid "**Completed**"
+msgstr "**Voltooid**"
 
-#: ../../content/soins/plans-de-soins.md:57
-msgid ""
-"In **kanban** view, the same day reads as a board of cards — one per care "
-"task, with its status at a glance."
-msgstr ""
-"In **kanban**-weergave leest dezelfde dag als een bord met kaarten — één per"
-" zorgtaak, met de status in één oogopslag."
+#: ../../content/soins/plans-de-soins.md:44
+msgid "Closed, usually at the end of the stay"
+msgstr "Afgesloten, meestal op het einde van het verblijf"
 
-#: ../../content/soins/plans-de-soins.md:60
-msgid ""
-"![Today's care as a kanban board, one card per task with its type, its "
-"resident and its status](../assets/screenshots/soins/soins-du-jour.png)"
-msgstr ""
-"![De zorg van vandaag als kanbanbord: één kaart per zorgtaak, met het type, "
-"de bewoner en de status](../assets/screenshots/soins/soins-du-jour.png)"
+#: ../../content/soins/plans-de-soins.md:44
+msgid "**Cancelled**"
+msgstr "**Geannuleerd**"
 
-#: ../../content/soins/plans-de-soins.md:60
-msgid ""
-"Today's care as a kanban board, one card per task with its type, its "
-"resident and its status"
-msgstr ""
-"De zorg van vandaag als kanbanbord: één kaart per zorgtaak, met het type, de"
-" bewoner en de status"
-
-#: ../../content/soins/plans-de-soins.md:62
-msgid "Vital signs"
-msgstr "Vitale parameters"
-
-#: ../../content/soins/plans-de-soins.md:64
-msgid "From the resident record, open **Vital signs entry**."
-msgstr "Open vanaf de fiche van de bewoner **Invoer vitale parameters**."
+#: ../../content/soins/plans-de-soins.md:44
+msgid "Cancelled"
+msgstr "Geannuleerd"
 
 #: ../../content/soins/plans-de-soins.md:65
-msgid ""
-"Fill in the measurements (blood pressure, pulse, temperature, weight, "
-"saturation…)."
-msgstr ""
-"Vul de metingen in (bloeddruk, pols, temperatuur, gewicht, saturatie…)."
+msgid "The buttons follow the state:"
+msgstr "De knoppen volgen de status:"
 
-#: ../../content/soins/plans-de-soins.md:66
-msgid "**Save.**"
-msgstr "**Sla op.**"
+#: ../../content/soins/plans-de-soins.md:67
+msgid "**Activate** — puts a draft in force."
+msgstr "**Activeren** — zet een concept in werking."
 
 #: ../../content/soins/plans-de-soins.md:68
-msgid "Trends"
-msgstr "Trends"
-
-#: ../../content/soins/plans-de-soins.md:71
 msgid ""
-"The **Trends** tool displays how vital signs evolve over time — handy for "
-"spotting a deterioration before it sets in."
+"**Review the plan** — opens a revision; the button turns blue when the "
+"review is overdue."
 msgstr ""
-"De tool **Trends** toont de evolutie van de vitale parameters in de tijd — "
-"handig om een verslechtering te zien vóór ze zich vastzet."
+"**Plan herzien** — opent een herziening; de knop wordt blauw wanneer de "
+"herziening achterstallig is."
+
+#: ../../content/soins/plans-de-soins.md:70
+msgid ""
+"**Confirm without change** — records the periodic review when nothing needs "
+"to change."
+msgstr ""
+"**Bevestigen zonder wijziging** — legt de periodieke herziening vast wanneer"
+" er niets moet veranderen."
+
+#: ../../content/soins/plans-de-soins.md:72
+msgid "**Validate Review** — closes a revision and records it."
+msgstr "**Herziening valideren** — sluit een herziening af en legt ze vast."
+
+#: ../../content/soins/plans-de-soins.md:73
+msgid "**Reopen** — brings a completed or cancelled plan back to draft."
+msgstr ""
+"**Heropenen** — zet een voltooid of geannuleerd plan terug in concept."
 
 #: ../../content/soins/plans-de-soins.md:74
-msgid "Nursing notes"
-msgstr "Verpleegnotities"
+msgid "**Apply a template** — see below."
+msgstr "**Sjabloon toepassen** — zie verder."
 
 #: ../../content/soins/plans-de-soins.md:76
 msgid ""
-"**Nursing notes** record observations. Items that need attention surface "
-"under **Watch points** / **Attention required**, and are marked **resolved**"
-" once handled."
+"Under **Actions**: **Cancel the plan** (refused on a plan already closed) "
+"and **Save as template**."
 msgstr ""
-"De **verpleegnotities** leggen de observaties vast. Punten die aandacht "
-"vragen, komen naar boven in **Aandachtspunten**, en worden als **opgelost** "
-"gemarkeerd zodra ze behandeld zijn."
+"Onder **Acties**: **Plan annuleren** (geweigerd op een plan dat al "
+"afgesloten is) en **Opslaan als sjabloon**."
 
-#: ../../content/soins/plans-de-soins.md:78
+#: ../../content/soins/plans-de-soins.md:79
 msgid ""
-"![Nursing notes list: date and time, resident, note type, priority and "
-"author, with the notes needing attention "
-"highlighted](../assets/screenshots/soins/notes-infirmieres.png)"
+"![Care plan form with its header buttons, the resident and the Objectives "
+"tab](../assets/screenshots/soins/plan-de-soins-objectifs.png)"
 msgstr ""
-"![Lijst van verpleegkundige notities: datum en uur, bewoner, type notitie, "
-"prioriteit en auteur, met de notities die aandacht vragen "
-"gemarkeerd](../assets/screenshots/soins/notes-infirmieres.png)"
+"![Fiche van het zorgplan met de knoppen in de koptekst, de bewoner en het "
+"tabblad Doelstellingen](../assets/screenshots/soins/plan-de-soins-"
+"objectifs.png)"
 
-#: ../../content/soins/plans-de-soins.md:78
+#: ../../content/soins/plans-de-soins.md:79
 msgid ""
-"Nursing notes list: date and time, resident, note type, priority and author,"
-" with the notes needing attention highlighted"
+"Care plan form with its header buttons, the resident and the Objectives tab"
 msgstr ""
-"Lijst van verpleegkundige notities: datum en uur, bewoner, type notitie, "
-"prioriteit en auteur, met de notities die aandacht vragen gemarkeerd"
-
-#: ../../content/soins/plans-de-soins.md:80
-msgid "Learn more"
-msgstr "Verder"
+"Fiche van het zorgplan met de knoppen in de koptekst, de bewoner en het "
+"tabblad Doelstellingen"
 
 #: ../../content/soins/plans-de-soins.md:82
-msgid "[Prescriptions and medications](prescriptions.md)"
-msgstr "[Voorschriften en geneesmiddelen](prescriptions.md)"
+msgid "The plan form"
+msgstr "De fiche van het plan"
 
-#: ../../content/soins/plans-de-soins.md:83
-msgid "[Clinical registers](registres.md)"
-msgstr "[Klinische registers](registres.md)"
+#: ../../content/soins/plans-de-soins.md:84
+msgid ""
+"At the top, the **resident** (with their dependency category), **Start from "
+"template**, the **Care Coordinator** and the sector; on the right the "
+"**Start Date**, **End Date**, **Last Reviewed On**, **Next Review**, the "
+"review status (**Up to date**, **Due soon**, **Overdue**) and the share of "
+"care delivered. A **Review overdue** ribbon marks a plan whose review is "
+"late, and a yellow note warns when the resident is away."
+msgstr ""
+"Bovenaan de **bewoner** (met zijn afhankelijkheidscategorie), **Vertrekken "
+"van een sjabloon**, de **Zorgcoördinator** en de afdeling; rechts de "
+"**Startdatum**, **Einddatum**, **Laatst herzien op**, **Volgende "
+"herziening**, de herzieningsstatus (**Actueel**, **Binnenkort**, "
+"**Verlopen**) en het aandeel geleverde zorg. Een lint **Herziening "
+"achterstallig** markeert een plan waarvan de herziening te laat is, en een "
+"gele notitie waarschuwt wanneer de bewoner afwezig is."
+
+#: ../../content/soins/plans-de-soins.md:91
+msgid "Smart buttons:"
+msgstr "Slimme knoppen:"
+
+#: ../../content/soins/plans-de-soins.md:44
+msgid "Button"
+msgstr "Knop"
+
+#: ../../content/soins/plans-de-soins.md:44
+msgid "Opens"
+msgstr "Opent"
+
+#: ../../content/soins/plans-de-soins.md:44
+msgid "**Today's tasks**"
+msgstr "**Taken van vandaag**"
+
+#: ../../content/soins/plans-de-soins.md:44
+msgid "The plan's care tasks of the day"
+msgstr "De zorgtaken van vandaag van het plan"
+
+#: ../../content/soins/plans-de-soins.md:44
+msgid "**Scheduled**"
+msgstr "**Gepland**"
+
+#: ../../content/soins/plans-de-soins.md:44
+msgid "The planned care tasks"
+msgstr "De geplande zorgtaken"
+
+#: ../../content/soins/plans-de-soins.md:44
+msgid "**Missed care**"
+msgstr "**Gemiste zorgen**"
+
+#: ../../content/soins/plans-de-soins.md:44
+msgid "Care nobody answered for"
+msgstr "De zorg waarvoor niemand antwoordde"
+
+#: ../../content/soins/plans-de-soins.md:44
+msgid "**Care History**"
+msgstr "**Zorggeschiedenis**"
+
+#: ../../content/soins/plans-de-soins.md:44
+msgid "Care stopped, revised or archived"
+msgstr "Gestopte, herziene of gearchiveerde zorg"
+
+#: ../../content/soins/plans-de-soins.md:44
+msgid "**Objectives**"
+msgstr "**Doelstellingen**"
+
+#: ../../content/soins/plans-de-soins.md:44
+msgid "The objectives"
+msgstr "De doelstellingen"
+
+#: ../../content/soins/plans-de-soins.md:44
+msgid "**Reviews**"
+msgstr "**Herzieningen**"
+
+#: ../../content/soins/plans-de-soins.md:44
+msgid "The plan's past reviews"
+msgstr "De vorige herzieningen van het plan"
+
+#: ../../content/soins/plans-de-soins.md:44
+msgid "**Prescriptions**"
+msgstr "**Voorschriften**"
+
+#: ../../content/soins/plans-de-soins.md:44
+msgid "The resident's prescriptions"
+msgstr "De voorschriften van de bewoner"
+
+#: ../../content/soins/plans-de-soins.md:44
+msgid "**To consider** / **Evidence**"
+msgstr "**Te overwegen** / **Onderbouwing**"
+
+#: ../../content/soins/plans-de-soins.md:44
+msgid "What assessments and registers proposed for this plan"
+msgstr "Wat evaluaties en registers voor dit plan voorstelden"
+
+#: ../../content/soins/plans-de-soins.md:104
+msgid ""
+"Tabs: **Care Lines**, **Objectives**, **Pathologies** (the resident's "
+"diagnoses, the same list as on their record), **Treatments** (the resident's"
+" running treatments, given through the medication round, not through care "
+"lines), **Nutrition**, **Notes** and **Info**."
+msgstr ""
+"Tabbladen: **Zorglijnen**, **Doelstellingen**, **Pathologieën** (de "
+"diagnoses van de bewoner, dezelfde lijst als in zijn dossier), "
+"**Behandelingen** (de lopende behandelingen van de bewoner, gegeven via de "
+"medicatieronde, niet via zorglijnen), **Voeding**, **Notities** en **Info**."
+
+#: ../../content/soins/plans-de-soins.md:109
+msgid "1. Add a care"
+msgstr "1\\. Een zorg toevoegen"
+
+#: ../../content/soins/plans-de-soins.md:111
+msgid "Click **Add a care** in the **Care Lines** tab."
+msgstr "Klik op **Zorg toevoegen** in het tabblad **Zorglijnen**."
+
+#: ../../content/soins/plans-de-soins.md:113
+msgid ""
+"Pick the **Activity**: its **Care Type**, duration and the text the carer "
+"will read fill in."
+msgstr ""
+"Kies de **Activiteit**: het **Zorgtype**, de duur en de tekst die de "
+"zorgverlener zal lezen, worden ingevuld."
+
+#: ../../content/soins/plans-de-soins.md:115
+msgid "Adjust **What the carer will read**."
+msgstr "Pas **Wat de zorgverlener zal lezen** aan."
+
+#: ../../content/soins/plans-de-soins.md:116
+msgid "Set the **Rhythm**:"
+msgstr "Stel het **Ritme** in:"
+
+#: ../../content/soins/plans-de-soins.md:117
+msgid ""
+"**Frequency** — Daily, Weekly, Every Two Weeks, Every Second Day, Monthly or"
+" Custom;"
+msgstr ""
+"**Frequentie** — Dagelijks, Wekelijks, Om de twee weken, Om de twee dagen, "
+"Maandelijks of Aangepast;"
+
+#: ../../content/soins/plans-de-soins.md:119
+msgid ""
+"**Moments of the Day** — one or several (Morning, Noon, Afternoon, Evening, "
+"Night…);"
+msgstr ""
+"**Momenten van de dag** — een of meer (Ochtend, Middag, Namiddag, Avond, "
+"Nacht…);"
+
+#: ../../content/soins/plans-de-soins.md:121
+msgid ""
+"**Hour** — for a single moment, a precise hour; left empty, the care starts "
+"at the beginning of its moment;"
+msgstr ""
+"**Uur** — voor één enkel moment, een exact uur; leeg gelaten begint de zorg "
+"bij het begin van het moment;"
+
+#: ../../content/soins/plans-de-soins.md:123
+msgid "**Weekdays** — required for a weekly or custom rhythm."
+msgstr "**Weekdagen** — verplicht voor een wekelijks of aangepast ritme."
+
+#: ../../content/soins/plans-de-soins.md:124
+msgid "Set the **Period**: **Starts** and, under **More options**, **Until**."
+msgstr ""
+"Stel het **Dagdeel** in: **Begint** en, onder **Meer opties**, **Tot**."
+
+#: ../../content/soins/plans-de-soins.md:125
+msgid ""
+"**More options** also offers the plan, the objective, the department, tags, "
+"occurrences, duration, **Criticality** and the **Reason**."
+msgstr ""
+"**Meer opties** biedt ook het plan, de doelstelling, de dienst, labels, het "
+"aantal keer, de duur, de **Kriticiteit** en de **Reden**."
+
+#: ../../content/soins/plans-de-soins.md:127
+msgid ""
+"Click **Add to the plan**. The tasks of the day appear on the worklist at "
+"once."
+msgstr ""
+"Klik op **Toevoegen aan het plan**. De taken van vandaag verschijnen meteen "
+"op de werklijst."
+
+#: ../../content/soins/plans-de-soins.md:130
+msgid "One line, several moments"
+msgstr "Eén lijn, meerdere momenten"
+
+#: ../../content/soins/plans-de-soins.md:133
+msgid ""
+"The same care morning **and** evening is one line with two moments. An hour "
+"belongs to one moment: with several moments, each starts at its own time."
+msgstr ""
+"Dezelfde zorg 's ochtends **en** 's avonds is één lijn met twee momenten. "
+"Een uur hoort bij één moment: met meerdere momenten begint elk op zijn eigen"
+" tijdstip."
+
+#: ../../content/soins/plans-de-soins.md:137
+msgid ""
+"On a plan in force, lines typed by hand in the list are planned by the "
+"nightly run; **Generate Tasks** plans them at once."
+msgstr ""
+"Op een geldend plan worden lijnen die met de hand in de lijst ingevoerd "
+"zijn, door de nachtelijke run gepland; **Taken genereren** plant ze meteen."
+
+#: ../../content/soins/plans-de-soins.md:140
+msgid "2. Read the care lines"
+msgstr "2\\. De zorglijnen lezen"
+
+#: ../../content/soins/plans-de-soins.md:142
+msgid ""
+"Each line shows the activity, care type, department, what the carer reads, "
+"frequency, moments, hour, weekdays, occurrences, criticality, dates, the "
+"number of care **Done** and **Missed**, its **Origin** (the record it was "
+"decided from) and its **Status**:"
+msgstr ""
+"Elke lijn toont de activiteit, het zorgtype, de dienst, wat de zorgverlener "
+"leest, de frequentie, de momenten, het uur, de weekdagen, het aantal keer, "
+"de kriticiteit, de data, het aantal zorgen **Voltooid** en **Gemist**, de "
+"**Oorsprong** (het dossier van waaruit ze beslist werd) en de **Status**:"
+
+#: ../../content/soins/plans-de-soins.md:130
+msgid "Status"
+msgstr "Status"
+
+#: ../../content/soins/plans-de-soins.md:130
+msgid "On a draft plan"
+msgstr "Op een zorgplan in concept"
+
+#: ../../content/soins/plans-de-soins.md:130
+msgid "**In force**"
+msgstr "**Van kracht**"
+
+#: ../../content/soins/plans-de-soins.md:130
+msgid "Carried out"
+msgstr "Uitgevoerd"
+
+#: ../../content/soins/plans-de-soins.md:130
+msgid "**Starts later**"
+msgstr "**Begint later**"
+
+#: ../../content/soins/plans-de-soins.md:130
+msgid "Begins at a future date"
+msgstr "Begint op een latere datum"
+
+#: ../../content/soins/plans-de-soins.md:130
+msgid "**Stops today**"
+msgstr "**Stopt vandaag**"
+
+#: ../../content/soins/plans-de-soins.md:130
+msgid "Ends tonight, greyed"
+msgstr "Eindigt vanavond, grijs weergegeven"
+
+#: ../../content/soins/plans-de-soins.md:130
+msgid "**Suspended**"
+msgstr "**Opgeschort**"
+
+#: ../../content/soins/plans-de-soins.md:130
+msgid "On hold for a few days"
+msgstr "Enkele dagen gepauzeerd"
+
+#: ../../content/soins/plans-de-soins.md:130
+msgid "**Revised**"
+msgstr "**Herzien**"
+
+#: ../../content/soins/plans-de-soins.md:130
+msgid "Replaced by a newer version"
+msgstr "Vervangen door een nieuwere versie"
+
+#: ../../content/soins/plans-de-soins.md:130
+msgid "**Stopped** / **Archived**"
+msgstr "**Gestopt** / **Gearchiveerd**"
+
+#: ../../content/soins/plans-de-soins.md:130
+msgid "No longer carried out"
+msgstr "Wordt niet meer uitgevoerd"
+
+#: ../../content/soins/plans-de-soins.md:157
+msgid "3. Change, suspend or stop a care"
+msgstr "3\\. Een zorg wijzigen, opschorten of stoppen"
+
+#: ../../content/soins/plans-de-soins.md:159
+msgid "The icons at the end of a line, on a plan in force:"
+msgstr "De pictogrammen aan het einde van een lijn, op een geldend plan:"
+
+#: ../../content/soins/plans-de-soins.md:161
+msgid ""
+"**Revise this care** — closes the current line the day before the new one "
+"starts, and links the two. The plan can still say what was in force last "
+"month."
+msgstr ""
+"**Deze zorg herzien** — sluit de huidige lijn af op de dag vóór de nieuwe "
+"begint, en koppelt beide. Het plan kan nog altijd zeggen wat vorige maand "
+"van kracht was."
+
+#: ../../content/soins/plans-de-soins.md:164
+msgid ""
+"**Suspend this care for a few days** — no task on those days; the care "
+"resumes by itself the day after. **Resume this care now** ends the "
+"suspension early."
+msgstr ""
+"**Deze zorg enkele dagen opschorten** — geen taak op die dagen; de zorg "
+"hervat vanzelf de dag erna. **Deze zorg nu hervatten** beëindigt de "
+"opschorting vroeger."
+
+#: ../../content/soins/plans-de-soins.md:167
+msgid ""
+"**Stop this care today** — asks for a reason; what is still planned after "
+"today is cancelled, what was given stays on the record."
+msgstr ""
+"**Deze zorg vandaag stoppen** — vraagt een reden; wat na vandaag nog gepland"
+" is, wordt geannuleerd, wat gegeven werd, blijft in het dossier."
+
+#: ../../content/soins/plans-de-soins.md:169
+msgid ""
+"**Stop and archive this care** — stops it today and moves it to **Care "
+"History**, with its reason."
+msgstr ""
+"**Deze zorg stopzetten en archiveren** — stopt ze vandaag en verplaatst ze "
+"naar **Zorggeschiedenis**, met de reden."
+
+#: ../../content/soins/plans-de-soins.md:171
+msgid ""
+"**Open the record this care was decided from** and **See the care tasks**."
+msgstr ""
+"**Het dossier openen van waaruit deze zorg werd beslist** en **De zorgtaken "
+"bekijken**."
+
+#: ../../content/soins/plans-de-soins.md:173
+msgid "The bin is for drafts only"
+msgstr "De prullenbak is alleen voor concepten"
+
+#: ../../content/soins/plans-de-soins.md:176
+msgid ""
+"On a **draft** plan, a care nothing has happened on shows a bin: **Remove "
+"this care, added by mistake**. Resthome confirms that nothing stays on the "
+"care file. On a plan in force there is no bin: a care is part of the record "
+"for years, so it is stopped or archived with a reason. The same rule applies"
+" to objectives."
+msgstr ""
+"Op een zorgplan in **concept** toont een zorg waarop nog niets gebeurd is "
+"een prullenbak: **Deze zorg verwijderen, per vergissing toegevoegd**. "
+"Resthome bevestigt dat er niets in het zorgdossier achterblijft. Op een "
+"geldend plan is er geen prullenbak: een zorg maakt jarenlang deel uit van "
+"het dossier, dus wordt ze gestopt of gearchiveerd met een reden. Dezelfde "
+"regel geldt voor doelstellingen."
+
+#: ../../content/soins/plans-de-soins.md:183
+msgid "A care in **Care History** can be brought back from there."
+msgstr "Een zorg in **Zorggeschiedenis** kan van daaruit teruggehaald worden."
+
+#: ../../content/soins/plans-de-soins.md:185
+msgid "4. Start from a template"
+msgstr "4\\. Vertrekken van een sjabloon"
+
+#: ../../content/soins/plans-de-soins.md:187
+msgid ""
+"Pick a template in **Start from template**, or click **Apply a template**. "
+"The dialog shows the resident, their dependency category, the template, "
+"**Care starts on**, **What this template assumes** and **What will be "
+"done**."
+msgstr ""
+"Kies een sjabloon in **Vertrekken van een sjabloon**, of klik op **Sjabloon "
+"toepassen**. Het venster toont de bewoner, zijn afhankelijkheidscategorie, "
+"het sjabloon, **De zorg begint op**, **Wat dit sjabloon veronderstelt** en "
+"**Wat er zal gebeuren**."
+
+#: ../../content/soins/plans-de-soins.md:191
+msgid "On an **empty** plan, the template is simply applied."
+msgstr "Op een **leeg** plan wordt het sjabloon gewoon toegepast."
+
+#: ../../content/soins/plans-de-soins.md:192
+msgid ""
+"On a **draft** plan that already holds objectives or cares, choose **Add to "
+"what is already on the plan** or **Replace everything with this template**, "
+"then **Add to the plan** or **Replace everything**."
+msgstr ""
+"Op een zorgplan in **concept** dat al doelstellingen of zorgen bevat, kiest "
+"u **Toevoegen aan wat al op het plan staat** of **Alles vervangen door dit "
+"sjabloon**, en dan **Toevoegen aan het plan** of **Alles vervangen**."
+
+#: ../../content/soins/plans-de-soins.md:195
+msgid "On a plan **in force**, the template's objectives and cares are added."
+msgstr ""
+"Op een plan dat **van kracht** is, worden de doelstellingen en zorgen van "
+"het sjabloon toegevoegd."
+
+#: ../../content/soins/plans-de-soins.md:197
+msgid ""
+"Templates are listed with the one matching the resident's dependency "
+"category first. To build one from a plan, use **Actions → Save as "
+"template**. See [Care configuration](configuration-soins.md)."
+msgstr ""
+"De sjablonen worden getoond met eerst het sjabloon dat bij de "
+"afhankelijkheidscategorie van de bewoner past. Om er een op te bouwen vanuit"
+" een plan, gebruikt u **Acties → Opslaan als sjabloon**. Zie "
+"[Zorgconfiguratie](configuration-soins.md)."
+
+#: ../../content/soins/plans-de-soins.md:201
+msgid "5. Objectives"
+msgstr "5\\. Doelstellingen"
+
+#: ../../content/soins/plans-de-soins.md:203
+msgid ""
+"The **Objectives** tab lists each objective with its **Category** (Hygiene, "
+"Mobility, Nutrition, Medication, Social, Cognitive, Pain, Skin Care, "
+"Elimination, Sleep, Other), **Objective**, **Interventions**, **Assigned "
+"To**, **Target Date**, the care **Planned**, **Done** and **Missed**, and "
+"**Achieved**."
+msgstr ""
+"Het tabblad **Doelstellingen** toont elke doelstelling met haar "
+"**Categorie** (Hygiëne, Mobiliteit, Voeding, Geneesmiddel, Sociaal, "
+"Cognitief, Pijn, Huidverzorging, Eliminatie, Slaap, Andere), "
+"**Doelstelling**, **Interventies**, **Toegewezen aan**, **Streefdatum**, de "
+"zorg **Gepland**, **Voltooid** en **Gemist**, en **Bereikt**."
+
+#: ../../content/soins/plans-de-soins.md:209
+msgid "An objective opened on its own form has:"
+msgstr "Een doelstelling die op haar eigen fiche geopend wordt, heeft:"
+
+#: ../../content/soins/plans-de-soins.md:211
+msgid "**Observation** — writes an observation linked to the objective;"
+msgstr ""
+"**Observatie** — schrijft een observatie die aan de doelstelling gekoppeld "
+"is;"
+
+#: ../../content/soins/plans-de-soins.md:212
+msgid "**Open the Care Plan**;"
+msgstr "**Het zorgplan openen**;"
+
+#: ../../content/soins/plans-de-soins.md:213
+msgid ""
+"the tabs **Interventions**, **Planned Care** (with **Plan the Care**, which "
+"adds the care that serves the objective to the plan), **Observations** and "
+"**Evaluation**."
+msgstr ""
+"de tabbladen **Interventies**, **Geplande zorg** (met **De zorg plannen**, "
+"dat de zorg die de doelstelling dient aan het plan toevoegt), "
+"**Observaties** en **Evaluatie**."
+
+#: ../../content/soins/plans-de-soins.md:217
+msgid ""
+"**Nursing Care → Care → Plans and Meetings → Objectives** lists all "
+"objectives (filters **My Objectives**, **Unassigned**, **In Progress**, "
+"**Achieved**). An objective written from the [life project](projet-de-"
+"vie.md) lands here too."
+msgstr ""
+"**Zorg → Zorg → Plannen en overleg → Doelstellingen** toont alle "
+"doelstellingen (filters **Mijn doelstellingen**, **Niet toegewezen**, **In "
+"uitvoering**, **Bereikt**). Een doelstelling die vanuit het "
+"[levensproject](projet-de-vie.md) geschreven werd, komt hier ook terecht."
+
+#: ../../content/soins/plans-de-soins.md:221
+msgid "6. Evidence to consider"
+msgstr "6\\. Onderbouwing om in aanmerking te nemen"
+
+#: ../../content/soins/plans-de-soins.md:223
+msgid ""
+"When an assessment or a register is validated, it is cited on the plan as a "
+"proposal. **To consider** opens the proposals still to decide: **Take into "
+"account** or **Do not retain**, with the reason. The citation keeps what the"
+" assessment said that day."
+msgstr ""
+"Wanneer een evaluatie of een register gevalideerd wordt, wordt het op het "
+"plan vermeld als voorstel. **Te overwegen** opent de voorstellen waarover "
+"nog beslist moet worden: **In aanmerking nemen** of **Niet bewaren**, met de"
+" reden. De vermelding bewaart wat de evaluatie die dag zei."
+
+#: ../../content/soins/plans-de-soins.md:228
+msgid "7. Review the plan"
+msgstr "7\\. Het plan herzien"
+
+#: ../../content/soins/plans-de-soins.md:230
+msgid ""
+"The plan is reviewed periodically; the **Next Review** date follows the "
+"house's cadence or the country's rules."
+msgstr ""
+"Het plan wordt periodiek herzien; de datum **Volgende herziening** volgt het"
+" ritme van het huis of de regels van het land."
+
+#: ../../content/soins/plans-de-soins.md:233
+msgid "Nothing to change: **Confirm without change**."
+msgstr "Niets te veranderen: **Bevestigen zonder wijziging**."
+
+#: ../../content/soins/plans-de-soins.md:234
+msgid "Changes: **Review the plan**, adjust, then **Validate Review**."
+msgstr ""
+"Wijzigingen: **Plan herzien**, pas aan en daarna **Herziening valideren**."
+
+#: ../../content/soins/plans-de-soins.md:236
+msgid ""
+"Each review is written down: who, when, what changed and the conclusion. "
+"**Nursing Care → Reports → Plan Reviews** lists them (filters **Confirmed "
+"without change**, **Adapted**, **In a meeting**). A [multidisciplinary "
+"meeting](reunion-pluridisciplinaire.md) also records a review."
+msgstr ""
+"Elke herziening wordt bijgehouden: wie, wanneer, wat er veranderde en de "
+"conclusie. **Zorg → Rapporten → Planherzieningen** toont ze (filters "
+"**Bevestigd zonder wijziging**, **Aangepast**, **In een overleg**). Een "
+"[multidisciplinair overleg](reunion-pluridisciplinaire.md) legt ook een "
+"herziening vast."
+
+#: ../../content/soins/plans-de-soins.md:242
+msgid "In Belgium"
+msgstr "In België"
+
+#: ../../content/soins/plans-de-soins.md:245
+msgid ""
+"A nursing-home care plan is reviewed every 30 days; a day-care user's plan "
+"once a year. The plan shows the resident's Katz category. See [Care in "
+"Belgium](../belgique/soins.md)."
+msgstr ""
+"Een zorgplan in een woonzorgcentrum wordt om de 30 dagen herzien; dat van "
+"een gebruiker van een dagverzorgingscentrum eenmaal per jaar. Het plan toont"
+" de Katz-categorie van de bewoner. Zie [Zorg in "
+"België](../belgique/soins.md)."
+
+#: ../../content/soins/plans-de-soins.md:250
+msgid "Find a plan"
+msgstr "Een plan vinden"
+
+#: ../../content/soins/plans-de-soins.md:252
+msgid ""
+"Filters: **My Care Plans**, **No Coordinator**, **My Sectors**, **Active**, "
+"**Under Review**, **Drafts**, **Completed**, **Cancelled**, **Review Due**, "
+"**Review due soon**. Group by resident, coordinator, state, sector or "
+"dependency. **Care Tasks → Care Tasks → My Care Plans** lists the plans you "
+"coordinate."
+msgstr ""
+"Filters: **Mijn zorgplannen**, **Zonder coördinator**, **Mijn afdelingen**, "
+"**Actief**, **In herziening**, **Concepten**, **Voltooid**, **Geannuleerd**,"
+" **Beoordeling gepland**, **Herziening binnenkort**. Groepeer per bewoner, "
+"coördinator, status, afdeling of afhankelijkheid. **Zorgtaken → Zorgtaken → "
+"Mijn zorgplannen** toont de plannen die u coördineert."
+
+#: ../../content/soins/plans-de-soins.md:258
+msgid "Going further"
+msgstr "Verder"
+
+#: ../../content/soins/plans-de-soins.md:260
+msgid "[Care tasks](taches-de-soins.md)"
+msgstr "[Zorgtaken](taches-de-soins.md)"
+
+#: ../../content/soins/plans-de-soins.md:261
+msgid "[Multidisciplinary meetings](reunion-pluridisciplinaire.md)"
+msgstr "[Multidisciplinaire overleggen](reunion-pluridisciplinaire.md)"
+
+#: ../../content/soins/plans-de-soins.md:262
+msgid "[Care configuration](configuration-soins.md)"
+msgstr "[Zorgconfiguratie](configuration-soins.md)"
+
+#: ../../content/soins/plans-de-soins.md:263
+msgid "[Observations and vital signs](observations.md)"
+msgstr "[Observaties en vitale parameters](observations.md)"
+
+#: ../../content/soins/plans-de-soins.md:264
+msgid ""
+"[Capability observation (Potentia)](../qualite/observation-capacites.md) — "
+"care plan objectives drawn from a capability observation."
+msgstr ""
+"[Observatie van de capaciteiten (Potentia)](../qualite/observation-"
+"capacites.md) — doelstellingen van het zorgplan die uit een observatie van "
+"de capaciteiten komen."

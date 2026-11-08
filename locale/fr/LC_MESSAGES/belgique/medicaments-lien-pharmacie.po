@@ -1,0 +1,553 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-23 15:49+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: fr <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:5
+msgid "The pharmacy link"
+msgstr "Le lien avec la pharmacie"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:8
+msgid ""
+"Exchange files with the residents' pharmacies in Belgium over HomeLink: the "
+"medication schedule (Therapylink) every day, the sachets to produce "
+"(Doselink), the orders (Orderlink) by eHealthBox, and the pharmacy's stock "
+"and invoices received back."
+msgstr ""
+"Échangez des fichiers avec les pharmacies des habitants en Belgique via "
+"HomeLink : le schéma de médication (Therapylink) chaque jour, les sachets à "
+"produire (Doselink), les commandes (Orderlink) par eHealthBox, et le stock "
+"et les factures de la pharmacie reçus en retour."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:12
+msgid "What is the pharmacy link?"
+msgstr "Qu'est-ce que le lien avec la pharmacie ?"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:13
+msgid ""
+"The link between the house and a pharmacy for the HomeLink files Belgian "
+"care homes and pharmacies exchange. Resthome sends the residents' medication"
+" schedule every day, and receives the pharmacy's stock statement and "
+"invoice."
+msgstr ""
+"Le lien entre la maison et une pharmacie pour les fichiers HomeLink "
+"qu'échangent les maisons de repos et les pharmacies belges. Resthome envoie "
+"chaque jour le schéma de médication des habitants, et reçoit l'état du stock"
+" et la facture de la pharmacie."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:15
+msgid "How do the files reach the pharmacy?"
+msgstr "Comment les fichiers arrivent-ils à la pharmacie ?"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:16
+msgid ""
+"By eHealthBox (sealed for the pharmacy), by SFTP or FTPS on the pharmacy's "
+"server, or not at all: with **None (download)**, you make the file and hand "
+"it over yourself."
+msgstr ""
+"Par eHealthBox (scellés pour la pharmacie), par SFTP ou FTPS sur le serveur "
+"de la pharmacie, ou pas du tout : avec **Aucune (téléchargement)**, vous "
+"faites le fichier et le remettez vous-même."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:18
+msgid "What happens if a file does not leave?"
+msgstr "Que se passe-t-il si un fichier ne part pas ?"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:19
+msgid ""
+"It is tried again four times, then someone is told: the Medicines "
+"workstation shows **Files Not Received** and a line to do, and the file says"
+" why."
+msgstr ""
+"Il est réessayé quatre fois, puis quelqu'un est prévenu : le poste "
+"Médicaments affiche **Fichiers non reçus** et une ligne à faire, et le "
+"fichier dit pourquoi."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:21
+msgid "How is a pharmacy order sent by eHealthBox?"
+msgstr "Comment une commande à la pharmacie est-elle envoyée par eHealthBox ?"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:22
+msgid ""
+"When the pharmacy's INAMI number is known, the basket leaves sealed by "
+"eHealthBox every morning at the hour of the house, with the medication "
+"sheets. **Send Now** sends it at once."
+msgstr ""
+"Quand le numéro INAMI de la pharmacie est connu, le panier part scellé par "
+"eHealthBox chaque matin à l'heure de la maison, avec les fiches de "
+"médication. **Envoyer maintenant** l'envoie tout de suite."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:24
+msgid "Who manages the pharmacy links?"
+msgstr "Qui gère les liens avec les pharmacies ?"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:25
+msgid ""
+"The head nurse, the administrative staff and the medication manager. A "
+"physician reads the link without its buttons."
+msgstr ""
+"L'infirmier en chef, le personnel administratif et le responsable de la "
+"médication. Un médecin lit le lien sans ses boutons."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:28
+msgid ""
+"**HomeLink** is the protocol Belgian care homes and pharmacies exchange "
+"files with. Resthome uses it to send each pharmacy the **medication "
+"schedule** of its residents, the **sachets** it must produce and the "
+"**orders**, and to receive back the pharmacy's **stock** and **invoice**."
+msgstr ""
+"**HomeLink** est le protocole avec lequel les maisons de repos et les "
+"pharmacies belges échangent des fichiers. Resthome l'utilise pour envoyer à "
+"chaque pharmacie le **schéma de médication** de ses habitants, les "
+"**sachets** qu'elle doit produire et les **commandes**, et pour recevoir en "
+"retour le **stock** et la **facture** de la pharmacie."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:33
+msgid ""
+"The link builds on the [pharmacy orders](../medicaments/pharmacie.md) of the"
+" Care app and on the CNK codes of [SAM](sam-base-medicaments.md): a pharmacy"
+" finds a medicine by its CNK."
+msgstr ""
+"Le lien s'appuie sur les [commandes à la "
+"pharmacie](../medicaments/pharmacie.md) de l'application Soins et sur les "
+"codes CNK de [SAM](sam-base-medicaments.md) : une pharmacie trouve un "
+"médicament par son CNK."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:37
+msgid "Where to find it"
+msgstr "Où le trouver"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:39
+msgid ""
+"**Nursing Care → Configuration → Pharmacy → Pharmacies** and **Pharmacy "
+"Links** (head nurse, medication manager)."
+msgstr ""
+"**Soins → Configuration → Pharmacie → Pharmacies** et **Liens pharmacies** "
+"(infirmier en chef, responsable de la médication)."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:41
+msgid ""
+"**Nursing Home → Pharmacies**: **Pharmacies**, **Pharmacy Links**, **Files "
+"Sent**, **Import a Pharmacy File**, **Pharmacy Invoices** and **Pharmacy "
+"Stock** (administrative staff)."
+msgstr ""
+"**Maison de repos → Pharmacies** : **Pharmacies**, **Liens pharmacies**, "
+"**Fichiers envoyés**, **Importer un fichier de pharmacie**, **Factures de "
+"pharmacie** et **Stock de la pharmacie** (personnel administratif)."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:44
+msgid ""
+"On the Medicines workstation (**Nursing Care → Medicines**), **Pharmacy** "
+"tab: the pharmacy links, and **Schedules Sent**, **Pharmacy Stock** and "
+"**Pharmacy Invoices**; the smart buttons **Files Not Received**, **Pharmacy "
+"Stock** and **Pharmacy Invoices** (head nurse, medication manager)."
+msgstr ""
+"Sur le poste Médicaments (**Soins → Médicaments**), onglet **Pharmacie** : "
+"les liens avec les pharmacies, et **Schémas envoyés**, **Stock de la "
+"pharmacie** et **Factures de pharmacie** ; les boutons intelligents "
+"**Fichiers non reçus**, **Stock de la pharmacie** et **Factures de "
+"pharmacie** (infirmier en chef, responsable de la médication)."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:49
+msgid "1. Set up the pharmacy"
+msgstr "1\\. Configurer la pharmacie"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:51
+msgid ""
+"On the pharmacy's contact (a company with **Is a Pharmacy** ticked), fill "
+"in:"
+msgstr ""
+"Sur le contact de la pharmacie (une société avec **Est une pharmacie** "
+"coché), remplissez :"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:53
+msgid "**APB Number** — the number a HomeLink file is addressed to;"
+msgstr "**Numéro APB** — le numéro auquel un fichier HomeLink est adressé ;"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:54
+msgid "**Pharmacy Group**;"
+msgstr "**Groupement** ;"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:55
+msgid ""
+"**INAMI Number (eHealthBox)** — the pharmacy's eHealthBox, for sending the "
+"orders sealed."
+msgstr ""
+"**Numéro INAMI (eHealthBox)** — l'eHealthBox de la pharmacie, pour envoyer "
+"les commandes scellées."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:58
+msgid ""
+"These fields show only once **Is a Pharmacy** is ticked, for a pharmacy in "
+"Belgium. A pharmacy shows in the **Pharmacies** list once it has an APB "
+"number or a resident chose it."
+msgstr ""
+"Ces champs n'apparaissent qu'une fois **Est une pharmacie** coché, pour une "
+"pharmacie en Belgique. Une pharmacie apparaît dans la liste **Pharmacies** "
+"dès qu'elle a un numéro APB ou qu'un habitant l'a choisie."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:62
+msgid "2. Create the pharmacy link"
+msgstr "2\\. Créer le lien avec la pharmacie"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:64
+msgid ""
+"One link per pharmacy the residents chose: **Pharmacy Links**, then **New**."
+msgstr ""
+"Un lien par pharmacie choisie par les habitants : **Liens pharmacies**, puis"
+" **Nouveau**."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:11
+msgid "Group"
+msgstr "Groupe"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:11
+msgid "What to set"
+msgstr "Ce qu'il faut régler"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:11
+msgid "**Pharmacy**"
+msgstr "**Pharmacie**"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:11
+msgid ""
+"The pharmacy, **The House's Reference Pharmacy** (its file also covers every"
+" resident who has no pharmacy of their own), the **APB Number**, the "
+"**Residents** it serves and the **Expected Delivery Time** in days."
+msgstr ""
+"La pharmacie, **Pharmacie de référence de la maison** (son fichier couvre "
+"aussi chaque habitant qui n'a pas de pharmacie à lui), le **Numéro APB**, "
+"les **Habitants** qu'elle sert et le **Délai de livraison prévu** en jours."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:11
+msgid "**House**"
+msgstr "**Maison**"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:11
+msgid ""
+"The **Identification Number** of the house in the files, usually its INAMI "
+"number."
+msgstr ""
+"Le **Numéro d'identification** de la maison dans les fichiers, en général "
+"son numéro INAMI."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:11
+msgid "**Files Sent**"
+msgstr "**Fichiers envoyés**"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:11
+msgid ""
+"**Therapylink**, **Sent Every Day At**, the **Period** covered (in days, ten"
+" at least), the **Sort Order**; **Doselink** and the day it is **Sent On**; "
+"**Orderlink**."
+msgstr ""
+"**Therapylink**, **Envoyé tous les jours à**, la **Période** couverte (en "
+"jours, dix au moins), l'**Ordre de tri** ; **Doselink** et le jour où il est"
+" **Envoyé le** ; **Orderlink**."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:11
+msgid "**Digital Connection**"
+msgstr "**Connexion numérique**"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:11
+msgid "**Connection**: *None (download)*, *SFTP*, *FTPS* or *eHealthBox*."
+msgstr ""
+"**Connexion** : *Aucune (téléchargement)*, *SFTP*, *FTPS* ou *eHealthBox*."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:11
+msgid "**Pharmacy's Server**"
+msgstr "**Serveur de la pharmacie**"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:11
+msgid ""
+"For SFTP or FTPS: host, port, directory, and the server key (SFTP) or the "
+"certificate check (FTPS); the login is for the administrator."
+msgstr ""
+"Pour SFTP ou FTPS : hôte, port, répertoire, et la clé du serveur (SFTP) ou "
+"la vérification du certificat (FTPS) ; l'identifiant est réservé à "
+"l'administrateur."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:11
+msgid "**eHealthBox**"
+msgstr "**eHealthBox**"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:11
+msgid ""
+"The pharmacy's box, **Encrypted**, and **Test: to the House** (sends to the "
+"house's own box, for a test)."
+msgstr ""
+"La boîte de la pharmacie, **Chiffré**, et **Test : vers la maison** (envoie "
+"vers la propre boîte de la maison, pour un test)."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:75
+msgid ""
+"**Test the Connection** checks the server or the box. The smart buttons give"
+" the medicines **Without CNK** (a file cannot name them), the **Files** "
+"sent, the **Stock** statements and the **Invoices**."
+msgstr ""
+"**Tester la connexion** vérifie le serveur ou la boîte. Les boutons "
+"intelligents donnent les médicaments **Sans CNK** (un fichier ne peut pas "
+"les nommer), les **Fichiers** envoyés, les états de **Stock** et les "
+"**Factures**."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:81
+msgid "3. The files sent"
+msgstr "3\\. Les fichiers envoyés"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:83
+msgid "Therapylink — the medication schedule"
+msgstr "Therapylink — le schéma de médication"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:85
+msgid ""
+"Every day at the link's hour, Resthome makes the **Therapylink** file: every"
+" active treatment of the pharmacy's residents, each intake on its date and "
+"hour over the period, the *as needed* ones as such, the medicines in the "
+"pharmacy's sachets flagged. The file is checked against the official schema "
+"before it is kept; what cannot be sent (a resident without a national "
+"number, a medicine without CNK, a dose that is not a number) is named, never"
+" guessed."
+msgstr ""
+"Chaque jour à l'heure du lien, Resthome fait le fichier **Therapylink** : "
+"chaque traitement actif des habitants de la pharmacie, chaque prise à sa "
+"date et son heure sur la période, les *si nécessaire* comme tels, les "
+"médicaments dans les sachets de la pharmacie signalés. Le fichier est "
+"vérifié par rapport au schéma officiel avant d'être gardé ; ce qui ne peut "
+"pas être envoyé (un habitant sans numéro national, un médicament sans CNK, "
+"une dose qui n'est pas un nombre) est nommé, jamais deviné."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:92
+msgid ""
+"With a connection, the file leaves by itself; **Send Today's File Now** "
+"sends it at once, **Make the File Only** makes it without sending."
+msgstr ""
+"Avec une connexion, le fichier part tout seul ; **Envoyer le fichier du jour"
+" maintenant** l'envoie tout de suite, **Faire le fichier seulement** le fait"
+" sans l'envoyer."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:94
+msgid ""
+"With **None (download)**, **Make the Therapylink File** makes it for you to "
+"hand over."
+msgstr ""
+"Avec **Aucune (téléchargement)**, **Faire le fichier Therapylink** le fait "
+"pour que vous le remettiez."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:97
+msgid "Doselink — the sachets to produce"
+msgstr "Doselink — les sachets à produire"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:99
+msgid ""
+"When **Doselink** is ticked, a weekly file tells the pharmacy what to "
+"produce in sachets (robot or by hand) — only the treatments in the "
+"pharmacy's sachets. It leaves on the chosen day at the link's hour; each "
+"file starts the day after the last one sent, without gap or overlap. **Make "
+"the Doselink File** and **Send the Doselink Now** are in the header."
+msgstr ""
+"Quand **Doselink** est coché, un fichier hebdomadaire dit à la pharmacie ce "
+"qu'elle doit produire en sachets (robot ou à la main) — uniquement les "
+"traitements dans les sachets de la pharmacie. Il part le jour choisi à "
+"l'heure du lien ; chaque fichier commence le lendemain du dernier envoyé, "
+"sans trou ni chevauchement. **Faire le fichier Doselink** et **Envoyer le "
+"Doselink maintenant** sont dans l'en-tête."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:105
+msgid "Orderlink — the order file"
+msgstr "Orderlink — le fichier de commande"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:107
+msgid ""
+"When **Orderlink** is ticked, each pharmacy order also leaves as a file the "
+"pharmacy's software imports, next to the PDF the pharmacist reads. "
+"**Orderlink File** on the order downloads it."
+msgstr ""
+"Quand **Orderlink** est coché, chaque commande à la pharmacie part aussi "
+"sous forme d'un fichier que le logiciel de la pharmacie importe, à côté du "
+"PDF que lit le pharmacien. **Fichier Orderlink** sur la commande le "
+"télécharge."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:111
+msgid "Following the files"
+msgstr "Suivre les fichiers"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:113
+msgid ""
+"**Files Sent** lists each file with its status **Made**, **Sent** or "
+"**Failed**, its journey and, by eHealthBox, when the pharmacy **received** "
+"and **opened** it. A file that fails is tried again four times, then the "
+"Medicines workstation shows **Files Not Received** and a line *The schedule "
+"did not reach the pharmacy*. **Send Again** retries it."
+msgstr ""
+"**Fichiers envoyés** liste chaque fichier avec son statut **Fait**, "
+"**Envoyé** ou **Échec**, son parcours et, par eHealthBox, quand la pharmacie"
+" l'a **reçu** et **ouvert**. Un fichier en échec est réessayé quatre fois, "
+"puis le poste Médicaments affiche **Fichiers non reçus** et une ligne *Le "
+"schéma n'est pas arrivé à la pharmacie*. **Renvoyer** le réessaie."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:119
+msgid "4. Orders by eHealthBox"
+msgstr "4\\. Les commandes par eHealthBox"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:121
+msgid ""
+"On a [pharmacy order](../medicaments/pharmacie.md), when the pharmacy's "
+"eHealthBox is known:"
+msgstr ""
+"Sur une [commande à la pharmacie](../medicaments/pharmacie.md), quand "
+"l'eHealthBox de la pharmacie est connue :"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:124
+msgid ""
+"the basket **leaves by itself** every morning from the hour set in the Care "
+"settings, sealed for the pharmacy, with the medication sheets of its "
+"residents; **Send Now** sends it at once;"
+msgstr ""
+"le panier **part tout seul** chaque matin à partir de l'heure réglée dans "
+"les paramètres Soins, scellé pour la pharmacie, avec les fiches de "
+"médication de ses habitants ; **Envoyer maintenant** l'envoie tout de suite "
+";"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:127
+msgid ""
+"the order follows **Sent**, then **Seen by the Pharmacy** when the pharmacy "
+"opens it; the **eHealthBox** smart button gives its status;"
+msgstr ""
+"la commande passe **Envoyée**, puis **Vue par la pharmacie** quand la "
+"pharmacie l'ouvre ; le bouton intelligent **eHealthBox** donne son statut ;"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:129
+msgid ""
+"the **Medication Schedule** smart button says when the last schedule left "
+"for that pharmacy and whether it was opened, with the history of the "
+"schedules;"
+msgstr ""
+"le bouton intelligent **Schéma de médication** indique quand le dernier "
+"schéma est parti pour cette pharmacie et s'il a été ouvert, avec "
+"l'historique des schémas ;"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:132
+msgid ""
+"the pharmacy's answer is attached to the order: a banner says *The pharmacy "
+"answered about this order*, with **Read**."
+msgstr ""
+"la réponse de la pharmacie est jointe à la commande : un bandeau indique *La"
+" pharmacie a répondu à propos de cette commande*, avec **Lire**."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:135
+msgid ""
+"When the box is not known, a banner asks to type the pharmacy's INAMI number"
+" on its contact, rather than sending by e-mail. At night and at the weekend,"
+" the order shows the number of the pharmacy on duty."
+msgstr ""
+"Quand la boîte n'est pas connue, un bandeau demande de saisir le numéro "
+"INAMI de la pharmacie sur son contact, plutôt que d'envoyer par e-mail. La "
+"nuit et le week-end, la commande affiche le numéro de la pharmacie de garde."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:139
+msgid "5. What the pharmacy sends back"
+msgstr "5\\. Ce que la pharmacie renvoie"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:141
+msgid ""
+"The pharmacy's files arrive by eHealthBox and are read by themselves. A file"
+" handed over otherwise is imported with **Import a Pharmacy File** (or "
+"**Import a File From the Pharmacy** on the link): a stock statement "
+"(`_ST.xml`) or an invoice (`_IN.xml`)."
+msgstr ""
+"Les fichiers de la pharmacie arrivent par eHealthBox et sont lus tout seuls."
+" Un fichier remis autrement s'importe avec **Importer un fichier de "
+"pharmacie** (ou **Importer un fichier de la pharmacie** sur le lien) : un "
+"état de stock (`_ST.xml`) ou une facture (`_IN.xml`)."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:146
+msgid "Pharmacy stock (Stocklink)"
+msgstr "Stock de la pharmacie (Stocklink)"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:148
+msgid ""
+"A pharmacy that keeps the residents' medicines (a robot, drawers) sends its "
+"count. Each line becomes the **Units in the Box** of the resident's "
+"treatment, found by national number and CNK — zero included, so the box is "
+"to order. What matches no resident or no treatment is named; **Apply Again**"
+" retries it after a national number or a CNK was fixed."
+msgstr ""
+"Une pharmacie qui garde les médicaments des habitants (un robot, des "
+"tiroirs) envoie son comptage. Chaque ligne devient les **Unités dans la "
+"boîte** du traitement de l'habitant, trouvé par numéro national et CNK — "
+"zéro compris, la boîte est alors à commander. Ce qui ne correspond à aucun "
+"habitant ou à aucun traitement est nommé ; **Appliquer à nouveau** le "
+"réessaie après qu'un numéro national ou un CNK a été corrigé."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:154
+msgid "Pharmacy invoices (Invoicelink)"
+msgstr "Factures de pharmacie (Invoicelink)"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:156
+msgid ""
+"The pharmacy's invoice comes with one block per resident: each resident's "
+"part is placed on the **Pharmacy Invoice**, with the tabs **Residents**, "
+"**Lines** and **VAT**, and the status **Received**, then **Vendor Bill "
+"Made**."
+msgstr ""
+"La facture de la pharmacie arrive avec un bloc par habitant : la part de "
+"chaque habitant est placée sur la **Facture de pharmacie**, avec les onglets"
+" **Habitants**, **Lignes** et **TVA**, et le statut **Reçue**, puis "
+"**Facture fournisseur faite**."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:160
+msgid ""
+"Check the residents; **Find the Residents Again** retries those not found."
+msgstr ""
+"Vérifiez les habitants ; **Retrouver les habitants** réessaie ceux qui n'ont"
+" pas été trouvés."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:161
+msgid "Click **Make the Vendor Bill**."
+msgstr "Cliquez sur **Faire la facture fournisseur**."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:162
+msgid ""
+"Once the vendor bill is posted, pass each resident's part on to them: see "
+"[Billing medicines in Belgium](medicaments-facturation.md)."
+msgstr ""
+"Une fois la facture fournisseur comptabilisée, répercutez la part de chaque "
+"habitant sur celui-ci : voir [Facturer les médicaments en "
+"Belgique](medicaments-facturation.md)."
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:165
+msgid "Going further"
+msgstr "Pour aller plus loin"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:167
+msgid "[Pharmacy orders](../medicaments/pharmacie.md)"
+msgstr "[Commandes à la pharmacie](../medicaments/pharmacie.md)"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:168
+msgid "[The SAM medication database](sam-base-medicaments.md)"
+msgstr "[La base de médicaments SAM](sam-base-medicaments.md)"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:169
+msgid "[Prescriptions through the eHealthBox](medicaments-ehealthbox.md)"
+msgstr "[Les ordonnances par l'eHealthBox](medicaments-ehealthbox.md)"
+
+#: ../../content/belgique/medicaments-lien-pharmacie.md:170
+msgid "[Billing medicines in Belgium](medicaments-facturation.md)"
+msgstr "[Facturer les médicaments en Belgique](medicaments-facturation.md)"

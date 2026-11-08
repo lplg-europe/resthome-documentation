@@ -38,18 +38,6 @@ msgstr ""
 msgid "What should I do when the MDA returns an error?"
 msgstr "Que faire quand le MDA renvoie une erreur ?"
 
-#: ../../content/belgique/ehealth/mda-erreurs.md:13
-msgid ""
-"Depending on the message: if the NISS is the cause (the most common), "
-"correct it on the record then Retry; if it is \"no response\" (often outside"
-" office hours), retry later; if the error is technical or persists, Report "
-"to the inter-mutualist."
-msgstr ""
-"Selon le message : si le NISS est en cause (le plus fréquent), corrigez-le "
-"sur la fiche puis Réessayez ; si c'est « sans réponse » (souvent hors "
-"horaires), réessayez plus tard ; si l'erreur est technique ou persiste, "
-"Signalez à l'intermutualiste."
-
 #: ../../content/belgique/ehealth/mda-erreurs.md:15
 msgid "What does \"insured but not in order\" mean?"
 msgstr "Que signifie « assuré mais pas en ordre » ?"
@@ -130,18 +118,6 @@ msgstr ""
 msgid "MDA situations → action"
 msgstr "Situations MDA → action"
 
-#: ../../content/belgique/ehealth/mda-erreurs.md:42
-msgid ""
-"Reminder of the statuses Resthome may display: **Draft · Sent / Pending · "
-"Success · Not insured · No response · Error**. Available actions: **Send · "
-"Check the response · Retry · Contact the OA · Report to the inter-"
-"mutualist.**"
-msgstr ""
-"Rappel des statuts que Resthome peut afficher : **Brouillon · Envoyé / En "
-"attente · Succès · Non assuré · Sans réponse · Erreur**. Actions disponibles"
-" : **Envoyer · Vérifier la réponse · Réessayer · Contacter l'OA · Signaler à"
-" l'intermut.**"
-
 #: ../../content/belgique/ehealth/mda-erreurs.md:31
 msgid "Situation"
 msgstr "Situation"
@@ -198,14 +174,6 @@ msgstr ""
 "très récente, cas particulier)"
 
 #: ../../content/belgique/ehealth/mda-erreurs.md:31
-msgid ""
-"Confirm the NISS and the affiliation. If the number is correct: **Contact "
-"the OA**; as a last resort **Report to the inter-mutualist.**"
-msgstr ""
-"Confirmer le NISS et l'affiliation. Si le numéro est correct : **Contacter "
-"l'OA** ; en dernier recours **Signaler à l'intermut.**"
-
-#: ../../content/belgique/ehealth/mda-erreurs.md:31
 msgid "**Insured but \"not in order\"**"
 msgstr "**Assuré mais « pas en ordre »**"
 
@@ -220,14 +188,6 @@ msgid ""
 msgstr ""
 "Affiliation existante mais **couverture non valide** (cotisations impayées, "
 "dossier à régulariser)"
-
-#: ../../content/belgique/ehealth/mda-erreurs.md:31
-msgid ""
-"Do not bill the OA for this period. **Contact the OA** or the resident to "
-"regularise; bill the share **to the resident** in the meantime."
-msgstr ""
-"Ne pas facturer l'OA pour cette période. **Contacter l'OA** ou l'habitant "
-"pour régulariser ; facturer la part **à l'habitant** en attendant."
 
 #: ../../content/belgique/ehealth/mda-erreurs.md:31
 msgid "**No mutuality on the record**"
@@ -278,10 +238,6 @@ msgid "**\"No response\"**"
 msgstr "**« Sans réponse »**"
 
 #: ../../content/belgique/ehealth/mda-erreurs.md:31
-msgid "**No response**"
-msgstr "**Sans réponse**"
-
-#: ../../content/belgique/ehealth/mda-erreurs.md:31
 msgid ""
 "The platform closed the request without a response — often **outside office "
 "hours** (evening/weekend) or a temporary unavailability. This is not a "
@@ -290,14 +246,6 @@ msgstr ""
 "La plateforme a clôturé la demande sans réponse — souvent **hors horaires** "
 "(soir/week-end) ou indisponibilité temporaire. Ce n'est pas une erreur de "
 "votre part"
-
-#: ../../content/belgique/ehealth/mda-erreurs.md:31
-msgid ""
-"**Retry** during business hours. If it persists, **Report to the inter-"
-"mutualist.**"
-msgstr ""
-"**Réessayer** aux heures ouvrables. Si cela persiste, **Signaler à "
-"l'intermut.**"
 
 #: ../../content/belgique/ehealth/mda-erreurs.md:31
 msgid "**Technical error**"
@@ -310,14 +258,6 @@ msgstr "**Erreur** + détail technique"
 #: ../../content/belgique/ehealth/mda-erreurs.md:31
 msgid "Temporary outage on the platform or mutuality side"
 msgstr "Panne temporaire côté plateforme ou mutuelle"
-
-#: ../../content/belgique/ehealth/mda-erreurs.md:31
-msgid ""
-"**Retry** later; if the error recurs, **Report to the inter-mutualist.** Do "
-"not retry in a loop."
-msgstr ""
-"**Réessayer** plus tard ; si l'erreur revient, **Signaler à l'intermut.** Ne"
-" pas relancer en boucle."
 
 #: ../../content/belgique/ehealth/mda-erreurs.md:31
 msgid "**Death reported by the mutuality**"
@@ -357,7 +297,7 @@ msgstr ""
 "Ne rien corriger : le garde-fou est **volontaire**. Facturer selon le régime"
 " particulier."
 
-#: ../../content/belgique/ehealth/mda-erreurs.md:58
+#: ../../content/belgique/ehealth/mda-erreurs.md:60
 msgid ""
 "![MDA request in Error state, with the error type and the code returned by "
 "the platform](../../assets/screenshots/ehealth/23-mda-erreur.webp)"
@@ -365,7 +305,7 @@ msgstr ""
 "![Demande MDA à l'état Erreur, avec le type d'erreur et le code renvoyé par "
 "la plateforme](../../assets/screenshots/ehealth/23-mda-erreur.webp)"
 
-#: ../../content/belgique/ehealth/mda-erreurs.md:58
+#: ../../content/belgique/ehealth/mda-erreurs.md:60
 msgid ""
 "MDA request in Error state, with the error type and the code returned by the"
 " platform"
@@ -373,11 +313,11 @@ msgstr ""
 "Demande MDA à l'état Erreur, avec le type d'erreur et le code renvoyé par la"
 " plateforme"
 
-#: ../../content/belgique/ehealth/mda-erreurs.md:60
+#: ../../content/belgique/ehealth/mda-erreurs.md:62
 msgid "Special schemes"
 msgstr "Régimes particuliers"
 
-#: ../../content/belgique/ehealth/mda-erreurs.md:62
+#: ../../content/belgique/ehealth/mda-erreurs.md:64
 msgid ""
 "Some residents do **not** fall under the standard mutuality flow. In these "
 "cases, Resthome **does not overwrite** the mutuality on their profile with "
@@ -389,7 +329,7 @@ msgstr ""
 " MDA, et la facturation se fait souvent **sur papier**, adressée au "
 "véritable payeur (ou à l'habitant), plutôt qu'en eFact."
 
-#: ../../content/belgique/ehealth/mda-erreurs.md:67
+#: ../../content/belgique/ehealth/mda-erreurs.md:69
 msgid ""
 "**BIM status (increased reimbursement)** — this is not a separate scheme: "
 "the MDA **retrieves and updates it on its own**. It grants the resident a "
@@ -401,7 +341,7 @@ msgstr ""
 "modérateur réduit** pour l'habitant (la part à sa charge diminue) ; le "
 "forfait journalier, lui, est inchangé."
 
-#: ../../content/belgique/ehealth/mda-erreurs.md:71
+#: ../../content/belgique/ehealth/mda-erreurs.md:73
 msgid ""
 "**War invalids / civilian victims** — the resident has **two coverages**: "
 "their standard mutuality (visible in the MDA) **and** a specific coverage "
@@ -413,7 +353,7 @@ msgstr ""
 "couverture spécifique qui **ne passe pas** par le MDA. Le garde-fou évite "
 "d'écraser cette configuration."
 
-#: ../../content/belgique/ehealth/mda-erreurs.md:75
+#: ../../content/belgique/ehealth/mda-erreurs.md:77
 msgid ""
 "**Retirees of international institutions** — covered by a scheme specific to"
 " their organisation, not by a standard Belgian mutuality."
@@ -421,7 +361,7 @@ msgstr ""
 "**Retraités d'institutions internationales** — couverts par un régime propre"
 " à leur organisation, pas par une mutuelle belge classique."
 
-#: ../../content/belgique/ehealth/mda-erreurs.md:77
+#: ../../content/belgique/ehealth/mda-erreurs.md:79
 msgid ""
 "**Foreign pensioners** — coverage from a foreign scheme via the European "
 "coordination forms; in practice, many still join a Belgian mutuality."
@@ -430,11 +370,11 @@ msgstr ""
 "formulaires européens de coordination ; en pratique, beaucoup s'affilient "
 "tout de même à une mutuelle belge."
 
-#: ../../content/belgique/ehealth/mda-erreurs.md:80
+#: ../../content/belgique/ehealth/mda-erreurs.md:82
 msgid "When in doubt"
 msgstr "En cas de doute"
 
-#: ../../content/belgique/ehealth/mda-erreurs.md:83
+#: ../../content/belgique/ehealth/mda-erreurs.md:85
 msgid ""
 "For a special scheme, if in doubt about which organisation to bill, get in "
 "touch with the mutuality or the organisation concerned before issuing the "
@@ -444,15 +384,15 @@ msgstr ""
 "rapprochez-vous de la mutuelle ou de l'organisme concerné avant d'émettre la"
 " facture."
 
-#: ../../content/belgique/ehealth/mda-erreurs.md:87
+#: ../../content/belgique/ehealth/mda-erreurs.md:89
 msgid "Best practices"
 msgstr "Bonnes pratiques"
 
-#: ../../content/belgique/ehealth/mda-erreurs.md:89
+#: ../../content/belgique/ehealth/mda-erreurs.md:91
 msgid "**MDA at the start of the month, and before generating the eFact.**"
 msgstr "**MDA en début de mois, et avant de générer l'eFact.**"
 
-#: ../../content/belgique/ehealth/mda-erreurs.md:90
+#: ../../content/belgique/ehealth/mda-erreurs.md:92
 msgid ""
 "**Individual check** (immediate) for a specific resident; **batch check** "
 "for a whole period — paste a column of names/NISS if needed."
@@ -460,11 +400,11 @@ msgstr ""
 "**Contrôle individuel** (immédiat) pour un habitant précis ; **contrôle par "
 "lot** pour une période entière — collez au besoin une colonne de noms/NISS."
 
-#: ../../content/belgique/ehealth/mda-erreurs.md:92
+#: ../../content/belgique/ehealth/mda-erreurs.md:94
 msgid "**Immediate send (Sync)** for **small volumes**;"
 msgstr "**Envoi immédiat (Sync)** pour les **petits volumes** ;"
 
-#: ../../content/belgique/ehealth/mda-erreurs.md:93
+#: ../../content/belgique/ehealth/mda-erreurs.md:95
 msgid ""
 "**Grouped send (Async)** for **large monthly batches**: the request goes "
 "out, then you **retrieve the responses** a little later with **Check "
@@ -474,7 +414,7 @@ msgstr ""
 "puis on **récupère les réponses** un peu plus tard avec **Vérifier les "
 "réponses** (nécessite au moins 2 habitants)."
 
-#: ../../content/belgique/ehealth/mda-erreurs.md:96
+#: ../../content/belgique/ehealth/mda-erreurs.md:98
 msgid ""
 "The batch displays **counters** (Insured, Not insured, Errors, Pending, "
 "Deaths) to spot at a glance what remains to process."
@@ -482,7 +422,7 @@ msgstr ""
 "Le lot affiche des **compteurs** (Assurés, Non assurés, Erreurs, En attente,"
 " Décès) pour repérer d'un coup d'œil ce qui reste à traiter."
 
-#: ../../content/belgique/ehealth/mda-erreurs.md:98
+#: ../../content/belgique/ehealth/mda-erreurs.md:100
 msgid ""
 "**What Resthome updates** after a successful MDA: the actual **mutuality "
 "(OA)**, the **BIM status**, the **affiliation number**, the **identity** if "
@@ -494,15 +434,15 @@ msgstr ""
 "des champs manquaient, et la **date de décès** si l'organisme la signale. "
 "Exception : la mutuelle d'un **régime particulier** n'est pas écrasée."
 
-#: ../../content/belgique/ehealth/mda-erreurs.md:103
+#: ../../content/belgique/ehealth/mda-erreurs.md:105
 msgid "Further reading"
 msgstr "Pour aller plus loin"
 
-#: ../../content/belgique/ehealth/mda-erreurs.md:105
+#: ../../content/belgique/ehealth/mda-erreurs.md:107
 msgid "[Insurability (MDA)](mda.md)"
 msgstr "[Assurabilité (MDA)](mda.md)"
 
-#: ../../content/belgique/ehealth/mda-erreurs.md:106
+#: ../../content/belgique/ehealth/mda-erreurs.md:108
 msgid ""
 "[eFact rejections](efact-rejets.md) · [Electronic invoicing "
 "(eFact)](efact.md)"
@@ -510,6 +450,65 @@ msgstr ""
 "[Rejets eFact](efact-rejets.md) · [Facturation électronique "
 "(eFact)](efact.md)"
 
-#: ../../content/belgique/ehealth/mda-erreurs.md:107
+#: ../../content/belgique/ehealth/mda-erreurs.md:109
 msgid "[FAQ](../../faq.md) · [Glossary](../../glossaire.md)"
 msgstr "[FAQ](../../faq.md) · [Glossaire](../../glossaire.md)"
+
+#: ../../content/belgique/ehealth/mda-erreurs.md:13
+msgid ""
+"Depending on the message: if the NISS is the cause (the most common), "
+"correct it on the record then Retry; if it is \"no response\" (often outside"
+" office hours), retry later; if the error is technical or persists, use "
+"**Contact CIN** in the request's thread."
+msgstr ""
+"Selon le message : si le NISS est en cause (le plus fréquent), corrigez-le "
+"sur la fiche puis Réessayez ; si c'est « sans réponse » (souvent hors heures"
+" de bureau), réessayez plus tard ; si l'erreur est technique ou persiste, "
+"utilisez **Contacter le CIN** dans le fil de la requête."
+
+#: ../../content/belgique/ehealth/mda-erreurs.md:42
+msgid ""
+"Reminder of the statuses Resthome may display: **Draft**, **Sent**, **Posted"
+" (Async)**, **Awaiting Response**, **Success**, **Not Insured**, **No Facet "
+"(closed-out)**, **Error**. Available actions: **Send (Sync)**, **Check "
+"Response**, **Retry**, and in the thread's toolbar **Contact OA** and "
+"**Contact CIN**."
+msgstr ""
+"Rappel des statuts que Resthome peut afficher : **Brouillon**, **Envoyé**, "
+"**Posté (Async)**, **En attente de réponse**, **Succès**, **Non assuré**, "
+"**No Facet (clôturé)**, **Erreur**. Actions disponibles : **Envoyer "
+"(Sync)**, **Vérifier la réponse**, **Réessayer**, et dans la barre d'outils "
+"du fil **Contacter l'OA** et **Contacter le CIN**."
+
+#: ../../content/belgique/ehealth/mda-erreurs.md:31
+msgid ""
+"Confirm the NISS and the affiliation. If the number is correct: **Contact "
+"OA**; as a last resort **Contact CIN**."
+msgstr ""
+"Confirmer le NISS et l'affiliation. Si le numéro est correct : **Contacter "
+"l'OA** ; en dernier recours **Contacter le CIN**."
+
+#: ../../content/belgique/ehealth/mda-erreurs.md:31
+msgid ""
+"Do not bill the OA for this period. **Contact OA** or the resident to "
+"regularise; bill the share **to the resident** in the meantime."
+msgstr ""
+"Ne pas facturer l'OA pour cette période. **Contacter l'OA** ou l'habitant "
+"pour régulariser ; facturer la part **à l'habitant** en attendant."
+
+#: ../../content/belgique/ehealth/mda-erreurs.md:31
+msgid "**No Facet (closed-out)**"
+msgstr "**No Facet (clôturé)**"
+
+#: ../../content/belgique/ehealth/mda-erreurs.md:31
+msgid "**Retry** during business hours. If it persists, **Contact CIN**."
+msgstr ""
+"**Réessayer** aux heures de bureau. Si cela persiste, **Contacter le CIN**."
+
+#: ../../content/belgique/ehealth/mda-erreurs.md:31
+msgid ""
+"**Retry** later; if the error recurs, **Contact CIN**. Do not retry in a "
+"loop."
+msgstr ""
+"**Réessayer** plus tard ; si l'erreur revient, **Contacter le CIN**. Ne pas "
+"relancer en boucle."

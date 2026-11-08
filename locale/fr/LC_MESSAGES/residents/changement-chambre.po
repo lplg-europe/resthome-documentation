@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 15:49+0200\n"
+"POT-Creation-Date: 2026-11-08 19:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -26,13 +26,13 @@ msgstr "Changement de chambre et transfert"
 
 #: ../../content/residents/changement-chambre.md:8
 msgid ""
-"Move a resident to another room or transfer them between the sectors the "
-"home is licensed for in Resthome — billing is split automatically, with no "
-"new admission."
+"Move a resident to another room, now or on a later date, or transfer them "
+"between the sectors the home is licensed for in Resthome — billing follows "
+"on its own, with no new admission."
 msgstr ""
-"Changer un habitant de chambre ou le transférer entre les secteurs pour "
-"lesquels la maison est agréée dans Resthome — facturation scindée "
-"automatiquement, sans nouvelle admission."
+"Changer un habitant de chambre, maintenant ou à une date ultérieure, ou le "
+"transférer entre les secteurs pour lesquels la maison est agréée dans "
+"Resthome — la facturation suit d'elle-même, sans nouvelle admission."
 
 #: ../../content/residents/changement-chambre.md:12
 msgid "How do I change a resident's room?"
@@ -40,154 +40,430 @@ msgstr "Comment changer un habitant de chambre ?"
 
 #: ../../content/residents/changement-chambre.md:13
 msgid ""
-"On the resident's stay, use the Change Room action, enter the new room and "
-"the date and time of the change, then validate."
+"On the resident's stay, click **Change Room**, choose the **New room** and "
+"the **Change date**, then click **Change Room** in the window."
 msgstr ""
-"Sur le séjour de l'habitant, utilisez l'action Changer de chambre, indiquez "
-"la nouvelle chambre ainsi que la date et l'heure du changement, puis "
-"validez."
+"Sur le séjour de l'habitant, cliquez sur **Changer de chambre**, choisissez "
+"la **Nouvelle chambre** et la **Date du changement**, puis cliquez sur "
+"**Changer de chambre** dans la fenêtre."
 
 #: ../../content/residents/changement-chambre.md:15
-msgid "Does a room change require a new admission?"
-msgstr "Un changement de chambre nécessite-t-il une nouvelle admission ?"
+msgid "Can I plan a room change for a later date?"
+msgstr "Puis-je planifier un changement de chambre à une date ultérieure ?"
 
 #: ../../content/residents/changement-chambre.md:16
 msgid ""
-"No. The care allowance paid by the health insurer stays continuous and there"
-" is nothing new to request from the insurer - only the accommodation portion"
-" is split across the two rates."
+"Yes. Choose a date in the future: nothing changes today, the current room "
+"shows as freeing up, and the move is applied on its own on the day itself. "
+"**Cancel the planned room change** on the stay withdraws it while it is "
+"pending."
 msgstr ""
-"Non. Le forfait de soins payé par l'assureur santé reste continu et il n'y a"
-" rien de nouveau à demander à l'assureur — seule la part hébergement est "
-"scindée entre les deux tarifs."
+"Oui. Choisissez une date dans le futur : rien ne change aujourd'hui, la "
+"chambre actuelle s'affiche comme se libérant, et le déménagement s'applique "
+"de lui-même le jour venu. **Annuler le changement de chambre planifié** sur "
+"le séjour le retire tant qu'il est en attente."
 
 #: ../../content/residents/changement-chambre.md:18
-msgid "How do I transfer a resident to another sector?"
-msgstr "Comment transférer un habitant vers un autre secteur ?"
+msgid "Can I move a resident into a room that is still occupied?"
+msgstr "Puis-je installer un habitant dans une chambre encore occupée ?"
 
 #: ../../content/residents/changement-chambre.md:19
 msgid ""
-"On the stay, use the Internal Transfer action, enter the date and time and "
-"the new type of care, then validate. Resthome updates the care allowance "
-"and, where the country requires it, prepares the notification to the health "
-"insurer."
+"Yes, when that room frees up on a known date: it is offered with that date, "
+"and the change must be dated on the first free day at the earliest."
 msgstr ""
-"Sur le séjour, utilisez l'action Transfert interne, indiquez la date et "
+"Oui, quand cette chambre se libère à une date connue : elle est proposée "
+"avec cette date, et le changement doit être daté au plus tôt du premier jour"
+" libre."
+
+#: ../../content/residents/changement-chambre.md:21
+msgid "Does a room change require a new admission?"
+msgstr "Un changement de chambre nécessite-t-il une nouvelle admission ?"
+
+#: ../../content/residents/changement-chambre.md:22
+msgid ""
+"No. The care allowance paid by the health insurer stays continuous and there"
+" is nothing new to request from the insurer — only the accommodation is "
+"billed at the new rate."
+msgstr ""
+"Non. Le forfait de soins payé par l'assureur santé reste continu et il n'y a"
+" rien de nouveau à demander à l'assureur — seul l'hébergement est facturé au"
+" nouveau tarif."
+
+#: ../../content/residents/changement-chambre.md:24
+msgid "How do I undo a room change entered by mistake?"
+msgstr "Comment annuler un changement de chambre encodé par erreur ?"
+
+#: ../../content/residents/changement-chambre.md:25
+msgid ""
+"On the stay the change opened, click **Cancel Room Change**: the resident "
+"goes back to their previous room and stay, with their dates."
+msgstr ""
+"Sur le séjour ouvert par le changement, cliquez sur **Annuler le changement "
+"de chambre** : l'habitant retrouve sa chambre et son séjour précédents, avec"
+" leurs dates."
+
+#: ../../content/residents/changement-chambre.md:27
+msgid "How do I transfer a resident to another sector?"
+msgstr "Comment transférer un habitant vers un autre secteur ?"
+
+#: ../../content/residents/changement-chambre.md:28
+msgid ""
+"On the stay, use the **Internal Transfer** action, enter the date and time "
+"and the new type of care, then validate. Resthome updates the care allowance"
+" and, where the country requires it, prepares the notification to the health"
+" insurer."
+msgstr ""
+"Sur le séjour, utilisez l'action **Transfert interne**, indiquez la date et "
 "l'heure ainsi que le nouveau type de soins, puis validez. Resthome met à "
 "jour le forfait de soins et, si le pays l'exige, prépare la notification à "
 "l'assureur santé."
 
-#: ../../content/residents/changement-chambre.md:21
-msgid "Do I have to recalculate billing after a room change?"
-msgstr "Dois-je recalculer la facturation après un changement de chambre ?"
-
-#: ../../content/residents/changement-chambre.md:22
-msgid ""
-"No. Resthome closes billing for the old room on the chosen date and opens it"
-" for the new one, each segment at its own rate."
-msgstr ""
-"Non. Resthome clôture la facturation de l'ancienne chambre à la date choisie"
-" et ouvre celle de la nouvelle, chaque segment à son propre tarif."
-
-#: ../../content/residents/changement-chambre.md:25
+#: ../../content/residents/changement-chambre.md:31
 msgid ""
 "A resident can **change room** or move to **another sector** the home is "
-"licensed for during their stay. Resthome handles the **transition** cleanly:"
-" billing is **split** at the right date, without you having to redo an "
-"admission."
+"licensed for during their stay. Resthome handles the **transition**: billing"
+" follows at the right date, without you having to redo an admission."
 msgstr ""
 "Un habitant peut **changer de chambre** ou passer dans **un autre secteur** "
 "pour lequel la maison est agréée, en cours de séjour. Resthome gère la "
-"**transition** proprement : la facturation est **scindée** à la bonne date, "
-"sans que vous ayez à refaire une admission."
+"**transition** : la facturation suit à la bonne date, sans que vous ayez à "
+"refaire une admission."
 
-#: ../../content/residents/changement-chambre.md:29
+#: ../../content/residents/changement-chambre.md:35
 msgid "Changing room"
 msgstr "Changer de chambre"
 
-#: ../../content/residents/changement-chambre.md:31
-msgid "For a simple room change (same type of care):"
-msgstr "Pour un simple changement de chambre (même type de soins) :"
-
-#: ../../content/residents/changement-chambre.md:33
-msgid "On the resident's **stay**, use the **Change Room** action."
-msgstr ""
-"Sur le **séjour** de l'habitant, utilisez l'action **Changer de chambre**."
-
-#: ../../content/residents/changement-chambre.md:34
-msgid "Enter the **new room** and the **date/time** of the change."
-msgstr "Indiquez la **nouvelle chambre** et la **date/heure** du changement."
-
-#: ../../content/residents/changement-chambre.md:35
-#: ../../content/residents/changement-chambre.md:57
-msgid "**Validate.**"
-msgstr "**Validez.**"
-
 #: ../../content/residents/changement-chambre.md:37
 msgid ""
-"Resthome **closes** billing for the old room on that date and **opens** "
-"billing for the new one, at the corresponding rate."
+"Open the resident's **stay** (from the **Stay Agreement** tab of their "
+"record, or **Nursing Home → Accommodation → Stays**). The stay must be "
+"**Confirmed** or **Active**."
 msgstr ""
-"Resthome **clôt** la facturation de l'ancienne chambre à cette date et "
-"**ouvre** celle de la nouvelle, au tarif correspondant."
+"Ouvrez le **séjour** de l'habitant (depuis l'onglet **Conventions** de sa "
+"fiche, ou **Maison de repos → Hébergement → Séjours**). Le séjour doit être "
+"**Confirmé** ou **Actif**."
 
 #: ../../content/residents/changement-chambre.md:40
-msgid "No new admission"
-msgstr "Pas de nouvelle admission"
+#: ../../content/residents/changement-chambre.md:47
+#: ../../content/residents/changement-chambre.md:94
+msgid "Click **Change Room**."
+msgstr "Cliquez sur **Changer de chambre**."
+
+#: ../../content/residents/changement-chambre.md:41
+msgid ""
+"Choose the **New room**. The list offers the free rooms and the rooms that "
+"**free up** on a known date; the current room is pre-filled."
+msgstr ""
+"Choisissez la **Nouvelle chambre**. La liste propose les chambres libres et "
+"celles qui **se libèrent** à une date connue ; la chambre actuelle est pré-"
+"remplie."
 
 #: ../../content/residents/changement-chambre.md:43
 msgid ""
+"Enter the **Change date** — the first day billed on the new room. The "
+"current room is billed up to the day before."
+msgstr ""
+"Saisissez la **Date du changement** — le premier jour facturé sur la "
+"nouvelle chambre. La chambre actuelle est facturée jusqu'à la veille."
+
+#: ../../content/residents/changement-chambre.md:45
+msgid ""
+"Read the notice at the bottom: it says, with the figures, what the change "
+"does to the billing."
+msgstr ""
+"Lisez l'avis en bas : il dit, chiffres à l'appui, ce que le changement fait "
+"à la facturation."
+
+#: ../../content/residents/changement-chambre.md:49
+msgid ""
+"A notification then says what was done: **Room changed — same daily rate**, "
+"or **Room changed — the daily rate moved** with the old and new rates."
+msgstr ""
+"Une notification dit ensuite ce qui a été fait : **Chambre changée — tarif "
+"journalier inchangé**, ou **Chambre changée — le tarif journalier a changé**"
+" avec l'ancien et le nouveau tarif."
+
+#: ../../content/residents/changement-chambre.md:54
+msgid "What the change does to the stay"
+msgstr "Ce que le changement fait au séjour"
+
+#: ../../content/residents/changement-chambre.md:56
+msgid "Resthome picks the right shape on its own:"
+msgstr "Resthome choisit seul la bonne forme :"
+
+#: ../../content/residents/changement-chambre.md:11
+msgid "Case"
+msgstr "Cas"
+
+#: ../../content/residents/changement-chambre.md:11
+msgid "What happens"
+msgstr "Ce qui se passe"
+
+#: ../../content/residents/changement-chambre.md:11
+msgid "Both rooms cost the same"
+msgstr "Les deux chambres coûtent le même prix"
+
+#: ../../content/residents/changement-chambre.md:11
+msgid "The stay simply changes room. Nothing is credited or re-issued."
+msgstr "Le séjour change simplement de chambre. Rien n'est crédité ni réémis."
+
+#: ../../content/residents/changement-chambre.md:11
+msgid ""
+"The resident has not moved in yet (change dated on or before the arrival)"
+msgstr ""
+"L'habitant n'a pas encore emménagé (changement daté au plus tard du jour de "
+"l'arrivée)"
+
+#: ../../content/residents/changement-chambre.md:11
+msgid ""
+"A correction: the whole stay is re-priced on the right room, with no split."
+msgstr ""
+"Une correction : tout le séjour est retarifé sur la bonne chambre, sans "
+"scission."
+
+#: ../../content/residents/changement-chambre.md:11
+msgid "The rooms are priced differently and the resident is already in"
+msgstr "Les chambres ont des prix différents et l'habitant est déjà là"
+
+#: ../../content/residents/changement-chambre.md:11
+msgid ""
+"The stay is **split** at the change date: the old room is billed up to the "
+"day before, the new room from that day. Documents already issued are "
+"corrected — a supplementary invoice or a credit note for what was already "
+"billed."
+msgstr ""
+"Le séjour est **scindé** à la date du changement : l'ancienne chambre est "
+"facturée jusqu'à la veille, la nouvelle à partir de ce jour. Les documents "
+"déjà émis sont corrigés — une facture complémentaire ou une note de crédit "
+"pour ce qui a déjà été facturé."
+
+#: ../../content/residents/changement-chambre.md:64
+msgid "No new admission"
+msgstr "Pas de nouvelle admission"
+
+#: ../../content/residents/changement-chambre.md:67
+msgid ""
 "A room change is **not** a new admission: the care allowance paid by the "
 "health insurer stays **continuous**, and there is nothing new to request "
-"from the insurer. Only the **accommodation portion** is split across the two"
-" rates."
+"from the insurer. Only the **accommodation** follows the new rate."
 msgstr ""
 "Un changement de chambre n'est **pas** une nouvelle admission : le forfait "
 "de soins payé par l'assureur santé reste **continu**, et il n'y a rien de "
-"nouveau à demander à l'assureur. Seule la **part hébergement** est scindée "
-"entre les deux tarifs."
+"nouveau à demander à l'assureur. Seul l'**hébergement** suit le nouveau "
+"tarif."
 
-#: ../../content/residents/changement-chambre.md:48
+#: ../../content/residents/changement-chambre.md:72
+msgid "Moves that come with it"
+msgstr "Les mouvements qui l'accompagnent"
+
+#: ../../content/residents/changement-chambre.md:74
+msgid "Each room change also:"
+msgstr "Chaque changement de chambre, en plus :"
+
+#: ../../content/residents/changement-chambre.md:76
+msgid ""
+"puts the **new room** on the housekeeping board **To prepare** and the room "
+"being left **To clean**, with a task for the housekeeping team — see [Room "
+"housekeeping](entretien-chambres.md);"
+msgstr ""
+"met la **nouvelle chambre** **À préparer** sur le tableau d'entretien et la "
+"chambre quittée **À nettoyer**, avec une tâche pour l'équipe d'entretien — "
+"voir [Entretien des chambres](entretien-chambres.md) ;"
+
+#: ../../content/residents/changement-chambre.md:79
+msgid ""
+"opens the **move-in tasks** of the resident, due on the change date — see "
+"[The move-in procedure](procedure-emmenagement.md);"
+msgstr ""
+"ouvre les **tâches d'emménagement** de l'habitant, à échéance de la date du "
+"changement — voir [La procédure d'emménagement](procedure-emmenagement.md) ;"
+
+#: ../../content/residents/changement-chambre.md:81
+msgid ""
+"leaves the **private furniture** list unchanged: it follows the resident — "
+"see [The resident's private furniture](mobilier.md)."
+msgstr ""
+"laisse la liste du **mobilier privé** inchangée : elle suit l'habitant — "
+"voir [Le mobilier privé de l'habitant](mobilier.md)."
+
+#: ../../content/residents/changement-chambre.md:84
+msgid "Scheduling a room change"
+msgstr "Planifier un changement de chambre"
+
+#: ../../content/residents/changement-chambre.md:86
+msgid ""
+"A move is often planned **because** the target room is not free yet: a "
+"resident takes room 12 when its occupant leaves at the end of the month."
+msgstr ""
+"Un déménagement est souvent planifié **parce que** la chambre cible n'est "
+"pas encore libre : un habitant prend la chambre 12 quand son occupant part à"
+" la fin du mois."
+
+#: ../../content/residents/changement-chambre.md:89
+msgid "Click **Change Room** on the stay."
+msgstr "Cliquez sur **Changer de chambre** sur le séjour."
+
+#: ../../content/residents/changement-chambre.md:90
+msgid ""
+"Choose the new room — a room that frees up on a known date is offered with "
+"that date."
+msgstr ""
+"Choisissez la nouvelle chambre — une chambre qui se libère à une date connue"
+" est proposée avec cette date."
+
+#: ../../content/residents/changement-chambre.md:92
+msgid ""
+"Enter a **Change date** in the future. For an occupied room, the date must "
+"be the day after it frees up at the earliest."
+msgstr ""
+"Saisissez une **Date du changement** dans le futur. Pour une chambre "
+"occupée, la date doit être au plus tôt le lendemain de sa libération."
+
+#: ../../content/residents/changement-chambre.md:96
+msgid "Nothing is billed or credited today. Resthome:"
+msgstr "Rien n'est facturé ni crédité aujourd'hui. Resthome :"
+
+#: ../../content/residents/changement-chambre.md:98
+msgid ""
+"shows the **Planned Room** and the **Planned Room Change** date on the stay;"
+msgstr ""
+"affiche la **Chambre planifiée** et la date du **Changement de chambre "
+"planifié** sur le séjour ;"
+
+#: ../../content/residents/changement-chambre.md:99
+msgid ""
+"shows the current room as freeing up on the eve of the change, so the "
+"[waiting list](../admissions/liste-attente.md) can count on it;"
+msgstr ""
+"montre la chambre actuelle comme se libérant la veille du changement, pour "
+"que la [liste d'attente](../admissions/liste-attente.md) puisse compter "
+"dessus ;"
+
+#: ../../content/residents/changement-chambre.md:101
+msgid ""
+"applies the move **on its own** on the day itself, with whatever it bills or"
+" credits then."
+msgstr ""
+"applique le déménagement **de lui-même** le jour venu, avec ce qu'il facture"
+" ou crédite alors."
+
+#: ../../content/residents/changement-chambre.md:104
+msgid ""
+"To withdraw a scheduled change, click **Cancel the planned room change** "
+"under the planned date on the stay. The resident stays where they are, and "
+"the room stops being announced as freeing up."
+msgstr ""
+"Pour retirer un changement planifié, cliquez sur **Annuler le changement de "
+"chambre planifié** sous la date planifiée du séjour. L'habitant reste où il "
+"est, et la chambre cesse d'être annoncée comme se libérant."
+
+#: ../../content/residents/changement-chambre.md:108
+msgid "Note"
+msgstr "Remarque"
+
+#: ../../content/residents/changement-chambre.md:109
+msgid ""
+"Only the room can be scheduled ahead. A change of the terms of the stay — "
+"the invoice type, for example, when the billing layer adds it to this window"
+" — applies on the day it is decided."
+msgstr ""
+"Seule la chambre peut être planifiée à l'avance. Un changement des "
+"conditions du séjour — le type de facture, par exemple, quand la couche de "
+"facturation l'ajoute à cette fenêtre — s'applique le jour où il est décidé."
+
+#: ../../content/residents/changement-chambre.md:114
+msgid "Changing the terms without moving"
+msgstr "Changer les conditions sans déménager"
+
+#: ../../content/residents/changement-chambre.md:116
+msgid ""
+"Depending on the billing modules installed, the **Change Room** window also "
+"carries the terms the stay is billed under, such as the **New invoice "
+"type**. Leave the **New room** on the current room and change only those "
+"terms: the notification then reads **Stay continued — same room**. The part "
+"of the stay already billed keeps its type; the new type applies from the "
+"change date. See [Invoice type: in advance or in "
+"arrears](../facturation/type-de-facture.md)."
+msgstr ""
+"Selon les modules de facturation installés, la fenêtre **Changer de "
+"chambre** porte aussi les conditions sous lesquelles le séjour est facturé, "
+"comme le **Nouveau type de facture**. Laissez la **Nouvelle chambre** sur la"
+" chambre actuelle et ne changez que ces conditions : la notification indique"
+" alors **Séjour poursuivi — même chambre**. La partie du séjour déjà "
+"facturée garde son type ; le nouveau type s'applique à partir de la date du "
+"changement. Voir [Type de facture : anticipative ou à période "
+"échue](../facturation/type-de-facture.md)."
+
+#: ../../content/residents/changement-chambre.md:123
+msgid "Undoing a room change"
+msgstr "Annuler un changement de chambre"
+
+#: ../../content/residents/changement-chambre.md:125
+msgid ""
+"On the stay opened by a room change, **Cancel Room Change** undoes it: the "
+"resident goes back to their previous room and stay (dates restored), and the"
+" move tasks are removed. A confirmation asks before anything is undone."
+msgstr ""
+"Sur le séjour ouvert par un changement de chambre, **Annuler le changement "
+"de chambre** le défait : l'habitant retrouve sa chambre et son séjour "
+"précédents (dates rétablies), et les tâches du déménagement sont supprimées."
+" Une confirmation est demandée avant toute annulation."
+
+#: ../../content/residents/changement-chambre.md:129
 msgid "Transfer between sectors"
 msgstr "Transfert entre secteurs"
 
-#: ../../content/residents/changement-chambre.md:50
+#: ../../content/residents/changement-chambre.md:131
 msgid ""
 "When the home is licensed for several sectors, moving from one to another is"
 " an **internal transfer**. The **stay type** can no longer be edited once "
 "the stay is confirmed: the change goes through the **Internal Transfer** "
 "action, which the country pack provides where the country regulates sectors."
+" On the resident's record, **Change stay type** next to the stay type opens "
+"the active stay."
 msgstr ""
 "Lorsque la maison est agréée pour plusieurs secteurs, le passage de l'un à "
 "l'autre est un **transfert interne**. Le **type de séjour** n'est plus "
 "modifiable une fois le séjour confirmé : le changement passe par l'action "
 "**Transfert interne**, que le pack pays fournit là où le pays réglemente les"
-" secteurs."
+" secteurs. Sur la fiche de l'habitant, **Changer le type de séjour** à côté "
+"du type de séjour ouvre le séjour actif."
 
-#: ../../content/residents/changement-chambre.md:55
+#: ../../content/residents/changement-chambre.md:137
 msgid "On the stay, use the **Internal Transfer** action."
 msgstr "Sur le séjour, utilisez l'action **Transfert interne**."
 
-#: ../../content/residents/changement-chambre.md:56
+#: ../../content/residents/changement-chambre.md:138
 msgid "Enter the **date/time** of the transfer and the **new type of care**."
 msgstr ""
 "Indiquez la **date/heure** du transfert et le **nouveau type de soins**."
 
-#: ../../content/residents/changement-chambre.md:59
+#: ../../content/residents/changement-chambre.md:139
+msgid "**Validate.**"
+msgstr "**Validez.**"
+
+#: ../../content/residents/changement-chambre.md:141
 msgid ""
 "Resthome splits billing at the transfer date and **updates the care "
 "allowance** according to the new type. Where the country requires it, it "
-"prepares the **notification to the health insurer**."
+"prepares the **notification to the health insurer**. **Cancel Transfer**, on"
+" the stay the transfer opened, undoes it: the resident goes back to their "
+"previous stay (sector, room and dates restored) and the move tasks are "
+"removed."
 msgstr ""
 "Resthome scinde la facturation à la date du transfert et **met à jour le "
 "forfait de soins** selon le nouveau type. Si le pays l'exige, il prépare la "
-"**notification à l'assureur santé**."
+"**notification à l'assureur santé**. **Annuler le transfert**, sur le séjour"
+" ouvert par le transfert, le défait : l'habitant retrouve son séjour "
+"précédent (secteur, chambre et dates rétablis) et les tâches du déménagement"
+" sont supprimées."
 
-#: ../../content/residents/changement-chambre.md:63
+#: ../../content/residents/changement-chambre.md:147
 msgid "A sector can require a minimum dependency category"
 msgstr "Un secteur peut exiger une catégorie de dépendance minimale"
 
-#: ../../content/residents/changement-chambre.md:66
+#: ../../content/residents/changement-chambre.md:150
 msgid ""
 "When a sector only takes residents above a given dependency category, "
 "Resthome refuses to **put or keep a stay** in it for a resident assessed "
@@ -197,7 +473,7 @@ msgstr ""
 "dépendance donnée, Resthome refuse d'y **placer ou d'y maintenir un séjour**"
 " pour un habitant évalué en dessous — à l'admission comme au transfert."
 
-#: ../../content/residents/changement-chambre.md:70
+#: ../../content/residents/changement-chambre.md:154
 msgid ""
 "A **room change is not blocked**, though: a resident whose category no "
 "longer matches their bed can still be moved from one room to another. A "
@@ -208,59 +484,61 @@ msgstr ""
 " Une bannière sur sa fiche signale la situation tant que le transfert n'est "
 "pas encodé."
 
-#: ../../content/residents/changement-chambre.md:75
+#: ../../content/residents/changement-chambre.md:159
 msgid "In Belgium"
 msgstr "En Belgique"
 
-#: ../../content/residents/changement-chambre.md:78
+#: ../../content/residents/changement-chambre.md:162
 msgid ""
 "The sectors are **MR** and **MRS**: an MRS bed only takes Katz categories "
 "**B and above**, and the transfer produces the Annexe 11 + Annexe 7 pair for"
-" the mutualité — see [Internal transfer (MR ↔ "
-"MRS)](../belgique/ehealth/eagreement-transfert.md) and [The Katz "
+" the mutualité. A room change creates no eAgreement — see [Internal transfer"
+" (MR ↔ MRS)](../belgique/ehealth/eagreement-transfert.md) and [The Katz "
 "assessment](../belgique/katz.md)."
 msgstr ""
 "Les secteurs sont la **MR** et la **MRS** : un lit MRS n'accueille que les "
 "catégories Katz **B et au-delà**, et le transfert produit la paire Annexe 11"
-" + Annexe 7 pour la mutuelle — voir [Transfert interne (MR ↔ "
+" + Annexe 7 pour la mutuelle. Un changement de chambre ne crée aucun "
+"eAgreement — voir [Transfert interne (MR ↔ "
 "MRS)](../belgique/ehealth/eagreement-transfert.md) et [L'évaluation "
 "Katz](../belgique/katz.md)."
 
-#: ../../content/residents/changement-chambre.md:84
-msgid "Billing follows automatically"
-msgstr "La facturation suit toute seule"
+#: ../../content/residents/changement-chambre.md:169
+msgid "Assigning from the room"
+msgstr "Affecter depuis la chambre"
 
-#: ../../content/residents/changement-chambre.md:87
+#: ../../content/residents/changement-chambre.md:171
 msgid ""
-"After a room change or a transfer, you have nothing to recalculate by hand: "
-"each segment is billed at its own rate, and the care allowance continues "
-"without interruption."
+"The **Assign Resident** button of a free room also moves an already-housed "
+"resident (**Transfer Resident**): it ends the old stay and opens a new one, "
+"with no billing notice and no scheduling. Prefer **Change Room** on the stay"
+" — see [Rooms and occupancy](chambres.md)."
 msgstr ""
-"Après un changement de chambre ou un transfert, vous n'avez rien à "
-"recalculer à la main : chaque segment est facturé à son propre tarif, et le "
-"forfait de soins continue sans interruption."
+"Le bouton **Affecter un habitant** d'une chambre libre déplace aussi un "
+"habitant déjà logé (**Transférer l'habitant**) : il termine l'ancien séjour "
+"et en ouvre un nouveau, sans avis de facturation ni planification. Préférez "
+"**Changer de chambre** sur le séjour — voir [Les chambres et "
+"l'occupation](chambres.md)."
 
-#: ../../content/residents/changement-chambre.md:92
+#: ../../content/residents/changement-chambre.md:176
 msgid "Learn more"
 msgstr "Pour aller plus loin"
 
-#: ../../content/residents/changement-chambre.md:94
+#: ../../content/residents/changement-chambre.md:178
 msgid "[Manage a resident](gerer-un-resident.md)"
 msgstr "[Gérer un habitant](gerer-un-resident.md)"
 
-#: ../../content/residents/changement-chambre.md:95
+#: ../../content/residents/changement-chambre.md:179
+msgid "[Rooms and occupancy](chambres.md)"
+msgstr "[Les chambres et l'occupation](chambres.md)"
+
+#: ../../content/residents/changement-chambre.md:180
 msgid "[Billing overview](../facturation/index.md)"
 msgstr "[Vue d'ensemble de la facturation](../facturation/index.md)"
 
-#~ msgid "MR ↔ MRS transfer"
-#~ msgstr "Transfert MR ↔ MRS"
-
-#~ msgid ""
-#~ "Moving from one type of care to the other (MR ↔ MRS) is an **internal "
-#~ "transfer**:"
-#~ msgstr ""
-#~ "Le passage d'un type de soins à l'autre (MR ↔ MRS) est un **transfert "
-#~ "interne** :"
-
-#~ msgid "Katz B and above for MRS"
-#~ msgstr "Katz B et au-delà pour la MRS"
+#: ../../content/residents/changement-chambre.md:181
+msgid ""
+"[Invoice type: in advance or in arrears](../facturation/type-de-facture.md)"
+msgstr ""
+"[Type de facture : anticipative ou à période échue](../facturation/type-de-"
+"facture.md)"

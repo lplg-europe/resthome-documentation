@@ -97,9 +97,18 @@ received*: handy to confirm that every annex page really went out.
 Each agreement goes through clear **statuses**:
 
 1. **Draft** — prepared by Resthome, not yet sent.
-2. **Sent** — transmitted to the mutuality via eHealth.
-3. **Accepted** — the mutuality has given its agreement.
-4. **Rejected** — the mutuality refuses, with a **reason**.
+2. **Sent (platform)** — received by the platform, not yet proven to reach the
+   mutuality.
+3. **Awaiting the OA** — the mutuality's legal acknowledgement is back; its
+   decision comes by post.
+4. **Accepted** or **Refused** — the decision you record from the mutuality's
+   letter (or a tacit agreement after 15 days).
+
+Other outcomes: **Rejected** — the mutuality returned the request
+electronically, with a **reason**, to correct and resend; **Transmitted** — an
+end of stay, which is declared and never answered; **Cancelled**. See
+[Following a request](eagreement-suivi.md) and
+[Refused agreement](eagreement-refus.md).
 
 From the resident record or the billing period, you see the list of agreements
 and their status, with a link to the detail.
@@ -140,6 +149,9 @@ know what to fix (often: NISS, mutuality, or dates) before resending.
   (or issue a credit note) if you really must modify this month, then refresh.
 - **Readmission after a long leave**: depending on the duration, the readmission
   may require a **new Katz evaluation** — Resthome flags it for you.
+- **Day care centre**: a day care user has their own requests, **csj-in** with
+  Annexe 14 when the stay starts and **csj-out** at the end of care. See
+  [The day care agreement](../centre-de-jour/accord.md).
 
 ## Going further
 

@@ -5,7 +5,7 @@ modules: []
 # FAQ — Frequently Asked Questions
 
 :::{rh-description}
-Short answers to frequently asked questions about Resthome: getting started, residents and stays, billing periods, supplements, absences, departure and death.
+Short answers to frequently asked questions about Resthome: getting started, residents and stays, billing, absences, departure, the family portal, documents, pocket money and technical interventions.
 :::
 
 :::{rh-faq}
@@ -26,6 +26,12 @@ How do I add a supplement to a resident?
 
 What are the states of a billing period?
 : Draft (created, nothing computed), Generated (amounts computed, to be checked), Invoiced (invoices posted) and Closed (finished and locked).
+
+How does a relative get access to the family portal?
+: Open the resident's record, Identity tab, and click Portal on the relative's line in Contact Persons. Tick what they may see, then click Grant Access: they receive an invitation e-mail.
+
+Where are a resident's scanned documents?
+: In their folder of the Documents app, which the Document Workspace tile of the resident's Documents tab opens directly. Attachments added to the resident are filed there automatically.
 :::
 
 :::{admonition} In Belgium
@@ -53,11 +59,11 @@ address and your password, then click **Log in**. If you forget it, use the
 ### What are the Resthome applications?
 
 Resthome is organised into applications reachable from the main menu (the grid
-icon): **Nursing Home** (residents, stays, billing,
-dependency assessments), **Care** (prescriptions, care plans, vital signs),
-**Meals** (menus, diets, family portal) and **Configuration** (rooms, rates,
-master data). Depending on your role, you only see the applications that
-concern you.
+icon): **Nursing Home** (residents, stays, rooms, family portal, and the
+**Configuration** menu with rooms, rates and master data), **Admissions**,
+**Billing**, **Nursing Care** (prescriptions, care plans, vital signs),
+**Meals** (menus, diets) and others depending on what your home uses. Depending
+on your role, you only see the applications that concern you.
 → [Getting started](premiers-pas.md)
 
 ### What is the dashboard for?
@@ -70,7 +76,7 @@ items to handle.
 
 ### Where do I configure the rooms and rates?
 
-In the **Configuration** application: create your rooms with their type (the
+In the **Configuration** menu of the **Nursing Home** app: create your rooms with their type (the
 sector they belong to, single, double…) and equipment, define the
 **accommodation rates** and, where the country pays one, the care allowance
 rates, then the supplement types and the health insurers. Resthome also handles
@@ -96,7 +102,7 @@ later.
 
 Open a **stay agreement** (room, stay type, start date) — the stay is then in
 **Draft**. **Confirm** it (the room is reserved, complete the admission
-date/time), then click **Start Stay**: the stay moves to **In Progress**.
+date/time), then click **Start Stay**: the stay moves to **Active**.
 → [Managing a resident](residents/gerer-un-resident.md)
 
 ### What does starting a stay trigger automatically?
@@ -118,9 +124,8 @@ dashboard.
 
 ### How do I change a resident's room or sector?
 
-On the **stay**, use the **Change Room** action (or **Internal Transfer** for a
-change of sector), give the new room / the new sector and the date/time, then
-**Validate**. Resthome splits the billing on the right date, at the matching
+On the **stay**, use the **Change Room** action, give the new room and the
+date/time, then confirm. Resthome splits the billing on the right date, at the matching
 rate; this is not a new admission and the care allowance stays continuous.
 → [Room change and transfer](residents/changement-chambre.md)
 
@@ -235,8 +240,9 @@ credit note) then refresh.
 
 ### What happens when a resident departs or dies?
 
-Simply **close their stay**: open the file → the stay, give the **exit date**
-(and time) with the **reason** (departure, death, transfer…), then **Validate**.
+Simply **close their stay**: open the stay, click **End Stay**, give the **exit
+date** (and time) with the **reason** (departure, death, transfer…), then
+confirm.
 Resthome stops the billing on the right date, prepares the regularisation of
 what was invoiced in advance and, where the country requires it, notifies the
 exit to the health insurer.
@@ -259,3 +265,89 @@ regularisations as long as they are not final. If the month is already posted,
 the correction first goes through a reset to draft or a credit note, then a
 refresh.
 → [Departure and death](facturation/depart-deces.md)
+
+---
+
+## Family portal
+
+### What is the difference between a contact person and a portal access?
+
+A **contact person** is a name and a phone number in the resident's record: it
+opens nothing. A **portal access** is the authorisation given to one relative
+for one resident, scope by scope — liaison notebook, documents, meals,
+invoices, health. Only an access opens the portal.
+→ [Family portal](portail-famille/index.md)
+
+### How do I invite a relative?
+
+On the resident's record, **Identity** tab, click **Portal** on the relative's
+line in **Contact Persons**. Tick what they may see, record the consent if you
+open **Health**, then click **Grant Access**: Resthome creates their account
+and sends the invitation. **Re-Invite** sends it again.
+→ [Granting an access](portail-famille/acces.md)
+
+### Why is the Health box refused?
+
+Health data opens only with a recorded consent: fill in **Consent Given By**
+and **Consent Date** on the access.
+→ [Granting an access](portail-famille/acces.md)
+
+### How do I write to the family?
+
+In the resident's family space, use **Send message**: the relatives who hold
+the **Liaison Notebook** scope read it on the portal and can answer. **Log
+note** stays with the team.
+→ [Notebook, documents and invoices](portail-famille/carnet-documents.md)
+
+---
+
+## Documents
+
+### Where are a resident's documents?
+
+In their folder of the **Documents** app, created automatically with three
+subfolders (medical, administrative, billing). On the resident's record, the
+**Documents** tab opens it with the **Document Workspace** tile.
+→ [Resident documents](documents/index.md)
+
+### Why did an attachment end up in the Documents app?
+
+Every file attached to a resident's record or discussion thread is filed in
+their folder automatically. The setting can be turned off; documents already
+filed stay in place.
+→ [Automatic centralization of attachments](documents/centralisation.md)
+
+---
+
+## Pocket money
+
+### What is the pocket money balance?
+
+The money the home holds for a resident who does not handle their own spending
+money: the monthly provision paid in, minus the purchases drawn from it. The
+**Pocket money** button on the resident's record shows it; a red banner warns
+when it is overdrawn.
+→ [Pocket money](argent-de-poche/index.md)
+
+### Why does a resident receive two invoices?
+
+With pocket money, the purchases of the month go on a second invoice, paid out
+of the balance; the accommodation and the provision stay on the ordinary one.
+→ [Purchases and settlement](argent-de-poche/achats-reglement.md)
+
+---
+
+## Technical interventions
+
+### How do I record a repair in a resident's room?
+
+Create a ticket in a **Helpdesk** team set up for **Rooms maintenance**, choose
+the **Resident**: the room and the stay fill in. Add the products, the time
+spent and the vendor bill to get the **Ticket Cost**.
+→ [Following an intervention](interventions/suivre-une-intervention.md)
+
+### Can I charge a repair to the resident?
+
+Yes, with **Bill the intervention** on the ticket: its cost is added to the
+resident's supplement envelope of the month.
+→ [Billing an intervention](interventions/facturer.md)

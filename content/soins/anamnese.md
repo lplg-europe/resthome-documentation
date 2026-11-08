@@ -2,35 +2,38 @@
 modules: [resthome_geriatric]
 ---
 
-# Anamnesis and life project
+# Multidisciplinary anamnesis
 
 :::{rh-description}
-The multidisciplinary anamnesis in Resthome: a dated intake per discipline (nursing, physiotherapy, occupational therapy, speech therapy) that collects the resident's life project without re-entering what the record already holds.
+The multidisciplinary anamnesis in Resthome: a dated intake per discipline (nursing, physiotherapy, occupational therapy, speech therapy) that collects the resident's physical particularities and wishes without re-entering what the record already holds.
 :::
 
 :::{rh-faq}
 What is the multidisciplinary anamnesis in Resthome?
 : A dated intake form, one per discipline (nursing, physiotherapy, occupational therapy, speech therapy), that gathers the resident's physical particularities, hospitalisation preferences and end-of-life wishes, together with the remarks of the professional who fills it in.
 
-Do I have to re-enter the dependency assessment, allergies or treatments?
-: No. Those live in the resident's record and are reached from the anamnesis through smart buttons. The anamnesis composes the existing record instead of duplicating it, so nothing can diverge between the two.
+Do I have to re-enter the allergies, treatments or assessments?
+: No. They live in the resident's record and are reached from the anamnesis through smart buttons. The anamnesis composes the existing record instead of duplicating it.
 
 Can several disciplines fill in an anamnesis for the same resident?
-: Yes, and that is the point. Each discipline keeps its own anamnesis. A single resident can only have one anamnesis per discipline and per date.
+: Yes. Each discipline keeps its own anamnesis. A resident can only have one anamnesis per discipline and per date.
 
 What is the difference between the Draft and Complete states?
-: A draft can still be edited or deleted. Once marked Complete, the anamnesis becomes part of the clinical record: it can no longer be deleted, only reopened if it was completed by mistake.
+: A draft can still be edited or deleted. Once marked complete, the anamnesis is part of the clinical record: it can no longer be deleted, only reopened if it was completed by mistake.
 
 Where are the end-of-life wishes recorded?
-: In the anamnesis, in the life project section: funeral preferences, notary, religion, palliative status, DNR order and advance directives. They are stored on the resident, so they stay accessible outside the anamnesis too.
+: In the **Wishes** tab of the anamnesis. They are stored on the resident, so they also show in the **Wishes** tab of the resident's form.
 :::
 
-The **anamnesis** is the guided intake of a resident's **life project**. It is
-filled in shortly after admission, then updated whenever the situation changes.
+The **anamnesis** is the guided intake of a resident, filled in shortly after
+admission, then updated whenever the situation changes. Each discipline writes
+its own.
 
-Menu: **Care → Anamneses**, or the **Anamneses** button on the resident record.
+Menu: **Nursing Care → Care → Assessments → Anamneses**, or **New →
+Anamnesis** on the [care dashboard](tableau-de-bord.md).
 
-![Anamnesis form: the resident, the discipline and the date, and the Physical, Autonomy, Life project and Notes tabs](../assets/screenshots/soins/anamnese-fiche.png)
+![Anamnesis form: the resident, the discipline and the date, and its tabs](../assets/screenshots/soins/anamnese-fiche.png)
+<!-- screenshot to update: the tabs are now Physical, Autonomy, Wishes and Notes; the smart buttons are Allergies, Treatments and Evaluations -->
 
 ## The principle: compose, never re-enter
 
@@ -40,140 +43,115 @@ record.
 - The **resident's facts** (glasses, pacemaker, walking aids, weight, wishes…)
   are stored **once on the resident** and edited straight from the anamnesis.
   Correcting the weight here corrects it everywhere.
-- The **structured clinical data** (dependency assessment, allergies,
-  prescriptions, assessment scales) is **reached by smart button**, never
-  copied.
-- Only the **remarks** and the **general notes** belong to the anamnesis itself:
-  they are what that professional observed, on that date.
-
-:::{admonition} Why this matters
-:class: tip
-
-An intake form that re-asks for the dependency category, the allergies and
-the treatments quickly produces two versions of the truth — and staff learn to skip
-those blocks. Here there is nothing to skip: what already exists is shown, not
-asked again.
-:::
+- The **structured clinical data** (allergies, treatments, assessment scales)
+  is **reached by smart button**, never copied.
+- Only the **remarks** and the **general notes** belong to the anamnesis
+  itself: what that professional observed, on that date.
 
 ## 1. Create the anamnesis
 
-1. Open **Care → Anamneses** and click **New** (or start from the resident).
+1. Open **Nursing Care → Care → Assessments → Anamneses** and click **New**.
 2. Pick the **resident** and the **discipline**: Nursing, Physiotherapy,
    Occupational Therapy or Speech Therapy.
-3. The **date** defaults to today, and the **author** is you.
+3. The **date** defaults to today and the **author** is you.
 4. **Save.**
 
 :::{admonition} One anamnesis per resident, discipline and date
 :class: note
 
-Resthome refuses a duplicate for the same resident, the same discipline and the
-same date. To revise a same-day entry, edit the existing one rather than
-creating a second.
+Resthome refuses a duplicate for the same resident, discipline and date. To
+revise a same-day entry, edit the existing one. Only a resident with a stay in
+the house can be picked.
 :::
 
-## 2. Physical particularities
+## 2. The Physical tab
 
-The first block gathers what care staff need at a glance:
-
-| Item | Detail |
+| Group | Items |
 |---|---|
-| **Sight, hearing, dental status, mobility** | the resident's core selections |
-| **Contact lenses** | yes / no |
-| **Pacemaker** | presence, rhythm and device number |
-| **Walking aids** | cane, crutches, walking frame, wheelchair (with its number) |
-| **Weight and height** | feed the nutritional monitoring |
+| **Measurements** | Weight and height |
+| **Senses** | Vision, contact lenses, hearing, dental status |
+| **Cardiac Device** | Pacemaker, its rhythm and device number |
+| **Mobility Aids** | Mobility, cane, crutches, walking frame, wheelchair (with its number) |
 
-These fields belong to the resident: they are visible on their record and in the
-other apps that need them.
+A free-text area holds the remarks on the physical assessment. These fields
+belong to the resident: they show on the resident's form and in the other apps
+that need them.
 
-## 3. Hospitalisation preferences
+## 3. The Autonomy tab
 
-What to do, and where to go, if the resident has to be hospitalised:
-**preferred hospitals**, **refused hospitals**, **room type** and
-**complementary insurance**.
+Free text for habits, rhythms and preferences for daily care.
 
-These preferences feed the **liaison pack** printed when a hospitalisation is
-recorded — see [Manage a resident](../residents/gerer-un-resident.md).
+## 4. The Wishes tab
 
-## 4. The life project and end-of-life wishes
-
-The most sensitive block, and the reason the anamnesis exists:
-
-- **Administrative arrangements** — will, burial concession, funeral preference
-  and funeral home, funeral contract status, notary.
-- **Religion**, when the resident wishes to state it.
-- **Instructions** — end-of-life instructions and hospitalisation instructions,
-  in free text.
-- **Palliative status** — start date, and whether the **resident** and their
-  **representative** have agreed.
-- **DNR order** and **advance directives**, with their notes.
+- **In Case of Hospitalisation** — preferred hospitals, refused hospitals, room
+  type and complementary insurance. They feed the **liaison pack** printed at a
+  [hospital departure](hospitalisation.md).
+- **Advance Directives** — DNR order, advance directive and its content,
+  palliative status with its start date, and whether the resident and their
+  representative agreed.
+- **End-of-life Wishes** — religion, funeral preference, will, burial
+  concession, funeral contract.
+- **Contacts** — funeral home and notary, with their city.
+- End-of-life and hospitalisation **instructions**, and the remarks on the
+  wishes.
 
 :::{admonition} Collected once, honoured everywhere
 :class: warning
 
 A DNR order or an advance directive entered here shows up on the resident's
-record, where the care team sees it. These wishes must be gathered with the
-resident, and with their representative where applicable — the two agreement
-boxes exist precisely to record that this conversation took place.
+form, where the care team sees it. Gather these wishes with the resident, and
+with their representative where applicable: the two agreement boxes record that
+this conversation took place.
 :::
 
-## 5. Remarks and clinical context
+The resident's life story, habits, likes and projects are written in the
+[life project](projet-de-vie.md), not in the anamnesis.
 
-Three free-text areas hold what **you** observed: **physical**,
-**autonomy / care**, and **life project** remarks, plus richer **general
-notes**.
+## 5. Notes and clinical context
 
-Alongside them, smart buttons open the existing clinical record without leaving
-the page:
+The **Notes** tab holds the general notes of the anamnesis. Smart buttons open
+the existing record without leaving the page:
 
-- the resident's **dependency assessments** (and their current category);
-- their **allergies**, with a counter;
-- their **prescriptions**, with a counter;
-- the **assessment scale** suited to the discipline — Tinetti for
-  physiotherapy, MMSE for occupational therapy, and the country's dependency
-  scale otherwise.
+- **Allergies** and **Treatments**, with their counters;
+- **Evaluations** — the scale suited to the discipline: Tinetti for
+  physiotherapy, MMSE for occupational therapy.
 
 :::{admonition} In Belgium
 :class: rh-country rh-country-be
 
-The dependency assessment is the Katz scale: the anamnesis reaches the
-resident's Katz assessments and their current category. See [Care in
-Belgium](../belgique/soins.md).
+The anamnesis also reaches the resident's Katz assessments and their current
+category. See [Care in Belgium](../belgique/soins.md).
 :::
 
 ## 6. Complete the anamnesis
 
-When the intake is done, click **Complete**. Resthome records the completion
-date.
+When the intake is done, click **Mark Complete**. Resthome records the
+completion date.
 
 | State | Meaning |
 |---|---|
-| **Draft** | Being filled in; editable and deletable. |
-| **Complete** | Part of the clinical record: no longer deletable. |
+| **Draft** | Being filled in; editable and deletable |
+| **Complete** | Part of the clinical record: no longer deletable |
 
 :::{admonition} A completed anamnesis cannot be deleted
 :class: warning
 
-It belongs to the clinical record, whose retention is a legal obligation. If it
-was completed by mistake, **reopen** it — that returns it to draft, and it
-becomes editable again.
+It belongs to the clinical record. If it was completed by mistake, click
+**Reopen**: it returns to draft and becomes editable again.
 :::
 
-The same rule applies to the resident: the record is **archived**, never
-deleted.
+The list filters by state (**Draft**, **Complete**) and by discipline, and
+groups by resident, discipline or state.
 
 ## Key takeaways
 
 - The anamnesis is a **dated intake per discipline**, not a second record.
-- What the record already holds is **composed, never re-entered**: correcting a
-  fact here corrects it everywhere.
-- The **life project** and end-of-life wishes are gathered here and stay visible
-  on the resident's record.
-- **Complete** makes the anamnesis part of the clinical record — it can then be
-  reopened, but no longer deleted.
+- What the record already holds is **composed, never re-entered**.
+- The **Wishes** tab writes into the resident's own wishes.
+- **Mark Complete** makes the anamnesis part of the clinical record.
 
 ## Further reading
 
-- [Manage a resident](../residents/gerer-un-resident.md)
-- [Care plans and vital signs](plans-de-soins.md)
-- [Clinical registers](registres.md)
+- [The life project](projet-de-vie.md)
+- [The resident's medical record](dossier-medical.md)
+- [Care plans](plans-de-soins.md)

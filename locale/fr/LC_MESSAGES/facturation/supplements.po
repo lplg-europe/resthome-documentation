@@ -24,214 +24,336 @@ msgstr ""
 msgid "Supplements"
 msgstr "Les suppléments"
 
-#: ../../content/facturation/supplements.md:8
-msgid ""
-"Bill supplements in Resthome — the resident's supplement envelope, one-off "
-"or recurring services, automatic synchronization."
-msgstr ""
-"Facturer les suppléments dans Resthome — enveloppe de suppléments de "
-"l'habitant, prestations ponctuelles ou récurrentes, synchronisation "
-"automatique."
-
-#: ../../content/facturation/supplements.md:12
+#: ../../content/facturation/supplements.md:15
 msgid "What is a supplement envelope?"
 msgstr "Qu'est-ce qu'une enveloppe de suppléments ?"
-
-#: ../../content/facturation/supplements.md:13
-msgid ""
-"A per-resident, per-month envelope that gathers all of the resident's "
-"supplements. It opens automatically when the stay starts and carries "
-"recurring supplements over from month to month."
-msgstr ""
-"Une enveloppe par habitant et par mois, qui rassemble tous ses suppléments. "
-"Elle s'ouvre automatiquement au démarrage du séjour et reconduit les "
-"suppléments récurrents d'un mois à l'autre."
-
-#: ../../content/facturation/supplements.md:15
-msgid "What is the difference between a one-off and a recurring supplement?"
-msgstr ""
-"Quelle est la différence entre un supplément ponctuel et un supplément "
-"récurrent ?"
-
-#: ../../content/facturation/supplements.md:16
-msgid ""
-"A one-off supplement is billed once (a haircut, for instance). A recurring "
-"supplement is renewed every month as long as it is active (single room, TV) "
-"and stops being billed the month after you stop it."
-msgstr ""
-"Un supplément ponctuel est facturé une seule fois (une coupe de cheveux, par"
-" exemple). Un supplément récurrent est reconduit chaque mois tant qu'il est "
-"actif (chambre simple, télévision) et cesse d'être facturé le mois suivant "
-"son arrêt."
 
 #: ../../content/facturation/supplements.md:18
 msgid "Do I need to refresh the invoice after adding a supplement?"
 msgstr "Dois-je rafraîchir la facture après avoir ajouté un supplément ?"
 
-#: ../../content/facturation/supplements.md:19
-msgid ""
-"No. Adding, editing or removing a supplement automatically updates the "
-"affected resident's invoice, and you are notified once it is reflected in "
-"the billing."
-msgstr ""
-"Non. Ajouter, modifier ou retirer un supplément met automatiquement à jour "
-"la facture de l'habitant concerné, et vous êtes averti dès que c'est "
-"répercuté dans la facturation."
-
-#: ../../content/facturation/supplements.md:21
+#: ../../content/facturation/supplements.md:24
 msgid "What if the resident's invoice is already posted?"
 msgstr "Et si la facture de l'habitant est déjà comptabilisée ?"
 
+#: ../../content/facturation/supplements.md:110
+msgid "Further reading"
+msgstr "Pour aller plus loin"
+
+#: ../../content/facturation/supplements.md:115
+msgid "[Billing overview](index.md)"
+msgstr "[Vue d'ensemble de la facturation](index.md)"
+
+#: ../../content/facturation/supplements.md:113
+msgid "[Recharging a vendor bill](refacturation-fournisseur.md)"
+msgstr "[Refacturer une facture fournisseur](refacturation-fournisseur.md)"
+
+#: ../../content/facturation/supplements.md:8
+msgid ""
+"Bill supplements in Resthome — recurring supplements on the resident's "
+"convention, one-time supplements on the monthly envelope, supplement types "
+"and automatic synchronisation."
+msgstr ""
+"Facturer les suppléments dans Resthome — suppléments récurrents sur la "
+"convention de l'habitant, suppléments ponctuels sur l'enveloppe mensuelle, "
+"types de suppléments et synchronisation automatique."
+
+#: ../../content/facturation/supplements.md:12
+msgid "What is the difference between a one-time and a recurring supplement?"
+msgstr ""
+"Quelle est la différence entre un supplément ponctuel et un supplément "
+"récurrent ?"
+
+#: ../../content/facturation/supplements.md:13
+msgid ""
+"A one-time supplement is billed once, on the month's envelope (a haircut, "
+"for instance). A recurring supplement lives on the resident's supplement "
+"convention and is billed every month while it is active (single room, TV)."
+msgstr ""
+"Un supplément ponctuel est facturé une seule fois, sur l'enveloppe du mois "
+"(une coupe de cheveux, par exemple). Un supplément récurrent vit sur la "
+"convention de suppléments de l'habitant et est facturé chaque mois tant "
+"qu'il est actif (chambre individuelle, TV)."
+
+#: ../../content/facturation/supplements.md:16
+msgid ""
+"A per-resident, per-month document that gathers the resident's one-time "
+"supplements. The Envelopes button on the resident's record lists them."
+msgstr ""
+"Un document par habitant et par mois qui rassemble les suppléments ponctuels"
+" de l'habitant. Le bouton Enveloppes de la fiche de l'habitant les liste."
+
+#: ../../content/facturation/supplements.md:19
+msgid ""
+"No. With automatic billing refresh turned on, adding, editing or removing a "
+"supplement updates the resident's billing of the month on its own."
+msgstr ""
+"Non. Avec l'actualisation automatique de la facturation activée, ajouter, "
+"modifier ou supprimer un supplément met à jour d'elle-même la facturation du"
+" mois de l'habitant."
+
+#: ../../content/facturation/supplements.md:21
+msgid "How do I give a resident a price of their own?"
+msgstr "Comment donner à un habitant un prix qui lui est propre ?"
+
 #: ../../content/facturation/supplements.md:22
 msgid ""
-"The posted invoice is not touched automatically. Set it back to draft or "
-"issue a credit note, then refresh."
+"On the line of their supplement convention, tick Negotiated price and enter "
+"the Unit Price. Unticked, the line follows the official price, including its"
+" yearly indexation."
 msgstr ""
-"La facture comptabilisée n'est pas modifiée automatiquement. Remettez-la en "
-"brouillon ou émettez une note de crédit, puis rafraîchissez."
-
-#: ../../content/facturation/supplements.md:24
-msgid "How do I create supplement envelopes for every resident at once?"
-msgstr ""
-"Comment créer les enveloppes de suppléments pour tous les habitants d'un "
-"coup ?"
+"Sur la ligne de sa convention de suppléments, cochez Prix négocié et "
+"saisissez le Prix unitaire. Non cochée, la ligne suit le prix officiel, y "
+"compris son indexation annuelle."
 
 #: ../../content/facturation/supplements.md:25
 msgid ""
-"On a billing period, use the Create supplement envelopes action: it prepares"
-" in one click the envelopes for all residents active during the month."
+"The posted invoice is not rewritten. The billing period shows Corrections "
+"pending: click Refresh to create the supplementary invoice or credit note."
 msgstr ""
-"Sur une période de facturation, utilisez l'action Créer les enveloppes de "
-"suppléments : elle prépare en un clic les enveloppes de tous les habitants "
-"actifs durant le mois."
+"La facture comptabilisée n'est pas réécrite. La période de facturation "
+"affiche Corrections en attente : cliquez sur Actualiser pour créer la "
+"facture complémentaire ou la note de crédit."
 
 #: ../../content/facturation/supplements.md:28
 msgid ""
 "Beyond accommodation and the care allowance, a resident may have "
 "**supplements** to pay: single room, television, hairdresser, pedicure, "
-"drinks, telephone… Resthome groups them into a **supplement envelope** per "
-"resident and per month."
+"drinks, telephone… Resthome handles two kinds."
 msgstr ""
 "Au-delà de l'hébergement et du forfait de soins, un habitant peut avoir des "
 "**suppléments** à payer : chambre individuelle, télévision, coiffeur, "
-"pédicure, boissons, téléphone… Resthome les regroupe dans une **enveloppe de"
-" suppléments** par habitant et par mois."
-
-#: ../../content/facturation/supplements.md:30
-msgid "Supplement envelope"
-msgstr "Enveloppe de suppléments"
+"pédicure, boissons, téléphone… Resthome en gère deux sortes."
 
 #: ../../content/facturation/supplements.md:32
-msgid ""
-"For each resident and each period, Resthome keeps an **envelope** that "
-"gathers all of their supplements for the month. It is opened automatically "
-"when the stay starts, and carries over from month to month for **recurring**"
-" supplements."
-msgstr ""
-"Pour chaque habitant et chaque période, Resthome tient une **enveloppe** qui"
-" rassemble tous ses suppléments du mois. Elle est ouverte automatiquement "
-"quand le séjour démarre, et se reporte de mois en mois pour les suppléments "
-"**récurrents**."
+msgid "Supplement types"
+msgstr "Types de suppléments"
 
 #: ../../content/facturation/supplements.md:34
-msgid "Adding a supplement"
-msgstr "Ajouter un supplément"
-
-#: ../../content/facturation/supplements.md:36
 msgid ""
-"Open the resident's **supplement envelope** (from their record or the "
-"billing period)."
+"Each supplement is a product of the **supplements catalog** (**Billing → "
+"Configuration → Supplement Types**), with a **Supplement Type** that says "
+"how it is counted:"
 msgstr ""
-"Ouvrez l’**enveloppe de suppléments** de l'habitant (depuis sa fiche ou la "
-"période de facturation)."
+"Chaque supplément est un produit du **catalogue de suppléments** "
+"(**Facturation → Configuration → Types de suppléments**), avec un **Type de "
+"supplément** qui dit comment il est compté :"
 
-#: ../../content/facturation/supplements.md:37
-msgid "Add a line: **product/service**, **quantity**, **price**."
-msgstr "Ajoutez une ligne : **produit/prestation**, **quantité**, **prix**."
+#: ../../content/facturation/supplements.md:11
+msgid "Supplement type"
+msgstr "Type de supplément"
 
-#: ../../content/facturation/supplements.md:38
+#: ../../content/facturation/supplements.md:11
+msgid "Billed"
+msgstr "Facturé"
+
+#: ../../content/facturation/supplements.md:11
+msgid "**Monthly**"
+msgstr "**Mensuel**"
+
+#: ../../content/facturation/supplements.md:11
+msgid "Once per month."
+msgstr "Une fois par mois."
+
+#: ../../content/facturation/supplements.md:11
+msgid "**One-time**"
+msgstr "**Ponctuel**"
+
+#: ../../content/facturation/supplements.md:11
+msgid "Once, when it is entered."
+msgstr "Une fois, lors de sa saisie."
+
+#: ../../content/facturation/supplements.md:11
+msgid "**Daily — accommodation days**"
+msgstr "**Journalier — jours d'hébergement**"
+
+#: ../../content/facturation/supplements.md:11
 msgid ""
-"Indicate whether it is **one-off** (once) or **recurring** (each month)."
+"Per day of stay: the bed stays reserved during an absence, so it keeps being"
+" billed (a single-room supplement)."
 msgstr ""
-"Indiquez s'il est **ponctuel** (une fois) ou **récurrent** (chaque mois)."
+"Par jour de séjour : le lit reste réservé pendant une absence, il continue "
+"donc d'être facturé (un supplément chambre individuelle)."
 
-#: ../../content/facturation/supplements.md:39
-msgid "**Save.**"
-msgstr "**Enregistrez.**"
+#: ../../content/facturation/supplements.md:11
+msgid "**Daily — presence days**"
+msgstr "**Journalier — jours de présence**"
 
-#: ../../content/facturation/supplements.md:41
-msgid "Automatic synchronization"
-msgstr "Synchronisation automatique"
-
-#: ../../content/facturation/supplements.md:44
+#: ../../content/facturation/supplements.md:11
 msgid ""
-"Adding, editing or removing a supplement **automatically updates** the "
-"affected resident's invoice — no need to click \"Refresh\". You are notified"
-" once the supplement has been properly reflected in the billing."
+"Per day the resident is actually there: not billed during an absence (a TV "
+"the resident does not watch while in hospital)."
 msgstr ""
-"Ajouter, modifier ou retirer un supplément **met à jour automatiquement** la"
-" facture de l'habitant concerné — pas besoin de cliquer « Actualiser ». Vous"
-" êtes notifié quand le supplément est bien répercuté sur la facturation."
+"Par jour où l'habitant est réellement là : non facturé pendant une absence "
+"(une TV que l'habitant ne regarde pas pendant qu'il est à l'hôpital)."
 
-#: ../../content/facturation/supplements.md:47
-msgid "One-off and recurring supplements"
-msgstr "Suppléments ponctuels et récurrents"
-
-#: ../../content/facturation/supplements.md:49
-msgid "**One-off**: billed only once (e.g. a haircut at the hairdresser)."
+#: ../../content/facturation/supplements.md:45
+msgid ""
+"The price on the product is the official price. It can be raised every year "
+"with [price indexation](indexation-des-prix.md)."
 msgstr ""
-"**Ponctuel** : facturé une seule fois (ex. une coupe chez le coiffeur)."
+"Le prix du produit est le prix officiel. Il peut être augmenté chaque année "
+"avec l'[indexation des prix](indexation-des-prix.md)."
+
+#: ../../content/facturation/supplements.md:48
+msgid "Recurring supplements: the convention"
+msgstr "Suppléments récurrents : la convention"
 
 #: ../../content/facturation/supplements.md:50
 msgid ""
-"**Recurring**: renewed each month as long as it is active (e.g. single-room "
-"supplement, TV). You can **stop** it at any time; it stops being billed the "
-"following month."
+"A resident's recurring supplements are grouped on **one supplement "
+"convention**, kept on the **resident** rather than on the stay: it survives "
+"a room change or a transfer."
 msgstr ""
-"**Récurrent** : reconduit chaque mois tant qu'il est actif (ex. supplément "
-"chambre individuelle, TV). Vous pouvez l’**arrêter** à tout moment ; il "
-"cesse d'être facturé le mois suivant."
+"Les suppléments récurrents d'un habitant sont regroupés sur **une convention"
+" de suppléments**, tenue sur l'**habitant** plutôt que sur le séjour : elle "
+"survit à un changement de chambre ou à un transfert."
 
-#: ../../content/facturation/supplements.md:52
-msgid "Month already posted"
-msgstr "Mois déjà comptabilisé"
-
-#: ../../content/facturation/supplements.md:55
+#: ../../content/facturation/supplements.md:54
 msgid ""
-"If the resident's invoice is **already posted**, adding a supplement does "
-"not touch it automatically (protection). Set the invoice back to **draft** "
-"(or issue a credit note), then **refresh**."
+"On the resident's record, open the **Stay Agreement** tab: the **Recurring "
+"supplements** section lists them, and the **Supplements** smart button opens"
+" the convention."
 msgstr ""
-"Si la facture de l'habitant est **déjà comptabilisée**, l'ajout d'un "
-"supplément n'y touche pas automatiquement (protection). Repassez la facture "
-"en **brouillon** (ou faites une note de crédit), puis **actualisez**."
+"Sur la fiche de l'habitant, ouvrez l'onglet **Convention** : la section "
+"**Suppléments récurrents** les liste, et le bouton intelligent "
+"**Suppléments** ouvre la convention."
 
 #: ../../content/facturation/supplements.md:58
-msgid "Creating envelopes in bulk"
-msgstr "Créer les enveloppes en lot"
-
-#: ../../content/facturation/supplements.md:60
 msgid ""
-"On a billing period, the **Create supplement envelopes** action prepares, in"
-" one click, the envelopes for all residents active during the month — handy "
-"at the start of a period."
+"Add a line: **product**, **Supplement Type**, **start date**, **quantity**."
 msgstr ""
-"Sur une période de facturation, l'action **Créer les enveloppes de "
-"suppléments** prépare en un clic les enveloppes de tous les habitants actifs"
-" du mois — pratique en début de période."
+"Ajoutez une ligne : **produit**, **Type de supplément**, **date de début**, "
+"**quantité**."
 
-#: ../../content/facturation/supplements.md:62
-msgid "Further reading"
-msgstr "Pour aller plus loin"
+#: ../../content/facturation/supplements.md:59
+msgid ""
+"To charge this resident a price of their own, tick **Negotiated price** and "
+"enter the **Unit Price**."
+msgstr ""
+"Pour facturer à cet habitant un prix qui lui est propre, cochez **Prix "
+"négocié** et saisissez le **Prix unitaire**."
 
-#: ../../content/facturation/supplements.md:64
-msgid "[Billing overview](index.md)"
-msgstr "[Vue d'ensemble de la facturation](index.md)"
+#: ../../content/facturation/supplements.md:61
+msgid "To stop a line, give it an **end date**, or untick **Active**."
+msgstr ""
+"Pour arrêter une ligne, donnez-lui une **date de fin**, ou décochez "
+"**Actif**."
 
-#: ../../content/facturation/supplements.md:65
-msgid "[Recharging a vendor bill](refacturation-fournisseur.md)"
-msgstr "[Refacturer une facture fournisseur](refacturation-fournisseur.md)"
+#: ../../content/facturation/supplements.md:63
+msgid ""
+"Greyed lines are no longer billed. The **Close supplements** button sets an "
+"end date on the whole convention; **Reopen supplements** lifts it."
+msgstr ""
+"Les lignes grisées ne sont plus facturées. Le bouton **Clôturer les "
+"suppléments** pose une date de fin sur toute la convention ; **Rouvrir les "
+"suppléments** la lève."
 
 #: ../../content/facturation/supplements.md:66
-msgid "[Absences and hospitalizations](absences.md)"
-msgstr "[Absences et hospitalisations](absences.md)"
+msgid "Nothing without a stay"
+msgstr "Rien sans séjour"
+
+#: ../../content/facturation/supplements.md:69
+msgid ""
+"Recurring supplements start once the resident has a stay. A resident with no"
+" stay gets no line here, and the section says so."
+msgstr ""
+"Les suppléments récurrents commencent dès que l'habitant a un séjour. Un "
+"habitant sans séjour n'a aucune ligne ici, et la section le signale."
+
+#: ../../content/facturation/supplements.md:73
+msgid "One-time supplements: the monthly envelope"
+msgstr "Suppléments ponctuels : l'enveloppe mensuelle"
+
+#: ../../content/facturation/supplements.md:75
+msgid ""
+"One-time supplements go on the resident's **envelope** of the month. The "
+"**Envelopes** smart button on the resident's record lists them, one per "
+"month."
+msgstr ""
+"Les suppléments ponctuels vont sur l'**enveloppe** du mois de l'habitant. Le"
+" bouton intelligent **Enveloppes** de la fiche de l'habitant les liste, une "
+"par mois."
+
+#: ../../content/facturation/supplements.md:78
+msgid ""
+"The quickest way to enter them is the [Supplements app](application-"
+"supplements.md): click a resident, or select several, and add supplements "
+"from the catalog."
+msgstr ""
+"La façon la plus rapide de les saisir est l'[application "
+"Suppléments](application-supplements.md) : cliquez sur un habitant, ou "
+"sélectionnez-en plusieurs, et ajoutez des suppléments depuis le catalogue."
+
+#: ../../content/facturation/supplements.md:81
+msgid "A product under a convention"
+msgstr "Un produit sous convention"
+
+#: ../../content/facturation/supplements.md:84
+msgid ""
+"In the catalog, a product already covered by the resident's active "
+"convention cannot be added as a one-time supplement: add it to the "
+"convention, or close that line first."
+msgstr ""
+"Dans le catalogue, un produit déjà couvert par la convention active de "
+"l'habitant ne peut pas être ajouté comme supplément ponctuel : ajoutez-le à "
+"la convention, ou clôturez d'abord cette ligne."
+
+#: ../../content/facturation/supplements.md:89
+msgid "Automatic synchronisation"
+msgstr "Synchronisation automatique"
+
+#: ../../content/facturation/supplements.md:92
+msgid ""
+"Adding, editing or removing a supplement updates the resident's billing of "
+"the month on its own, as long as automatic billing refresh is turned on in "
+"the [billing settings](../configuration/reglages-facturation.md)."
+msgstr ""
+"Ajouter, modifier ou supprimer un supplément met à jour d'elle-même la "
+"facturation du mois de l'habitant, tant que l'actualisation automatique de "
+"la facturation est activée dans les [réglages de "
+"facturation](../configuration/reglages-facturation.md)."
+
+#: ../../content/facturation/supplements.md:97
+msgid "Envelopes for every resident"
+msgstr "Des enveloppes pour chaque habitant"
+
+#: ../../content/facturation/supplements.md:99
+msgid ""
+"Envelopes are opened on their own when the month is generated. To open the "
+"missing ones of a period in advance, use **Create missing supplement "
+"envelopes (SOs)** from the gear menu of the billing period."
+msgstr ""
+"Les enveloppes s'ouvrent d'elles-mêmes quand le mois est généré. Pour ouvrir"
+" d'avance celles qui manquent pour une période, utilisez **Créer les "
+"enveloppes suppléments (SO) manquantes** depuis le menu engrenage de la "
+"période de facturation."
+
+#: ../../content/facturation/supplements.md:103
+msgid "When the month is already invoiced"
+msgstr "Quand le mois est déjà facturé"
+
+#: ../../content/facturation/supplements.md:105
+msgid ""
+"On a **draft** invoice, **Refresh** (gear menu of the invoice) rebuilds it "
+"from the current data, keeping the same invoice."
+msgstr ""
+"Sur une facture **brouillon**, **Actualiser** (menu engrenage de la facture)"
+" la reconstruit à partir des données actuelles, en gardant la même facture."
+
+#: ../../content/facturation/supplements.md:107
+msgid ""
+"On a **posted** invoice, the change becomes a supplementary invoice or a "
+"credit note: the period shows **Corrections pending**, click **Refresh**."
+msgstr ""
+"Sur une facture **comptabilisée**, le changement devient une facture "
+"complémentaire ou une note de crédit : la période affiche **Corrections en "
+"attente**, cliquez sur **Actualiser**."
+
+#: ../../content/facturation/supplements.md:112
+msgid "[The Supplements app](application-supplements.md)"
+msgstr "[L'application Suppléments](application-supplements.md)"
+
+#: ../../content/facturation/supplements.md:114
+msgid "[Price indexation](indexation-des-prix.md)"
+msgstr "[Indexation des prix](indexation-des-prix.md)"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 15:49+0200\n"
+"POT-Creation-Date: 2026-11-08 19:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nl <LL@li.org>\n"
@@ -26,40 +26,93 @@ msgstr "Zorg"
 
 #: ../../content/soins/index.md:8
 msgid ""
-"The Resthome Care application — prescriptions, care plans, vital signs, "
-"nursing notes and clinical registers for the medical follow-up of residents."
+"The Nursing Care and Care Tasks apps of Resthome: medical record, care "
+"plans, care tasks, observations, multidisciplinary meetings and clinical "
+"registers for the follow-up of residents."
 msgstr ""
-"De Zorg-toepassing van Resthome: voorschriften, zorgplannen, vitale "
-"parameters, verpleegnotities en klinische registers voor de opvolging van "
-"bewoners."
-
-#: ../../content/soins/index.md:21
-msgid ""
-"The **Care** application brings together all **medical and nursing** follow-"
-"up of residents: medication, care plans, vital signs, notes, and the "
-"**clinical registers** (falls, wounds, pain, nutrition…). It is designed for"
-" the daily work of the care staff."
-msgstr ""
-"De toepassing **Zorg** bundelt de volledige **medische en verpleegkundige** "
-"opvolging van de bewoners: medicatie, zorgplannen, vitale parameters, "
-"notities en de **klinische registers** (vallen, wonden, pijn, voeding…). Ze "
-"is ontworpen voor het dagelijkse werk van het zorgpersoneel."
-
-#: ../../content/soins/index.md:26
-msgid "The dashboard"
-msgstr "Het dashboard"
-
-#: ../../content/soins/index.md:28
-msgid ""
-"When you open it, the **dashboard** highlights what needs attention today: "
-"care to carry out, points to watch, administrations to give. You start from "
-"here for your round."
-msgstr ""
-"Bij het openen zet het **dashboard** vooraan wat vandaag aandacht vraagt: "
-"uit te voeren zorgen, aandachtspunten, toe te dienen medicatie. Van daaruit "
-"start uw ronde."
+"De apps Zorg en Zorgtaken van Resthome: medisch dossier, zorgplannen, "
+"zorgtaken, observaties, multidisciplinaire overleggen en klinische registers"
+" voor de opvolging van de bewoners."
 
 #: ../../content/soins/index.md:32
+msgid "Which apps cover care in Resthome?"
+msgstr "Welke apps dekken de zorg in Resthome?"
+
+#: ../../content/soins/index.md:33
+msgid ""
+"Two apps. **Nursing Care** holds the clinical work: the dashboard, the "
+"resident's record, observations, assessments, care plans, meetings, "
+"registers, medicines and reports. **Care Tasks** is the worklist of the "
+"shift: today's care, the care assigned to you and the care still to assign."
+msgstr ""
+"Twee apps. **Zorg** bevat het klinische werk: het dashboard, het dossier van"
+" de bewoner, de observaties, de evaluaties, de zorgplannen, de overleggen, "
+"de registers, de geneesmiddelen en de rapporten. **Zorgtaken** is de "
+"werklijst van de dienst: de zorg van vandaag, de zorg die aan u toegewezen "
+"is en de zorg die nog toegewezen moet worden."
+
+#: ../../content/soins/index.md:35
+msgid "Who can open the care apps?"
+msgstr "Wie kan de zorgapps openen?"
+
+#: ../../content/soins/index.md:36
+msgid ""
+"Care staff only. A user without a care role does not see the Nursing Care "
+"and Care Tasks tiles, and the Care tab of a resident is hidden from them."
+msgstr ""
+"Alleen het zorgpersoneel. Een gebruiker zonder zorgrol ziet de tegels Zorg "
+"en Zorgtaken niet, en het tabblad Zorg van een bewoner is voor hem "
+"verborgen."
+
+#: ../../content/soins/index.md:38
+msgid "Where do I start my shift?"
+msgstr "Waar begin ik mijn dienst?"
+
+#: ../../content/soins/index.md:39
+msgid ""
+"On the **Dashboard** of the Nursing Care app. It shows what needs a hand "
+"now, today's agenda and the residents to keep an eye on, for the whole house"
+" or for one sector."
+msgstr ""
+"Op het **Dashboard** van de app Zorg. Het toont wat nu actie vraagt, de "
+"agenda van vandaag en de bewoners om in het oog te houden, voor het hele "
+"huis of voor één afdeling."
+
+#: ../../content/soins/index.md:42
+msgid ""
+"The care side of Resthome is split into two apps that share the same data:"
+msgstr ""
+"Het zorgluik van Resthome is verdeeld over twee apps die dezelfde gegevens "
+"delen:"
+
+#: ../../content/soins/index.md:44
+msgid ""
+"**Nursing Care** — the clinical workspace: the dashboard, the resident's "
+"record, observations, assessments, care plans, multidisciplinary meetings, "
+"clinical registers, medicines and reports."
+msgstr ""
+"**Zorg** — de klinische werkruimte: het dashboard, het dossier van de "
+"bewoner, de observaties, de evaluaties, de zorgplannen, de "
+"multidisciplinaire overleggen, de klinische registers, de geneesmiddelen en "
+"de rapporten."
+
+#: ../../content/soins/index.md:47
+msgid ""
+"**Care Tasks** — the worklist: the care tasks that the care plans create "
+"every day, for the shift to pick up and record."
+msgstr ""
+"**Zorgtaken** — de werklijst: de zorgtaken die de zorgplannen elke dag "
+"aanmaken, die de dienst opneemt en registreert."
+
+#: ../../content/soins/index.md:50
+msgid ""
+"Both apps are reserved for care staff. On the go, the same work is done from"
+" the [WideCare app](../soins-mobile/index.md)."
+msgstr ""
+"Beide apps zijn voorbehouden aan het zorgpersoneel. Onderweg gebeurt "
+"hetzelfde werk vanuit de [WideCare-app](../soins-mobile/index.md)."
+
+#: ../../content/soins/index.md:53
 msgid ""
 "![Care dashboard: overview counters, clinical registers and quick buttons to"
 " schedule care, add a note or record vital "
@@ -69,7 +122,7 @@ msgstr ""
 "snelknoppen om zorg te plannen, een notitie toe te voegen of vitale functies"
 " te registreren](../assets/screenshots/soins/01-tableau-de-bord.png)"
 
-#: ../../content/soins/index.md:32
+#: ../../content/soins/index.md:53
 msgid ""
 "Care dashboard: overview counters, clinical registers and quick buttons to "
 "schedule care, add a note or record vital signs"
@@ -78,113 +131,213 @@ msgstr ""
 "snelknoppen om zorg te plannen, een notitie toe te voegen of vitale functies"
 " te registreren"
 
-#: ../../content/soins/index.md:34
-msgid "What the application covers"
-msgstr "Wat de toepassing dekt"
+#: ../../content/soins/index.md:56
+msgid "The Nursing Care menus"
+msgstr "De menu's van Zorg"
 
-#: ../../content/soins/index.md:36
+#: ../../content/soins/index.md:58
 msgid ""
-"**Prescriptions and medication** — Medication catalogue, prescriptions, "
-"administrations, batches and stock. → [Prescriptions](prescriptions.md)"
+"**Dashboard** — the care board, see [The care dashboard](tableau-de-"
+"bord.md)."
 msgstr ""
-"**Voorschriften en geneesmiddelen** — Geneesmiddelencatalogus, "
-"voorschriften, toedieningen, loten en voorraad. → "
-"[Voorschriften](prescriptions.md)"
-
-#: ../../content/soins/index.md:37
-msgid ""
-"**Care plans and vital signs** — Care plans, planning of the day's care, "
-"vital signs and trends, nursing notes. → [Care plans](plans-de-soins.md)"
-msgstr ""
-"**Zorgplannen en vitale parameters** — Zorgplannen, planning van de zorgen "
-"van de dag, vitale parameters en trends, verpleegnotities. → "
-"[Zorgplannen](plans-de-soins.md)"
-
-#: ../../content/soins/index.md:38
-msgid ""
-"**Clinical registers** — Falls, pressure ulcers (Braden), wounds, pain, "
-"restraint, nutrition (MNA), continence, mobility, cognition. → "
-"[Registers](registres.md)"
-msgstr ""
-"**Klinische registers** — Vallen, doorligwonden (Braden), wonden, pijn, "
-"fixatie, voeding (MNA), continentie, mobiliteit, cognitie. → "
-"[Registers](registres.md)"
-
-#: ../../content/soins/index.md:40
-msgid "Main menus"
-msgstr "Hoofdmenu's"
-
-#: ../../content/soins/index.md:42
-msgid ""
-"**Medical** — dependency assessment, nursing notes, attention points, vital "
-"signs entry, care planning, today's care, my assigned care, care plans, "
-"prescriptions, administrations, hospitalisation."
-msgstr ""
-"**Medisch** — afhankelijkheidsevaluatie, verpleegnotities, aandachtspunten, "
-"invoer vitale parameters, zorgplanning, zorgen van vandaag, mijn toegewezen "
-"zorgen, zorgplannen, voorschriften, toedieningen, hospitalisatie."
-
-#: ../../content/soins/index.md:45
-msgid "**Registers** — the dedicated clinical registers."
-msgstr "**Registers** — de specifieke klinische registers."
-
-#: ../../content/soins/index.md:46
-msgid "**Stock** — medication batches, stock withdrawals."
-msgstr "**Voorraad** — geneesmiddelenloten, voorraaduitgangen."
-
-#: ../../content/soins/index.md:47
-msgid ""
-"**Configuration** — medication catalogue, pathologies (ICD-10), allergens, "
-"drug interactions, and the national medication database where the country "
-"provides one."
-msgstr ""
-"**Configuratie** — geneesmiddelencatalogus, pathologieën (ICD-10), "
-"allergenen, geneesmiddeleninteracties, en de nationale "
-"geneesmiddelendatabank waar het land er een voorziet."
-
-#: ../../content/soins/index.md:51
-msgid "In Belgium"
-msgstr "In België"
-
-#: ../../content/soins/index.md:54
-msgid ""
-"The dependency assessment is the Katz scale, and the medication catalogue is"
-" fed from the official SAM database: see [Care in "
-"Belgium](../belgique/soins.md) and [The SAM medication "
-"database](../belgique/sam-base-medicaments.md)."
-msgstr ""
-"De afhankelijkheidsevaluatie is de Katz-schaal, en de "
-"geneesmiddelencatalogus wordt gevoed door de officiële SAM-databank: zie "
-"[Zorg in België](../belgique/soins.md) en [De SAM-"
-"geneesmiddelendatabank](../belgique/sam-base-medicaments.md)."
+"**Dashboard** — het zorgbord, zie [Het zorgdashboard](tableau-de-bord.md)."
 
 #: ../../content/soins/index.md:59
-msgid "Separate but connected"
-msgstr "Apart maar verbonden"
+msgid ""
+"**Residents** — **All Residents**, **Absences** (when billing is installed) "
+"and **Life Projects**."
+msgstr ""
+"**Bewoners** — **Alle bewoners**, **Afwezigheden** (wanneer de facturatie "
+"geïnstalleerd is) en **Levensprojecten**."
+
+#: ../../content/soins/index.md:61
+msgid "**Care** — the clinical menu, in four sections:"
+msgstr "**Zorg** — het klinische menu, in vier secties:"
 
 #: ../../content/soins/index.md:62
 msgid ""
-"The Care application is separate from billing, but **connected to the "
-"residents**: a hospitalisation entered here appears, on the billing side, as"
-" an [absence](../facturation/absences.md) that adjusts the allowance."
+"**Observations** — **Observations**, **Attention Required**, **Observations "
+"to read**, **Stools and Urine** and **Stool and Urine Observations**;"
 msgstr ""
-"De toepassing Zorg staat los van de facturatie, maar is **verbonden met de "
-"bewoners**: een hier geregistreerde hospitalisatie verschijnt aan "
-"facturatiezijde als [afwezigheid](../facturation/absences.md) die het "
-"forfait aanpast."
+"**Observaties** — **Observaties**, **Aandacht vereist**, **Te lezen "
+"observaties**, **Stoelgang en urine** en **Observaties van stoelgang en "
+"urine**;"
+
+#: ../../content/soins/index.md:65
+msgid ""
+"**Assessments** — **Evaluations to Validate** and **Anamneses**, plus the "
+"country's dependency assessment;"
+msgstr ""
+"**Evaluaties** — **Te valideren evaluaties** en **Anamneses**, plus de "
+"afhankelijkheidsevaluatie van het land;"
 
 #: ../../content/soins/index.md:67
+msgid ""
+"**Plans and Meetings** — **Care Plans**, **Objectives**, **Multidisciplinary"
+" Meetings** and **Reviews in Meeting**;"
+msgstr ""
+"**Plannen en overleg** — **Zorgplannen**, **Doelstellingen**, "
+"**Multidisciplinaire overleggen** en **Besprekingen in overleg**;"
+
+#: ../../content/soins/index.md:69
+msgid "**Registries** — the seven clinical registers."
+msgstr "**Registers** — de zeven klinische registers."
+
+#: ../../content/soins/index.md:70
+msgid ""
+"**Medicines** — one entry that opens the Medicines workstation, see "
+"[Medicines](../medicaments/index.md) and [Prescriptions](prescriptions.md)."
+msgstr ""
+"**Geneesmiddelen** — één item dat de geneesmiddelenpost opent, zie "
+"[Geneesmiddelen](../medicaments/index.md) en "
+"[Voorschriften](prescriptions.md)."
+
+#: ../../content/soins/index.md:72
+msgid ""
+"**Evaluation Tools** — the assessment scales (MMSE, Braden, MNA, OHAT, "
+"Tinetti, pain), see [Geriatric assessments](../residents/evaluations.md)."
+msgstr ""
+"**Evaluatiehulpmiddelen** — de evaluatieschalen (MMSE, Braden, MNA, OHAT, "
+"Tinetti, pijn), zie [Geriatrische evaluaties](../residents/evaluations.md)."
+
+#: ../../content/soins/index.md:74
+msgid ""
+"**Reports** — **Record Reviews**, **Plan Reviews** and the other care "
+"reports."
+msgstr ""
+"**Rapporten** — **Dossierherzieningen**, **Planherzieningen** en de andere "
+"zorgrapporten."
+
+#: ../../content/soins/index.md:76
+msgid ""
+"**Configuration** — settings and catalogues, among them **Clinical "
+"Catalogues** (dosages, allergens, pathologies); see [Care "
+"configuration](configuration-soins.md)."
+msgstr ""
+"**Configuratie** — instellingen en catalogi, waaronder de **Klinische "
+"catalogi** (doseringen, allergenen, pathologieën); zie "
+"[Zorgconfiguratie](configuration-soins.md)."
+
+#: ../../content/soins/index.md:80
+msgid "In Belgium"
+msgstr "In België"
+
+#: ../../content/soins/index.md:83
+msgid ""
+"The **Assessments** section also lists the **Katz Evaluations**: see [Care "
+"in Belgium](../belgique/soins.md) and [The Katz "
+"assessment](../belgique/katz.md)."
+msgstr ""
+"De sectie **Evaluaties** toont ook de **Katz-evaluaties**: zie [Zorg in "
+"België](../belgique/soins.md) en [De Katz-evaluatie](../belgique/katz.md)."
+
+#: ../../content/soins/index.md:87
+msgid "The Care Tasks menus"
+msgstr "De menu's van Zorgtaken"
+
+#: ../../content/soins/index.md:89
+msgid ""
+"**Care Tasks** — **Today's Care**, **My Assigned Care**, **My Care Plans**, "
+"**My Objectives**, **To Assign** and **Care Schedule**."
+msgstr ""
+"**Zorgtaken** — **De zorg van vandaag**, **Mijn toegewezen zorg**, **Mijn "
+"zorgplannen**, **Mijn doelstellingen**, **Toe te wijzen** en **Zorgschema**."
+
+#: ../../content/soins/index.md:91
+msgid "**Configuration** (managers) — the care catalogues the tasks run on."
+msgstr ""
+"**Configuratie** (verantwoordelijken) — de zorgcatalogi waarop de taken "
+"steunen."
+
+#: ../../content/soins/index.md:93
+msgid "See [Care tasks](taches-de-soins.md)."
+msgstr "Zie [Zorgtaken](taches-de-soins.md)."
+
+#: ../../content/soins/index.md:95
+msgid "How the pieces fit together"
+msgstr "Hoe de onderdelen samenhangen"
+
+#: ../../content/soins/index.md:97
+msgid ""
+"The **anamnesis** and the **life project** describe who the resident is and "
+"what they want."
+msgstr ""
+"De **anamnese** en het **levensproject** beschrijven wie de bewoner is en "
+"wat hij wil."
+
+#: ../../content/soins/index.md:99
+msgid ""
+"The **care plan** turns this into **objectives** and **care lines**, each "
+"with its rhythm."
+msgstr ""
+"Het **zorgplan** zet dit om in **doelstellingen** en **zorglijnen**, elk met"
+" zijn ritme."
+
+#: ../../content/soins/index.md:101
+msgid ""
+"Every night, the care lines become **care tasks** for the coming days; the "
+"shift records each one as done, not done or postponed."
+msgstr ""
+"Elke nacht worden de zorglijnen **zorgtaken** voor de komende dagen; de "
+"dienst registreert elke taak als gedaan, niet gedaan of uitgesteld."
+
+#: ../../content/soins/index.md:103
+msgid ""
+"**Observations**, **assessments** and **registers** record what happens; "
+"they feed the **multidisciplinary meeting**, which re-reads the plan and "
+"adjusts it."
+msgstr ""
+"De **observaties**, de **evaluaties** en de **registers** leggen vast wat er"
+" gebeurt; ze voeden het **multidisciplinair overleg**, dat het plan herleest"
+" en bijstuurt."
+
+#: ../../content/soins/index.md:107
+msgid "Separate but connected"
+msgstr "Apart maar verbonden"
+
+#: ../../content/soins/index.md:110
+msgid ""
+"The care apps are separate from billing, but **connected to the residents**:"
+" a [hospital departure](hospitalisation.md) recorded on the care side opens,"
+" on the billing side, an [absence](../facturation/absences.md)."
+msgstr ""
+"De zorgapps staan los van de facturatie, maar zijn **verbonden met de "
+"bewoners**: een [vertrek naar het ziekenhuis](hospitalisation.md) dat aan de"
+" zorgkant geregistreerd wordt, opent aan de facturatiekant een "
+"[afwezigheid](../facturation/absences.md)."
+
+#: ../../content/soins/index.md:115
 msgid "Going further"
 msgstr "Verder"
 
-#: ../../content/soins/index.md:69
-msgid "[Prescriptions and medication](prescriptions.md)"
-msgstr "[Voorschriften en geneesmiddelen](prescriptions.md)"
+#: ../../content/soins/index.md:117
+msgid "[The care dashboard](tableau-de-bord.md)"
+msgstr "[Het zorgdashboard](tableau-de-bord.md)"
 
-#: ../../content/soins/index.md:70
-msgid "[Care plans and vital signs](plans-de-soins.md)"
-msgstr "[Zorgplannen en vitale parameters](plans-de-soins.md)"
+#: ../../content/soins/index.md:118
+msgid "[The resident's medical record](dossier-medical.md)"
+msgstr "[Het medisch dossier van de bewoner](dossier-medical.md)"
 
-#: ../../content/soins/index.md:71
+#: ../../content/soins/index.md:119
+msgid "[Care plans](plans-de-soins.md)"
+msgstr "[Zorgplannen](plans-de-soins.md)"
+
+#: ../../content/soins/index.md:120
+msgid "[Care tasks](taches-de-soins.md)"
+msgstr "[Zorgtaken](taches-de-soins.md)"
+
+#: ../../content/soins/index.md:121
+msgid "[Medicines](../medicaments/index.md)"
+msgstr "[Geneesmiddelen](../medicaments/index.md)"
+
+#: ../../content/soins/index.md:122
+msgid "[Observations and vital signs](observations.md)"
+msgstr "[Observaties en vitale parameters](observations.md)"
+
+#: ../../content/soins/index.md:123
+msgid "[Multidisciplinary meetings](reunion-pluridisciplinaire.md)"
+msgstr "[Multidisciplinaire overleggen](reunion-pluridisciplinaire.md)"
+
+#: ../../content/soins/index.md:124
 msgid "[Clinical registers](registres.md)"
 msgstr "[Klinische registers](registres.md)"

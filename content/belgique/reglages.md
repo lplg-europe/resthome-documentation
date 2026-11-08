@@ -5,7 +5,7 @@ modules: [l10n_health_be_perdiem_billing, resthome_mr_billing, l10n_health_be, r
 # Belgian settings
 
 :::{rh-description}
-The settings the Belgian pack adds to Resthome: INAMI numbers and MR/MRS approvals, the INAMI Journal, the Cc accreditation, INAMI rates and pseudo-codes, health insurers and CPAS.
+The settings the Belgian pack adds to Resthome: the approvals and their INAMI numbers, the INAMI Journal, the Cc accreditation, the INAMI rates and pseudo-codes, health insurers and CPAS.
 :::
 
 :::{rh-faq}
@@ -22,7 +22,7 @@ What is the Katz activity assignee for?
 : It is the user to whom Resthome assigns the "New Katz required" activity when a readmission after hospitalization exceeds 30 days. If the field is empty, the activity goes to the current user if they are clinical, otherwise to the first head nurse, nurse or doctor found.
 
 Where do I record the INAMI number and the approvals of the home?
-: On the establishment: Settings > Nursing Home > Approvals > Manage establishments and approvals. One establishment per INAMI number, with one line per approved sector (MR, MRS, CSJ) and the number of beds or places it covers.
+: In **Healthcare → Configuration → General → Approvals** (also reachable from **Manage approvals** in the settings). One approval per INAMI number, with one line per approved sector (MR, MRS, CSJ) and the number of beds or places it covers.
 
 What default values should I use for stay duration and room capacity in an MR/MRS?
 : 30 days for the stay duration and 1 bed for the capacity suit most MR/MRS. These are only pre-fill values, editable afterwards on each stay or each room.
@@ -42,48 +42,67 @@ on their own page: see [eHealth and eFact settings](reglages-ehealth.md).
 
 With the Belgian pack, some common screens change their name:
 
-- the **Billing** app and its settings tab are called **MR/MRS Billing** —
-  **MR/MRS/CSJ Billing** when the [day care centre](centre-de-jour/index.md)
-  is installed;
+- the **Billing** settings tab is called **MR/MRS Billing** — **MR/MRS/CSJ
+  Billing** when the [day care centre](centre-de-jour/index.md) is installed;
 - the **Billing Rates** menu is called **INAMI Rates**;
 - the **Nursing Home** settings tab gains an **Approvals** block;
 - the billing configuration gains the **Mutuelles**, **Billing Codes** and
-  **CPAS** menus.
+  **CPAS** menus;
+- an **eHealth** settings tab appears — see [eHealth and eFact
+  settings](reglages-ehealth.md).
 
 The settings are only visible to the home's **managers**, and are set **once**,
 at start-up.
 
-## Establishments and approvals
+## Approvals
 
-*Settings > Nursing Home > Approvals.* The home is licensed by sector: **MR**
-(rest home), **MRS** (rest and care home) and, for a day care centre, **CSJ**.
-Resthome records these approvals on the **establishment** they were granted
-to, next to its INAMI number and its eHealth certificate.
+*Healthcare → Configuration → General → Approvals.* The home is licensed by
+sector: **MR** (rest home), **MRS** (rest and care home) and, for a day care
+centre, **CSJ**. Resthome records these sectors on the **approval** of the
+INAMI number they were granted to. A company holds one approval per type of
+establishment: a rest home and a day care centre make two; a second site of the
+same type is a branch or another company.
 
-| Setting | What it does | Recommended value |
-|---|---|---|
-| **Approvals of the establishment** | Summary of the approvals in force; **Manage establishments and approvals** opens the establishments. | One line per approved sector, with its beds. |
-| **Conventioned Establishment** | The establishment adheres to the agreement with the health insurers, which decides the tariff applied. | Tick it **if** your home is conventioned. |
+In the settings, the **Nursing Home** tab shows a summary under **Approvals of
+the establishment**, with a **Manage approvals** link, and the **Conventioned
+Establishment** box: tick it if the establishment adheres to the agreement with
+the health insurers, which decides the tariff applied.
 
-On the **establishment** itself:
+On the approval itself:
 
-- **INAMI Number**: the establishment's INAMI/RIZIV number, used in every
-  eHealth exchange; Resthome reads the type of establishment from it.
-- **Competence Code**: the last three digits of the NIHII-11 (**110** for an
-  MR, **210** for some MRS).
-- **Sectors**: one approval per sector, with **Beds / places**, the **Approval
-  Reference**, the **Approval Date** and the **Approval PDF**.
+- **INAMI identity**: the **INAMI Number**; the **Establishment Type**,
+  proposed from the first three digits of the number and editable; the
+  **Competence Code**, the last three digits of the NIHII-11 (**000** for a day
+  care centre, **110** for a rest home, **210** for some MRS); the **NIHII-11**;
+- the company, the **Address** and the **Notes**;
+- the **Sectors** tab: one line per approved sector, with its **Beds / places**,
+  the beds **Occupied**, the **Occupancy**, the **Approval Reference** and the
+  **Approval Date**. A line opens its own form, where the **Approval PDF** is
+  kept. The tab also holds the resident journal of this establishment;
+- the **eHealth** tab: the establishment's **certificate**;
+- the **eFact** tab: the Account C journal and the contact person of this INAMI
+  number, when they differ from the settings.
 
 The beds recorded here are what the **occupancy** is measured against, and what
-decides which **sectors** an admission may offer. Deactivate a superseded
-approval rather than deleting it: its beds are what the occupancy of those
-months was measured against.
+decides which **sectors** an admission may offer. Archive a superseded sector
+line rather than deleting it: its beds are what the occupancy of those months
+was measured against.
 
-:::{admonition} Two establishments in one company
+:::{admonition} The approval warns, it does not refuse
+:class: note
+
+A red banner says a sector is recorded twice; an orange one says more residents
+occupy a category than the approval covers, or that a sector does not match the
+type of its INAMI number — a day care centre has its own number, separate from
+the rest home's. For the daily view, see [Occupancy MR / CS /
+MRS](occupation-mr-mrs.md).
+:::
+
+:::{admonition} Two approvals in one company
 :class: tip
 
 A company that runs a rest home and a day care centre holds **two** INAMI
-numbers, so **two** establishments, each with its own certificate. See
+numbers, so **two** approvals, each with its own certificate. See
 [Setting up a day care centre](centre-de-jour/configuration.md).
 :::
 
@@ -107,7 +126,9 @@ supplements). Each stream goes into its own sales journal.
 | **INAMI Journal** | Sales journal that receives the invoices for the **insurer share** (dependency allowance sent via eFact). | A sales journal of your facility, **separate** from the **Resident Journal**. |
 
 Separating the two journals (INAMI on one side, resident on the other) makes
-reconciliation and per-payer tracking easier.
+reconciliation and per-payer tracking easier. A branch with no INAMI Journal of
+its own uses the one of its parent company; the setting says so under the empty
+field.
 
 ### Establishment accreditation
 
@@ -150,14 +171,19 @@ assessment**. The assigned activity acts as a reminder. See
 ## INAMI rates and pseudo-codes
 
 *Billing → Configuration → INAMI Rates.* The rate grid carries the amounts of
-the **INAMI dependency allowance** (rate type **INAMI Forfait**), dated by
-**Start Date** and **End Date**.
+the **INAMI dependency allowance** (rate type **INAMI Forfait**) and of the
+accommodation, dated by **Start Date** and **End Date**.
 
 - **Katz Category**: O, A, B, C, Cd, D and Ccoma. Under the **AViQ** rates the
   amount is the **same** for every category, including O; the grid stays
   configurable per category if a convention requires it.
 - **Stay Type**: the sector the rate prices (MR, MRS, CSJ). A rate left empty
   applies whatever the sector; the sector-specific one wins when both exist.
+- **Generate a year**, above the list, creates the rates of a whole year from
+  the amounts you enter once; **New** adds a single row.
+
+When an eFact is built for a year that has no rate yet, Resthome stops and
+offers to open or create the INAMI rates of that year.
 
 *Billing → Configuration → Billing Codes.* The **pseudo-codes** the health
 insurer is billed with. Each code carries its **Pseudo-code**, its
@@ -171,7 +197,8 @@ insurer is billed with. Each code carries its **Pseudo-code**, its
 - **Partial intervention (IP)**: the variant where the patient carries part of
   the allowance.
 
-A supplement declared to the health insurer carries its **AViQ code** (see
+A supplement declared to the health insurer carries its **Pseudo-code** on the
+product, and its product category is **Declared to the OA (ET50)** (see
 [Applying supplements](../facturation/application-supplements.md)).
 
 ## Health insurers and CPAS
@@ -195,8 +222,8 @@ A supplement declared to the health insurer carries its **AViQ code** (see
 - **Documents**: the ready-made tags include **Katz evaluation**, **MR/MRS
   agreement (eAgreement)**, **OA allocation** and **CPAS**, next to the common
   ones (see [Document settings](../configuration/reglages-documents.md)).
-- **Facility**: the establishment's identifiers are those used in the eHealth
-  exchanges (MDA, eFact, eAgreement) — see
+- **Approvals**: the INAMI number and the certificate of each approval are
+  those used in the eHealth exchanges (MDA, eFact, eAgreement) — see
   [eHealth and eFact settings](reglages-ehealth.md).
 
 ## What's next

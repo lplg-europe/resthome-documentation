@@ -5,12 +5,12 @@ modules: []
 # Welcome to the Resthome documentation
 
 :::{rh-description}
-User documentation for Resthome, the software for nursing and care homes built on Odoo: residents, admissions, care, meals, billing and the family portal, with a space for each country's rules.
+User documentation for Resthome, the software for nursing and care homes built on Odoo: residents, admissions, care and medicines, meals, billing, the family portal, staff planning and quality, with a space for each country's rules.
 :::
 
 **Resthome** is the **WideCare** suite for **nursing and care homes**,
-published by LPLG **on Odoo**: residents, admissions, care, meals, billing and
-the family portal, all in one place. This documentation guides you day by day,
+published by LPLG **on Odoo**: residents, admissions, care and medicines,
+meals, billing, the family portal, staff planning and quality, all in one place. This documentation guides you day by day,
 step by step, with screenshots.
 
 The pages below apply in every country. What comes from a country's own rules —
@@ -30,7 +30,7 @@ space of the country you choose.
 :link: belgique/index
 :link-type: doc
 
-The Belgian dependency scale, the allowance paid by the health insurers, the electronic exchanges with them, the institutional allowance and the day care centre.
+The Belgian dependency scale, the allowance paid by the health insurers, the electronic exchanges with them, the institutional allowance, the day care centre and serviced residences.
 :::
 
 :::{grid-item-card} France
@@ -89,11 +89,46 @@ The resident's file, the stay, the assessments, the rooms and the condition repo
 From the first enquiry to the move-in: the pipeline, the candidate's file, the admission.
 :::
 
+:::{grid-item-card} Serviced residences
+:link: residences-services/index
+:link-type: doc
+
+Units, regimes and contracts of a serviced residence: notice, billing, meals, calls and requests.
+:::
+
+:::{grid-item-card} Care
+:link: soins/index
+:link-type: doc
+
+The care dashboard, the clinical record, care plans and tasks, observations, assessments and registers.
+:::
+
+:::{grid-item-card} Medicines
+:link: medicaments/index
+:link-type: doc
+
+The medication circuit on one screen: prescriptions, treatments, pharmacy orders, pillboxes, the round and the follow-up.
+:::
+
+:::{grid-item-card} WideCare app
+:link: soins-mobile/index
+:link-type: doc
+
+The day's work of the staff on a phone or tablet: tasks, medication round, residents, observations, meals, drinks and rooms.
+:::
+
+:::{grid-item-card} Meals
+:link: repas/index
+:link-type: doc
+
+Menus and diets, dishes and textures, meal distribution, nutrition monitoring and the public menu.
+:::
+
 :::{grid-item-card} Billing
 :link: facturation/index
 :link-type: doc
 
-Billing periods, the care allowance, supplements, absences and invoices.
+Billing periods, the invoice type, the care allowance, supplements, absences and invoices.
 :::
 
 :::{grid-item-card} Split billing
@@ -103,25 +138,11 @@ Billing periods, the care allowance, supplements, absences and invoices.
 The resident's share divided among several debtors, one invoice each.
 :::
 
-:::{grid-item-card} Care
-:link: soins/index
+:::{grid-item-card} Pocket money
+:link: argent-de-poche/index
 :link-type: doc
 
-Clinical record, prescriptions, care plans and clinical registers.
-:::
-
-:::{grid-item-card} Care app
-:link: soins-mobile/index
-:link-type: doc
-
-The shift, the cares, the medication round, notes and vital signs on a phone or tablet.
-:::
-
-:::{grid-item-card} Meals
-:link: repas/index
-:link-type: doc
-
-Menus and diets, meal distribution, nutrition monitoring and the family portal.
+The money the home holds for a resident: balance, purchases and settlement.
 :::
 
 :::{grid-item-card} Family portal
@@ -136,6 +157,34 @@ What relatives may see: liaison notebook, documents, invoices, health summary.
 :link-type: doc
 
 Automatic document folders per resident and attachment centralization.
+:::
+
+:::{grid-item-card} Technical interventions
+:link: interventions/index
+:link-type: doc
+
+Repairs in the residents' rooms: the ticket, its full cost, and billing it to the resident.
+:::
+
+:::{grid-item-card} Staff planning
+:link: planning/index
+:link-type: doc
+
+Shifts by role and sector, critical periods, automatic planning and the schedule sent to the staff.
+:::
+
+:::{grid-item-card} Quality
+:link: qualite/index
+:link-type: doc
+
+The complaints register, the residents' council and the observation of preserved capacities.
+:::
+
+:::{grid-item-card} WideCare AI assistant
+:link: assistant/index
+:link-type: doc
+
+Ask the documentation a question without leaving Resthome.
 :::
 
 :::{grid-item-card} Configuration
@@ -170,13 +219,19 @@ premiers-pas
 
 residents/index
 admissions/index
-facturation/index
-facturation-partagee/index
+residences-services/index
 soins/index
+medicaments/index
 soins-mobile/index
 repas/index
+facturation/index
+facturation-partagee/index
+argent-de-poche/index
 portail-famille/index
 documents/index
+interventions/index
+planning/index
+qualite/index
 :::
 
 :::{toctree}
@@ -187,17 +242,26 @@ documents/index
 belgique/index
 belgique/parcours-facturation
 belgique/dossier-resident
+belgique/lecture-eid
 belgique/admission
 belgique/katz
 belgique/facturation
+belgique/occupation-mr-mrs
 belgique/forfait-inami
 belgique/ehealth/index
 belgique/note-de-frais-annexe12
 belgique/cpas
+belgique/rapports-gestion
 belgique/forfait/index
 belgique/centre-de-jour/index
+belgique/residences-services
+belgique/residences-services-maison-de-repos
 belgique/soins
 belgique/sam-base-medicaments
+belgique/medicaments-regles
+belgique/medicaments-lien-pharmacie
+belgique/medicaments-ehealthbox
+belgique/medicaments-facturation
 belgique/reglages
 belgique/reglages-ehealth
 belgique/faq
@@ -251,5 +315,6 @@ configuration/index
 
 faq
 glossaire
+assistant/index
 support
 :::

@@ -23,6 +23,9 @@ Why does the billed category sometimes differ from the clinical category?
 
 Who pays for the dependency allowance?
 : The allowance is covered 100% by the health insurance fund (third-party payer, via eFact). Accommodation (the room) is a separate line, charged to the resident.
+
+Is the allowance billed for a resident without a validated Katz?
+: No. Without a validated Katz there is no category and no allowance; the period shows **No Katz** on the resident's row. Validate the Katz, then regenerate the period.
 :::
 
 The **dependency allowance** is the **daily** amount covered by the health
@@ -34,9 +37,9 @@ This page explains the full chain: **Katz assessment → category → billed amo
 
 ## From the Katz assessment to the category
 
-The [Katz assessment](katz.md) rates **6 criteria** (washing,
-dressing, transfer and mobility, going to the toilet, continence, eating) from
-**1** (independent) to **4** (fully dependent). From these ratings, Resthome
+The [Katz assessment](katz.md) rates the six daily activities (washing,
+dressing, transferring, toileting, continence, eating) and the orientation in
+time and space from **1** (independent) to **4** (fully dependent). From these ratings, Resthome
 computes a **dependency category**, which is **declared to the health insurance
 fund**:
 
@@ -48,26 +51,28 @@ fund**:
 | **C** | Severe | Yes |
 | **Cd** | Severe, with disorientation / dementia | Yes |
 | **D** | Dementia (specialist diagnosis) | Yes |
+| **Ccoma** | Comatose | Only with the **Cc accreditation** — see [Belgian settings](reglages.md) |
 
 :::{admonition} The amount is the same for all categories
 :class: important
 
 Under the **AViQ** rates, the **amount** of the dependency allowance is
 **identical for all Katz categories**, including **O**: a **single daily rate**,
-indexed each year (e.g. **€85.72/day in 2026**). The category therefore does
+indexed each year. The category therefore does
 **not change the amount** — it is used to **declare the correct profile** to the
 health insurance fund (the **OA agreement**) and for the **care standards**. The
 rate remains **configurable per category** in *Configuration → INAMI Rates* if a
 convention requires it.
 :::
 
-:::{admonition} Category O by default
-:class: note
+:::{admonition} No validated Katz, no allowance
+:class: warning
 
-As long as no Katz assessment is **validated**, the resident is in category **O**
-by default and a **"Katz to do"** reminder appears. Validate the Katz assessment
-to **declare the correct category** to the health insurance fund and obtain the
-corresponding **agreement**.
+A resident without a **validated** Katz assessment has **no category**: when
+the period is generated, their accommodation is billed but **no allowance**,
+their row shows **No Katz**, and the period's thread names them. Validate the
+Katz assessment, then **regenerate** the period: the allowance is billed with
+the right category.
 :::
 
 :::{admonition} Comatose patient
@@ -140,11 +145,15 @@ insurance fund's agreement is obtained** (see above).
 
 ## Configuring the allowance rates
 
-The rates are configured in the **Billing → Configuration → INAMI Rates** app: one
-**rate per Katz category**, with a **validity period**. Resthome automatically
-applies the rate in force on the billing date. For the **annual indexation**, you
-add a new rate line (new start date) and close the old one. The same screen also
-manages the **accommodation rate** (charged to the resident).
+The rates are configured in **Billing → Configuration → INAMI Rates**: one
+**rate per Katz category**, with a **validity period**. Resthome applies the
+rate in force on the billing date. For the **annual indexation**, click
+**Generate a year** above the list: enter the amounts once and Resthome creates
+the rates of every category for the year. **New** adds a single row. The same
+screen also manages the **accommodation rate** (charged to the resident).
+
+If an eFact is built for a year that has no rate yet, Resthome stops and offers
+to open or create the rates of that year.
 
 ## Key points
 
@@ -155,6 +164,7 @@ manages the **accommodation rate** (charged to the resident).
   period, minus absences).
 - We bill the **category agreed with the health insurance fund** (agreement), not
   necessarily the latest clinical assessment.
+- **No validated Katz, no allowance**: validate it, then regenerate the period.
 - **Allowance = health insurance fund**, **accommodation = resident**, over the
   same period.
 

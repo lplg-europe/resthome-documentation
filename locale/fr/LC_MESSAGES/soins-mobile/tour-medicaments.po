@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-16 00:24+0200\n"
+"POT-Creation-Date: 2026-11-08 19:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -26,12 +26,13 @@ msgstr "Tour des médicaments"
 
 #: ../../content/soins-mobile/tour-medicaments.md:8
 msgid ""
-"The Round screen of the Resthome care app: the doses of each moment of the "
-"day, resident by resident, recorded as given, refused or not given."
+"The Round screen of the WideCare app: the doses of each moment of the day, "
+"resident by resident, distributed then taken, refused or not given, recorded"
+" afterwards, and the glucose before an insulin."
 msgstr ""
-"L'écran Tour de l'app Soins de Resthome : les doses de chaque moment de la "
-"journée, habitant par habitant, enregistrées comme données, refusées ou non "
-"données."
+"L'écran Tour de l'app WideCare : les doses de chaque moment de la journée, "
+"habitant par habitant, distribuées puis prises, refusées ou non données, "
+"encodées après coup, et la glycémie avant une insuline."
 
 #: ../../content/soins-mobile/tour-medicaments.md:12
 msgid "Why is the round sorted by resident and not by medication?"
@@ -48,149 +49,409 @@ msgstr ""
 "en ordre**."
 
 #: ../../content/soins-mobile/tour-medicaments.md:15
-msgid "How do I record a refused medication?"
-msgstr "Comment enregistrer un médicament refusé ?"
+msgid "Why two steps, distributed and taken?"
+msgstr "Pourquoi deux étapes, distribuée et prise ?"
 
 #: ../../content/soins-mobile/tour-medicaments.md:16
 msgid ""
-"Tap the cross next to the dose, choose the reason under **Refused by the "
-"resident**, add a remark if needed and tap **Record refusal**."
+"Handing the medication over and seeing it taken are two acts. **Distribute "
+"only** records the first; **Taken** records both, or the second once the "
+"dose is distributed."
 msgstr ""
-"Touchez la croix à côté de la dose, choisissez le motif sous **Refusée par "
-"l'habitant**, ajoutez une remarque si besoin et touchez **Enregistrer le "
-"refus**."
+"Remettre le médicament et le voir pris sont deux gestes. **Distribuer "
+"seulement** enregistre le premier ; **Prise** enregistre les deux, ou le "
+"second une fois la dose distribuée."
 
 #: ../../content/soins-mobile/tour-medicaments.md:18
-msgid "What if the medication is missing or the resident is away?"
-msgstr "Et si le médicament manque ou si l'habitant est absent ?"
+msgid "How do I record a refused medication?"
+msgstr "Comment enregistrer un médicament refusé ?"
 
 #: ../../content/soins-mobile/tour-medicaments.md:19
 msgid ""
-"Tap the cross, then **Not available**, **In hospital** or **Skipped** under "
-"**Or not given because**."
+"Swipe the dose to the left, choose the reason under **Refused by the "
+"resident**, add a remark if needed and tap **Record refusal**."
 msgstr ""
-"Touchez la croix, puis **Non disponible**, **À l'hôpital** ou **Sautée** "
-"sous **Ou non donnée parce que**."
+"Glissez la dose vers la gauche, choisissez la raison sous **Refusée par "
+"l'habitant**, ajoutez une remarque si besoin et touchez **Enregistrer le "
+"refus**."
+
+#: ../../content/soins-mobile/tour-medicaments.md:21
+msgid "I gave a dose at its hour but could not record it then. What do I do?"
+msgstr ""
+"J'ai donné une dose à son heure mais je n'ai pas pu l'enregistrer à ce "
+"moment-là. Que faire ?"
 
 #: ../../content/soins-mobile/tour-medicaments.md:22
 msgid ""
+"Press and hold the dose, choose **Given earlier**, enter the hour it was "
+"given and tap **Record as given**. The record keeps that hour, your name, "
+"and that it was written afterwards."
+msgstr ""
+"Maintenez le doigt sur la dose, choisissez **Encoder après coup**, saisissez"
+" l'heure à laquelle elle a été donnée et touchez **Encoder comme donnée**. "
+"L'enregistrement garde cette heure, votre nom, et le fait qu'il a été écrit "
+"après coup."
+
+#: ../../content/soins-mobile/tour-medicaments.md:24
+msgid "I recorded the wrong dose. Can I correct it?"
+msgstr "J'ai enregistré la mauvaise dose. Puis-je la corriger ?"
+
+#: ../../content/soins-mobile/tour-medicaments.md:25
+msgid ""
+"Within a few seconds, tap **Undo** on the message. Later, a nurse or a "
+"physician corrects the record from the resident's sheet, with the reason."
+msgstr ""
+"Dans les quelques secondes, touchez **Annuler** sur le message. Plus tard, "
+"un infirmier ou un médecin corrige l'enregistrement depuis la fiche de "
+"l'habitant, avec la raison."
+
+#: ../../content/soins-mobile/tour-medicaments.md:28
+msgid ""
 "The **Round** screen shows the doses to give at each moment of the day, "
-"taken from the prescriptions entered in the back office."
+"taken from the prescriptions entered in the back office. It appears for "
+"whoever gives medication."
 msgstr ""
 "L'écran **Tour** montre les doses à donner à chaque moment de la journée, "
-"tirées des prescriptions encodées au bureau."
+"tirées des prescriptions encodées au bureau. Il apparaît pour qui donne des "
+"médicaments."
 
-#: ../../content/soins-mobile/tour-medicaments.md:25
+#: ../../content/soins-mobile/tour-medicaments.md:32
 msgid ""
-"![The Round screen on the phone: the tabs of the moments of the day, then "
-"each resident with the medication, the dose, the route and the Given "
-"button](../assets/screenshots/soins-mobile/phone-04-tour.png)"
+"![The Round screen on the phone: the moment of the round, then each resident"
+" with the medication, the dose and the route](../assets/screenshots/soins-"
+"mobile/phone-04-tour.png)"
 msgstr ""
-"![L'écran Tour sur le téléphone : les onglets des moments de la journée, "
-"puis chaque habitant avec le médicament, la dose, la voie et le bouton "
-"Donnée](../assets/screenshots/soins-mobile/phone-04-tour.png)"
+"![L'écran Tour sur le téléphone : le moment du tour, puis chaque habitant "
+"avec le médicament, la dose et la voie](../assets/screenshots/soins-"
+"mobile/phone-04-tour.png)"
 
-#: ../../content/soins-mobile/tour-medicaments.md:25
+#: ../../content/soins-mobile/tour-medicaments.md:32
 msgid ""
-"The Round screen on the phone: the tabs of the moments of the day, then each"
-" resident with the medication, the dose, the route and the Given button"
+"The Round screen on the phone: the moment of the round, then each resident "
+"with the medication, the dose and the route"
 msgstr ""
-"L'écran Tour sur le téléphone : les onglets des moments de la journée, puis "
-"chaque habitant avec le médicament, la dose, la voie et le bouton Donnée"
-
-#: ../../content/soins-mobile/tour-medicaments.md:27
-msgid "Moments of the day"
-msgstr "Moments de la journée"
-
-#: ../../content/soins-mobile/tour-medicaments.md:29
-msgid ""
-"The tabs at the top are the moments of the round (morning, noon, afternoon, "
-"evening, night). A number gives the doses still to give; a red dot says "
-"doses of that moment were missed."
-msgstr ""
-"Les onglets du haut sont les moments du tour (matin, midi, après-midi, soir,"
-" nuit). Un nombre donne les doses encore à donner ; un point rouge indique "
-"que des doses de ce moment ont été manquées."
-
-#: ../../content/soins-mobile/tour-medicaments.md:33
-msgid "What a dose shows"
-msgstr "Ce que montre une dose"
+"L'écran Tour sur le téléphone : le moment du tour, puis chaque habitant avec"
+" le médicament, la dose et la voie"
 
 #: ../../content/soins-mobile/tour-medicaments.md:35
-msgid "the medication and the dose;"
-msgstr "le médicament et la dose ;"
-
-#: ../../content/soins-mobile/tour-medicaments.md:36
-msgid "the route (oral, sublingual…) and the moment relative to the meal;"
-msgstr "la voie (orale, sublinguale…) et le moment par rapport au repas ;"
+msgid "Choosing the moment"
+msgstr "Choisir le moment"
 
 #: ../../content/soins-mobile/tour-medicaments.md:37
-msgid "the special instructions of the prescription."
-msgstr "les instructions particulières de la prescription."
-
-#: ../../content/soins-mobile/tour-medicaments.md:39
-msgid "Recording a dose given"
-msgstr "Enregistrer une dose donnée"
+msgid ""
+"The button beside the title gives the moment of the round: morning, noon, "
+"afternoon, evening, night, or **All day**. Tap it to change. Each moment "
+"shows the doses it still holds; a **red dot** says doses of that moment were"
+" missed."
+msgstr ""
+"Le bouton à côté du titre donne le moment du tour : matin, midi, après-midi,"
+" soir, nuit, ou **Toute la journée**. Touchez-le pour changer. Chaque moment"
+" montre les doses qu'il contient encore ; un **point rouge** dit que des "
+"doses de ce moment ont été manquées."
 
 #: ../../content/soins-mobile/tour-medicaments.md:41
 msgid ""
-"Tap **Given**. The line then shows the status, the time and who gave it."
+"When the moment chosen has no dose, the screen says **No dose on this "
+"round** and names the round where doses are waiting, with **Go there**."
 msgstr ""
-"Touchez **Donnée**. La ligne montre alors le statut, l'heure et qui l'a "
-"donnée."
+"Quand le moment choisi n'a pas de dose, l'écran dit **Aucune dose sur ce "
+"tour** et nomme le tour où des doses attendent, avec **Y aller**."
 
-#: ../../content/soins-mobile/tour-medicaments.md:43
-msgid "Recording a dose not given"
-msgstr "Enregistrer une dose non donnée"
-
-#: ../../content/soins-mobile/tour-medicaments.md:45
-msgid "Tap the **cross** next to the dose."
-msgstr "Touchez la **croix** à côté de la dose."
+#: ../../content/soins-mobile/tour-medicaments.md:44
+msgid "What a dose shows"
+msgstr "Ce que montre une dose"
 
 #: ../../content/soins-mobile/tour-medicaments.md:46
-msgid "Choose:"
-msgstr "Choisissez :"
-
-#: ../../content/soins-mobile/tour-medicaments.md:47
 msgid ""
-"under **Refused by the resident**, the reason of the refusal, add a remark "
-"if useful, then tap **Record refusal**;"
+"the hour, and the day in red when the dose belongs to another day "
+"(**Yesterday**, a date);"
 msgstr ""
-"sous **Refusée par l'habitant**, le motif du refus, ajoutez une remarque si "
-"c'est utile, puis touchez **Enregistrer le refus** ;"
+"l'heure, et le jour en rouge quand la dose appartient à un autre jour "
+"(**Hier**, une date) ;"
+
+#: ../../content/soins-mobile/tour-medicaments.md:48
+msgid "the medication and the dose;"
+msgstr "le médicament et la dose ;"
 
 #: ../../content/soins-mobile/tour-medicaments.md:49
 msgid ""
-"or, under **Or not given because**, **Not available**, **In hospital** or "
-"**Skipped**."
+"the moment of the round, the route (oral, sublingual…) and the moment "
+"relative to the meal;"
 msgstr ""
-"ou, sous **Ou non donnée parce que**, **Non disponible**, **À l'hôpital** ou"
-" **Sautée**."
+"le moment du tour, la voie (orale, sublinguale…) et le moment par rapport au"
+" repas ;"
 
-#: ../../content/soins-mobile/tour-medicaments.md:52
+#: ../../content/soins-mobile/tour-medicaments.md:51
+msgid ""
+"**If needed**, **Narcotic**, and what changes the act: do not crush, in "
+"food, a glucose first…"
+msgstr ""
+"**Si nécessaire**, **Stupéfiant**, et ce qui change le geste : ne pas "
+"écraser, dans la nourriture, une glycémie d'abord…"
+
+#: ../../content/soins-mobile/tour-medicaments.md:53
+msgid "the special instructions of the prescription."
+msgstr "les instructions particulières de la prescription."
+
+#: ../../content/soins-mobile/tour-medicaments.md:55
+msgid ""
+"When the house tracks its pillboxes, a dose may also show **Not prepared**, "
+"**Issue at the check** or **Missing: the pharmacy is told**. See "
+"[Pillboxes](piluliers.md)."
+msgstr ""
+"Quand la maison suit ses piluliers, une dose peut aussi montrer **Pas "
+"préparée**, **Écart à la vérification** ou **Il en manque : la pharmacie est"
+" prévenue**. Voir [Piluliers](piluliers.md)."
+
+#: ../../content/soins-mobile/tour-medicaments.md:59
+msgid "Recording a dose"
+msgstr "Enregistrer une dose"
+
+#: ../../content/soins-mobile/tour-medicaments.md:61
+msgid ""
+"Swipe the dose to the **right**: **Taken**. The line then shows the status, "
+"the time and who gave it."
+msgstr ""
+"Glissez la dose vers la **droite** : **Prise**. La ligne montre alors le "
+"statut, l'heure et qui l'a donnée."
+
+#: ../../content/soins-mobile/tour-medicaments.md:64
+msgid "Press and hold the dose for the other choices:"
+msgstr "Maintenez le doigt sur la dose pour les autres choix :"
+
+#: ../../content/soins-mobile/tour-medicaments.md:66
+msgid "**Taken** — handed over and seen taken;"
+msgstr "**Prise** — remise et vue prise ;"
+
+#: ../../content/soins-mobile/tour-medicaments.md:67
+msgid ""
+"**Distribute only** — handed over; the intake is still to be seen. The line "
+"then shows the hand icon and the hour. Swipe it **Taken** once seen;"
+msgstr ""
+"**Distribuer seulement** — remise ; la prise reste à voir. La ligne montre "
+"alors l'icône de la main et l'heure. Glissez-la **Prise** une fois vue ;"
+
+#: ../../content/soins-mobile/tour-medicaments.md:69
+msgid "**Not given** — see below;"
+msgstr "**Non donnée** — voir ci-dessous ;"
+
+#: ../../content/soins-mobile/tour-medicaments.md:70
+msgid "**Given earlier** — see below."
+msgstr "**Encoder après coup** — voir ci-dessous."
+
+#: ../../content/soins-mobile/tour-medicaments.md:72
+msgid ""
+"A wrong swipe is taken back with **Undo**, offered for a few seconds. Later,"
+" the record is corrected from the [resident's sheet](habitants.md) by a "
+"nurse or a physician."
+msgstr ""
+"Un mauvais glissement se reprend avec **Annuler**, proposé pendant quelques "
+"secondes. Plus tard, l'enregistrement est corrigé depuis la [fiche de "
+"l'habitant](habitants.md) par un infirmier ou un médecin."
+
+#: ../../content/soins-mobile/tour-medicaments.md:76
+msgid "Tip"
+msgstr "Astuce"
+
+#: ../../content/soins-mobile/tour-medicaments.md:77
+msgid ""
+"A distributed dose whose round is over and that nobody confirmed appears in "
+"the bell under **Intakes to confirm**."
+msgstr ""
+"Une dose distribuée dont le tour est fini et que personne n'a confirmée "
+"apparaît dans la cloche sous **Prises à confirmer**."
+
+#: ../../content/soins-mobile/tour-medicaments.md:81
+msgid "The whole round at once"
+msgstr "Tout le tour d'un coup"
+
+#: ../../content/soins-mobile/tour-medicaments.md:83
+msgid "At the top of the round and under each resident:"
+msgstr "En haut du tour et sous chaque habitant :"
+
+#: ../../content/soins-mobile/tour-medicaments.md:85
+msgid ""
+"**Distribute all** — records every dose shown as distributed, by you, now;"
+msgstr ""
+"**Tout distribuer** — enregistre chaque dose montrée comme distribuée, par "
+"vous, maintenant ;"
+
+#: ../../content/soins-mobile/tour-medicaments.md:86
+msgid "**All taken** — records every distributed dose as taken, by you, now."
+msgstr ""
+"**Tout pris** — enregistre chaque dose distribuée comme prise, par vous, "
+"maintenant."
+
+#: ../../content/soins-mobile/tour-medicaments.md:88
+msgid ""
+"A sheet first says how many doses and residents are concerned, and lists "
+"what is **Left aside** and why: a dose waiting on the phone, an insulin "
+"whose glucose is to read first… Confirm with the button of the sheet. A "
+"refusal or a dose not taken is then recorded dose by dose."
+msgstr ""
+"Un volet dit d'abord combien de doses et d'habitants sont concernés, et "
+"liste ce qui figure sous **Laissées de côté** et pourquoi : une dose en "
+"attente sur le téléphone, une insuline dont la glycémie est à lire d'abord… "
+"Confirmez avec le bouton du volet. Un refus ou une dose non prise "
+"s'enregistre ensuite dose par dose."
+
+#: ../../content/soins-mobile/tour-medicaments.md:93
+msgid "Recording a dose not given"
+msgstr "Enregistrer une dose non donnée"
+
+#: ../../content/soins-mobile/tour-medicaments.md:95
+msgid "Swipe the dose to the **left**."
+msgstr "Glissez la dose vers la **gauche**."
+
+#: ../../content/soins-mobile/tour-medicaments.md:96
+msgid "Choose:"
+msgstr "Choisissez :"
+
+#: ../../content/soins-mobile/tour-medicaments.md:97
+msgid ""
+"under **Refused by the resident**, the reason of the refusal, add a remark "
+"under **Anything worth noting** if useful, then tap **Record refusal**;"
+msgstr ""
+"sous **Refusée par l'habitant**, la raison du refus, ajoutez une remarque "
+"sous **Quelque chose à signaler** si utile, puis touchez **Enregistrer le "
+"refus** ;"
+
+#: ../../content/soins-mobile/tour-medicaments.md:99
+msgid ""
+"or, under **Or not given because**: **Missing: tell the pharmacy**, **In "
+"hospital**, **Skipped** — and **Away** for someone who only comes by day."
+msgstr ""
+"ou, sous **Ou non donnée parce que** : **Il en manque : prévenir la "
+"pharmacie**, **À l'hôpital**, **Omis** — et **Absents** pour quelqu'un qui "
+"ne vient que de jour."
+
+#: ../../content/soins-mobile/tour-medicaments.md:102
+msgid ""
+"**Missing: tell the pharmacy** puts the medication in the house's next order"
+" to the pharmacy."
+msgstr ""
+"**Il en manque : prévenir la pharmacie** met le médicament dans la prochaine"
+" commande de la maison à la pharmacie."
+
+#: ../../content/soins-mobile/tour-medicaments.md:105
+msgid ""
+"For a dose already distributed, the sheet asks **Distributed, and not taken "
+"because**: choose the reason and tap **Record not taken**."
+msgstr ""
+"Pour une dose déjà distribuée, le volet demande **Distribuée, et non prise "
+"parce que** : choisissez la raison et touchez **Noter non prise**."
+
+#: ../../content/soins-mobile/tour-medicaments.md:108
 msgid ""
 "![The window of a dose not given: the refusal reasons, the remark field, "
-"Record refusal, and the Not available, In hospital and Skipped "
-"buttons](../assets/screenshots/soins-mobile/phone-05-tour-non-donnee.png)"
+"Record refusal, and the reasons a dose is not "
+"given](../assets/screenshots/soins-mobile/phone-05-tour-non-donnee.png)"
 msgstr ""
-"![La fenêtre d'une dose non donnée : les motifs de refus, le champ de "
-"remarque, Enregistrer le refus, et les boutons Non disponible, À l'hôpital "
-"et Sautée](../assets/screenshots/soins-mobile/phone-05-tour-non-donnee.png)"
+"![La fenêtre d'une dose non donnée : les raisons de refus, le champ de "
+"remarque, Enregistrer le refus, et les raisons pour lesquelles une dose "
+"n'est pas donnée](../assets/screenshots/soins-mobile/phone-05-tour-non-"
+"donnee.png)"
 
-#: ../../content/soins-mobile/tour-medicaments.md:52
+#: ../../content/soins-mobile/tour-medicaments.md:108
 msgid ""
 "The window of a dose not given: the refusal reasons, the remark field, "
-"Record refusal, and the Not available, In hospital and Skipped buttons"
+"Record refusal, and the reasons a dose is not given"
 msgstr ""
-"La fenêtre d'une dose non donnée : les motifs de refus, le champ de "
-"remarque, Enregistrer le refus, et les boutons Non disponible, À l'hôpital "
-"et Sautée"
+"La fenêtre d'une dose non donnée : les raisons de refus, le champ de "
+"remarque, Enregistrer le refus, et les raisons pour lesquelles une dose "
+"n'est pas donnée"
 
-#: ../../content/soins-mobile/tour-medicaments.md:54
+#: ../../content/soins-mobile/tour-medicaments.md:111
+msgid "A dose given earlier"
+msgstr "Une dose donnée plus tôt"
+
+#: ../../content/soins-mobile/tour-medicaments.md:113
+msgid "A dose given at its hour and recorded only now:"
+msgstr "Une dose donnée à son heure et enregistrée seulement maintenant :"
+
+#: ../../content/soins-mobile/tour-medicaments.md:115
+msgid "Press and hold the dose and choose **Given earlier**."
+msgstr "Maintenez le doigt sur la dose et choisissez **Encoder après coup**."
+
+#: ../../content/soins-mobile/tour-medicaments.md:116
+msgid ""
+"Under **Given at**, enter the hour it was given. The hour of the round is "
+"proposed."
+msgstr ""
+"Sous **Donnée à**, saisissez l'heure à laquelle elle a été donnée. L'heure "
+"du tour est proposée."
+
+#: ../../content/soins-mobile/tour-medicaments.md:118
+msgid "Tap **Record as given**."
+msgstr "Touchez **Encoder comme donnée**."
+
+#: ../../content/soins-mobile/tour-medicaments.md:120
+msgid ""
+"The record keeps this hour, your name, and that it was written afterwards. "
+"The line then shows **recorded afterwards**. A dose of a day already over "
+"can only be recorded this way. An hour still to come is refused."
+msgstr ""
+"L'enregistrement garde cette heure, votre nom, et le fait qu'il a été écrit "
+"après coup. La ligne montre alors **encodée après coup**. Une dose d'un jour"
+" déjà fini ne peut être enregistrée que de cette façon. Une heure encore à "
+"venir est refusée."
+
+#: ../../content/soins-mobile/tour-medicaments.md:124
+msgid "Glucose before an insulin"
+msgstr "Glycémie avant une insuline"
+
+#: ../../content/soins-mobile/tour-medicaments.md:126
+msgid ""
+"An insulin asks for the capillary glucose first. When you record it as "
+"taken, a sheet asks the **Capillary glucose (mg/dL)**:"
+msgstr ""
+"Une insuline demande d'abord la glycémie capillaire. Quand vous "
+"l'enregistrez comme prise, un volet demande la **Glycémie capillaire "
+"(mg/dL)** :"
+
+#: ../../content/soins-mobile/tour-medicaments.md:129
+msgid "enter the value and tap **Taken, glucose recorded**;"
+msgstr "saisissez la valeur et touchez **Prise, glycémie notée** ;"
+
+#: ../../content/soins-mobile/tour-medicaments.md:130
+msgid "or tap **Taken, no glucose read**."
+msgstr "ou touchez **Prise, sans glycémie**."
+
+#: ../../content/soins-mobile/tour-medicaments.md:132
+msgid "An impossible value is refused with the range accepted."
+msgstr "Une valeur impossible est refusée, avec la plage acceptée."
+
+#: ../../content/soins-mobile/tour-medicaments.md:134
+msgid "Unplanned medication or care"
+msgstr "Médicament ou soin non prévu"
+
+#: ../../content/soins-mobile/tour-medicaments.md:136
+msgid ""
+"The **+** button at the top records a medication that is not on the "
+"treatment sheet, or a care nobody planned. See [New task](nouvelle-"
+"tache.md)."
+msgstr ""
+"Le bouton **+** en haut enregistre un médicament qui n'est pas sur la fiche "
+"de traitement, ou un soin que personne n'a prévu. Voir [Nouvelle "
+"tâche](nouvelle-tache.md)."
+
+#: ../../content/soins-mobile/tour-medicaments.md:139
+msgid "Pillboxes"
+msgstr "Piluliers"
+
+#: ../../content/soins-mobile/tour-medicaments.md:141
+msgid ""
+"For the nurses, the **pillboxes** button at the top opens the preparation "
+"and the check of the pillboxes. See [Pillboxes](piluliers.md)."
+msgstr ""
+"Pour les infirmiers, le bouton **piluliers** en haut ouvre la préparation et"
+" la vérification des piluliers. Voir [Piluliers](piluliers.md)."
+
+#: ../../content/soins-mobile/tour-medicaments.md:144
 msgid "Note"
 msgstr "Remarque"
 
-#: ../../content/soins-mobile/tour-medicaments.md:55
+#: ../../content/soins-mobile/tour-medicaments.md:145
 msgid ""
 "The administrations recorded here are the same as in the back office: they "
 "feed the resident's history and the refusal counters of the prescription. "
@@ -199,3 +460,23 @@ msgstr ""
 "Les administrations enregistrées ici sont les mêmes qu'au bureau : elles "
 "alimentent l'historique de l'habitant et les compteurs de refus de la "
 "prescription. Voir [Prescriptions](../soins/prescriptions.md)."
+
+#: ../../content/soins-mobile/tour-medicaments.md:150
+msgid "Going further"
+msgstr "Pour aller plus loin"
+
+#: ../../content/soins-mobile/tour-medicaments.md:152
+msgid ""
+"[The medication round at the desk](../medicaments/tour.md) — corrections and"
+" incidents."
+msgstr ""
+"[Le tour des médicaments au bureau](../medicaments/tour.md) — corrections et"
+" incidents."
+
+#: ../../content/soins-mobile/tour-medicaments.md:153
+msgid "[Pillboxes and the pharmacy's sachets](../medicaments/piluliers.md)"
+msgstr "[Piluliers et sachets de la pharmacie](../medicaments/piluliers.md)"
+
+#: ../../content/soins-mobile/tour-medicaments.md:154
+msgid "[Medicines](../medicaments/index.md)"
+msgstr "[Médicaments](../medicaments/index.md)"

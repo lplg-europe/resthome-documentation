@@ -67,9 +67,16 @@ Two columns correct the quarters on each row:
   spent in the day care centre.
 
 **Present** is then the average of the four quarters, less the Maribel FTE,
-plus the shared staff's day care share. A newly approved centre ticks **Newly
-Approved** and types the FTE employed on the snapshot day instead of the four
-quarters.
+plus the shared staff's day care share.
+
+### A newly approved centre
+
+A centre approved too recently to have four quarters behind it ticks **Newly
+Approved**. The check then reads a single day, the **Snapshot Day**:
+
+- **Users on the Snapshot Day** replaces the billed days of the quarters;
+- each staff row asks for its **FTE on the snapshot day** instead of the four
+  quarters.
 
 ## 4. Read the verdict
 
@@ -111,6 +118,15 @@ nurses, A1 and A2 together; the **Nurse A1** row shows 0 in these columns, and
 its 0 % never counts in the verdict.
 
 ![A staffing norm check: the verdict banner, a norm held at 91.8 % by the therapists, the four quarters of billed days, and the staff rows with their FTE, norm and norm held](../../assets/screenshots/centre-de-jour/12-norme-personnel.png)
+
+In the list of checks, a year whose norm is held shows in green, a reduced
+forfait in orange and a withdrawn forfait in red.
+
+### Print the check
+
+**Print → Staffing norm check** prints the check for an inspection: the billed
+days and users of the four quarters, the staff of the centre in FTE, and the
+norm and result after compensation of each qualification.
 
 ## 5. Apply the verdict to the billing
 

@@ -17,6 +17,9 @@ Does a debtor see what the others pay?
 
 Why is a debtor missing an invoice?
 : Because their share rounds to zero everywhere. No invoice is produced for an amount of zero.
+
+How do I find the statement from a debtor's invoice?
+: The Resident Statement smart button on the debtor's invoice opens it; on the statement, the Deposits smart button lists the debtors' invoices.
 :::
 
 Generating the invoices of a month produces, for a resident in split billing,
@@ -53,6 +56,29 @@ Each debtor receives a real invoice, in the usual resident journal:
 The PDF carries a second page, **Resident Invoice**, which repeats the whole
 month — without the deduction lines, so nobody reads what the others pay.
 
+The statement and the debtors' invoices are linked: the **Deposits** smart
+button on the statement lists the debtors' invoices, and the **Resident
+Statement** smart button on each of them leads back.
+
+## In the billing period
+
+The period's **Invoices** tab lists the statement and every debtor's invoice,
+with an **Invoiced To** column naming who receives each one. The amounts are
+**signed**: a credit note to a debtor counts against the invoices beside it,
+and the totals at the bottom add up what is really owed.
+
+## Other documents split the same way
+
+- **The admission invoice** — the first accommodation of a stay, billed at
+  admission, produces a statement and one invoice per debtor too.
+- **The switch month** — when a resident moves to split billing in advance
+  during a stay, the catch-up of the switch month is a statement plus one
+  invoice per debtor, labelled as the switch month.
+- **A posted admission invoice to adjust** — when the invoice type changes
+  after the admission invoice was posted, the adjustment is settled with each
+  debtor who was invoiced. See
+  [Invoice type](../facturation/type-de-facture.md).
+
 ## Rounding
 
 An agreed **fixed amount** is invoiced to the cent; what remains falls on the
@@ -70,5 +96,6 @@ An agreed **fixed amount** is invoiced to the cent; what remains falls on the
 ## What's next
 
 - [Setting up a split](configuration.md)
+- [Invoice type](../facturation/type-de-facture.md)
 - [Invoicing a month, step by step](../facturation/facturer-un-mois.md)
 - [Departure and death](../facturation/depart-deces.md)

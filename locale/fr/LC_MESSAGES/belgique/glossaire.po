@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 15:49+0200\n"
+"POT-Creation-Date: 2026-11-08 19:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -27,12 +27,13 @@ msgstr "Glossaire — Belgique"
 #: ../../content/belgique/glossaire.md:8
 msgid ""
 "Glossary of the Belgian terms and acronyms used in Resthome and in Belgian "
-"nursing-home billing: INAMI, Katz, NISS, OA, MDA, eFact, eAgreement, "
-"annexes, AViQ, CPAS."
+"nursing-home billing: INAMI, approval, Katz, NISS, eID, OA, MDA, eFact, "
+"eAgreement, eHealthBox, CoBRHA, MediPrima, annexes, AViQ, CPAS."
 msgstr ""
 "Glossaire des termes et sigles belges utilisés dans Resthome et dans la "
-"facturation des maisons de repos en Belgique : INAMI, Katz, NISS, OA, MDA, "
-"eFact, eAgreement, annexes, AViQ, CPAS."
+"facturation des maisons de repos en Belgique : INAMI, agrément, Katz, NISS, "
+"eID, OA, MDA, eFact, eAgreement, eHealthBox, CoBRHA, MediPrima, annexes, "
+"AViQ, CPAS."
 
 #: ../../content/belgique/glossaire.md:11
 msgid ""
@@ -103,10 +104,42 @@ msgstr ""
 "de frais (Annexe 12)](note-de-frais-annexe12.md)"
 
 #: ../../content/belgique/glossaire.md:42
+msgid "APB number"
+msgstr "Numéro APB"
+
+#: ../../content/belgique/glossaire.md:44
+msgid ""
+"The number of a Belgian pharmacy that HomeLink files are addressed to. A "
+"pharmacy needs one to appear in the list of pharmacies. See: [The pharmacy "
+"link](medicaments-lien-pharmacie.md)"
+msgstr ""
+"Le numéro d'une pharmacie belge auquel les fichiers HomeLink sont adressés. "
+"Une pharmacie en a besoin pour apparaître dans la liste des pharmacies. Voir"
+" : [Le lien avec la pharmacie](medicaments-lien-pharmacie.md)"
+
+#: ../../content/belgique/glossaire.md:48
+msgid "Approval"
+msgstr "Agrément"
+
+#: ../../content/belgique/glossaire.md:50
+msgid ""
+"The **INAMI approval** of a facility: its INAMI number, its establishment "
+"type and, per sector (MR, MRS, CSJ), the number of approved beds. Each "
+"approval carries its own eHealth certificate and its eFact settings, in "
+"**Healthcare → Configuration → General → Approvals**. See: [Belgian "
+"settings](reglages.md)"
+msgstr ""
+"L'**agrément INAMI** d'un établissement : son numéro INAMI, son type "
+"d'établissement et, par secteur (MR, MRS, CSJ), le nombre de lits agréés. "
+"Chaque agrément porte son propre certificat eHealth et ses réglages eFact, "
+"dans **Santé → Configuration → Général → Agréments**. Voir : [Réglages "
+"belges](reglages.md)"
+
+#: ../../content/belgique/glossaire.md:56
 msgid "AViQ"
 msgstr "AViQ"
 
-#: ../../content/belgique/glossaire.md:44
+#: ../../content/belgique/glossaire.md:58
 msgid ""
 "The Walloon agency that sets the rates of the dependency allowance and funds"
 " the facility through the **institutional allowance**. Under the AViQ rates,"
@@ -118,11 +151,11 @@ msgstr ""
 " forfait de dépendance est du **même montant pour toutes les catégories "
 "Katz**. Voir : [Forfait institutionnel](forfait/index.md)"
 
-#: ../../content/belgique/glossaire.md:49
+#: ../../content/belgique/glossaire.md:63
 msgid "BIM (status)"
 msgstr "BIM (statut)"
 
-#: ../../content/belgique/glossaire.md:51
+#: ../../content/belgique/glossaire.md:65
 msgid ""
 "**Increased-reimbursement beneficiary**: a social status granting the right "
 "to better reimbursement. The MDA pulls it automatically onto the resident's "
@@ -132,11 +165,42 @@ msgstr ""
 "un meilleur remboursement. Le MDA le remonte automatiquement sur la fiche de"
 " l'habitant. Voir : [Assurabilité (MDA)](ehealth/mda.md)"
 
-#: ../../content/belgique/glossaire.md:55
+#: ../../content/belgique/glossaire.md:69
+msgid "CNK"
+msgstr "CNK"
+
+#: ../../content/belgique/glossaire.md:71
+msgid ""
+"The national code of a medicine package in Belgium, read from SAM. A "
+"medicine without CNK stays in the **Catalogue Without CNK**. See: "
+"[Medication rules in Belgium](medicaments-regles.md)"
+msgstr ""
+"Le code national d'un conditionnement de médicament en Belgique, lu dans "
+"SAM. Un médicament sans CNK reste dans le **Catalogue sans CNK**. Voir : "
+"[Les règles de la médication en Belgique](medicaments-regles.md)"
+
+#: ../../content/belgique/glossaire.md:75
+msgid "CoBRHA"
+msgstr "CoBRHA"
+
+#: ../../content/belgique/glossaire.md:77
+msgid ""
+"The federal register of the **healthcare professionals and institutions**, "
+"kept by eHealth. Resthome looks a NIHII up there and keeps the answer 30 "
+"days, for example to name a resident's reference pharmacy or general "
+"practitioner. See: [Health Directory and CoBRHA](ehealth/annuaire-sante.md)"
+msgstr ""
+"Le registre fédéral des **professionnels et institutions de santé**, tenu "
+"par eHealth. Resthome y recherche un numéro INAMI et garde la réponse 30 "
+"jours, par exemple pour nommer la pharmacie de référence ou le médecin "
+"généraliste d'un habitant. Voir : [Annuaire Santé et "
+"CoBRHA](ehealth/annuaire-sante.md)"
+
+#: ../../content/belgique/glossaire.md:82
 msgid "CPAS"
 msgstr "CPAS"
 
-#: ../../content/belgique/glossaire.md:57
+#: ../../content/belgique/glossaire.md:84
 msgid ""
 "**Public Centre for Social Welfare** of the resident's municipality. It can "
 "cover all or part of the resident's personal share (accommodation and "
@@ -148,11 +212,11 @@ msgstr ""
 "(hébergement et suppléments) — jamais le forfait de dépendance, qui va à la "
 "mutuelle. Voir : [La prise en charge CPAS](cpas.md)"
 
-#: ../../content/belgique/glossaire.md:62
+#: ../../content/belgique/glossaire.md:89
 msgid "CSJ (day care centre)"
 msgstr "CSJ (centre de soins de jour)"
 
-#: ../../content/belgique/glossaire.md:64
+#: ../../content/belgique/glossaire.md:91
 msgid ""
 "**Day care centre** (*centre de soins de jour*): a centre whose users live "
 "at home and come for the day. Its forfait is paid per day that earns it — "
@@ -165,11 +229,11 @@ msgstr ""
 "**Fd** et **D**. Voir : [Centre de soins de jour (CSJ)](centre-de-"
 "jour/index.md)"
 
-#: ../../content/belgique/glossaire.md:69
+#: ../../content/belgique/glossaire.md:96
 msgid "Day place"
 msgstr "Place de jour"
 
-#: ../../content/belgique/glossaire.md:71
+#: ../../content/belgique/glossaire.md:98
 msgid ""
 "A **place in a day room**, shared by the day care users who come on "
 "different days — never a licensed bed. A day care stay only goes in a day "
@@ -181,11 +245,11 @@ msgstr ""
 "CSJ ne va que sur une place de jour, et un séjour résidentiel jamais. Voir :"
 " [Configurer un centre de jour](centre-de-jour/configuration.md)"
 
-#: ../../content/belgique/glossaire.md:76
+#: ../../content/belgique/glossaire.md:103
 msgid "eAgreement"
 msgstr "eAgreement"
 
-#: ../../content/belgique/glossaire.md:78
+#: ../../content/belgique/glossaire.md:105
 msgid ""
 "**Care coverage agreement** (linked to the Katz category and the package), "
 "exchanged electronically with the health insurance fund via eHealth. See: "
@@ -195,11 +259,11 @@ msgstr ""
 "forfait), échangé électroniquement avec la mutuelle via eHealth. Voir : "
 "[Accords (eAgreement)](ehealth/eagreement.md)"
 
-#: ../../content/belgique/glossaire.md:82
+#: ../../content/belgique/glossaire.md:109
 msgid "eAgreement Light"
 msgstr "eAgreement Light"
 
-#: ../../content/belgique/glossaire.md:84
+#: ../../content/belgique/glossaire.md:111
 msgid ""
 "The **simple notifications** tied to the resident's **movements** "
 "(admission, absence, departure, return) that Resthome generates "
@@ -210,11 +274,54 @@ msgstr ""
 "(admission, absence, départ, retour), que Resthome génère automatiquement au"
 " fil de vos actions. Voir : [Accords (eAgreement)](ehealth/eagreement.md)"
 
-#: ../../content/belgique/glossaire.md:88
+#: ../../content/belgique/glossaire.md:115
+msgid "eHealth consent"
+msgstr "Consentement eHealth"
+
+#: ../../content/belgique/glossaire.md:117
+msgid ""
+"The patient's agreement to the **exchange of their health data** between the"
+" caregivers who treat them, registered at eHealth. See: [eHealth "
+"consent](ehealth/consentement.md)"
+msgstr ""
+"L'accord du patient à l'**échange de ses données de santé** entre les "
+"soignants qui le traitent, enregistré auprès d'eHealth. Voir : [Le "
+"consentement eHealth](ehealth/consentement.md)"
+
+#: ../../content/belgique/glossaire.md:121
+msgid "eHealthBox"
+msgstr "eHealthBox"
+
+#: ../../content/belgique/glossaire.md:123
+msgid ""
+"The **secure mailbox** of the eHealth platform, addressed by NIHII or "
+"company number, in which caregivers and institutions exchange encrypted "
+"messages. See: [The eHealthBox](ehealth/ehealthbox.md)"
+msgstr ""
+"La **boîte aux lettres sécurisée** de la plateforme eHealth, adressée par "
+"numéro INAMI ou numéro d'entreprise, dans laquelle soignants et institutions"
+" échangent des messages chiffrés. Voir : "
+"[L'eHealthBox](ehealth/ehealthbox.md)"
+
+#: ../../content/belgique/glossaire.md:127
+msgid "eID"
+msgstr "eID"
+
+#: ../../content/belgique/glossaire.md:129
+msgid ""
+"The Belgian **electronic identity card**. Read with a card reader, it fills "
+"in a resident's identity and NISS. See: [Reading the eID card](lecture-"
+"eid.md)"
+msgstr ""
+"La **carte d'identité électronique** belge. Lue avec un lecteur de cartes, "
+"elle renseigne l'identité et le NISS d'un habitant. Voir : [Lire la carte "
+"eID](lecture-eid.md)"
+
+#: ../../content/belgique/glossaire.md:133
 msgid "eFact"
 msgstr "eFact"
 
-#: ../../content/belgique/glossaire.md:90
+#: ../../content/belgique/glossaire.md:135
 msgid ""
 "**Electronic** transmission of the **insurer's share** (the INAMI package) "
 "to the health insurers over the eHealth / MyCareNet network, with tracking "
@@ -226,11 +333,11 @@ msgstr ""
 "réception, des décomptes, des acceptations et des rejets. Voir : "
 "[Facturation électronique (eFact)](ehealth/efact.md)"
 
-#: ../../content/belgique/glossaire.md:95
+#: ../../content/belgique/glossaire.md:140
 msgid "eFact batch"
 msgstr "Lot eFact"
 
-#: ../../content/belgique/glossaire.md:97
+#: ../../content/belgique/glossaire.md:142
 msgid ""
 "An **electronic file** grouping the packages of one eFact transmission. "
 "Resthome builds **one batch per insurer union**. See: [Electronic invoicing "
@@ -240,11 +347,11 @@ msgstr ""
 "eFact. Resthome constitue **un lot par union de mutualités**. Voir : "
 "[Facturation électronique (eFact)](ehealth/efact.md)"
 
-#: ../../content/belgique/glossaire.md:101
+#: ../../content/belgique/glossaire.md:146
 msgid "eFact Cockpit"
 msgstr "Cockpit eFact"
 
-#: ../../content/belgique/glossaire.md:103
+#: ../../content/belgique/glossaire.md:148
 msgid ""
 "**Monitoring** view for electronic billing: the status of all batches and "
 "transmissions at a glance (transmitted, accepted, rejected, pending). See: "
@@ -254,11 +361,11 @@ msgstr ""
 " de toutes les transmissions en un coup d'œil (transmis, acceptés, rejetés, "
 "en attente). Voir : [Facturation électronique (eFact)](ehealth/efact.md)"
 
-#: ../../content/belgique/glossaire.md:107
+#: ../../content/belgique/glossaire.md:152
 msgid "eHealth"
 msgstr "eHealth"
 
-#: ../../content/belgique/glossaire.md:109
+#: ../../content/belgique/glossaire.md:154
 msgid ""
 "Belgian platform for **secure electronic exchanges** in healthcare. Resthome"
 " uses it for the MDA, the eAgreement and eFact (via MyCareNet / WalCareNet)."
@@ -268,11 +375,43 @@ msgstr ""
 "santé. Resthome l'utilise pour le MDA, l'eAgreement et l'eFact (via "
 "MyCareNet / WalCareNet). Voir : [eHealth](ehealth/index.md)"
 
-#: ../../content/belgique/glossaire.md:113
+#: ../../content/belgique/glossaire.md:158
+msgid "Health Directory"
+msgstr "Annuaire Santé"
+
+#: ../../content/belgique/glossaire.md:160
+msgid ""
+"The search screen over the eHealth registers of **professionals and "
+"institutions**: by name, NIHII, NISS or company number. See: [Health "
+"Directory and CoBRHA](ehealth/annuaire-sante.md)"
+msgstr ""
+"L'écran de recherche dans les registres eHealth des **professionnels et "
+"institutions** : par nom, numéro INAMI, NISS ou numéro d'entreprise. Voir : "
+"[Annuaire Santé et CoBRHA](ehealth/annuaire-sante.md)"
+
+#: ../../content/belgique/glossaire.md:164
+msgid "HomeLink"
+msgstr "HomeLink"
+
+#: ../../content/belgique/glossaire.md:166
+msgid ""
+"The protocol Belgian care homes and pharmacies exchange files with: "
+"**Therapylink** (the medication schedule), **Doselink** (the sachets), "
+"**Orderlink** (the orders), **Stocklink** and **Invoicelink** (the "
+"pharmacy's stock and invoices). See: [The pharmacy link](medicaments-lien-"
+"pharmacie.md)"
+msgstr ""
+"Le protocole par lequel les maisons de repos et les pharmacies belges "
+"échangent des fichiers : **Therapylink** (le schéma de médication), "
+"**Doselink** (les sachets), **Orderlink** (les commandes), **Stocklink** et "
+"**Invoicelink** (le stock et les factures de la pharmacie). Voir : [Le lien "
+"avec la pharmacie](medicaments-lien-pharmacie.md)"
+
+#: ../../content/belgique/glossaire.md:172
 msgid "INAMI"
 msgstr "INAMI"
 
-#: ../../content/belgique/glossaire.md:115
+#: ../../content/belgique/glossaire.md:174
 msgid ""
 "**National Institute for Health and Disability Insurance** (in Dutch: "
 "RIZIV). The federal body that sets the rules and the packages for health-"
@@ -282,11 +421,11 @@ msgstr ""
 "RIZIV). L'organisme fédéral qui fixe les règles et les forfaits de "
 "l'assurance soins de santé."
 
-#: ../../content/belgique/glossaire.md:118
+#: ../../content/belgique/glossaire.md:177
 msgid "INAMI package"
 msgstr "Forfait INAMI"
 
-#: ../../content/belgique/glossaire.md:120
+#: ../../content/belgique/glossaire.md:179
 msgid ""
 "**Daily** amount covered by the health insurance fund for care, determined "
 "by the resident's **Katz category** and calculated on their **days of "
@@ -296,11 +435,11 @@ msgstr ""
 "déterminé par la **catégorie Katz** de l'habitant et calculé sur ses **jours"
 " de présence**. Voir : [Le forfait INAMI (dépendance)](forfait-inami.md)"
 
-#: ../../content/belgique/glossaire.md:124
+#: ../../content/belgique/glossaire.md:183
 msgid "Institutional allowance"
 msgstr "Forfait institutionnel"
 
-#: ../../content/belgique/glossaire.md:126
+#: ../../content/belgique/glossaire.md:185
 msgid ""
 "What the facility receives per day and per resident for a funding year, "
 "computed from the days billed to the health insurers and the staff present "
@@ -311,11 +450,11 @@ msgstr ""
 "personnel présent sur la période de référence. Voir : [Forfait "
 "institutionnel](forfait/index.md)"
 
-#: ../../content/belgique/glossaire.md:130
+#: ../../content/belgique/glossaire.md:189
 msgid "Insurer (OA)"
 msgstr "Organisme assureur (OA)"
 
-#: ../../content/belgique/glossaire.md:132
+#: ../../content/belgique/glossaire.md:191
 msgid ""
 "The resident's **health insurance fund** (*mutualité*, *organisme "
 "assureur*), recipient of the INAMI share via eFact. Insurers are grouped "
@@ -325,11 +464,11 @@ msgstr ""
 " part INAMI via eFact. Les mutuelles sont regroupées en grandes **unions**. "
 "Voir : [Assurabilité (MDA)](ehealth/mda.md)"
 
-#: ../../content/belgique/glossaire.md:136
+#: ../../content/belgique/glossaire.md:195
 msgid "Insurer union"
 msgstr "Union de mutuelles"
 
-#: ../../content/belgique/glossaire.md:138
+#: ../../content/belgique/glossaire.md:197
 msgid ""
 "The large **families of insurers** used to group eFact transmissions: "
 "**100** (Alliance nationale), **300** (Solidaris), **500** (Union "
@@ -341,29 +480,32 @@ msgstr ""
 "**500** (Union nationale), **600** (CAAMI), **900** (HR Rail)… Voir : "
 "[Facturation électronique (eFact)](ehealth/efact.md)"
 
-#: ../../content/belgique/glossaire.md:143
+#: ../../content/belgique/glossaire.md:202
 msgid "Katz (scale)"
 msgstr "Katz (échelle de)"
 
-#: ../../content/belgique/glossaire.md:145
+#: ../../content/belgique/glossaire.md:204
 msgid ""
-"Scale measuring a resident's **degree of dependency** across 6 criteria "
-"(washing, dressing, transfer and mobility, using the toilet, continence, "
-"eating), each rated from 1 to 4. It determines the **category** (**O**, "
-"**A**, **B**, **C**, **Cd / Cc**) and therefore the package. See: [The Katz "
-"assessment](katz.md)"
+"Scale measuring a resident's **degree of dependency**: six daily activities "
+"(washing, dressing, transferring, toileting, continence, eating) and the "
+"orientation in time and space, each rated from 1 to 4. It determines the "
+"**category** (**O**, **A**, **B**, **C**, **Cd**, **D**, **Ccoma**) and "
+"therefore the package. Without a validated assessment, there is no category:"
+" see **No Katz**. See: [The Katz assessment](katz.md)"
 msgstr ""
-"Échelle mesurant le **degré de dépendance** d'un habitant sur 6 critères (se"
-" laver, s'habiller, transfert et déplacements, aller à la toilette, "
-"continence, manger), cotés de 1 à 4. Elle détermine la **catégorie** (**O**,"
-" **A**, **B**, **C**, **Cd / Cc**) et donc le forfait. Voir : [L'évaluation "
+"Échelle mesurant le **degré de dépendance** d'un habitant : six activités de"
+" la vie quotidienne (se laver, s'habiller, transfert, aller à la toilette, "
+"continence, manger) et l'orientation dans le temps et l'espace, cotées "
+"chacune de 1 à 4. Elle détermine la **catégorie** (**O**, **A**, **B**, "
+"**C**, **Cd**, **D**, **Ccoma**) et donc le forfait. Sans évaluation "
+"validée, pas de catégorie : voir **Pas de Katz**. Voir : [L'évaluation "
 "Katz](katz.md)"
 
-#: ../../content/belgique/glossaire.md:151
+#: ../../content/belgique/glossaire.md:211
 msgid "MDA (insurability)"
 msgstr "MDA (assurabilité)"
 
-#: ../../content/belgique/glossaire.md:153
+#: ../../content/belgique/glossaire.md:213
 msgid ""
 "*Member Data* — the **check of a resident's insurability** and of their "
 "**exact health insurance fund** with MyCareNet / WalCareNet for a given "
@@ -375,11 +517,25 @@ msgstr ""
 "donnée. Préalable indispensable à l'eFact. Voir : [Assurabilité "
 "(MDA)](ehealth/mda.md)"
 
-#: ../../content/belgique/glossaire.md:158
+#: ../../content/belgique/glossaire.md:218
+msgid "MediPrima"
+msgstr "MediPrima"
+
+#: ../../content/belgique/glossaire.md:220
+msgid ""
+"The federal register of the **medical aid decisions** a CPAS takes for a "
+"person who has no mutuality: the medical card states what the CPAS covers. "
+"See: [CPAS coverage](cpas.md)"
+msgstr ""
+"Le registre fédéral des **décisions d'aide médicale** qu'un CPAS prend pour "
+"une personne sans mutuelle : la carte médicale indique ce que le CPAS "
+"couvre. Voir : [La prise en charge CPAS](cpas.md)"
+
+#: ../../content/belgique/glossaire.md:224
 msgid "MR / MRS"
 msgstr "MR / MRS"
 
-#: ../../content/belgique/glossaire.md:160
+#: ../../content/belgique/glossaire.md:226
 msgid ""
 "**Rest home** (MR) and **rest and care home** (MRS) — the two types of "
 "residential facility for the elderly, with distinct care levels and "
@@ -392,11 +548,11 @@ msgstr ""
 " le terme *woonzorgcentrum*). Voir : [Admettre un habitant en "
 "Belgique](admission.md)"
 
-#: ../../content/belgique/glossaire.md:165
+#: ../../content/belgique/glossaire.md:231
 msgid "MyCareNet / WalCareNet"
 msgstr "MyCareNet / WalCareNet"
 
-#: ../../content/belgique/glossaire.md:167
+#: ../../content/belgique/glossaire.md:233
 msgid ""
 "The health insurance funds' **electronic gateways** (via eHealth) that "
 "Resthome queries for the MDA, the eAgreement and eFact. WalCareNet is the "
@@ -406,11 +562,11 @@ msgstr ""
 "interroge pour le MDA, l'eAgreement et l'eFact. WalCareNet est le pendant "
 "wallon."
 
-#: ../../content/belgique/glossaire.md:170
+#: ../../content/belgique/glossaire.md:236
 msgid "NISS"
 msgstr "NISS"
 
-#: ../../content/belgique/glossaire.md:172
+#: ../../content/belgique/glossaire.md:238
 msgid ""
 "**Social Security Identification Number** (the national register number). "
 "Essential for sending a resident's MDA and eAgreement agreements. See: "
@@ -420,11 +576,27 @@ msgstr ""
 "national). Indispensable pour transmettre le MDA et les accords eAgreement "
 "d'un habitant. Voir : [Admettre un habitant en Belgique](admission.md)"
 
-#: ../../content/belgique/glossaire.md:176
+#: ../../content/belgique/glossaire.md:242
+msgid "No Katz"
+msgstr "Pas de Katz"
+
+#: ../../content/belgique/glossaire.md:244
+msgid ""
+"What a resident's row shows in a billing period when they have **no "
+"validated Katz assessment**: their accommodation is billed, but no INAMI "
+"allowance. Validate the assessment, then regenerate the period. See: [The "
+"Katz assessment](katz.md)"
+msgstr ""
+"Ce qu'affiche la ligne d'un habitant dans une période de facturation quand "
+"il n'a **aucune évaluation Katz validée** : son hébergement est facturé, "
+"mais aucun forfait INAMI. Validez l'évaluation, puis régénérez la période. "
+"Voir : [L'évaluation Katz](katz.md)"
+
+#: ../../content/belgique/glossaire.md:249
 msgid "Noon rule"
 msgstr "Règle de midi"
 
-#: ../../content/belgique/glossaire.md:178
+#: ../../content/belgique/glossaire.md:251
 msgid ""
 "Day-counting convention: it is **presence at noon** (Brussels time) that "
 "determines whether a day counts toward the package, hence the importance of "
@@ -436,11 +608,27 @@ msgstr ""
 "l'importance des dates et heures de départ et de retour. Voir : [Facturer un"
 " mois en Belgique](facturation.md)"
 
-#: ../../content/belgique/glossaire.md:183
+#: ../../content/belgique/glossaire.md:256
+msgid "PMI"
+msgstr "PMI"
+
+#: ../../content/belgique/glossaire.md:258
+msgid ""
+"The individual preparation of medication: the pharmacy prepares the "
+"medicines in a sachet per resident and per moment; the sachets may be used "
+"for fourteen days from the delivery. See: [Medication rules in "
+"Belgium](medicaments-regles.md)"
+msgstr ""
+"La préparation de médication individuelle : la pharmacie prépare les "
+"médicaments en un sachet par habitant et par moment ; les sachets peuvent "
+"être utilisés quatorze jours à partir de la livraison. Voir : [Les règles de"
+" la médication en Belgique](medicaments-regles.md)"
+
+#: ../../content/belgique/glossaire.md:263
 msgid "Pseudo-code"
 msgstr "Pseudo-code"
 
-#: ../../content/belgique/glossaire.md:185
+#: ../../content/belgique/glossaire.md:265
 msgid ""
 "The code under which the allowance is billed to the health insurance fund: "
 "each Katz category (for example **770501** for category **O**) and each CSJ "
@@ -456,11 +644,11 @@ msgstr ""
 "déclaration. Dites toujours **pseudo-code**, jamais « code INAMI ». Voir : "
 "[Facturer un mois en Belgique](facturation.md)"
 
-#: ../../content/belgique/glossaire.md:192
+#: ../../content/belgique/glossaire.md:272
 msgid "Reintegration"
 msgstr "Réintégration"
 
-#: ../../content/belgique/glossaire.md:194
+#: ../../content/belgique/glossaire.md:274
 msgid ""
 "Shifting lines **from the resident to the health insurance fund** (or the "
 "reverse) when insurability changes between two MDA checks (loss then return "
@@ -470,27 +658,59 @@ msgstr ""
 "l'assurabilité change entre deux contrôles MDA (perte puis retour "
 "d'assurabilité, par exemple). Voir : [Assurabilité (MDA)](ehealth/mda.md)"
 
-#: ../../content/belgique/glossaire.md:199
+#: ../../content/belgique/glossaire.md:279
+msgid "RS (serviced residence)"
+msgstr "RS (résidence-services)"
+
+#: ../../content/belgique/glossaire.md:281
+msgid ""
+"A serviced residence (résidence-services): flats for independent elderly "
+"people, under the regional regime, possibly beside an MR/MRS. See: [Serviced"
+" residences in Belgium](residences-services.md)"
+msgstr ""
+"Une résidence-services : des logements pour des personnes âgées autonomes, "
+"sous le régime régional, éventuellement à côté d'une MR/MRS. Voir : [Les "
+"résidences-services en Belgique](residences-services.md)"
+
+#: ../../content/belgique/glossaire.md:285
 msgid "SAM"
 msgstr "SAM"
 
-#: ../../content/belgique/glossaire.md:201
+#: ../../content/belgique/glossaire.md:287
 msgid ""
 "The Belgian **authentic-source medication database**, with the ATC code, the"
-" BCFI class, the Black Triangle and the SmPC / leaflet, searched with the "
-"**Search SAM** wizard. See: [The SAM medication database](sam-base-"
-"medicaments.md)"
+" BCFI class, the Black Triangle and the SmPC / leaflet. A new medicine is "
+"searched in it with **Find the medicine in SAM**; the **SAM Database** door "
+"of the Medicines workstation opens it read-only. See: [The SAM medication "
+"database](sam-base-medicaments.md)"
 msgstr ""
 "La **base de données belge des médicaments de source authentique**, avec le "
-"code ATC, la classe BCFI, le triangle noir et le RCP / la notice, consultée "
-"avec l'assistant **Rechercher SAM**. Voir : [La base de médicaments "
-"SAM](sam-base-medicaments.md)"
+"code ATC, la classe BCFI, le triangle noir et le RCP / la notice. Un nouveau"
+" médicament s'y cherche avec **Chercher le médicament dans SAM** ; la porte "
+"**Base de données SAM** du poste Médicaments l'ouvre en lecture seule. Voir "
+": [La base de médicaments SAM](sam-base-medicaments.md)"
 
-#: ../../content/belgique/glossaire.md:205
+#: ../../content/belgique/glossaire.md:291
+msgid "Sends to check"
+msgstr "Envois à vérifier"
+
+#: ../../content/belgique/glossaire.md:293
+msgid ""
+"The list of sendings to MyCareNet whose answer was lost (time-out, "
+"interruption). Resthome never resends them on its own: you say whether "
+"MyCareNet received them, in **eHealth → Configuration → Sends to check**. "
+"See: [eHealth](ehealth/index.md)"
+msgstr ""
+"La liste des envois vers MyCareNet dont la réponse a été perdue (délai "
+"dépassé, interruption). Resthome ne les renvoie jamais tout seul : vous "
+"indiquez si MyCareNet les a reçus, dans **eHealth → Configuration → Envois à"
+" vérifier**. Voir : [eHealth](ehealth/index.md)"
+
+#: ../../content/belgique/glossaire.md:298
 msgid "Third-party payer"
 msgstr "Tiers payant"
 
-#: ../../content/belgique/glossaire.md:207
+#: ../../content/belgique/glossaire.md:300
 msgid ""
 "In Belgium, the **health insurance fund pays its share directly** to the "
 "facility via eFact, the resident settling only their own share. In Dutch: "
@@ -500,19 +720,19 @@ msgstr ""
 "eFact, l'habitant ne réglant que sa propre part. En néerlandais : "
 "*derdebetaler*. Voir : [Facturation électronique (eFact)](ehealth/efact.md)"
 
-#: ../../content/belgique/glossaire.md:213
+#: ../../content/belgique/glossaire.md:306
 msgid "Further reading"
 msgstr "Pour aller plus loin"
 
-#: ../../content/belgique/glossaire.md:215
+#: ../../content/belgique/glossaire.md:308
 msgid "[Glossary](../glossaire.md) — the terms valid in every country."
 msgstr ""
 "[Glossaire](../glossaire.md) — les termes valables dans tous les pays."
 
-#: ../../content/belgique/glossaire.md:216
+#: ../../content/belgique/glossaire.md:309
 msgid "[FAQ — Belgium](faq.md)"
 msgstr "[FAQ — Belgique](faq.md)"
 
-#: ../../content/belgique/glossaire.md:217
+#: ../../content/belgique/glossaire.md:310
 msgid "[The billing journey](parcours-facturation.md)"
 msgstr "[Le parcours de facturation](parcours-facturation.md)"

@@ -10,7 +10,7 @@ The complete month-end sequence in Resthome, in order: absences, supplements, ge
 
 :::{rh-faq}
 In what order should I close a billing month in Resthome?
-: Close the absences, enter the supplements, generate the period, create and confirm the invoices, then close the period.
+: Check the arrivals and departures, close the absences, enter the supplements, generate the period, apply any pending invoice type, create and confirm the invoices, then close the period.
 
 What happens if I forget to close an absence?
 : Billing is computed on presence days: an open absence distorts the day count and therefore the amounts. The period's Absences counter shows the absences taken into account.
@@ -19,7 +19,7 @@ Can I still correct a month after invoicing?
 : Yes, but not silently. Reset the invoice to draft or issue a credit note, then refresh. Resthome never modifies a posted invoice on its own, to prevent double invoicing.
 
 How do I know the month is really finished?
-: When no invoice is left in draft and the period is Closed.
+: When no invoice is left in draft, no Corrections pending banner shows, and the period is Closed.
 :::
 
 This page gathers, **in order**, everything a month-end requires. Each step
@@ -32,13 +32,21 @@ up several steps later as a correction that is far more costly to make.
 
 ```mermaid
 graph LR
-  A[1. Absences] --> B[2. Supplements]
+  Z[0. Arrivals and departures] --> A[1. Absences]
+  A --> B[2. Supplements]
   B --> C[3. Generate]
   C --> D[4. Invoice]
   D --> E[5. Close]
 ```
 
 ## Before generating
+
+### 0. Check the arrivals and departures
+
+On the [billing dashboard](tableau-de-bord.md), the **Arrivals and departures
+this month** panel lists who came in and who left. Make sure every departure is
+recorded with its date, and every new resident has an active stay and the
+right [invoice type](type-de-facture.md).
 
 :::{admonition} In Belgium
 :class: rh-country rh-country-be
@@ -61,8 +69,10 @@ open absence distorts the day count, and therefore the amounts billed.
 
 ### 2. Enter the supplements
 
-One-off supplements for the month (hairdresser, pedicure, drinks…) must be
+One-time supplements for the month (hairdresser, pedicure, drinks…) must be
 entered **before** generating. Recurring supplements carry over on their own.
+With automatic billing refresh turned on, a late entry still reaches the period
+on its own.
 
 → [Supplements](supplements.md) · [The Supplements app](application-supplements.md)
 
@@ -82,9 +92,13 @@ Open the month's period and click **Generate**. Resthome computes, for each
 resident, the accommodation, the supplements and the medication — and the
 care allowance, where the country pack bills one — and applies the absences.
 
+When a resident has no active stay for the month, a **Missing active stay**
+window lists them: **Open stay** or **Create stay**, then generate again.
+
 Review the **Residents** and **Billing Lines** tabs, and any message Resthome
 posts in the period's thread: they are there to be acted on before invoicing,
-not after.
+not after. A **yellow** row is a resident whose invoice type for the month
+changed: open it and click **Apply the Invoice Type**.
 
 → [Billing a month, step by step](facturer-un-mois.md)
 
@@ -99,6 +113,7 @@ invoices. See [Billing a month in Belgium](../belgique/facturation.md).
 ### 4. Create the invoices
 
 Click **Create Invoices**, check the draft invoices, then confirm them. The
+button is refused while a row is still yellow. The
 resident's share becomes an invoice; where a split is set up, each maintenance
 debtor — a relative, a public welfare body — receives their portion.
 
@@ -116,8 +131,10 @@ refresh. This is a protection against double invoicing, not an obstacle.
 
 ### 5. Close the period
 
-Once no invoice is left in draft, click **Close Period**. If the button does not
-show, the message under the header says what is still blocking.
+Once no invoice is left in draft, click **Close Period**. If a **Cannot close
+yet** message shows under the header, it says what is still blocking. A
+**Corrections pending** banner means a change reached a posted invoice: click
+**Refresh** first.
 
 :::{admonition} In Belgium
 :class: rh-country rh-country-be
@@ -132,14 +149,17 @@ remainders — in the **eFact Cockpit**. See
 
 | # | Step | Done when |
 |---|---|---|
+| 0 | **Arrivals and departures** | every departure dated, every newcomer with a stay |
 | 1 | **Absences** | no unintended open absence |
-| 2 | **Supplements** | the month's one-off entries are in |
-| 3 | **Generate** | the period is Generated, its messages handled |
+| 2 | **Supplements** | the month's one-time entries are in |
+| 3 | **Generate** | the period is Generated, no yellow row, its messages handled |
 | 4 | **Invoice** | the resident invoices are created and confirmed |
-| 5 | **Close** | the period is Closed |
+| 5 | **Close** | no Corrections pending, the period is Closed |
 
 ## Further reading
 
 - [Billing a month, step by step](facturer-un-mois.md)
+- [The billing dashboard](tableau-de-bord.md)
+- [Invoice type](type-de-facture.md)
 - [Absences and hospitalisations](absences.md)
 - [Billing overview](index.md)

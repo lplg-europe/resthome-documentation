@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 15:49+0200\n"
+"POT-Creation-Date: 2026-11-08 19:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -26,13 +26,13 @@ msgstr "Admissions"
 
 #: ../../content/admissions/index.md:8
 msgid ""
-"The Resthome Admissions application: a pipeline from the first enquiry to "
-"the move-in, the candidate's file, and the admission that creates the "
-"resident and their stay."
+"The Resthome Admissions application: a pipeline from the first call to the "
+"move-in, one card per person waiting for a place, the waiting list and the "
+"admission that creates the resident and their stay."
 msgstr ""
-"L'application Admissions de Resthome : un pipeline de la première demande à "
-"l'emménagement, le dossier du candidat, et l'admission qui crée l'habitant "
-"et son séjour."
+"L'application Admissions de Resthome : un pipeline du premier appel à "
+"l'emménagement, une carte par personne en attente d'une place, la liste "
+"d'attente et l'admission qui crée l'habitant et son séjour."
 
 #: ../../content/admissions/index.md:12
 msgid "Where is the admissions pipeline?"
@@ -40,229 +40,447 @@ msgstr "Où se trouve le pipeline des admissions ?"
 
 #: ../../content/admissions/index.md:13
 msgid ""
-"In the **Admissions** application. Each enquiry is a card that you move from"
-" stage to stage on a kanban board."
+"In the **Admissions** application. Each request is a card that you move from"
+" stage to stage on a kanban board. The board opens on every request of the "
+"house, not only on yours."
 msgstr ""
 "Dans l'application **Admissions**. Chaque demande est une carte que vous "
-"faites avancer d'étape en étape sur un tableau kanban."
+"faites avancer d'étape en étape sur un tableau kanban. Le tableau s'ouvre "
+"sur toutes les demandes de la maison, pas seulement sur les vôtres."
 
 #: ../../content/admissions/index.md:15
-msgid "Who is the candidate, the resident or the relative who calls?"
-msgstr "Qui est le candidat, l'habitant ou le proche qui appelle ?"
+msgid "Who is the card about, the resident or the relative who calls?"
+msgstr "De qui parle la carte, de l'habitant ou du proche qui appelle ?"
 
 #: ../../content/admissions/index.md:16
 msgid ""
-"The candidate is the person to be accommodated. The relative who calls is "
-"recorded as a family contact, and the identity (national identification "
-"number, date of birth) stays on the candidate."
+"The card is about the person to admit: their name, age, sex, dependency "
+"category and the room planned. The relative who calls is recorded as their "
+"**Contact Person**, with their own e-mail and phone."
 msgstr ""
-"Le candidat est la personne à héberger. Le proche qui appelle est enregistré"
-" comme contact famille, et l'identité (numéro d'identification national, "
-"date de naissance) reste sur le candidat."
+"La carte parle de la personne à admettre : son nom, son âge, son sexe, sa "
+"catégorie de dépendance et la chambre prévue. Le proche qui appelle est "
+"enregistré comme sa **Personne de contact**, avec son propre e-mail et son "
+"propre téléphone."
 
 #: ../../content/admissions/index.md:18
-msgid "How do I close an enquiry that does not go ahead?"
-msgstr "Comment clôturer une demande qui n'aboutit pas ?"
+msgid "Why is there no amount on the cards?"
+msgstr "Pourquoi n'y a-t-il aucun montant sur les cartes ?"
 
 #: ../../content/admissions/index.md:19
 msgid ""
-"Click **Give up** on the file and choose the reason: admitted to another "
+"Because a request for a place is not a sale. The expected revenue, the "
+"column totals and the quotation buttons are hidden on an admission request."
+msgstr ""
+"Parce qu'une demande de place n'est pas une vente. Le revenu attendu, les "
+"totaux des colonnes et les boutons de devis sont masqués sur une demande "
+"d'admission."
+
+#: ../../content/admissions/index.md:21
+msgid "How do I close a request that does not go ahead?"
+msgstr "Comment clôturer une demande qui n'aboutit pas ?"
+
+#: ../../content/admissions/index.md:22
+msgid ""
+"Click **Give up** on the request and choose the reason: admitted to another "
 "home, withdrew and staying at home, or died before admission."
 msgstr ""
-"Cliquez sur **Abandonner** sur le dossier et choisissez le motif : admis "
+"Cliquez sur **Abandonner** sur la demande et choisissez le motif : admis "
 "dans une autre maison de repos, renonce et reste à domicile, ou décédé avant"
 " l'admission."
 
-#: ../../content/admissions/index.md:29
-msgid ""
-"The **Admissions** application follows every enquiry, from a relative's "
-"first phone call to the day the resident moves in. Each enquiry is a "
-"**file** that you move forward on a kanban board; when it is ready, one "
-"action turns the candidate into a **resident**, with their room and their "
-"stay."
-msgstr ""
-"L'application **Admissions** suit chaque demande, du premier appel d'un "
-"proche au jour de l'emménagement. Chaque demande est un **dossier** que vous"
-" faites avancer sur un tableau kanban ; quand il est prêt, un seul geste "
-"transforme le candidat en **habitant**, avec sa chambre et son séjour."
+#: ../../content/admissions/index.md:24
+msgid "What is the waiting list?"
+msgstr "Qu'est-ce que la liste d'attente ?"
 
-#: ../../content/admissions/index.md:34
+#: ../../content/admissions/index.md:25
 msgid ""
-"![Admissions pipeline in kanban view, one column per stage from First "
-"contact to Admitted](../assets/screenshots/residents/01-pipeline-"
-"admissions.webp)"
+"Every request still open — not admitted, not refused or withdrawn, not given"
+" up. The **Waiting list** filter shows it. See [The waiting list](liste-"
+"attente.md)."
 msgstr ""
-"![Le pipeline des admissions en kanban, une colonne par étape, du premier "
-"contact à l'admission](../assets/screenshots/residents/01-pipeline-"
-"admissions.webp)"
-
-#: ../../content/admissions/index.md:34
-msgid ""
-"Admissions pipeline in kanban view, one column per stage from First contact "
-"to Admitted"
-msgstr ""
-"Le pipeline des admissions en kanban, une colonne par étape, du premier "
-"contact à l'admission"
+"Toute demande encore ouverte — ni admise, ni refusée ou retirée, ni "
+"abandonnée. Le filtre **Liste d'attente** la montre. Voir [La liste "
+"d'attente](liste-attente.md)."
 
 #: ../../content/admissions/index.md:36
+msgid ""
+"The **Admissions** application follows every request for a place, from a "
+"relative's first phone call to the day the resident moves in. Each request "
+"is a **card** that you move forward on a kanban board; when the file is "
+"ready, one action turns the candidate into a **resident**, with their room "
+"and their stay."
+msgstr ""
+"L'application **Admissions** suit chaque demande de place, du premier appel "
+"d'un proche au jour de l'emménagement. Chaque demande est une **carte** que "
+"vous faites avancer sur un tableau kanban ; quand le dossier est prêt, un "
+"seul geste transforme le candidat en **habitant**, avec sa chambre et son "
+"séjour."
+
+#: ../../content/admissions/index.md:41
+msgid ""
+"![Admissions pipeline in kanban view, one column per stage from First "
+"Contact to Admitted](../assets/screenshots/residents/01-pipeline-"
+"admissions.webp)"
+msgstr ""
+"![Le pipeline des admissions en kanban, une colonne par étape, de Premier "
+"contact à Admis](../assets/screenshots/residents/01-pipeline-"
+"admissions.webp)"
+
+#: ../../content/admissions/index.md:41
+msgid ""
+"Admissions pipeline in kanban view, one column per stage from First Contact "
+"to Admitted"
+msgstr ""
+"Le pipeline des admissions en kanban, une colonne par étape, de Premier "
+"contact à Admis"
+
+#: ../../content/admissions/index.md:45
 msgid "The stages"
 msgstr "Les étapes"
 
-#: ../../content/admissions/index.md:22
+#: ../../content/admissions/index.md:28
 msgid "Stage"
 msgstr "Étape"
 
-#: ../../content/admissions/index.md:22
+#: ../../content/admissions/index.md:28
 msgid "Meaning"
 msgstr "Ce que ça veut dire"
 
-#: ../../content/admissions/index.md:22
+#: ../../content/admissions/index.md:28
 msgid "**First Contact**"
 msgstr "**Premier contact**"
 
-#: ../../content/admissions/index.md:22
-msgid "Enquiry received, to be followed up."
+#: ../../content/admissions/index.md:28
+msgid "Request received, to be followed up."
 msgstr "Demande reçue, à recontacter."
 
-#: ../../content/admissions/index.md:22
+#: ../../content/admissions/index.md:28
 msgid "**Visit Scheduled**"
 msgstr "**Visite planifiée**"
 
-#: ../../content/admissions/index.md:22
+#: ../../content/admissions/index.md:28
 msgid "A visit to the facility has been booked."
 msgstr "Une visite de la maison est fixée."
 
-#: ../../content/admissions/index.md:22
+#: ../../content/admissions/index.md:28
 msgid "**Visit Completed**"
 msgstr "**Visite effectuée**"
 
-#: ../../content/admissions/index.md:22
+#: ../../content/admissions/index.md:28
 msgid "The visit has taken place."
 msgstr "La visite a eu lieu."
 
-#: ../../content/admissions/index.md:22
+#: ../../content/admissions/index.md:28
 msgid "**File Complete**"
 msgstr "**Dossier complet**"
 
-#: ../../content/admissions/index.md:22
+#: ../../content/admissions/index.md:28
 msgid "The administrative and medical file is ready."
 msgstr "Le dossier administratif et médical est prêt."
 
-#: ../../content/admissions/index.md:22
+#: ../../content/admissions/index.md:28
 msgid "**Admitted**"
 msgstr "**Admis**"
 
-#: ../../content/admissions/index.md:22
+#: ../../content/admissions/index.md:28
 msgid "Triggers the admission — see [Admitting a candidate](admettre.md)."
 msgstr "Déclenche l'admission — voir [Admettre un candidat](admettre.md)."
 
-#: ../../content/admissions/index.md:22
+#: ../../content/admissions/index.md:28
 msgid "**Refused / Withdrawn**"
 msgstr "**Refusé / Désisté**"
 
-#: ../../content/admissions/index.md:22
-msgid "The enquiry does not go ahead (folded column)."
+#: ../../content/admissions/index.md:28
+msgid "The request does not go ahead (folded column)."
 msgstr "La demande n'aboutit pas (colonne repliée)."
 
-#: ../../content/admissions/index.md:47
+#: ../../content/admissions/index.md:56
 msgid ""
-"Drag a card from one column to the next, at the actual pace of the case. "
-"Visits can also be scheduled from the file itself, in the shared calendar."
+"Drag a card from one column to the next, at the actual pace of the case, or "
+"click the stage at the top of the request. Visits are booked from the "
+"request itself: the meetings button (**No Meeting** while none is booked) "
+"opens the shared calendar, and the meeting carries the request's name."
 msgstr ""
-"Faites glisser une carte d'une colonne à l'autre, au rythme réel du dossier."
-" Les visites se planifient aussi depuis le dossier, dans le calendrier "
-"partagé."
+"Faites glisser une carte d'une colonne à la suivante, au rythme réel du "
+"dossier, ou cliquez sur l'étape en haut de la demande. Les visites se "
+"réservent depuis la demande elle-même : le bouton des réunions (**Aucune "
+"réunion** tant qu'aucune n'est réservée) ouvre le calendrier partagé, et la "
+"réunion porte le nom de la demande."
 
-#: ../../content/admissions/index.md:50
-msgid "A file made for a nursing home"
-msgstr "Un dossier fait pour une maison de repos"
+#: ../../content/admissions/index.md:61
+msgid "Creating a request"
+msgstr "Créer une demande"
 
-#: ../../content/admissions/index.md:52
+#: ../../content/admissions/index.md:63
+msgid "In the pipeline, click **New** above the **First Contact** column."
+msgstr ""
+"Dans le pipeline, cliquez sur **Nouveau** au-dessus de la colonne **Premier "
+"contact**."
+
+#: ../../content/admissions/index.md:64
+msgid "Fill in the quick card:"
+msgstr "Remplissez la carte rapide :"
+
+#: ../../content/admissions/index.md:65
 msgid ""
-"Each file carries the **Resident candidate** box, ticked by default. It "
+"**Future resident** — the name of the person to admit; the request is named "
+"after them;"
+msgstr ""
+"**Futur habitant** — le nom de la personne à admettre ; la demande porte son"
+" nom ;"
+
+#: ../../content/admissions/index.md:67
+msgid ""
+"**Contact Person** — who is calling: a relative, a social worker… Pick a "
+"known contact, or type a new name: it is created as a family contact of the "
+"person to admit;"
+msgstr ""
+"**Personne de contact** — qui appelle : un proche, une assistante sociale… "
+"Choisissez un contact connu, ou tapez un nouveau nom : il est créé comme "
+"contact familial de la personne à admettre ;"
+
+#: ../../content/admissions/index.md:70
+msgid "**Relationship** — what the caller is to the person to admit;"
+msgstr "**Relation** — ce que l'appelant est pour la personne à admettre ;"
+
+#: ../../content/admissions/index.md:71
+msgid "**Contact Email** and **Contact Phone** — the caller's own details."
+msgstr ""
+"**E-mail du contact** et **Téléphone du contact** — les coordonnées propres "
+"de l'appelant."
+
+#: ../../content/admissions/index.md:72
+msgid "Click **Add** to file the card, or **Edit** to open the whole request."
+msgstr ""
+"Cliquez sur **Ajouter** pour classer la carte, ou sur **Modifier** pour "
+"ouvrir toute la demande."
+
+#: ../../content/admissions/index.md:74
+msgid ""
+"The caller then appears in the **Contact Persons** of the future resident's "
+"record, with their relationship, and stays there after the admission."
+msgstr ""
+"L'appelant apparaît alors dans les **Personnes de contact** de la fiche du "
+"futur habitant, avec sa relation, et y reste après l'admission."
+
+#: ../../content/admissions/index.md:77
+msgid "Reading a card"
+msgstr "Lire une carte"
+
+#: ../../content/admissions/index.md:79
+msgid ""
+"Each card shows the **person**, drawn like the resident card they are about "
+"to become:"
+msgstr ""
+"Chaque carte montre la **personne**, dessinée comme la carte d'habitant "
+"qu'elle va devenir :"
+
+#: ../../content/admissions/index.md:82
+msgid "the **name**, and the resident code once they have one;"
+msgstr "le **nom**, et le code d'habitant dès qu'il en a un ;"
+
+#: ../../content/admissions/index.md:83
+msgid ""
+"the **age**, the **sex** and the **dependency category** when it is known;"
+msgstr ""
+"l'**âge**, le **sexe** et la **catégorie de dépendance** quand elle est "
+"connue ;"
+
+#: ../../content/admissions/index.md:84
+msgid ""
+"the **room type** planned, then the **room** once admitted (a sun instead of"
+" a bed for a day place);"
+msgstr ""
+"le **type de chambre** prévu, puis la **chambre** une fois admis (un soleil "
+"au lieu d'un lit pour une place de jour) ;"
+
+#: ../../content/admissions/index.md:86
+msgid ""
+"the **photo** — added on the request, it is kept on the resident's record;"
+msgstr ""
+"la **photo** — ajoutée sur la demande, elle est gardée sur la fiche de "
+"l'habitant ;"
+
+#: ../../content/admissions/index.md:87
+msgid "badges for what still has to be done."
+msgstr "des badges pour ce qui reste à faire."
+
+#: ../../content/admissions/index.md:89
+msgid ""
+"No amount appears anywhere on the board: the column totals, the expected "
+"revenue and the salesperson's avatar are hidden on an admission request."
+msgstr ""
+"Aucun montant n'apparaît nulle part sur le tableau : les totaux des "
+"colonnes, le revenu attendu et l'avatar du vendeur sont masqués sur une "
+"demande d'admission."
+
+#: ../../content/admissions/index.md:92
+msgid "A request made for a place"
+msgstr "Une demande faite pour une place"
+
+#: ../../content/admissions/index.md:94
+msgid ""
+"Each request carries the **Resident candidate** box, ticked by default. It "
 "opens the [candidate's file](dossier-candidat.md) and hides what belongs to "
 "a sales pipeline and not to an admission: expected revenue, probability, "
-"quotations."
+"quotations, the **Won** and **Lost** buttons. **Salesperson** reads "
+"**Followed by**: the person of the admissions desk who follows the request."
 msgstr ""
-"Chaque dossier porte la case **Candidat habitant**, cochée par défaut. Elle "
+"Chaque demande porte la case **Candidat habitant**, cochée par défaut. Elle "
 "ouvre le [dossier du candidat](dossier-candidat.md) et masque ce qui relève "
 "d'un pipeline commercial et pas d'une admission : revenu attendu, "
-"probabilité, devis."
+"probabilité, devis, les boutons **Gagné** et **Perdu**. **Vendeur** devient "
+"**Suivi par** : la personne du bureau des admissions qui suit la demande."
 
-#: ../../content/admissions/index.md:56
+#: ../../content/admissions/index.md:100
+msgid ""
+"Untick the box only for a real business opportunity, if your house also uses"
+" the pipeline for that."
+msgstr ""
+"Ne décochez la case que pour une vraie opportunité commerciale, si votre "
+"maison utilise aussi le pipeline pour cela."
+
+#: ../../content/admissions/index.md:103
 msgid "In Belgium"
 msgstr "En Belgique"
 
-#: ../../content/admissions/index.md:59
+#: ../../content/admissions/index.md:106
 msgid ""
-"The file also carries the NISS, the MR/MRS stay type and the MDA "
-"insurability check, and starting the stay prepares the admission agreement "
-"(eAgreement): see [Admitting a resident in "
-"Belgium](../belgique/admission.md)."
+"The request also carries the NISS, the MR/MRS stay type, the Katz brought by"
+" the candidate and the MDA insurability check, and the cards show **Katz to "
+"validate**, **MDA not checked** or **Not insured**: see [Admitting a "
+"resident in Belgium](../belgique/admission.md)."
 msgstr ""
-"Le dossier porte aussi le NISS, le type de séjour MR/MRS et la vérification "
-"d'assurabilité MDA, et le démarrage du séjour prépare l'accord d'admission "
-"(eAgreement) : voir [Admettre un habitant en "
-"Belgique](../belgique/admission.md)."
+"La demande porte aussi le NISS, le type de séjour MR/MRS, le Katz apporté "
+"par le candidat et la vérification d'assurabilité MDA, et les cartes "
+"affichent **Katz à valider**, **MDA non vérifié** ou **Non assuré** : voir "
+"[Admettre un habitant en Belgique](../belgique/admission.md)."
 
-#: ../../content/admissions/index.md:64
-msgid "Giving up an enquiry"
+#: ../../content/admissions/index.md:112
+msgid "Searching and grouping"
+msgstr "Rechercher et regrouper"
+
+#: ../../content/admissions/index.md:114
+msgid "The search bar of the pipeline offers, beside Odoo's own filters:"
+msgstr ""
+"La barre de recherche du pipeline propose, à côté des filtres propres à Odoo"
+" :"
+
+#: ../../content/admissions/index.md:116
+msgid ""
+"**Waiting list** — the requests still open (see [The waiting list](liste-"
+"attente.md));"
+msgstr ""
+"**Liste d'attente** — les demandes encore ouvertes (voir [La liste "
+"d'attente](liste-attente.md)) ;"
+
+#: ../../content/admissions/index.md:118
+msgid "**Room type** in the **Group By** menu, to see the requests per price;"
+msgstr ""
+"**Type de chambre** dans le menu **Regrouper par**, pour voir les demandes "
+"par prix ;"
+
+#: ../../content/admissions/index.md:119
+msgid "a search on the **Room type** planned."
+msgstr "une recherche sur le **Type de chambre** prévu."
+
+#: ../../content/admissions/index.md:121
+msgid ""
+"The **My Pipeline** filter is not applied on opening: the admissions desk "
+"shares one board. It stays one click away in the search panel."
+msgstr ""
+"Le filtre **Mon pipeline** n'est pas appliqué à l'ouverture : le bureau des "
+"admissions partage un seul tableau. Il reste à un clic dans le panneau de "
+"recherche."
+
+#: ../../content/admissions/index.md:124
+msgid "Giving up a request"
 msgstr "Abandonner une demande"
 
-#: ../../content/admissions/index.md:66
+#: ../../content/admissions/index.md:126
 msgid ""
-"When an enquiry does not go ahead, click **Give up** on the file and choose "
-"the reason:"
+"When a request does not go ahead, click **Give up** on the request (the "
+"**Give up this application** window opens) and choose the reason:"
 msgstr ""
-"Quand une demande n'aboutit pas, cliquez sur **Abandonner** sur le dossier "
-"et choisissez le motif :"
+"Quand une demande n'aboutit pas, cliquez sur **Abandonner** sur la demande "
+"(la fenêtre **Abandonner la candidature** s'ouvre) et choisissez le motif :"
 
-#: ../../content/admissions/index.md:69
+#: ../../content/admissions/index.md:129
 msgid "**Admitted to another home**"
 msgstr "**Admis dans une autre maison de repos**"
 
-#: ../../content/admissions/index.md:70
+#: ../../content/admissions/index.md:130
 msgid "**Withdrew — staying at home**"
 msgstr "**Renonce — maintien à domicile**"
 
-#: ../../content/admissions/index.md:71
+#: ../../content/admissions/index.md:131
 msgid "**Died before admission**"
 msgstr "**Décédé avant l'admission**"
 
-#: ../../content/admissions/index.md:73
+#: ../../content/admissions/index.md:133
 msgid ""
-"The reason stays on the file: it is what lets you read, months later, why "
-"the place was not taken."
+"Add a closing note if needed, then click **Give up**. The reason stays on "
+"the request: it is what lets you read, months later, why the place was not "
+"taken. The button is hidden once the person is admitted."
 msgstr ""
-"Le motif reste sur le dossier : c'est lui qui permet de relire, des mois "
-"plus tard, pourquoi la place n'a pas été prise."
+"Ajoutez une note de clôture si besoin, puis cliquez sur **Abandonner**. Le "
+"motif reste sur la demande : c'est lui qui permet de relire, des mois plus "
+"tard, pourquoi la place n'a pas été prise. Le bouton est masqué une fois la "
+"personne admise."
 
-#: ../../content/admissions/index.md:76
+#: ../../content/admissions/index.md:137
+msgid "Once admitted"
+msgstr "Une fois admis"
+
+#: ../../content/admissions/index.md:139
+msgid ""
+"An admitted request shows the **Admitted** ribbon. The person is now a "
+"resident: continue on their record — see [Manage a "
+"resident](../residents/gerer-un-resident.md)."
+msgstr ""
+"Une demande admise porte le ruban **Admis**. La personne est désormais un "
+"habitant : continuez sur sa fiche — voir [Gérer un "
+"habitant](../residents/gerer-un-resident.md)."
+
+#: ../../content/admissions/index.md:143
+msgid ""
+"An application for a serviced residence uses the **Residence** field of the "
+"request and ends on a contract to sign: see [Contracts and "
+"occupants](../residences-services/contrats.md)."
+msgstr ""
+"Une candidature pour une résidence-services utilise le champ **Résidence** "
+"de la demande et aboutit à un contrat à signer : voir [Contrats et "
+"occupants](../residences-services/contrats.md)."
+
+#: ../../content/admissions/index.md:147
 msgid "What's next"
 msgstr "Pour continuer"
 
-#: ../../content/admissions/index.md:78
+#: ../../content/admissions/index.md:149
 msgid ""
-"[The candidate's file](dossier-candidat.md) — identity, health insurer, key "
-"contacts."
+"[The candidate's file](dossier-candidat.md) — identity, establishment, room "
+"type, key contacts."
 msgstr ""
-"[Le dossier du candidat](dossier-candidat.md) — identité, mutuelle, contacts"
-" clés."
+"[Le dossier du candidat](dossier-candidat.md) — identité, établissement, "
+"type de chambre, contacts clés."
 
-#: ../../content/admissions/index.md:79
+#: ../../content/admissions/index.md:150
+msgid ""
+"[The waiting list](liste-attente.md) — the open requests, the rooms freeing "
+"up and the waiting-list rooms."
+msgstr ""
+"[La liste d'attente](liste-attente.md) — les demandes ouvertes, les chambres"
+" qui se libèrent et les chambres de liste d'attente."
+
+#: ../../content/admissions/index.md:151
 msgid ""
 "[Admitting a candidate](admettre.md) — the checks, the wizard, the stay."
 msgstr ""
 "[Admettre un candidat](admettre.md) — les contrôles, l'assistant, le séjour."
 
-#: ../../content/admissions/index.md:80
+#: ../../content/admissions/index.md:152
 msgid ""
-"[Managing a resident](../residents/gerer-un-resident.md) — once admitted."
+"[Manage a resident](../residents/gerer-un-resident.md) — once admitted."
 msgstr ""
 "[Gérer un habitant](../residents/gerer-un-resident.md) — une fois admis."
-
-#~ msgid ""
-#~ "Drag a card from one column to the next, at the actual pace of the case. You"
-#~ " can also schedule visits from the file itself (**Meetings** button, shared "
-#~ "calendar)."
-#~ msgstr ""

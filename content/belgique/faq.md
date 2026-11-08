@@ -5,18 +5,18 @@ modules: []
 # FAQ — Belgium
 
 :::{rh-description}
-Short answers to frequently asked questions on what is Belgian in Resthome: Katz, NISS, MDA insurability, eAgreement, eFact, the INAMI allowance, annexes and absences seen by the mutuality.
+Short answers to frequently asked questions on what is Belgian in Resthome: eID, Katz, NISS, MDA insurability, eAgreement, eFact, the INAMI allowance, occupancy, annexes and absences seen by the mutuality.
 :::
 
 :::{rh-faq}
 How do I check a resident's insurability (MDA)?
-: Create an MDA request (eHealth → Insurability → MDA Requests) with the resident, the pre-filled NISS and the period, then click Send (Sync): the response comes back immediately. For a whole month, run a batch at the start of the month, then Check MDA on the generated period for anyone left, before generating the eFact.
+: On the resident's record, click Verify Insurability, or create an MDA request (eHealth → Insurability → MDA Requests) and click Send (Sync): the response comes back immediately. For a whole month, run a batch at the start of the month, then Check MDA on the generated period for anyone left, before generating the eFact.
 
 How do I generate an eFact period?
 : Open the month's period in Draft state, click Generate, leave Residents empty for all active residents (or pre-fill them with Load MDA Success / Load MDA Pending), then click Generate. The period moves to Generated: the Katz allowance, the INAMI share and the resident share are computed for each resident.
 
 How do I send an eFact period and follow the responses?
-: From the eFact Cockpit or the batches, click Send all: the batches go to the mutualities through eHealth. Then click Get responses; each batch moves Sent → Acknowledged → Accepted / Rejected, with Resthome reconciling the amounts automatically.
+: From the eFact Cockpit or the batches, click Send all: the batches go to the mutualities through eHealth. Then click Fetch responses; each batch moves from Sent (platform) to Acknowledged (OA), then Settled — or Partial Reject / Rejected — with Resthome reconciling the amounts automatically.
 
 Why is an eFact invoice rejected, and how do I fix it?
 : The rejection code and reason state the cause (insurability, allowance, dates). Fix it then resend; the Resends counter avoids duplicates and the Reintegration button lets you reintegrate lines into a new sending.
@@ -25,10 +25,10 @@ What is an eFact batch per union?
 : Sendings are grouped by union of mutualities (100 National Alliance, 300 Solidaris, 500 National Union, 600 CAAMI, 900 HR Rail…), not per small individual mutuality. Resthome takes care of the grouping.
 
 How do I score a resident's Katz?
-: From the resident file, open Katz, click New and score the 6 criteria (washing, dressing, transfer and mobility, toileting, continence, eating) from 1 to 4, then Confirm and Validate. The category and the allowance update automatically.
+: From the resident file, open Katz, click New and score the criteria from 1 to 4 (the six daily activities and the orientation in time and space), then Confirm, Sign and Validate. The category is computed from the scores; the allowance follows at the next generation of the period.
 
 What are the Katz categories?
-: O (independent), A (light dependency), B (moderate dependency), C (heavy dependency) and Cd / Cc (heavy dependency with disorientation or special cases). Under the AViQ rates, the dependency allowance is the same amount for every category; the category serves to declare the right profile to the mutuality.
+: O (independent), A (light dependency), B (moderate dependency), C (heavy dependency), Cd (dependency with dementia), D (dementia diagnosed by a specialist) and Ccoma (comatose). Under the AViQ rates, the dependency allowance is the same amount for every category; the category serves to declare the right profile to the mutuality.
 
 How do I invoice a month from A to Z in Belgium?
 : Open the period and click Generate, then Check MDA, then Generate eFact, then Create Invoices and confirm the resident share; send the eFact batches to the insurance organisations, get the responses, then close the period. The resident share and the mutuality share progress in parallel on the same period.
@@ -45,10 +45,13 @@ The questions valid in every country are in the [FAQ](../faq.md).
 
 ### What does the dashboard show in Belgium?
 
-On the **Nursing Home** dashboard, the pending tasks include the Belgian
-ones: **Katz to do**, **MDA to check**, **eFact batches**… Click a counter
-(e.g. "Katz to do") to open the list of items to handle.
-→ [Getting started](../premiers-pas.md)
+The **Billing → Dashboard** gains two Belgian cards. **Rest home** counts what
+to prepare before billing: **MDA to request**, **Katz to assess**, **Agreement
+requests to send** and **Admission not agreed by the OA**. **Insurer billing
+(eFact)** shows the eFact stacks: **To send**, **Awaiting OA**, **To correct**,
+**To reconcile**, **OA payments overdue**… Click a figure to open the records
+behind it.
+→ [Billing a month in Belgium](facturation.md)
 
 ### Where do I configure the Belgian rooms and rates?
 
@@ -83,28 +86,32 @@ On top of what it does in every country, starting the stay creates the
 
 ### How do I score a resident's Katz?
 
-From the resident file, open **Katz**, click **New** and score the 6 criteria
-(washing, dressing, transfer and mobility, toileting, continence, eating) from
-**1** (independent) to **4** (totally dependent), then **Confirm** and
-**Validate**. Resthome computes the category in line with the regulation and
-updates the allowance automatically.
+From the resident file, open **Katz**, click **New** and score the criteria —
+the six daily activities (washing, dressing, transferring, toileting,
+continence, eating) and the orientation in time and space — from **1**
+(independent) to **4** (totally dependent). Then **Confirm**, **Sign** and
+**Validate** (validation is reserved to the head nurse or the physician).
+Resthome computes the category in line with the regulation; the allowance
+follows at the next generation of the period.
 → [The Katz assessment](katz.md)
 
 ### What are the Katz categories?
 
 **O** (independent), **A** (light dependency), **B** (moderate dependency),
-**C** (heavy dependency) and **Cd / Cc** (heavy dependency with disorientation /
-special cases). Under the AViQ rates, the **allowance amount is the same for
+**C** (heavy dependency), **Cd** (dependency with dementia), **D** (dementia
+diagnosed by a specialist) and **Ccoma** (comatose). Under the AViQ rates, the **allowance amount is the same for
 every category**, including O; the category serves to declare the right profile
 to the mutuality.
 → [The Katz assessment](katz.md)
 
 ### What happens as long as there is no validated Katz?
 
-As long as no **validated** Katz exists, the resident is in category **O** by
-default, and a "Katz to do" reminder appears on the dashboard. Validate the Katz
-and send it through an eAgreement Light request to declare the right category to
-the mutuality.
+As long as no **validated** Katz exists, the resident has **no category** and
+**no allowance**: when the period is generated, their accommodation is billed
+but their row shows **No Katz**, and the period's thread names them. The billing
+dashboard counts them under **Katz to assess**. Validate the Katz, regenerate
+the period, and send it through an eAgreement Light request to declare the
+right category to the mutuality.
 → [The Katz assessment](katz.md)
 
 ### How do I record a Katz worsening?
@@ -122,6 +129,22 @@ then **Validate**. Resthome splits the billing on the right date, at the
 matching rate; this is not a new admission and the INAMI intervention (the
 allowance) stays continuous.
 → [Internal transfer (MR ↔ MRS)](ehealth/eagreement-transfert.md)
+
+### How do I read a resident's eID card?
+
+Plug the reader into a Windows computer, install the eID reader once from the
+link Resthome offers, then click **Read eID Card** on the admission request, the
+resident's record or a contact. The identity, the NISS and the card's details
+fill in on their own.
+→ [Reading the eID card](lecture-eid.md)
+
+### Can Resthome tell me a candidate on the waiting list has died?
+
+Yes. Filter the admission requests on **Waiting list** and run **Check
+insurability (MDA)**: a death the mutuality reports closes the request with the
+reason **Died before admission**. The **Waiting list check** setting runs it
+every month.
+→ [Admitting a resident in Belgium](admission.md)
 
 ---
 
@@ -145,9 +168,9 @@ at once. Then read the summary and the insurability periods.
 ### How do I check several residents at once?
 
 Launch the check **in batch**: select the residents (you can **paste a column**
-of names/NISS), the period, then send the whole batch. Use **Immediate sending
-(Sync)** for small volumes, or **Grouped sending (Async)** for large monthly
-batches — the response is then retrieved with **Check responses** (requires at
+of names/NISS), the period, then send the whole batch. Use **Send Sync** for
+small volumes, or **Send Async** for large monthly batches — the response is
+then retrieved with **Check Responses** (requires at
 least 2 residents).
 → [Insurability (MDA)](ehealth/mda.md)
 
@@ -179,9 +202,10 @@ private…), Resthome **does not overwrite** the profile's mutuality.
 
 ### What to do in case of an MDA error or no response?
 
-For a "No response" answer from the platform, use **Retry no-response**; if it
-persists, **Report to InterMut.** For a rejection by the OA, use **Contact the
-OA** (the reason is shown); for a technical error, **Report to InterMut.**
+A request the platform closed without any answer shows **No Facet
+(closed-out)**: on the batch, use **Retry No-Facet**; if it persists, **Contact
+CIN** from the request's thread. For a rejection by the OA, use **Contact OA**
+(the reason is shown); for a technical error, **Contact CIN**.
 → [MDA errors — causes and solutions](ehealth/mda-erreurs.md)
 
 ### What is reintegration (loss then return of insurability)?
@@ -223,8 +247,10 @@ agreement (Annexe 10)**; end of stay / death → **exit notification (Annexe 11)
 
 ### What are the statuses of an agreement, and what to do if rejected?
 
-An agreement goes through **Draft** (prepared, not sent), **Sent**, **Accepted**
-and **Rejected** (with a reason). If rejected, Resthome shows the **reason in
+An agreement goes through **Draft** (prepared, not sent), **Sent (platform)**,
+**Awaiting the OA**, then **Accepted** or **Refused** — the decision recorded
+from the mutuality's letter. **Rejected** is an electronic reject, with a
+reason, to correct and resend. If rejected, Resthome shows the **reason in
 plain language, in French and in Dutch**, directly on the agreement — so you know
 what to fix (often NISS, mutuality or dates) before resending.
 → [Refused agreement (eAgreement) — causes and solutions](ehealth/eagreement-refus.md)
@@ -260,7 +286,7 @@ resident share.
 
 ### How do I check a period before invoicing in Belgium?
 
-Among the counters at the top of the period, **MDA** and **Katz to do** are
+Among the counters at the top of the period, **MDA** and **Katz à faire** are
 Belgian: handle them with the others. Then run **Check MDA** to verify
 insurability, and **Generate eFact** — both come before **Create Invoices**.
 → [Billing a month in Belgium](facturation.md)
@@ -270,7 +296,7 @@ insurability, and **Generate eFact** — both come before **Create Invoices**.
 Once the period is **Generated** and the MDA requested, click **Generate eFact**
 — before **Create Invoices**; the batches are built from the period's
 mutuality lines, not from the invoices. Resthome builds the **batches** — one electronic file per insurance organisation
-— then shows the **eFact Batches** list (OA, reference, month, deadline, status,
+— then shows the **eFact Batches** list (OA, reference, month, status,
 invoiced/accepted/refused amounts, and code + reason in case of refusal).
 → [Electronic invoicing (eFact)](ehealth/efact.md)
 
@@ -286,8 +312,9 @@ grouping.
 
 Open **eHealth → eFact → Cockpit** (or the batches) and click **Send all** (or
 batch by batch); the sendings go to the mutualities through eHealth. Then click
-**Get responses**: each batch moves **Sent → Acknowledged → Accepted /
-Rejected**, with Resthome automatically reconciling the accepted/refused
+**Fetch responses**: each batch moves from **Sent (platform)** to
+**Acknowledged (OA)**, then **Settled** — or **Partial Reject** / **Rejected** —
+with Resthome automatically reconciling the accepted/refused
 amounts.
 → [Billing a month in Belgium](facturation.md) ·
 [Electronic invoicing (eFact)](ehealth/efact.md)
@@ -312,11 +339,21 @@ duplicates, and the **Reintegration** button lets you, where applicable,
 reintegrate lines into a new sending.
 → [eFact rejections — causes and solutions](ehealth/efact-rejets.md)
 
-### What does "deadline exceeded" mean on a period card?
+### Is there still a deadline to send the eFact?
 
-The **sending deadline** of this period has **passed**. Send without delay —
-beyond it, some insurance organisations may refuse the batch.
-→ [Electronic invoicing (eFact)](ehealth/efact.md)
+**No.** The former sending deadline — the 20th of the following month — was
+**abolished**: a late batch is no longer refused, and the period card no longer
+counts down. What still runs is the insurer's **payment** deadline (end of the
+2nd month after the sending), which opens the right to late-payment interest:
+send as soon as the month is billed.
+→ [Payment tracking and settlement reconciliation](ehealth/efact-paiements.md)
+
+### A sending got no certain answer: should I resend it?
+
+**No, not blindly.** When the answer to a sending is lost (time-out,
+interruption), Resthome never resends it on its own: it lists it in **eHealth →
+Configuration → Sends to check**, where you say whether MyCareNet received it.
+→ [eHealth](ehealth/index.md)
 
 ---
 
@@ -331,6 +368,14 @@ OAs, get the responses, and finally **Close Period**. The highlighted button of
 the period always shows the next step. Resthome runs in parallel the resident share (classic invoices) and
 the mutuality share (eFact) on the same period.
 → [Billing a month in Belgium](facturation.md)
+
+### Where do I see the occupied beds against my approvals?
+
+In **Billing → Facturation → Occupancy MR / CS / MRS**: one column per sector,
+one row per Katz category, the approved and free beds, and the occupancy of the
+quarter. A banner flags the MR residents whose category would allow a transfer
+to an MRS bed.
+→ [Occupancy MR / CS / MRS](occupation-mr-mrs.md)
 
 ### Is the INAMI allowance split between the debtors?
 

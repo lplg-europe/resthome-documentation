@@ -14,13 +14,13 @@ What is the difference between the acknowledgement of receipt (931000) and the s
 : The acknowledgement (931000) only confirms that the insurer received your batch and passed the first check — nothing has been paid yet. The settlement (920900) is the final result: it shows, line by line, what is accepted and what is rejected, and serves as a payment notice under Account C. Until the settlement arrives, no amount is final.
 
 How can I tell whether an eFact batch has been paid in Resthome?
-: Open the batch: the Payment tab shows Paid, the payment reference and the amount. Under Account C, as soon as the settlement carries a real payment reference, Resthome marks the batch Paid automatically. For an overview, the eFact Cockpit gathers the settled batches not yet reconciled and the overdue OAs.
+: Open the batch: the Payment group of its Info tab shows Paid, the payment reference and the amount. Under Account C, as soon as the settlement carries a real payment reference, Resthome marks the batch Paid automatically. For an overview, the eFact Cockpit gathers the settled batches not yet reconciled and the overdue OAs.
 
 What does it mean to "reconcile" a settlement?
 : Reconciling means confirming that the money announced by the settlement has actually been received. Resthome automatically matches each settlement to its batch; you confirm receipt by opening the settlement and clicking Mark Reconciled.
 
 An insurer is late paying: can I claim late-payment interest?
-: Yes, if the batch was submitted on time (by the 20th of month M+1 at the latest). The OA must pay by the end of the 2nd month following submission; beyond that, Resthome calculates the late-payment interest (accepted amount × legal rate × days late / 365). The legal rate is set in the eHealth settings.
+: Yes. Every sent batch is eligible: the former condition of sending by the 20th of the following month fell with that deadline, which was abolished. The OA must pay by the end of the 2nd month following submission; beyond that, Resthome calculates the late-payment interest (accepted amount × legal rate × days late / 365). The legal rate is set in the eHealth settings.
 
 The settlement shows both accepted AND rejected amounts: what should I do?
 : This is a partial rejection: the accepted part is paid, the rejected lines must be corrected and resent. Resthome automatically creates a remainder for the rejected lines and lists them in the Cockpit's Rejected lines list.
@@ -38,7 +38,7 @@ You'll find everything in the **eHealth → eFact** app:
 
 - the **Cockpit** — your "what to do now" control board;
 - **eFact Settlements** — the list of **settlements** received;
-- **eFact Batches** — each batch and its **Payment tab**.
+- **eFact Batches** — each batch and the **Payment** group of its **Info** tab.
 
 :::{admonition} Acknowledgement of receipt ≠ settlement
 :class: info
@@ -125,10 +125,10 @@ settlement file, zone by zone, to check a value as close to the source as
 possible.
 :::
 
-## 3. A batch's Payment tab
+## 3. A batch's payment status
 
 On a batch ([eFact batches](efact.md)), once the batch has been sent, the
-**Payment** group summarizes the payment status:
+**Payment** group of the **Info** tab summarizes the payment status:
 
 - **Paid** — the checkbox turns green when the batch is paid;
 - **Payment Reference** — the OA's payment reference;
@@ -196,13 +196,13 @@ dashboard card). The Cockpit organizes all the work into **action stacks**,
 with a counter and a button per stack. Three stacks answer the payment question
 directly.
 
-![eFact Cockpit with the action stacks (To send, Awaiting OA, To correct, To reconcile, Overdue OA payments) and the "Rejects by cause" table](../../assets/screenshots/ehealth/11-efact-cockpit.webp)
+![eFact Cockpit with the action stacks (To send, Awaiting OA, To correct, To reconcile, OA payments overdue) and the "Rejects by cause" table](../../assets/screenshots/ehealth/11-efact-cockpit.webp)
 
 - **To reconcile** — the batches **settled but whose payment is not yet
   confirmed**. The total expected amount is shown; the **Reconcile payments**
   button opens the list to reconcile them one by one.
-- **Overdue payments** — the batches **accepted but still unpaid** whose **OA
-  payment deadline has passed**. See chasing below.
+- **OA payments overdue** — the batches **accepted but still unpaid** whose
+  **OA payment deadline has passed**. See chasing below.
 - **Rejected lines** — the **worklist** of rejected lines still to be resent
   (resident + code + amount), filterable by cause, OA and month.
 
@@ -224,8 +224,8 @@ forces an immediate check.
 
 ## 6. Chasing an overdue OA
 
-The **Overdue payments** stack lists the batches **submitted on time**,
-**accepted** by the OA but **unpaid** beyond the deadline. The **Chase (by
+The **OA payments overdue** stack lists the batches **accepted** by the OA but
+**unpaid** beyond the OA payment deadline. The **Chase (by
 OA)** button opens these batches **grouped by insurer**: you immediately see
 **who to chase** and **for how much** (the accepted total is summed per OA).
 
@@ -235,10 +235,10 @@ contact with the right billing correspondent.
 ## 7. Late-payment interest (moratory interest)
 
 A batch paid too late may entitle you to **late-payment interest**. Resthome
-applies the AViQ rule:
+applies the regional rule:
 
-- the batch must have been **submitted on time** (sent by the **20th of month
-  M+1** at the latest) — this is the **eligibility** condition;
+- every **sent** batch is eligible: the former condition of sending by the
+  20th of the following month fell with that deadline, which was abolished;
 - the OA must pay **by the end of the 2nd month following submission**: this is
   the **OA Payment Deadline**;
 - past this date, interest accrues, calculated as:

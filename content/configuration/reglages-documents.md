@@ -10,7 +10,7 @@ Configure resident document centralization in nursing homes — root folder, def
 
 :::{rh-faq}
 Where are the document centralization settings?
-: In **Settings > Documents > File centralization**, the **Nursing home** block. This block only appears when the Documents app is installed.
+: In **Settings → Documents → File centralization**, the **Nursing home** block. This block only appears when the Documents app is installed.
 
 What exactly does resident document centralization do?
 : When enabled, every attachment added to a resident's record (chatter) is automatically filed in that resident's personal folder, in the Documents app. This way you find all of a resident's files in one place, with no manual filing.
@@ -28,11 +28,11 @@ Is the setting shared across all my facilities?
 : No. It is specific to each company (facility) in the database. Each company has its own "Residents" root folder and its own configuration, which keeps the folders isolated.
 :::
 
-The **Settings > Documents** tab gathers the settings of Odoo's **Documents**
+The **Settings → Documents** tab gathers the settings of Odoo's **Documents**
 app. In the **File centralization** section, Resthome adds a **Nursing home**
 block that **automatically files** your residents' attachments into their
-**personal folder**. You find these settings in **Settings > Documents
-> File centralization**.
+**personal folder**. You find these settings in **Settings → Documents
+→ File centralization**.
 
 :::{admonition} Prerequisite
 :class: info

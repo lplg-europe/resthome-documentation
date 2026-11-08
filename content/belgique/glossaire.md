@@ -5,7 +5,7 @@ modules: []
 # Glossary — Belgium
 
 :::{rh-description}
-Glossary of the Belgian terms and acronyms used in Resthome and in Belgian nursing-home billing: INAMI, Katz, NISS, OA, MDA, eFact, eAgreement, annexes, AViQ, CPAS.
+Glossary of the Belgian terms and acronyms used in Resthome and in Belgian nursing-home billing: INAMI, approval, Katz, NISS, eID, OA, MDA, eFact, eAgreement, eHealthBox, CoBRHA, MediPrima, annexes, AViQ, CPAS.
 :::
 
 The terms and acronyms that come from **Belgian** rules and institutions,
@@ -39,6 +39,20 @@ The **expense note**: an individual note per resident for the expenses advanced,
 summary note per insurance organisation.
 See: [The Expense Note (Annexe 12)](note-de-frais-annexe12.md)
 
+## APB number
+
+The number of a Belgian pharmacy that HomeLink files are addressed to. A
+pharmacy needs one to appear in the list of pharmacies.
+See: [The pharmacy link](medicaments-lien-pharmacie.md)
+
+## Approval
+
+The **INAMI approval** of a facility: its INAMI number, its establishment type and,
+per sector (MR, MRS, CSJ), the number of approved beds. Each approval carries its own
+eHealth certificate and its eFact settings, in **Healthcare → Configuration → General →
+Approvals**.
+See: [Belgian settings](reglages.md)
+
 ## AViQ
 
 The Walloon agency that sets the rates of the dependency allowance and funds the
@@ -51,6 +65,19 @@ See: [Institutional allowance](forfait/index.md)
 **Increased-reimbursement beneficiary**: a social status granting the right to better
 reimbursement. The MDA pulls it automatically onto the resident's record.
 See: [Insurability (MDA)](ehealth/mda.md)
+
+## CNK
+
+The national code of a medicine package in Belgium, read from SAM. A medicine
+without CNK stays in the **Catalogue Without CNK**.
+See: [Medication rules in Belgium](medicaments-regles.md)
+
+## CoBRHA
+
+The federal register of the **healthcare professionals and institutions**, kept by
+eHealth. Resthome looks a NIHII up there and keeps the answer 30 days, for example to
+name a resident's reference pharmacy or general practitioner.
+See: [Health Directory and CoBRHA](ehealth/annuaire-sante.md)
 
 ## CPAS
 
@@ -85,6 +112,24 @@ The **simple notifications** tied to the resident's **movements** (admission, ab
 departure, return) that Resthome generates automatically as you work.
 See: [Agreements (eAgreement)](ehealth/eagreement.md)
 
+## eHealth consent
+
+The patient's agreement to the **exchange of their health data** between the
+caregivers who treat them, registered at eHealth.
+See: [eHealth consent](ehealth/consentement.md)
+
+## eHealthBox
+
+The **secure mailbox** of the eHealth platform, addressed by NIHII or company
+number, in which caregivers and institutions exchange encrypted messages.
+See: [The eHealthBox](ehealth/ehealthbox.md)
+
+## eID
+
+The Belgian **electronic identity card**. Read with a card reader, it fills in a
+resident's identity and NISS.
+See: [Reading the eID card](lecture-eid.md)
+
 ## eFact
 
 **Electronic** transmission of the **insurer's share** (the INAMI package) to the health
@@ -109,6 +154,20 @@ See: [Electronic invoicing (eFact)](ehealth/efact.md)
 Belgian platform for **secure electronic exchanges** in healthcare. Resthome uses it for
 the MDA, the eAgreement and eFact (via MyCareNet / WalCareNet).
 See: [eHealth](ehealth/index.md)
+
+## Health Directory
+
+The search screen over the eHealth registers of **professionals and
+institutions**: by name, NIHII, NISS or company number.
+See: [Health Directory and CoBRHA](ehealth/annuaire-sante.md)
+
+## HomeLink
+
+The protocol Belgian care homes and pharmacies exchange files with:
+**Therapylink** (the medication schedule), **Doselink** (the sachets),
+**Orderlink** (the orders), **Stocklink** and **Invoicelink** (the pharmacy's
+stock and invoices).
+See: [The pharmacy link](medicaments-lien-pharmacie.md)
 
 ## INAMI
 
@@ -142,10 +201,11 @@ See: [Electronic invoicing (eFact)](ehealth/efact.md)
 
 ## Katz (scale)
 
-Scale measuring a resident's **degree of dependency** across 6 criteria (washing,
-dressing, transfer and mobility, using the toilet, continence, eating), each rated from
-1 to 4. It determines the **category** (**O**, **A**, **B**, **C**, **Cd / Cc**) and
-therefore the package.
+Scale measuring a resident's **degree of dependency**: six daily activities (washing,
+dressing, transferring, toileting, continence, eating) and the orientation in time and
+space, each rated from 1 to 4. It determines the **category** (**O**, **A**, **B**,
+**C**, **Cd**, **D**, **Ccoma**) and therefore the package. Without a validated
+assessment, there is no category: see **No Katz**.
 See: [The Katz assessment](katz.md)
 
 ## MDA (insurability)
@@ -154,6 +214,12 @@ See: [The Katz assessment](katz.md)
 insurance fund** with MyCareNet / WalCareNet for a given period. An essential
 prerequisite for eFact.
 See: [Insurability (MDA)](ehealth/mda.md)
+
+## MediPrima
+
+The federal register of the **medical aid decisions** a CPAS takes for a person who
+has no mutuality: the medical card states what the CPAS covers.
+See: [CPAS coverage](cpas.md)
 
 ## MR / MRS
 
@@ -173,12 +239,26 @@ for the MDA, the eAgreement and eFact. WalCareNet is the Walloon counterpart.
 sending a resident's MDA and eAgreement agreements.
 See: [Admitting a resident in Belgium](admission.md)
 
+## No Katz
+
+What a resident's row shows in a billing period when they have **no validated Katz
+assessment**: their accommodation is billed, but no INAMI allowance. Validate the
+assessment, then regenerate the period.
+See: [The Katz assessment](katz.md)
+
 ## Noon rule
 
 Day-counting convention: it is **presence at noon** (Brussels time) that determines
 whether a day counts toward the package, hence the importance of departure and return
 dates and times.
 See: [Billing a month in Belgium](facturation.md)
+
+## PMI
+
+The individual preparation of medication: the pharmacy prepares the medicines
+in a sachet per resident and per moment; the sachets may be used for fourteen
+days from the delivery.
+See: [Medication rules in Belgium](medicaments-regles.md)
 
 ## Pseudo-code
 
@@ -196,11 +276,24 @@ insurability changes between two MDA checks (loss then return of insurability, f
 example).
 See: [Insurability (MDA)](ehealth/mda.md)
 
+## RS (serviced residence)
+
+A serviced residence (résidence-services): flats for independent elderly
+people, under the regional regime, possibly beside an MR/MRS.
+See: [Serviced residences in Belgium](residences-services.md)
+
 ## SAM
 
 The Belgian **authentic-source medication database**, with the ATC code, the BCFI class,
-the Black Triangle and the SmPC / leaflet, searched with the **Search SAM** wizard.
+the Black Triangle and the SmPC / leaflet. A new medicine is searched in it with **Find the medicine in SAM**; the **SAM Database** door of the Medicines workstation opens it read-only.
 See: [The SAM medication database](sam-base-medicaments.md)
+
+## Sends to check
+
+The list of sendings to MyCareNet whose answer was lost (time-out, interruption).
+Resthome never resends them on its own: you say whether MyCareNet received them, in
+**eHealth → Configuration → Sends to check**.
+See: [eHealth](ehealth/index.md)
 
 ## Third-party payer
 

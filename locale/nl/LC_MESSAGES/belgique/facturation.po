@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 17:25+0200\n"
+"POT-Creation-Date: 2026-11-08 19:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nl <LL@li.org>\n"
@@ -154,7 +154,37 @@ msgstr ""
 "OCMW dat alles betaalt, wordt ingesteld als facturatiecontact van de "
 "bewoner."
 
+#: ../../content/belgique/facturation.md:36
+msgid "Is there a deadline to send the eFact?"
+msgstr "Is er een termijn om de eFact te verzenden?"
+
 #: ../../content/belgique/facturation.md:37
+msgid ""
+"No longer: the former \"20th of the following month\" sending deadline was "
+"abolished. What still runs is the insurer's payment deadline, which opens "
+"the right to late-payment interest — see [Payment tracking](ehealth/efact-"
+"paiements.md)."
+msgstr ""
+"Niet meer: de vroegere verzendtermijn \"de 20e van de volgende maand\" werd "
+"afgeschaft. Wat nog loopt, is de betaaltermijn van de "
+"verzekeringsinstelling, die recht geeft op nalatigheidsintresten — zie "
+"[Betalingen opvolgen](ehealth/efact-paiements.md)."
+
+#: ../../content/belgique/facturation.md:39
+msgid "What happens to a resident without a validated Katz?"
+msgstr "Wat gebeurt er met een bewoner zonder gevalideerde Katz?"
+
+#: ../../content/belgique/facturation.md:40
+msgid ""
+"Their accommodation is billed, but no INAMI allowance: the period shows **No"
+" Katz** on their row and its thread names them. Validate their Katz, then "
+"regenerate the period."
+msgstr ""
+"Zijn verblijf wordt gefactureerd, maar geen RIZIV-forfait: de periode toont "
+"**Geen Katz** op zijn regel en de chatter van de periode noemt hem. Valideer"
+" zijn Katz en genereer de periode daarna opnieuw."
+
+#: ../../content/belgique/facturation.md:43
 msgid ""
 "The monthly billing described in [Billing](../facturation/index.md) is the "
 "same in every country. This page gathers what **Belgium** adds to it: the "
@@ -169,16 +199,16 @@ msgstr ""
 " eFact, eAgreement), de regels die het RIZIV toepast op afwezigheden en "
 "vertrek, en het **OCMW**."
 
-#: ../../content/belgique/facturation.md:43
+#: ../../content/belgique/facturation.md:49
 msgid "Each section links to the Belgian page that details the subject."
 msgstr ""
 "Elke sectie verwijst naar de Belgische pagina die het onderwerp uitdiept."
 
-#: ../../content/belgique/facturation.md:45
+#: ../../content/belgique/facturation.md:51
 msgid "Two shares on every invoice"
 msgstr "Twee aandelen op elke factuur"
 
-#: ../../content/belgique/facturation.md:47
+#: ../../content/belgique/facturation.md:53
 msgid ""
 "In a Belgian nursing home (**MR** or **MRS**), each month is billed in two "
 "flows, over the same billing period:"
@@ -186,7 +216,7 @@ msgstr ""
 "In een Belgisch woonzorgcentrum (**ROB** of **RVT**) wordt elke maand in "
 "twee stromen gefactureerd, over dezelfde facturatieperiode:"
 
-#: ../../content/belgique/facturation.md:50
+#: ../../content/belgique/facturation.md:56
 msgid ""
 "the **mutuality share** — the **[INAMI dependency allowance](forfait-"
 "inami.md)**, covered 100% by the health insurance fund (third-party payer) "
@@ -196,7 +226,7 @@ msgstr ""
 "inami.md)**, voor 100 % gedragen door het ziekenfonds (derdebetaler) en "
 "elektronisch verzonden via **[eFact](ehealth/efact.md)**;"
 
-#: ../../content/belgique/facturation.md:53
+#: ../../content/belgique/facturation.md:59
 msgid ""
 "the **resident's share** — accommodation, supplements and supplement "
 "agreements, care services, medication, adjusted for absences → standard "
@@ -207,7 +237,7 @@ msgstr ""
 "afwezigheden → gewone facturen, aan de bewoner, zijn familie of een "
 "[OCMW](cpas.md)."
 
-#: ../../content/belgique/facturation.md:58
+#: ../../content/belgique/facturation.md:64
 msgid ""
 "The allowance is billed under **pseudo-codes**, not under a price list of "
 "your own: the care flat-rate carries its **AViQ pseudo-code** (for example "
@@ -225,11 +255,11 @@ msgstr ""
 "afhankelijkheidsprofiel aan het ziekenfonds. Details en tarieven: [Het "
 "RIZIV-forfait (afhankelijkheid)](forfait-inami.md)."
 
-#: ../../content/belgique/facturation.md:66
+#: ../../content/belgique/facturation.md:72
 msgid "MR and MRS"
 msgstr "ROB en RVT"
 
-#: ../../content/belgique/facturation.md:69
+#: ../../content/belgique/facturation.md:75
 msgid ""
 "In Belgium, the sectors a home is licensed for are **MR** (rest home) and "
 "**MRS** (rest and care home). The **stay type** shown on the resident cards "
@@ -243,11 +273,11 @@ msgstr ""
 "Een supplementenovereenkomst blijft behouden bij een overplaatsing **ROB ↔ "
 "RVT**."
 
-#: ../../content/belgique/facturation.md:75
+#: ../../content/belgique/facturation.md:81
 msgid "The month, step by step, on the Belgian side"
 msgstr "De maand, stap voor stap, aan Belgische zijde"
 
-#: ../../content/belgique/facturation.md:77
+#: ../../content/belgique/facturation.md:83
 msgid ""
 "The common guide [Billing a month, step by step](../facturation/facturer-un-"
 "mois.md) gives the sequence common to every country. In Belgium, it gains "
@@ -257,27 +287,32 @@ msgstr ""
 "stap](../facturation/facturer-un-mois.md) geeft de volgorde die in alle "
 "landen geldt. In België komen er de eHealth-stappen bij:"
 
-#: ../../content/belgique/facturation.md:81
+#: ../../content/belgique/facturation.md:87
 msgid "**Open the period** in **Billing → Facturation → Billing Periods**."
 msgstr ""
 "**Open de periode** in **Facturatie → Facturering → Factureringsperioden**."
 
-#: ../../content/belgique/facturation.md:82
+#: ../../content/belgique/facturation.md:88
 msgid ""
 "**Generate** — in the **Generate Billing** window, **Load MDA Success** (and"
 " **Load MDA Pending**) pre-fill the residents whose insurability was already"
 " checked, for instance by a batch MDA run at the start of the month. The "
 "allowance is computed on the days of presence over the **INAMI intervention "
-"period**, with the billed Katz category. The period becomes **Generated**."
+"period**, with the billed Katz category. The period becomes **Generated**. A"
+" resident without a validated Katz gets no allowance: their row shows **No "
+"Katz**, and the thread asks you to validate their Katz and regenerate."
 msgstr ""
 "**Genereren** — in het venster **Facturering genereren** vullen **MDA-Succes"
 " Laden** (en **MDA in Afwachting Laden**) de bewoners vooraf in van wie de "
 "verzekerbaarheid al gecontroleerd is, bijvoorbeeld door een MDA-lot dat aan "
 "het begin van de maand is uitgevoerd. Het forfait wordt berekend op de "
 "aanwezigheidsdagen binnen de **RIZIV-tegemoetkomingsperiode**, met de "
-"gefactureerde Katz-categorie. De periode krijgt de status **Gegenereerd**."
+"gefactureerde Katz-categorie. De periode krijgt de status **Gegenereerd**. "
+"Een bewoner zonder gevalideerde Katz krijgt geen forfait: zijn regel toont "
+"**Geen Katz**, en de chatter vraagt u zijn Katz te valideren en opnieuw te "
+"genereren."
 
-#: ../../content/belgique/facturation.md:87
+#: ../../content/belgique/facturation.md:95
 msgid ""
 "**Check insurability** — click **Check MDA**: one request per resident of "
 "the period, sent as a batch. The step is done as soon as every resident "
@@ -294,19 +329,24 @@ msgstr ""
 "proberen** verstuurt de verzoeken die op een fout zijn uitgelopen opnieuw. "
 "Zie [Verzekerbaarheid (MDA)](ehealth/mda.md)."
 
-#: ../../content/belgique/facturation.md:92
+#: ../../content/belgique/facturation.md:100
 msgid ""
 "**Generate eFact** — in the **Generate eFact Batches** window, click "
 "**Generate Batches**: Resthome builds the eFact **batches** from the "
 "period's mutuality lines, grouped **by union** of mutualities. A resident "
-"with no Katz assessment blocks this step."
+"with no Katz assessment blocks this step. Residents left out of the eFact — "
+"no NISS, no mutuality, no billable day — are named with the reason and the "
+"amount, so nobody disappears silently."
 msgstr ""
 "**Genereer eFact** — klik in het venster **eFact-batches genereren** op "
 "**Batches genereren**: Resthome bouwt de eFact-**loten** op basis van de "
 "ziekenfondsregels van de periode, gegroepeerd **per landsbond** van "
-"ziekenfondsen. Een bewoner zonder Katz-evaluatie blokkeert deze stap."
+"ziekenfondsen. Een bewoner zonder Katz-evaluatie blokkeert deze stap. De "
+"bewoners die buiten de eFact blijven — geen INSZ, geen ziekenfonds, geen "
+"factureerbare dag — worden genoemd met de reden en het bedrag, zodat niemand"
+" stilzwijgend verdwijnt."
 
-#: ../../content/belgique/facturation.md:96
+#: ../../content/belgique/facturation.md:106
 msgid ""
 "**Create Invoices** — the resident's share becomes **draft** invoices; check"
 " them, then **Confirm** them. The period becomes **Invoiced**."
@@ -315,7 +355,7 @@ msgstr ""
 "**concept**; controleer ze en klik daarna op **Bevestigen**. De periode "
 "krijgt de status **Gefactureerd**."
 
-#: ../../content/belgique/facturation.md:98
+#: ../../content/belgique/facturation.md:108
 msgid ""
 "**Send** — open **eHealth → eFact → Cockpit** (or the batches) and click "
 "**Send all**, or send batch by batch. The submissions go out to the insurers"
@@ -325,7 +365,7 @@ msgstr ""
 "**Alles verzenden**, of verzend lot per lot. De zendingen gaan via het "
 "eHealth-netwerk naar de verzekeringsinstellingen."
 
-#: ../../content/belgique/facturation.md:101
+#: ../../content/belgique/facturation.md:111
 msgid ""
 "**Track the responses** — click **Fetch responses** to bring back the "
 "acknowledgements and settlements. Each batch moves through **Sent → "
@@ -338,7 +378,7 @@ msgstr ""
 "corrigeert u de oorzaak (verzekerbaarheid, data, bedragen) en **verzendt u "
 "opnieuw**."
 
-#: ../../content/belgique/facturation.md:105
+#: ../../content/belgique/facturation.md:115
 msgid ""
 "**Close Period** — possible once no invoice is left in draft, every batch "
 "has reached a final outcome, no mutuality line is outside a batch and every "
@@ -349,7 +389,7 @@ msgstr ""
 "buiten een lot valt en elke door de verzekeringsinstelling geweigerde "
 "prestatie verbeterd is."
 
-#: ../../content/belgique/facturation.md:108
+#: ../../content/belgique/facturation.md:118
 msgid ""
 "**Print the expense notes** — [Annexe 12](note-de-frais-annexe12.md), "
 "individual and summary, once the month is billed."
@@ -357,7 +397,7 @@ msgstr ""
 "**Druk de kostennota's af** — [Bijlage 12](note-de-frais-annexe12.md), "
 "individuele nota en verzamelnota, zodra de maand gefactureerd is."
 
-#: ../../content/belgique/facturation.md:111
+#: ../../content/belgique/facturation.md:121
 msgid ""
 "The period points at the next step itself: its highlighted button (and the "
 "**To do** column of the **Billing Periods** list) reads **Check insurability"
@@ -374,7 +414,7 @@ msgstr ""
 "met status **Gefactureerd**, voor een laat toegevoegde bewoner of een "
 "opnieuw opgebouwd lot."
 
-#: ../../content/belgique/facturation.md:117
+#: ../../content/belgique/facturation.md:127
 msgid ""
 "The screens, the pre-send checks and the advanced buttons are described in "
 "[Electronic invoicing (eFact)](ehealth/efact.md); the whole journey from "
@@ -385,11 +425,11 @@ msgstr ""
 "volledige traject van opname tot betaling staat in [Het "
 "facturatietraject](parcours-facturation.md)."
 
-#: ../../content/belgique/facturation.md:121
+#: ../../content/belgique/facturation.md:131
 msgid "The month-end checklist, eHealth side"
 msgstr "De checklist einde maand, aan eHealth-zijde"
 
-#: ../../content/belgique/facturation.md:123
+#: ../../content/belgique/facturation.md:133
 msgid ""
 "The [Month-end checklist](../facturation/checklist-fin-de-mois.md) applies "
 "as is. In Belgium, it gains the following eHealth steps."
@@ -397,11 +437,11 @@ msgstr ""
 "De [Checklist einde maand](../facturation/checklist-fin-de-mois.md) geldt "
 "ongewijzigd. In België komen er de volgende eHealth-stappen bij."
 
-#: ../../content/belgique/facturation.md:126
+#: ../../content/belgique/facturation.md:136
 msgid "Insurability (MDA)"
 msgstr "Verzekerbaarheid (MDA)"
 
-#: ../../content/belgique/facturation.md:128
+#: ../../content/belgique/facturation.md:138
 msgid ""
 "Run the **batch MDA** for the month: it confirms who is insured and, above "
 "all, **which mutuality actually responds**. A resident who changed fund "
@@ -413,11 +453,11 @@ msgstr ""
 "veranderde zonder het u te melden, wordt hier opgemerkt — niet via een "
 "eFact-verwerping drie weken later."
 
-#: ../../content/belgique/facturation.md:132
+#: ../../content/belgique/facturation.md:142
 msgid "Every resident must reach the **Success** status."
 msgstr "Elke bewoner moet de status **Succes** bereiken."
 
-#: ../../content/belgique/facturation.md:133
+#: ../../content/belgique/facturation.md:143
 msgid ""
 "Handle the **Not insured** cases: their share goes to the resident, not to "
 "the mutuality."
@@ -425,7 +465,7 @@ msgstr ""
 "Behandel de gevallen **Niet verzekerd**: hun aandeel gaat naar de bewoner, "
 "niet naar het ziekenfonds."
 
-#: ../../content/belgique/facturation.md:135
+#: ../../content/belgique/facturation.md:145
 msgid ""
 "Retry the **errors** and the **no-responses** — on the period, **Retry "
 "Failed MDA** resends the requests that ended in an error."
@@ -434,7 +474,7 @@ msgstr ""
 "periode verstuurt **Mislukte MDA's opnieuw proberen** de verzoeken die op "
 "een fout zijn uitgelopen opnieuw."
 
-#: ../../content/belgique/facturation.md:138
+#: ../../content/belgique/facturation.md:148
 msgid ""
 "→ [Insurability (MDA)](ehealth/mda.md) · [MDA errors](ehealth/mda-"
 "erreurs.md)"
@@ -442,11 +482,11 @@ msgstr ""
 "→ [Verzekerbaarheid (MDA)](ehealth/mda.md) · [MDA-fouten](ehealth/mda-"
 "erreurs.md)"
 
-#: ../../content/belgique/facturation.md:140
+#: ../../content/belgique/facturation.md:150
 msgid "The single most useful step"
 msgstr "De nuttigste stap"
 
-#: ../../content/belgique/facturation.md:143
+#: ../../content/belgique/facturation.md:153
 msgid ""
 "Most eFact rejections come from a wrong mutuality or a lost insurability. "
 "Running a batch MDA at the **start** of the month (**eHealth → Insurability "
@@ -459,23 +499,25 @@ msgstr ""
 "**Controleer MDA** op de gegenereerde periode voor de overige bewoners, valt"
 " die hele categorie problemen weg vóór de eFact vertrekt."
 
-#: ../../content/belgique/facturation.md:149
+#: ../../content/belgique/facturation.md:159
 msgid "Katz assessments"
 msgstr "Katz-evaluaties"
 
-#: ../../content/belgique/facturation.md:151
+#: ../../content/belgique/facturation.md:161
 msgid ""
 "The billed Katz category is the profile declared to the mutuality with the "
-"allowance. A missing or expired assessment leaves the resident in category "
-"**O** by default, and the billing no longer matches the agreement. The "
-"**Katz to do** counter lists them."
+"allowance. A resident without a validated assessment gets **no allowance** "
+"at all, and an expired one no longer matches the agreement. The period's "
+"**Katz à faire** counter lists them; the billing dashboard counts the **Katz"
+" to assess**."
 msgstr ""
-"De gefactureerde Katz-categorie is het profiel dat samen met het forfait aan"
-" het ziekenfonds wordt gemeld. Een ontbrekende of verlopen evaluatie laat de"
-" bewoner standaard in categorie **O**, en de facturatie stemt dan niet meer "
-"overeen met het akkoord. De teller **Katz te doen** geeft ze weer."
+"De gefactureerde Katz-categorie is het profiel dat met het forfait aan het "
+"ziekenfonds wordt gemeld. Een bewoner zonder gevalideerde evaluatie krijgt "
+"**helemaal geen forfait**, en een verlopen evaluatie stemt niet meer overeen"
+" met het akkoord. De teller **Katz te doen** van de periode lijst ze op; het"
+" facturatiedashboard telt de **Te evalueren Katz**."
 
-#: ../../content/belgique/facturation.md:156
+#: ../../content/belgique/facturation.md:166
 msgid ""
 "→ [The Katz assessment](katz.md) · [The INAMI dependency allowance](forfait-"
 "inami.md)"
@@ -483,11 +525,11 @@ msgstr ""
 "→ [De Katz-evaluatie](katz.md) · [Het RIZIV-forfait "
 "(afhankelijkheid)](forfait-inami.md)"
 
-#: ../../content/belgique/facturation.md:158
+#: ../../content/belgique/facturation.md:168
 msgid "eFact batches and responses"
 msgstr "eFact-loten en antwoorden"
 
-#: ../../content/belgique/facturation.md:160
+#: ../../content/belgique/facturation.md:170
 msgid ""
 "**Generate eFact** builds one batch per insurer (per union of mutualities), "
 "right after the MDA and before the invoices. Check them, then send. Each "
@@ -498,21 +540,21 @@ msgstr ""
 "verzend ze daarna. Elk lot krijgt vervolgens een **ontvangstbevestiging** en"
 " een **afrekening**:"
 
-#: ../../content/belgique/facturation.md:164
+#: ../../content/belgique/facturation.md:174
 msgid "**rejected lines** — fix the cause and issue a remainder;"
 msgstr "**verworpen lijnen** — corrigeer de oorzaak en maak een saldo op;"
 
-#: ../../content/belgique/facturation.md:165
+#: ../../content/belgique/facturation.md:175
 msgid "**rejected batch** — a format problem, to escalate;"
 msgstr "**verworpen lot** — een formaatprobleem, door te geven;"
 
-#: ../../content/belgique/facturation.md:166
+#: ../../content/belgique/facturation.md:176
 msgid "**settlement** — check the amount paid against the amount accepted."
 msgstr ""
 "**afrekening** — controleer het betaalde bedrag ten opzichte van het "
 "aanvaarde bedrag."
 
-#: ../../content/belgique/facturation.md:168
+#: ../../content/belgique/facturation.md:178
 msgid ""
 "The **eFact Cockpit** gathers everything to be done into stacks: to send, "
 "awaiting insurer, to correct, to reconcile, overdue payments."
@@ -521,7 +563,7 @@ msgstr ""
 "verzenden, in afwachting van de VI, te corrigeren, af te punten, "
 "achterstallige betalingen."
 
-#: ../../content/belgique/facturation.md:171
+#: ../../content/belgique/facturation.md:181
 msgid ""
 "→ [eFact rejections](ehealth/efact-rejets.md) · [Settlements and "
 "payments](ehealth/efact-paiements.md)"
@@ -529,67 +571,71 @@ msgstr ""
 "→ [eFact-verwerpingen](ehealth/efact-rejets.md) · [Afrekeningen en "
 "betalingen](ehealth/efact-paiements.md)"
 
-#: ../../content/belgique/facturation.md:173
-msgid "The deadline"
-msgstr "De uiterste termijn"
+#: ../../content/belgique/facturation.md:183
+msgid "When to send"
+msgstr "Wanneer verzenden"
 
-#: ../../content/belgique/facturation.md:175
+#: ../../content/belgique/facturation.md:185
 msgid ""
-"eFact batches must reach the insurer by the **20th of the following month**."
-" Working backwards, the MDA and the corrections should be done in the "
-"**first week** — which leaves room to handle a rejection without missing the"
-" deadline."
+"The former sending deadline — the 20th of the following month — was "
+"**abolished**: a batch is no longer refused for being late. Send as soon as "
+"the month is billed all the same: the insurer's **payment** deadline, and "
+"the late-payment interest it opens, run from the day the batch is sent. See "
+"[Payment tracking and settlement reconciliation](ehealth/efact-"
+"paiements.md)."
 msgstr ""
-"De eFact-loten moeten de verzekeringsinstelling bereiken tegen de **20e van "
-"de volgende maand**. Terugrekenend moeten de MDA en de correcties in de "
-"**eerste week** gebeuren — wat ruimte laat om een verwerping te behandelen "
-"zonder de deadline te missen."
+"De vroegere verzendtermijn — de 20e van de volgende maand — werd "
+"**afgeschaft**: een lot wordt niet meer geweigerd omdat het te laat is. "
+"Verzend toch zodra de maand gefactureerd is: de **betaal**termijn van de "
+"verzekeringsinstelling, en de nalatigheidsintresten die ze opent, lopen "
+"vanaf de dag waarop het lot verzonden wordt. Zie [Betalingen opvolgen en "
+"afrekeningen afpunten](ehealth/efact-paiements.md)."
 
-#: ../../content/belgique/facturation.md:140
+#: ../../content/belgique/facturation.md:150
 msgid "Step"
 msgstr "Stap"
 
-#: ../../content/belgique/facturation.md:140
+#: ../../content/belgique/facturation.md:150
 msgid "Done when"
 msgstr "Klaar wanneer"
 
-#: ../../content/belgique/facturation.md:140
+#: ../../content/belgique/facturation.md:150
 msgid "**MDA**"
 msgstr "**MDA**"
 
-#: ../../content/belgique/facturation.md:140
+#: ../../content/belgique/facturation.md:150
 msgid "every resident is at **Success**"
 msgstr "elke bewoner staat op **Succes**"
 
-#: ../../content/belgique/facturation.md:140
+#: ../../content/belgique/facturation.md:150
 msgid "**Katz**"
 msgstr "**Katz**"
 
-#: ../../content/belgique/facturation.md:140
-msgid "no **Katz to do** left"
-msgstr "geen **Katz te doen** meer"
+#: ../../content/belgique/facturation.md:150
+msgid "the **Katz à faire** counter is empty"
+msgstr "de teller **Katz te doen** is leeg"
 
-#: ../../content/belgique/facturation.md:140
+#: ../../content/belgique/facturation.md:150
 msgid "**eFact**"
 msgstr "**eFact**"
 
-#: ../../content/belgique/facturation.md:140
+#: ../../content/belgique/facturation.md:150
 msgid "the batches are sent"
 msgstr "de loten zijn verzonden"
 
-#: ../../content/belgique/facturation.md:140
+#: ../../content/belgique/facturation.md:150
 msgid "**Follow up**"
 msgstr "**Opvolgen**"
 
-#: ../../content/belgique/facturation.md:140
+#: ../../content/belgique/facturation.md:150
 msgid "the **eFact Cockpit** stacks are empty"
 msgstr "de stapels van de **eFact-cockpit** zijn leeg"
 
-#: ../../content/belgique/facturation.md:186
+#: ../../content/belgique/facturation.md:198
 msgid "Absences and hospitalisations seen by the INAMI"
 msgstr "Afwezigheden en hospitalisaties volgens het RIZIV"
 
-#: ../../content/belgique/facturation.md:188
+#: ../../content/belgique/facturation.md:200
 msgid ""
 "The common page [Absences and hospitalisations](../facturation/absences.md) "
 "explains how to record an absence. In Belgium, two rules apply on top."
@@ -598,7 +644,7 @@ msgstr ""
 "hospitalisaties](../facturation/absences.md) legt uit hoe u een afwezigheid "
 "registreert. In België gelden daarbovenop twee regels."
 
-#: ../../content/belgique/facturation.md:191
+#: ../../content/belgique/facturation.md:203
 msgid ""
 "**The noon rule.** The INAMI allowance is computed on the **presence days**."
 " The count follows a presence-at-**noon** rule (Brussels time): presence at "
@@ -611,12 +657,12 @@ msgstr ""
 "dag meetelt. De **data en uren** van vertrek en terugkeer zijn dus "
 "belangrijk — Resthome baseert zich erop voor een exacte telling."
 
-#: ../../content/belgique/facturation.md:196
+#: ../../content/belgique/facturation.md:208
 msgid "**Notification to the mutuality.** Some absences must be reported:"
 msgstr ""
 "**Melding aan het ziekenfonds.** Sommige afwezigheden moeten worden gemeld:"
 
-#: ../../content/belgique/facturation.md:198
+#: ../../content/belgique/facturation.md:210
 msgid ""
 "an absence of **more than 72 hours**, or **any hospitalisation**, prepares "
 "an **Annexe 11** (departure notification);"
@@ -624,12 +670,12 @@ msgstr ""
 "een afwezigheid van **meer dan 72 uur**, of **elke ziekenhuisopname**, "
 "bereidt een **Bijlage 11** (vertrekmelding) voor;"
 
-#: ../../content/belgique/facturation.md:200
+#: ../../content/belgique/facturation.md:212
 msgid "the resident's **return** prepares an **Annexe 7** (readmission)."
 msgstr ""
 "de **terugkeer** van de bewoner bereidt een **Bijlage 7** (heropname) voor."
 
-#: ../../content/belgique/facturation.md:202
+#: ../../content/belgique/facturation.md:214
 msgid ""
 "Resthome creates these notifications **at the moment you record the absence "
 "and the return**; you only have to check and send them. Deleting an absence "
@@ -641,7 +687,7 @@ msgstr ""
 "Een per vergissing ingevoerde afwezigheid verwijderen trekt ze in, zolang "
 "het ziekenfonds ze niet gevalideerd heeft."
 
-#: ../../content/belgique/facturation.md:206
+#: ../../content/belgique/facturation.md:218
 msgid ""
 "→ [Agreements (eAgreement)](ehealth/eagreement.md) · [Collective "
 "holidays](ehealth/vacances-collectives.md)"
@@ -649,11 +695,11 @@ msgstr ""
 "→ [Akkoorden (eAgreement)](ehealth/eagreement.md) · [Collectieve "
 "vakanties](ehealth/vacances-collectives.md)"
 
-#: ../../content/belgique/facturation.md:208
+#: ../../content/belgique/facturation.md:220
 msgid "Departure and death"
 msgstr "Vertrek en overlijden"
 
-#: ../../content/belgique/facturation.md:210
+#: ../../content/belgique/facturation.md:222
 msgid ""
 "Closing a stay (see [Departure and death](../facturation/depart-deces.md)) "
 "prepares the **Annexe 11** departure notification to the health insurance "
@@ -663,7 +709,7 @@ msgstr ""
 "overlijden](../facturation/depart-deces.md)) bereidt de vertrekmelding "
 "**Bijlage 11** naar het ziekenfonds voor."
 
-#: ../../content/belgique/facturation.md:213
+#: ../../content/belgique/facturation.md:225
 msgid ""
 "The INAMI allowance, unlike the accommodation, is billed on the **month "
 "actually served**: it stops at the end of the INAMI intervention. If a "
@@ -680,7 +726,7 @@ msgstr ""
 "correctielot aan de kant van het ziekenfonds. [Bijlage 12](note-de-frais-"
 "annexe12.md) weerspiegelt de werkelijke aanwezigheidsdagen."
 
-#: ../../content/belgique/facturation.md:220
+#: ../../content/belgique/facturation.md:232
 msgid ""
 "→ [Agreements (eAgreement)](ehealth/eagreement.md) · [Electronic invoicing "
 "(eFact)](ehealth/efact.md)"
@@ -688,38 +734,84 @@ msgstr ""
 "→ [Akkoorden (eAgreement)](ehealth/eagreement.md) · [Elektronische "
 "facturatie (eFact)](ehealth/efact.md)"
 
-#: ../../content/belgique/facturation.md:222
+#: ../../content/belgique/facturation.md:234
 msgid "Supplements declared to the mutuality"
 msgstr "Supplementen gedeclareerd aan het ziekenfonds"
 
-#: ../../content/belgique/facturation.md:224
+#: ../../content/belgique/facturation.md:236
 msgid ""
-"In the supplements catalog (**Configuration → Catalog**), the **AViQ code** "
-"field holds the **declaration pseudo-code** of a supplement, when it is "
-"declared to the insurance body."
+"In the supplements catalogue (**Supplements → Configuration → Catalogue**), "
+"the **Pseudo-code** field holds the **declaration pseudo-code** of a "
+"supplement, when it is declared to the insurance body."
 msgstr ""
-"In de supplementencatalogus (**Configuratie → Catalogus**) bevat het veld "
-"**AVIQ-code** de **declaratiepseudocode** van een supplement, wanneer het "
-"aan de verzekeringsinstelling wordt gedeclareerd."
+"In de supplementencatalogus (**Supplementen → Configuratie → Catalogus**) "
+"bevat het veld **Pseudocode** de **declaratiepseudocode** van een "
+"supplement, wanneer het aan de verzekeringsinstelling wordt gedeclareerd."
 
-#: ../../content/belgique/facturation.md:228
+#: ../../content/belgique/facturation.md:240
 msgid ""
 "Depending on its **category**, a supplement is either **declared** to the "
 "insurance body in the eFact (**ET50** record), or billed **only on the "
-"resident's invoice**. This setting is made on the product category — see "
-"[Billing settings](../configuration/reglages-facturation.md)."
+"resident's invoice**. The product category carries the choice in **Declared "
+"to the OA (ET50)** — see [Billing settings](../configuration/reglages-"
+"facturation.md)."
 msgstr ""
 "Afhankelijk van zijn **categorie** wordt een supplement ofwel "
 "**gedeclareerd** aan de verzekeringsinstelling in de eFact (record "
-"**ET50**), ofwel **enkel op de factuur van de bewoner** gefactureerd. Die "
-"instelling gebeurt op de productcategorie — zie [Facturatie-"
-"instellingen](../configuration/reglages-facturation.md)."
+"**ET50**), ofwel **enkel op de factuur van de bewoner** gefactureerd. De "
+"productcategorie draagt die keuze in **Aangegeven bij het VI (ET50)** — zie "
+"[Facturatie-instellingen](../configuration/reglages-facturation.md)."
 
-#: ../../content/belgique/facturation.md:233
+#: ../../content/belgique/facturation.md:245
+msgid "The billing dashboard in Belgium"
+msgstr "Het facturatiedashboard in België"
+
+#: ../../content/belgique/facturation.md:247
+msgid "The **Billing → Dashboard** gains two Belgian cards:"
+msgstr "Het **Facturatie → Dashboard** krijgt twee Belgische kaarten:"
+
+#: ../../content/belgique/facturation.md:249
+msgid ""
+"**Rest home** — what to prepare before billing: **MDA to request** "
+"(residents with a mutuality and nothing asked this month), **Katz to "
+"assess** (no assessment, or reassessment due), **Agreement requests to "
+"send** (drafts not sent to the mutuality) and **Admission not agreed by the "
+"OA** (not sent, awaiting the mutuality, refused, or no request). It also "
+"opens the [occupancy board](occupation-mr-mrs.md), the MDA requests and "
+"batches and the eAgreement requests."
+msgstr ""
+"**Woonzorgcentrum** — wat u moet voorbereiden vóór het factureren: **Op te "
+"vragen MDA** (bewoners met een ziekenfonds voor wie deze maand niets "
+"gevraagd is), **Te evalueren Katz** (geen evaluatie, of herevaluatie "
+"verschuldigd), **Te versturen akkoordaanvragen** (concepten die niet naar "
+"het ziekenfonds verzonden zijn) en **Opname niet akkoord door de VI** (niet "
+"verzonden, in afwachting van het ziekenfonds, geweigerd, of zonder "
+"aanvraag). Ze opent ook het [bezettingsoverzicht](occupation-mr-mrs.md), de "
+"MDA-verzoeken en -loten en de eAgreement-aanvragen."
+
+#: ../../content/belgique/facturation.md:256
+msgid ""
+"**Insurer billing (eFact)** — the eFact stacks: **To send**, **Awaiting "
+"OA**, **To correct**, **To reconcile**, **OA payments overdue**, the "
+"**Services on hold**, the **Checks to fix** before sending, the "
+"**Settlements received** and what is already **On the bank account**, with "
+"the **eFact cockpit**."
+msgstr ""
+"**Verzekeringsinstellingen (eFact)** — de eFact-stapels: **Te verzenden**, "
+"**In afwachting VI**, **Te corrigeren**, **Af te punten**, **Achterstallige "
+"VI-betalingen**, de **Prestaties in wacht**, de **Te corrigeren controles** "
+"vóór de verzending, de **Ontvangen afrekeningen** en wat al **Op de "
+"bankrekening** staat, met de **eFact-cockpit**."
+
+#: ../../content/belgique/facturation.md:261
+msgid "Each figure opens the records behind it."
+msgstr "Elk cijfer opent de records die erachter zitten."
+
+#: ../../content/belgique/facturation.md:263
 msgid "The CPAS in split billing"
 msgstr "Het OCMW in de gedeelde facturatie"
 
-#: ../../content/belgique/facturation.md:235
+#: ../../content/belgique/facturation.md:265
 msgid ""
 "A **CPAS** (Public Centre for Social Welfare) steps in on the **resident's "
 "share** only — accommodation and supplements. The INAMI allowance is never "
@@ -729,7 +821,7 @@ msgstr ""
 "tussen in het **bewonersaandeel** — verblijf en supplementen. Het RIZIV-"
 "forfait wordt nooit verdeeld: het gaat via eFact naar het ziekenfonds."
 
-#: ../../content/belgique/facturation.md:239
+#: ../../content/belgique/facturation.md:269
 msgid ""
 "**The CPAS pays everything** → set the resident's **Billing contact** to the"
 " CPAS."
@@ -737,7 +829,7 @@ msgstr ""
 "**Het OCMW betaalt alles** → stel het OCMW in als **Contactpersoon voor "
 "facturering** van de bewoner."
 
-#: ../../content/belgique/facturation.md:241
+#: ../../content/belgique/facturation.md:271
 msgid ""
 "**The CPAS pays part of it** → add the CPAS as a debtor in [split "
 "billing](../facturation-partagee/index.md), with its percentage, and the "
@@ -747,7 +839,7 @@ msgstr ""
 "[gedeelde facturatie](../facturation-partagee/index.md), met zijn "
 "percentage, en de andere betalers (bewoner, familie) voor het saldo."
 
-#: ../../content/belgique/facturation.md:245
+#: ../../content/belgique/facturation.md:275
 msgid ""
 "Recording the decision and routing the invoice are detailed in [CPAS "
 "coverage](cpas.md)."
@@ -755,11 +847,11 @@ msgstr ""
 "Het registreren van de beslissing en het doorsturen van de factuur worden "
 "uitgelegd in [De OCMW-tussenkomst](cpas.md)."
 
-#: ../../content/belgique/facturation.md:248
+#: ../../content/belgique/facturation.md:278
 msgid "What's next"
 msgstr "Hoe verder"
 
-#: ../../content/belgique/facturation.md:250
+#: ../../content/belgique/facturation.md:280
 msgid ""
 "[The INAMI dependency allowance](forfait-inami.md) — Katz → category → "
 "billed amount."
@@ -767,7 +859,7 @@ msgstr ""
 "[Het RIZIV-forfait (afhankelijkheid)](forfait-inami.md) — Katz → categorie →"
 " gefactureerd bedrag."
 
-#: ../../content/belgique/facturation.md:251
+#: ../../content/belgique/facturation.md:281
 msgid ""
 "[Electronic invoicing (eFact)](ehealth/efact.md) — generate, send and follow"
 " the batches."
@@ -775,7 +867,7 @@ msgstr ""
 "[Elektronische facturatie (eFact)](ehealth/efact.md) — de loten genereren, "
 "verzenden en opvolgen."
 
-#: ../../content/belgique/facturation.md:252
+#: ../../content/belgique/facturation.md:282
 msgid ""
 "[Insurability (MDA)](ehealth/mda.md) — the check to run at the start of the "
 "month."
@@ -783,7 +875,7 @@ msgstr ""
 "[Verzekerbaarheid (MDA)](ehealth/mda.md) — de controle die u aan het begin "
 "van de maand uitvoert."
 
-#: ../../content/belgique/facturation.md:253
+#: ../../content/belgique/facturation.md:283
 msgid ""
 "[Agreements (eAgreement)](ehealth/eagreement.md) — admission, absence, "
 "return, departure."
@@ -791,7 +883,7 @@ msgstr ""
 "[Akkoorden (eAgreement)](ehealth/eagreement.md) — opname, afwezigheid, "
 "terugkeer, vertrek."
 
-#: ../../content/belgique/facturation.md:254
+#: ../../content/belgique/facturation.md:284
 msgid ""
 "[The expense note (Annexe 12)](note-de-frais-annexe12.md) — individual and "
 "summary notes."
@@ -799,18 +891,26 @@ msgstr ""
 "[De kostennota (Bijlage 12)](note-de-frais-annexe12.md) — individuele nota's"
 " en verzamelnota's."
 
-#: ../../content/belgique/facturation.md:255
+#: ../../content/belgique/facturation.md:285
 msgid "[CPAS coverage](cpas.md) — when a CPAS pays for the resident."
 msgstr ""
 "[De OCMW-tussenkomst](cpas.md) — wanneer een OCMW voor de bewoner betaalt."
 
-#: ../../content/belgique/facturation.md:256
+#: ../../content/belgique/facturation.md:286
+msgid ""
+"[Occupancy MR / CS / MRS](occupation-mr-mrs.md) — the beds against the "
+"approvals."
+msgstr ""
+"[Bezetting ROB / KV / RVT](occupation-mr-mrs.md) — de bedden ten opzichte "
+"van de erkenningen."
+
+#: ../../content/belgique/facturation.md:287
 msgid ""
 "[The billing journey](parcours-facturation.md) — from admission to payment."
 msgstr ""
 "[Het facturatietraject](parcours-facturation.md) — van opname tot betaling."
 
-#: ../../content/belgique/facturation.md:257
+#: ../../content/belgique/facturation.md:288
 msgid ""
 "[Billing](../facturation/index.md) — the common billing, valid in every "
 "country."
@@ -818,28 +918,20 @@ msgstr ""
 "[Facturatie](../facturation/index.md) — de algemene facturatie, geldig in "
 "elk land."
 
-#~ msgid ""
-#~ "Check MDA → Generate → review (MDA, Katz, anomalies) → Create invoices → "
-#~ "post → Generate eFact → send → track the responses. Insurability (MDA) "
-#~ "always comes before the invoices."
-#~ msgstr ""
-#~ "Controleer MDA → Genereren → nakijken (MDA, Katz, anomalieën) → Facturen "
-#~ "aanmaken → boeken → Genereer eFact → verzenden → de antwoorden opvolgen. De "
-#~ "verzekerbaarheid (MDA) komt altijd vóór de facturen."
+#: ../../content/belgique/facturation.md:289
+msgid ""
+"[The billing dashboard](../facturation/tableau-de-bord.md) — the months to "
+"bill, the corrections pending and the Belgian counters."
+msgstr ""
+"[Het facturatiedashboard](../facturation/tableau-de-bord.md) — de te "
+"factureren maanden, de openstaande correcties en de Belgische tellers."
 
-#~ msgid ""
-#~ "**Generate** — the allowance is computed on the days of presence over the "
-#~ "**INAMI intervention period**, with the billed Katz category."
-#~ msgstr ""
-#~ "**Genereren** — het forfait wordt berekend op de aanwezigheidsdagen binnen "
-#~ "de **periode van RIZIV-tussenkomst**, met de gefactureerde Katz-categorie."
-
-#~ msgid ""
-#~ "**Generate eFact** — Resthome builds the eFact **batches**, grouped **by "
-#~ "union** of mutualities."
-#~ msgstr ""
-#~ "**Genereer eFact** — Resthome stelt de eFact-**loten** samen, gegroepeerd "
-#~ "**per landsbond** van ziekenfondsen."
-
-#~ msgid "Retry the **errors** and the **no-responses**."
-#~ msgstr "Herprobeer de **fouten** en de **uitblijvende antwoorden**."
+#: ../../content/belgique/facturation.md:290
+msgid ""
+"[Invoice type: in advance or in arrears](../facturation/type-de-facture.md) "
+"— including the type of a single month (yellow row, **Apply the Invoice "
+"Type**)."
+msgstr ""
+"[Factuurtype: op voorschot of na afloop van de periode](../facturation/type-"
+"de-facture.md) — ook het type van één enkele maand (gele regel, "
+"**Factuurtype toepassen**)."

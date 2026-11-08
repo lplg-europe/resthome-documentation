@@ -5,6 +5,52 @@
   ],
   "parents": []
  },
+ "gp_practice.menu_gp_appointments": {
+  "names": [
+   "Appointments"
+  ],
+  "parents": [
+   "gp_practice.menu_gp_root"
+  ]
+ },
+ "gp_practice.menu_gp_billable_acts": {
+  "names": [
+   "Billable Acts"
+  ],
+  "parents": [
+   "gp_practice.menu_gp_root"
+  ]
+ },
+ "gp_practice.menu_gp_consultations": {
+  "names": [
+   "Consultations"
+  ],
+  "parents": [
+   "gp_practice.menu_gp_root"
+  ]
+ },
+ "gp_practice.menu_gp_patients": {
+  "names": [
+   "Patients"
+  ],
+  "parents": [
+   "gp_practice.menu_gp_root"
+  ]
+ },
+ "gp_practice.menu_gp_root": {
+  "names": [
+   "Practice"
+  ],
+  "parents": []
+ },
+ "healthcare_accommodation.menu_healthcare_staff_task": {
+  "names": [
+   "Tasks"
+  ],
+  "parents": [
+   "healthcare_accommodation.menu_resthome_rooms"
+  ]
+ },
  "healthcare_accommodation.menu_resthome_config_rooms": {
   "names": [
    "Rooms"
@@ -140,6 +186,14 @@
   ],
   "parents": [
    "healthcare_accommodation_billing.menu_resthome_billing_root"
+  ]
+ },
+ "healthcare_accommodation_billing.menu_billing_lines": {
+  "names": [
+   "Billing Lines"
+  ],
+  "parents": [
+   "healthcare_accommodation_billing.menu_billing_facturation"
   ]
  },
  "healthcare_accommodation_billing.menu_billing_periods": {
@@ -364,6 +418,44 @@
    "healthcare_base.menu_resthome_config_general"
   ]
  },
+ "healthcare_base.menu_staff_role": {
+  "names": [
+   "Roles"
+  ],
+  "parents": [
+   "hr.menu_human_resources_configuration"
+  ]
+ },
+ "healthcare_billing_core.menu_healthcare_billable_act": {
+  "names": [
+   "Billable Acts"
+  ],
+  "parents": [
+   "account.menu_finance_receivables"
+  ]
+ },
+ "healthcare_consultation.menu_consultation_appointments": {
+  "names": [
+   "Appointments"
+  ],
+  "parents": [
+   "healthcare_consultation.menu_consultation_root"
+  ]
+ },
+ "healthcare_consultation.menu_consultation_consultations": {
+  "names": [
+   "Consultations"
+  ],
+  "parents": [
+   "healthcare_consultation.menu_consultation_root"
+  ]
+ },
+ "healthcare_consultation.menu_consultation_root": {
+  "names": [
+   "Consultations"
+  ],
+  "parents": []
+ },
  "healthcare_inspection.menu_property_inspection": {
   "names": [
    "Property Inspections"
@@ -394,6 +486,38 @@
   ],
   "parents": [
    "healthcare_inspection.menu_property_inspection_config"
+  ]
+ },
+ "healthcare_medical.menu_care_evaluation_pending": {
+  "names": [
+   "Evaluations to Validate"
+  ],
+  "parents": [
+   "healthcare_medical.menu_care_section_evaluations"
+  ]
+ },
+ "healthcare_medical.menu_care_section_evaluations": {
+  "names": [
+   "Assessments"
+  ],
+  "parents": [
+   "healthcare_medical.menu_resthome_medical_root"
+  ]
+ },
+ "healthcare_medical.menu_care_section_observations": {
+  "names": [
+   "Observations"
+  ],
+  "parents": [
+   "healthcare_medical.menu_resthome_medical_root"
+  ]
+ },
+ "healthcare_medical.menu_care_section_plans": {
+  "names": [
+   "Plans and Meetings"
+  ],
+  "parents": [
+   "healthcare_medical.menu_resthome_medical_root"
   ]
  },
  "healthcare_medical.menu_healthcare_body_zone": {
@@ -433,15 +557,15 @@
    "Multidisciplinary Meetings"
   ],
   "parents": [
-   "healthcare_medical.menu_resthome_medical_root"
+   "healthcare_medical.menu_care_section_plans"
   ]
  },
  "healthcare_medical.menu_healthcare_care_meeting_review": {
   "names": [
-   "Re-evaluations"
+   "Reviews in Meeting"
   ],
   "parents": [
-   "healthcare_medical.menu_resthome_medical_root"
+   "healthcare_medical.menu_care_section_plans"
   ]
  },
  "healthcare_medical.menu_healthcare_care_meeting_template": {
@@ -450,6 +574,22 @@
   ],
   "parents": [
    "healthcare_medical.menu_resthome_medical_config"
+  ]
+ },
+ "healthcare_medical.menu_healthcare_care_outcome_reason": {
+  "names": [
+   "Care Outcome Reasons"
+  ],
+  "parents": [
+   "healthcare_medical.menu_healthcare_care_tasks_config"
+  ]
+ },
+ "healthcare_medical.menu_healthcare_care_outcome_reason_cfg": {
+  "names": [
+   "Care Outcome Reasons"
+  ],
+  "parents": [
+   "healthcare_medical.menu_healthcare_care_catalogues"
   ]
  },
  "healthcare_medical.menu_healthcare_care_period": {
@@ -473,7 +613,15 @@
    "Objectives"
   ],
   "parents": [
-   "healthcare_medical.menu_resthome_medical_root"
+   "healthcare_medical.menu_care_section_plans"
+  ]
+ },
+ "healthcare_medical.menu_healthcare_care_plan_objective_my": {
+  "names": [
+   "My Objectives"
+  ],
+  "parents": [
+   "healthcare_medical.menu_healthcare_care_tasks"
   ]
  },
  "healthcare_medical.menu_healthcare_care_plan_review": {
@@ -481,7 +629,7 @@
    "Plan Reviews"
   ],
   "parents": [
-   "healthcare_medical.menu_resthome_care_root"
+   "healthcare_medical.menu_healthcare_care_reports"
   ]
  },
  "healthcare_medical.menu_healthcare_care_plan_template": {
@@ -497,7 +645,15 @@
    "Care Plan Templates"
   ],
   "parents": [
-   "healthcare_medical.menu_healthcare_care_catalogues"
+   "healthcare_medical.menu_resthome_medical_config"
+  ]
+ },
+ "healthcare_medical.menu_healthcare_care_reports": {
+  "names": [
+   "Reports"
+  ],
+  "parents": [
+   "healthcare_medical.menu_resthome_care_root"
   ]
  },
  "healthcare_medical.menu_healthcare_care_tag": {
@@ -554,6 +710,22 @@
    "healthcare_medical.menu_healthcare_care_catalogues"
   ]
  },
+ "healthcare_medical.menu_healthcare_dosage": {
+  "names": [
+   "Dosages"
+  ],
+  "parents": [
+   "healthcare_medical.menu_healthcare_medication_config"
+  ]
+ },
+ "healthcare_medical.menu_healthcare_elimination_record": {
+  "names": [
+   "Stool and Urine Observations"
+  ],
+  "parents": [
+   "healthcare_medical.menu_care_section_observations"
+  ]
+ },
  "healthcare_medical.menu_healthcare_medical_settings": {
   "names": [
    "Settings"
@@ -564,10 +736,34 @@
  },
  "healthcare_medical.menu_healthcare_medication_config": {
   "names": [
-   "Medication Catalogues"
+   "Clinical Catalogues"
   ],
   "parents": [
    "healthcare_medical.menu_resthome_medical_config"
+  ]
+ },
+ "healthcare_medical.menu_healthcare_nursing_note_type": {
+  "names": [
+   "Observation Types"
+  ],
+  "parents": [
+   "healthcare_medical.menu_resthome_medical_config"
+  ]
+ },
+ "healthcare_medical.menu_healthcare_prescription_memory": {
+  "names": [
+   "Prescription Reading Memory"
+  ],
+  "parents": [
+   "healthcare_medical.menu_healthcare_medication_config"
+  ]
+ },
+ "healthcare_medical.menu_healthcare_prescription_read_check": {
+  "names": [
+   "Prescription Reading"
+  ],
+  "parents": [
+   "healthcare_medical.menu_healthcare_care_reports"
   ]
  },
  "healthcare_medical.menu_healthcare_record_review": {
@@ -575,23 +771,23 @@
    "Record Reviews"
   ],
   "parents": [
-   "healthcare_medical.menu_resthome_care_root"
+   "healthcare_medical.menu_healthcare_care_reports"
   ]
  },
- "healthcare_medical.menu_medical_record_export": {
+ "healthcare_medical.menu_nursing_notes_to_review": {
   "names": [
-   "Medical Record"
+   "Observations to read"
   ],
   "parents": [
-   "healthcare_medical.menu_resthome_medical_root"
+   "healthcare_medical.menu_care_section_observations"
   ]
  },
- "healthcare_medical.menu_resthome_administrations": {
+ "healthcare_medical.menu_resident_elimination": {
   "names": [
-   "Administrations"
+   "Stools and Urine"
   ],
   "parents": [
-   "healthcare_medical.menu_resthome_medical_root"
+   "healthcare_medical.menu_care_section_observations"
   ]
  },
  "healthcare_medical.menu_resthome_allergy": {
@@ -602,12 +798,20 @@
    "healthcare_medical.menu_healthcare_medication_config"
   ]
  },
+ "healthcare_medical.menu_resthome_care_plan_my": {
+  "names": [
+   "My Care Plans"
+  ],
+  "parents": [
+   "healthcare_medical.menu_healthcare_care_tasks"
+  ]
+ },
  "healthcare_medical.menu_resthome_care_plans": {
   "names": [
    "Care Plans"
   ],
   "parents": [
-   "healthcare_medical.menu_resthome_medical_root"
+   "healthcare_medical.menu_care_section_plans"
   ]
  },
  "healthcare_medical.menu_resthome_care_residents": {
@@ -672,14 +876,6 @@
    "healthcare_medical.menu_resthome_care_root"
   ]
  },
- "healthcare_medical.menu_resthome_drug_interaction": {
-  "names": [
-   "Drug Interactions"
-  ],
-  "parents": [
-   "healthcare_medical.menu_healthcare_medication_config"
-  ]
- },
  "healthcare_medical.menu_resthome_medical_config": {
   "names": [
    "Configuration"
@@ -690,34 +886,27 @@
  },
  "healthcare_medical.menu_resthome_medical_root": {
   "names": [
-   "Medical"
+   "Medical",
+   "Care"
   ],
   "parents": [
    "healthcare_medical.menu_resthome_care_root"
   ]
  },
- "healthcare_medical.menu_resthome_medication_catalog": {
+ "healthcare_medical.menu_resthome_medication_root": {
   "names": [
-   "Medication Catalog"
+   "Medicines"
   ],
   "parents": [
-   "healthcare_medical.menu_healthcare_medication_config"
-  ]
- },
- "healthcare_medical.menu_resthome_medication_lots": {
-  "names": [
-   "Medication Lots"
-  ],
-  "parents": [
-   "healthcare_medical.menu_resthome_stock"
+   "healthcare_medical.menu_resthome_care_root"
   ]
  },
  "healthcare_medical.menu_resthome_nursing_notes": {
   "names": [
-   "Nursing Notes"
+   "Observations"
   ],
   "parents": [
-   "healthcare_medical.menu_resthome_medical_root"
+   "healthcare_medical.menu_care_section_observations"
   ]
  },
  "healthcare_medical.menu_resthome_nursing_notes_attention": {
@@ -725,7 +914,7 @@
    "Attention Required"
   ],
   "parents": [
-   "healthcare_medical.menu_resthome_medical_root"
+   "healthcare_medical.menu_care_section_observations"
   ]
  },
  "healthcare_medical.menu_resthome_pathology": {
@@ -736,30 +925,6 @@
    "healthcare_medical.menu_healthcare_medication_config"
   ]
  },
- "healthcare_medical.menu_resthome_prescriptions": {
-  "names": [
-   "Prescriptions"
-  ],
-  "parents": [
-   "healthcare_medical.menu_resthome_medical_root"
-  ]
- },
- "healthcare_medical.menu_resthome_stock": {
-  "names": [
-   "Stock"
-  ],
-  "parents": [
-   "healthcare_medical.menu_resthome_medical_root"
-  ]
- },
- "healthcare_medical.menu_resthome_stock_picking_out": {
-  "names": [
-   "Stock Outgoing"
-  ],
-  "parents": [
-   "healthcare_medical.menu_resthome_stock"
-  ]
- },
  "healthcare_medical.menu_resthome_vital_signs": {
   "names": [
    "Vital Signs Entry"
@@ -768,20 +933,128 @@
    "healthcare_medical.menu_resthome_medical_root"
   ]
  },
- "healthcare_medical.menu_sam_database": {
-  "names": [
-   "SAM Database"
-  ],
-  "parents": [
-   "healthcare_medical.menu_healthcare_medication_config"
-  ]
- },
  "healthcare_medical_absences.menu_care_residents_absences": {
   "names": [
    "Absences"
   ],
   "parents": [
    "healthcare_medical.menu_resthome_care_residents"
+  ]
+ },
+ "healthcare_mobile.menu_care_app_root": {
+  "names": [
+   "WideCare"
+  ],
+  "parents": []
+ },
+ "healthcare_planning.menu_planning_app": {
+  "names": [
+   "Planning"
+  ],
+  "parents": []
+ },
+ "healthcare_planning.menu_planning_config": {
+  "names": [
+   "Configuration"
+  ],
+  "parents": [
+   "healthcare_planning.menu_planning_app"
+  ]
+ },
+ "healthcare_planning.menu_planning_config_periods": {
+  "names": [
+   "Critical periods"
+  ],
+  "parents": [
+   "healthcare_planning.menu_planning_config"
+  ]
+ },
+ "healthcare_planning.menu_planning_config_roles": {
+  "names": [
+   "Roles"
+  ],
+  "parents": [
+   "healthcare_planning.menu_planning_config"
+  ]
+ },
+ "healthcare_planning.menu_planning_config_settings": {
+  "names": [
+   "Settings"
+  ],
+  "parents": [
+   "healthcare_planning.menu_planning_config"
+  ]
+ },
+ "healthcare_planning.menu_planning_config_templates": {
+  "names": [
+   "Schedule templates"
+  ],
+  "parents": [
+   "healthcare_planning.menu_planning_config"
+  ]
+ },
+ "healthcare_planning.menu_planning_coverage": {
+  "names": [
+   "Critical period coverage"
+  ],
+  "parents": [
+   "healthcare_planning.menu_planning_reporting"
+  ]
+ },
+ "healthcare_planning.menu_planning_hours": {
+  "names": [
+   "Planned hours"
+  ],
+  "parents": [
+   "healthcare_planning.menu_planning_reporting"
+  ]
+ },
+ "healthcare_planning.menu_planning_mine": {
+  "names": [
+   "My shifts"
+  ],
+  "parents": [
+   "healthcare_planning.menu_planning_app"
+  ]
+ },
+ "healthcare_planning.menu_planning_open": {
+  "names": [
+   "Open shifts"
+  ],
+  "parents": [
+   "healthcare_planning.menu_planning_app"
+  ]
+ },
+ "healthcare_planning.menu_planning_preferences": {
+  "names": [
+   "Staff preferences"
+  ],
+  "parents": [
+   "healthcare_planning.menu_planning_app"
+  ]
+ },
+ "healthcare_planning.menu_planning_reporting": {
+  "names": [
+   "Reporting"
+  ],
+  "parents": [
+   "healthcare_planning.menu_planning_app"
+  ]
+ },
+ "healthcare_planning.menu_planning_schedule": {
+  "names": [
+   "Schedule"
+  ],
+  "parents": [
+   "healthcare_planning.menu_planning_app"
+  ]
+ },
+ "healthcare_planning_attendance.menu_planning_attendance_report": {
+  "names": [
+   "Planned versus attended"
+  ],
+  "parents": [
+   "healthcare_planning.menu_planning_reporting"
   ]
  },
  "healthcare_sync.menu_sync_config": {
@@ -878,6 +1151,30 @@
    "healthcare_sync.menu_sync_config"
   ]
  },
+ "healthcare_work_entry_attendance.menu_hr_work_entry": {
+  "names": [
+   "Work Entries"
+  ],
+  "parents": [
+   "healthcare_work_entry_attendance.menu_hr_work_entry_root"
+  ]
+ },
+ "healthcare_work_entry_attendance.menu_hr_work_entry_root": {
+  "names": [
+   "Work Entries"
+  ],
+  "parents": [
+   "hr.menu_hr_root"
+  ]
+ },
+ "healthcare_work_entry_attendance.menu_hr_work_entry_type": {
+  "names": [
+   "Work Entry Types"
+  ],
+  "parents": [
+   "healthcare_work_entry_attendance.menu_hr_work_entry_root"
+  ]
+ },
  "l10n_health_be.menu_evaluation_katz": {
   "names": [
    "Katz (INAMI)"
@@ -888,7 +1185,7 @@
  },
  "l10n_health_be.menu_healthcare_establishment": {
   "names": [
-   "Establishments"
+   "Approvals"
   ],
   "parents": [
    "healthcare_base.menu_resthome_config_general"
@@ -969,7 +1266,7 @@
    "CoBRHA Cache"
   ],
   "parents": [
-   "resthome_mr_ehealth.menu_ehealth_config"
+   "l10n_health_be_connector.menu_ehealth_be_config"
   ]
  },
  "l10n_health_be_connector.menu_ehealth_be_certificates": {
@@ -998,7 +1295,7 @@
  },
  "l10n_health_be_connector.menu_ehealth_be_establishments": {
   "names": [
-   "Establishments"
+   "Approvals"
   ],
   "parents": [
    "l10n_health_be_connector.menu_ehealth_be_config"
@@ -1025,6 +1322,14 @@
    "eHealth"
   ],
   "parents": []
+ },
+ "l10n_health_be_connector.menu_ehealth_be_send_guard": {
+  "names": [
+   "Sends to check"
+  ],
+  "parents": [
+   "l10n_health_be_connector.menu_ehealth_be_config"
+  ]
  },
  "l10n_health_be_connector.menu_ehealth_be_settings": {
   "names": [
@@ -1202,12 +1507,108 @@
    "l10n_health_be_connector.menu_ehealth_be_root"
   ]
  },
+ "l10n_health_be_efact_per_act.menu_efact_act_batch": {
+  "names": [
+   "eFact per act"
+  ],
+  "parents": [
+   "l10n_health_be_connector.menu_ehealth_be_root"
+  ]
+ },
+ "l10n_health_be_ehealthbox.menu_ehealthbox_check": {
+  "names": [
+   "Read a Box (Scenarios)"
+  ],
+  "parents": [
+   "l10n_health_be_ehealthbox.menu_ehealthbox_root"
+  ]
+ },
+ "l10n_health_be_ehealthbox.menu_ehealthbox_exchange": {
+  "names": [
+   "Recorded Exchanges"
+  ],
+  "parents": [
+   "l10n_health_be_ehealthbox.menu_ehealthbox_root"
+  ]
+ },
+ "l10n_health_be_ehealthbox.menu_ehealthbox_mailbox": {
+  "names": [
+   "Mailbox"
+  ],
+  "parents": [
+   "l10n_health_be_ehealthbox.menu_ehealthbox_root"
+  ]
+ },
+ "l10n_health_be_ehealthbox.menu_ehealthbox_root": {
+  "names": [
+   "eHealthBox"
+  ],
+  "parents": [
+   "l10n_health_be_connector.menu_ehealth_be_root"
+  ]
+ },
+ "l10n_health_be_ehealthbox.menu_ehealthbox_sent": {
+  "names": [
+   "All Messages"
+  ],
+  "parents": [
+   "l10n_health_be_ehealthbox.menu_ehealthbox_root"
+  ]
+ },
  "l10n_health_be_eid.menu_eid_new_partner": {
   "names": [
    "New Partner via eID"
   ],
   "parents": [
    "contacts.menu_contacts"
+  ]
+ },
+ "l10n_health_be_gp.menu_gp_dmg": {
+  "names": [
+   "Global Medical File"
+  ],
+  "parents": [
+   "gp_practice.menu_gp_root"
+  ]
+ },
+ "l10n_health_be_gp.menu_gp_dmg_consultation": {
+  "names": [
+   "Consultations"
+  ],
+  "parents": [
+   "l10n_health_be_gp.menu_gp_dmg"
+  ]
+ },
+ "l10n_health_be_gp.menu_gp_dmg_notification": {
+  "names": [
+   "Notifications"
+  ],
+  "parents": [
+   "l10n_health_be_gp.menu_gp_dmg"
+  ]
+ },
+ "l10n_health_be_gp.menu_gp_eattest": {
+  "names": [
+   "Attestations"
+  ],
+  "parents": [
+   "gp_practice.menu_gp_root"
+  ]
+ },
+ "l10n_health_be_gp.menu_gp_eid_sign_in": {
+  "names": [
+   "eID sign-in"
+  ],
+  "parents": [
+   "gp_practice.menu_gp_root"
+  ]
+ },
+ "l10n_health_be_gp.menu_gp_insurability": {
+  "names": [
+   "Insurability"
+  ],
+  "parents": [
+   "gp_practice.menu_gp_root"
   ]
  },
  "l10n_health_be_mda.menu_mda_batches": {
@@ -1250,6 +1651,22 @@
    "l10n_health_be_connector.menu_ehealth_be_root"
   ]
  },
+ "l10n_health_be_nomenclature.menu_healthcare_nomenclature_code": {
+  "names": [
+   "INAMI Nomenclature"
+  ],
+  "parents": [
+   "account.menu_finance_receivables"
+  ]
+ },
+ "l10n_health_be_nomenclature.menu_healthcare_nomenclature_import": {
+  "names": [
+   "Import INAMI Nomenclature"
+  ],
+  "parents": [
+   "account.menu_finance_receivables"
+  ]
+ },
  "l10n_health_be_perdiem_billing.menu_billing_config_codes": {
   "names": [
    "Billing Codes"
@@ -1290,6 +1707,94 @@
    "l10n_health_be_efact.menu_efact_root"
   ]
  },
+ "l10n_health_be_pmi.menu_care_ehealthbox": {
+  "names": [
+   "eHealthBox"
+  ],
+  "parents": [
+   "healthcare_medical.menu_resthome_care_root"
+  ]
+ },
+ "l10n_health_be_pmi.menu_care_pharmacies": {
+  "names": [
+   "Pharmacies"
+  ],
+  "parents": [
+   "l10n_health_be_pmi.menu_care_pharmacy_config"
+  ]
+ },
+ "l10n_health_be_pmi.menu_care_pharmacy_config": {
+  "names": [
+   "Pharmacy"
+  ],
+  "parents": [
+   "healthcare_medical.menu_resthome_medical_config"
+  ]
+ },
+ "l10n_health_be_pmi.menu_care_pharmacy_links": {
+  "names": [
+   "Pharmacy Links"
+  ],
+  "parents": [
+   "l10n_health_be_pmi.menu_care_pharmacy_config"
+  ]
+ },
+ "l10n_health_be_pmi.menu_pharmacies_house": {
+  "names": [
+   "Pharmacies"
+  ],
+  "parents": [
+   "l10n_health_be_pmi.menu_pharmacy_root_house"
+  ]
+ },
+ "l10n_health_be_pmi.menu_pharmacy_exports_house": {
+  "names": [
+   "Files Sent"
+  ],
+  "parents": [
+   "l10n_health_be_pmi.menu_pharmacy_root_house"
+  ]
+ },
+ "l10n_health_be_pmi.menu_pharmacy_file_import_house": {
+  "names": [
+   "Import a Pharmacy File"
+  ],
+  "parents": [
+   "l10n_health_be_pmi.menu_pharmacy_root_house"
+  ]
+ },
+ "l10n_health_be_pmi.menu_pharmacy_invoices_house": {
+  "names": [
+   "Pharmacy Invoices"
+  ],
+  "parents": [
+   "l10n_health_be_pmi.menu_pharmacy_root_house"
+  ]
+ },
+ "l10n_health_be_pmi.menu_pharmacy_links_house": {
+  "names": [
+   "Pharmacy Links"
+  ],
+  "parents": [
+   "l10n_health_be_pmi.menu_pharmacy_root_house"
+  ]
+ },
+ "l10n_health_be_pmi.menu_pharmacy_root_house": {
+  "names": [
+   "Pharmacies"
+  ],
+  "parents": [
+   "healthcare_base.menu_resthome_root"
+  ]
+ },
+ "l10n_health_be_pmi.menu_pharmacy_stocks_house": {
+  "names": [
+   "Pharmacy Stock"
+  ],
+  "parents": [
+   "l10n_health_be_pmi.menu_pharmacy_root_house"
+  ]
+ },
  "l10n_health_be_recipe.menu_recipe_prescription": {
   "names": [
    "Electronic prescriptions"
@@ -1304,6 +1809,14 @@
   ],
   "parents": [
    "l10n_health_be_connector.menu_ehealth_be_root"
+  ]
+ },
+ "l10n_health_be_serviced_living.menu_serviced_health_index": {
+  "names": [
+   "Health index"
+  ],
+  "parents": [
+   "serviced_living.menu_serviced_living_config"
   ]
  },
  "l10n_health_be_therlink.menu_therapeutic_link": {
@@ -1322,12 +1835,50 @@
    "l10n_health_be_connector.menu_ehealth_be_root"
   ]
  },
- "resthome_day_care.menu_day_care_attendance": {
+ "lplg_license.menu_resthome_lplg_license_config": {
   "names": [
-   "Day care attendance"
+   "License"
   ],
   "parents": [
-   "healthcare_accommodation.menu_resthome_rooms"
+   "lplg_license.menu_resthome_lplg_license_root"
+  ]
+ },
+ "lplg_license.menu_resthome_lplg_license_root": {
+  "names": [
+   "LPLG License"
+  ],
+  "parents": []
+ },
+ "resthome_day_care.menu_day_care_approval": {
+  "names": [
+   "Approval and opening days"
+  ],
+  "parents": [
+   "resthome_day_care.menu_day_care_config"
+  ]
+ },
+ "resthome_day_care.menu_day_care_attendance": {
+  "names": [
+   "Day care register"
+  ],
+  "parents": [
+   "resthome_day_care.menu_day_care_register_root"
+  ]
+ },
+ "resthome_day_care.menu_day_care_closures": {
+  "names": [
+   "Closures and public holidays"
+  ],
+  "parents": [
+   "resthome_day_care.menu_day_care_config"
+  ]
+ },
+ "resthome_day_care.menu_day_care_config": {
+  "names": [
+   "Configuration"
+  ],
+  "parents": [
+   "resthome_day_care.menu_day_care_root"
   ]
  },
  "resthome_day_care.menu_day_care_kiosk": {
@@ -1335,7 +1886,15 @@
    "Today's attendance"
   ],
   "parents": [
-   "healthcare_accommodation.menu_resthome_rooms"
+   "resthome_day_care.menu_day_care_root"
+  ]
+ },
+ "resthome_day_care.menu_day_care_no_show": {
+  "names": [
+   "Unannounced absences"
+  ],
+  "parents": [
+   "resthome_day_care.menu_day_care_register_root"
   ]
  },
  "resthome_day_care.menu_day_care_norm_check": {
@@ -1347,12 +1906,66 @@
    "resthome_funding_be.menu_forfait_root"
   ]
  },
- "resthome_day_care.menu_day_care_register": {
+ "resthome_day_care.menu_day_care_place_report": {
   "names": [
-   "Day care register"
+   "Places occupancy"
   ],
   "parents": [
-   "healthcare_accommodation.menu_resthome_rooms"
+   "resthome_day_care.menu_day_care_reporting"
+  ]
+ },
+ "resthome_day_care.menu_day_care_register_print": {
+  "names": [
+   "Print the day care register"
+  ],
+  "parents": [
+   "resthome_day_care.menu_day_care_register_root"
+  ]
+ },
+ "resthome_day_care.menu_day_care_register_root": {
+  "names": [
+   "Register"
+  ],
+  "parents": [
+   "resthome_day_care.menu_day_care_root"
+  ]
+ },
+ "resthome_day_care.menu_day_care_reporting": {
+  "names": [
+   "Reporting"
+  ],
+  "parents": [
+   "resthome_day_care.menu_day_care_root"
+  ]
+ },
+ "resthome_day_care.menu_day_care_root": {
+  "names": [
+   "Day care centre"
+  ],
+  "parents": []
+ },
+ "resthome_day_care.menu_day_care_statistics": {
+  "names": [
+   "Day care statistics"
+  ],
+  "parents": [
+   "resthome_day_care.menu_day_care_reporting"
+  ]
+ },
+ "resthome_day_care.menu_day_care_stays": {
+  "names": [
+   "Day care stays"
+  ],
+  "parents": [
+   "resthome_day_care.menu_day_care_root"
+  ]
+ },
+ "resthome_day_care.menu_day_care_users": {
+  "names": [
+   "Day care users"
+  ],
+  "parents": [
+   "resthome_day_care.menu_day_care_root"
   ]
  },
  "resthome_family_portal.menu_family_access": {
@@ -1419,6 +2032,14 @@
    "resthome_funding_be.menu_forfait_configuration"
   ]
  },
+ "resthome_funding_be.menu_forfait_norm_statistics": {
+  "names": [
+   "Staffing norm (date to date)"
+  ],
+  "parents": [
+   "resthome_funding_be.menu_forfait_root"
+  ]
+ },
  "resthome_funding_be.menu_forfait_parameter": {
   "names": [
    "Parameters"
@@ -1446,15 +2067,23 @@
    "Anamneses"
   ],
   "parents": [
-   "healthcare_medical.menu_resthome_medical_root"
+   "healthcare_medical.menu_care_section_evaluations"
   ]
  },
- "resthome_geriatric.menu_resthome_hospitalization": {
+ "resthome_geriatric.menu_resthome_life_project": {
   "names": [
-   "Hospitalization"
+   "Life Projects"
   ],
   "parents": [
-   "healthcare_medical.menu_resthome_medical_root"
+   "healthcare_medical.menu_resthome_care_residents"
+  ]
+ },
+ "resthome_geriatric.menu_resthome_life_project_method": {
+  "names": [
+   "Life Project Methods"
+  ],
+  "parents": [
+   "healthcare_medical.menu_resthome_medical_config"
   ]
  },
  "resthome_geriatric.menu_resthome_registries": {
@@ -1526,22 +2155,8 @@
    "Katz Evaluations"
   ],
   "parents": [
-   "healthcare_medical.menu_resthome_medical_root"
+   "healthcare_medical.menu_care_section_evaluations"
   ]
- },
- "resthome_lplg_license.menu_resthome_lplg_license_config": {
-  "names": [
-   "License"
-  ],
-  "parents": [
-   "resthome_lplg_license.menu_resthome_lplg_license_root"
-  ]
- },
- "resthome_lplg_license.menu_resthome_lplg_license_root": {
-  "names": [
-   "LPLG License"
-  ],
-  "parents": []
  },
  "resthome_meal.menu_meal_catalog": {
   "names": [
@@ -1693,12 +2308,28 @@
    "resthome_meal.menu_meal_operations"
   ]
  },
+ "resthome_meal.menu_resthome_texture": {
+  "names": [
+   "Textures"
+  ],
+  "parents": [
+   "resthome_meal.menu_meal_config"
+  ]
+ },
  "resthome_meal_supplements.menu_meal_supplements": {
   "names": [
    "Supplements"
   ],
   "parents": [
    "resthome_meal.menu_meal_root"
+  ]
+ },
+ "resthome_mr_billing.menu_occupancy_board": {
+  "names": [
+   "Occupancy MR / CS / MRS"
+  ],
+  "parents": [
+   "healthcare_accommodation_billing.menu_billing_facturation"
   ]
  },
  "resthome_mr_ehealth.menu_eagreement_inbox": {
@@ -1901,14 +2532,6 @@
    "healthcare_accommodation_billing.menu_billing_facturation"
   ]
  },
- "resthome_mr_ehealth_medication.menu_sam_search": {
-  "names": [
-   "Search SAM"
-  ],
-  "parents": [
-   "healthcare_medical.menu_healthcare_medication_config"
-  ]
- },
  "resthome_potentia.menu_capability_catalog": {
   "names": [
    "Observation Grids"
@@ -1922,7 +2545,71 @@
    "Capability Observations"
   ],
   "parents": [
-   "healthcare_medical.menu_resthome_medical_root"
+   "healthcare_medical.menu_care_section_observations"
+  ]
+ },
+ "resthome_reporting.menu_care_reports_kappa": {
+  "names": [
+   "KAPPA control"
+  ],
+  "parents": [
+   "healthcare_medical.menu_healthcare_care_reports"
+  ]
+ },
+ "resthome_reporting.menu_care_reports_quality": {
+  "names": [
+   "Care Quality"
+  ],
+  "parents": [
+   "healthcare_medical.menu_healthcare_care_reports"
+  ]
+ },
+ "resthome_reporting.menu_reporting_kappa": {
+  "names": [
+   "KAPPA control"
+  ],
+  "parents": [
+   "resthome_reporting.menu_resthome_reports"
+  ]
+ },
+ "resthome_reporting.menu_reporting_movement_list": {
+  "names": [
+   "Movement list"
+  ],
+  "parents": [
+   "resthome_reporting.menu_resthome_reports"
+  ]
+ },
+ "resthome_reporting.menu_reporting_movements": {
+  "names": [
+   "Movements"
+  ],
+  "parents": [
+   "resthome_reporting.menu_resthome_reports"
+  ]
+ },
+ "resthome_reporting.menu_reporting_occupancy": {
+  "names": [
+   "Occupancy Analysis"
+  ],
+  "parents": [
+   "resthome_reporting.menu_resthome_reports"
+  ]
+ },
+ "resthome_reporting.menu_reporting_occupancy_approval": {
+  "names": [
+   "Occupancy by approval"
+  ],
+  "parents": [
+   "resthome_reporting.menu_resthome_reports"
+  ]
+ },
+ "resthome_reporting.menu_resthome_reports": {
+  "names": [
+   "Reports"
+  ],
+  "parents": [
+   "healthcare_base.menu_resthome_root"
   ]
  },
  "resthome_supplements.menu_supplements_adhoc": {
@@ -1986,6 +2673,124 @@
    "Supplements"
   ],
   "parents": []
+ },
+ "serviced_living.menu_serviced_living_complaints": {
+  "names": [
+   "Complaints"
+  ],
+  "parents": [
+   "serviced_living.menu_serviced_living_registers"
+  ]
+ },
+ "serviced_living.menu_serviced_living_config": {
+  "names": [
+   "Configuration"
+  ],
+  "parents": [
+   "serviced_living.menu_serviced_living_root"
+  ]
+ },
+ "serviced_living.menu_serviced_living_contracts": {
+  "names": [
+   "Contracts"
+  ],
+  "parents": [
+   "serviced_living.menu_serviced_living_root"
+  ]
+ },
+ "serviced_living.menu_serviced_living_councils": {
+  "names": [
+   "Council"
+  ],
+  "parents": [
+   "serviced_living.menu_serviced_living_registers"
+  ]
+ },
+ "serviced_living.menu_serviced_living_document_types": {
+  "names": [
+   "Pieces of the file"
+  ],
+  "parents": [
+   "serviced_living.menu_serviced_living_config"
+  ]
+ },
+ "serviced_living.menu_serviced_living_regimes": {
+  "names": [
+   "Regimes"
+  ],
+  "parents": [
+   "serviced_living.menu_serviced_living_config"
+  ]
+ },
+ "serviced_living.menu_serviced_living_registers": {
+  "names": [
+   "Registers"
+  ],
+  "parents": [
+   "serviced_living.menu_serviced_living_root"
+  ]
+ },
+ "serviced_living.menu_serviced_living_residences": {
+  "names": [
+   "Residences"
+  ],
+  "parents": [
+   "serviced_living.menu_serviced_living_config"
+  ]
+ },
+ "serviced_living.menu_serviced_living_residents": {
+  "names": [
+   "Residents"
+  ],
+  "parents": [
+   "serviced_living.menu_serviced_living_root"
+  ]
+ },
+ "serviced_living.menu_serviced_living_root": {
+  "names": [
+   "Serviced Living"
+  ],
+  "parents": []
+ },
+ "serviced_living.menu_serviced_living_unit_types": {
+  "names": [
+   "Unit types"
+  ],
+  "parents": [
+   "serviced_living.menu_serviced_living_config"
+  ]
+ },
+ "serviced_living.menu_serviced_living_units": {
+  "names": [
+   "Units"
+  ],
+  "parents": [
+   "serviced_living.menu_serviced_living_root"
+  ]
+ },
+ "serviced_living_call.menu_serviced_living_calls": {
+  "names": [
+   "Calls"
+  ],
+  "parents": [
+   "serviced_living.menu_serviced_living_root"
+  ]
+ },
+ "serviced_living_call.menu_serviced_living_duties": {
+  "names": [
+   "Duty rota"
+  ],
+  "parents": [
+   "serviced_living.menu_serviced_living_registers"
+  ]
+ },
+ "serviced_living_call.menu_serviced_living_requests": {
+  "names": [
+   "Requests"
+  ],
+  "parents": [
+   "serviced_living.menu_serviced_living_root"
+  ]
  },
  "widecare_ai.menu_widecare_ai_config": {
   "names": [

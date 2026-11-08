@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 15:49+0200\n"
+"POT-Creation-Date: 2026-11-08 19:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -21,16 +21,18 @@ msgstr ""
 "Generated-By: Babel 2.18.0\n"
 
 #: ../../content/belgique/katz.md:5
-msgid "The Katz Assessment"
+msgid "The Katz assessment"
 msgstr "L'évaluation Katz"
 
 #: ../../content/belgique/katz.md:8
 msgid ""
-"The Katz scale in the nursing home with Resthome — rate the 6 criteria, "
-"determine the category (O, A, B, C, Cd) and the INAMI dependency allowance."
+"The Katz scale in a nursing home with Resthome: rate the criteria, sign and "
+"validate, read the category (O, A, B, C, Cd, D) declared for the INAMI "
+"dependency allowance, and renew it on time."
 msgstr ""
-"L'échelle de Katz en maison de repos avec Resthome — coter les 6 critères, "
-"déterminer la catégorie (O, A, B, C, Cd) et le forfait INAMI de dépendance."
+"L'échelle de Katz en maison de repos avec Resthome : coter les critères, "
+"signer et valider, lire la catégorie (O, A, B, C, Cd, D) déclarée pour le "
+"forfait INAMI de dépendance, et la renouveler à temps."
 
 #: ../../content/belgique/katz.md:12
 msgid "How do I calculate a resident's Katz category?"
@@ -38,59 +40,102 @@ msgstr "Comment calculer la catégorie Katz d'un habitant ?"
 
 #: ../../content/belgique/katz.md:13
 msgid ""
-"Rate the 6 dependency criteria (washing, dressing, transfers, using the "
-"toilet, continence, eating) from 1 to 4; Resthome derives the category (O, "
-"A, B, C, Cd), which is declared to the mutuelle for the INAMI allowance."
+"Rate the six activities of daily living (washing, dressing, transfer and "
+"mobility, going to the toilet, continence, eating) and the orientation in "
+"time and space from 1 to 4. Resthome derives the category (O, A, B, C, Cd, "
+"D), which is declared to the mutuality for the INAMI allowance."
 msgstr ""
-"Cotez les 6 critères de dépendance (se laver, s'habiller, transfert, aller à"
-" la toilette, continence, manger) de 1 à 4 ; Resthome en déduit la catégorie"
-" (O, A, B, C, Cd), déclarée à la mutuelle pour le forfait INAMI."
+"Cotez les six activités de la vie quotidienne (se laver, s'habiller, "
+"transfert et déplacements, aller à la toilette, continence, manger) et "
+"l'orientation dans le temps et l'espace de 1 à 4. Resthome en déduit la "
+"catégorie (O, A, B, C, Cd, D), déclarée à la mutuelle pour le forfait INAMI."
 
 #: ../../content/belgique/katz.md:15
-msgid "What does category O mean?"
-msgstr "Que signifie la catégorie O ?"
+msgid "Why can't I validate my assessment?"
+msgstr "Pourquoi ne puis-je pas valider mon évaluation ?"
 
 #: ../../content/belgique/katz.md:16
 msgid ""
-"Category O corresponds to an independent resident. Under the AViQ tariffs, "
-"the dependency allowance is the same amount for every category, including O."
-" As long as no Katz assessment is validated, the resident is in category O "
-"by default; validate the Katz to declare the correct category to the "
-"mutuelle."
+"An assessment is signed before it is validated. Click **Sign**, then "
+"**Validate**. Validating is reserved to a head nurse or a physician; a nurse"
+" can sign, and the assessment then waits for their validation."
 msgstr ""
-"La catégorie O correspond à un habitant autonome. Dans les tarifs AViQ, le "
-"forfait de dépendance est le même montant pour toutes les catégories, y "
-"compris O. Tant qu'aucune évaluation Katz n'est validée, l'habitant est en "
-"catégorie O par défaut ; validez le Katz pour déclarer la bonne catégorie à "
-"la mutuelle."
+"Une évaluation est signée avant d'être validée. Cliquez sur **Signer**, puis"
+" **Valider**. La validation est réservée à un infirmier en chef ou à un "
+"médecin ; un infirmier peut signer, et l'évaluation attend alors sa "
+"validation."
 
 #: ../../content/belgique/katz.md:18
-msgid "How do I handle a worsening of dependency?"
-msgstr "Comment gérer une aggravation de la dépendance ?"
+msgid "What does category O mean?"
+msgstr "Que signifie la catégorie O ?"
 
 #: ../../content/belgique/katz.md:19
 msgid ""
-"Enter a new Katz assessment with a worsening reason. Resthome prepares "
-"Annexe 10 (reason + clinician's signature); the new category is only billed "
-"once the mutuelle's agreement is obtained."
+"Category O corresponds to an independent resident. Under the AViQ tariffs, "
+"the dependency allowance is the same amount for every category, including O."
 msgstr ""
-"Saisissez une nouvelle évaluation Katz avec un motif d'aggravation. Resthome"
-" prépare l'Annexe 10 (motif + signature du clinicien) ; la nouvelle "
-"catégorie n'est facturée qu'une fois l'accord de la mutuelle obtenu."
+"La catégorie O correspond à un habitant autonome. Dans les tarifs AViQ, le "
+"forfait de dépendance est du même montant pour toutes les catégories, y "
+"compris O."
+
+#: ../../content/belgique/katz.md:21
+msgid "What happens if a resident has no validated Katz?"
+msgstr "Que se passe-t-il si un habitant n'a pas de Katz validée ?"
 
 #: ../../content/belgique/katz.md:22
 msgid ""
-"The **Katz scale** measures a resident's degree of **dependency**. It is "
-"what determines their care **category** and therefore the **INAMI "
-"allowance** reimbursed by the mutuelle. In Resthome, data entry is guided "
-"and the calculation is automatic."
+"They have no category at all: no INAMI allowance is billed for them and the "
+"billing period shows **No Katz** on their row. Validate their Katz, then "
+"regenerate the period."
 msgstr ""
-"L’**échelle de Katz** mesure le degré de **dépendance** d'un habitant. C'est"
-" elle qui détermine sa **catégorie** de soins et donc le **forfait INAMI** "
-"remboursé par la mutuelle. Dans Resthome, la saisie est guidée et le calcul "
-"est automatique."
+"Il n'a aucune catégorie : aucun forfait INAMI n'est facturé pour lui et la "
+"période de facturation affiche **Pas de Katz** sur sa ligne. Validez sa "
+"Katz, puis régénérez la période."
 
-#: ../../content/belgique/katz.md:26
+#: ../../content/belgique/katz.md:24
+msgid "How do I handle a worsening of dependency?"
+msgstr "Comment gérer une aggravation de la dépendance ?"
+
+#: ../../content/belgique/katz.md:25
+msgid ""
+"Enter a new Katz assessment. When the category gets worse, the form asks for"
+" the reason; Resthome prepares Annexe 10 with it, and the new category is "
+"only billed once the mutuality agrees."
+msgstr ""
+"Saisissez une nouvelle évaluation Katz. Quand la catégorie s'aggrave, le "
+"formulaire demande le motif ; Resthome prépare l'Annexe 10 avec celui-ci, et"
+" la nouvelle catégorie n'est facturée qu'une fois l'accord de la mutuelle "
+"obtenu."
+
+#: ../../content/belgique/katz.md:28
+msgid ""
+"The **Katz scale** measures a resident's degree of **dependency**. It "
+"decides their care **category**, which is declared to the mutuality for the "
+"**INAMI dependency allowance**. In Resthome, data entry is guided and the "
+"category is computed for you."
+msgstr ""
+"L'**échelle de Katz** mesure le degré de **dépendance** d'un habitant. Elle "
+"détermine sa **catégorie** de soins, déclarée à la mutuelle pour le "
+"**forfait INAMI de dépendance**. Dans Resthome, la saisie est guidée et la "
+"catégorie est calculée pour vous."
+
+#: ../../content/belgique/katz.md:33
+msgid "The same list of assessments opens wherever you work:"
+msgstr "La même liste d'évaluations s'ouvre partout où vous travaillez :"
+
+#: ../../content/belgique/katz.md:35
+msgid "**Nursing Care → Evaluation Tools**, entry **Katz (INAMI)**;"
+msgstr "**Soins → Outils d'évaluation**, entrée **Katz (INAMI)** ;"
+
+#: ../../content/belgique/katz.md:36
+msgid "**Nursing Care → Care → Assessments → Katz Evaluations**;"
+msgstr "**Soins → Soins → Évaluations → Évaluations Katz** ;"
+
+#: ../../content/belgique/katz.md:37
+msgid "**Billing → Katz Evaluations**."
+msgstr "**Facturation → Évaluations Katz**."
+
+#: ../../content/belgique/katz.md:39
 msgid ""
 "![Katz assessments list: one row per resident with the category, the total "
 "score, the next assessment date and the renewal "
@@ -100,7 +145,7 @@ msgstr ""
 "score total, la date de prochaine évaluation et l'indicateur de "
 "renouvellement](../assets/screenshots/katz/01-evaluations.png)"
 
-#: ../../content/belgique/katz.md:26
+#: ../../content/belgique/katz.md:39
 msgid ""
 "Katz assessments list: one row per resident with the category, the total "
 "score, the next assessment date and the renewal indicator"
@@ -109,49 +154,71 @@ msgstr ""
 "score total, la date de prochaine évaluation et l'indicateur de "
 "renouvellement"
 
-#: ../../content/belgique/katz.md:28
-msgid "The 6 criteria"
-msgstr "Les 6 critères"
+#: ../../content/belgique/katz.md:41
+msgid "The criteria"
+msgstr "Les critères"
 
-#: ../../content/belgique/katz.md:30
+#: ../../content/belgique/katz.md:43
 msgid ""
-"Each criterion is rated from **1** (independent) to **4** (fully dependent):"
+"Each criterion is rated from **1** (no help) to **4** (fully dependent), "
+"each level spelled out on the form:"
 msgstr ""
-"Chaque critère est coté de **1** (autonome) à **4** (totalement dépendant) :"
+"Chaque critère est coté de **1** (aucune aide) à **4** (totalement "
+"dépendant), chaque niveau étant décrit sur le formulaire :"
 
-#: ../../content/belgique/katz.md:32
+#: ../../content/belgique/katz.md:46
 msgid "**Washing**"
 msgstr "**Se laver**"
 
-#: ../../content/belgique/katz.md:33
+#: ../../content/belgique/katz.md:47
 msgid "**Dressing**"
 msgstr "**S'habiller**"
 
-#: ../../content/belgique/katz.md:34
-msgid "**Transfers and mobility**"
+#: ../../content/belgique/katz.md:48
+msgid "**Transferring**"
 msgstr "**Transfert et déplacements**"
 
-#: ../../content/belgique/katz.md:35
-msgid "**Using the toilet**"
+#: ../../content/belgique/katz.md:49
+msgid "**Toileting**"
 msgstr "**Aller à la toilette**"
 
-#: ../../content/belgique/katz.md:36
+#: ../../content/belgique/katz.md:50
 msgid "**Continence**"
 msgstr "**Continence**"
 
-#: ../../content/belgique/katz.md:37
+#: ../../content/belgique/katz.md:51
 msgid "**Eating**"
 msgstr "**Manger**"
 
-#: ../../content/belgique/katz.md:39
-msgid ""
-"From these ratings, Resthome calculates the **category** in accordance with "
-"the regulations."
-msgstr ""
-"À partir de ces cotations, Resthome calcule la **catégorie** conformément à "
-"la réglementation."
+#: ../../content/belgique/katz.md:52
+msgid "**Time Orientation**"
+msgstr "**Orientation temps**"
 
-#: ../../content/belgique/katz.md:42
+#: ../../content/belgique/katz.md:53
+msgid "**Space Orientation**"
+msgstr "**Orientation espace**"
+
+#: ../../content/belgique/katz.md:55
+msgid ""
+"The two orientation criteria separate the categories with disorientation "
+"(Cd) from the others; they are not required when a specialist has diagnosed "
+"dementia. The **Dementia** and **Coma** blocks of the form record those "
+"diagnoses."
+msgstr ""
+"Les deux critères d'orientation distinguent les catégories avec "
+"désorientation (Cd) des autres ; ils ne sont pas requis quand un spécialiste"
+" a diagnostiqué une démence. Les blocs **Démence** et **Coma** du formulaire"
+" enregistrent ces diagnostics."
+
+#: ../../content/belgique/katz.md:60
+msgid ""
+"From these ratings, Resthome computes the **category** and the **total "
+"score** according to the regulations."
+msgstr ""
+"À partir de ces cotations, Resthome calcule la **catégorie** et le **score "
+"total** conformément à la réglementation."
+
+#: ../../content/belgique/katz.md:63
 msgid "The categories"
 msgstr "Les catégories"
 
@@ -196,143 +263,241 @@ msgid "Severe dependency"
 msgstr "Forte dépendance"
 
 #: ../../content/belgique/katz.md:11
-msgid "**Cd / Cc**"
-msgstr "**Cd / Cc**"
+msgid "**Cd**"
+msgstr "**Cd**"
 
 #: ../../content/belgique/katz.md:11
-msgid "Severe dependency with disorientation / special cases"
-msgstr "Forte dépendance avec désorientation / cas particuliers"
+msgid "Severe dependency with disorientation"
+msgstr "Forte dépendance avec désorientation"
 
-#: ../../content/belgique/katz.md:52
+#: ../../content/belgique/katz.md:11
+msgid "**D**"
+msgstr "**D**"
+
+#: ../../content/belgique/katz.md:11
+msgid "Dementia diagnosed by a specialist"
+msgstr "Démence diagnostiquée par un spécialiste"
+
+#: ../../content/belgique/katz.md:11
+msgid "**Ccoma**"
+msgstr "**Ccoma**"
+
+#: ../../content/belgique/katz.md:11
+msgid ""
+"Comatose patient (special federal allowance, see [Belgian "
+"settings](reglages.md))"
+msgstr ""
+"Patient comateux (forfait fédéral particulier, voir [Réglages "
+"belges](reglages.md))"
+
+#: ../../content/belgique/katz.md:75
 msgid "The allowance is the same for every category"
 msgstr "Le forfait est le même pour toutes les catégories"
 
-#: ../../content/belgique/katz.md:55
+#: ../../content/belgique/katz.md:78
 msgid ""
 "Under the **AViQ** tariffs, the amount of the dependency allowance is "
 "**identical for every category**, including **O**. The category does not "
-"change the amount: it serves to declare the correct profile to the mutuelle "
-"(see [The INAMI allowance](forfait-inami.md))."
+"change the amount: it declares the right profile to the mutuality (see [The "
+"INAMI allowance](forfait-inami.md))."
 msgstr ""
 "Dans les tarifs **AViQ**, le montant du forfait de dépendance est "
 "**identique pour toutes les catégories**, y compris **O**. La catégorie ne "
-"change pas le montant : elle sert à déclarer le bon profil à la mutuelle "
-"(voir [Le forfait INAMI](forfait-inami.md))."
+"change pas le montant : elle déclare le bon profil à la mutuelle (voir [Le "
+"forfait INAMI](forfait-inami.md))."
 
-#: ../../content/belgique/katz.md:61
-msgid "Category O by default"
-msgstr "Catégorie O par défaut"
+#: ../../content/belgique/katz.md:84
+msgid "No validated Katz, no category"
+msgstr "Pas de Katz validée, pas de catégorie"
 
-#: ../../content/belgique/katz.md:64
+#: ../../content/belgique/katz.md:87
 msgid ""
-"As long as no **validated** Katz exists, the resident is in category **O** "
-"by default, and a \"Katz to do\" reminder appears on the dashboard. Validate"
-" the Katz to declare the correct category to the mutuelle."
+"A resident who has no **validated** Katz has **no category**. When the "
+"period is generated, no INAMI allowance is billed for them, their row shows "
+"**No Katz**, and the period's thread names them: validate their Katz, then "
+"regenerate. The **Katz à faire** counter of the period lists them."
 msgstr ""
-"Tant qu'aucun Katz **validé** n'existe, l'habitant est en catégorie **O** "
-"par défaut, et un rappel « Katz à faire » apparaît sur le tableau de bord. "
-"Validez le Katz pour déclarer la bonne catégorie à la mutuelle."
+"Un habitant qui n'a pas de Katz **validée** n'a **aucune catégorie**. À la "
+"génération de la période, aucun forfait INAMI n'est facturé pour lui, sa "
+"ligne affiche **Pas de Katz**, et le fil de la période le nomme : validez sa"
+" Katz, puis régénérez. Le compteur **Katz à faire** de la période les liste."
 
-#: ../../content/belgique/katz.md:69
+#: ../../content/belgique/katz.md:93
 msgid "Entering an assessment"
 msgstr "Saisir une évaluation"
 
-#: ../../content/belgique/katz.md:71
+#: ../../content/belgique/katz.md:95
 msgid ""
-"From the resident's record, open **Katz** (button or assessment tools)."
+"Open the resident's **Katz** smart button, or **New** in the Katz list."
 msgstr ""
-"Depuis la fiche de l'habitant, ouvrez **Katz** (bouton ou outils "
-"d'évaluation)."
+"Ouvrez le bouton intelligent **Katz** de l'habitant, ou **Nouveau** dans la "
+"liste Katz."
 
-#: ../../content/belgique/katz.md:72
-msgid "**New**: rate the 6 criteria."
-msgstr "**Nouveau** : cotez les 6 critères."
-
-#: ../../content/belgique/katz.md:73
-msgid "**Confirm** then **Validate** the assessment."
-msgstr "**Confirmez** puis **Validez** l'évaluation."
-
-#: ../../content/belgique/katz.md:75
+#: ../../content/belgique/katz.md:96
 msgid ""
-"![Katz assessment form: the rating grid for the 6 criteria, the resulting "
-"category and score, and the Draft, Confirmed, Validated, Sent status "
+"Fill in the **Date**, the **Evaluator** and rate each criterion. If the "
+"assessment was done elsewhere (hospital, previous home), tick **Assessed "
+"elsewhere** and fill in **Assessed by** and **Institution**."
+msgstr ""
+"Renseignez la **Date**, l'**Évaluateur** et cotez chaque critère. Si "
+"l'évaluation a été faite ailleurs (hôpital, maison précédente), cochez "
+"**Évaluée ailleurs** et renseignez **Évaluée par** et **Institution**."
+
+#: ../../content/belgique/katz.md:99
+msgid "Click **Confirm**."
+msgstr "Cliquez sur **Confirmer**."
+
+#: ../../content/belgique/katz.md:100
+msgid ""
+"Click **Sign**: draw the signature, or tick **Use my saved signature** if "
+"your employee record carries one. **Save as my signature** keeps a drawing "
+"for the next assessments and for the eAgreement annexes."
+msgstr ""
+"Cliquez sur **Signer** : dessinez la signature, ou cochez **Utiliser ma "
+"signature enregistrée** si votre fiche d'employé en porte une. **Enregistrer"
+" comme ma signature** conserve un dessin pour les évaluations suivantes et "
+"pour les annexes eAgreement."
+
+#: ../../content/belgique/katz.md:103
+msgid "Click **Validate**."
+msgstr "Cliquez sur **Valider**."
+
+#: ../../content/belgique/katz.md:105
+msgid ""
+"![Katz assessment form: the rating grid, the resulting category and score, "
+"and the Draft, Confirmed, Validated, Sent status "
 "bar](../assets/screenshots/katz/02-evaluation-form.png)"
 msgstr ""
-"![Formulaire d'évaluation Katz : la grille de cotation des 6 critères, la "
-"catégorie et le score obtenus, et la barre d'état Brouillon, Confirmé, "
-"Validé, Envoyé](../assets/screenshots/katz/02-evaluation-form.png)"
+"![Formulaire d'évaluation Katz : la grille de cotation, la catégorie et le "
+"score obtenus, et la barre d'état Brouillon, Confirmé, Validé, "
+"Envoyé](../assets/screenshots/katz/02-evaluation-form.png)"
 
-#: ../../content/belgique/katz.md:75
+#: ../../content/belgique/katz.md:105
 msgid ""
-"Katz assessment form: the rating grid for the 6 criteria, the resulting "
-"category and score, and the Draft, Confirmed, Validated, Sent status bar"
+"Katz assessment form: the rating grid, the resulting category and score, and"
+" the Draft, Confirmed, Validated, Sent status bar"
 msgstr ""
-"Formulaire d'évaluation Katz : la grille de cotation des 6 critères, la "
-"catégorie et le score obtenus, et la barre d'état Brouillon, Confirmé, "
-"Validé, Envoyé"
+"Formulaire d'évaluation Katz : la grille de cotation, la catégorie et le "
+"score obtenus, et la barre d'état Brouillon, Confirmé, Validé, Envoyé"
 
-#: ../../content/belgique/katz.md:77
-msgid "The category and the allowance are updated automatically for billing."
+#: ../../content/belgique/katz.md:108
+msgid ""
+"The assessment then moves through **Draft → Confirmed → Validated → Sent "
+"(eAgreement)**. A nurse can confirm and sign; **Validate** is reserved to a "
+"**head nurse** or a **physician**, and a banner **Awaiting validation** says"
+" so to everyone else. A **Current** ribbon marks the assessment in force; a "
+"**Category Changed** ribbon marks one whose category differs from the "
+"previous one."
 msgstr ""
-"La catégorie et le forfait se mettent à jour automatiquement pour la "
-"facturation."
+"L'évaluation passe ensuite par **Brouillon → Confirmé → Validé → Envoyé "
+"(eAgreement)**. Un infirmier peut confirmer et signer ; **Valider** est "
+"réservé à un **infirmier en chef** ou à un **médecin**, et un bandeau **En "
+"attente de validation** l'indique à tous les autres. Un ruban **Actuel** "
+"marque l'évaluation en vigueur ; un ruban **Catégorie modifiée** marque "
+"celle dont la catégorie diffère de la précédente."
 
-#: ../../content/belgique/katz.md:79
+#: ../../content/belgique/katz.md:115
+msgid "**Print Annexe 10** prints the official grid at any time."
+msgstr "**Imprimer l'Annexe 10** imprime la grille officielle à tout moment."
+
+#: ../../content/belgique/katz.md:117
 msgid "What Resthome does for you"
 msgstr "Ce que Resthome fait pour vous"
 
-#: ../../content/belgique/katz.md:82
+#: ../../content/belgique/katz.md:120
 msgid ""
-"On validation, Resthome links the assessment to billing (the allowance) and,"
-" where applicable, prepares the care agreement with the mutuelle. You don't "
-"have to re-enter the category anywhere else."
+"On validation, Resthome takes the category into billing and, when the "
+"category changes, prepares the agreement request for the mutuality (Annexe "
+"10). You never re-enter the category anywhere else. See [Agreements "
+"(eAgreement)](ehealth/eagreement.md)."
 msgstr ""
-"À la validation, Resthome relie l'évaluation à la facturation (forfait) et, "
-"le cas échéant, prépare l'accord de soins avec la mutuelle. Vous n'avez pas "
-"à reporter la catégorie ailleurs."
+"À la validation, Resthome reprend la catégorie dans la facturation et, quand"
+" la catégorie change, prépare la demande d'accord pour la mutuelle (Annexe "
+"10). Vous ne ressaisissez jamais la catégorie ailleurs. Voir [Accords "
+"(eAgreement)](ehealth/eagreement.md)."
 
-#: ../../content/belgique/katz.md:87
+#: ../../content/belgique/katz.md:126
+msgid "Assessing a candidate before admission"
+msgstr "Évaluer un candidat avant l'admission"
+
+#: ../../content/belgique/katz.md:128
+msgid ""
+"On an admission request, the **Katz scale** block of the **Resident "
+"Admission** tab offers **New Katz** and **Import a Katz** (an assessment "
+"done elsewhere). The category is read in the sector the candidate asks for. "
+"See [Admitting a resident in Belgium](admission.md)."
+msgstr ""
+"Sur une demande d'admission, le bloc **Échelle de Katz** de l'onglet "
+"**Admission habitant** propose **Nouvelle Katz** et **Importer une Katz** "
+"(une évaluation faite ailleurs). La catégorie est lue dans le secteur "
+"demandé par le candidat. Voir [Admettre un habitant en "
+"Belgique](admission.md)."
+
+#: ../../content/belgique/katz.md:133
 msgid "Renewal of the assessment"
 msgstr "Renouvellement de l'évaluation"
 
-#: ../../content/belgique/katz.md:89
+#: ../../content/belgique/katz.md:135
 msgid ""
-"A Katz assessment has its own **renewal cycle**: each validated assessment "
-"carries a **next assessment date**, and the list shows a **renewal "
-"indicator** per resident. When the due date approaches or passes, a reminder"
-" appears on the dashboard; the care dashboard counts the Katz assessments to"
-" renew and the missing ones. To renew, enter a new assessment — the history "
-"is kept."
+"Each assessment carries a **Next Evaluation** date, and the list shows how "
+"many days remain. The filters **Reassessment Overdue**, **Reassessment Due "
+"Soon (30 days)**, **No Katz** and **All Needs Attention** gather what to do;"
+" the last one also lists the Katz assessments still in draft or confirmed, "
+"which [Evaluations to validate](../soins/evaluations-a-valider.md) shows "
+"with the other scales. To renew, click **Renew** on a validated assessment: "
+"a new draft is created and the history is kept."
 msgstr ""
-"Une évaluation Katz a son propre **cycle de renouvellement** : chaque "
-"évaluation validée porte une **date de prochaine évaluation**, et la liste "
-"affiche un **indicateur de renouvellement** par habitant. Quand l'échéance "
-"approche ou est dépassée, un rappel apparaît sur le tableau de bord ; le "
-"tableau de bord des soins compte les évaluations Katz à renouveler et celles"
-" qui manquent. Pour renouveler, encodez une nouvelle évaluation — "
-"l'historique est conservé."
+"Chaque évaluation porte une date de **Prochaine évaluation**, et la liste "
+"indique combien de jours il reste. Les filtres **Réévaluation en retard**, "
+"**Réévaluation due bientôt (30 jours)**, **Pas de Katz** et **Nécessite une "
+"attention** rassemblent ce qu'il y a à faire ; le dernier liste aussi les "
+"évaluations Katz encore en brouillon ou confirmées, que [Évaluations à "
+"valider](../soins/evaluations-a-valider.md) montre avec les autres échelles."
+" Pour renouveler, cliquez sur **Renouveler** sur une évaluation validée : un"
+" nouveau brouillon est créé et l'historique est conservé."
 
-#: ../../content/belgique/katz.md:95
+#: ../../content/belgique/katz.md:143
+msgid ""
+"On the billing side, the dashboard counts the **Katz to assess** (no "
+"assessment, or reassessment due)."
+msgstr ""
+"Côté facturation, le tableau de bord compte les **Katz à évaluer** (pas "
+"d'évaluation, ou réévaluation due)."
+
+#: ../../content/belgique/katz.md:146
 msgid "Worsening during the stay"
 msgstr "Aggravation en cours de séjour"
 
-#: ../../content/belgique/katz.md:97
+#: ../../content/belgique/katz.md:148
 msgid ""
-"If the resident's condition deteriorates, enter a **new assessment** with a "
-"**worsening reason**. Resthome then prepares the update of the agreement "
-"(**Annexe 10**): the reason you entered is carried over automatically, and "
-"the clinician's **signature** completes the document."
+"If the resident's condition deteriorates, enter a **new assessment**. When "
+"the category gets worse, the form asks for the **Aggravation "
+"Justification**: Resthome carries it into the agreement update (**Annexe "
+"10**), which the clinician signs. The new category is billed once the "
+"mutuality agrees — see [The INAMI dependency allowance](forfait-inami.md)."
 msgstr ""
-"Si l'état de l'habitant se dégrade, saisissez une **nouvelle évaluation** "
-"avec un **motif d'aggravation**. Resthome prépare alors la mise à jour de "
-"l'accord (**Annexe 10**) : le motif renseigné est repris automatiquement, et"
-" la **signature** du clinicien vient compléter le document."
+"Si l'état de l'habitant se dégrade, saisissez une **nouvelle évaluation**. "
+"Quand la catégorie s'aggrave, le formulaire demande la **Justification "
+"d'aggravation** : Resthome la reporte dans la mise à jour de l'accord "
+"(**Annexe 10**), que le clinicien signe. La nouvelle catégorie est facturée "
+"une fois l'accord de la mutuelle obtenu — voir [Le forfait INAMI "
+"(dépendance)](forfait-inami.md)."
 
-#: ../../content/belgique/katz.md:102
+#: ../../content/belgique/katz.md:154
+msgid ""
+"A readmission after a long hospital stay may require a **new assessment**: "
+"Resthome prepares the draft and assigns an activity — see [Belgian "
+"settings](reglages.md)."
+msgstr ""
+"Une réadmission après une longue hospitalisation peut nécessiter une "
+"**nouvelle évaluation** : Resthome prépare le brouillon et assigne une "
+"activité — voir [Réglages belges](reglages.md)."
+
+#: ../../content/belgique/katz.md:158
 msgid "When the category no longer matches the bed"
 msgstr "Quand la catégorie ne correspond plus au lit"
 
-#: ../../content/belgique/katz.md:104
+#: ../../content/belgique/katz.md:160
 msgid ""
 "An **MRS** bed only takes categories **B and above**. A resident assessed at"
 " **O or A** belongs in an **MR** bed. Resthome refuses to **put or keep a "
@@ -347,20 +512,19 @@ msgstr ""
 "bloqué** pour autant : l'habitant peut toujours passer d'une chambre à une "
 "autre tant que le bandeau ci-dessous reste affiché."
 
-#: ../../content/belgique/katz.md:110
+#: ../../content/belgique/katz.md:166
 msgid ""
-"Nothing stops a resident's condition from improving — and when a new "
-"assessment comes out at A while they occupy an MRS bed, Resthome says so "
-"instead of letting it pass. The banner appears **as soon as you validate** "
-"the assessment, and stays on the resident's record until the sector is "
-"changed:"
+"When a new assessment comes out at A while the resident occupies an MRS bed,"
+" Resthome says so instead of letting it pass. The banner appears **as soon "
+"as you validate** the assessment, and stays on the resident's record until "
+"the sector is changed:"
 msgstr ""
-"Rien n’empêche l’état d’un habitant de s’améliorer — et lorsqu’une nouvelle "
-"évaluation ressort en A alors qu’il occupe un lit MRS, Resthome le dit au "
-"lieu de laisser passer. La bannière apparaît **dès la validation** de "
-"l’évaluation et reste sur la fiche tant que le secteur n’a pas changé :"
+"Lorsqu'une nouvelle évaluation ressort en A alors que l'habitant occupe un "
+"lit MRS, Resthome le dit au lieu de laisser passer. Le bandeau apparaît "
+"**dès la validation** de l'évaluation et reste sur la fiche de l'habitant "
+"tant que le secteur n'a pas changé :"
 
-#: ../../content/belgique/katz.md:115
+#: ../../content/belgique/katz.md:171
 msgid ""
 "![Banner on the resident's record: Katz A in an MRS bed, with the Internal "
 "transfer button](../assets/screenshots/katz/04-secteur-a-changer-fiche.png)"
@@ -369,7 +533,7 @@ msgstr ""
 "bouton Transfert interne](../assets/screenshots/katz/04-secteur-a-changer-"
 "fiche.png)"
 
-#: ../../content/belgique/katz.md:115
+#: ../../content/belgique/katz.md:171
 msgid ""
 "Banner on the resident's record: Katz A in an MRS bed, with the Internal "
 "transfer button"
@@ -377,17 +541,17 @@ msgstr ""
 "Bannière sur la fiche de l’habitant : Katz A dans un lit MRS, avec le bouton"
 " Transfert interne"
 
-#: ../../content/belgique/katz.md:117
+#: ../../content/belgique/katz.md:173
 msgid ""
-"The **Internal transfer** button on the banner opens the transfer wizard "
-"with the destination already set to MR — see [Room change and "
-"transfer](../residents/changement-chambre.md)."
+"The **Internal Transfer** button on the banner opens the transfer wizard "
+"with the destination already set to MR — see [Internal transfer (MR ↔ "
+"MRS)](ehealth/eagreement-transfert.md)."
 msgstr ""
-"Le bouton **Transfert interne** de la bannière ouvre l’assistant avec la "
-"destination déjà réglée sur MR — voir [Changement de chambre et "
-"transfert](../residents/changement-chambre.md)."
+"Le bouton **Transfert interne** du bandeau ouvre l'assistant de transfert "
+"avec la destination déjà réglée sur MR — voir [Transfert interne (MR ↔ "
+"MRS)](ehealth/eagreement-transfert.md)."
 
-#: ../../content/belgique/katz.md:121
+#: ../../content/belgique/katz.md:177
 msgid ""
 "The same signal follows the resident everywhere they are listed. On the "
 "board, the card carries an **MRS → MR** badge:"
@@ -395,7 +559,7 @@ msgstr ""
 "Le même signal suit l’habitant partout où il est listé. Sur le tableau, sa "
 "carte porte un badge **MRS → MR** :"
 
-#: ../../content/belgique/katz.md:124
+#: ../../content/belgique/katz.md:180
 msgid ""
 "![Resident card carrying the MRS to MR "
 "badge](../assets/screenshots/katz/05-secteur-a-changer-kanban.png)"
@@ -403,11 +567,11 @@ msgstr ""
 "![Carte de l’habitant portant le badge MRS → "
 "MR](../assets/screenshots/katz/05-secteur-a-changer-kanban.png)"
 
-#: ../../content/belgique/katz.md:124
+#: ../../content/belgique/katz.md:180
 msgid "Resident card carrying the MRS to MR badge"
 msgstr "Carte de l’habitant portant le badge MRS → MR"
 
-#: ../../content/belgique/katz.md:126
+#: ../../content/belgique/katz.md:182
 msgid ""
 "And the residents list has a **Sector to be changed** filter, to see "
 "everyone waiting for a transfer in one go:"
@@ -415,7 +579,7 @@ msgstr ""
 "Et la liste des habitants offre un filtre **Secteur à changer**, pour voir "
 "d’un coup tous ceux qui attendent un transfert :"
 
-#: ../../content/belgique/katz.md:129
+#: ../../content/belgique/katz.md:185
 msgid ""
 "![The Sector to be changed filter in the search "
 "menu](../assets/screenshots/katz/06-secteur-a-changer-filtre.png)"
@@ -423,47 +587,63 @@ msgstr ""
 "![Le filtre Secteur à changer dans le menu de "
 "recherche](../assets/screenshots/katz/06-secteur-a-changer-filtre.png)"
 
-#: ../../content/belgique/katz.md:129
+#: ../../content/belgique/katz.md:185
 msgid "The Sector to be changed filter in the search menu"
 msgstr "Le filtre Secteur à changer dans le menu de recherche"
 
-#: ../../content/belgique/katz.md:131
+#: ../../content/belgique/katz.md:187
+msgid ""
+"The other way round, the [occupancy board](occupation-mr-mrs.md) lists the "
+"MR residents an MRS bed admits, when MRS beds are free."
+msgstr ""
+"Dans l'autre sens, le [tableau d'occupation](occupation-mr-mrs.md) liste les"
+" habitants MR qu'un lit MRS admet, quand des lits MRS sont libres."
+
+#: ../../content/belgique/katz.md:190
 msgid "What this changes for billing"
 msgstr "Ce que cela change pour la facturation"
 
-#: ../../content/belgique/katz.md:134
+#: ../../content/belgique/katz.md:193
 msgid ""
-"Until the transfer is done, the stay is still declared to the mutuelle **in "
-"MRS**, with a category that sector does not accept. The banner is a task, "
+"Until the transfer is done, the stay is still declared to the mutuality **in"
+" MRS**, with a category that sector does not accept. The banner is a task, "
 "not an informational note: the sooner the transfer is entered, the shorter "
 "the period to correct."
 msgstr ""
-"Tant que le transfert n’est pas fait, le séjour reste déclaré à la mutuelle "
-"**en MRS**, avec une catégorie que ce secteur n’accepte pas. La bannière est"
-" une tâche, pas une information : plus tôt le transfert est encodé, plus "
+"Tant que le transfert n'est pas fait, le séjour reste déclaré à la mutuelle "
+"**en MRS**, avec une catégorie que ce secteur n'accepte pas. Le bandeau est "
+"une tâche, pas une information : plus tôt le transfert est encodé, plus "
 "courte est la période à corriger."
 
-#: ../../content/belgique/katz.md:140
+#: ../../content/belgique/katz.md:199
 msgid "Learn more"
 msgstr "Pour aller plus loin"
 
-#: ../../content/belgique/katz.md:142
+#: ../../content/belgique/katz.md:201
 msgid ""
-"[The INAMI allowance (dependency)](forfait-inami.md) — from category to "
-"billed amount."
+"[The INAMI dependency allowance](forfait-inami.md) — from category to billed"
+" amount."
 msgstr ""
 "[Le forfait INAMI (dépendance)](forfait-inami.md) — de la catégorie au "
 "montant facturé."
 
-#: ../../content/belgique/katz.md:143
-msgid "[Managing a resident](../residents/gerer-un-resident.md)"
-msgstr "[Gérer un habitant](../residents/gerer-un-resident.md)"
-
-#: ../../content/belgique/katz.md:144
+#: ../../content/belgique/katz.md:202
 msgid "[The resident's file in Belgium](dossier-resident.md)"
 msgstr "[Le dossier de l'habitant en Belgique](dossier-resident.md)"
 
-#: ../../content/belgique/katz.md:145
+#: ../../content/belgique/katz.md:203
+msgid ""
+"[Responsible practitioner and annex signatures](ehealth/eagreement-"
+"signature.md)"
+msgstr ""
+"[Praticien responsable et signatures des annexes](ehealth/eagreement-"
+"signature.md)"
+
+#: ../../content/belgique/katz.md:204
+msgid "[Agreements (eAgreement)](ehealth/eagreement.md)"
+msgstr "[Accords (eAgreement)](ehealth/eagreement.md)"
+
+#: ../../content/belgique/katz.md:205
 msgid ""
 "[Geriatric assessments](../residents/evaluations.md) — the international "
 "scales beside Katz."
@@ -471,17 +651,17 @@ msgstr ""
 "[Les évaluations gériatriques](../residents/evaluations.md) — les échelles "
 "internationales à côté de Katz."
 
-#: ../../content/belgique/katz.md:146
+#: ../../content/belgique/katz.md:206
 msgid "[Billing](../facturation/index.md)"
 msgstr "[Facturation](../facturation/index.md)"
 
-#: ../../content/belgique/katz.md:147
-msgid "[Agreements (eAgreement)](ehealth/eagreement.md)"
-msgstr "[Accords (eAgreement)](ehealth/eagreement.md)"
+#: ../../content/belgique/katz.md:207
+msgid ""
+"[Management reports](rapports-gestion.md) — the KAPPA control documents."
+msgstr ""
+"[Rapports de gestion](rapports-gestion.md) — les documents de contrôle "
+"KAPPA."
 
-#~ msgid ""
-#~ "An **MRS** bed only takes categories **B and above**. A resident assessed at"
-#~ " **O or A** belongs in an **MR** bed."
-#~ msgstr ""
-#~ "Un lit **MRS** n’admet que les catégories **B et au-delà**. Un habitant "
-#~ "évalué en **O ou A** relève d’un lit **MR**."
+#: ../../content/belgique/katz.md:208
+msgid "[Evaluations to validate](../soins/evaluations-a-valider.md)"
+msgstr "[Évaluations à valider](../soins/evaluations-a-valider.md)"

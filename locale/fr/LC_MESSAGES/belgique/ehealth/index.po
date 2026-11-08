@@ -24,47 +24,19 @@ msgstr ""
 msgid "eHealth"
 msgstr "eHealth"
 
-#: ../../content/belgique/ehealth/index.md:8
-msgid ""
-"MDA insurability, eFact electronic invoicing and eAgreement agreements in "
-"Resthome."
-msgstr ""
-"Assurabilité MDA, facturation électronique eFact et accords eAgreement dans "
-"Resthome."
-
-#: ../../content/belgique/ehealth/index.md:28
-msgid ""
-"Resthome is connected to the Belgian e-health ecosystem (eHealth, MyCareNet,"
-" WalCareNet) to exchange directly with the mutualities."
-msgstr ""
-"Resthome est connecté à l'écosystème e-santé belge (eHealth, MyCareNet, "
-"WalCareNet) pour échanger directement avec les mutuelles."
-
-#: ../../content/belgique/ehealth/index.md:31
+#: ../../content/belgique/ehealth/index.md:50
 msgid "The services"
 msgstr "Les services"
 
-#: ../../content/belgique/ehealth/index.md:33
+#: ../../content/belgique/ehealth/index.md:52
 msgid "**MDA — Insurability**"
 msgstr "**MDA — Assurabilité**"
 
-#: ../../content/belgique/ehealth/index.md:35
-msgid ""
-"Checks that a resident is **insured** and retrieves their mutuality and BIM "
-"status, individually or in batch."
-msgstr ""
-"Vérifie qu'un habitant est **assuré** et récupère sa mutuelle et son statut "
-"BIM, individuellement ou par lot."
-
-#: ../../content/belgique/ehealth/index.md:38
-msgid "→ [Insurability in detail](mda.md)"
-msgstr "→ [L'assurabilité en détail](mda.md)"
-
-#: ../../content/belgique/ehealth/index.md:40
+#: ../../content/belgique/ehealth/index.md:59
 msgid "**eFact — Electronic invoicing**"
 msgstr "**eFact — Facturation électronique**"
 
-#: ../../content/belgique/ehealth/index.md:42
+#: ../../content/belgique/ehealth/index.md:61
 msgid ""
 "Sends the **mutuality share** (message 920000) to the insurance "
 "organisations and follows the acknowledgements and settlements."
@@ -72,7 +44,7 @@ msgstr ""
 "Envoie la **part mutuelle** (message 920000) aux organismes assureurs et "
 "suit les accusés et décomptes."
 
-#: ../../content/belgique/ehealth/index.md:45
+#: ../../content/belgique/ehealth/index.md:64
 msgid ""
 "→ [eFact invoicing in detail](efact.md) · [Rejections](efact-rejets.md) · "
 "[Corrections and credit notes](efact-corrections.md) · [Settlements](efact-"
@@ -82,11 +54,11 @@ msgstr ""
 "[Corrections et notes de crédit](efact-corrections.md) · [Décomptes](efact-"
 "paiements.md)"
 
-#: ../../content/belgique/ehealth/index.md:48
+#: ../../content/belgique/ehealth/index.md:67
 msgid "**eAgreement — Agreements**"
 msgstr "**eAgreement — Accords**"
 
-#: ../../content/belgique/ehealth/index.md:50
+#: ../../content/belgique/ehealth/index.md:69
 msgid ""
 "Notifies the OA on an **admission**, an **end of stay** or an **absence** "
 "(Annexes 7, 10, 11…)."
@@ -94,45 +66,27 @@ msgstr ""
 "Notifie l'OA lors d'une **admission**, d'une **fin de séjour** ou d'une "
 "**absence** (Annexes 7, 10, 11…)."
 
-#: ../../content/belgique/ehealth/index.md:53
-msgid ""
-"→ [Agreements in detail](eagreement.md) · [Signing the annexes](eagreement-"
-"signature.md) · [Following a request](eagreement-suivi.md) · [Internal "
-"transfer](eagreement-transfert.md)"
-msgstr ""
-"→ [Les accords en détail](eagreement.md) · [Signer les annexes](eagreement-"
-"signature.md) · [Suivre une demande](eagreement-suivi.md) · [Transfert "
-"interne](eagreement-transfert.md)"
-
-#: ../../content/belgique/ehealth/index.md:56
+#: ../../content/belgique/ehealth/index.md:103
 msgid "Prerequisites"
 msgstr "Prérequis"
 
-#: ../../content/belgique/ehealth/index.md:58
+#: ../../content/belgique/ehealth/index.md:105
 msgid "To check before sending"
 msgstr "À vérifier avant d'envoyer"
 
-#: ../../content/belgique/ehealth/index.md:60
-msgid "The resident has a valid **NISS**."
-msgstr "L'habitant a un **NISS** valide."
-
-#: ../../content/belgique/ehealth/index.md:61
+#: ../../content/belgique/ehealth/index.md:109
 msgid "Their **mutuality** is filled in."
 msgstr "Sa **mutuelle** est renseignée."
 
-#: ../../content/belgique/ehealth/index.md:62
+#: ../../content/belgique/ehealth/index.md:110
 msgid "An **insurability (MDA)** has been checked for the period."
 msgstr "Une **assurabilité (MDA)** a été vérifiée pour la période."
 
-#: ../../content/belgique/ehealth/index.md:63
-msgid "The establishment's **eHealth certificate** is active."
-msgstr "Le **certificat eHealth** de l'établissement est actif."
-
-#: ../../content/belgique/ehealth/index.md:66
+#: ../../content/belgique/ehealth/index.md:128
 msgid "Good to know"
 msgstr "Bon à savoir"
 
-#: ../../content/belgique/ehealth/index.md:68
+#: ../../content/belgique/ehealth/index.md:130
 msgid ""
 "An **absence** of more than 72 h (or any hospitalisation) triggers an end-"
 "of-accommodation **Annexe 11**; the **return** generates a readmission "
@@ -142,7 +96,7 @@ msgstr ""
 "**Annexe 11** de fin d'hébergement ; le **retour** génère une **Annexe 7** "
 "de réadmission."
 
-#: ../../content/belgique/ehealth/index.md:71
+#: ../../content/belgique/ehealth/index.md:133
 msgid ""
 "An invoice that is already **posted** \"freezes\" the month's billing for "
 "that resident: to change it, reset it to draft (or issue a credit note), "
@@ -152,11 +106,11 @@ msgstr ""
 "habitant : pour la modifier, remettez-la en brouillon (ou émettez une note "
 "de crédit), puis actualisez."
 
-#: ../../content/belgique/ehealth/index.md:75
+#: ../../content/belgique/ehealth/index.md:139
 msgid "What's next"
 msgstr "À suivre"
 
-#: ../../content/belgique/ehealth/index.md:77
+#: ../../content/belgique/ehealth/index.md:141
 msgid ""
 "[Agreements (eAgreement)](eagreement.md) — admission, absence, return, "
 "discharge (Annexes 7, 10, 11)."
@@ -164,7 +118,7 @@ msgstr ""
 "[Accords (eAgreement)](eagreement.md) — admission, absence, retour, sortie "
 "(Annexes 7, 10, 11)."
 
-#: ../../content/belgique/ehealth/index.md:79
+#: ../../content/belgique/ehealth/index.md:143
 msgid ""
 "[The billing journey](../parcours-facturation.md) — from admission to "
 "payment."
@@ -172,20 +126,234 @@ msgstr ""
 "[Le parcours de facturation](../parcours-facturation.md) — de l'admission au"
 " paiement."
 
-#: ../../content/belgique/ehealth/index.md:80
+#: ../../content/belgique/ehealth/index.md:144
 msgid "[Absences and hospitalisations](../../facturation/absences.md)"
 msgstr "[Absences et hospitalisations](../../facturation/absences.md)"
 
-#: ../../content/belgique/ehealth/index.md:81
+#: ../../content/belgique/ehealth/index.md:145
 msgid "[Billing](../../facturation/index.md)"
 msgstr "[Facturation](../../facturation/index.md)"
 
-#: ../../content/belgique/ehealth/index.md:82
+#: ../../content/belgique/ehealth/index.md:146
 msgid "[FAQ](../../faq.md) · [Glossary](../../glossaire.md)"
 msgstr "[FAQ](../../faq.md) · [Glossaire](../../glossaire.md)"
 
-#~ msgid "→ [eFact invoicing in detail](efact.md)"
-#~ msgstr "→ [La facturation eFact en détail](efact.md)"
+#: ../../content/belgique/ehealth/index.md:8
+msgid ""
+"The eHealth services of Resthome for Belgian nursing homes: MDA "
+"insurability, eFact electronic invoicing, eAgreement agreements, the "
+"eHealthBox, the Health Directory, consent and MediPrima."
+msgstr ""
+"Les services eHealth de Resthome pour les maisons de repos belges : "
+"assurabilité MDA, facturation électronique eFact, accords eAgreement, "
+"l'eHealthBox, l'Annuaire Santé, le consentement et MediPrima."
 
-#~ msgid "→ [Agreements in detail](eagreement.md)"
-#~ msgstr "→ [Les accords en détail](eagreement.md)"
+#: ../../content/belgique/ehealth/index.md:12
+msgid "Which eHealth services does Resthome use?"
+msgstr "Quels services eHealth Resthome utilise-t-il ?"
+
+#: ../../content/belgique/ehealth/index.md:13
+msgid ""
+"The insurability check (MDA), the electronic invoicing of the INAMI "
+"allowance (eFact), the agreements and notifications (eAgreement Light), the "
+"eHealthBox secure mailbox, the Health Directory and CoBRHA, the patient "
+"consent and MediPrima. Each one is described on its own page."
+msgstr ""
+"La vérification d'assurabilité (MDA), la facturation électronique du forfait"
+" INAMI (eFact), les accords et notifications (eAgreement Light), la boîte "
+"aux lettres sécurisée eHealthBox, l'Annuaire Santé et CoBRHA, le "
+"consentement du patient et MediPrima. Chacun est décrit sur sa propre page."
+
+#: ../../content/belgique/ehealth/index.md:15
+msgid "What do I need before the first exchange?"
+msgstr "De quoi ai-je besoin avant le premier échange ?"
+
+#: ../../content/belgique/ehealth/index.md:16
+msgid ""
+"An eHealth certificate installed on the home's approval, with a successful "
+"connection test. The residents need a NISS and a mutuality."
+msgstr ""
+"Un certificat eHealth installé sur l'agrément de la maison, avec un test de "
+"connexion réussi. Les habitants ont besoin d'un NISS et d'une mutuelle."
+
+#: ../../content/belgique/ehealth/index.md:18
+msgid "A sending got no certain answer: will Resthome resend it?"
+msgstr ""
+"Un envoi n'a pas reçu de réponse certaine : Resthome va-t-il le renvoyer ?"
+
+#: ../../content/belgique/ehealth/index.md:19
+msgid ""
+"Never on its own. It lists the sending in eHealth → Configuration → Sends to"
+" check, where you say whether MyCareNet received it; only then can it be "
+"sent again."
+msgstr ""
+"Jamais tout seul. Il liste l'envoi dans eHealth → Configuration → Envois à "
+"vérifier, où vous indiquez si MyCareNet l'a reçu ; ce n'est qu'ensuite qu'il"
+" peut être renvoyé."
+
+#: ../../content/belgique/ehealth/index.md:21
+msgid "Where do I see what was exchanged with the platform?"
+msgstr "Où voir ce qui a été échangé avec la plateforme ?"
+
+#: ../../content/belgique/ehealth/index.md:22
+msgid ""
+"In eHealth → Configuration → Communication logs: every call, with its "
+"answer, for the eHealth managers."
+msgstr ""
+"Dans eHealth → Configuration → Journaux de communication : chaque appel, "
+"avec sa réponse, pour les gestionnaires eHealth."
+
+#: ../../content/belgique/ehealth/index.md:45
+msgid ""
+"Resthome is connected to the Belgian e-health ecosystem (eHealth, MyCareNet,"
+" WalCareNet) to exchange directly with the mutualities and the other "
+"caregivers. Most of it lives in the **eHealth** application; some services "
+"also show up where you need them, on the resident's record or in the billing"
+" period."
+msgstr ""
+"Resthome est connecté à l'écosystème e-santé belge (eHealth, MyCareNet, "
+"WalCareNet) pour échanger directement avec les mutuelles et les autres "
+"soignants. L'essentiel se trouve dans l'application **eHealth** ; certains "
+"services apparaissent aussi là où vous en avez besoin, sur la fiche de "
+"l'habitant ou dans la période de facturation."
+
+#: ../../content/belgique/ehealth/index.md:54
+msgid ""
+"Checks that a resident is **insured** and retrieves their mutuality and BIM "
+"status, individually or in batch — the waiting list included."
+msgstr ""
+"Vérifie qu'un habitant est **assuré** et récupère sa mutuelle et son statut "
+"BIM, individuellement ou par lot — la liste d'attente comprise."
+
+#: ../../content/belgique/ehealth/index.md:57
+msgid "→ [Insurability in detail](mda.md) · [MDA errors](mda-erreurs.md)"
+msgstr "→ [L'assurabilité en détail](mda.md) · [Erreurs MDA](mda-erreurs.md)"
+
+#: ../../content/belgique/ehealth/index.md:72
+msgid ""
+"→ [Agreements in detail](eagreement.md) · [Signing the annexes](eagreement-"
+"signature.md) · [Following a request](eagreement-suivi.md) · "
+"[Refusals](eagreement-refus.md) · [Internal transfer](eagreement-"
+"transfert.md) · [Collective holidays](vacances-collectives.md)"
+msgstr ""
+"→ [Les accords en détail](eagreement.md) · [Signer les annexes](eagreement-"
+"signature.md) · [Suivre une demande](eagreement-suivi.md) · "
+"[Refus](eagreement-refus.md) · [Transfert interne](eagreement-transfert.md) "
+"· [Vacances collectives](vacances-collectives.md)"
+
+#: ../../content/belgique/ehealth/index.md:76
+msgid "**eHealthBox — Secure mailbox**"
+msgstr "**eHealthBox — Boîte aux lettres sécurisée**"
+
+#: ../../content/belgique/ehealth/index.md:78
+msgid ""
+"Reads and sends the home's encrypted messages with doctors, pharmacies and "
+"hospitals."
+msgstr ""
+"Lit et envoie les messages chiffrés de la maison avec les médecins, les "
+"pharmacies et les hôpitaux."
+
+#: ../../content/belgique/ehealth/index.md:81
+msgid "→ [The eHealthBox](ehealthbox.md)"
+msgstr "→ [L'eHealthBox](ehealthbox.md)"
+
+#: ../../content/belgique/ehealth/index.md:83
+msgid "**Health Directory and CoBRHA**"
+msgstr "**Annuaire Santé et CoBRHA**"
+
+#: ../../content/belgique/ehealth/index.md:85
+msgid ""
+"Looks professionals and institutions up in the national registers and names "
+"the NIHII numbers the mutuality returns."
+msgstr ""
+"Recherche les professionnels et les institutions dans les registres "
+"nationaux et nomme les numéros INAMI que la mutuelle renvoie."
+
+#: ../../content/belgique/ehealth/index.md:88
+msgid "→ [Health Directory and CoBRHA](annuaire-sante.md)"
+msgstr "→ [Annuaire Santé et CoBRHA](annuaire-sante.md)"
+
+#: ../../content/belgique/ehealth/index.md:90
+msgid "**Consent**"
+msgstr "**Consentement**"
+
+#: ../../content/belgique/ehealth/index.md:92
+msgid ""
+"Checks, registers or revokes a resident's consent to the exchange of their "
+"health data."
+msgstr ""
+"Vérifie, enregistre ou révoque le consentement d'un habitant à l'échange de "
+"ses données de santé."
+
+#: ../../content/belgique/ehealth/index.md:95
+msgid "→ [eHealth consent](consentement.md)"
+msgstr "→ [Le consentement eHealth](consentement.md)"
+
+#: ../../content/belgique/ehealth/index.md:97
+msgid "**MediPrima**"
+msgstr "**MediPrima**"
+
+#: ../../content/belgique/ehealth/index.md:99
+msgid "Consults the medical card of a person covered by a CPAS."
+msgstr ""
+"Consulte la carte médicale d'une personne prise en charge par un CPAS."
+
+#: ../../content/belgique/ehealth/index.md:101
+msgid "→ [CPAS coverage](../cpas.md)"
+msgstr "→ [La prise en charge CPAS](../cpas.md)"
+
+#: ../../content/belgique/ehealth/index.md:107
+msgid ""
+"The resident has a valid **NISS** — the [eID reader](../lecture-eid.md) "
+"fills it in."
+msgstr ""
+"L'habitant a un **NISS** valide — le [lecteur eID](../lecture-eid.md) le "
+"renseigne."
+
+#: ../../content/belgique/ehealth/index.md:111
+msgid ""
+"The approval's **eHealth certificate** is active, and its **Test "
+"connection** succeeds — see [eHealth and eFact settings](../reglages-"
+"ehealth.md)."
+msgstr ""
+"Le **certificat eHealth** de l'agrément est actif, et son **Tester la "
+"connexion** réussit — voir [Réglages eHealth et eFact](../reglages-"
+"ehealth.md)."
+
+#: ../../content/belgique/ehealth/index.md:115
+msgid "When an answer gets lost"
+msgstr "Quand une réponse se perd"
+
+#: ../../content/belgique/ehealth/index.md:117
+msgid ""
+"A sending to MyCareNet can end without a certain answer: a time-out, an "
+"interruption. Resthome **never resends it on its own**, so that the "
+"mutuality never receives the same request twice. It lists it in **eHealth → "
+"Configuration → Sends to check**, reserved to the eHealth managers: look for"
+" its acknowledgement in the MyCareNet mailbox, then click **Received by "
+"MyCareNet** (the document counts as sent) or **Not received, may be sent "
+"again**."
+msgstr ""
+"Un envoi vers MyCareNet peut se terminer sans réponse certaine : un délai "
+"dépassé, une interruption. Resthome **ne le renvoie jamais tout seul**, pour"
+" que la mutuelle ne reçoive jamais deux fois la même demande. Il le liste "
+"dans **eHealth → Configuration → Envois à vérifier**, réservé aux "
+"gestionnaires eHealth : cherchez son accusé de réception dans la boîte aux "
+"lettres MyCareNet, puis cliquez sur **Reçu par MyCareNet** (le document "
+"compte comme envoyé) ou **Non reçu, peut être renvoyé**."
+
+#: ../../content/belgique/ehealth/index.md:125
+msgid ""
+"Every call to the platform, with its answer, is kept in **eHealth → "
+"Configuration → Communication logs** for the eHealth managers."
+msgstr ""
+"Chaque appel à la plateforme, avec sa réponse, est conservé dans **eHealth →"
+" Configuration → Journaux de communication** pour les gestionnaires eHealth."
+
+#: ../../content/belgique/ehealth/index.md:136
+msgid ""
+"**Consent** and **MediPrima** are practitioner services: their menus show "
+"for the eHealth practitioners and managers only."
+msgstr ""
+"**Consentement** et **MediPrima** sont des services de praticien : leurs "
+"menus ne s'affichent que pour les praticiens et gestionnaires eHealth."

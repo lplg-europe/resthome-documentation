@@ -44,7 +44,10 @@ The Belgian pack adds its own settings: the INAMI numbers and approvals of the e
 
 - **Billing Rates**: the dated amounts Resthome bills — the accommodation price (resident's share) and, where the country has one, the care allowance paid by the health insurer.
 - **Supplement types**: the catalog of billable services (see [Supplements](../facturation/supplements.md)).
-- **Absence discount rules**: the fine-tuning of billing when a resident is away.
+- **Absence discount rules**: the fine-tuning of billing when a resident is away (see [Absences and hospitalisations](../facturation/absences.md)).
+- **Price indexation**: the yearly increase of the supplement prices, from a given date (see [Price indexation](../facturation/indexation-des-prix.md)).
+
+The rates, supplement types and absence discount rules sit in the **Billing** app, **Configuration** menu; the indexation starts from **Facturation → Products**.
 
 :::{admonition} In Belgium
 :class: rh-country rh-country-be

@@ -60,14 +60,14 @@ on it.
 
 ## 1. Start the recharge from the bill
 
-Open the supplier bill in **Accounting → Vendor bills** and click **Recharge to
+Open the posted vendor bill in the Invoicing app and click **Recharge to
 residents**. Resthome creates the recharge, pre-filled with one line per
 eligible bill line — product, wording and untaxed amount — and opens it.
 
 ![Posted vendor bill with the Recharge to residents button in the header](../assets/screenshots/facturation/10-facture-fournisseur-bouton.png)
 
-A **smart button** on the bill leads to the recharges it produced, and one on
-the recharge leads back to the bill: an amount on a family's invoice can always
+A **Recharges** smart button on the bill leads to the recharges it produced, and
+one on the recharge leads back to the bill: an amount on a family's invoice can always
 be traced back to the supplier document that justifies it.
 
 :::{admonition} Starting from the app instead
@@ -79,7 +79,8 @@ recharge, pick the bill, and its lines come in.
 
 ## 2. Say who each line is for
 
-On each line, name the **resident(s)** and choose how the amount is split.
+In the **Costs to recharge** tab, name the **resident(s)** of each line and
+choose how its **Cost** is split.
 
 ![Recharge form: bill lines with their residents, the split method and the amount charged to each](../assets/screenshots/facturation/11-refacturation-lignes.png)
 
@@ -87,16 +88,17 @@ On each line, name the **resident(s)** and choose how the amount is split.
 |---|---|
 | **Resident(s)** | Who this line is charged to. Left empty, the line goes to the **Resident** named at the top of the recharge |
 | **Split method** | **Equal**: each resident is charged the full amount — the doctor co-payment case, where the line already states one resident's share. **Spread**: the amount is divided between them — a 100 € outing for five residents |
-| **Fee (%)** | Optional surcharge, 0 by default. A home that passes costs on at actual cost leaves it alone |
+| **Fee (%)** | Optional surcharge, 0 by default. A **Management fee (%)** at the top of the recharge applies to every line. A home that passes costs on at actual cost leaves it alone |
 | **Per resident**, **Split**, **Total** | What each resident actually pays. When they do not all pay the same, the **Split** column spells the division out |
-| **Skipped** | The residents a flat-rate agreement takes out |
+| **Skipped (flat rate)** | The residents a flat-rate agreement takes out |
 
-The **Assign residents** button opens a picker where several residents are
+The **Assign residents** button (also the people icon on each line) opens a picker where several residents are
 ticked at once and applied to one line, to the lines you selected, or to the
 whole recharge — the answer to a thirty-line statement.
 
-Use **Duplicate this line** when one bill line covers several residents with
-different amounts.
+Use **Duplicate this line** (the copy icon) when one bill line covers several
+residents with different amounts. The **Total charged** at the bottom adds up
+the whole recharge.
 
 :::{admonition} Rounding never loses a cent
 :class: note
@@ -168,8 +170,10 @@ charged a second time. The recharge says so in a banner.
 ## Settings — "Other supplement"
 
 Lines that name no supplement product stop the validation. A home that prefers
-them to go through anyway designates a fallback product in the **Settings**, in the **Supplements** section, under **Other supplement**: those lines are charged
-under it, and a note in the discussion thread lists them.
+them to go through anyway designates a fallback product in the
+[billing settings](../configuration/reglages-facturation.md), **Optional
+features** block, under **Other supplement**: those lines are charged under it,
+and a note in the discussion thread lists them.
 
 Left empty — the default — the recharge stops and names the lines to fix, which
 is the safer behaviour for a home that has not decided.
@@ -190,5 +194,6 @@ is the safer behaviour for a home that has not decided.
 
 - [Supplements](supplements.md)
 - [The Supplements app](application-supplements.md)
+- [Billing settings](../configuration/reglages-facturation.md)
 - [Billing a month, step by step](facturer-un-mois.md)
 - [Billing overview](index.md)

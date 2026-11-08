@@ -71,18 +71,6 @@ msgstr ""
 msgid "How do I fill in the identity from the eID card?"
 msgstr "Hoe vul ik de identiteit in vanaf de eID-kaart?"
 
-#: ../../content/belgique/dossier-resident.md:19
-msgid ""
-"With a card reader connected to the workstation, read the card from the "
-"resident's record to update it, or use the New Partner via eID menu entry: "
-"Resthome looks the person up by NISS and creates the record if it does not "
-"exist yet."
-msgstr ""
-"Lees, met een kaartlezer aangesloten op het werkstation, de kaart vanuit de "
-"fiche van de bewoner om die bij te werken, of gebruik het menu-item Nieuwe "
-"bewoner via eID: Resthome zoekt de persoon op via het INSZ en maakt de fiche"
-" aan als ze nog niet bestaat."
-
 #: ../../content/belgique/dossier-resident.md:21
 msgid "What does Resthome do automatically when a stay starts?"
 msgstr "Wat doet Resthome automatisch bij de start van een verblijf?"
@@ -111,16 +99,6 @@ msgstr ""
 #: ../../content/belgique/dossier-resident.md:27
 msgid "What happens if the resident has no validated Katz assessment?"
 msgstr "Wat gebeurt er als de bewoner geen gevalideerde Katz-evaluatie heeft?"
-
-#: ../../content/belgique/dossier-resident.md:28
-msgid ""
-"The resident stays in category O by default and a \"Katz to do\" reminder "
-"appears on the dashboard, since the Katz category is what is declared to the"
-" mutualité for the INAMI allowance."
-msgstr ""
-"De bewoner blijft standaard in categorie O en er verschijnt een herinnering "
-"« Katz te doen » op het dashboard, want het is de Katz-categorie die aan het"
-" ziekenfonds wordt gemeld voor het RIZIV-forfait."
 
 #: ../../content/belgique/dossier-resident.md:31
 msgid ""
@@ -201,39 +179,11 @@ msgstr ""
 msgid "Reading the eID card"
 msgstr "De eID-kaart lezen"
 
-#: ../../content/belgique/dossier-resident.md:62
-msgid ""
-"Rather than typing the identity in, you can **read the resident's eID "
-"card**. Resthome fills in the name, the date of birth, the gender and the "
-"**NISS** from the card itself — no typo, no transposed digit."
-msgstr ""
-"In plaats van de identiteit in te typen, kunt u **de eID-kaart van de "
-"bewoner lezen**. Resthome vult de naam, de geboortedatum, het geslacht en "
-"het **INSZ** in vanaf de kaart zelf — zonder typfout of omgewisseld cijfer."
-
-#: ../../content/belgique/dossier-resident.md:66
-msgid ""
-"From an **existing record**, the eID reading **updates** that resident."
-msgstr ""
-"Vanuit een **bestaande fiche** **actualiseert** het eID-lezen die bewoner."
-
-#: ../../content/belgique/dossier-resident.md:67
-msgid ""
-"From the **New Partner via eID** menu entry, Resthome looks the person up by"
-" NISS and **creates** the record if it does not exist yet."
-msgstr ""
-"Via het menu-item **Nieuwe bewoner via eID** zoekt Resthome de persoon op "
-"via het INSZ en **maakt** de fiche aan als ze nog niet bestaat."
-
-#: ../../content/belgique/dossier-resident.md:70
-msgid "A card reader must be connected to the workstation."
-msgstr "Er moet een kaartlezer op het werkstation zijn aangesloten."
-
-#: ../../content/belgique/dossier-resident.md:72
+#: ../../content/belgique/dossier-resident.md:68
 msgid "The mutualité (OA)"
 msgstr "Het ziekenfonds (VI)"
 
-#: ../../content/belgique/dossier-resident.md:74
+#: ../../content/belgique/dossier-resident.md:70
 msgid ""
 "The **Health Insurance** field points at the resident's **mutualité** — the "
 "federation, not one of its local contacts. Around it, the record keeps:"
@@ -300,11 +250,11 @@ msgstr ""
 "(Europese instelling), **Fedasil** (asielzoeker), **Buitenland / "
 "grensoverschrijdend**, **Privéverzekering / revalidatie**."
 
-#: ../../content/belgique/dossier-resident.md:85
+#: ../../content/belgique/dossier-resident.md:81
 msgid "Special insurance regimes"
 msgstr "Bijzondere verzekeringsregimes"
 
-#: ../../content/belgique/dossier-resident.md:88
+#: ../../content/belgique/dossier-resident.md:84
 msgid ""
 "A resident under a non-standard **Insurance Regime** is left out of the MDA "
 "batches, and MDA never overwrites their **Health Insurance**: MyCareNet "
@@ -316,19 +266,19 @@ msgstr ""
 "MyCareNet zou anders een standaard Belgisch ziekenfonds teruggeven voor een "
 "bewoner die in werkelijkheid gedekt is door INIG, CEE of Fedasil."
 
-#: ../../content/belgique/dossier-resident.md:94
+#: ../../content/belgique/dossier-resident.md:90
 msgid "Checking insurability (MDA)"
 msgstr "De verzekerbaarheid controleren (MDA)"
 
-#: ../../content/belgique/dossier-resident.md:96
+#: ../../content/belgique/dossier-resident.md:92
 msgid "Before billing, check that the resident is properly insured:"
 msgstr "Controleer vóór het factureren of de bewoner wel verzekerd is:"
 
-#: ../../content/belgique/dossier-resident.md:98
+#: ../../content/belgique/dossier-resident.md:94
 msgid "Open the resident record, or the month's billing period."
 msgstr "Open de fiche van de bewoner, of de factureringsperiode van de maand."
 
-#: ../../content/belgique/dossier-resident.md:99
+#: ../../content/belgique/dossier-resident.md:95
 msgid ""
 "Run the MDA check (MyCareNet/WalCareNet insurability): **Verify "
 "Insurability** in the header of the record — shown once the NISS is filled "
@@ -339,7 +289,7 @@ msgstr ""
 "zodra het INSZ is ingevuld — of **Controleer MDA** op de periode, voor alle "
 "bewoners tegelijk."
 
-#: ../../content/belgique/dossier-resident.md:102
+#: ../../content/belgique/dossier-resident.md:98
 msgid ""
 "Resthome automatically updates the **Health Insurance** and the **BIM "
 "Status** where applicable."
@@ -347,14 +297,14 @@ msgstr ""
 "Resthome werkt de **Ziektekostenverzekering** en de **BIM-status** indien "
 "nodig automatisch bij."
 
-#: ../../content/belgique/dossier-resident.md:105
+#: ../../content/belgique/dossier-resident.md:101
 msgid ""
 "The **MDA History** button on the record lists the resident's past requests."
 msgstr ""
 "De knop **MDA-historiek** op de fiche toont de eerdere aanvragen van de "
 "bewoner."
 
-#: ../../content/belgique/dossier-resident.md:107
+#: ../../content/belgique/dossier-resident.md:108
 msgid ""
 "See [Insurability (MDA)](ehealth/mda.md). When a **CPAS** pays for the "
 "resident, the invoice can be addressed to it — see [CPAS coverage](cpas.md)."
@@ -363,11 +313,11 @@ msgstr ""
 "bewoner betaalt, kan de factuur aan het OCMW worden gericht — zie [De OCMW-"
 "tussenkomst](cpas.md)."
 
-#: ../../content/belgique/dossier-resident.md:110
+#: ../../content/belgique/dossier-resident.md:111
 msgid "The sectors: MR, MRS and short stay"
 msgstr "De sectoren: ROB, RVT en kortverblijf"
 
-#: ../../content/belgique/dossier-resident.md:112
+#: ../../content/belgique/dossier-resident.md:113
 msgid ""
 "The **Stay Type** of a Belgian stay is the sector the home is accredited "
 "for:"
@@ -375,11 +325,11 @@ msgstr ""
 "Het **Verblijfstype** van een Belgisch verblijf is de sector waarvoor het "
 "huis erkend is:"
 
-#: ../../content/belgique/dossier-resident.md:114
+#: ../../content/belgique/dossier-resident.md:115
 msgid "**MR** — maison de repos;"
 msgstr "**ROB** — rustoord voor bejaarden;"
 
-#: ../../content/belgique/dossier-resident.md:115
+#: ../../content/belgique/dossier-resident.md:116
 msgid ""
 "**MRS** — maison de repos et de soins, which only takes Katz categories **B "
 "and above**;"
@@ -387,7 +337,7 @@ msgstr ""
 "**RVT** — rust- en verzorgingstehuis, dat alleen Katz-categorieën **B en "
 "hoger** opneemt;"
 
-#: ../../content/belgique/dossier-resident.md:117
+#: ../../content/belgique/dossier-resident.md:118
 msgid ""
 "the day care centre (CSJ), when the home runs one — see [Day care centre "
 "(CSJ)](centre-de-jour/index.md)."
@@ -395,7 +345,7 @@ msgstr ""
 "het dagverzorgingscentrum (CSJ), als het huis er een uitbaat — zie "
 "[Dagverzorgingscentrum (CSJ)](centre-de-jour/index.md)."
 
-#: ../../content/belgique/dossier-resident.md:120
+#: ../../content/belgique/dossier-resident.md:121
 msgid ""
 "A **short stay** (court séjour, 90 days at most) is not a sector: it is a "
 "modality of an **MR** bed, carried by the **Short stay** box. At admission, "
@@ -412,11 +362,11 @@ msgstr ""
 " het vakje « Kort Verblijf JA » op Bijlage 7. Resthome weigert de markering "
 "op elke andere sector."
 
-#: ../../content/belgique/dossier-resident.md:127
+#: ../../content/belgique/dossier-resident.md:128
 msgid "MRS and the Katz category"
 msgstr "RVT en de Katz-categorie"
 
-#: ../../content/belgique/dossier-resident.md:130
+#: ../../content/belgique/dossier-resident.md:131
 msgid ""
 "Resthome refuses to **put or keep a stay in MRS** for a resident assessed at"
 " O or A — at admission and at transfer time. A room change is not blocked; "
@@ -429,34 +379,11 @@ msgstr ""
 "signaleren de bewoner tot de overplaatsing is ingevoerd — zie [De Katz-"
 "evaluatie](katz.md)."
 
-#: ../../content/belgique/dossier-resident.md:136
+#: ../../content/belgique/dossier-resident.md:137
 msgid "The Katz category on the record"
 msgstr "De Katz-categorie op de fiche"
 
-#: ../../content/belgique/dossier-resident.md:138
-msgid ""
-"The resident's record shows the **Katz category** (O, A, B, C, Cd) as a "
-"badge, next to the stay type. It is the category declared to the mutualité "
-"for the INAMI dependency allowance."
-msgstr ""
-"De fiche van de bewoner toont de **Katz-categorie** (O, A, B, C, Cd) als "
-"badge, naast het verblijfstype. Het is de categorie die aan het ziekenfonds "
-"wordt gemeld voor het RIZIV-afhankelijkheidsforfait."
-
-#: ../../content/belgique/dossier-resident.md:142
-msgid ""
-"As long as no validated Katz exists, the resident is in category **O** by "
-"default, and a \"Katz to do\" reminder appears on the dashboard. Scoring, "
-"renewal and worsening are described in [The Katz assessment](katz.md); the "
-"allowance itself in [The INAMI dependency allowance](forfait-inami.md)."
-msgstr ""
-"Zolang er geen gevalideerde Katz bestaat, staat de bewoner standaard in "
-"categorie **O** en verschijnt er een herinnering « Katz te doen » op het "
-"dashboard. De scoring, de hernieuwing en de verergering worden beschreven in"
-" [De Katz-evaluatie](katz.md); het forfait zelf in [Het RIZIV-forfait "
-"(afhankelijkheid)](forfait-inami.md)."
-
-#: ../../content/belgique/dossier-resident.md:147
+#: ../../content/belgique/dossier-resident.md:160
 msgid ""
 "Validated assessments — Katz and the geriatric scales alike — cannot be "
 "deleted: health data must be retained under the GDPR and the INAMI rules."
@@ -465,11 +392,11 @@ msgstr ""
 " niet worden verwijderd: gezondheidsgegevens moeten bewaard blijven "
 "krachtens de GDPR en de RIZIV-regels."
 
-#: ../../content/belgique/dossier-resident.md:150
+#: ../../content/belgique/dossier-resident.md:163
 msgid "Annexes at admission and transfer"
 msgstr "De bijlagen bij opname en overplaatsing"
 
-#: ../../content/belgique/dossier-resident.md:152
+#: ../../content/belgique/dossier-resident.md:165
 msgid ""
 "The stay has two dates. The **stay start date** starts the accommodation "
 "billing; the **Admission Date** is the start of the **INAMI intervention** —"
@@ -480,27 +407,27 @@ msgstr ""
 "tegemoetkoming** — de « datum van opname » op Bijlage 7, vanaf wanneer het "
 "forfait wordt betaald."
 
-#: ../../content/belgique/dossier-resident.md:127
+#: ../../content/belgique/dossier-resident.md:128
 msgid "Event"
 msgstr "Gebeurtenis"
 
-#: ../../content/belgique/dossier-resident.md:127
+#: ../../content/belgique/dossier-resident.md:128
 msgid "What Resthome prepares for the mutualité"
 msgstr "Wat Resthome voorbereidt voor het ziekenfonds"
 
-#: ../../content/belgique/dossier-resident.md:127
+#: ../../content/belgique/dossier-resident.md:128
 msgid "**Start of the stay**"
 msgstr "**Begin van het verblijf**"
 
-#: ../../content/belgique/dossier-resident.md:127
+#: ../../content/belgique/dossier-resident.md:128
 msgid "The **admission eAgreement** (Annexe 7), when the NISS is present."
 msgstr "Het **opname-eAgreement** (Bijlage 7), als het INSZ aanwezig is."
 
-#: ../../content/belgique/dossier-resident.md:127
+#: ../../content/belgique/dossier-resident.md:128
 msgid "**Room change**"
 msgstr "**Kamerwissel**"
 
-#: ../../content/belgique/dossier-resident.md:127
+#: ../../content/belgique/dossier-resident.md:128
 msgid ""
 "Nothing: the INAMI intervention stays continuous, the Admission Date is "
 "unchanged, no new agreement is requested."
@@ -508,11 +435,11 @@ msgstr ""
 "Niets: de RIZIV-tegemoetkoming loopt door, de Opnamedatum blijft "
 "ongewijzigd, er wordt geen nieuw akkoord aangevraagd."
 
-#: ../../content/belgique/dossier-resident.md:127
+#: ../../content/belgique/dossier-resident.md:128
 msgid "**Internal transfer (MR ↔ MRS)**"
 msgstr "**Interne overplaatsing (ROB ↔ RVT)**"
 
-#: ../../content/belgique/dossier-resident.md:127
+#: ../../content/belgique/dossier-resident.md:128
 msgid ""
 "An end-of-stay notice (**Annexe 11**) then a new request (**Annexe 7**); the"
 " Admission Date moves to the transfer date."
@@ -521,21 +448,21 @@ msgstr ""
 "aanvraag (**Bijlage 7**); de Opnamedatum verschuift naar de datum van de "
 "overplaatsing."
 
-#: ../../content/belgique/dossier-resident.md:127
+#: ../../content/belgique/dossier-resident.md:128
 msgid "**Worsening of dependency**"
 msgstr "**Verergering van de afhankelijkheid**"
 
-#: ../../content/belgique/dossier-resident.md:127
+#: ../../content/belgique/dossier-resident.md:128
 msgid "The agreement update (**Annexe 10**), with the new Katz assessment."
 msgstr ""
 "De bijwerking van het zorgakkoord (**Bijlage 10**), met de nieuwe Katz-"
 "evaluatie."
 
-#: ../../content/belgique/dossier-resident.md:127
+#: ../../content/belgique/dossier-resident.md:128
 msgid "**Absence / hospitalization**"
 msgstr "**Afwezigheid / ziekenhuisopname**"
 
-#: ../../content/belgique/dossier-resident.md:127
+#: ../../content/belgique/dossier-resident.md:128
 msgid ""
 "The forfait is adjusted, and an eHealth notification (**Annexe 11**) can be "
 "generated."
@@ -543,7 +470,7 @@ msgstr ""
 "Het forfait wordt aangepast, en er kan een eHealth-melding (**Bijlage 11**) "
 "worden gegenereerd."
 
-#: ../../content/belgique/dossier-resident.md:164
+#: ../../content/belgique/dossier-resident.md:177
 msgid ""
 "The **Stay Type** is read-only once the stay is confirmed: a bare edit would"
 " produce no document for the mutualité. The **Internal Transfer** button is "
@@ -555,40 +482,146 @@ msgstr ""
 "knop **Interne overdracht** is de enige manier om van sector te veranderen —"
 " zie [Interne overplaatsing (ROB ↔ RVT)](ehealth/eagreement-transfert.md)."
 
-#: ../../content/belgique/dossier-resident.md:168
+#: ../../content/belgique/dossier-resident.md:181
 msgid "What's next"
 msgstr "Hoe verder"
 
-#: ../../content/belgique/dossier-resident.md:170
+#: ../../content/belgique/dossier-resident.md:183
 msgid "[The Katz assessment](katz.md) — scoring, category and renewal."
 msgstr "[De Katz-evaluatie](katz.md) — scoring, categorie en hernieuwing."
 
-#: ../../content/belgique/dossier-resident.md:171
+#: ../../content/belgique/dossier-resident.md:184
 msgid "[Insurability (MDA)](ehealth/mda.md)"
 msgstr "[Verzekerbaarheid (MDA)](ehealth/mda.md)"
 
-#: ../../content/belgique/dossier-resident.md:172
+#: ../../content/belgique/dossier-resident.md:185
 msgid "[Agreements (eAgreement)](ehealth/eagreement.md)"
 msgstr "[Akkoorden (eAgreement)](ehealth/eagreement.md)"
 
-#: ../../content/belgique/dossier-resident.md:173
+#: ../../content/belgique/dossier-resident.md:186
 msgid "[Internal transfer (MR ↔ MRS)](ehealth/eagreement-transfert.md)"
 msgstr "[Interne overplaatsing (ROB ↔ RVT)](ehealth/eagreement-transfert.md)"
 
-#: ../../content/belgique/dossier-resident.md:174
+#: ../../content/belgique/dossier-resident.md:187
 msgid "[The INAMI dependency allowance](forfait-inami.md)"
 msgstr "[Het RIZIV-forfait (afhankelijkheid)](forfait-inami.md)"
 
-#: ../../content/belgique/dossier-resident.md:175
+#: ../../content/belgique/dossier-resident.md:189
 msgid "[The billing journey](parcours-facturation.md)"
 msgstr "[Het facturatietraject](parcours-facturation.md)"
 
-#: ../../content/belgique/dossier-resident.md:176
+#: ../../content/belgique/dossier-resident.md:190
 msgid "[Manage a resident](../residents/gerer-un-resident.md)"
 msgstr "[Een bewoner beheren](../residents/gerer-un-resident.md)"
 
-#~ msgid "Open the month's billing period, or the resident record."
-#~ msgstr "Open de facturatieperiode van de maand, of de fiche van de bewoner."
+#: ../../content/belgique/dossier-resident.md:19
+msgid ""
+"With a card reader and the eID reader program on the workstation, click "
+"**Read eID Card** on the admission request or on the record: Resthome fills "
+"in the identity and the NISS from the chip. See [Reading the eID "
+"card](lecture-eid.md)."
+msgstr ""
+"Klik, met een kaartlezer en het eID-leesprogramma op de werkpost, op **eID-"
+"kaart lezen** op de opnameaanvraag of op de fiche: Resthome vult de "
+"identiteit en het INSZ in vanaf de chip. Zie [De eID-kaart lezen](lecture-"
+"eid.md)."
 
-#~ msgid "Run an **MDA check** (MyCareNet/WalCareNet insurability)."
-#~ msgstr "Start een **MDA-controle** (verzekerbaarheid MyCareNet/WalCareNet)."
+#: ../../content/belgique/dossier-resident.md:28
+msgid ""
+"They have no Katz category: no INAMI allowance is billed for them, and the "
+"billing period shows **No Katz** on their row until a Katz is validated and "
+"the period regenerated."
+msgstr ""
+"Hij heeft geen Katz-categorie: er wordt geen RIZIV-forfait voor hem "
+"gefactureerd, en de facturatieperiode toont **Geen Katz** op zijn regel "
+"zolang er geen Katz gevalideerd en de periode opnieuw gegenereerd is."
+
+#: ../../content/belgique/dossier-resident.md:62
+msgid ""
+"Rather than typing the identity in, you can **read the resident's eID "
+"card**: **Read eID Card** fills in the name, the date of birth, the gender, "
+"the nationality, the place of birth and the **NISS** from the chip itself — "
+"no typo, no transposed digit. The card number and its validity dates go to "
+"the **eID Card** tab. See [Reading the eID card](lecture-eid.md)."
+msgstr ""
+"In plaats van de identiteit in te typen, kunt u **de eID-kaart van de "
+"bewoner lezen**: **eID-kaart lezen** vult de naam, de geboortedatum, het "
+"geslacht, de nationaliteit, de geboorteplaats en het **INSZ** in vanaf de "
+"chip zelf — zonder typfout of omgewisseld cijfer. Het kaartnummer en de "
+"geldigheidsdata komen in het tabblad **eID-kaart**. Zie [De eID-kaart "
+"lezen](lecture-eid.md)."
+
+#: ../../content/belgique/dossier-resident.md:103
+msgid ""
+"When the mutuality reports a **palliative status**, Resthome ticks "
+"**Palliative Care** in the resident's **Wishes** tab, with its start date, "
+"and leaves a note in the thread. It only ever ticks the box: a status the "
+"mutuality no longer reports does not untick it, and a date typed by the team"
+" is kept."
+msgstr ""
+"Wanneer het ziekenfonds een **palliatief statuut** meldt, vinkt Resthome "
+"**Palliatieve zorg** aan in het tabblad **Wensen** van de bewoner, met de "
+"begindatum, en laat het een notitie achter in de chatter. Het vinkt het "
+"vakje alleen aan: een statuut dat het ziekenfonds niet meer meldt, vinkt het"
+" niet uit, en een datum die het team heeft ingevoerd, blijft behouden."
+
+#: ../../content/belgique/dossier-resident.md:139
+msgid ""
+"The resident's record shows the **Katz category** (O, A, B, C, Cd, D) as a "
+"badge, next to the stay type. It is the category declared to the mutualité "
+"for the INAMI dependency allowance."
+msgstr ""
+"De fiche van de bewoner toont de **Katz-categorie** (O, A, B, C, Cd, D) als "
+"badge, naast het verblijfstype. Het is de categorie die aan het ziekenfonds "
+"wordt gemeld voor het RIZIV-afhankelijkheidsforfait."
+
+#: ../../content/belgique/dossier-resident.md:143
+msgid ""
+"A resident without a validated Katz has **no category**: no INAMI allowance "
+"is billed for them until a Katz is validated. Scoring, renewal and worsening"
+" are described in [The Katz assessment](katz.md); the allowance itself in "
+"[The INAMI dependency allowance](forfait-inami.md)."
+msgstr ""
+"Een bewoner zonder gevalideerde Katz heeft **geen categorie**: er wordt geen"
+" RIZIV-forfait voor hem gefactureerd zolang er geen Katz gevalideerd is. De "
+"score, de hernieuwing en de verergering worden beschreven in [De Katz-"
+"evaluatie](katz.md); het forfait zelf in [Het RIZIV-forfait "
+"(afhankelijkheid)](forfait-inami.md)."
+
+#: ../../content/belgique/dossier-resident.md:148
+msgid "Other Belgian buttons on the record"
+msgstr "Andere Belgische knoppen op de fiche"
+
+#: ../../content/belgique/dossier-resident.md:150
+msgid "Depending on the modules installed, the record also carries:"
+msgstr "Afhankelijk van de geïnstalleerde modules bevat de fiche ook:"
+
+#: ../../content/belgique/dossier-resident.md:152
+msgid ""
+"**Find in the Health Directory**, under the attending physician: looks the "
+"doctor up in the eHealth directory — see [Health Directory and "
+"CoBRHA](ehealth/annuaire-sante.md);"
+msgstr ""
+"**Zoeken in de Zorggids**, onder de behandelende arts: zoekt de arts op in "
+"de eHealth-gids — zie [Zorggids en CoBRHA](ehealth/annuaire-sante.md);"
+
+#: ../../content/belgique/dossier-resident.md:155
+msgid ""
+"the **Consent** smart button: the resident's consent to share health data — "
+"see [eHealth consent](ehealth/consentement.md);"
+msgstr ""
+"de slimme knop **Toestemming**: de toestemming van de bewoner om "
+"gezondheidsgegevens te delen — zie [De eHealth-"
+"toestemming](ehealth/consentement.md);"
+
+#: ../../content/belgique/dossier-resident.md:157
+msgid ""
+"the **MediPrima** smart button: the medical card a CPAS granted — see [CPAS "
+"coverage](cpas.md)."
+msgstr ""
+"de slimme knop **MediPrima**: de medische kaart die een OCMW heeft toegekend"
+" — zie [De OCMW-tussenkomst](cpas.md)."
+
+#: ../../content/belgique/dossier-resident.md:188
+msgid "[Reading the eID card](lecture-eid.md)"
+msgstr "[De eID-kaart lezen](lecture-eid.md)"

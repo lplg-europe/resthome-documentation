@@ -32,6 +32,12 @@ Is the INAMI allowance split between the debtors?
 
 Can a CPAS be one of the debtors?
 : Yes. A CPAS that pays part of the resident's share is added as a debtor in split billing, with its percentage; a CPAS that pays everything is set as the resident's billing contact.
+
+Is there a deadline to send the eFact?
+: No longer: the former "20th of the following month" sending deadline was abolished. What still runs is the insurer's payment deadline, which opens the right to late-payment interest — see [Payment tracking](ehealth/efact-paiements.md).
+
+What happens to a resident without a validated Katz?
+: Their accommodation is billed, but no INAMI allowance: the period shows **No Katz** on their row and its thread names them. Validate their Katz, then regenerate the period.
 :::
 
 The monthly billing described in [Billing](../facturation/index.md) is the same
@@ -84,6 +90,8 @@ steps:
    checked, for instance by a batch MDA run at the start of the month. The
    allowance is computed on the days of presence over the **INAMI intervention
    period**, with the billed Katz category. The period becomes **Generated**.
+   A resident without a validated Katz gets no allowance: their row shows **No
+   Katz**, and the thread asks you to validate their Katz and regenerate.
 3. **Check insurability** — click **Check MDA**: one request per resident of the
    period, sent as a batch. The step is done as soon as every resident billed to
    a mutuality has a request — the responses may come later. Fix the flagged
@@ -92,7 +100,9 @@ steps:
 4. **Generate eFact** — in the **Generate eFact Batches** window, click
    **Generate Batches**: Resthome builds the eFact **batches** from the
    period's mutuality lines, grouped **by union** of mutualities. A resident
-   with no Katz assessment blocks this step.
+   with no Katz assessment blocks this step. Residents left out of the eFact —
+   no NISS, no mutuality, no billable day — are named with the reason and the
+   amount, so nobody disappears silently.
 5. **Create Invoices** — the resident's share becomes **draft** invoices; check
    them, then **Confirm** them. The period becomes **Invoiced**.
 6. **Send** — open **eHealth → eFact → Cockpit** (or the batches) and click
@@ -149,9 +159,9 @@ removes that whole class of problems before the eFact leaves.
 ### Katz assessments
 
 The billed Katz category is the profile declared to the mutuality with the
-allowance. A missing or expired assessment leaves the resident in category
-**O** by default, and the billing no longer matches the agreement. The **Katz
-to do** counter lists them.
+allowance. A resident without a validated assessment gets **no allowance** at
+all, and an expired one no longer matches the agreement. The period's **Katz à
+faire** counter lists them; the billing dashboard counts the **Katz to assess**.
 
 → [The Katz assessment](katz.md) · [The INAMI dependency allowance](forfait-inami.md)
 
@@ -170,16 +180,18 @@ awaiting insurer, to correct, to reconcile, overdue payments.
 
 → [eFact rejections](ehealth/efact-rejets.md) · [Settlements and payments](ehealth/efact-paiements.md)
 
-### The deadline
+### When to send
 
-eFact batches must reach the insurer by the **20th of the following month**.
-Working backwards, the MDA and the corrections should be done in the **first
-week** — which leaves room to handle a rejection without missing the deadline.
+The former sending deadline — the 20th of the following month — was
+**abolished**: a batch is no longer refused for being late. Send as soon as the
+month is billed all the same: the insurer's **payment** deadline, and the
+late-payment interest it opens, run from the day the batch is sent. See
+[Payment tracking and settlement reconciliation](ehealth/efact-paiements.md).
 
 | Step | Done when |
 |---|---|
 | **MDA** | every resident is at **Success** |
-| **Katz** | no **Katz to do** left |
+| **Katz** | the **Katz à faire** counter is empty |
 | **eFact** | the batches are sent |
 | **Follow up** | the **eFact Cockpit** stacks are empty |
 
@@ -221,14 +233,32 @@ reflects the actual days of presence.
 
 ## Supplements declared to the mutuality
 
-In the supplements catalog (**Configuration → Catalog**), the **AViQ code**
-field holds the **declaration pseudo-code** of a supplement, when it is
-declared to the insurance body.
+In the supplements catalogue (**Supplements → Configuration → Catalogue**), the
+**Pseudo-code** field holds the **declaration pseudo-code** of a supplement,
+when it is declared to the insurance body.
 
 Depending on its **category**, a supplement is either **declared** to the
 insurance body in the eFact (**ET50** record), or billed **only on the
-resident's invoice**. This setting is made on the product category — see
-[Billing settings](../configuration/reglages-facturation.md).
+resident's invoice**. The product category carries the choice in **Declared to
+the OA (ET50)** — see [Billing settings](../configuration/reglages-facturation.md).
+
+## The billing dashboard in Belgium
+
+The **Billing → Dashboard** gains two Belgian cards:
+
+- **Rest home** — what to prepare before billing: **MDA to request** (residents
+  with a mutuality and nothing asked this month), **Katz to assess** (no
+  assessment, or reassessment due), **Agreement requests to send** (drafts not
+  sent to the mutuality) and **Admission not agreed by the OA** (not sent,
+  awaiting the mutuality, refused, or no request). It also opens the
+  [occupancy board](occupation-mr-mrs.md), the MDA requests and batches and the
+  eAgreement requests.
+- **Insurer billing (eFact)** — the eFact stacks: **To send**, **Awaiting OA**,
+  **To correct**, **To reconcile**, **OA payments overdue**, the **Services on
+  hold**, the **Checks to fix** before sending, the **Settlements received**
+  and what is already **On the bank account**, with the **eFact cockpit**.
+
+Each figure opens the records behind it.
 
 ## The CPAS in split billing
 
@@ -253,5 +283,8 @@ Recording the decision and routing the invoice are detailed in
 - [Agreements (eAgreement)](ehealth/eagreement.md) — admission, absence, return, departure.
 - [The expense note (Annexe 12)](note-de-frais-annexe12.md) — individual and summary notes.
 - [CPAS coverage](cpas.md) — when a CPAS pays for the resident.
+- [Occupancy MR / CS / MRS](occupation-mr-mrs.md) — the beds against the approvals.
 - [The billing journey](parcours-facturation.md) — from admission to payment.
 - [Billing](../facturation/index.md) — the common billing, valid in every country.
+- [The billing dashboard](../facturation/tableau-de-bord.md) — the months to bill, the corrections pending and the Belgian counters.
+- [Invoice type: in advance or in arrears](../facturation/type-de-facture.md) — including the type of a single month (yellow row, **Apply the Invoice Type**).

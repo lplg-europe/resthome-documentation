@@ -13,16 +13,16 @@ Who is the responsible practitioner on an eAgreement request?
 : It is the clinician who carried out the Katz assessment (the assessor), not the person who sends the request — a medical secretary can perfectly well submit it. Resthome records their personal NIHII on the request. If they have no NIHII, the request borrows the identity of the head nurse, then of the coordinating physician configured in the eHealth settings.
 
 Where do I enter a caregiver's NIHII and signature?
-: On their employee record (Employees app, Nursing Home tab). The NIHII, role and signature image live on the employee — not on a user account — so that caregivers who sign occasionally do not consume a user license.
+: On their employee record (Employees app, Nursing Home tab). The NIHII, role and **Personal signature** live on the employee — not on a user account — so that caregivers who sign occasionally do not consume a user license.
 
 How do I sign an Annexe 10, 7 or 11 without printing or scanning?
-: Upload a signature image on the employee record, then, on the eAgreement request in Draft, click Sign Annexe 10 (or Sign Annexe 7 / Sign Annexe 11). Resthome places your signature on the PDF and marks it signed. If no image is configured, the old print / sign / scan route remains possible.
+: Upload a **Personal signature** on the employee record (or save it from the Katz signing window), then, on the eAgreement request in Draft, click Sign Annexe 10 (or Sign Annexe 7 / Sign Annexe 11). Resthome places your signature on the PDF and marks it signed. If no image is configured, the old print / sign / scan route remains possible.
 
 Who is allowed to sign an Annexe 10 (signature rules)?
 : By default, a physician OR a nurse. A physician's signature becomes mandatory for a Katz category D (or Cd) and for a quick revision (a new assessment less than 6 months after the previous one). Annexes 7 and 11 are signed by the institution's manager, with no medical rule.
 
 Can I sign on behalf of a colleague?
-: No, unless you have eHealth manager rights. Everyone signs with their own signature image; signing on behalf of another clinician, whose name and role appear on a legal annex, requires eHealth manager rights. The actual author remains tracked in the log.
+: No, unless you have eHealth manager rights. Everyone signs with their own personal signature; signing on behalf of another clinician, whose name and role appear on a legal annex, requires eHealth manager rights. The actual author remains tracked in the log.
 
 What happens for a foreign physician without a Belgian NIHII?
 : Tick "Foreign physician (no Belgian NIHII)" on their employee record (visible only for a physician). Resthome then uses the generic number provided by the eHealth specification for foreign practitioners, accepted by the insurance bodies.
@@ -64,9 +64,9 @@ chain, so that a consistent identity is always transmitted to the health insurer
 | Order | Resthome uses… | When |
 |---|---|---|
 | 1 | **The Katz assessor**, if they have a personal NIHII | Normal case |
-| 2 | The configured **head nurse** (their NIHII) | The assessor (nurse, care assistant) has no NIHII |
-| 3 | The configured **coordinating physician** (their NIHII) | Neither the assessor nor the head nurse has a NIHII |
-| 4 | A **generic AViQ nurse number** | Last resort, no NIHII available |
+| 2 | The configured **Head Nurse** (their NIHII) | The assessor (nurse, care assistant) has no NIHII |
+| 3 | The configured **Coordinating Physician** (their NIHII) | Neither the assessor nor the head nurse has a NIHII |
+| 4 | The **Generic nurse NIHII** of the federated entity | Last resort, no NIHII available |
 
 :::{admonition} Katz category D: a physician is mandatory
 :class: warning
@@ -81,16 +81,17 @@ configure a coordinating physician in the eHealth settings.
 :::{admonition} The generic number is a last resort
 :class: info
 
-If no one in the chain has a usable NIHII, Resthome falls back on the **generic
-AViQ nurse number**. This is a safety net: for a correct identity, enter the
+If no one in the chain has a usable NIHII, Resthome falls back on the **Generic
+nurse NIHII** set in the eHealth settings — the number the federated entity
+gives a nurse without their own. This is a safety net: for a correct identity, enter the
 caregiver's personal NIHII, or at least a fallback head nurse and coordinating
 physician.
 :::
 
 ## Where identities are stored (employee record)
 
-A caregiver's **NIHII**, **role** and **signature image** live on their **employee
-record**, not on a user account. This way, a caregiver who signs an Annexe 10 from
+A caregiver's **NIHII**, **role** and **Personal signature** live on their
+**employee record**, not on a user account. This way, a caregiver who signs an Annexe 10 from
 time to time **does not consume a user license**: they only need to exist as an
 employee.
 
@@ -99,13 +100,17 @@ employee.
 | Field | What it is for |
 |---|---|
 | **INAMI Number** (NIHII/INAMI number) | The caregiver's personal NIHII, used as the responsible practitioner on the eAgreement request. 11 digits. |
-| **Care role** | The job (nurse, head nurse, care assistant, physician…). It determines the eHealth role. |
+| **Role** | The job (nurse, head nurse, care assistant, physician…). It determines the eHealth role. |
 | **eHealth Role** | Derived automatically from the care role: *nurse* (nurse / head nurse / care assistant) or *physician* (physician). Read-only. |
 | **Foreign physician (no Belgian NIHII)** | Tick this for a cross-border physician without a Belgian NIHII. Visible only for a physician. |
-| **Signature image (Annexe 10)** | The signature scan (PNG/JPG, transparent background preferred), placed on the PDF when signing in the app. |
+| **Personal signature** | The signature scan (PNG/JPG, transparent background preferred), used wherever this person signs: the Katz scale (Annexe 10) and the eAgreement annexes. Shown for a nurse or a physician. |
 
 :::{admonition} A clean signature image
 :class: tip
+
+No scan at hand? Draw the signature once in the Katz signing window and tick
+**Save as my signature**: it is stored as your **Personal signature**, and
+**Use my saved signature** reuses it the next time.
 
 Prefer a **PNG image with a transparent background**, cropped to the strokes.
 Resthome places it in the annex's "Signature" box while **preserving its
@@ -114,13 +119,14 @@ proportions** — a well-cropped image gives a clean result.
 
 ## Configuring the fallback identities
 
-**Settings > Nursing Home > eAgreement Responsible Practitioner.** These two
-settings provide the fallback NIHII when the Katz assessor does not have their own.
+**Settings → eHealth → eAgreement Light.** These settings provide the fallback
+NIHII when the Katz assessor does not have their own.
 
 | Setting | What it is for |
 |---|---|
-| **Head Nurse (NIHII fallback)** | Their NIHII identifies the responsible practitioner when the assessor (nurse, care assistant) has no personal NIHII. |
-| **Coordinating Physician (NIHII fallback)** | Fallback when no nurse NIHII is available, and **mandatory** for a Katz category D. |
+| **Head Nurse** | Their NIHII identifies the responsible practitioner when the assessor (nurse, care assistant) has no personal NIHII. |
+| **Coordinating Physician** | Fallback when no nurse NIHII is available, and **mandatory** for a Katz category D. |
+| **Generic nurse NIHII** | The last resort, when nobody above has a NIHII: the number the federated entity gives a nurse without their own. |
 
 See also [eHealth and eFact settings](../reglages-ehealth.md).
 
@@ -145,7 +151,7 @@ the insurance bodies accept. You have no number to enter yourself.
 ## Signing an annex in the application
 
 Rather than **printing, signing by hand and then scanning**, Resthome places your
-**signature image** on the annex PDF and saves it — a route compliant with the
+**Personal signature** on the annex PDF and saves it — a route compliant with the
 **applicable signature rules**. The annexes concerned:
 
 - **Annexe 10** — the Katz scale (care agreement);
@@ -223,17 +229,17 @@ by a **physician OR a nurse**.
 
 ### Everyone signs with their own signature
 
-For safety, you can only sign **with your own** signature image. Signing **on
+For safety, you can only sign **with your own** personal signature. Signing **on
 behalf of another** clinician — whose name and role appear on a legal annex
 transmitted to the health insurer — requires **eHealth manager** rights. In all
 cases, the **actual author** of the action remains recorded in the audit log.
 
-### If no signature image is configured
+### If no signature is configured
 
-If the signer has **no** signature image on their employee record, the window
+If the signer has **no Personal signature** on their employee record, the window
 warns you and the **Sign & replace PDF** button is not offered. Two options:
 
-- **upload a signature image** on the employee record, then start again;
+- **upload a Personal signature** on the employee record, then start again;
 - **keep the manual route**: print the annex, have it signed, scan the signed
   document and re-upload it on the request (for Annexe 7 / 11, tick **Annex
   signed**).
@@ -245,11 +251,12 @@ warns you and the **Sign & replace PDF** button is not offered. Two options:
   coordinating physician → generic number.
 - A Katz **category D** requires a **physician**; configure a fallback
   **coordinating physician** in the eHealth settings.
-- The **NIHII**, **role** and **signature image** live on the **employee record**
+- The **NIHII**, **role** and **Personal signature** live on the **employee record**
   (*Nursing Home* tab) — no user license needed for caregivers who sign
   occasionally.
-- **Sign Annexe 10 / 7 / 11** places your signature image on the PDF: no more
-  printing / signing / scanning. Signing is a **prerequisite for sending**.
+- **Sign Annexe 10 / 7 / 11** places your personal signature on the PDF: no more
+  printing / signing / scanning. An unsigned annex can still be sent, after a
+  confirmation, but exposes you to a refusal.
 - **Signature rules**: physician OR nurse by default; **physician mandatory** in
   category D or a quick revision (< 6 months).
 - You sign **only with your own** signature, unless you have **eHealth manager**

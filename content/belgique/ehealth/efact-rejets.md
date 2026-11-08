@@ -105,7 +105,7 @@ point to the cause.
 | **Allowance declared beyond the end of the intervention** | Self-check: **"Over-declared OA allowance"**; the OA refuses the extra days | Issue a **credit note / remainder** for the over-declared days (see below). |
 | **Room freed / death — accommodation still invoiced** | Self-check: **over-invoicing**; refusal of the undue days | **Close the accommodation** on the correct date + **credit note**. |
 | **Unclosed absence** | The **Absences** counter is active; allowance days are distorted | Close the period's absences, then re-check. |
-| **Missing Katz category or expired evaluation** | The **"Katz to do"** counter; blocked at generation | Complete or renew the **Katz evaluation**, then **regenerate**. |
+| **Missing Katz category or expired evaluation** | The **Katz à faire** counter; the resident's row shows **No Katz** and gets no allowance | Complete or renew the **Katz evaluation**, then **regenerate**. |
 | **Missing or incorrect NISS** | Mandatory identification data → technical rejection | Correct the **NISS** on the resident's record, then regenerate. |
 | **Duplicate sending** | The OA reports an **already received sending** | Do not resend an **already accepted** batch. For a legitimate resend, rely on the **Resends** counter (anti-duplicate). |
 | **Amount / rate mismatch** | The OA returns an **unexpected amount/rate** | Check the applied **rate** and the line amount, correct the configuration, regenerate, resend. |

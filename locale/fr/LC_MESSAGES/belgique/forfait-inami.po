@@ -122,7 +122,7 @@ msgstr ""
 "l'eFact). L'hébergement (la chambre) est une ligne distincte, à charge de "
 "l'habitant."
 
-#: ../../content/belgique/forfait-inami.md:28
+#: ../../content/belgique/forfait-inami.md:31
 msgid ""
 "The **dependency allowance** is the **daily** amount covered by the health "
 "insurance fund for a resident's **care**. It depends on their **degree of "
@@ -135,7 +135,7 @@ msgstr ""
 "envoyé à l'organisme assureur (OA) via la **[facturation électronique "
 "(eFact)](ehealth/efact.md)**."
 
-#: ../../content/belgique/forfait-inami.md:33
+#: ../../content/belgique/forfait-inami.md:36
 msgid ""
 "This page explains the full chain: **Katz assessment → category → billed "
 "amount**."
@@ -143,23 +143,9 @@ msgstr ""
 "Cette page explique la chaîne complète : **évaluation Katz → catégorie → "
 "montant facturé**."
 
-#: ../../content/belgique/forfait-inami.md:35
+#: ../../content/belgique/forfait-inami.md:38
 msgid "From the Katz assessment to the category"
 msgstr "De l'évaluation Katz à la catégorie"
-
-#: ../../content/belgique/forfait-inami.md:37
-msgid ""
-"The [Katz assessment](katz.md) rates **6 criteria** (washing, dressing, "
-"transfer and mobility, going to the toilet, continence, eating) from **1** "
-"(independent) to **4** (fully dependent). From these ratings, Resthome "
-"computes a **dependency category**, which is **declared to the health "
-"insurance fund**:"
-msgstr ""
-"L’[évaluation Katz](katz.md) cote **6 critères** (se laver, s'habiller, "
-"transfert et déplacements, aller à la toilette, continence, manger) de **1**"
-" (autonome) à **4** (totalement dépendant). À partir de ces cotations, "
-"Resthome calcule une **catégorie de dépendance**, qui est **déclarée à la "
-"mutuelle** :"
 
 #: ../../content/belgique/forfait-inami.md:11
 msgid "Category"
@@ -229,49 +215,15 @@ msgstr "**D**"
 msgid "Dementia (specialist diagnosis)"
 msgstr "Démence (diagnostic spécialisé)"
 
-#: ../../content/belgique/forfait-inami.md:52
+#: ../../content/belgique/forfait-inami.md:56
 msgid "The amount is the same for all categories"
 msgstr "Le montant est le même pour toutes les catégories"
 
-#: ../../content/belgique/forfait-inami.md:55
-msgid ""
-"Under the **AViQ** rates, the **amount** of the dependency allowance is "
-"**identical for all Katz categories**, including **O**: a **single daily "
-"rate**, indexed each year (e.g. **€85.72/day in 2026**). The category "
-"therefore does **not change the amount** — it is used to **declare the "
-"correct profile** to the health insurance fund (the **OA agreement**) and "
-"for the **care standards**. The rate remains **configurable per category** "
-"in *Configuration → INAMI Rates* if a convention requires it."
-msgstr ""
-"Dans les tarifs **AViQ**, le **montant** du forfait de dépendance est "
-"**identique pour toutes les catégories Katz**, y compris **O** : un **tarif "
-"journalier unique**, indexé chaque année (par ex. **85,72 €/jour en 2026**)."
-" La catégorie ne change donc **pas le montant** — elle sert à **déclarer le "
-"bon profil** à la mutuelle (l’**accord OA**) et aux **normes de soins**. Le "
-"tarif reste **configurable par catégorie** dans *Configuration → INAMI "
-"Rates* si une convention l'exige."
-
-#: ../../content/belgique/forfait-inami.md:64
-msgid "Category O by default"
-msgstr "Catégorie O par défaut"
-
-#: ../../content/belgique/forfait-inami.md:67
-msgid ""
-"As long as no Katz assessment is **validated**, the resident is in category "
-"**O** by default and a **\"Katz to do\"** reminder appears. Validate the "
-"Katz assessment to **declare the correct category** to the health insurance "
-"fund and obtain the corresponding **agreement**."
-msgstr ""
-"Tant qu'aucune évaluation Katz n'est **validée**, l'habitant est en "
-"catégorie **O** par défaut et un rappel **« Katz à faire »** apparaît. "
-"Validez l'évaluation Katz pour **déclarer la bonne catégorie** à la mutuelle"
-" et obtenir l’**accord** correspondant."
-
-#: ../../content/belgique/forfait-inami.md:73
+#: ../../content/belgique/forfait-inami.md:78
 msgid "Comatose patient"
 msgstr "Patient comateux"
 
-#: ../../content/belgique/forfait-inami.md:76
+#: ../../content/belgique/forfait-inami.md:81
 msgid ""
 "The allowance for **comatose** patients is a special **federal** allowance: "
 "it requires a specific **accreditation** of the facility. Without it, the "
@@ -283,15 +235,15 @@ msgstr ""
 "elle, la ligne de forfait correspondante n'est pas générée (l'hébergement "
 "reste facturé)."
 
-#: ../../content/belgique/forfait-inami.md:81
+#: ../../content/belgique/forfait-inami.md:86
 msgid "How the amount is calculated"
 msgstr "Comment le montant est calculé"
 
-#: ../../content/belgique/forfait-inami.md:83
+#: ../../content/belgique/forfait-inami.md:88
 msgid "The allowance billed for a resident follows a simple rule:"
 msgstr "Le forfait facturé pour un habitant suit une règle simple :"
 
-#: ../../content/belgique/forfait-inami.md:85
+#: ../../content/belgique/forfait-inami.md:90
 msgid ""
 "**Allowance = the daily allowance rate (the same for all categories) × the "
 "number of billable days of presence**"
@@ -299,7 +251,7 @@ msgstr ""
 "**Forfait = tarif journalier du forfait (le même pour toutes les catégories)"
 " × nombre de jours de présence facturables**"
 
-#: ../../content/belgique/forfait-inami.md:87
+#: ../../content/belgique/forfait-inami.md:92
 msgid ""
 "The **days of presence** are counted over the **INAMI intervention period** "
 "(from admission to the end of intervention), **minus absences**. This period"
@@ -312,7 +264,7 @@ msgstr ""
 "cours de mois, départ, décès, fin d'intervention avant la libération de la "
 "chambre)."
 
-#: ../../content/belgique/forfait-inami.md:91
+#: ../../content/belgique/forfait-inami.md:96
 msgid ""
 "An **absence** (hospitalization, holidays) **reduces** the number of days, "
 "according to the **[noon rule](facturation.md)** (Brussels time)."
@@ -320,7 +272,7 @@ msgstr ""
 "Une **absence** (hospitalisation, vacances) **réduit** le nombre de jours, "
 "selon la **[règle de midi](facturation.md)** (heure de Bruxelles)."
 
-#: ../../content/belgique/forfait-inami.md:93
+#: ../../content/belgique/forfait-inami.md:98
 msgid ""
 "The **rate** applied is the one **in force on the date** of billing; it is "
 "indexed over time (see below)."
@@ -328,11 +280,11 @@ msgstr ""
 "Le **tarif** appliqué est celui **en vigueur à la date** de facturation ; il"
 " est indexé dans le temps (voir plus bas)."
 
-#: ../../content/belgique/forfait-inami.md:96
+#: ../../content/belgique/forfait-inami.md:101
 msgid "Allowance = health insurance fund · accommodation = resident"
 msgstr "Forfait = mutuelle · hébergement = habitant"
 
-#: ../../content/belgique/forfait-inami.md:99
+#: ../../content/belgique/forfait-inami.md:104
 msgid ""
 "The **dependency allowance** is covered **100% by the health insurance "
 "fund** (third-party payer, via eFact). **Accommodation** (the room) is a "
@@ -344,16 +296,16 @@ msgstr ""
 "distincte**, à charge du **habitant**. Les deux avancent en parallèle sur la"
 " même période de facturation."
 
-#: ../../content/belgique/forfait-inami.md:105
+#: ../../content/belgique/forfait-inami.md:110
 msgid "Clinical category and billed category"
 msgstr "Catégorie clinique et catégorie facturée"
 
-#: ../../content/belgique/forfait-inami.md:107
+#: ../../content/belgique/forfait-inami.md:112
 msgid "Two concepts coexist here, and it is important not to confuse them:"
 msgstr ""
 "Deux notions coexistent, et il est important de ne pas les confondre :"
 
-#: ../../content/belgique/forfait-inami.md:109
+#: ../../content/belgique/forfait-inami.md:114
 msgid ""
 "The **clinical category** — your **latest validated Katz assessment**; it "
 "reflects the actual dependency and is used for care."
@@ -361,7 +313,7 @@ msgstr ""
 "La **catégorie clinique** — votre **dernière évaluation Katz validée** ; "
 "elle reflète la dépendance réelle et sert aux soins."
 
-#: ../../content/belgique/forfait-inami.md:111
+#: ../../content/belgique/forfait-inami.md:116
 msgid ""
 "The **billed category** — the one that appears on the invoice sent to the "
 "health insurance fund."
@@ -369,7 +321,7 @@ msgstr ""
 "La **catégorie facturée** — celle qui figure sur la facture envoyée à la "
 "mutuelle."
 
-#: ../../content/belgique/forfait-inami.md:114
+#: ../../content/belgique/forfait-inami.md:119
 msgid ""
 "**They can differ.** The health insurance fund reimburses **the category it "
 "approved** in the **[agreement (eAgreement)](ehealth/eagreement.md)**, not "
@@ -379,7 +331,7 @@ msgstr ""
 "approuvée** dans l’**[accord (eAgreement)](ehealth/eagreement.md)**, pas "
 "forcément votre dernière évaluation. Concrètement :"
 
-#: ../../content/belgique/forfait-inami.md:118
+#: ../../content/belgique/forfait-inami.md:123
 msgid ""
 "If an **OA agreement** is in force → we bill **the category of that "
 "agreement**."
@@ -387,7 +339,7 @@ msgstr ""
 "Si un **accord OA** est en vigueur → on facture **la catégorie de cet "
 "accord**."
 
-#: ../../content/belgique/forfait-inami.md:119
+#: ../../content/belgique/forfait-inami.md:124
 msgid ""
 "If a **category change** is requested but the agreement is **still pending**"
 " with the health insurance fund → Resthome **keeps the previous category** "
@@ -397,15 +349,15 @@ msgstr ""
 "attente** de la mutuelle → Resthome **maintient la catégorie précédente** en"
 " facturation."
 
-#: ../../content/belgique/forfait-inami.md:121
+#: ../../content/belgique/forfait-inami.md:126
 msgid "Otherwise → we bill the clinical category."
 msgstr "Sinon → on facture la catégorie clinique."
 
-#: ../../content/belgique/forfait-inami.md:123
+#: ../../content/belgique/forfait-inami.md:128
 msgid "Why this caution?"
 msgstr "Pourquoi cette prudence ?"
 
-#: ../../content/belgique/forfait-inami.md:126
+#: ../../content/belgique/forfait-inami.md:131
 msgid ""
 "Billing a category that **diverges from the agreement** triggers a "
 "**rejection** by the OA (\"allowance incompatible with the agreement\"). As "
@@ -419,11 +371,11 @@ msgstr ""
 "facturer l'ancienne. La catégorie affichée cliniquement peut ainsi être "
 "**plus élevée** que celle facturée."
 
-#: ../../content/belgique/forfait-inami.md:133
+#: ../../content/belgique/forfait-inami.md:138
 msgid "Worsening of dependency"
 msgstr "Aggravation de la dépendance"
 
-#: ../../content/belgique/forfait-inami.md:135
+#: ../../content/belgique/forfait-inami.md:140
 msgid ""
 "If a resident's condition deteriorates, enter a **new Katz assessment** with"
 " an **aggravation reason**. Resthome prepares the update of the care "
@@ -438,31 +390,15 @@ msgstr ""
 "**facturée** qu'une fois l’**accord de la mutuelle obtenu** (voir ci-"
 "dessus)."
 
-#: ../../content/belgique/forfait-inami.md:141
+#: ../../content/belgique/forfait-inami.md:146
 msgid "Configuring the allowance rates"
 msgstr "Configurer les tarifs de forfait"
 
-#: ../../content/belgique/forfait-inami.md:143
-msgid ""
-"The rates are configured in the **Billing → Configuration → INAMI Rates** "
-"app: one **rate per Katz category**, with a **validity period**. Resthome "
-"automatically applies the rate in force on the billing date. For the "
-"**annual indexation**, you add a new rate line (new start date) and close "
-"the old one. The same screen also manages the **accommodation rate** "
-"(charged to the resident)."
-msgstr ""
-"Les tarifs se configurent dans l'application **Facturation → Configuration →"
-" Tarifs INAMI** : un **tarif par catégorie Katz**, avec une **période de "
-"validité**. Resthome applique automatiquement le tarif en vigueur à la date "
-"de facturation. Pour l'**indexation annuelle**, ajoutez une nouvelle ligne "
-"de tarif (nouvelle date de début) et clôturez l'ancienne. Le même écran gère"
-" aussi le **tarif d'hébergement** (à charge de l'habitant)."
-
-#: ../../content/belgique/forfait-inami.md:149
+#: ../../content/belgique/forfait-inami.md:158
 msgid "Key points"
 msgstr "Points clés"
 
-#: ../../content/belgique/forfait-inami.md:151
+#: ../../content/belgique/forfait-inami.md:160
 msgid ""
 "The **daily allowance** is the **same amount for all categories** (including"
 " **O**); the category is used to **declare the correct profile** to the "
@@ -472,7 +408,7 @@ msgstr ""
 " (y compris **O**) ; la catégorie sert à **déclarer le bon profil** à la "
 "mutuelle (accord OA)."
 
-#: ../../content/belgique/forfait-inami.md:154
+#: ../../content/belgique/forfait-inami.md:163
 msgid ""
 "The billed allowance = **daily rate × days of presence** (INAMI intervention"
 " period, minus absences)."
@@ -480,7 +416,7 @@ msgstr ""
 "Le forfait facturé = **tarif journalier × jours de présence** (période "
 "d'intervention INAMI, moins les absences)."
 
-#: ../../content/belgique/forfait-inami.md:156
+#: ../../content/belgique/forfait-inami.md:165
 msgid ""
 "We bill the **category agreed with the health insurance fund** (agreement), "
 "not necessarily the latest clinical assessment."
@@ -488,22 +424,22 @@ msgstr ""
 "On facture la **catégorie convenue avec la mutuelle** (accord), pas "
 "forcément la dernière évaluation clinique."
 
-#: ../../content/belgique/forfait-inami.md:158
+#: ../../content/belgique/forfait-inami.md:168
 msgid ""
 "**Allowance = health insurance fund**, **accommodation = resident**, over "
 "the same period."
 msgstr ""
 "**Forfait = mutuelle**, **hébergement = habitant**, sur la même période."
 
-#: ../../content/belgique/forfait-inami.md:161
+#: ../../content/belgique/forfait-inami.md:171
 msgid "Further reading"
 msgstr "Pour aller plus loin"
 
-#: ../../content/belgique/forfait-inami.md:163
+#: ../../content/belgique/forfait-inami.md:173
 msgid "[The Katz assessment](katz.md)"
 msgstr "[L'évaluation Katz](katz.md)"
 
-#: ../../content/belgique/forfait-inami.md:164
+#: ../../content/belgique/forfait-inami.md:174
 msgid ""
 "[Electronic billing (eFact)](ehealth/efact.md) · [eFact "
 "rejections](ehealth/efact-rejets.md)"
@@ -511,18 +447,130 @@ msgstr ""
 "[Facturation électronique (eFact)](ehealth/efact.md) · [Rejets "
 "eFact](ehealth/efact-rejets.md)"
 
-#: ../../content/belgique/forfait-inami.md:165
+#: ../../content/belgique/forfait-inami.md:175
 msgid "[Agreements (eAgreement)](ehealth/eagreement.md)"
 msgstr "[Accords (eAgreement)](ehealth/eagreement.md)"
 
-#: ../../content/belgique/forfait-inami.md:166
+#: ../../content/belgique/forfait-inami.md:176
 msgid "[Absences and hospitalizations](../facturation/absences.md)"
 msgstr "[Absences et hospitalisations](../facturation/absences.md)"
 
-#: ../../content/belgique/forfait-inami.md:167
+#: ../../content/belgique/forfait-inami.md:177
 msgid "[Billing a month in Belgium](facturation.md)"
 msgstr "[Facturer un mois en Belgique](facturation.md)"
 
-#: ../../content/belgique/forfait-inami.md:168
+#: ../../content/belgique/forfait-inami.md:178
 msgid "[FAQ](../faq.md) · [Glossary](../glossaire.md)"
 msgstr "[FAQ](../faq.md) · [Glossaire](../glossaire.md)"
+
+#: ../../content/belgique/forfait-inami.md:27
+msgid "Is the allowance billed for a resident without a validated Katz?"
+msgstr "Le forfait est-il facturé pour un habitant sans Katz validée ?"
+
+#: ../../content/belgique/forfait-inami.md:28
+msgid ""
+"No. Without a validated Katz there is no category and no allowance; the "
+"period shows **No Katz** on the resident's row. Validate the Katz, then "
+"regenerate the period."
+msgstr ""
+"Non. Sans Katz validée, il n'y a ni catégorie ni forfait ; la période "
+"affiche **Pas de Katz** sur la ligne de l'habitant. Validez la Katz, puis "
+"régénérez la période."
+
+#: ../../content/belgique/forfait-inami.md:40
+msgid ""
+"The [Katz assessment](katz.md) rates the six daily activities (washing, "
+"dressing, transferring, toileting, continence, eating) and the orientation "
+"in time and space from **1** (independent) to **4** (fully dependent). From "
+"these ratings, Resthome computes a **dependency category**, which is "
+"**declared to the health insurance fund**:"
+msgstr ""
+"L'[évaluation Katz](katz.md) cote les six activités de la vie quotidienne "
+"(se laver, s'habiller, transfert, aller à la toilette, continence, manger) "
+"et l'orientation dans le temps et l'espace de **1** (autonome) à **4** "
+"(totalement dépendant). À partir de ces cotations, Resthome calcule une "
+"**catégorie de dépendance**, qui est **déclarée à la mutuelle** :"
+
+#: ../../content/belgique/forfait-inami.md:11
+msgid "**Ccoma**"
+msgstr "**Ccoma**"
+
+#: ../../content/belgique/forfait-inami.md:11
+msgid "Comatose"
+msgstr "Comateux"
+
+#: ../../content/belgique/forfait-inami.md:11
+msgid ""
+"Only with the **Cc accreditation** — see [Belgian settings](reglages.md)"
+msgstr ""
+"Uniquement avec l'**agrément Cc** — voir [Réglages belges](reglages.md)"
+
+#: ../../content/belgique/forfait-inami.md:59
+msgid ""
+"Under the **AViQ** rates, the **amount** of the dependency allowance is "
+"**identical for all Katz categories**, including **O**: a **single daily "
+"rate**, indexed each year. The category therefore does **not change the "
+"amount** — it is used to **declare the correct profile** to the health "
+"insurance fund (the **OA agreement**) and for the **care standards**. The "
+"rate remains **configurable per category** in *Configuration → INAMI Rates* "
+"if a convention requires it."
+msgstr ""
+"Dans les tarifs **AViQ**, le **montant** du forfait de dépendance est "
+"**identique pour toutes les catégories Katz**, y compris **O** : un **tarif "
+"journalier unique**, indexé chaque année. La catégorie ne change donc **pas "
+"le montant** — elle sert à **déclarer le bon profil** à la mutuelle "
+"(l'**accord OA**) et aux **normes de soins**. Le tarif reste **configurable "
+"par catégorie** dans *Configuration → Tarifs INAMI* si une convention "
+"l'exige."
+
+#: ../../content/belgique/forfait-inami.md:68
+msgid "No validated Katz, no allowance"
+msgstr "Pas de Katz validée, pas de forfait"
+
+#: ../../content/belgique/forfait-inami.md:71
+msgid ""
+"A resident without a **validated** Katz assessment has **no category**: when"
+" the period is generated, their accommodation is billed but **no "
+"allowance**, their row shows **No Katz**, and the period's thread names "
+"them. Validate the Katz assessment, then **regenerate** the period: the "
+"allowance is billed with the right category."
+msgstr ""
+"Un habitant sans évaluation Katz **validée** n'a **aucune catégorie** : à la"
+" génération de la période, son hébergement est facturé mais **aucun "
+"forfait**, sa ligne affiche **Pas de Katz**, et le fil de la période le "
+"nomme. Validez l'évaluation Katz, puis **régénérez** la période : le forfait"
+" est facturé avec la bonne catégorie."
+
+#: ../../content/belgique/forfait-inami.md:148
+msgid ""
+"The rates are configured in **Billing → Configuration → INAMI Rates**: one "
+"**rate per Katz category**, with a **validity period**. Resthome applies the"
+" rate in force on the billing date. For the **annual indexation**, click "
+"**Generate a year** above the list: enter the amounts once and Resthome "
+"creates the rates of every category for the year. **New** adds a single row."
+" The same screen also manages the **accommodation rate** (charged to the "
+"resident)."
+msgstr ""
+"Les tarifs se configurent dans **Facturation → Configuration → Tarifs "
+"INAMI** : un **tarif par catégorie Katz**, avec une **période de validité**."
+" Resthome applique le tarif en vigueur à la date de facturation. Pour "
+"l'**indexation annuelle**, cliquez sur **Générer une année** au-dessus de la"
+" liste : saisissez les montants une fois et Resthome crée les tarifs de "
+"toutes les catégories pour l'année. **Nouveau** ajoute une seule ligne. Le "
+"même écran gère aussi le **tarif d'hébergement** (à charge de l'habitant)."
+
+#: ../../content/belgique/forfait-inami.md:155
+msgid ""
+"If an eFact is built for a year that has no rate yet, Resthome stops and "
+"offers to open or create the rates of that year."
+msgstr ""
+"Si un eFact est constitué pour une année qui n'a pas encore de tarif, "
+"Resthome s'arrête et propose d'ouvrir ou de créer les tarifs de cette année."
+
+#: ../../content/belgique/forfait-inami.md:167
+msgid ""
+"**No validated Katz, no allowance**: validate it, then regenerate the "
+"period."
+msgstr ""
+"**Pas de Katz validée, pas de forfait** : validez-la, puis régénérez la "
+"période."

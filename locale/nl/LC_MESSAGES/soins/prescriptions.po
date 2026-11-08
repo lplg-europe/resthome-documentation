@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 15:49+0200\n"
+"POT-Creation-Date: 2026-11-08 19:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nl <LL@li.org>\n"
@@ -21,352 +21,427 @@ msgstr ""
 "Generated-By: Babel 2.18.0\n"
 
 #: ../../content/soins/prescriptions.md:5
-msgid "Prescriptions and medications"
-msgstr "Voorschriften en geneesmiddelen"
+msgid "Prescriptions"
+msgstr "Voorschriften"
 
 #: ../../content/soins/prescriptions.md:8
 msgid ""
-"Manage medication in Resthome — catalogue, prescriptions, administrations, "
-"lots and stock, allergies and interactions."
+"Receive, read and confirm the physicians' prescriptions in Resthome: by "
+"e-mail or typed in, lines read off the PDF, a batch of several patients, "
+"confirmation into treatments, expiry and renewal."
 msgstr ""
-"Medicatie beheren in Resthome — catalogus, voorschriften, toedieningen, "
-"loten en voorraad, allergieën en interacties."
+"Voorschriften van artsen ontvangen, lezen en bevestigen in Resthome: per "
+"e-mail of met de hand ingevoerd, regels gelezen op de pdf, een reeks van "
+"meerdere patiënten, bevestiging tot behandelingen, vervaldatum en "
+"verlenging."
 
 #: ../../content/soins/prescriptions.md:12
-msgid "How do I prescribe a medication in Resthome?"
-msgstr "Hoe schrijf ik een geneesmiddel voor in Resthome?"
+msgid "How does a prescription arrive in Resthome?"
+msgstr "Hoe komt een voorschrift in Resthome terecht?"
 
 #: ../../content/soins/prescriptions.md:13
 msgid ""
-"From the resident's record in the Care app, create a prescription, then "
-"choose the medication, the dosage and the period."
+"Each e-mail sent to the house's prescriptions address becomes a draft "
+"prescription, its PDF beside the form. You can also create one with **New "
+"Prescription** on the Medicines workstation, or drop the PDF on a draft."
 msgstr ""
-"Maak vanuit het bewonersdossier in de app Zorg een voorschrift aan en kies "
-"vervolgens het geneesmiddel, de dosering en de periode."
+"Elke e-mail die naar het voorschriftenadres van het huis wordt gestuurd, "
+"wordt een voorschrift in concept, met de pdf naast het formulier. U kunt er "
+"ook een aanmaken met **Nieuw voorschrift** op de werkpost Geneesmiddelen, of"
+" de pdf op een concept neerzetten."
 
 #: ../../content/soins/prescriptions.md:15
-msgid "Does Resthome check allergies and drug interactions?"
-msgstr "Controleert Resthome allergieën en geneesmiddeleninteracties?"
+msgid "What happens when I confirm a prescription?"
+msgstr "Wat gebeurt er wanneer ik een voorschrift bevestig?"
 
 #: ../../content/soins/prescriptions.md:16
 msgid ""
-"Yes. Resthome knows the resident's allergies and the known interactions, and"
-" warns you when a prescription poses a risk - before administration."
+"Each line becomes a treatment of the resident, placed on the round from its "
+"start date. The prescription moves to **In Force**."
 msgstr ""
-"Ja. Resthome kent de allergieën van de bewoner en de gekende interacties, en"
-" waarschuwt u wanneer een voorschrift een risico inhoudt — vóór de "
-"toediening."
+"Elke regel wordt een behandeling van de bewoner, opgenomen in de ronde vanaf"
+" de begindatum. Het voorschrift gaat naar **Van kracht**."
 
 #: ../../content/soins/prescriptions.md:18
-msgid "What can I do with an ongoing prescription?"
-msgstr "Wat kan ik doen met een lopend voorschrift?"
+msgid "Can Resthome read the lines of the PDF for me?"
+msgstr "Kan Resthome de regels van de pdf voor mij lezen?"
 
 #: ../../content/soins/prescriptions.md:19
 msgid ""
-"You can suspend it temporarily (before an examination for instance), resume "
-"it, end it at the end of treatment, or cancel one entered by mistake."
+"Yes, when **Read the lines off the PDF** is set to local OCR. The lines are "
+"filled in from the PDF and shown in yellow until checked: a nurse checks "
+"each one against the PDF before confirming."
 msgstr ""
-"U kunt het tijdelijk opschorten (bijvoorbeeld voor een onderzoek), "
-"hervatten, beëindigen aan het einde van de behandeling, of annuleren als het"
-" per vergissing werd ingevoerd."
+"Ja, wanneer **De regels op de pdf lezen** op lokale OCR staat. De regels "
+"worden ingevuld vanuit de pdf en in het geel getoond zolang ze niet "
+"nagekeken zijn: een verpleegkundige controleert elke regel tegen de pdf "
+"voordat hij bevestigt."
 
 #: ../../content/soins/prescriptions.md:21
-msgid "How is medication administration traced?"
-msgstr "Hoe wordt de toediening van geneesmiddelen getraceerd?"
+msgid "What happens when a prescription expires?"
+msgstr "Wat gebeurt er wanneer een voorschrift vervalt?"
 
 #: ../../content/soins/prescriptions.md:22
 msgid ""
-"Administrations stem from the prescriptions: the caregiver records what was "
-"given, when and by whom, which makes traceability complete."
+"Nothing stops by itself. The prescription shows an **Expired** ribbon, the "
+"head nurse is asked to renew it, and **Ask for a Renewal** sends the "
+"physician the lines to renew."
 msgstr ""
-"De toedieningen vloeien voort uit de voorschriften: de zorgverlener "
-"registreert wat werd toegediend, wanneer en door wie, waardoor de "
-"traceerbaarheid volledig is."
+"Niets stopt vanzelf. Het voorschrift toont een lint **Vervallen**, de "
+"hoofdverpleegkundige wordt gevraagd het te verlengen, en **Verlenging "
+"aanvragen** stuurt de arts de te verlengen regels."
 
 #: ../../content/soins/prescriptions.md:24
-msgid "Where does the medication catalogue come from?"
-msgstr "Waar komt de geneesmiddelencatalogus vandaan?"
+msgid "Who can confirm a prescription?"
+msgstr "Wie kan een voorschrift bevestigen?"
 
 #: ../../content/soins/prescriptions.md:25
 msgid ""
-"From the facility's medication catalogue, which lists the name, form and "
-"dosage of each medication. You fill it by hand, or import from the national "
-"medication reference database where the country provides one."
+"Nurses and physicians. A care assistant sees the treatments on the round, "
+"not the prescriptions to read."
 msgstr ""
-"Uit de geneesmiddelencatalogus van de instelling, die de naam, de vorm en de"
-" dosering van elk geneesmiddel vermeldt. U vult hem manueel in, of u "
-"importeert hem uit de nationale referentiedatabank voor geneesmiddelen waar "
-"het land er een ter beschikking stelt."
+"Verpleegkundigen en artsen. Een zorgkundige ziet de behandelingen in de "
+"ronde, niet de te lezen voorschriften."
 
 #: ../../content/soins/prescriptions.md:28
 msgid ""
-"Resthome manages a resident's **medication** end to end: from prescription "
-"to administration, including stock and safety checks (allergies, "
-"interactions)."
+"A **prescription** is the physician's document. Resthome receives it, lets a"
+" nurse check its lines, and on confirmation turns each line into a "
+"**treatment** of the resident — what the round gives every day. "
+"Prescriptions are handled on the [Medicines "
+"workstation](../medicaments/index.md) (**Nursing Care → Medicines**), "
+"**Prescriptions** tab, and its **To Read** counter."
 msgstr ""
-"Resthome beheert de **medicatie** van een bewoner van begin tot eind: van "
-"het voorschrift tot de toediening, via de voorraad en de "
-"veiligheidscontroles (allergieën, interacties)."
+"Een **voorschrift** is het document van de arts. Resthome ontvangt het, laat"
+" een verpleegkundige de regels nakijken en maakt bij de bevestiging van elke"
+" regel een **behandeling** van de bewoner — wat de ronde elke dag geeft. "
+"Voorschriften worden behandeld op de [werkpost "
+"Geneesmiddelen](../medicaments/index.md) (**Zorg → Geneesmiddelen**), "
+"tabblad **Voorschriften**, en de teller **Te lezen**."
 
-#: ../../content/soins/prescriptions.md:31
-msgid "The medication catalogue"
-msgstr "De geneesmiddelencatalogus"
+#: ../../content/soins/prescriptions.md:34
+msgid "Before you start"
+msgstr "Voor u begint"
 
-#: ../../content/soins/prescriptions.md:33
+#: ../../content/soins/prescriptions.md:36
 msgid ""
-"Available medications are grouped in a **catalogue**. It lists the name, the"
-" form and the dosage. It is the source of prescriptions. Where the country "
-"provides a national medication reference database, Resthome imports its "
-"medications into the catalogue instead of having you enter them by hand."
+"Two settings, in **Nursing Care → Configuration → Settings**, block "
+"**Prescriptions**:"
 msgstr ""
-"De beschikbare geneesmiddelen zijn gegroepeerd in een **catalogus**. Die "
-"vermeldt de naam, de vorm en de dosering. Het is de bron van de "
-"voorschriften. Waar het land een nationale referentiedatabank voor "
-"geneesmiddelen ter beschikking stelt, importeert Resthome de geneesmiddelen "
-"ervan in de catalogus in plaats van ze u manueel te laten invoeren."
+"Twee instellingen, in **Zorg → Configuratie → Instellingen**, blok "
+"**Voorschriften**:"
 
-#: ../../content/soins/prescriptions.md:38
+#: ../../content/soins/prescriptions.md:39
+msgid ""
+"**Receive prescriptions by e-mail** — give the address (alias and domain): "
+"each e-mail sent to it becomes a draft prescription, its PDF beside the "
+"form. The sender is matched to the physician."
+msgstr ""
+"**Voorschriften per e-mail ontvangen** — geef het adres op (alias en "
+"domein): elke e-mail die ernaar wordt gestuurd, wordt een voorschrift in "
+"concept, met de pdf naast het formulier. De afzender wordt aan de arts "
+"gekoppeld."
+
+#: ../../content/soins/prescriptions.md:42
+msgid ""
+"**Read the lines off the PDF** — **Typed by hand**, or **Local OCR "
+"(Tesseract)** to fill in the lines from the PDF. With OCR, set **Create a "
+"missing medicine from the reference catalogue from this certainty (%)**: a "
+"medicine read that is not in the catalogue is created when the reading is "
+"that sure (0 = never created, only proposed in the line's notes)."
+msgstr ""
+"**De regels op de pdf lezen** — **Met de hand ingevoerd**, of **Lokale OCR "
+"(Tesseract)** om de regels vanuit de pdf in te vullen. Stel met OCR **Een "
+"ontbrekend geneesmiddel aanmaken vanuit de referentiecatalogus vanaf deze "
+"zekerheid (%)** in: een gelezen geneesmiddel dat niet in de catalogus staat,"
+" wordt aangemaakt wanneer de lezing zo zeker is (0 = nooit aangemaakt, "
+"alleen voorgesteld in de notities van de regel)."
+
+#: ../../content/soins/prescriptions.md:48
 msgid "In Belgium"
 msgstr "In België"
 
-#: ../../content/soins/prescriptions.md:41
+#: ../../content/soins/prescriptions.md:51
 msgid ""
-"The catalogue is fed from **SAM**, the official Belgian medication database "
-"(CNK code, active ingredient, ATC code, leaflets). See [The SAM medication "
-"database](../belgique/sam-base-medicaments.md)."
+"A prescription sent from a physician's eHealthBox becomes a draft the same "
+"way, and the renewal can be asked there: see [Prescriptions through the "
+"eHealthBox](../belgique/medicaments-ehealthbox.md)."
 msgstr ""
-"De catalogus wordt gevoed door **SAM**, de officiële Belgische "
-"geneesmiddelendatabank (CNK-code, werkzaam bestanddeel, ATC-code, "
-"bijsluiters). Zie [De SAM-geneesmiddelendatabank](../belgique/sam-base-"
-"medicaments.md)."
-
-#: ../../content/soins/prescriptions.md:46
-msgid "Prescribing"
-msgstr "Voorschrijven"
-
-#: ../../content/soins/prescriptions.md:48
-msgid ""
-"From the resident's record (Care application), create a **prescription**."
-msgstr ""
-"Maak vanaf de fiche van de bewoner (toepassing Zorg) een **voorschrift** "
-"aan."
-
-#: ../../content/soins/prescriptions.md:49
-msgid "Choose the **medication**, the **dosage** and the **period**."
-msgstr "Kies het **geneesmiddel**, de **posologie** en de **periode**."
-
-#: ../../content/soins/prescriptions.md:50
-msgid "**Save.**"
-msgstr "**Sla op.**"
-
-#: ../../content/soins/prescriptions.md:52
-msgid "A prescription follows its life cycle with clear actions:"
-msgstr "Een voorschrift doorloopt zijn levenscyclus met duidelijke acties:"
-
-#: ../../content/soins/prescriptions.md:54
-msgid "**Suspend** — temporarily interrupt (e.g. before an examination)."
-msgstr "**Opschorten** — tijdelijk onderbreken (bv. vóór een onderzoek)."
-
-#: ../../content/soins/prescriptions.md:55
-msgid "**Resume** — restart a suspended prescription."
-msgstr "**Hervatten** — een opgeschort voorschrift herstarten."
+"Een voorschrift dat vanuit de eHealthBox van een arts wordt verzonden, wordt"
+" op dezelfde manier een concept, en de verlenging kan daar worden "
+"aangevraagd: zie [Voorschriften via de eHealthBox](../belgique/medicaments-"
+"ehealthbox.md)."
 
 #: ../../content/soins/prescriptions.md:56
-msgid "**End** — close at the end of the treatment."
-msgstr "**Beëindigen** — afsluiten aan het einde van de behandeling."
+msgid "1. Receive the prescription"
+msgstr "1\\. Het voorschrift ontvangen"
 
-#: ../../content/soins/prescriptions.md:57
-msgid "**Cancel** — remove a prescription entered by mistake."
-msgstr "**Annuleren** — een foutief voorschrift verwijderen."
+#: ../../content/soins/prescriptions.md:58
+msgid "A prescription arrives as a **Draft**:"
+msgstr "Een voorschrift komt binnen als **Concept**:"
 
-#: ../../content/soins/prescriptions.md:59
+#: ../../content/soins/prescriptions.md:60
 msgid ""
-"![Active prescriptions list: resident, medication, dosage, frequency, route,"
-" dates, status and the interactions "
-"indicator](../assets/screenshots/soins/05-prescriptions.png)"
+"by **e-mail** to the prescriptions address — the PDF shows beside the form, "
+"and the message says how the resident was found, or why not;"
 msgstr ""
-"![Lijst van actieve voorschriften: bewoner, geneesmiddel, dosering, "
-"frequentie, toedieningsweg, data, status en de interactie-"
-"indicator](../assets/screenshots/soins/05-prescriptions.png)"
+"per **e-mail** naar het voorschriftenadres — de pdf verschijnt naast het "
+"formulier, en het bericht zegt hoe de bewoner werd gevonden, of waarom niet;"
 
-#: ../../content/soins/prescriptions.md:59
+#: ../../content/soins/prescriptions.md:62
+msgid "with **New Prescription** on the workstation, typed in;"
+msgstr "met **Nieuw voorschrift** op de werkpost, met de hand ingevoerd;"
+
+#: ../../content/soins/prescriptions.md:63
 msgid ""
-"Active prescriptions list: resident, medication, dosage, frequency, route, "
-"dates, status and the interactions indicator"
+"by dropping the PDF on a draft's discussion: with OCR reading on, its lines "
+"are read and the form reloads."
 msgstr ""
-"Lijst van actieve voorschriften: bewoner, geneesmiddel, dosering, "
-"frequentie, toedieningsweg, data, status en de interactie-indicator"
+"door de pdf in de discussie van een concept neer te zetten: met OCR-lezing "
+"ingeschakeld worden de regels gelezen en wordt het formulier herladen."
 
-#: ../../content/soins/prescriptions.md:61
-msgid "Safety: allergies and interactions"
-msgstr "Veiligheid: allergieën en interacties"
-
-#: ../../content/soins/prescriptions.md:64
+#: ../../content/soins/prescriptions.md:66
 msgid ""
-"Resthome knows the resident's **allergies** and the known **drug "
-"interactions**. It warns you if a prescription poses a risk — a safeguard "
-"before administration."
+"The resident is the one the PDF names when the name, and the birth date "
+"where one is read, point to a single resident. Otherwise choose the "
+"**Resident** by hand. The **Physician** is the resident's attending "
+"physician until another is said (the sender of the e-mail, or the one you "
+"pick)."
 msgstr ""
-"Resthome kent de **allergieën** van de bewoner en de gekende "
-"**geneesmiddeleninteracties**. Het verwittigt u als een voorschrift een "
-"risico inhoudt — een vangnet vóór de toediening."
+"De bewoner is degene die de pdf noemt wanneer de naam, en de geboortedatum "
+"als die gelezen wordt, naar één enkele bewoner wijzen. Kies anders de "
+"**Bewoner** met de hand. De **Arts** is de behandelend arts van de bewoner, "
+"tenzij een andere wordt opgegeven (de afzender van de e-mail, of degene die "
+"u kiest)."
 
-#: ../../content/soins/prescriptions.md:68
-msgid "Administering"
-msgstr "Toedienen"
-
-#: ../../content/soins/prescriptions.md:70
-msgid ""
-"**Administrations** stem from prescriptions: the caregiver records what was "
-"given, when and by whom. Traceability is complete."
-msgstr ""
-"De **toedieningen** vloeien voort uit de voorschriften: de zorgverlener "
-"registreert wat gegeven werd, wanneer en door wie. De traceerbaarheid is "
-"volledig."
+#: ../../content/soins/prescriptions.md:71
+msgid "A PDF of several patients"
+msgstr "Een pdf met meerdere patiënten"
 
 #: ../../content/soins/prescriptions.md:73
 msgid ""
-"![Administrations of the day: resident, medication, dose given, who "
-"administered it, and the Administered or Omitted "
-"status](../assets/screenshots/soins/04-administrations.png)"
+"From the list of prescriptions, **Batch of Prescriptions** reads a PDF "
+"holding several prescriptions, one patient or more per page:"
 msgstr ""
-"![Toedieningen van de dag: bewoner, geneesmiddel, toegediende dosis, wie "
-"toediende, en de status Toegediend of "
-"Overgeslagen](../assets/screenshots/soins/04-administrations.png)"
+"Vanuit de lijst van voorschriften leest **Reeks voorschriften** een pdf met "
+"meerdere voorschriften, een of meer patiënten per pagina:"
 
-#: ../../content/soins/prescriptions.md:73
-msgid ""
-"Administrations of the day: resident, medication, dose given, who "
-"administered it, and the Administered or Omitted status"
-msgstr ""
-"Toedieningen van de dag: bewoner, geneesmiddel, toegediende dosis, wie "
-"toediende, en de status Toegediend of Overgeslagen"
-
-#: ../../content/soins/prescriptions.md:75
-msgid "Hospitalisation: suspend, then resume"
-msgstr "Ziekenhuisopname: opschorten, daarna hervatten"
+#: ../../content/soins/prescriptions.md:76
+msgid "Choose the file and click **Read the File**."
+msgstr "Kies het bestand en klik op **Het bestand lezen**."
 
 #: ../../content/soins/prescriptions.md:77
 msgid ""
-"When a resident goes to hospital, their prescriptions must not stay active —"
-" the hospital takes over. Resthome does it in one step."
+"Check the resident proposed for each patient read — a resident is proposed "
+"only when the name and the birth date point to one person. Pick the others "
+"by hand, or untick them."
 msgstr ""
-"Wanneer een bewoner naar het ziekenhuis gaat, mogen zijn voorschriften niet "
-"actief blijven — het ziekenhuis neemt over. Resthome doet dat in één stap."
+"Controleer de bewoner die voor elke gelezen patiënt wordt voorgesteld — een "
+"bewoner wordt alleen voorgesteld wanneer de naam en de geboortedatum naar "
+"één persoon wijzen. Kies de andere met de hand, of vink ze uit."
 
 #: ../../content/soins/prescriptions.md:80
-msgid "From the resident's record, open the **hospitalisation** action."
-msgstr "Open vanuit het bewonersdossier de actie **ziekenhuisopname**."
-
-#: ../../content/soins/prescriptions.md:81
-msgid "Choose **Hospitalise**, and enter the **date** and the **reason**."
-msgstr "Kies **Opnemen**, en vul de **datum** en de **reden** in."
+msgid ""
+"Click **Create the Prescriptions**: one draft per patient, with its lines."
+msgstr ""
+"Klik op **De voorschriften aanmaken**: één concept per patiënt, met de "
+"regels."
 
 #: ../../content/soins/prescriptions.md:82
-msgid ""
-"Confirm: every **active** prescription is **suspended**, each one carrying "
-"the date and the reason."
-msgstr ""
-"Bevestig: elk **actief** voorschrift wordt **opgeschort**, met vermelding "
-"van de datum en de reden."
+msgid "Nothing is created before you have checked the residents."
+msgstr "Er wordt niets aangemaakt voordat u de bewoners hebt gecontroleerd."
 
-#: ../../content/soins/prescriptions.md:85
-msgid ""
-"On the way back, the same action in **Return** mode **resumes** the "
-"prescriptions that had been suspended for this hospitalisation."
-msgstr ""
-"Bij de terugkeer **hervat** dezelfde actie in de modus **Terugkeer** de "
-"voorschriften die voor deze opname werden opgeschort."
+#: ../../content/soins/prescriptions.md:84
+msgid "2. Check the lines"
+msgstr "2\\. De regels nakijken"
 
-#: ../../content/soins/prescriptions.md:88
-msgid "The liaison pack"
-msgstr "Het liaisondossier"
-
-#: ../../content/soins/prescriptions.md:90
+#: ../../content/soins/prescriptions.md:86
 msgid ""
-"Before the resident leaves, print the **liaison pack**: the document the "
-"hospital asks for on admission. It gathers what the ward needs — identity, "
-"treatments, allergies, dependency, and the hospitalisation preferences "
-"recorded in the [anamnesis](anamnese.md)."
+"On the draft, the **Lines** tab lists what the physician prescribed. When "
+"the lines are read off the PDF, a banner reminds you to check each one "
+"against it, and a line still missing its medicine or its dose is shown in "
+"yellow. **Read the PDF** reads the attached PDF again when the draft has no "
+"line yet."
 msgstr ""
-"Druk vóór het vertrek van de bewoner het **liaisondossier** af: het document"
-" dat het ziekenhuis bij opname vraagt. Het verzamelt wat de afdeling nodig "
-"heeft — identiteit, behandelingen, allergieën, afhankelijkheid, en de "
-"voorkeuren bij ziekenhuisopname uit de [anamnese](anamnese.md)."
+"Op het concept toont het tabblad **Regels** wat de arts heeft "
+"voorgeschreven. Wanneer de regels op de pdf worden gelezen, herinnert een "
+"banner u eraan elke regel ertegen te controleren, en een regel waarvan het "
+"geneesmiddel of de dosis nog ontbreekt, wordt in het geel getoond. **De pdf "
+"lezen** leest de bijgevoegde pdf opnieuw wanneer het concept nog geen regel "
+"heeft."
+
+#: ../../content/soins/prescriptions.md:91
+msgid "Open a line to set:"
+msgstr "Open een regel om in te stellen:"
+
+#: ../../content/soins/prescriptions.md:93
+msgid ""
+"**Medication** — picked from the catalogue; **Read As** shows the name read "
+"when no medicine was matched;"
+msgstr ""
+"**Geneesmiddel** — gekozen uit de catalogus; **Gelezen als** toont de "
+"gelezen naam wanneer geen geneesmiddel werd herkend;"
 
 #: ../../content/soins/prescriptions.md:95
-msgid "One click, at the right moment"
-msgstr "Eén klik, op het juiste moment"
+msgid ""
+"**Dosage** — picked from the list of dosages (**Dosage Read** shows what the"
+" PDF said);"
+msgstr ""
+"**Dosering** — gekozen uit de lijst van doseringen (**Gelezen dosering** "
+"toont wat de pdf vermeldde);"
+
+#: ../../content/soins/prescriptions.md:97
+msgid "**Dosage Form**, **Meal Timing**, **End Date**;"
+msgstr "**Toedieningsvorm**, **Maaltijdmoment**, **Einddatum**;"
 
 #: ../../content/soins/prescriptions.md:98
 msgid ""
-"The pack is printed from the hospitalisation window itself, so it is "
-"produced while the transfer is being recorded — not looked for afterwards."
+"**Schedule** — **Frequency**, and the moments **Morning**, **Noon**, "
+"**Afternoon**, **Evening**, **Night** or **Specific Times**;"
 msgstr ""
-"Het dossier wordt afgedrukt vanuit het opnamevenster zelf, dus het wordt "
-"aangemaakt tijdens de registratie van de overdracht — niet achteraf gezocht."
+"**Schema** — **Frequentie**, en de momenten **Ochtend**, **Middag**, "
+"**Namiddag**, **Avond**, **Nacht** of **Specifieke tijdstippen**;"
+
+#: ../../content/soins/prescriptions.md:100
+msgid "**Notes**."
+msgstr "**Notities**."
 
 #: ../../content/soins/prescriptions.md:102
-msgid "Lots and stock"
-msgstr "Loten en voorraad"
-
-#: ../../content/soins/prescriptions.md:104
 msgid ""
-"The **medication lots** and the **stock withdrawals** let you track the "
-"available quantities and consumption, with lot numbers for traceability."
+"At the top of the form: **Prescription Date**, **Expiry Date** and "
+"**Physician**."
 msgstr ""
-"De **geneesmiddelenloten** en de **voorraaduitgangen** laten toe de "
-"beschikbare hoeveelheden en het verbruik op te volgen, met de lotnummers "
-"voor de traceerbaarheid."
+"Bovenaan het formulier: **Voorschrijfdatum**, **Vervaldatum** en **Arts**."
 
 #: ../../content/soins/prescriptions.md:107
-msgid "Useful configuration"
-msgstr "Nuttige configuratie"
+msgid "3. Confirm"
+msgstr "3\\. Bevestigen"
 
 #: ../../content/soins/prescriptions.md:109
-msgid "**Pathologies (ICD-10)** — the resident's history and diagnoses."
-msgstr "**Pathologieën (ICD-10)** — antecedenten en diagnoses van de bewoner."
-
-#: ../../content/soins/prescriptions.md:110
-msgid "**Allergens** — known allergies."
-msgstr "**Allergenen** — gekende allergieën."
-
-#: ../../content/soins/prescriptions.md:111
-msgid "**Drug interactions** — vigilance rules."
-msgstr "**Geneesmiddeleninteracties** — waakzaamheidsregels."
-
-#: ../../content/soins/prescriptions.md:112
 msgid ""
-"**National medication database** — the country's reference catalogue of "
-"medications, where one is provided."
+"Click **Confirm**. Resthome asks for what is missing — the resident, the "
+"physician, at least one line, a medicine and a dose on each line. Then each "
+"line becomes a **treatment** of the resident, on the round from its start "
+"date, and the prescription moves to **In Force**. The **Treatments** smart "
+"button and tab show the treatments it started."
 msgstr ""
-"**Nationale geneesmiddelendatabank** — de referentiecatalogus van "
-"geneesmiddelen van het land, als er een bestaat."
+"Klik op **Bevestigen**. Resthome vraagt wat ontbreekt — de bewoner, de arts,"
+" minstens één regel, een geneesmiddel en een dosis op elke regel. Daarna "
+"wordt elke regel een **behandeling** van de bewoner, in de ronde vanaf de "
+"begindatum, en gaat het voorschrift naar **Van kracht**. De slimme knop en "
+"het tabblad **Behandelingen** tonen de behandelingen die het heeft gestart."
 
 #: ../../content/soins/prescriptions.md:115
+msgid ""
+"A line that renews a treatment ended less than a month ago (same resident, "
+"same medicine) keeps what the team had set on it: the intake, *not together "
+"with*, the pharmacy's sachets and the box."
+msgstr ""
+"Een regel die een behandeling verlengt die minder dan een maand geleden is "
+"beëindigd (zelfde bewoner, zelfde geneesmiddel), behoudt wat het team erop "
+"had ingesteld: de inname, *niet samen met*, de zakjes van de apotheek en de "
+"doos."
+
+#: ../../content/soins/prescriptions.md:119
+msgid ""
+"Each confirmed prescription read off its PDF teaches Resthome the medicines "
+"and the letterheads it recognised. See [The medicine "
+"catalogue](../medicaments/catalogue.md)."
+msgstr ""
+"Elk bevestigd voorschrift dat op de pdf werd gelezen, leert Resthome de "
+"geneesmiddelen en de briefhoofden die het heeft herkend. Zie [De "
+"geneesmiddelencatalogus](../medicaments/catalogue.md)."
+
+#: ../../content/soins/prescriptions.md:123
+msgid "The life of a prescription"
+msgstr "Het verloop van een voorschrift"
+
+#: ../../content/soins/prescriptions.md:125
+msgid "The states are **Draft**, **In Force**, **Closed** and **Discarded**."
+msgstr ""
+"De statussen zijn **Concept**, **Van kracht**, **Afgesloten** en "
+"**Geannuleerd**."
+
+#: ../../content/soins/prescriptions.md:127
+msgid ""
+"**Cancel** discards a draft (a prescription received twice, a wrong file); "
+"**Reset to Draft** brings it back."
+msgstr ""
+"**Annuleren** zet een concept opzij (een voorschrift dat twee keer werd "
+"ontvangen, een verkeerd bestand); **Terug naar concept** haalt het terug."
+
+#: ../../content/soins/prescriptions.md:129
+msgid ""
+"**Close** ends a prescription in force: the treatments it started stop "
+"today."
+msgstr ""
+"**Afsluiten** beëindigt een voorschrift dat van kracht is: de behandelingen "
+"die het heeft gestart, stoppen vandaag."
+
+#: ../../content/soins/prescriptions.md:130
+msgid ""
+"**Expiry Date** — past this day, the **Expired** ribbon shows, the date "
+"turns red in the list and the head nurse is asked to renew it. Nothing stops"
+" by itself."
+msgstr ""
+"**Vervaldatum** — na deze dag verschijnt het lint **Vervallen**, wordt de "
+"datum rood in de lijst en wordt de hoofdverpleegkundige gevraagd het te "
+"verlengen. Niets stopt vanzelf."
+
+#: ../../content/soins/prescriptions.md:134
+msgid "Ask for a renewal"
+msgstr "Een verlenging aanvragen"
+
+#: ../../content/soins/prescriptions.md:136
+msgid ""
+"**Ask for a Renewal** (in force, highlighted once expired) e-mails the "
+"physician the resident and each line to renew. The physician's answer "
+"arrives as a new draft at the prescriptions address, never on the old "
+"prescription. The request is shown on the form (to whom, when), in the list "
+"(**Renewal Asked On**) and under **Waiting, nothing to do** on the "
+"workstation; a new expiry date clears it."
+msgstr ""
+"**Verlenging aanvragen** (van kracht, gemarkeerd zodra vervallen) mailt de "
+"arts de bewoner en elke te verlengen regel. Het antwoord van de arts komt "
+"binnen als een nieuw concept op het voorschriftenadres, nooit op het oude "
+"voorschrift. De aanvraag verschijnt op het formulier (aan wie, wanneer), in "
+"de lijst (**Verlenging aangevraagd op**) en onder **In afwachting, niets te "
+"doen** op de werkpost; een nieuwe vervaldatum wist ze."
+
+#: ../../content/soins/prescriptions.md:143
+msgid "Finding a prescription"
+msgstr "Een voorschrift terugvinden"
+
+#: ../../content/soins/prescriptions.md:145
+msgid ""
+"**All the Prescriptions**, on the workstation, opens the list: number, "
+"resident, physician, prescription date, expiry date, treatments and state. "
+"Filters **Open** (default), **Draft**, **In Force**, **Closed**, **Expired**"
+" and **Renewal Asked**; groupings **By Resident**, **By Physician** and **By"
+" State**."
+msgstr ""
+"**Alle voorschriften**, op de werkpost, opent de lijst: nummer, bewoner, "
+"arts, voorschrijfdatum, vervaldatum, behandelingen en status. Filters "
+"**Open** (standaard), **Concept**, **Van kracht**, **Afgesloten**, "
+"**Vervallen** en **Vernieuwing gevraagd**; groeperingen **Per bewoner**, "
+"**Per arts** en **Per status**."
+
+#: ../../content/soins/prescriptions.md:151
 msgid "Going further"
 msgstr "Verder"
 
-#: ../../content/soins/prescriptions.md:117
-msgid "[Care plans and vital signs](plans-de-soins.md)"
-msgstr "[Zorgplannen en vitale parameters](plans-de-soins.md)"
+#: ../../content/soins/prescriptions.md:153
+msgid "[Treatments](../medicaments/traitements.md)"
+msgstr "[Behandelingen](../medicaments/traitements.md)"
 
-#: ../../content/soins/prescriptions.md:118
-msgid "[Clinical registers](registres.md)"
-msgstr "[Klinische registers](registres.md)"
+#: ../../content/soins/prescriptions.md:154
+msgid "[Medicines](../medicaments/index.md)"
+msgstr "[Geneesmiddelen](../medicaments/index.md)"
 
-#~ msgid ""
-#~ "From the Belgian SAM database, which provides the name, form and dosage of "
-#~ "each medication and serves as the source for prescriptions."
-#~ msgstr ""
-#~ "Uit de Belgische SAM-databank, die de naam, de vorm en de dosering van elk "
-#~ "geneesmiddel levert en als bron dient voor de voorschriften."
+#: ../../content/soins/prescriptions.md:155
+msgid "[The medicine catalogue](../medicaments/catalogue.md)"
+msgstr "[De geneesmiddelencatalogus](../medicaments/catalogue.md)"
 
-#~ msgid ""
-#~ "Available medications are grouped in a **catalogue** (linked to the Belgian "
-#~ "**SAM** database). It lists the name, the form and the dosage. It is the "
-#~ "source of prescriptions."
-#~ msgstr ""
-#~ "De beschikbare geneesmiddelen zijn gebundeld in een **catalogus** (gekoppeld"
-#~ " aan de Belgische **SAM**-databank). U vindt er naam, vorm en dosering. Dat "
-#~ "is de bron van de voorschriften."
+#: ../../content/soins/prescriptions.md:156
+msgid "[Care plans](plans-de-soins.md)"
+msgstr "[Zorgplannen](plans-de-soins.md)"

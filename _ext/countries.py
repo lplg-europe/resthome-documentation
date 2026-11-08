@@ -95,7 +95,8 @@ def html_page_context(app, pagename, templatename, context, doctree):
     # En-tête « WideCare › <suite> · <métier> » (layout.html) : un site par suite.
     tmpl += _suite_template(app, pagename, lang, here)
     context["metatags"] = ((context.get("metatags") or "") + "\n" + tmpl + "\n"
-                           + _style(app) + "\n" + _boot(app, current))
+                           + _style(app, context.get("pathto")) + "\n"
+                           + _boot(app, current))
 
 
 def _rel(target, here):
@@ -173,17 +174,36 @@ def _nav_groups(app):
     if cached is None:
         from sphinx import addnodes
         root = app.env.get_doctree(app.config.root_doc)
-        cached = [tt["entries"][0][1] if tt["entries"] else ""
+        cached = [[doc for _title, doc in tt["entries"]]
                   for tt in root.findall(addnodes.toctree)]
         app._rh_nav_groups = cached
     return cached
 
 
-def _nav_style(app):
-    """Icônes et drapeaux des groupes, placés d'après l'ordre réel des toctrees :
-    ajouter un pays (ou réordonner) ne décale plus la feuille de style."""
+def _nav_style(app, pathto=None):
+    """Icônes et drapeaux des groupes, et icône d'app de chaque entrée, placés
+    d'après l'ordre réel des toctrees : ajouter un pays ou une application (ou
+    réordonner) ne décale plus la feuille de style."""
     rules = []
-    for n, first in enumerate(_nav_groups(app), 1):
+    app_icons = app.config.rh_nav_app_icons
+    for n, entries in enumerate(_nav_groups(app), 1):
+        first = entries[0] if entries else ""
+        for m, doc in enumerate(entries, 1):
+            icon = app_icons.get(doc)
+            if not icon:
+                continue
+            link = f"#__nav_{n}_{m} + .md-nav__container > a"
+            if icon.startswith("mono:"):
+                rules.append(f"{link}{{--rh-app-icon:var(--rh-appicon-{icon[5:]})}}"
+                             f"{link}::before{{background:currentColor;opacity:.75;"
+                             f"-webkit-mask:var(--rh-app-icon) center/contain no-repeat;"
+                             f"mask:var(--rh-app-icon) center/contain no-repeat}}")
+            elif pathto:
+                # L'image directement sur ::before, pas via --rh-app-icon : un
+                # url() relatif dans une variable se résout contre la feuille
+                # qui l'UTILISE (_static/…), pas contre cette page.
+                url = pathto("_static/app-icons/" + icon, 1)
+                rules.append(f'{link}::before{{background-image:url("{url}")}}')
         label = f"#__nav_{n}_label"
         icon = app.config.rh_nav_group_icons.get(first)
         if icon:
@@ -200,7 +220,7 @@ def _nav_style(app):
     return "".join(rules)
 
 
-def _style(app):
+def _style(app, pathto=None):
     """Filtre en CSS pur, appliqué avant le premier affichage (pas de flash).
 
     Une section de la barre latérale qui mène à l'espace d'un AUTRE pays est
@@ -213,7 +233,7 @@ def _style(app):
         rules.append(f'{not_c} .md-nav__item--section:has(a[href*="{c["space"]}/"])'
                      '{display:none}')
         rules.append(f'{not_c} .rh-country-{c["code"]}{{display:none}}')
-    return "<style>" + "".join(rules) + _nav_style(app) + "</style>"
+    return "<style>" + "".join(rules) + _nav_style(app, pathto) + "</style>"
 
 
 def _boot(app, current):
@@ -238,5 +258,8 @@ def setup(app):
     # Première page d'un toctree de l'accueil → icône de son groupe (variable
     # --rh-icon-<nom> de _static/resthome-brand.css).
     app.add_config_value("rh_nav_group_icons", {}, "html")
+    # Page d'une application → son icône d'app (png de _static/app-icons/ ou
+    # « mono:<nom> » = variable --rh-appicon-<nom>), où qu'elle soit rangée.
+    app.add_config_value("rh_nav_app_icons", {}, "html")
     app.connect("html-page-context", html_page_context)
     return {"version": "1.0", "parallel_read_safe": True, "parallel_write_safe": True}

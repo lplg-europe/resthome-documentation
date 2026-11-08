@@ -20,351 +20,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: ../../content/belgique/sam-base-medicaments.md:6
+#: ../../content/belgique/sam-base-medicaments.md:5
 msgid "The SAM medication database"
 msgstr "De SAM-geneesmiddelendatabank"
 
-#: ../../content/belgique/sam-base-medicaments.md:9
-msgid ""
-"The Belgian SAM authentic-source database in Resthome: ATC, BCFI class, "
-"Black Triangle, SmPC/leaflet and the Search SAM wizard for a nursing home "
-"(MR/MRS)."
-msgstr ""
-"De Belgische SAM-databank (authentieke bron) in Resthome: ATC, BCFI-klasse, "
-"zwarte driehoek, SKP/bijsluiter en de wizard SAM zoeken voor het WZC/RVT."
-
-#: ../../content/belgique/sam-base-medicaments.md:13
-msgid "What is the SAM database?"
-msgstr "Wat is de SAM-databank?"
-
-#: ../../content/belgique/sam-base-medicaments.md:14
-msgid ""
-"SAM (Source Authentique des Médicaments, the authentic source of medicines) "
-"is the official Belgian medication reference database. Resthome ships a copy"
-" of it to feed your nursing home (MR/MRS) catalog with reliable data: CNK "
-"code, active ingredient, ATC code, BCFI class, leaflets."
-msgstr ""
-"SAM (Bron Authentieke Geneesmiddelen) is de officiële Belgische "
-"referentiedatabank van geneesmiddelen. Resthome bevat er een kopie van om de"
-" catalogus van uw woonzorgcentrum (WZC/RVT) te voeden met betrouwbare "
-"gegevens: CNK-code, werkzaam bestanddeel, ATC-code, BCFI-klasse, "
-"bijsluiters."
-
-#: ../../content/belgique/sam-base-medicaments.md:16
-msgid "Where does the medication catalogue come from in Belgium?"
-msgstr "Waar komt de geneesmiddelencatalogus in België vandaan?"
-
-#: ../../content/belgique/sam-base-medicaments.md:17
-msgid ""
-"From the SAM database, which provides the name, form and dosage of each "
-"medication and serves as the source for prescriptions. You import "
-"medications from SAM into the facility's catalogue instead of entering them "
-"by hand."
-msgstr ""
-"Uit de SAM-databank, die de naam, de vorm en de dosering van elk "
-"geneesmiddel levert en als bron voor de voorschriften dient. U importeert de"
-" geneesmiddelen vanuit SAM in de catalogus van de instelling in plaats van "
-"ze manueel in te voeren."
-
-#: ../../content/belgique/sam-base-medicaments.md:19
-msgid "Where can I find the SAM database in Resthome?"
-msgstr "Waar vind ik de SAM-databank in Resthome?"
-
-#: ../../content/belgique/sam-base-medicaments.md:20
-msgid ""
-"Two entry points. Browsing, through the Nursing Care app → Configuration → "
-"Medication Catalogues → SAM Database. And the \"Search SAM\" import wizard, "
-"through the Nursing Care app → Configuration → Medication Catalogues → "
-"Search SAM."
-msgstr ""
-"Twee ingangen. Raadplegen, via de app Zorg → Configuratie → "
-"Medicatiecatalogi → SAM-database. En de importwizard « SAM zoeken », via de "
-"app Zorg → Configuratie → Medicatiecatalogi → SAM zoeken."
-
-#: ../../content/belgique/sam-base-medicaments.md:22
-msgid "How do I add a SAM medication to my catalog?"
-msgstr "Hoe voeg ik een SAM-geneesmiddel toe aan mijn catalogus?"
-
-#: ../../content/belgique/sam-base-medicaments.md:23
-msgid ""
-"Open the Search SAM wizard, search by name or by CNK code, check the rows "
-"you want and click Import Selected. The medications are created in your "
-"catalog with their SAM data."
-msgstr ""
-"Open de wizard SAM zoeken, zoek op naam of op CNK-code, vink de gewenste "
-"rijen aan en klik op Selectie importeren. De geneesmiddelen worden in uw "
-"catalogus aangemaakt met hun SAM-gegevens."
-
-#: ../../content/belgique/sam-base-medicaments.md:25
-msgid "What does \"Black Triangle\" mean?"
-msgstr "Wat betekent « zwarte driehoek »?"
-
-#: ../../content/belgique/sam-base-medicaments.md:26
-msgid ""
-"The black triangle flags a medication under additional monitoring "
-"(additional pharmacovigilance). The information is taken from SAM, for "
-"guidance, on the reference record."
-msgstr ""
-"De zwarte driehoek duidt op een geneesmiddel onder verscherpt toezicht "
-"(bijkomende geneesmiddelenbewaking). De informatie komt uit SAM, ter "
-"indicatie, op de referentiefiche."
-
-#: ../../content/belgique/sam-base-medicaments.md:28
-msgid "Does the search work without an eHealth connection?"
-msgstr "Werkt de zoekfunctie zonder eHealth-verbinding?"
-
-#: ../../content/belgique/sam-base-medicaments.md:29
-msgid ""
-"Yes. The search relies first on the local copy of SAM, available offline and"
-" instantly. The live DICS v5 service is used only as a fallback and requires"
-" a certified eHealth connection."
-msgstr ""
-"Ja. De zoekfunctie steunt eerst op de lokale kopie van SAM, offline en "
-"onmiddellijk beschikbaar. De live DICS v5-dienst wordt alleen als "
-"noodoplossing gebruikt en vereist een gecertificeerde eHealth-verbinding."
-
-#: ../../content/belgique/sam-base-medicaments.md:31
-msgid "How do I update a medication that is already present?"
-msgstr "Hoe werk ik een reeds aanwezig geneesmiddel bij?"
-
-#: ../../content/belgique/sam-base-medicaments.md:32
-msgid ""
-"Run the search again and re-import the row. If the CNK code already exists "
-"in the catalog, Resthome updates the existing record instead of creating a "
-"second one."
-msgstr ""
-"Voer de zoekopdracht opnieuw uit en importeer de rij opnieuw. Bestaat de "
-"CNK-code al in de catalogus, dan werkt Resthome de bestaande fiche bij in "
-"plaats van een tweede aan te maken."
-
-#: ../../content/belgique/sam-base-medicaments.md:35
-msgid ""
-"**SAM** (Source Authentique des Médicaments, the authentic source of "
-"medicines) is the official Belgian medication reference database. Resthome "
-"uses it as the foundation of its **medication catalog**: rather than "
-"entering a medication by hand, you search for it in SAM and import it, with "
-"its reliable data (CNK code, active ingredient, classification, leaflets)."
-msgstr ""
-"**SAM** (Bron Authentieke Geneesmiddelen) is de officiële Belgische "
-"referentiedatabank van geneesmiddelen. Resthome gebruikt die als basis van "
-"zijn **geneesmiddelencatalogus**: in plaats van een geneesmiddel manueel in "
-"te voeren, zoekt u het op in SAM en importeert u het, met zijn betrouwbare "
-"gegevens (CNK-code, werkzaam bestanddeel, classificatie, bijsluiters)."
-
-#: ../../content/belgique/sam-base-medicaments.md:41
-msgid "Two entry points:"
-msgstr "Twee ingangen:"
-
-#: ../../content/belgique/sam-base-medicaments.md:43
-msgid ""
-"**Browse** the reference database — **Care** app → **Configuration** → **SAM"
-" Database** (read-only)."
-msgstr ""
-"**Raadpleeg** de referentiedatabank — **Zorg**-app → **Configuratie** → "
-"**SAM-databank** (alleen-lezen)."
-
-#: ../../content/belgique/sam-base-medicaments.md:45
-msgid ""
-"**Search and import** — the **Search SAM** wizard, in the **Nursing Care** "
-"app → **Configuration** → **Medication Catalogues** → **Search SAM**."
-msgstr ""
-"**Zoeken en importeren** — de wizard **SAM zoeken**, in de app **Zorg** → "
-"**Configuratie** → **Medicatiecatalogi** → **SAM zoeken**."
-
-#: ../../content/belgique/sam-base-medicaments.md:48
-msgid "A feature of the eHealth integration"
-msgstr "Een functie van de eHealth-integratie"
-
-#: ../../content/belgique/sam-base-medicaments.md:51
-msgid ""
-"The **Search SAM** wizard is part of Resthome's Belgian eHealth layer. It "
-"installs automatically as soon as the medical module and the eHealth module "
-"are present, and access is reserved for the **eHealth manager**. Browsing "
-"the database (Nursing Care → Configuration) remains accessible without that "
-"role."
-msgstr ""
-"De wizard **SAM zoeken** maakt deel uit van de Belgische eHealth-laag van "
-"Resthome. Hij installeert automatisch zodra de medische module en de "
-"eHealth-module aanwezig zijn, en de toegang is voorbehouden aan de "
-"**eHealth-beheerder**. De databank raadplegen (Zorg → Configuratie) blijft "
-"toegankelijk zonder die rol."
-
-#: ../../content/belgique/sam-base-medicaments.md:57
-msgid "What the SAM database provides"
-msgstr "Wat de SAM-databank levert"
-
-#: ../../content/belgique/sam-base-medicaments.md:59
-msgid ""
-"Every medication in the reference database carries authentic data, useful "
-"both for care and for traceability:"
-msgstr ""
-"Elk geneesmiddel in de referentiedatabank draagt authentieke gegevens, "
-"nuttig zowel voor de zorg als voor de traceerbaarheid:"
-
-#: ../../content/belgique/sam-base-medicaments.md:48
-msgid "Data"
-msgstr "Gegeven"
-
-#: ../../content/belgique/sam-base-medicaments.md:48
-msgid "What it is used for"
-msgstr "Waarvoor het dient"
-
-#: ../../content/belgique/sam-base-medicaments.md:48
-msgid "**CNK code**"
-msgstr "**CNK-code**"
-
-#: ../../content/belgique/sam-base-medicaments.md:48
-msgid "Belgian pharmacy code (7 digits) that identifies the package."
-msgstr "Belgische apotheekcode (7 cijfers) die de verpakking identificeert."
-
-#: ../../content/belgique/sam-base-medicaments.md:48
-msgid "**Active ingredient (INN)**"
-msgstr "**Werkzaam bestanddeel (INN)**"
-
-#: ../../content/belgique/sam-base-medicaments.md:48
-msgid "The active substance, in French and Dutch."
-msgstr "De actieve stof, in het Frans en het Nederlands."
-
-#: ../../content/belgique/sam-base-medicaments.md:48
-msgid "**ATC code**"
-msgstr "**ATC-code**"
-
-#: ../../content/belgique/sam-base-medicaments.md:48
-msgid ""
-"Anatomical Therapeutic Chemical classification (WHO), with its description."
-msgstr ""
-"Anatomische Therapeutische Chemische classificatie (WHO), met haar "
-"beschrijving."
-
-#: ../../content/belgique/sam-base-medicaments.md:48
-msgid "**BCFI class**"
-msgstr "**BCFI-klasse**"
-
-#: ../../content/belgique/sam-base-medicaments.md:48
-msgid ""
-"Pharmacotherapeutic classification from the Belgian Centre for "
-"Pharmacotherapeutic Information."
-msgstr ""
-"Farmacotherapeutische classificatie van het Belgisch Centrum voor "
-"Farmacotherapeutische Informatie."
-
-#: ../../content/belgique/sam-base-medicaments.md:48
-msgid "**Black Triangle**"
-msgstr "**Zwarte driehoek**"
-
-#: ../../content/belgique/sam-base-medicaments.md:48
-msgid ""
-"Flags a medication under additional monitoring (additional "
-"pharmacovigilance)."
-msgstr ""
-"Duidt op een geneesmiddel onder verscherpt toezicht (bijkomende "
-"geneesmiddelenbewaking)."
-
-#: ../../content/belgique/sam-base-medicaments.md:48
-msgid "**Form and route**"
-msgstr "**Vorm en toedieningsweg**"
-
-#: ../../content/belgique/sam-base-medicaments.md:48
-msgid "Pharmaceutical form and route of administration, in French and Dutch."
-msgstr ""
-"Farmaceutische vorm en toedieningsweg, in het Frans en het Nederlands."
-
-#: ../../content/belgique/sam-base-medicaments.md:48
-msgid "**SmPC and leaflet**"
-msgstr "**SKP en bijsluiter**"
-
-#: ../../content/belgique/sam-base-medicaments.md:48
-msgid ""
-"Links to the Summary of Product Characteristics and the patient leaflet (FR "
-"and NL)."
-msgstr ""
-"Links naar de Samenvatting van de Kenmerken van het Product en de bijsluiter"
-" (FR en NL)."
-
-#: ../../content/belgique/sam-base-medicaments.md:48
-msgid "**BCFI link**"
-msgstr "**BCFI-link**"
-
-#: ../../content/belgique/sam-base-medicaments.md:48
-msgid "Direct link to the medication's page on the BCFI website."
-msgstr ""
-"Directe link naar de pagina van het geneesmiddel op de website van het BCFI."
-
-#: ../../content/belgique/sam-base-medicaments.md:48
-msgid "**Prescription and manufacturer**"
-msgstr "**Voorschrift en fabrikant**"
-
-#: ../../content/belgique/sam-base-medicaments.md:48
-msgid ""
-"Dispensing status (prescription required) and marketing authorization "
-"holder."
-msgstr ""
-"Afleveringsstatus (voorschrift vereist) en houder van de vergunning voor het"
-" in de handel brengen."
-
-#: ../../content/belgique/sam-base-medicaments.md:74
-msgid "A reference copy, not an order"
-msgstr "Een referentiekopie, geen bestelling"
-
-#: ../../content/belgique/sam-base-medicaments.md:77
-msgid ""
-"Resthome's SAM database is a **local copy** loaded at installation. It helps"
-" you identify and document a medication; it manages neither stock nor "
-"prices. Those live on the catalog record, once the medication is imported."
-msgstr ""
-"De SAM-databank van Resthome is een **lokale kopie** die bij de installatie "
-"wordt geladen. Ze helpt u een geneesmiddel te identificeren en te "
-"documenteren; ze beheert noch voorraad noch prijzen. Die staan op de "
-"catalogusfiche, zodra het geneesmiddel is geïmporteerd."
-
-#: ../../content/belgique/sam-base-medicaments.md:82
-msgid "Browsing the SAM database"
-msgstr "De SAM-databank raadplegen"
-
-#: ../../content/belgique/sam-base-medicaments.md:84
-msgid ""
-"From **Care → Configuration → SAM Database**, you browse the reference "
-"database in read-only mode. The list shows the CNK code, the name, the "
-"active ingredient, the ATC code, the form and the manufacturer."
-msgstr ""
-"Via **Zorg → Configuratie → SAM-databank** doorbladert u de "
-"referentiedatabank in alleen-lezen. De lijst toont de CNK-code, de naam, het"
-" werkzaam bestanddeel, de ATC-code, de vorm en de fabrikant."
-
-#: ../../content/belgique/sam-base-medicaments.md:88
-msgid "Use the search bar and filters to narrow down:"
-msgstr "Gebruik de zoekbalk en de filters om te verfijnen:"
-
-#: ../../content/belgique/sam-base-medicaments.md:90
-msgid ""
-"**search** by name (FR/NL), CNK code, ATC code, active ingredient or "
-"manufacturer;"
-msgstr ""
-"**zoeken** op naam (FR/NL), CNK-code, ATC-code, werkzaam bestanddeel of "
-"fabrikant;"
-
-#: ../../content/belgique/sam-base-medicaments.md:91
-msgid ""
-"**filters** — **Prescription Required**, **Black Triangle** and **With "
-"CNK**;"
-msgstr ""
-"**filters** — **Voorschrift vereist**, **Zwarte driehoek** en **Met CNK**;"
-
-#: ../../content/belgique/sam-base-medicaments.md:92
-msgid "**groupings** by ATC code, by form or by manufacturer."
-msgstr "**groeperingen** op ATC-code, op vorm of op fabrikant."
-
-#: ../../content/belgique/sam-base-medicaments.md:94
-msgid ""
-"A medication's record details its identification, its classification, its "
-"pharmaceutical form, its active ingredient and the links to its official "
-"documents (SmPC and leaflet, FR and NL)."
-msgstr ""
-"De fiche van een geneesmiddel beschrijft zijn identificatie, zijn "
-"classificatie, zijn farmaceutische vorm, zijn werkzaam bestanddeel en de "
-"links naar zijn officiële documenten (SKP en bijsluiter, FR en NL)."
-
-#: ../../content/belgique/sam-base-medicaments.md:98
+#: ../../content/belgique/sam-base-medicaments.md:106
 msgid ""
 "![SAM database medication record, with its identification and classification"
 " codes](../assets/screenshots/soins/sam-fiche.png)"
@@ -372,7 +32,7 @@ msgstr ""
 "![Geneesmiddelfiche uit de SAM-databank, met haar identificatie- en "
 "classificatiecodes](../assets/screenshots/soins/sam-fiche.png)"
 
-#: ../../content/belgique/sam-base-medicaments.md:98
+#: ../../content/belgique/sam-base-medicaments.md:106
 msgid ""
 "SAM database medication record, with its identification and classification "
 "codes"
@@ -380,99 +40,7 @@ msgstr ""
 "Geneesmiddelfiche uit de SAM-databank, met haar identificatie- en "
 "classificatiecodes"
 
-#: ../../content/belgique/sam-base-medicaments.md:100
-msgid "The Search SAM wizard"
-msgstr "De wizard SAM zoeken"
-
-#: ../../content/belgique/sam-base-medicaments.md:102
-msgid ""
-"The **Search SAM** wizard finds a medication in SAM and adds it to your "
-"catalog in one step. Open it through **Nursing Care → Configuration → "
-"Medication Catalogues → Search SAM**."
-msgstr ""
-"De wizard **SAM zoeken** vindt een geneesmiddel in SAM en voegt het in één "
-"stap toe aan uw catalogus. Open hem via **Zorg → Configuratie → "
-"Medicatiecatalogi → SAM zoeken**."
-
-#: ../../content/belgique/sam-base-medicaments.md:106
-msgid "1. Run a search"
-msgstr "1\\. Een zoekopdracht uitvoeren"
-
-#: ../../content/belgique/sam-base-medicaments.md:108
-msgid "Choose the **search type**:"
-msgstr "Kies het **zoektype**:"
-
-#: ../../content/belgique/sam-base-medicaments.md:110
-msgid ""
-"**By Name** — by brand name or active ingredient (e.g. *Dafalgan*, "
-"*Rilatine*);"
-msgstr ""
-"**Op naam** — op merknaam of werkzaam bestanddeel (bv. *Dafalgan*, "
-"*Rilatine*);"
-
-#: ../../content/belgique/sam-base-medicaments.md:111
-msgid "**By CNK Code** — by CNK code."
-msgstr "**Op CNK-code** — op CNK-code."
-
-#: ../../content/belgique/sam-base-medicaments.md:113
-msgid ""
-"Enter your term in the search field then click **Search**. The search is "
-"**accent-insensitive** and handles multiple words (e.g. *Amlodipine 5mg*)."
-msgstr ""
-"Voer uw term in het zoekveld in en klik op **Zoeken**. De zoekfunctie is "
-"**ongevoelig voor accenten** en verwerkt meerdere woorden (bv. *Amlodipine "
-"5mg*)."
-
-#: ../../content/belgique/sam-base-medicaments.md:116
-msgid "Local search first"
-msgstr "Eerst lokaal zoeken"
-
-#: ../../content/belgique/sam-base-medicaments.md:119
-msgid ""
-"The wizard first queries the local copy of SAM: the response is immediate, "
-"even without a connection. If that copy is empty, Resthome can switch to the"
-" live **DICS v5** service — but that path requires a certified eHealth "
-"connection."
-msgstr ""
-"De wizard bevraagt eerst de lokale kopie van SAM: het antwoord is "
-"onmiddellijk, zelfs zonder verbinding. Is die kopie leeg, dan kan Resthome "
-"overschakelen naar de live **DICS v5**-dienst — maar die weg vereist een "
-"gecertificeerde eHealth-verbinding."
-
-#: ../../content/belgique/sam-base-medicaments.md:124
-msgid "2. Choose from the results"
-msgstr "2\\. Kiezen uit de resultaten"
-
-#: ../../content/belgique/sam-base-medicaments.md:126
-msgid ""
-"Results are shown in a table. Each row shows the **CNK** code, the **name**,"
-" the **active ingredient (INN)**, the **strength**, the **form** and — in "
-"optional columns — the manufacturer, the ATC code, the BCFI class and the "
-"SmPC / leaflet links."
-msgstr ""
-"De resultaten worden in een tabel getoond. Elke rij toont de **CNK**-code, "
-"de **naam**, het **werkzaam bestanddeel (INN)**, de **sterkte**, de **vorm**"
-" en — in optionele kolommen — de fabrikant, de ATC-code, de BCFI-klasse en "
-"de SKP- / bijsluiterlinks."
-
-#: ../../content/belgique/sam-base-medicaments.md:131
-msgid ""
-"The **In Catalog** column indicates whether the medication is already in "
-"your catalog. Those rows appear **in blue**: no need to recreate them."
-msgstr ""
-"De kolom **In catalogus** geeft aan of het geneesmiddel al in uw catalogus "
-"staat. Die rijen verschijnen **in het blauw**: u hoeft ze niet opnieuw aan "
-"te maken."
-
-#: ../../content/belgique/sam-base-medicaments.md:134
-msgid ""
-"Check the **Select** box at the start of the row for each medication to "
-"import."
-msgstr ""
-"Vink het vakje **Selecteren** aan het begin van de rij aan voor elk te "
-"importeren geneesmiddel."
-
-#: ../../content/belgique/sam-base-medicaments.md:136
+#: ../../content/belgique/sam-base-medicaments.md:127
 msgid ""
 "![SAM database search, one row per medication with its official name and ATC"
 " code](../assets/screenshots/soins/sam-liste.png)"
@@ -480,7 +48,7 @@ msgstr ""
 "![Zoeken in de SAM-databank: één regel per geneesmiddel, met de officiële "
 "naam en de ATC-code](../assets/screenshots/soins/sam-liste.png)"
 
-#: ../../content/belgique/sam-base-medicaments.md:136
+#: ../../content/belgique/sam-base-medicaments.md:127
 msgid ""
 "SAM database search, one row per medication with its official name and ATC "
 "code"
@@ -488,196 +56,547 @@ msgstr ""
 "Zoeken in de SAM-databank: één regel per geneesmiddel, met de officiële naam"
 " en de ATC-code"
 
-#: ../../content/belgique/sam-base-medicaments.md:138
-msgid "3. Import to the catalog"
-msgstr "3\\. Importeren naar de catalogus"
-
-#: ../../content/belgique/sam-base-medicaments.md:140
-msgid ""
-"Click **Import Selected**. Resthome creates one record in your catalog per "
-"checked medication, carrying over the SAM data:"
-msgstr ""
-"Klik op **Selectie importeren**. Resthome maakt per aangevinkt geneesmiddel "
-"één fiche aan in uw catalogus, met overname van de SAM-gegevens:"
-
-#: ../../content/belgique/sam-base-medicaments.md:116
-msgid "SAM data"
-msgstr "SAM-gegeven"
-
-#: ../../content/belgique/sam-base-medicaments.md:116
-msgid "Catalog field"
-msgstr "Catalogusveld"
-
-#: ../../content/belgique/sam-base-medicaments.md:116
-msgid "Name"
-msgstr "Naam"
-
-#: ../../content/belgique/sam-base-medicaments.md:116
-msgid "Medication name"
-msgstr "Naam van het geneesmiddel"
-
-#: ../../content/belgique/sam-base-medicaments.md:116
-msgid "CNK"
-msgstr "CNK"
-
-#: ../../content/belgique/sam-base-medicaments.md:116
-msgid "CNK code"
-msgstr "CNK-code"
-
-#: ../../content/belgique/sam-base-medicaments.md:116
-msgid "INN (active ingredient)"
-msgstr "INN (werkzaam bestanddeel)"
-
-#: ../../content/belgique/sam-base-medicaments.md:116
-msgid "Active ingredient"
-msgstr "Werkzaam bestanddeel"
-
-#: ../../content/belgique/sam-base-medicaments.md:116
-msgid "Strength"
-msgstr "Sterkte"
-
-#: ../../content/belgique/sam-base-medicaments.md:116
-msgid "Dosage"
-msgstr "Dosering"
-
-#: ../../content/belgique/sam-base-medicaments.md:116
-msgid "Form"
-msgstr "Vorm"
-
-#: ../../content/belgique/sam-base-medicaments.md:116
-msgid "Form (converted to a Resthome category)"
-msgstr "Vorm (omgezet naar een Resthome-categorie)"
-
-#: ../../content/belgique/sam-base-medicaments.md:116
-msgid "Manufacturer"
-msgstr "Fabrikant"
-
-#: ../../content/belgique/sam-base-medicaments.md:116
-msgid "ATC"
-msgstr "ATC"
-
-#: ../../content/belgique/sam-base-medicaments.md:116
-msgid "ATC code"
-msgstr "ATC-code"
-
-#: ../../content/belgique/sam-base-medicaments.md:116
-msgid "SmPC / leaflet / BCFI link"
-msgstr "SKP- / bijsluiter- / BCFI-link"
-
-#: ../../content/belgique/sam-base-medicaments.md:116
-msgid "**Official documents** tab of the record"
-msgstr "Tabblad **Officiële documenten** van de fiche"
-
-#: ../../content/belgique/sam-base-medicaments.md:154
-msgid ""
-"A notification confirms the number of medications **created** (and "
-"**updated**, where applicable)."
-msgstr ""
-"Een melding bevestigt het aantal **aangemaakte** (en in voorkomend geval "
-"**bijgewerkte**) geneesmiddelen."
-
-#: ../../content/belgique/sam-base-medicaments.md:157
-msgid "4. Update an existing medication"
-msgstr "4\\. Een bestaand geneesmiddel bijwerken"
-
 #: ../../content/belgique/sam-base-medicaments.md:159
-msgid ""
-"To refresh a record that is already present, run the search again (**Search "
-"Again** button) and re-import the row. Resthome **matches by CNK code**: if "
-"the medication already exists, it **updates** the record instead of creating"
-" a duplicate."
-msgstr ""
-"Om een reeds aanwezige fiche te vernieuwen, voert u de zoekopdracht opnieuw "
-"uit (knop **Opnieuw zoeken**) en importeert u de rij opnieuw. Resthome "
-"**koppelt op CNK-code**: bestaat het geneesmiddel al, dan **werkt het de "
-"fiche bij** in plaats van een duplicaat aan te maken."
-
-#: ../../content/belgique/sam-base-medicaments.md:164
-msgid "An import does not replace the prescription"
-msgstr "Een import vervangt het voorschrift niet"
-
-#: ../../content/belgique/sam-base-medicaments.md:167
-msgid ""
-"Importing a medication adds it to the facility's **catalog**. You still have"
-" to **prescribe** it to the resident afterwards, with its dosage and period."
-" See [Prescriptions and medications](../soins/prescriptions.md)."
-msgstr ""
-"Een geneesmiddel importeren voegt het toe aan de **catalogus** van de "
-"instelling. U moet het daarna nog **voorschrijven** aan de bewoner, met zijn"
-" dosering en periode. Zie [Voorschriften en "
-"geneesmiddelen](../soins/prescriptions.md)."
-
-#: ../../content/belgique/sam-base-medicaments.md:172
 msgid "Key takeaways"
 msgstr "Kernpunten om te onthouden"
 
-#: ../../content/belgique/sam-base-medicaments.md:174
-msgid ""
-"**SAM = the official Belgian medication reference database**, embedded in "
-"Resthome as the foundation of the catalog."
-msgstr ""
-"**SAM = de officiële Belgische referentiedatabank van geneesmiddelen**, in "
-"Resthome ingebouwd als basis van de catalogus."
-
-#: ../../content/belgique/sam-base-medicaments.md:176
-msgid ""
-"**Two entry points**: browsing (Nursing Care → Configuration → Medication "
-"Catalogues → SAM Database) and the **Search SAM** import wizard (Nursing "
-"Care → Configuration → Medication Catalogues)."
-msgstr ""
-"**Twee ingangen**: raadplegen (Zorg → Configuratie → Medicatiecatalogi → "
-"SAM-database) en de importwizard **SAM zoeken** (Zorg → Configuratie → "
-"Medicatiecatalogi)."
-
-#: ../../content/belgique/sam-base-medicaments.md:178
-msgid ""
-"The search accepts the **name**, the **CNK code** or the **active "
-"ingredient**, and works **offline** on the local copy."
-msgstr ""
-"De zoekfunctie aanvaardt de **naam**, de **CNK-code** of het **werkzaam "
-"bestanddeel**, en werkt **offline** op de lokale kopie."
-
-#: ../../content/belgique/sam-base-medicaments.md:180
-msgid ""
-"**Import Selected** creates the records; a re-import **updates** medications"
-" already present (matching by CNK)."
-msgstr ""
-"**Selectie importeren** maakt de fiches aan; een herimport **werkt reeds "
-"aanwezige geneesmiddelen bij** (koppeling op CNK)."
-
-#: ../../content/belgique/sam-base-medicaments.md:182
-msgid ""
-"SAM provides **ATC, BCFI class, Black Triangle, SmPC and leaflet (FR/NL)** —"
-" reliable data, for reference."
-msgstr ""
-"SAM levert **ATC, BCFI-klasse, zwarte driehoek, SKP en bijsluiter (FR/NL)** "
-"— betrouwbare gegevens, ter referentie."
-
-#: ../../content/belgique/sam-base-medicaments.md:185
+#: ../../content/belgique/sam-base-medicaments.md:172
 msgid "Further reading"
 msgstr "Verder"
 
-#: ../../content/belgique/sam-base-medicaments.md:187
-msgid "[Prescriptions and medications](../soins/prescriptions.md)"
-msgstr "[Voorschriften en geneesmiddelen](../soins/prescriptions.md)"
-
-#: ../../content/belgique/sam-base-medicaments.md:188
-msgid "[Care plans and vital signs](../soins/plans-de-soins.md)"
-msgstr "[Zorgplannen en vitale parameters](../soins/plans-de-soins.md)"
-
-#: ../../content/belgique/sam-base-medicaments.md:189
-msgid "[The eHealth integration](ehealth/index.md)"
-msgstr "[De eHealth-integratie](ehealth/index.md)"
-
-#: ../../content/belgique/sam-base-medicaments.md:190
+#: ../../content/belgique/sam-base-medicaments.md:177
 msgid "[Care in Belgium](soins.md)"
 msgstr "[Zorg in België](soins.md)"
 
-#~ msgid ""
-#~ "Two entry points. Browsing, through the Care app → Configuration → SAM "
-#~ "Database. And the \"Search SAM\" import wizard, through the MR/MRS app → "
-#~ "Configuration → eHealth Configuration → Search SAM."
-#~ msgstr ""
-#~ "Twee ingangen. Raadplegen, via de app Zorg → Configuratie → "
-#~ "Medicatiecatalogi → SAM-database. En de importwizard « SAM zoeken », via de "
-#~ "app Zorg → Configuratie → Medicatiecatalogi → SAM zoeken."
+#: ../../content/belgique/sam-base-medicaments.md:8
+msgid ""
+"SAM, the Belgian authentic source of medicines, in Resthome: a new medicine "
+"made from its SAM package, the SAM tab of a medicine, the SAM database, the "
+"catalogue without CNK and the settings of the central service."
+msgstr ""
+"SAM, de Belgische authentieke bron van geneesmiddelen, in Resthome: een "
+"nieuw geneesmiddel aangemaakt vanuit zijn SAM-verpakking, het tabblad SAM "
+"van een geneesmiddel, de SAM-database, de catalogus zonder CNK en de "
+"instellingen van de centrale dienst."
+
+#: ../../content/belgique/sam-base-medicaments.md:12
+msgid "What is SAM?"
+msgstr "Wat is SAM?"
+
+#: ../../content/belgique/sam-base-medicaments.md:13
+msgid ""
+"SAM (Source Authentique des Médicaments) is the official Belgian medicines "
+"database, published by the FAMHP, the INAMI and eHealth. Resthome uses it to"
+" fill the house's medicine catalogue with reliable data: CNK code, active "
+"ingredient, ATC code, form, strength, manufacturer, official documents."
+msgstr ""
+"SAM (Authentieke Bron van Geneesmiddelen) is de officiële Belgische "
+"geneesmiddelendatabank, gepubliceerd door het FAGG, het RIZIV en eHealth. "
+"Resthome gebruikt ze om de geneesmiddelencatalogus van het huis te vullen "
+"met betrouwbare gegevens: CNK-code, werkzame stof, ATC-code, vorm, sterkte, "
+"fabrikant, officiële documenten."
+
+#: ../../content/belgique/sam-base-medicaments.md:15
+msgid "How do I add a medicine from SAM?"
+msgstr "Hoe voeg ik een geneesmiddel toe vanuit SAM?"
+
+#: ../../content/belgique/sam-base-medicaments.md:16
+msgid ""
+"In the catalogue, click **New** and type the name or the CNK in **Find the "
+"medicine in SAM**. Pick the package: the whole record fills itself. Or, in "
+"the SAM database, tick the packages and click **Add to Catalogue**."
+msgstr ""
+"Klik in de catalogus op **Nieuw** en typ de naam of de CNK in **Het "
+"geneesmiddel zoeken in SAM**. Kies de verpakking: de hele fiche vult "
+"zichzelf in. Of vink in de SAM-database de verpakkingen aan en klik op "
+"**Toevoegen aan de catalogus**."
+
+#: ../../content/belgique/sam-base-medicaments.md:18
+msgid "How do I add a product SAM does not list?"
+msgstr "Hoe voeg ik een product toe dat SAM niet vermeldt?"
+
+#: ../../content/belgique/sam-base-medicaments.md:19
+msgid ""
+"Tick **Not in SAM: Typed In** on the new record: the form opens empty, for a"
+" preparation or a food supplement."
+msgstr ""
+"Vink **Niet in SAM: met de hand ingevuld** aan op de nieuwe fiche: het "
+"formulier opent leeg, voor een bereiding of een voedingssupplement."
+
+#: ../../content/belgique/sam-base-medicaments.md:21
+msgid "Why can't I change the CNK or the active ingredient of a medicine?"
+msgstr ""
+"Waarom kan ik de CNK of de werkzame stof van een geneesmiddel niet wijzigen?"
+
+#: ../../content/belgique/sam-base-medicaments.md:22
+msgid ""
+"Because they come from the SAM package linked to the medicine. They stay "
+"read-only while a package is linked; pick another package, or tick **Not in "
+"SAM: Typed In**, to change them. The name, the category and the particulars "
+"of the intake remain the house's."
+msgstr ""
+"Omdat ze uit de SAM-verpakking komen die aan het geneesmiddel gekoppeld is. "
+"Ze blijven alleen-lezen zolang een verpakking gekoppeld is; kies een andere "
+"verpakking, of vink **Niet in SAM: met de hand ingevuld** aan, om ze te "
+"wijzigen. De naam, de categorie en de bijzonderheden van de inname blijven "
+"die van het huis."
+
+#: ../../content/belgique/sam-base-medicaments.md:24
+msgid "Does SAM tell me the contraindications or the allergens of a medicine?"
+msgstr ""
+"Geeft SAM mij de contra-indicaties of de allergenen van een geneesmiddel?"
+
+#: ../../content/belgique/sam-base-medicaments.md:25
+msgid ""
+"No. SAM gives the identity of the package and the links to the SmPC, the "
+"leaflet and the BCFI page. Indications, contraindications, side effects and "
+"allergens are what the house records on the medicine."
+msgstr ""
+"Nee. SAM geeft de identiteit van de verpakking en de links naar de SKP, de "
+"bijsluiter en de BCFI-pagina. Indicaties, contra-indicaties, bijwerkingen en"
+" allergenen zijn wat het huis op het geneesmiddel registreert."
+
+#: ../../content/belgique/sam-base-medicaments.md:27
+msgid "Where do I find the SAM database?"
+msgstr "Waar vind ik de SAM-database?"
+
+#: ../../content/belgique/sam-base-medicaments.md:28
+msgid ""
+"On the Medicines workstation (**Nursing Care → Medicines**), **Catalogue** "
+"tab, **SAM Database**."
+msgstr ""
+"Op de werkpost Geneesmiddelen (**Zorg → Geneesmiddelen**), tabblad "
+"**Catalogus**, **SAM-database**."
+
+#: ../../content/belgique/sam-base-medicaments.md:31
+msgid ""
+"**SAM** (Source Authentique des Médicaments, the authentic source of "
+"medicines) is the official Belgian medicines database. In Resthome it is the"
+" starting point of the house's [medicine "
+"catalogue](../medicaments/catalogue.md): rather than typing a medicine in, "
+"you pick its **package** in SAM and the record fills itself."
+msgstr ""
+"**SAM** (Authentieke Bron van Geneesmiddelen) is de officiële Belgische "
+"geneesmiddelendatabank. In Resthome is ze het vertrekpunt van de "
+"[geneesmiddelencatalogus](../medicaments/catalogue.md) van het huis: in "
+"plaats van een geneesmiddel met de hand in te voeren, kiest u de "
+"**verpakking** in SAM en vult de fiche zichzelf in."
+
+#: ../../content/belgique/sam-base-medicaments.md:37
+msgid ""
+"SAM installs itself with the Belgian pack and the Care app. It works on a "
+"**local copy** of the SAM packages, searched by name and by CNK, available "
+"without any connection. When the house is connected to the **central SAM "
+"service**, the SAM data of each medicine (price, reimbursement, "
+"availability) is also refreshed every night."
+msgstr ""
+"SAM installeert zichzelf met het Belgische pakket en de app Zorg. Het werkt "
+"op een **lokale kopie** van de SAM-verpakkingen, doorzoekbaar op naam en op "
+"CNK, beschikbaar zonder enige verbinding. Wanneer het huis verbonden is met "
+"de **centrale SAM-dienst**, worden de SAM-gegevens van elk geneesmiddel "
+"(prijs, terugbetaling, beschikbaarheid) bovendien elke nacht vernieuwd."
+
+#: ../../content/belgique/sam-base-medicaments.md:43
+msgid "Settings"
+msgstr "Instellingen"
+
+#: ../../content/belgique/sam-base-medicaments.md:45
+msgid ""
+"In **Nursing Care → Configuration → Settings**, block **SAM medicines**:"
+msgstr ""
+"In **Zorg → Configuratie → Instellingen**, blok **SAM-geneesmiddelen**:"
+
+#: ../../content/belgique/sam-base-medicaments.md:47
+msgid ""
+"**Address and key** — where the central SAM service is and the key that "
+"opens it. **Test the connection**, **Synchronise now** and **Read everything"
+" next time** sit below. Only CNK codes leave the database, never resident "
+"data."
+msgstr ""
+"**Adres en sleutel** — waar de centrale SAM-dienst zich bevindt en de "
+"sleutel die hem opent. **De verbinding testen**, **Nu synchroniseren** en "
+"**Volgende keer alles herlezen** staan eronder. Alleen CNK-codes verlaten de"
+" database, nooit gegevens van bewoners."
+
+#: ../../content/belgique/sam-base-medicaments.md:51
+msgid ""
+"**Tariff** — which SAM price and reimbursement to read: *Public pharmacy* "
+"(the usual answer, a resident staying an ambulatory patient of a public "
+"pharmacy), *Residential care*, *Hospital* or *Ambulatory*."
+msgstr ""
+"**Tarief** — welke SAM-prijs en -terugbetaling gelezen worden: *Openbare "
+"apotheek* (het gebruikelijke antwoord, aangezien een bewoner een ambulante "
+"patiënt van een openbare apotheek blijft), *Residentiële zorg*, *Ziekenhuis*"
+" of *Ambulant*."
+
+#: ../../content/belgique/sam-base-medicaments.md:55
+msgid ""
+"Without the central service, everything below works on the local copy, "
+"except the **SAM** tab of a medicine."
+msgstr ""
+"Zonder de centrale dienst werkt alles hieronder op de lokale kopie, behalve "
+"het tabblad **SAM** van een geneesmiddel."
+
+#: ../../content/belgique/sam-base-medicaments.md:58
+msgid "Add a medicine from SAM"
+msgstr "Een geneesmiddel toevoegen vanuit SAM"
+
+#: ../../content/belgique/sam-base-medicaments.md:60
+msgid ""
+"Open the catalogue: on the Medicines workstation (**Nursing Care → "
+"Medicines**), **Catalogue** tab, **The Medicines**, then **New**."
+msgstr ""
+"Open de catalogus: op de werkpost Geneesmiddelen (**Zorg → "
+"Geneesmiddelen**), tabblad **Catalogus**, **De geneesmiddelen**, daarna "
+"**Nieuw**."
+
+#: ../../content/belgique/sam-base-medicaments.md:62
+msgid ""
+"In **Find the medicine in SAM**, type the name or the CNK (for example "
+"*dafalgan*)."
+msgstr ""
+"Typ in **Het geneesmiddel zoeken in SAM** de naam of de CNK (bijvoorbeeld "
+"*dafalgan*)."
+
+#: ../../content/belgique/sam-base-medicaments.md:64
+msgid ""
+"Pick the package. The record fills itself: name, active ingredient, form, "
+"strength, category, CNK, ATC, manufacturer, prescription required, the "
+"narcotic, the glucose check of an insulin, what must not be crushed, and the"
+" links to the SmPC, the leaflet and the BCFI page."
+msgstr ""
+"Kies de verpakking. De fiche vult zichzelf in: naam, werkzame stof, vorm, "
+"sterkte, categorie, CNK, ATC, fabrikant, voorschrift vereist, het verdovend "
+"middel, de glucosecontrole van een insuline, wat niet geplet mag worden, en "
+"de links naar de SKP, de bijsluiter en de BCFI-pagina."
+
+#: ../../content/belgique/sam-base-medicaments.md:68
+msgid ""
+"Adjust what belongs to the house (the name, the category, the particulars of"
+" the intake), then save."
+msgstr ""
+"Pas aan wat bij het huis hoort (de naam, de categorie, de bijzonderheden van"
+" de inname) en sla daarna op."
+
+#: ../../content/belgique/sam-base-medicaments.md:71
+msgid ""
+"For a preparation, a food supplement or any product SAM does not list, tick "
+"**Not in SAM: Typed In**: the form opens empty, to fill in by hand."
+msgstr ""
+"Vink voor een bereiding, een voedingssupplement of elk product dat SAM niet "
+"vermeldt **Niet in SAM: met de hand ingevuld** aan: het formulier opent "
+"leeg, om met de hand in te vullen."
+
+#: ../../content/belgique/sam-base-medicaments.md:74
+msgid ""
+"While a **SAM Package** is linked, the identity of the package — **CNK "
+"Code**, **Active Ingredient**, **Form**, **Strength**, **Manufacturer**, "
+"**Prescription Required**, the SmPC, leaflet and BCFI links — is read-only. "
+"Pick another package to change it."
+msgstr ""
+"Zolang een **SAM-verpakking** gekoppeld is, is de identiteit van de "
+"verpakking — **CNK-code**, **Werkzame stof**, **Vorm**, **Sterkte**, "
+"**Fabrikant**, **Voorschrift vereist**, de links naar SKP, bijsluiter en "
+"BCFI — alleen-lezen. Kies een andere verpakking om ze te wijzigen."
+
+#: ../../content/belgique/sam-base-medicaments.md:81
+msgid "What the medicine record shows from SAM"
+msgstr "Wat de fiche van het geneesmiddel uit SAM toont"
+
+#: ../../content/belgique/sam-base-medicaments.md:83
+msgid ""
+"Next to the name, badges show what the SAM obligations want seen at a "
+"glance: **▼ Additional monitoring** (the black triangle), **RMA**, "
+"**Narcotic**, **Specially regulated**, **INN prescription required**, "
+"**Chapter IV**, **Chapter VIII**, **Cheap**, **Orphan drug**. Banners above "
+"the name announce a **supply problem declared to the FAMHP** (with its "
+"expected end), a medicine **no longer commercialised**, and the **RMA key "
+"messages**."
+msgstr ""
+"Naast de naam tonen badges wat de SAM-verplichtingen in één oogopslag "
+"zichtbaar willen: **▼ Aanvullende monitoring** (de zwarte driehoek), "
+"**RMA**, **Verdovend middel**, **Bijzonder gereglementeerd**, **Voorschrift "
+"op stofnaam verplicht**, **Hoofdstuk IV**, **Hoofdstuk VIII**, **Goedkoop**,"
+" **Weesgeneesmiddel**. Banners boven de naam melden een **bij het FAGG "
+"gemeld bevoorradingsprobleem** (met het verwachte einde), een geneesmiddel "
+"dat **niet langer gecommercialiseerd** is, en de **RMA-kernboodschappen**."
+
+#: ../../content/belgique/sam-base-medicaments.md:90
+msgid ""
+"For a medicine synchronised with the central service, the **SAM** tab holds:"
+msgstr ""
+"Voor een geneesmiddel dat met de centrale dienst gesynchroniseerd is, bevat "
+"het tabblad **SAM**:"
+
+#: ../../content/belgique/sam-base-medicaments.md:11
+msgid "Group"
+msgstr "Groep"
+
+#: ../../content/belgique/sam-base-medicaments.md:11
+msgid "What it shows"
+msgstr "Wat het toont"
+
+#: ../../content/belgique/sam-base-medicaments.md:11
+msgid "**Identity**"
+msgstr "**Identiteit**"
+
+#: ../../content/belgique/sam-base-medicaments.md:11
+msgid "SAM name, pack size, SAM status, CTI-extended."
+msgstr "SAM-naam, verpakkingsgrootte, SAM-status, CTI-extended."
+
+#: ../../content/belgique/sam-base-medicaments.md:11
+msgid "**Price and reimbursement**"
+msgstr "**Prijs en terugbetaling**"
+
+#: ../../content/belgique/sam-base-medicaments.md:11
+msgid ""
+"Delivery environment, SAM public price, reimbursable or not, reimbursement "
+"category, patient fee (ordinary and preferential)."
+msgstr ""
+"Afleveringsomgeving, SAM-publieksprijs, terugbetaalbaar of niet, "
+"terugbetalingscategorie, remgeld (gewoon en voorkeur)."
+
+#: ../../content/belgique/sam-base-medicaments.md:11
+msgid "**Availability**"
+msgstr "**Beschikbaarheid**"
+
+#: ../../content/belgique/sam-base-medicaments.md:11
+msgid "Commercialised, end of commercialisation, supply problem and its end."
+msgstr ""
+"Gecommercialiseerd, einde van de commercialisering, bevoorradingsprobleem en"
+" het einde ervan."
+
+#: ../../content/belgique/sam-base-medicaments.md:11
+msgid "**Synchronisation**"
+msgstr "**Synchronisatie**"
+
+#: ../../content/belgique/sam-base-medicaments.md:11
+msgid ""
+"Last synchronisation, **Unknown to SAM**; **Search SAM** and **Refresh from "
+"SAM**."
+msgstr ""
+"Laatste synchronisatie, **Onbekend bij SAM**; **SAM zoeken** en **Vernieuwen"
+" vanuit SAM**."
+
+#: ../../content/belgique/sam-base-medicaments.md:11
+msgid "**Regulatory information**"
+msgstr "**Regelgevende informatie**"
+
+#: ../../content/belgique/sam-base-medicaments.md:11
+msgid ""
+"Delivery conditions, special regulation, INN prescription, black triangle, "
+"reimbursement chapters, cheap, orphan drug."
+msgstr ""
+"Afleveringsvoorwaarden, bijzondere reglementering, voorschrift op stofnaam, "
+"zwarte driehoek, terugbetalingshoofdstukken, goedkoop, weesgeneesmiddel."
+
+#: ../../content/belgique/sam-base-medicaments.md:11
+msgid "**Documents**"
+msgstr "**Documenten**"
+
+#: ../../content/belgique/sam-base-medicaments.md:11
+msgid ""
+"RMA material for professionals and for patients, DHPC, the link to report an"
+" adverse reaction."
+msgstr ""
+"RMA-materiaal voor zorgverleners en voor patiënten, DHPC, de link om een "
+"bijwerking te melden."
+
+#: ../../content/belgique/sam-base-medicaments.md:101
+msgid ""
+"In the catalogue list, a medicine with a supply problem is shown in orange "
+"and one no longer commercialised is greyed out. Filters: **Supply problem**,"
+" **No longer commercialised**, **Without CNK**, **Unknown to SAM**, "
+"**Additional monitoring ▼**, **Narcotics**, **Chapter IV**, **With CNK**."
+msgstr ""
+"In de lijst van de catalogus wordt een geneesmiddel met een "
+"bevoorradingsprobleem in het oranje getoond en een geneesmiddel dat niet "
+"langer gecommercialiseerd is, grijs. Filters: **Bevoorradingsprobleem**, "
+"**Niet langer gecommercialiseerd**, **Zonder CNK**, **Onbekend bij SAM**, "
+"**Aanvullende monitoring ▼**, **Verdovende middelen**, **Hoofdstuk IV**, "
+"**Met CNK**."
+
+#: ../../content/belgique/sam-base-medicaments.md:108
+msgid "The SAM database"
+msgstr "De SAM-database"
+
+#: ../../content/belgique/sam-base-medicaments.md:110
+msgid ""
+"On the Medicines workstation, **Catalogue** tab, **SAM Database** opens the "
+"local copy of SAM, read-only. The list shows the CNK code, the name, the "
+"active ingredient, the ATC code, the form, the manufacturer and whether the "
+"package is already **in the catalogue**."
+msgstr ""
+"Op de werkpost Geneesmiddelen, tabblad **Catalogus**, opent **SAM-database**"
+" de lokale kopie van SAM, alleen-lezen. De lijst toont de CNK-code, de naam,"
+" de werkzame stof, de ATC-code, de vorm, de fabrikant en of de verpakking al"
+" **in de catalogus** staat."
+
+#: ../../content/belgique/sam-base-medicaments.md:115
+msgid "**Search** by name or CNK."
+msgstr "**Zoeken** op naam of CNK."
+
+#: ../../content/belgique/sam-base-medicaments.md:116
+msgid ""
+"**Filters**: **Prescription Required**, **Black Triangle**, **With CNK**; "
+"groupings by **ATC Code**, **Form** and **Manufacturer**."
+msgstr ""
+"**Filters**: **Voorschrift vereist**, **Zwarte Driehoek**, **Met CNK**; "
+"groeperingen op **ATC-code**, **Vorm** en **Fabrikant**."
+
+#: ../../content/belgique/sam-base-medicaments.md:118
+msgid ""
+"A record details the identification (CNK, official name, manufacturer), the "
+"classification (ATC code and description, BCFI class, prescription required,"
+" black triangle, delivery mode), the pharmaceutical form and route (FR and "
+"NL), the active ingredient, and the official documents (SmPC and leaflet in "
+"French and Dutch, BCFI page)."
+msgstr ""
+"Een fiche toont de identificatie (CNK, officiële naam, fabrikant), de "
+"classificatie (ATC-code en beschrijving, BCFI-klasse, voorschrift vereist, "
+"zwarte driehoek, afleveringswijze), de farmaceutische vorm en de "
+"toedieningsweg (FR en NL), de werkzame stof, en de officiële documenten (SKP"
+" en bijsluiter in het Frans en het Nederlands, BCFI-pagina)."
+
+#: ../../content/belgique/sam-base-medicaments.md:124
+msgid ""
+"Tick one or more packages and click **Add to Catalogue**: each becomes a "
+"medicine of the catalogue, filled from SAM."
+msgstr ""
+"Vink een of meer verpakkingen aan en klik op **Toevoegen aan de catalogus**:"
+" elke verpakking wordt een geneesmiddel van de catalogus, ingevuld vanuit "
+"SAM."
+
+#: ../../content/belgique/sam-base-medicaments.md:129
+msgid "Search SAM for a medicine already kept"
+msgstr "Een geneesmiddel dat al in de catalogus staat opzoeken in SAM"
+
+#: ../../content/belgique/sam-base-medicaments.md:131
+msgid ""
+"On a medicine's **SAM** tab, **Search SAM** (medication manager) opens the "
+"search window, pre-filled with the medicine's name:"
+msgstr ""
+"Op het tabblad **SAM** van een geneesmiddel opent **SAM zoeken** "
+"(medicatieverantwoordelijke) het zoekvenster, vooraf ingevuld met de naam "
+"van het geneesmiddel:"
+
+#: ../../content/belgique/sam-base-medicaments.md:134
+msgid ""
+"Choose **By Name** or **By CNK Code**, type the term and click **Search "
+"SAM**. The search ignores accents and accepts several words (*Amlodipine "
+"5mg*)."
+msgstr ""
+"Kies **Op naam** of **Op CNK-code**, typ de zoekterm en klik op **SAM "
+"zoeken**. De zoekopdracht negeert accenten en aanvaardt meerdere woorden "
+"(*Amlodipine 5mg*)."
+
+#: ../../content/belgique/sam-base-medicaments.md:137
+msgid ""
+"The results show, per package, the CNK, the black triangle, the name, the "
+"active ingredient, the strength, the form, the price, *cheap*, *off market* "
+"and *narcotic*, and in optional columns the manufacturer, the ATC code, the "
+"BCFI class and the SmPC and leaflet links. **In Catalog** says whether the "
+"package is already in the catalogue."
+msgstr ""
+"De resultaten tonen per verpakking de CNK, de zwarte driehoek, de naam, de "
+"werkzame stof, de sterkte, de vorm, de prijs, *goedkoop*, *uit de handel* en"
+" *verdovend middel*, en in optionele kolommen de fabrikant, de ATC-code, de "
+"BCFI-klasse en de links naar SKP en bijsluiter. **In de catalogus** zegt of "
+"de verpakking al in de catalogus staat."
+
+#: ../../content/belgique/sam-base-medicaments.md:142
+msgid ""
+"Toggle **Select** on the right package, then **Update Medication** (or "
+"**Import Selected** to add packages to the catalogue). **Search Again** "
+"starts over."
+msgstr ""
+"Zet **Selecteren** aan op de juiste verpakking en klik daarna op "
+"**Geneesmiddel bijwerken** (of **Selectie importeren** om verpakkingen aan "
+"de catalogus toe te voegen). **Opnieuw zoeken** begint opnieuw."
+
+#: ../../content/belgique/sam-base-medicaments.md:146
+msgid ""
+"A package whose CNK is already in the catalogue **updates** that medicine, "
+"which keeps the name the house gave it, instead of creating a second one."
+msgstr ""
+"Een verpakking waarvan de CNK al in de catalogus staat, **actualiseert** dat"
+" geneesmiddel, dat de naam behoudt die het huis eraan gaf, in plaats van een"
+" tweede aan te maken."
+
+#: ../../content/belgique/sam-base-medicaments.md:149
+msgid ""
+"**Refresh from SAM** reads the SAM data of a medicine again from its CNK."
+msgstr ""
+"**Vernieuwen vanuit SAM** leest de SAM-gegevens van een geneesmiddel opnieuw"
+" op basis van zijn CNK."
+
+#: ../../content/belgique/sam-base-medicaments.md:151
+msgid "The catalogue without CNK"
+msgstr "De catalogus zonder CNK"
+
+#: ../../content/belgique/sam-base-medicaments.md:153
+msgid ""
+"A medicine without a CNK code cannot be found by a pharmacy. The Medicines "
+"workstation shows a **Without CNK** smart button, and **Catalogue Without "
+"CNK** in its **Catalogue** tab, as long as such medicines remain. Link each "
+"one to its SAM package, or tick **Not in SAM: Typed In** for a product SAM "
+"does not list."
+msgstr ""
+"Een geneesmiddel zonder CNK-code kan door een apotheek niet worden gevonden."
+" De werkpost Geneesmiddelen toont een slimme knop **Zonder CNK**, en "
+"**Catalogus zonder CNK** in het tabblad **Catalogus**, zolang er zulke "
+"geneesmiddelen overblijven. Koppel elk ervan aan zijn SAM-verpakking, of "
+"vink **Niet in SAM: met de hand ingevuld** aan voor een product dat SAM niet"
+" vermeldt."
+
+#: ../../content/belgique/sam-base-medicaments.md:161
+msgid ""
+"SAM is the **official Belgian medicines database**, the starting point of "
+"the catalogue."
+msgstr ""
+"SAM is de **officiële Belgische geneesmiddelendatabank**, het vertrekpunt "
+"van de catalogus."
+
+#: ../../content/belgique/sam-base-medicaments.md:163
+msgid ""
+"**New** in the catalogue starts with one search in SAM; the package fills "
+"the record and keeps its identity read-only."
+msgstr ""
+"**Nieuw** in de catalogus begint met één zoekopdracht in SAM; de verpakking "
+"vult de fiche in en houdt haar identiteit alleen-lezen."
+
+#: ../../content/belgique/sam-base-medicaments.md:165
+msgid ""
+"The **SAM Database** door of the workstation lists the packages; **Add to "
+"Catalogue** imports them."
+msgstr ""
+"De ingang **SAM-database** van de werkpost toont de verpakkingen; "
+"**Toevoegen aan de catalogus** importeert ze."
+
+#: ../../content/belgique/sam-base-medicaments.md:167
+msgid ""
+"With the **central service**, the SAM tab shows price, reimbursement, "
+"availability and regulatory information, refreshed every night."
+msgstr ""
+"Met de **centrale dienst** toont het tabblad SAM de prijs, de terugbetaling,"
+" de beschikbaarheid en de regelgevende informatie, elke nacht vernieuwd."
+
+#: ../../content/belgique/sam-base-medicaments.md:169
+msgid ""
+"SAM carries **no clinical text**: indications, contraindications and "
+"allergens are the house's to record."
+msgstr ""
+"SAM bevat **geen klinische tekst**: indicaties, contra-indicaties en "
+"allergenen moet het huis zelf registreren."
+
+#: ../../content/belgique/sam-base-medicaments.md:174
+msgid "[The medicine catalogue](../medicaments/catalogue.md)"
+msgstr "[De geneesmiddelencatalogus](../medicaments/catalogue.md)"
+
+#: ../../content/belgique/sam-base-medicaments.md:175
+msgid "[Medication rules in Belgium](medicaments-regles.md)"
+msgstr "[Medicatieregels in België](medicaments-regles.md)"
+
+#: ../../content/belgique/sam-base-medicaments.md:176
+msgid "[The pharmacy link](medicaments-lien-pharmacie.md)"
+msgstr "[De koppeling met de apotheek](medicaments-lien-pharmacie.md)"

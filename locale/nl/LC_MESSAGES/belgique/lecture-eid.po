@@ -1,0 +1,273 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-23 15:49+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: nl <LL@li.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/belgique/lecture-eid.md:5
+msgid "Reading the eID card"
+msgstr "De eID-kaart lezen"
+
+#: ../../content/belgique/lecture-eid.md:8
+msgid ""
+"Read the Belgian eID card in Resthome to fill in a candidate's or a "
+"resident's identity and NISS from the chip, on the admission request, on a "
+"record or to create a new contact."
+msgstr ""
+"Lees de Belgische eID-kaart in Resthome om de identiteit en het INSZ van een"
+" kandidaat of een bewoner vanaf de chip in te vullen, op de opnameaanvraag, "
+"op een fiche of om een nieuw contact aan te maken."
+
+#: ../../content/belgique/lecture-eid.md:12
+msgid "What do I need to read an eID card?"
+msgstr "Wat heb ik nodig om een eID-kaart te lezen?"
+
+#: ../../content/belgique/lecture-eid.md:13
+msgid ""
+"A card reader on a Windows workstation, the Belgian eID middleware, and the "
+"eID reader program of Resthome. When the reader does not answer, Resthome "
+"offers **Install the eID reader on this computer**; it installs for your "
+"Windows user, without administrator rights."
+msgstr ""
+"Een kaartlezer op een Windows-werkpost, de Belgische eID-middleware en het "
+"eID-leesprogramma van Resthome. Wanneer de lezer niet antwoordt, biedt "
+"Resthome **De eID-lezer op deze computer installeren** aan; die installeert "
+"zich voor uw Windows-gebruiker, zonder beheerdersrechten."
+
+#: ../../content/belgique/lecture-eid.md:15
+msgid "What does the card fill in?"
+msgstr "Wat vult de kaart in?"
+
+#: ../../content/belgique/lecture-eid.md:16
+msgid ""
+"The name, the NISS, the date of birth, the gender, the nationality, the "
+"place of birth and the address, the card number, the chip number and the "
+"validity dates, and the photo."
+msgstr ""
+"De naam, het INSZ, de geboortedatum, het geslacht, de nationaliteit, de "
+"geboorteplaats en het adres, het kaartnummer, het chipnummer en de "
+"geldigheidsdata, en de foto."
+
+#: ../../content/belgique/lecture-eid.md:18
+msgid "Does reading a card create a duplicate?"
+msgstr "Maakt het lezen van een kaart een dubbel aan?"
+
+#: ../../content/belgique/lecture-eid.md:19
+msgid ""
+"No. Read from a record, the card updates that record. Read from **New "
+"Partner via eID**, it updates the contact of the company that already has "
+"the card's NISS, and only creates one when nobody has it."
+msgstr ""
+"Neen. Gelezen vanaf een fiche werkt de kaart die fiche bij. Gelezen vanuit "
+"**Nieuw contact via eID-kaart** werkt ze het contact van de vennootschap bij"
+" dat het INSZ van de kaart al heeft, en maakt ze er alleen een aan wanneer "
+"niemand het heeft."
+
+#: ../../content/belgique/lecture-eid.md:21
+msgid "Does the card fill in the relative who calls for an admission?"
+msgstr "Vult de kaart de naaste in die belt voor een opname?"
+
+#: ../../content/belgique/lecture-eid.md:22
+msgid ""
+"No. On an admission request, the card always fills in the candidate behind "
+"the request, never the relative who enquires."
+msgstr ""
+"Neen. Op een opnameaanvraag vult de kaart altijd de kandidaat achter de "
+"aanvraag in, nooit de naaste die informatie vraagt."
+
+#: ../../content/belgique/lecture-eid.md:24
+msgid "Why does the reader ask me to confirm a server?"
+msgstr "Waarom vraagt de lezer mij een server te bevestigen?"
+
+#: ../../content/belgique/lecture-eid.md:25
+msgid ""
+"The first time it sends a card to a server, the reader asks whether that "
+"server may receive it, then remembers your answer. It only sends to a secure"
+" (https) address when the server is not your own workstation."
+msgstr ""
+"De eerste keer dat hij een kaart naar een server stuurt, vraagt de lezer of "
+"die server ze mag ontvangen, en onthoudt hij uw antwoord. Hij verstuurt "
+"alleen naar een beveiligd adres (https) wanneer de server niet uw eigen "
+"werkpost is."
+
+#: ../../content/belgique/lecture-eid.md:28
+msgid ""
+"Typing an identity is where a NISS gets a transposed digit. Reading the "
+"**Belgian eID card** fills in the identity from the chip itself."
+msgstr ""
+"Bij het intypen van een identiteit krijgt een INSZ een omgewisseld cijfer. "
+"De **Belgische eID-kaart** lezen vult de identiteit in vanaf de chip zelf."
+
+#: ../../content/belgique/lecture-eid.md:31
+msgid "Before the first reading"
+msgstr "Vóór de eerste lezing"
+
+#: ../../content/belgique/lecture-eid.md:33
+msgid "On each workstation that reads cards:"
+msgstr "Op elke werkpost die kaarten leest:"
+
+#: ../../content/belgique/lecture-eid.md:35
+msgid ""
+"a **card reader**, and the **Belgian eID middleware** (the official eID "
+"software);"
+msgstr ""
+"een **kaartlezer**, en de **Belgische eID-middleware** (de officiële eID-"
+"software);"
+
+#: ../../content/belgique/lecture-eid.md:37
+msgid ""
+"the **eID reader** program of Resthome, which runs on **Windows** only."
+msgstr ""
+"het programma **eID-lezer** van Resthome, dat alleen onder **Windows** "
+"werkt."
+
+#: ../../content/belgique/lecture-eid.md:39
+msgid ""
+"When the reader does not answer, Resthome says so and offers **Install the "
+"eID reader on this computer**. Download it, double-click it: it installs for"
+" your Windows user, with no administrator rights. Then click **Read eID "
+"Card** again."
+msgstr ""
+"Wanneer de lezer niet antwoordt, meldt Resthome dat en biedt het **De eID-"
+"lezer op deze computer installeren** aan. Download hem en dubbelklik erop: "
+"hij installeert zich voor uw Windows-gebruiker, zonder beheerdersrechten. "
+"Klik daarna opnieuw op **eID-kaart lezen**."
+
+#: ../../content/belgique/lecture-eid.md:43
+msgid "The reader checks where the card goes"
+msgstr "De lezer controleert waar de kaart naartoe gaat"
+
+#: ../../content/belgique/lecture-eid.md:46
+msgid ""
+"The first time it sends a card to a server, the reader asks you whether that"
+" server may receive it, then remembers your answer. Outside your own "
+"workstation it only sends to a secure (**https**) address. A web page cannot"
+" divert the identity, the photo or a signature from the card."
+msgstr ""
+"De eerste keer dat hij een kaart naar een server stuurt, vraagt de lezer u "
+"of die server ze mag ontvangen, en onthoudt hij uw antwoord. Buiten uw eigen"
+" werkpost verstuurt hij alleen naar een beveiligd adres (**https**). Een "
+"webpagina kan de identiteit, de foto of een handtekening van de kaart niet "
+"omleiden."
+
+#: ../../content/belgique/lecture-eid.md:52
+msgid "On an admission request"
+msgstr "Op een opnameaanvraag"
+
+#: ../../content/belgique/lecture-eid.md:54
+msgid "Insert the card in the reader."
+msgstr "Steek de kaart in de lezer."
+
+#: ../../content/belgique/lecture-eid.md:55
+msgid "Open the admission request and click **Read eID Card** in its header."
+msgstr "Open de opnameaanvraag en klik op **eID-kaart lezen** in de koptekst."
+
+#: ../../content/belgique/lecture-eid.md:56
+msgid "Wait for the message: reading takes up to 30 seconds."
+msgstr "Wacht op het bericht: het lezen duurt tot 30 seconden."
+
+#: ../../content/belgique/lecture-eid.md:58
+msgid ""
+"The card fills in the **candidate** behind the request — never the relative "
+"who enquires — and the request takes the name read from the chip. The NISS, "
+"the date of birth, the gender, the nationality, the place of birth and the "
+"card shown on the request take the card's values. Each change is tracked in "
+"the request's thread, in the name of the user who clicked."
+msgstr ""
+"De kaart vult de **kandidaat** achter de aanvraag in — nooit de naaste die "
+"informatie vraagt — en de aanvraag neemt de naam over die van de chip wordt "
+"gelezen. Het INSZ, de geboortedatum, het geslacht, de nationaliteit, de "
+"geboorteplaats en de kaart die op de aanvraag staan, nemen de waarden van de"
+" kaart over. Elke wijziging wordt bijgehouden in de chatter van de aanvraag,"
+" op naam van de gebruiker die klikte."
+
+#: ../../content/belgique/lecture-eid.md:64
+msgid ""
+"If you start a new reading while a previous one is still waiting, the "
+"previous one stops: no forgotten \"please wait\"."
+msgstr ""
+"Als u een nieuwe lezing start terwijl een vorige nog wacht, stopt de vorige:"
+" geen vergeten \"even geduld\"."
+
+#: ../../content/belgique/lecture-eid.md:67
+msgid "See [Admitting a resident in Belgium](admission.md)."
+msgstr "Zie [Een bewoner opnemen in België](admission.md)."
+
+#: ../../content/belgique/lecture-eid.md:69
+msgid "On a resident's or a contact's record"
+msgstr "Op de fiche van een bewoner of een contact"
+
+#: ../../content/belgique/lecture-eid.md:71
+msgid ""
+"**Read eID Card**, in the header of the record, updates that person from the"
+" card: identity, NISS, address and photo."
+msgstr ""
+"**eID-kaart lezen**, in de koptekst van de fiche, werkt die persoon bij "
+"vanaf de kaart: identiteit, INSZ, adres en foto."
+
+#: ../../content/belgique/lecture-eid.md:74
+msgid "The **eID Card** tab of the record keeps:"
+msgstr "Het tabblad **eID-kaart** van de fiche bewaart:"
+
+#: ../../content/belgique/lecture-eid.md:76
+msgid "**eID Card Number** and **eID Chip Number**;"
+msgstr "**eID-kaartnummer** en **eID-chipnummer**;"
+
+#: ../../content/belgique/lecture-eid.md:77
+msgid "**eID Valid From** and **eID Valid Until**;"
+msgstr "**eID-kaart geldig vanaf** en **eID-kaart geldig tot**;"
+
+#: ../../content/belgique/lecture-eid.md:78
+msgid "**Place of Birth**."
+msgstr "**Geboorteplaats**."
+
+#: ../../content/belgique/lecture-eid.md:80
+msgid ""
+"The NISS identifies the **person** for life; the card number identifies the "
+"**card**, which expires and is renewed."
+msgstr ""
+"Het INSZ identificeert de **persoon** levenslang; het kaartnummer "
+"identificeert de **kaart**, die vervalt en vernieuwd wordt."
+
+#: ../../content/belgique/lecture-eid.md:83
+msgid "Creating a contact from a card"
+msgstr "Een contact aanmaken vanaf een kaart"
+
+#: ../../content/belgique/lecture-eid.md:85
+msgid ""
+"**Contacts → New Partner via eID** reads the card and opens the person: "
+"found by NISS when they already exist in the company, created otherwise."
+msgstr ""
+"**Contacten → Nieuw contact via eID-kaart** leest de kaart en opent de "
+"persoon: teruggevonden via het INSZ wanneer ze al in de vennootschap "
+"bestaat, anders aangemaakt."
+
+#: ../../content/belgique/lecture-eid.md:88
+msgid "What's next"
+msgstr "Hoe verder"
+
+#: ../../content/belgique/lecture-eid.md:90
+msgid "[Admitting a resident in Belgium](admission.md)"
+msgstr "[Een bewoner opnemen in België](admission.md)"
+
+#: ../../content/belgique/lecture-eid.md:91
+msgid "[The resident's file in Belgium](dossier-resident.md)"
+msgstr "[Het dossier van de bewoner in België](dossier-resident.md)"
+
+#: ../../content/belgique/lecture-eid.md:92
+msgid ""
+"[Insurability (MDA)](ehealth/mda.md) — once the NISS is in, check the "
+"insurability."
+msgstr ""
+"[Verzekerbaarheid (MDA)](ehealth/mda.md) — zodra het INSZ ingevuld is, "
+"controleert u de verzekerbaarheid."

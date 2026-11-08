@@ -36,14 +36,6 @@ msgstr ""
 msgid "In what order should I close a billing month in Resthome?"
 msgstr "In welke volgorde sluit ik een facturatiemaand af in Resthome?"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:13
-msgid ""
-"Close the absences, enter the supplements, generate the period, create and "
-"confirm the invoices, then close the period."
-msgstr ""
-"De afwezigheden afsluiten, de supplementen invoeren, de periode genereren, "
-"de facturen aanmaken en bevestigen, en daarna de periode afsluiten."
-
 #: ../../content/facturation/checklist-fin-de-mois.md:15
 msgid "What happens if I forget to close an absence?"
 msgstr "Wat gebeurt er als ik vergeet een afwezigheid af te sluiten?"
@@ -77,12 +69,6 @@ msgstr ""
 msgid "How do I know the month is really finished?"
 msgstr "Hoe weet ik dat de maand echt is afgerond?"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:22
-msgid "When no invoice is left in draft and the period is Closed."
-msgstr ""
-"Wanneer er geen enkele factuur meer in concept staat en de periode de status"
-" Gesloten heeft."
-
 #: ../../content/facturation/checklist-fin-de-mois.md:25
 msgid ""
 "This page gathers, **in order**, everything a month-end requires. Each step "
@@ -105,18 +91,18 @@ msgstr ""
 msgid "Overview"
 msgstr "Overzicht"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:41
+#: ../../content/facturation/checklist-fin-de-mois.md:42
 msgid "Before generating"
 msgstr "Vóór het genereren"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:43
-#: ../../content/facturation/checklist-fin-de-mois.md:69
-#: ../../content/facturation/checklist-fin-de-mois.md:91
-#: ../../content/facturation/checklist-fin-de-mois.md:122
+#: ../../content/facturation/checklist-fin-de-mois.md:51
+#: ../../content/facturation/checklist-fin-de-mois.md:79
+#: ../../content/facturation/checklist-fin-de-mois.md:105
+#: ../../content/facturation/checklist-fin-de-mois.md:139
 msgid "In Belgium"
 msgstr "In België"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:46
+#: ../../content/facturation/checklist-fin-de-mois.md:54
 msgid ""
 "The month starts with a batch **insurability** check (MDA), which confirms "
 "who is insured and which mutuality actually responds; its results are loaded"
@@ -128,11 +114,11 @@ msgstr ""
 "resultaten ervan worden geladen bij het genereren van de periode. Zie [Een "
 "maand factureren in België](../belgique/facturation.md)."
 
-#: ../../content/facturation/checklist-fin-de-mois.md:52
+#: ../../content/facturation/checklist-fin-de-mois.md:60
 msgid "1. Close the absences"
 msgstr "1\\. Afwezigheden afsluiten"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:54
+#: ../../content/facturation/checklist-fin-de-mois.md:62
 msgid ""
 "Every absence in the month must have its **return** filled in — or be "
 "knowingly left open if the resident is still away."
@@ -140,7 +126,7 @@ msgstr ""
 "Elke afwezigheid van de maand moet haar **terugkeer** ingevuld hebben — of "
 "bewust open blijven als de bewoner nog afwezig is."
 
-#: ../../content/facturation/checklist-fin-de-mois.md:57
+#: ../../content/facturation/checklist-fin-de-mois.md:65
 msgid ""
 "The period's **Absences** counter shows the absences taken into account. An "
 "open absence distorts the day count, and therefore the amounts billed."
@@ -149,25 +135,15 @@ msgstr ""
 "rekening wordt gehouden. Een openstaande afwezigheid vertekent de "
 "dagentelling en dus de gefactureerde bedragen."
 
-#: ../../content/facturation/checklist-fin-de-mois.md:60
+#: ../../content/facturation/checklist-fin-de-mois.md:68
 msgid "→ [Absences and hospitalisations](absences.md)"
 msgstr "→ [Afwezigheden en ziekenhuisopnames](absences.md)"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:62
+#: ../../content/facturation/checklist-fin-de-mois.md:70
 msgid "2. Enter the supplements"
 msgstr "2\\. Supplementen invoeren"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:64
-msgid ""
-"One-off supplements for the month (hairdresser, pedicure, drinks…) must be "
-"entered **before** generating. Recurring supplements carry over on their "
-"own."
-msgstr ""
-"De eenmalige supplementen van de maand (kapper, pedicure, dranken…) moeten "
-"**vóór** het genereren worden ingevoerd. Terugkerende supplementen worden "
-"vanzelf hernieuwd."
-
-#: ../../content/facturation/checklist-fin-de-mois.md:67
+#: ../../content/facturation/checklist-fin-de-mois.md:77
 msgid ""
 "→ [Supplements](supplements.md) · [The Supplements app](application-"
 "supplements.md)"
@@ -175,7 +151,7 @@ msgstr ""
 "→ [Supplementen](supplements.md) · [De toepassing Supplementen](application-"
 "supplements.md)"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:72
+#: ../../content/facturation/checklist-fin-de-mois.md:82
 msgid ""
 "The **Katz** assessments must be up to date: a missing or expired one leaves"
 " the resident in category O. The **Katz to do** counter lists them. See [The"
@@ -185,15 +161,15 @@ msgstr ""
 "evaluatie laat de bewoner in categorie O. De teller **Katz te doen** geeft "
 "ze weer. Zie [De Katz-evaluatie](../belgique/katz.md)."
 
-#: ../../content/facturation/checklist-fin-de-mois.md:77
+#: ../../content/facturation/checklist-fin-de-mois.md:87
 msgid "Generating and invoicing"
 msgstr "Genereren en factureren"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:79
+#: ../../content/facturation/checklist-fin-de-mois.md:89
 msgid "3. Generate the period"
 msgstr "3\\. De periode genereren"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:81
+#: ../../content/facturation/checklist-fin-de-mois.md:91
 msgid ""
 "Open the month's period and click **Generate**. Resthome computes, for each "
 "resident, the accommodation, the supplements and the medication — and the "
@@ -204,21 +180,11 @@ msgstr ""
 "zorgforfait, waar het landpakket er een factureert — en past de afwezigheden"
 " toe."
 
-#: ../../content/facturation/checklist-fin-de-mois.md:85
-msgid ""
-"Review the **Residents** and **Billing Lines** tabs, and any message "
-"Resthome posts in the period's thread: they are there to be acted on before "
-"invoicing, not after."
-msgstr ""
-"Controleer de tabbladen **Bewoners** en **Factureringslijnen**, en elk "
-"bericht dat Resthome in de berichtendraad van de periode plaatst: ze zijn er"
-" om vóór het factureren te behandelen, niet erna."
-
-#: ../../content/facturation/checklist-fin-de-mois.md:89
+#: ../../content/facturation/checklist-fin-de-mois.md:103
 msgid "→ [Billing a month, step by step](facturer-un-mois.md)"
 msgstr "→ [Een maand factureren, stap voor stap](facturer-un-mois.md)"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:94
+#: ../../content/facturation/checklist-fin-de-mois.md:108
 msgid ""
 "Before creating the invoices, run **Check MDA** on the generated period, "
 "then **Generate eFact**: the batches are built from the period's lines, not "
@@ -230,31 +196,19 @@ msgstr ""
 "opgebouwd uit de lijnen van de periode, niet uit de facturen. Zie [Een maand"
 " factureren in België](../belgique/facturation.md)."
 
-#: ../../content/facturation/checklist-fin-de-mois.md:99
+#: ../../content/facturation/checklist-fin-de-mois.md:113
 msgid "4. Create the invoices"
 msgstr "4\\. De facturen aanmaken"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:101
-msgid ""
-"Click **Create Invoices**, check the draft invoices, then confirm them. The "
-"resident's share becomes an invoice; where a split is set up, each "
-"maintenance debtor — a relative, a public welfare body — receives their "
-"portion."
-msgstr ""
-"Klik op **Facturen aanmaken**, controleer de conceptfacturen en bevestig ze "
-"daarna. Het bewonersaandeel wordt een factuur; waar een verdeling is "
-"ingesteld, ontvangt elke onderhoudsplichtige — een naaste, een openbare "
-"welzijnsinstelling — zijn deel."
-
-#: ../../content/facturation/checklist-fin-de-mois.md:105
+#: ../../content/facturation/checklist-fin-de-mois.md:120
 msgid "→ [Split billing](../facturation-partagee/index.md)"
 msgstr "→ [Gedeelde facturatie](../facturation-partagee/index.md)"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:107
+#: ../../content/facturation/checklist-fin-de-mois.md:122
 msgid "After this point, corrections have a cost"
 msgstr "Na dit punt heeft corrigeren een prijs"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:110
+#: ../../content/facturation/checklist-fin-de-mois.md:125
 msgid ""
 "Once invoices are **posted**, Resthome no longer modifies them "
 "automatically. A correction goes through a **reset to draft** or a **credit "
@@ -266,24 +220,15 @@ msgstr ""
 " een **creditnota**, gevolgd door een vernieuwing. Dat is een bescherming "
 "tegen dubbele facturatie, geen hindernis."
 
-#: ../../content/facturation/checklist-fin-de-mois.md:115
+#: ../../content/facturation/checklist-fin-de-mois.md:130
 msgid "Closing the month"
 msgstr "De maand afsluiten"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:117
+#: ../../content/facturation/checklist-fin-de-mois.md:132
 msgid "5. Close the period"
 msgstr "5\\. De periode afsluiten"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:119
-msgid ""
-"Once no invoice is left in draft, click **Close Period**. If the button does"
-" not show, the message under the header says what is still blocking."
-msgstr ""
-"Zodra er geen factuur meer in concept staat, klikt u op **Periode sluiten**."
-" Als de knop niet verschijnt, geeft het bericht onder de koptekst aan wat "
-"nog blokkeert."
-
-#: ../../content/facturation/checklist-fin-de-mois.md:125
+#: ../../content/facturation/checklist-fin-de-mois.md:142
 msgid ""
 "Before the close, the eFact batches built at step 3 — one per union — are "
 "sent by the **20th of the following month**, then followed up — "
@@ -297,363 +242,212 @@ msgstr ""
 "verworpen lijnen en saldi — in de **eFact-cockpit**. Zie [Een maand "
 "factureren in België](../belgique/facturation.md)."
 
-#: ../../content/facturation/checklist-fin-de-mois.md:131
+#: ../../content/facturation/checklist-fin-de-mois.md:148
 msgid "Quick checklist"
 msgstr "Snelle checklist"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:122
+#: ../../content/facturation/checklist-fin-de-mois.md:139
 msgid "#"
 msgstr "#"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:122
+#: ../../content/facturation/checklist-fin-de-mois.md:139
 msgid "Step"
 msgstr "Stap"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:122
+#: ../../content/facturation/checklist-fin-de-mois.md:139
 msgid "Done when"
 msgstr "Klaar wanneer"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:122
+#: ../../content/facturation/checklist-fin-de-mois.md:139
 msgid "1"
 msgstr "1"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:122
+#: ../../content/facturation/checklist-fin-de-mois.md:139
 msgid "**Absences**"
 msgstr "**Afwezigheden**"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:122
+#: ../../content/facturation/checklist-fin-de-mois.md:139
 msgid "no unintended open absence"
 msgstr "geen ongewenste openstaande afwezigheid"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:122
+#: ../../content/facturation/checklist-fin-de-mois.md:139
 msgid "2"
 msgstr "2"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:122
+#: ../../content/facturation/checklist-fin-de-mois.md:139
 msgid "**Supplements**"
 msgstr "**Supplementen**"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:122
-msgid "the month's one-off entries are in"
-msgstr "de eenmalige invoeren van de maand zijn gebeurd"
-
-#: ../../content/facturation/checklist-fin-de-mois.md:122
+#: ../../content/facturation/checklist-fin-de-mois.md:139
 msgid "3"
 msgstr "3"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:122
+#: ../../content/facturation/checklist-fin-de-mois.md:139
 msgid "**Generate**"
 msgstr "**Genereren**"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:122
-msgid "the period is Generated, its messages handled"
-msgstr "de periode heeft de status Gegenereerd, de berichten zijn behandeld"
-
-#: ../../content/facturation/checklist-fin-de-mois.md:122
+#: ../../content/facturation/checklist-fin-de-mois.md:139
 msgid "4"
 msgstr "4"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:122
+#: ../../content/facturation/checklist-fin-de-mois.md:139
 msgid "**Invoice**"
 msgstr "**Factureren**"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:122
+#: ../../content/facturation/checklist-fin-de-mois.md:139
 msgid "the resident invoices are created and confirmed"
 msgstr "de bewonersfacturen zijn aangemaakt en bevestigd"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:122
+#: ../../content/facturation/checklist-fin-de-mois.md:139
 msgid "5"
 msgstr "5"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:122
+#: ../../content/facturation/checklist-fin-de-mois.md:139
 msgid "**Close**"
 msgstr "**Afsluiten**"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:122
-msgid "the period is Closed"
-msgstr "de periode heeft de status Gesloten"
-
-#: ../../content/facturation/checklist-fin-de-mois.md:141
+#: ../../content/facturation/checklist-fin-de-mois.md:159
 msgid "Further reading"
 msgstr "Meer weten"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:143
+#: ../../content/facturation/checklist-fin-de-mois.md:161
 msgid "[Billing a month, step by step](facturer-un-mois.md)"
 msgstr "[Een maand factureren, stap voor stap](facturer-un-mois.md)"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:144
+#: ../../content/facturation/checklist-fin-de-mois.md:164
 msgid "[Absences and hospitalisations](absences.md)"
 msgstr "[Afwezigheden en hospitalisaties](absences.md)"
 
-#: ../../content/facturation/checklist-fin-de-mois.md:145
+#: ../../content/facturation/checklist-fin-de-mois.md:165
 msgid "[Billing overview](index.md)"
 msgstr "[Facturatie-overzicht](index.md)"
 
-#~ msgid ""
-#~ "graph LR\n"
-#~ "  A[1. MDA] --> B[2. Absences]\n"
-#~ "  B --> C[3. Katz]\n"
-#~ "  C --> D[4. Supplements]\n"
-#~ "  D --> E[5. Generate]\n"
-#~ "  E --> F[6. Invoice]\n"
-#~ "  F --> G[7. eFact]\n"
-#~ "  G --> H[8. Reconcile]"
-#~ msgstr ""
+#: ../../content/facturation/checklist-fin-de-mois.md:13
+msgid ""
+"Check the arrivals and departures, close the absences, enter the "
+"supplements, generate the period, apply any pending invoice type, create and"
+" confirm the invoices, then close the period."
+msgstr ""
+"De aankomsten en vertrekken controleren, de afwezigheden afsluiten, de "
+"supplementen invoeren, de periode genereren, elk wachtend factuurtype "
+"toepassen, de facturen aanmaken en bevestigen, en daarna de periode "
+"afsluiten."
 
-#~ msgid "Every resident must reach the **Success** status."
-#~ msgstr "Elke bewoner moet de status **Succes** bereiken."
+#: ../../content/facturation/checklist-fin-de-mois.md:22
+msgid ""
+"When no invoice is left in draft, no Corrections pending banner shows, and "
+"the period is Closed."
+msgstr ""
+"Wanneer er geen enkele factuur meer in concept staat, er geen banner "
+"Correcties in behandeling verschijnt en de periode de status Gesloten heeft."
 
-#~ msgid "Retry the **errors** and the **no-responses**."
-#~ msgstr "Herprobeer de **fouten** en de **uitblijvende antwoorden**."
+#: ../../content/facturation/checklist-fin-de-mois.md:44
+msgid "0. Check the arrivals and departures"
+msgstr "0. De aankomsten en vertrekken controleren"
 
-#~ msgid ""
-#~ "→ [Insurability (MDA)](../belgique/ehealth/mda.md) · [MDA "
-#~ "errors](../belgique/ehealth/mda-erreurs.md)"
-#~ msgstr ""
-#~ "→ [Verzekerbaarheid (MDA)](../belgique/ehealth/mda.md) · [MDA-"
-#~ "fouten](../belgique/ehealth/mda-erreurs.md)"
+#: ../../content/facturation/checklist-fin-de-mois.md:46
+msgid ""
+"On the [billing dashboard](tableau-de-bord.md), the **Arrivals and "
+"departures this month** panel lists who came in and who left. Make sure "
+"every departure is recorded with its date, and every new resident has an "
+"active stay and the right [invoice type](type-de-facture.md)."
+msgstr ""
+"Op het [facturatiedashboard](tableau-de-bord.md) toont het paneel "
+"**Aankomsten en vertrekken deze maand** wie binnenkwam en wie vertrok. "
+"Controleer dat elk vertrek met zijn datum geregistreerd is, en dat elke "
+"nieuwe bewoner een actief verblijf en het juiste [factuurtype](type-de-"
+"facture.md) heeft."
 
-#~ msgid ""
-#~ "The Katz category determines the **INAMI flat rate**. A missing or expired "
-#~ "assessment means a resident billed in category **O** — the lowest."
-#~ msgstr ""
-#~ "De Katz-categorie bepaalt het **RIZIV-forfait**. Een ontbrekende of "
-#~ "vervallen evaluatie betekent een bewoner gefactureerd in categorie **O** — "
-#~ "de laagste."
+#: ../../content/facturation/checklist-fin-de-mois.md:72
+msgid ""
+"One-time supplements for the month (hairdresser, pedicure, drinks…) must be "
+"entered **before** generating. Recurring supplements carry over on their "
+"own. With automatic billing refresh turned on, a late entry still reaches "
+"the period on its own."
+msgstr ""
+"De eenmalige supplementen van de maand (kapper, pedicure, dranken…) moeten "
+"**vóór** het genereren worden ingevoerd. Terugkerende supplementen worden "
+"vanzelf hernieuwd. Met de automatische vernieuwing van de facturatie "
+"ingeschakeld bereikt een late invoer de periode toch vanzelf."
 
-#~ msgid "→ [The Katz assessment](../belgique/katz.md)"
-#~ msgstr "→ [De Katz-evaluatie](../belgique/katz.md)"
+#: ../../content/facturation/checklist-fin-de-mois.md:95
+msgid ""
+"When a resident has no active stay for the month, a **Missing active stay** "
+"window lists them: **Open stay** or **Create stay**, then generate again."
+msgstr ""
+"Wanneer een bewoner geen actief verblijf heeft voor de maand, toont een "
+"venster **Ontbrekend actief verblijf** hem: **Open verblijf** of **Verblijf "
+"aanmaken**, en genereer dan opnieuw."
 
-#~ msgid ""
-#~ "→ [Maintenance debtors](../facturation-partagee/index.md) · [Public welfare "
-#~ "centre (CPAS)](../belgique/cpas.md)"
-#~ msgstr ""
-#~ "→ [Onderhoudsplichtigen](split-billing.md) · [OCMW](../belgique/cpas.md)"
+#: ../../content/facturation/checklist-fin-de-mois.md:98
+msgid ""
+"Review the **Residents** and **Billing Lines** tabs, and any message "
+"Resthome posts in the period's thread: they are there to be acted on before "
+"invoicing, not after. A **yellow** row is a resident whose invoice type for "
+"the month changed: open it and click **Apply the Invoice Type**."
+msgstr ""
+"Controleer de tabbladen **Bewoners** en **Factureringslijnen**, en elk "
+"bericht dat Resthome in de berichtendraad van de periode plaatst: ze zijn er"
+" om vóór het factureren te behandelen, niet erna. Een **gele** lijn is een "
+"bewoner van wie het factuurtype voor de maand is gewijzigd: open ze en klik "
+"op **Factuurtype toepassen**."
 
-#~ msgid "7. Generate and send the eFact batches"
-#~ msgstr "7\\. De eFact-loten genereren en verzenden"
+#: ../../content/facturation/checklist-fin-de-mois.md:115
+msgid ""
+"Click **Create Invoices**, check the draft invoices, then confirm them. The "
+"button is refused while a row is still yellow. The resident's share becomes "
+"an invoice; where a split is set up, each maintenance debtor — a relative, a"
+" public welfare body — receives their portion."
+msgstr ""
+"Klik op **Facturen aanmaken**, controleer de conceptfacturen en bevestig ze "
+"daarna. De knop wordt geweigerd zolang er nog een gele lijn is. Het "
+"bewonersaandeel wordt een factuur; waar een verdeling is ingesteld, ontvangt"
+" elke onderhoudsplichtige — een naaste, een openbare welzijnsinstelling — "
+"zijn deel."
 
-#~ msgid ""
-#~ "Click **Generate eFact**: Resthome builds one batch per insurer. Check them,"
-#~ " then send."
-#~ msgstr ""
-#~ "Klik op **eFact genereren**: Resthome bouwt één lot per "
-#~ "verzekeringsinstelling. Controleer ze en verzend daarna."
+#: ../../content/facturation/checklist-fin-de-mois.md:134
+msgid ""
+"Once no invoice is left in draft, click **Close Period**. If a **Cannot "
+"close yet** message shows under the header, it says what is still blocking. "
+"A **Corrections pending** banner means a change reached a posted invoice: "
+"click **Refresh** first."
+msgstr ""
+"Zodra er geen enkele factuur meer in concept staat, klikt u op **Periode "
+"sluiten**. Als er onder de kop een bericht **Afsluiten nog niet mogelijk** "
+"verschijnt, zegt het wat nog blokkeert. Een banner **Correcties in "
+"behandeling** betekent dat een wijziging een geboekte factuur heeft bereikt:"
+" klik eerst op **Vernieuwen**."
 
-#~ msgid "→ [Electronic billing (eFact)](../belgique/ehealth/efact.md)"
-#~ msgstr "→ [Elektronische facturatie (eFact)](../belgique/ehealth/efact.md)"
+#: ../../content/facturation/checklist-fin-de-mois.md:139
+msgid "0"
+msgstr "0"
 
-#~ msgid ""
-#~ "The **eFact Cockpit** gathers everything to be done into stacks: to send, "
-#~ "awaiting insurer, to correct, to reconcile, overdue payments."
-#~ msgstr ""
-#~ "De **eFact-cockpit** verzamelt alles wat nog moet gebeuren in stapels: te "
-#~ "verzenden, in afwachting van de VI, te corrigeren, af te punten, "
-#~ "achterstallige betalingen."
+#: ../../content/facturation/checklist-fin-de-mois.md:139
+msgid "**Arrivals and departures**"
+msgstr "**Aankomsten en vertrekken**"
 
-#~ msgid ""
-#~ "→ [eFact rejections](../belgique/ehealth/efact-rejets.md) · [Settlements and"
-#~ " payments](../belgique/ehealth/efact-paiements.md)"
-#~ msgstr ""
-#~ "→ [eFact-verwerpingen](../belgique/ehealth/efact-rejets.md) · [Afrekeningen "
-#~ "en betalingen](../belgique/ehealth/efact-paiements.md)"
+#: ../../content/facturation/checklist-fin-de-mois.md:139
+msgid "every departure dated, every newcomer with a stay"
+msgstr "elk vertrek gedateerd, elke nieuwkomer met een verblijf"
 
-#~ msgid "**MDA**"
-#~ msgstr "**MDA**"
+#: ../../content/facturation/checklist-fin-de-mois.md:139
+msgid "the month's one-time entries are in"
+msgstr "de eenmalige invoeren van de maand zijn gebeurd"
 
-#~ msgid "**Katz**"
-#~ msgstr "**Katz**"
+#: ../../content/facturation/checklist-fin-de-mois.md:139
+msgid "the period is Generated, no yellow row, its messages handled"
+msgstr ""
+"de periode heeft de status Gegenereerd, geen gele lijn, de berichten zijn "
+"behandeld"
 
-#~ msgid "no \"Katz to do\" left"
-#~ msgstr "geen « Katz te doen » meer"
+#: ../../content/facturation/checklist-fin-de-mois.md:139
+msgid "no Corrections pending, the period is Closed"
+msgstr "geen Correcties in behandeling, de periode heeft de status Gesloten"
 
-#~ msgid "**eFact**"
-#~ msgstr "**eFact**"
+#: ../../content/facturation/checklist-fin-de-mois.md:162
+msgid "[The billing dashboard](tableau-de-bord.md)"
+msgstr "[Het facturatiedashboard](tableau-de-bord.md)"
 
-#~ msgid "the Cockpit stacks are empty"
-#~ msgstr "de stapels van de cockpit zijn leeg"
-
-#~ msgid "[The billing journey](../belgique/parcours-facturation.md)"
-#~ msgstr "[Het facturatietraject](../belgique/parcours-facturation.md)"
-
-#~ msgid "[Electronic billing (eFact)](../belgique/ehealth/efact.md)"
-#~ msgstr "[Elektronische facturatie (eFact)](../belgique/ehealth/efact.md)"
-
-#~ msgid "Why must insurability be checked before generating the period?"
-#~ msgstr ""
-#~ "Waarom moet de verzekerbaarheid vóór het genereren van de periode worden "
-#~ "gecontroleerd?"
-
-#~ msgid ""
-#~ "Because it determines the health insurer and the insurability of each "
-#~ "resident. Generating before it means billing the wrong insurer, and the "
-#~ "submission comes back rejected."
-#~ msgstr ""
-#~ "Omdat die controle de zorgverzekeraar en de verzekerbaarheid van elke "
-#~ "bewoner bepaalt. Eerder genereren betekent de verkeerde zorgverzekeraar "
-#~ "factureren, en de zending komt verworpen terug."
-
-#~ msgid ""
-#~ "When every submission to the health insurers has been acknowledged and "
-#~ "settled, and the amounts to reconcile are nil."
-#~ msgstr ""
-#~ "Wanneer elke zending naar de zorgverzekeraars bevestigd en afgerekend is, en"
-#~ " de af te punten bedragen nul zijn."
-
-#~ msgid ""
-#~ "The checklist runs on the eHealth side: batch MDA, Katz assessments, eFact "
-#~ "batches sent by the 20th of the following month, and the eFact Cockpit. See "
-#~ "[Billing a month in Belgium](../belgique/facturation.md)."
-#~ msgstr ""
-#~ "De checklist verloopt langs de eHealth-kant: MDA per lot, Katz-evaluaties, "
-#~ "eFact-loten verzonden tegen de 20e van de volgende maand, en de eFact-"
-#~ "cockpit. Zie [Een maand factureren in België](../belgique/facturation.md)."
-
-#~ msgid "1. Check insurability"
-#~ msgstr "1\\. Verzekerbaarheid controleren"
-
-#~ msgid ""
-#~ "Check, for the whole month, who is insured and, above all, **which health "
-#~ "insurer actually responds**. A resident who changed insurer without telling "
-#~ "you is caught here — not by a rejection three weeks later."
-#~ msgstr ""
-#~ "Controleer voor de hele maand wie verzekerd is en vooral **welke "
-#~ "zorgverzekeraar werkelijk antwoordt**. Een bewoner die van zorgverzekeraar "
-#~ "veranderde zonder het u te melden, wordt hier opgemerkt — niet door een "
-#~ "verwerping drie weken later."
-
-#~ msgid "Every resident must be confirmed as insured."
-#~ msgstr "Elke bewoner moet als verzekerd bevestigd zijn."
-
-#~ msgid ""
-#~ "Handle the residents who are **not insured**: their share goes to the "
-#~ "resident, not to the insurer."
-#~ msgstr ""
-#~ "Behandel de **niet-verzekerde** bewoners: hun aandeel gaat naar de bewoner, "
-#~ "niet naar de zorgverzekeraar."
-
-#~ msgid "Retry the checks that ended in an error or without a response."
-#~ msgstr "Herhaal de controles die op een fout of zonder antwoord eindigden."
-
-#~ msgid "The single most useful step"
-#~ msgstr "De nuttigste stap"
-
-#~ msgid ""
-#~ "Most rejections by the health insurers come from a wrong insurer or a lost "
-#~ "insurability. Checking insurability at the **start** of the month, before "
-#~ "anything else, removes that whole class of problems."
-#~ msgstr ""
-#~ "De meeste verwerpingen door de zorgverzekeraars komen voort uit een "
-#~ "verkeerde zorgverzekeraar of een verloren verzekerbaarheid. De "
-#~ "verzekerbaarheid aan het **begin** van de maand controleren, vóór al de "
-#~ "rest, schakelt die hele categorie problemen uit."
-
-#~ msgid "3. Bring the dependency assessments up to date"
-#~ msgstr "3\\. De afhankelijkheidsevaluaties bijwerken"
-
-#~ msgid ""
-#~ "The dependency category is declared to the health insurer with the care "
-#~ "allowance. A missing or expired assessment leaves the resident in the "
-#~ "default category, and the billing no longer matches the resident's profile."
-#~ msgstr ""
-#~ "De afhankelijkheidscategorie wordt samen met het zorgforfait aan de "
-#~ "zorgverzekeraar aangegeven. Een ontbrekende of vervallen evaluatie laat de "
-#~ "bewoner in de standaardcategorie, en de facturatie komt niet meer overeen "
-#~ "met zijn profiel."
-
-#~ msgid "A counter on the dashboard lists the assessments still to do."
-#~ msgstr ""
-#~ "Een teller op het dashboard toont de evaluaties die nog moeten gebeuren."
-
-#~ msgid ""
-#~ "Read the **self-checks** shown on the right: over-declared allowance, room "
-#~ "freed but still billed, unclosed absence. They are there to be acted on "
-#~ "before invoicing, not after."
-#~ msgstr ""
-#~ "Lees de **zelfcontroles** rechts: overgedeclareerd forfait, vrijgekomen maar"
-#~ " nog gefactureerde kamer, niet-afgesloten afwezigheid. Ze staan er om vóór "
-#~ "de facturatie te worden behandeld, niet erna."
-
-#~ msgid "Sending and following up"
-#~ msgstr "Verzenden en opvolgen"
-
-#~ msgid "7. Send the insurer's share"
-#~ msgstr "7\\. Het aandeel van de zorgverzekeraar verzenden"
-
-#~ msgid ""
-#~ "Resthome prepares the insurer's share, one submission per health insurer — "
-#~ "through the electronic exchanges with the health insurer, where the country "
-#~ "has them. Check the submissions, then send."
-#~ msgstr ""
-#~ "Resthome bereidt het aandeel van de zorgverzekeraar voor, één zending per "
-#~ "zorgverzekeraar — via de elektronische uitwisselingen met de "
-#~ "zorgverzekeraar, waar het land die heeft. Controleer de zendingen en verzend"
-#~ " ze daarna."
-
-#~ msgid "8. Follow the responses"
-#~ msgstr "8\\. De antwoorden opvolgen"
-
-#~ msgid ""
-#~ "Sending is not the end. Each submission goes through an **acknowledgement** "
-#~ "then a **settlement**:"
-#~ msgstr ""
-#~ "Verzenden is niet het einde. Elke zending doorloopt een "
-#~ "**ontvangstbevestiging** en daarna een **afrekening**:"
-
-#~ msgid "**rejected lines** — fix the cause and issue a remainder;"
-#~ msgstr "**verworpen lijnen** — corrigeer de oorzaak en maak een saldo op;"
-
-#~ msgid "**rejected submission** — a format problem, to escalate;"
-#~ msgstr "**verworpen zending** — een formaatprobleem, door te geven;"
-
-#~ msgid "**settlement** — check the amount paid against the amount accepted."
-#~ msgstr ""
-#~ "**afrekening** — controleer het betaalde bedrag ten opzichte van het "
-#~ "aanvaarde bedrag."
-
-#~ msgid "**Insurability**"
-#~ msgstr "**Verzekerbaarheid**"
-
-#~ msgid "every resident is confirmed as insured"
-#~ msgstr "elke bewoner is als verzekerd bevestigd"
-
-#~ msgid "**Dependency**"
-#~ msgstr "**Afhankelijkheid**"
-
-#~ msgid "no assessment left to do"
-#~ msgstr "geen evaluatie meer te doen"
-
-#~ msgid "6"
-#~ msgstr "6"
-
-#~ msgid "7"
-#~ msgstr "7"
-
-#~ msgid "**Insurer's share**"
-#~ msgstr "**Aandeel zorgverzekeraar**"
-
-#~ msgid "the submissions are sent"
-#~ msgstr "de zendingen zijn verzonden"
-
-#~ msgid "8"
-#~ msgstr "8"
-
-#~ msgid "**Follow up**"
-#~ msgstr "**Opvolgen**"
-
-#~ msgid "every submission is settled and reconciled"
-#~ msgstr "elke zending is afgerekend en afgepunt"
-
-#~ msgid "The deadline not to miss"
-#~ msgstr "De deadline die u niet mag missen"
-
-#~ msgid ""
-#~ "Health insurers usually set a deadline for receiving the month's billing. "
-#~ "Working backwards, the insurability check and the corrections should be done"
-#~ " in the **first week** — which leaves room to handle a rejection without "
-#~ "missing the deadline."
-#~ msgstr ""
-#~ "Zorgverzekeraars leggen doorgaans een deadline op voor de ontvangst van de "
-#~ "facturatie van de maand. Terugrekenend moeten de verzekerbaarheidscontrole "
-#~ "en de correcties in de **eerste week** gebeuren — wat ruimte laat om een "
-#~ "verwerping te behandelen zonder de deadline te missen."
+#: ../../content/facturation/checklist-fin-de-mois.md:163
+msgid "[Invoice type](type-de-facture.md)"
+msgstr "[Factuurtype](type-de-facture.md)"

@@ -24,14 +24,6 @@ msgstr ""
 msgid "Billing a day care month"
 msgstr "Facturer un mois de centre de jour"
 
-#: ../../content/belgique/centre-de-jour/facturation.md:8
-msgid ""
-"Billing a day care month in Resthome: the CSJ forfait on the days that earn "
-"it, the day price on every day recorded, the unticked month."
-msgstr ""
-"Facturer un mois de centre de jour dans Resthome : le forfait CSJ des "
-"journées qui y donnent droit, le prix de journée, le mois non pointé."
-
 #: ../../content/belgique/centre-de-jour/facturation.md:12
 msgid ""
 "Why does a Monday, Wednesday and Friday user have three forfait lines a "
@@ -88,7 +80,7 @@ msgstr ""
 "Presque toujours parce que le registre de ce mois est vide pour lui. La "
 "période le dit, avec le dernier jour pointé de chaque usager concerné."
 
-#: ../../content/belgique/centre-de-jour/facturation.md:25
+#: ../../content/belgique/centre-de-jour/facturation.md:28
 msgid ""
 "A day care month is generated like any other month — see [Billing a month, "
 "step by step](../../facturation/facturer-un-mois.md). What differs is what "
@@ -99,11 +91,11 @@ msgstr ""
 " diffère, c'est ce qu'il compte : les jours du **registre de présence**, pas"
 " le calendrier."
 
-#: ../../content/belgique/centre-de-jour/facturation.md:30
+#: ../../content/belgique/centre-de-jour/facturation.md:51
 msgid "What the month bills"
 msgstr "Ce que facture le mois"
 
-#: ../../content/belgique/centre-de-jour/facturation.md:32
+#: ../../content/belgique/centre-de-jour/facturation.md:53
 msgid ""
 "**The forfait**, to the health insurer: one line per run of consecutive days"
 " that earn it, at the rate of the user's CSJ category. A user who comes on "
@@ -113,7 +105,7 @@ msgstr ""
 " y donnent droit, au tarif de la catégorie CSJ de l'usager. Un usager qui "
 "vient le lundi, le mercredi et le vendredi a trois suites par semaine."
 
-#: ../../content/belgique/centre-de-jour/facturation.md:35
+#: ../../content/belgique/centre-de-jour/facturation.md:56
 msgid ""
 "**The day price**, to the user: one line a month at the price of the day "
 "place, with the days recorded as its quantity — whether they earn the "
@@ -123,51 +115,27 @@ msgstr ""
 "de jour, avec les jours inscrits en quantité — qu'ils donnent droit au "
 "forfait ou non."
 
-#: ../../content/belgique/centre-de-jour/facturation.md:38
+#: ../../content/belgique/centre-de-jour/facturation.md:59
 msgid ""
 "**The daily supplements**, on the days recorded — not on the calendar days."
 msgstr ""
 "**Les suppléments journaliers**, sur les jours inscrits — pas sur les jours "
 "du calendrier."
 
-#: ../../content/belgique/centre-de-jour/facturation.md:39
-msgid ""
-"**The transport**, on the days the register says the centre drove the user "
-"in."
-msgstr ""
-"**Le transport**, les jours où le registre dit que le centre a conduit "
-"l'usager."
-
-#: ../../content/belgique/centre-de-jour/facturation.md:42
+#: ../../content/belgique/centre-de-jour/facturation.md:71
 msgid "And what it never bills:"
 msgstr "Et ce qu'il ne facture jamais :"
 
-#: ../../content/belgique/centre-de-jour/facturation.md:44
+#: ../../content/belgique/centre-de-jour/facturation.md:73
 msgid "no night: the day place is billed on the days recorded only;"
 msgstr ""
 "aucune nuit : la place de jour n'est facturée que sur les jours inscrits ;"
 
-#: ../../content/belgique/centre-de-jour/facturation.md:45
+#: ../../content/belgique/centre-de-jour/facturation.md:74
 msgid "nothing **ahead**: the days are billed once they happened;"
 msgstr "rien **d'avance** : les jours sont facturés une fois passés ;"
 
-#: ../../content/belgique/centre-de-jour/facturation.md:46
-msgid ""
-"no absence rebate, and no leave to declare: a day nobody came is simply not "
-"billed."
-msgstr ""
-"ni réduction d'absence, ni congé à déclarer : un jour où personne n'est venu"
-" n'est tout simplement pas facturé."
-
-#: ../../content/belgique/centre-de-jour/facturation.md:49
-msgid ""
-"A day recorded, corrected or removed after the month was generated bills the"
-" month again for that user, as a change of absence does."
-msgstr ""
-"Un jour inscrit, corrigé ou retiré après la génération du mois refacture le "
-"mois pour cet usager, comme le fait un changement d'absence."
-
-#: ../../content/belgique/centre-de-jour/facturation.md:52
+#: ../../content/belgique/centre-de-jour/facturation.md:86
 msgid ""
 "![The billing lines of a user who comes every opening day: five forfait "
 "lines, one per week, then the day price, the day room line, on 21 days "
@@ -178,7 +146,7 @@ msgstr ""
 " de la salle de jour, sur 21 jours de "
 "présence](../../assets/screenshots/centre-de-jour/10-lignes-du-mois.png)"
 
-#: ../../content/belgique/centre-de-jour/facturation.md:52
+#: ../../content/belgique/centre-de-jour/facturation.md:86
 msgid ""
 "The billing lines of a user who comes every opening day: five forfait lines,"
 " one per week, then the day price, the day room line, on 21 days attended"
@@ -187,23 +155,11 @@ msgstr ""
 "cinq lignes de forfait, une par semaine, puis le prix de journée, la ligne "
 "de la salle de jour, sur 21 jours de présence"
 
-#: ../../content/belgique/centre-de-jour/facturation.md:54
-msgid ""
-"The lines are read on the period, under its **Billing Lines** tab, or on the"
-" stay's tab of the same name. Each forfait line carries the CSJ category, "
-"its pseudo-code and the health insurer as payer; the day price line names "
-"the user."
-msgstr ""
-"Les lignes se lisent sur la période, sous son onglet **Lignes de "
-"facturation**, ou sur l'onglet du même nom du séjour. Chaque ligne de "
-"forfait porte la catégorie CSJ, son pseudo-code et la mutuelle comme payeur "
-"; la ligne du prix de journée nomme l'usager."
-
-#: ../../content/belgique/centre-de-jour/facturation.md:59
+#: ../../content/belgique/centre-de-jour/facturation.md:107
 msgid "The month nobody ticked"
 msgstr "Le mois que personne n'a pointé"
 
-#: ../../content/belgique/centre-de-jour/facturation.md:61
+#: ../../content/belgique/centre-de-jour/facturation.md:109
 msgid ""
 "When a user's month bills nothing, refreshing the period says why in its "
 "chatter: **nothing recorded in the attendance register** for them, with the "
@@ -216,7 +172,7 @@ msgstr ""
 "concerné. Une date récente dit que le registre n'a pas été tenu ; « jamais »"
 " dit que l'usager n'est jamais venu."
 
-#: ../../content/belgique/centre-de-jour/facturation.md:66
+#: ../../content/belgique/centre-de-jour/facturation.md:114
 msgid ""
 "![The note on the period: nothing recorded in the attendance register for "
 "this month, so nothing is owed, with the user's name and the last day "
@@ -226,7 +182,7 @@ msgstr ""
 "pour ce mois, donc rien n'est dû, avec le nom de l'usager et le dernier jour"
 " pointé](../../assets/screenshots/centre-de-jour/11-registre-vide.png)"
 
-#: ../../content/belgique/centre-de-jour/facturation.md:66
+#: ../../content/belgique/centre-de-jour/facturation.md:114
 msgid ""
 "The note on the period: nothing recorded in the attendance register for this"
 " month, so nothing is owed, with the user's name and the last day recorded"
@@ -235,20 +191,19 @@ msgstr ""
 "ce mois, donc rien n'est dû, avec le nom de l'usager et le dernier jour "
 "pointé"
 
-#: ../../content/belgique/centre-de-jour/facturation.md:68
+#: ../../content/belgique/centre-de-jour/facturation.md:116
 msgid ""
 "Fill in the register — see [Recording attendance](presences.md) — then "
 "**Refresh** the period."
 msgstr ""
 "Complétez le registre — voir [Enregistrer les présences](presences.md) — "
-"puis **Actualisez** la période."
+"puis cliquez sur **Actualiser** sur la période."
 
-#: ../../content/belgique/centre-de-jour/facturation.md:71
+#: ../../content/belgique/centre-de-jour/facturation.md:127
 msgid "When the staffing norm reduces the forfait"
 msgstr "Quand la norme de personnel réduit le forfait"
 
-#: ../../content/belgique/centre-de-jour/facturation.md:73
-#, python-format
+#: ../../content/belgique/centre-de-jour/facturation.md:129
 msgid ""
 "A staffing norm applied to the billing year reduces every CSJ forfait of "
 "that year, and the period says so when it is generated. Under 75 % of the "
@@ -262,11 +217,11 @@ msgstr ""
 "demande à 0,00 EUR — et la période indique **Forfait retiré par le "
 "secteur**. Voir [La norme de personnel](norme-personnel.md)."
 
-#: ../../content/belgique/centre-de-jour/facturation.md:78
+#: ../../content/belgique/centre-de-jour/facturation.md:134
 msgid "Sending to the health insurers"
 msgstr "L'envoi aux mutuelles"
 
-#: ../../content/belgique/centre-de-jour/facturation.md:80
+#: ../../content/belgique/centre-de-jour/facturation.md:136
 msgid ""
 "The forfaits go to the health insurers by **eFact**, under the day care "
 "centre's **own INAMI number**, in their own sending. See [Electronic "
@@ -276,11 +231,11 @@ msgstr ""
 "numéro INAMI** du centre de jour, dans leur propre envoi. Voir [Facturation "
 "électronique (eFact)](../ehealth/efact.md)."
 
-#: ../../content/belgique/centre-de-jour/facturation.md:84
+#: ../../content/belgique/centre-de-jour/facturation.md:148
 msgid "What's next"
 msgstr "À suivre"
 
-#: ../../content/belgique/centre-de-jour/facturation.md:86
+#: ../../content/belgique/centre-de-jour/facturation.md:150
 msgid ""
 "[The staffing norm](norme-personnel.md) — the yearly check that can reduce "
 "the forfait."
@@ -288,7 +243,7 @@ msgstr ""
 "[La norme de personnel](norme-personnel.md) — le contrôle annuel qui peut "
 "réduire le forfait."
 
-#: ../../content/belgique/centre-de-jour/facturation.md:87
+#: ../../content/belgique/centre-de-jour/facturation.md:151
 msgid ""
 "[Recording attendance](presences.md) — the register every line of the month "
 "comes from."
@@ -296,5 +251,232 @@ msgstr ""
 "[Enregistrer les présences](presences.md) — le registre d'où vient chaque "
 "ligne du mois."
 
-#~ msgid "no room: a day place is not rented;"
-#~ msgstr "pas de chambre : une place de jour ne se loue pas ;"
+#: ../../content/belgique/centre-de-jour/facturation.md:8
+msgid ""
+"Billing a day care month in Resthome: the CSJ forfait on the days that earn "
+"it, the day price on every day recorded, the supplements, the checks before "
+"sending, the unticked month."
+msgstr ""
+"Facturer un mois de centre de jour dans Resthome : le forfait CSJ sur les "
+"journées qui y donnent droit, le prix de journée sur chaque jour inscrit, "
+"les suppléments, les contrôles avant l'envoi, le mois non coché."
+
+#: ../../content/belgique/centre-de-jour/facturation.md:24
+msgid "A user has no forfait line, but their day price is billed. Why?"
+msgstr ""
+"Un usager n'a aucune ligne de forfait, mais son prix de journée est facturé."
+" Pourquoi ?"
+
+#: ../../content/belgique/centre-de-jour/facturation.md:25
+msgid ""
+"Their Katz scale gives no day care category, the insurer refused the "
+"agreement for these days, or the staffing norm withdrew the forfait of the "
+"year. The period says which."
+msgstr ""
+"Son échelle Katz ne donne aucune catégorie de centre de jour, la mutuelle a "
+"refusé l'accord pour ces jours, ou la norme de personnel a retiré le forfait"
+" de l'année. La période dit laquelle de ces raisons s'applique."
+
+#: ../../content/belgique/centre-de-jour/facturation.md:33
+msgid ""
+"When the day care centre runs without a rest home, the billing app is named "
+"**Day Care Billing**, and its invoices are numbered in the centre's own "
+"**CSJ** journal."
+msgstr ""
+"Quand le centre de jour fonctionne sans maison de repos, l'application de "
+"facturation s'appelle **Facturation CSJ**, et ses factures sont numérotées "
+"dans le journal **CSJ** propre au centre."
+
+#: ../../content/belgique/centre-de-jour/facturation.md:37
+msgid "The day care card of the dashboard"
+msgstr "La carte du centre de jour sur le tableau de bord"
+
+#: ../../content/belgique/centre-de-jour/facturation.md:39
+msgid ""
+"**Billing → Dashboard** gives the centre a card of its own, before the month"
+" is prepared:"
+msgstr ""
+"**Facturation → Tableau de bord** donne au centre sa propre carte, avant la "
+"préparation du mois :"
+
+#: ../../content/belgique/centre-de-jour/facturation.md:42
+msgid ""
+"**Day care today** — the users who came today against the approved places, "
+"with the users still expected; it opens **Today's attendance**;"
+msgstr ""
+"**Centre de jour aujourd'hui** — les usagers venus aujourd'hui par rapport "
+"aux places agréées, avec les usagers encore attendus ; elle ouvre "
+"**Présences du jour** ;"
+
+#: ../../content/belgique/centre-de-jour/facturation.md:44
+msgid ""
+"**Register not kept** — the days the centre opened over the last 30 days "
+"with nobody recorded; it opens the register on the latest of them;"
+msgstr ""
+"**Registre non tenu** — les jours d'ouverture du centre des 30 derniers "
+"jours sans personne d'inscrit ; elle ouvre le registre sur le plus récent "
+"d'entre eux ;"
+
+#: ../../content/belgique/centre-de-jour/facturation.md:46
+msgid ""
+"**Day care agreements to renew** — the agreements that run out within 30 "
+"days, or already have. See [The day care agreement](accord.md)."
+msgstr ""
+"**Accords de centre de soins de jour à prolonger** — les accords qui "
+"arrivent à échéance dans les 30 jours, ou qui le sont déjà. Voir [L'accord "
+"du centre de jour](accord.md)."
+
+#: ../../content/belgique/centre-de-jour/facturation.md:60
+msgid ""
+"**The transport** (**Transport - Home/CSJ**), on the days the register says "
+"the centre drove the user in: « 3 days driven in »."
+msgstr ""
+"**Le transport** (**Transport - Domicile/CSJ**), les jours où le registre "
+"dit que le centre a conduit l'usager : « 3 jours de transport »."
+
+#: ../../content/belgique/centre-de-jour/facturation.md:62
+msgid ""
+"**The unannounced absences** (**Day care unannounced absence**), on the days"
+" recorded as billable unannounced absences: « 1 unannounced absence »."
+msgstr ""
+"**Les absences non annoncées** (**Absence non annoncée (centre de soins de "
+"jour)**), les jours inscrits comme absences non annoncées facturables : « 1 "
+"absence non annoncée »."
+
+#: ../../content/belgique/centre-de-jour/facturation.md:65
+msgid ""
+"The transport and the unannounced absence are supplements: give them their "
+"price under the supplement types, and add them to the conventions of the "
+"users concerned. A user the centre drives is subscribed to the transport "
+"when their stay starts, as soon as the transport has a price. See "
+"[Supplements](../../facturation/supplements.md)."
+msgstr ""
+"Le transport et l'absence non annoncée sont des suppléments : donnez-leur "
+"leur prix sous les types de suppléments, et ajoutez-les aux conventions des "
+"usagers concernés. Un usager que le centre conduit est inscrit au transport "
+"au démarrage de son séjour, dès que le transport a un prix. Voir [Les "
+"suppléments](../../facturation/supplements.md)."
+
+#: ../../content/belgique/centre-de-jour/facturation.md:75
+msgid ""
+"no absence rebate, and no declared absence: a day nobody came is simply not "
+"billed;"
+msgstr ""
+"aucune réduction pour absence, ni absence déclarée : un jour où personne "
+"n'est venu n'est tout simplement pas facturé ;"
+
+#: ../../content/belgique/centre-de-jour/facturation.md:77
+msgid ""
+"nothing after the last day of care — the end of the stay, the declared end "
+"of care or a death. A day the register still holds after it is flagged to "
+"the administration, not charged to the family."
+msgstr ""
+"rien après le dernier jour de prise en charge — la fin du séjour, la fin de "
+"prise en charge déclarée ou un décès. Un jour que le registre contient "
+"encore après est signalé à l'administration, pas facturé à la famille."
+
+#: ../../content/belgique/centre-de-jour/facturation.md:81
+msgid ""
+"A day recorded, corrected or removed after the month was generated bills the"
+" month again for that user, as a change of absence does. On the period, the "
+"**Stay Days** and **Presence Days** of a day care user are their days in the"
+" register: 17, not 31."
+msgstr ""
+"Un jour inscrit, corrigé ou supprimé après la génération du mois refacture "
+"le mois pour cet usager, comme le fait un changement d'absence. Sur la "
+"période, les **Jours de séjour** et les **Jours de présence** d'un usager du"
+" centre de jour sont ses jours au registre : 17, pas 31."
+
+#: ../../content/belgique/centre-de-jour/facturation.md:88
+msgid ""
+"The lines are read on the period, under its **Billing Lines** tab, or on the"
+" stay's tab of the same name. Each forfait line carries the CSJ category, "
+"its pseudo-code and the health insurer as payer; the day price line names "
+"the day room."
+msgstr ""
+"Les lignes se lisent sur la période, sous son onglet **Lignes de "
+"facturation**, ou sur l'onglet du même nom du séjour. Chaque ligne de "
+"forfait porte la catégorie CSJ, son pseudo-code et la mutuelle comme payeur "
+"; la ligne du prix de journée nomme la salle de jour."
+
+#: ../../content/belgique/centre-de-jour/facturation.md:93
+msgid "When no forfait is due"
+msgstr "Quand aucun forfait n'est dû"
+
+#: ../../content/belgique/centre-de-jour/facturation.md:95
+msgid "The month bills the user's day price, but no forfait, when:"
+msgstr ""
+"Le mois facture le prix de journée de l'usager, mais aucun forfait, quand :"
+
+#: ../../content/belgique/centre-de-jour/facturation.md:97
+msgid ""
+"**the scale gives no day care category** — none of F, Fp, Fd or D: the "
+"period says **No day care category: no forfait**, with the users concerned. "
+"A user with no validated Katz at all reads **No Katz** on the period;"
+msgstr ""
+"**l'échelle ne donne aucune catégorie de centre de jour** — ni F, ni Fp, ni "
+"Fd, ni D : la période affiche **Aucune catégorie de centre de soins de jour "
+": pas de forfait**, avec les usagers concernés. Un usager sans aucune Katz "
+"validée affiche **Pas de Katz** sur la période ;"
+
+#: ../../content/belgique/centre-de-jour/facturation.md:101
+msgid ""
+"**the insurer refused the agreement** for these days (Annexe 16), and no "
+"later agreement was granted. See [The day care agreement](accord.md);"
+msgstr ""
+"**la mutuelle a refusé l'accord** pour ces jours (Annexe 16), et aucun "
+"accord ultérieur n'a été octroyé. Voir [L'accord du centre de "
+"jour](accord.md) ;"
+
+#: ../../content/belgique/centre-de-jour/facturation.md:103
+msgid ""
+"**the staffing norm withdrew the forfait** of the billing year — see below."
+msgstr ""
+"**la norme de personnel a retiré le forfait** de l'année de facturation — "
+"voir plus bas."
+
+#: ../../content/belgique/centre-de-jour/facturation.md:105
+msgid "Resthome never sends a forfait at 0.00 EUR."
+msgstr "Resthome n'envoie jamais un forfait à 0,00 EUR."
+
+#: ../../content/belgique/centre-de-jour/facturation.md:119
+msgid "Register days to check before sending"
+msgstr "Jours du registre à vérifier avant l'envoi"
+
+#: ../../content/belgique/centre-de-jour/facturation.md:121
+msgid ""
+"A day recorded after the 13:00 closure, or on a day the centre was closed, "
+"may be true — a late arrival, an exceptional opening — or a mistake. Each "
+"generation lists them in the period's chatter, under **Register days to "
+"check before sending**, user by user, with the reason. Correct the register "
+"if they are mistakes; otherwise they are billed as they are."
+msgstr ""
+"Un jour inscrit après la clôture de 13 h, ou un jour de fermeture du centre,"
+" peut être exact — une arrivée tardive, une ouverture exceptionnelle — ou "
+"une erreur. Chaque génération les liste dans le chatter de la période, sous "
+"**Jours du registre à vérifier avant l'envoi**, usager par usager, avec le "
+"motif. Corrigez le registre s'il s'agit d'erreurs ; sinon, ils sont facturés"
+" tels quels."
+
+#: ../../content/belgique/centre-de-jour/facturation.md:140
+msgid "Before the sending, two checks are proper to the day care centre:"
+msgstr "Avant l'envoi, deux contrôles sont propres au centre de jour :"
+
+#: ../../content/belgique/centre-de-jour/facturation.md:142
+msgid ""
+"**Day care forfait past the agreement's yearly term** — a forfait after the "
+"end of the user's agreement: a warning while a renewal awaits the insurer, "
+"blocking when none was sent;"
+msgstr ""
+"**Forfait de centre de soins de jour au-delà du terme annuel de l'accord** —"
+" un forfait après la fin de l'accord de l'usager : un avertissement tant "
+"qu'une prolongation attend la mutuelle, bloquant quand aucune n'a été "
+"envoyée ;"
+
+#: ../../content/belgique/centre-de-jour/facturation.md:145
+msgid ""
+"**Forfait on a day the centre was closed** — a warning: correct the day in "
+"the register, or keep it if the centre really opened."
+msgstr ""
+"**Forfait un jour de fermeture du centre** — un avertissement : corrigez le "
+"jour dans le registre, ou gardez-le si le centre a réellement ouvert."

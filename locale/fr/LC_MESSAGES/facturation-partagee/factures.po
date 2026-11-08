@@ -20,11 +20,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: ../../content/facturation-partagee/factures.md:1
+#: ../../content/facturation-partagee/factures.md:5
 msgid "The documents produced"
 msgstr "Les documents produits"
 
-#: ../../content/facturation-partagee/factures.md:4
+#: ../../content/facturation-partagee/factures.md:8
 msgid ""
 "What split billing produces in Resthome: a resident statement totalling "
 "zero, one invoice per debtor with its own VAT, the debtor PDF, rounding and "
@@ -34,11 +34,11 @@ msgstr ""
 "à zéro, une facture par débiteur avec sa propre TVA, le PDF du débiteur, les"
 " arrondis et les garde-fous."
 
-#: ../../content/facturation-partagee/factures.md:8
+#: ../../content/facturation-partagee/factures.md:12
 msgid "Why does the resident's statement total 0.00 €?"
 msgstr "Pourquoi le décompte de l'habitant fait-il 0,00 € ?"
 
-#: ../../content/facturation-partagee/factures.md:9
+#: ../../content/facturation-partagee/factures.md:13
 msgid ""
 "Because it shows the whole month and then deducts each debtor's "
 "participation. It is a statement, not a demand for payment."
@@ -46,19 +46,19 @@ msgstr ""
 "Parce qu'il montre le mois entier puis déduit la participation de chaque "
 "débiteur. C'est un décompte, pas une demande de paiement."
 
-#: ../../content/facturation-partagee/factures.md:11
+#: ../../content/facturation-partagee/factures.md:15
 msgid "Does a debtor see what the others pay?"
 msgstr "Un débiteur voit-il ce que paient les autres ?"
 
-#: ../../content/facturation-partagee/factures.md:12
+#: ../../content/facturation-partagee/factures.md:16
 msgid "No. Their PDF repeats the month's detail, without the deduction lines."
 msgstr "Non. Son PDF reprend le détail du mois, sans les lignes de déduction."
 
-#: ../../content/facturation-partagee/factures.md:14
+#: ../../content/facturation-partagee/factures.md:18
 msgid "Why is a debtor missing an invoice?"
 msgstr "Pourquoi un débiteur n'a-t-il pas de facture ?"
 
-#: ../../content/facturation-partagee/factures.md:15
+#: ../../content/facturation-partagee/factures.md:19
 msgid ""
 "Because their share rounds to zero everywhere. No invoice is produced for an"
 " amount of zero."
@@ -66,7 +66,7 @@ msgstr ""
 "Parce que sa part s'arrondit à zéro partout. Aucune facture n'est produite "
 "pour un montant nul."
 
-#: ../../content/facturation-partagee/factures.md:18
+#: ../../content/facturation-partagee/factures.md:25
 msgid ""
 "Generating the invoices of a month produces, for a resident in split "
 "billing, **one statement and one invoice per debtor**."
@@ -74,15 +74,15 @@ msgstr ""
 "La génération des factures d'un mois produit, pour un habitant en "
 "facturation partagée, **un décompte et une facture par débiteur**."
 
-#: ../../content/facturation-partagee/factures.md:21
+#: ../../content/facturation-partagee/factures.md:28
 msgid "The resident's statement"
 msgstr "Le décompte de l'habitant"
 
-#: ../../content/facturation-partagee/factures.md:23
+#: ../../content/facturation-partagee/factures.md:30
 msgid "It is addressed to the **resident**, in the dedicated journal."
 msgstr "Il est adressé à l’**habitant**, dans le journal dédié."
 
-#: ../../content/facturation-partagee/factures.md:24
+#: ../../content/facturation-partagee/factures.md:31
 msgid ""
 "It lists the whole month — accommodation, supplements — **without VAT**, on "
 "the suspense account."
@@ -90,22 +90,22 @@ msgstr ""
 "Il liste le mois entier — hébergement, suppléments — **sans TVA**, sur le "
 "compte d'attente."
 
-#: ../../content/facturation-partagee/factures.md:26
+#: ../../content/facturation-partagee/factures.md:33
 msgid ""
 "A **Down Payments** section then deducts **each debtor's participation**."
 msgstr ""
 "Une section **Acomptes** déduit ensuite **la participation de chaque "
 "débiteur**."
 
-#: ../../content/facturation-partagee/factures.md:27
+#: ../../content/facturation-partagee/factures.md:34
 msgid "Total: **0.00 €**."
 msgstr "Total : **0,00 €**."
 
-#: ../../content/facturation-partagee/factures.md:29
+#: ../../content/facturation-partagee/factures.md:36
 msgid "A statement marked \"Paid\""
 msgstr "Un décompte marqué « Payée »"
 
-#: ../../content/facturation-partagee/factures.md:32
+#: ../../content/facturation-partagee/factures.md:39
 msgid ""
 "A document totalling zero is considered settled: the statement shows as "
 "**Paid**. It is normal, and means nothing about what the debtors have "
@@ -115,17 +115,17 @@ msgstr ""
 "s'affiche **Payée**. C'est normal, et cela ne dit rien de ce que les "
 "débiteurs ont réellement payé."
 
-#: ../../content/facturation-partagee/factures.md:37
+#: ../../content/facturation-partagee/factures.md:44
 msgid "The debtors' invoices"
 msgstr "Les factures des débiteurs"
 
-#: ../../content/facturation-partagee/factures.md:39
+#: ../../content/facturation-partagee/factures.md:46
 msgid "Each debtor receives a real invoice, in the usual resident journal:"
 msgstr ""
 "Chaque débiteur reçoit une vraie facture, dans le journal habitant habituel "
 ":"
 
-#: ../../content/facturation-partagee/factures.md:41
+#: ../../content/facturation-partagee/factures.md:48
 msgid ""
 "a note at the top recalls the month, the resident, the total of the "
 "statement and **their** share (a percentage, a fixed amount, or the part not"
@@ -135,7 +135,7 @@ msgstr ""
 "**sa** part (un pourcentage, un montant fixe, ou la part non couverte par "
 "les autres) ;"
 
-#: ../../content/facturation-partagee/factures.md:44
+#: ../../content/facturation-partagee/factures.md:51
 msgid ""
 "each line of the month is repeated with the wording **Full amount: … — Your "
 "participation = x %**;"
@@ -143,7 +143,7 @@ msgstr ""
 "chaque ligne du mois est reprise avec la mention **Montant total : … — Votre"
 " participation = x %** ;"
 
-#: ../../content/facturation-partagee/factures.md:46
+#: ../../content/facturation-partagee/factures.md:53
 msgid ""
 "income accounts and **VAT are normal**, following the **debtor's** fiscal "
 "position."
@@ -151,7 +151,7 @@ msgstr ""
 "les comptes de produits et la **TVA sont normaux**, suivant la position "
 "fiscale **du débiteur**."
 
-#: ../../content/facturation-partagee/factures.md:49
+#: ../../content/facturation-partagee/factures.md:56
 msgid ""
 "The PDF carries a second page, **Resident Invoice**, which repeats the whole"
 " month — without the deduction lines, so nobody reads what the others pay."
@@ -160,11 +160,11 @@ msgstr ""
 "entier — sans les lignes de déduction, pour que personne ne lise ce que "
 "paient les autres."
 
-#: ../../content/facturation-partagee/factures.md:52
+#: ../../content/facturation-partagee/factures.md:82
 msgid "Rounding"
 msgstr "Les arrondis"
 
-#: ../../content/facturation-partagee/factures.md:54
+#: ../../content/facturation-partagee/factures.md:84
 msgid ""
 "An agreed **fixed amount** is invoiced to the cent; what remains falls on "
 "the **variable** debtor. A debtor whose share rounds to zero everywhere "
@@ -174,11 +174,11 @@ msgstr ""
 "débiteur **variable**. Un débiteur dont la part s'arrondit à zéro partout ne"
 " reçoit **aucune facture**."
 
-#: ../../content/facturation-partagee/factures.md:58
+#: ../../content/facturation-partagee/factures.md:88
 msgid "Safeguards"
 msgstr "Garde-fous"
 
-#: ../../content/facturation-partagee/factures.md:60
+#: ../../content/facturation-partagee/factures.md:90
 msgid ""
 "A **posted** deposit blocks regeneration: Resthome names the invoices to "
 "reset to draft first."
@@ -186,11 +186,11 @@ msgstr ""
 "Un acompte **comptabilisé** bloque la régénération : Resthome nomme les "
 "factures à remettre en brouillon d'abord."
 
-#: ../../content/facturation-partagee/factures.md:62
+#: ../../content/facturation-partagee/factures.md:92
 msgid "**Draft** deposits are replaced, never stacked."
 msgstr "Les acomptes en **brouillon** sont remplacés, jamais empilés."
 
-#: ../../content/facturation-partagee/factures.md:63
+#: ../../content/facturation-partagee/factures.md:93
 msgid ""
 "Resetting the period to draft deletes the statement **and** its deposits "
 "together."
@@ -198,18 +198,96 @@ msgstr ""
 "Remettre la période en brouillon supprime le décompte **et** ses acomptes "
 "ensemble."
 
-#: ../../content/facturation-partagee/factures.md:66
+#: ../../content/facturation-partagee/factures.md:96
 msgid "What's next"
 msgstr "Pour continuer"
 
-#: ../../content/facturation-partagee/factures.md:68
+#: ../../content/facturation-partagee/factures.md:98
 msgid "[Setting up a split](configuration.md)"
 msgstr "[Mettre en place une répartition](configuration.md)"
 
-#: ../../content/facturation-partagee/factures.md:69
+#: ../../content/facturation-partagee/factures.md:100
 msgid "[Invoicing a month, step by step](../facturation/facturer-un-mois.md)"
 msgstr "[Facturer un mois, pas à pas](../facturation/facturer-un-mois.md)"
 
-#: ../../content/facturation-partagee/factures.md:70
+#: ../../content/facturation-partagee/factures.md:101
 msgid "[Departure and death](../facturation/depart-deces.md)"
 msgstr "[Départ et décès](../facturation/depart-deces.md)"
+
+#: ../../content/facturation-partagee/factures.md:21
+msgid "How do I find the statement from a debtor's invoice?"
+msgstr "Comment retrouver le décompte depuis la facture d'un débiteur ?"
+
+#: ../../content/facturation-partagee/factures.md:22
+msgid ""
+"The Resident Statement smart button on the debtor's invoice opens it; on the"
+" statement, the Deposits smart button lists the debtors' invoices."
+msgstr ""
+"Le bouton intelligent Décompte habitant sur la facture du débiteur l'ouvre ;"
+" sur le décompte, le bouton intelligent Acomptes liste les factures des "
+"débiteurs."
+
+#: ../../content/facturation-partagee/factures.md:59
+msgid ""
+"The statement and the debtors' invoices are linked: the **Deposits** smart "
+"button on the statement lists the debtors' invoices, and the **Resident "
+"Statement** smart button on each of them leads back."
+msgstr ""
+"Le décompte et les factures des débiteurs sont liés : le bouton intelligent "
+"**Acomptes** du décompte liste les factures des débiteurs, et le bouton "
+"intelligent **Décompte habitant** de chacune d'elles ramène au décompte."
+
+#: ../../content/facturation-partagee/factures.md:63
+msgid "In the billing period"
+msgstr "Dans la période de facturation"
+
+#: ../../content/facturation-partagee/factures.md:65
+msgid ""
+"The period's **Invoices** tab lists the statement and every debtor's "
+"invoice, with an **Invoiced To** column naming who receives each one. The "
+"amounts are **signed**: a credit note to a debtor counts against the "
+"invoices beside it, and the totals at the bottom add up what is really owed."
+msgstr ""
+"L'onglet **Factures** de la période liste le décompte et la facture de "
+"chaque débiteur, avec une colonne **Facturé à** qui nomme le destinataire de"
+" chacune. Les montants sont **signés** : une note de crédit à un débiteur se"
+" déduit des factures voisines, et les totaux en bas additionnent ce qui est "
+"réellement dû."
+
+#: ../../content/facturation-partagee/factures.md:70
+msgid "Other documents split the same way"
+msgstr "Autres documents répartis de la même façon"
+
+#: ../../content/facturation-partagee/factures.md:72
+msgid ""
+"**The admission invoice** — the first accommodation of a stay, billed at "
+"admission, produces a statement and one invoice per debtor too."
+msgstr ""
+"**La facture d'admission** — le premier hébergement d'un séjour, facturé à "
+"l'admission, produit lui aussi un décompte et une facture par débiteur."
+
+#: ../../content/facturation-partagee/factures.md:74
+msgid ""
+"**The switch month** — when a resident moves to split billing in advance "
+"during a stay, the catch-up of the switch month is a statement plus one "
+"invoice per debtor, labelled as the switch month."
+msgstr ""
+"**Le mois de bascule** — quand un habitant passe à la facturation partagée "
+"anticipative en cours de séjour, le rattrapage du mois de bascule est un "
+"décompte plus une facture par débiteur, libellés comme mois de bascule."
+
+#: ../../content/facturation-partagee/factures.md:77
+msgid ""
+"**A posted admission invoice to adjust** — when the invoice type changes "
+"after the admission invoice was posted, the adjustment is settled with each "
+"debtor who was invoiced. See [Invoice type](../facturation/type-de-"
+"facture.md)."
+msgstr ""
+"**Une facture d'admission comptabilisée à ajuster** — quand le type de "
+"facture change après la comptabilisation de la facture d'admission, "
+"l'ajustement se règle avec chaque débiteur qui a été facturé. Voir [Type de "
+"facture](../facturation/type-de-facture.md)."
+
+#: ../../content/facturation-partagee/factures.md:99
+msgid "[Invoice type](../facturation/type-de-facture.md)"
+msgstr "[Type de facture](../facturation/type-de-facture.md)"

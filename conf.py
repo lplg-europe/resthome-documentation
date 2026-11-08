@@ -145,6 +145,28 @@ rh_nav_group_icons = {
     "configuration/index": "admin",
     "faq": "help",
 }
+# Icône d'app devant chaque application de la barre latérale, repérée par sa
+# page (jamais par sa position : ajouter ou réordonner une app ne décale rien).
+# « nom.png » = icône d'app d'Odoo copiée dans _static/app-icons/ ;
+# « mono:nom » = pictogramme à la couleur du texte, variable --rh-appicon-<nom>
+# de _static/resthome-brand.css (une app sans icône propre dans Odoo).
+rh_nav_app_icons = {
+    "residents/index": "residents.png",
+    "admissions/index": "admissions.png",
+    "residences-services/index": "serviced-living.png",
+    "soins/index": "care.png",
+    "medicaments/index": "mono:pill",
+    "soins-mobile/index": "care-mobile.png",
+    "repas/index": "meals.png",
+    "facturation/index": "billing.png",
+    "facturation-partagee/index": "split-billing.png",
+    "argent-de-poche/index": "mono:wallet",
+    "portail-famille/index": "family-portal.png",
+    "documents/index": "mono:document",
+    "interventions/index": "mono:wrench",
+    "planning/index": "planning.png",
+    "qualite/index": "mono:quality",
+}
 
 # -- Multi-version (modèle docs-as-code) ----------------------------------------------
 # URL = base + <version>/ + <préfixe langue> + page  (ex. /documentation/2026/nl/…).

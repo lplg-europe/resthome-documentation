@@ -20,19 +20,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: ../../content/facturation/application-supplements.md:5
-msgid "The Supplements App"
-msgstr "L'application Suppléments"
-
-#: ../../content/facturation/application-supplements.md:8
-msgid ""
-"The Supplements app of a care home: multi-resident entry via the catalog, "
-"one-off or recurring supplements, conventions, catalog and reporting."
-msgstr ""
-"L'application Suppléments d'une maison de repos : saisie multi-habitants via"
-" le catalogue, suppléments ponctuels ou récurrents, conventions, catalogue "
-"et reporting."
-
 #: ../../content/facturation/application-supplements.md:12
 msgid "What is the Supplements app for in a care home?"
 msgstr "À quoi sert l'application Suppléments dans une maison de repos ?"
@@ -66,41 +53,15 @@ msgstr ""
 "supplément ajouté est répercuté sur l'enveloppe ouverte de chaque habitant "
 "sélectionné."
 
-#: ../../content/facturation/application-supplements.md:18
-msgid "What is the difference between a one-off supplement and a convention?"
-msgstr "Quelle différence entre un supplément ponctuel et une convention ?"
-
-#: ../../content/facturation/application-supplements.md:19
-msgid ""
-"A one-off supplement is billed once on the month's envelope (hairdresser, "
-"drink…). A convention groups the resident's recurring supplements (single "
-"room, TV, phone): it lives on the resident and survives a stay closure, a "
-"room change or a transfer."
-msgstr ""
-"Un supplément ponctuel est facturé une seule fois sur l'enveloppe du mois "
-"(coiffeur, boisson…). Une convention regroupe les suppléments récurrents de "
-"l'habitant (chambre individuelle, TV, téléphone) : elle vit sur l'habitant "
-"et survit à une clôture de séjour, un changement de chambre ou un transfert."
-
 #: ../../content/facturation/application-supplements.md:21
 msgid "Where do I define the list of supplements and their prices?"
 msgstr "Où définir la liste des suppléments et leurs prix ?"
 
-#: ../../content/facturation/application-supplements.md:22
-msgid ""
-"In Configuration → Catalog. Each supplement has a type (daily, monthly or "
-"one-off), a price specific to the facility and, where the country requires "
-"it, a code for the declaration to the health insurer."
-msgstr ""
-"Dans Configuration → Catalogue. Chaque supplément a un type (journalier, "
-"mensuel ou ponctuel), un prix propre à l'établissement et, là où le pays "
-"l'exige, un code pour la déclaration à l'assureur santé."
-
-#: ../../content/facturation/application-supplements.md:24
+#: ../../content/facturation/application-supplements.md:27
 msgid "Can I track the supplements billed per resident or per month?"
 msgstr "Puis-je suivre les suppléments facturés par habitant ou par mois ?"
 
-#: ../../content/facturation/application-supplements.md:25
+#: ../../content/facturation/application-supplements.md:28
 msgid ""
 "Yes, via the Reporting menu: graph, pivot table and list views break down "
 "the billed supplements per resident, per product and per month."
@@ -108,7 +69,7 @@ msgstr ""
 "Oui, via le menu Reporting : des vues graphique, tableau croisé et liste "
 "répartissent les suppléments facturés par habitant, par produit et par mois."
 
-#: ../../content/facturation/application-supplements.md:28
+#: ../../content/facturation/application-supplements.md:31
 msgid ""
 "The **Supplements** app is the screen dedicated to entering and managing "
 "residents' supplements. It brings together in one place what would otherwise"
@@ -124,15 +85,11 @@ msgstr ""
 "fois, gérer les conventions récurrentes, tenir le catalogue et suivre les "
 "montants facturés."
 
-#: ../../content/facturation/application-supplements.md:34
-msgid "You will find it in the **main menu → Supplements app**."
-msgstr "Vous la trouvez dans le **menu principal → application Suppléments**."
-
-#: ../../content/facturation/application-supplements.md:36
+#: ../../content/facturation/application-supplements.md:40
 msgid "This page complements \"Supplements\""
 msgstr "Cette page complète « Les suppléments »"
 
-#: ../../content/facturation/application-supplements.md:39
+#: ../../content/facturation/application-supplements.md:43
 msgid ""
 "The basic concepts — the **supplements envelope** per resident and per "
 "month, the **automatic synchronization** of the invoice, the protection when"
@@ -148,7 +105,7 @@ msgstr ""
 "et ses raccourcis de saisie. L'application ne crée aucune donnée parallèle :"
 " elle agit sur les mêmes enveloppes et les mêmes conventions."
 
-#: ../../content/facturation/application-supplements.md:47
+#: ../../content/facturation/application-supplements.md:52
 msgid ""
 "![Supplements app on the Residents screen in kanban view, one card per "
 "resident with room and stay type](../assets/screenshots/facturation/01-app-"
@@ -158,7 +115,7 @@ msgstr ""
 " habitant avec la chambre et le type de "
 "séjour](../assets/screenshots/facturation/01-app-supplements-residents.webp)"
 
-#: ../../content/facturation/application-supplements.md:47
+#: ../../content/facturation/application-supplements.md:52
 msgid ""
 "Supplements app on the Residents screen in kanban view, one card per "
 "resident with room and stay type"
@@ -166,24 +123,11 @@ msgstr ""
 "Application Suppléments sur l'écran Habitants en vue kanban, une carte par "
 "habitant avec la chambre et le type de séjour"
 
-#: ../../content/facturation/application-supplements.md:49
+#: ../../content/facturation/application-supplements.md:54
 msgid "The Residents screen (the starting point)"
 msgstr "L'écran Habitants (le point de départ)"
 
-#: ../../content/facturation/application-supplements.md:51
-msgid ""
-"On opening, the app displays the **Residents** screen: the list of active "
-"residents, in **kanban view** (cards) or **list view**. Each card shows the "
-"photo, the name, the **room** and the **stay type** (the sector of the home "
-"the resident is placed in), with a basket icon \"Add supplements\"."
-msgstr ""
-"À l'ouverture, l'application affiche l'écran **Habitants** : la liste des "
-"habitants actifs, en **vue kanban** (cartes) ou en **vue liste**. Chaque "
-"carte montre la photo, le nom, la **chambre** et le **type de séjour** (le "
-"secteur de la maison dans lequel l'habitant est placé), avec une icône de "
-"panier « Ajouter des suppléments »."
-
-#: ../../content/facturation/application-supplements.md:56
+#: ../../content/facturation/application-supplements.md:62
 msgid ""
 "**Click a resident**: Resthome directly opens the **catalog** of their "
 "supplements envelope for the current month. You land on the entry grid, "
@@ -193,48 +137,20 @@ msgstr ""
 " son enveloppe de suppléments du mois en cours. Vous atterrissez sur la "
 "grille d'ajout, sans passer par la fiche."
 
-#: ../../content/facturation/application-supplements.md:59
-msgid ""
-"In **list view**, each row carries an **Add supplements** button, and the "
-"header an **Add via the catalog** button to act on the checked residents."
-msgstr ""
-"En **vue liste**, chaque ligne porte un bouton **Ajouter des suppléments**, "
-"et l'en-tête un bouton **Ajouter via le catalogue** pour agir sur les "
-"habitants cochés."
-
-#: ../../content/facturation/application-supplements.md:63
+#: ../../content/facturation/application-supplements.md:69
 msgid "Filter and group"
 msgstr "Filtrer et regrouper"
 
-#: ../../content/facturation/application-supplements.md:66
-msgid ""
-"The search bar filters by **stay type** and groups by **room** or by **stay "
-"type** — handy for quickly spotting a wing or a floor before a bulk entry."
-msgstr ""
-"La barre de recherche filtre par **type de séjour** et regroupe par "
-"**chambre** ou par **type de séjour** — utile pour repérer rapidement une "
-"aile ou un étage avant une saisie groupée."
-
-#: ../../content/facturation/application-supplements.md:71
-#: ../../content/facturation/application-supplements.md:193
+#: ../../content/facturation/application-supplements.md:78
+#: ../../content/facturation/application-supplements.md:205
 msgid "In Belgium"
 msgstr "En Belgique"
 
-#: ../../content/facturation/application-supplements.md:74
-msgid ""
-"The stay type is **MR** or **MRS**, and the search bar offers **MR** / "
-"**MRS** filters. See [Billing a month in "
-"Belgium](../belgique/facturation.md)."
-msgstr ""
-"Le type de séjour est **MR** ou **MRS**, et la barre de recherche propose "
-"les filtres **MR** / **MRS**. Voir [Facturer un mois en "
-"Belgique](../belgique/facturation.md)."
-
-#: ../../content/facturation/application-supplements.md:78
+#: ../../content/facturation/application-supplements.md:85
 msgid "Adding supplements to several residents"
 msgstr "Ajouter des suppléments à plusieurs habitants"
 
-#: ../../content/facturation/application-supplements.md:80
+#: ../../content/facturation/application-supplements.md:87
 msgid ""
 "This is the app's central shortcut: applying the same supplement to several "
 "residents without reopening each record."
@@ -242,11 +158,11 @@ msgstr ""
 "C'est le raccourci central de l'application : appliquer le même supplément à"
 " plusieurs habitants sans rouvrir chaque fiche."
 
-#: ../../content/facturation/application-supplements.md:83
+#: ../../content/facturation/application-supplements.md:90
 msgid "On the **Residents** screen, **select several residents**:"
 msgstr "Sur l'écran **Habitants**, **sélectionnez plusieurs habitants** :"
 
-#: ../../content/facturation/application-supplements.md:84
+#: ../../content/facturation/application-supplements.md:91
 msgid ""
 "**Ctrl+click** (or Cmd+click) on a computer adds/removes a resident; "
 "**Shift+click** extends the selection to a range;"
@@ -254,11 +170,11 @@ msgstr ""
 "**Ctrl+clic** (ou Cmd+clic) sur ordinateur ajoute/retire un habitant ; "
 "**Maj+clic** étend la sélection à une plage ;"
 
-#: ../../content/facturation/application-supplements.md:86
+#: ../../content/facturation/application-supplements.md:93
 msgid "**long press** on a touch tablet;"
 msgstr "**appui long** sur tablette tactile ;"
 
-#: ../../content/facturation/application-supplements.md:87
+#: ../../content/facturation/application-supplements.md:94
 msgid ""
 "or enable the **Multiple selection** button, which selects on a single "
 "click."
@@ -266,16 +182,7 @@ msgstr ""
 "ou activez le bouton **Sélection multiple**, qui fait sélectionner au simple"
 " clic."
 
-#: ../../content/facturation/application-supplements.md:89
-msgid ""
-"Click the **Supplements (N)** button that appears (N = number of selected "
-"residents). In list view, use **Add via the catalog**."
-msgstr ""
-"Cliquez sur le bouton **Suppléments (N)** qui apparaît (N = nombre de "
-"habitants sélectionnés). En vue liste, utilisez **Ajouter via le "
-"catalogue**."
-
-#: ../../content/facturation/application-supplements.md:91
+#: ../../content/facturation/application-supplements.md:98
 msgid ""
 "**A single catalog** opens. Each supplement you add, modify or remove there "
 "is **applied to the open envelope of each selected resident**, for the "
@@ -285,20 +192,7 @@ msgstr ""
 "modifiez ou retirez est **répercuté sur l'enveloppe ouverte de chaque "
 "habitant sélectionné**, pour le mois en cours."
 
-#: ../../content/facturation/application-supplements.md:95
-msgid ""
-"In this shared catalog, the left panel shows a **Residents** section: the "
-"residents concerned appear as tags (the \"pilot\" resident in grey, the "
-"others in green). The **Add** link lets you add more on the fly; removing a "
-"tag takes out the resident (the last one cannot be removed)."
-msgstr ""
-"Dans ce catalogue partagé, le panneau de gauche affiche une section "
-"**Habitants** : les habitants concernés apparaissent sous forme d'étiquettes"
-" (l'habitant « pilote » en gris, les autres en vert). Le lien **Ajouter** "
-"permet d'en ajouter d'autres à la volée ; supprimer une étiquette retire "
-"l'habitant (le dernier ne peut pas être retiré)."
-
-#: ../../content/facturation/application-supplements.md:101
+#: ../../content/facturation/application-supplements.md:109
 msgid ""
 "![Multi-resident supplement catalog, with the residents it applies "
 "to](../assets/screenshots/facturation/supplements-catalogue-residents.png)"
@@ -307,16 +201,16 @@ msgstr ""
 "concernés](../assets/screenshots/facturation/supplements-catalogue-"
 "residents.png)"
 
-#: ../../content/facturation/application-supplements.md:101
+#: ../../content/facturation/application-supplements.md:109
 msgid "Multi-resident supplement catalog, with the residents it applies to"
 msgstr ""
 "Catalogue de suppléments multi-habitants, avec les habitants concernés"
 
-#: ../../content/facturation/application-supplements.md:103
+#: ../../content/facturation/application-supplements.md:111
 msgid "A supplement already covered by a convention is skipped"
 msgstr "Un supplément déjà couvert par une convention est ignoré"
 
-#: ../../content/facturation/application-supplements.md:106
+#: ../../content/facturation/application-supplements.md:114
 msgid ""
 "If one of the selected residents already has this product in an **active "
 "convention**, the line is **not** added for them (it would be discarded at "
@@ -330,11 +224,7 @@ msgstr ""
 "normalement. Pour une saisie sur un seul habitant, Resthome bloque carrément"
 " l'ajout et vous invite à passer par la convention."
 
-#: ../../content/facturation/application-supplements.md:113
-msgid "One-off and recurring supplements"
-msgstr "Suppléments ponctuels et récurrents"
-
-#: ../../content/facturation/application-supplements.md:115
+#: ../../content/facturation/application-supplements.md:123
 msgid ""
 "The app distinguishes the two kinds of supplements already presented in "
 "[Supplements](supplements.md)."
@@ -342,21 +232,7 @@ msgstr ""
 "L'application distingue les deux natures de suppléments déjà présentées dans"
 " [Les suppléments](supplements.md)."
 
-#: ../../content/facturation/application-supplements.md:118
-msgid ""
-"**One-off** — added to the month's envelope via the catalog (hairdresser, "
-"pedicure, drink, phone…). The **One-off supplements** menu gives the "
-"**list**, grouped by resident, with the period, the product, the quantity, "
-"the price and the total. This is the place to review everything entered by "
-"hand over the month."
-msgstr ""
-"**Ponctuels** — ajoutés à l'enveloppe du mois via le catalogue (coiffeur, "
-"pédicure, boisson, téléphone…). Le menu **Suppléments ponctuels** en donne "
-"la **liste**, regroupée par habitant, avec la période, le produit, la "
-"quantité, le prix et le total. C'est l'endroit pour relire tout ce qui a été"
-" saisi à la main sur le mois."
-
-#: ../../content/facturation/application-supplements.md:123
+#: ../../content/facturation/application-supplements.md:133
 msgid ""
 "**Recurring** — renewed each month via a **convention** (see the next "
 "section)."
@@ -364,29 +240,11 @@ msgstr ""
 "**Récurrents** — reconduits chaque mois via une **convention** (voir la "
 "section suivante)."
 
-#: ../../content/facturation/application-supplements.md:126
-msgid ""
-"![One-off supplements list grouped by resident, with quantities and "
-"subtotals per line](../assets/screenshots/facturation/02-supplements-"
-"ponctuels.webp)"
-msgstr ""
-"![Liste des suppléments ponctuels groupée par habitant, avec les quantités "
-"et les sous-totaux par "
-"ligne](../assets/screenshots/facturation/02-supplements-ponctuels.webp)"
-
-#: ../../content/facturation/application-supplements.md:126
-msgid ""
-"One-off supplements list grouped by resident, with quantities and subtotals "
-"per line"
-msgstr ""
-"Liste des suppléments ponctuels groupée par habitant, avec les quantités et "
-"les sous-totaux par ligne"
-
-#: ../../content/facturation/application-supplements.md:128
+#: ../../content/facturation/application-supplements.md:139
 msgid "Where did my supplement go?"
 msgstr "Où est passé mon supplément ?"
 
-#: ../../content/facturation/application-supplements.md:131
+#: ../../content/facturation/application-supplements.md:142
 msgid ""
 "On each addition, Resthome shows a notification indicating **which "
 "period(s)** the supplement was billed on — or warns you that **no open "
@@ -400,36 +258,11 @@ msgstr ""
 "que lorsque le mois concerné sera généré). Vérifiez la **date de début** si "
 "le supplément n'apparaît pas où vous l'attendiez."
 
-#: ../../content/facturation/application-supplements.md:138
+#: ../../content/facturation/application-supplements.md:149
 msgid "Supplement conventions"
 msgstr "Les conventions de suppléments"
 
-#: ../../content/facturation/application-supplements.md:140
-msgid ""
-"A **convention** groups a resident's **recurring** supplements (single room,"
-" TV, phone…). It lives on the **resident**, not on the stay: it **survives**"
-" a stay closure, a room change or a transfer between sectors. Each resident "
-"has **one single** convention, which gathers all their recurring lines."
-msgstr ""
-"Une **convention** regroupe les suppléments **récurrents** d'un habitant "
-"(chambre individuelle, TV, téléphone…). Elle vit sur l’**habitant**, pas sur"
-" le séjour : elle **survit** à une clôture de séjour, un changement de "
-"chambre ou un transfert entre secteurs. Chaque habitant a **une seule** "
-"convention, qui rassemble toutes ses lignes récurrentes."
-
-#: ../../content/facturation/application-supplements.md:146
-msgid ""
-"In the app, the **Conventions** menu lists the recurring supplement lines "
-"(resident, convention, product, type, dates, quantity, active). The "
-"convention itself — with its status and its buttons — is managed from "
-"**Billing → Facturation → Supplement Conventions**."
-msgstr ""
-"Dans l'application, le menu **Conventions** liste les lignes de suppléments "
-"récurrents (habitant, convention, produit, type, dates, quantité, actif). La"
-" convention elle-même — avec son statut et ses boutons — se gère depuis "
-"**Facturation → Facturation → Conventions de suppléments**."
-
-#: ../../content/facturation/application-supplements.md:151
+#: ../../content/facturation/application-supplements.md:164
 msgid ""
 "![Supplement conventions list: one per resident, with the period covered and"
 " the Open or Closed status](../assets/screenshots/facturation/convention-"
@@ -439,7 +272,7 @@ msgstr ""
 "couverte et l'état Ouverte ou "
 "Fermée](../assets/screenshots/facturation/convention-supplements-liste.png)"
 
-#: ../../content/facturation/application-supplements.md:151
+#: ../../content/facturation/application-supplements.md:164
 msgid ""
 "Supplement conventions list: one per resident, with the period covered and "
 "the Open or Closed status"
@@ -447,51 +280,37 @@ msgstr ""
 "Liste des conventions de suppléments : une par habitant, avec la période "
 "couverte et l'état Ouverte ou Fermée"
 
-#: ../../content/facturation/application-supplements.md:153
+#: ../../content/facturation/application-supplements.md:166
 msgid "On the convention:"
 msgstr "Sur la convention :"
 
-#: ../../content/facturation/application-supplements.md:128
+#: ../../content/facturation/application-supplements.md:139
 msgid "Element"
 msgstr "Élément"
 
-#: ../../content/facturation/application-supplements.md:128
+#: ../../content/facturation/application-supplements.md:139
 msgid "Role"
 msgstr "Rôle"
 
-#: ../../content/facturation/application-supplements.md:128
+#: ../../content/facturation/application-supplements.md:139
 msgid "**Status**"
 msgstr "**Statut**"
 
-#: ../../content/facturation/application-supplements.md:128
+#: ../../content/facturation/application-supplements.md:139
 msgid "**Open** or **Closed** (at the top of the record)."
 msgstr "**Ouverte** ou **Clôturé** (en haut de la fiche)."
 
-#: ../../content/facturation/application-supplements.md:128
+#: ../../content/facturation/application-supplements.md:139
 msgid "**Close** button"
 msgstr "Bouton **Clôturer**"
 
-#: ../../content/facturation/application-supplements.md:128
-msgid "Sets an **end date** and stops billing each line beyond it."
-msgstr "Fixe une **date de fin** et arrête de facturer chaque ligne au-delà."
-
-#: ../../content/facturation/application-supplements.md:128
+#: ../../content/facturation/application-supplements.md:139
 msgid "**Reopen** button"
 msgstr "Bouton **Rouvrir**"
 
-#: ../../content/facturation/application-supplements.md:128
-msgid "Clears the end date and reactivates the lines that had been closed."
-msgstr ""
-"Efface la date de fin et réactive les lignes qui avaient été clôturées."
-
-#: ../../content/facturation/application-supplements.md:128
+#: ../../content/facturation/application-supplements.md:139
 msgid "**Lines**"
 msgstr "**Lignes**"
-
-#: ../../content/facturation/application-supplements.md:128
-msgid "Product, type, price, start date, end date, quantity, active, notes."
-msgstr ""
-"Produit, type, prix, date de début, date de fin, quantité, actif, notes."
 
 #: ../../content/facturation/application-supplements.md:162
 msgid ""
@@ -511,136 +330,65 @@ msgstr ""
 "Convention de suppléments ouverte, avec le bouton Clôturer et ses lignes : "
 "produit, type de supplément, prix unitaire, dates, quantité et case Actif"
 
-#: ../../content/facturation/application-supplements.md:164
-msgid "A product under a convention cannot be entered as one-off"
-msgstr "Un produit sous convention ne se saisit pas en ponctuel"
-
-#: ../../content/facturation/application-supplements.md:167
-msgid ""
-"As long as a product is covered by an **active convention**, it cannot be "
-"added as a one-off supplement for the same resident. Add it **to the "
-"convention**, or **close** that convention first."
-msgstr ""
-"Tant qu'un produit est couvert par une **convention active**, il ne peut pas"
-" être ajouté comme supplément ponctuel pour le même habitant. Ajoutez-le "
-"**dans la convention**, ou **clôturez** d'abord celle-ci."
-
-#: ../../content/facturation/application-supplements.md:172
+#: ../../content/facturation/application-supplements.md:190
 msgid "The supplements catalog"
 msgstr "Le catalogue des suppléments"
 
-#: ../../content/facturation/application-supplements.md:174
-msgid ""
-"The **Configuration → Catalog** menu holds the list of billable **supplement"
-" types** (\"Supplement types\"). Each supplement has:"
-msgstr ""
-"Le menu **Configuration → Catalogue** tient la liste des **types de "
-"suppléments** facturables (« Types de suppléments »). Chaque supplément y a "
-":"
-
-#: ../../content/facturation/application-supplements.md:164
+#: ../../content/facturation/application-supplements.md:182
 msgid "Field"
 msgstr "Champ"
 
-#: ../../content/facturation/application-supplements.md:164
+#: ../../content/facturation/application-supplements.md:182
 msgid "Description"
 msgstr "Description"
 
-#: ../../content/facturation/application-supplements.md:164
+#: ../../content/facturation/application-supplements.md:182
 msgid "**Reference**"
 msgstr "**Référence**"
 
-#: ../../content/facturation/application-supplements.md:164
+#: ../../content/facturation/application-supplements.md:182
 msgid "Internal code of the supplement."
 msgstr "Code interne du supplément."
 
-#: ../../content/facturation/application-supplements.md:164
+#: ../../content/facturation/application-supplements.md:182
 msgid "**Name**"
 msgstr "**Nom**"
 
-#: ../../content/facturation/application-supplements.md:164
+#: ../../content/facturation/application-supplements.md:182
 msgid "Label shown in the catalog."
 msgstr "Libellé affiché dans le catalogue."
 
-#: ../../content/facturation/application-supplements.md:164
-msgid "**Supplement type**"
-msgstr "**Type de supplément**"
-
-#: ../../content/facturation/application-supplements.md:164
-msgid ""
-"**Daily** (billed pro rata over the days), **Monthly** (per month) or **One-"
-"off** (once)."
-msgstr ""
-"**Journalier** (facturé au prorata des jours), **Mensuel** (par mois) ou "
-"**Ponctuel** (une fois)."
-
-#: ../../content/facturation/application-supplements.md:164
+#: ../../content/facturation/application-supplements.md:182
 msgid "**Price**"
 msgstr "**Prix**"
 
-#: ../../content/facturation/application-supplements.md:164
+#: ../../content/facturation/application-supplements.md:182
 msgid "Unit amount — **value specific to the facility**."
 msgstr "Montant unitaire — **valeur propre à l'établissement**."
 
-#: ../../content/facturation/application-supplements.md:184
-msgid "Declared to the health insurer or not?"
-msgstr "Déclaré à l'assureur santé ou non ?"
-
-#: ../../content/facturation/application-supplements.md:187
-msgid ""
-"Depending on its **category**, a supplement is either **declared to the "
-"health insurer** with the insurer's share, where the country requires it, or"
-" billed **only on the resident's invoice**. This setting is made on the "
-"product category — see [Billing settings](../configuration/reglages-"
-"facturation.md)."
-msgstr ""
-"Selon sa **catégorie**, un supplément est soit **déclaré à l'assureur "
-"santé** avec la part de l'assureur, là où le pays l'exige, soit facturé "
-"**uniquement sur la facture de l'habitant**. Ce réglage se fait sur la "
-"catégorie de produit — voir [Réglages de "
-"facturation](../configuration/reglages-facturation.md)."
-
-#: ../../content/facturation/application-supplements.md:196
-msgid ""
-"The catalog carries an **AViQ code** field — the declaration pseudo-code of "
-"the supplement — and a declared supplement goes into the eFact (ET50 "
-"record). See [Billing a month in Belgium](../belgique/facturation.md)."
-msgstr ""
-"Le catalogue comporte un champ **Code AVIQ** — le pseudo-code de déclaration"
-" du supplément — et un supplément déclaré entre dans l'eFact (enregistrement"
-" ET50). Voir [Facturer un mois en Belgique](../belgique/facturation.md)."
-
-#: ../../content/facturation/application-supplements.md:201
+#: ../../content/facturation/application-supplements.md:214
 msgid "Reporting"
 msgstr "Le reporting"
 
-#: ../../content/facturation/application-supplements.md:203
+#: ../../content/facturation/application-supplements.md:216
 msgid ""
 "The **Reporting** menu opens an analysis view of **billed** supplements:"
 msgstr ""
 "Le menu **Reporting** ouvre une vue d'analyse des suppléments **facturés** :"
 
-#: ../../content/facturation/application-supplements.md:205
+#: ../../content/facturation/application-supplements.md:218
 msgid "a **graph** of amounts per product;"
 msgstr "un **graphique** des montants par produit ;"
 
-#: ../../content/facturation/application-supplements.md:206
+#: ../../content/facturation/application-supplements.md:219
 msgid "a **pivot table** (residents × months);"
 msgstr "un **tableau croisé** (habitants × mois) ;"
 
-#: ../../content/facturation/application-supplements.md:207
+#: ../../content/facturation/application-supplements.md:220
 msgid "a detailed **list** of supplement lines."
 msgstr "une **liste** détaillée des lignes de suppléments."
 
-#: ../../content/facturation/application-supplements.md:209
-msgid ""
-"You can filter between **one-off** and **convention** supplements, and group"
-" by **resident**, **product** or **month**."
-msgstr ""
-"Vous pouvez filtrer entre suppléments **ponctuels** et de **convention**, et"
-" regrouper par **habitant**, **produit** ou **mois**."
-
-#: ../../content/facturation/application-supplements.md:212
+#: ../../content/facturation/application-supplements.md:225
 msgid ""
 "![Supplements reporting on the graph view, one bar per resident with the "
 "billed amount](../assets/screenshots/facturation/04-supplements-"
@@ -650,7 +398,7 @@ msgstr ""
 " montant facturé](../assets/screenshots/facturation/04-supplements-"
 "reporting.webp)"
 
-#: ../../content/facturation/application-supplements.md:212
+#: ../../content/facturation/application-supplements.md:225
 msgid ""
 "Supplements reporting on the graph view, one bar per resident with the "
 "billed amount"
@@ -658,11 +406,11 @@ msgstr ""
 "Reporting des suppléments en vue graphique, une barre par habitant avec le "
 "montant facturé"
 
-#: ../../content/facturation/application-supplements.md:214
+#: ../../content/facturation/application-supplements.md:227
 msgid "After generation only"
 msgstr "Après génération seulement"
 
-#: ../../content/facturation/application-supplements.md:217
+#: ../../content/facturation/application-supplements.md:230
 msgid ""
 "Supplements only appear in the reporting once the **billing period is "
 "generated** for the relevant month."
@@ -670,11 +418,11 @@ msgstr ""
 "Les suppléments n'apparaissent dans le reporting qu'une fois la **période de"
 " facturation générée** pour le mois concerné."
 
-#: ../../content/facturation/application-supplements.md:221
+#: ../../content/facturation/application-supplements.md:234
 msgid "Key points to remember"
 msgstr "Points clés à retenir"
 
-#: ../../content/facturation/application-supplements.md:223
+#: ../../content/facturation/application-supplements.md:236
 msgid ""
 "The **Supplements** app is a dedicated entry screen; it acts on the **same "
 "envelopes and conventions** as billing — no duplicate data."
@@ -683,7 +431,7 @@ msgstr ""
 "les **mêmes enveloppes et conventions** que la facturation — pas de données "
 "en double."
 
-#: ../../content/facturation/application-supplements.md:225
+#: ../../content/facturation/application-supplements.md:238
 msgid ""
 "The **Residents** screen is the starting point: click a resident to open "
 "their catalog, or **select several** (Ctrl+click / long press / **Multiple "
@@ -694,19 +442,7 @@ msgstr ""
 "long / **Sélection multiple**) puis **Suppléments (N)** pour les servir en "
 "une fois."
 
-#: ../../content/facturation/application-supplements.md:228
-msgid ""
-"**One-off** = once on the envelope; **convention** = recurring, on the "
-"resident, surviving stay changes."
-msgstr ""
-"**Ponctuel** = une fois sur l'enveloppe ; **convention** = récurrent, sur "
-"l'habitant, survivant aux changements de séjour."
-
-#: ../../content/facturation/application-supplements.md:230
-msgid "A product under an **active convention** cannot be entered as one-off."
-msgstr "Un produit sous **convention active** ne se saisit pas en ponctuel."
-
-#: ../../content/facturation/application-supplements.md:231
+#: ../../content/facturation/application-supplements.md:244
 msgid ""
 "The **catalog** carries the type and the price (value specific to the "
 "facility); the **reporting** tracks amounts per resident, product and month."
@@ -714,68 +450,356 @@ msgstr ""
 "Le **catalogue** porte le type et le prix (valeur propre à l'établissement) "
 "; le **reporting** suit les montants par habitant, produit et mois."
 
-#: ../../content/facturation/application-supplements.md:234
+#: ../../content/facturation/application-supplements.md:247
 msgid "Further reading"
 msgstr "Pour aller plus loin"
 
-#: ../../content/facturation/application-supplements.md:236
+#: ../../content/facturation/application-supplements.md:249
 msgid "[Supplements](supplements.md)"
 msgstr "[Les suppléments](supplements.md)"
 
-#: ../../content/facturation/application-supplements.md:237
+#: ../../content/facturation/application-supplements.md:250
 msgid "[Recharging a vendor bill](refacturation-fournisseur.md)"
 msgstr "[Refacturer une facture fournisseur](refacturation-fournisseur.md)"
 
-#: ../../content/facturation/application-supplements.md:238
+#: ../../content/facturation/application-supplements.md:251
 msgid "[Billing a month, step by step](facturer-un-mois.md)"
 msgstr "[Facturer un mois, pas à pas](facturer-un-mois.md)"
 
-#: ../../content/facturation/application-supplements.md:239
+#: ../../content/facturation/application-supplements.md:252
 msgid "[Billing overview](index.md)"
 msgstr "[Vue d'ensemble de la facturation](index.md)"
 
-#: ../../content/facturation/application-supplements.md:240
+#: ../../content/facturation/application-supplements.md:253
 msgid "[Billing settings](../configuration/reglages-facturation.md)"
 msgstr "[Réglages de facturation](../configuration/reglages-facturation.md)"
 
-#~ msgid ""
-#~ "![One-off supplements list grouped by resident, with quantities and "
-#~ "subtotals per line](../assets/screenshots/facturation/02-supplements-"
-#~ "ponctuels.webp)"
-#~ msgstr ""
-#~ "![Liste des suppléments ponctuels groupée par habitant, avec les quantités "
-#~ "et les sous-totaux par "
-#~ "ligne](../assets/screenshots/facturation/02-supplements-ponctuels.webp)"
+#: ../../content/facturation/application-supplements.md:180
+msgid ""
+"![Open supplement convention with the Close button and its lines: product, "
+"supplement type, unit price, dates, quantity and Active "
+"box](../assets/screenshots/facturation/03-convention-supplements.webp)"
+msgstr ""
+"![Convention de suppléments ouverte, avec le bouton Clôturer et ses lignes :"
+" produit, type de supplément, prix unitaire, dates, quantité et case "
+"Actif](../assets/screenshots/facturation/03-convention-supplements.webp)"
 
-#~ msgid ""
-#~ "One-off supplements list grouped by resident, with quantities and subtotals "
-#~ "per line"
-#~ msgstr ""
-#~ "Liste des suppléments ponctuels groupée par habitant, avec les quantités et "
-#~ "les sous-totaux par ligne"
+#: ../../content/facturation/application-supplements.md:180
+msgid ""
+"Open supplement convention with the Close button and its lines: product, "
+"supplement type, unit price, dates, quantity and Active box"
+msgstr ""
+"Convention de suppléments ouverte, avec le bouton Clôturer et ses lignes : "
+"produit, type de supplément, prix unitaire, dates, quantité et case Actif"
 
-#~ msgid ""
-#~ "![Open supplement convention with the Close button and its lines: product, "
-#~ "supplement type, unit price, dates, quantity and Active "
-#~ "box](../assets/screenshots/facturation/03-convention-supplements.webp)"
-#~ msgstr ""
-#~ "![Convention de suppléments ouverte, avec le bouton Clôturer et ses lignes :"
-#~ " produit, type de supplément, prix unitaire, dates, quantité et case "
-#~ "Actif](../assets/screenshots/facturation/03-convention-supplements.webp)"
+#: ../../content/facturation/application-supplements.md:5
+msgid "The Supplements app"
+msgstr "L'application Suppléments"
 
-#~ msgid ""
-#~ "Open supplement convention with the Close button and its lines: product, "
-#~ "supplement type, unit price, dates, quantity and Active box"
-#~ msgstr ""
-#~ "Convention de suppléments ouverte, avec le bouton Clôturer et ses lignes : "
-#~ "produit, type de supplément, prix unitaire, dates, quantité et case Actif"
+#: ../../content/facturation/application-supplements.md:8
+msgid ""
+"The Supplements app of a care home: multi-resident entry via the catalog, "
+"one-time or recurring supplements, conventions, catalog and reporting."
+msgstr ""
+"L'application Suppléments d'une maison de repos : saisie multi-habitants via"
+" le catalogue, suppléments ponctuels ou récurrents, conventions, catalogue "
+"et reporting."
 
-#~ msgid "**AViQ code**"
-#~ msgstr "**Code AViQ**"
+#: ../../content/facturation/application-supplements.md:18
+msgid "What is the difference between a one-time supplement and a convention?"
+msgstr "Quelle différence entre un supplément ponctuel et une convention ?"
 
-#~ msgid ""
-#~ "Declaration pseudo-code, when the supplement is declared to the insurance "
-#~ "body."
-#~ msgstr ""
-#~ "Pseudo-code de déclaration, quand le supplément est déclaré à l'organisme "
-#~ "assureur."
+#: ../../content/facturation/application-supplements.md:19
+msgid ""
+"A one-time supplement is billed once on the month's envelope (hairdresser, "
+"drink…). A convention groups the resident's recurring supplements (single "
+"room, TV, phone): it lives on the resident and survives a room change or a "
+"transfer."
+msgstr ""
+"Un supplément ponctuel est facturé une seule fois sur l'enveloppe du mois "
+"(coiffeur, boisson…). Une convention regroupe les suppléments récurrents de "
+"l'habitant (chambre individuelle, TV, téléphone) : elle vit sur l'habitant "
+"et survit à un changement de chambre ou à un transfert."
+
+#: ../../content/facturation/application-supplements.md:22
+msgid ""
+"In Configuration → Catalogue. Each supplement has a supplement type "
+"(monthly, one-time, daily on accommodation days or daily on presence days) "
+"and a price specific to the facility."
+msgstr ""
+"Dans Configuration → Catalogue. Chaque supplément a un type de supplément "
+"(mensuel, ponctuel, journalier sur les jours d'hébergement ou journalier sur"
+" les jours de présence) et un prix propre à l'établissement."
+
+#: ../../content/facturation/application-supplements.md:24
+msgid "Which residents does the app list?"
+msgstr "Quels habitants l'application liste-t-elle ?"
+
+#: ../../content/facturation/application-supplements.md:25
+msgid ""
+"Those who can be charged now: residents whose stay has started, and "
+"residents who left while the month of their departure is not invoiced yet."
+msgstr ""
+"Ceux qui peuvent être facturés maintenant : les habitants dont le séjour a "
+"commencé, et ceux qui sont partis tant que le mois de leur départ n'est pas "
+"encore facturé."
+
+#: ../../content/facturation/application-supplements.md:37
+msgid ""
+"You will find it in the **main menu → Supplements app**. When the Meals app "
+"is installed too, a **Supplements** entry in the Meals menu opens the same "
+"screen."
+msgstr ""
+"Vous la trouvez dans le **menu principal → application Suppléments**. Quand "
+"l'application Repas est aussi installée, une entrée **Suppléments** dans le "
+"menu Repas ouvre le même écran."
+
+#: ../../content/facturation/application-supplements.md:56
+msgid ""
+"On opening, the app displays the **Residents** screen, in **kanban view** "
+"(cards) or **list view**. It lists the residents who can be charged now: "
+"those whose stay has started, and those who left while the month of their "
+"departure is not invoiced yet. Each card is the usual resident card (photo, "
+"name, room, sector, presence badges), with a basket icon \"Add "
+"supplements\"."
+msgstr ""
+"À l'ouverture, l'application affiche l'écran **Habitants**, en **vue "
+"kanban** (cartes) ou en **vue liste**. Elle liste les habitants qui peuvent "
+"être facturés maintenant : ceux dont le séjour a commencé, et ceux qui sont "
+"partis tant que le mois de leur départ n'est pas encore facturé. Chaque "
+"carte est la carte d'habitant habituelle (photo, nom, chambre, secteur, "
+"badges de présence), avec une icône de panier « Ajouter des suppléments »."
+
+#: ../../content/facturation/application-supplements.md:65
+msgid ""
+"In **list view**, each row shows the resident's **Open envelope** and an "
+"**Add supplements** button; the header has an **Add via catalog** button to "
+"act on the checked residents."
+msgstr ""
+"En **vue liste**, chaque ligne affiche l'**Enveloppe ouverte** de l'habitant"
+" et un bouton **Ajouter des suppléments** ; l'en-tête porte un bouton "
+"**Ajouter via le catalogue** pour agir sur les habitants cochés."
+
+#: ../../content/facturation/application-supplements.md:72
+msgid ""
+"The side panel filters by **Presence** (in the house, in hospital, on "
+"leave…) and by **Sector**. The search bar groups by **Room** or **Sector**, "
+"and the **Departed, last month still open** filter finds the residents who "
+"left but can still be charged for their last month."
+msgstr ""
+"Le panneau latéral filtre par **Présence** (dans la maison, à l'hôpital, en "
+"congé…) et par **Secteur**. La barre de recherche regroupe par **Chambre** "
+"ou **Secteur**, et le filtre **Partis, dernier mois encore ouvert** retrouve"
+" les habitants partis qui peuvent encore être facturés pour leur dernier "
+"mois."
+
+#: ../../content/facturation/application-supplements.md:81
+msgid ""
+"The sector is **MR** or **MRS**, and the search bar offers **MR** / **MRS** "
+"filters. See [Billing a month in Belgium](../belgique/facturation.md)."
+msgstr ""
+"Le secteur est **MR** ou **MRS**, et la barre de recherche propose les "
+"filtres **MR** / **MRS**. Voir [Facturer un mois en "
+"Belgique](../belgique/facturation.md)."
+
+#: ../../content/facturation/application-supplements.md:96
+msgid ""
+"Click the **Supplements (N)** button that appears (N = number of selected "
+"residents). In list view, use **Add via catalog**."
+msgstr ""
+"Cliquez sur le bouton **Suppléments (N)** qui apparaît (N = nombre "
+"d'habitants sélectionnés). En vue liste, utilisez **Ajouter via le "
+"catalogue**."
+
+#: ../../content/facturation/application-supplements.md:102
+msgid ""
+"In this shared catalog, the left panel shows a **Residents** section: the "
+"residents concerned appear as tags, with their number. The **Add** link lets"
+" you add more on the fly; removing a tag takes out the resident (the last "
+"one cannot be removed). The quantities on the cards are the supplements "
+"already recorded for this month: **+** adds one, **−** takes one off. Each "
+"change is confirmed by a notification with an **Undo** link."
+msgstr ""
+"Dans ce catalogue partagé, le panneau de gauche affiche une section "
+"**Habitants** : les habitants concernés apparaissent sous forme "
+"d'étiquettes, avec leur nombre. Le lien **Ajouter** permet d'en ajouter à la"
+" volée ; retirer une étiquette retire l'habitant (le dernier ne peut pas "
+"être retiré). Les quantités sur les cartes sont les suppléments déjà "
+"enregistrés pour ce mois : **+** en ajoute un, **−** en retire un. Chaque "
+"modification est confirmée par une notification avec un lien **Annuler**."
+
+#: ../../content/facturation/application-supplements.md:121
+msgid "One-time and recurring supplements"
+msgstr "Suppléments ponctuels et récurrents"
+
+#: ../../content/facturation/application-supplements.md:126
+msgid ""
+"**One-time** — added to the month's envelope via the catalog (hairdresser, "
+"pedicure, drink, phone…). The **One-time supplements** menu gives the "
+"**list**, with the resident, the period, the supplement, the quantity and "
+"the price, and the **Vendor bill** it was recharged from, if any. Group it "
+"by resident, period, supplement or vendor bill; the **Recharged from a "
+"vendor bill** filter isolates the [recharges](refacturation-fournisseur.md)."
+" This is the place to review everything entered over the month."
+msgstr ""
+"**Ponctuel** — ajouté à l'enveloppe du mois via le catalogue (coiffeur, "
+"pédicure, boisson, téléphone…). Le menu **Suppléments ponctuels** en donne "
+"la **liste**, avec l'habitant, la période, le supplément, la quantité et le "
+"prix, et la **Facture fournisseur** dont il a été refacturé, le cas échéant."
+" Regroupez-la par habitant, période, supplément ou facture fournisseur ; le "
+"filtre **Refacturé depuis une facture fournisseur** isole les "
+"[refacturations](refacturation-fournisseur.md). C'est l'endroit où passer en"
+" revue tout ce qui a été saisi pendant le mois."
+
+#: ../../content/facturation/application-supplements.md:137
+msgid ""
+"![One-time supplements list grouped by resident, with quantities and "
+"subtotals per line](../assets/screenshots/facturation/02-supplements-"
+"ponctuels.webp)"
+msgstr ""
+"![Liste des suppléments ponctuels groupée par habitant, avec les quantités "
+"et les sous-totaux par "
+"ligne](../assets/screenshots/facturation/02-supplements-ponctuels.webp)"
+
+#: ../../content/facturation/application-supplements.md:137
+msgid ""
+"One-time supplements list grouped by resident, with quantities and subtotals"
+" per line"
+msgstr ""
+"Liste des suppléments ponctuels groupée par habitant, avec les quantités et "
+"les sous-totaux par ligne"
+
+#: ../../content/facturation/application-supplements.md:151
+msgid ""
+"A **convention** groups a resident's **recurring** supplements (single room,"
+" TV, phone…). It lives on the **resident**, not on the stay: it **survives**"
+" a room change or a transfer between sectors. Each resident has **one "
+"single** convention, which gathers all their recurring lines; starting a "
+"second one shows a warning with a link to the existing one."
+msgstr ""
+"Une **convention** regroupe les suppléments **récurrents** d'un habitant "
+"(chambre individuelle, TV, téléphone…). Elle vit sur l'**habitant**, pas sur"
+" le séjour : elle **survit** à un changement de chambre ou à un transfert "
+"entre secteurs. Chaque habitant a **une seule** convention, qui rassemble "
+"toutes ses lignes récurrentes ; en commencer une seconde affiche un "
+"avertissement avec un lien vers celle qui existe."
+
+#: ../../content/facturation/application-supplements.md:158
+msgid ""
+"In the app, the **Conventions** menu lists the recurring supplement lines "
+"(resident, convention, product, supplement type, unit price, dates, "
+"quantity, active). The convention itself — with its status and its buttons —"
+" is managed from **Billing → Facturation → Supplement Conventions**, or from"
+" the **Supplements** smart button on the resident's record."
+msgstr ""
+"Dans l'application, le menu **Conventions** liste les lignes de suppléments "
+"récurrents (habitant, convention, produit, type de supplément, prix "
+"unitaire, dates, quantité, actif). La convention elle-même — avec son statut"
+" et ses boutons — se gère depuis **Facturation → Facturation → Conventions "
+"de suppléments**, ou depuis le bouton intelligent **Suppléments** de la "
+"fiche de l'habitant."
+
+#: ../../content/facturation/application-supplements.md:139
+msgid "Asks for an **end date** and stops billing each line beyond it."
+msgstr ""
+"Demande une **date de fin** et arrête de facturer chaque ligne au-delà."
+
+#: ../../content/facturation/application-supplements.md:139
+msgid "Clears the end date and reopens the lines it had capped."
+msgstr "Efface la date de fin et rouvre les lignes qu'elle avait plafonnées."
+
+#: ../../content/facturation/application-supplements.md:139
+msgid ""
+"Product, supplement type, **Negotiated price**, unit price, start date, end "
+"date, quantity, active, notes. Greyed lines are no longer billed."
+msgstr ""
+"Produit, type de supplément, **Prix négocié**, prix unitaire, date de début,"
+" date de fin, quantité, actif, notes. Les lignes grisées ne sont plus "
+"facturées."
+
+#: ../../content/facturation/application-supplements.md:175
+msgid ""
+"A line follows the official price, including its yearly "
+"[indexation](indexation-des-prix.md), unless **Negotiated price** is ticked:"
+" the **Unit Price** typed on the line is then charged."
+msgstr ""
+"Une ligne suit le prix officiel, y compris son [indexation](indexation-des-"
+"prix.md) annuelle, sauf si **Prix négocié** est coché : c'est alors le "
+"**Prix unitaire** saisi sur la ligne qui est facturé."
+
+#: ../../content/facturation/application-supplements.md:182
+msgid "A product under a convention cannot be entered as one-time"
+msgstr "Un produit sous convention ne se saisit pas en ponctuel"
+
+#: ../../content/facturation/application-supplements.md:185
+msgid ""
+"As long as a product is covered by an **active convention**, it cannot be "
+"added as a one-time supplement for the same resident. Add it **to the "
+"convention**, or **close** that convention first."
+msgstr ""
+"Tant qu'un produit est couvert par une **convention active**, il ne peut pas"
+" être ajouté comme supplément ponctuel pour le même habitant. Ajoutez-le "
+"**dans la convention**, ou **clôturez** d'abord celle-ci."
+
+#: ../../content/facturation/application-supplements.md:192
+msgid ""
+"The **Configuration → Catalogue** menu holds the list of billable "
+"**Supplement Types** (the same list as **Billing → Configuration → "
+"Supplement Types**). Each supplement has:"
+msgstr ""
+"Le menu **Configuration → Catalogue** tient la liste des **Types de "
+"suppléments** facturables (la même liste que **Facturation → Configuration →"
+" Types de suppléments**). Chaque supplément a :"
+
+#: ../../content/facturation/application-supplements.md:182
+msgid "**Supplement Type**"
+msgstr "**Type de supplément**"
+
+#: ../../content/facturation/application-supplements.md:182
+msgid ""
+"**Monthly**, **One-time**, **Daily — accommodation days** (billed even "
+"during an absence) or **Daily — presence days** (not billed during an "
+"absence)."
+msgstr ""
+"**Mensuel**, **Ponctuel**, **Journalier — jours d'hébergement** (facturé "
+"même pendant une absence) ou **Journalier — jours de présence** (non facturé"
+" pendant une absence)."
+
+#: ../../content/facturation/application-supplements.md:203
+msgid "The search bar filters the catalog by supplement type."
+msgstr "La barre de recherche filtre le catalogue par type de supplément."
+
+#: ../../content/facturation/application-supplements.md:208
+msgid ""
+"The catalog carries an **AViQ code** field — the declaration pseudo-code of "
+"the supplement. Depending on its product category, a supplement is either "
+"declared to the mutuality in the eFact (ET50 record) or billed only on the "
+"resident's invoice. See [Billing a month in "
+"Belgium](../belgique/facturation.md)."
+msgstr ""
+"Le catalogue comporte un champ **Code AVIQ** — le pseudo-code de déclaration"
+" du supplément. Selon sa catégorie de produit, un supplément est soit "
+"déclaré à la mutuelle dans l'eFact (enregistrement ET50), soit facturé "
+"uniquement sur la facture de l'habitant. Voir [Facturer un mois en "
+"Belgique](../belgique/facturation.md)."
+
+#: ../../content/facturation/application-supplements.md:222
+msgid ""
+"You can filter between **One-time** and **Convention** supplements, and "
+"group by **Resident**, **Supplement** or **Month**."
+msgstr ""
+"Vous pouvez filtrer entre suppléments **Ponctuel** et **Convention**, et "
+"regrouper par **Habitant**, **Supplément** ou **Mois**."
+
+#: ../../content/facturation/application-supplements.md:241
+msgid ""
+"**One-time** = once on the envelope; **convention** = recurring, on the "
+"resident, surviving stay changes."
+msgstr ""
+"**Ponctuel** = une fois sur l'enveloppe ; **convention** = récurrent, sur "
+"l'habitant, survivant aux changements de séjour."
+
+#: ../../content/facturation/application-supplements.md:243
+msgid ""
+"A product under an **active convention** cannot be entered as one-time."
+msgstr "Un produit sous **convention active** ne se saisit pas en ponctuel."

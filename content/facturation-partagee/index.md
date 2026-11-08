@@ -33,7 +33,9 @@ per debtor.
 ## The principle
 
 - The **resident's share** (accommodation + supplements) is divided among the
-  debtors, according to a key you set on the resident's record.
+  debtors, according to a key you set on the resident's contact.
+- Split billing is an [invoice type](../facturation/type-de-facture.md):
+  **Split Billing — Anticipatory** or **Split Billing — Arrears**.
 - Each debtor receives **their own invoice**, with their own VAT treatment.
 - The resident receives a **statement** of the whole month, which totals
   **0.00 €**: it shows everything, and charges nothing.
@@ -73,3 +75,7 @@ debtor gets nothing.
 
 - [Setting up a split](configuration.md) — the settings, the debtors, the admission.
 - [The documents produced](factures.md) — the statement, the invoices, the PDF.
+- [Invoice type](../facturation/type-de-facture.md) — changing to or from split
+  billing during a stay, or for one month.
+- [Billing settings](../configuration/reglages-facturation.md) — turning split
+  billing on.

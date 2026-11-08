@@ -1,5 +1,5 @@
 ---
-modules: [l10n_health_be, l10n_health_be_eid, resthome_mr_billing, l10n_health_be_perdiem_ehealth, resthome_mr_ehealth, l10n_health_be_mda, resthome_geriatric_be]
+modules: [l10n_health_be, l10n_health_be_eid, resthome_mr_billing, l10n_health_be_perdiem_ehealth, resthome_mr_ehealth, l10n_health_be_mda, resthome_geriatric_be, resthome_geriatric_mda]
 ---
 
 # The resident's file in Belgium
@@ -16,7 +16,7 @@ What is a BIS number?
 : The number the Crossroads Bank issues to someone who is not in the National Register — a cross-border worker, a person under MediPrima. It has the NISS shape, with the birth month shifted by 20 or 40, and eHealth accepts it where a NISS is asked. Resthome recognises it and shows it in the NISS type field.
 
 How do I fill in the identity from the eID card?
-: With a card reader connected to the workstation, read the card from the resident's record to update it, or use the New Partner via eID menu entry: Resthome looks the person up by NISS and creates the record if it does not exist yet.
+: With a card reader and the eID reader program on the workstation, click **Read eID Card** on the admission request or on the record: Resthome fills in the identity and the NISS from the chip. See [Reading the eID card](lecture-eid.md).
 
 What does Resthome do automatically when a stay starts?
 : On top of the billing steps common to every country, it creates the admission eAgreement (Annexe 7) when the NISS is present.
@@ -25,7 +25,7 @@ Is a short stay (court séjour) a sector?
 : No. It is a modality of an MR bed: tick Short stay on an MR stay, or choose CS at admission. Resthome refuses the short-stay flag on an MRS stay.
 
 What happens if the resident has no validated Katz assessment?
-: The resident stays in category O by default and a "Katz to do" reminder appears on the dashboard, since the Katz category is what is declared to the mutualité for the INAMI allowance.
+: They have no Katz category: no INAMI allowance is billed for them, and the billing period shows **No Katz** on their row until a Katz is validated and the period regenerated.
 :::
 
 In Belgium, the resident's file carries what the health insurers and eHealth
@@ -59,15 +59,11 @@ the **card**, which expires and is renewed. The admission file keeps both.
 
 ### Reading the eID card
 
-Rather than typing the identity in, you can **read the resident's eID card**.
-Resthome fills in the name, the date of birth, the gender and the **NISS** from
-the card itself — no typo, no transposed digit.
-
-- From an **existing record**, the eID reading **updates** that resident.
-- From the **New Partner via eID** menu entry, Resthome looks the person up by
-  NISS and **creates** the record if it does not exist yet.
-
-A card reader must be connected to the workstation.
+Rather than typing the identity in, you can **read the resident's eID card**:
+**Read eID Card** fills in the name, the date of birth, the gender, the
+nationality, the place of birth and the **NISS** from the chip itself — no typo,
+no transposed digit. The card number and its validity dates go to the **eID
+Card** tab. See [Reading the eID card](lecture-eid.md).
 
 ## The mutualité (OA)
 
@@ -104,6 +100,11 @@ Before billing, check that the resident is properly insured:
 
 The **MDA History** button on the record lists the resident's past requests.
 
+When the mutuality reports a **palliative status**, Resthome ticks **Palliative
+Care** in the resident's **Wishes** tab, with its start date, and leaves a note
+in the thread. It only ever ticks the box: a status the mutuality no longer
+reports does not untick it, and a date typed by the team is kept.
+
 See [Insurability (MDA)](ehealth/mda.md). When a **CPAS** pays for the resident,
 the invoice can be addressed to it — see [CPAS coverage](cpas.md).
 
@@ -135,14 +136,26 @@ transfer is entered — see [The Katz assessment](katz.md).
 
 ## The Katz category on the record
 
-The resident's record shows the **Katz category** (O, A, B, C, Cd) as a badge,
-next to the stay type. It is the category declared to the mutualité for the
-INAMI dependency allowance.
+The resident's record shows the **Katz category** (O, A, B, C, Cd, D) as a
+badge, next to the stay type. It is the category declared to the mutualité for
+the INAMI dependency allowance.
 
-As long as no validated Katz exists, the resident is in category **O** by
-default, and a "Katz to do" reminder appears on the dashboard. Scoring,
-renewal and worsening are described in [The Katz assessment](katz.md); the
-allowance itself in [The INAMI dependency allowance](forfait-inami.md).
+A resident without a validated Katz has **no category**: no INAMI allowance is
+billed for them until a Katz is validated. Scoring, renewal and worsening are
+described in [The Katz assessment](katz.md); the allowance itself in [The INAMI
+dependency allowance](forfait-inami.md).
+
+## Other Belgian buttons on the record
+
+Depending on the modules installed, the record also carries:
+
+- **Find in the Health Directory**, under the attending physician: looks the
+  doctor up in the eHealth directory — see [Health Directory and
+  CoBRHA](ehealth/annuaire-sante.md);
+- the **Consent** smart button: the resident's consent to share health
+  data — see [eHealth consent](ehealth/consentement.md);
+- the **MediPrima** smart button: the medical card a CPAS granted — see [CPAS
+  coverage](cpas.md).
 
 Validated assessments — Katz and the geriatric scales alike — cannot be deleted:
 health data must be retained under the GDPR and the INAMI rules.
@@ -172,5 +185,6 @@ only way to change sector — see [Internal transfer (MR ↔ MRS)](ehealth/eagre
 - [Agreements (eAgreement)](ehealth/eagreement.md)
 - [Internal transfer (MR ↔ MRS)](ehealth/eagreement-transfert.md)
 - [The INAMI dependency allowance](forfait-inami.md)
+- [Reading the eID card](lecture-eid.md)
 - [The billing journey](parcours-facturation.md)
 - [Manage a resident](../residents/gerer-un-resident.md)

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 15:49+0200\n"
+"POT-Creation-Date: 2026-11-08 19:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -34,21 +34,18 @@ msgstr ""
 " objectifs ESPEN."
 
 #: ../../content/configuration/reglages-repas.md:12
-msgid "Should you choose CIQUAL or NUBEL as the nutritional source?"
-msgstr "Faut-il choisir CIQUAL ou NUBEL comme source nutritionnelle ?"
+msgid "Which nutritional source should I choose?"
+msgstr "Quelle source nutritionnelle choisir ?"
 
 #: ../../content/configuration/reglages-repas.md:13
 msgid ""
-"CIQUAL (ANSES, France) is the default source: its database of 3,484 foods is"
-" already loaded, so you can use it right away. NUBEL (Belgium) must be "
-"imported first. To get started, keep CIQUAL; switch to NUBEL only if you "
-"need the Belgian references and the import has been done."
+"Keep CIQUAL (ANSES, France), the default: its database of foods is already "
+"loaded, so you can use it right away. Another source must be imported before"
+" you switch to it."
 msgstr ""
-"CIQUAL (ANSES, France) est la source par défaut : sa base de 3 484 aliments "
-"est déjà chargée, vous pouvez donc l'utiliser tout de suite. NUBEL "
-"(Belgique) doit d'abord être importée. Pour démarrer, conservez CIQUAL ; ne "
-"passez à NUBEL que si vous avez besoin des références belges et que l'import"
-" a été fait."
+"Gardez CIQUAL (ANSES, France), la source par défaut : sa base d'aliments est"
+" déjà chargée, vous pouvez donc l'utiliser tout de suite. Une autre source "
+"doit être importée avant de basculer dessus."
 
 #: ../../content/configuration/reglages-repas.md:15
 msgid "What is the intake deficit alert threshold for?"
@@ -106,12 +103,11 @@ msgstr "Où se trouvent ces réglages ?"
 
 #: ../../content/configuration/reglages-repas.md:25
 msgid ""
-"In Settings > Meals. The tab groups four blocks: Nutrition, Public menu and "
-"kiosk, Family notifications, and Nutritional targets (ESPEN)."
+"In Settings → Meals. The tab groups four blocks: Nutrition, Public Menu & "
+"Kiosk, Family Notifications, and Nutritional Targets (ESPEN)."
 msgstr ""
-"Dans Réglages > Repas. L'onglet regroupe quatre blocs : Nutrition, Menu "
-"public et kiosque, Notifications aux familles, et Objectifs nutritionnels "
-"(ESPEN)."
+"Dans Paramètres → Repas. L'onglet regroupe quatre blocs : Nutrition, Menu "
+"public et kiosque, Notifications famille et Objectifs nutritionnels (ESPEN)."
 
 #: ../../content/configuration/reglages-repas.md:28
 msgid ""
@@ -119,13 +115,13 @@ msgid ""
 "app: the **nutritional data source**, the **appearance of the public menu "
 "and the kiosk**, the **family notifications**, and the **nutritional targets"
 " (ESPEN)** used for undernutrition monitoring. You will find it under "
-"**Settings > Meals**."
+"**Settings → Meals**."
 msgstr ""
 "L'onglet de réglages **Repas** rassemble la configuration de l'application "
-"Repas : la **source des données nutritionnelles**, l’**apparence du menu "
+"Repas : la **source des données nutritionnelles**, l'**apparence du menu "
 "public et du kiosque**, les **notifications aux familles** et les "
 "**objectifs nutritionnels (ESPEN)** utilisés pour le suivi de la "
-"dénutrition. Vous le trouvez sous **Réglages > Repas**."
+"dénutrition. Vous le trouvez sous **Paramètres → Repas**."
 
 #: ../../content/configuration/reglages-repas.md:33
 msgid ""
@@ -149,38 +145,37 @@ msgstr ""
 "(calories, protéines, etc.)."
 
 #: ../../content/configuration/reglages-repas.md:11
-#: ../../content/configuration/reglages-repas.md:45
-#: ../../content/configuration/reglages-repas.md:64
-#: ../../content/configuration/reglages-repas.md:81
+#: ../../content/configuration/reglages-repas.md:52
+#: ../../content/configuration/reglages-repas.md:70
+#: ../../content/configuration/reglages-repas.md:87
 msgid "Setting"
 msgstr "Réglage"
 
 #: ../../content/configuration/reglages-repas.md:11
-#: ../../content/configuration/reglages-repas.md:45
-#: ../../content/configuration/reglages-repas.md:64
-#: ../../content/configuration/reglages-repas.md:81
+#: ../../content/configuration/reglages-repas.md:52
+#: ../../content/configuration/reglages-repas.md:70
+#: ../../content/configuration/reglages-repas.md:87
 msgid "What it does"
 msgstr "Ce qu'il fait"
 
 #: ../../content/configuration/reglages-repas.md:11
-#: ../../content/configuration/reglages-repas.md:45
-#: ../../content/configuration/reglages-repas.md:64
-#: ../../content/configuration/reglages-repas.md:81
+#: ../../content/configuration/reglages-repas.md:52
+#: ../../content/configuration/reglages-repas.md:70
+#: ../../content/configuration/reglages-repas.md:87
 msgid "Recommended value"
 msgstr "Valeur recommandée"
 
 #: ../../content/configuration/reglages-repas.md:11
-msgid "**Nutritional data source**"
-msgstr "**Source des données nutritionnelles**"
+msgid "**Nutrition Data Source**"
+msgstr "**Source de données nutritionnelles**"
 
 #: ../../content/configuration/reglages-repas.md:11
 msgid ""
-"Reference database of nutritional values. CIQUAL (ANSES, France): 3,484 "
-"foods, already loaded. NUBEL (Belgium): Belgian database, to be imported."
+"Reference database of nutritional values. **CIQUAL (ANSES - France)** is "
+"already loaded."
 msgstr ""
-"Base de données de référence des valeurs nutritionnelles. CIQUAL (ANSES, "
-"France) : 3 484 aliments, déjà chargés. NUBEL (Belgique) : base belge, à "
-"importer."
+"Base de données de référence des valeurs nutritionnelles. **CIQUAL (ANSES - "
+"France)** est déjà chargée."
 
 #: ../../content/configuration/reglages-repas.md:11
 msgid "**CIQUAL** (default, already loaded)"
@@ -193,88 +188,94 @@ msgstr "CIQUAL suffit pour démarrer"
 #: ../../content/configuration/reglages-repas.md:48
 msgid ""
 "The **CIQUAL** database is preloaded: you can build your menus and track "
-"nutrition without any preparation. Only switch to **NUBEL** if you "
-"specifically need the Belgian references — the import must then be carried "
-"out beforehand."
+"nutrition without any preparation."
 msgstr ""
 "La base **CIQUAL** est préchargée : vous pouvez construire vos menus et "
-"suivre la nutrition sans aucune préparation. Ne passez à **NUBEL** que si "
-"vous avez spécifiquement besoin des références belges — l'import doit alors "
-"être réalisé au préalable."
+"suivre la nutrition sans aucune préparation."
 
-#: ../../content/configuration/reglages-repas.md:53
-msgid "Public menu and kiosk"
-msgstr "Menu public et kiosque"
+#: ../../content/configuration/reglages-repas.md:52
+msgid "In Belgium"
+msgstr "En Belgique"
 
 #: ../../content/configuration/reglages-repas.md:55
 msgid ""
+"A second choice, **NUBEL (Belgium)**, uses the Belgian food composition "
+"references. It must be imported before you switch to it."
+msgstr ""
+"Un second choix, **NUBEL (Belgique)**, utilise les références belges de "
+"composition des aliments. Il doit être importé avant de basculer dessus."
+
+#: ../../content/configuration/reglages-repas.md:59
+msgid "Public Menu & Kiosk"
+msgstr "Menu public et kiosque"
+
+#: ../../content/configuration/reglages-repas.md:61
+msgid ""
 "These settings customise the appearance of the **daily menu**, **weekly "
-"menu**, and **kiosk** pages (see [Family portal and kiosk](../repas/portail-"
-"familles.md))."
+"menu**, and **kiosk** pages (see [Family portal and public "
+"menu](../repas/portail-familles.md))."
 msgstr ""
 "Ces réglages personnalisent l'apparence des pages **menu du jour**, **menu "
-"de la semaine** et **kiosque** (voir [Portail familles et "
-"kiosque](../repas/portail-familles.md))."
+"de la semaine** et **kiosque** (voir [Portail famille et menu "
+"public](../repas/portail-familles.md))."
 
-#: ../../content/configuration/reglages-repas.md:45
-msgid "**Public menu colour**"
+#: ../../content/configuration/reglages-repas.md:52
+msgid "**Public Menu Color**"
 msgstr "**Couleur du menu public**"
 
-#: ../../content/configuration/reglages-repas.md:45
+#: ../../content/configuration/reglages-repas.md:52
 msgid "Main colour of the menu and kiosk pages."
 msgstr "Couleur principale des pages du menu et du kiosque."
 
-#: ../../content/configuration/reglages-repas.md:45
-msgid "Your brand colour (default `#0d6efd`)"
-msgstr "Votre couleur de marque (par défaut `#0d6efd`)"
+#: ../../content/configuration/reglages-repas.md:52
+msgid "Your brand colour (default blue)"
+msgstr "Votre couleur de marque (bleu par défaut)"
 
-#: ../../content/configuration/reglages-repas.md:45
-msgid "**Show company logo**"
+#: ../../content/configuration/reglages-repas.md:52
+msgid "**Show Company Logo**"
 msgstr "**Afficher le logo de la société**"
 
-#: ../../content/configuration/reglages-repas.md:45
+#: ../../content/configuration/reglages-repas.md:52
 msgid "Displays the company logo at the top of the public menu pages."
 msgstr "Affiche le logo de la société en haut des pages du menu public."
 
-#: ../../content/configuration/reglages-repas.md:45
-msgid "Enabled"
+#: ../../content/configuration/reglages-repas.md:52
+msgid "On"
 msgstr "Activé"
 
-#: ../../content/configuration/reglages-repas.md:45
-msgid "**Kiosk refresh (seconds)**"
-msgstr "**Rafraîchissement du kiosque (secondes)**"
+#: ../../content/configuration/reglages-repas.md:52
+msgid "**Kiosk Refresh (seconds)**"
+msgstr "**Rafraîchissement kiosque (secondes)**"
 
-#: ../../content/configuration/reglages-repas.md:45
-msgid ""
-"Automatic refresh interval of the kiosk page (`/menu/kiosk`) shown in the "
-"dining room."
+#: ../../content/configuration/reglages-repas.md:52
+msgid "Automatic refresh interval of the kiosk page shown in the dining room."
 msgstr ""
-"Intervalle de rafraîchissement automatique de la page kiosque "
-"(`/menu/kiosk`) affichée dans la salle à manger."
+"Intervalle de rafraîchissement automatique de la page kiosque affichée dans "
+"la salle à manger."
 
-#: ../../content/configuration/reglages-repas.md:45
+#: ../../content/configuration/reglages-repas.md:52
 msgid "600 s (10 min)"
 msgstr "600 s (10 min)"
 
-#: ../../content/configuration/reglages-repas.md:64
+#: ../../content/configuration/reglages-repas.md:70
 msgid "Values specific to your facility"
 msgstr "Valeurs propres à votre établissement"
 
-#: ../../content/configuration/reglages-repas.md:67
+#: ../../content/configuration/reglages-repas.md:73
 msgid ""
 "The **colour** and the **logo** are specific to your facility: use your "
 "visual identity. The kiosk refresh is only useful if a screen displays the "
-"`/menu/kiosk` page continuously."
+"kiosk page continuously."
 msgstr ""
 "La **couleur** et le **logo** sont propres à votre établissement : utilisez "
 "votre identité visuelle. Le rafraîchissement du kiosque n'est utile que si "
-"un écran affiche la page `/menu/kiosk` en continu."
+"un écran affiche la page kiosque en continu."
 
-#: ../../content/configuration/reglages-repas.md:72
-msgid "Family notifications"
-msgstr "Notifications aux familles"
+#: ../../content/configuration/reglages-repas.md:78
+msgid "Family Notifications"
+msgstr "Notifications famille"
 
-#: ../../content/configuration/reglages-repas.md:74
+#: ../../content/configuration/reglages-repas.md:80
 msgid ""
 "This block enables the automatic sending of emails to families who have "
 "accepted it: a **weekly summary** of meals and a **low-intake alert**."
@@ -282,11 +283,11 @@ msgstr ""
 "Ce bloc active l'envoi automatique d'e-mails aux familles qui l'ont accepté "
 ": un **résumé hebdomadaire** des repas et une **alerte de faible apport**."
 
-#: ../../content/configuration/reglages-repas.md:64
-msgid "**Meal notifications to families**"
-msgstr "**Notifications de repas aux familles**"
+#: ../../content/configuration/reglages-repas.md:70
+msgid "**Family Meal Notifications**"
+msgstr "**Notifications repas famille**"
 
-#: ../../content/configuration/reglages-repas.md:64
+#: ../../content/configuration/reglages-repas.md:70
 msgid ""
 "Sends opted-in families a weekly summary and a low-intake alert. Requires an"
 " outgoing mail server."
@@ -294,18 +295,18 @@ msgstr ""
 "Envoie aux familles adhérentes un résumé hebdomadaire et une alerte de "
 "faible apport. Nécessite un serveur de messagerie sortant."
 
-#: ../../content/configuration/reglages-repas.md:64
+#: ../../content/configuration/reglages-repas.md:70
 msgid ""
 "Enabled **if** an outgoing mail server is configured, otherwise disabled"
 msgstr ""
 "Activé **si** un serveur de messagerie sortant est configuré, sinon "
 "désactivé"
 
-#: ../../content/configuration/reglages-repas.md:81
+#: ../../content/configuration/reglages-repas.md:87
 msgid "An outgoing mail server is required"
 msgstr "Un serveur de messagerie sortant est nécessaire"
 
-#: ../../content/configuration/reglages-repas.md:84
+#: ../../content/configuration/reglages-repas.md:90
 msgid ""
 "Without an **outgoing mail server** configured in Odoo, enabling the option "
 "sends nothing. Sending also depends on a **per-resident opt-in**: only "
@@ -319,11 +320,11 @@ msgstr ""
 "serveur sortant, activez la notification globale, puis l'adhésion habitant "
 "par habitant."
 
-#: ../../content/configuration/reglages-repas.md:90
-msgid "Nutritional targets (ESPEN)"
+#: ../../content/configuration/reglages-repas.md:96
+msgid "Nutritional Targets (ESPEN)"
 msgstr "Objectifs nutritionnels (ESPEN)"
 
-#: ../../content/configuration/reglages-repas.md:92
+#: ../../content/configuration/reglages-repas.md:98
 msgid ""
 "These coefficients, drawn from the **ESPEN** geriatric guidelines, are used "
 "to calculate each **resident's own target** (from their weight and sex) and "
@@ -333,23 +334,31 @@ msgstr ""
 "à calculer l’**objectif propre à chaque habitant** (à partir de son poids et"
 " de son sexe) et à déclencher les **alertes de déficit**."
 
-#: ../../content/configuration/reglages-repas.md:81
+#: ../../content/configuration/reglages-repas.md:87
+msgid "Field"
+msgstr "Champ"
+
+#: ../../content/configuration/reglages-repas.md:87
+msgid "**Energy target**"
+msgstr "**Objectif énergétique**"
+
+#: ../../content/configuration/reglages-repas.md:87
 msgid "**Energy (kcal/kg/day)**"
 msgstr "**Énergie (kcal/kg/jour)**"
 
-#: ../../content/configuration/reglages-repas.md:81
+#: ../../content/configuration/reglages-repas.md:87
 msgid "Energy target per kilo of body weight."
 msgstr "Objectif énergétique par kilo de poids corporel."
 
-#: ../../content/configuration/reglages-repas.md:81
+#: ../../content/configuration/reglages-repas.md:87
 msgid "30"
 msgstr "30"
 
-#: ../../content/configuration/reglages-repas.md:81
+#: ../../content/configuration/reglages-repas.md:87
 msgid "**Energy if underweight (kcal/kg/day)**"
 msgstr "**Énergie si insuffisance pondérale (kcal/kg/jour)**"
 
-#: ../../content/configuration/reglages-repas.md:81
+#: ../../content/configuration/reglages-repas.md:87
 msgid ""
 "Raised target for an undernourished resident (BMI less than or equal to 21);"
 " ESPEN suggests 32 to 38."
@@ -357,15 +366,19 @@ msgstr ""
 "Objectif relevé pour un habitant dénutri (IMC inférieur ou égal à 21) ; "
 "l'ESPEN suggère 32 à 38."
 
-#: ../../content/configuration/reglages-repas.md:81
+#: ../../content/configuration/reglages-repas.md:87
 msgid "35"
 msgstr "35"
 
-#: ../../content/configuration/reglages-repas.md:81
+#: ../../content/configuration/reglages-repas.md:87
+msgid "**Protein target**"
+msgstr "**Objectif protéique**"
+
+#: ../../content/configuration/reglages-repas.md:87
 msgid "**Protein (g/kg/day)**"
 msgstr "**Protéines (g/kg/jour)**"
 
-#: ../../content/configuration/reglages-repas.md:81
+#: ../../content/configuration/reglages-repas.md:87
 msgid ""
 "Protein target per kilo of body weight (at least 1; 1.2 to 1.5 in case of "
 "illness)."
@@ -373,40 +386,48 @@ msgstr ""
 "Objectif protéique par kilo de poids corporel (au moins 1 ; 1,2 à 1,5 en cas"
 " de maladie)."
 
-#: ../../content/configuration/reglages-repas.md:81
+#: ../../content/configuration/reglages-repas.md:87
 msgid "1"
 msgstr "1"
 
-#: ../../content/configuration/reglages-repas.md:81
+#: ../../content/configuration/reglages-repas.md:87
+msgid "**Fluid targets**"
+msgstr "**Objectifs hydriques**"
+
+#: ../../content/configuration/reglages-repas.md:87
 msgid "**Fluids — women (ml/day)**"
 msgstr "**Liquides — femmes (ml/jour)**"
 
-#: ../../content/configuration/reglages-repas.md:81
+#: ../../content/configuration/reglages-repas.md:87
 msgid "Daily hydration target for women."
 msgstr "Objectif d'hydratation quotidien pour les femmes."
 
-#: ../../content/configuration/reglages-repas.md:81
+#: ../../content/configuration/reglages-repas.md:87
 msgid "1600"
 msgstr "1600"
 
-#: ../../content/configuration/reglages-repas.md:81
+#: ../../content/configuration/reglages-repas.md:87
 msgid "**Fluids — men (ml/day)**"
 msgstr "**Liquides — hommes (ml/jour)**"
 
-#: ../../content/configuration/reglages-repas.md:81
+#: ../../content/configuration/reglages-repas.md:87
 msgid "Daily hydration target for men."
 msgstr "Objectif d'hydratation quotidien pour les hommes."
 
-#: ../../content/configuration/reglages-repas.md:81
+#: ../../content/configuration/reglages-repas.md:87
 msgid "2000"
 msgstr "2000"
 
-#: ../../content/configuration/reglages-repas.md:81
-#, python-format
-msgid "**Intake deficit alert (% coverage)**"
-msgstr "**Alerte de déficit d'apport (% de couverture)**"
+#: ../../content/configuration/reglages-repas.md:87
+msgid "**Intake deficit alert**"
+msgstr "**Alerte de déficit d'apport**"
 
-#: ../../content/configuration/reglages-repas.md:81
+#: ../../content/configuration/reglages-repas.md:87
+#, python-format
+msgid "**Intake Deficit Alert (% coverage)**"
+msgstr "**Alerte de déficit d'apport (% couverture)**"
+
+#: ../../content/configuration/reglages-repas.md:87
 msgid ""
 "Threshold below which an alert is created when the 3-day average intake does"
 " not cover enough of the energy or protein target."
@@ -414,44 +435,49 @@ msgstr ""
 "Seuil en dessous duquel une alerte est créée lorsque l'apport moyen sur 3 "
 "jours ne couvre pas suffisamment l'objectif énergétique ou protéique."
 
-#: ../../content/configuration/reglages-repas.md:81
+#: ../../content/configuration/reglages-repas.md:87
 msgid "75"
 msgstr "75"
 
-#: ../../content/configuration/reglages-repas.md:105
+#: ../../content/configuration/reglages-repas.md:111
 msgid "A target calculated per resident"
 msgstr "Un objectif calculé par habitant"
 
-#: ../../content/configuration/reglages-repas.md:108
+#: ../../content/configuration/reglages-repas.md:114
 msgid ""
 "Here you set the **coefficients**; Resthome derives each resident's "
 "**individual target** from their weight and sex, then compares the actual "
 "**intake** against those targets. Coverage monitoring and undernutrition "
-"screening are described in [Menus, diets, and hydration](../repas/menus-"
-"regimes.md)."
+"screening are described in [Nutritional monitoring and "
+"undernutrition](../repas/suivi-nutritionnel.md)."
 msgstr ""
 "Ici, vous fixez les **coefficients** ; Resthome en déduit l’**objectif "
 "individuel** de chaque habitant à partir de son poids et de son sexe, puis "
 "compare l’**apport** réel à ces objectifs. Le suivi de la couverture et le "
-"dépistage de la dénutrition sont décrits dans [Menus, régimes et "
-"hydratation](../repas/menus-regimes.md)."
+"dépistage de la dénutrition sont décrits dans [Suivi nutritionnel et "
+"dénutrition](../repas/suivi-nutritionnel.md)."
 
-#: ../../content/configuration/reglages-repas.md:114
+#: ../../content/configuration/reglages-repas.md:120
 msgid "Further reading"
 msgstr "Pour aller plus loin"
 
-#: ../../content/configuration/reglages-repas.md:116
-msgid "[Menus, diets, and hydration](../repas/menus-regimes.md)"
-msgstr "[Menus, régimes et hydratation](../repas/menus-regimes.md)"
+#: ../../content/configuration/reglages-repas.md:122
+msgid "[Menus, diets and allergies](../repas/menus-regimes.md)"
+msgstr "[Menus, régimes et allergies](../repas/menus-regimes.md)"
 
-#: ../../content/configuration/reglages-repas.md:117
-msgid "[Family portal and kiosk](../repas/portail-familles.md)"
-msgstr "[Portail familles et kiosque](../repas/portail-familles.md)"
+#: ../../content/configuration/reglages-repas.md:123
+msgid ""
+"[Nutritional monitoring and undernutrition](../repas/suivi-nutritionnel.md)"
+msgstr "[Suivi nutritionnel et dénutrition](../repas/suivi-nutritionnel.md)"
 
-#: ../../content/configuration/reglages-repas.md:118
+#: ../../content/configuration/reglages-repas.md:124
+msgid "[Family portal and public menu](../repas/portail-familles.md)"
+msgstr "[Portail famille et menu public](../repas/portail-familles.md)"
+
+#: ../../content/configuration/reglages-repas.md:125
 msgid "[Meals overview](../repas/index.md)"
 msgstr "[Aperçu des repas](../repas/index.md)"
 
-#: ../../content/configuration/reglages-repas.md:119
+#: ../../content/configuration/reglages-repas.md:126
 msgid "[Clinical registers](../soins/registres.md)"
 msgstr "[Registres cliniques](../soins/registres.md)"

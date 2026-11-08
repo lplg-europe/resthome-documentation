@@ -1,0 +1,215 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-08 18:41+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: fr <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/planning/prestations-presences.md:5
+msgid "Work entries from attendances"
+msgstr "Prestations calculées sur les présences"
+
+#: ../../content/planning/prestations-presences.md:8
+msgid ""
+"Draw each employee's work entries from their attendances instead of their "
+"working schedule, with approved extra hours as a work entry of their own."
+msgstr ""
+"Calculez les prestations de chaque employé sur ses présences plutôt que sur "
+"son horaire de travail, avec les heures supplémentaires approuvées comme "
+"prestation à part."
+
+#: ../../content/planning/prestations-presences.md:12
+msgid "What does \"work entries from attendances\" change?"
+msgstr "Que change « prestations calculées sur les présences » ?"
+
+#: ../../content/planning/prestations-presences.md:13
+msgid ""
+"For the employees concerned, the work entry of a day is the time between "
+"their check-ins and check-outs of that day, instead of the hours of their "
+"working schedule."
+msgstr ""
+"Pour les employés concernés, la prestation d'une journée est le temps entre "
+"leurs pointages d'arrivée et de départ de cette journée, au lieu des heures "
+"de leur horaire de travail."
+
+#: ../../content/planning/prestations-presences.md:15
+msgid "Is the lunch break deducted?"
+msgstr "La pause de midi est-elle déduite ?"
+
+#: ../../content/planning/prestations-presences.md:16
+msgid ""
+"No. An employee counted from attendances clocks out and back in for the "
+"break; nothing else is deducted."
+msgstr ""
+"Non. Un employé compté sur ses présences pointe sa sortie et son retour pour"
+" la pause ; rien d'autre n'est déduit."
+
+#: ../../content/planning/prestations-presences.md:18
+msgid "How are extra hours counted?"
+msgstr "Comment les heures supplémentaires sont-elles comptées ?"
+
+#: ../../content/planning/prestations-presences.md:19
+msgid ""
+"The extra hours of the Attendances app are taken out of the attendance work "
+"entry. Once approved, they come back as a work entry of the type chosen on "
+"the employee; refused or still to approve, they are not counted."
+msgstr ""
+"Les heures supplémentaires de l'app Présences sont retirées de la prestation"
+" de présence. Une fois approuvées, elles reviennent comme prestation du type"
+" choisi sur l'employé ; refusées ou encore à approuver, elles ne sont pas "
+"comptées."
+
+#: ../../content/planning/prestations-presences.md:21
+msgid "What happens to time off and public holidays?"
+msgstr "Que deviennent les congés et les jours fériés ?"
+
+#: ../../content/planning/prestations-presences.md:22
+msgid "They keep the hours of the working schedule, as before."
+msgstr "Ils gardent les heures de l'horaire de travail, comme avant."
+
+#: ../../content/planning/prestations-presences.md:24
+msgid "Can I change the attendances of a day already validated?"
+msgstr "Puis-je modifier les présences d'une journée déjà validée ?"
+
+#: ../../content/planning/prestations-presences.md:25
+msgid ""
+"The work entries of a day that holds a validated work entry are not "
+"regenerated."
+msgstr ""
+"Les prestations d'une journée qui contient une prestation validée ne sont "
+"pas régénérées."
+
+#: ../../content/planning/prestations-presences.md:28
+msgid ""
+"By default, an employee's **work entries** follow their **working "
+"schedule**: the hours they are supposed to work. For staff whose hours vary "
+"from day to day, Resthome can draw the work entries from the **attendances**"
+" they clock instead."
+msgstr ""
+"Par défaut, les **prestations** d'un employé suivent son **horaire de "
+"travail** : les heures qu'il est censé prester. Pour le personnel dont les "
+"heures varient d'un jour à l'autre, Resthome peut calculer les prestations "
+"sur les **présences** qu'il pointe."
+
+#: ../../content/planning/prestations-presences.md:32
+msgid "Note"
+msgstr "Remarque"
+
+#: ../../content/planning/prestations-presences.md:33
+msgid ""
+"This option is for databases on the Community edition of Odoo. The "
+"Enterprise edition has its own attendance-based work entries."
+msgstr ""
+"Cette option est destinée aux bases en édition Community d'Odoo. L'édition "
+"Enterprise a ses propres prestations basées sur les présences."
+
+#: ../../content/planning/prestations-presences.md:37
+msgid "Count an employee from their attendances"
+msgstr "Compter un employé sur ses présences"
+
+#: ../../content/planning/prestations-presences.md:39
+msgid "Open the employee's record, tab **Payroll** (HR managers)."
+msgstr "Ouvrez la fiche de l'employé, onglet **Paie** (responsables RH)."
+
+#: ../../content/planning/prestations-presences.md:40
+msgid "In **Work Entries From**, choose **Attendances**."
+msgstr "Dans **Prestations calculées sur**, choisissez **Présences**."
+
+#: ../../content/planning/prestations-presences.md:41
+msgid ""
+"In **Overtime Work Entry Type**, choose the type the approved extra hours "
+"become. Leave it empty to count every hour attended as attendance (*Counted "
+"as attendance*)."
+msgstr ""
+"Dans **Prestation des heures supplémentaires**, choisissez le type que "
+"deviennent les heures supplémentaires approuvées. Laissez vide pour compter "
+"chaque heure de présence comme présence (*Comptées comme présence*)."
+
+#: ../../content/planning/prestations-presences.md:45
+msgid "From then on:"
+msgstr "Dès lors :"
+
+#: ../../content/planning/prestations-presences.md:47
+msgid ""
+"the attendance work entry of a day is the time between the check-ins and "
+"check-outs of that day; **nothing is deducted for lunch**, the employee "
+"clocks the break; the Attendances app reads these employees the same way;"
+msgstr ""
+"la prestation de présence d'une journée est le temps entre les pointages "
+"d'arrivée et de départ de cette journée ; **rien n'est déduit pour le repas "
+"de midi**, l'employé pointe sa pause ; l'app Présences lit ces employés de "
+"la même façon ;"
+
+#: ../../content/planning/prestations-presences.md:50
+msgid ""
+"the **extra hours** computed by the Attendances app are taken out of the "
+"attendance work entry; **approved**, they become a work entry of the "
+"overtime type; refused or still to approve, they are not counted;"
+msgstr ""
+"les **heures supplémentaires** calculées par l'app Présences sont retirées "
+"de la prestation de présence ; **approuvées**, elles deviennent une "
+"prestation du type heures supplémentaires ; refusées ou encore à approuver, "
+"elles ne sont pas comptées ;"
+
+#: ../../content/planning/prestations-presences.md:53
+msgid ""
+"**time off** and **public holidays** keep the hours of the working schedule;"
+msgstr ""
+"les **congés** et les **jours fériés** gardent les heures de l'horaire de "
+"travail ;"
+
+#: ../../content/planning/prestations-presences.md:54
+msgid ""
+"a check-in, a check-out, a corrected attendance or an approved or refused "
+"extra hour **regenerates the work entries of its day**, unless that day "
+"holds a validated work entry."
+msgstr ""
+"un pointage d'arrivée, un pointage de départ, une présence corrigée ou une "
+"heure supplémentaire approuvée ou refusée **régénère les prestations de sa "
+"journée**, sauf si cette journée contient une prestation validée."
+
+#: ../../content/planning/prestations-presences.md:60
+msgid "Read the work entries"
+msgstr "Lire les prestations"
+
+#: ../../content/planning/prestations-presences.md:62
+msgid ""
+"The **Employees** app gets a **Work Entries** menu (HR officers), with:"
+msgstr "L'app **Employés** reçoit un menu **Prestations** (agents RH), avec :"
+
+#: ../../content/planning/prestations-presences.md:64
+msgid "**Work Entries** — the work entries of every employee;"
+msgstr "**Prestations** — les prestations de tous les employés ;"
+
+#: ../../content/planning/prestations-presences.md:65
+msgid "**Work Entry Types** — the types they use, the overtime type included."
+msgstr ""
+"**Types de prestation** — les types qu'elles utilisent, type des heures "
+"supplémentaires compris."
+
+#: ../../content/planning/prestations-presences.md:67
+msgid "Learn more"
+msgstr "Pour aller plus loin"
+
+#: ../../content/planning/prestations-presences.md:69
+msgid "[Hours, balance and coverage](heures-et-couverture.md)"
+msgstr "[Heures, solde et couverture](heures-et-couverture.md)"
+
+#: ../../content/planning/prestations-presences.md:70
+msgid "[Staff planning](index.md)"
+msgstr "[Planning du personnel](index.md)"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 15:49+0200\n"
+"POT-Creation-Date: 2026-11-08 19:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -43,15 +43,15 @@ msgstr ""
 
 #: ../../content/belgique/soins.md:13
 msgid ""
-"In the Dependency section of the Medical Information tab, read-only: the "
-"current Katz category (O, A, B, C, Cd), the end of validity of the Katz "
-"assessment and the active care plan. A Katz button above the tab opens the "
-"resident's assessments."
+"In the Dependency section of the Care tab, read-only: the current Katz "
+"category (O, A, B, C, Cd), the end of validity of the Katz assessment and "
+"the active care plan. A Katz button above the tab opens the resident's "
+"assessments."
 msgstr ""
-"Dans la section Dépendance de l'onglet Informations médicales, en lecture "
-"seule : la catégorie Katz actuelle (O, A, B, C, Cd), la fin de validité de "
-"l'évaluation Katz et le plan de soins actif. Un bouton Katz au-dessus de "
-"l'onglet ouvre les évaluations de l'habitant."
+"Dans la section Dépendance de l'onglet Soins, en lecture seule : la "
+"catégorie Katz actuelle (O, A, B, C, Cd), la fin de validité de l'évaluation"
+" Katz et le plan de soins actif. Un bouton Katz au-dessus de l'onglet ouvre "
+"les évaluations de l'habitant."
 
 #: ../../content/belgique/soins.md:15
 msgid "Where does the medication catalogue come from in Belgium?"
@@ -148,16 +148,15 @@ msgstr ""
 
 #: ../../content/belgique/soins.md:42
 msgid ""
-"**Medical record** — above the **Medical Information** tab, a **Katz** stat "
-"button opens the resident's assessments. The **Dependency** section shows, "
-"read-only, the current **Katz category** (O, A, B, C, Cd), the **end of "
-"validity** of the Katz assessment and the **active care plan**."
+"**Medical record** — above the **Care** tab, a **Katz** stat button opens "
+"the resident's assessments. The **Dependency** section shows, read-only, the"
+" current **Katz category** (O, A, B, C, Cd), the **end of validity** of the "
+"Katz assessment and the **active care plan**."
 msgstr ""
-"**Dossier médical** — au-dessus de l'onglet **Informations médicales**, un "
-"bouton intelligent **Katz** ouvre les évaluations de l'habitant. La section "
-"**Dépendance** affiche, en lecture seule, la **catégorie Katz** actuelle (O,"
-" A, B, C, Cd), la **fin de validité** de l'évaluation Katz et le **plan de "
-"soins actif**."
+"**Dossier médical** — au-dessus de l'onglet **Soins**, un bouton intelligent"
+" **Katz** ouvre les évaluations de l'habitant. La section **Dépendance** "
+"affiche, en lecture seule, la **catégorie Katz** actuelle (O, A, B, C, Cd), "
+"la **fin de validité** de l'évaluation Katz et le **plan de soins actif**."
 
 #: ../../content/belgique/soins.md:46
 msgid ""
@@ -226,19 +225,22 @@ msgstr ""
 
 #: ../../content/belgique/soins.md:72
 msgid ""
-"In **Care → Configuration**, the **SAM Database** menu gives read-only "
-"access to the reference database. See [The SAM medication database](sam-"
-"base-medicaments.md)."
+"The **SAM Database** is a door in the **Catalogue** tab of the Medicines "
+"workstation (**Nursing Care → Medicines**); it gives read-only access to the"
+" reference database. A new medicine starts with **Find the medicine in "
+"SAM**. See [The SAM medication database](sam-base-medicaments.md)."
 msgstr ""
-"Dans **Soins → Configuration**, le menu **Base de données SAM** donne accès "
-"en lecture seule à la base de référence. Voir [La base de médicaments "
-"SAM](sam-base-medicaments.md)."
+"La **Base de données SAM** est une porte de l'onglet **Catalogue** du poste "
+"Médicaments (**Soins → Médicaments**) ; elle donne accès en lecture seule à "
+"la base de référence. Un nouveau médicament commence par **Chercher le "
+"médicament dans SAM**. Voir [La base de médicaments SAM](sam-base-"
+"medicaments.md)."
 
-#: ../../content/belgique/soins.md:76
+#: ../../content/belgique/soins.md:77
 msgid "Physicians and care staff: the INAMI number"
 msgstr "Médecins et personnel soignant : le numéro INAMI"
 
-#: ../../content/belgique/soins.md:78
+#: ../../content/belgique/soins.md:79
 msgid ""
 "The resident's **Attending Physician** and **Medical Contacts** are reused "
 "in the **eHealth** exchanges with the health insurer (see "
@@ -250,11 +252,11 @@ msgstr ""
 "[eHealth](ehealth/index.md)). Le pack belge ajoute un champ **Numéro INAMI**"
 " pour identifier les professionnels de soins :"
 
-#: ../../content/belgique/soins.md:83
+#: ../../content/belgique/soins.md:84
 msgid "on the **physician**'s record, next to the specialty;"
 msgstr "sur la fiche du **médecin**, à côté de la spécialité ;"
 
-#: ../../content/belgique/soins.md:84
+#: ../../content/belgique/soins.md:85
 msgid ""
 "on the **employee** record, for care roles (nurse, head nurse, physician, "
 "physiotherapist, occupational therapist, speech therapist)."
@@ -262,7 +264,7 @@ msgstr ""
 "sur la fiche de l’**employé**, pour les fonctions de soins (infirmier, "
 "infirmier en chef, médecin, kinésithérapeute, ergothérapeute, logopède)."
 
-#: ../../content/belgique/soins.md:87
+#: ../../content/belgique/soins.md:88
 msgid ""
 "The INAMI number has 11 digits. On the employee record, it is stored on the "
 "employee's contact, so the same number follows the person everywhere."
@@ -271,11 +273,11 @@ msgstr ""
 "enregistré sur le contact de l'employé : le même numéro suit ainsi la "
 "personne partout."
 
-#: ../../content/belgique/soins.md:90
+#: ../../content/belgique/soins.md:91
 msgid "Undernutrition screening: the AViQ thresholds"
 msgstr "Dépistage de la dénutrition : les seuils AViQ"
 
-#: ../../content/belgique/soins.md:92
+#: ../../content/belgique/soins.md:93
 msgid ""
 "The undernutrition monitoring of the **Meals** app raises a **Re-screen "
 "(MNA)** signal on thresholds that are the default values of the **AViQ** "
@@ -285,23 +287,23 @@ msgstr ""
 "**Réévaluer (MNA)** sur des seuils qui sont les valeurs par défaut du "
 "dépistage de l’**AViQ** (**PWNS-be-A**) :"
 
-#: ../../content/belgique/soins.md:96
+#: ../../content/belgique/soins.md:97
 msgid "weight loss of more than **5%** over about 1 month;"
 msgstr "une perte de poids de plus de **5 %** sur environ 1 mois ;"
 
-#: ../../content/belgique/soins.md:97
+#: ../../content/belgique/soins.md:98
 msgid "weight loss of more than **10%** over about 6 months;"
 msgstr "une perte de poids de plus de **10 %** sur environ 6 mois ;"
 
-#: ../../content/belgique/soins.md:98
+#: ../../content/belgique/soins.md:99
 msgid "**BMI below 23** in a resident **over 70**;"
 msgstr "un **IMC inférieur à 23** chez un habitant de **plus de 70 ans** ;"
 
-#: ../../content/belgique/soins.md:99
+#: ../../content/belgique/soins.md:100
 msgid "**overdue MNA**: no MNA, or a last MNA more than 6 months old."
 msgstr "**MNA en retard** : aucun MNA, ou un dernier MNA de plus de 6 mois."
 
-#: ../../content/belgique/soins.md:101
+#: ../../content/belgique/soins.md:102
 msgid ""
 "This screening has no effect on billing: the INAMI allowance follows the "
 "Katz category, not the nutritional status. See [Nutritional monitoring and "
@@ -311,11 +313,11 @@ msgstr ""
 "catégorie Katz, pas l'état nutritionnel. Voir [Suivi nutritionnel et "
 "dénutrition](../repas/suivi-nutritionnel.md)."
 
-#: ../../content/belgique/soins.md:105
+#: ../../content/belgique/soins.md:106
 msgid "Belgian document tags"
 msgstr "Les étiquettes de documents belges"
 
-#: ../../content/belgique/soins.md:107
+#: ../../content/belgique/soins.md:108
 msgid ""
 "Among the predefined tags of the resident's document folder, four file "
 "Belgian documents:"
@@ -367,36 +369,48 @@ msgstr "**CPAS**"
 msgid "Coverage documents from the CPAS."
 msgstr "Documents de prise en charge du CPAS."
 
-#: ../../content/belgique/soins.md:117
+#: ../../content/belgique/soins.md:118
 msgid ""
-"Like the other tags, they can be applied automatically as **Default tags**. "
-"See [Resident documents](../documents/index.md) and [Public welfare centre "
-"(CPAS)](cpas.md)."
+"Like the other tags, they can be applied automatically as **Default Tags**. "
+"See [Resident documents](../documents/index.md) and [CPAS "
+"coverage](cpas.md)."
 msgstr ""
 "Comme les autres étiquettes, elles peuvent être appliquées automatiquement "
 "comme **Tags par défaut**. Voir [Documents de "
 "l'habitant](../documents/index.md) et [La prise en charge CPAS](cpas.md)."
 
-#: ../../content/belgique/soins.md:121
+#: ../../content/belgique/soins.md:122
 msgid "What's next"
 msgstr "Pour continuer"
 
-#: ../../content/belgique/soins.md:123
+#: ../../content/belgique/soins.md:124
 msgid "[The Katz assessment](katz.md)"
 msgstr "[L'évaluation Katz](katz.md)"
 
-#: ../../content/belgique/soins.md:124
+#: ../../content/belgique/soins.md:125
 msgid "[The INAMI dependency allowance](forfait-inami.md)"
 msgstr "[Le forfait INAMI (dépendance)](forfait-inami.md)"
 
-#: ../../content/belgique/soins.md:125
+#: ../../content/belgique/soins.md:126
 msgid "[The SAM medication database](sam-base-medicaments.md)"
 msgstr "[La base de médicaments SAM](sam-base-medicaments.md)"
 
-#: ../../content/belgique/soins.md:126
+#: ../../content/belgique/soins.md:127
+msgid "[Medication rules in Belgium](medicaments-regles.md)"
+msgstr "[Les règles de la médication en Belgique](medicaments-regles.md)"
+
+#: ../../content/belgique/soins.md:128
+msgid "[The pharmacy link](medicaments-lien-pharmacie.md)"
+msgstr "[Le lien avec la pharmacie](medicaments-lien-pharmacie.md)"
+
+#: ../../content/belgique/soins.md:129
+msgid "[Prescriptions through the eHealthBox](medicaments-ehealthbox.md)"
+msgstr "[Les ordonnances par l'eHealthBox](medicaments-ehealthbox.md)"
+
+#: ../../content/belgique/soins.md:130
 msgid "[eHealth](ehealth/index.md)"
 msgstr "[eHealth](ehealth/index.md)"
 
-#: ../../content/belgique/soins.md:127
+#: ../../content/belgique/soins.md:131
 msgid "[The resident's medical record](../soins/dossier-medical.md)"
 msgstr "[Le dossier médical de l'habitant](../soins/dossier-medical.md)"

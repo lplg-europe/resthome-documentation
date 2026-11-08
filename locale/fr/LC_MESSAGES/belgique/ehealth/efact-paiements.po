@@ -59,20 +59,6 @@ msgstr ""
 msgid "How can I tell whether an eFact batch has been paid in Resthome?"
 msgstr "Comment savoir si un envoi eFact a été payé dans Resthome ?"
 
-#: ../../content/belgique/ehealth/efact-paiements.md:17
-msgid ""
-"Open the batch: the Payment tab shows Paid, the payment reference and the "
-"amount. Under Account C, as soon as the settlement carries a real payment "
-"reference, Resthome marks the batch Paid automatically. For an overview, the"
-" eFact Cockpit gathers the settled batches not yet reconciled and the "
-"overdue OAs."
-msgstr ""
-"Ouvrez le lot : l'onglet Paiement affiche Payé, la référence de paiement et "
-"le montant. En Compte C, dès que le décompte porte une référence de paiement"
-" réelle, Resthome marque le lot Payé automatiquement. Pour une vue "
-"d'ensemble, le Cockpit eFact regroupe les envois décomptés non encore "
-"pointés et les OA en retard."
-
 #: ../../content/belgique/ehealth/efact-paiements.md:19
 msgid "What does it mean to \"reconcile\" a settlement?"
 msgstr "Que veut dire « pointer » un décompte ?"
@@ -94,19 +80,6 @@ msgid "An insurer is late paying: can I claim late-payment interest?"
 msgstr ""
 "Un organisme assureur tarde à payer : puis-je réclamer des intérêts de "
 "retard ?"
-
-#: ../../content/belgique/ehealth/efact-paiements.md:23
-msgid ""
-"Yes, if the batch was submitted on time (by the 20th of month M+1 at the "
-"latest). The OA must pay by the end of the 2nd month following submission; "
-"beyond that, Resthome calculates the late-payment interest (accepted amount "
-"× legal rate × days late / 365). The legal rate is set in the eHealth "
-"settings."
-msgstr ""
-"Oui, si l'envoi a été introduit dans les délais (au plus tard le 20 du mois "
-"M+1). L'OA doit payer pour la fin du 2e mois suivant l'introduction ; au-"
-"delà, Resthome calcule les intérêts de retard (montant accepté × taux légal "
-"× jours de retard / 365). Le taux légal se règle dans les réglages eHealth."
 
 #: ../../content/belgique/ehealth/efact-paiements.md:25
 msgid ""
@@ -167,11 +140,6 @@ msgstr ""
 #: ../../content/belgique/ehealth/efact-paiements.md:40
 msgid "**eFact Settlements** — the list of **settlements** received;"
 msgstr "**eFact Settlements** — la liste des **décomptes** reçus ;"
-
-#: ../../content/belgique/ehealth/efact-paiements.md:41
-msgid "**eFact Batches** — each batch and its **Payment tab**."
-msgstr ""
-"**eFact Batches** (Lots eFact) — chaque lot et son **onglet Paiement**."
 
 #: ../../content/belgique/ehealth/efact-paiements.md:43
 msgid "Acknowledgement of receipt ≠ settlement"
@@ -443,18 +411,6 @@ msgstr ""
 "fichier brut du décompte, zone par zone, pour vérifier une valeur au plus "
 "près de la source."
 
-#: ../../content/belgique/ehealth/efact-paiements.md:128
-msgid "3. A batch's Payment tab"
-msgstr "3\\. L'onglet Paiement d'un lot"
-
-#: ../../content/belgique/ehealth/efact-paiements.md:130
-msgid ""
-"On a batch ([eFact batches](efact.md)), once the batch has been sent, the "
-"**Payment** group summarizes the payment status:"
-msgstr ""
-"Sur un lot ([Lots eFact](efact.md)), une fois l'envoi parti, le groupe "
-"**Payment** (Paiement) résume l'état du paiement :"
-
 #: ../../content/belgique/ehealth/efact-paiements.md:133
 msgid "**Paid** — the checkbox turns green when the batch is paid;"
 msgstr "**Paid** (Payé) — la coche passe au vert quand le lot est payé ;"
@@ -607,25 +563,6 @@ msgstr ""
 "d'action**, avec un compteur et un bouton par pile. Trois piles répondent "
 "directement à la question du paiement."
 
-#: ../../content/belgique/ehealth/efact-paiements.md:199
-msgid ""
-"![eFact Cockpit with the action stacks (To send, Awaiting OA, To correct, To"
-" reconcile, Overdue OA payments) and the \"Rejects by cause\" "
-"table](../../assets/screenshots/ehealth/11-efact-cockpit.webp)"
-msgstr ""
-"![Cockpit eFact avec les piles d'actions (À envoyer, En attente OA, À "
-"corriger, À pointer, Paiements OA en retard) et le tableau « Rejets par "
-"cause »](../../assets/screenshots/ehealth/11-efact-cockpit.webp)"
-
-#: ../../content/belgique/ehealth/efact-paiements.md:199
-msgid ""
-"eFact Cockpit with the action stacks (To send, Awaiting OA, To correct, To "
-"reconcile, Overdue OA payments) and the \"Rejects by cause\" table"
-msgstr ""
-"Cockpit eFact avec les piles d'actions (À envoyer, En attente OA, À "
-"corriger, À pointer, Paiements OA en retard) et le tableau « Rejets par "
-"cause »"
-
 #: ../../content/belgique/ehealth/efact-paiements.md:201
 msgid ""
 "**To reconcile** — the batches **settled but whose payment is not yet "
@@ -635,15 +572,6 @@ msgstr ""
 "**To reconcile** (à pointer) — les lots **décomptés mais dont le paiement "
 "n'est pas encore confirmé**. Le montant total attendu est affiché ; le "
 "bouton **Reconcile payments** ouvre la liste pour les pointer un à un."
-
-#: ../../content/belgique/ehealth/efact-paiements.md:204
-msgid ""
-"**Overdue payments** — the batches **accepted but still unpaid** whose **OA "
-"payment deadline has passed**. See chasing below."
-msgstr ""
-"**Overdue payments** (paiements en retard) — les envois **acceptés mais "
-"toujours impayés** dont l’**échéance de paiement OA est dépassée**. Voir la "
-"relance ci-dessous."
 
 #: ../../content/belgique/ehealth/efact-paiements.md:206
 msgid ""
@@ -696,20 +624,6 @@ msgstr ""
 msgid "6. Chasing an overdue OA"
 msgstr "6\\. Relancer un organisme assureur en retard"
 
-#: ../../content/belgique/ehealth/efact-paiements.md:227
-msgid ""
-"The **Overdue payments** stack lists the batches **submitted on time**, "
-"**accepted** by the OA but **unpaid** beyond the deadline. The **Chase (by "
-"OA)** button opens these batches **grouped by insurer**: you immediately see"
-" **who to chase** and **for how much** (the accepted total is summed per "
-"OA)."
-msgstr ""
-"La pile **Overdue payments** liste les envois **introduits dans les "
-"délais**, **acceptés** par l'OA mais **non payés** au-delà de l'échéance. Le"
-" bouton **Chase (by OA)** ouvre ces lots **regroupés par organisme "
-"assureur** : vous voyez immédiatement **qui relancer** et **pour quel "
-"montant** (le total accepté est additionné par OA)."
-
 #: ../../content/belgique/ehealth/efact-paiements.md:232
 msgid ""
 "To write to the OA, the **Contact OA** button (present on each batch) "
@@ -721,22 +635,6 @@ msgstr ""
 #: ../../content/belgique/ehealth/efact-paiements.md:235
 msgid "7. Late-payment interest (moratory interest)"
 msgstr "7\\. Intérêts de retard (intérêts moratoires)"
-
-#: ../../content/belgique/ehealth/efact-paiements.md:237
-msgid ""
-"A batch paid too late may entitle you to **late-payment interest**. Resthome"
-" applies the AViQ rule:"
-msgstr ""
-"Un envoi payé trop tard peut donner droit à des **intérêts de retard**. "
-"Resthome applique la règle AViQ :"
-
-#: ../../content/belgique/ehealth/efact-paiements.md:240
-msgid ""
-"the batch must have been **submitted on time** (sent by the **20th of month "
-"M+1** at the latest) — this is the **eligibility** condition;"
-msgstr ""
-"l'envoi doit avoir été **introduit dans les délais** (envoyé au plus tard le"
-" **20 du mois M+1**) — c'est la condition d’**éligibilité** ;"
 
 #: ../../content/belgique/ehealth/efact-paiements.md:242
 msgid ""
@@ -854,3 +752,109 @@ msgstr "[Réglages eHealth](../reglages-ehealth.md)"
 #: ../../content/belgique/ehealth/efact-paiements.md:280
 msgid "[eHealth overview](index.md)"
 msgstr "[Vue d'ensemble eHealth](index.md)"
+
+#: ../../content/belgique/ehealth/efact-paiements.md:17
+msgid ""
+"Open the batch: the Payment group of its Info tab shows Paid, the payment "
+"reference and the amount. Under Account C, as soon as the settlement carries"
+" a real payment reference, Resthome marks the batch Paid automatically. For "
+"an overview, the eFact Cockpit gathers the settled batches not yet "
+"reconciled and the overdue OAs."
+msgstr ""
+"Ouvrez le lot : le groupe Paiement de son onglet Infos affiche Payé, la "
+"référence de paiement et le montant. En Compte C, dès que le décompte porte "
+"une référence de paiement réelle, Resthome marque le lot Payé "
+"automatiquement. Pour une vue d'ensemble, le Cockpit eFact regroupe les "
+"envois décomptés non encore pointés et les OA en retard."
+
+#: ../../content/belgique/ehealth/efact-paiements.md:23
+msgid ""
+"Yes. Every sent batch is eligible: the former condition of sending by the "
+"20th of the following month fell with that deadline, which was abolished. "
+"The OA must pay by the end of the 2nd month following submission; beyond "
+"that, Resthome calculates the late-payment interest (accepted amount × legal"
+" rate × days late / 365). The legal rate is set in the eHealth settings."
+msgstr ""
+"Oui. Tout lot envoyé est éligible : l'ancienne condition d'un envoi au plus "
+"tard le 20 du mois suivant est tombée avec cette échéance, qui a été "
+"supprimée. L'OA doit payer pour la fin du 2e mois suivant l'introduction ; "
+"au-delà, Resthome calcule les intérêts de retard (montant accepté × taux "
+"légal × jours de retard / 365). Le taux légal se règle dans les réglages "
+"eHealth."
+
+#: ../../content/belgique/ehealth/efact-paiements.md:41
+msgid ""
+"**eFact Batches** — each batch and the **Payment** group of its **Info** "
+"tab."
+msgstr ""
+"**Envois eFact** — chaque lot et le groupe **Paiement** de son onglet "
+"**Infos**."
+
+#: ../../content/belgique/ehealth/efact-paiements.md:128
+msgid "3. A batch's payment status"
+msgstr "3\\. L'état de paiement d'un lot"
+
+#: ../../content/belgique/ehealth/efact-paiements.md:130
+msgid ""
+"On a batch ([eFact batches](efact.md)), once the batch has been sent, the "
+"**Payment** group of the **Info** tab summarizes the payment status:"
+msgstr ""
+"Sur un lot ([Lots eFact](efact.md)), une fois l'envoi parti, le groupe "
+"**Paiement** de l'onglet **Infos** résume l'état du paiement :"
+
+#: ../../content/belgique/ehealth/efact-paiements.md:199
+msgid ""
+"![eFact Cockpit with the action stacks (To send, Awaiting OA, To correct, To"
+" reconcile, OA payments overdue) and the \"Rejects by cause\" "
+"table](../../assets/screenshots/ehealth/11-efact-cockpit.webp)"
+msgstr ""
+"![Cockpit eFact avec les piles d'actions (À envoyer, En attente OA, À "
+"corriger, À pointer, Paiements OA en retard) et le tableau « Rejets par "
+"cause »](../../assets/screenshots/ehealth/11-efact-cockpit.webp)"
+
+#: ../../content/belgique/ehealth/efact-paiements.md:199
+msgid ""
+"eFact Cockpit with the action stacks (To send, Awaiting OA, To correct, To "
+"reconcile, OA payments overdue) and the \"Rejects by cause\" table"
+msgstr ""
+"Cockpit eFact avec les piles d'actions (À envoyer, En attente OA, À "
+"corriger, À pointer, Paiements OA en retard) et le tableau « Rejets par "
+"cause »"
+
+#: ../../content/belgique/ehealth/efact-paiements.md:204
+msgid ""
+"**OA payments overdue** — the batches **accepted but still unpaid** whose "
+"**OA payment deadline has passed**. See chasing below."
+msgstr ""
+"**Paiements OA en retard** — les envois **acceptés mais toujours impayés** "
+"dont l'**échéance de paiement OA est dépassée**. Voir la relance ci-dessous."
+
+#: ../../content/belgique/ehealth/efact-paiements.md:227
+msgid ""
+"The **OA payments overdue** stack lists the batches **accepted** by the OA "
+"but **unpaid** beyond the OA payment deadline. The **Chase (by OA)** button "
+"opens these batches **grouped by insurer**: you immediately see **who to "
+"chase** and **for how much** (the accepted total is summed per OA)."
+msgstr ""
+"La pile **Paiements OA en retard** liste les envois **acceptés** par l'OA "
+"mais **non payés** au-delà de l'échéance de paiement OA. Le bouton **Relance"
+" (par OA)** ouvre ces lots **regroupés par organisme assureur** : vous voyez"
+" immédiatement **qui relancer** et **pour quel montant** (le total accepté "
+"est additionné par OA)."
+
+#: ../../content/belgique/ehealth/efact-paiements.md:237
+msgid ""
+"A batch paid too late may entitle you to **late-payment interest**. Resthome"
+" applies the regional rule:"
+msgstr ""
+"Un envoi payé trop tard peut donner droit à des **intérêts de retard**. "
+"Resthome applique la règle régionale :"
+
+#: ../../content/belgique/ehealth/efact-paiements.md:240
+msgid ""
+"every **sent** batch is eligible: the former condition of sending by the "
+"20th of the following month fell with that deadline, which was abolished;"
+msgstr ""
+"tout lot **envoyé** est éligible : l'ancienne condition d'un envoi au plus "
+"tard le 20 du mois suivant est tombée avec cette échéance, qui a été "
+"supprimée ;"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 15:49+0200\n"
+"POT-Creation-Date: 2026-11-08 19:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nl <LL@li.org>\n"
@@ -26,12 +26,13 @@ msgstr "De plaatsbeschrijving (intrede en uittrede)"
 
 #: ../../content/residents/etat-des-lieux.md:9
 msgid ""
-"The move-in/move-out condition report for a nursing home with Resthome: "
-"assess each item of equipment, photos, and a signed PDF report (eIDAS)."
+"The move-in and move-out condition report of a room in Resthome: each item "
+"of equipment rated OK or Not OK with a photo, reusable templates, and a PDF "
+"report ready to sign."
 msgstr ""
-"De plaatsbeschrijving bij intrede en uittrede in een woonzorgcentrum met "
-"Resthome: vaststelling per uitrusting, foto's en ondertekend PDF-verslag "
-"(eIDAS)."
+"De plaatsbeschrijving bij intrede en uittrede van een kamer in Resthome: "
+"elke uitrusting beoordeeld als Conform of Niet conform met een foto, "
+"herbruikbare sjablonen, en een PDF-verslag klaar om te ondertekenen."
 
 #: ../../content/residents/etat-des-lieux.md:13
 msgid "Where do I create a condition report in Resthome?"
@@ -39,13 +40,13 @@ msgstr "Waar maak ik een plaatsbeschrijving aan in Resthome?"
 
 #: ../../content/residents/etat-des-lieux.md:14
 msgid ""
-"In the Accommodation ▸ Condition reports menu, click New. When you select "
-"the resident, the room (taken from their current stay) and the "
-"representative are filled in automatically."
+"In **Nursing Home → Accommodation → Property Inspections**, click **New**. "
+"When you select the resident, the room (from their current stay) and the "
+"representative are filled in."
 msgstr ""
-"In het menu Huisvesting ▸ Plaatsbeschrijvingen klikt u op Nieuw. Zodra u de "
-"bewoner kiest, worden de kamer (overgenomen uit zijn lopende verblijf) en de"
-" vertegenwoordiger automatisch vooraf ingevuld."
+"Klik in **Rusthuis → Huisvesting → Plaatsbeschrijvingen** op **Nieuw**. "
+"Zodra u de bewoner kiest, worden de kamer (overgenomen uit zijn lopende "
+"verblijf) en de vertegenwoordiger ingevuld."
 
 #: ../../content/residents/etat-des-lieux.md:16
 msgid ""
@@ -56,448 +57,373 @@ msgstr ""
 
 #: ../../content/residents/etat-des-lieux.md:17
 msgid ""
-"The Condition report type field distinguishes Move-in from Move-out. The "
-"move-in records the state of the room when the resident arrives, the move-"
-"out when they leave. The PDF report shows a Move-in or Move-out badge "
-"depending on the type chosen."
+"The **Inspection Type** field: **Arrival** records the state of the room "
+"when the resident moves in, **Exit** when they leave. The PDF report shows "
+"the matching badge."
 msgstr ""
-"Het veld Type plaatsbeschrijving onderscheidt Intrede en Uittrede. De "
-"intrede stelt de staat van de kamer vast bij de aankomst van de bewoner, de "
-"uittrede bij het vertrek. Het PDF-verslag toont een badge Intrede of "
-"Uittrede volgens het gekozen type."
+"Het veld **Type plaatsbeschrijving**: **Intrede** legt de staat van de kamer"
+" vast wanneer de bewoner intrekt, **Uittrede** wanneer hij vertrekt. Het "
+"PDF-verslag toont de bijbehorende badge."
 
 #: ../../content/residents/etat-des-lieux.md:19
-msgid "Does the condition report have legal value?"
-msgstr "Heeft de plaatsbeschrijving juridische waarde?"
-
-#: ../../content/residents/etat-des-lieux.md:20
-msgid ""
-"Yes. It is a joint assessment, signed by the resident's representative and "
-"by the facility, drawn up in two copies. The report carries a statement of "
-"compliance with the eIDAS regulation."
-msgstr ""
-"Ja. Het is een tegensprekelijke vaststelling, ondertekend door de "
-"vertegenwoordiger van de bewoner en door de instelling, opgemaakt in twee "
-"exemplaren. Het verslag vermeldt de conformiteit met de eIDAS-verordening."
-
-#: ../../content/residents/etat-des-lieux.md:22
 msgid "Can I reuse a standard list of equipment?"
 msgstr "Kan ik een standaardlijst van uitrustingen hergebruiken?"
 
+#: ../../content/residents/etat-des-lieux.md:20
+msgid ""
+"Yes, through **Inspection Templates** (Nursing Home → Configuration → "
+"Property Inspections). A template fills in the lines, the sections and the "
+"general observations, like a quotation template."
+msgstr ""
+"Ja, via de **Sjablonen plaatsbeschrijving** (Rusthuis → Configuratie → "
+"Plaatsbeschrijvingen). Een sjabloon vult de regels, de secties en de "
+"algemene opmerkingen in, zoals een offertesjabloon."
+
+#: ../../content/residents/etat-des-lieux.md:22
+msgid "Can a finished condition report still be changed?"
+msgstr "Kan een voltooide plaatsbeschrijving nog worden gewijzigd?"
+
 #: ../../content/residents/etat-des-lieux.md:23
 msgid ""
-"Yes, through the Condition report templates (Configuration ▸ Condition "
-"reports). A template pre-fills the lines, the sections and the general "
-"observations, like a quotation template."
+"Not directly. Once **Done**, it is locked and cannot be deleted: click "
+"**Reset to To do** to reopen it — the reopening is recorded in its history."
 msgstr ""
-"Ja, via de Sjablonen plaatsbeschrijving (Configuratie ▸ "
-"Plaatsbeschrijvingen). Een sjabloon vult de regels, secties en algemene "
-"opmerkingen vooraf in, zoals een offertesjabloon."
+"Niet rechtstreeks. Eenmaal **Voltooid** is ze vergrendeld en kan ze niet "
+"worden verwijderd: klik op **Terugzetten naar Te doen** om ze te heropenen —"
+" de heropening wordt in haar geschiedenis vastgelegd."
 
 #: ../../content/residents/etat-des-lieux.md:25
-msgid "How do I sign the condition report electronically?"
-msgstr "Hoe onderteken ik de plaatsbeschrijving elektronisch?"
+msgid "How do I sign the condition report?"
+msgstr "Hoe onderteken ik de plaatsbeschrijving?"
 
 #: ../../content/residents/etat-des-lieux.md:26
 msgid ""
-"The PDF report contains signature anchors (representative and facility) "
-"designed for the Odoo Sign app. Otherwise, print it and have it signed by "
-"hand, in two copies."
+"Print it with **Print → État des lieux**. The PDF carries two signature "
+"boxes, for the resident's representative and for the house, placed for an "
+"electronic signature request; otherwise, print it in two copies and sign by "
+"hand."
 msgstr ""
-"Het PDF-verslag bevat handtekeningankers (vertegenwoordiger en instelling) "
-"voorzien voor de Odoo Sign-toepassing. Anders drukt u het af en laat u het "
-"met de hand ondertekenen, in twee exemplaren."
-
-#: ../../content/residents/etat-des-lieux.md:28
-msgid "What do Compliant and Non-compliant mean on a line?"
-msgstr "Wat betekenen Conform en Niet conform op een regel?"
+"Druk ze af met **Afdrukken → Plaatsbeschrijving**. De PDF bevat twee "
+"handtekeningkaders, voor de vertegenwoordiger van de bewoner en voor het "
+"huis, geplaatst voor een elektronische handtekeningaanvraag; druk ze anders "
+"in twee exemplaren af en onderteken met de hand."
 
 #: ../../content/residents/etat-des-lieux.md:29
 msgid ""
-"It is the recorded condition of the equipment. The report summary counts the"
-" compliant and non-compliant items, and the photos are included in a "
-"photographic appendix."
-msgstr ""
-"Dat is de vastgestelde staat van de uitrusting. De samenvatting van het "
-"verslag telt de conforme en niet-conforme elementen, en de foto's worden "
-"opgenomen in de fotobijlage."
-
-#: ../../content/residents/etat-des-lieux.md:32
-msgid ""
 "The **condition report** records the **state of a room** and its equipment "
-"at a specific moment: when the resident **moves in**, and then when they "
-"**move out**. It is a legally binding **joint assessment**, signed by the "
-"resident (or their representative) and by the facility. You will find it in "
-"the **Accommodation ▸ Condition reports** menu."
+"at a given moment: when the resident **moves in**, then when they **move "
+"out**. It is a **joint assessment**, signed by the resident's representative"
+" and by the house."
 msgstr ""
 "De **plaatsbeschrijving** legt de **staat van een kamer** en haar "
-"uitrustingen op een bepaald moment vast: bij de **intrede** van de bewoner, "
-"en later bij zijn **uittrede**. Het is een **tegensprekelijke vaststelling**"
-" met juridische waarde, ondertekend door de bewoner (of zijn "
-"vertegenwoordiger) en door de instelling. U vindt ze in het menu "
-"**Huisvesting ▸ Plaatsbeschrijvingen**."
+"uitrustingen vast op een bepaald moment: wanneer de bewoner **intrekt**, en "
+"later wanneer hij **vertrekt**. Het is een **tegensprekelijke "
+"vaststelling**, ondertekend door de vertegenwoordiger van de bewoner en door"
+" het huis."
 
-#: ../../content/residents/etat-des-lieux.md:38
+#: ../../content/residents/etat-des-lieux.md:34
+msgid "Menu: **Nursing Home → Accommodation → Property Inspections**."
+msgstr "Menu: **Rusthuis → Huisvesting → Plaatsbeschrijvingen**."
+
+#: ../../content/residents/etat-des-lieux.md:36
 msgid ""
-"Each condition report links a **resident**, a **room** and a "
-"**representative**, lists the **equipment** assessed (compliant or not), and"
-" produces a **PDF report** on your letterhead, ready to sign."
+"Each report links a **resident**, a **room** and a **representative**, lists"
+" the **equipment** assessed (OK or Not OK), and produces a **PDF report** on"
+" your letterhead."
 msgstr ""
 "Elke plaatsbeschrijving koppelt een **bewoner**, een **kamer** en een "
-"**vertegenwoordiger**, somt de vastgestelde **uitrustingen** op (conform of "
-"niet) en levert een **PDF-verslag** met uw huisstijl, klaar om te "
-"ondertekenen."
+"**vertegenwoordiger**, somt de vastgestelde **uitrustingen** op (Conform of "
+"Niet conform) en levert een **PDF-verslag** met uw huisstijl."
 
-#: ../../content/residents/etat-des-lieux.md:49
+#: ../../content/residents/etat-des-lieux.md:47
 msgid "An optional module"
 msgstr "Een optionele module"
 
-#: ../../content/residents/etat-des-lieux.md:52
+#: ../../content/residents/etat-des-lieux.md:50
 msgid ""
-"Condition reports are provided by a dedicated module. When it is installed, "
-"a **Condition reports** entry appears in the **Accommodation** menu, "
-"alongside **Rooms** and **Stays**."
+"Condition reports come with their own module. Once it is installed, "
+"**Property Inspections** appears in the **Accommodation** menu. A new stay "
+"also opens the **Entry / exit condition report** step of the [move-in "
+"procedure](procedure-emmenagement.md), as a reminder."
 msgstr ""
-"De plaatsbeschrijvingen komen van een aparte module. Als die geïnstalleerd "
-"is, verschijnt een item **Plaatsbeschrijvingen** in het menu "
-"**Huisvesting**, naast de **Kamers** en de **Verblijven**."
+"Plaatsbeschrijvingen komen met een eigen module. Zodra die geïnstalleerd is,"
+" verschijnt **Plaatsbeschrijvingen** in het menu **Huisvesting**. Een nieuw "
+"verblijf opent ook de stap **Plaatsbeschrijving bij intrede / uittrede** van"
+" de [intredeprocedure](procedure-emmenagement.md), als herinnering."
 
-#: ../../content/residents/etat-des-lieux.md:57
+#: ../../content/residents/etat-des-lieux.md:56
 msgid "1. Create the condition report"
 msgstr "1\\. De plaatsbeschrijving aanmaken"
 
-#: ../../content/residents/etat-des-lieux.md:59
-msgid "Open **Accommodation ▸ Condition reports**."
-msgstr "Open **Huisvesting ▸ Plaatsbeschrijvingen**."
+#: ../../content/residents/etat-des-lieux.md:58
+msgid "Open **Nursing Home → Accommodation → Property Inspections**."
+msgstr "Open **Rusthuis → Huisvesting → Plaatsbeschrijvingen**."
 
-#: ../../content/residents/etat-des-lieux.md:60
+#: ../../content/residents/etat-des-lieux.md:59
 msgid "Click **New**."
 msgstr "Klik op **Nieuw**."
 
-#: ../../content/residents/etat-des-lieux.md:61
+#: ../../content/residents/etat-des-lieux.md:60
 msgid "Select the **Resident**."
 msgstr "Selecteer de **Bewoner**."
 
-#: ../../content/residents/etat-des-lieux.md:62
+#: ../../content/residents/etat-des-lieux.md:61
 msgid ""
-"Check the **Date** (today's date by default) and the **Person in charge** "
-"(you by default)."
+"Check the **Date** (now by default) and the **Responsible** (you by "
+"default)."
 msgstr ""
-"Controleer de **Datum** (standaard vandaag) en de **Verantwoordelijke** "
+"Controleer de **Datum** (standaard nu) en de **Verantwoordelijke** "
 "(standaard uzelf)."
 
-#: ../../content/residents/etat-des-lieux.md:64
-msgid "**Save**: an automatic **reference** is assigned (prefix `EL-`)."
-msgstr ""
-"**Sla op**: er wordt automatisch een **referentie** toegekend (voorvoegsel "
-"`EL-`)."
+#: ../../content/residents/etat-des-lieux.md:62
+msgid "Choose the **Inspection Type**: **Arrival** or **Exit**."
+msgstr "Kies het **Type plaatsbeschrijving**: **Intrede** of **Uittrede**."
 
-#: ../../content/residents/etat-des-lieux.md:66
-msgid "The resident, the room and the representative link themselves"
-msgstr "Bewoner, kamer en vertegenwoordiger koppelen zich vanzelf"
+#: ../../content/residents/etat-des-lieux.md:63
+msgid "**Save**: a **Reference** is assigned (prefix EL-)."
+msgstr "**Sla op**: er wordt een **Referentie** toegekend (voorvoegsel EL-)."
 
-#: ../../content/residents/etat-des-lieux.md:69
-msgid "As soon as you choose the **resident**, Resthome pre-fills:"
-msgstr "Zodra u de **bewoner** kiest, vult Resthome vooraf in:"
+#: ../../content/residents/etat-des-lieux.md:65
+msgid "The room and the representative fill themselves in"
+msgstr "Kamer en vertegenwoordiger vullen zich vanzelf in"
+
+#: ../../content/residents/etat-des-lieux.md:68
+msgid "As soon as you choose the **resident**, Resthome fills in:"
+msgstr "Zodra u de **bewoner** kiest, vult Resthome in:"
+
+#: ../../content/residents/etat-des-lieux.md:70
+msgid "the **Room**, from their **current stay**;"
+msgstr "de **Kamer**, op basis van zijn **lopende verblijf**;"
 
 #: ../../content/residents/etat-des-lieux.md:71
-msgid "the **Room**, taken from their **current stay**;"
-msgstr "de **Kamer**, overgenomen uit zijn **lopende verblijf**;"
-
-#: ../../content/residents/etat-des-lieux.md:72
 msgid ""
-"the **Resident's representative** (the reference person who will sign), "
-"taken from their **first family contact**."
+"the **Resident's Representative** — the person who signs —, from their first"
+" contact person."
 msgstr ""
-"de **Vertegenwoordiger van de bewoner** (de referentiepersoon die "
-"ondertekent), overgenomen uit zijn **eerste familiecontact**."
+"de **Vertegenwoordiger van de bewoner** — de persoon die ondertekent —, op "
+"basis van zijn eerste contactpersoon."
 
-#: ../../content/residents/etat-des-lieux.md:75
-msgid "Both fields remain editable if needed."
-msgstr "Beide velden blijven aanpasbaar indien nodig."
+#: ../../content/residents/etat-des-lieux.md:74
+msgid "Both remain editable, and both are required."
+msgstr "Beide blijven aanpasbaar, en beide zijn verplicht."
 
-#: ../../content/residents/etat-des-lieux.md:78
-#: ../../content/residents/etat-des-lieux.md:123
+#: ../../content/residents/etat-des-lieux.md:77
 msgid ""
-"![Condition report: resident, representative, room, and the equipment lines "
-"marked compliant or non-compliant](../assets/screenshots/residents/edl-"
-"formulaire.png)"
+"**Tags** classify the reports as you wish; they are managed in **Nursing "
+"Home → Configuration → Property Inspections → Inspection Tags**."
 msgstr ""
-"![Plaatsbeschrijving: bewoner, vertegenwoordiger, kamer, en de "
-"uitrustingslijnen aangeduid als conform of niet-"
-"conform](../assets/screenshots/residents/edl-formulaire.png)"
-
-#: ../../content/residents/etat-des-lieux.md:78
-#: ../../content/residents/etat-des-lieux.md:123
-msgid ""
-"Condition report: resident, representative, room, and the equipment lines "
-"marked compliant or non-compliant"
-msgstr ""
-"Plaatsbeschrijving: bewoner, vertegenwoordiger, kamer, en de "
-"uitrustingslijnen aangeduid als conform of niet-conform"
+"**Labels** delen de plaatsbeschrijvingen in zoals u wilt; ze worden beheerd "
+"in **Rusthuis → Configuratie → Plaatsbeschrijvingen → Labels "
+"plaatsbeschrijving**."
 
 #: ../../content/residents/etat-des-lieux.md:80
-msgid "2. Choose the type: move-in or move-out"
-msgstr "2\\. Het type kiezen: intrede of uittrede"
+msgid ""
+"![Condition report: resident, representative, room, and the equipment lines "
+"rated OK or Not OK](../assets/screenshots/residents/edl-formulaire.png)"
+msgstr ""
+"![Plaatsbeschrijving: bewoner, vertegenwoordiger, kamer, en de "
+"uitrustingsregels beoordeeld als Conform of Niet "
+"conform](../assets/screenshots/residents/edl-formulaire.png)"
+
+#: ../../content/residents/etat-des-lieux.md:80
+msgid ""
+"Condition report: resident, representative, room, and the equipment lines "
+"rated OK or Not OK"
+msgstr ""
+"Plaatsbeschrijving: bewoner, vertegenwoordiger, kamer, en de "
+"uitrustingsregels beoordeeld als Conform of Niet conform"
 
 #: ../../content/residents/etat-des-lieux.md:82
-msgid "Fill in the **Condition report type** field:"
-msgstr "Vul het veld **Type plaatsbeschrijving** in:"
+msgid "2. Fill in the details"
+msgstr "2\\. De details invullen"
 
 #: ../../content/residents/etat-des-lieux.md:84
-msgid "**Move-in** — the state of the room when the resident **arrives**."
-msgstr ""
-"**Intrede** — de staat van de kamer bij de **aankomst** van de bewoner."
+msgid "Open the **Details** tab. Three buttons sit at the bottom of the list:"
+msgstr "Open het tabblad **Details**. Onderaan de lijst staan drie knoppen:"
 
-#: ../../content/residents/etat-des-lieux.md:85
-msgid ""
-"**Move-out** — the state at the time of **departure**, to be compared with "
-"the move-in."
-msgstr ""
-"**Uittrede** — de staat bij het **vertrek**, te vergelijken met de intrede."
-
-#: ../../content/residents/etat-des-lieux.md:87
-msgid ""
-"The type determines the **badge** shown on the PDF report (Move-in / Move-"
-"out)."
-msgstr ""
-"Het type bepaalt de **badge** op het PDF-verslag (Intrede / Uittrede)."
-
-#: ../../content/residents/etat-des-lieux.md:89
-msgid "Type not specified"
-msgstr "Type niet ingevuld"
-
-#: ../../content/residents/etat-des-lieux.md:92
-msgid ""
-"If you do not choose a type, the report shows the **Not specified** badge. "
-"Fill in Move-in or Move-out for a clear document."
-msgstr ""
-"Kiest u geen type, dan toont het verslag de badge **Niet gepreciseerd**. Vul"
-" Intrede of Uittrede in voor een duidelijk document."
-
-#: ../../content/residents/etat-des-lieux.md:96
-msgid "3. Fill in the detail lines"
-msgstr "3\\. De detailregels invullen"
-
-#: ../../content/residents/etat-des-lieux.md:98
-msgid ""
-"Open the **Details** tab. Each line describes an **item of equipment** and "
-"its condition. Three buttons are available at the bottom of the list:"
-msgstr ""
-"Open het tabblad **Details**. Elke regel beschrijft een **uitrusting** en "
-"haar staat. Onderaan de lijst staan drie knoppen:"
-
-#: ../../content/residents/etat-des-lieux.md:101
+#: ../../content/residents/etat-des-lieux.md:86
 msgid "**Add a line** — an item of equipment being assessed;"
 msgstr "**Regel toevoegen** — een vastgestelde uitrusting;"
 
-#: ../../content/residents/etat-des-lieux.md:102
-msgid ""
-"**Add a section** — a heading that groups lines (e.g. \"Bedroom\", "
-"\"Bathroom\", \"Furniture\");"
+#: ../../content/residents/etat-des-lieux.md:87
+msgid "**Add a section** — a heading that groups lines (\"Bedroom\", \"Bathroom\"…);"
 msgstr ""
-"**Sectie toevoegen** — een titel die regels groepeert (bv. « Kamer », « "
-"Badkamer », « Meubilair »);"
+"**Sectie toevoegen** — een titel die regels groepeert (« Kamer », « Badkamer"
+" »…);"
 
-#: ../../content/residents/etat-des-lieux.md:104
-msgid "**Add a note** — a free-text line, in italics."
-msgstr "**Notitie toevoegen** — een vrije tekstregel, in cursief."
+#: ../../content/residents/etat-des-lieux.md:88
+msgid "**Add a note** — a free-text line."
+msgstr "**Notitie toevoegen** — een vrije tekstregel."
 
-#: ../../content/residents/etat-des-lieux.md:106
-msgid "For an equipment line, fill in:"
-msgstr "Voor een uitrustingsregel vult u in:"
+#: ../../content/residents/etat-des-lieux.md:90
+msgid "For an equipment line:"
+msgstr "Voor een uitrustingsregel:"
 
-#: ../../content/residents/etat-des-lieux.md:89
-msgid "Field"
-msgstr "Veld"
+#: ../../content/residents/etat-des-lieux.md:65
+msgid "Column"
+msgstr "Kolom"
 
-#: ../../content/residents/etat-des-lieux.md:89
+#: ../../content/residents/etat-des-lieux.md:65
 msgid "Purpose"
 msgstr "Rol"
 
-#: ../../content/residents/etat-des-lieux.md:89
+#: ../../content/residents/etat-des-lieux.md:65
 msgid "**Equipment**"
 msgstr "**Uitrusting**"
 
-#: ../../content/residents/etat-des-lieux.md:89
-msgid "The item being assessed (required)"
-msgstr "Het vastgestelde element (verplicht)"
+#: ../../content/residents/etat-des-lieux.md:65
+msgid "The item assessed (required)."
+msgstr "Het vastgestelde element (verplicht)."
 
-#: ../../content/residents/etat-des-lieux.md:89
-msgid "**Condition**"
+#: ../../content/residents/etat-des-lieux.md:65
+msgid "**State**"
 msgstr "**Staat**"
 
-#: ../../content/residents/etat-des-lieux.md:89
-msgid "**Compliant** or **Non-compliant** (required)"
-msgstr "**Conform** of **Niet conform** (verplicht)"
+#: ../../content/residents/etat-des-lieux.md:65
+msgid "**OK** or **Not OK** (required)."
+msgstr "**Conform** of **Niet conform** (verplicht)."
 
-#: ../../content/residents/etat-des-lieux.md:89
+#: ../../content/residents/etat-des-lieux.md:65
 msgid "**Photo**"
 msgstr "**Foto**"
 
-#: ../../content/residents/etat-des-lieux.md:89
-msgid "A photo of the item (optional)"
-msgstr "Een foto van het element (optioneel)"
+#: ../../content/residents/etat-des-lieux.md:65
+msgid "A photo of the item."
+msgstr "Een foto van het element."
 
-#: ../../content/residents/etat-des-lieux.md:89
+#: ../../content/residents/etat-des-lieux.md:65
 msgid "**Notes**"
 msgstr "**Notities**"
 
-#: ../../content/residents/etat-des-lieux.md:89
-msgid "A free-text observation"
-msgstr "Een vrije opmerking"
+#: ../../content/residents/etat-des-lieux.md:65
+msgid "A free observation."
+msgstr "Een vrije opmerking."
 
-#: ../../content/residents/etat-des-lieux.md:115
-msgid "Equipment and condition are required"
-msgstr "Uitrusting en staat verplicht"
-
-#: ../../content/residents/etat-des-lieux.md:118
+#: ../../content/residents/etat-des-lieux.md:99
 msgid ""
-"A detail line must always carry an **item of equipment** and a **condition**"
-" (Compliant / Non-compliant). Sections and notes, on the other hand, carry "
-"neither equipment nor condition: they are simple headings or remarks."
+"Drag the handle on the left of a line to reorder the list. The **General "
+"Observations** tab takes free text about the room as a whole."
 msgstr ""
-"Een detailregel moet altijd een **uitrusting** en een **staat** dragen "
-"(Conform / Niet conform). Secties en notities dragen geen uitrusting of "
-"staat: dat zijn gewoon titels of opmerkingen."
+"Sleep de greep links van een regel om de lijst te herschikken. Het tabblad "
+"**Algemene opmerkingen** bevat vrije tekst over de kamer als geheel."
 
-#: ../../content/residents/etat-des-lieux.md:125
-msgid ""
-"A second tab, **General observations**, lets you add free text about the "
-"overall condition of the room."
-msgstr ""
-"Een tweede pagina, **Algemene opmerkingen**, laat u vrije tekst toevoegen "
-"over de algemene staat van de kamer."
-
-#: ../../content/residents/etat-des-lieux.md:128
+#: ../../content/residents/etat-des-lieux.md:102
 msgid "The equipment catalogue"
 msgstr "De uitrustingscatalogus"
 
-#: ../../content/residents/etat-des-lieux.md:130
+#: ../../content/residents/etat-des-lieux.md:104
 msgid ""
-"The lines point to the facility's **equipment catalogue** (\"Room "
-"equipment\"), shared with room management. There you define the bed, the "
-"wardrobe, the television, the bathroom, etc. once and for all. See "
-"[Furniture and equipment](mobilier.md)."
+"The lines point to the house's **equipment catalogue**, the same one the "
+"[rooms](chambres.md) use: the bed, the wardrobe, the television, the "
+"bathroom… are defined once in **Nursing Home → Configuration → Rooms → Room "
+"Equipment**."
 msgstr ""
-"De regels verwijzen naar de **uitrustingscatalogus** van de instelling (« "
-"Kameruitrusting »), gedeeld met het beheer van de kamers. Daar legt u "
-"eenmalig het bed, de kast, de televisie, de badkamer enz. vast. Zie "
-"[Meubilair en uitrusting](mobilier.md)."
+"De regels verwijzen naar de **uitrustingscatalogus** van het huis, dezelfde "
+"als die van de [kamers](chambres.md): het bed, de kast, de televisie, de "
+"badkamer… worden eenmalig vastgelegd in **Rusthuis → Configuratie → Kamers →"
+" Kameruitrusting**."
 
-#: ../../content/residents/etat-des-lieux.md:135
+#: ../../content/residents/etat-des-lieux.md:109
 msgid "Reusable templates"
 msgstr "De herbruikbare sjablonen"
 
-#: ../../content/residents/etat-des-lieux.md:137
-msgid "To avoid re-entering the same list every time, use a **template**."
-msgstr ""
-"Om niet telkens dezelfde lijst opnieuw in te voeren, gebruikt u een "
-"**sjabloon**."
+#: ../../content/residents/etat-des-lieux.md:111
+msgid "To avoid re-entering the same list every time:"
+msgstr "Om niet telkens dezelfde lijst opnieuw in te voeren:"
 
-#: ../../content/residents/etat-des-lieux.md:139
+#: ../../content/residents/etat-des-lieux.md:113
 msgid ""
-"Create your templates in **Configuration ▸ Condition reports ▸ Condition "
-"report templates**."
+"Create your templates in **Nursing Home → Configuration → Property "
+"Inspections → Inspection Templates** — a name (for example *Standard single "
+"room*), its **Lines** (lines, sections and notes) and its **General "
+"Observations**."
 msgstr ""
-"Maak uw sjablonen aan in **Configuratie ▸ Plaatsbeschrijvingen ▸ Sjablonen "
-"plaatsbeschrijving**."
+"Maak uw sjablonen aan in **Rusthuis → Configuratie → Plaatsbeschrijvingen → "
+"Sjablonen plaatsbeschrijving** — een naam (bijvoorbeeld *Standaard "
+"eenpersoonskamer*), zijn **Regels** (regels, secties en notities) en zijn "
+"**Algemene opmerkingen**."
 
-#: ../../content/residents/etat-des-lieux.md:141
+#: ../../content/residents/etat-des-lieux.md:117
 msgid ""
-"On a condition report, choose the **Condition report template**: its lines, "
-"sections and general observations pre-fill the document."
+"On a condition report, choose the **Inspection Template**: its content fills"
+" in the report, which you then rate."
 msgstr ""
 "Kies op een plaatsbeschrijving het **Sjabloon plaatsbeschrijving**: de "
-"regels, secties en algemene opmerkingen vullen het document vooraf in."
+"inhoud ervan vult de plaatsbeschrijving in, die u daarna beoordeelt."
 
-#: ../../content/residents/etat-des-lieux.md:144
-msgid "Like a quotation template"
-msgstr "Zoals een offertesjabloon"
+#: ../../content/residents/etat-des-lieux.md:120
+msgid "3. Follow the status"
+msgstr "3\\. De status opvolgen"
 
-#: ../../content/residents/etat-des-lieux.md:147
-msgid ""
-"A template works like a quotation template: it sets up the structure "
-"(sections + equipment) that you then just have to assess and complete."
-msgstr ""
-"Een sjabloon werkt als een offertesjabloon: het legt de structuur vast "
-"(secties + uitrustingen) die u alleen nog moet vaststellen en aanvullen."
-
-#: ../../content/residents/etat-des-lieux.md:151
-msgid "4. Track the lifecycle"
-msgstr "4\\. De levenscyclus opvolgen"
-
-#: ../../content/residents/etat-des-lieux.md:153
-msgid ""
-"A condition report goes through four **statuses**, shown in the status bar "
-"and as columns in the kanban view:"
-msgstr ""
-"Een plaatsbeschrijving doorloopt vier **statussen**, zichtbaar in de "
-"statusbalk en als kolommen in de kanbanweergave:"
-
-#: ../../content/residents/etat-des-lieux.md:144
+#: ../../content/residents/etat-des-lieux.md:65
 msgid "Status"
 msgstr "Status"
 
-#: ../../content/residents/etat-des-lieux.md:144
+#: ../../content/residents/etat-des-lieux.md:65
 msgid "Meaning"
 msgstr "Betekenis"
 
-#: ../../content/residents/etat-des-lieux.md:144
+#: ../../content/residents/etat-des-lieux.md:65
 msgid "**To do**"
 msgstr "**Te doen**"
 
-#: ../../content/residents/etat-des-lieux.md:144
-msgid "Created, assessment not yet carried out (initial status)"
-msgstr "Aangemaakt, vaststelling nog niet uitgevoerd (beginstatus)"
+#: ../../content/residents/etat-des-lieux.md:65
+msgid "Created, not yet carried out."
+msgstr "Aangemaakt, nog niet uitgevoerd."
 
-#: ../../content/residents/etat-des-lieux.md:144
+#: ../../content/residents/etat-des-lieux.md:65
 msgid "**Planned**"
 msgstr "**Gepland**"
 
-#: ../../content/residents/etat-des-lieux.md:144
-msgid "The assessment is planned"
-msgstr "De vaststelling is gepland"
+#: ../../content/residents/etat-des-lieux.md:65
+msgid "The inspection is scheduled."
+msgstr "De plaatsbeschrijving is gepland."
 
-#: ../../content/residents/etat-des-lieux.md:144
+#: ../../content/residents/etat-des-lieux.md:65
 msgid "**Done**"
 msgstr "**Voltooid**"
 
-#: ../../content/residents/etat-des-lieux.md:144
-msgid "The assessment is carried out and closed"
-msgstr "De vaststelling is uitgevoerd en afgesloten"
+#: ../../content/residents/etat-des-lieux.md:65
+msgid "Carried out and closed."
+msgstr "Uitgevoerd en afgesloten."
 
-#: ../../content/residents/etat-des-lieux.md:144
+#: ../../content/residents/etat-des-lieux.md:65
 msgid "**Cancelled**"
 msgstr "**Geannuleerd**"
 
-#: ../../content/residents/etat-des-lieux.md:144
-msgid "The condition report is abandoned"
-msgstr "De plaatsbeschrijving is opgegeven"
+#: ../../content/residents/etat-des-lieux.md:65
+msgid "Abandoned."
+msgstr "Opgegeven."
 
-#: ../../content/residents/etat-des-lieux.md:163
-msgid "The buttons at the top of the form move the record forward:"
-msgstr "De knoppen bovenaan het formulier laten het dossier vorderen:"
-
-#: ../../content/residents/etat-des-lieux.md:165
-msgid "**Plan** — moves from *To do* to *Planned*;"
-msgstr "**Plannen** — gaat van *Te doen* naar *Gepland*;"
-
-#: ../../content/residents/etat-des-lieux.md:166
-msgid "**Mark as done** — moves to *Done*;"
-msgstr "**Markeren als voltooid** — gaat naar *Voltooid*;"
-
-#: ../../content/residents/etat-des-lieux.md:167
-msgid "**Reset to To do** — returns to *To do* from *Done* or *Cancelled*;"
+#: ../../content/residents/etat-des-lieux.md:129
+msgid ""
+"The buttons at the top move it on: **Plan**, **Mark as Done**, **Cancel**, "
+"and **Reset to To do** to reopen a done or cancelled report. The kanban view"
+" shows one column per status."
 msgstr ""
-"**Terugzetten naar Te doen** — keert terug naar *Te doen* vanuit *Voltooid* "
-"of *Geannuleerd*;"
+"De knoppen bovenaan brengen haar verder: **Plannen**, **Markeren als "
+"voltooid**, **Annuleren**, en **Terugzetten naar Te doen** om een voltooide "
+"of geannuleerde plaatsbeschrijving te heropenen. De kanbanweergave toont één"
+" kolom per status."
 
-#: ../../content/residents/etat-des-lieux.md:168
-msgid "**Cancel** — switches to *Cancelled*."
-msgstr "**Annuleren** — schakelt over naar *Geannuleerd*."
+#: ../../content/residents/etat-des-lieux.md:133
+msgid "A done report is locked"
+msgstr "Een voltooide plaatsbeschrijving is vergrendeld"
 
-#: ../../content/residents/etat-des-lieux.md:170
+#: ../../content/residents/etat-des-lieux.md:136
+msgid ""
+"Once **Done**, the report is a finalised record: its resident, room, date, "
+"lines and observations can no longer be edited, and it cannot be deleted. To"
+" correct it, click **Reset to To do** — the reopening stays in its history "
+"—, then mark it done again."
+msgstr ""
+"Eenmaal **Voltooid** is de plaatsbeschrijving een definitief document: de "
+"bewoner, de kamer, de datum, de regels en de opmerkingen kunnen niet meer "
+"worden gewijzigd, en ze kan niet worden verwijderd. Klik om ze te corrigeren"
+" op **Terugzetten naar Te doen** — de heropening blijft in haar geschiedenis"
+" staan —, en markeer ze daarna opnieuw als voltooid."
+
+#: ../../content/residents/etat-des-lieux.md:142
 msgid ""
 "![Condition reports grouped by status, from To do through to "
 "Cancelled](../assets/screenshots/residents/edl-kanban.png)"
@@ -505,176 +431,172 @@ msgstr ""
 "![Plaatsbeschrijvingen gegroepeerd per status, van Te doen tot "
 "Geannuleerd](../assets/screenshots/residents/edl-kanban.png)"
 
-#: ../../content/residents/etat-des-lieux.md:170
+#: ../../content/residents/etat-des-lieux.md:142
 msgid "Condition reports grouped by status, from To do through to Cancelled"
 msgstr ""
 "Plaatsbeschrijvingen gegroepeerd per status, van Te doen tot Geannuleerd"
 
-#: ../../content/residents/etat-des-lieux.md:172
-msgid "5. Generate the signed PDF report"
-msgstr "5\\. Het ondertekende PDF-verslag genereren"
+#: ../../content/residents/etat-des-lieux.md:144
+msgid ""
+"The search bar filters on **Arrival**, **Exit**, **To do**, **Planned**, "
+"**Done** and **My Inspections**, and groups by **Status**, **Inspection "
+"Type**, **Resident**, **Room** or **Responsible**."
+msgstr ""
+"De zoekbalk filtert op **Intrede**, **Uittrede**, **Te doen**, **Gepland**, "
+"**Voltooid** en **Mijn plaatsbeschrijvingen**, en groepeert op **Staat**, "
+"**Type plaatsbeschrijving**, **Bewoner**, **Kamer** of "
+"**Verantwoordelijke**."
+
+#: ../../content/residents/etat-des-lieux.md:148
+msgid "4. Print the report"
+msgstr "4\\. Het verslag afdrukken"
+
+#: ../../content/residents/etat-des-lieux.md:150
+msgid ""
+"**Print → État des lieux** produces the PDF, named after the reference. It "
+"holds:"
+msgstr ""
+"**Afdrukken → Plaatsbeschrijving** maakt de PDF aan, genoemd naar de "
+"referentie. Hij bevat:"
+
+#: ../../content/residents/etat-des-lieux.md:153
+msgid ""
+"your **letterhead** and your house colour (set in the document layout);"
+msgstr ""
+"uw **hoofding** en de kleur van uw huis (ingesteld in de documentopmaak);"
+
+#: ../../content/residents/etat-des-lieux.md:154
+msgid "the **Arrival** or **Exit** badge;"
+msgstr "de badge **Intrede** of **Uittrede**;"
+
+#: ../../content/residents/etat-des-lieux.md:155
+msgid ""
+"the resident, the room, the person in charge, the representative, the date "
+"and the tags;"
+msgstr ""
+"de bewoner, de kamer, de verantwoordelijke, de vertegenwoordiger, de datum "
+"en de labels;"
+
+#: ../../content/residents/etat-des-lieux.md:157
+msgid "the general observations;"
+msgstr "de algemene opmerkingen;"
+
+#: ../../content/residents/etat-des-lieux.md:158
+msgid "the items assessed, with their state, photo and notes;"
+msgstr "de vastgestelde elementen, met hun staat, foto en notities;"
+
+#: ../../content/residents/etat-des-lieux.md:159
+msgid "a **summary** of the items, OK and Not OK;"
+msgstr "een **samenvatting** van de elementen, conform en niet conform;"
+
+#: ../../content/residents/etat-des-lieux.md:160
+msgid ""
+"two **signature** boxes — the resident's representative and the house — "
+"under the place and date, \"in two copies\";"
+msgstr ""
+"twee **handtekening**kaders — de vertegenwoordiger van de bewoner en het "
+"huis — onder de plaats en de datum, « in twee exemplaren »;"
+
+#: ../../content/residents/etat-des-lieux.md:162
+msgid "a **photographic appendix**, four photos per page."
+msgstr "een **fotobijlage**, vier foto's per pagina."
+
+#: ../../content/residents/etat-des-lieux.md:164
+msgid "Ready for an electronic signature"
+msgstr "Klaar voor een elektronische handtekening"
+
+#: ../../content/residents/etat-des-lieux.md:167
+msgid ""
+"The signature boxes carry invisible anchors placed for an electronic "
+"signature request: the representative's and the house's signatures land in "
+"the right place. The footer refers to the European eIDAS regulation. "
+"Otherwise, print the report and have both copies signed by hand."
+msgstr ""
+"De handtekeningkaders bevatten onzichtbare ankers die geplaatst zijn voor "
+"een elektronische handtekeningaanvraag: de handtekeningen van de "
+"vertegenwoordiger en van het huis komen op de juiste plaats terecht. De "
+"voettekst verwijst naar de Europese eIDAS-verordening. Druk anders het "
+"verslag af en laat beide exemplaren met de hand ondertekenen."
+
+#: ../../content/residents/etat-des-lieux.md:173
+msgid "Note"
+msgstr "Opmerking"
 
 #: ../../content/residents/etat-des-lieux.md:174
-msgid ""
-"From a condition report, use **Print ▸ Condition report**. Resthome produces"
-" an `EDL_<reference>.pdf` document in your facility's house style."
+msgid "The PDF report is printed in French, whatever the user's language."
 msgstr ""
-"Gebruik op een plaatsbeschrijving **Afdrukken ▸ Plaatsbeschrijving**. "
-"Resthome maakt een document `EDL_<referentie>.pdf` met de huisstijl van uw "
-"instelling."
-
-#: ../../content/residents/etat-des-lieux.md:177
-msgid "The report includes:"
-msgstr "Het verslag bevat:"
+"Het PDF-verslag wordt in het Frans afgedrukt, ongeacht de taal van de "
+"gebruiker."
 
 #: ../../content/residents/etat-des-lieux.md:179
-msgid ""
-"your **letterhead** (logo, name, address, VAT) and your facility's "
-"**colour** — set in **Settings ▸ Configure document layout**;"
-msgstr ""
-"uw **hoofding** (logo, naam, adres, btw) en de **kleur** van uw instelling —"
-" ingesteld via **Instellingen ▸ Documentopmaak configureren**;"
+msgid "Interventions in the room"
+msgstr "Interventies in de kamer"
 
 #: ../../content/residents/etat-des-lieux.md:181
 msgid ""
-"the title **CONDITION REPORT** with the **Move-in badge** (green) or **Move-"
-"out** (orange) depending on the type;"
+"Where the helpdesk is installed, an **Interventions** smart button on the "
+"report lists the technical interventions made in that room during the "
+"resident's occupancy — the history the move-out report is checked against. "
+"See [Following an intervention](../interventions/suivre-une-"
+"intervention.md)."
 msgstr ""
-"de titel **ÉTAT DES LIEUX** met de **badge Intrede** (groen) of **Uittrede**"
-" (oranje) volgens het type;"
-
-#: ../../content/residents/etat-des-lieux.md:183
-msgid ""
-"the **metadata**: resident, room, person in charge of the assessment, "
-"representative, date, tags;"
-msgstr ""
-"de **metagegevens**: bewoner, kamer, verantwoordelijke van de vaststelling, "
-"vertegenwoordiger, datum, labels;"
-
-#: ../../content/residents/etat-des-lieux.md:185
-msgid "the **general observations**, if you have entered any;"
-msgstr "de **algemene opmerkingen**, indien ingevuld;"
+"Waar de helpdesk geïnstalleerd is, toont een slimme knop **Interventies** op"
+" de plaatsbeschrijving de technische interventies die tijdens het verblijf "
+"van de bewoner in die kamer werden uitgevoerd — de historiek waaraan de "
+"plaatsbeschrijving bij uittrede wordt getoetst. Zie [Een interventie "
+"opvolgen](../interventions/suivre-une-intervention.md)."
 
 #: ../../content/residents/etat-des-lieux.md:186
-msgid ""
-"the **detail of the items assessed** (equipment, condition, photo, "
-"observation);"
-msgstr ""
-"het **detail van de vastgestelde elementen** (uitrusting, staat, foto, "
-"observatie);"
+msgid "Key takeaways"
+msgstr "Belangrijkste punten"
 
 #: ../../content/residents/etat-des-lieux.md:188
-msgid "a **summary**: number of items, including compliant and non-compliant;"
-msgstr ""
-"een **samenvatting**: aantal elementen, waarvan conform en niet conform;"
-
-#: ../../content/residents/etat-des-lieux.md:189
 msgid ""
-"two **joint signature** boxes — *The resident's representative* and *For the"
-" facility* — beneath the wording \"Done at …, in two copies\";"
+"The condition report is a **joint assessment**, on arrival then on exit, "
+"signed by the representative and the house."
 msgstr ""
-"twee kaders voor **tegensprekelijke handtekeningen** — *de vertegenwoordiger"
-" van de bewoner* en *voor de instelling* — onder de vermelding « opgemaakt "
-"in twee exemplaren »;"
+"De plaatsbeschrijving is een **tegensprekelijke vaststelling**, bij intrede "
+"en later bij uittrede, ondertekend door de vertegenwoordiger en het huis."
+
+#: ../../content/residents/etat-des-lieux.md:190
+msgid ""
+"The **room** and the **representative** fill themselves in from the "
+"resident."
+msgstr ""
+"De **kamer** en de **vertegenwoordiger** worden ingevuld op basis van de "
+"bewoner."
 
 #: ../../content/residents/etat-des-lieux.md:191
 msgid ""
-"a **photographic appendix** showing the photos in large format (4 per page)."
-msgstr "een **fotobijlage** met de foto's in groot formaat (4 per pagina)."
+"Each line carries an **item of equipment** and a **State** (OK / Not OK), "
+"with a photo and notes; **templates** save re-entering the list."
+msgstr ""
+"Elke regel draagt een **uitrusting** en een **Staat** (Conform / Niet "
+"conform), met een foto en notities; **sjablonen** besparen het opnieuw "
+"invoeren van de lijst."
 
 #: ../../content/residents/etat-des-lieux.md:193
-msgid "Ready for electronic signature (Odoo Sign)"
-msgstr "Klaar voor de elektronische handtekening (Odoo Sign)"
-
-#: ../../content/residents/etat-des-lieux.md:196
-msgid ""
-"The report contains **signature anchors** that are invisible when printed, "
-"placed for the **Odoo Sign** app: when a signature request is created, the "
-"*representative* and *facility* fields land in the right place. The footer "
-"states compliance with the **eIDAS Regulation (EU) No 910/2014**. Using Odoo"
-" Sign is optional: otherwise, print the PDF and have it signed by hand."
+msgid "A **Done** report is locked and kept; **Reset to To do** reopens it."
 msgstr ""
-"Het verslag bevat **handtekeningankers** die bij het afdrukken onzichtbaar "
-"zijn, geplaatst voor de **Odoo Sign**-toepassing: wanneer een "
-"ondertekeningsverzoek wordt aangemaakt, komen de velden *vertegenwoordiger* "
-"en *instelling* op de juiste plaats. De voettekst vermeldt de conformiteit "
-"met de **eIDAS-verordening (EU) nr. 910/2014**. Odoo Sign gebruiken is "
-"optioneel: anders drukt u de PDF af en laat u ze met de hand ondertekenen."
+"Een plaatsbeschrijving in status **Voltooid** is vergrendeld en blijft "
+"bewaard; **Terugzetten naar Te doen** heropent ze."
 
-#: ../../content/residents/etat-des-lieux.md:205
-msgid "Key points to remember"
-msgstr "Kernpunten om te onthouden"
-
-#: ../../content/residents/etat-des-lieux.md:207
-msgid ""
-"The condition report is a legally binding **joint assessment**: move-in then"
-" move-out, signed by the resident's representative and the facility."
-msgstr ""
-"De plaatsbeschrijving is een **tegensprekelijke vaststelling** met "
-"juridische waarde: intrede en later uittrede, ondertekend door de "
-"vertegenwoordiger van de bewoner en de instelling."
-
-#: ../../content/residents/etat-des-lieux.md:209
-msgid ""
-"The **resident**, the **room** (taken from the stay) and the "
-"**representative** are pre-filled automatically."
-msgstr ""
-"De **bewoner**, de **kamer** (overgenomen uit het verblijf) en de "
-"**vertegenwoordiger** worden automatisch vooraf ingevuld."
-
-#: ../../content/residents/etat-des-lieux.md:211
-msgid ""
-"Each line carries an **item of equipment** and a **Compliant / Non-"
-"compliant** condition, with a photo and an observation; **sections** and "
-"**notes** structure the list."
-msgstr ""
-"Elke regel draagt een **uitrusting** en een staat **Conform / Niet "
-"conform**, met foto en observatie; **secties** en **notities** structureren "
-"de lijst."
-
-#: ../../content/residents/etat-des-lieux.md:214
-msgid ""
-"**Templates** save you from re-entering the same list; the **equipment "
-"catalogue** is shared with the rooms."
-msgstr ""
-"**Sjablonen** vermijden het opnieuw invoeren van dezelfde lijst; de "
-"**uitrustingscatalogus** is gedeeld met de kamers."
-
-#: ../../content/residents/etat-des-lieux.md:216
-msgid ""
-"The **PDF report** is in your house style, with a Move-in/Move-out badge, "
-"summary, signatures and a photo appendix, ready for **Odoo Sign** (eIDAS)."
-msgstr ""
-"Het **PDF-verslag** heeft uw huisstijl, met badge Intrede/Uittrede, "
-"samenvatting, handtekeningen en fotobijlage, klaar voor **Odoo Sign** "
-"(eIDAS)."
-
-#: ../../content/residents/etat-des-lieux.md:219
+#: ../../content/residents/etat-des-lieux.md:195
 msgid "Going further"
 msgstr "Verder"
 
-#: ../../content/residents/etat-des-lieux.md:221
-msgid "[Manage a resident](gerer-un-resident.md)"
-msgstr "[Een bewoner beheren](gerer-un-resident.md)"
+#: ../../content/residents/etat-des-lieux.md:197
+msgid "[The move-in procedure](procedure-emmenagement.md)"
+msgstr "[De intredeprocedure](procedure-emmenagement.md)"
 
-#: ../../content/residents/etat-des-lieux.md:222
+#: ../../content/residents/etat-des-lieux.md:198
+msgid "[Rooms and occupancy](chambres.md)"
+msgstr "[De kamers en de bezetting](chambres.md)"
+
+#: ../../content/residents/etat-des-lieux.md:199
+msgid "[The resident's private furniture](mobilier.md)"
+msgstr "[Het privémeubilair van de bewoner](mobilier.md)"
+
+#: ../../content/residents/etat-des-lieux.md:200
 msgid "[Room change and transfer](changement-chambre.md)"
 msgstr "[Kamerwissel en overdracht](changement-chambre.md)"
-
-#: ../../content/residents/etat-des-lieux.md:223
-msgid "[Furniture and equipment](mobilier.md)"
-msgstr "[Meubilair en uitrusting](mobilier.md)"
-
-#: ../../content/residents/etat-des-lieux.md:224
-msgid ""
-"[General settings (residents, rooms)](../configuration/reglages-generaux.md)"
-msgstr ""
-"[Algemene instellingen (bewoners, kamers)](../configuration/reglages-"
-"generaux.md)"
-
-#~ msgid ""
-#~ "graph LR\n"
-#~ "  A[To do] --> B[Planned]\n"
-#~ "  B --> C[Done]\n"
-#~ "  A --> C[Done]"
-#~ msgstr ""

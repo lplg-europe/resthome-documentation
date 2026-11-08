@@ -95,10 +95,10 @@ insurance fund, not to set a different amount. See
 1. Open the month's **billing period** (**Billing → Facturation → Billing Periods**
    application).
 2. Open the relevant **resident's billing record** ("Billing per resident").
-3. Click **Print → Annexe 12 — Individual Expense Note**.
+3. Click **Print → Annexe 12 — Note de Frais Individuelle**.
 4. The PDF is generated in the name of the resident and the period.
 
-<!-- screenshot to add: the Print button opened on a per-resident billing record, showing the "Annexe 12 — Individual Expense Note" entry -->
+<!-- screenshot to add: the Print button opened on a per-resident billing record, showing the "Annexe 12 — Note de Frais Individuelle" entry -->
 
 :::{admonition} Give a copy to the resident
 :class: warning
@@ -141,7 +141,7 @@ Manager** (date, name and signature).
 
 1. Open the month's **billing period** (or select it in the **Billing periods**
    list).
-2. Click **Print → Annexe 12 — Summary Note**.
+2. Click **Print → Annexe 12 — Note Récapitulative**.
 3. Resthome generates the PDF, **one page per insurance organisation**.
 
 <!-- screenshot to add: the generated summary note, with the institution/insurance-fund header and the table of residents grouped by O.A. -->

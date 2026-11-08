@@ -1,190 +1,177 @@
 ---
-howto_auto: true
-modules: [resthome_mr_ehealth_medication, healthcare_medication, l10n_health_be_sam, healthcare_medical]
+modules: [l10n_health_be_sam, l10n_health_be_medication]
 ---
 
 # The SAM medication database
 
 :::{rh-description}
-The Belgian SAM authentic-source database in Resthome: ATC, BCFI class, Black Triangle, SmPC/leaflet and the Search SAM wizard for a nursing home (MR/MRS).
+SAM, the Belgian authentic source of medicines, in Resthome: a new medicine made from its SAM package, the SAM tab of a medicine, the SAM database, the catalogue without CNK and the settings of the central service.
 :::
 
 :::{rh-faq}
-What is the SAM database?
-: SAM (Source Authentique des Médicaments, the authentic source of medicines) is the official Belgian medication reference database. Resthome ships a copy of it to feed your nursing home (MR/MRS) catalog with reliable data: CNK code, active ingredient, ATC code, BCFI class, leaflets.
+What is SAM?
+: SAM (Source Authentique des Médicaments) is the official Belgian medicines database, published by the FAMHP, the INAMI and eHealth. Resthome uses it to fill the house's medicine catalogue with reliable data: CNK code, active ingredient, ATC code, form, strength, manufacturer, official documents.
 
-Where does the medication catalogue come from in Belgium?
-: From the SAM database, which provides the name, form and dosage of each medication and serves as the source for prescriptions. You import medications from SAM into the facility's catalogue instead of entering them by hand.
+How do I add a medicine from SAM?
+: In the catalogue, click **New** and type the name or the CNK in **Find the medicine in SAM**. Pick the package: the whole record fills itself. Or, in the SAM database, tick the packages and click **Add to Catalogue**.
 
-Where can I find the SAM database in Resthome?
-: Two entry points. Browsing, through the Nursing Care app → Configuration → Medication Catalogues → SAM Database. And the "Search SAM" import wizard, through the Nursing Care app → Configuration → Medication Catalogues → Search SAM.
+How do I add a product SAM does not list?
+: Tick **Not in SAM: Typed In** on the new record: the form opens empty, for a preparation or a food supplement.
 
-How do I add a SAM medication to my catalog?
-: Open the Search SAM wizard, search by name or by CNK code, check the rows you want and click Import Selected. The medications are created in your catalog with their SAM data.
+Why can't I change the CNK or the active ingredient of a medicine?
+: Because they come from the SAM package linked to the medicine. They stay read-only while a package is linked; pick another package, or tick **Not in SAM: Typed In**, to change them. The name, the category and the particulars of the intake remain the house's.
 
-What does "Black Triangle" mean?
-: The black triangle flags a medication under additional monitoring (additional pharmacovigilance). The information is taken from SAM, for guidance, on the reference record.
+Does SAM tell me the contraindications or the allergens of a medicine?
+: No. SAM gives the identity of the package and the links to the SmPC, the leaflet and the BCFI page. Indications, contraindications, side effects and allergens are what the house records on the medicine.
 
-Does the search work without an eHealth connection?
-: Yes. The search relies first on the local copy of SAM, available offline and instantly. The live DICS v5 service is used only as a fallback and requires a certified eHealth connection.
-
-How do I update a medication that is already present?
-: Run the search again and re-import the row. If the CNK code already exists in the catalog, Resthome updates the existing record instead of creating a second one.
+Where do I find the SAM database?
+: On the Medicines workstation (**Nursing Care → Medicines**), **Catalogue** tab, **SAM Database**.
 :::
 
-**SAM** (Source Authentique des Médicaments, the authentic source of medicines) is
-the official Belgian medication reference database. Resthome uses it as the
-foundation of its **medication catalog**: rather than entering a medication by
-hand, you search for it in SAM and import it, with its reliable data (CNK code,
-active ingredient, classification, leaflets).
+**SAM** (Source Authentique des Médicaments, the authentic source of
+medicines) is the official Belgian medicines database. In Resthome it is the
+starting point of the house's [medicine catalogue](../medicaments/catalogue.md):
+rather than typing a medicine in, you pick its **package** in SAM and the
+record fills itself.
 
-Two entry points:
+SAM installs itself with the Belgian pack and the Care app. It works on a
+**local copy** of the SAM packages, searched by name and by CNK, available
+without any connection. When the house is connected to the **central SAM
+service**, the SAM data of each medicine (price, reimbursement, availability)
+is also refreshed every night.
 
-- **Browse** the reference database — **Care** app → **Configuration** →
-  **SAM Database** (read-only).
-- **Search and import** — the **Search SAM** wizard, in the **Nursing Care** app →
-  **Configuration** → **Medication Catalogues** → **Search SAM**.
+## Settings
 
-:::{admonition} A feature of the eHealth integration
-:class: info
+In **Nursing Care → Configuration → Settings**, block **SAM medicines**:
 
-The **Search SAM** wizard is part of Resthome's Belgian eHealth layer. It installs
-automatically as soon as the medical module and the eHealth module are present,
-and access is reserved for the **eHealth manager**. Browsing the database
-(Nursing Care → Configuration) remains accessible without that role.
-:::
+- **Address and key** — where the central SAM service is and the key that
+  opens it. **Test the connection**, **Synchronise now** and **Read everything
+  next time** sit below. Only CNK codes leave the database, never resident
+  data.
+- **Tariff** — which SAM price and reimbursement to read: *Public pharmacy*
+  (the usual answer, a resident staying an ambulatory patient of a public
+  pharmacy), *Residential care*, *Hospital* or *Ambulatory*.
 
-## What the SAM database provides
+Without the central service, everything below works on the local copy, except
+the **SAM** tab of a medicine.
 
-Every medication in the reference database carries authentic data, useful both
-for care and for traceability:
+## Add a medicine from SAM
 
-| Data | What it is used for |
+1. Open the catalogue: on the Medicines workstation (**Nursing Care →
+   Medicines**), **Catalogue** tab, **The Medicines**, then **New**.
+2. In **Find the medicine in SAM**, type the name or the CNK (for example
+   *dafalgan*).
+3. Pick the package. The record fills itself: name, active ingredient, form,
+   strength, category, CNK, ATC, manufacturer, prescription required, the
+   narcotic, the glucose check of an insulin, what must not be crushed, and the
+   links to the SmPC, the leaflet and the BCFI page.
+4. Adjust what belongs to the house (the name, the category, the particulars
+   of the intake), then save.
+
+For a preparation, a food supplement or any product SAM does not list, tick
+**Not in SAM: Typed In**: the form opens empty, to fill in by hand.
+
+While a **SAM Package** is linked, the identity of the package — **CNK Code**,
+**Active Ingredient**, **Form**, **Strength**, **Manufacturer**, **Prescription
+Required**, the SmPC, leaflet and BCFI links — is read-only. Pick another
+package to change it.
+
+<!-- screenshot to add: new medicine record with the Find the medicine in SAM field -->
+
+## What the medicine record shows from SAM
+
+Next to the name, badges show what the SAM obligations want seen at a glance:
+**▼ Additional monitoring** (the black triangle), **RMA**, **Narcotic**,
+**Specially regulated**, **INN prescription required**, **Chapter IV**,
+**Chapter VIII**, **Cheap**, **Orphan drug**. Banners above the name announce a
+**supply problem declared to the FAMHP** (with its expected end), a medicine
+**no longer commercialised**, and the **RMA key messages**.
+
+For a medicine synchronised with the central service, the **SAM** tab holds:
+
+| Group | What it shows |
 | --- | --- |
-| **CNK code** | Belgian pharmacy code (7 digits) that identifies the package. |
-| **Active ingredient (INN)** | The active substance, in French and Dutch. |
-| **ATC code** | Anatomical Therapeutic Chemical classification (WHO), with its description. |
-| **BCFI class** | Pharmacotherapeutic classification from the Belgian Centre for Pharmacotherapeutic Information. |
-| **Black Triangle** | Flags a medication under additional monitoring (additional pharmacovigilance). |
-| **Form and route** | Pharmaceutical form and route of administration, in French and Dutch. |
-| **SmPC and leaflet** | Links to the Summary of Product Characteristics and the patient leaflet (FR and NL). |
-| **BCFI link** | Direct link to the medication's page on the BCFI website. |
-| **Prescription and manufacturer** | Dispensing status (prescription required) and marketing authorization holder. |
+| **Identity** | SAM name, pack size, SAM status, CTI-extended. |
+| **Price and reimbursement** | Delivery environment, SAM public price, reimbursable or not, reimbursement category, patient fee (ordinary and preferential). |
+| **Availability** | Commercialised, end of commercialisation, supply problem and its end. |
+| **Synchronisation** | Last synchronisation, **Unknown to SAM**; **Search SAM** and **Refresh from SAM**. |
+| **Regulatory information** | Delivery conditions, special regulation, INN prescription, black triangle, reimbursement chapters, cheap, orphan drug. |
+| **Documents** | RMA material for professionals and for patients, DHPC, the link to report an adverse reaction. |
 
-:::{admonition} A reference copy, not an order
-:class: note
-
-Resthome's SAM database is a **local copy** loaded at installation. It helps you
-identify and document a medication; it manages neither stock nor prices. Those
-live on the catalog record, once the medication is imported.
-:::
-
-## Browsing the SAM database
-
-From **Care → Configuration → SAM Database**, you browse the reference database in
-read-only mode. The list shows the CNK code, the name, the active ingredient, the
-ATC code, the form and the manufacturer.
-
-Use the search bar and filters to narrow down:
-
-- **search** by name (FR/NL), CNK code, ATC code, active ingredient or manufacturer;
-- **filters** — **Prescription Required**, **Black Triangle** and **With CNK**;
-- **groupings** by ATC code, by form or by manufacturer.
-
-A medication's record details its identification, its classification, its
-pharmaceutical form, its active ingredient and the links to its official
-documents (SmPC and leaflet, FR and NL).
+In the catalogue list, a medicine with a supply problem is shown in orange and
+one no longer commercialised is greyed out. Filters: **Supply problem**, **No
+longer commercialised**, **Without CNK**, **Unknown to SAM**, **Additional
+monitoring ▼**, **Narcotics**, **Chapter IV**, **With CNK**.
 
 ![SAM database medication record, with its identification and classification codes](../assets/screenshots/soins/sam-fiche.png)
 
-## The Search SAM wizard
+## The SAM database
 
-The **Search SAM** wizard finds a medication in SAM and adds it to your catalog in
-one step. Open it through **Nursing Care → Configuration → Medication Catalogues →
-Search SAM**.
+On the Medicines workstation, **Catalogue** tab, **SAM Database** opens the
+local copy of SAM, read-only. The list shows the CNK code, the name, the active
+ingredient, the ATC code, the form, the manufacturer and whether the package is
+already **in the catalogue**.
 
-### 1. Run a search
+- **Search** by name or CNK.
+- **Filters**: **Prescription Required**, **Black Triangle**, **With CNK**;
+  groupings by **ATC Code**, **Form** and **Manufacturer**.
+- A record details the identification (CNK, official name, manufacturer), the
+  classification (ATC code and description, BCFI class, prescription required,
+  black triangle, delivery mode), the pharmaceutical form and route (FR and NL),
+  the active ingredient, and the official documents (SmPC and leaflet in French
+  and Dutch, BCFI page).
 
-Choose the **search type**:
-
-- **By Name** — by brand name or active ingredient (e.g. *Dafalgan*, *Rilatine*);
-- **By CNK Code** — by CNK code.
-
-Enter your term in the search field then click **Search**. The search is
-**accent-insensitive** and handles multiple words (e.g. *Amlodipine 5mg*).
-
-:::{admonition} Local search first
-:class: tip
-
-The wizard first queries the local copy of SAM: the response is immediate, even
-without a connection. If that copy is empty, Resthome can switch to the live
-**DICS v5** service — but that path requires a certified eHealth connection.
-:::
-
-### 2. Choose from the results
-
-Results are shown in a table. Each row shows the **CNK** code, the **name**, the
-**active ingredient (INN)**, the **strength**, the **form** and — in optional
-columns — the manufacturer, the ATC code, the BCFI class and the SmPC / leaflet
-links.
-
-The **In Catalog** column indicates whether the medication is already in your
-catalog. Those rows appear **in blue**: no need to recreate them.
-
-Check the **Select** box at the start of the row for each medication to import.
+Tick one or more packages and click **Add to Catalogue**: each becomes a
+medicine of the catalogue, filled from SAM.
 
 ![SAM database search, one row per medication with its official name and ATC code](../assets/screenshots/soins/sam-liste.png)
 
-### 3. Import to the catalog
+## Search SAM for a medicine already kept
 
-Click **Import Selected**. Resthome creates one record in your catalog per checked
-medication, carrying over the SAM data:
+On a medicine's **SAM** tab, **Search SAM** (medication manager) opens the
+search window, pre-filled with the medicine's name:
 
-| SAM data | Catalog field |
-| --- | --- |
-| Name | Medication name |
-| CNK | CNK code |
-| INN (active ingredient) | Active ingredient |
-| Strength | Dosage |
-| Form | Form (converted to a Resthome category) |
-| Manufacturer | Manufacturer |
-| ATC | ATC code |
-| SmPC / leaflet / BCFI link | **Official documents** tab of the record |
+1. Choose **By Name** or **By CNK Code**, type the term and click **Search
+   SAM**. The search ignores accents and accepts several words (*Amlodipine
+   5mg*).
+2. The results show, per package, the CNK, the black triangle, the name, the
+   active ingredient, the strength, the form, the price, *cheap*, *off market*
+   and *narcotic*, and in optional columns the manufacturer, the ATC code, the
+   BCFI class and the SmPC and leaflet links. **In Catalog** says whether the
+   package is already in the catalogue.
+3. Toggle **Select** on the right package, then **Update Medication** (or
+   **Import Selected** to add packages to the catalogue). **Search Again**
+   starts over.
 
-A notification confirms the number of medications **created** (and **updated**,
-where applicable).
+A package whose CNK is already in the catalogue **updates** that medicine,
+which keeps the name the house gave it, instead of creating a second one.
 
-### 4. Update an existing medication
+**Refresh from SAM** reads the SAM data of a medicine again from its CNK.
 
-To refresh a record that is already present, run the search again (**Search
-Again** button) and re-import the row. Resthome **matches by CNK code**: if the
-medication already exists, it **updates** the record instead of creating a
-duplicate.
+## The catalogue without CNK
 
-:::{admonition} An import does not replace the prescription
-:class: warning
-
-Importing a medication adds it to the facility's **catalog**. You still have to
-**prescribe** it to the resident afterwards, with its dosage and period. See
-[Prescriptions and medications](../soins/prescriptions.md).
-:::
+A medicine without a CNK code cannot be found by a pharmacy. The Medicines
+workstation shows a **Without CNK** smart button, and **Catalogue Without CNK**
+in its **Catalogue** tab, as long as such medicines remain. Link each one to
+its SAM package, or tick **Not in SAM: Typed In** for a product SAM does not
+list.
 
 ## Key takeaways
 
-- **SAM = the official Belgian medication reference database**, embedded in
-  Resthome as the foundation of the catalog.
-- **Two entry points**: browsing (Nursing Care → Configuration → Medication Catalogues → SAM Database) and the
-  **Search SAM** import wizard (Nursing Care → Configuration → Medication Catalogues).
-- The search accepts the **name**, the **CNK code** or the **active ingredient**,
-  and works **offline** on the local copy.
-- **Import Selected** creates the records; a re-import **updates** medications
-  already present (matching by CNK).
-- SAM provides **ATC, BCFI class, Black Triangle, SmPC and leaflet (FR/NL)** —
-  reliable data, for reference.
+- SAM is the **official Belgian medicines database**, the starting point of the
+  catalogue.
+- **New** in the catalogue starts with one search in SAM; the package fills the
+  record and keeps its identity read-only.
+- The **SAM Database** door of the workstation lists the packages; **Add to
+  Catalogue** imports them.
+- With the **central service**, the SAM tab shows price, reimbursement,
+  availability and regulatory information, refreshed every night.
+- SAM carries **no clinical text**: indications, contraindications and
+  allergens are the house's to record.
 
 ## Further reading
 
-- [Prescriptions and medications](../soins/prescriptions.md)
-- [Care plans and vital signs](../soins/plans-de-soins.md)
-- [The eHealth integration](ehealth/index.md)
+- [The medicine catalogue](../medicaments/catalogue.md)
+- [Medication rules in Belgium](medicaments-regles.md)
+- [The pharmacy link](medicaments-lien-pharmacie.md)
 - [Care in Belgium](soins.md)

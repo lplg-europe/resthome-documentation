@@ -1,0 +1,425 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-08 19:26+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: nl <LL@li.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/facturation/pont-comptable.md:5
+msgid "Accounting bridge"
+msgstr "Boekhoudkundige brug"
+
+#: ../../content/facturation/pont-comptable.md:8
+msgid ""
+"Send the posted resident invoices and credit notes to an accounting database"
+" kept elsewhere, and read back whether they are paid."
+msgstr ""
+"Stuur de geboekte bewonersfacturen en creditnota's naar een boekhouddatabase"
+" die elders wordt gevoerd, en lees terug of ze betaald zijn."
+
+#: ../../content/facturation/pont-comptable.md:12
+msgid "When do I need the accounting bridge?"
+msgstr "Wanneer heb ik de boekhoudkundige brug nodig?"
+
+#: ../../content/facturation/pont-comptable.md:13
+msgid ""
+"When the home's accounting is kept in another database, for example the "
+"accountant's own Odoo, while the invoices are issued in Resthome."
+msgstr ""
+"Wanneer de boekhouding van het huis in een andere database wordt gevoerd, "
+"bijvoorbeeld de eigen Odoo van de boekhouder, terwijl de facturen in "
+"Resthome worden uitgereikt."
+
+#: ../../content/facturation/pont-comptable.md:15
+msgid "What is sent to the accounting database?"
+msgstr "Wat wordt naar de boekhouddatabase gestuurd?"
+
+#: ../../content/facturation/pont-comptable.md:16
+msgid ""
+"Posted customer invoices and credit notes, and the customers they are "
+"addressed to. Drafts, purchases and the split-billing resident statement are"
+" never sent."
+msgstr ""
+"De geboekte klantfacturen en creditnota's, en de klanten aan wie ze gericht "
+"zijn. Concepten, aankopen en de bewonersafrekening van de gedeelde "
+"facturatie worden nooit verzonden."
+
+#: ../../content/facturation/pont-comptable.md:18
+msgid "How do I send the invoices?"
+msgstr "Hoe verstuur ik de facturen?"
+
+#: ../../content/facturation/pont-comptable.md:19
+msgid ""
+"Invoicing → Customers → Accounting bridge → Send to accounting lists the "
+"posted invoices not filed yet. Select them and use Actions → Send to "
+"accounting."
+msgstr ""
+"Facturatie → Klanten → Boekhoudkundige brug → Naar de boekhouding sturen "
+"toont de geboekte facturen die nog niet zijn ingediend. Selecteer ze en "
+"gebruik Acties → Naar de boekhouding sturen."
+
+#: ../../content/facturation/pont-comptable.md:21
+msgid "How do I know an invoice is paid?"
+msgstr "Hoe weet ik dat een factuur betaald is?"
+
+#: ../../content/facturation/pont-comptable.md:22
+msgid ""
+"The bridge reads the payment state back from the accounting database. The "
+"invoice shows the Ledger Payment State, the Ledger Residual and the Ledger "
+"Settled On date."
+msgstr ""
+"De brug leest de betaalstatus terug uit de boekhouddatabase. De factuur "
+"toont de Betaalstatus in de boekhouding, het Openstaand saldo in de "
+"boekhouding en de datum Vereffend in de boekhouding op."
+
+#: ../../content/facturation/pont-comptable.md:24
+msgid "Does the bridge create missing accounts or journals over there?"
+msgstr "Maakt de brug ontbrekende rekeningen of dagboeken daar aan?"
+
+#: ../../content/facturation/pont-comptable.md:25
+msgid ""
+"No. It looks them up and stops when one is missing. Run the Preflight check "
+"first: it lists everything the accounting database still lacks."
+msgstr ""
+"Nee. Ze zoekt ze op en stopt wanneer er één ontbreekt. Voer eerst de "
+"Voorafgaande controle uit: die toont alles wat nog ontbreekt in de "
+"boekhouddatabase."
+
+#: ../../content/facturation/pont-comptable.md:28
+msgid ""
+"Many homes issue their invoices in Resthome but keep their accounts "
+"somewhere else — often in the accountant's own Odoo. The **accounting "
+"bridge** carries each posted resident invoice and credit note there, and "
+"brings back its payment state, so the billing team sees in Resthome what is "
+"still unpaid."
+msgstr ""
+"Veel huizen reiken hun facturen uit in Resthome maar voeren hun boekhouding "
+"elders — vaak in de eigen Odoo van de boekhouder. De **boekhoudkundige "
+"brug** brengt elke geboekte bewonersfactuur en creditnota daarheen en haalt "
+"de betaalstatus terug, zodat het facturatieteam in Resthome ziet wat nog "
+"onbetaald is."
+
+#: ../../content/facturation/pont-comptable.md:33
+msgid "What travels"
+msgstr "Wat er wordt overgedragen"
+
+#: ../../content/facturation/pont-comptable.md:11
+msgid "Sent to the accounting database"
+msgstr "Naar de boekhouddatabase gestuurd"
+
+#: ../../content/facturation/pont-comptable.md:11
+msgid "Never sent"
+msgstr "Nooit verzonden"
+
+#: ../../content/facturation/pont-comptable.md:11
+msgid "Posted customer invoices and credit notes"
+msgstr "Geboekte klantfacturen en creditnota's"
+
+#: ../../content/facturation/pont-comptable.md:11
+msgid "Drafts — a document that can still change is not a receivable"
+msgstr "Concepten — een document dat nog kan veranderen, is geen vordering"
+
+#: ../../content/facturation/pont-comptable.md:11
+msgid "The customers they are addressed to (name, address, VAT number)"
+msgstr "De klanten aan wie ze gericht zijn (naam, adres, btw-nummer)"
+
+#: ../../content/facturation/pont-comptable.md:11
+msgid ""
+"Vendor bills and miscellaneous entries — those belong to the accounting "
+"itself"
+msgstr ""
+"Leveranciersfacturen en diverse boekingen — die horen bij de boekhouding "
+"zelf"
+
+#: ../../content/facturation/pont-comptable.md:11
+msgid "The cancellation of a document already sent"
+msgstr "De annulering van een reeds verzonden document"
+
+#: ../../content/facturation/pont-comptable.md:11
+msgid ""
+"The split-billing resident statement — the debtors' invoices next to it are "
+"the real receivables"
+msgstr ""
+"De bewonersafrekening van de gedeelde facturatie — de facturen van de "
+"schuldenaars ernaast zijn de echte vorderingen"
+
+#: ../../content/facturation/pont-comptable.md:41
+msgid ""
+"Only what an invoice needs travels: a customer's billing identity, never "
+"their care record."
+msgstr ""
+"Alleen wat een factuur nodig heeft, wordt overgedragen: de facturatie-"
+"identiteit van een klant, nooit zijn zorgdossier."
+
+#: ../../content/facturation/pont-comptable.md:44
+msgid ""
+"A posted document is never rewritten over there. To correct a sent invoice, "
+"issue a credit note: it travels like any other document."
+msgstr ""
+"Een geboekt document wordt daar nooit herschreven. Om een verzonden factuur "
+"te corrigeren, reikt u een creditnota uit: die wordt overgedragen zoals elk "
+"ander document."
+
+#: ../../content/facturation/pont-comptable.md:47
+msgid "1. Prepare the accounting database"
+msgstr "1. De boekhouddatabase voorbereiden"
+
+#: ../../content/facturation/pont-comptable.md:49
+msgid ""
+"The bridge **looks up** the journal, the accounts, the taxes and the "
+"products in the accounting database; it never creates them. Before switching"
+" it on:"
+msgstr ""
+"De brug **zoekt** het dagboek, de rekeningen, de belastingen en de producten"
+" op in de boekhouddatabase; ze maakt ze nooit aan. Voordat u ze inschakelt:"
+
+#: ../../content/facturation/pont-comptable.md:52
+msgid "Make sure the same journals, accounts and taxes exist on both sides."
+msgstr ""
+"Zorg ervoor dat dezelfde dagboeken, rekeningen en belastingen aan beide "
+"kanten bestaan."
+
+#: ../../content/facturation/pont-comptable.md:53
+msgid ""
+"On each sales journal sending invoices, fill in **Code in the accounting "
+"database** when the code differs there."
+msgstr ""
+"Vul op elk verkoopdagboek dat facturen verstuurt **Code in de "
+"boekhouddatabase** in wanneer de code daar verschilt."
+
+#: ../../content/facturation/pont-comptable.md:55
+msgid ""
+"On the accounting database, create a user for the bridge, then an API key "
+"for that user (**Preferences → Account Security → New API Key**). The key is"
+" shown once: copy it. An account password does not work."
+msgstr ""
+"Maak in de boekhouddatabase een gebruiker aan voor de brug, en daarna een "
+"API-sleutel voor die gebruiker (**Voorkeuren → Accountveiligheid → Nieuwe "
+"API key**). De sleutel wordt maar één keer getoond: kopieer hem. Een "
+"accountwachtwoord werkt niet."
+
+#: ../../content/facturation/pont-comptable.md:59
+msgid "2. Switch the bridge on"
+msgstr "2. De brug inschakelen"
+
+#: ../../content/facturation/pont-comptable.md:61
+msgid "Open **Settings → Sync**, block **Accounting bridge**."
+msgstr ""
+"Open **Instellingen → Synchronisatie**, blok **Boekhoudkundige brug**."
+
+#: ../../content/facturation/pont-comptable.md:62
+msgid "Tick **Bridge the accounting**."
+msgstr "Vink **Boekhouding koppelen** aan."
+
+#: ../../content/facturation/pont-comptable.md:63
+msgid "Choose the **Accounting database**:"
+msgstr "Kies de **Boekhouddatabase**:"
+
+#: ../../content/facturation/pont-comptable.md:64
+msgid ""
+"**Paired Odoo** — the accounting database runs Resthome's sync engine too; "
+"the two exchange signed events."
+msgstr ""
+"**Gekoppelde Odoo** — de boekhouddatabase draait ook de synchronisatiemotor "
+"van Resthome; beide wisselen ondertekende gebeurtenissen uit."
+
+#: ../../content/facturation/pont-comptable.md:66
+msgid ""
+"**Standard Odoo** — an ordinary Odoo (an online one, the accountant's "
+"instance) where nothing can be installed; Resthome drives it with a user and"
+" an API key."
+msgstr ""
+"**Standaard Odoo** — een gewone Odoo (een online versie, de instantie van de"
+" boekhouder) waarop niets kan worden geïnstalleerd; Resthome stuurt ze aan "
+"met een gebruiker en een API-sleutel."
+
+#: ../../content/facturation/pont-comptable.md:69
+msgid ""
+"For a **Standard Odoo**, fill in the **Standard Odoo connection** block: "
+"**Odoo URL**, **Database**, **Login** (the bridge user's e-mail) and **API "
+"Key**. Click **Test the connection**."
+msgstr ""
+"Vul voor een **Standaard Odoo** het blok **Verbinding standaard Odoo** in: "
+"**Odoo-URL**, **Database**, **Login** (het e-mailadres van de brug-"
+"gebruiker) en **API key**. Klik op **De verbinding testen**."
+
+#: ../../content/facturation/pont-comptable.md:72
+msgid "**Save**."
+msgstr "**Opslaan**."
+
+#: ../../content/facturation/pont-comptable.md:76
+msgid "3. Run the preflight check"
+msgstr "3. De voorafgaande controle uitvoeren"
+
+#: ../../content/facturation/pont-comptable.md:78
+msgid ""
+"Click **Preflight check** (in the settings, or under **Invoicing → Customers"
+" → Accounting bridge**). It asks the accounting database every question the "
+"bridge will ask — the journal by its code, the accounts by their codes, the "
+"taxes — and lists everything missing at once. Create what is missing over "
+"there, then click **Check again** until nothing blocks."
+msgstr ""
+"Klik op **Voorafgaande controle** (in de instellingen, of onder **Facturatie"
+" → Klanten → Boekhoudkundige brug**). Ze stelt de boekhouddatabase alle "
+"vragen die de brug zal stellen — het dagboek op zijn code, de rekeningen op "
+"hun codes, de belastingen — en toont in één keer alles wat ontbreekt. Maak "
+"daar aan wat ontbreekt en klik dan op **Opnieuw controleren** tot niets meer"
+" blokkeert."
+
+#: ../../content/facturation/pont-comptable.md:84
+msgid "4. Send the invoices"
+msgstr "4. De facturen versturen"
+
+#: ../../content/facturation/pont-comptable.md:86
+msgid ""
+"With a **Standard Odoo**, the **Invoicing → Customers → Accounting bridge** "
+"menu appears:"
+msgstr ""
+"Met een **Standaard Odoo** verschijnt het menu **Facturatie → Klanten → "
+"Boekhoudkundige brug**:"
+
+#: ../../content/facturation/pont-comptable.md:89
+msgid ""
+"**Send to accounting** — the posted invoices and credit notes, filtered on "
+"**To send**. Select them and use **Actions → Send to accounting**. The "
+"columns **Filed**, **Filed on**, **Ledger state** and **Still open** follow "
+"each one; the **Already filed** and **Still open in accounting** filters "
+"find the rest."
+msgstr ""
+"**Naar de boekhouding sturen** — de geboekte facturen en creditnota's, "
+"gefilterd op **Te verzenden**. Selecteer ze en gebruik **Acties → Naar de "
+"boekhouding sturen**. De kolommen **Ingediend**, **Ingediend op**, **Status "
+"in de boekhouding** en **Nog open** volgen elk ervan; de filters **Al "
+"ingediend** en **Nog open in de boekhouding** vinden de rest."
+
+#: ../../content/facturation/pont-comptable.md:94
+msgid "**Preflight check** — the check above."
+msgstr "**Voorafgaande controle** — de controle hierboven."
+
+#: ../../content/facturation/pont-comptable.md:95
+msgid "**Billing identities** — the customers already sent."
+msgstr "**Facturatie-identiteiten** — de reeds verzonden klanten."
+
+#: ../../content/facturation/pont-comptable.md:97
+msgid ""
+"On a posted invoice, the **Send to accounting** button does the same for "
+"that one document. Once it is filed, **Check in accounting** confirms it is "
+"present over there, posted, with the same total."
+msgstr ""
+"Op een geboekte factuur doet de knop **Naar de boekhouding sturen** "
+"hetzelfde voor dat ene document. Zodra ze is ingediend, bevestigt "
+"**Controleren in de boekhouding** dat ze daar aanwezig is, geboekt, met "
+"hetzelfde totaal."
+
+#: ../../content/facturation/pont-comptable.md:101
+msgid ""
+"Invoices issued before the bridge was switched on can be sent the same way: "
+"select them in the list."
+msgstr ""
+"Facturen die werden uitgereikt voordat de brug werd ingeschakeld, kunnen op "
+"dezelfde manier worden verstuurd: selecteer ze in de lijst."
+
+#: ../../content/facturation/pont-comptable.md:104
+msgid "When a document fails"
+msgstr "Wanneer een document mislukt"
+
+#: ../../content/facturation/pont-comptable.md:107
+msgid ""
+"A document the accounting database refuses (a missing account, for example) "
+"stays queued and is retried automatically. The notification after sending "
+"says how many went through, how many will be retried and how many could not "
+"be filed. Run the preflight check to see what is missing."
+msgstr ""
+"Een document dat de boekhouddatabase weigert (bijvoorbeeld een ontbrekende "
+"rekening), blijft in de wachtrij en wordt automatisch opnieuw geprobeerd. De"
+" melding na het verzenden zegt hoeveel er doorgingen, hoeveel opnieuw worden"
+" geprobeerd en hoeveel niet konden worden ingediend. Voer de voorafgaande "
+"controle uit om te zien wat ontbreekt."
+
+#: ../../content/facturation/pont-comptable.md:113
+msgid "5. Follow the payments"
+msgstr "5. De betalingen opvolgen"
+
+#: ../../content/facturation/pont-comptable.md:115
+msgid ""
+"The bridge reads the settlements back from the accounting database on a "
+"schedule; **Read settlements now** in the settings does it at once. Each "
+"sent invoice then shows, under its due date:"
+msgstr ""
+"De brug leest de vereffeningen periodiek terug uit de boekhouddatabase; "
+"**Vereffeningen nu lezen** in de instellingen doet het meteen. Elke "
+"verzonden factuur toont dan, onder haar vervaldatum:"
+
+#: ../../content/facturation/pont-comptable.md:119
+msgid "**Ledger Payment State** — paid, partially paid, not paid;"
+msgstr ""
+"**Betaalstatus in de boekhouding** — betaald, gedeeltelijk betaald, niet "
+"betaald;"
+
+#: ../../content/facturation/pont-comptable.md:120
+msgid "**Ledger Residual** — what is still open over there;"
+msgstr "**Openstaand saldo in de boekhouding** — wat daar nog openstaat;"
+
+#: ../../content/facturation/pont-comptable.md:121
+msgid "**Ledger Settled On** — the date of the last settlement;"
+msgstr ""
+"**Vereffend in de boekhouding op** — de datum van de laatste vereffening;"
+
+#: ../../content/facturation/pont-comptable.md:122
+msgid "**Filed in the accounts on** and **Id in the accounting database**."
+msgstr "**Ingediend in de boekhouding op** en **Id in de boekhouddatabase**."
+
+#: ../../content/facturation/pont-comptable.md:124
+msgid ""
+"With a **Paired Odoo**, the same information appears under **Sync Engine → "
+"Monitoring**: **Settlements**, **Billing Identities** and **Accounting "
+"preflight**."
+msgstr ""
+"Met een **Gekoppelde Odoo** verschijnt dezelfde informatie onder "
+"**Synchronisatiemotor → Bewaking**: **Vereffeningen**, **Facturatie-"
+"identiteiten** en **Voorafgaande boekhoudcontrole**."
+
+#: ../../content/facturation/pont-comptable.md:128
+msgid "Pocket money needs the accounting in Resthome"
+msgstr "Zakgeld vereist de boekhouding in Resthome"
+
+#: ../../content/facturation/pont-comptable.md:131
+msgid ""
+"[Pocket money](../argent-de-poche/index.md) balances are read from the "
+"accounting entries. When the accounting is kept in another database, they "
+"cannot be shown."
+msgstr ""
+"De saldi van het [zakgeld](../argent-de-poche/index.md) worden uit de "
+"boekingen gelezen. Wanneer de boekhouding in een andere database wordt "
+"gevoerd, kunnen ze niet worden getoond."
+
+#: ../../content/facturation/pont-comptable.md:136
+msgid "Going further"
+msgstr "Verder lezen"
+
+#: ../../content/facturation/pont-comptable.md:138
+msgid "[Billing a month, step by step](facturer-un-mois.md)"
+msgstr "[Een maand factureren, stap voor stap](facturer-un-mois.md)"
+
+#: ../../content/facturation/pont-comptable.md:139
+msgid "[The billing dashboard](tableau-de-bord.md)"
+msgstr "[Het facturatiedashboard](tableau-de-bord.md)"
+
+#: ../../content/facturation/pont-comptable.md:140
+msgid "[Billing settings](../configuration/reglages-facturation.md)"
+msgstr "[Facturatie-instellingen](../configuration/reglages-facturation.md)"

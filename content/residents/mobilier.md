@@ -5,129 +5,104 @@ modules: [resthome_furniture]
 # The resident's private furniture
 
 :::{rh-description}
-Inventory the private furniture a resident brings into a nursing home with Resthome: add, reorder and archive furniture items on their record.
+Keep the inventory of the furniture and belongings a resident brings into the nursing home with Resthome: one line per item on their record, which follows them from room to room.
 :::
 
 :::{rh-faq}
-Where do I record the furniture a resident brings into a nursing home?
-: On the resident's record, Convention tab, Resident furniture section. There you keep the list of furniture and personal belongings brought in, with a description, a comment and a date.
+Where do I record the furniture a resident brings in?
+: On the resident's record, **Stay Agreement** tab, **Resident Furniture** section: one line per item, with a description, a comment and a date.
 
-Does the furniture inventory follow the resident when they change room?
-: Yes. The list is attached to the resident, not to the room or the stay. When the resident changes room or is transferred to another sector, the inventory stays unchanged and follows the resident.
+Does the inventory follow the resident when they change room?
+: Yes. The list belongs to the resident, not to the room or the stay: it stays unchanged through a room change or a transfer.
 
-How do I record that a piece of furniture has been taken back by the family?
-: Uncheck the Active box on the line instead of deleting it. The furniture is archived: it leaves the active list but its history is kept, which preserves a record of what was brought in and then taken back.
+How do I record that the family took a piece of furniture back?
+: Untick its **Active** box instead of deleting the line: it leaves the inventory, and the house keeps the record that it was brought in.
 
-Can I change the order of the furniture lines?
-: Yes. Each line has a handle on the left: drag it up or down to reorder the inventory, for example to group furniture by room or by importance.
+Why don't I see the section for some people?
+: Someone who comes for the day and sleeps at home brings no furniture: the section is hidden for them, unless a line was already recorded.
 
-Do I need to install a specific module for resident furniture?
-: Yes, it is an optional module (Resident furniture). It is only useful for nursing homes; if it is not installed, the Resident furniture section does not appear on the resident's record.
+Is a module needed for the furniture inventory?
+: Yes, an optional one, installed for the houses that need it. Without it, the **Resident Furniture** section does not appear.
 :::
 
-Many residents arrive with their own **furniture and personal belongings**:
-an armchair, a television, picture frames, a bookcase, a personal wheelchair…
-Resthome lets you keep a simple **inventory** of them, attached to the resident,
-so you always know what has been brought in and what has been taken back.
-
-You will find this inventory on the **resident's record**, in the **Convention**
-tab, in the **Resident furniture** section.
-
-:::{admonition} An optional module
-:class: note
-
-Private furniture is handled by a separate module, installed only for the
-facilities that need it. If the **Resident furniture** section does not appear
-on the record, the module is not installed.
-:::
+Many residents arrive with their own **furniture and belongings**: an armchair,
+a television, picture frames, a bookcase, a personal wheelchair… Resthome keeps
+a simple **inventory** of them on the resident's record, so the house always
+knows what was brought in and what was taken back.
 
 ## Where to find the inventory
 
-1. Open the resident's record (**Nursing Home → Residents** app).
-2. Go to the **Convention** tab.
-3. Scroll down to the **Resident furniture** section.
+1. Open the resident's record (**Nursing Home → Residents → All Residents**).
+2. Go to the **Stay Agreement** tab.
+3. Scroll down to the **Resident Furniture** section, below the stays.
 
-The section is shown as a table: one line per piece of furniture or object.
+![Stay Agreement tab of the resident record, listing the private furniture brought in](../assets/screenshots/residents/mobilier-convention.png)
 
-![Conventions tab of the resident record, listing the private furniture brought in](../assets/screenshots/residents/mobilier-convention.png)
+<!-- screenshot to update: the tab is now named Stay Agreement and the section Resident Furniture -->
 
-## Adding a piece of furniture
+The section is hidden for someone who **lives at home** and only comes by day,
+unless a line was already recorded for them.
 
-The list is **directly editable**: no need to open a separate window.
+## Adding an item
+
+The list is edited **in place**:
 
 1. Click **Add a line** at the bottom of the section.
 2. Fill in the **Description** (required) — for example "Leather recliner
-   armchair" or "32-inch television + wall mount".
-3. Add a **Comment** if needed — for example "Brought in by the family" or
-   "Resident's property — upkeep at their expense".
-4. The **Date** is filled in automatically with today's date; adjust it to
-   reflect the day the furniture was brought in.
+   armchair" or "32-inch television with wall mount".
+3. Add a **Comment** if useful — "Brought in by the family", "Owned by the
+   resident, upkeep at their expense".
+4. The **Date** is today's; adjust it to the day the item came in.
 5. **Save** the record.
 
-:::{admonition} The date = when the furniture arrived
+:::{admonition} Fill it in at move-in
 :class: tip
 
-The **Date** field indicates when the item was brought in (or its last update).
-It helps you reconstruct the room's history, which is useful during an
-inspection or in the event of a dispute.
+A new stay opens the **Update the resident's private inventory** task of the
+[move-in procedure](procedure-emmenagement.md): it is the moment to list what
+came with the resident, alongside the [condition report](etat-des-lieux.md).
 :::
 
-## Reordering the lines
+## When an item is taken back
 
-Each line has a **handle** (on the left). Drag it up or down to arrange the
-inventory in whatever order suits you — for example grouping the large furniture
-first, then the small items.
+Do not delete the line: **archive** it, so the house keeps the record that the
+item was brought in.
 
-## Taking furniture back: archiving
-
-When a piece of furniture is **taken back** by the resident or the family, do not
-delete the line: **archive it**. That way you keep a record of what was brought
-in and then taken back.
-
-1. Show the **Active** column using the column selector (the icon on the right of
-   the table header), if it is not already visible.
-2. **Uncheck** the **Active** box on the relevant line.
+1. Show the **Active** column with the column selector at the right of the
+   table header.
+2. **Untick** **Active** on the line.
 3. **Save**.
 
-The line is then **archived**: it disappears from the active list, but its
-history remains stored in the database.
+The item leaves the inventory shown on the record.
 
 :::{admonition} Archive rather than delete
 :class: warning
 
-Deleting the line erases the information permanently. **Unchecking Active** is
-preferable: the furniture no longer appears in the current inventory, but you
-keep proof that it was indeed brought in and then taken back on a given date.
+Deleting a line erases it for good. Unticking **Active** takes the item out of
+the current inventory while keeping the trace of what the resident had brought.
 :::
 
-<!-- screenshot to add: "Active" column shown, with a line whose box is unchecked (furniture taken back) -->
+<!-- screenshot to add: the Active column shown in the Resident Furniture section, with one line unticked -->
 
 ## The inventory follows the resident
 
-The inventory is attached to the **resident**, not to the room or the stay. This
-has an important practical consequence:
+The inventory belongs to the **resident**, not to the room or the stay:
 
-- when the resident **changes room**, the furniture list **does not move**;
-- in the event of a **transfer between sectors**, it also **follows** the resident.
+- on a **room change**, the list does not move — nothing to copy over;
+- on a **transfer** between sectors, it follows the resident too.
 
-So you have **nothing to copy over** when the resident changes room: their
-furniture stays attached to their record. See
-[Room change and transfer](changement-chambre.md).
+See [Room change and transfer](changement-chambre.md).
 
-## Key points to remember
+## Key takeaways
 
-- The furniture inventory is kept on the resident's record, **Convention** tab,
-  **Resident furniture** section.
-- One line = one piece of furniture or object: **Description** (required),
-  **Comment**, **Date**.
-- The list is **directly editable**; the **handle** lets you reorder the lines.
-- Furniture that is taken back is **deactivated** (the **Active** box unchecked),
-  not deleted: its history is kept.
-- The inventory **follows the resident** when they change room or are
-  transferred.
+- The inventory sits on the resident's record, **Stay Agreement** tab,
+  **Resident Furniture** section.
+- One line per item: **Description** (required), **Comment**, **Date**.
+- An item taken back is **archived** (Active unticked), not deleted.
+- The list **follows the resident** from room to room.
 
 ## Learn more
 
-- [Managing a resident](gerer-un-resident.md)
-- [Room change and transfer](changement-chambre.md)
-- [The inspection](etat-des-lieux.md)
+- [Manage a resident](gerer-un-resident.md)
+- [The move-in procedure](procedure-emmenagement.md)
+- [The condition report (move-in and move-out)](etat-des-lieux.md)

@@ -5,180 +5,160 @@ modules: [resthome_documents]
 # Automatic centralization of attachments
 
 :::{rh-description}
-In a nursing home, every attachment added to a resident's record or message thread is automatically filed in their Documents folder, with its tags.
+In a nursing home, every attachment added to a resident's record or message thread is automatically filed in their Documents folder, with its default tags.
 :::
 
 :::{rh-faq}
 What is automatic centralization of attachments?
-: Every file attached to a resident's message thread or record is automatically copied into that resident's personal folder in the Documents app, with the default tags applied. This way you find all their files in one place, with no manual filing.
+: Every file attached to a resident's discussion thread or record is automatically filed in that resident's folder in the Documents app, with the facility's default tags. You find all their files in one place, with no manual filing.
 
 Which documents are centralized, and which are not?
-: Only attachments on resident records are centralized. Files added to an ordinary contact, a vendor or an employee are not: centralization applies only to people marked as residents.
+: Only attachments on resident records. Files added to an ordinary contact, a vendor or an employee are not: centralization applies only to people marked as residents.
 
 Where exactly do centralized documents end up?
-: In the resident's personal folder, under the "Residents" root folder of the Documents app. The "Documents" button on the resident's record opens this folder directly; its counter includes the files in the subfolders.
-
-Are the default tags applied automatically?
-: Yes. The tags chosen in "Settings > Documents" (Default tags) are applied automatically to every centralized document, which then makes searching and filtering easier. This field is optional: you can leave it empty.
+: In the resident's own folder, under the **Residents** folder of the Documents app. The **Document Workspace** tile of the record's **Documents** tab opens it; its counter includes the files in the subfolders.
 
 Can I turn off automatic centralization?
-: Yes, by unchecking the "Nursing home" block in "Settings > Documents > File centralization". Documents already filed stay in place; only future attachments are no longer centralized. The setting is enabled by default.
+: Yes, in **Settings → Documents**: untick **Nursing Home** (Odoo's Documents app) or **Resident Documents** (open-source Documents app). Documents already filed stay in place. It is on by default.
 
 Who can see the centralized documents?
-: Access follows that of the resident's folder: only users with rights on the Documents app can access them. Centralized documents have no individual owner; they inherit the folder's rights, which keeps the resident folder consistent.
+: Those who may open the resident's folder. The documents have no individual owner: they follow the folder's rights, which keeps the resident folder consistent.
 :::
 
-In a nursing home, a single resident accumulates dozens of files: accommodation
-agreement, medical forms, health-insurance statements, GDPR consents… Without filing,
-these files end up scattered across message threads. **Automatic centralization**
-solves the problem: **every attachment added to a resident's record or message thread
-is copied into their personal folder** in the **Documents** app, with the **default
+In a nursing home, a single resident accumulates dozens of files: stay
+agreement, medical forms, insurance statements, GDPR consents… Without filing,
+they end up scattered across discussion threads. **Automatic centralization**
+solves this: **every attachment added to a resident's record or discussion
+thread is filed in their folder** in the **Documents** app, with the **default
 tags** applied.
 
-You have nothing to do: filing is **automatic** and **enabled by default**. The
-configuration (activation, root folder, tags) is in **Settings > Documents > File
-centralization**, **Nursing home** block.
+You have nothing to do: filing is **automatic** and **on by default**.
 
 :::{admonition} Prerequisites
 :class: info
 
-This feature relies on Odoo's **Documents** application: it is only available if
-Documents is installed. The **residents root folder** and each resident's **personal
-folder** are created automatically — you have nothing to prepare.
+Centralization needs the **Documents** app — Odoo's own or the open-source one,
+depending on your installation. The **Residents** folder and each resident's
+folder are created automatically.
 :::
 
 ## How it works
 
-As soon as a file is attached to a resident — whether **as an attachment on a message
-in the thread** or **directly on their record** — Resthome creates a corresponding
-entry in the Documents app, inside that resident's folder.
+As soon as a file is attached to a resident — **on a message of the discussion
+thread** or **directly on their record** — Resthome files it in that resident's
+folder.
 
 ```mermaid
 graph LR
   A[Attachment on a resident's record<br/>or thread] --> B{Resident?<br/>Centralization on?}
-  B -->|Yes| C[Entry created in<br/>the resident's Documents folder]
+  B -->|Yes| C[Filed in the<br/>resident's folder]
   C --> D[Default tags<br/>applied automatically]
   B -->|No| E[Nothing is filed]
 ```
 
 Three conditions trigger the filing:
 
-- the record is indeed that of a **resident** (a person marked as a resident);
-- **centralization** is **enabled** for the facility;
+- the record is that of a **resident** (a person marked as a resident);
+- **centralization** is **on** for the facility;
 - the **Documents** app is installed.
 
-If any one is missing, the attachment simply stays attached to the message or the
-record, with no copy in Documents.
+If one is missing, the attachment simply stays on the message or the record.
 
 :::{admonition} What is NOT centralized
 :class: note
 
 Centralization concerns **residents only**. Attachments added to an **ordinary
-contact**, a **vendor** or an **employee** are not copied into the Documents app.
+contact**, a **vendor** or an **employee** are not filed in a resident folder.
 :::
 
 ## Where documents end up
 
-Every centralized document is filed in the **resident's personal folder**, itself
-placed under the **"Residents"** root folder. On admission (or when the resident record
-is activated), this personal folder is created automatically, with three ready-to-use
-subfolders:
-
-- **Medical documents**
-- **Administrative documents**
-- **Billing documents**
-
-The folder is named after the **resident** and renames itself automatically if the name
-changes.
+Every centralized document is filed in the **resident's folder**, under the
+**Residents** folder. That folder, created with the resident, holds three
+subfolders — **Medical documents**, **Administrative documents**, **Billing
+documents** — where you can move a document to sort it.
 
 ![Documents app showing a resident folder and its three subfolders](../assets/screenshots/documents/dossier-resident.png)
 
-:::{admonition} The "Documents" button on the resident's record
+:::{admonition} From the resident's record
 :class: tip
 
-On a resident's record, the **Documents** button (counter at the top of the record)
-opens their folder in the Documents app **directly**. The counter includes the files
-filed in the **subfolders**, not only at the folder root.
+On the resident's record, **Documents** tab, the **Document Workspace** tile
+opens their folder directly. Its counter includes the files of the subfolders.
+With the open-source Documents app, the shortcut is the **Documents** button at
+the top of the record.
 :::
 
 ## Default tags
 
-To every centralized document, Resthome automatically applies the **default tags**
-chosen for the facility (**Settings > Documents > File centralization > Default tags**).
-This is what then lets you quickly **filter** and **find** documents in the Documents
-app.
-
-Resthome already provides a list of ready-to-use tags tailored to the business:
-
-| Tag | Typical use |
-|---|---|
-| **End of stay** | Discharge or death documents |
-| **Stay agreement** | The agreement signed with the resident |
-| **Medical form** | Medical forms and certificates |
-| **Billing** | Statements and invoices |
-| **GDPR consent** | GDPR consents and documents |
-
-Other tags cover the documents that follow the country's rules: dependency
-assessments, the health insurer's agreements and letters, and the coverage
-granted by a public welfare body.
-
-:::{admonition} In Belgium
-:class: rh-country rh-country-be
-
-These tags are **Katz evaluation**, **MR/MRS agreement (eAgreement)**, **OA
-allocation** and **CPAS**. See [Care in Belgium](../belgique/soins.md).
-:::
+With Odoo's Documents app, Resthome applies the facility's **default tags** to
+every centralized document. They let you **filter** and **find** documents
+quickly. The predefined tags
+(**Medical form**, **Stay agreement**, **Billing**, **GDPR consent**, **End of
+stay**, and those that follow the country's rules) are listed on
+[Resident documents](index.md).
 
 :::{admonition} Start light
 :class: tip
 
-The **Default tags** are **optional**. Leave the field **empty** to start, or put a
-single generic tag in it: you can always tag each document more precisely afterwards in
-the Documents app.
+**Default Tags** is **optional**. Leave it **empty** to start, or put a single
+generic tag in it: you can always tag each document more precisely afterwards.
 :::
 
 ## Who can see the documents
 
-Centralized documents **inherit the rights of the resident's folder**: only users with
-access to the **Documents** app can view them. They have no individual owner, which
-prevents a file from "belonging" to a single staff member and keeps the whole resident
-folder consistent and manageable by the team.
+Centralized documents **follow the rights of the resident's folder**. They have
+no individual owner, which prevents a file from "belonging" to a single staff
+member and keeps the whole resident folder consistent.
 
-:::{admonition} Segregated by facility
+:::{admonition} Separated by facility
 :class: note
 
-In multi-company, **each facility has its own "Residents" root folder** and its own
-centralization configuration. A resident's documents therefore stay segregated within
-their company.
+In multi-company, **each facility has its own Residents folder** and its own
+centralization settings. A resident's documents stay within their company.
 :::
 
-## Enabling or disabling
+## Settings
 
-Centralization is **enabled by default**. You control it with the **Nursing home** block
-in **Settings > Documents > File centralization**:
+The settings are per facility, in **Settings → Documents**.
 
-- **checking** the block **enables** automatic filing;
-- **unchecking** the block **stops** centralization of **future** attachments — documents
-  already filed **stay in place**, nothing is deleted or moved.
+With Odoo's Documents app, under **File centralization**:
 
-The details of the three settings (activation, **root folder**, **default tags**) are
-described on the [Document settings](../configuration/reglages-documents.md) page.
+- **Nursing Home** — on by default; unticking it stops the filing of **future**
+  attachments. Documents already filed **stay in place**, nothing is deleted or
+  moved.
+- **Root Folder** — the folder that holds the resident folders (**Residents**
+  by default).
+- **Default Tags** — the tags applied to every centralized document.
+
+With the open-source Documents app, under **Nursing Home**:
+
+- **Resident Documents** — on by default: each resident gets their folder,
+  where the files attached to them are filed. Unticked, new residents no longer
+  get one; existing folders stay as they are.
+- **Root Folder** — the **Residents** folder.
+- **Blank Forms** — the folder for your templates.
+- **Default Tags** — the tags kept for resident documents. With the
+  open-source app, they are not applied by themselves: tag each document in
+  the Documents app.
+
+The settings are described with the other configuration screens on the
+[Document settings](../configuration/reglages-documents.md) page.
 
 ## Key takeaways
 
-- Every attachment added to a resident's **message thread** or **record** is
-  **automatically copied** into their Documents folder.
+- Every attachment added to a resident's **discussion thread** or **record** is
+  **filed automatically** in their folder.
 - Filing concerns **residents only** — not contacts, vendors or employees.
-- The facility's **default tags** are **applied automatically** to every centralized
-  document.
-- The resident's **personal folder** (and its subfolders) is created automatically; the
-  **Documents** button on the record opens it directly.
-- Centralization is **enabled by default** and is disabled by unchecking the **Nursing
-  home** block — documents already filed stay in place.
-- The setting and root folder are **specific to each facility**.
+- With Odoo's Documents app, the facility's **default tags** are applied to
+  every centralized document.
+- The **Documents** tab of the record opens the folder directly.
+- Centralization is **on by default**; turning it off leaves the documents
+  already filed in place.
+- The settings and folders are **specific to each facility**.
 
 ## Further reading
 
-- [Documents](index.md)
+- [Resident documents](index.md)
 - [Document settings](../configuration/reglages-documents.md)
-- [Manage a resident](../residents/gerer-un-resident.md)
+- [Managing a resident](../residents/gerer-un-resident.md)

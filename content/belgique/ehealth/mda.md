@@ -1,5 +1,5 @@
 ---
-modules: [l10n_health_be_mda, l10n_health_be_perdiem_ehealth]
+modules: [l10n_health_be_mda, l10n_health_be_perdiem_ehealth, resthome_geriatric_mda]
 ---
 
 # Insurability (MDA)
@@ -10,7 +10,7 @@ Check a nursing home resident's insurability via MDA (MyCareNet) in Resthome —
 
 :::{rh-faq}
 How do I check a resident's insurability (MDA)?
-: From the resident's record or a billing period, run Check MDA. Resthome queries MyCareNet/WalCareNet and confirms coverage, as an individual check (immediate) or as a batch for a whole period.
+: From the resident's record, click **Verify Insurability**; from a billing period, **Check MDA**. Resthome queries MyCareNet/WalCareNet and confirms coverage, as an individual check (immediate) or as a batch for a whole period.
 
 What does Resthome update after a successful MDA?
 : The actual health insurance fund (insurer), the BIM status, the membership number, and the date of death if the insurer reports it. Date of birth and sex are overwritten with the insurer's values — a birth date that disagrees with the NISS gets the eFact rejected — and each change is listed in the resident's thread.
@@ -47,6 +47,12 @@ Menu: **eHealth → Insurability → MDA Requests** (and **MDA Batches**).
   by the OA, and depending on the request, the **reference pharmacy**, the **DMG**,
   the **palliative status**, or a **hospitalization**.
 
+When the mutuality reports a **palliative status**, Resthome ticks **Palliative
+Care** in the resident's **Wishes** tab, with its start date, and notes it once
+in the resident's thread. It only ever ticks: a status no longer reported does
+not untick it, and a date typed by the team is kept. A simulated (stub) answer is
+ignored.
+
 :::{admonition} The "not in order" case
 :class: warning
 
@@ -74,11 +80,15 @@ most **5 years** of history, and a standard MDA doesn't go beyond the current mo
 
 ## Individual check
 
-1. Create an **MDA request** (resident, NISS pre-filled, period = the current
-   month by default).
-2. Click **Send (Sync)**: sending is **immediate** and the response comes back
-   right away.
-3. Review the summary and the insurability periods.
+1. On the resident's record, click **Verify Insurability** (shown once the
+   NISS is filled in) — or create an **MDA request** in **eHealth → Insurability
+   → MDA Requests** (resident, NISS pre-filled, period = the current month by
+   default).
+2. In the **Check Insurability** window, check the period and click **Check**
+   (on a request: **Send (Sync)**). Sending is **immediate** and the response
+   comes back right away.
+3. Review the summary and the insurability periods; **View MDA request** opens
+   the full request.
 
 ![Completed MDA request, Insurability tab: three coverage periods with their CT1/CT2 codes and the health insurance fund code](../../assets/screenshots/ehealth/21-mda-reponse.webp)
 
@@ -100,7 +110,8 @@ For a whole period, run the **batch** check: select the residents (you can
   least 2 residents).
 
 The batch shows **counters**: Insured, Not insured, Errors, Pending, and
-"Deaths detected".
+"Deaths detected". From the admission list, the same batch checks the **waiting
+list**: see [Admitting a resident in Belgium](../admission.md).
 
 ![MDA batch with its counters — Insured, Not insured, Errors, Pending — and the list of residents in the batch](../../assets/screenshots/ehealth/22-mda-lot.webp)
 
@@ -119,11 +130,12 @@ insurance fund or a loss of insurability.
 | Status | Meaning |
 |---|---|
 | **Draft** | Not yet sent |
-| **Sent / Pending** | Transmitted, response awaited (especially when grouped) |
+| **Sent** | Transmitted (immediate send) |
+| **Posted (Async)** / **Awaiting Response** | Transmitted in a grouped send, response awaited |
 | **Success** | Response received, resident insured |
-| **Not insured** | Response OK, but resident not covered |
-| **No response** | The platform closed without a response from an OA (retry) |
-| **Error** | The OA or the platform returned an error |
+| **Not Insured** | Response OK, but resident not covered |
+| **No Facet (closed-out)** | The platform closed the request without any answer from a mutuality (retry) |
+| **Error** | The mutuality or the platform returned an error |
 
 ![MDA request whose response reports a beneficiary who is not insured for the period](../../assets/screenshots/ehealth/24-mda-non-assure.webp)
 
@@ -132,13 +144,21 @@ insurance fund or a loss of insurability.
 | Button | Effect |
 |---|---|
 | **Send (Sync)** | Immediate send, response right away |
-| **Check response** | Retrieves a response from a grouped send |
-| **Retry** | Resets to draft to resend |
-| **Contact the OA** | Opens a pre-filled email to the health insurance fund that responded |
-| **Report to InterMut** | Opens an email to the CIN for platform blockages |
+| **Check Response** | Retrieves the response of a grouped send |
+| **Retry** | Resets to draft and resends |
+| **Contact OA** | In the thread's toolbar: opens a pre-filled e-mail to the mutuality that responded |
+| **Contact CIN** | In the thread's toolbar: opens an e-mail to the inter-mutualist for a request the platform left without answer |
 
-On a batch, the same actions exist in grouped form (**Send**, **Check responses**,
-**Retry errors**, **Retry no-responses**).
+On a batch, the same actions exist in grouped form: **Send Sync**, **Send
+Async**, **Check Responses**, **Retry Errors** and **Retry No-Facet**.
+
+:::{admonition} A sending without a certain answer is never resent on its own
+:class: note
+
+If the answer to a sending is lost (time-out, interruption), Resthome does not
+resend it automatically: it lists it under **eHealth → Configuration → Sends to
+check**, where you say whether MyCareNet received it — see [eHealth](index.md).
+:::
 
 ## What Resthome updates automatically
 
@@ -213,9 +233,9 @@ Resthome compares with the previous check:
 
 | Situation | What to do |
 |---|---|
-| **No response** (platform) | **Retry no-responses**; if it persists, **Report to InterMut** |
-| **OA rejection** | **Contact the OA** (reason shown) |
-| **Technical error** | **Report to InterMut** |
+| **No Facet** (platform) | **Retry No-Facet**; if it persists, **Contact CIN** |
+| **OA rejection** | **Contact OA** (reason shown) |
+| **Technical error** | **Contact CIN** |
 | **Resident with no health insurance fund** | Non-blocking: the actual OA comes from the response |
 | **Pending (grouped)** | **Check responses** or wait |
 

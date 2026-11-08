@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-16 00:24+0200\n"
+"POT-Creation-Date: 2026-11-08 19:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -20,25 +20,25 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: ../../content/soins-mobile/signes-vitaux.md:1
+#: ../../content/soins-mobile/signes-vitaux.md:5
 msgid "Vital signs"
 msgstr "Signes vitaux"
 
-#: ../../content/soins-mobile/signes-vitaux.md:4
-msgid ""
-"Taking the vital signs from the Resthome care app: temperature, blood "
-"pressure, pulse, oxygen, breathing, weight and blood sugar, with the usual "
-"range and the last value."
-msgstr ""
-"Prendre les signes vitaux depuis l'app Soins de Resthome : température, "
-"tension, pouls, oxygène, respiration, poids et glycémie, avec la plage "
-"habituelle et la dernière valeur."
-
 #: ../../content/soins-mobile/signes-vitaux.md:8
+msgid ""
+"Taking the vital signs from the WideCare app: temperature, blood pressure, "
+"pulse, oxygen, breathing, weight and blood sugar, with the usual range and "
+"the last value."
+msgstr ""
+"Prendre les signes vitaux depuis l'app WideCare : température, tension, "
+"pouls, oxygène, respiration, poids et glycémie, avec la plage habituelle et "
+"la dernière valeur."
+
+#: ../../content/soins-mobile/signes-vitaux.md:12
 msgid "Must I fill in every measure?"
 msgstr "Dois-je remplir toutes les mesures ?"
 
-#: ../../content/soins-mobile/signes-vitaux.md:9
+#: ../../content/soins-mobile/signes-vitaux.md:13
 msgid ""
 "No. Fill in only the measures taken. An empty field is a measure not taken, "
 "never a zero."
@@ -46,19 +46,19 @@ msgstr ""
 "Non. Remplissez seulement les mesures prises. Un champ vide est une mesure "
 "non prise, jamais un zéro."
 
-#: ../../content/soins-mobile/signes-vitaux.md:11
+#: ../../content/soins-mobile/signes-vitaux.md:15
 msgid "Can I type 37,4 with a comma?"
 msgstr "Puis-je taper 37,4 avec une virgule ?"
 
-#: ../../content/soins-mobile/signes-vitaux.md:12
+#: ../../content/soins-mobile/signes-vitaux.md:16
 msgid "Yes. The comma and the point are both accepted."
 msgstr "Oui. La virgule et le point sont tous deux acceptés."
 
-#: ../../content/soins-mobile/signes-vitaux.md:14
+#: ../../content/soins-mobile/signes-vitaux.md:18
 msgid "Why is a field orange or red?"
 msgstr "Pourquoi un champ est-il orange ou rouge ?"
 
-#: ../../content/soins-mobile/signes-vitaux.md:15
+#: ../../content/soins-mobile/signes-vitaux.md:19
 msgid ""
 "Orange means the value is outside the usual range. Red means the value is "
 "impossible: correct it, **Save** stays locked until then."
@@ -67,15 +67,27 @@ msgstr ""
 "que la valeur est impossible : corrigez-la, **Enregistrer** reste bloqué "
 "jusque-là."
 
-#: ../../content/soins-mobile/signes-vitaux.md:18
+#: ../../content/soins-mobile/signes-vitaux.md:21
+msgid "Why must I enter the weight?"
+msgstr "Pourquoi dois-je saisir le poids ?"
+
+#: ../../content/soins-mobile/signes-vitaux.md:22
+msgid ""
+"Because the form was opened from a weighing care: the weight comes first and"
+" is required, and saving ticks the care."
+msgstr ""
+"Parce que le formulaire a été ouvert depuis un soin de pesée : le poids "
+"vient en premier et est obligatoire, et l'enregistrement coche le soin."
+
+#: ../../content/soins-mobile/signes-vitaux.md:25
 msgid ""
 "The **Vital signs** button of the resident's sheet opens the form of "
-"measures."
+"measures. A care that asks for a weighing opens it too."
 msgstr ""
 "Le bouton **Signes vitaux** de la fiche de l'habitant ouvre le formulaire "
-"des mesures."
+"des mesures. Un soin qui demande une pesée l'ouvre aussi."
 
-#: ../../content/soins-mobile/signes-vitaux.md:20
+#: ../../content/soins-mobile/signes-vitaux.md:28
 msgid ""
 "![The Vital signs form on the phone: one field per measure with its unit, "
 "the usual range and the last value below](../assets/screenshots/soins-"
@@ -85,7 +97,7 @@ msgstr ""
 "son unité, la plage habituelle et la dernière valeur en "
 "dessous](../assets/screenshots/soins-mobile/phone-10-signes-vitaux.png)"
 
-#: ../../content/soins-mobile/signes-vitaux.md:20
+#: ../../content/soins-mobile/signes-vitaux.md:28
 msgid ""
 "The Vital signs form on the phone: one field per measure with its unit, the "
 "usual range and the last value below"
@@ -93,81 +105,103 @@ msgstr ""
 "Le formulaire Signes vitaux sur le téléphone : un champ par mesure avec son "
 "unité, la plage habituelle et la dernière valeur en dessous"
 
-#: ../../content/soins-mobile/signes-vitaux.md:22
+#: ../../content/soins-mobile/signes-vitaux.md:31
 msgid "Measures"
 msgstr "Mesures"
 
-#: ../../content/soins-mobile/signes-vitaux.md:24
+#: ../../content/soins-mobile/signes-vitaux.md:33
 msgid "**Temperature** (°C)"
 msgstr "**Température** (°C)"
 
-#: ../../content/soins-mobile/signes-vitaux.md:25
-msgid "**Blood pressure** — the two figures, in mmHg"
-msgstr "**Tension** — les deux chiffres, en mmHg"
+#: ../../content/soins-mobile/signes-vitaux.md:34
+msgid "**Blood pressure** — the two figures, systolic and diastolic, in mmHg"
+msgstr "**Tension** — les deux chiffres, systolique et diastolique, en mmHg"
 
-#: ../../content/soins-mobile/signes-vitaux.md:26
+#: ../../content/soins-mobile/signes-vitaux.md:35
 msgid "**Pulse** (bpm)"
 msgstr "**Pouls** (bpm)"
 
-#: ../../content/soins-mobile/signes-vitaux.md:27
+#: ../../content/soins-mobile/signes-vitaux.md:36
 msgid "**Oxygen** (%)"
 msgstr "**Oxygène** (%)"
 
-#: ../../content/soins-mobile/signes-vitaux.md:28
+#: ../../content/soins-mobile/signes-vitaux.md:37
 msgid "**Breathing** (per minute)"
 msgstr "**Respiration** (par minute)"
 
-#: ../../content/soins-mobile/signes-vitaux.md:29
+#: ../../content/soins-mobile/signes-vitaux.md:38
 msgid "**Weight** (kg)"
 msgstr "**Poids** (kg)"
 
-#: ../../content/soins-mobile/signes-vitaux.md:30
+#: ../../content/soins-mobile/signes-vitaux.md:39
 msgid "**Blood sugar** (mg/dL)"
 msgstr "**Glycémie** (mg/dL)"
 
-#: ../../content/soins-mobile/signes-vitaux.md:32
+#: ../../content/soins-mobile/signes-vitaux.md:41
 msgid "The **Next** key of the phone keyboard goes to the next field."
 msgstr "La touche **Suivant** du clavier du téléphone passe au champ suivant."
 
-#: ../../content/soins-mobile/signes-vitaux.md:34
+#: ../../content/soins-mobile/signes-vitaux.md:43
 msgid "Taking the measures"
 msgstr "Prendre les mesures"
 
-#: ../../content/soins-mobile/signes-vitaux.md:36
+#: ../../content/soins-mobile/signes-vitaux.md:45
 msgid "Fill in the measures taken — only those."
 msgstr "Remplissez les mesures prises — seulement celles-là."
 
-#: ../../content/soins-mobile/signes-vitaux.md:37
-msgid "Read the line under each field: the usual range and the last value."
+#: ../../content/soins-mobile/signes-vitaux.md:46
+msgid ""
+"Read the line under each field: the usual range and the last value, with its"
+" date."
 msgstr ""
 "Lisez la ligne sous chaque champ : la plage habituelle et la dernière "
-"valeur."
+"valeur, avec sa date."
 
-#: ../../content/soins-mobile/signes-vitaux.md:38
-msgid "Add a remark under **Anything to add** if useful."
-msgstr "Ajoutez une remarque sous **Quelque chose à ajouter** si c'est utile."
+#: ../../content/soins-mobile/signes-vitaux.md:48
+msgid ""
+"Add a remark under **Anything to add** if useful: taken while resting, "
+"resident agitated…"
+msgstr ""
+"Ajoutez une remarque sous **Quelque chose à ajouter** si utile : prise au "
+"repos, habitant agité…"
 
-#: ../../content/soins-mobile/signes-vitaux.md:39
+#: ../../content/soins-mobile/signes-vitaux.md:50
 msgid "Tap **Save**."
 msgstr "Touchez **Enregistrer**."
 
-#: ../../content/soins-mobile/signes-vitaux.md:41
+#: ../../content/soins-mobile/signes-vitaux.md:52
+msgid "A weighing asked for"
+msgstr "Une pesée demandée"
+
+#: ../../content/soins-mobile/signes-vitaux.md:54
+msgid ""
+"When the form is opened from a care that asks for a weighing, the **Weight**"
+" field comes first and is required: **Enter the weight asked for** shows "
+"until it is filled in. Saving ticks the care."
+msgstr ""
+"Quand le formulaire est ouvert depuis un soin qui demande une pesée, le "
+"champ **Poids** vient en premier et est obligatoire : **Indiquez le poids "
+"demandé** s'affiche jusqu'à ce qu'il soit rempli. L'enregistrement coche le "
+"soin."
+
+#: ../../content/soins-mobile/signes-vitaux.md:58
 msgid "Colours and short forms"
 msgstr "Couleurs et formes courtes"
 
-#: ../../content/soins-mobile/signes-vitaux.md:43
+#: ../../content/soins-mobile/signes-vitaux.md:60
 msgid "**Orange** — the value is outside the usual range: check it."
 msgstr "**Orange** — la valeur sort de la plage habituelle : vérifiez-la."
 
-#: ../../content/soins-mobile/signes-vitaux.md:44
+#: ../../content/soins-mobile/signes-vitaux.md:61
 msgid ""
-"**Red** — the value is impossible. **Save** stays locked until it is "
-"corrected."
+"**Red** — the value is impossible, or the diastolic is not lower than the "
+"systolic. **Save** stays locked until it is corrected."
 msgstr ""
-"**Rouge** — la valeur est impossible. **Enregistrer** reste bloqué jusqu'à "
-"ce qu'elle soit corrigée."
+"**Rouge** — la valeur est impossible, ou la diastolique n'est pas plus basse"
+" que la systolique. **Enregistrer** reste bloqué jusqu'à ce qu'elle soit "
+"corrigée."
 
-#: ../../content/soins-mobile/signes-vitaux.md:46
+#: ../../content/soins-mobile/signes-vitaux.md:64
 msgid ""
 "The short forms used on the floor are understood: **13** is read as 130 "
 "mmHg, **374** as 37.4 °C. The line under the field then says what will be "
@@ -177,12 +211,20 @@ msgstr ""
 "mmHg, **374** se lit 37,4 °C. La ligne sous le champ dit alors ce qui sera "
 "enregistré."
 
-#: ../../content/soins-mobile/signes-vitaux.md:49
+#: ../../content/soins-mobile/signes-vitaux.md:67
 msgid ""
-"The measures are recorded as a vital signs note on the resident. They feed "
-"the same history and the same curves as in the back office. See [Care plans "
-"and vital signs](../soins/plans-de-soins.md)."
+"A reading out of range is saved with a warning, and appears in the bell of "
+"the colleagues who must read it."
 msgstr ""
-"Les mesures sont enregistrées comme une note de signes vitaux sur "
+"Une mesure hors plage est enregistrée avec un avertissement, et apparaît "
+"dans la cloche des collègues qui doivent la lire."
+
+#: ../../content/soins-mobile/signes-vitaux.md:70
+msgid ""
+"The measures are recorded as a vital signs observation on the resident. They"
+" feed the same history and the same curves as in the back office. See "
+"[Observations and vital signs](../soins/observations.md)."
+msgstr ""
+"Les mesures sont enregistrées comme une observation de signes vitaux sur "
 "l'habitant. Elles alimentent le même historique et les mêmes courbes qu'au "
-"bureau. Voir [Plans de soins et signes vitaux](../soins/plans-de-soins.md)."
+"bureau. Voir [Observations et signes vitaux](../soins/observations.md)."

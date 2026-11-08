@@ -1,0 +1,215 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-08 18:41+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: nl <LL@li.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/planning/prestations-presences.md:5
+msgid "Work entries from attendances"
+msgstr "Werkboekingen op basis van aanwezigheden"
+
+#: ../../content/planning/prestations-presences.md:8
+msgid ""
+"Draw each employee's work entries from their attendances instead of their "
+"working schedule, with approved extra hours as a work entry of their own."
+msgstr ""
+"Bereken de werkboekingen van elke werknemer op basis van zijn aanwezigheden "
+"in plaats van zijn werktijden, met de goedgekeurde extra uren als aparte "
+"werkboeking."
+
+#: ../../content/planning/prestations-presences.md:12
+msgid "What does \"work entries from attendances\" change?"
+msgstr "Wat verandert \"werkboekingen op basis van aanwezigheden\"?"
+
+#: ../../content/planning/prestations-presences.md:13
+msgid ""
+"For the employees concerned, the work entry of a day is the time between "
+"their check-ins and check-outs of that day, instead of the hours of their "
+"working schedule."
+msgstr ""
+"Voor de betrokken werknemers is de werkboeking van een dag de tijd tussen "
+"hun in- en uitklokken van die dag, in plaats van de uren van hun werktijden."
+
+#: ../../content/planning/prestations-presences.md:15
+msgid "Is the lunch break deducted?"
+msgstr "Wordt de middagpauze afgetrokken?"
+
+#: ../../content/planning/prestations-presences.md:16
+msgid ""
+"No. An employee counted from attendances clocks out and back in for the "
+"break; nothing else is deducted."
+msgstr ""
+"Nee. Een werknemer die op basis van aanwezigheden geteld wordt, klokt uit en"
+" weer in voor de pauze; verder wordt er niets afgetrokken."
+
+#: ../../content/planning/prestations-presences.md:18
+msgid "How are extra hours counted?"
+msgstr "Hoe worden extra uren geteld?"
+
+#: ../../content/planning/prestations-presences.md:19
+msgid ""
+"The extra hours of the Attendances app are taken out of the attendance work "
+"entry. Once approved, they come back as a work entry of the type chosen on "
+"the employee; refused or still to approve, they are not counted."
+msgstr ""
+"De extra uren van de app Aanwezigheden worden uit de aanwezigheidsboeking "
+"gehaald. Eenmaal goedgekeurd komen ze terug als werkboeking van het type dat"
+" op de werknemer gekozen is; geweigerd of nog goed te keuren worden ze niet "
+"geteld."
+
+#: ../../content/planning/prestations-presences.md:21
+msgid "What happens to time off and public holidays?"
+msgstr "Wat gebeurt er met verlof en feestdagen?"
+
+#: ../../content/planning/prestations-presences.md:22
+msgid "They keep the hours of the working schedule, as before."
+msgstr "Ze behouden de uren van de werktijden, zoals voorheen."
+
+#: ../../content/planning/prestations-presences.md:24
+msgid "Can I change the attendances of a day already validated?"
+msgstr "Kan ik de aanwezigheden van een al gevalideerde dag wijzigen?"
+
+#: ../../content/planning/prestations-presences.md:25
+msgid ""
+"The work entries of a day that holds a validated work entry are not "
+"regenerated."
+msgstr ""
+"De werkboekingen van een dag met een gevalideerde werkboeking worden niet "
+"opnieuw aangemaakt."
+
+#: ../../content/planning/prestations-presences.md:28
+msgid ""
+"By default, an employee's **work entries** follow their **working "
+"schedule**: the hours they are supposed to work. For staff whose hours vary "
+"from day to day, Resthome can draw the work entries from the **attendances**"
+" they clock instead."
+msgstr ""
+"Standaard volgen de **werkboekingen** van een werknemer zijn **werktijden**:"
+" de uren die hij geacht wordt te werken. Voor personeel van wie de uren van "
+"dag tot dag verschillen, kan Resthome de werkboekingen berekenen op basis "
+"van de **aanwezigheden** die het klokt."
+
+#: ../../content/planning/prestations-presences.md:32
+msgid "Note"
+msgstr "Opmerking"
+
+#: ../../content/planning/prestations-presences.md:33
+msgid ""
+"This option is for databases on the Community edition of Odoo. The "
+"Enterprise edition has its own attendance-based work entries."
+msgstr ""
+"Deze optie is bedoeld voor databases met de Community-editie van Odoo. De "
+"Enterprise-editie heeft haar eigen werkboekingen op basis van aanwezigheden."
+
+#: ../../content/planning/prestations-presences.md:37
+msgid "Count an employee from their attendances"
+msgstr "Een werknemer tellen op basis van zijn aanwezigheden"
+
+#: ../../content/planning/prestations-presences.md:39
+msgid "Open the employee's record, tab **Payroll** (HR managers)."
+msgstr ""
+"Open de werknemersfiche, tabblad **Loonstrook** (HR-verantwoordelijken)."
+
+#: ../../content/planning/prestations-presences.md:40
+msgid "In **Work Entries From**, choose **Attendances**."
+msgstr "Kies in **Werkboekingen op basis van** de waarde **Aanwezigheden**."
+
+#: ../../content/planning/prestations-presences.md:41
+msgid ""
+"In **Overtime Work Entry Type**, choose the type the approved extra hours "
+"become. Leave it empty to count every hour attended as attendance (*Counted "
+"as attendance*)."
+msgstr ""
+"Kies in **Werkboekingstype voor overuren** het type waarin de goedgekeurde "
+"extra uren omgezet worden. Laat leeg om elk aanwezig uur als aanwezigheid te"
+" tellen (*Geteld als aanwezigheid*)."
+
+#: ../../content/planning/prestations-presences.md:45
+msgid "From then on:"
+msgstr "Vanaf dan geldt:"
+
+#: ../../content/planning/prestations-presences.md:47
+msgid ""
+"the attendance work entry of a day is the time between the check-ins and "
+"check-outs of that day; **nothing is deducted for lunch**, the employee "
+"clocks the break; the Attendances app reads these employees the same way;"
+msgstr ""
+"de aanwezigheidsboeking van een dag is de tijd tussen het in- en uitklokken "
+"van die dag; **er wordt niets afgetrokken voor het middagmaal**, de "
+"werknemer klokt zijn pauze; de app Aanwezigheden leest deze werknemers op "
+"dezelfde manier;"
+
+#: ../../content/planning/prestations-presences.md:50
+msgid ""
+"the **extra hours** computed by the Attendances app are taken out of the "
+"attendance work entry; **approved**, they become a work entry of the "
+"overtime type; refused or still to approve, they are not counted;"
+msgstr ""
+"de **extra uren** die de app Aanwezigheden berekent, worden uit de "
+"aanwezigheidsboeking gehaald; **goedgekeurd** worden ze een werkboeking van "
+"het type voor overuren; geweigerd of nog goed te keuren worden ze niet "
+"geteld;"
+
+#: ../../content/planning/prestations-presences.md:53
+msgid ""
+"**time off** and **public holidays** keep the hours of the working schedule;"
+msgstr "**verlof** en **feestdagen** behouden de uren van de werktijden;"
+
+#: ../../content/planning/prestations-presences.md:54
+msgid ""
+"a check-in, a check-out, a corrected attendance or an approved or refused "
+"extra hour **regenerates the work entries of its day**, unless that day "
+"holds a validated work entry."
+msgstr ""
+"een inklokking, een uitklokking, een gecorrigeerde aanwezigheid of een "
+"goedgekeurd of geweigerd extra uur **maakt de werkboekingen van die dag "
+"opnieuw aan**, tenzij die dag een gevalideerde werkboeking bevat."
+
+#: ../../content/planning/prestations-presences.md:60
+msgid "Read the work entries"
+msgstr "De werkboekingen lezen"
+
+#: ../../content/planning/prestations-presences.md:62
+msgid ""
+"The **Employees** app gets a **Work Entries** menu (HR officers), with:"
+msgstr ""
+"De app **Werknemers** krijgt een menu **Werkboekingen** (HR-medewerkers), "
+"met:"
+
+#: ../../content/planning/prestations-presences.md:64
+msgid "**Work Entries** — the work entries of every employee;"
+msgstr "**Werkboekingen** — de werkboekingen van alle werknemers;"
+
+#: ../../content/planning/prestations-presences.md:65
+msgid "**Work Entry Types** — the types they use, the overtime type included."
+msgstr ""
+"**Werkboekingstypes** — de types die ze gebruiken, ook het type voor "
+"overuren."
+
+#: ../../content/planning/prestations-presences.md:67
+msgid "Learn more"
+msgstr "Verder"
+
+#: ../../content/planning/prestations-presences.md:69
+msgid "[Hours, balance and coverage](heures-et-couverture.md)"
+msgstr "[Uren, saldo en dekking](heures-et-couverture.md)"
+
+#: ../../content/planning/prestations-presences.md:70
+msgid "[Staff planning](index.md)"
+msgstr "[Personeelsplanning](index.md)"

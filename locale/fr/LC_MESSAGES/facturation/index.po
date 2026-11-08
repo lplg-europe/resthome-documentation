@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 15:49+0200\n"
+"POT-Creation-Date: 2026-11-08 19:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -26,13 +26,13 @@ msgstr "Facturation"
 
 #: ../../content/facturation/index.md:8
 msgid ""
-"Billing periods, the care allowance, supplements, absences and invoices in "
-"Resthome."
+"Billing periods, the care allowance, supplements, absences, invoice types "
+"and invoices in Resthome."
 msgstr ""
-"Périodes de facturation, forfait de soins, suppléments, absences et factures"
-" dans Resthome."
+"Périodes de facturation, forfait de soins, suppléments, absences, types de "
+"facture et factures dans Resthome."
 
-#: ../../content/facturation/index.md:23
+#: ../../content/facturation/index.md:27
 msgid ""
 "Resthome automates the billing of the home: the **insurer's share** (the "
 "care allowance paid by the health insurer) and the **resident's share** "
@@ -42,17 +42,35 @@ msgstr ""
 "l'assureur** (le forfait de soins payé par l'assureur santé) et la **part "
 "habitant** (hébergement + suppléments), période par période."
 
-#: ../../content/facturation/index.md:27
+#: ../../content/facturation/index.md:31
 msgid "Key principles"
 msgstr "Les grands principes"
 
-#: ../../content/facturation/index.md:29
+#: ../../content/facturation/index.md:33
+msgid ""
+"**Billing app**: its **dashboard** shows the months to bill, the invoices to"
+" validate and what is still unpaid."
+msgstr ""
+"**Application Facturation** : son **tableau de bord** montre les mois à "
+"facturer, les factures à valider et ce qui reste impayé."
+
+#: ../../content/facturation/index.md:35
 msgid ""
 "**Billing period**: one month. You **generate** it, then **invoice** it."
 msgstr ""
 "**Période de facturation** : un mois. On la **génère**, puis on **facture**."
 
-#: ../../content/facturation/index.md:30
+#: ../../content/facturation/index.md:36
+msgid ""
+"**Invoice type**: each resident is billed **in advance** (anticipatory, the "
+"default) or **in arrears**. The type is set on the resident's contact and "
+"can change for one month only."
+msgstr ""
+"**Type de facture** : chaque habitant est facturé **d'avance** "
+"(anticipative, par défaut) ou **à période échue**. Le type se définit sur le"
+" contact de l'habitant et peut changer pour un seul mois."
+
+#: ../../content/facturation/index.md:39
 msgid ""
 "**Care allowance**: calculated from the **dependency category** and days of "
 "presence; this is the share paid by the resident's health insurer."
@@ -60,71 +78,80 @@ msgstr ""
 "**Forfait de soins** : calculé selon la **catégorie de dépendance** et les "
 "jours de présence ; c'est la part payée par l'assureur santé de l'habitant."
 
-#: ../../content/facturation/index.md:32
+#: ../../content/facturation/index.md:41
 msgid ""
 "**Accommodation**: the share paid by the resident (the room), based on the "
 "rate."
 msgstr ""
 "**Hébergement** : la part payée par l'habitant (la chambre), selon le tarif."
 
-#: ../../content/facturation/index.md:33
+#: ../../content/facturation/index.md:42
 msgid ""
-"**Supplements**: one-off or recurring services (single room, TV, "
-"hairdresser…), through the resident's **supplements envelope**."
+"**Supplements**: one-time or recurring services (single room, TV, "
+"hairdresser…), through the resident's **supplements envelope**, at the price"
+" in force that month."
 msgstr ""
 "**Suppléments** : prestations ponctuelles ou récurrentes (chambre "
-"individuelle, TV, coiffeur…), via l’**enveloppe de suppléments** de "
-"l'habitant."
+"individuelle, TV, coiffeur…), via l'**enveloppe de suppléments** de "
+"l'habitant, au prix en vigueur ce mois-là."
 
-#: ../../content/facturation/index.md:35
+#: ../../content/facturation/index.md:45
 msgid ""
-"**Absences**: an absence (hospitalisation, holidays) **reduces the care "
-"allowance** for the period concerned and can trigger a notification to the "
-"health insurer."
+"**Absences**: an absence (hospitalisation, holidays) can **reduce the "
+"accommodation** through the absence discount rules and, where the country "
+"pack bills one, the care allowance."
 msgstr ""
-"**Absences** : une absence (hospitalisation, vacances) **réduit le forfait "
-"de soins** sur la période concernée et peut déclencher une notification à "
-"l'assureur santé."
+"**Absences** : une absence (hospitalisation, vacances) peut **réduire "
+"l'hébergement** via les règles de déduction d'absence et, là où le pack pays"
+" en facture un, le forfait de soins."
 
-#: ../../content/facturation/index.md:39
+#: ../../content/facturation/index.md:49
 msgid "Anticipatory billing"
 msgstr "Facturation anticipative"
 
-#: ../../content/facturation/index.md:42
+#: ../../content/facturation/index.md:52
 msgid ""
 "For residents billed in advance, one month's accommodation is invoiced **the"
 " previous month**. The care allowance and supplements, however, are invoiced"
-" in the month of service."
+" in the month of service. See [Invoice type](type-de-facture.md)."
 msgstr ""
-"Pour les habitants facturés en avance, l'hébergement d'un mois est facturé "
+"Pour les habitants facturés d'avance, l'hébergement d'un mois est facturé "
 "**le mois précédent**. Le forfait de soins et les suppléments, eux, sont "
-"facturés sur le mois de prestation."
+"facturés sur le mois de prestation. Voir [Type de facture](type-de-"
+"facture.md)."
 
-#: ../../content/facturation/index.md:47
+#: ../../content/facturation/index.md:57
 msgid "The \"Refresh\" button"
 msgstr "Le bouton « Actualiser »"
 
-#: ../../content/facturation/index.md:49
+#: ../../content/facturation/index.md:59
 msgid ""
 "On a billing period, the **Refresh** action recalculates everything in one "
-"click: billing lines, supplements and draft invoices."
+"click: billing lines, supplements and draft invoices. In the list of "
+"periods, select several and use the gear menu → **Refresh**."
 msgstr ""
 "Sur une période de facturation, l'action **Actualiser** recalcule tout en un"
-" clic : lignes de facturation, suppléments et factures brouillon."
+" clic : lignes de facturation, suppléments et factures brouillon. Dans la "
+"liste des périodes, sélectionnez-en plusieurs et utilisez le menu engrenage "
+"→ **Actualiser**."
 
-#: ../../content/facturation/index.md:52
+#: ../../content/facturation/index.md:63
 msgid "Good to know"
 msgstr "Bon à savoir"
 
-#: ../../content/facturation/index.md:55
+#: ../../content/facturation/index.md:66
 msgid ""
 "Residents whose invoice is **already posted** are left untouched; everything"
-" else is recalculated."
+" else is recalculated. When a change reaches one of them, a **Corrections "
+"pending** banner appears on the period: **Refresh** creates the "
+"supplementary invoice or the credit note."
 msgstr ""
-"Les habitants dont la facture est **déjà comptabilisée** sont laissés "
-"intacts ; tout le reste est recalculé."
+"Les habitants dont la facture est **déjà comptabilisée** restent intacts ; "
+"tout le reste est recalculé. Quand un changement atteint l'un d'eux, un "
+"bandeau **Corrections en attente** apparaît sur la période : **Actualiser** "
+"crée la facture complémentaire ou la note de crédit."
 
-#: ../../content/facturation/index.md:57
+#: ../../content/facturation/index.md:70
 msgid ""
 "Adding a supplement or an absence **synchronises automatically**: you "
 "generally don't need to click \"Refresh\"."
@@ -132,32 +159,41 @@ msgstr ""
 "Ajouter un supplément ou une absence se **synchronise automatiquement** : il"
 " n'est en général pas nécessaire de cliquer « Actualiser »."
 
-#: ../../content/facturation/index.md:61
+#: ../../content/facturation/index.md:74
 msgid "The period cycle"
 msgstr "Cycle d'une période"
 
-#: ../../content/facturation/index.md:63
-msgid "**New period** (the month)."
-msgstr "**Nouvelle période** (le mois)."
+#: ../../content/facturation/index.md:76
+msgid "**New period** (the month) — from the dashboard, **Months to bill**."
+msgstr ""
+"**Nouvelle période** (le mois) — depuis le tableau de bord, **Mois à "
+"facturer**."
 
-#: ../../content/facturation/index.md:64
+#: ../../content/facturation/index.md:77
 msgid "**Generate** the billing lines."
 msgstr "**Générer** les lignes de facturation."
 
-#: ../../content/facturation/index.md:65
-msgid "Check the residents' **insurability** with their health insurer."
+#: ../../content/facturation/index.md:78
+msgid ""
+"Check the residents' **insurability** with their health insurer, where the "
+"country pack bills a care allowance."
 msgstr ""
-"Vérifier l'**assurabilité** des habitants auprès de leur assureur santé."
+"Vérifier l'**assurabilité** des habitants auprès de leur assureur santé, là "
+"où le pack pays facture un forfait de soins."
 
-#: ../../content/facturation/index.md:66
+#: ../../content/facturation/index.md:80
 msgid "**Create the invoices** (resident's share)."
 msgstr "**Créer les factures** (part habitant)."
 
-#: ../../content/facturation/index.md:67
-msgid "**Post** the invoices."
-msgstr "**Comptabiliser** les factures."
+#: ../../content/facturation/index.md:81
+msgid ""
+"**Post** the invoices, and send them to the accounting database when it is "
+"kept elsewhere."
+msgstr ""
+"**Comptabiliser** les factures, et les envoyer à la base comptable quand "
+"celle-ci est tenue ailleurs."
 
-#: ../../content/facturation/index.md:68
+#: ../../content/facturation/index.md:83
 msgid ""
 "**Send the insurer's share** to the health insurers — through the electronic"
 " exchanges with the health insurer, where the country has them — then track "
@@ -167,11 +203,15 @@ msgstr ""
 "électroniques avec l'assureur santé, là où le pays en dispose — puis suivre "
 "les réponses."
 
-#: ../../content/facturation/index.md:72
+#: ../../content/facturation/index.md:86
+msgid "**Close** the period."
+msgstr "**Clôturer** la période."
+
+#: ../../content/facturation/index.md:88
 msgid "Step by step"
 msgstr "Pas à pas"
 
-#: ../../content/facturation/index.md:75
+#: ../../content/facturation/index.md:91
 msgid ""
 "Follow the detailed guide [Billing a month, step by step](facturer-un-"
 "mois.md), and the [Month-end checklist](checklist-fin-de-mois.md)."
@@ -179,11 +219,11 @@ msgstr ""
 "Suivez le guide détaillé [Facturer un mois, pas à pas](facturer-un-mois.md) "
 "et la [Check-list de fin de mois](checklist-fin-de-mois.md)."
 
-#: ../../content/facturation/index.md:79
+#: ../../content/facturation/index.md:95
 msgid "In Belgium"
 msgstr "En Belgique"
 
-#: ../../content/facturation/index.md:82
+#: ../../content/facturation/index.md:98
 msgid ""
 "The care allowance is the INAMI dependency allowance, set from the Katz "
 "assessment and sent to the mutualities through eFact after an MDA "
@@ -197,11 +237,17 @@ msgstr ""
 "eAgreement. Voir [Facturer un mois en Belgique](../belgique/facturation.md) "
 "et [Le parcours de facturation](../belgique/parcours-facturation.md)."
 
-#: ../../content/facturation/index.md:89
+#: ../../content/facturation/index.md:105
 msgid "What's next"
 msgstr "À suivre"
 
-#: ../../content/facturation/index.md:91
+#: ../../content/facturation/index.md:107
+msgid "[The billing dashboard](tableau-de-bord.md) — the month at a glance."
+msgstr ""
+"[Le tableau de bord de la facturation](tableau-de-bord.md) — le mois d'un "
+"coup d'œil."
+
+#: ../../content/facturation/index.md:108
 msgid ""
 "[Billing a month, step by step](facturer-un-mois.md) — the complete month "
 "guide."
@@ -209,7 +255,7 @@ msgstr ""
 "[Facturer un mois, pas à pas](facturer-un-mois.md) — le guide complet du "
 "mois."
 
-#: ../../content/facturation/index.md:92
+#: ../../content/facturation/index.md:109
 msgid ""
 "[Month-end checklist](checklist-fin-de-mois.md) — everything a month-end "
 "requires, in order."
@@ -217,22 +263,46 @@ msgstr ""
 "[Check-list de fin de mois](checklist-fin-de-mois.md) — tout ce qu'exige une"
 " fin de mois, dans l'ordre."
 
-#: ../../content/facturation/index.md:94
+#: ../../content/facturation/index.md:111
 msgid ""
-"[Supplements](supplements.md) — supplements envelope, one-off or recurring."
+"[Invoice type](type-de-facture.md) — in advance or in arrears, for a stay or"
+" for one month."
+msgstr ""
+"[Type de facture](type-de-facture.md) — d'avance ou à période échue, pour un"
+" séjour ou pour un mois."
+
+#: ../../content/facturation/index.md:113
+msgid ""
+"[Supplements](supplements.md) — supplements envelope, one-time or recurring."
 msgstr ""
 "[Les suppléments](supplements.md) — enveloppe de suppléments, ponctuels ou "
 "récurrents."
 
-#: ../../content/facturation/index.md:95
+#: ../../content/facturation/index.md:114
 msgid ""
-"[Absences and hospitalisations](absences.md) — effect on the care allowance,"
-" notification to the health insurer."
+"[The Supplements app](application-supplements.md) — entering supplements "
+"resident by resident or for several at once."
 msgstr ""
-"[Absences et hospitalisations](absences.md) — effet sur le forfait de soins,"
-" notification à l'assureur santé."
+"[L'application Suppléments](application-supplements.md) — saisir les "
+"suppléments habitant par habitant ou pour plusieurs à la fois."
 
-#: ../../content/facturation/index.md:97
+#: ../../content/facturation/index.md:116
+msgid ""
+"[Recharging a vendor bill](refacturation-fournisseur.md) — passing a "
+"supplier's bill on to the residents."
+msgstr ""
+"[Refacturer une facture fournisseur](refacturation-fournisseur.md) — "
+"répercuter la facture d'un fournisseur sur les habitants."
+
+#: ../../content/facturation/index.md:118
+msgid ""
+"[Absences and hospitalisations](absences.md) — absence discount rules and "
+"their effect on the month."
+msgstr ""
+"[Absences et hospitalisations](absences.md) — règles de déduction d'absence "
+"et leur effet sur le mois."
+
+#: ../../content/facturation/index.md:120
 msgid ""
 "[Departure and death](depart-deces.md) — stopping billing, credit note for "
 "prepaid accommodation."
@@ -240,7 +310,29 @@ msgstr ""
 "[Départ et décès](depart-deces.md) — arrêt de la facturation, note de crédit"
 " de l'hébergement prépayé."
 
-#: ../../content/facturation/index.md:99
+#: ../../content/facturation/index.md:122
+msgid ""
+"[Price indexation](indexation-des-prix.md) — raising the prices from a date."
+msgstr ""
+"[Indexation des prix](indexation-des-prix.md) — augmenter les prix à partir "
+"d'une date."
+
+#: ../../content/facturation/index.md:123
+msgid ""
+"[Pocket money](../argent-de-poche/index.md) — the money held for a resident."
+msgstr ""
+"[Argent de poche](../argent-de-poche/index.md) — l'argent détenu pour un "
+"habitant."
+
+#: ../../content/facturation/index.md:124
+msgid ""
+"[Accounting bridge](pont-comptable.md) — sending the invoices to an "
+"accounting kept elsewhere."
+msgstr ""
+"[Pont comptable](pont-comptable.md) — envoyer les factures vers une "
+"comptabilité tenue ailleurs."
+
+#: ../../content/facturation/index.md:126
 msgid ""
 "[Split billing](../facturation-partagee/index.md) — the resident's share "
 "divided among several debtors, one invoice each."
@@ -248,41 +340,10 @@ msgstr ""
 "[Facturation partagée](../facturation-partagee/index.md) — la part habitant "
 "répartie entre plusieurs débiteurs, une facture chacun."
 
-#: ../../content/facturation/index.md:101
+#: ../../content/facturation/index.md:128
 msgid "[Managing a resident](../residents/gerer-un-resident.md)"
 msgstr "[Gérer un habitant](../residents/gerer-un-resident.md)"
 
-#: ../../content/facturation/index.md:102
+#: ../../content/facturation/index.md:129
 msgid "[FAQ](../faq.md) · [Glossary](../glossaire.md)"
 msgstr "[FAQ](../faq.md) · [Glossaire](../glossaire.md)"
-
-#~ msgid ""
-#~ "[Maintenance debtors](split-billing.md) — split the resident's share between"
-#~ " debtors."
-#~ msgstr ""
-#~ "[Débiteurs alimentaires](split-billing.md) — répartir la part habitant entre"
-#~ " débiteurs."
-
-#~ msgid "**Generate the eFact** (insurer's share) then send it."
-#~ msgstr "**Générer l'eFact** (part mutuelle) puis l'envoyer."
-
-#~ msgid ""
-#~ "[The INAMI package (dependency)](../belgique/forfait-inami.md) — Katz → "
-#~ "category → invoiced amount."
-#~ msgstr ""
-#~ "[Le forfait INAMI (dépendance)](../belgique/forfait-inami.md) — Katz → "
-#~ "catégorie → montant facturé."
-
-#~ msgid ""
-#~ "[Agreements (eAgreement)](../belgique/ehealth/eagreement.md) — notify the "
-#~ "insurer (admission, absence, return, discharge)."
-#~ msgstr ""
-#~ "[Accords (eAgreement)](../belgique/ehealth/eagreement.md) — notifier la "
-#~ "mutuelle (admission, absence, retour, sortie)."
-
-#~ msgid ""
-#~ "[eHealth](../belgique/ehealth/index.md) — sending the insurer's share "
-#~ "(eFact) and agreements."
-#~ msgstr ""
-#~ "[eHealth](../belgique/ehealth/index.md) — envoi de la part mutuelle (eFact) "
-#~ "et accords."

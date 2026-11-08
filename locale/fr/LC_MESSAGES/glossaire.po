@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 15:49+0200\n"
+"POT-Creation-Date: 2026-11-08 19:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -26,14 +26,14 @@ msgstr "Glossaire"
 
 #: ../../content/glossaire.md:8
 msgid ""
-"Glossary of Resthome terms and of nursing-home billing, valid in every "
-"country: billing period, care allowance, dependency category, supplements "
-"envelope, anticipatory billing, credit note, third-party payer."
+"Glossary of Resthome terms valid in every country: billing period, care "
+"allowance, dependency category, supplement envelope, family portal access, "
+"liaison notebook, pocket money, technical intervention."
 msgstr ""
-"Glossaire des termes de Resthome et de la facturation en maison de repos, "
-"valable dans tous les pays : période de facturation, forfait de soins, "
-"catégorie de dépendance, enveloppe de suppléments, facturation anticipative,"
-" note de crédit, tiers payant."
+"Glossaire des termes Resthome valables dans tous les pays : période de "
+"facturation, forfait de soins, catégorie de dépendance, enveloppe de "
+"suppléments, accès au portail famille, carnet de liaison, argent de poche, "
+"intervention technique."
 
 #: ../../content/glossaire.md:11
 msgid ""
@@ -60,10 +60,28 @@ msgstr ""
 "— Belgique](belgique/glossaire.md)."
 
 #: ../../content/glossaire.md:25
+msgid "Access (family portal)"
+msgstr "Accès (portail famille)"
+
+#: ../../content/glossaire.md:27
+msgid ""
+"The authorisation given to **one relative** for **one resident**, scope by "
+"scope (liaison notebook, documents, meals, invoices, health). It is what "
+"opens the family portal; being a contact person opens nothing. Its status is"
+" **Draft**, **Active** or **Revoked**. See: [Granting an access](portail-"
+"famille/acces.md)"
+msgstr ""
+"L'autorisation donnée à **un proche** pour **un habitant**, portée par "
+"portée (carnet de liaison, documents, repas, factures, santé). C'est elle "
+"qui ouvre le portail famille ; être personne de contact n'ouvre rien. Son "
+"statut est **Brouillon**, **Actif** ou **Révoqué**. Voir : [Accorder un "
+"accès](portail-famille/acces.md)"
+
+#: ../../content/glossaire.md:33
 msgid "Anticipatory billing"
 msgstr "Facturation anticipative"
 
-#: ../../content/glossaire.md:27
+#: ../../content/glossaire.md:35
 msgid ""
 "A billing mode where a month's **accommodation** is invoiced **the previous "
 "month**, while the **care allowance** and the **supplements** are invoiced "
@@ -75,11 +93,11 @@ msgstr ""
 "facturés sur le mois de prestation. Voir : [Vue d'ensemble de la "
 "facturation](facturation/index.md)"
 
-#: ../../content/glossaire.md:32
+#: ../../content/glossaire.md:40
 msgid "Billing period"
 msgstr "Période de facturation"
 
-#: ../../content/glossaire.md:34
+#: ../../content/glossaire.md:42
 msgid ""
 "The **billing month** in Resthome, which moves through four states: "
 "**Draft**, **Generated** (calculated), **Invoiced** and **Closed**. See: "
@@ -90,11 +108,11 @@ msgstr ""
 "**Closed** (clôturée). Voir : [Facturer un mois, pas à "
 "pas](facturation/facturer-un-mois.md)"
 
-#: ../../content/glossaire.md:38
+#: ../../content/glossaire.md:46
 msgid "Care allowance"
 msgstr "Forfait de soins"
 
-#: ../../content/glossaire.md:40
+#: ../../content/glossaire.md:48
 msgid ""
 "The **daily** amount paid by the resident's health insurer for care, in the "
 "countries that have one. It depends on the resident's **dependency "
@@ -106,11 +124,28 @@ msgstr ""
 "dépendance** de l'habitant et se calcule sur ses **jours de présence**. Voir"
 " : [Vue d'ensemble de la facturation](facturation/index.md)"
 
-#: ../../content/glossaire.md:45
+#: ../../content/glossaire.md:53
+msgid "Contact person"
+msgstr "Personne de contact"
+
+#: ../../content/glossaire.md:55
+msgid ""
+"A relative or close person recorded in the resident's file, with their "
+"relationship and phone number. A contact person sees nothing of the file "
+"until they receive a family portal **access**. See: [Family portal](portail-"
+"famille/index.md)"
+msgstr ""
+"Un proche ou une personne de confiance enregistré dans le dossier de "
+"l'habitant, avec son lien de parenté et son numéro de téléphone. Une "
+"personne de contact ne voit rien du dossier tant qu'elle n'a pas reçu un "
+"**accès** au portail famille. Voir : [Portail famille](portail-"
+"famille/index.md)"
+
+#: ../../content/glossaire.md:60
 msgid "Credit note"
 msgstr "Note de crédit"
 
-#: ../../content/glossaire.md:47
+#: ../../content/glossaire.md:62
 msgid ""
 "Document that **cancels or refunds** all or part of an invoice. Resthome "
 "prepares one automatically, for example on a departure partway through a "
@@ -122,11 +157,11 @@ msgstr ""
 "mois déjà facturé (hébergement facturé d'avance). Voir : [Départ et "
 "décès](facturation/depart-deces.md)"
 
-#: ../../content/glossaire.md:52
+#: ../../content/glossaire.md:67
 msgid "Day-counting rule"
 msgstr "Règle de décompte des journées"
 
-#: ../../content/glossaire.md:54
+#: ../../content/glossaire.md:69
 msgid ""
 "The convention that decides whether a day of presence counts toward the care"
 " allowance. It depends on the country, hence the importance of departure and"
@@ -138,11 +173,11 @@ msgstr ""
 "départ et de retour. Voir : [Absences et "
 "hospitalisations](facturation/absences.md)"
 
-#: ../../content/glossaire.md:59
+#: ../../content/glossaire.md:74
 msgid "Dependency category"
 msgstr "Catégorie de dépendance"
 
-#: ../../content/glossaire.md:61
+#: ../../content/glossaire.md:76
 msgid ""
 "The level of dependency given by the **dependency assessment**. The scale "
 "depends on the country; the category drives the care allowance where the "
@@ -153,11 +188,42 @@ msgstr ""
 "le pays en verse un. Voir : [Gérer un habitant](residents/gerer-un-"
 "resident.md)"
 
-#: ../../content/glossaire.md:65
+#: ../../content/glossaire.md:80
+msgid "Document workspace"
+msgstr "Espace documentaire"
+
+#: ../../content/glossaire.md:82
+msgid ""
+"The resident's folder in the **Documents** app, with its medical, "
+"administrative and billing subfolders. Attachments added to the resident are"
+" filed there automatically. See: [Resident documents](documents/index.md)"
+msgstr ""
+"Le dossier de l'habitant dans l'application **Documents**, avec ses sous-"
+"dossiers médical, administratif et de facturation. Les pièces jointes "
+"ajoutées à l'habitant y sont classées automatiquement. Voir : [Documents de "
+"l'habitant](documents/index.md)"
+
+#: ../../content/glossaire.md:87
+msgid "Family space"
+msgstr "Espace famille"
+
+#: ../../content/glossaire.md:89
+msgid ""
+"The place a resident's team and family share: the family portal accesses, "
+"the shared documents, and the liaison notebook. One per resident, created "
+"the first time it is needed. See: [Notebook, documents and "
+"invoices](portail-famille/carnet-documents.md)"
+msgstr ""
+"Le lieu que partagent l'équipe et la famille d'un habitant : les accès au "
+"portail famille, les documents partagés et le carnet de liaison. Un par "
+"habitant, créé la première fois qu'on en a besoin. Voir : [Carnet, documents"
+" et factures](portail-famille/carnet-documents.md)"
+
+#: ../../content/glossaire.md:94
 msgid "Health insurer"
 msgstr "Assureur santé"
 
-#: ../../content/glossaire.md:67
+#: ../../content/glossaire.md:96
 msgid ""
 "The body that insures the resident for health care. Depending on the "
 "country, it pays the care allowance and exchanges data electronically with "
@@ -167,11 +233,43 @@ msgstr ""
 " paie le forfait de soins et échange des données par voie électronique avec "
 "l'établissement. Voir : [Gérer un habitant](residents/gerer-un-resident.md)"
 
-#: ../../content/glossaire.md:71
+#: ../../content/glossaire.md:100
+msgid "Liaison notebook"
+msgstr "Carnet de liaison"
+
+#: ../../content/glossaire.md:102
+msgid ""
+"The discussion thread of the family space: what the team writes there as a "
+"message reaches the relatives on the portal, and they can answer. Internal "
+"notes stay with the team. See: [Notebook, documents and invoices](portail-"
+"famille/carnet-documents.md)"
+msgstr ""
+"Le fil de discussion de l'espace famille : ce que l'équipe y écrit comme "
+"message atteint les proches sur le portail, et ils peuvent répondre. Les "
+"notes internes restent dans l'équipe. Voir : [Carnet, documents et "
+"factures](portail-famille/carnet-documents.md)"
+
+#: ../../content/glossaire.md:107
+msgid "Medicines workstation"
+msgstr "Poste Médicaments"
+
+#: ../../content/glossaire.md:109
+msgid ""
+"The single screen of the **Medicines** entry of the care application: the "
+"prescriptions, treatments, pharmacy orders, pillboxes, the round and the "
+"catalogue, each behind a tab or a tile. See: "
+"[Medicines](medicaments/index.md)"
+msgstr ""
+"L'écran unique de l'entrée **Médicaments** de l'application de soins : les "
+"ordonnances, les traitements, les commandes à la pharmacie, les piluliers, "
+"le tour et le catalogue, chacun derrière un onglet ou une tuile. Voir : "
+"[Médicaments](medicaments/index.md)"
+
+#: ../../content/glossaire.md:114
 msgid "National identification number"
 msgstr "Numéro d'identification national"
 
-#: ../../content/glossaire.md:73
+#: ../../content/glossaire.md:116
 msgid ""
 "The resident's personal identification number in their country, recorded on "
 "the resident's file. It is required for the electronic exchanges with the "
@@ -183,11 +281,89 @@ msgstr ""
 "avec l'assureur santé, là où le pays en prévoit. Voir : [Gérer un "
 "habitant](residents/gerer-un-resident.md)"
 
-#: ../../content/glossaire.md:78
-msgid "Supplements envelope"
+#: ../../content/glossaire.md:121
+msgid "Pharmacy mandate"
+msgstr "Mandat pharmaceutique"
+
+#: ../../content/glossaire.md:123
+msgid ""
+"The resident's written permission for the home to **order and receive** "
+"their medicines at their pharmacy. Without a mandate in force, nothing is "
+"ordered for them. See: [Pharmacy orders](medicaments/pharmacie.md)"
+msgstr ""
+"L'autorisation écrite de l'habitant permettant à la maison de **commander et"
+" recevoir** ses médicaments à sa pharmacie. Sans mandat en vigueur, rien "
+"n'est commandé pour lui. Voir : [Commandes à la "
+"pharmacie](medicaments/pharmacie.md)"
+
+#: ../../content/glossaire.md:128
+msgid "Pillbox"
+msgstr "Pilulier"
+
+#: ../../content/glossaire.md:130
+msgid ""
+"The box prepared for a resident, by moment of the day, from their "
+"treatments; one nurse prepares it and another checks it before the round. "
+"See: [Pillboxes and the pharmacy's sachets](medicaments/piluliers.md)"
+msgstr ""
+"La boîte préparée pour un habitant, par moment de la journée, à partir de "
+"ses traitements ; un infirmier la prépare et un autre la vérifie avant le "
+"tour. Voir : [Piluliers et sachets de la "
+"pharmacie](medicaments/piluliers.md)"
+
+#: ../../content/glossaire.md:134
+msgid "Pocket money"
+msgstr "Argent de poche"
+
+#: ../../content/glossaire.md:136
+msgid ""
+"Money a third party pays to the home and that the home **holds for a "
+"resident**; the resident's purchases are drawn from it. Resthome shows the "
+"balance on the resident's record. See: [Pocket money](argent-de-"
+"poche/index.md)"
+msgstr ""
+"Argent qu'un tiers verse à la maison et que la maison **détient pour un "
+"habitant** ; les achats de l'habitant y sont prélevés. Resthome montre le "
+"solde sur la fiche de l'habitant. Voir : [Argent de poche](argent-de-"
+"poche/index.md)"
+
+#: ../../content/glossaire.md:141
+msgid "Regime"
+msgstr "Régime"
+
+#: ../../content/glossaire.md:143
+msgid ""
+"The set of rules a public authority sets for the serviced residences it "
+"licenses. Each residence runs under one regime; contracts, billing and "
+"registers read their rules from it. See: [Regimes](residences-"
+"services/regimes.md)"
+msgstr ""
+"L'ensemble des règles qu'une autorité publique fixe pour les résidences-"
+"services qu'elle autorise. Chaque résidence relève d'un régime ; les "
+"contrats, la facturation et les registres y lisent leurs règles. Voir : "
+"[Régimes](residences-services/regimes.md)"
+
+#: ../../content/glossaire.md:148
+msgid "Serviced residence"
+msgstr "Résidence-services"
+
+#: ../../content/glossaire.md:150
+msgid ""
+"A residence where independent people rent a flat (a **unit**) and buy "
+"services around it. There is no bed and no care allowance: each unit has a "
+"contract, billed every month. See: [Serviced residences](residences-"
+"services/index.md)"
+msgstr ""
+"Une résidence où des personnes autonomes louent un appartement (un "
+"**logement**) et achètent des services autour. Il n'y a ni lit ni forfait de"
+" soins : chaque logement a un contrat, facturé chaque mois. Voir : "
+"[Résidences-services](residences-services/index.md)"
+
+#: ../../content/glossaire.md:155
+msgid "Supplement envelope"
 msgstr "Enveloppe de suppléments"
 
-#: ../../content/glossaire.md:80
+#: ../../content/glossaire.md:157
 msgid ""
 "The **monthly grouping of a resident's supplements** (products and services "
 "outside the allowance). Any change automatically updates their invoice. See:"
@@ -197,11 +373,27 @@ msgstr ""
 "prestations hors forfait). Toute modification met à jour automatiquement sa "
 "facture. Voir : [Les suppléments](facturation/supplements.md)"
 
-#: ../../content/glossaire.md:84
+#: ../../content/glossaire.md:161
+msgid "Technical intervention"
+msgstr "Intervention technique"
+
+#: ../../content/glossaire.md:163
+msgid ""
+"A repair or a job in a resident's room, recorded as a Helpdesk ticket linked"
+" to the resident, the room and the stay, with its full cost. It can be "
+"billed to the resident. See: [Technical "
+"interventions](interventions/index.md)"
+msgstr ""
+"Une réparation ou un travail dans la chambre d'un habitant, enregistré comme"
+" ticket d'assistance lié à l'habitant, à la chambre et au séjour, avec son "
+"coût complet. Elle peut être facturée à l'habitant. Voir : [Interventions "
+"techniques](interventions/index.md)"
+
+#: ../../content/glossaire.md:168
 msgid "Third-party payer"
 msgstr "Tiers payant"
 
-#: ../../content/glossaire.md:86
+#: ../../content/glossaire.md:170
 msgid ""
 "Mechanism where the **health insurer pays its share directly** to the "
 "facility, the resident settling only their own share."
@@ -209,313 +401,28 @@ msgstr ""
 "Mécanisme où l'**assureur santé paie directement sa part** à "
 "l'établissement, l'habitant ne réglant que sa propre part."
 
-#: ../../content/glossaire.md:91
+#: ../../content/glossaire.md:175
+msgid "Unit"
+msgstr "Logement"
+
+#: ../../content/glossaire.md:177
+msgid ""
+"A flat of a serviced residence, rented under one contract to one or more "
+"occupants. See: [Residences and units](residences-services/residences-"
+"logements.md)"
+msgstr ""
+"Un appartement d'une résidence-services, loué par un contrat à un ou "
+"plusieurs occupants. Voir : [Résidences et logements](residences-"
+"services/residences-logements.md)"
+
+#: ../../content/glossaire.md:181
 msgid "Further reading"
 msgstr "Pour aller plus loin"
 
-#: ../../content/glossaire.md:93
+#: ../../content/glossaire.md:183
 msgid "[FAQ — Frequently asked questions](faq.md)"
 msgstr "[FAQ — Questions fréquentes](faq.md)"
 
-#: ../../content/glossaire.md:94
+#: ../../content/glossaire.md:184
 msgid "[Billing overview](facturation/index.md)"
 msgstr "[Vue d'ensemble de la facturation](facturation/index.md)"
-
-#~ msgid ""
-#~ "Glossary of Resthome terms and acronyms and of nursing-home billing: MDA, "
-#~ "eFact, eAgreement, Katz, INAMI package, OA, third-party payer, Annexes."
-#~ msgstr ""
-#~ "Glossaire des termes et sigles de Resthome et de la facturation en maison de"
-#~ " repos : MDA, eFact, eAgreement, Katz, forfait INAMI, OA, tiers payant, "
-#~ "Annexes."
-
-#~ msgid "Annexe 7"
-#~ msgstr "Annexe 7"
-
-#~ msgid ""
-#~ "eHealth **admission agreement** document (coverage) sent to the health "
-#~ "insurance fund at the start of a stay or on a **readmission** after an "
-#~ "absence. See: [Agreements (eAgreement)](belgique/ehealth/eagreement.md)"
-#~ msgstr ""
-#~ "Document eHealth d’**accord d'admission** (prise en charge) transmis à la "
-#~ "mutuelle au démarrage d'un séjour ou lors d'une **réadmission** après une "
-#~ "absence. Voir : [Accords (eAgreement)](belgique/ehealth/eagreement.md)"
-
-#~ msgid "Annexe 10"
-#~ msgstr "Annexe 10"
-
-#~ msgid ""
-#~ "**Care-agreement update** document, prepared upon a validated **Katz "
-#~ "aggravation** (the aggravation reason is carried over into it; the "
-#~ "clinician's signature completes it). See: [The Katz "
-#~ "assessment](belgique/katz.md)"
-#~ msgstr ""
-#~ "Document de **mise à jour de l'accord de soins**, préparé lors d'une "
-#~ "**aggravation Katz** validée (le motif d'aggravation y est repris, la "
-#~ "signature du clinicien le complète). Voir : [L'évaluation "
-#~ "Katz](belgique/katz.md)"
-
-#~ msgid "Annexe 11"
-#~ msgstr "Annexe 11"
-
-#~ msgid ""
-#~ "**Discharge notification** sent to the health insurance fund on an absence "
-#~ "of more than 72 h, a hospitalisation, or an end of stay / a death. See: "
-#~ "[Absences and hospitalisations](facturation/absences.md)"
-#~ msgstr ""
-#~ "**Notification de sortie** transmise à la mutuelle lors d'une absence de "
-#~ "plus de 72 h, d'une hospitalisation, ou d'une fin de séjour / d'un décès. "
-#~ "Voir : [Absences et hospitalisations](facturation/absences.md)"
-
-#~ msgid "BIM (status)"
-#~ msgstr "BIM (statut)"
-
-#~ msgid ""
-#~ "**Increased-reimbursement beneficiary**: a social status granting the right "
-#~ "to better reimbursement. The MDA pulls it automatically onto the resident's "
-#~ "record. See: [Insurability (MDA)](belgique/ehealth/mda.md)"
-#~ msgstr ""
-#~ "**Bénéficiaire de l'intervention majorée** : statut social donnant droit à "
-#~ "un meilleur remboursement. Le MDA le remonte automatiquement sur la fiche de"
-#~ " l'habitant. Voir : [Assurabilité (MDA)](belgique/ehealth/mda.md)"
-
-#~ msgid "eFact Cockpit"
-#~ msgstr "Cockpit eFact"
-
-#~ msgid ""
-#~ "**Monitoring** view for electronic billing: the status of all batches and "
-#~ "transmissions at a glance (transmitted, accepted, rejected, pending). See: "
-#~ "[Electronic billing (eFact)](belgique/ehealth/efact.md)"
-#~ msgstr ""
-#~ "Vue de **pilotage** de la facturation électronique : l'état de tous les lots"
-#~ " et envois d'un coup d'œil (transmis, acceptés, rejetés, en attente). Voir :"
-#~ " [Facturation électronique (eFact)](belgique/ehealth/efact.md)"
-
-#~ msgid "CSJ (day care centre)"
-#~ msgstr "CSJ (centre de soins de jour)"
-
-#~ msgid ""
-#~ "**Day care centre** (*centre de soins de jour*): a centre whose users live "
-#~ "at home and come for the day. Its forfait is paid per day that earns it — "
-#~ "six hours, an arrival by noon — for the CSJ categories **F**, **Fd** and "
-#~ "**D**. See: [Day care centre (CSJ)](belgique/centre-de-jour/index.md)"
-#~ msgstr ""
-#~ "**Centre de soins de jour** : un centre dont les usagers vivent chez eux et "
-#~ "viennent pour la journée. Son forfait est payé par journée qui y donne droit"
-#~ " — six heures, une arrivée avant midi — pour les catégories CSJ **F**, "
-#~ "**Fd** et **D**. Voir : [Centre de soins de jour (CSJ)](belgique/centre-de-"
-#~ "jour/index.md)"
-
-#~ msgid "eAgreement"
-#~ msgstr "eAgreement"
-
-#~ msgid ""
-#~ "**Care coverage agreement** (linked to the Katz category and the package), "
-#~ "exchanged electronically with the health insurance fund via eHealth. See: "
-#~ "[Agreements (eAgreement)](belgique/ehealth/eagreement.md)"
-#~ msgstr ""
-#~ "**Accord de prise en charge des soins** (lié à la catégorie Katz et au "
-#~ "forfait), échangé électroniquement avec la mutuelle via eHealth. Voir : "
-#~ "[Accords (eAgreement)](belgique/ehealth/eagreement.md)"
-
-#~ msgid "eAgreement Light"
-#~ msgstr "eAgreement Light"
-
-#~ msgid ""
-#~ "The **simple notifications** tied to the resident's **movements** "
-#~ "(admission, absence, departure, return) that Resthome generates "
-#~ "automatically as you work. See: [Agreements "
-#~ "(eAgreement)](belgique/ehealth/eagreement.md)"
-#~ msgstr ""
-#~ "Les **notifications simples** liées aux **mouvements** de l'habitant "
-#~ "(admission, absence, départ, retour), que Resthome génère automatiquement au"
-#~ " fil de vos actions. Voir : [Accords "
-#~ "(eAgreement)](belgique/ehealth/eagreement.md)"
-
-#~ msgid "eFact"
-#~ msgstr "eFact"
-
-#~ msgid ""
-#~ "**Electronic** transmission of the **insurer's share** (the INAMI package) "
-#~ "to the health insurers over the eHealth / MyCareNet network, with tracking "
-#~ "of acknowledgements, statements, acceptances and rejections. See: "
-#~ "[Electronic billing (eFact)](belgique/ehealth/efact.md)"
-#~ msgstr ""
-#~ "Envoi **électronique** de la **part mutuelle** (le forfait INAMI) aux "
-#~ "organismes assureurs via le réseau eHealth / MyCareNet, avec suivi des "
-#~ "accusés, décomptes, acceptations et rejets. Voir : [Facturation électronique"
-#~ " (eFact)](belgique/ehealth/efact.md)"
-
-#~ msgid "eHealth"
-#~ msgstr "eHealth"
-
-#~ msgid ""
-#~ "Belgian platform for **secure electronic exchanges** in healthcare. Resthome"
-#~ " uses it for the MDA, the eAgreement and eFact (via MyCareNet / WalCareNet)."
-#~ msgstr ""
-#~ "Plateforme belge d’**échanges électroniques sécurisés** dans les soins de "
-#~ "santé. Resthome l'utilise pour le MDA, l'eAgreement et l'eFact (via "
-#~ "MyCareNet / WalCareNet)."
-
-#~ msgid "INAMI package"
-#~ msgstr "Forfait INAMI"
-
-#~ msgid ""
-#~ "**Daily** amount covered by the health insurance fund for care, determined "
-#~ "by the resident's **Katz category** and calculated on their **days of "
-#~ "presence**. See: [The Katz assessment](belgique/katz.md)"
-#~ msgstr ""
-#~ "Montant **journalier** pris en charge par la mutuelle pour les soins, "
-#~ "déterminé par la **catégorie Katz** de l'habitant et calculé sur ses **jours"
-#~ " de présence**. Voir : [L'évaluation Katz](belgique/katz.md)"
-
-#~ msgid "INAMI"
-#~ msgstr "INAMI"
-
-#~ msgid ""
-#~ "**National Institute for Health and Disability Insurance** (in Dutch: "
-#~ "RIZIV). The federal body that sets the rules and the packages for health-"
-#~ "care insurance."
-#~ msgstr ""
-#~ "**Institut national d'assurance maladie-invalidité** (en néerlandais : "
-#~ "RIZIV). L'organisme fédéral qui fixe les règles et les forfaits de "
-#~ "l'assurance soins de santé."
-
-#~ msgid "Katz (scale)"
-#~ msgstr "Katz (échelle de)"
-
-#~ msgid ""
-#~ "Scale measuring a resident's **degree of dependency** across 6 criteria "
-#~ "(washing, dressing, transfer and mobility, using the toilet, continence, "
-#~ "eating), each rated from 1 to 4. It determines the **category** (**O**, "
-#~ "**A**, **B**, **C**, **Cd / Cc**) and therefore the package. See: [The Katz "
-#~ "assessment](belgique/katz.md)"
-#~ msgstr ""
-#~ "Échelle mesurant le **degré de dépendance** d'un habitant sur 6 critères (se"
-#~ " laver, s'habiller, transfert et déplacements, aller à la toilette, "
-#~ "continence, manger), cotés de 1 à 4. Elle détermine la **catégorie** (**O**,"
-#~ " **A**, **B**, **C**, **Cd / Cc**) et donc le forfait. Voir : [L'évaluation "
-#~ "Katz](belgique/katz.md)"
-
-#~ msgid "eFact batch"
-#~ msgstr "Lot eFact"
-
-#~ msgid ""
-#~ "An **electronic file** grouping the packages of one eFact transmission. "
-#~ "Resthome builds **one batch per insurer union**. See: [Electronic billing "
-#~ "(eFact)](belgique/ehealth/efact.md)"
-#~ msgstr ""
-#~ "Un **fichier électronique** regroupant les forfaits d'un envoi eFact. "
-#~ "Resthome constitue **un lot par union** de mutualités. Voir : [Facturation "
-#~ "électronique (eFact)](belgique/ehealth/efact.md)"
-
-#~ msgid "MDA (insurability)"
-#~ msgstr "MDA (assurabilité)"
-
-#~ msgid ""
-#~ "*Member Data* — the **check of a resident's insurability** and of their "
-#~ "**exact health insurance fund** with MyCareNet / WalCareNet for a given "
-#~ "period. An essential prerequisite for eFact. See: [Insurability "
-#~ "(MDA)](belgique/ehealth/mda.md)"
-#~ msgstr ""
-#~ "*Member Data* — la **vérification de l'assurabilité** d'un habitant et de sa"
-#~ " **mutuelle exacte** auprès de MyCareNet / WalCareNet pour une période "
-#~ "donnée. Préalable indispensable à l'eFact. Voir : [Assurabilité "
-#~ "(MDA)](belgique/ehealth/mda.md)"
-
-#~ msgid "MR / MRS"
-#~ msgstr "MR / MRS"
-
-#~ msgid ""
-#~ "**Rest home** (MR) and **rest and care home** (MRS) — the two types of "
-#~ "residential facility for the elderly, with distinct care levels and "
-#~ "packages. In Dutch: ROB / RVT (grouped under the term *woonzorgcentrum*)."
-#~ msgstr ""
-#~ "**Maison de repos** (MR) et **maison de repos et de soins** (MRS) — les deux"
-#~ " types d'établissement d'hébergement pour personnes âgées, avec des niveaux "
-#~ "de soins et des forfaits distincts. En néerlandais : ROB / RVT (regroupés "
-#~ "sous le terme *woonzorgcentrum*)."
-
-#~ msgid "MyCareNet / WalCareNet"
-#~ msgstr "MyCareNet / WalCareNet"
-
-#~ msgid ""
-#~ "The health insurance funds' **electronic gateways** (via eHealth) that "
-#~ "Resthome queries for the MDA, the eAgreement and eFact. WalCareNet is the "
-#~ "Walloon counterpart."
-#~ msgstr ""
-#~ "Les **guichets électroniques** des mutualités (via eHealth) que Resthome "
-#~ "interroge pour le MDA, l'eAgreement et l'eFact. WalCareNet est le pendant "
-#~ "wallon."
-
-#~ msgid "NISS"
-#~ msgstr "NISS"
-
-#~ msgid ""
-#~ "**Social Security Identification Number** (the national register number). "
-#~ "Essential for sending a resident's MDA and eAgreement agreements. See: "
-#~ "[Managing a resident](residents/gerer-un-resident.md)"
-#~ msgstr ""
-#~ "**Numéro d'identification à la Sécurité sociale** (le numéro de registre "
-#~ "national). Indispensable pour envoyer le MDA et les accords eAgreement d'un "
-#~ "habitant. Voir : [Gérer un habitant](residents/gerer-un-resident.md)"
-
-#~ msgid "Insurer (OA)"
-#~ msgstr "Organisme assureur (OA)"
-
-#~ msgid ""
-#~ "The resident's **health insurance fund**, recipient of the INAMI share via "
-#~ "eFact. Insurers are grouped into large **unions**. See: [Insurability "
-#~ "(MDA)](belgique/ehealth/mda.md)"
-#~ msgstr ""
-#~ "La **mutualité** de l'habitant, destinataire de la part INAMI via l'eFact. "
-#~ "Les OA sont regroupés en grandes **unions**. Voir : [Assurabilité "
-#~ "(MDA)](belgique/ehealth/mda.md)"
-
-#~ msgid "Day place"
-#~ msgstr "Place de jour"
-
-#~ msgid ""
-#~ "A **place in a day room**, shared by the day care users who come on "
-#~ "different days — never a licensed bed. A day care stay only goes in a day "
-#~ "place, and a residential stay never does. See: [Setting up a day care "
-#~ "centre](belgique/centre-de-jour/configuration.md)"
-#~ msgstr ""
-#~ "Une **place dans une salle de jour**, partagée par les usagers du centre de "
-#~ "jour qui viennent à des jours différents — jamais un lit agréé. Un séjour "
-#~ "CSJ ne va que sur une place de jour, et un séjour résidentiel jamais. Voir :"
-#~ " [Configurer un centre de jour](belgique/centre-de-jour/configuration.md)"
-
-#~ msgid "Reintegration"
-#~ msgstr "Réintégration"
-
-#~ msgid ""
-#~ "Shifting lines **from the resident to the health insurance fund** (or the "
-#~ "reverse) when insurability changes between two MDA checks (loss then return "
-#~ "of insurability, for example). See: [Insurability "
-#~ "(MDA)](belgique/ehealth/mda.md)"
-#~ msgstr ""
-#~ "Bascule des lignes **de l'habitant vers la mutuelle** (ou l'inverse) quand "
-#~ "l'assurabilité change entre deux contrôles MDA (perte puis retour "
-#~ "d'assurabilité, par exemple). Voir : [Assurabilité "
-#~ "(MDA)](belgique/ehealth/mda.md)"
-
-#~ msgid "Noon rule"
-#~ msgstr "Règle de midi"
-
-#~ msgid "Insurer union"
-#~ msgstr "Union de mutualités"
-
-#~ msgid ""
-#~ "The large **families of insurers** used to group eFact transmissions: "
-#~ "**100** (Alliance nationale), **300** (Solidaris), **500** (Union "
-#~ "nationale), **600** (CAAMI), **900** (HR Rail)… See: [Electronic billing "
-#~ "(eFact)](belgique/ehealth/efact.md)"
-#~ msgstr ""
-#~ "Les grandes **familles d'organismes assureurs** utilisées pour regrouper les"
-#~ " envois eFact : **100** (Alliance nationale), **300** (Solidaris), **500** "
-#~ "(Union nationale), **600** (CAAMI), **900** (HR Rail)… Voir : [Facturation "
-#~ "électronique (eFact)](belgique/ehealth/efact.md)"
-
-#~ msgid "[The billing journey](belgique/parcours-facturation.md)"
-#~ msgstr "[Le parcours de facturation](belgique/parcours-facturation.md)"

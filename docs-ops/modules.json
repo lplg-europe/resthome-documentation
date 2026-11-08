@@ -1,4 +1,10 @@
 {
+ "gp_practice": {
+  "application": true,
+  "countries": [],
+  "name": "Cabinet de médecine générale",
+  "suite": "general practice"
+ },
  "healthcare_accommodation": {
   "application": false,
   "countries": [],
@@ -17,6 +23,12 @@
   "name": "Healthcare - Accommodation Interventions (Helpdesk)",
   "suite": "platform"
  },
+ "healthcare_accommodation_mobile": {
+  "application": false,
+  "countries": [],
+  "name": "Housekeeping - Field App Bridge",
+  "suite": "platform"
+ },
  "healthcare_accounting_bridge": {
   "application": true,
   "countries": [],
@@ -29,10 +41,46 @@
   "name": "Santé - Patients & Résidents",
   "suite": "platform"
  },
+ "healthcare_billing_core": {
+  "application": false,
+  "countries": [],
+  "name": "Healthcare - Per-Act Billing Core",
+  "suite": "platform"
+ },
+ "healthcare_consultation": {
+  "application": true,
+  "countries": [],
+  "name": "Consultations",
+  "suite": "platform"
+ },
+ "healthcare_consultation_billing": {
+  "application": false,
+  "countries": [],
+  "name": "Consultations - Per-Act Billing",
+  "suite": "platform"
+ },
+ "healthcare_gantt": {
+  "application": false,
+  "countries": [],
+  "name": "Healthcare - Gantt view",
+  "suite": "platform"
+ },
+ "healthcare_industries": {
+  "application": false,
+  "countries": [],
+  "name": "WideCare Industries",
+  "suite": "platform"
+ },
  "healthcare_inspection": {
   "application": true,
   "countries": [],
   "name": "État des lieux",
+  "suite": "platform"
+ },
+ "healthcare_inspection_helpdesk": {
+  "application": false,
+  "countries": [],
+  "name": "Healthcare - Inspection Interventions",
   "suite": "platform"
  },
  "healthcare_medical": {
@@ -45,6 +93,18 @@
   "application": false,
   "countries": [],
   "name": "Healthcare - Absences in the Care app",
+  "suite": "platform"
+ },
+ "healthcare_medical_accommodation": {
+  "application": false,
+  "countries": [],
+  "name": "Healthcare - Care by Room and Sector",
+  "suite": "platform"
+ },
+ "healthcare_medical_planning": {
+  "application": false,
+  "countries": [],
+  "name": "Healthcare - Care Tasks Assigned from the Staff Planning",
   "suite": "platform"
  },
  "healthcare_medication": {
@@ -60,15 +120,51 @@
   "suite": "platform"
  },
  "healthcare_mobile": {
+  "application": true,
+  "countries": [],
+  "name": "Application mobile du personnel",
+  "suite": "platform"
+ },
+ "healthcare_mobile_care": {
   "application": false,
   "countries": [],
-  "name": "Healthcare - Mobile",
+  "name": "Care - Field App Bridge",
+  "suite": "platform"
+ },
+ "healthcare_planning": {
+  "application": true,
+  "countries": [],
+  "name": "Santé - Planning du personnel",
+  "suite": "platform"
+ },
+ "healthcare_planning_attendance": {
+  "application": false,
+  "countries": [],
+  "name": "Healthcare - Planning (Attendances)",
+  "suite": "platform"
+ },
+ "healthcare_planning_gantt": {
+  "application": false,
+  "countries": [],
+  "name": "Healthcare - Planning (Gantt Enterprise)",
+  "suite": "platform"
+ },
+ "healthcare_quality": {
+  "application": false,
+  "countries": [],
+  "name": "Healthcare - Quality Registers",
   "suite": "platform"
  },
  "healthcare_sync": {
   "application": true,
   "countries": [],
   "name": "Santé - Moteur de synchronisation",
+  "suite": "platform"
+ },
+ "healthcare_work_entry_attendance": {
+  "application": false,
+  "countries": [],
+  "name": "Healthcare - Work Entries (Attendances)",
   "suite": "platform"
  },
  "l10n_health_be": {
@@ -101,7 +197,7 @@
    "be"
   ],
   "name": "Belgium - CoBRHA",
-  "suite": "resthome"
+  "suite": "platform"
  },
  "l10n_health_be_connector": {
   "application": true,
@@ -143,12 +239,44 @@
   "name": "MyCareNet eAttest",
   "suite": "platform"
  },
+ "l10n_health_be_eattest_nomenclature": {
+  "application": false,
+  "countries": [
+   "be"
+  ],
+  "name": "Belgium - eAttest x INAMI Nomenclature",
+  "suite": "platform"
+ },
  "l10n_health_be_efact": {
   "application": false,
   "countries": [
    "be"
   ],
   "name": "Belgium - eFact (electronic invoicing)",
+  "suite": "platform"
+ },
+ "l10n_health_be_efact_per_act": {
+  "application": false,
+  "countries": [
+   "be"
+  ],
+  "name": "Belgium - eFact per act (practitioner third-party payment)",
+  "suite": "platform"
+ },
+ "l10n_health_be_ehealthbox": {
+  "application": false,
+  "countries": [
+   "be"
+  ],
+  "name": "Belgium - eHealthBox",
+  "suite": "platform"
+ },
+ "l10n_health_be_ehealthbox_medication": {
+  "application": false,
+  "countries": [
+   "be"
+  ],
+  "name": "Belgium - eHealthBox / Prescriptions",
   "suite": "platform"
  },
  "l10n_health_be_eid": {
@@ -159,6 +287,22 @@
   "name": "Belgium - eID Card Reader",
   "suite": "platform"
  },
+ "l10n_health_be_eid_accommodation": {
+  "application": false,
+  "countries": [
+   "be"
+  ],
+  "name": "Belgium - eID Card Reader on Admissions",
+  "suite": "platform"
+ },
+ "l10n_health_be_gp": {
+  "application": false,
+  "countries": [
+   "be"
+  ],
+  "name": "Belgium - General Practice",
+  "suite": "general practice"
+ },
  "l10n_health_be_mda": {
   "application": false,
   "countries": [
@@ -167,12 +311,28 @@
   "name": "Belgium - MDA (insurability)",
   "suite": "platform"
  },
+ "l10n_health_be_medication": {
+  "application": false,
+  "countries": [
+   "be"
+  ],
+  "name": "Belgium - Medication",
+  "suite": "platform"
+ },
  "l10n_health_be_mediprima": {
   "application": false,
   "countries": [
    "be"
   ],
   "name": "Belgium - MediPrima",
+  "suite": "platform"
+ },
+ "l10n_health_be_nomenclature": {
+  "application": false,
+  "countries": [
+   "be"
+  ],
+  "name": "Belgium - INAMI Nomenclature",
   "suite": "platform"
  },
  "l10n_health_be_perdiem_billing": {
@@ -191,6 +351,14 @@
   "name": "Belgium - Per-diem eHealth",
   "suite": "platform"
  },
+ "l10n_health_be_pmi": {
+  "application": false,
+  "countries": [
+   "be"
+  ],
+  "name": "Belgium - Pharmacy Link (HomeLink)",
+  "suite": "platform"
+ },
  "l10n_health_be_recipe": {
   "application": false,
   "countries": [
@@ -204,8 +372,24 @@
   "countries": [
    "be"
   ],
-  "name": "Belgium - SAM medicines (Widecare service)",
+  "name": "Belgium - SAM medicines",
   "suite": "platform"
+ },
+ "l10n_health_be_serviced_living": {
+  "application": false,
+  "countries": [
+   "be"
+  ],
+  "name": "Serviced Living - Belgium",
+  "suite": "resthome"
+ },
+ "l10n_health_be_serviced_living_perdiem": {
+  "application": false,
+  "countries": [
+   "be"
+  ],
+  "name": "Serviced Living - Belgium - Per-diem Homes",
+  "suite": "resthome"
  },
  "l10n_health_be_sync": {
   "application": false,
@@ -237,6 +421,18 @@
    "lu"
   ],
   "name": "Luxembourg - Healthcare",
+  "suite": "platform"
+ },
+ "lplg_anonymize": {
+  "application": false,
+  "countries": [],
+  "name": "LPLG - Anonymize database copies",
+  "suite": "platform"
+ },
+ "lplg_license": {
+  "application": false,
+  "countries": [],
+  "name": "LPLG License",
   "suite": "platform"
  },
  "lplg_pool_runtime": {
@@ -301,6 +497,14 @@
   "name": "Belgium - Day Care Centre (CSJ) - Care board",
   "suite": "resthome"
  },
+ "resthome_day_care_mobile": {
+  "application": false,
+  "countries": [
+   "be"
+  ],
+  "name": "Belgium - Day Care Centre (CSJ) - Field App Bridge",
+  "suite": "resthome"
+ },
  "resthome_day_care_reporting": {
   "application": false,
   "countries": [
@@ -361,22 +565,30 @@
   "name": "Belgium - Geriatric Care (Katz)",
   "suite": "resthome"
  },
+ "resthome_geriatric_mda": {
+  "application": false,
+  "countries": [
+   "be"
+  ],
+  "name": "Geriatric Care - MDA Palliative Status",
+  "suite": "resthome"
+ },
  "resthome_helpdesk": {
   "application": false,
   "countries": [],
   "name": "RestHome - Bill Interventions",
   "suite": "resthome"
  },
- "resthome_lplg_license": {
-  "application": false,
-  "countries": [],
-  "name": "RestHome - LPLG License",
-  "suite": "platform"
- },
  "resthome_meal": {
   "application": true,
   "countries": [],
   "name": "Gestion des repas",
+  "suite": "resthome"
+ },
+ "resthome_meal_mobile": {
+  "application": false,
+  "countries": [],
+  "name": "Meals - Field App Bridge",
   "suite": "resthome"
  },
  "resthome_meal_supplements": {
@@ -409,12 +621,12 @@
   "name": "Facturation maison de repos (MR/MRS)",
   "suite": "resthome"
  },
- "resthome_mr_ehealth_medication": {
+ "resthome_mr_serviced_living": {
   "application": false,
   "countries": [
    "be"
   ],
-  "name": "RestHome eHealth - Medication (SAM bridge)",
+  "name": "Rest Home + Serviced Living - Moving In",
   "suite": "resthome"
  },
  "resthome_pocket_money": {
@@ -432,7 +644,7 @@
  "resthome_potentia_mobile": {
   "application": false,
   "countries": [],
-  "name": "Potentia - Care App Bridge",
+  "name": "Potentia - Field App Bridge",
   "suite": "resthome"
  },
  "resthome_reporting": {
@@ -459,6 +671,50 @@
   "application": true,
   "countries": [],
   "name": "Suppléments résidents",
+  "suite": "resthome"
+ },
+ "resthome_supplements_pmi": {
+  "application": false,
+  "countries": [
+   "be"
+  ],
+  "name": "RestHome - Supplements / Pharmacy Invoice Link",
+  "suite": "resthome"
+ },
+ "serviced_living": {
+  "application": true,
+  "countries": [],
+  "name": "Résidence-services",
+  "suite": "serviced living"
+ },
+ "serviced_living_billing": {
+  "application": false,
+  "countries": [],
+  "name": "Serviced Living Billing",
+  "suite": "resthome"
+ },
+ "serviced_living_call": {
+  "application": false,
+  "countries": [],
+  "name": "Serviced Living - Calls and Requests",
+  "suite": "resthome"
+ },
+ "serviced_living_care": {
+  "application": false,
+  "countries": [],
+  "name": "Serviced Living - Care",
+  "suite": "serviced living"
+ },
+ "serviced_living_meal": {
+  "application": false,
+  "countries": [],
+  "name": "Serviced Living - Meals",
+  "suite": "resthome"
+ },
+ "serviced_living_mobile": {
+  "application": false,
+  "countries": [],
+  "name": "Serviced Living - Field App",
   "suite": "resthome"
  },
  "widecare_ai": {

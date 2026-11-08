@@ -5,62 +5,111 @@ modules: [resthome_sales, healthcare_accommodation_billing]
 # Supplements
 
 :::{rh-description}
-Bill supplements in Resthome — the resident's supplement envelope, one-off or recurring services, automatic synchronization.
+Bill supplements in Resthome — recurring supplements on the resident's convention, one-time supplements on the monthly envelope, supplement types and automatic synchronisation.
 :::
 
 :::{rh-faq}
-What is a supplement envelope?
-: A per-resident, per-month envelope that gathers all of the resident's supplements. It opens automatically when the stay starts and carries recurring supplements over from month to month.
+What is the difference between a one-time and a recurring supplement?
+: A one-time supplement is billed once, on the month's envelope (a haircut, for instance). A recurring supplement lives on the resident's supplement convention and is billed every month while it is active (single room, TV).
 
-What is the difference between a one-off and a recurring supplement?
-: A one-off supplement is billed once (a haircut, for instance). A recurring supplement is renewed every month as long as it is active (single room, TV) and stops being billed the month after you stop it.
+What is a supplement envelope?
+: A per-resident, per-month document that gathers the resident's one-time supplements. The Envelopes button on the resident's record lists them.
 
 Do I need to refresh the invoice after adding a supplement?
-: No. Adding, editing or removing a supplement automatically updates the affected resident's invoice, and you are notified once it is reflected in the billing.
+: No. With automatic billing refresh turned on, adding, editing or removing a supplement updates the resident's billing of the month on its own.
+
+How do I give a resident a price of their own?
+: On the line of their supplement convention, tick Negotiated price and enter the Unit Price. Unticked, the line follows the official price, including its yearly indexation.
 
 What if the resident's invoice is already posted?
-: The posted invoice is not touched automatically. Set it back to draft or issue a credit note, then refresh.
-
-How do I create supplement envelopes for every resident at once?
-: On a billing period, use the Create supplement envelopes action: it prepares in one click the envelopes for all residents active during the month.
+: The posted invoice is not rewritten. The billing period shows Corrections pending: click Refresh to create the supplementary invoice or credit note.
 :::
 
-Beyond accommodation and the care allowance, a resident may have **supplements** to pay: single room, television, hairdresser, pedicure, drinks, telephone… Resthome groups them into a **supplement envelope** per resident and per month.
+Beyond accommodation and the care allowance, a resident may have **supplements**
+to pay: single room, television, hairdresser, pedicure, drinks, telephone…
+Resthome handles two kinds.
 
-## Supplement envelope
+## Supplement types
 
-For each resident and each period, Resthome keeps an **envelope** that gathers all of their supplements for the month. It is opened automatically when the stay starts, and carries over from month to month for **recurring** supplements.
+Each supplement is a product of the **supplements catalog**
+(**Billing → Configuration → Supplement Types**), with a **Supplement Type**
+that says how it is counted:
 
-## Adding a supplement
+| Supplement type | Billed |
+|---|---|
+| **Monthly** | Once per month. |
+| **One-time** | Once, when it is entered. |
+| **Daily — accommodation days** | Per day of stay: the bed stays reserved during an absence, so it keeps being billed (a single-room supplement). |
+| **Daily — presence days** | Per day the resident is actually there: not billed during an absence (a TV the resident does not watch while in hospital). |
 
-1. Open the resident's **supplement envelope** (from their record or the billing period).
-2. Add a line: **product/service**, **quantity**, **price**.
-3. Indicate whether it is **one-off** (once) or **recurring** (each month).
-4. **Save.**
+The price on the product is the official price. It can be raised every year
+with [price indexation](indexation-des-prix.md).
 
-:::{admonition} Automatic synchronization
-:class: tip
+## Recurring supplements: the convention
 
-Adding, editing or removing a supplement **automatically updates** the affected resident's invoice — no need to click "Refresh". You are notified once the supplement has been properly reflected in the billing.
+A resident's recurring supplements are grouped on **one supplement convention**,
+kept on the **resident** rather than on the stay: it survives a room change or a
+transfer.
+
+On the resident's record, open the **Stay Agreement** tab: the **Recurring
+supplements** section lists them, and the **Supplements** smart button opens
+the convention.
+
+1. Add a line: **product**, **Supplement Type**, **start date**, **quantity**.
+2. To charge this resident a price of their own, tick **Negotiated price** and
+   enter the **Unit Price**.
+3. To stop a line, give it an **end date**, or untick **Active**.
+
+Greyed lines are no longer billed. The **Close supplements** button sets an end
+date on the whole convention; **Reopen supplements** lifts it.
+
+:::{admonition} Nothing without a stay
+:class: note
+
+Recurring supplements start once the resident has a stay. A resident with no
+stay gets no line here, and the section says so.
 :::
 
-## One-off and recurring supplements
+## One-time supplements: the monthly envelope
 
-- **One-off**: billed only once (e.g. a haircut at the hairdresser).
-- **Recurring**: renewed each month as long as it is active (e.g. single-room supplement, TV). You can **stop** it at any time; it stops being billed the following month.
+One-time supplements go on the resident's **envelope** of the month. The
+**Envelopes** smart button on the resident's record lists them, one per month.
 
-:::{admonition} Month already posted
+The quickest way to enter them is the [Supplements app](application-supplements.md):
+click a resident, or select several, and add supplements from the catalog.
+
+:::{admonition} A product under a convention
 :class: warning
 
-If the resident's invoice is **already posted**, adding a supplement does not touch it automatically (protection). Set the invoice back to **draft** (or issue a credit note), then **refresh**.
+In the catalog, a product already covered by the resident's active convention
+cannot be added as a one-time supplement: add it to the convention, or close
+that line first.
 :::
 
-## Creating envelopes in bulk
+:::{admonition} Automatic synchronisation
+:class: tip
 
-On a billing period, the **Create supplement envelopes** action prepares, in one click, the envelopes for all residents active during the month — handy at the start of a period.
+Adding, editing or removing a supplement updates the resident's billing of the
+month on its own, as long as automatic billing refresh is turned on in the
+[billing settings](../configuration/reglages-facturation.md).
+:::
+
+## Envelopes for every resident
+
+Envelopes are opened on their own when the month is generated. To open the
+missing ones of a period in advance, use **Create missing supplement envelopes
+(SOs)** from the gear menu of the billing period.
+
+## When the month is already invoiced
+
+- On a **draft** invoice, **Refresh** (gear menu of the invoice) rebuilds it
+  from the current data, keeping the same invoice.
+- On a **posted** invoice, the change becomes a supplementary invoice or a
+  credit note: the period shows **Corrections pending**, click **Refresh**.
 
 ## Further reading
 
-- [Billing overview](index.md)
+- [The Supplements app](application-supplements.md)
 - [Recharging a vendor bill](refacturation-fournisseur.md)
-- [Absences and hospitalizations](absences.md)
+- [Price indexation](indexation-des-prix.md)
+- [Billing overview](index.md)

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 15:49+0200\n"
+"POT-Creation-Date: 2026-11-08 19:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: nl <LL@li.org>\n"
@@ -26,11 +26,13 @@ msgstr "De geriatrische evaluaties"
 
 #: ../../content/residents/evaluations.md:8
 msgid ""
-"Geriatric scales in the nursing home with Resthome: MMSE, Braden, MNA, OHAT "
-"and Tinetti — entry, score, interpretation and follow-up."
+"Geriatric scales in the nursing home with Resthome: MMSE, Braden, MNA, OHAT,"
+" Tinetti and pain (EVA / DOLOPLUS-2) — entry, score, interpretation, "
+"validation and follow-up."
 msgstr ""
 "De geriatrische schalen in het woonzorgcentrum met Resthome: MMSE, Braden, "
-"MNA, OHAT en Tinetti — invoer, score, interpretatie en opvolging."
+"MNA, OHAT, Tinetti en pijn (VAS / DOLOPLUS-2) — invoer, score, "
+"interpretatie, validatie en opvolging."
 
 #: ../../content/residents/evaluations.md:12
 msgid "Which geriatric scales does Resthome offer?"
@@ -38,27 +40,27 @@ msgstr "Welke geriatrische schalen biedt Resthome?"
 
 #: ../../content/residents/evaluations.md:13
 msgid ""
-"Five standard scales on the resident's « Evaluation Tools » tab: MMSE "
-"(cognition), Braden (pressure ulcer risk), MNA (nutritional status), OHAT "
-"(oral health) and Tinetti (balance, gait and fall risk)."
+"Six: MMSE (cognition), Braden (pressure ulcer risk), MNA (nutrition), OHAT "
+"(oral health), Tinetti (balance and gait) and pain, on the EVA or DOLOPLUS-2"
+" scale."
 msgstr ""
-"Vijf standaardschalen op het tabblad « Evaluation Tools » van de bewoner: "
-"MMSE (cognitie), Braden (decubitusrisico), MNA (voedingstoestand), OHAT "
-"(mondgezondheid) en Tinetti (evenwicht, gang en valrisico)."
+"Zes: MMSE (cognitie), Braden (decubitusrisico), MNA (voeding), OHAT "
+"(mondgezondheid), Tinetti (evenwicht en gang) en pijn, op de VAS- of "
+"DOLOPLUS-2-schaal."
 
 #: ../../content/residents/evaluations.md:15
-msgid "Where do you enter a geriatric assessment in Resthome?"
+msgid "Where do I enter a geriatric assessment?"
 msgstr "Waar voer ik een geriatrische evaluatie in?"
 
 #: ../../content/residents/evaluations.md:16
 msgid ""
-"From the resident's record, « Evaluation Tools » tab, or via the Healthcare "
-"> Evaluation Tools menu. Each scale has its own list and its own guided "
-"form."
+"On the resident's record, **Evaluation** tab, for the first five scales; or "
+"in **Nursing Care → Evaluation Tools**, which has one entry per scale, pain "
+"included."
 msgstr ""
-"Vanuit de bewonersfiche, tabblad « Evaluation Tools », of via het menu "
-"Healthcare > Evaluation Tools. Elke schaal heeft een eigen lijst en een "
-"begeleid formulier."
+"Op de bewonersfiche, tabblad **Evaluatie**, voor de eerste vijf schalen; of "
+"in **Zorg → Evaluatiehulpmiddelen**, met één ingang per schaal, pijn "
+"inbegrepen."
 
 #: ../../content/residents/evaluations.md:18
 msgid "Who can validate an assessment?"
@@ -66,99 +68,91 @@ msgstr "Wie mag een evaluatie valideren?"
 
 #: ../../content/residents/evaluations.md:19
 msgid ""
-"Any user can enter and confirm it, but only the head nurse or the physician "
-"can validate it. A validated assessment is locked: you have to reset it to "
-"draft to correct it."
+"Anyone with access can enter and confirm it; the head nurse or the physician"
+" validates it. A validated assessment is locked."
 msgstr ""
-"Iedereen kan invoeren en bevestigen, maar enkel de hoofdverpleegkundige of "
-"de arts kan valideren. Een gevalideerde evaluatie is vergrendeld: zet ze "
-"terug naar concept om te corrigeren."
+"Iedereen met toegang kan ze invoeren en bevestigen; de hoofdverpleegkundige "
+"of de arts valideert ze. Een gevalideerde evaluatie is vergrendeld."
 
 #: ../../content/residents/evaluations.md:21
-msgid "How do you interpret a low Braden score?"
-msgstr "Hoe interpreteer ik een lage Braden-score?"
+msgid "How do I correct a validated assessment?"
+msgstr "Hoe corrigeer ik een gevalideerde evaluatie?"
 
 #: ../../content/residents/evaluations.md:22
 msgid ""
-"On the Braden scale, the lower the score, the higher the pressure ulcer "
-"risk: 19-23 no risk, 15-18 mild risk, 13-14 moderate, 10-12 high, 9 or less "
-"very high."
+"Cancel it, then the head nurse resets it to draft, corrects it and confirms "
+"it again. The history keeps every step."
 msgstr ""
-"Bij Braden geldt: hoe lager de score, hoe hoger het decubitusrisico: 19-23 "
-"geen risico, 15-18 licht, 13-14 matig, 10-12 hoog, 9 of minder zeer hoog."
+"Annuleer ze, waarna de hoofdverpleegkundige ze terugzet naar concept, ze "
+"corrigeert en opnieuw bevestigt. De geschiedenis bewaart elke stap."
 
 #: ../../content/residents/evaluations.md:24
-msgid "How do you reassess a resident?"
-msgstr "Hoe her-evalueer ik een bewoner?"
+msgid "How do I see every assessment still waiting for validation?"
+msgstr "Hoe zie ik alle evaluaties die nog op validatie wachten?"
 
 #: ../../content/residents/evaluations.md:25
 msgid ""
-"Enter a new assessment on a new date (one per day and per scale); the full "
-"history is kept. For a periodic reassessment cycle with a due date, use the "
-"clinical registers."
+"**Nursing Care → Medical → Assessments → Evaluations to Validate** lists the"
+" drafts and confirmed assessments of every scale, by resident and evaluator."
 msgstr ""
-"Voer een nieuwe evaluatie in op een nieuwe datum (één per dag en per "
-"schaal); de volledige geschiedenis blijft bewaard. Voor een periodieke her-"
-"evaluatiecyclus met vervaldatum gebruikt u de klinische registers."
+"**Zorg → Medisch → Evaluaties → Te valideren evaluaties** toont de concepten"
+" en de bevestigde evaluaties van alle schalen, per bewoner en per "
+"beoordelaar."
 
 #: ../../content/residents/evaluations.md:27
-msgid "Is the Morse scale (fall risk) available?"
-msgstr "Is de Morse-schaal (valrisico) beschikbaar?"
+msgid "How do I reassess a resident?"
+msgstr "Hoe herevalueer ik een bewoner?"
 
 #: ../../content/residents/evaluations.md:28
 msgid ""
-"The « Evaluation Tools » tab offers Tinetti for balance and gait. The Morse "
-"scale and the falls register are found in the clinical registers of the care"
-" module."
+"Enter a new assessment on a new date — one per day and per scale. The "
+"history of each scale is kept."
 msgstr ""
-"Het tabblad « Evaluation Tools » biedt Tinetti voor evenwicht en gang. De "
-"Morse-schaal en het valregister vindt u in de klinische registers van de "
-"zorgmodule."
+"Voer een nieuwe evaluatie in op een nieuwe datum — één per dag en per "
+"schaal. De geschiedenis van elke schaal blijft bewaard."
 
 #: ../../content/residents/evaluations.md:31
 msgid ""
-"Beyond the dependency assessment, which follows the scale of each country, "
-"Resthome brings together the main **geriatric scales** used in the nursing "
-"home to objectively measure cognition, pressure ulcer risk, nutritional "
-"status, oral health and fall risk. You will find them in two places:"
+"Beyond the dependency assessment, which follows each country's scale, "
+"Resthome gathers the main **geriatric scales** of the nursing home, to "
+"measure cognition, pressure ulcer risk, nutrition, oral health, falls and "
+"pain. You find them in two places:"
 msgstr ""
 "Naast de afhankelijkheidsevaluatie, die de schaal van elk land volgt, "
-"bundelt Resthome de belangrijkste **geriatrische schalen** die in een "
-"woonzorgcentrum worden gebruikt om de cognitie, het decubitusrisico, de "
-"voedingstoestand, de mondgezondheid en het valrisico te objectiveren. U "
-"vindt ze op twee plaatsen:"
+"bundelt Resthome de belangrijkste **geriatrische schalen** van het "
+"woonzorgcentrum, om cognitie, decubitusrisico, voeding, mondgezondheid, "
+"vallen en pijn te meten. U vindt ze op twee plaatsen:"
 
-#: ../../content/residents/evaluations.md:37
+#: ../../content/residents/evaluations.md:36
 msgid ""
-"on the **resident's record**, the **« Evaluation Tools »** tab, where each "
-"scale shows the resident's history and allows direct entry;"
+"on the **resident's record**, the **Evaluation** tab: the history of each "
+"scale and direct entry — shown to the care roles;"
 msgstr ""
-"op de **bewonersfiche**, tabblad **« Evaluation Tools »**, waar elke schaal "
-"de geschiedenis van de bewoner toont en directe invoer toelaat;"
+"op de **bewonersfiche**, het tabblad **Evaluatie**: de geschiedenis van elke"
+" schaal en directe invoer — getoond aan de zorgrollen;"
 
-#: ../../content/residents/evaluations.md:39
+#: ../../content/residents/evaluations.md:38
 msgid ""
-"via the **Healthcare > Evaluation Tools** menu, which lists all the "
-"assessments in the facility, scale by scale."
+"in **Nursing Care → Evaluation Tools**, one list per scale for the whole "
+"house."
 msgstr ""
-"via het menu **Healthcare > Evaluation Tools**, dat alle evaluaties van de "
-"voorziening per schaal oplijst."
+"in **Zorg → Evaluatiehulpmiddelen**, één lijst per schaal voor het hele "
+"huis."
 
-#: ../../content/residents/evaluations.md:42
+#: ../../content/residents/evaluations.md:41
 msgid ""
-"![Evaluation tab of the resident record, with one button per assessment "
+"![Evaluation tab of the resident record, with the history of each "
 "scale](../assets/screenshots/residents/outils-evaluation.png)"
 msgstr ""
-"![Tabblad Evaluatie van de bewonersfiche, met één knop per "
-"beoordelingsschaal](../assets/screenshots/residents/outils-evaluation.png)"
+"![Tabblad Evaluatie van de bewonersfiche, met de geschiedenis van elke "
+"schaal](../assets/screenshots/residents/outils-evaluation.png)"
 
-#: ../../content/residents/evaluations.md:42
-msgid ""
-"Evaluation tab of the resident record, with one button per assessment scale"
+#: ../../content/residents/evaluations.md:41
+msgid "Evaluation tab of the resident record, with the history of each scale"
 msgstr ""
-"Tabblad Evaluatie van de bewonersfiche, met één knop per beoordelingsschaal"
+"Tabblad Evaluatie van de bewonersfiche, met de geschiedenis van elke schaal"
 
-#: ../../content/residents/evaluations.md:44
+#: ../../content/residents/evaluations.md:43
 msgid "Available scales"
 msgstr "De beschikbare schalen"
 
@@ -171,15 +165,15 @@ msgid "What it measures"
 msgstr "Wat ze meet"
 
 #: ../../content/residents/evaluations.md:11
-#: ../../content/residents/evaluations.md:63
-#: ../../content/residents/evaluations.md:136
-#: ../../content/residents/evaluations.md:160
+#: ../../content/residents/evaluations.md:65
+#: ../../content/residents/evaluations.md:129
+#: ../../content/residents/evaluations.md:152
 msgid "Score"
 msgstr "Score"
 
 #: ../../content/residents/evaluations.md:11
-msgid "Meaning"
-msgstr "Betekenis"
+msgid "Reading"
+msgstr "Lezing"
 
 #: ../../content/residents/evaluations.md:11
 msgid "**MMSE**"
@@ -206,8 +200,8 @@ msgid "Pressure ulcer risk"
 msgstr "Decubitusrisico"
 
 #: ../../content/residents/evaluations.md:11
-msgid "/23"
-msgstr "/23"
+msgid "6–23"
+msgstr "6–23"
 
 #: ../../content/residents/evaluations.md:11
 msgid "Lower = more at risk"
@@ -218,7 +212,7 @@ msgid "**MNA**"
 msgstr "**MNA**"
 
 #: ../../content/residents/evaluations.md:11
-#: ../../content/residents/evaluations.md:63
+#: ../../content/residents/evaluations.md:65
 msgid "Nutritional status"
 msgstr "Voedingstoestand"
 
@@ -231,6 +225,7 @@ msgid "**OHAT**"
 msgstr "**OHAT**"
 
 #: ../../content/residents/evaluations.md:11
+#: ../../content/residents/evaluations.md:129
 msgid "Oral health"
 msgstr "Mondgezondheid"
 
@@ -254,27 +249,52 @@ msgstr "Evenwicht en gang (val)"
 msgid "/28"
 msgstr "/28"
 
+#: ../../content/residents/evaluations.md:11
+msgid "**Pain**"
+msgstr "**Pijn**"
+
+#: ../../content/residents/evaluations.md:11
+msgid "Pain, self-reported or observed"
+msgstr "Pijn, zelf gerapporteerd of geobserveerd"
+
+#: ../../content/residents/evaluations.md:11
+msgid "/10 or /30"
+msgstr "/10 of /30"
+
+#: ../../content/residents/evaluations.md:11
+msgid "Higher = more pain"
+msgstr "Hoger = meer pijn"
+
 #: ../../content/residents/evaluations.md:54
+msgid ""
+"The first five are on the resident's **Evaluation** tab; **Pain** is entered"
+" from **Nursing Care → Evaluation Tools**, then **Pain (EVA / DOLOPLUS-2)**."
+msgstr ""
+"De eerste vijf staan op het tabblad **Evaluatie** van de bewoner; **Pijn** "
+"wordt ingevoerd via **Zorg → Evaluatiehulpmiddelen**, en dan **Pijn (VAS / "
+"DOLOPLUS-2)**."
+
+#: ../../content/residents/evaluations.md:57
 msgid "The dependency category stays separate"
 msgstr "De afhankelijkheidscategorie staat apart"
 
-#: ../../content/residents/evaluations.md:57
+#: ../../content/residents/evaluations.md:60
 msgid ""
 "The dependency scale determines the **dependency category**, on which the "
 "care allowance paid by the health insurer relies; it follows the country's "
-"rules and its own renewal cycle. The five scales below are international and"
-" do not change that category."
+"rules and its own renewal cycle. The scales on this page do not change that "
+"category."
 msgstr ""
 "De afhankelijkheidsschaal bepaalt de **afhankelijkheidscategorie**, waarop "
 "het zorgforfait betaald door de zorgverzekeraar steunt; ze volgt de regels "
-"van het land en haar eigen hernieuwingscyclus. De vijf schalen hieronder "
-"zijn internationaal en wijzigen die categorie niet."
+"van het land en haar eigen hernieuwingscyclus. De schalen op deze pagina "
+"wijzigen die categorie niet."
 
-#: ../../content/residents/evaluations.md:63
+#: ../../content/residents/evaluations.md:65
 msgid "In Belgium"
 msgstr "In België"
 
-#: ../../content/residents/evaluations.md:66
+#: ../../content/residents/evaluations.md:68
 msgid ""
 "The dependency scale is **Katz**, with its categories, its renewal due date "
 "and its reminders — see [The Katz assessment](../belgique/katz.md)."
@@ -283,203 +303,184 @@ msgstr ""
 "hernieuwingsdatum en haar herinneringen — zie [De Katz-"
 "evaluatie](../belgique/katz.md)."
 
-#: ../../content/residents/evaluations.md:70
+#: ../../content/residents/evaluations.md:72
 msgid "MMSE — cognitive function"
 msgstr "MMSE — cognitieve functies"
 
-#: ../../content/residents/evaluations.md:72
+#: ../../content/residents/evaluations.md:74
 msgid ""
-"The **MMSE** (Mini Mental State Examination) is a standard cognitive "
-"screening test out of **30 points**. You tick each successful item, spread "
-"across 7 domains:"
+"Menu: **Nursing Care → Evaluation Tools**, then **MMSE (Mini Mental "
+"State)**."
 msgstr ""
-"De **MMSE** (Mini Mental State Examination) is een standaard cognitieve "
-"screeningstest op **30 punten**. U vinkt elk geslaagd item aan, verdeeld "
-"over 7 domeinen:"
+"Menu: **Zorg → Evaluatiehulpmiddelen**, en dan **MMSE (mini-mentale "
+"toestand)**."
 
-#: ../../content/residents/evaluations.md:63
+#: ../../content/residents/evaluations.md:76
+msgid ""
+"The **MMSE** is a cognitive screening test out of **30 points**. Tick each "
+"item passed, across 7 domains:"
+msgstr ""
+"De **MMSE** is een cognitieve screeningstest op **30 punten**. Vink elk "
+"geslaagd item aan, verdeeld over 7 domeinen:"
+
+#: ../../content/residents/evaluations.md:65
 msgid "Domain"
 msgstr "Domein"
 
-#: ../../content/residents/evaluations.md:63
+#: ../../content/residents/evaluations.md:65
 msgid "Points"
 msgstr "Punten"
 
-#: ../../content/residents/evaluations.md:63
+#: ../../content/residents/evaluations.md:65
 msgid "Orientation in time"
 msgstr "Oriëntatie in de tijd"
 
-#: ../../content/residents/evaluations.md:63
+#: ../../content/residents/evaluations.md:65
 msgid "5"
 msgstr "5"
 
-#: ../../content/residents/evaluations.md:63
+#: ../../content/residents/evaluations.md:65
 msgid "Orientation in space"
 msgstr "Oriëntatie in de ruimte"
 
-#: ../../content/residents/evaluations.md:63
+#: ../../content/residents/evaluations.md:65
 msgid "Registration (3 words)"
 msgstr "Inprenting (3 woorden)"
 
-#: ../../content/residents/evaluations.md:63
+#: ../../content/residents/evaluations.md:65
 msgid "3"
 msgstr "3"
 
-#: ../../content/residents/evaluations.md:63
+#: ../../content/residents/evaluations.md:65
 msgid "Attention and calculation"
 msgstr "Aandacht en rekenen"
 
-#: ../../content/residents/evaluations.md:63
+#: ../../content/residents/evaluations.md:65
 msgid "Recall (3 words)"
 msgstr "Herinnering (3 woorden)"
 
-#: ../../content/residents/evaluations.md:63
+#: ../../content/residents/evaluations.md:65
 msgid "Language"
 msgstr "Taal"
 
-#: ../../content/residents/evaluations.md:63
+#: ../../content/residents/evaluations.md:65
 msgid "8"
 msgstr "8"
 
-#: ../../content/residents/evaluations.md:63
+#: ../../content/residents/evaluations.md:65
 msgid "Visuo-constructive praxis"
 msgstr "Visueel-constructieve praxis"
 
-#: ../../content/residents/evaluations.md:63
+#: ../../content/residents/evaluations.md:65
 msgid "1"
 msgstr "1"
 
-#: ../../content/residents/evaluations.md:85
-msgid "Resthome adds up the ticked items and displays the interpretation:"
-msgstr "Resthome telt de aangevinkte items op en toont de interpretatie:"
-
-#: ../../content/residents/evaluations.md:63
+#: ../../content/residents/evaluations.md:65
 msgid "Interpretation"
 msgstr "Interpretatie"
 
-#: ../../content/residents/evaluations.md:63
-msgid "27-30"
-msgstr "27-30"
+#: ../../content/residents/evaluations.md:65
+msgid "27–30"
+msgstr "27–30"
 
-#: ../../content/residents/evaluations.md:63
+#: ../../content/residents/evaluations.md:65
 msgid "Normal"
 msgstr "Normaal"
 
-#: ../../content/residents/evaluations.md:63
-msgid "21-26"
-msgstr "21-26"
+#: ../../content/residents/evaluations.md:65
+msgid "21–26"
+msgstr "21–26"
 
-#: ../../content/residents/evaluations.md:63
+#: ../../content/residents/evaluations.md:65
 msgid "Mild cognitive impairment"
 msgstr "Lichte cognitieve stoornis"
 
-#: ../../content/residents/evaluations.md:63
-msgid "11-20"
-msgstr "11-20"
+#: ../../content/residents/evaluations.md:65
+msgid "11–20"
+msgstr "11–20"
 
-#: ../../content/residents/evaluations.md:63
+#: ../../content/residents/evaluations.md:65
 msgid "Moderate cognitive impairment"
 msgstr "Matige cognitieve stoornis"
 
-#: ../../content/residents/evaluations.md:63
-msgid "0-10"
-msgstr "0-10"
+#: ../../content/residents/evaluations.md:65
+msgid "0–10"
+msgstr "0–10"
 
-#: ../../content/residents/evaluations.md:63
+#: ../../content/residents/evaluations.md:65
 msgid "Severe cognitive impairment"
 msgstr "Ernstige cognitieve stoornis"
 
-#: ../../content/residents/evaluations.md:94
+#: ../../content/residents/evaluations.md:96
 msgid "Braden — pressure ulcer risk"
 msgstr "Braden — decubitusrisico"
 
-#: ../../content/residents/evaluations.md:96
+#: ../../content/residents/evaluations.md:98
 msgid ""
-"The **Braden** scale predicts **pressure ulcer risk**. You score **6 "
-"subscales** (radio buttons):"
+"Menu: **Nursing Care → Evaluation Tools**, then **Braden (Pressure Sore "
+"Risk)**."
 msgstr ""
-"De **Braden-schaal** voorspelt het **decubitusrisico**. U scoort **6 "
-"subschalen** (radioknoppen):"
-
-#: ../../content/residents/evaluations.md:99
-msgid "Sensory perception (1-4)"
-msgstr "Sensorische waarneming (1-4)"
+"Menu: **Zorg → Evaluatiehulpmiddelen**, en dan **Braden (risico op "
+"drukpijn)**."
 
 #: ../../content/residents/evaluations.md:100
-msgid "Skin moisture (1-4)"
-msgstr "Vochtigheid van de huid (1-4)"
-
-#: ../../content/residents/evaluations.md:101
-msgid "Activity (1-4)"
-msgstr "Activiteit (1-4)"
-
-#: ../../content/residents/evaluations.md:102
-msgid "Mobility (1-4)"
-msgstr "Mobiliteit (1-4)"
-
-#: ../../content/residents/evaluations.md:103
-msgid "Nutrition (1-4)"
-msgstr "Voeding (1-4)"
-
-#: ../../content/residents/evaluations.md:104
-msgid "Friction and shear (1-3)"
-msgstr "Wrijving en schuifkracht (1-3)"
-
-#: ../../content/residents/evaluations.md:106
 msgid ""
-"The total ranges from 6 to 23. **Warning: the lower the score, the higher "
-"the risk.**"
+"Score **6 subscales**: sensory perception (1–4), moisture (1–4), activity "
+"(1–4), mobility (1–4), nutrition (1–4), friction and shear (1–3). The total "
+"runs from 6 to 23. **The lower the score, the higher the risk.**"
 msgstr ""
-"Het totaal loopt van 6 tot 23. **Let op: hoe lager de score, hoe hoger het "
+"Scoor **6 subschalen**: zintuiglijke waarneming (1–4), vochtigheid (1–4), "
+"activiteit (1–4), mobiliteit (1–4), voeding (1–4), wrijving en schuifkracht "
+"(1–3). Het totaal loopt van 6 tot 23. **Hoe lager de score, hoe hoger het "
 "risico.**"
 
-#: ../../content/residents/evaluations.md:63
+#: ../../content/residents/evaluations.md:65
 msgid "Risk level"
 msgstr "Risiconiveau"
 
-#: ../../content/residents/evaluations.md:63
-msgid "19-23"
-msgstr "19-23"
+#: ../../content/residents/evaluations.md:65
+msgid "19–23"
+msgstr "19–23"
 
-#: ../../content/residents/evaluations.md:63
+#: ../../content/residents/evaluations.md:65
 msgid "No risk"
 msgstr "Geen risico"
 
-#: ../../content/residents/evaluations.md:63
-msgid "15-18"
-msgstr "15-18"
+#: ../../content/residents/evaluations.md:65
+msgid "15–18"
+msgstr "15–18"
 
-#: ../../content/residents/evaluations.md:63
+#: ../../content/residents/evaluations.md:65
 msgid "Mild risk"
 msgstr "Licht risico"
 
-#: ../../content/residents/evaluations.md:63
-msgid "13-14"
-msgstr "13-14"
+#: ../../content/residents/evaluations.md:65
+msgid "13–14"
+msgstr "13–14"
 
-#: ../../content/residents/evaluations.md:63
-#: ../../content/residents/evaluations.md:160
+#: ../../content/residents/evaluations.md:65
+#: ../../content/residents/evaluations.md:152
 msgid "Moderate risk"
 msgstr "Matig risico"
 
-#: ../../content/residents/evaluations.md:63
-msgid "10-12"
-msgstr "10-12"
+#: ../../content/residents/evaluations.md:65
+msgid "10–12"
+msgstr "10–12"
 
-#: ../../content/residents/evaluations.md:63
-#: ../../content/residents/evaluations.md:160
+#: ../../content/residents/evaluations.md:65
+#: ../../content/residents/evaluations.md:152
 msgid "High risk"
 msgstr "Hoog risico"
 
-#: ../../content/residents/evaluations.md:63
+#: ../../content/residents/evaluations.md:65
 msgid "9 or less"
 msgstr "9 of minder"
 
-#: ../../content/residents/evaluations.md:63
+#: ../../content/residents/evaluations.md:65
 msgid "Very high risk"
 msgstr "Zeer hoog risico"
 
-#: ../../content/residents/evaluations.md:116
+#: ../../content/residents/evaluations.md:112
 msgid ""
 "![Braden assessments list: the total score and the risk level as a colored "
 "badge, from No risk to Very high "
@@ -489,7 +490,7 @@ msgstr ""
 "gekleurd label, van Geen risico tot Zeer hoog "
 "risico](../assets/screenshots/katz/03-braden.png)"
 
-#: ../../content/residents/evaluations.md:116
+#: ../../content/residents/evaluations.md:112
 msgid ""
 "Braden assessments list: the total score and the risk level as a colored "
 "badge, from No risk to Very high risk"
@@ -497,383 +498,481 @@ msgstr ""
 "Lijst van Braden-evaluaties: de totale score en het risiconiveau als "
 "gekleurd label, van Geen risico tot Zeer hoog risico"
 
-#: ../../content/residents/evaluations.md:118
+#: ../../content/residents/evaluations.md:114
 msgid "MNA — nutritional status"
 msgstr "MNA — voedingstoestand"
 
-#: ../../content/residents/evaluations.md:120
+#: ../../content/residents/evaluations.md:116
 msgid ""
-"The **MNA** (Mini Nutritional Assessment, short form) screens for "
-"**malnutrition risk** out of **14 points**, from 6 questions:"
+"Menu: **Nursing Care → Evaluation Tools**, then **MNA (Nutritional "
+"Assessment)**."
 msgstr ""
-"De **MNA** (Mini Nutritional Assessment, korte vorm) screent het **risico op"
-" ondervoeding** op **14 punten**, aan de hand van 6 vragen:"
+"Menu: **Zorg → Evaluatiehulpmiddelen**, en dan **MNA "
+"(voedingsbeoordeling)**."
 
-#: ../../content/residents/evaluations.md:123
-msgid "Reduced food intake over the past 3 months (0-2)"
-msgstr "Verminderde voedselinname over 3 maanden (0-2)"
+#: ../../content/residents/evaluations.md:118
+msgid ""
+"The **MNA** short form screens for **malnutrition** out of **14 points**, "
+"from 6 questions: reduced food intake over 3 months (0–2), recent weight "
+"loss (0–3), mobility (0–2), acute illness or psychological stress (0 or 2), "
+"neuropsychological problems (0–2) and body mass index (0–3)."
+msgstr ""
+"De korte vorm van de **MNA** screent op **ondervoeding** op **14 punten**, "
+"aan de hand van 6 vragen: verminderde voedselinname over 3 maanden (0–2), "
+"recent gewichtsverlies (0–3), mobiliteit (0–2), acute ziekte of "
+"psychologische stress (0 of 2), neuropsychologische problemen (0–2) en body-"
+"mass-index (0–3)."
 
-#: ../../content/residents/evaluations.md:124
-msgid "Recent weight loss (0-3)"
-msgstr "Recent gewichtsverlies (0-3)"
+#: ../../content/residents/evaluations.md:65
+msgid "12–14"
+msgstr "12–14"
 
-#: ../../content/residents/evaluations.md:125
-msgid "Mobility (0-2)"
-msgstr "Mobiliteit (0-2)"
+#: ../../content/residents/evaluations.md:65
+msgid "8–11"
+msgstr "8–11"
 
-#: ../../content/residents/evaluations.md:126
-msgid "Acute illness / psychological stress (0 or 2)"
-msgstr "Acute ziekte / psychologische stress (0 of 2)"
-
-#: ../../content/residents/evaluations.md:127
-msgid "Neuropsychological problems (0-2)"
-msgstr "Neuropsychologische problemen (0-2)"
-
-#: ../../content/residents/evaluations.md:128
-msgid "Body mass index — BMI (0-3)"
-msgstr "Body Mass Index — BMI (0-3)"
-
-#: ../../content/residents/evaluations.md:63
-msgid "12-14"
-msgstr "12-14"
-
-#: ../../content/residents/evaluations.md:63
-msgid "8-11"
-msgstr "8-11"
-
-#: ../../content/residents/evaluations.md:63
+#: ../../content/residents/evaluations.md:65
 msgid "At risk of malnutrition"
 msgstr "Risico op ondervoeding"
 
-#: ../../content/residents/evaluations.md:63
-msgid "0-7"
-msgstr "0-7"
+#: ../../content/residents/evaluations.md:65
+msgid "0–7"
+msgstr "0–7"
 
-#: ../../content/residents/evaluations.md:63
+#: ../../content/residents/evaluations.md:65
 msgid "Malnourished"
 msgstr "Ondervoed"
 
-#: ../../content/residents/evaluations.md:136
+#: ../../content/residents/evaluations.md:129
 msgid "Nutritional follow-up"
 msgstr "Voedingsopvolging"
 
-#: ../../content/residents/evaluations.md:139
+#: ../../content/residents/evaluations.md:132
 msgid ""
-"Malnutrition follow-up (MNA re-scoring reminders, intake vs needs, "
-"hydration) relies on the clinical registers and the care module. See [The "
-"clinical registers](../soins/registres.md)."
+"Weight, intake and hydration follow-up are part of the care and meals apps —"
+" see [The clinical registers](../soins/registres.md) and [Nutritional "
+"follow-up](../repas/suivi-nutritionnel.md)."
 msgstr ""
-"De opvolging van ondervoeding (herinneringen om de MNA opnieuw te scoren, "
-"inname vs behoeften, hydratatie) steunt op de klinische registers en de "
-"zorgmodule. Zie [De klinische registers](../soins/registres.md)."
+"De opvolging van gewicht, inname en hydratatie hoort bij de zorg- en "
+"maaltijdapps — zie [Klinische registers](../soins/registres.md) en "
+"[Nutritionele opvolging en ondervoeding](../repas/suivi-nutritionnel.md)."
 
-#: ../../content/residents/evaluations.md:144
+#: ../../content/residents/evaluations.md:137
 msgid "OHAT — oral health"
 msgstr "OHAT — mondgezondheid"
 
-#: ../../content/residents/evaluations.md:146
+#: ../../content/residents/evaluations.md:139
 msgid ""
-"The **OHAT** (Oral Health Assessment Tool) assesses **oral health** across "
-"**8 categories**, scored from 0 (healthy) to 2 (needs treatment): lips, "
-"tongue, gums and tissues, saliva, natural teeth, dentures, oral cleanliness "
-"and dental pain."
+"Menu: **Nursing Care → Evaluation Tools**, then **OHAT (Oral Health)**."
 msgstr ""
-"De **OHAT** (Oral Health Assessment Tool) beoordeelt de **mondgezondheid** "
-"in **8 categorieën**, gescoord van 0 (gezond) tot 2 (te behandelen): lippen,"
-" tong, tandvlees en weefsels, speeksel, natuurlijke tanden, prothesen, "
-"mondhygiëne en tandpijn."
+"Menu: **Zorg → Evaluatiehulpmiddelen**, en dan **OHAT (mondgezondheid)**."
 
-#: ../../content/residents/evaluations.md:151
+#: ../../content/residents/evaluations.md:141
 msgid ""
-"The total ranges from 0 to 16. **Here, the higher the score, the more "
-"concerning the situation.**"
+"The **OHAT** scores **8 categories** from 0 (healthy) to 2 (needs "
+"treatment): lips, tongue, gums and tissues, saliva, natural teeth, dentures,"
+" oral cleanliness and dental pain. The total runs from 0 to 16. **The higher"
+" the score, the more concerning the situation.**"
 msgstr ""
-"Het totaal loopt van 0 tot 16. **Hier geldt: hoe hoger de score, hoe "
-"zorgwekkender de situatie.**"
+"De **OHAT** scoort **8 categorieën** van 0 (gezond) tot 2 (te behandelen): "
+"lippen, tong, tandvlees en weefsels, speeksel, natuurlijke tanden, "
+"kunstgebit, mondhygiëne en tandpijn. Het totaal loopt van 0 tot 16. **Hoe "
+"hoger de score, hoe zorgwekkender de situatie.**"
 
-#: ../../content/residents/evaluations.md:136
-msgid "Oral health status"
-msgstr "Mondgezondheid"
+#: ../../content/residents/evaluations.md:129
+msgid "0–3"
+msgstr "0–3"
 
-#: ../../content/residents/evaluations.md:136
-msgid "0-3"
-msgstr "0-3"
-
-#: ../../content/residents/evaluations.md:136
+#: ../../content/residents/evaluations.md:129
 msgid "Healthy"
 msgstr "Gezond"
 
-#: ../../content/residents/evaluations.md:136
-msgid "4-8"
-msgstr "4-8"
+#: ../../content/residents/evaluations.md:129
+msgid "4–8"
+msgstr "4–8"
 
-#: ../../content/residents/evaluations.md:136
+#: ../../content/residents/evaluations.md:129
 msgid "Changes needed (refer to a dental professional)"
 msgstr "Aanpassingen nodig (verwijzen naar een tandheelkundige)"
 
-#: ../../content/residents/evaluations.md:136
-msgid "9-16"
-msgstr "9-16"
+#: ../../content/residents/evaluations.md:129
+msgid "9–16"
+msgstr "9–16"
 
-#: ../../content/residents/evaluations.md:136
+#: ../../content/residents/evaluations.md:129
 msgid "Unhealthy (urgent referral)"
 msgstr "Ongezond (dringende verwijzing)"
 
-#: ../../content/residents/evaluations.md:160
-msgid "« N/A » options"
-msgstr "« N/A »-opties"
+#: ../../content/residents/evaluations.md:152
+#: ../../content/residents/evaluations.md:170
+msgid "Note"
+msgstr "Opmerking"
 
-#: ../../content/residents/evaluations.md:163
+#: ../../content/residents/evaluations.md:153
 msgid ""
-"The **Natural teeth** and **Dentures** categories have an **N/A** (not "
-"applicable) option: it is excluded from the total score calculation."
+"**Natural teeth** and **Dentures** offer **N/A** (not applicable), which is "
+"left out of the total."
 msgstr ""
-"De categorieën **Natuurlijke tanden** en **Prothesen** hebben een "
-"**N/A**-optie (niet van toepassing): die wordt uitgesloten van de "
-"totaalscore."
+"**Natuurlijke tanden** en **Kunstgebit** bieden **N/A** (niet van "
+"toepassing), dat buiten het totaal blijft."
 
-#: ../../content/residents/evaluations.md:167
+#: ../../content/residents/evaluations.md:157
 msgid "Tinetti — balance, gait and fall risk"
 msgstr "Tinetti — evenwicht, gang en valrisico"
 
-#: ../../content/residents/evaluations.md:169
+#: ../../content/residents/evaluations.md:159
 msgid ""
-"The **Tinetti** scale (POMA) assesses **balance** and **gait** to estimate "
-"**fall risk**:"
+"Menu: **Nursing Care → Evaluation Tools**, then **Tinetti (Balance & "
+"Gait)**."
 msgstr ""
-"De **Tinetti-schaal** (POMA) beoordeelt het **evenwicht** en de **gang** om "
-"het **valrisico** in te schatten:"
+"Menu: **Zorg → Evaluatiehulpmiddelen**, en dan **Tinetti (Balans & "
+"Gangwerk)**."
 
-#: ../../content/residents/evaluations.md:172
-msgid "Balance section: 9 items, /16"
-msgstr "Onderdeel Evenwicht: 9 items, /16"
+#: ../../content/residents/evaluations.md:161
+msgid ""
+"The **Tinetti** scale assesses **balance** (9 items, /16) and **gait** "
+"(/12), for a total out of **28**. Resthome computes both subscores and the "
+"total."
+msgstr ""
+"De **Tinetti**-schaal beoordeelt het **evenwicht** (9 items, /16) en de "
+"**gang** (/12), voor een totaal op **28**. Resthome berekent beide subscores"
+" en het totaal."
 
-#: ../../content/residents/evaluations.md:173
-msgid "Gait section: /12"
-msgstr "Onderdeel Gang: /12"
-
-#: ../../content/residents/evaluations.md:174
-msgid "Total: /28"
-msgstr "Totaal: /28"
-
-#: ../../content/residents/evaluations.md:176
-msgid "Resthome calculates the two subscores and the total."
-msgstr "Resthome berekent de twee subscores en het totaal."
-
-#: ../../content/residents/evaluations.md:160
+#: ../../content/residents/evaluations.md:152
 msgid "Fall risk"
 msgstr "Valrisico"
 
-#: ../../content/residents/evaluations.md:160
-msgid "25-28"
-msgstr "25-28"
+#: ../../content/residents/evaluations.md:152
+msgid "25–28"
+msgstr "25–28"
 
-#: ../../content/residents/evaluations.md:160
+#: ../../content/residents/evaluations.md:152
 msgid "Low risk"
 msgstr "Laag risico"
 
-#: ../../content/residents/evaluations.md:160
-msgid "19-24"
-msgstr "19-24"
+#: ../../content/residents/evaluations.md:152
+msgid "19–24"
+msgstr "19–24"
 
-#: ../../content/residents/evaluations.md:160
+#: ../../content/residents/evaluations.md:152
 msgid "Under 19"
 msgstr "Minder dan 19"
 
-#: ../../content/residents/evaluations.md:184
-msgid "Tinetti, Morse and the falls register"
-msgstr "Tinetti, Morse en het valregister"
-
-#: ../../content/residents/evaluations.md:187
+#: ../../content/residents/evaluations.md:171
 msgid ""
-"The « Evaluation Tools » tab offers **Tinetti**. For the **Morse** scale and"
-" the **falls register** (incidents, preventive measures, reassessments), use"
-" the [clinical registers](../soins/registres.md)."
+"The **Morse** fall-risk scale and the **falls register** are in the "
+"[clinical registers](../soins/registres.md)."
 msgstr ""
-"Het tabblad « Evaluation Tools » biedt **Tinetti**. Voor de **Morse-schaal**"
-" en het **valregister** (incidenten, preventieve maatregelen, her-"
-"evaluaties) gebruikt u de [klinische registers](../soins/registres.md)."
+"De valrisicoschaal van **Morse** en het **valregister** staan in de "
+"[klinische registers](../soins/registres.md)."
 
-#: ../../content/residents/evaluations.md:192
+#: ../../content/residents/evaluations.md:175
+msgid "Pain — EVA or DOLOPLUS-2"
+msgstr "Pijn — VAS of DOLOPLUS-2"
+
+#: ../../content/residents/evaluations.md:177
+msgid ""
+"Menu: **Nursing Care → Evaluation Tools**, then **Pain (EVA / DOLOPLUS-2)**."
+msgstr ""
+"Menu: **Zorg → Evaluatiehulpmiddelen**, en dan **Pijn (VAS / DOLOPLUS-2)**."
+
+#: ../../content/residents/evaluations.md:179
+msgid "Choose the **Scale**:"
+msgstr "Kies de **Schaal**:"
+
+#: ../../content/residents/evaluations.md:181
+msgid "**EVA (self-reported)** — the resident gives a score from 0 to 10;"
+msgstr "**VAS (zelfevaluatie)** — de bewoner geeft een score van 0 tot 10;"
+
+#: ../../content/residents/evaluations.md:182
+msgid ""
+"**DOLOPLUS-2 (observed)** — for a resident who cannot say it, the team "
+"scores 10 behaviours from 0 to 3, for a total out of 30: **Somatic "
+"Complaints**, **Protective Posture at Rest**, **Protection of Painful "
+"Areas**, **Facial Expression**, **Sleep**, **Washing / Dressing**, "
+"**Mobility**, **Communication**, **Social Life** and **Behaviour Problems**."
+msgstr ""
+"**DOLOPLUS-2 (hetero-evaluatie)** — voor een bewoner die het niet kan "
+"zeggen, scoort het team 10 gedragingen van 0 tot 3, voor een totaal op 30: "
+"**Somatische klachten**, **Antalgische houding in rust**, **Bescherming van "
+"pijnlijke zones**, **Gelaatsuitdrukking**, **Slaap**, **Wassen / "
+"aankleden**, **Mobiliteit**, **Communicatie**, **Sociaal leven** en "
+"**Gedragsstoornissen**."
+
+#: ../../content/residents/evaluations.md:170
+msgid "Pain level"
+msgstr "Pijnniveau"
+
+#: ../../content/residents/evaluations.md:170
+msgid "EVA (/10)"
+msgstr "VAS (/10)"
+
+#: ../../content/residents/evaluations.md:170
+msgid "DOLOPLUS-2 (/30)"
+msgstr "DOLOPLUS-2 (/30)"
+
+#: ../../content/residents/evaluations.md:170
+msgid "**No Pain**"
+msgstr "**Geen pijn**"
+
+#: ../../content/residents/evaluations.md:170
+msgid "0"
+msgstr "0"
+
+#: ../../content/residents/evaluations.md:170
+msgid "under 5"
+msgstr "minder dan 5"
+
+#: ../../content/residents/evaluations.md:170
+msgid "**Mild**"
+msgstr "**Mild**"
+
+#: ../../content/residents/evaluations.md:170
+msgid "1–3"
+msgstr "1–3"
+
+#: ../../content/residents/evaluations.md:170
+msgid "5–10"
+msgstr "5–10"
+
+#: ../../content/residents/evaluations.md:170
+msgid "**Moderate**"
+msgstr "**Gematigd**"
+
+#: ../../content/residents/evaluations.md:170
+msgid "4–6"
+msgstr "4–6"
+
+#: ../../content/residents/evaluations.md:170
+msgid "11–17"
+msgstr "11–17"
+
+#: ../../content/residents/evaluations.md:170
+msgid "**Severe**"
+msgstr "**Streng**"
+
+#: ../../content/residents/evaluations.md:170
+msgid "7–10"
+msgstr "7–10"
+
+#: ../../content/residents/evaluations.md:170
+msgid "18 and above"
+msgstr "18 en meer"
+
+#: ../../content/residents/evaluations.md:195
+msgid ""
+"**Analgesia Indicated** is ticked from **4/10** on EVA and from **5/30** on "
+"DOLOPLUS-2. The list filters on **Pain Retained**, **EVA** and "
+"**DOLOPLUS-2**, and groups by resident or by pain level."
+msgstr ""
+"**Pijnstilling aangewezen** wordt aangevinkt vanaf **4/10** op de VAS en "
+"vanaf **5/30** op DOLOPLUS-2. De lijst filtert op **Pijn weerhouden**, "
+"**VAS** en **DOLOPLUS-2**, en groepeert per bewoner of per pijnniveau."
+
+#: ../../content/residents/evaluations.md:199
 msgid "Entering and validating an assessment"
 msgstr "Een evaluatie invoeren en valideren"
 
-#: ../../content/residents/evaluations.md:194
-msgid "All scales follow the same flow:"
-msgstr "Alle schalen volgen hetzelfde traject:"
+#: ../../content/residents/evaluations.md:201
+msgid "Every scale follows the same steps:"
+msgstr "Elke schaal volgt dezelfde stappen:"
 
-#: ../../content/residents/evaluations.md:196
+#: ../../content/residents/evaluations.md:203
 msgid ""
-"Open the scale: from the resident's **« Evaluation Tools »** tab, or via "
-"**Healthcare > Evaluation Tools**."
+"Open the scale — from the resident's **Evaluation** tab, or from **Nursing "
+"Home → Evaluation Tools**."
 msgstr ""
-"Open de schaal: vanuit het tabblad **« Evaluation Tools »** van de bewoner, "
-"of via **Healthcare > Evaluation Tools**."
+"Open de schaal — vanuit het tabblad **Evaluatie** van de bewoner, of via "
+"**Rusthuis → Evaluatiehulpmiddelen**."
 
-#: ../../content/residents/evaluations.md:198
+#: ../../content/residents/evaluations.md:205
 msgid ""
-"**New**: the resident, the **date** (today by default) and the **assessor** "
-"(you) are pre-filled. Score the items."
+"**New**: the resident, the **date** (today) and the **evaluator** (you) are "
+"filled in. Score the items."
 msgstr ""
-"**Nieuw**: de bewoner, de **datum** (standaard vandaag) en de "
-"**beoordelaar** (u) worden vooraf ingevuld. Scoor de items."
+"**Nieuw**: de bewoner, de **datum** (vandaag) en de **beoordelaar** (u) "
+"worden ingevuld. Scoor de items."
 
-#: ../../content/residents/evaluations.md:200
+#: ../../content/residents/evaluations.md:207
 msgid "**Confirm**: the assessment moves from **Draft** to **Confirmed**."
 msgstr "**Bevestigen**: de evaluatie gaat van **Concept** naar **Bevestigd**."
 
-#: ../../content/residents/evaluations.md:201
-msgid ""
-"**Validate**: the head nurse or the physician validates; the assessment "
-"moves to **Validated**, with the validator and the validation date recorded."
-msgstr ""
-"**Valideren**: de hoofdverpleegkundige of de arts valideert; de evaluatie "
-"gaat naar **Gevalideerd**, met de validator en de validatiedatum "
-"geregistreerd."
-
-#: ../../content/residents/evaluations.md:204
-msgid ""
-"The status bar follows these steps: **Draft → Confirmed → Validated** (plus "
-"**Cancelled**). The available buttons are **Confirm**, **Validate**, "
-"**Cancel** and **Reset to draft**."
-msgstr ""
-"De statusbalk volgt deze stappen: **Concept → Bevestigd → Gevalideerd** "
-"(plus **Geannuleerd**). De beschikbare knoppen zijn **Bevestigen**, "
-"**Valideren**, **Annuleren** en **Terug naar concept**."
-
 #: ../../content/residents/evaluations.md:208
-msgid "Locking and retention"
-msgstr "Vergrendeling en bewaring"
-
-#: ../../content/residents/evaluations.md:211
 msgid ""
-"A **validated** assessment is **locked**: its scores can no longer be "
-"edited. To correct it, click **Reset to draft** (restricted to the head "
-"nurse). Validated assessments **cannot be deleted**: health data must be "
-"retained (GDPR and the country's health-data retention rules)."
+"**Validate**: the head nurse or the physician validates it; it moves to "
+"**Validated**, with the validator and the date."
 msgstr ""
-"Een **gevalideerde** evaluatie is **vergrendeld**: de scores kunnen niet "
-"meer worden gewijzigd. Om ze te corrigeren, klikt u op **Opnieuw instellen "
-"op Concept** (voorbehouden aan de hoofdverpleegkundige). Gevalideerde "
-"evaluaties **kunnen niet worden verwijderd**: gezondheidsgegevens moeten "
-"bewaard blijven (AVG en de bewaarregels voor gezondheidsgegevens van het "
-"land)."
+"**Valideer**: de hoofdverpleegkundige of de arts valideert ze; ze gaat naar "
+"**Gevalideerd**, met de validator en de datum."
 
-#: ../../content/residents/evaluations.md:216
-msgid "One assessment per day"
-msgstr "Eén evaluatie per dag"
-
-#: ../../content/residents/evaluations.md:219
-msgid ""
-"There can only be **one assessment per resident, per date and per scale**. "
-"The date cannot be in the future, and no assessment can be created for a "
-"deceased resident."
-msgstr ""
-"Er kan slechts **één evaluatie per bewoner, per datum en per schaal** "
-"bestaan. De datum mag niet in de toekomst liggen en er kan geen evaluatie "
-"worden aangemaakt voor een overleden bewoner."
-
-#: ../../content/residents/evaluations.md:223
-msgid "Follow-up and reassessment"
-msgstr "Opvolging en her-evaluatie"
+#: ../../content/residents/evaluations.md:222
+msgid "Correcting a validated assessment"
+msgstr "Een gevalideerde evaluatie corrigeren"
 
 #: ../../content/residents/evaluations.md:225
 msgid ""
-"The « Evaluation Tools » tab keeps the **dated history** of each scale: to "
-"reassess, enter a **new assessment** on a new date."
+"A **validated** assessment is **locked**: its scores can no longer be "
+"edited, and it cannot be deleted — health data is kept. To correct it:"
 msgstr ""
-"Het tabblad « Evaluation Tools » bewaart de **gedateerde geschiedenis** van "
-"elke schaal: om te her-evalueren voert u een **nieuwe evaluatie** in op een "
-"nieuwe datum."
+"Een **gevalideerde** evaluatie is **vergrendeld**: de scores kunnen niet "
+"meer worden gewijzigd, en ze kan niet worden verwijderd — "
+"gezondheidsgegevens blijven bewaard. Om ze te corrigeren:"
 
-#: ../../content/residents/evaluations.md:227
-msgid ""
-"The **dependency scale** has its own **renewal cycle** (validity due date, "
-"reminders), set by the country pack."
-msgstr ""
-"De **afhankelijkheidsschaal** heeft een eigen **hernieuwingscyclus** "
-"(geldigheidsvervaldatum, herinneringen), bepaald door het landpakket."
+#: ../../content/residents/evaluations.md:228
+msgid "click **Cancel**;"
+msgstr "klik op **Annuleren**;"
 
 #: ../../content/residents/evaluations.md:229
-msgid ""
-"For a structured **periodic reassessment cycle** (calculated due date, keep "
-"/ change / stop decision, follow-up log), use the [clinical "
-"registers](../soins/registres.md)."
-msgstr ""
-"Voor een gestructureerde **periodieke her-evaluatiecyclus** (berekende "
-"vervaldatum, beslissing behouden / aanpassen / stoppen, opvolgingsjournaal) "
-"gebruikt u de [klinische registers](../soins/registres.md)."
+msgid "the head nurse clicks **Reset to Draft**;"
+msgstr "de hoofdverpleegkundige klikt op **Opnieuw instellen op Concept**;"
 
-#: ../../content/residents/evaluations.md:233
-msgid "Key points to remember"
-msgstr "Kernpunten om te onthouden"
-
-#: ../../content/residents/evaluations.md:235
-msgid ""
-"Five international scales: MMSE, Braden, MNA, OHAT and Tinetti, on the "
-"resident's « Evaluation Tools » tab."
+#: ../../content/residents/evaluations.md:230
+msgid "correct the scores, then **Confirm** and have it validated again."
 msgstr ""
-"Vijf internationale schalen: MMSE, Braden, MNA, OHAT en Tinetti, op het "
-"tabblad « Evaluation Tools » van de bewoner."
+"corrigeer de scores, klik dan op **Bevestigen** en laat ze opnieuw "
+"valideren."
+
+#: ../../content/residents/evaluations.md:232
+msgid ""
+"**Reset to Draft** is offered on a confirmed or cancelled assessment, to the"
+" head nurse. A validated **pain** assessment is the exception: it has no "
+"**Cancel**, and **Reset to Draft** reopens it directly."
+msgstr ""
+"**Opnieuw instellen op Concept** wordt aangeboden op een bevestigde of "
+"geannuleerde evaluatie, aan de hoofdverpleegkundige. Een gevalideerde "
+"**pijn**evaluatie is de uitzondering: ze heeft geen **Annuleren**, en "
+"**Opnieuw instellen op Concept** heropent ze rechtstreeks."
 
 #: ../../content/residents/evaluations.md:237
+msgid "One assessment per day and per scale"
+msgstr "Eén evaluatie per dag en per schaal"
+
+#: ../../content/residents/evaluations.md:240
 msgid ""
-"Score meaning: MMSE and Tinetti, a **high** score = favorable situation; "
-"Braden and MNA, a **low** score = more at risk; OHAT, a **high** score = "
-"more at risk."
+"A resident has **one assessment per date and per scale**; a cancelled one "
+"does not count, so it frees its day. The date cannot be in the future, nor "
+"after the resident's death."
 msgstr ""
-"Betekenis van de scores: MMSE en Tinetti, **hoge** score = gunstige "
-"situatie; Braden en MNA, **lage** score = meer risico; OHAT, **hoge** score "
-"= meer risico."
+"Een bewoner heeft **één evaluatie per datum en per schaal**; een "
+"geannuleerde evaluatie telt niet mee en maakt dus haar dag vrij. De datum "
+"mag niet in de toekomst liggen, noch na het overlijden van de bewoner."
 
-#: ../../content/residents/evaluations.md:239
+#: ../../content/residents/evaluations.md:245
+msgid "Assessments waiting for validation"
+msgstr "Evaluaties die op validatie wachten"
+
+#: ../../content/residents/evaluations.md:247
 msgid ""
-"Common flow: **Draft → Confirmed → Validated**; validation is restricted to "
-"the head nurse or the physician."
+"**Nursing Care → Medical → Assessments → Evaluations to Validate** gathers, "
+"in one list, every assessment still in **Draft** or **Confirmed**, whatever "
+"the scale: resident, scale, date, evaluator and status. It filters on "
+"**Draft**, **Confirmed** and **My Evaluations**, groups by scale or "
+"resident, and leaves out deceased or archived residents. See [Evaluations to"
+" validate](../soins/evaluations-a-valider.md)."
 msgstr ""
-"Gemeenschappelijk traject: **Concept → Bevestigd → Gevalideerd**; valideren "
-"is voorbehouden aan de hoofdverpleegkundige of de arts."
+"**Zorg → Medisch → Evaluaties → Te valideren evaluaties** bundelt in één "
+"lijst alle evaluaties die nog in **Concept** of **Bevestigd** staan, "
+"ongeacht de schaal: bewoner, schaal, datum, beoordelaar en status. Ze "
+"filtert op **Concept**, **Bevestigd** en **Mijn evaluaties**, groepeert per "
+"schaal of per bewoner, en laat overleden of gearchiveerde bewoners weg. Zie "
+"[Te valideren evaluaties](../soins/evaluations-a-valider.md)."
 
-#: ../../content/residents/evaluations.md:241
-msgid "Validated = **locked and retained**; reset to draft to correct."
+#: ../../content/residents/evaluations.md:254
+msgid "Follow-up and reassessment"
+msgstr "Opvolging en her-evaluatie"
+
+#: ../../content/residents/evaluations.md:256
+msgid ""
+"The **Evaluation** tab keeps the **dated history** of each scale: to "
+"reassess, enter a new assessment on a new date."
 msgstr ""
-"Gevalideerd = **vergrendeld en bewaard**; zet terug naar concept om te "
-"corrigeren."
+"Het tabblad **Evaluatie** bewaart de **gedateerde geschiedenis** van elke "
+"schaal: om te herevalueren voert u een nieuwe evaluatie in op een nieuwe "
+"datum."
 
-#: ../../content/residents/evaluations.md:242
+#: ../../content/residents/evaluations.md:258
+msgid ""
+"The **dependency scale** has its own renewal cycle, set by the country pack."
+msgstr ""
+"De **afhankelijkheidsschaal** heeft een eigen hernieuwingscyclus, bepaald "
+"door het landpakket."
+
+#: ../../content/residents/evaluations.md:259
+msgid ""
+"For a **periodic reassessment cycle** with a due date and a decision, use "
+"the [clinical registers](../soins/registres.md)."
+msgstr ""
+"Voor een **periodieke herevaluatiecyclus** met vervaldatum en beslissing "
+"gebruikt u de [klinische registers](../soins/registres.md)."
+
+#: ../../content/residents/evaluations.md:261
+msgid ""
+"Some scales can also be entered at the bedside — see [Assessments on "
+"mobile](../soins-mobile/evaluations.md)."
+msgstr ""
+"Sommige schalen kunnen ook aan het bed worden ingevoerd — zie [Evaluaties op"
+" mobiel](../soins-mobile/evaluations.md)."
+
+#: ../../content/residents/evaluations.md:264
+msgid "Key takeaways"
+msgstr "Belangrijkste punten"
+
+#: ../../content/residents/evaluations.md:266
+msgid ""
+"Six scales: MMSE, Braden, MNA, OHAT, Tinetti on the **Evaluation** tab, and "
+"pain (EVA / DOLOPLUS-2) from the menu."
+msgstr ""
+"Zes schalen: MMSE, Braden, MNA, OHAT, Tinetti op het tabblad **Evaluatie**, "
+"en pijn (VAS / DOLOPLUS-2) via het menu."
+
+#: ../../content/residents/evaluations.md:268
+msgid ""
+"Reading: MMSE and Tinetti, **high** = favourable; Braden and MNA, **low** = "
+"at risk; OHAT and pain, **high** = concerning."
+msgstr ""
+"Lezing: MMSE en Tinetti, **hoog** = gunstig; Braden en MNA, **laag** = "
+"risico; OHAT en pijn, **hoog** = zorgwekkend."
+
+#: ../../content/residents/evaluations.md:270
+msgid ""
+"**Draft → Confirmed → Validated**; validation by the head nurse or the "
+"physician."
+msgstr ""
+"**Concept → Bevestigd → Gevalideerd**; validatie door de "
+"hoofdverpleegkundige of de arts."
+
+#: ../../content/residents/evaluations.md:272
+msgid ""
+"A validated assessment is **locked and kept**: cancel, then reset to draft "
+"to correct it."
+msgstr ""
+"Een gevalideerde evaluatie is **vergrendeld en bewaard**: annuleer ze en zet"
+" ze daarna terug naar concept om ze te corrigeren."
+
+#: ../../content/residents/evaluations.md:274
 msgid "One assessment per resident, per date and per scale."
 msgstr "Eén evaluatie per bewoner, per datum en per schaal."
 
-#: ../../content/residents/evaluations.md:244
+#: ../../content/residents/evaluations.md:276
 msgid "Learn more"
 msgstr "Meer weten"
 
-#: ../../content/residents/evaluations.md:246
+#: ../../content/residents/evaluations.md:278
+msgid "[Evaluations to validate](../soins/evaluations-a-valider.md)"
+msgstr "[Te valideren evaluaties](../soins/evaluations-a-valider.md)"
+
+#: ../../content/residents/evaluations.md:279
 msgid ""
 "[The clinical registers](../soins/registres.md) — falls (Morse), restraint, "
-"pain, wounds, periodic reassessments."
+"wounds, periodic reassessments."
 msgstr ""
-"[De klinische registers](../soins/registres.md) — vallen (Morse), fixatie, "
-"pijn, wonden, periodieke her-evaluaties."
+"[Klinische registers](../soins/registres.md) — vallen (Morse), fixatie, "
+"wonden, periodieke herevaluaties."
 
-#: ../../content/residents/evaluations.md:247
+#: ../../content/residents/evaluations.md:280
 msgid "[Care plans](../soins/plans-de-soins.md)"
 msgstr "[De zorgplannen](../soins/plans-de-soins.md)"
 
-#: ../../content/residents/evaluations.md:248
-msgid "[Managing a resident](gerer-un-resident.md)"
+#: ../../content/residents/evaluations.md:281
+msgid "[Manage a resident](gerer-un-resident.md)"
 msgstr "[Een bewoner beheren](gerer-un-resident.md)"
-
-#~ msgid ""
-#~ "The Katz scale determines the **dependency category** and the **flat-rate "
-#~ "fee**; it has its own page and its own renewal cycle. See [The Katz "
-#~ "assessment](../belgique/katz.md)."
-#~ msgstr ""
-#~ "De Katz-schaal bepaalt de **zorgcategorie** en het **forfait**; ze heeft een"
-#~ " eigen pagina en een eigen hernieuwingscyclus. Zie [De Katz-"
-#~ "evaluatie](../belgique/katz.md)."
-
-#~ msgid ""
-#~ "[The Katz assessment](../belgique/katz.md) — dependency category and flat-"
-#~ "rate fee."
-#~ msgstr "[De Katz-evaluatie](../belgique/katz.md) — zorgcategorie en forfait."

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 15:49+0200\n"
+"POT-Creation-Date: 2026-11-08 19:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -26,12 +26,14 @@ msgstr "Le dossier du candidat"
 
 #: ../../content/admissions/dossier-candidat.md:8
 msgid ""
-"The Resident Admission tab of an admission file in Resthome: desired stay "
-"type, short stay, identity, health insurer and insurability, key contacts."
+"The admission request in Resthome: the person to admit and their photo, the "
+"caller, the establishment, the desired stay type and room type with the "
+"places free, identity, health insurer and key contacts."
 msgstr ""
-"L'onglet Admission habitant d'un dossier d'admission dans Resthome : type de"
-" séjour souhaité, court séjour, identité, mutuelle et assurabilité, contacts"
-" clés."
+"La demande d'admission dans Resthome : la personne à admettre et sa photo, "
+"l'appelant, l'établissement, le type de séjour et le type de chambre "
+"souhaités avec les places libres, l'identité, l'assureur santé et les "
+"contacts clés."
 
 #: ../../content/admissions/dossier-candidat.md:12
 msgid "Where do I enter the candidate's identity?"
@@ -39,31 +41,58 @@ msgstr "Où encoder l'identité du candidat ?"
 
 #: ../../content/admissions/dossier-candidat.md:13
 msgid ""
-"In the **Resident Admission** tab of the file, which replaces the commercial"
-" tabs of a sales pipeline."
+"In the **Resident Admission** tab of the request, which replaces the "
+"commercial tabs of a sales pipeline."
 msgstr ""
-"Dans l'onglet **Admission habitant** du dossier, qui remplace les onglets "
-"commerciaux d'un pipeline de vente."
+"Dans l'onglet **Admission habitant** de la demande, qui remplace les onglets"
+" commerciaux d'un pipeline de vente."
 
 #: ../../content/admissions/dossier-candidat.md:15
-msgid "Why can't I choose a stay type?"
-msgstr "Pourquoi je ne peux pas choisir un type de séjour ?"
+msgid "Why is there an Establishment field?"
+msgstr "Pourquoi y a-t-il un champ Établissement ?"
 
 #: ../../content/admissions/dossier-candidat.md:16
 msgid ""
-"Because no approval is recorded for the facility yet. A banner says so and "
-"offers **Record the approvals**; the stay types on offer come from those "
-"approvals."
+"For whoever works for several houses. The places free, the room type, the "
+"dependency suggestion and the rooms offered at admission are those of the "
+"establishment chosen on the request."
+msgstr ""
+"Pour qui travaille pour plusieurs maisons. Les places libres, le type de "
+"chambre, la suggestion de dépendance et les chambres proposées à l'admission"
+" sont ceux de l'établissement choisi sur la demande."
+
+#: ../../content/admissions/dossier-candidat.md:18
+msgid "Why can't I choose a stay type?"
+msgstr "Pourquoi je ne peux pas choisir un type de séjour ?"
+
+#: ../../content/admissions/dossier-candidat.md:19
+msgid ""
+"Because no approval is recorded for the establishment yet. A banner says so "
+"and offers **Record the approvals**; the stay types on offer come from those"
+" approvals."
 msgstr ""
 "Parce qu'aucun agrément n'est encore enregistré pour l'établissement. Un "
 "bandeau le dit et propose **Enregistrer les agréments** ; les types de "
 "séjour proposés viennent de ces agréments."
 
-#: ../../content/admissions/dossier-candidat.md:18
+#: ../../content/admissions/dossier-candidat.md:21
+msgid "Where do I see how many places are free?"
+msgstr "Où voir combien de places sont libres ?"
+
+#: ../../content/admissions/dossier-candidat.md:22
+msgid ""
+"Next to the desired stay type and in the **Room type** list, each option "
+"says what is left. **See the details** opens the **Places available** table."
+msgstr ""
+"À côté du type de séjour souhaité et dans la liste **Type de chambre**, "
+"chaque option indique ce qui reste. **Voir le détail** ouvre le tableau "
+"**Places disponibles**."
+
+#: ../../content/admissions/dossier-candidat.md:24
 msgid "What are the three key contacts?"
 msgstr "Quels sont les trois contacts clés ?"
 
-#: ../../content/admissions/dossier-candidat.md:19
+#: ../../content/admissions/dossier-candidat.md:25
 msgid ""
 "The **emergency contact**, the **legal representative** and the **trusted "
 "person**. Each has a box to tick when there is none, so an empty field is "
@@ -73,127 +102,260 @@ msgstr ""
 "confiance**. Chacun a une case à cocher quand il n'y en a pas, pour qu'un "
 "champ vide ne passe jamais pour un oubli."
 
-#: ../../content/admissions/dossier-candidat.md:22
+#: ../../content/admissions/dossier-candidat.md:28
 msgid ""
-"The **Resident Admission** tab is where the candidate's file is built, "
-"without leaving the enquiry."
+"The request is where the candidate's file is built, without leaving the "
+"pipeline. Everything typed here is kept on the future resident's record: it "
+"is the same person, before and after the admission."
 msgstr ""
-"L'onglet **Admission habitant** est l'endroit où se construit le dossier du "
-"candidat, sans quitter la demande."
-
-#: ../../content/admissions/dossier-candidat.md:25
-msgid ""
-"![Resident admission tab of a file, with the Personal information and health"
-" insurer blocks](../assets/screenshots/residents/02-lead-admission-"
-"resident.webp)"
-msgstr ""
-"![L'onglet Admission habitant d'un dossier, avec les blocs Informations "
-"personnelles et mutuelle](../assets/screenshots/residents/02-lead-admission-"
-"resident.webp)"
-
-#: ../../content/admissions/dossier-candidat.md:25
-msgid ""
-"Resident admission tab of a file, with the Personal information and health "
-"insurer blocks"
-msgstr ""
-"L'onglet Admission habitant d'un dossier, avec les blocs Informations "
-"personnelles et mutuelle"
-
-#: ../../content/admissions/dossier-candidat.md:27
-msgid "Personal information"
-msgstr "Informations personnelles"
-
-#: ../../content/admissions/dossier-candidat.md:29
-msgid ""
-"**Desired stay type** — offered according to the sectors the home is "
-"licensed for. It is not required to fill in the file, but it is required to "
-"admit: it determines the bed and the documents the health insurer expects."
-msgstr ""
-"**Type de séjour souhaité** — proposé selon les secteurs pour lesquels la "
-"maison est agréée. Il n'est pas obligatoire pour remplir le dossier, mais il"
-" l'est pour admettre : il détermine le lit et les documents qu'attend "
-"l'assureur santé."
+"La demande est l'endroit où se construit le dossier du candidat, sans "
+"quitter le pipeline. Tout ce qui est saisi ici est gardé sur la fiche du "
+"futur habitant : c'est la même personne, avant et après l'admission."
 
 #: ../../content/admissions/dossier-candidat.md:32
 msgid ""
-"**Short stay** — derived from the stay type. It then asks for the **number "
-"of short-stay days used** this calendar year and for **notes**."
+"![Resident Admission tab of a request, with the Personal information and "
+"health insurer blocks](../assets/screenshots/residents/02-lead-admission-"
+"resident.webp)"
 msgstr ""
-"**Court séjour** — déduit du type de séjour. Il demande alors le **nombre de"
-" jours de court séjour déjà utilisés** cette année civile et des **notes**."
+"![L'onglet Admission habitant d'une demande, avec les blocs Informations "
+"personnelles et assureur santé](../assets/screenshots/residents/02-lead-"
+"admission-resident.webp)"
 
-#: ../../content/admissions/dossier-candidat.md:34
+#: ../../content/admissions/dossier-candidat.md:32
 msgid ""
-"Identity: the **national identification number**, ID card and expiry, **date"
-" of birth**, **age**, **gender**, **blood type**, **marital status**, "
-"**nationality**, **place of birth**."
+"Resident Admission tab of a request, with the Personal information and "
+"health insurer blocks"
 msgstr ""
-"Identité : **numéro d'identification national**, carte d'identité et "
-"échéance, **date de naissance**, **âge**, **sexe**, **groupe sanguin**, "
-"**état civil**, **nationalité**, **lieu de naissance**."
+"L'onglet Admission habitant d'une demande, avec les blocs Informations "
+"personnelles et assureur santé"
 
-#: ../../content/admissions/dossier-candidat.md:37
-msgid "**Resident language** and **spoken languages**, **religion**."
-msgstr "**Langue de l'habitant** et **langues parlées**, **religion**."
+#: ../../content/admissions/dossier-candidat.md:36
+msgid "The top of the request"
+msgstr "Le haut de la demande"
 
 #: ../../content/admissions/dossier-candidat.md:38
-msgid "**Attending physician** and **deputy physician**."
-msgstr "**Médecin traitant** et **médecin remplaçant**."
-
-#: ../../content/admissions/dossier-candidat.md:39
-msgid "**Family contacts**, telephone, e-mail."
-msgstr "**Contacts famille**, téléphone, e-mail."
+msgid ""
+"**Photo** of the candidate — click the image next to the title to add it. It"
+" is stored on the resident's record and shown on the pipeline card, then on "
+"the resident card."
+msgstr ""
+"**Photo** du candidat — cliquez sur l'image à côté du titre pour l'ajouter. "
+"Elle est enregistrée sur la fiche de l'habitant et affichée sur la carte du "
+"pipeline, puis sur la carte de l'habitant."
 
 #: ../../content/admissions/dossier-candidat.md:41
-msgid "No approval on file"
-msgstr "Aucun agrément enregistré"
-
-#: ../../content/admissions/dossier-candidat.md:44
 msgid ""
-"If the facility has no approval recorded, no stay type can be offered. The "
-"banner **This establishment has no approval on file yet** appears, with a "
-"**Record the approvals** link — fill them in first."
+"**Resident candidate** — ticked by default; see [Admissions](index.md)."
 msgstr ""
-"Si l'établissement n'a aucun agrément enregistré, aucun type de séjour ne "
-"peut être proposé. Le bandeau **Cet établissement n'a encore aucun agrément "
-"enregistré** apparaît, avec un lien **Enregistrer les agréments** — "
-"remplissez-les d'abord."
+"**Candidat habitant** — coché par défaut ; voir [Admissions](index.md)."
 
-#: ../../content/admissions/dossier-candidat.md:49
-msgid "Short stays"
-msgstr "Courts séjours"
+#: ../../content/admissions/dossier-candidat.md:42
+msgid "The title — the request is named after the person to admit."
+msgstr "Le titre — la demande porte le nom de la personne à admettre."
 
-#: ../../content/admissions/dossier-candidat.md:52
+#: ../../content/admissions/dossier-candidat.md:43
 msgid ""
-"Where the law caps the number of short-stay days per calendar year, enter "
-"the days already used — ask the family, or confirm with the health insurer —"
-" before accepting the admission."
+"**Contact Person** — the relative or social worker who called, with their "
+"**Relationship**; their e-mail and phone are theirs, not the candidate's."
 msgstr ""
-"Là où la loi plafonne le nombre de jours de court séjour par année civile, "
-"encodez les jours déjà utilisés — demandez à la famille, ou confirmez auprès"
-" de l'assureur santé — avant d'accepter l'admission."
+"**Personne de contact** — le proche ou l'assistante sociale qui a appelé, "
+"avec sa **Relation** ; son e-mail et son téléphone sont les siens, pas ceux "
+"du candidat."
 
-#: ../../content/admissions/dossier-candidat.md:57
-#: ../../content/admissions/dossier-candidat.md:88
-msgid "In Belgium"
-msgstr "En Belgique"
+#: ../../content/admissions/dossier-candidat.md:45
+msgid ""
+"**Resident Email** and **Resident Phone** — the candidate's own details."
+msgstr ""
+"**E-mail de l'habitant** et **Téléphone de l'habitant** — les coordonnées "
+"propres du candidat."
+
+#: ../../content/admissions/dossier-candidat.md:46
+msgid ""
+"**Followed by** — the person of the admissions desk in charge of the "
+"request."
+msgstr ""
+"**Suivi par** — la personne du bureau des admissions responsable de la "
+"demande."
+
+#: ../../content/admissions/dossier-candidat.md:48
+msgid ""
+"The **Open resident record** button opens the future resident's record at "
+"any time."
+msgstr ""
+"Le bouton **Ouvrir fiche habitant** ouvre à tout moment la fiche du futur "
+"habitant."
+
+#: ../../content/admissions/dossier-candidat.md:51
+msgid "Personal information"
+msgstr "Informations personnelles"
+
+#: ../../content/admissions/dossier-candidat.md:53
+msgid ""
+"**Establishment** — the house the request is for, shown when you work for "
+"several houses. Only the houses ticked in the company switcher are offered."
+msgstr ""
+"**Établissement** — la maison à laquelle la demande s'adresse, affiché quand"
+" vous travaillez pour plusieurs maisons. Seules les maisons cochées dans le "
+"sélecteur de société sont proposées."
+
+#: ../../content/admissions/dossier-candidat.md:55
+msgid ""
+"**Desired stay type** — offered according to the sectors the establishment "
+"is licensed for, each with its places free. It is not required to fill in "
+"the file, but it is required to admit: it determines the bed and the "
+"documents the health insurer expects. **See the details** opens the **Places"
+" available** table."
+msgstr ""
+"**Type de séjour souhaité** — proposé selon les secteurs pour lesquels "
+"l'établissement est agréé, chacun avec ses places libres. Il n'est pas "
+"obligatoire pour remplir le dossier, mais il l'est pour admettre : il "
+"détermine le lit et les documents qu'attend l'assureur santé. **Voir le "
+"détail** ouvre le tableau **Places disponibles**."
 
 #: ../../content/admissions/dossier-candidat.md:60
 msgid ""
-"The stay types are MR, MRS and day care, short stays are capped at 90 days "
-"per calendar year, and the identification number is the NISS: see [Admitting"
-" a resident in Belgium](../belgique/admission.md)."
+"**Room type** — the type of room planned, each option with its beds free. It"
+" is what the family is told and what the price follows; the room number "
+"itself is chosen at admission."
 msgstr ""
-"Les types de séjour sont MR, MRS et centre de soins de jour, le court séjour"
-" est plafonné à 90 jours par année civile, et le numéro d'identification est"
-" le NISS : voir [Admettre un habitant en "
+"**Type de chambre** — le type de chambre prévu, chaque option avec ses lits "
+"libres. C'est ce qui est annoncé à la famille et ce que suit le prix ; le "
+"numéro de chambre lui-même est choisi à l'admission."
+
+#: ../../content/admissions/dossier-candidat.md:63
+msgid ""
+"Identity: **ID card number** and **ID card expiry**, **Date of birth**, "
+"**Age**, **Gender**, **Blood type**, **Marital status**, **Nationality**, "
+"**Place of birth**."
+msgstr ""
+"Identité : **Numéro de carte d'identité** et **Expiration de la carte "
+"d'identité**, **Date de naissance**, **Âge**, **Genre**, **Groupe sanguin**,"
+" **État civil**, **Nationalité**, **Lieu de naissance**."
+
+#: ../../content/admissions/dossier-candidat.md:66
+msgid "**Resident language**, **Spoken languages**, **Religion**."
+msgstr "**Langue de l'habitant**, **Langues parlées**, **Religion**."
+
+#: ../../content/admissions/dossier-candidat.md:67
+msgid "**Attending physician** and **Deputy physician**."
+msgstr "**Médecin traitant** et **Médecin remplaçant**."
+
+#: ../../content/admissions/dossier-candidat.md:68
+msgid "**Family contacts**, phone, e-mail."
+msgstr "**Contacts famille**, téléphone, e-mail."
+
+#: ../../content/admissions/dossier-candidat.md:70
+msgid "The Places available table"
+msgstr "Le tableau Places disponibles"
+
+#: ../../content/admissions/dossier-candidat.md:72
+msgid ""
+"**See the details** opens a table of the beds of the establishment, room "
+"type by room type:"
+msgstr ""
+"**Voir le détail** ouvre un tableau des lits de l'établissement, type de "
+"chambre par type de chambre :"
+
+#: ../../content/admissions/dossier-candidat.md:11
+msgid "Column"
+msgstr "Colonne"
+
+#: ../../content/admissions/dossier-candidat.md:11
+msgid "Meaning"
+msgstr "Ce que ça veut dire"
+
+#: ../../content/admissions/dossier-candidat.md:11
+msgid "**Room type**"
+msgstr "**Type de chambre**"
+
+#: ../../content/admissions/dossier-candidat.md:11
+msgid "The type of room; the one planned on the request is highlighted."
+msgstr "Le type de chambre ; celui prévu sur la demande est mis en évidence."
+
+#: ../../content/admissions/dossier-candidat.md:11
+msgid "**Price per day**"
+msgstr "**Prix / jour**"
+
+#: ../../content/admissions/dossier-candidat.md:11
+msgid "The accommodation price of the type."
+msgstr "Le prix d'hébergement du type."
+
+#: ../../content/admissions/dossier-candidat.md:11
+msgid "**Beds**"
+msgstr "**Lits**"
+
+#: ../../content/admissions/dossier-candidat.md:11
+msgid "The beds of that type in the house."
+msgstr "Les lits de ce type dans la maison."
+
+#: ../../content/admissions/dossier-candidat.md:11
+msgid "**Free**"
+msgstr "**Libres**"
+
+#: ../../content/admissions/dossier-candidat.md:11
+msgid "The beds free today."
+msgstr "Les lits libres aujourd'hui."
+
+#: ../../content/admissions/dossier-candidat.md:11
+msgid "**Waiting list**"
+msgstr "**Liste d'attente**"
+
+#: ../../content/admissions/dossier-candidat.md:11
+msgid "The people already waiting for that type."
+msgstr "Les personnes qui attendent déjà ce type."
+
+#: ../../content/admissions/dossier-candidat.md:83
+msgid ""
+"Where the country licenses places per sector, the table also shows the "
+"places of each sector."
+msgstr ""
+"Là où le pays agrée les places par secteur, le tableau montre aussi les "
+"places de chaque secteur."
+
+#: ../../content/admissions/dossier-candidat.md:86
+msgid "No approval on file"
+msgstr "Aucun agrément enregistré"
+
+#: ../../content/admissions/dossier-candidat.md:89
+msgid ""
+"If the establishment has no approval recorded, no stay type can be offered. "
+"The banner **This establishment has no approval on file yet, so no stay type"
+" can be offered** appears, with a **Record the approvals** link — fill them "
+"in first."
+msgstr ""
+"Si l'établissement n'a aucun agrément enregistré, aucun type de séjour ne "
+"peut être proposé. Le bandeau **Cet établissement n'a encore aucun agrément "
+"enregistré : aucun type de séjour ne peut être proposé** apparaît, avec un "
+"lien **Enregistrer les agréments** — remplissez-les d'abord."
+
+#: ../../content/admissions/dossier-candidat.md:94
+#: ../../content/admissions/dossier-candidat.md:128
+msgid "In Belgium"
+msgstr "En Belgique"
+
+#: ../../content/admissions/dossier-candidat.md:97
+msgid ""
+"The stay types are MR, MRS, the short stay and the day care centre; the "
+"identification number is the NISS, at the top of the request, read from the "
+"eID card if you wish ([Reading the eID card](../belgique/lecture-eid.md)). "
+"The tab also shows the candidate's Katz (**New Katz**, **Import a Katz**) "
+"and, when the validated Katz points to another sector, suggests it with "
+"**Apply**: see [Admitting a resident in Belgium](../belgique/admission.md)."
+msgstr ""
+"Les types de séjour sont MR, MRS, le court séjour et le centre de soins de "
+"jour ; le numéro d'identification est le NISS, en haut de la demande, lu sur"
+" la carte eID si vous le souhaitez ([Lire la carte eID](../belgique/lecture-"
+"eid.md)). L'onglet montre aussi le Katz du candidat (**Nouvelle Katz**, "
+"**Importer une Katz**) et, quand le Katz validé désigne un autre secteur, le"
+" suggère avec **Appliquer** : voir [Admettre un habitant en "
 "Belgique](../belgique/admission.md)."
 
-#: ../../content/admissions/dossier-candidat.md:65
+#: ../../content/admissions/dossier-candidat.md:105
 msgid "Health insurer and insurability"
 msgstr "Mutuelle et assurabilité"
 
-#: ../../content/admissions/dossier-candidat.md:67
+#: ../../content/admissions/dossier-candidat.md:107
 msgid ""
 "This block records the resident's **health insurer** and the membership "
 "details the country asks for."
@@ -201,7 +363,7 @@ msgstr ""
 "Ce bloc enregistre l'**assureur santé** de l'habitant et les données "
 "d'affiliation que demande le pays."
 
-#: ../../content/admissions/dossier-candidat.md:70
+#: ../../content/admissions/dossier-candidat.md:110
 msgid ""
 "Where the country has electronic exchanges with the health insurer, the "
 "block also carries an **insurability check**: one button queries the insurer"
@@ -214,11 +376,11 @@ msgstr ""
 "d'affiliation. Il lui faut le numéro d'identification national : sans lui, "
 "Resthome le réclame d'abord."
 
-#: ../../content/admissions/dossier-candidat.md:75
+#: ../../content/admissions/dossier-candidat.md:115
 msgid "The insurability check gates the admission"
 msgstr "Le contrôle d'assurabilité conditionne l'admission"
 
-#: ../../content/admissions/dossier-candidat.md:78
+#: ../../content/admissions/dossier-candidat.md:118
 msgid ""
 "Where the check exists, moving to **Admitted** is refused as long as it has "
 "not succeeded. For a case that does not require it — a candidate with no "
@@ -230,96 +392,75 @@ msgstr ""
 "d'identification national, par exemple — décochez la case qui rend le "
 "contrôle obligatoire."
 
-#: ../../content/admissions/dossier-candidat.md:83
+#: ../../content/admissions/dossier-candidat.md:123
 msgid ""
-"If the answer comes back **not insured**, the admission is still possible: "
-"an orange banner warns that billing will have to be addressed to the "
-"resident, and the answer is recorded in the file's history."
+"If the answer comes back **not insured**, the admission is still possible: a"
+" banner warns that billing will have to be addressed to the resident, and "
+"the answer is recorded in the request's history."
 msgstr ""
 "Si la réponse revient **non assuré**, l'admission reste possible : un "
-"bandeau orange prévient que la facturation devra être adressée à l'habitant,"
-" et la réponse est consignée dans l'historique du dossier."
+"bandeau prévient que la facturation devra être adressée à l'habitant, et la "
+"réponse est consignée dans l'historique de la demande."
 
-#: ../../content/admissions/dossier-candidat.md:91
+#: ../../content/admissions/dossier-candidat.md:131
 msgid ""
-"The block holds the mutuality, the CT1/CT2 codes and the BIM status, and the"
-" check is an MDA request sent with **Check insurability**: see [Admitting a "
-"resident in Belgium](../belgique/admission.md) and [Insurability "
+"The block, **Mutuelle / Insurability**, holds the mutuality, the CT1/CT2 "
+"codes and the BIM status, and the check is an MDA request sent with **Check "
+"insurability**. On the pipeline list, **Check insurability (MDA)** checks "
+"the whole waiting list at once. See [Admitting a resident in "
+"Belgium](../belgique/admission.md) and [Insurability "
 "(MDA)](../belgique/ehealth/mda.md)."
 msgstr ""
-"Le bloc contient la mutuelle, les codes CT1/CT2 et le statut BIM, et le "
-"contrôle est une demande MDA envoyée avec **Vérifier assurabilité** : voir "
-"[Admettre un habitant en Belgique](../belgique/admission.md) et "
-"[Assurabilité (MDA)](../belgique/ehealth/mda.md)."
+"Le bloc **Mutuelle / Assurabilité** contient la mutuelle, les codes CT1/CT2 "
+"et le statut BIM, et le contrôle est une demande MDA envoyée avec **Vérifier"
+" assurabilité**. Sur la liste du pipeline, **Vérifier l'assurabilité (MDA)**"
+" vérifie toute la liste d'attente en une fois. Voir [Admettre un habitant en"
+" Belgique](../belgique/admission.md) et [Assurabilité "
+"(MDA)](../belgique/ehealth/mda.md)."
 
-#: ../../content/admissions/dossier-candidat.md:97
+#: ../../content/admissions/dossier-candidat.md:139
 msgid "Key contacts"
 msgstr "Contacts clés"
 
-#: ../../content/admissions/dossier-candidat.md:99
+#: ../../content/admissions/dossier-candidat.md:141
 msgid "Three roles, each with a box to tick when the person does not exist:"
 msgstr ""
 "Trois rôles, chacun avec une case à cocher quand la personne n'existe pas :"
 
-#: ../../content/admissions/dossier-candidat.md:101
+#: ../../content/admissions/dossier-candidat.md:143
 msgid "**Emergency contact** — or **No emergency contact**"
 msgstr "**Contact d'urgence** — ou **Pas de contact d'urgence**"
 
-#: ../../content/admissions/dossier-candidat.md:102
+#: ../../content/admissions/dossier-candidat.md:144
 msgid "**Legal representative** — or **No legal representative**"
 msgstr "**Représentant légal** — ou **Pas de représentant légal**"
 
-#: ../../content/admissions/dossier-candidat.md:103
+#: ../../content/admissions/dossier-candidat.md:145
 msgid "**Trusted person** — or **No trusted person**"
 msgstr "**Personne de confiance** — ou **Pas de personne de confiance**"
 
-#: ../../content/admissions/dossier-candidat.md:105
+#: ../../content/admissions/dossier-candidat.md:147
 msgid ""
 "The box matters: it tells the team that the question was asked, rather than "
-"leaving an empty field that looks like an oversight."
+"leaving an empty field that looks like an oversight. A name typed in one of "
+"these fields opens a short contact form."
 msgstr ""
 "La case compte : elle dit à l'équipe que la question a été posée, au lieu de"
-" laisser un champ vide qui ressemble à un oubli."
+" laisser un champ vide qui ressemble à un oubli. Un nom saisi dans l'un de "
+"ces champs ouvre un court formulaire de contact."
 
-#: ../../content/admissions/dossier-candidat.md:108
+#: ../../content/admissions/dossier-candidat.md:151
 msgid "What's next"
 msgstr "Pour continuer"
 
-#: ../../content/admissions/dossier-candidat.md:110
+#: ../../content/admissions/dossier-candidat.md:153
+msgid "[The waiting list](liste-attente.md)"
+msgstr "[La liste d'attente](liste-attente.md)"
+
+#: ../../content/admissions/dossier-candidat.md:154
 msgid "[Admitting a candidate](admettre.md)"
 msgstr "[Admettre un candidat](admettre.md)"
 
-#: ../../content/admissions/dossier-candidat.md:111
-msgid "[Managing a resident](../residents/gerer-un-resident.md)"
+#: ../../content/admissions/dossier-candidat.md:155
+msgid "[Manage a resident](../residents/gerer-un-resident.md)"
 msgstr "[Gérer un habitant](../residents/gerer-un-resident.md)"
-
-#~ msgid "Short stay: 90 days a year"
-#~ msgstr "Court séjour : 90 jours par an"
-
-#~ msgid ""
-#~ "**Mutuelle**, **insurance regime**, **membership code**, **CT1**, **CT2**, "
-#~ "**BIM status**."
-#~ msgstr ""
-#~ "**Mutuelle**, **régime d'assurance**, **code d'affiliation**, **CT1**, "
-#~ "**CT2**, **statut BIM**."
-
-#~ msgid ""
-#~ "**MDA Check**: **MDA check required**, **latest MDA**, **MDA status**, "
-#~ "**Insured**, **last check**."
-#~ msgstr ""
-#~ "**Contrôle MDA** : **Vérification MDA requise**, **dernière MDA**, **État "
-#~ "MDA**, **Assuré**, **dernier contrôle**."
-
-#~ msgid ""
-#~ "The **Check insurability** button sends an [MDA "
-#~ "request](../belgique/ehealth/mda.md) and fills in the health insurer, the "
-#~ "BIM status and the CT1/CT2 codes on its own. It needs the **NISS**: without "
-#~ "it, Resthome asks for it first."
-#~ msgstr ""
-#~ "Le bouton **Vérifier assurabilité** envoie une [demande "
-#~ "MDA](../belgique/ehealth/mda.md) et remplit tout seul la mutuelle, le statut"
-#~ " BIM et les codes CT1/CT2. Il lui faut le **NISS** : sans lui, Resthome le "
-#~ "réclame d'abord."
-
-#~ msgid "[Insurability (MDA)](../belgique/ehealth/mda.md)"
-#~ msgstr "[Assurabilité (MDA)](../belgique/ehealth/mda.md)"

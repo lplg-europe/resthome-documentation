@@ -31,7 +31,7 @@ Everything outside a country space applies in Spain too:
 - [Getting started](../premiers-pas.md) — log in and find your way around.
 - [Residents](../residents/index.md) — the file, the stay, the rooms.
 - [Admissions](../admissions/index.md) — from the first enquiry to the move-in.
-- [Care](../soins/index.md) and the [Care app](../soins-mobile/index.md).
+- [Care](../soins/index.md) and the [WideCare app](../soins-mobile/index.md).
 - [Billing](../facturation/index.md) — periods, supplements, absences, invoices —
   and [Split billing](../facturation-partagee/index.md).
 - [Meals](../repas/index.md) and the [Family portal](../portail-famille/index.md).

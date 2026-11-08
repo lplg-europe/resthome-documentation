@@ -1,224 +1,200 @@
 ---
 howto_auto: true
-modules: [healthcare_inspection]
+modules: [healthcare_inspection, healthcare_inspection_helpdesk]
 ---
 
 # The condition report (move-in and move-out)
 
 :::{rh-description}
-The move-in/move-out condition report for a nursing home with Resthome: assess each item of equipment, photos, and a signed PDF report (eIDAS).
+The move-in and move-out condition report of a room in Resthome: each item of equipment rated OK or Not OK with a photo, reusable templates, and a PDF report ready to sign.
 :::
 
 :::{rh-faq}
 Where do I create a condition report in Resthome?
-: In the Accommodation ▸ Condition reports menu, click New. When you select the resident, the room (taken from their current stay) and the representative are filled in automatically.
+: In **Nursing Home → Accommodation → Property Inspections**, click **New**. When you select the resident, the room (from their current stay) and the representative are filled in.
 
 What is the difference between a move-in and a move-out condition report?
-: The Condition report type field distinguishes Move-in from Move-out. The move-in records the state of the room when the resident arrives, the move-out when they leave. The PDF report shows a Move-in or Move-out badge depending on the type chosen.
-
-Does the condition report have legal value?
-: Yes. It is a joint assessment, signed by the resident's representative and by the facility, drawn up in two copies. The report carries a statement of compliance with the eIDAS regulation.
+: The **Inspection Type** field: **Arrival** records the state of the room when the resident moves in, **Exit** when they leave. The PDF report shows the matching badge.
 
 Can I reuse a standard list of equipment?
-: Yes, through the Condition report templates (Configuration ▸ Condition reports). A template pre-fills the lines, the sections and the general observations, like a quotation template.
+: Yes, through **Inspection Templates** (Nursing Home → Configuration → Property Inspections). A template fills in the lines, the sections and the general observations, like a quotation template.
 
-How do I sign the condition report electronically?
-: The PDF report contains signature anchors (representative and facility) designed for the Odoo Sign app. Otherwise, print it and have it signed by hand, in two copies.
+Can a finished condition report still be changed?
+: Not directly. Once **Done**, it is locked and cannot be deleted: click **Reset to To do** to reopen it — the reopening is recorded in its history.
 
-What do Compliant and Non-compliant mean on a line?
-: It is the recorded condition of the equipment. The report summary counts the compliant and non-compliant items, and the photos are included in a photographic appendix.
+How do I sign the condition report?
+: Print it with **Print → État des lieux**. The PDF carries two signature boxes, for the resident's representative and for the house, placed for an electronic signature request; otherwise, print it in two copies and sign by hand.
 :::
 
 The **condition report** records the **state of a room** and its equipment at a
-specific moment: when the resident **moves in**, and then when they **move out**.
-It is a legally binding **joint assessment**, signed by the resident (or their
-representative) and by the facility. You will find it in the
-**Accommodation ▸ Condition reports** menu.
+given moment: when the resident **moves in**, then when they **move out**. It is
+a **joint assessment**, signed by the resident's representative and by the
+house.
 
-Each condition report links a **resident**, a **room** and a **representative**,
-lists the **equipment** assessed (compliant or not), and produces a
-**PDF report** on your letterhead, ready to sign.
+Menu: **Nursing Home → Accommodation → Property Inspections**.
+
+Each report links a **resident**, a **room** and a **representative**, lists the
+**equipment** assessed (OK or Not OK), and produces a **PDF report** on your
+letterhead.
 
 ```mermaid
 graph LR
   A[To do] --> B[Planned]
   B --> C[Done]
-  A --> C[Done]
+  A --> C
 ```
 
 :::{admonition} An optional module
 :class: info
 
-Condition reports are provided by a dedicated module. When it is installed, a
-**Condition reports** entry appears in the **Accommodation** menu, alongside
-**Rooms** and **Stays**.
+Condition reports come with their own module. Once it is installed, **Property
+Inspections** appears in the **Accommodation** menu. A new stay also opens the
+**Entry / exit condition report** step of the [move-in
+procedure](procedure-emmenagement.md), as a reminder.
 :::
 
 ## 1. Create the condition report
 
-1. Open **Accommodation ▸ Condition reports**.
+1. Open **Nursing Home → Accommodation → Property Inspections**.
 2. Click **New**.
 3. Select the **Resident**.
-4. Check the **Date** (today's date by default) and the **Person in charge**
-   (you by default).
-5. **Save**: an automatic **reference** is assigned (prefix `EL-`).
+4. Check the **Date** (now by default) and the **Responsible** (you by default).
+5. Choose the **Inspection Type**: **Arrival** or **Exit**.
+6. **Save**: a **Reference** is assigned (prefix EL-).
 
-:::{admonition} The resident, the room and the representative link themselves
+:::{admonition} The room and the representative fill themselves in
 :class: tip
 
-As soon as you choose the **resident**, Resthome pre-fills:
+As soon as you choose the **resident**, Resthome fills in:
 
-- the **Room**, taken from their **current stay**;
-- the **Resident's representative** (the reference person who will sign), taken
-  from their **first family contact**.
+- the **Room**, from their **current stay**;
+- the **Resident's Representative** — the person who signs —, from their first
+  contact person.
 
-Both fields remain editable if needed.
+Both remain editable, and both are required.
 :::
 
-![Condition report: resident, representative, room, and the equipment lines marked compliant or non-compliant](../assets/screenshots/residents/edl-formulaire.png)
+**Tags** classify the reports as you wish; they are managed in **Nursing Home →
+Configuration → Property Inspections → Inspection Tags**.
 
-## 2. Choose the type: move-in or move-out
+![Condition report: resident, representative, room, and the equipment lines rated OK or Not OK](../assets/screenshots/residents/edl-formulaire.png)
 
-Fill in the **Condition report type** field:
+## 2. Fill in the details
 
-- **Move-in** — the state of the room when the resident **arrives**.
-- **Move-out** — the state at the time of **departure**, to be compared with the move-in.
-
-The type determines the **badge** shown on the PDF report (Move-in / Move-out).
-
-:::{admonition} Type not specified
-:class: note
-
-If you do not choose a type, the report shows the **Not specified** badge.
-Fill in Move-in or Move-out for a clear document.
-:::
-
-## 3. Fill in the detail lines
-
-Open the **Details** tab. Each line describes an **item of equipment** and its
-condition. Three buttons are available at the bottom of the list:
+Open the **Details** tab. Three buttons sit at the bottom of the list:
 
 - **Add a line** — an item of equipment being assessed;
-- **Add a section** — a heading that groups lines (e.g. "Bedroom", "Bathroom",
-  "Furniture");
-- **Add a note** — a free-text line, in italics.
+- **Add a section** — a heading that groups lines ("Bedroom", "Bathroom"…);
+- **Add a note** — a free-text line.
 
-For an equipment line, fill in:
+For an equipment line:
 
-| Field | Purpose |
+| Column | Purpose |
 |---|---|
-| **Equipment** | The item being assessed (required) |
-| **Condition** | **Compliant** or **Non-compliant** (required) |
-| **Photo** | A photo of the item (optional) |
-| **Notes** | A free-text observation |
+| **Equipment** | The item assessed (required). |
+| **State** | **OK** or **Not OK** (required). |
+| **Photo** | A photo of the item. |
+| **Notes** | A free observation. |
 
-:::{admonition} Equipment and condition are required
-:class: warning
-
-A detail line must always carry an **item of equipment** and a **condition**
-(Compliant / Non-compliant). Sections and notes, on the other hand, carry
-neither equipment nor condition: they are simple headings or remarks.
-:::
-
-![Condition report: resident, representative, room, and the equipment lines marked compliant or non-compliant](../assets/screenshots/residents/edl-formulaire.png)
-
-A second tab, **General observations**, lets you add free text about the overall
-condition of the room.
+Drag the handle on the left of a line to reorder the list. The **General
+Observations** tab takes free text about the room as a whole.
 
 ### The equipment catalogue
 
-The lines point to the facility's **equipment catalogue** ("Room equipment"),
-shared with room management. There you define the bed, the wardrobe, the
-television, the bathroom, etc. once and for all. See [Furniture and
-equipment](mobilier.md).
+The lines point to the house's **equipment catalogue**, the same one the
+[rooms](chambres.md) use: the bed, the wardrobe, the television, the
+bathroom… are defined once in **Nursing Home → Configuration → Rooms → Room
+Equipment**.
 
 ### Reusable templates
 
-To avoid re-entering the same list every time, use a **template**.
+To avoid re-entering the same list every time:
 
-1. Create your templates in **Configuration ▸ Condition reports ▸ Condition
-   report templates**.
-2. On a condition report, choose the **Condition report template**: its lines,
-   sections and general observations pre-fill the document.
+1. Create your templates in **Nursing Home → Configuration → Property
+   Inspections → Inspection Templates** — a name (for example *Standard single
+   room*), its **Lines** (lines, sections and notes) and its **General
+   Observations**.
+2. On a condition report, choose the **Inspection Template**: its content fills
+   in the report, which you then rate.
 
-:::{admonition} Like a quotation template
-:class: tip
-
-A template works like a quotation template: it sets up the structure (sections +
-equipment) that you then just have to assess and complete.
-:::
-
-## 4. Track the lifecycle
-
-A condition report goes through four **statuses**, shown in the status bar and
-as columns in the kanban view:
+## 3. Follow the status
 
 | Status | Meaning |
 |---|---|
-| **To do** | Created, assessment not yet carried out (initial status) |
-| **Planned** | The assessment is planned |
-| **Done** | The assessment is carried out and closed |
-| **Cancelled** | The condition report is abandoned |
+| **To do** | Created, not yet carried out. |
+| **Planned** | The inspection is scheduled. |
+| **Done** | Carried out and closed. |
+| **Cancelled** | Abandoned. |
 
-The buttons at the top of the form move the record forward:
+The buttons at the top move it on: **Plan**, **Mark as Done**, **Cancel**, and
+**Reset to To do** to reopen a done or cancelled report. The kanban view shows
+one column per status.
 
-- **Plan** — moves from *To do* to *Planned*;
-- **Mark as done** — moves to *Done*;
-- **Reset to To do** — returns to *To do* from *Done* or *Cancelled*;
-- **Cancel** — switches to *Cancelled*.
+:::{admonition} A done report is locked
+:class: warning
+
+Once **Done**, the report is a finalised record: its resident, room, date,
+lines and observations can no longer be edited, and it cannot be deleted. To
+correct it, click **Reset to To do** — the reopening stays in its history —,
+then mark it done again.
+:::
 
 ![Condition reports grouped by status, from To do through to Cancelled](../assets/screenshots/residents/edl-kanban.png)
 
-## 5. Generate the signed PDF report
+The search bar filters on **Arrival**, **Exit**, **To do**, **Planned**,
+**Done** and **My Inspections**, and groups by **Status**, **Inspection Type**,
+**Resident**, **Room** or **Responsible**.
 
-From a condition report, use **Print ▸ Condition report**. Resthome produces an
-`EDL_<reference>.pdf` document in your facility's house style.
+## 4. Print the report
 
-The report includes:
+**Print → État des lieux** produces the PDF, named after the reference. It
+holds:
 
-- your **letterhead** (logo, name, address, VAT) and your facility's **colour**
-  — set in **Settings ▸ Configure document layout**;
-- the title **CONDITION REPORT** with the **Move-in badge** (green) or
-  **Move-out** (orange) depending on the type;
-- the **metadata**: resident, room, person in charge of the assessment,
-  representative, date, tags;
-- the **general observations**, if you have entered any;
-- the **detail of the items assessed** (equipment, condition, photo,
-  observation);
-- a **summary**: number of items, including compliant and non-compliant;
-- two **joint signature** boxes — *The resident's representative* and *For the
-  facility* — beneath the wording "Done at …, in two copies";
-- a **photographic appendix** showing the photos in large format (4 per page).
+- your **letterhead** and your house colour (set in the document layout);
+- the **Arrival** or **Exit** badge;
+- the resident, the room, the person in charge, the representative, the date
+  and the tags;
+- the general observations;
+- the items assessed, with their state, photo and notes;
+- a **summary** of the items, OK and Not OK;
+- two **signature** boxes — the resident's representative and the house —
+  under the place and date, "in two copies";
+- a **photographic appendix**, four photos per page.
 
-:::{admonition} Ready for electronic signature (Odoo Sign)
+:::{admonition} Ready for an electronic signature
 :class: info
 
-The report contains **signature anchors** that are invisible when printed,
-placed for the **Odoo Sign** app: when a signature request is created, the
-*representative* and *facility* fields land in the right place. The footer
-states compliance with the **eIDAS Regulation (EU) No 910/2014**. Using Odoo
-Sign is optional: otherwise, print the PDF and have it signed by hand.
+The signature boxes carry invisible anchors placed for an electronic signature
+request: the representative's and the house's signatures land in the right
+place. The footer refers to the European eIDAS regulation. Otherwise, print
+the report and have both copies signed by hand.
 :::
 
-<!-- screenshot to add: the first page of the PDF report with the Move-in badge, the summary and the joint signature boxes -->
+:::{note}
+The PDF report is printed in French, whatever the user's language.
+:::
 
-## Key points to remember
+<!-- screenshot to add: the first page of the PDF report with the Arrival badge, the summary and the two signature boxes -->
 
-- The condition report is a legally binding **joint assessment**: move-in then
-  move-out, signed by the resident's representative and the facility.
-- The **resident**, the **room** (taken from the stay) and the **representative**
-  are pre-filled automatically.
-- Each line carries an **item of equipment** and a **Compliant / Non-compliant**
-  condition, with a photo and an observation; **sections** and **notes**
-  structure the list.
-- **Templates** save you from re-entering the same list; the **equipment
-  catalogue** is shared with the rooms.
-- The **PDF report** is in your house style, with a Move-in/Move-out badge,
-  summary, signatures and a photo appendix, ready for **Odoo Sign** (eIDAS).
+## Interventions in the room
+
+Where the helpdesk is installed, an **Interventions** smart button on the report
+lists the technical interventions made in that room during the resident's
+occupancy — the history the move-out report is checked against. See
+[Following an intervention](../interventions/suivre-une-intervention.md).
+
+## Key takeaways
+
+- The condition report is a **joint assessment**, on arrival then on exit,
+  signed by the representative and the house.
+- The **room** and the **representative** fill themselves in from the resident.
+- Each line carries an **item of equipment** and a **State** (OK / Not OK), with
+  a photo and notes; **templates** save re-entering the list.
+- A **Done** report is locked and kept; **Reset to To do** reopens it.
 
 ## Going further
 
-- [Manage a resident](gerer-un-resident.md)
+- [The move-in procedure](procedure-emmenagement.md)
+- [Rooms and occupancy](chambres.md)
+- [The resident's private furniture](mobilier.md)
 - [Room change and transfer](changement-chambre.md)
-- [Furniture and equipment](mobilier.md)
-- [General settings (residents, rooms)](../configuration/reglages-generaux.md)

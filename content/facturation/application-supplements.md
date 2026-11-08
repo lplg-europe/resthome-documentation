@@ -1,11 +1,11 @@
 ---
-modules: [resthome_supplements, healthcare_accommodation_billing, resthome_sales]
+modules: [resthome_supplements, resthome_meal_supplements, healthcare_accommodation_billing, resthome_sales]
 ---
 
-# The Supplements App
+# The Supplements app
 
 :::{rh-description}
-The Supplements app of a care home: multi-resident entry via the catalog, one-off or recurring supplements, conventions, catalog and reporting.
+The Supplements app of a care home: multi-resident entry via the catalog, one-time or recurring supplements, conventions, catalog and reporting.
 :::
 
 :::{rh-faq}
@@ -15,11 +15,14 @@ What is the Supplements app for in a care home?
 How do I add a supplement to several residents at once?
 : On the Residents screen, select several residents (Ctrl+click on a computer, long press on a tablet, or the "Multiple selection" button), then click "Supplements (N)". A single catalog opens and every added supplement is applied to the open envelope of each selected resident.
 
-What is the difference between a one-off supplement and a convention?
-: A one-off supplement is billed once on the month's envelope (hairdresser, drink…). A convention groups the resident's recurring supplements (single room, TV, phone): it lives on the resident and survives a stay closure, a room change or a transfer.
+What is the difference between a one-time supplement and a convention?
+: A one-time supplement is billed once on the month's envelope (hairdresser, drink…). A convention groups the resident's recurring supplements (single room, TV, phone): it lives on the resident and survives a room change or a transfer.
 
 Where do I define the list of supplements and their prices?
-: In Configuration → Catalog. Each supplement has a type (daily, monthly or one-off), a price specific to the facility and, where the country requires it, a code for the declaration to the health insurer.
+: In Configuration → Catalogue. Each supplement has a supplement type (monthly, one-time, daily on accommodation days or daily on presence days) and a price specific to the facility.
+
+Which residents does the app list?
+: Those who can be charged now: residents whose stay has started, and residents who left while the month of their departure is not invoiced yet.
 
 Can I track the supplements billed per resident or per month?
 : Yes, via the Reporting menu: graph, pivot table and list views break down the billed supplements per resident, per product and per month.
@@ -31,7 +34,8 @@ be split between the resident record and the billing period: opening a
 resident's catalog, adding supplements to several residents at once, managing
 recurring conventions, maintaining the catalog and tracking billed amounts.
 
-You will find it in the **main menu → Supplements app**.
+You will find it in the **main menu → Supplements app**. When the Meals app is
+installed too, a **Supplements** entry in the Meals menu opens the same screen.
 
 :::{admonition} This page complements "Supplements"
 :class: info
@@ -44,34 +48,37 @@ app** and its entry shortcuts. The app does not create any parallel
 data: it acts on the same envelopes and the same conventions.
 :::
 
+<!-- screenshot to update: the Residents screen now uses the shared resident card and has a Presence / Sector side panel -->
 ![Supplements app on the Residents screen in kanban view, one card per resident with room and stay type](../assets/screenshots/facturation/01-app-supplements-residents.webp)
 
 ## The Residents screen (the starting point)
 
-On opening, the app displays the **Residents** screen: the list of
-active residents, in **kanban view** (cards) or **list view**. Each card
-shows the photo, the name, the **room** and the **stay type** (the sector of
-the home the resident is placed in), with a basket icon "Add supplements".
+On opening, the app displays the **Residents** screen, in **kanban view**
+(cards) or **list view**. It lists the residents who can be charged now: those
+whose stay has started, and those who left while the month of their departure
+is not invoiced yet. Each card is the usual resident card (photo, name, room,
+sector, presence badges), with a basket icon "Add supplements".
 
 - **Click a resident**: Resthome directly opens the **catalog** of their
   supplements envelope for the current month. You land on the entry
   grid, without going through the record.
-- In **list view**, each row carries an **Add supplements** button, and
-  the header an **Add via the catalog** button to act on the checked
-  residents.
+- In **list view**, each row shows the resident's **Open envelope** and an
+  **Add supplements** button; the header has an **Add via catalog** button to
+  act on the checked residents.
 
 :::{admonition} Filter and group
 :class: tip
 
-The search bar filters by **stay type** and groups by **room**
-or by **stay type** — handy for quickly spotting a wing or a
-floor before a bulk entry.
+The side panel filters by **Presence** (in the house, in hospital, on leave…)
+and by **Sector**. The search bar groups by **Room** or **Sector**, and the
+**Departed, last month still open** filter finds the residents who left but
+can still be charged for their last month.
 :::
 
 :::{admonition} In Belgium
 :class: rh-country rh-country-be
 
-The stay type is **MR** or **MRS**, and the search bar offers **MR** / **MRS**
+The sector is **MR** or **MRS**, and the search bar offers **MR** / **MRS**
 filters. See [Billing a month in Belgium](../belgique/facturation.md).
 :::
 
@@ -87,16 +94,17 @@ several residents without reopening each record.
    - or enable the **Multiple selection** button, which selects on a single
      click.
 2. Click the **Supplements (N)** button that appears (N = number of selected
-   residents). In list view, use **Add via the catalog**.
+   residents). In list view, use **Add via catalog**.
 3. **A single catalog** opens. Each supplement you add, modify
    or remove there is **applied to the open envelope of each selected
    resident**, for the current month.
 
 In this shared catalog, the left panel shows a
-**Residents** section: the residents concerned appear as tags (the
-"pilot" resident in grey, the others in green). The **Add** link lets you
-add more on the fly; removing a tag takes out the resident (the
-last one cannot be removed).
+**Residents** section: the residents concerned appear as tags, with their
+number. The **Add** link lets you add more on the fly; removing a tag takes out
+the resident (the last one cannot be removed). The quantities on the cards are
+the supplements already recorded for this month: **+** adds one, **−** takes
+one off. Each change is confirmed by a notification with an **Undo** link.
 
 ![Multi-resident supplement catalog, with the residents it applies to](../assets/screenshots/facturation/supplements-catalogue-residents.png)
 
@@ -110,20 +118,23 @@ For entry on a single resident, Resthome blocks the addition outright and
 prompts you to go through the convention.
 :::
 
-## One-off and recurring supplements
+## One-time and recurring supplements
 
 The app distinguishes the two kinds of supplements already presented in
 [Supplements](supplements.md).
 
-- **One-off** — added to the month's envelope via the catalog (hairdresser,
-  pedicure, drink, phone…). The **One-off supplements** menu gives the
-  **list**, grouped by resident, with the period, the product, the quantity, the
-  price and the total. This is the place to review everything entered by hand
-  over the month.
+- **One-time** — added to the month's envelope via the catalog (hairdresser,
+  pedicure, drink, phone…). The **One-time supplements** menu gives the
+  **list**, with the resident, the period, the supplement, the quantity and the
+  price, and the **Vendor bill** it was recharged from, if any. Group it by
+  resident, period, supplement or vendor bill; the **Recharged from a vendor
+  bill** filter isolates the [recharges](refacturation-fournisseur.md). This
+  is the place to review everything entered over the month.
 - **Recurring** — renewed each month via a **convention** (see the next
   section).
 
-![One-off supplements list grouped by resident, with quantities and subtotals per line](../assets/screenshots/facturation/02-supplements-ponctuels.webp)
+<!-- screenshot to update: menu renamed One-time supplements, new Vendor bill column -->
+![One-time supplements list grouped by resident, with quantities and subtotals per line](../assets/screenshots/facturation/02-supplements-ponctuels.webp)
 
 :::{admonition} Where did my supplement go?
 :class: tip
@@ -139,14 +150,16 @@ supplement does not appear where you expected.
 
 A **convention** groups a resident's **recurring** supplements (single
 room, TV, phone…). It lives on the **resident**, not on the stay:
-it **survives** a stay closure, a room change or a transfer between sectors.
+it **survives** a room change or a transfer between sectors.
 Each resident has **one single** convention, which gathers all their
-recurring lines.
+recurring lines; starting a second one shows a warning with a link to the
+existing one.
 
 In the app, the **Conventions** menu lists the recurring supplement
-lines (resident, convention, product, type, dates, quantity, active). The
-convention itself — with its status and its buttons — is managed from
-**Billing → Facturation → Supplement Conventions**.
+lines (resident, convention, product, supplement type, unit price, dates,
+quantity, active). The convention itself — with its status and its buttons — is
+managed from **Billing → Facturation → Supplement Conventions**, or from the
+**Supplements** smart button on the resident's record.
 
 ![Supplement conventions list: one per resident, with the period covered and the Open or Closed status](../assets/screenshots/facturation/convention-supplements-liste.png)
 
@@ -155,47 +168,47 @@ On the convention:
 | Element | Role |
 |---|---|
 | **Status** | **Open** or **Closed** (at the top of the record). |
-| **Close** button | Sets an **end date** and stops billing each line beyond it. |
-| **Reopen** button | Clears the end date and reactivates the lines that had been closed. |
-| **Lines** | Product, type, price, start date, end date, quantity, active, notes. |
+| **Close** button | Asks for an **end date** and stops billing each line beyond it. |
+| **Reopen** button | Clears the end date and reopens the lines it had capped. |
+| **Lines** | Product, supplement type, **Negotiated price**, unit price, start date, end date, quantity, active, notes. Greyed lines are no longer billed. |
 
+A line follows the official price, including its yearly
+[indexation](indexation-des-prix.md), unless **Negotiated price** is ticked:
+the **Unit Price** typed on the line is then charged.
+
+<!-- screenshot to update: the convention lines now carry a Negotiated price column -->
 ![Open supplement convention with the Close button and its lines: product, supplement type, unit price, dates, quantity and Active box](../assets/screenshots/facturation/03-convention-supplements.webp)
 
-:::{admonition} A product under a convention cannot be entered as one-off
+:::{admonition} A product under a convention cannot be entered as one-time
 :class: warning
 
 As long as a product is covered by an **active convention**, it cannot be
-added as a one-off supplement for the same resident. Add it **to
+added as a one-time supplement for the same resident. Add it **to
 the convention**, or **close** that convention first.
 :::
 
 ## The supplements catalog
 
-The **Configuration → Catalog** menu holds the list of billable **supplement
-types** ("Supplement types"). Each supplement has:
+The **Configuration → Catalogue** menu holds the list of billable
+**Supplement Types** (the same list as **Billing → Configuration → Supplement
+Types**). Each supplement has:
 
 | Field | Description |
 |---|---|
 | **Reference** | Internal code of the supplement. |
 | **Name** | Label shown in the catalog. |
-| **Supplement type** | **Daily** (billed pro rata over the days), **Monthly** (per month) or **One-off** (once). |
+| **Supplement Type** | **Monthly**, **One-time**, **Daily — accommodation days** (billed even during an absence) or **Daily — presence days** (not billed during an absence). |
 | **Price** | Unit amount — **value specific to the facility**. |
 
-:::{admonition} Declared to the health insurer or not?
-:class: info
-
-Depending on its **category**, a supplement is either **declared to the health
-insurer** with the insurer's share, where the country requires it, or billed
-**only on the resident's invoice**. This setting is made on the product
-category — see [Billing settings](../configuration/reglages-facturation.md).
-:::
+The search bar filters the catalog by supplement type.
 
 :::{admonition} In Belgium
 :class: rh-country rh-country-be
 
 The catalog carries an **AViQ code** field — the declaration pseudo-code of the
-supplement — and a declared supplement goes into the eFact (ET50 record). See
-[Billing a month in Belgium](../belgique/facturation.md).
+supplement. Depending on its product category, a supplement is either declared
+to the mutuality in the eFact (ET50 record) or billed only on the resident's
+invoice. See [Billing a month in Belgium](../belgique/facturation.md).
 :::
 
 ## Reporting
@@ -206,8 +219,8 @@ The **Reporting** menu opens an analysis view of **billed** supplements:
 - a **pivot table** (residents × months);
 - a detailed **list** of supplement lines.
 
-You can filter between **one-off** and **convention** supplements, and
-group by **resident**, **product** or **month**.
+You can filter between **One-time** and **Convention** supplements, and
+group by **Resident**, **Supplement** or **Month**.
 
 ![Supplements reporting on the graph view, one bar per resident with the billed amount](../assets/screenshots/facturation/04-supplements-reporting.webp)
 
@@ -225,9 +238,9 @@ generated** for the relevant month.
 - The **Residents** screen is the starting point: click a resident to open
   their catalog, or **select several** (Ctrl+click / long press /
   **Multiple selection**) then **Supplements (N)** to serve them all at once.
-- **One-off** = once on the envelope; **convention** = recurring, on the
+- **One-time** = once on the envelope; **convention** = recurring, on the
   resident, surviving stay changes.
-- A product under an **active convention** cannot be entered as one-off.
+- A product under an **active convention** cannot be entered as one-time.
 - The **catalog** carries the type and the price (value specific to the
   facility); the **reporting** tracks amounts per resident, product and month.
 

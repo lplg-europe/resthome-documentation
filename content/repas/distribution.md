@@ -3,205 +3,203 @@ modules: [resthome_meal]
 howto_auto: true
 ---
 
-# The meal distribution round
+# The meal round
 
 :::{rh-description}
-Distributing meals in a nursing home with Resthome: a resident-by-resident tablet assistant, amount eaten, and printable sheets by sector.
+Follow each meal to the resident in Resthome: the places laid by the confirmed menu, served, refused, later or absent, the amount eaten, and the printable sheets by sector.
 :::
 
 :::{rh-faq}
-Where do you start the meal distribution round in Resthome?
-: In the Meals → Operations app. From a confirmed menu, click Quick distribution for the tablet assistant, or print the meal distribution sheet from the Action menu.
+Where do I start the meal round?
+: Confirm the meal's menu: Resthome lays a place for every resident served at that meal. Then follow the round in **Meals → Operations → Distribution**, or in the **Meals** screen of the care app.
 
-How do you mark a resident during the round?
-: The assistant presents residents one by one with four large buttons: Served, Skip, Absent and Room. A single tap records the service and automatically moves on to the next waiting resident.
+What can happen to a resident's plate?
+: It is **To serve**, then **Served**, **Refused** (with a reason), **Later** (still to serve, not late) or **Absent**. A mistake is taken back with **Undo**.
 
-How do you record the amount a resident has eaten?
-: On the resident's meal service (Meals → Operations → Meal services), the Amount eaten field offers Not eaten, 25%, 50%, 75% or All eaten. This value feeds nutritional tracking.
+How do I record the amount a resident has eaten?
+: On the meal service, click one of the buttons **Not Eaten**, **25%**, **50%**, **75%** or **Fully Eaten**. The plate becomes served if it was not already, and the amount feeds the resident's nutritional follow-up.
+
+Who must have the amount eaten noted?
+: The residents followed for nutrition: undernutrition status at risk or confirmed, an intake or fluid deficit, or an **Intake monitoring** care planned at that meal. Their places carry **Intake Required**.
 
 What are the printable distribution sheets for?
-: They are paper sheets, one page per sector, with checkboxes (dining room, room, absent, served) and a supervisor signature line — a fallback for when the tablet is not available.
-
-Can the round be filtered by sector or by location?
-: Yes. In the assistant, choose a sector before clicking Load, and narrow it down to the dining room or in-room meals if needed.
+: A paper version of the round, one page per sector, with check boxes and a supervisor signature line, for when no screen is at hand.
 
 What happens if a resident eats very little?
-: If the resident has eaten 25% or less and their family is subscribed to notifications, Resthome can send an alert. The value also lowers the nutritional coverage shown on the resident's record.
+: When the family meal e-mails are switched on and the resident is opted in, the family receives an alert the same evening for a meal eaten at 25% or less, or refused.
 :::
 
-The **distribution round** follows each meal all the way to the resident: who eats
-**where**, who has been **served**, who is **absent**, and **how much** each one has
-eaten. Resthome offers two complementary tools, both in the **Meals → Operations**
-app:
+The **meal round** follows each meal all the way to the resident: who eats
+**where**, who has been **served**, who **refused** and why, who is **absent**,
+and **how much** each one ate. At the desk it lives in **Meals → Operations**;
+on the floor, carers record it on their phone (see [Meals and drinks in the care
+app](app-soins.md)). Both write the same records.
 
-- the **tablet assistant** (**Quick distribution** button) to check off residents
-  **one by one** on screen;
-- the **printable distribution sheets** by sector, as a **paper** solution.
-
-:::{admonition} Before distributing
+:::{admonition} Places are laid by the kitchen
 :class: note
 
-The meal **menu** must be in the **Confirmed** state. The **meal services**
-(one record per resident and per meal) are created automatically when you start
-distribution — no need to enter them by hand.
+A resident's **place** (a meal service) is created when the kitchen
+**confirms** the menu, with the menu's dishes. Nobody lays places by hand, and
+the care app says so as long as the menu is still a draft. See [Menus, diets and
+allergies](menus-regimes.md).
 :::
 
-## 1. Open the assistant from the confirmed menu
+## 1. Confirm the menu
 
-1. Go to **Meals → Operations → Menus** and open the menu for the meal concerned.
-2. If it is still a draft, click **Confirm**: the **Start service** and
-   **Quick distribution** buttons only appear on a menu in the **Confirmed**
-   state.
-3. Click **Quick distribution** (tablet icon). The assistant opens in a
-   full-width window, suited to a touch screen.
+1. Open **Meals → Operations → Menus** and the menu of the meal.
+2. Click **Confirm**. Every resident served at that meal gets a place.
+3. A resident arrived since? Click **Lay Missing Couverts**: the missing places
+   are laid and the list of the meal's places opens.
 
-:::{admonition} Start service or Quick distribution?
-:class: tip
+Residents away follow the attendance on their own:
 
-**Start service** creates the meal services for all residents and opens their
-**list**. **Quick distribution** does the same preparation, then launches the
-check-off **assistant** directly. For the round, use **Quick distribution**.
-:::
+- A resident in hospital or away that day gets no place, and their places
+  already laid are marked **Absent** (**Away from the house**). When they come
+  back, the places of the meals still ahead open again.
+- A resident who comes only part of the day gets the meals of their hours.
+- A place marked absent by hand (a family outing, for example) stays absent.
 
-<!-- screenshot to add: header of a confirmed menu showing the Start service and Quick distribution buttons -->
+## 2. Follow the round
 
-## 2. Filter and load the round
+**Meals → Operations → Distribution** opens a board of the day's places still
+to serve, grouped by place: **Dining Room**, **In Room** and **Absent**. Each
+card shows the photo, the **room**, the **sector**, the **diet** codes and,
+where relevant, an **ALERT**, **Warning**, **Served**, **Refused**, **Later** or
+**Amount to note** badge. The bar on top of each column shows how many are
+served, refused, later or still to serve.
 
-At the top of the assistant, three settings frame the round:
+![Distribution board: three columns Absent, Dining room and In room, with one card per resident showing the room, the sector and the diet badge](../assets/screenshots/repas/03-distribution.png)
 
-- **Menu** — pre-filled with the menu you started from.
-- **Sector** — optional: limits the round to one sector (a wing, a floor).
-- **Location** — restricts to residents served in the **dining room** or **in
-  their room**; leave it on all locations to see everyone.
+<!-- screenshot to update: distribution cards now show Refused, Later and Amount to note badges -->
 
-Click **Load** to (re)build the list. It is sorted by **sector**, then **room**,
-then **resident**, in the order in which you will do your round.
+**Meals → Operations → Meal Services** shows the same places as a list, coloured
+by state (red for a critical alert, orange for a warning, green when served,
+grey when absent, blue when later). Useful filters:
 
-## 3. Review the residents
+- **To Serve**, **Served**, **Refused**, **Later**, **Amount to Note**;
+- **Dining Room**, **In Room**, **Absent**;
+- **Warnings**, **Critical Alerts**;
+- group by **Location**, **Outcome**, **Sector** or **Room**.
 
-Tap a resident to open their **card**: photo, **room**, **sector** and **diets**.
-Four large buttons let you check off in a single tap:
+From the list, select several places and click **Mark Served** or **Mark
+Absent**. The **Action** menu also offers **Mark in Dining Room** and **Mark in
+Room**. Only places still to serve or later are changed.
+
+## 3. Record each plate
+
+Open a place to act on one resident. The buttons shown depend on the state of
+the plate:
 
 | Button | Effect |
 | --- | --- |
-| **Served** | Marks the meal as **served** and moves on to the next waiting resident. |
-| **Skip** | Moves on to the next resident **without changing anything** (to handle later). |
-| **Absent** | Marks the resident **absent** (not served) and moves on to the next. |
-| **Room** | Indicates the resident eats **in their room** and stays on their card. |
+| **Served** | The plate is served. The hour and the person who served are kept. |
+| **Refused** | The resident refused the meal: pick the **Refusal Reason** first (**Not hungry**, **Does not like it**, **Nausea / unwell**, **Asleep**, **Other**). **Other** needs a word in **Outcome Note**. The amount eaten becomes **Not Eaten**. |
+| **Later** | The meal is served later (fasting for an exam, not up yet). It stays to serve and is not counted as late; say why in **Outcome Note**. |
+| **Absent** | The resident is not at the table. Only a plate still to serve or later can be marked absent. |
+| **Undo** | Back to **To serve**: amount, refusal, hour and person are cleared. |
 
-The **Full list** tab shows all residents with a **colour code**: **green** =
-served, **greyed out** = absent, **red** = critical alert, **orange** = warning.
-Each row also carries its **Served** and **Absent** buttons for a quick check-off
-without opening the card.
+The **Location** field says where the meal is eaten: **Dining Room** or **In
+Room**.
 
-At the top, a **progress** banner counts live: **served / total**, **waiting**,
-**absent** and the completion percentage.
+:::{admonition} Correct with Undo
+:class: tip
 
-:::{admonition} Critical allergy alert
-:class: warning
-
-A **red banner** flags a serious incompatibility between a planned dish and the
-resident's profile. Resthome **refuses to mark as "Served"** a service that
-includes a **critical allergen** until the dishes have been adapted. See
-[Menus, diets and hydration](menus-regimes.md).
+A plate already served or refused is a recorded fact: Resthome refuses to mark
+it absent or later. Click **Undo** first, then record what really happened.
 :::
 
-<!-- screenshot to add: assistant resident card with the four large buttons Served / Skip / Absent / Room -->
+### Dietary alerts on the plate
+
+A red banner **CRITICAL DIETARY ALERT!** or an orange **Dietary Warning:**
+explains the problem (allergen, diet, texture). A plate with a critical alert
+**cannot be marked as served**. The **Compatible Dishes** button lists the
+dishes of the catalogue that raise no warning for this resident; change the
+**Dishes** of the place, then serve it. A dish changed for one resident stays
+when the menu changes. See [Menus, diets and allergies](menus-regimes.md).
 
 ## 4. Record the amount eaten
 
-The **percentage eaten** is recorded on the resident's **meal service** (it is not
-part of the check-off assistant):
+After the meal, on the place, click the amount under **Record the amount
+eaten:**
 
-1. Open **Meals → Operations → Meal services** and select the resident's service.
-2. Fill in the **Amount eaten** field:
-
-| Option | Meaning |
+| Button | Meaning |
 | --- | --- |
-| **Not eaten** | The resident ate nothing. |
-| **25%** | About a quarter of the meal. |
+| **Not Eaten** | The resident ate nothing. |
+| **25%** | About a quarter of the plate. |
 | **50%** | About half. |
 | **75%** | About three quarters. |
-| **All eaten** | Meal finished. |
+| **Fully Eaten** | The plate is finished. |
 
-The amount eaten is not just a note: combined with the dishes served, it
-calculates the **actual intake** (energy, protein) that feeds the **nutritional
-coverage** on the resident's record. See [Nutritional
-tracking](suivi-nutritionnel.md).
+- A plate still to serve becomes **Served** with the amount.
+- A refused plate stays refused, unless something was eaten after all.
+- If an **Intake monitoring** care was planned for this resident at that meal,
+  it is marked done with the amount. **Undo** opens it again.
 
-:::{admonition} Low intake and families
-:class: info
+The amount, multiplied by the values per portion of the dishes, gives the
+**actual intake** (energy, protein) of the resident. See [Nutritional
+monitoring and undernutrition](suivi-nutritionnel.md).
 
-If a resident has eaten **25% or less** and their family is **subscribed to meal
-notifications**, Resthome can send an automatic **alert**. This option is enabled
-per resident. See [Family portal and kiosk](portail-familles.md).
+:::{admonition} Amounts owed
+:class: note
+
+**Intake Required** is ticked on the places of residents followed for
+nutrition. The **Amount to Note** filter lists their served plates without an
+amount: note them before the end of the shift.
 :::
 
-## 5. Close the round
+## 5. Close the meal
 
-- Click **Finish** (or **Close**) to leave the assistant.
-- On the meal menu, you can then click **Mark served** to move the menu to the
-  **Served** state.
+On the menu, click **Mark as Served** (or **Complete** on the dashboard card):
+the menu moves to **Served**.
 
 :::{admonition} Traceability
 :class: note
 
-A **served** service and a **Served** menu can no longer be **deleted**: Resthome
-keeps them for traceability. Instead, correct the information on the existing
-record.
+A plate served or refused, and a menu in the **Served** status, can no longer
+be deleted. Correct the information on the existing record.
 :::
-
-## The distribution board (by location)
-
-In addition to the tablet assistant, **Meals → Operations → Distribution** opens a
-**kanban board** of the day's services **grouped by location** (dining room,
-in-room, absent). Each card shows the photo, the **room**, the **sector**, the
-**diet** badge and, where applicable, an **Alert**, **Warning** or **Served**
-badge.
-
-![Distribution board: three columns Absent, Dining room and In room, with one card per resident showing the room, the sector and the diet badge](../assets/screenshots/repas/03-distribution.png)
-
-From the meal services **list**, two header buttons let you act on a **multiple
-selection**: **Mark served** and **Mark absent**. The **Action** menu also offers
-to mark services as **in the dining room** or **in the room**.
 
 ## The printable sheets by sector
 
-When you prefer **paper**, print the sheets from a **menu** (form or list view),
-via the **Action** menu: you can print the **distribution sheet** for one meal, or
-**all the sheets for the day**. Resthome creates the missing services along the
-way, then opens the document.
+To work on **paper**, open a menu (form or list) and use the **Action** menu:
 
-The sheet is laid out as follows:
+- **Print Distribution Sheet** — the sheet of that meal;
+- **Print All Daily Sheets** — the sheets of all of today's menus that are not
+  cancelled.
 
-- **one page per sector**, with a header: **sector**, **meal type**, **date** and
-  **number of residents**;
-- a table: **#**, **Resident**, **Room**, **Diets / Allergies** (**blue** badges
-  for diets, **red** for allergies, "**!**" for a critical alert), then
-  **checkboxes** **Dining room**, **Room**, **Absent** and **Served**, and a
-  **Notes** column;
-- a footer with a **Supervisor signature** line and the **print date and time**.
+Resthome lays the missing places along the way, then opens the document in a
+new tab. The sheet has:
 
-It is a **field checklist**: staff tick the boxes as the round progresses, have
-the supervisor sign, then transfer the information into Resthome.
+- **one page per meal and per sector**, with a header: **sector**, **meal
+  type**, **date** and **number of residents**;
+- a table: **#**, **Resident**, **Room**, **Diets / Allergies** (diet codes and
+  the texture when it is a modified one; allergies in red; a red **!** for a
+  critical alert), then the boxes **Dining**, **Room**, **Absent** and **Served**,
+  and a **Notes** column;
+- a footer with a **Supervisor signature** line and the print date and time.
 
-<!-- screenshot to add: printed distribution sheet for a sector with the checkboxes and the signature line -->
+The boxes already reflect what is recorded: the place of the meal is filled in,
+**Served** is filled in green for a served plate, and a cross marks a refused
+one. Staff tick the rest during the round, the supervisor signs, then the round
+is recorded in Resthome.
+
+<!-- screenshot to add: printed distribution sheet for a sector with the check boxes and the signature line -->
 
 ## Key points to remember
 
-- The round lives in **Meals → Operations**; it starts from a menu in the
-  **Confirmed** state.
-- **Quick distribution** is the tablet assistant: four buttons **Served**,
-  **Skip**, **Absent**, **Room**, with automatic advance to the next resident.
-- The **Amount eaten** (Not eaten → All eaten) is noted on the **meal service**
-  and feeds **nutritional tracking**.
-- The **printable sheets by sector** (checkboxes + signature) are the paper
-  fallback.
-- A **served** service or menu cannot be deleted: Resthome keeps the record.
+- Confirming the menu lays the places; residents away get none.
+- A plate is **To serve**, **Served**, **Refused**, **Later** or **Absent**;
+  **Undo** corrects it.
+- A critical dietary alert blocks **Served** until the dish is changed.
+- The amount eaten is a button on the place; it feeds the nutritional
+  follow-up and closes the **Intake monitoring** care.
+- The printable sheets by sector are the paper fallback.
 
-## Learn more
+## Going further
 
-- [Menus, diets and hydration](menus-regimes.md)
-- [Nutritional tracking](suivi-nutritionnel.md)
-- [Family portal and kiosk](portail-familles.md)
-- [Meals app overview](index.md)
+- [Meals and drinks in the care app](app-soins.md)
+- [Meals on the WideCare app](../soins-mobile/repas.md)
+- [Meals in a residence](../residences-services/repas.md) — a serviced residence's residents get a place only for their **Meals taken here**.
+- [Menus, diets and allergies](menus-regimes.md)
+- [Nutritional monitoring and undernutrition](suivi-nutritionnel.md)
+- [Family portal and public menu](portail-familles.md)

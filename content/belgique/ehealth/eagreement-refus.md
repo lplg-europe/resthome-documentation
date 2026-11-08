@@ -83,8 +83,8 @@ an agreement as granted on the basis of the acknowledgement alone.
 6. **Tacit agreement.** If the health insurer does not respond within the regulatory deadline,
    the agreement is **tacitly granted** (silence = accepted).
 
-The visible statuses: **Draft → Sent → Accepted / Rejected**, with the reason shown in case of
-rejection.
+The visible statuses: **Draft**, **Sent (platform)**, **Awaiting the OA**, then **Accepted**
+or **Refused**; an electronic reject shows **Rejected**, with its reason.
 
 ## Best practices (avoiding refusal)
 

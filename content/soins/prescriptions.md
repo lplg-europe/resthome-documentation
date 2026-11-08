@@ -1,118 +1,156 @@
 ---
-modules: [healthcare_medication, healthcare_medical, resthome_geriatric]
+modules: [healthcare_medication, healthcare_medical]
 ---
 
-# Prescriptions and medications
+# Prescriptions
 
 :::{rh-description}
-Manage medication in Resthome — catalogue, prescriptions, administrations, lots and stock, allergies and interactions.
+Receive, read and confirm the physicians' prescriptions in Resthome: by e-mail or typed in, lines read off the PDF, a batch of several patients, confirmation into treatments, expiry and renewal.
 :::
 
 :::{rh-faq}
-How do I prescribe a medication in Resthome?
-: From the resident's record in the Care app, create a prescription, then choose the medication, the dosage and the period.
+How does a prescription arrive in Resthome?
+: Each e-mail sent to the house's prescriptions address becomes a draft prescription, its PDF beside the form. You can also create one with **New Prescription** on the Medicines workstation, or drop the PDF on a draft.
 
-Does Resthome check allergies and drug interactions?
-: Yes. Resthome knows the resident's allergies and the known interactions, and warns you when a prescription poses a risk - before administration.
+What happens when I confirm a prescription?
+: Each line becomes a treatment of the resident, placed on the round from its start date. The prescription moves to **In Force**.
 
-What can I do with an ongoing prescription?
-: You can suspend it temporarily (before an examination for instance), resume it, end it at the end of treatment, or cancel one entered by mistake.
+Can Resthome read the lines of the PDF for me?
+: Yes, when **Read the lines off the PDF** is set to local OCR. The lines are filled in from the PDF and shown in yellow until checked: a nurse checks each one against the PDF before confirming.
 
-How is medication administration traced?
-: Administrations stem from the prescriptions: the caregiver records what was given, when and by whom, which makes traceability complete.
+What happens when a prescription expires?
+: Nothing stops by itself. The prescription shows an **Expired** ribbon, the head nurse is asked to renew it, and **Ask for a Renewal** sends the physician the lines to renew.
 
-Where does the medication catalogue come from?
-: From the facility's medication catalogue, which lists the name, form and dosage of each medication. You fill it by hand, or import from the national medication reference database where the country provides one.
+Who can confirm a prescription?
+: Nurses and physicians. A care assistant sees the treatments on the round, not the prescriptions to read.
 :::
 
-Resthome manages a resident's **medication** end to end: from prescription to
-administration, including stock and safety checks (allergies, interactions).
+A **prescription** is the physician's document. Resthome receives it, lets a
+nurse check its lines, and on confirmation turns each line into a **treatment**
+of the resident — what the round gives every day. Prescriptions are handled on
+the [Medicines workstation](../medicaments/index.md) (**Nursing Care →
+Medicines**), **Prescriptions** tab, and its **To Read** counter.
 
-## The medication catalogue
+## Before you start
 
-Available medications are grouped in a **catalogue**. It lists the name, the
-form and the dosage. It is the source of prescriptions. Where the country
-provides a national medication reference database, Resthome imports its
-medications into the catalogue instead of having you enter them by hand.
+Two settings, in **Nursing Care → Configuration → Settings**, block
+**Prescriptions**:
+
+- **Receive prescriptions by e-mail** — give the address (alias and domain):
+  each e-mail sent to it becomes a draft prescription, its PDF beside the form.
+  The sender is matched to the physician.
+- **Read the lines off the PDF** — **Typed by hand**, or **Local OCR
+  (Tesseract)** to fill in the lines from the PDF. With OCR, set **Create a
+  missing medicine from the reference catalogue from this certainty (%)**: a
+  medicine read that is not in the catalogue is created when the reading is
+  that sure (0 = never created, only proposed in the line's notes).
 
 :::{admonition} In Belgium
 :class: rh-country rh-country-be
 
-The catalogue is fed from **SAM**, the official Belgian medication database
-(CNK code, active ingredient, ATC code, leaflets). See [The SAM medication
-database](../belgique/sam-base-medicaments.md).
+A prescription sent from a physician's eHealthBox becomes a draft the same way,
+and the renewal can be asked there: see [Prescriptions through the
+eHealthBox](../belgique/medicaments-ehealthbox.md).
 :::
 
-## Prescribing
+## 1. Receive the prescription
 
-1. From the resident's record (Care application), create a **prescription**.
-2. Choose the **medication**, the **dosage** and the **period**.
-3. **Save.**
+A prescription arrives as a **Draft**:
 
-A prescription follows its life cycle with clear actions:
+- by **e-mail** to the prescriptions address — the PDF shows beside the form,
+  and the message says how the resident was found, or why not;
+- with **New Prescription** on the workstation, typed in;
+- by dropping the PDF on a draft's discussion: with OCR reading on, its lines
+  are read and the form reloads.
 
-- **Suspend** — temporarily interrupt (e.g. before an examination).
-- **Resume** — restart a suspended prescription.
-- **End** — close at the end of the treatment.
-- **Cancel** — remove a prescription entered by mistake.
+The resident is the one the PDF names when the name, and the birth date where
+one is read, point to a single resident. Otherwise choose the **Resident** by
+hand. The **Physician** is the resident's attending physician until another is
+said (the sender of the e-mail, or the one you pick).
 
-![Active prescriptions list: resident, medication, dosage, frequency, route, dates, status and the interactions indicator](../assets/screenshots/soins/05-prescriptions.png)
+### A PDF of several patients
 
-:::{admonition} Safety: allergies and interactions
-:class: warning
+From the list of prescriptions, **Batch of Prescriptions** reads a PDF holding
+several prescriptions, one patient or more per page:
 
-Resthome knows the resident's **allergies** and the known **drug interactions**.
-It warns you if a prescription poses a risk — a safeguard before administration.
-:::
+1. Choose the file and click **Read the File**.
+2. Check the resident proposed for each patient read — a resident is proposed
+   only when the name and the birth date point to one person. Pick the others by
+   hand, or untick them.
+3. Click **Create the Prescriptions**: one draft per patient, with its lines.
 
-## Administering
+Nothing is created before you have checked the residents.
 
-**Administrations** stem from prescriptions: the caregiver records what was
-given, when and by whom. Traceability is complete.
+## 2. Check the lines
 
-![Administrations of the day: resident, medication, dose given, who administered it, and the Administered or Omitted status](../assets/screenshots/soins/04-administrations.png)
+On the draft, the **Lines** tab lists what the physician prescribed. When the
+lines are read off the PDF, a banner reminds you to check each one against it,
+and a line still missing its medicine or its dose is shown in yellow. **Read
+the PDF** reads the attached PDF again when the draft has no line yet.
 
-## Hospitalisation: suspend, then resume
+Open a line to set:
 
-When a resident goes to hospital, their prescriptions must not stay active —
-the hospital takes over. Resthome does it in one step.
+- **Medication** — picked from the catalogue; **Read As** shows the name read
+  when no medicine was matched;
+- **Dosage** — picked from the list of dosages (**Dosage Read** shows what the
+  PDF said);
+- **Dosage Form**, **Meal Timing**, **End Date**;
+- **Schedule** — **Frequency**, and the moments **Morning**, **Noon**,
+  **Afternoon**, **Evening**, **Night** or **Specific Times**;
+- **Notes**.
 
-1. From the resident's record, open the **hospitalisation** action.
-2. Choose **Hospitalise**, and enter the **date** and the **reason**.
-3. Confirm: every **active** prescription is **suspended**, each one carrying
-   the date and the reason.
+At the top of the form: **Prescription Date**, **Expiry Date** and
+**Physician**.
 
-On the way back, the same action in **Return** mode **resumes** the
-prescriptions that had been suspended for this hospitalisation.
+<!-- screenshot to add: draft prescription with its lines and the PDF beside the form -->
 
-### The liaison pack
+## 3. Confirm
 
-Before the resident leaves, print the **liaison pack**: the document the
-hospital asks for on admission. It gathers what the ward needs — identity,
-treatments, allergies, dependency, and the hospitalisation preferences recorded
-in the [anamnesis](anamnese.md).
+Click **Confirm**. Resthome asks for what is missing — the resident, the
+physician, at least one line, a medicine and a dose on each line. Then each
+line becomes a **treatment** of the resident, on the round from its start
+date, and the prescription moves to **In Force**. The **Treatments** smart
+button and tab show the treatments it started.
 
-:::{admonition} One click, at the right moment
-:class: tip
+A line that renews a treatment ended less than a month ago (same resident, same
+medicine) keeps what the team had set on it: the intake, *not together with*,
+the pharmacy's sachets and the box.
 
-The pack is printed from the hospitalisation window itself, so it is produced
-while the transfer is being recorded — not looked for afterwards.
-:::
+Each confirmed prescription read off its PDF teaches Resthome the medicines
+and the letterheads it recognised. See [The medicine
+catalogue](../medicaments/catalogue.md).
 
-## Lots and stock
+## The life of a prescription
 
-The **medication lots** and the **stock withdrawals** let you track the available
-quantities and consumption, with lot numbers for traceability.
+The states are **Draft**, **In Force**, **Closed** and **Discarded**.
 
-## Useful configuration
+- **Cancel** discards a draft (a prescription received twice, a wrong file);
+  **Reset to Draft** brings it back.
+- **Close** ends a prescription in force: the treatments it started stop today.
+- **Expiry Date** — past this day, the **Expired** ribbon shows, the date turns
+  red in the list and the head nurse is asked to renew it. Nothing stops by
+  itself.
 
-- **Pathologies (ICD-10)** — the resident's history and diagnoses.
-- **Allergens** — known allergies.
-- **Drug interactions** — vigilance rules.
-- **National medication database** — the country's reference catalogue of
-  medications, where one is provided.
+### Ask for a renewal
+
+**Ask for a Renewal** (in force, highlighted once expired) e-mails the physician
+the resident and each line to renew. The physician's answer arrives as a new
+draft at the prescriptions address, never on the old prescription. The request
+is shown on the form (to whom, when), in the list (**Renewal Asked On**) and
+under **Waiting, nothing to do** on the workstation; a new expiry date clears
+it.
+
+## Finding a prescription
+
+**All the Prescriptions**, on the workstation, opens the list: number,
+resident, physician, prescription date, expiry date, treatments and state.
+Filters **Open** (default), **Draft**, **In Force**, **Closed**, **Expired**
+and **Renewal Asked**; groupings **By Resident**, **By Physician** and **By
+State**.
 
 ## Going further
 
-- [Care plans and vital signs](plans-de-soins.md)
-- [Clinical registers](registres.md)
+- [Treatments](../medicaments/traitements.md)
+- [Medicines](../medicaments/index.md)
+- [The medicine catalogue](../medicaments/catalogue.md)
+- [Care plans](plans-de-soins.md)

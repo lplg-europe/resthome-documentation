@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-01 02:06+0200\n"
+"POT-Creation-Date: 2026-11-08 19:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -313,18 +313,44 @@ msgid "**Draft** — prepared by Resthome, not yet sent."
 msgstr "**Brouillon** — préparé par Resthome, pas encore envoyé."
 
 #: ../../content/belgique/ehealth/eagreement.md:100
-msgid "**Sent** — transmitted to the mutuality via eHealth."
-msgstr "**Envoyé** — transmis à la mutuelle via eHealth."
-
-#: ../../content/belgique/ehealth/eagreement.md:101
-msgid "**Accepted** — the mutuality has given its agreement."
-msgstr "**Accepté** — la mutuelle a marqué son accord."
+msgid ""
+"**Sent (platform)** — received by the platform, not yet proven to reach the "
+"mutuality."
+msgstr ""
+"**Envoyé (plateforme)** — reçu par la plateforme, sans preuve encore qu'il a"
+" atteint la mutuelle."
 
 #: ../../content/belgique/ehealth/eagreement.md:102
-msgid "**Rejected** — the mutuality refuses, with a **reason**."
-msgstr "**Rejeté** — la mutuelle refuse, avec un **motif**."
+msgid ""
+"**Awaiting the OA** — the mutuality's legal acknowledgement is back; its "
+"decision comes by post."
+msgstr ""
+"**En attente de l'OA** — l'accusé de réception légal de la mutuelle est "
+"revenu ; sa décision arrive par courrier."
 
 #: ../../content/belgique/ehealth/eagreement.md:104
+msgid ""
+"**Accepted** or **Refused** — the decision you record from the mutuality's "
+"letter (or a tacit agreement after 15 days)."
+msgstr ""
+"**Accepté** ou **Refusé** — la décision que vous enregistrez d'après le "
+"courrier de la mutuelle (ou un accord tacite après 15 jours)."
+
+#: ../../content/belgique/ehealth/eagreement.md:107
+msgid ""
+"Other outcomes: **Rejected** — the mutuality returned the request "
+"electronically, with a **reason**, to correct and resend; **Transmitted** — "
+"an end of stay, which is declared and never answered; **Cancelled**. See "
+"[Following a request](eagreement-suivi.md) and [Refused "
+"agreement](eagreement-refus.md)."
+msgstr ""
+"Autres issues : **Rejeté** — la mutuelle a renvoyé la demande "
+"électroniquement, avec un **motif**, à corriger et renvoyer ; **Transmis** —"
+" une fin de séjour, qui est déclarée et ne reçoit jamais de réponse ; "
+"**Annulé**. Voir [Suivre une demande](eagreement-suivi.md) et [Accord "
+"refusé](eagreement-refus.md)."
+
+#: ../../content/belgique/ehealth/eagreement.md:113
 msgid ""
 "From the resident record or the billing period, you see the list of "
 "agreements and their status, with a link to the detail."
@@ -332,7 +358,7 @@ msgstr ""
 "Depuis la fiche de l'habitant ou la période de facturation, vous voyez la "
 "liste des accords et leur statut, avec un lien vers le détail."
 
-#: ../../content/belgique/ehealth/eagreement.md:107
+#: ../../content/belgique/ehealth/eagreement.md:116
 msgid ""
 "![eAgreement requests list, one row per agreement with the resident, the "
 "type of request, the health insurer and the "
@@ -342,7 +368,7 @@ msgstr ""
 "type de demande, la mutuelle et "
 "l'état](../../assets/screenshots/ehealth/30-eagreement-liste.webp)"
 
-#: ../../content/belgique/ehealth/eagreement.md:107
+#: ../../content/belgique/ehealth/eagreement.md:116
 msgid ""
 "eAgreement requests list, one row per agreement with the resident, the type "
 "of request, the health insurer and the status"
@@ -350,7 +376,7 @@ msgstr ""
 "Liste des accords eAgreement, une ligne par accord avec l'habitant, le type "
 "de demande, la mutuelle et l'état"
 
-#: ../../content/belgique/ehealth/eagreement.md:109
+#: ../../content/belgique/ehealth/eagreement.md:118
 msgid ""
 "![Accepted agreement showing the agreement number and the start and end "
 "dates granted by the health "
@@ -360,7 +386,7 @@ msgstr ""
 "fin octroyées par la "
 "mutuelle](../../assets/screenshots/ehealth/31-eagreement-accepte.webp)"
 
-#: ../../content/belgique/ehealth/eagreement.md:109
+#: ../../content/belgique/ehealth/eagreement.md:118
 msgid ""
 "Accepted agreement showing the agreement number and the start and end dates "
 "granted by the health insurer"
@@ -368,11 +394,11 @@ msgstr ""
 "Accord accepté affichant le numéro d'accord et les dates de début et de fin "
 "octroyées par la mutuelle"
 
-#: ../../content/belgique/ehealth/eagreement.md:111
+#: ../../content/belgique/ehealth/eagreement.md:120
 msgid "Answers that arrive by post or e-mail"
 msgstr "Les réponses qui arrivent par courrier ou par e-mail"
 
-#: ../../content/belgique/ehealth/eagreement.md:113
+#: ../../content/belgique/ehealth/eagreement.md:122
 msgid ""
 "Not every fund answers electronically. Some send a **scanned letter** "
 "instead. Resthome collects those in the **eAgreement inbox**, and reads what"
@@ -382,16 +408,16 @@ msgstr ""
 "envoient un **courrier scanné**. Resthome les rassemble dans la **boîte de "
 "réception eAgreement** et lit ce qu'il peut du message entrant :"
 
-#: ../../content/belgique/ehealth/eagreement.md:117
+#: ../../content/belgique/ehealth/eagreement.md:126
 msgid "the **NISS**, when it appears in the subject or the file name;"
 msgstr "le **NISS**, lorsqu'il figure dans l'objet ou le nom du fichier ;"
 
-#: ../../content/belgique/ehealth/eagreement.md:118
+#: ../../content/belgique/ehealth/eagreement.md:127
 msgid "the fund's **reference**, when the pattern is recognisable;"
 msgstr ""
 "la **référence** de la mutuelle, lorsque le format est reconnaissable ;"
 
-#: ../../content/belgique/ehealth/eagreement.md:119
+#: ../../content/belgique/ehealth/eagreement.md:128
 msgid ""
 "the **type of document** — Annexe 8 (acceptance) or 9 (refusal) for MR/MRS, "
 "Annexe 15 or 16 for short stays, or a **tacit agreement**."
@@ -399,7 +425,7 @@ msgstr ""
 "le **type de document** — Annexe 8 (acceptation) ou 9 (refus) pour MR/MRS, "
 "Annexe 15 ou 16 pour le court séjour, ou un **accord tacite**."
 
-#: ../../content/belgique/ehealth/eagreement.md:122
+#: ../../content/belgique/ehealth/eagreement.md:131
 msgid ""
 "The **PDF** stays attached to the entry. What the extraction finds is a "
 "starting point, not a verdict: you confirm and attach it to the right "
@@ -409,11 +435,11 @@ msgstr ""
 " de départ, pas un verdict : c'est vous qui confirmez et rattachez à la "
 "bonne demande."
 
-#: ../../content/belgique/ehealth/eagreement.md:125
+#: ../../content/belgique/ehealth/eagreement.md:134
 msgid "In case of rejection"
 msgstr "En cas de rejet"
 
-#: ../../content/belgique/ehealth/eagreement.md:127
+#: ../../content/belgique/ehealth/eagreement.md:136
 msgid ""
 "If the mutuality rejects a request, Resthome displays the **rejection reason"
 " in plain language, in French and Dutch**, directly on the agreement. You "
@@ -425,11 +451,11 @@ msgstr ""
 " ainsi immédiatement quoi corriger (souvent : NISS, mutuelle, ou dates) "
 "avant de renvoyer."
 
-#: ../../content/belgique/ehealth/eagreement.md:131
+#: ../../content/belgique/ehealth/eagreement.md:140
 msgid "Useful special cases"
 msgstr "Cas particuliers utiles"
 
-#: ../../content/belgique/ehealth/eagreement.md:133
+#: ../../content/belgique/ehealth/eagreement.md:142
 msgid ""
 "**Short absence**: an absence of more than **72 h** (or any "
 "**hospitalisation**) triggers the departure **Annexe 11**; the **return** "
@@ -441,7 +467,7 @@ msgstr ""
 "génère l’**Annexe 7** de réadmission. Voir [Absences et "
 "hospitalisations](../../facturation/absences.md)."
 
-#: ../../content/belgique/ehealth/eagreement.md:137
+#: ../../content/belgique/ehealth/eagreement.md:146
 msgid ""
 "**Billing already closed**: if the invoice of the month concerned is "
 "**already posted** for this resident, Resthome **does not recreate** a "
@@ -455,7 +481,7 @@ msgstr ""
 "brouillon (ou faites une note de crédit) si vous devez vraiment modifier ce "
 "mois, puis actualisez."
 
-#: ../../content/belgique/ehealth/eagreement.md:141
+#: ../../content/belgique/ehealth/eagreement.md:150
 msgid ""
 "**Readmission after a long leave**: depending on the duration, the "
 "readmission may require a **new Katz evaluation** — Resthome flags it for "
@@ -464,24 +490,35 @@ msgstr ""
 "**Réadmission après un long congé** : selon la durée, la réadmission peut "
 "nécessiter une **nouvelle évaluation Katz** — Resthome vous le signale."
 
-#: ../../content/belgique/ehealth/eagreement.md:144
+#: ../../content/belgique/ehealth/eagreement.md:152
+msgid ""
+"**Day care centre**: a day care user has their own requests, **csj-in** with"
+" Annexe 14 when the stay starts and **csj-out** at the end of care. See [The"
+" day care agreement](../centre-de-jour/accord.md)."
+msgstr ""
+"**Centre de soins de jour** : un usager du centre de jour a ses propres "
+"demandes, **csj-in** avec l'Annexe 14 au début du séjour et **csj-out** à la"
+" fin de la prise en charge. Voir [L'accord du centre de jour](../centre-de-"
+"jour/accord.md)."
+
+#: ../../content/belgique/ehealth/eagreement.md:156
 msgid "Going further"
 msgstr "Pour aller plus loin"
 
-#: ../../content/belgique/ehealth/eagreement.md:146
+#: ../../content/belgique/ehealth/eagreement.md:158
 msgid ""
 "[Refused agreement (eAgreement) — causes and solutions](eagreement-refus.md)"
 msgstr ""
 "[Accord refusé (eAgreement) — causes et solutions](eagreement-refus.md)"
 
-#: ../../content/belgique/ehealth/eagreement.md:147
+#: ../../content/belgique/ehealth/eagreement.md:159
 msgid "[Absences and hospitalisations](../../facturation/absences.md)"
 msgstr "[Absences et hospitalisations](../../facturation/absences.md)"
 
-#: ../../content/belgique/ehealth/eagreement.md:148
+#: ../../content/belgique/ehealth/eagreement.md:160
 msgid "[Departure and death](../../facturation/depart-deces.md)"
 msgstr "[Départ et décès](../../facturation/depart-deces.md)"
 
-#: ../../content/belgique/ehealth/eagreement.md:149
+#: ../../content/belgique/ehealth/eagreement.md:161
 msgid "[eHealth overview](index.md)"
 msgstr "[Vue d'ensemble eHealth](index.md)"

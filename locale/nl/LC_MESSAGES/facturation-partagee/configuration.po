@@ -24,88 +24,23 @@ msgstr ""
 msgid "Setting up a split"
 msgstr "Een verdeling instellen"
 
-#: ../../content/facturation-partagee/configuration.md:8
-msgid ""
-"Setting up split billing in Resthome: the accounting settings, the debtors "
-"on the resident's record, capture at admission, and the terms frozen on the "
-"stay."
-msgstr ""
-"Gedeelde facturatie instellen in Resthome: de boekhoudkundige instellingen, "
-"de schuldenaars op de bewonersfiche, de invoer bij de opname, en de "
-"voorwaarden die op het verblijf vastgelegd worden."
-
 #: ../../content/facturation-partagee/configuration.md:12
 msgid "Where do I set the debtors?"
 msgstr "Waar stel ik de schuldenaars in?"
-
-#: ../../content/facturation-partagee/configuration.md:13
-msgid ""
-"On the resident's record, Billing tab: choose a split **Invoice Type**, then"
-" fill in the **Split Billing Partners** list."
-msgstr ""
-"Op de bewonersfiche, tabblad Facturatie: kies een gedeeld **Factuurtype** en"
-" vul daarna de lijst **Partners gesplitste facturatie** in."
 
 #: ../../content/facturation-partagee/configuration.md:15
 msgid "What must be configured before the first split invoice?"
 msgstr "Wat moet er ingesteld zijn vóór de eerste gedeelde factuur?"
 
-#: ../../content/facturation-partagee/configuration.md:16
-msgid ""
-"A dedicated split billing journal and a suspense account, in the settings of"
-" the **Nursing Home** app. Without them, generation stops before anything is"
-" produced."
-msgstr ""
-"Een eigen dagboek voor gedeelde facturatie en een wachtrekening, in de "
-"instellingen van de app **Rusthuis**. Zonder die stopt de generatie vóór er "
-"iets gemaakt wordt."
-
-#: ../../content/facturation-partagee/configuration.md:18
-msgid "I changed the debtors and the current month did not change. Why?"
-msgstr ""
-"Ik heb de schuldenaars gewijzigd en de lopende maand veranderde niet. "
-"Waarom?"
-
-#: ../../content/facturation-partagee/configuration.md:19
-msgid ""
-"Because a stay bills under the terms it was opened with. New debtors apply "
-"to the next stay."
-msgstr ""
-"Omdat een verblijf factureert onder de voorwaarden waaronder het geopend "
-"werd. Nieuwe schuldenaars gelden voor het volgende verblijf."
-
-#: ../../content/facturation-partagee/configuration.md:22
+#: ../../content/facturation-partagee/configuration.md:25
 msgid "1. The accounting settings"
 msgstr "1\\. De boekhoudkundige instellingen"
 
-#: ../../content/facturation-partagee/configuration.md:24
-msgid ""
-"In the **Settings** of the **Nursing Home** app, under the optional "
-"features:"
-msgstr ""
-"In de **Instellingen** van de app **Rusthuis**, onder de optionele functies:"
-
-#: ../../content/facturation-partagee/configuration.md:26
-msgid ""
-"**Split Billing Journal** — a journal of its own, separate from the resident"
-" journal."
-msgstr ""
-"**Dagboek gesplitste facturatie** — een eigen dagboek, los van het "
-"bewonersdagboek."
-
-#: ../../content/facturation-partagee/configuration.md:28
-msgid ""
-"**Split Billing Suspense Account** — the account that carries the resident "
-"statement."
-msgstr ""
-"**Wachtrekening gesplitste facturatie** — de rekening die de "
-"bewonersafrekening draagt."
-
-#: ../../content/facturation-partagee/configuration.md:31
+#: ../../content/facturation-partagee/configuration.md:37
 msgid "Required before generating"
 msgstr "Verplicht vóór elke generatie"
 
-#: ../../content/facturation-partagee/configuration.md:34
+#: ../../content/facturation-partagee/configuration.md:40
 msgid ""
 "Without these two settings, the generation of split invoices stops "
 "**before** touching anything. Nothing is produced, nothing is deleted."
@@ -114,49 +49,19 @@ msgstr ""
 "**vóór** er iets aangeraakt wordt. Er wordt niets gemaakt en niets "
 "verwijderd."
 
-#: ../../content/facturation-partagee/configuration.md:38
+#: ../../content/facturation-partagee/configuration.md:44
 msgid "2. The debtors on the resident"
 msgstr "2\\. De schuldenaars op de bewoner"
 
-#: ../../content/facturation-partagee/configuration.md:40
-msgid "On the **resident's record**, **Billing** tab:"
-msgstr "Op de **bewonersfiche**, tabblad **Facturatie**:"
-
-#: ../../content/facturation-partagee/configuration.md:42
-msgid ""
-"Set **Invoice Type** to **Split Billing — Anticipatory** or **Split Billing "
-"— Arrears**, depending on whether the month is billed in advance or in "
-"arrears."
-msgstr ""
-"Zet het **Factuurtype** op **Gedeelde facturatie op voorschot** of "
-"**Gedeelde facturatie na afloop van de periode**, naargelang de maand vooraf"
-" of achteraf gefactureerd wordt."
-
-#: ../../content/facturation-partagee/configuration.md:45
-msgid ""
-"Fill in the **Split Billing Partners** list: the **debtor**, the "
-"**intervention type** (**Percentage**, **Fixed amount** or **Variable**), "
-"and the percentage or the amount."
-msgstr ""
-"Vul de lijst **Partners gesplitste facturatie** in: de **schuldenaar**, het "
-"**type tussenkomst** (**Percentage**, **Vast bedrag** of **Variabel**), en "
-"het percentage of het bedrag."
-
-#: ../../content/facturation-partagee/configuration.md:48
+#: ../../content/facturation-partagee/configuration.md:54
 msgid "Save."
 msgstr "Sla op."
 
-#: ../../content/facturation-partagee/configuration.md:50
-msgid ""
-"The order of the lines matters: the **last** line absorbs the rounding."
-msgstr ""
-"De volgorde van de regels telt: de **laatste** regel vangt de afronding op."
-
-#: ../../content/facturation-partagee/configuration.md:52
+#: ../../content/facturation-partagee/configuration.md:66
 msgid "Percentages balance themselves"
 msgstr "Percentages balanceren zichzelf"
 
-#: ../../content/facturation-partagee/configuration.md:55
+#: ../../content/facturation-partagee/configuration.md:69
 msgid ""
 "On saving, lines left at zero share what remains; otherwise the last "
 "untouched line absorbs the difference. Deleting a line frees its share to "
@@ -167,37 +72,37 @@ msgstr ""
 "zijn aandeel aan de laatste. Vaste bedragen worden nooit automatisch "
 "herverdeeld."
 
-#: ../../content/facturation-partagee/configuration.md:60
+#: ../../content/facturation-partagee/configuration.md:74
 msgid "A few rules worth knowing:"
 msgstr "Enkele regels om te kennen:"
 
-#: ../../content/facturation-partagee/configuration.md:62
+#: ../../content/facturation-partagee/configuration.md:76
 msgid "a resident cannot be their own debtor, and each debtor appears once;"
 msgstr ""
 "een bewoner kan niet zijn eigen schuldenaar zijn, en elke schuldenaar komt "
 "één keer voor;"
 
-#: ../../content/facturation-partagee/configuration.md:63
+#: ../../content/facturation-partagee/configuration.md:77
 msgid "a fixed amount must be positive;"
 msgstr "een vast bedrag moet positief zijn;"
 
-#: ../../content/facturation-partagee/configuration.md:64
+#: ../../content/facturation-partagee/configuration.md:78
 msgid "**an archived debtor blocks generation**, naming the person concerned;"
 msgstr ""
 "**een gearchiveerde schuldenaar blokkeert de generatie**, met vermelding van"
 " de betrokken persoon;"
 
-#: ../../content/facturation-partagee/configuration.md:65
+#: ../../content/facturation-partagee/configuration.md:79
 msgid "a resident set to split billing **without any debtor** is refused."
 msgstr ""
 "een bewoner in gedeelde facturatie **zonder enige schuldenaar** wordt "
 "geweigerd."
 
-#: ../../content/facturation-partagee/configuration.md:67
+#: ../../content/facturation-partagee/configuration.md:81
 msgid "3. At admission"
 msgstr "3\\. Bij de opname"
 
-#: ../../content/facturation-partagee/configuration.md:69
+#: ../../content/facturation-partagee/configuration.md:83
 msgid ""
 "The [admission wizard](../admissions/admettre.md) carries the same list: the"
 " debtors can be recorded straight away. If the resident already has some, "
@@ -209,30 +114,209 @@ msgstr ""
 "toont de wizard ze enkel ter informatie, met een nota die naar de "
 "bewonersfiche verwijst in plaats van naar het venster."
 
-#: ../../content/facturation-partagee/configuration.md:74
-msgid "4. The terms are frozen on the stay"
-msgstr "4\\. De voorwaarden liggen vast op het verblijf"
-
-#: ../../content/facturation-partagee/configuration.md:76
-msgid ""
-"A stay bills under the terms it was **opened** with: the invoice type and "
-"the debtors are copied onto it. Changing the debtors on the resident today "
-"affects the **next** stay, not the one in progress."
-msgstr ""
-"Een verblijf factureert onder de voorwaarden waaronder het **geopend** werd:"
-" het factuurtype en de schuldenaars worden erop overgenomen. De schuldenaars"
-" vandaag wijzigen op de bewoner geldt voor het **volgende** verblijf, niet "
-"voor het lopende."
-
-#: ../../content/facturation-partagee/configuration.md:80
+#: ../../content/facturation-partagee/configuration.md:103
 msgid "What's next"
 msgstr "Hoe verder"
 
-#: ../../content/facturation-partagee/configuration.md:82
+#: ../../content/facturation-partagee/configuration.md:105
 msgid "[The documents produced](factures.md)"
 msgstr "[De geproduceerde documenten](factures.md)"
 
-#: ../../content/facturation-partagee/configuration.md:83
+#: ../../content/facturation-partagee/configuration.md:108
 msgid "[Invoicing a month, step by step](../facturation/facturer-un-mois.md)"
 msgstr ""
 "[Een maand factureren, stap voor stap](../facturation/facturer-un-mois.md)"
+
+#: ../../content/facturation-partagee/configuration.md:8
+msgid ""
+"Setting up split billing in Resthome: the accounting settings, the debtors "
+"on the resident's contact, capture at admission, and what happens to a stay "
+"when the debtors change."
+msgstr ""
+"Gedeelde facturatie instellen in Resthome: de boekhoudkundige instellingen, "
+"de schuldenaars op het contact van de bewoner, de invoer bij de opname, en "
+"wat er met een verblijf gebeurt wanneer de schuldenaars veranderen."
+
+#: ../../content/facturation-partagee/configuration.md:13
+msgid ""
+"On the resident's contact (the Contact link under their name): choose a "
+"split Invoice Type at the top, then fill in the Split Billing Partners list "
+"in the Invoicing tab. The same list can be edited from the stay."
+msgstr ""
+"Op het contact van de bewoner (de link Contact onder zijn naam): kies "
+"bovenaan een gedeeld Factuurtype en vul dan de lijst Partners gesplitste "
+"facturatie in het tabblad Facturatie in. Dezelfde lijst kan vanuit het "
+"verblijf worden gewijzigd."
+
+#: ../../content/facturation-partagee/configuration.md:16
+msgid ""
+"A dedicated split billing journal and a suspense account, in the billing "
+"settings, Optional features block. Without them, generation stops before "
+"anything is produced."
+msgstr ""
+"Een eigen dagboek voor gedeelde facturatie en een wachtrekening, in de "
+"facturatie-instellingen, blok Optionele functies. Zonder die stopt de "
+"generatie voordat er iets wordt gemaakt."
+
+#: ../../content/facturation-partagee/configuration.md:18
+msgid "I changed the debtors. Which months does it affect?"
+msgstr ""
+"Ik heb de schuldenaars gewijzigd. Welke maanden worden daardoor geraakt?"
+
+#: ../../content/facturation-partagee/configuration.md:19
+msgid ""
+"The running stay follows the new debtors from the next generation of a month"
+" not invoiced yet. A stay that has ended keeps the debtors it was billed "
+"with."
+msgstr ""
+"Het lopende verblijf volgt de nieuwe schuldenaars vanaf de volgende "
+"generatie van een maand die nog niet gefactureerd is. Een beëindigd verblijf"
+" behoudt de schuldenaars waarmee het werd gefactureerd."
+
+#: ../../content/facturation-partagee/configuration.md:21
+msgid "Can the debtors differ for one month only?"
+msgstr "Kunnen de schuldenaars voor één maand verschillen?"
+
+#: ../../content/facturation-partagee/configuration.md:22
+msgid ""
+"Yes. In the resident's detail of a billing period, Debtors (this period) "
+"picks among the resident's debtors for that month alone."
+msgstr ""
+"Ja. In het detail van de bewoner in een facturatieperiode kiest Debiteuren "
+"(deze periode) uit de schuldenaars van de bewoner, alleen voor die maand."
+
+#: ../../content/facturation-partagee/configuration.md:27
+msgid ""
+"In the [billing settings](../configuration/reglages-facturation.md), block "
+"**Optional features**:"
+msgstr ""
+"In de [facturatie-instellingen](../configuration/reglages-facturation.md), "
+"blok **Optionele functies**:"
+
+#: ../../content/facturation-partagee/configuration.md:30
+msgid ""
+"Tick **Split Billing (food debtors)**. The split billing feature is "
+"installed."
+msgstr ""
+"Vink **Gesplitste facturatie (onderhoudsplichtigen)** aan. De functie "
+"gedeelde facturatie wordt geïnstalleerd."
+
+#: ../../content/facturation-partagee/configuration.md:32
+msgid ""
+"Fill in **Split Billing Journal** — a journal of its own, separate from the "
+"resident journal."
+msgstr ""
+"Vul **Dagboek gesplitste facturatie** in — een eigen dagboek, los van het "
+"bewonersdagboek."
+
+#: ../../content/facturation-partagee/configuration.md:34
+msgid ""
+"Fill in **Split Billing Suspense Account** — the account that carries the "
+"resident statement."
+msgstr ""
+"Vul **Wachtrekening gesplitste facturatie** in — de rekening die de "
+"bewonersafrekening draagt."
+
+#: ../../content/facturation-partagee/configuration.md:46
+msgid "Open the resident's contact: the **Contact** link under their name."
+msgstr "Open het contact van de bewoner: de link **Contact** onder zijn naam."
+
+#: ../../content/facturation-partagee/configuration.md:47
+msgid ""
+"At the top of the form, set **Invoice Type** to **Split Billing — "
+"Anticipatory** or **Split Billing — Arrears**, depending on whether the "
+"month is billed in advance or in arrears. See [Invoice "
+"type](../facturation/type-de-facture.md)."
+msgstr ""
+"Stel bovenaan het formulier het **Factuurtype** in op **Gedeelde facturatie "
+"op voorschot** of **Gedeelde facturatie na afloop van de periode**, "
+"naargelang de maand op voorschot of na afloop wordt gefactureerd. Zie "
+"[Factuurtype](../facturation/type-de-facture.md)."
+
+#: ../../content/facturation-partagee/configuration.md:51
+msgid ""
+"In the **Invoicing** tab, fill in the **Split Billing Partners** list: the "
+"**Debtor**, the **Intervention Type** (**Percentage**, **Fixed amount** or "
+"**Variable**), and the **Invoice %** or the **Fixed Amount**."
+msgstr ""
+"Vul in het tabblad **Facturatie** de lijst **Partners gesplitste "
+"facturatie** in: de **Schuldenaar**, het **Type tussenkomst** "
+"(**Percentage**, **Vast bedrag** of **Variabel**), en het **Factuur %** of "
+"het **Vast bedrag**."
+
+#: ../../content/facturation-partagee/configuration.md:56
+msgid ""
+"While the percentages do not reach 100, a red **Remaining to allocate** line"
+" shows what is left. The order of the lines matters: the **last** line "
+"absorbs the rounding."
+msgstr ""
+"Zolang de percentages 100 niet bereiken, toont een rode lijn **Nog te "
+"verdelen** wat overblijft. De volgorde van de lijnen telt: de **laatste** "
+"lijn vangt de afronding op."
+
+#: ../../content/facturation-partagee/configuration.md:60
+msgid ""
+"With fixed amounts, they are invoiced first and the **Variable** debtor "
+"takes what is left. When the resident's share is smaller than the fixed "
+"amounts, each is invoiced pro rata and the variable debtor gets nothing."
+msgstr ""
+"Met vaste bedragen worden die eerst gefactureerd en neemt de schuldenaar "
+"**Variabel** wat overblijft. Wanneer het bewonersaandeel kleiner is dan de "
+"vaste bedragen, wordt elk pro rata gefactureerd en krijgt de variabele "
+"schuldenaar niets."
+
+#: ../../content/facturation-partagee/configuration.md:88
+msgid "4. When the debtors or the type change"
+msgstr "4. Wanneer de schuldenaars of het type veranderen"
+
+#: ../../content/facturation-partagee/configuration.md:90
+msgid ""
+"**A running stay follows the resident's debtors.** A debtor added, changed "
+"or removed applies from the next generation of a month not invoiced yet. The"
+" stay form shows the same **Split Billing Partners** list and lets you edit "
+"it: the change is written to the resident."
+msgstr ""
+"**Een lopend verblijf volgt de schuldenaars van de bewoner.** Een "
+"toegevoegde, gewijzigde of verwijderde schuldenaar geldt vanaf de volgende "
+"generatie van een maand die nog niet gefactureerd is. Het verblijfsformulier"
+" toont dezelfde lijst **Partners gesplitste facturatie** en laat toe ze te "
+"wijzigen: de wijziging wordt naar de bewoner geschreven."
+
+#: ../../content/facturation-partagee/configuration.md:94
+msgid ""
+"**An ended stay keeps its debtors.** Its **Split Billing Partners as "
+"Billed** stay as they were, so a month regenerated later is split as it was "
+"billed."
+msgstr ""
+"**Een beëindigd verblijf behoudt zijn schuldenaars.** Zijn **Partners "
+"gesplitste facturatie zoals gefactureerd** blijven zoals ze waren, zodat een"
+" later opnieuw gegenereerde maand wordt verdeeld zoals ze werd gefactureerd."
+
+#: ../../content/facturation-partagee/configuration.md:96
+msgid ""
+"**For one month only**, open the resident's detail in the billing period: "
+"**Debtors (this period)** picks among the resident's debtors, the stay's by "
+"default, and checks that the shares still add up."
+msgstr ""
+"**Voor één maand** opent u het detail van de bewoner in de "
+"facturatieperiode: **Debiteuren (deze periode)** kiest uit de schuldenaars "
+"van de bewoner, standaard die van het verblijf, en controleert of de "
+"aandelen nog kloppen."
+
+#: ../../content/facturation-partagee/configuration.md:99
+msgid ""
+"**Changing the invoice type** (to or from split billing, or in advance ↔ in "
+"arrears) applies from today to the running stay. See [Invoice "
+"type](../facturation/type-de-facture.md)."
+msgstr ""
+"**Het factuurtype wijzigen** (naar of van gedeelde facturatie, of op "
+"voorschot ↔ na afloop) geldt vanaf vandaag voor het lopende verblijf. Zie "
+"[Factuurtype](../facturation/type-de-facture.md)."
+
+#: ../../content/facturation-partagee/configuration.md:106
+msgid "[Invoice type](../facturation/type-de-facture.md)"
+msgstr "[Factuurtype](../facturation/type-de-facture.md)"
+
+#: ../../content/facturation-partagee/configuration.md:107
+msgid "[Billing settings](../configuration/reglages-facturation.md)"
+msgstr "[Facturatie-instellingen](../configuration/reglages-facturation.md)"

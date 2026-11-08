@@ -1,0 +1,278 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-16 02:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: fr <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/interventions/suivre-une-intervention.md:6
+msgid "Following an intervention"
+msgstr "Suivre une intervention"
+
+#: ../../content/interventions/suivre-une-intervention.md:9
+msgid ""
+"Recording a technical intervention in a resident's room with Resthome: the "
+"resident, room and stay, the products used, the time spent, the vendor bill "
+"and the total cost."
+msgstr ""
+"Enregistrer une intervention technique dans la chambre d'un habitant avec "
+"Resthome : l'habitant, la chambre et le séjour, les produits utilisés, le "
+"temps passé, la facture fournisseur et le coût total."
+
+#: ../../content/interventions/suivre-une-intervention.md:13
+msgid "Does a room change rewrite past interventions?"
+msgstr "Un changement de chambre réécrit-il les interventions passées ?"
+
+#: ../../content/interventions/suivre-une-intervention.md:14
+msgid ""
+"No. The room and the stay are copied onto the ticket when the resident is "
+"chosen. A later room change leaves the ticket as it was."
+msgstr ""
+"Non. La chambre et le séjour sont copiés sur le ticket quand l'habitant est "
+"choisi. Un changement de chambre ultérieur laisse le ticket tel quel."
+
+#: ../../content/interventions/suivre-une-intervention.md:16
+msgid "How is the time spent valued?"
+msgstr "Comment le temps passé est-il valorisé ?"
+
+#: ../../content/interventions/suivre-une-intervention.md:17
+msgid ""
+"Each timesheet line of the ticket carries a **Cost**, from the technician's "
+"hourly cost. The total goes to **Timesheets Cost**."
+msgstr ""
+"Chaque ligne de feuille de temps du ticket porte un **Coût**, issu du coût "
+"horaire du technicien. Le total va dans **Coût des feuilles de temps**."
+
+#: ../../content/interventions/suivre-une-intervention.md:19
+msgid "Does a product price change alter an old intervention?"
+msgstr ""
+"Un changement de prix d'un produit modifie-t-il une ancienne intervention ?"
+
+#: ../../content/interventions/suivre-une-intervention.md:20
+msgid ""
+"No. The product's name and cost are copied onto the line when you choose it."
+msgstr ""
+"Non. Le nom et le coût du produit sont copiés sur la ligne quand vous le "
+"choisissez."
+
+#: ../../content/interventions/suivre-une-intervention.md:22
+msgid "What does the Interventions button of a condition report show?"
+msgstr "Que montre le bouton Interventions d'un état des lieux ?"
+
+#: ../../content/interventions/suivre-une-intervention.md:23
+msgid ""
+"The interventions in that room for that resident, that is everything that "
+"happened in the room while they lived there."
+msgstr ""
+"Les interventions dans cette chambre pour cet habitant, c'est-à-dire tout ce"
+" qui s'est passé dans la chambre pendant qu'il y vivait."
+
+#: ../../content/interventions/suivre-une-intervention.md:26
+msgid ""
+"An intervention is a ticket of a **room maintenance** team (see [Technical "
+"interventions](index.md))."
+msgstr ""
+"Une intervention est un ticket d'une équipe de **maintenance des chambres** "
+"(voir [Interventions techniques](index.md))."
+
+#: ../../content/interventions/suivre-une-intervention.md:29
+msgid "1. Create the ticket"
+msgstr "1\\. Créer le ticket"
+
+#: ../../content/interventions/suivre-une-intervention.md:31
+msgid "In **Helpdesk**, open the room maintenance team and create a ticket."
+msgstr ""
+"Dans **Assistance**, ouvrez l'équipe de maintenance des chambres et créez un"
+" ticket."
+
+#: ../../content/interventions/suivre-une-intervention.md:32
+msgid "Give it a title and a description."
+msgstr "Donnez-lui un titre et une description."
+
+#: ../../content/interventions/suivre-une-intervention.md:33
+msgid ""
+"Choose the **Resident**. Resthome fills in the **Room** and the **Resident "
+"Stay** they occupy at that moment, and the **Requestant** when it is empty."
+msgstr ""
+"Choisissez l'**Habitant**. Resthome remplit la **Chambre** et le **Séjour de"
+" l'habitant** qu'il occupe à ce moment, et le **Demandeur** s'il est vide."
+
+#: ../../content/interventions/suivre-une-intervention.md:35
+msgid "Correct the room if the job took place elsewhere."
+msgstr "Corrigez la chambre si le travail a eu lieu ailleurs."
+
+#: ../../content/interventions/suivre-une-intervention.md:37
+msgid "A snapshot, not a link"
+msgstr "Un instantané, pas un lien"
+
+#: ../../content/interventions/suivre-une-intervention.md:40
+msgid ""
+"The room and the stay are copied when the resident is chosen. When the "
+"resident changes room later, the ticket keeps the room where the job was "
+"done — which is what the history of a room needs. A ticket created by e-mail"
+" or by import is filled in the same way."
+msgstr ""
+"La chambre et le séjour sont copiés quand l'habitant est choisi. Quand "
+"l'habitant change de chambre plus tard, le ticket garde la chambre où le "
+"travail a été fait — c'est ce dont l'historique d'une chambre a besoin. Un "
+"ticket créé par e-mail ou par import est rempli de la même façon."
+
+#: ../../content/interventions/suivre-une-intervention.md:46
+msgid "2. Record the products used"
+msgstr "2\\. Enregistrer les produits utilisés"
+
+#: ../../content/interventions/suivre-une-intervention.md:48
+msgid ""
+"In the **Products** tab, add a line per product: **Product**, "
+"**Description**, **Quantity**, **Unit Cost**. The description and the cost "
+"come from the product, and stay as they were even if the product changes "
+"afterwards. The **Subtotal** of each line adds up to **Products Cost**."
+msgstr ""
+"Dans l'onglet **Produits**, ajoutez une ligne par produit : **Produit**, "
+"**Description**, **Quantité**, **Coût unitaire**. La description et le coût "
+"viennent du produit, et restent tels quels même si le produit change "
+"ensuite. Le **Sous-total** de chaque ligne s'additionne dans **Coût des "
+"produits**."
+
+#: ../../content/interventions/suivre-une-intervention.md:53
+msgid "3. Record the time spent"
+msgstr "3\\. Enregistrer le temps passé"
+
+#: ../../content/interventions/suivre-une-intervention.md:55
+msgid ""
+"In the **Timesheets** tab, the technicians record their time as on any "
+"Helpdesk ticket. The **Cost** column values each line at the employee's "
+"hourly cost; its total is **Timesheets Cost**."
+msgstr ""
+"Dans l'onglet **Feuilles de temps**, les techniciens encodent leur temps "
+"comme sur n'importe quel ticket d'assistance. La colonne **Coût** valorise "
+"chaque ligne au coût horaire de l'employé ; son total est **Coût des "
+"feuilles de temps**."
+
+#: ../../content/interventions/suivre-une-intervention.md:59
+msgid "4. Attach the vendor bill"
+msgstr "4\\. Joindre la facture fournisseur"
+
+#: ../../content/interventions/suivre-une-intervention.md:61
+msgid ""
+"When an outside provider did the job, choose their invoice in **Vendor "
+"Bill** (**Products** tab). Its untaxed amount becomes the **Vendor Bill "
+"Cost**, converted into your currency if needed. A cancelled bill no longer "
+"counts."
+msgstr ""
+"Quand un prestataire extérieur a fait le travail, choisissez sa facture dans"
+" **Facture fournisseur** (onglet **Produits**). Son montant hors taxes "
+"devient le **Coût facture fournisseur**, converti dans votre devise si "
+"nécessaire. Une facture annulée ne compte plus."
+
+#: ../../content/interventions/suivre-une-intervention.md:65
+msgid "5. Read the total"
+msgstr "5\\. Lire le total"
+
+#: ../../content/interventions/suivre-une-intervention.md:67
+msgid "At the bottom of the **Products** tab:"
+msgstr "En bas de l'onglet **Produits** :"
+
+#: ../../content/interventions/suivre-une-intervention.md:69
+msgid "**Products Cost**;"
+msgstr "**Coût des produits** ;"
+
+#: ../../content/interventions/suivre-une-intervention.md:70
+msgid "**Timesheets Cost**;"
+msgstr "**Coût des feuilles de temps** ;"
+
+#: ../../content/interventions/suivre-une-intervention.md:71
+msgid "**Vendor Bill Cost**;"
+msgstr "**Coût facture fournisseur** ;"
+
+#: ../../content/interventions/suivre-une-intervention.md:72
+msgid ""
+"**Ticket Cost** — the total, which the administration may then [bill to the "
+"resident](facturer.md)."
+msgstr ""
+"**Coût du ticket** — le total, que l'administration peut ensuite [facturer à"
+" l'habitant](facturer.md)."
+
+#: ../../content/interventions/suivre-une-intervention.md:75
+msgid ""
+"In the list of tickets, the **Ticket Cost** column gives the total of each "
+"ticket and of the whole list; the **Resident** and **Room** columns can be "
+"added from the optional columns."
+msgstr ""
+"Dans la liste des tickets, la colonne **Coût du ticket** donne le total de "
+"chaque ticket et de toute la liste ; les colonnes **Habitant** et "
+"**Chambre** peuvent être ajoutées depuis les colonnes facultatives."
+
+#: ../../content/interventions/suivre-une-intervention.md:81
+msgid "Find the interventions"
+msgstr "Retrouver les interventions"
+
+#: ../../content/interventions/suivre-une-intervention.md:83
+msgid ""
+"An **Interventions** button lists the tickets, as soon as there is at least "
+"one:"
+msgstr ""
+"Un bouton **Interventions** liste les tickets, dès qu'il y en a au moins un "
+":"
+
+#: ../../content/interventions/suivre-une-intervention.md:86
+msgid "on the **room** — every intervention in that room;"
+msgstr "sur la **chambre** — toutes les interventions dans cette chambre ;"
+
+#: ../../content/interventions/suivre-une-intervention.md:87
+msgid "on the **resident's record** — every intervention concerning them;"
+msgstr ""
+"sur la **fiche de l'habitant** — toutes les interventions qui le concernent "
+";"
+
+#: ../../content/interventions/suivre-une-intervention.md:88
+msgid "on the **stay** — the interventions of that stay."
+msgstr "sur le **séjour** — les interventions de ce séjour."
+
+#: ../../content/interventions/suivre-une-intervention.md:90
+msgid "From a condition report"
+msgstr "Depuis un état des lieux"
+
+#: ../../content/interventions/suivre-une-intervention.md:92
+msgid ""
+"On a [condition report](../residents/etat-des-lieux.md), the "
+"**Interventions** button lists the interventions in **that room for that "
+"resident**: what happened in the room while they lived there — useful to "
+"check the room before the exit report. A ticket created from there is "
+"already linked to the room and the resident."
+msgstr ""
+"Sur un [état des lieux](../residents/etat-des-lieux.md), le bouton "
+"**Interventions** liste les interventions dans **cette chambre pour cet "
+"habitant** : ce qui s'est passé dans la chambre pendant qu'il y vivait — "
+"utile pour vérifier la chambre avant l'état des lieux de sortie. Un ticket "
+"créé depuis là est déjà lié à la chambre et à l'habitant."
+
+#: ../../content/interventions/suivre-une-intervention.md:98
+msgid "What's next"
+msgstr "Pour continuer"
+
+#: ../../content/interventions/suivre-une-intervention.md:100
+msgid "[Billing an intervention](facturer.md)"
+msgstr "[Facturer une intervention](facturer.md)"
+
+#: ../../content/interventions/suivre-une-intervention.md:101
+msgid "[Technical interventions](index.md)"
+msgstr "[Interventions techniques](index.md)"
+
+#: ../../content/interventions/suivre-une-intervention.md:102
+msgid "[Condition report](../residents/etat-des-lieux.md)"
+msgstr "[État des lieux](../residents/etat-des-lieux.md)"

@@ -13,8 +13,8 @@ The complete eFact guide for nursing homes (MR/MRS) with Resthome: generate, che
 I receive an acknowledgement of receipt (931000) after the eFact sending, should I wait?
 : Yes. The 931000 only confirms that the insurance organisation received the batch and passed the first check — it is not the final result. There is nothing to resend: wait for the settlement (920900), which states what is accepted and paid. This can take a few days.
 
-What does "deadline exceeded" mean on an eFact period card?
-: The sending deadline of this period has passed. Send the batch without delay: beyond it, some insurance organisations may refuse it.
+Is there still a deadline to send an eFact batch?
+: No. The former "20th of the following month" sending deadline was abolished: a late batch is no longer refused. The insurer's payment deadline, and the late-payment interest it opens, run from the day the batch is sent, so send as soon as the month is billed.
 
 One eFact batch per mutuality or per union?
 : One batch per union of mutualities (100 National Alliance, 300 Solidaris, 500 National Union, 600 CAAMI, 900 HR Rail…), not per small individual mutuality. Resthome does the grouping automatically.
@@ -35,7 +35,7 @@ Can I invoice a resident through eFact if their insurability (MDA) is not valida
 : No. Without valid insurability (MDA), the resident cannot be invoiced to the mutuality under third-party payment. Run Check MDA on the generated period before generating the eFact, and correct the resident's mutuality if needed.
 
 Is electronic invoicing (eFact) mandatory?
-: Yes. The electronic sending of the INAMI allowances is mandatory: production started in April 2026 and the final deadline to be compliant is 1 October 2026. Resthome respects the sending deadlines per period and warns you when a deadline approaches or is exceeded.
+: Yes. The electronic sending of the INAMI allowances is mandatory: production started in April 2026 and the final deadline to be compliant is 1 October 2026. The former sending deadline per period was abolished.
 
 A resident leaves or dies during an already invoiced month, what happens to the eFact?
 : Part of the allowance was over-invoiced. Resthome detects it during the self-check and prepares the corresponding credit note (or remainder), on the resident side and, if needed, on the mutuality side through a corrective batch.
@@ -57,8 +57,9 @@ eFact and handle the returns.
 :class: info
 Electronic invoicing of the allowances is **mandatory**. Production started in
 **April 2026**; the final deadline to be compliant is **1 October 2026**.
-Resthome respects the sending **deadlines** per period and alerts you when a
-deadline approaches or is exceeded.
+The former sending deadline per period (the 20th of the following month) was
+**abolished**; what still runs is the insurer's **payment** deadline — see
+[Payment tracking](efact-paiements.md).
 :::
 
 ## The cycle of a period, at a glance
@@ -89,15 +90,14 @@ On each card:
 - the **status** of the period (Invoiced, Generated…);
 - **Invoices** (number of invoices) and **Total**;
 - **Resident Part** (the share charged to the resident);
-- the **eFact deadline** (e.g. "eFact: 20 Sep");
+- the **eFact** state: **eFact: sent** with the date of the last sending, or
+  **eFact: nothing to send**;
+- badges for what is left: **to send**, **awaiting** (the OA's answer), **to
+  correct** (rejected, to resend) and **to reconcile** — each one opens the
+  batches behind it;
 - shortcuts: **View Invoices**, **eFact** (the batches), **eFact Cockpit**.
 
-:::{admonition} "Deadline exceeded"
-:class: warning
-If a card shows **eFact: deadline exceeded** in red, the sending deadline of
-this period has **passed**. Send without delay — beyond it, some insurance
-organisations may refuse the batch.
-:::
+<!-- screenshot to update: the period card now shows "eFact: sent (date)" and the to send / awaiting / to correct / to reconcile badges, no deadline -->
 
 ## 2. Generate the period (Draft → Generated)
 
@@ -136,8 +136,10 @@ The other tabs: **Billing Lines** (the line details), **Invoices**, **eHealth**
 ## 3. Check the period and the insurability
 
 This is the most important step. At the top of the period, **counters** give
-the health state of the month: **Supplements**, **Absences**, **Not invoiced**,
-**MDA** and **Katz to do** (missing Katz evaluations to complete).
+the health state of the month: **Invoices**, **Absences**, **Unbilled**,
+**MDA**, **Agreements** and **Katz à faire** (residents whose Katz evaluation is missing or to
+renew). A resident without a validated Katz gets no allowance: their row shows
+**No Katz**.
 
 :::{admonition} Resthome's self-check
 :class: tip
@@ -190,7 +192,7 @@ Each batch line shows:
 
 - the **OA** and its **code**;
 - the batch **reference** (e.g. `EF/2026/…`) and the billing **month**;
-- the sending **deadline** and the **MDA** state;
+- the **MDA** state;
 - the batch **status** (Draft, sent, accepted, rejected…);
 - the **amounts**: invoiced, accepted, refused;
 - in case of refusal, the rejection **code** and **reason**.
@@ -338,6 +340,7 @@ if needed, on the mutuality side through a corrective batch.
 - **Check MDA, then Generate eFact, then Create Invoices** — no third-party
   payment without valid insurability.
 - **One eFact batch per union** of mutualities, not per mutuality.
-- Respect the sending **deadline** of each period ("deadline exceeded").
+- The sending deadline was **abolished**, but send as soon as the month is
+  billed: the insurer's payment deadline runs from the sending.
 - A **rejection** is fixed then **resent** — the Resends counter avoids
   duplicates.

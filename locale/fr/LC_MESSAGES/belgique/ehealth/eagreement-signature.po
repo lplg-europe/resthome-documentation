@@ -55,33 +55,9 @@ msgstr ""
 msgid "Where do I enter a caregiver's NIHII and signature?"
 msgstr "Où saisir le numéro INAMI et la signature d'un soignant ?"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:16
-msgid ""
-"On their employee record (Employees app, Nursing Home tab). The NIHII, role "
-"and signature image live on the employee — not on a user account — so that "
-"caregivers who sign occasionally do not consume a user license."
-msgstr ""
-"Sur sa fiche d'employé (application Employés, onglet Maison de repos). Le "
-"numéro INAMI, le rôle et l'image de signature figurent sur l'employé — pas "
-"sur un compte utilisateur — afin que les soignants qui signent "
-"occasionnellement ne consomment pas de licence utilisateur."
-
 #: ../../content/belgique/ehealth/eagreement-signature.md:18
 msgid "How do I sign an Annexe 10, 7 or 11 without printing or scanning?"
 msgstr "Comment signer une Annexe 10, 7 ou 11 sans imprimer ni scanner ?"
-
-#: ../../content/belgique/ehealth/eagreement-signature.md:19
-msgid ""
-"Upload a signature image on the employee record, then, on the eAgreement "
-"request in Draft, click Sign Annexe 10 (or Sign Annexe 7 / Sign Annexe 11). "
-"Resthome places your signature on the PDF and marks it signed. If no image "
-"is configured, the old print / sign / scan route remains possible."
-msgstr ""
-"Téléversez une image de signature sur la fiche d'employé, puis, sur la "
-"demande eAgreement en Brouillon, cliquez sur Signer l'Annexe 10 (ou Signer "
-"l'Annexe 7 / Signer l'Annexe 11). Resthome place votre signature sur le PDF "
-"et le marque comme signé. Si aucune image n'est configurée, l'ancienne voie "
-"imprimer / signer / scanner reste possible."
 
 #: ../../content/belgique/ehealth/eagreement-signature.md:21
 msgid "Who is allowed to sign an Annexe 10 (signature rules)?"
@@ -103,18 +79,6 @@ msgstr ""
 #: ../../content/belgique/ehealth/eagreement-signature.md:24
 msgid "Can I sign on behalf of a colleague?"
 msgstr "Puis-je signer au nom d'un collègue ?"
-
-#: ../../content/belgique/ehealth/eagreement-signature.md:25
-msgid ""
-"No, unless you have eHealth manager rights. Everyone signs with their own "
-"signature image; signing on behalf of another clinician, whose name and role"
-" appear on a legal annex, requires eHealth manager rights. The actual author"
-" remains tracked in the log."
-msgstr ""
-"Non, sauf si vous disposez des droits de gestionnaire eHealth. Chacun signe "
-"avec sa propre image de signature ; signer au nom d'un autre clinicien, dont"
-" le nom et le rôle figurent sur une annexe légale, exige les droits de "
-"gestionnaire eHealth. L'auteur réel reste tracé dans le journal."
 
 #: ../../content/belgique/ehealth/eagreement-signature.md:27
 msgid "What happens for a foreign physician without a Belgian NIHII?"
@@ -252,10 +216,6 @@ msgid "2"
 msgstr "2"
 
 #: ../../content/belgique/ehealth/eagreement-signature.md:44
-msgid "The configured **head nurse** (their NIHII)"
-msgstr "L’**infirmier en chef** configuré (son numéro INAMI)"
-
-#: ../../content/belgique/ehealth/eagreement-signature.md:44
 msgid "The assessor (nurse, care assistant) has no NIHII"
 msgstr "L'évaluateur (infirmier, aide-soignant) n'a pas de numéro INAMI"
 
@@ -264,20 +224,12 @@ msgid "3"
 msgstr "3"
 
 #: ../../content/belgique/ehealth/eagreement-signature.md:44
-msgid "The configured **coordinating physician** (their NIHII)"
-msgstr "Le **médecin coordinateur** configuré (son numéro INAMI)"
-
-#: ../../content/belgique/ehealth/eagreement-signature.md:44
 msgid "Neither the assessor nor the head nurse has a NIHII"
 msgstr "Ni l'évaluateur ni l'infirmier en chef n'ont de numéro INAMI"
 
 #: ../../content/belgique/ehealth/eagreement-signature.md:44
 msgid "4"
 msgstr "4"
-
-#: ../../content/belgique/ehealth/eagreement-signature.md:44
-msgid "A **generic AViQ nurse number**"
-msgstr "Un **numéro d'infirmier générique AViQ**"
 
 #: ../../content/belgique/ehealth/eagreement-signature.md:44
 msgid "Last resort, no NIHII available"
@@ -307,35 +259,11 @@ msgstr ""
 msgid "The generic number is a last resort"
 msgstr "Le numéro générique est un dernier recours"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:84
-msgid ""
-"If no one in the chain has a usable NIHII, Resthome falls back on the "
-"**generic AViQ nurse number**. This is a safety net: for a correct identity,"
-" enter the caregiver's personal NIHII, or at least a fallback head nurse and"
-" coordinating physician."
-msgstr ""
-"Si personne dans la chaîne n'a de numéro INAMI utilisable, Resthome se rabat"
-" sur le **numéro d'infirmier générique AViQ**. C'est un filet de sécurité : "
-"pour une identité correcte, saisissez le numéro INAMI personnel du soignant,"
-" ou au moins un infirmier en chef et un médecin coordinateur de repli."
-
-#: ../../content/belgique/ehealth/eagreement-signature.md:90
+#: ../../content/belgique/ehealth/eagreement-signature.md:91
 msgid "Where identities are stored (employee record)"
 msgstr "Où sont stockées les identités (fiche d'employé)"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:92
-msgid ""
-"A caregiver's **NIHII**, **role** and **signature image** live on their "
-"**employee record**, not on a user account. This way, a caregiver who signs "
-"an Annexe 10 from time to time **does not consume a user license**: they "
-"only need to exist as an employee."
-msgstr ""
-"Le **numéro INAMI**, le **rôle** et l’**image de signature** d'un soignant "
-"figurent sur sa **fiche d'employé**, pas sur un compte utilisateur. Ainsi, "
-"un soignant qui signe une Annexe 10 de temps en temps **ne consomme pas de "
-"licence utilisateur** : il doit seulement exister en tant qu'employé."
-
-#: ../../content/belgique/ehealth/eagreement-signature.md:97
+#: ../../content/belgique/ehealth/eagreement-signature.md:98
 msgid "**Employees app → employee record → Nursing Home tab.**"
 msgstr "**Application Employés → fiche d'employé → onglet Maison de repos.**"
 
@@ -344,7 +272,7 @@ msgid "Field"
 msgstr "Champ"
 
 #: ../../content/belgique/ehealth/eagreement-signature.md:81
-#: ../../content/belgique/ehealth/eagreement-signature.md:107
+#: ../../content/belgique/ehealth/eagreement-signature.md:108
 msgid "What it is for"
 msgstr "À quoi il sert"
 
@@ -359,10 +287,6 @@ msgid ""
 msgstr ""
 "Le numéro INAMI personnel du soignant, utilisé comme praticien responsable "
 "sur la demande eAgreement. 11 chiffres."
-
-#: ../../content/belgique/ehealth/eagreement-signature.md:81
-msgid "**Care role**"
-msgstr "**Rôle de soins**"
 
 #: ../../content/belgique/ehealth/eagreement-signature.md:81
 msgid ""
@@ -386,7 +310,7 @@ msgstr ""
 
 #: ../../content/belgique/ehealth/eagreement-signature.md:81
 msgid "**Foreign physician (no Belgian NIHII)**"
-msgstr "**Médecin étranger (pas de numéro INAMI belge)**"
+msgstr "**Médecin étranger (sans NIHII belge)**"
 
 #: ../../content/belgique/ehealth/eagreement-signature.md:81
 msgid ""
@@ -396,23 +320,11 @@ msgstr ""
 "Cochez-le pour un médecin transfrontalier sans numéro INAMI belge. Visible "
 "uniquement pour un médecin."
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:81
-msgid "**Signature image (Annexe 10)**"
-msgstr "**Image de signature (Annexe 10)**"
-
-#: ../../content/belgique/ehealth/eagreement-signature.md:81
-msgid ""
-"The signature scan (PNG/JPG, transparent background preferred), placed on "
-"the PDF when signing in the app."
-msgstr ""
-"Le scan de la signature (PNG/JPG, fond transparent de préférence), placé sur"
-" le PDF lors de la signature dans l'application."
-
-#: ../../content/belgique/ehealth/eagreement-signature.md:107
+#: ../../content/belgique/ehealth/eagreement-signature.md:108
 msgid "A clean signature image"
 msgstr "Une image de signature propre"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:110
+#: ../../content/belgique/ehealth/eagreement-signature.md:115
 msgid ""
 "Prefer a **PNG image with a transparent background**, cropped to the "
 "strokes. Resthome places it in the annex's \"Signature\" box while "
@@ -422,29 +334,15 @@ msgstr ""
 "Resthome la place dans la case « Signature » de l'annexe en **préservant ses"
 " proportions** — une image bien recadrée donne un résultat propre."
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:115
+#: ../../content/belgique/ehealth/eagreement-signature.md:120
 msgid "Configuring the fallback identities"
 msgstr "Configurer les identités de repli"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:117
-msgid ""
-"**Settings > Nursing Home > eAgreement Responsible Practitioner.** These two"
-" settings provide the fallback NIHII when the Katz assessor does not have "
-"their own."
-msgstr ""
-"**Réglages > Maison de repos > Praticien responsable eAgreement.** Ces deux "
-"réglages fournissent le numéro INAMI de repli lorsque l'évaluateur Katz n'a "
-"pas le sien."
-
-#: ../../content/belgique/ehealth/eagreement-signature.md:107
+#: ../../content/belgique/ehealth/eagreement-signature.md:108
 msgid "Setting"
 msgstr "Réglage"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:107
-msgid "**Head Nurse (NIHII fallback)**"
-msgstr "**Infirmier en chef (numéro INAMI de repli)**"
-
-#: ../../content/belgique/ehealth/eagreement-signature.md:107
+#: ../../content/belgique/ehealth/eagreement-signature.md:108
 msgid ""
 "Their NIHII identifies the responsible practitioner when the assessor "
 "(nurse, care assistant) has no personal NIHII."
@@ -452,11 +350,7 @@ msgstr ""
 "Son numéro INAMI identifie le praticien responsable lorsque l'évaluateur "
 "(infirmier, aide-soignant) n'a pas de numéro INAMI personnel."
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:107
-msgid "**Coordinating Physician (NIHII fallback)**"
-msgstr "**Médecin coordinateur (numéro INAMI de repli)**"
-
-#: ../../content/belgique/ehealth/eagreement-signature.md:107
+#: ../../content/belgique/ehealth/eagreement-signature.md:108
 msgid ""
 "Fallback when no nurse NIHII is available, and **mandatory** for a Katz "
 "category D."
@@ -464,15 +358,15 @@ msgstr ""
 "Repli lorsqu'aucun numéro INAMI d'infirmier n'est disponible, et "
 "**obligatoire** pour une catégorie Katz D."
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:125
+#: ../../content/belgique/ehealth/eagreement-signature.md:131
 msgid "See also [eHealth and eFact settings](../reglages-ehealth.md)."
 msgstr "Voir aussi [Réglages eHealth et eFact](../reglages-ehealth.md)."
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:127
+#: ../../content/belgique/ehealth/eagreement-signature.md:133
 msgid "The Katz category is for declaring, not for setting the amount"
 msgstr "La catégorie Katz sert à déclarer, pas à fixer le montant"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:130
+#: ../../content/belgique/ehealth/eagreement-signature.md:136
 msgid ""
 "The **dependency fee** is the **same amount** for all Katz categories (AViQ "
 "rates); the category serves to **declare the resident's profile** to the "
@@ -486,11 +380,11 @@ msgstr ""
 "**médecin** comme praticien responsable — d'où l'importance du médecin "
 "coordinateur de repli."
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:137
+#: ../../content/belgique/ehealth/eagreement-signature.md:143
 msgid "The foreign physician"
 msgstr "Le médecin étranger"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:139
+#: ../../content/belgique/ehealth/eagreement-signature.md:145
 msgid ""
 "A **cross-border** physician who does **not** have a Belgian NIHII cannot "
 "provide a personal number. On their employee record (*physician* role), tick"
@@ -501,34 +395,24 @@ msgid ""
 msgstr ""
 "Un médecin **transfrontalier** qui n'a **pas** de numéro INAMI belge ne peut"
 " pas fournir de numéro personnel. Sur sa fiche d'employé (rôle *médecin*), "
-"cochez **Médecin étranger (pas de numéro INAMI belge)**. Resthome inscrit "
-"alors sur la demande le **numéro générique prévu par la spécification "
-"eHealth** pour les praticiens étrangers, que les organismes assureurs "
-"acceptent. Vous n'avez aucun numéro à saisir vous-même."
+"cochez **Médecin étranger (sans NIHII belge)**. Resthome inscrit alors sur "
+"la demande le **numéro générique prévu par la spécification eHealth** pour "
+"les praticiens étrangers, que les organismes assureurs acceptent. Vous "
+"n'avez aucun numéro à saisir vous-même."
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:145
+#: ../../content/belgique/ehealth/eagreement-signature.md:151
 msgid "Signing an annex in the application"
 msgstr "Signer une annexe dans l'application"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:147
-msgid ""
-"Rather than **printing, signing by hand and then scanning**, Resthome places"
-" your **signature image** on the annex PDF and saves it — a route compliant "
-"with the **applicable signature rules**. The annexes concerned:"
-msgstr ""
-"Plutôt qu’**imprimer, signer à la main puis scanner**, Resthome place votre "
-"**image de signature** sur le PDF de l'annexe et l'enregistre — une voie "
-"conforme aux **règles de signature applicables**. Les annexes concernées :"
-
-#: ../../content/belgique/ehealth/eagreement-signature.md:151
+#: ../../content/belgique/ehealth/eagreement-signature.md:157
 msgid "**Annexe 10** — the Katz scale (care agreement);"
 msgstr "**Annexe 10** — l'échelle de Katz (accord de soins) ;"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:152
+#: ../../content/belgique/ehealth/eagreement-signature.md:158
 msgid "**Annexe 7** — the admission agreement (admission / readmission);"
 msgstr "**Annexe 7** — l'accord d'admission (admission / réadmission) ;"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:153
+#: ../../content/belgique/ehealth/eagreement-signature.md:159
 msgid "**Annexe 11** — the end-of-stay notification."
 msgstr "**Annexe 11** — la notification de fin de séjour."
 
@@ -550,11 +434,11 @@ msgstr ""
 "Demande eAgreement en brouillon, avec le bouton Signer l'Annexe 7 dans la "
 "barre d'actions et la section Annexes"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:157
+#: ../../content/belgique/ehealth/eagreement-signature.md:163
 msgid "The path, on a request in **Draft**:"
 msgstr "La marche à suivre, sur une demande en **Brouillon** :"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:159
+#: ../../content/belgique/ehealth/eagreement-signature.md:165
 msgid ""
 "**Generate the annex** if not already done (Annexe 10 is produced from the "
 "Katz; Annexe 7 or 11 from the request)."
@@ -562,7 +446,7 @@ msgstr ""
 "**Générez l'annexe** si ce n'est pas déjà fait (l'Annexe 10 est produite à "
 "partir du Katz ; l'Annexe 7 ou 11 à partir de la demande)."
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:161
+#: ../../content/belgique/ehealth/eagreement-signature.md:167
 msgid ""
 "Click **Sign Annexe 10** (or **Sign Annexe 7** / **Sign Annexe 11**). These "
 "buttons appear only in Draft, when the annex exists and is **not yet "
@@ -572,7 +456,7 @@ msgstr ""
 "l'Annexe 11**). Ces boutons n'apparaissent qu'en Brouillon, lorsque l'annexe"
 " existe et n'est **pas encore signée**."
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:163
+#: ../../content/belgique/ehealth/eagreement-signature.md:169
 msgid ""
 "In the **Sign annex** window, check the **Signer** (you by default), their "
 "**role**, the **signature date** and the signature **preview**."
@@ -581,7 +465,7 @@ msgstr ""
 "défaut), son **rôle**, la **date de signature** et l’**aperçu** de la "
 "signature."
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:165
+#: ../../content/belgique/ehealth/eagreement-signature.md:171
 msgid ""
 "Click **Sign & replace PDF**. Resthome regenerates a clean PDF, places the "
 "signature on it and ticks the annex as **signed** (a green ✓ \"Signed\" "
@@ -591,11 +475,11 @@ msgstr ""
 " y place la signature et coche l'annexe comme **signée** (un ✓ vert « Signé "
 "» apparaît à côté de l'annexe)."
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:169
+#: ../../content/belgique/ehealth/eagreement-signature.md:175
 msgid "Sending without signing: possible, but on your responsibility"
 msgstr "Envoyer sans signer : possible, mais sous votre responsabilité"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:172
+#: ../../content/belgique/ehealth/eagreement-signature.md:178
 msgid ""
 "Resthome does **not block** the send when an annex is unsigned — it asks you"
 " to confirm. The **Send Request** button then displays *\"The annex is not "
@@ -608,7 +492,7 @@ msgstr ""
 "PDF de l'annexe — envoyer quand même ? »*. Annulez pour signer d'abord, ou "
 "confirmez pour envoyer en l'état."
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:177
+#: ../../content/belgique/ehealth/eagreement-signature.md:183
 msgid ""
 "If you confirm, the request leaves with an **unsigned annex** and Resthome "
 "records a warning in the request's thread: *\"Sent with an UNSIGNED "
@@ -622,7 +506,7 @@ msgstr ""
 "de ce PDF**, une annexe non signée vous expose à un refus — il faudrait "
 "alors signer et renvoyer la demande **entière**."
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:182
+#: ../../content/belgique/ehealth/eagreement-signature.md:188
 msgid ""
 "Re-signing is safe: Resthome starts from a blank PDF each time, without "
 "stacking signatures."
@@ -630,11 +514,11 @@ msgstr ""
 "Resigner est sans risque : Resthome repart d'un PDF vierge à chaque fois, "
 "sans empiler les signatures."
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:186
+#: ../../content/belgique/ehealth/eagreement-signature.md:192
 msgid "Replacing a PDF clears its signature"
 msgstr "Remplacer un PDF efface sa signature"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:189
+#: ../../content/belgique/ehealth/eagreement-signature.md:195
 msgid ""
 "Regenerating an annex, or uploading a new PDF over an existing one, resets "
 "the annex to **not signed** — even if the document you upload already "
@@ -648,11 +532,11 @@ msgstr ""
 " 11), ou relancez **Signer l'annexe N**, sinon le prochain envoi redemandera"
 " une confirmation."
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:195
+#: ../../content/belgique/ehealth/eagreement-signature.md:201
 msgid "Katz already signed during the assessment"
 msgstr "Katz déjà signé lors de l'évaluation"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:198
+#: ../../content/belgique/ehealth/eagreement-signature.md:204
 msgid ""
 "If the Katz assessment was **signed in the app** at scoring time, the Annexe"
 " 10 PDF already carries the signature: Resthome marks it **signed "
@@ -662,35 +546,35 @@ msgstr ""
 "cotation, le PDF de l'Annexe 10 porte déjà la signature : Resthome le marque"
 " **signé automatiquement** et l'étape ci-dessus est inutile."
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:203
+#: ../../content/belgique/ehealth/eagreement-signature.md:209
 msgid "Who can sign (signature rules)"
 msgstr "Qui peut signer (règles de signature)"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:195
+#: ../../content/belgique/ehealth/eagreement-signature.md:201
 msgid "Situation"
 msgstr "Situation"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:195
+#: ../../content/belgique/ehealth/eagreement-signature.md:201
 msgid "Allowed signer"
 msgstr "Signataire autorisé"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:195
+#: ../../content/belgique/ehealth/eagreement-signature.md:201
 msgid "Annexe 10 — standard case"
 msgstr "Annexe 10 — cas standard"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:195
+#: ../../content/belgique/ehealth/eagreement-signature.md:201
 msgid "**Physician OR nurse**"
 msgstr "**Médecin OU infirmier**"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:195
+#: ../../content/belgique/ehealth/eagreement-signature.md:201
 msgid "Annexe 10 — Katz **category D / Cd**"
 msgstr "Annexe 10 — catégorie Katz **D / Cd**"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:195
+#: ../../content/belgique/ehealth/eagreement-signature.md:201
 msgid "**Physician mandatory** (no nurse fallback)"
 msgstr "**Médecin obligatoire** (pas de repli infirmier)"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:195
+#: ../../content/belgique/ehealth/eagreement-signature.md:201
 msgid ""
 "Annexe 10 — **quick revision** (new Katz less than 6 months after the "
 "previous one)"
@@ -698,19 +582,19 @@ msgstr ""
 "Annexe 10 — **révision rapide** (nouveau Katz moins de 6 mois après le "
 "précédent)"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:195
+#: ../../content/belgique/ehealth/eagreement-signature.md:201
 msgid "**Physician mandatory**"
 msgstr "**Médecin obligatoire**"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:195
+#: ../../content/belgique/ehealth/eagreement-signature.md:201
 msgid "Annexe 7 (admission) / Annexe 11 (end of stay)"
 msgstr "Annexe 7 (admission) / Annexe 11 (fin de séjour)"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:195
+#: ../../content/belgique/ehealth/eagreement-signature.md:201
 msgid "**Institution manager** — no medical rule"
 msgstr "**Responsable de l'établissement** — pas de règle médicale"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:212
+#: ../../content/belgique/ehealth/eagreement-signature.md:218
 msgid ""
 "The signing window recalls the applicable rule in a **signature rules** "
 "banner. If the rule requires a physician and the signer is not one, the "
@@ -720,11 +604,11 @@ msgstr ""
 "**règles de signature**. Si la règle exige un médecin et que le signataire "
 "n'en est pas un, la signature est refusée avec un message clair."
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:216
+#: ../../content/belgique/ehealth/eagreement-signature.md:222
 msgid "Readmission after a long absence"
 msgstr "Réadmission après une longue absence"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:219
+#: ../../content/belgique/ehealth/eagreement-signature.md:225
 msgid ""
 "A **readmission** after more than 30 days of absence may require a **new "
 "Katz assessment**, but it does **not** require a physician: the Annexe 10 "
@@ -734,45 +618,11 @@ msgstr ""
 "**nouvelle évaluation Katz**, mais elle n'exige **pas** de médecin : "
 "l'Annexe 10 peut être signée par un **médecin OU un infirmier**."
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:224
+#: ../../content/belgique/ehealth/eagreement-signature.md:230
 msgid "Everyone signs with their own signature"
 msgstr "Chacun signe avec sa propre signature"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:226
-msgid ""
-"For safety, you can only sign **with your own** signature image. Signing "
-"**on behalf of another** clinician — whose name and role appear on a legal "
-"annex transmitted to the health insurer — requires **eHealth manager** "
-"rights. In all cases, the **actual author** of the action remains recorded "
-"in the audit log."
-msgstr ""
-"Par sécurité, vous ne pouvez signer qu’**avec votre propre** image de "
-"signature. Signer **au nom d'un autre** clinicien — dont le nom et le rôle "
-"figurent sur une annexe légale transmise à l'organisme assureur — exige les "
-"droits de **gestionnaire eHealth**. Dans tous les cas, l’**auteur réel** de "
-"l'action reste enregistré dans le journal d'audit."
-
-#: ../../content/belgique/ehealth/eagreement-signature.md:231
-msgid "If no signature image is configured"
-msgstr "Si aucune image de signature n'est configurée"
-
-#: ../../content/belgique/ehealth/eagreement-signature.md:233
-msgid ""
-"If the signer has **no** signature image on their employee record, the "
-"window warns you and the **Sign & replace PDF** button is not offered. Two "
-"options:"
-msgstr ""
-"Si le signataire n'a **aucune** image de signature sur sa fiche d'employé, "
-"la fenêtre vous en avertit et le bouton **Signer et remplacer le PDF** n'est"
-" pas proposé. Deux options :"
-
-#: ../../content/belgique/ehealth/eagreement-signature.md:236
-msgid "**upload a signature image** on the employee record, then start again;"
-msgstr ""
-"**téléversez une image de signature** sur la fiche d'employé, puis "
-"recommencez ;"
-
-#: ../../content/belgique/ehealth/eagreement-signature.md:237
+#: ../../content/belgique/ehealth/eagreement-signature.md:243
 msgid ""
 "**keep the manual route**: print the annex, have it signed, scan the signed "
 "document and re-upload it on the request (for Annexe 7 / 11, tick **Annex "
@@ -782,11 +632,11 @@ msgstr ""
 "scannez le document signé et re-téléversez-le sur la demande (pour l'Annexe "
 "7 / 11, cochez **Annexe signée**)."
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:241
+#: ../../content/belgique/ehealth/eagreement-signature.md:247
 msgid "Key points to remember"
 msgstr "Points clés à retenir"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:243
+#: ../../content/belgique/ehealth/eagreement-signature.md:249
 msgid ""
 "The **responsible practitioner** is the **Katz assessor**, not the sender; "
 "Resthome resolves their **NIHII** in a cascade: assessor → head nurse → "
@@ -796,7 +646,7 @@ msgstr ""
 "Resthome résout son **numéro INAMI** en cascade : évaluateur → infirmier en "
 "chef → médecin coordinateur → numéro générique."
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:246
+#: ../../content/belgique/ehealth/eagreement-signature.md:252
 msgid ""
 "A Katz **category D** requires a **physician**; configure a fallback "
 "**coordinating physician** in the eHealth settings."
@@ -804,26 +654,7 @@ msgstr ""
 "Une **catégorie D** Katz exige un **médecin** ; configurez un **médecin "
 "coordinateur** de repli dans les réglages eHealth."
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:248
-msgid ""
-"The **NIHII**, **role** and **signature image** live on the **employee "
-"record** (*Nursing Home* tab) — no user license needed for caregivers who "
-"sign occasionally."
-msgstr ""
-"Le **numéro INAMI**, le **rôle** et l’**image de signature** figurent sur la"
-" **fiche d'employé** (onglet *Maison de repos*) — aucune licence utilisateur"
-" nécessaire pour les soignants qui signent occasionnellement."
-
-#: ../../content/belgique/ehealth/eagreement-signature.md:251
-msgid ""
-"**Sign Annexe 10 / 7 / 11** places your signature image on the PDF: no more "
-"printing / signing / scanning. Signing is a **prerequisite for sending**."
-msgstr ""
-"**Signer l'Annexe 10 / 7 / 11** place votre image de signature sur le PDF : "
-"plus d'impression / signature / scan. La signature est un **préalable à "
-"l'envoi**."
-
-#: ../../content/belgique/ehealth/eagreement-signature.md:253
+#: ../../content/belgique/ehealth/eagreement-signature.md:260
 msgid ""
 "**Signature rules**: physician OR nurse by default; **physician mandatory** "
 "in category D or a quick revision (< 6 months)."
@@ -831,7 +662,7 @@ msgstr ""
 "**Règles de signature** : médecin OU infirmier par défaut ; **médecin "
 "obligatoire** en catégorie D ou en révision rapide (< 6 mois)."
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:255
+#: ../../content/belgique/ehealth/eagreement-signature.md:262
 msgid ""
 "You sign **only with your own** signature, unless you have **eHealth "
 "manager** rights."
@@ -839,57 +670,245 @@ msgstr ""
 "Vous signez **uniquement avec votre propre** signature, sauf si vous "
 "disposez des droits de **gestionnaire eHealth**."
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:258
+#: ../../content/belgique/ehealth/eagreement-signature.md:265
 msgid "Further reading"
 msgstr "Pour aller plus loin"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:260
+#: ../../content/belgique/ehealth/eagreement-signature.md:267
 msgid "[Agreements (eAgreement)](eagreement.md)"
 msgstr "[Accords (eAgreement)](eagreement.md)"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:261
+#: ../../content/belgique/ehealth/eagreement-signature.md:268
 msgid ""
 "[Refused agreement (eAgreement) — causes and solutions](eagreement-refus.md)"
 msgstr ""
 "[Accord refusé (eAgreement) — causes et solutions](eagreement-refus.md)"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:262
+#: ../../content/belgique/ehealth/eagreement-signature.md:269
 msgid "[The dependency scale (Katz)](../katz.md)"
 msgstr "[L'échelle de dépendance (Katz)](../katz.md)"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:263
+#: ../../content/belgique/ehealth/eagreement-signature.md:270
 msgid "[eHealth and eFact settings](../reglages-ehealth.md)"
 msgstr "[Réglages eHealth et eFact](../reglages-ehealth.md)"
 
-#: ../../content/belgique/ehealth/eagreement-signature.md:264
+#: ../../content/belgique/ehealth/eagreement-signature.md:271
 msgid "[eHealth overview](index.md)"
 msgstr "[Aperçu eHealth](index.md)"
 
-#~ msgid ""
-#~ "![eAgreement request in Draft, with the Sign Annexe 7 button in the action "
-#~ "bar and the Annexes section](../../assets/screenshots/ehealth/12-eagreement-"
-#~ "signature.webp)"
-#~ msgstr ""
-#~ "![Demande eAgreement en brouillon, avec le bouton Signer l'Annexe 7 dans la "
-#~ "barre d'actions et la section "
-#~ "Annexes](../../assets/screenshots/ehealth/12-eagreement-signature.webp)"
+#: ../../content/belgique/ehealth/eagreement-signature.md:161
+msgid ""
+"![eAgreement request in Draft, with the Sign Annexe 7 button in the action "
+"bar and the Annexes section](../../assets/screenshots/ehealth/12-eagreement-"
+"signature.webp)"
+msgstr ""
+"![Demande eAgreement en brouillon, avec le bouton Signer l'Annexe 7 dans la "
+"barre d'actions et la section "
+"Annexes](../../assets/screenshots/ehealth/12-eagreement-signature.webp)"
 
-#~ msgid ""
-#~ "eAgreement request in Draft, with the Sign Annexe 7 button in the action bar"
-#~ " and the Annexes section"
-#~ msgstr ""
-#~ "Demande eAgreement en brouillon, avec le bouton Signer l'Annexe 7 dans la "
-#~ "barre d'actions et la section Annexes"
+#: ../../content/belgique/ehealth/eagreement-signature.md:161
+msgid ""
+"eAgreement request in Draft, with the Sign Annexe 7 button in the action bar"
+" and the Annexes section"
+msgstr ""
+"Demande eAgreement en brouillon, avec le bouton Signer l'Annexe 7 dans la "
+"barre d'actions et la section Annexes"
 
-#~ msgid "Signing is a prerequisite for sending"
-#~ msgstr "La signature est un préalable à l'envoi"
+#: ../../content/belgique/ehealth/eagreement-signature.md:16
+msgid ""
+"On their employee record (Employees app, Nursing Home tab). The NIHII, role "
+"and **Personal signature** live on the employee — not on a user account — so"
+" that caregivers who sign occasionally do not consume a user license."
+msgstr ""
+"Sur sa fiche d'employé (application Employés, onglet Maison de repos). Le "
+"numéro INAMI, le rôle et la **Signature personnelle** figurent sur l'employé"
+" — pas sur un compte utilisateur — afin que les soignants qui signent "
+"occasionnellement ne consomment pas de licence utilisateur."
 
-#~ msgid ""
-#~ "As long as a generated annex is **not signed**, the **Send Request** button "
-#~ "stays hidden. Sign all the annexes first, then send. Re-signing is safe: "
-#~ "Resthome starts from a blank PDF each time, without stacking signatures."
-#~ msgstr ""
-#~ "Tant qu'une annexe générée n'est **pas signée**, le bouton **Envoyer la "
-#~ "demande** reste masqué. Signez d'abord toutes les annexes, puis envoyez. Re-"
-#~ "signer est sans risque : Resthome repart d'un PDF vierge à chaque fois, sans"
-#~ " empiler les signatures."
+#: ../../content/belgique/ehealth/eagreement-signature.md:19
+msgid ""
+"Upload a **Personal signature** on the employee record (or save it from the "
+"Katz signing window), then, on the eAgreement request in Draft, click Sign "
+"Annexe 10 (or Sign Annexe 7 / Sign Annexe 11). Resthome places your "
+"signature on the PDF and marks it signed. If no image is configured, the old"
+" print / sign / scan route remains possible."
+msgstr ""
+"Téléversez une **Signature personnelle** sur la fiche d'employé (ou "
+"enregistrez-la depuis la fenêtre de signature Katz), puis, sur la demande "
+"eAgreement en Brouillon, cliquez sur Signer l'Annexe 10 (ou Signer l'Annexe "
+"7 / Signer l'Annexe 11). Resthome place votre signature sur le PDF et le "
+"marque comme signé. Si aucune image n'est configurée, l'ancienne voie "
+"imprimer / signer / scanner reste possible."
+
+#: ../../content/belgique/ehealth/eagreement-signature.md:25
+msgid ""
+"No, unless you have eHealth manager rights. Everyone signs with their own "
+"personal signature; signing on behalf of another clinician, whose name and "
+"role appear on a legal annex, requires eHealth manager rights. The actual "
+"author remains tracked in the log."
+msgstr ""
+"Non, sauf si vous disposez des droits de gestionnaire eHealth. Chacun signe "
+"avec sa propre signature personnelle ; signer au nom d'un autre clinicien, "
+"dont le nom et le rôle figurent sur une annexe légale, exige les droits de "
+"gestionnaire eHealth. L'auteur réel reste tracé dans le journal."
+
+#: ../../content/belgique/ehealth/eagreement-signature.md:44
+msgid "The configured **Head Nurse** (their NIHII)"
+msgstr "L'**Infirmier(ère) en chef** configuré(e) (son numéro INAMI)"
+
+#: ../../content/belgique/ehealth/eagreement-signature.md:44
+msgid "The configured **Coordinating Physician** (their NIHII)"
+msgstr "Le **Médecin coordinateur** configuré (son numéro INAMI)"
+
+#: ../../content/belgique/ehealth/eagreement-signature.md:44
+msgid "The **Generic nurse NIHII** of the federated entity"
+msgstr "Le **NIHII infirmier générique** de l'entité fédérée"
+
+#: ../../content/belgique/ehealth/eagreement-signature.md:84
+msgid ""
+"If no one in the chain has a usable NIHII, Resthome falls back on the "
+"**Generic nurse NIHII** set in the eHealth settings — the number the "
+"federated entity gives a nurse without their own. This is a safety net: for "
+"a correct identity, enter the caregiver's personal NIHII, or at least a "
+"fallback head nurse and coordinating physician."
+msgstr ""
+"Si personne dans la chaîne n'a de numéro INAMI utilisable, Resthome se rabat"
+" sur le **NIHII infirmier générique** défini dans les réglages eHealth — le "
+"numéro que l'entité fédérée attribue à un infirmier qui n'a pas le sien. "
+"C'est un filet de sécurité : pour une identité correcte, saisissez le numéro"
+" INAMI personnel du soignant, ou au moins un infirmier en chef et un médecin"
+" coordinateur de repli."
+
+#: ../../content/belgique/ehealth/eagreement-signature.md:93
+msgid ""
+"A caregiver's **NIHII**, **role** and **Personal signature** live on their "
+"**employee record**, not on a user account. This way, a caregiver who signs "
+"an Annexe 10 from time to time **does not consume a user license**: they "
+"only need to exist as an employee."
+msgstr ""
+"Le **numéro INAMI**, le **rôle** et la **Signature personnelle** d'un "
+"soignant figurent sur sa **fiche d'employé**, pas sur un compte utilisateur."
+" Ainsi, un soignant qui signe une Annexe 10 de temps en temps **ne consomme "
+"pas de licence utilisateur** : il doit seulement exister en tant qu'employé."
+
+#: ../../content/belgique/ehealth/eagreement-signature.md:81
+msgid "**Role**"
+msgstr "**Rôle**"
+
+#: ../../content/belgique/ehealth/eagreement-signature.md:81
+msgid "**Personal signature**"
+msgstr "**Signature personnelle**"
+
+#: ../../content/belgique/ehealth/eagreement-signature.md:81
+msgid ""
+"The signature scan (PNG/JPG, transparent background preferred), used "
+"wherever this person signs: the Katz scale (Annexe 10) and the eAgreement "
+"annexes. Shown for a nurse or a physician."
+msgstr ""
+"Le scan de la signature (PNG/JPG, fond transparent de préférence), utilisé "
+"partout où cette personne signe : l'échelle de Katz (Annexe 10) et les "
+"annexes eAgreement. Affiché pour un infirmier ou un médecin."
+
+#: ../../content/belgique/ehealth/eagreement-signature.md:111
+msgid ""
+"No scan at hand? Draw the signature once in the Katz signing window and tick"
+" **Save as my signature**: it is stored as your **Personal signature**, and "
+"**Use my saved signature** reuses it the next time."
+msgstr ""
+"Pas de scan sous la main ? Dessinez la signature une fois dans la fenêtre de"
+" signature Katz et cochez **Enregistrer comme ma signature** : elle est "
+"enregistrée comme votre **Signature personnelle**, et **Utiliser ma "
+"signature enregistrée** la réutilise la fois suivante."
+
+#: ../../content/belgique/ehealth/eagreement-signature.md:122
+msgid ""
+"**Settings → eHealth → eAgreement Light.** These settings provide the "
+"fallback NIHII when the Katz assessor does not have their own."
+msgstr ""
+"**Paramètres → eHealth → eAgreement Light.** Ces réglages fournissent le "
+"numéro INAMI de repli lorsque l'évaluateur Katz n'a pas le sien."
+
+#: ../../content/belgique/ehealth/eagreement-signature.md:108
+msgid "**Head Nurse**"
+msgstr "**Infirmier(ère)-chef**"
+
+#: ../../content/belgique/ehealth/eagreement-signature.md:108
+msgid "**Coordinating Physician**"
+msgstr "**Médecin coordinateur**"
+
+#: ../../content/belgique/ehealth/eagreement-signature.md:108
+msgid "**Generic nurse NIHII**"
+msgstr "**NIHII infirmier générique**"
+
+#: ../../content/belgique/ehealth/eagreement-signature.md:108
+msgid ""
+"The last resort, when nobody above has a NIHII: the number the federated "
+"entity gives a nurse without their own."
+msgstr ""
+"Le dernier recours, quand personne ci-dessus n'a de numéro INAMI : le numéro"
+" que l'entité fédérée attribue à un infirmier qui n'a pas le sien."
+
+#: ../../content/belgique/ehealth/eagreement-signature.md:153
+msgid ""
+"Rather than **printing, signing by hand and then scanning**, Resthome places"
+" your **Personal signature** on the annex PDF and saves it — a route "
+"compliant with the **applicable signature rules**. The annexes concerned:"
+msgstr ""
+"Plutôt qu'**imprimer, signer à la main puis scanner**, Resthome place votre "
+"**Signature personnelle** sur le PDF de l'annexe et l'enregistre — une voie "
+"conforme aux **règles de signature applicables**. Les annexes concernées :"
+
+#: ../../content/belgique/ehealth/eagreement-signature.md:232
+msgid ""
+"For safety, you can only sign **with your own** personal signature. Signing "
+"**on behalf of another** clinician — whose name and role appear on a legal "
+"annex transmitted to the health insurer — requires **eHealth manager** "
+"rights. In all cases, the **actual author** of the action remains recorded "
+"in the audit log."
+msgstr ""
+"Par sécurité, vous ne pouvez signer qu'**avec votre propre** signature "
+"personnelle. Signer **au nom d'un autre** clinicien — dont le nom et le rôle"
+" figurent sur une annexe légale transmise à l'organisme assureur — exige les"
+" droits de **gestionnaire eHealth**. Dans tous les cas, l'**auteur réel** de"
+" l'action reste enregistré dans le journal d'audit."
+
+#: ../../content/belgique/ehealth/eagreement-signature.md:237
+msgid "If no signature is configured"
+msgstr "Si aucune signature n'est configurée"
+
+#: ../../content/belgique/ehealth/eagreement-signature.md:239
+msgid ""
+"If the signer has **no Personal signature** on their employee record, the "
+"window warns you and the **Sign & replace PDF** button is not offered. Two "
+"options:"
+msgstr ""
+"Si le signataire n'a **aucune Signature personnelle** sur sa fiche "
+"d'employé, la fenêtre vous en avertit et le bouton **Signer et remplacer le "
+"PDF** n'est pas proposé. Deux options :"
+
+#: ../../content/belgique/ehealth/eagreement-signature.md:242
+msgid ""
+"**upload a Personal signature** on the employee record, then start again;"
+msgstr ""
+"**téléversez une Signature personnelle** sur la fiche d'employé, puis "
+"recommencez ;"
+
+#: ../../content/belgique/ehealth/eagreement-signature.md:254
+msgid ""
+"The **NIHII**, **role** and **Personal signature** live on the **employee "
+"record** (*Nursing Home* tab) — no user license needed for caregivers who "
+"sign occasionally."
+msgstr ""
+"Le **numéro INAMI**, le **rôle** et la **Signature personnelle** figurent "
+"sur la **fiche d'employé** (onglet *Maison de repos*) — aucune licence "
+"utilisateur nécessaire pour les soignants qui signent occasionnellement."
+
+#: ../../content/belgique/ehealth/eagreement-signature.md:257
+msgid ""
+"**Sign Annexe 10 / 7 / 11** places your personal signature on the PDF: no "
+"more printing / signing / scanning. An unsigned annex can still be sent, "
+"after a confirmation, but exposes you to a refusal."
+msgstr ""
+"**Signer l'Annexe 10 / 7 / 11** place votre signature personnelle sur le PDF"
+" : plus d'impression / signature / scan. Une annexe non signée peut encore "
+"être envoyée, après une confirmation, mais vous expose à un refus."

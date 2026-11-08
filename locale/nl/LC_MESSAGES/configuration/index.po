@@ -71,7 +71,7 @@ msgid "[Document settings](reglages-documents.md)"
 msgstr "[Documentinstellingen](reglages-documents.md)"
 
 #: ../../content/configuration/index.md:31
-#: ../../content/configuration/index.md:49
+#: ../../content/configuration/index.md:52
 msgid "In Belgium"
 msgstr "In België"
 
@@ -134,15 +134,7 @@ msgstr ""
 "**Supplementtypes**: de catalogus van factureerbare prestaties (zie [De "
 "supplementen](../facturation/supplements.md))."
 
-#: ../../content/configuration/index.md:47
-msgid ""
-"**Absence discount rules**: the fine-tuning of billing when a resident is "
-"away."
-msgstr ""
-"**Regels voor afwezigheidskorting**: de fijnafstelling van de facturatie "
-"wanneer een bewoner afwezig is."
-
-#: ../../content/configuration/index.md:52
+#: ../../content/configuration/index.md:55
 msgid ""
 "The rate menu is called **INAMI Rates** and carries the dependency allowance"
 " per Katz category and sector, next to the **Billing Codes** (pseudo-codes)."
@@ -153,11 +145,11 @@ msgstr ""
 "**Facturatiecodes** (pseudocodes). Zie [Belgische "
 "instellingen](../belgique/reglages.md)."
 
-#: ../../content/configuration/index.md:55
+#: ../../content/configuration/index.md:58
 msgid "Health insurers and reference data"
 msgstr "Mutualiteiten en referentiegegevens"
 
-#: ../../content/configuration/index.md:57
+#: ../../content/configuration/index.md:60
 msgid ""
 "**Health insurers**: the list of the residents' health insurers, used for "
 "insurability checks and the electronic exchanges with the health insurer, "
@@ -167,7 +159,7 @@ msgstr ""
 "gebruikt voor de verzekerbaarheidscontroles en de elektronische "
 "uitwisselingen met de zorgverzekeraar, waar het land die kent."
 
-#: ../../content/configuration/index.md:58
+#: ../../content/configuration/index.md:61
 msgid ""
 "**Facility**: your home's information (identifiers, contact details) used in"
 " documents and in those exchanges."
@@ -175,11 +167,11 @@ msgstr ""
 "**Instelling**: de gegevens van uw huis (identificatienummers, "
 "contactgegevens) gebruikt in de documenten en in die uitwisselingen."
 
-#: ../../content/configuration/index.md:60
+#: ../../content/configuration/index.md:63
 msgid "Multi-company"
 msgstr "Multi-vennootschap"
 
-#: ../../content/configuration/index.md:62
+#: ../../content/configuration/index.md:65
 msgid ""
 "Resthome handles **multiple companies** in a single database: each company "
 "has its own residents, rooms and billing, kept separate. Useful for a group "
@@ -189,11 +181,11 @@ msgstr ""
 "vennootschap heeft haar bewoners, haar kamers en haar facturatie, "
 "afgeschermd. Nuttig voor een groep die meerdere instellingen uitbaat."
 
-#: ../../content/configuration/index.md:64
+#: ../../content/configuration/index.md:67
 msgid "The activity log"
 msgstr "Het activiteitenlogboek"
 
-#: ../../content/configuration/index.md:67
+#: ../../content/configuration/index.md:70
 msgid ""
 "An **activity log** tracks access to sensitive data (GDPR). It can be viewed"
 " from the configuration — useful for compliance."
@@ -202,34 +194,42 @@ msgstr ""
 "(GDPR). Het is raadpleegbaar vanuit de configuratie — nuttig voor de "
 "compliance."
 
-#: ../../content/configuration/index.md:70
+#: ../../content/configuration/index.md:73
 msgid "Learn more"
 msgstr "Verder"
 
-#: ../../content/configuration/index.md:72
+#: ../../content/configuration/index.md:75
 msgid "[Getting started](../premiers-pas.md)"
 msgstr "[Aan de slag](../premiers-pas.md)"
 
-#: ../../content/configuration/index.md:73
+#: ../../content/configuration/index.md:76
 msgid "[Managing a resident](../residents/gerer-un-resident.md)"
 msgstr "[Een bewoner beheren](../residents/gerer-un-resident.md)"
 
-#~ msgid "[eHealth and eFact settings](../belgique/reglages-ehealth.md)"
-#~ msgstr "[eHealth- en eFact-instellingen](../belgique/reglages-ehealth.md)"
+#: ../../content/configuration/index.md:47
+msgid ""
+"**Absence discount rules**: the fine-tuning of billing when a resident is "
+"away (see [Absences and hospitalisations](../facturation/absences.md))."
+msgstr ""
+"**Regels voor afwezigheidskorting**: de fijnafstelling van de facturatie "
+"wanneer een bewoner afwezig is (zie [Afwezigheden en "
+"hospitalisaties](../facturation/absences.md))."
 
-#~ msgid ""
-#~ "**INAMI rates**: the **package** amounts per **Katz category** — the basis "
-#~ "for health-insurer reimbursement."
-#~ msgstr ""
-#~ "**RIZIV-tarieven**: de bedragen van het **forfait** per **Katz-categorie** —"
-#~ " de basis van de mutualiteitsterugbetaling."
+#: ../../content/configuration/index.md:48
+msgid ""
+"**Price indexation**: the yearly increase of the supplement prices, from a "
+"given date (see [Price indexation](../facturation/indexation-des-prix.md))."
+msgstr ""
+"**Prijsindexering**: de jaarlijkse verhoging van de supplementprijzen, vanaf"
+" een bepaalde datum (zie [Prijsindexering](../facturation/indexation-des-"
+"prix.md))."
 
-#~ msgid "**Accommodation rates**: the room price (resident's share)."
-#~ msgstr "**Verblijfstarieven**: de prijs van de kamer (bewonersaandeel)."
-
-#~ msgid ""
-#~ "**Health insurers (insurance organizations)**: the list used for "
-#~ "insurability and eFact."
-#~ msgstr ""
-#~ "**Mutualiteiten (verzekeringsinstellingen)**: de lijst gebruikt voor de "
-#~ "verzekerbaarheid en de eFact."
+#: ../../content/configuration/index.md:50
+msgid ""
+"The rates, supplement types and absence discount rules sit in the "
+"**Billing** app, **Configuration** menu; the indexation starts from "
+"**Facturation → Products**."
+msgstr ""
+"De tarieven, de supplementtypes en de regels voor afwezigheidskorting staan "
+"in de app **Facturatie**, menu **Configuratie**; de indexering start vanuit "
+"**Facturering → Producten**."

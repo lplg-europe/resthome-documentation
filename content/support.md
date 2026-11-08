@@ -5,7 +5,7 @@ modules: []
 # Support and assistance
 
 :::{rh-description}
-Contact LPLG support for Resthome, the software for nursing and care homes — open a ticket, what information to include, and where to find help.
+Contact LPLG support for Resthome, the software for nursing and care homes — the Help menu, opening a ticket, what information to include, and where to find help.
 :::
 
 A problem or a question about Resthome? Here is how to get help, from the fastest
@@ -19,7 +19,8 @@ Most answers are already here:
   an error **code** or an error message.
 - The [FAQ](faq.md) and the [Glossary](glossaire.md).
 - The topic guides: [residents](residents/index.md),
-  [billing](facturation/index.md), [care](soins/index.md).
+  [billing](facturation/index.md), [care](soins/index.md),
+  [family portal](portail-famille/index.md).
 - Your country's space, chosen with the **country selector** at the top of the
   page.
 
@@ -40,9 +41,13 @@ troubleshooting pages resolve most common cases:
 
 If the documentation is not enough, contact our team:
 
+- **From Resthome**: click your avatar at the top right, then **Help**. It
+  opens LPLG's support page, where you open a ticket and follow the ones you
+  already opened.
 - **Email: [support@lplg.eu](mailto:support@lplg.eu)** — each message automatically opens
   a tracking **ticket**.
-- The **Support** button at the bottom right of every page brings you here.
+- The **Support** button at the bottom right of every page of this
+  documentation brings you here.
 
 :::{admonition} For a fast reply, please specify
 :class: tip
@@ -59,6 +64,13 @@ If the documentation is not enough, contact our team:
 Avoid sending a **national identification number** or complete medical data by
 email unless necessary. An **anonymized screenshot** is usually enough — hide
 the name and the national identification number.
+:::
+
+:::{admonition} Your account on the LPLG portal
+:class: note
+
+Your home's administrators also find **My LPLG Account** in the same menu: it
+opens the home's space on the LPLG portal.
 :::
 
 ## Further reading

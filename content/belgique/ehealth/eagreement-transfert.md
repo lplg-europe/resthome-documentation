@@ -124,6 +124,17 @@ Only the pair created with that stay is touched. A request belonging to an
 earlier transfer of the same resident is never affected, and the cleanup never
 blocks the cancellation itself.
 
+## Day care centre and serviced residence
+
+- **Respite in the rest home** — between the day care centre and the rest
+  home, the dialog shows **Respite** and **Back at the day care on**. A respite
+  pauses the day care without ending it: no csj-out on the way out, and no new
+  csj-in on the way back while the agreement still covers the user. See
+  [Admitting a day care user](../centre-de-jour/admission.md).
+- **Serviced residence** — a serviced residence (RS) can be the origin or the
+  destination of an internal transfer. See
+  [Moving between a serviced residence and the nursing home](../residences-services-maison-de-repos.md).
+
 ## Further reading
 
 - [Agreements (eAgreement Light)](eagreement.md) — the requests the transfer creates.

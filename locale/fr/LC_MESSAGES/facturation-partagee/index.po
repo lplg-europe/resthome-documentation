@@ -88,22 +88,14 @@ msgstr ""
 msgid "The principle"
 msgstr "Le principe"
 
-#: ../../content/facturation-partagee/index.md:35
-msgid ""
-"The **resident's share** (accommodation + supplements) is divided among the "
-"debtors, according to a key you set on the resident's record."
-msgstr ""
-"La **part habitant** (hébergement + suppléments) est répartie entre les "
-"débiteurs, selon une clé que vous posez sur la fiche de l'habitant."
-
-#: ../../content/facturation-partagee/index.md:37
+#: ../../content/facturation-partagee/index.md:39
 msgid ""
 "Each debtor receives **their own invoice**, with their own VAT treatment."
 msgstr ""
 "Chaque débiteur reçoit **sa propre facture**, avec son propre traitement de "
 "TVA."
 
-#: ../../content/facturation-partagee/index.md:38
+#: ../../content/facturation-partagee/index.md:40
 msgid ""
 "The resident receives a **statement** of the whole month, which totals "
 "**0.00 €**: it shows everything, and charges nothing."
@@ -111,11 +103,11 @@ msgstr ""
 "L'habitant reçoit un **décompte** du mois entier, dont le total fait **0,00 "
 "€** : il montre tout, et ne réclame rien."
 
-#: ../../content/facturation-partagee/index.md:41
+#: ../../content/facturation-partagee/index.md:43
 msgid "The insurer's share is not concerned"
 msgstr "La part mutuelle n'est pas concernée"
 
-#: ../../content/facturation-partagee/index.md:44
+#: ../../content/facturation-partagee/index.md:46
 msgid ""
 "The care allowance goes to the health insurer, as usual. Split billing only "
 "touches what the resident owes."
@@ -123,11 +115,11 @@ msgstr ""
 "Le forfait de soins va à l'assureur santé, comme d'habitude. La facturation "
 "partagée ne touche qu'à ce que doit l'habitant."
 
-#: ../../content/facturation-partagee/index.md:48
+#: ../../content/facturation-partagee/index.md:50
 msgid "In Belgium"
 msgstr "En Belgique"
 
-#: ../../content/facturation-partagee/index.md:51
+#: ../../content/facturation-partagee/index.md:53
 msgid ""
 "The INAMI allowance goes to the mutuality through eFact and is never split. "
 "A CPAS that pays part of the resident's share is added here as a debtor. See"
@@ -139,11 +131,11 @@ msgstr ""
 "Voir [Facturer un mois en Belgique](../belgique/facturation.md) et [La prise"
 " en charge CPAS](../belgique/cpas.md)."
 
-#: ../../content/facturation-partagee/index.md:57
+#: ../../content/facturation-partagee/index.md:59
 msgid "Two ways of splitting"
 msgstr "Deux façons de répartir"
 
-#: ../../content/facturation-partagee/index.md:59
+#: ../../content/facturation-partagee/index.md:61
 msgid ""
 "**By percentage** — every debtor has a share; the total must be **exactly "
 "100 %**. A message shows what is **left to allocate**."
@@ -151,7 +143,7 @@ msgstr ""
 "**En pourcentage** — chaque débiteur a une part ; le total doit faire "
 "**exactement 100 %**. Un message indique ce qu'il **reste à répartir**."
 
-#: ../../content/facturation-partagee/index.md:61
+#: ../../content/facturation-partagee/index.md:63
 msgid ""
 "**By fixed amount** — one or several debtors owe an agreed amount, and "
 "**exactly one** debtor is **Variable**: they take what is left."
@@ -159,11 +151,11 @@ msgstr ""
 "**En montant fixe** — un ou plusieurs débiteurs doivent un montant convenu, "
 "et **un seul** débiteur est **Variable** : il prend le reste."
 
-#: ../../content/facturation-partagee/index.md:64
+#: ../../content/facturation-partagee/index.md:66
 msgid "When the amounts do not fit"
 msgstr "Quand les montants ne rentrent pas"
 
-#: ../../content/facturation-partagee/index.md:67
+#: ../../content/facturation-partagee/index.md:69
 msgid ""
 "Fixed amounts are invoiced first. If the resident's share is **smaller** "
 "than the sum of the fixed amounts, each of them is invoiced pro rata and the"
@@ -173,11 +165,11 @@ msgstr ""
 "petite** que la somme des montants fixes, chacun est facturé au prorata et "
 "le débiteur variable n'a rien."
 
-#: ../../content/facturation-partagee/index.md:72
+#: ../../content/facturation-partagee/index.md:74
 msgid "What's next"
 msgstr "Pour continuer"
 
-#: ../../content/facturation-partagee/index.md:74
+#: ../../content/facturation-partagee/index.md:76
 msgid ""
 "[Setting up a split](configuration.md) — the settings, the debtors, the "
 "admission."
@@ -185,9 +177,42 @@ msgstr ""
 "[Mettre en place une répartition](configuration.md) — les réglages, les "
 "débiteurs, l'admission."
 
-#: ../../content/facturation-partagee/index.md:75
+#: ../../content/facturation-partagee/index.md:77
 msgid ""
 "[The documents produced](factures.md) — the statement, the invoices, the "
 "PDF."
 msgstr ""
 "[Les documents produits](factures.md) — le décompte, les factures, le PDF."
+
+#: ../../content/facturation-partagee/index.md:35
+msgid ""
+"The **resident's share** (accommodation + supplements) is divided among the "
+"debtors, according to a key you set on the resident's contact."
+msgstr ""
+"La **part habitant** (hébergement + suppléments) est répartie entre les "
+"débiteurs, selon une clé que vous posez sur le contact de l'habitant."
+
+#: ../../content/facturation-partagee/index.md:37
+msgid ""
+"Split billing is an [invoice type](../facturation/type-de-facture.md): "
+"**Split Billing — Anticipatory** or **Split Billing — Arrears**."
+msgstr ""
+"La facturation partagée est un [type de facture](../facturation/type-de-"
+"facture.md) : **Facturation partagée anticipative** ou **Facturation "
+"partagée période échue**."
+
+#: ../../content/facturation-partagee/index.md:78
+msgid ""
+"[Invoice type](../facturation/type-de-facture.md) — changing to or from "
+"split billing during a stay, or for one month."
+msgstr ""
+"[Type de facture](../facturation/type-de-facture.md) — passer à la "
+"facturation partagée ou la quitter en cours de séjour, ou pour un seul mois."
+
+#: ../../content/facturation-partagee/index.md:80
+msgid ""
+"[Billing settings](../configuration/reglages-facturation.md) — turning split"
+" billing on."
+msgstr ""
+"[Réglages de facturation](../configuration/reglages-facturation.md) — "
+"activer la facturation partagée."

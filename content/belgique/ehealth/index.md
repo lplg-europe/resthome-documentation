@@ -1,11 +1,25 @@
 ---
-modules: [l10n_health_be_mda, l10n_health_be_efact, l10n_health_be_eagreement_light]
+modules: [l10n_health_be_connector, l10n_health_be_mda, l10n_health_be_efact, l10n_health_be_eagreement_light]
 ---
 
 # eHealth
 
 :::{rh-description}
-MDA insurability, eFact electronic invoicing and eAgreement agreements in Resthome.
+The eHealth services of Resthome for Belgian nursing homes: MDA insurability, eFact electronic invoicing, eAgreement agreements, the eHealthBox, the Health Directory, consent and MediPrima.
+:::
+
+:::{rh-faq}
+Which eHealth services does Resthome use?
+: The insurability check (MDA), the electronic invoicing of the INAMI allowance (eFact), the agreements and notifications (eAgreement Light), the eHealthBox secure mailbox, the Health Directory and CoBRHA, the patient consent and MediPrima. Each one is described on its own page.
+
+What do I need before the first exchange?
+: An eHealth certificate installed on the home's approval, with a successful connection test. The residents need a NISS and a mutuality.
+
+A sending got no certain answer: will Resthome resend it?
+: Never on its own. It lists the sending in eHealth → Configuration → Sends to check, where you say whether MyCareNet received it; only then can it be sent again.
+
+Where do I see what was exchanged with the platform?
+: In eHealth → Configuration → Communication logs: every call, with its answer, for the eHealth managers.
 :::
 
 :::{toctree}
@@ -23,19 +37,24 @@ eagreement-suivi
 eagreement-refus
 eagreement-transfert
 vacances-collectives
+ehealthbox
+annuaire-sante
+consentement
 :::
 
 Resthome is connected to the Belgian e-health ecosystem (eHealth, MyCareNet,
-WalCareNet) to exchange directly with the mutualities.
+WalCareNet) to exchange directly with the mutualities and the other caregivers.
+Most of it lives in the **eHealth** application; some services also show up
+where you need them, on the resident's record or in the billing period.
 
 ## The services
 
 - **MDA — Insurability**
 
   Checks that a resident is **insured** and retrieves their mutuality and BIM
-  status, individually or in batch.
+  status, individually or in batch — the waiting list included.
 
-  → [Insurability in detail](mda.md)
+  → [Insurability in detail](mda.md) · [MDA errors](mda-erreurs.md)
 
 - **eFact — Electronic invoicing**
 
@@ -51,17 +70,60 @@ WalCareNet) to exchange directly with the mutualities.
   (Annexes 7, 10, 11…).
 
   → [Agreements in detail](eagreement.md) · [Signing the annexes](eagreement-signature.md)
-  · [Following a request](eagreement-suivi.md) · [Internal transfer](eagreement-transfert.md)
+  · [Following a request](eagreement-suivi.md) · [Refusals](eagreement-refus.md)
+  · [Internal transfer](eagreement-transfert.md) · [Collective holidays](vacances-collectives.md)
+
+- **eHealthBox — Secure mailbox**
+
+  Reads and sends the home's encrypted messages with doctors, pharmacies and
+  hospitals.
+
+  → [The eHealthBox](ehealthbox.md)
+
+- **Health Directory and CoBRHA**
+
+  Looks professionals and institutions up in the national registers and names
+  the NIHII numbers the mutuality returns.
+
+  → [Health Directory and CoBRHA](annuaire-sante.md)
+
+- **Consent**
+
+  Checks, registers or revokes a resident's consent to the exchange of their
+  health data.
+
+  → [eHealth consent](consentement.md)
+
+- **MediPrima**
+
+  Consults the medical card of a person covered by a CPAS.
+
+  → [CPAS coverage](../cpas.md)
 
 ## Prerequisites
 
 :::{admonition} To check before sending
 :class: warning
-- The resident has a valid **NISS**.
+- The resident has a valid **NISS** — the [eID reader](../lecture-eid.md) fills
+  it in.
 - Their **mutuality** is filled in.
 - An **insurability (MDA)** has been checked for the period.
-- The establishment's **eHealth certificate** is active.
+- The approval's **eHealth certificate** is active, and its **Test connection**
+  succeeds — see [eHealth and eFact settings](../reglages-ehealth.md).
 :::
+
+## When an answer gets lost
+
+A sending to MyCareNet can end without a certain answer: a time-out, an
+interruption. Resthome **never resends it on its own**, so that the mutuality
+never receives the same request twice. It lists it in **eHealth →
+Configuration → Sends to check**, reserved to the eHealth managers: look for
+its acknowledgement in the MyCareNet mailbox, then click **Received by
+MyCareNet** (the document counts as sent) or **Not received, may be sent
+again**.
+
+Every call to the platform, with its answer, is kept in **eHealth →
+Configuration → Communication logs** for the eHealth managers.
 
 ## Good to know
 
@@ -71,6 +133,8 @@ WalCareNet) to exchange directly with the mutualities.
 - An invoice that is already **posted** "freezes" the month's billing for that
   resident: to change it, reset it to draft (or issue a credit note), then
   refresh.
+- **Consent** and **MediPrima** are practitioner services: their menus show for
+  the eHealth practitioners and managers only.
 
 ## What's next
 
