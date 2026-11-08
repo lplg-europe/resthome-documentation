@@ -1,5 +1,6 @@
 ---
 modules: [serviced_living_mobile]
+sectors: [rs]
 ---
 
 # The Residence tab of the care app

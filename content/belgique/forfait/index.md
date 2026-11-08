@@ -1,5 +1,6 @@
 ---
 modules: [resthome_funding_be]
+sectors: [mr]
 ---
 
 # Institutional allowance

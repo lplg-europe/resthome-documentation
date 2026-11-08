@@ -125,23 +125,59 @@ et par langue, quel que soit le pays (pas de page dupliquée par pays).
 
 ## Modules documentés : la doc suit le graphe du code
 
-Hiérarchie : **WideCare** (l'écosystème) › **suite** (Resthome = maisons de
-repos : ce site) › **pays**. L'en-tête l'affiche ainsi :
+Hiérarchie : **WideCare** (le logiciel) › **secteur** › **pays**, sur UN
+seul site. L'en-tête l'affiche ainsi :
 « [WideCare] › [Resthome · Maisons de repos ▾] › [🇧🇪 Belgique ▾] ».
 
+### Secteurs
+
+| Code | Secteur | Produit | Pages propres |
+| --- | --- | --- | --- |
+| `mr` | Maisons de repos (MR, MRS, court séjour) | **Resthome** | chambres, forfait, occupation… |
+| `csj` | Centres de soins de jour | WideCare | `belgique/centre-de-jour/` |
+| `rs` | Résidences-services | WideCare | `residences-services/`, `belgique/residences-services*` |
+| `gp` | Médecins généralistes | WideCare | `medecins/`, `belgique/medecins/` |
+
+- Chaque page déclare les secteurs qu'elle concerne :
+
+  ```
+  ---
+  modules: [healthcare_medical]
+  sectors: [mr, csj]
+  ---
+  ```
+
+  Ce que l'écran fait VRAIMENT dans le secteur, pas les dépendances
+  techniques : une résidence-services installe des modules de soins, mais ses
+  pages de soins restent `mr, csj`. Page de navigation ou d'aide : les quatre.
+- Le **sélecteur de secteur** (en-tête, `rh_sectors` dans `conf.py`) filtre
+  la barre latérale, les cartes et les listes de pages ; le choix est
+  mémorisé. Sur une page qui ne concerne pas le secteur choisi, le secteur
+  devient le premier de la page.
+- Un encadré propre à un secteur dans une page commune :
+
+  ```
+  :::{admonition} In serviced residences
+  :class: rh-sector rh-sector-rs
+
+  What a serviced residence does differently, in one or two sentences.
+  :::
+  ```
+
+- **Nom du produit** : « Resthome » SEULEMENT dans une page `sectors: [mr]`.
+  Partout ailleurs, le produit s'appelle **WideCare** (`check_docs.py` le
+  refuse sinon). Les noms réels de l'interface restent tels quels (app
+  WideCare, WideCareBot).
 - **WideCare** mène au **portail** (`content/widecare.md`, hors navigation) :
-  une carte par suite, générée depuis `rh_suites` (`conf.py`) par la directive
-  `:::{rh-suites}`.
-- Le **menu de la suite** liste `rh_suites` : celle de ce site
-  (`rh_suite_code`) ouvre l'accueil, une suite « soon » ouvre le portail.
-  Ajouter une suite = une ligne dans `rh_suites` ; quand elle aura sa
-  documentation, elle aura son propre site (un site par suite).
-- Le socle commun est documenté DANS chaque suite, avec son vocabulaire.
+  une carte par secteur, générée depuis `rh_sectors` par la directive
+  `:::{rh-suites}`. Un secteur « soon » (hôpitaux, dentistes…) ouvre le
+  portail ; ajouter un secteur = une ligne dans `rh_sectors`, ses pages, et
+  son code dans le front-matter des pages communes qui le concernent.
 
 La documentation est une **projection du code** : produit WideCare = socle
-(`healthcare_*`) + une **suite** métier (Resthome aujourd'hui ; dentaire,
-hôpital, logopédie… demain) + un **pack pays** (`l10n_health_<pays>`).
-Cible : **un site par suite** ; le pays reste le sélecteur de l'en-tête.
+(`healthcare_*`) + un **pack de secteur** (dépôt `widecare-industry` :
+maison de repos, résidence-services, médecin généraliste) + un **pack pays**
+(`l10n_health_<pays>`).
 
 - Chaque page déclare en front-matter les modules dont elle décrit
   l'interface ou le comportement — le module qui DÉFINIT l'écran, pas ceux qui

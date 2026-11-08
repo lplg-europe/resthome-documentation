@@ -1,6 +1,7 @@
 ---
 modules: [l10n_health_be_efact, l10n_health_be_perdiem_ehealth]
 howto_auto: true
+sectors: [mr, csj]
 ---
 
 # Correcting an already-settled sending
@@ -11,13 +12,13 @@ How to correct an eFact sending the insurer has already settled: credit notes fo
 
 :::{rh-faq}
 How do I cancel an allowance already paid by the insurer?
-: Create a credit note from the settled batch. Resthome builds a dedicated correction sending that references the original invoice — you do not simply put a negative line in next month's file.
+: Create a credit note from the settled batch. WideCare builds a dedicated correction sending that references the original invoice — you do not simply put a negative line in next month's file.
 
 Can I credit only one service instead of the whole invoice?
 : Yes. The credit-note assistant lists every service in the sending, all ticked by default. Untick the correct ones to credit only the incorrect service.
 
 A line was rejected but the amount was simply wrong — do I resend everything?
-: No. Use "Correct & re-bill" on the rejected line: enter the right amount and Resthome adds it to a remainder that re-introduces only that line, referencing the original invoice.
+: No. Use "Correct & re-bill" on the rejected line: enter the right amount and WideCare adds it to a remainder that re-introduces only that line, referencing the original invoice.
 
 What is the difference between a credit note and a remainder?
 : A credit note **takes back** something already accepted and paid. A remainder **re-introduces** something the insurer refused, after you fixed the cause. Opposite directions, different regulatory codes.
@@ -43,7 +44,7 @@ assistant lists every service in the sending, **all ticked by default**.
 - Leave everything ticked to credit the **whole** invoice.
 - Untick the correct services to credit **only** the incorrect one.
 
-Confirm: Resthome creates a **dedicated correction sending**, a first-class
+Confirm: WideCare creates a **dedicated correction sending**, a first-class
 batch of its own, visible in the eFact list with its own message. It carries the
 regulatory markers of a credit note and **back-references the original invoice**,
 so the insurer can match it to what it paid.
@@ -77,7 +78,7 @@ assistant showing:
 
 Enter the right amount, add a short note on what you corrected, and confirm.
 
-Resthome then:
+WideCare then:
 
 - **leaves the original line rejected** — that is the insurer's own follow-up
   status and it must not be rewritten;

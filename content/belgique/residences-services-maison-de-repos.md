@@ -1,6 +1,7 @@
 ---
 howto_auto: true
 modules: [resthome_mr_serviced_living]
+sectors: [rs, mr]
 ---
 
 # Moving between a serviced residence and the nursing home

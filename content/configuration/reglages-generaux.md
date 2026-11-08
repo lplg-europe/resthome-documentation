@@ -1,11 +1,12 @@
 ---
 modules: [healthcare_base, healthcare_accommodation, healthcare_medical, healthcare_medication]
+sectors: [mr, csj, rs]
 ---
 
 # General settings (residents, rooms)
 
 :::{rh-description}
-Configure the general settings of a nursing home in Resthome: residents, guided tours, demonstration data, accommodation, and the Medical tab (dashboard, falls, prescriptions, clinical records).
+Configure the general settings of a nursing home in WideCare: residents, guided tours, demonstration data, accommodation, and the Medical tab (dashboard, falls, prescriptions, clinical records).
 :::
 
 :::{rh-faq}
@@ -66,7 +67,7 @@ follow-up of residents.
 | Setting | What it does | Recommended value |
 |---|---|---|
 | **Medical Information** | Makes medical information mandatory for all residents. | Establishment-specific — turn it on if the head nurse requires a complete medical file from admission onwards. |
-| **Family Notifications** | Sends automatic notifications to the resident's family. | Establishment-specific — turn it on if you communicate with families from Resthome. |
+| **Family Notifications** | Sends automatic notifications to the resident's family. | Establishment-specific — turn it on if you communicate with families from WideCare. |
 
 ## Guided tours
 
@@ -76,7 +77,7 @@ menu at the top.
 
 | Setting | What it does | Recommended value |
 |---|---|---|
-| **Guided tours** | Turned off, no guided tour appears for anyone. | **On** while the team learns Resthome. |
+| **Guided tours** | Turned off, no guided tour appears for anyone. | **On** while the team learns WideCare. |
 | **Replay for everyone** (button) | Every user follows the guided tours again from the first one, at their next sign-in. | After a training session, or when new staff arrive. |
 
 ## Demo Data
@@ -115,7 +116,7 @@ arrives or changes room.
 :class: tip
 
 At every **[admission](../residents/gerer-un-resident.md)**, as well as at every
-**[room change or transfer](../residents/changement-chambre.md)**, Resthome opens
+**[room change or transfer](../residents/changement-chambre.md)**, WideCare opens
 a new stay and creates the room and move-in tasks on its own. These are work
 reminders: they avoid oversights on arrival.
 :::

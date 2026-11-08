@@ -1,16 +1,17 @@
 ---
 modules: [l10n_health_be_eid, l10n_health_be_eid_accommodation]
+sectors: [mr, csj, rs]
 ---
 
 # Reading the eID card
 
 :::{rh-description}
-Read the Belgian eID card in Resthome to fill in a candidate's or a resident's identity and NISS from the chip, on the admission request, on a record or to create a new contact.
+Read the Belgian eID card in WideCare to fill in a candidate's or a resident's identity and NISS from the chip, on the admission request, on a record or to create a new contact.
 :::
 
 :::{rh-faq}
 What do I need to read an eID card?
-: A card reader on a Windows workstation, the Belgian eID middleware, and the eID reader program of Resthome. When the reader does not answer, Resthome offers **Install the eID reader on this computer**; it installs for your Windows user, without administrator rights.
+: A card reader on a Windows workstation, the Belgian eID middleware, and the eID reader program of WideCare. When the reader does not answer, WideCare offers **Install the eID reader on this computer**; it installs for your Windows user, without administrator rights.
 
 What does the card fill in?
 : The name, the NISS, the date of birth, the gender, the nationality, the place of birth and the address, the card number, the chip number and the validity dates, and the photo.
@@ -34,9 +35,9 @@ On each workstation that reads cards:
 
 - a **card reader**, and the **Belgian eID middleware** (the official eID
   software);
-- the **eID reader** program of Resthome, which runs on **Windows** only.
+- the **eID reader** program of WideCare, which runs on **Windows** only.
 
-When the reader does not answer, Resthome says so and offers **Install the eID
+When the reader does not answer, WideCare says so and offers **Install the eID
 reader on this computer**. Download it, double-click it: it installs for your
 Windows user, with no administrator rights. Then click **Read eID Card** again.
 

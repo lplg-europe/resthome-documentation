@@ -1,11 +1,12 @@
 ---
 modules: [healthcare_medical]
+sectors: [mr, csj]
 ---
 
 # Observations and vital signs
 
 :::{rh-description}
-Observations in Resthome: write what you saw, with its type, priority, body location, vital signs, pain, wound or incident, the head nurse's reading of falls, and the vital signs entry with its trends.
+Observations in WideCare: write what you saw, with its type, priority, body location, vital signs, pain, wound or incident, the head nurse's reading of falls, and the vital signs entry with its trends.
 :::
 
 :::{rh-faq}

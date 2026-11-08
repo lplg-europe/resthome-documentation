@@ -1,6 +1,7 @@
 ---
 howto_auto: true
 modules: [serviced_living_billing]
+sectors: [rs]
 ---
 
 # Contracts and occupants
@@ -99,7 +100,7 @@ some regimes ask for it before the signature.
 
 ## 5. Sign
 
-Click **Sign**. Resthome checks that:
+Click **Sign**. WideCare checks that:
 
 - the contract has at least one occupant;
 - the house rules were handed over, when the regime asks for it before the

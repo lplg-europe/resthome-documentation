@@ -1,11 +1,12 @@
 ---
 modules: [healthcare_accommodation]
+sectors: [mr, csj, rs]
 ---
 
 # Admissions
 
 :::{rh-description}
-The Resthome Admissions application: a pipeline from the first call to the move-in, one card per person waiting for a place, the waiting list and the admission that creates the resident and their stay.
+The WideCare Admissions application: a pipeline from the first call to the move-in, one card per person waiting for a place, the waiting list and the admission that creates the resident and their stay.
 :::
 
 :::{rh-faq}

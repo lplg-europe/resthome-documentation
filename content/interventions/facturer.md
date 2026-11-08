@@ -1,5 +1,6 @@
 ---
 modules: [resthome_helpdesk]
+sectors: [mr]
 ---
 
 # Billing an intervention

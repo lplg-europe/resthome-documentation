@@ -1,11 +1,12 @@
 ---
 modules: [healthcare_accommodation, l10n_health_be_perdiem_ehealth, l10n_health_be_perdiem_billing]
+sectors: [mr, csj, rs]
 ---
 
 # The candidate's file
 
 :::{rh-description}
-The admission request in Resthome: the person to admit and their photo, the caller, the establishment, the desired stay type and room type with the places free, identity, health insurer and key contacts.
+The admission request in WideCare: the person to admit and their photo, the caller, the establishment, the desired stay type and room type with the places free, identity, health insurer and key contacts.
 :::
 
 :::{rh-faq}
@@ -110,7 +111,7 @@ the country asks for.
 Where the country has electronic exchanges with the health insurer, the block
 also carries an **insurability check**: one button queries the insurer and
 fills in the insurer and the membership details on its own. It needs the
-national identification number: without it, Resthome asks for it first.
+national identification number: without it, WideCare asks for it first.
 
 :::{admonition} The insurability check gates the admission
 :class: warning

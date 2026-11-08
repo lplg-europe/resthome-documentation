@@ -1,11 +1,12 @@
 ---
 modules: [healthcare_medication, healthcare_medical]
+sectors: [mr, csj]
 ---
 
 # Medication follow-up
 
 :::{rh-description}
-What the Follow-up tab of the Medicines workstation brings to light in Resthome: residents back from hospital whose treatments to reconcile, treatments refused several times in a row, and residents whose medication deserves a review.
+What the Follow-up tab of the Medicines workstation brings to light in WideCare: residents back from hospital whose treatments to reconcile, treatments refused several times in a row, and residents whose medication deserves a review.
 :::
 
 :::{rh-faq}

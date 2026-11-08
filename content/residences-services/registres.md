@@ -1,5 +1,6 @@
 ---
 modules: [healthcare_quality]
+sectors: [rs]
 ---
 
 # Complaints and council

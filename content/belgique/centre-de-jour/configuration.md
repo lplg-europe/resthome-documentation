@@ -1,12 +1,13 @@
 ---
 modules: [resthome_day_care, l10n_health_be_perdiem_billing, healthcare_accommodation, healthcare_accommodation_billing, resthome_day_care_ehealth]
 howto_auto: true
+sectors: [csj]
 ---
 
 # Setting up a day care centre
 
 :::{rh-description}
-Setting up a day care centre (CSJ) in Resthome: the approval and opening hours, public holidays, the day room, CSJ forfait rates and the day price.
+Setting up a day care centre (CSJ) in WideCare: the approval and opening hours, public holidays, the day room, CSJ forfait rates and the day price.
 :::
 
 :::{rh-faq}
@@ -36,13 +37,13 @@ The day room comes with the approval; the four others are yours to enter.
 ## 1. Record the CSJ approval
 
 A day care centre has **its own INAMI number** — one starting with 755 to 758,
-ending in 000 — and Resthome records it on an **establishment** of its own,
+ending in 000 — and WideCare records it on an **establishment** of its own,
 with its eHealth certificate. See
 [eHealth and eFact settings](../reglages-ehealth.md).
 
 1. Go to **Settings → Approvals → Manage establishments and approvals** and
    create the establishment of the day care centre: its name and its INAMI
-   number. Resthome reads the type from the number.
+   number. WideCare reads the type from the number.
 2. Under its **Sectors** tab, add a line with **CSJ** as sector and the number
    of places it covers under **Beds / places** (1). The line also shows the
    users **Enrolled** and the **Day room** of the approval.
@@ -150,7 +151,7 @@ rates in force today.
 ![The INAMI rates filtered on CSJ: the four categories D, F, Fd and Fp, each with its pseudo-code, at the same amount from 1 February 2025](../../assets/screenshots/centre-de-jour/03-tarifs-csj.png)
 
 :::{warning}
-A rate left at 0.00 EUR bills no forfait. Resthome never sends a claim at zero:
+A rate left at 0.00 EUR bills no forfait. WideCare never sends a claim at zero:
 the month's generation says which users were left without one, and why.
 :::
 

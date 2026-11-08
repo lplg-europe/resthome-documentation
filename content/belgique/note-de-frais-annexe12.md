@@ -1,5 +1,6 @@
 ---
 modules: [resthome_mr_billing, healthcare_accommodation_billing]
+sectors: [mr]
 ---
 
 # The Expense Note (Annexe 12)

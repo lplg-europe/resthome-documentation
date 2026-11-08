@@ -1,11 +1,12 @@
 ---
 modules: [l10n_health_be_perdiem_ehealth, l10n_health_be_perdiem_billing, resthome_mr_ehealth, l10n_health_be_mda, l10n_health_be_eagreement_light, l10n_health_be, l10n_health_be_eid_accommodation]
+sectors: [mr, csj]
 ---
 
 # Admitting a resident in Belgium
 
 :::{rh-description}
-What a Belgian admission adds in Resthome: the MR, MRS or day care stay type and Annexe 7, the NISS and the eID card, the MDA insurability check before Admitted and on the waiting list, the Katz assessment and the admission agreement (eAgreement) when the stay starts.
+What a Belgian admission adds in WideCare: the MR, MRS or day care stay type and Annexe 7, the NISS and the eID card, the MDA insurability check before Admitted and on the waiting list, the Katz assessment and the admission agreement (eAgreement) when the stay starts.
 :::
 
 :::{rh-faq}
@@ -22,7 +23,7 @@ How many short-stay days can a resident use?
 : **90 days per calendar year**. Enter the days already used on the file — ask the family, or confirm with the mutuality — before accepting the admission.
 
 When is the mutuality told about the admission?
-: When the stay is **started**. Resthome then prepares the admission agreement (Annexe 7), sent through eAgreement.
+: When the stay is **started**. WideCare then prepares the admission agreement (Annexe 7), sent through eAgreement.
 
 How do I know whether a candidate on the waiting list has died?
 : Filter the admission list on **Waiting list**, select the requests and choose **Check insurability (MDA)** in the **Actions** menu. A death reported by the mutuality closes the request as **Died before admission**.
@@ -134,7 +135,7 @@ validated. See [The Katz assessment](katz.md) and [The INAMI
 allowance](forfait-inami.md).
 
 A readmission after a long hospital stay may require a **new Katz
-assessment**: Resthome flags it.
+assessment**: WideCare flags it.
 
 ## The waiting list checked with the mutualities
 
@@ -161,7 +162,7 @@ The wizard's **Stay start date** starts the accommodation billing. The
 **Admission Date**, set when the stay is started (**Start Stay**), is the one
 from which the INAMI allowance runs.
 
-Starting the stay is also what tells the mutuality: Resthome prepares the
+Starting the stay is also what tells the mutuality: WideCare prepares the
 **admission agreement** (**Annexe 7**) as an eAgreement request, with nothing
 extra to enter. It needs a valid **NISS**, the **mutuality** and an active
 **eHealth certificate**; the request then follows **Draft → Sent → Accepted**

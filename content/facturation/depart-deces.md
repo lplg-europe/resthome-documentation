@@ -1,18 +1,19 @@
 ---
 modules: [healthcare_accommodation_billing, healthcare_accommodation]
+sectors: [mr, csj]
 ---
 
 # Departure and death
 
 :::{rh-description}
-Close a stay (departure or death) in Resthome — billing stops on the correct date, automatic credit note for prepaid accommodation.
+Close a stay (departure or death) in WideCare — billing stops on the correct date, automatic credit note for prepaid accommodation.
 :::
 
 :::{rh-faq}
 How do I close a stay on departure or death?
 : Open the resident's stay and click End Stay. Enter the End Date & Time and the Departure Reason (deceased, external transfer, return to family or home…), then confirm with End Stay.
 
-Does Resthome issue a credit note automatically?
+Does WideCare issue a credit note automatically?
 : Yes. For a resident billed in advance, a departure partway through an already-billed month prepares a credit note for the unoccupied days.
 
 Why is there a refund when a resident leaves?
@@ -26,7 +27,7 @@ Can I reopen a stay closed by mistake?
 :::
 
 When a resident leaves the facility or passes away, all you need to do is
-**close their stay**: Resthome stops billing on the correct date and prepares
+**close their stay**: WideCare stops billing on the correct date and prepares
 the **adjustment** for what was billed in advance.
 
 ## Close the stay
@@ -45,11 +46,11 @@ The bed is kept and the resident returns: record an
 [absence](absences.md), not an end of stay. The window reminds you of it.
 :::
 
-## What Resthome does automatically
+## What WideCare does automatically
 
 - **Billing stops** on the correct date: nothing is billed after the departure.
 - **Credit note for prepaid accommodation**: for a resident billed **one month
-  in advance**, if they leave partway through an already-billed month, Resthome
+  in advance**, if they leave partway through an already-billed month, WideCare
   **prepares a credit note** for the unoccupied days.
 - **Supplements**: recurring supplements are not billed after the departure
   date either. The resident

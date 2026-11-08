@@ -1,32 +1,33 @@
 ---
 modules: [healthcare_accommodation_billing]
+sectors: [mr, csj]
 ---
 
 # Absences and hospitalisations
 
 :::{rh-description}
-Record an absence or a hospitalisation in Resthome — statuses, effect on the day count and the bill, absence discount rules, cancellation.
+Record an absence or a hospitalisation in WideCare — statuses, effect on the day count and the bill, absence discount rules, cancellation.
 :::
 
 :::{rh-faq}
-How do I record an absence in Resthome?
+How do I record an absence in WideCare?
 : Open Absences (from the Billing app or from the Residents menu), click New, choose the resident, the absence type and the departure date and time, then click Confirm. Fill in the return and click Close (return recorded) when the resident is back.
 
 How does an absence affect the bill?
 : The days are counted from the departure and return times. The care allowance follows the presence days, and the accommodation share is reduced only by the absence discount rules set up by the home.
 
 Why do the departure and return times matter?
-: Because whether a day counts as a presence day depends on the time the resident left and came back. Resthome relies on the exact times for the count.
+: Because whether a day counts as a presence day depends on the time the resident left and came back. WideCare relies on the exact times for the count.
 
 Can I cancel an absence entered by mistake?
 : Yes. Click Cancel, or step it back with Reset to draft: the billing is recomputed as if the absence had never happened.
 
 What if the month is already invoiced?
-: Resthome never rewrites a posted invoice. The period shows "Corrections pending": click Refresh to create the supplementary invoice or credit note. Other residents in the period are unaffected.
+: WideCare never rewrites a posted invoice. The period shows "Corrections pending": click Refresh to create the supplementary invoice or credit note. Other residents in the period are unaffected.
 :::
 
 When a resident is away (hospitalisation, holidays, family outing), this affects
-**the billing** of the period. Resthome adjusts it automatically from the
+**the billing** of the period. WideCare adjusts it automatically from the
 absence you record.
 
 ## Where to record it

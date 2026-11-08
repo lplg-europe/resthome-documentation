@@ -1,11 +1,12 @@
 ---
 modules: [healthcare_quality]
+sectors: [rs]
 ---
 
 # Complaints register and residents' council
 
 :::{rh-description}
-Keep the complaints register and the minutes of the residents' council in Resthome: who complained, what was done, when the author was told, and each council with its written report.
+Keep the complaints register and the minutes of the residents' council in WideCare: who complained, what was done, when the author was told, and each council with its written report.
 :::
 
 :::{rh-faq}
@@ -56,7 +57,7 @@ Each complaint gets a reference when it is saved (for example `CPL-2026-0001`).
 1. Fill in **What was done** and **Author told on**.
 2. Click **Close**: the complaint moves from **Open** to **Closed**.
 
-Resthome refuses to close a complaint without **Author told on**. A closed
+WideCare refuses to close a complaint without **Author told on**. A closed
 complaint can be **reopened**. Each change of status and date is kept in its
 history.
 

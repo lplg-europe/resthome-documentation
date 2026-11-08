@@ -1,14 +1,15 @@
 ---
 modules: []
+sectors: [mr, csj, rs, gp]
 ---
 
 # Support and assistance
 
 :::{rh-description}
-Contact LPLG support for Resthome, the software for nursing and care homes — the Help menu, opening a ticket, what information to include, and where to find help.
+Contact LPLG support for WideCare, the software for nursing and care homes — the Help menu, opening a ticket, what information to include, and where to find help.
 :::
 
-A problem or a question about Resthome? Here is how to get help, from the fastest
+A problem or a question about WideCare? Here is how to get help, from the fastest
 to the most direct.
 
 ## 1. Search the documentation first
@@ -41,7 +42,7 @@ troubleshooting pages resolve most common cases:
 
 If the documentation is not enough, contact our team:
 
-- **From Resthome**: click your avatar at the top right, then **Help**. It
+- **From WideCare**: click your avatar at the top right, then **Help**. It
   opens LPLG's support page, where you open a ticket and follow the ones you
   already opened.
 - **Email: [support@lplg.eu](mailto:support@lplg.eu)** — each message automatically opens

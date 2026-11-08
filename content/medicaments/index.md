@@ -1,5 +1,6 @@
 ---
 modules: [healthcare_medical, healthcare_medication, healthcare_medication_accommodation]
+sectors: [mr, csj]
 ---
 
 # Medicines
@@ -20,7 +21,7 @@ catalogue
 :::
 
 :::{rh-faq}
-Where do I manage medicines in Resthome?
+Where do I manage medicines in WideCare?
 : Open **Nursing Care → Medicines**. One screen, the Medicines workstation, gathers the prescriptions to read, the treatments, the pharmacy orders, the pillboxes, the round, the follow-up and the catalogue, each in its own tab.
 
 What does the To Do Now tab show?

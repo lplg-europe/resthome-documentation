@@ -1,11 +1,12 @@
 ---
 modules: [healthcare_accommodation, healthcare_accommodation_billing, healthcare_base, l10n_health_be]
+sectors: [mr, csj, rs]
 ---
 
 # Configuration
 
 :::{rh-description}
-Configure Resthome — rooms and sectors, billing rates, supplement types, health insurers, facility and multi-company.
+Configure WideCare — rooms and sectors, billing rates, supplement types, health insurers, facility and multi-company.
 :::
 
 :::{toctree}
@@ -17,7 +18,7 @@ reglages-repas
 reglages-documents
 :::
 
-Before day-to-day use, a few basic settings give Resthome its structure. They are set up once, then only change at the margins.
+Before day-to-day use, a few basic settings give WideCare its structure. They are set up once, then only change at the margins.
 
 ## Application settings
 
@@ -42,7 +43,7 @@ The Belgian pack adds its own settings: the INAMI numbers and approvals of the e
 
 ## Rates and packages
 
-- **Billing Rates**: the dated amounts Resthome bills — the accommodation price (resident's share) and, where the country has one, the care allowance paid by the health insurer.
+- **Billing Rates**: the dated amounts WideCare bills — the accommodation price (resident's share) and, where the country has one, the care allowance paid by the health insurer.
 - **Supplement types**: the catalog of billable services (see [Supplements](../facturation/supplements.md)).
 - **Absence discount rules**: the fine-tuning of billing when a resident is away (see [Absences and hospitalisations](../facturation/absences.md)).
 - **Price indexation**: the yearly increase of the supplement prices, from a given date (see [Price indexation](../facturation/indexation-des-prix.md)).
@@ -62,7 +63,7 @@ The rate menu is called **INAMI Rates** and carries the dependency allowance per
 
 ## Multi-company
 
-Resthome handles **multiple companies** in a single database: each company has its own residents, rooms and billing, kept separate. Useful for a group that operates several facilities.
+WideCare handles **multiple companies** in a single database: each company has its own residents, rooms and billing, kept separate. Useful for a group that operates several facilities.
 
 :::{admonition} The activity log
 :class: note

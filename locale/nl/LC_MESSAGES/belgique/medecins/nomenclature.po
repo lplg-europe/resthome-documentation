@@ -1,0 +1,235 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-08 20:39+0100\n"
+"PO-Revision-Date: 2026-11-08 20:50+0100\n"
+"Last-Translator: LPLG\n"
+"Language-Team: nl <LL@li.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/belgique/medecins/nomenclature.md:6
+msgid "The INAMI nomenclature"
+msgstr "De RIZIV-nomenclatuur"
+
+#: ../../content/belgique/medecins/nomenclature.md:9
+msgid ""
+"The INAMI nomenclature in a WideCare general practice: the codes, their fees"
+" and personal shares (ordinary or BIM), the NomenSoft import, and the "
+"pricing of the billed acts."
+msgstr ""
+"De RIZIV-nomenclatuur in een huisartsenpraktijk met WideCare: de codes, hun "
+"honoraria en remgelden (gewoon of verhoogde tegemoetkoming), het inlezen van"
+" NomenSoft en de prijsberekening van de gefactureerde verstrekkingen."
+
+#: ../../content/belgique/medecins/nomenclature.md:13
+msgid "Why does a code have no fee?"
+msgstr "Waarom heeft een code geen honorarium?"
+
+#: ../../content/belgique/medecins/nomenclature.md:14
+msgid ""
+"WideCare ships the general practitioners' consultation codes with their "
+"labels only: fees and personal shares change with every indexation. Import "
+"the NomenSoft files of the INAMI to fill them in."
+msgstr ""
+"WideCare levert de raadplegingscodes van de huisartsen alleen met hun "
+"omschrijving: de honoraria en het remgeld veranderen bij elke indexering. "
+"Lees de NomenSoft-bestanden van het RIZIV in om ze aan te vullen."
+
+#: ../../content/belgique/medecins/nomenclature.md:16
+msgid "How is the personal share chosen?"
+msgstr "Hoe wordt het remgeld gekozen?"
+
+#: ../../content/belgique/medecins/nomenclature.md:17
+msgid ""
+"From the patient's **BIM Status**: the BIM share when the patient benefits "
+"from increased intervention, the ordinary one otherwise."
+msgstr ""
+"Volgens de **BIM-status** van de patiënt: het remgeld met verhoogde "
+"tegemoetkoming wanneer de patiënt daar recht op heeft, anders het gewone."
+
+#: ../../content/belgique/medecins/nomenclature.md:19
+msgid "Which version of a code prices an act?"
+msgstr "Welke versie van een code bepaalt de prijs van een verstrekking?"
+
+#: ../../content/belgique/medecins/nomenclature.md:20
+msgid ""
+"The one in force on the day of the act, from its **Valid From** and **Valid "
+"Until** dates."
+msgstr ""
+"Die welke geldt op de dag van de verstrekking, volgens de data **Geldig "
+"vanaf** en **Geldig tot**."
+
+#: ../../content/belgique/medecins/nomenclature.md:22
+msgid "Who can import the nomenclature?"
+msgstr "Wie kan de nomenclatuur inlezen?"
+
+#: ../../content/belgique/medecins/nomenclature.md:23
+msgid "The users with the **Per-Act Billing** access as **Manager**."
+msgstr ""
+"De gebruikers met de toegang **Facturatie per verstrekking** als "
+"**Beheerder**."
+
+#: ../../content/belgique/medecins/nomenclature.md:26
+msgid ""
+"The **INAMI nomenclature** gives each act its code, its official fee and the"
+" **personal share** the patient pays, ordinary or BIM. WideCare reads it to "
+"price the billed acts and the eAttest."
+msgstr ""
+"De **RIZIV-nomenclatuur** geeft elke verstrekking haar code, haar officiële "
+"honorarium en het **remgeld** dat de patiënt betaalt, gewoon of met "
+"verhoogde tegemoetkoming. WideCare leest ze om de gefactureerde "
+"verstrekkingen en eAttest te prijzen."
+
+#: ../../content/belgique/medecins/nomenclature.md:30
+msgid "The catalogue"
+msgstr "De catalogus"
+
+#: ../../content/belgique/medecins/nomenclature.md:32
+msgid "**Invoicing → Customers → INAMI Nomenclature** lists the codes:"
+msgstr "**Facturatie → Klanten → RIZIV-nomenclatuur** toont de codes:"
+
+#: ../../content/belgique/medecins/nomenclature.md:34
+msgid "**Code**: the 6-digit INAMI number;"
+msgstr "**Code**: het RIZIV-nummer van 6 cijfers;"
+
+#: ../../content/belgique/medecins/nomenclature.md:35
+msgid "**Label (French)** and **Label (Dutch)**;"
+msgstr "**Omschrijving (Frans)** en **Omschrijving (Nederlands)**;"
+
+#: ../../content/belgique/medecins/nomenclature.md:36
+msgid "**Profession**: **General Practitioner**, **Specialist Physician**…;"
+msgstr "**Beroep**: **Huisarts**, **Arts-specialist**…;"
+
+#: ../../content/belgique/medecins/nomenclature.md:37
+msgid "**Fee**, **Patient Share (Ordinary)** and **Patient Share (BIM)**;"
+msgstr "**Honorarium**, **Remgeld (gewoon)** en **Remgeld (VT)**;"
+
+#: ../../content/belgique/medecins/nomenclature.md:38
+msgid "**Valid From** and **Valid Until**: one line per version of the code."
+msgstr "**Geldig vanaf** en **Geldig tot**: één lijn per versie van de code."
+
+#: ../../content/belgique/medecins/nomenclature.md:40
+msgid ""
+"The filter **Without Fee** lists the codes still waiting for their amounts."
+msgstr ""
+"De filter **Zonder honorarium** toont de codes die nog op hun bedragen "
+"wachten."
+
+#: ../../content/belgique/medecins/nomenclature.md:44
+msgid "Import the NomenSoft files"
+msgstr "De NomenSoft-bestanden inlezen"
+
+#: ../../content/belgique/medecins/nomenclature.md:46
+msgid ""
+"The INAMI publishes the nomenclature as **NomenSoft** tables: the tariffs "
+"(NOMEN_CODE_FEE_LIM) and the labels (NOMEN_CODE_DESC_HIST)."
+msgstr ""
+"Het RIZIV publiceert de nomenclatuur als **NomenSoft**-tabellen: de tarieven"
+" (NOMEN_CODE_FEE_LIM) en de omschrijvingen (NOMEN_CODE_DESC_HIST)."
+
+#: ../../content/belgique/medecins/nomenclature.md:49
+msgid "Open **Invoicing → Customers → Import INAMI Nomenclature**."
+msgstr "Open **Facturatie → Klanten → RIZIV-nomenclatuur inlezen**."
+
+#: ../../content/belgique/medecins/nomenclature.md:50
+msgid ""
+"Choose the **File** (CSV or XLSX). Leave **Layout** on **Detect from the "
+"header**."
+msgstr ""
+"Kies het **Bestand** (CSV of XLSX). Laat **Indeling** op **Afleiden uit de "
+"koptekst** staan."
+
+#: ../../content/belgique/medecins/nomenclature.md:52
+msgid ""
+"Set the **Profession**, and the codes to keep in **Only These Codes** "
+"(separated by commas) to import only those."
+msgstr ""
+"Stel het **Beroep** in, en de codes die u wilt behouden in **Alleen deze "
+"codes** (gescheiden door komma's) om alleen die in te lezen."
+
+#: ../../content/belgique/medecins/nomenclature.md:54
+msgid "Click **Import**."
+msgstr "Klik op **Inlezen**."
+
+#: ../../content/belgique/medecins/nomenclature.md:56
+msgid ""
+"The **Result** says how many codes were created and updated. Import the "
+"labels file the same way."
+msgstr ""
+"Het **Resultaat** zegt hoeveel codes aangemaakt en bijgewerkt werden. Lees "
+"het bestand met de omschrijvingen op dezelfde manier in."
+
+#: ../../content/belgique/medecins/nomenclature.md:59
+msgid ""
+"For the tariffs file, three fee codes say which lines of the table carry the"
+" fee and the insurer's intervention: **Fee Code: Fee** (0) and **Fee Code: "
+"BIM Intervention** (1300) come filled in; type the **Fee Code: Ordinary "
+"Intervention**, read in the NomenSoft table of fee codes (NOMEN_FEECODES), "
+"before importing."
+msgstr ""
+"Voor het tarievenbestand zeggen drie tariefcodes welke lijnen van de tabel "
+"het honorarium en de tegemoetkoming van de verzekeringsinstelling bevatten: "
+"**Tariefcode: honorarium** (0) en **Tariefcode: tegemoetkoming VT** (1300) "
+"zijn al ingevuld; typ de **Tariefcode: gewone tegemoetkoming**, af te lezen "
+"in de NomenSoft-tabel van de tariefcodes (NOMEN_FEECODES), voor u inleest."
+
+#: ../../content/belgique/medecins/nomenclature.md:65
+msgid "Price an act"
+msgstr "Een verstrekking prijzen"
+
+#: ../../content/belgique/medecins/nomenclature.md:67
+msgid ""
+"On a billable act, pick the **INAMI Code**: the code, the description, the "
+"unit fee and the patient share fill in."
+msgstr ""
+"Kies op een factureerbare verstrekking de **RIZIV-code**: de code, de "
+"omschrijving, het honorarium per eenheid en het remgeld worden ingevuld."
+
+#: ../../content/belgique/medecins/nomenclature.md:69
+msgid ""
+"On the **Acts** tab of a consultation, type the **Code**: **Create Invoice**"
+" finds the version in force on the day of the act and prices it."
+msgstr ""
+"Typ op het tabblad **Verstrekkingen** van een raadpleging de **Code**: "
+"**Factuur aanmaken** zoekt de versie die geldt op de dag van de verstrekking"
+" en prijst ze."
+
+#: ../../content/belgique/medecins/nomenclature.md:72
+msgid ""
+"A code without a fee keeps the amounts you typed: WideCare never guesses an "
+"amount."
+msgstr ""
+"Een code zonder honorarium behoudt de bedragen die u typte: WideCare raadt "
+"nooit een bedrag."
+
+#: ../../content/belgique/medecins/nomenclature.md:75
+msgid "What's next"
+msgstr "Hoe verder"
+
+#: ../../content/belgique/medecins/nomenclature.md:77
+msgid ""
+"[Per-act billing](../../medecins/facturation-a-l-acte.md) — the acts and "
+"their invoice."
+msgstr ""
+"[Facturatie per verstrekking](../../medecins/facturation-a-l-acte.md) — de "
+"verstrekkingen en hun factuur."
+
+#: ../../content/belgique/medecins/nomenclature.md:79
+msgid "[eAttest](eattest.md)"
+msgstr "[eAttest](eattest.md)"
+
+#: ../../content/belgique/medecins/nomenclature.md:80
+msgid "[eFact per act](efact-a-l-acte.md)"
+msgstr "[eFact per verstrekking](efact-a-l-acte.md)"

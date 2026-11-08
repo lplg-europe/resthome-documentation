@@ -1,5 +1,6 @@
 ---
 modules: [healthcare_accommodation, healthcare_accommodation_billing, l10n_health_be_perdiem_ehealth, resthome_mr_billing]
+sectors: [mr]
 ---
 
 # Room change and transfer

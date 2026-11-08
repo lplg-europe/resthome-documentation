@@ -1,11 +1,12 @@
 ---
 modules: [resthome_meal, resthome_family_portal_meal]
+sectors: [mr, csj]
 ---
 
 # Family portal and public menu
 
 :::{rh-description}
-Share meals beyond the team in Resthome: the family portal pages, the meal e-mails to families, the public and printable menu with its QR code, and the dining-room kiosk.
+Share meals beyond the team in WideCare: the family portal pages, the meal e-mails to families, the public and printable menu with its QR code, and the dining-room kiosk.
 :::
 
 :::{rh-faq}
@@ -25,10 +26,10 @@ What is the kiosk for?
 : It displays the day's menu full screen on a television in the dining room, and refreshes itself.
 
 Do I have to update the menu in several places?
-: No. The portal, the public pages and the kiosk all read the menus in Resthome. Only **confirmed** or **served** menus are shown.
+: No. The portal, the public pages and the kiosk all read the menus in WideCare. Only **confirmed** or **served** menus are shown.
 :::
 
-Resthome shares the meals **with families** and **in the dining room**, from the
+WideCare shares the meals **with families** and **in the dining room**, from the
 same menus and the same meal round as the team uses.
 
 ## Family portal
@@ -56,7 +57,7 @@ Coming from the resident's family page, the breadcrumb leads back to it.
 
 ## Meal e-mails to families
 
-Resthome can e-mail the family contacts of a resident:
+WideCare can e-mail the family contacts of a resident:
 
 - a **weekly meal summary** — the meals of the last 7 days, served or refused,
   with the amount eaten;
@@ -119,7 +120,7 @@ See [Meal and nutrition settings](../configuration/reglages-repas.md).
 :::{admonition} Always up to date
 :class: tip
 
-The portal, the public pages and the kiosk read the menus in Resthome: they
+The portal, the public pages and the kiosk read the menus in WideCare: they
 show the latest version automatically, with no double entry. Dates are written
 in the reader's language.
 :::

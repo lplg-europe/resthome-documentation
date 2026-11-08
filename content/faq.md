@@ -1,24 +1,25 @@
 ---
 modules: []
+sectors: [mr, csj, rs, gp]
 ---
 
 # FAQ — Frequently Asked Questions
 
 :::{rh-description}
-Short answers to frequently asked questions about Resthome: getting started, residents and stays, billing, absences, departure, the family portal, documents, pocket money and technical interventions.
+Short answers to frequently asked questions about WideCare: getting started, residents and stays, billing, absences, departure, the family portal, documents, pocket money and technical interventions.
 :::
 
 :::{rh-faq}
-How do I invoice a month from A to Z in Resthome?
+How do I invoice a month from A to Z in WideCare?
 : Open the month's billing period, click Generate, check it, click Create invoices then post the resident share. Where the country pays a care allowance through the health insurer, its share is sent from the same period, in parallel.
 
 How do I record an absence or a hospitalisation?
 : Open the month's period (or the resident file) and add an absence, giving the type, the departure and return date/time, then Save. The resident's billing synchronises automatically; the care allowance is reduced for the absence days according to the country's day-counting rule.
 
 What happens when a resident departs or dies?
-: Close their stay, giving the exit date and the reason (departure, death, transfer). Resthome stops the billing on the right date, prepares the credit note for the accommodation invoiced in advance and, where the country requires it, notifies the exit to the health insurer.
+: Close their stay, giving the exit date and the reason (departure, death, transfer). WideCare stops the billing on the right date, prepares the credit note for the accommodation invoiced in advance and, where the country requires it, notifies the exit to the health insurer.
 
-What is anticipatory billing in Resthome?
+What is anticipatory billing in WideCare?
 : For residents invoiced in advance, one month's accommodation is invoiced the previous month, while the care allowance and the supplements are invoiced in the month they are provided.
 
 How do I add a supplement to a resident?
@@ -49,16 +50,16 @@ country. Each answer links to the documentation page that details it.
 
 ## Getting started
 
-### How do I log in to Resthome?
+### How do I log in to WideCare?
 
 Open your browser at the address provided by your institution, enter your email
 address and your password, then click **Log in**. If you forget it, use the
 "Reset password" link or ask your administrator.
 → [Getting started](premiers-pas.md)
 
-### What are the Resthome applications?
+### What are the WideCare applications?
 
-Resthome is organised into applications reachable from the main menu (the grid
+WideCare is organised into applications reachable from the main menu (the grid
 icon): **Nursing Home** (residents, stays, rooms, family portal, and the
 **Configuration** menu with rooms, rates and master data), **Admissions**,
 **Billing**, **Nursing Care** (prescriptions, care plans, vital signs),
@@ -79,7 +80,7 @@ items to handle.
 In the **Configuration** menu of the **Nursing Home** app: create your rooms with their type (the
 sector they belong to, single, double…) and equipment, define the
 **accommodation rates** and, where the country pays one, the care allowance
-rates, then the supplement types and the health insurers. Resthome also handles
+rates, then the supplement types and the health insurers. WideCare also handles
 **multiple companies** in the same database, each with its own residents, rooms
 and billing kept separate.
 → [Configuration](configuration/index.md)
@@ -107,7 +108,7 @@ date/time), then click **Start Stay**: the stay moves to **Active**.
 
 ### What does starting a stay trigger automatically?
 
-On start, Resthome adds the resident to the open billing periods, creates (for a
+On start, WideCare adds the resident to the open billing periods, creates (for a
 resident invoiced in advance) the first accommodation invoice for the admission
 month and opens the month's supplement envelope. Where the country requires it,
 it also prepares the admission notification to the health insurer.
@@ -125,11 +126,11 @@ dashboard.
 ### How do I change a resident's room or sector?
 
 On the **stay**, use the **Change Room** action, give the new room and the
-date/time, then confirm. Resthome splits the billing on the right date, at the matching
+date/time, then confirm. WideCare splits the billing on the right date, at the matching
 rate; this is not a new admission and the care allowance stays continuous.
 → [Room change and transfer](residents/changement-chambre.md)
 
-### Does Resthome exchange data electronically with the health insurer?
+### Does WideCare exchange data electronically with the health insurer?
 
 Where the country has them, yes: the insurability check, the notifications of
 the resident's movements and the electronic invoicing of the care allowance are
@@ -145,7 +146,7 @@ space describes its own exchanges.
 Open the billing period, click **Generate**, check it, click **Create
 invoices** then **Post** the resident share. Where the country pays a care
 allowance through the health insurer, its share is sent from the same period:
-Resthome runs the resident share and the insurer share in parallel.
+WideCare runs the resident share and the insurer share in parallel.
 → [Invoice a month, step by step](facturation/facturer-un-mois.md)
 
 ### What are the states of a billing period?
@@ -158,7 +159,7 @@ computed), **Generated** (allowances and shares computed, to be checked),
 ### How do I check a period before invoicing?
 
 At the top of the period, counters give the health state of the month
-(**Supplements**, **Absences**, **Not invoiced**…) and Resthome flags anomalies
+(**Supplements**, **Absences**, **Not invoiced**…) and WideCare flags anomalies
 in the discussion thread on the right. Handle each point (**Done** button once
 settled) before invoicing.
 → [Invoice a month, step by step](facturation/facturer-un-mois.md)
@@ -191,7 +192,7 @@ need to click "Refresh".
 
 On the resident file (or their period), open the **split** tab, add the debtors
 and their **percentage** (the total must be 100%), then **Save**. On each
-monthly invoice, Resthome splits the resident share according to this key; only
+monthly invoice, WideCare splits the resident share according to this key; only
 the resident share is split, not the care allowance paid by the health insurer.
 → [Support debtors (split billing)](facturation-partagee/index.md)
 
@@ -213,7 +214,7 @@ giving the resident, the **type** (hospitalisation, holidays…), the **departur
 date/time** and the **return date/time** (or leave the return empty as long as
 they have not come back), then **Save**. Adding, editing or deleting an absence
 automatically synchronises the billing of the resident concerned. Where the
-country requires it, Resthome also prepares the notification to the health
+country requires it, WideCare also prepares the notification to the health
 insurer; you only have to check and send it.
 → [Absences and hospitalisations](facturation/absences.md)
 
@@ -227,7 +228,7 @@ departure and return dates and times.
 
 ### How do I cancel an absence entered by mistake?
 
-Delete it or reset it to draft: Resthome **cleanly rolls back** — the allowance
+Delete it or reset it to draft: WideCare **cleanly rolls back** — the allowance
 is recomputed as if the absence had not happened, and the prepared notifications
 are withdrawn as long as they have not been validated on the insurer's side. If
 the month is already posted, first reset the invoice to draft (or create a
@@ -243,7 +244,7 @@ credit note) then refresh.
 Simply **close their stay**: open the stay, click **End Stay**, give the **exit
 date** (and time) with the **reason** (departure, death, transfer…), then
 confirm.
-Resthome stops the billing on the right date, prepares the regularisation of
+WideCare stops the billing on the right date, prepares the regularisation of
 what was invoiced in advance and, where the country requires it, notifies the
 exit to the health insurer.
 → [Departure and death](facturation/depart-deces.md)
@@ -251,7 +252,7 @@ exit to the health insurer.
 ### Why is a credit note created on departure?
 
 Since the accommodation is invoiced **one month in advance**, if the resident
-leaves during an already invoiced month, Resthome **automatically prepares a
+leaves during an already invoiced month, WideCare **automatically prepares a
 credit note** to refund the unoccupied period (you are notified of its
 creation). The care allowance and the supplements, however, are invoiced in the
 month they are provided.
@@ -260,7 +261,7 @@ month they are provided.
 ### Can a stay closed by mistake be reopened?
 
 Yes. If you closed a stay wrongly (or in the case of a death recorded by
-mistake), you can **reopen** it: Resthome restores the billing and cancels the
+mistake), you can **reopen** it: WideCare restores the billing and cancels the
 regularisations as long as they are not final. If the month is already posted,
 the correction first goes through a reset to draft or a credit note, then a
 refresh.
@@ -282,7 +283,7 @@ invoices, health. Only an access opens the portal.
 
 On the resident's record, **Identity** tab, click **Portal** on the relative's
 line in **Contact Persons**. Tick what they may see, record the consent if you
-open **Health**, then click **Grant Access**: Resthome creates their account
+open **Health**, then click **Grant Access**: WideCare creates their account
 and sends the invitation. **Re-Invite** sends it again.
 → [Granting an access](portail-famille/acces.md)
 

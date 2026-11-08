@@ -1,5 +1,6 @@
 ---
 modules: [resthome_meal_mobile]
+sectors: [mr, csj]
 ---
 
 # Hydration

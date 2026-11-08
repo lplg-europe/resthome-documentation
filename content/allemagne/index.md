@@ -1,18 +1,19 @@
 ---
 modules: []
+sectors: [mr, csj, rs, gp]
 ---
 
 # Germany
 
 :::{rh-description}
-Resthome in Germany: the common applications, which work the same way in every country, and the space that will gather what comes from German rules.
+WideCare in Germany: the common applications, which work the same way in every country, and the space that will gather what comes from German rules.
 :::
 
 :::{rh-faq}
-Can a German care home use Resthome?
+Can a German care home use WideCare?
 : The common applications work the same way in every country: residents, admissions, care, meals, the family portal, accommodation billing. What is German — identity, insurance, invoicing to the health insurance — is not documented yet.
 
-Who do I contact to use Resthome in Germany?
+Who do I contact to use WideCare in Germany?
 : The LPLG team: see [Support](../support.md).
 :::
 

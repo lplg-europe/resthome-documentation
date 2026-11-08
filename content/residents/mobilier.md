@@ -1,5 +1,6 @@
 ---
 modules: [resthome_furniture]
+sectors: [mr]
 ---
 
 # The resident's private furniture

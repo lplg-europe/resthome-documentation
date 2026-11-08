@@ -1,6 +1,7 @@
 ---
 modules: [resthome_day_care, resthome_day_care_funding]
 howto_auto: true
+sectors: [csj]
 ---
 
 # The staffing norm
@@ -43,7 +44,7 @@ Create a check for the **Billing Year**. The reference period fills itself:
 Click **Collect the billed days** (2): the four quarters, **Q1 Days** to
 **Q4 Days**, are filled with the CSJ forfait days claimed from the health
 insurers over the reference period — what was claimed, not what was lived.
-A centre whose reference period predates Resthome types its four quarters in.
+A centre whose reference period predates WideCare types its four quarters in.
 
 The **Average Users** is the billed days divided by **250** — a day care centre
 opens some 250 days a year, not 365.

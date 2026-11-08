@@ -1,21 +1,22 @@
 ---
 modules: [l10n_health_be_ehealthbox]
+sectors: [mr, csj]
 ---
 
 # The eHealthBox
 
 :::{rh-description}
-Read and send secure eHealthBox messages from Resthome: the home's mailbox, writing to a caregiver or an institution, receipts, notifications and who has access.
+Read and send secure eHealthBox messages from WideCare: the home's mailbox, writing to a caregiver or an institution, receipts, notifications and who has access.
 :::
 
 :::{rh-faq}
 What is the eHealthBox?
-: The secure mailbox of the eHealth platform. Caregivers and institutions exchange encrypted messages in it, addressed by NIHII or company number. Resthome reads and sends the home's messages without leaving the application.
+: The secure mailbox of the eHealth platform. Caregivers and institutions exchange encrypted messages in it, addressed by NIHII or company number. WideCare reads and sends the home's messages without leaving the application.
 
-Who can open the home's eHealthBox in Resthome?
+Who can open the home's eHealthBox in WideCare?
 : The users of the eHealthBox group, which the head nurse and the eHealth manager hold by default. The menus that read another box or list every message are reserved to the eHealth managers.
 
-How often does Resthome fetch new messages?
+How often does WideCare fetch new messages?
 : Every 10 minutes. A new message raises a notification in the Odoo bell of every user of the mailbox.
 
 Can I link a message to a resident?
@@ -27,7 +28,7 @@ How do I know a message was read?
 
 The **eHealthBox** is the secure mailbox of the eHealth platform. Doctors,
 pharmacies, hospitals and nursing homes send each other encrypted messages
-through it, addressed by **NIHII** or company number. Resthome opens the home's
+through it, addressed by **NIHII** or company number. WideCare opens the home's
 box in a familiar mail screen: you read, answer and write without going to the
 eHealth website.
 
@@ -49,7 +50,7 @@ Open **eHealth → eHealthBox → Mailbox**. The screen has the usual folders:
 - **Drafts** — the messages started and not sent;
 - **Deleted** — the messages removed from the other folders.
 
-Resthome fetches new messages **every 10 minutes**. Each new message raises a
+WideCare fetches new messages **every 10 minutes**. Each new message raises a
 notification in the **Odoo bell** of every user of the mailbox, so nobody has to
 watch the folder.
 

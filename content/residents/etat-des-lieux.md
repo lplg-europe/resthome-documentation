@@ -1,6 +1,7 @@
 ---
 howto_auto: true
 modules: [healthcare_inspection, healthcare_inspection_helpdesk]
+sectors: [mr]
 ---
 
 # The condition report (move-in and move-out)

@@ -1,6 +1,7 @@
 ---
 modules: [l10n_health_be_efact, l10n_health_be_perdiem_ehealth]
 howto_auto: true
+sectors: [mr, csj]
 ---
 
 # Payment tracking and settlement reconciliation
@@ -13,24 +14,24 @@ Check whether the health insurer paid your nursing home (MR/MRS) lump sums: read
 What is the difference between the acknowledgement of receipt (931000) and the settlement (920900)?
 : The acknowledgement (931000) only confirms that the insurer received your batch and passed the first check — nothing has been paid yet. The settlement (920900) is the final result: it shows, line by line, what is accepted and what is rejected, and serves as a payment notice under Account C. Until the settlement arrives, no amount is final.
 
-How can I tell whether an eFact batch has been paid in Resthome?
-: Open the batch: the Payment group of its Info tab shows Paid, the payment reference and the amount. Under Account C, as soon as the settlement carries a real payment reference, Resthome marks the batch Paid automatically. For an overview, the eFact Cockpit gathers the settled batches not yet reconciled and the overdue OAs.
+How can I tell whether an eFact batch has been paid in WideCare?
+: Open the batch: the Payment group of its Info tab shows Paid, the payment reference and the amount. Under Account C, as soon as the settlement carries a real payment reference, WideCare marks the batch Paid automatically. For an overview, the eFact Cockpit gathers the settled batches not yet reconciled and the overdue OAs.
 
 What does it mean to "reconcile" a settlement?
-: Reconciling means confirming that the money announced by the settlement has actually been received. Resthome automatically matches each settlement to its batch; you confirm receipt by opening the settlement and clicking Mark Reconciled.
+: Reconciling means confirming that the money announced by the settlement has actually been received. WideCare automatically matches each settlement to its batch; you confirm receipt by opening the settlement and clicking Mark Reconciled.
 
 An insurer is late paying: can I claim late-payment interest?
-: Yes. Every sent batch is eligible: the former condition of sending by the 20th of the following month fell with that deadline, which was abolished. The OA must pay by the end of the 2nd month following submission; beyond that, Resthome calculates the late-payment interest (accepted amount × legal rate × days late / 365). The legal rate is set in the eHealth settings.
+: Yes. Every sent batch is eligible: the former condition of sending by the 20th of the following month fell with that deadline, which was abolished. The OA must pay by the end of the 2nd month following submission; beyond that, WideCare calculates the late-payment interest (accepted amount × legal rate × days late / 365). The legal rate is set in the eHealth settings.
 
 The settlement shows both accepted AND rejected amounts: what should I do?
-: This is a partial rejection: the accepted part is paid, the rejected lines must be corrected and resent. Resthome automatically creates a remainder for the rejected lines and lists them in the Cockpit's Rejected lines list.
+: This is a partial rejection: the accepted part is paid, the rejected lines must be corrected and resent. WideCare automatically creates a remainder for the rejected lines and lists them in the Cockpit's Rejected lines list.
 
 Where can I see the list of all settlements and responses received from the OAs?
 : The eFact Cockpit offers the OA retrievals list: all retrieved messages (acknowledgements, settlements, rejections), filterable by OA, month and type, with XLSX export. The eFact Settlements list, in contrast, shows only the settlements (920900).
 :::
 
 Once your lump sums have been sent via [eFact](efact.md), the real question
-remains: **"have I been paid?"**. This page explains how Resthome answers it,
+remains: **"have I been paid?"**. This page explains how WideCare answers it,
 from the automatically reconciled **settlement (920900)** to **chasing overdue
 insurers (OA)**.
 
@@ -61,14 +62,14 @@ what I'm paying". It's the settlement that matters for the money.
 Since 2025, Walloon MR/MRS billing operates under **Account C**: the OA pays
 and **the settlement acts as a payment notice**. The settlement therefore
 carries the **payment reference** and the **amount**, but **no payment date**
-(the format doesn't provide for one). Resthome never fabricates a date: it
+(the format doesn't provide for one). WideCare never fabricates a date: it
 stays empty until a real bank date is entered.
 :::
 
 ## 1. The settlement (920900) reconciled automatically
 
 When a settlement comes back from the OA (via automatic retrieval or a batch's
-**Process Response** button), Resthome **reconciles it on its own**, with no
+**Process Response** button), WideCare **reconciles it on its own**, with no
 input from you:
 
 1. it creates a **Settlement** record attached to the batch;
@@ -105,7 +106,7 @@ entered by hand) and follows three states:
 | State | Meaning |
 |---|---|
 | **Received** | The settlement has just arrived. |
-| **Processed** | Its lines have been allocated to the batch. Resthome does this step **automatically** on receipt. |
+| **Processed** | Its lines have been allocated to the batch. WideCare does this step **automatically** on receipt. |
 | **Reconciled** | You have **confirmed** that the money was actually received. |
 
 - The **Process** button appears only if a settlement has stayed in *Received*
@@ -166,7 +167,7 @@ account.
 :class: important
 
 The button appears only from **settled** onwards, and that is the point: before
-the settlement the amount is not final. Resthome books **what the insurer
+the settlement the amount is not final. WideCare books **what the insurer
 actually accepted**, line by line — a service accepted for less than claimed is
 booked at the accepted amount, and one ventilated down to zero is not booked at
 all.
@@ -184,7 +185,7 @@ back to the sending that produced it.
 :class: note
 
 A batch already carrying a live accounting document cannot be booked again:
-Resthome names the existing document and asks you to cancel it first. If nothing
+WideCare names the existing document and asks you to cancel it first. If nothing
 was accepted on the sending, there is nothing to book and the action says so
 rather than creating an empty document.
 :::
@@ -234,7 +235,7 @@ contact with the right billing correspondent.
 
 ## 7. Late-payment interest (moratory interest)
 
-A batch paid too late may entitle you to **late-payment interest**. Resthome
+A batch paid too late may entitle you to **late-payment interest**. WideCare
 applies the regional rule:
 
 - every **sent** batch is eligible: the former condition of sending by the
@@ -262,7 +263,7 @@ This is a value **specific to your establishment / to the current year**.
 
 - The **acknowledgement (931000)** pays nothing; only the **settlement
   (920900)** tells you what is actually paid.
-- Resthome **reconciles the settlement automatically**: lines allocated, batch
+- WideCare **reconciles the settlement automatically**: lines allocated, batch
   status updated, remainder created for the rejections.
 - Under **Account C**, a settlement with a real payment reference marks the
   batch **Paid** automatically (the payment date may stay empty).

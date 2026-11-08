@@ -1,5 +1,6 @@
 ---
 modules: [l10n_health_be_pmi]
+sectors: [mr, csj]
 ---
 
 # The pharmacy link
@@ -10,7 +11,7 @@ Exchange files with the residents' pharmacies in Belgium over HomeLink: the medi
 
 :::{rh-faq}
 What is the pharmacy link?
-: The link between the house and a pharmacy for the HomeLink files Belgian care homes and pharmacies exchange. Resthome sends the residents' medication schedule every day, and receives the pharmacy's stock statement and invoice.
+: The link between the house and a pharmacy for the HomeLink files Belgian care homes and pharmacies exchange. WideCare sends the residents' medication schedule every day, and receives the pharmacy's stock statement and invoice.
 
 How do the files reach the pharmacy?
 : By eHealthBox (sealed for the pharmacy), by SFTP or FTPS on the pharmacy's server, or not at all: with **None (download)**, you make the file and hand it over yourself.
@@ -26,7 +27,7 @@ Who manages the pharmacy links?
 :::
 
 **HomeLink** is the protocol Belgian care homes and pharmacies exchange files
-with. Resthome uses it to send each pharmacy the **medication schedule** of its
+with. WideCare uses it to send each pharmacy the **medication schedule** of its
 residents, the **sachets** it must produce and the **orders**, and to receive
 back the pharmacy's **stock** and **invoice**.
 
@@ -82,7 +83,7 @@ the **Stock** statements and the **Invoices**.
 
 ### Therapylink — the medication schedule
 
-Every day at the link's hour, Resthome makes the **Therapylink** file: every
+Every day at the link's hour, WideCare makes the **Therapylink** file: every
 active treatment of the pharmacy's residents, each intake on its date and hour
 over the period, the *as needed* ones as such, the medicines in the pharmacy's
 sachets flagged. The file is checked against the official schema before it is

@@ -1,5 +1,6 @@
 ---
 modules: []
+sectors: [rs]
 ---
 
 # Serviced residences

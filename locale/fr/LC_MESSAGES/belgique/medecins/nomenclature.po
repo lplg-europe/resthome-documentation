@@ -1,0 +1,238 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-08 20:39+0100\n"
+"PO-Revision-Date: 2026-11-08 20:50+0100\n"
+"Last-Translator: LPLG\n"
+"Language-Team: fr <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/belgique/medecins/nomenclature.md:6
+msgid "The INAMI nomenclature"
+msgstr "La nomenclature INAMI"
+
+#: ../../content/belgique/medecins/nomenclature.md:9
+msgid ""
+"The INAMI nomenclature in a WideCare general practice: the codes, their fees"
+" and personal shares (ordinary or BIM), the NomenSoft import, and the "
+"pricing of the billed acts."
+msgstr ""
+"La nomenclature INAMI dans un cabinet de médecine générale WideCare : les "
+"codes, leurs honoraires et tickets modérateurs (ordinaires ou BIM), l'import"
+" NomenSoft et la tarification des actes facturés."
+
+#: ../../content/belgique/medecins/nomenclature.md:13
+msgid "Why does a code have no fee?"
+msgstr "Pourquoi un code n'a-t-il pas d'honoraire ?"
+
+#: ../../content/belgique/medecins/nomenclature.md:14
+msgid ""
+"WideCare ships the general practitioners' consultation codes with their "
+"labels only: fees and personal shares change with every indexation. Import "
+"the NomenSoft files of the INAMI to fill them in."
+msgstr ""
+"WideCare livre les codes de consultation des médecins généralistes avec "
+"leurs seuls libellés : les honoraires et les tickets modérateurs changent à "
+"chaque indexation. Importez les fichiers NomenSoft de l'INAMI pour les "
+"remplir."
+
+#: ../../content/belgique/medecins/nomenclature.md:16
+msgid "How is the personal share chosen?"
+msgstr "Comment le ticket modérateur est-il choisi ?"
+
+#: ../../content/belgique/medecins/nomenclature.md:17
+msgid ""
+"From the patient's **BIM Status**: the BIM share when the patient benefits "
+"from increased intervention, the ordinary one otherwise."
+msgstr ""
+"D'après le **Statut BIM** du patient : le ticket BIM quand le patient "
+"bénéficie de l'intervention majorée, l'ordinaire sinon."
+
+#: ../../content/belgique/medecins/nomenclature.md:19
+msgid "Which version of a code prices an act?"
+msgstr "Quelle version d'un code tarifie un acte ?"
+
+#: ../../content/belgique/medecins/nomenclature.md:20
+msgid ""
+"The one in force on the day of the act, from its **Valid From** and **Valid "
+"Until** dates."
+msgstr ""
+"Celle en vigueur le jour de l'acte, d'après ses dates **Valable à partir "
+"du** et **Valable jusqu’au**."
+
+#: ../../content/belgique/medecins/nomenclature.md:22
+msgid "Who can import the nomenclature?"
+msgstr "Qui peut importer la nomenclature ?"
+
+#: ../../content/belgique/medecins/nomenclature.md:23
+msgid "The users with the **Per-Act Billing** access as **Manager**."
+msgstr ""
+"Les utilisateurs qui ont l'accès **Facturation à l’acte** en tant que "
+"**Responsable**."
+
+#: ../../content/belgique/medecins/nomenclature.md:26
+msgid ""
+"The **INAMI nomenclature** gives each act its code, its official fee and the"
+" **personal share** the patient pays, ordinary or BIM. WideCare reads it to "
+"price the billed acts and the eAttest."
+msgstr ""
+"La **nomenclature INAMI** donne à chaque acte son code, son honoraire "
+"officiel et le **ticket modérateur** que paie le patient, ordinaire ou BIM. "
+"WideCare la lit pour tarifer les actes facturés et l'eAttest."
+
+#: ../../content/belgique/medecins/nomenclature.md:30
+msgid "The catalogue"
+msgstr "Le catalogue"
+
+#: ../../content/belgique/medecins/nomenclature.md:32
+msgid "**Invoicing → Customers → INAMI Nomenclature** lists the codes:"
+msgstr "**Facturation → Clients → Nomenclature INAMI** liste les codes :"
+
+#: ../../content/belgique/medecins/nomenclature.md:34
+msgid "**Code**: the 6-digit INAMI number;"
+msgstr "**Code** : le numéro INAMI à 6 chiffres ;"
+
+#: ../../content/belgique/medecins/nomenclature.md:35
+msgid "**Label (French)** and **Label (Dutch)**;"
+msgstr "**Libellé (français)** et **Libellé (néerlandais)** ;"
+
+#: ../../content/belgique/medecins/nomenclature.md:36
+msgid "**Profession**: **General Practitioner**, **Specialist Physician**…;"
+msgstr "**Profession** : **Médecin généraliste**, **Médecin spécialiste**… ;"
+
+#: ../../content/belgique/medecins/nomenclature.md:37
+msgid "**Fee**, **Patient Share (Ordinary)** and **Patient Share (BIM)**;"
+msgstr ""
+"**Honoraire**, **Ticket modérateur (ordinaire)** et **Ticket modérateur "
+"(BIM)** ;"
+
+#: ../../content/belgique/medecins/nomenclature.md:38
+msgid "**Valid From** and **Valid Until**: one line per version of the code."
+msgstr ""
+"**Valable à partir du** et **Valable jusqu’au** : une ligne par version du "
+"code."
+
+#: ../../content/belgique/medecins/nomenclature.md:40
+msgid ""
+"The filter **Without Fee** lists the codes still waiting for their amounts."
+msgstr ""
+"Le filtre **Sans honoraire** liste les codes qui attendent encore leurs "
+"montants."
+
+#: ../../content/belgique/medecins/nomenclature.md:44
+msgid "Import the NomenSoft files"
+msgstr "Importer les fichiers NomenSoft"
+
+#: ../../content/belgique/medecins/nomenclature.md:46
+msgid ""
+"The INAMI publishes the nomenclature as **NomenSoft** tables: the tariffs "
+"(NOMEN_CODE_FEE_LIM) and the labels (NOMEN_CODE_DESC_HIST)."
+msgstr ""
+"L'INAMI publie la nomenclature sous forme de tables **NomenSoft** : les "
+"tarifs (NOMEN_CODE_FEE_LIM) et les libellés (NOMEN_CODE_DESC_HIST)."
+
+#: ../../content/belgique/medecins/nomenclature.md:49
+msgid "Open **Invoicing → Customers → Import INAMI Nomenclature**."
+msgstr "Ouvrez **Facturation → Clients → Importer la nomenclature INAMI**."
+
+#: ../../content/belgique/medecins/nomenclature.md:50
+msgid ""
+"Choose the **File** (CSV or XLSX). Leave **Layout** on **Detect from the "
+"header**."
+msgstr ""
+"Choisissez le **Fichier** (CSV ou XLSX). Laissez **Format** sur **Détecter "
+"depuis l’en-tête**."
+
+#: ../../content/belgique/medecins/nomenclature.md:52
+msgid ""
+"Set the **Profession**, and the codes to keep in **Only These Codes** "
+"(separated by commas) to import only those."
+msgstr ""
+"Réglez la **Profession**, et les codes à garder dans **Seulement ces codes**"
+" (séparés par des virgules) pour n'importer que ceux-là."
+
+#: ../../content/belgique/medecins/nomenclature.md:54
+msgid "Click **Import**."
+msgstr "Cliquez sur **Importer**."
+
+#: ../../content/belgique/medecins/nomenclature.md:56
+msgid ""
+"The **Result** says how many codes were created and updated. Import the "
+"labels file the same way."
+msgstr ""
+"Le **Résultat** indique combien de codes ont été créés et mis à jour. "
+"Importez le fichier des libellés de la même façon."
+
+#: ../../content/belgique/medecins/nomenclature.md:59
+msgid ""
+"For the tariffs file, three fee codes say which lines of the table carry the"
+" fee and the insurer's intervention: **Fee Code: Fee** (0) and **Fee Code: "
+"BIM Intervention** (1300) come filled in; type the **Fee Code: Ordinary "
+"Intervention**, read in the NomenSoft table of fee codes (NOMEN_FEECODES), "
+"before importing."
+msgstr ""
+"Pour le fichier des tarifs, trois codes tarif disent quelles lignes de la "
+"table portent l'honoraire et l'intervention de l'organisme assureur : **Code"
+" tarif : honoraire** (0) et **Code tarif : intervention BIM** (1300) sont "
+"déjà remplis ; tapez le **Code tarif : intervention ordinaire**, lu dans la "
+"table NomenSoft des codes tarif (NOMEN_FEECODES), avant d'importer."
+
+#: ../../content/belgique/medecins/nomenclature.md:65
+msgid "Price an act"
+msgstr "Tarifer un acte"
+
+#: ../../content/belgique/medecins/nomenclature.md:67
+msgid ""
+"On a billable act, pick the **INAMI Code**: the code, the description, the "
+"unit fee and the patient share fill in."
+msgstr ""
+"Sur un acte facturable, choisissez le **Code INAMI** : le code, la "
+"description, l'honoraire unitaire et la part du patient se remplissent."
+
+#: ../../content/belgique/medecins/nomenclature.md:69
+msgid ""
+"On the **Acts** tab of a consultation, type the **Code**: **Create Invoice**"
+" finds the version in force on the day of the act and prices it."
+msgstr ""
+"Dans l'onglet **Actes** d'une consultation, tapez le **Code** : **Créer la "
+"facture** trouve la version en vigueur le jour de l'acte et la tarifie."
+
+#: ../../content/belgique/medecins/nomenclature.md:72
+msgid ""
+"A code without a fee keeps the amounts you typed: WideCare never guesses an "
+"amount."
+msgstr ""
+"Un code sans honoraire garde les montants que vous avez tapés : WideCare ne "
+"devine jamais un montant."
+
+#: ../../content/belgique/medecins/nomenclature.md:75
+msgid "What's next"
+msgstr "Pour continuer"
+
+#: ../../content/belgique/medecins/nomenclature.md:77
+msgid ""
+"[Per-act billing](../../medecins/facturation-a-l-acte.md) — the acts and "
+"their invoice."
+msgstr ""
+"[Facturation à l'acte](../../medecins/facturation-a-l-acte.md) — les actes "
+"et leur facture."
+
+#: ../../content/belgique/medecins/nomenclature.md:79
+msgid "[eAttest](eattest.md)"
+msgstr "[eAttest](eattest.md)"
+
+#: ../../content/belgique/medecins/nomenclature.md:80
+msgid "[eFact per act](efact-a-l-acte.md)"
+msgstr "[eFact à l'acte](efact-a-l-acte.md)"

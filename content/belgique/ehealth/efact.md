@@ -1,12 +1,13 @@
 ---
 modules: [l10n_health_be_efact, l10n_health_be_perdiem_ehealth, healthcare_accommodation_billing, l10n_health_be_perdiem_billing]
 howto_auto: true
+sectors: [mr, csj]
 ---
 
 # Electronic invoicing (eFact)
 
 :::{rh-description}
-The complete eFact guide for nursing homes (MR/MRS) with Resthome: generate, check insurability, build and send the INAMI allowances to the mutualities, invoice the resident share, step by step.
+The complete eFact guide for nursing homes (MR/MRS) with WideCare: generate, check insurability, build and send the INAMI allowances to the mutualities, invoice the resident share, step by step.
 :::
 
 :::{rh-faq}
@@ -17,7 +18,7 @@ Is there still a deadline to send an eFact batch?
 : No. The former "20th of the following month" sending deadline was abolished: a late batch is no longer refused. The insurer's payment deadline, and the late-payment interest it opens, run from the day the batch is sent, so send as soon as the month is billed.
 
 One eFact batch per mutuality or per union?
-: One batch per union of mutualities (100 National Alliance, 300 Solidaris, 500 National Union, 600 CAAMI, 900 HR Rail…), not per small individual mutuality. Resthome does the grouping automatically.
+: One batch per union of mutualities (100 National Alliance, 300 Solidaris, 500 National Union, 600 CAAMI, 900 HR Rail…), not per small individual mutuality. WideCare does the grouping automatically.
 
 How do I correct a rejected eFact batch?
 : The rejection code and reason state the cause (insurability, allowance, dates). Fix it and resend; the Resends counter avoids duplicates and the Reintegration button lets you reintegrate lines into a new sending.
@@ -38,15 +39,15 @@ Is electronic invoicing (eFact) mandatory?
 : Yes. The electronic sending of the INAMI allowances is mandatory: production started in April 2026 and the final deadline to be compliant is 1 October 2026. The former sending deadline per period was abolished.
 
 A resident leaves or dies during an already invoiced month, what happens to the eFact?
-: Part of the allowance was over-invoiced. Resthome detects it during the self-check and prepares the corresponding credit note (or remainder), on the resident side and, if needed, on the mutuality side through a corrective batch.
+: Part of the allowance was over-invoiced. WideCare detects it during the self-check and prepares the corresponding credit note (or remainder), on the resident side and, if needed, on the mutuality side through a corrective batch.
 
-Where do I see the status of an eFact sending and its settlement in Resthome?
+Where do I see the status of an eFact sending and its settlement in WideCare?
 : On each batch, the status (Draft, sent, acknowledged, accepted, rejected) and the invoiced / accepted / refused amounts are displayed. For an overview of all sendings of a month, open the eFact Cockpit from the period or a dashboard card: it shows at a glance what is transmitted, accepted, rejected or awaiting settlement.
 :::
 
 The **eFact** is the **electronic** sending of the **mutuality share** (the
 INAMI allowance) to the **insurance organisations** (OA), through the eHealth /
-MyCareNet network. Resthome builds the files, transmits them and **follows the
+MyCareNet network. WideCare builds the files, transmits them and **follows the
 responses** for you — acknowledgements, settlements, acceptances and rejections.
 
 This guide walks you through from start to finish: generate a period, check it
@@ -117,7 +118,7 @@ A **"Generate billing"** wizard opens.
   from a batch MDA run at the start of the month. The legend shows the MDA
   state of the period.
 
-Click **Generate**. The period becomes **Generated**: Resthome computed, for
+Click **Generate**. The period becomes **Generated**: WideCare computed, for
 **each resident**, the Katz allowance, the **INAMI share** (mutuality) and the
 **resident share**.
 
@@ -141,9 +142,9 @@ the health state of the month: **Invoices**, **Absences**, **Unbilled**,
 renew). A resident without a validated Katz gets no allowance: their row shows
 **No Katz**.
 
-:::{admonition} Resthome's self-check
+:::{admonition} WideCare's self-check
 :class: tip
-After generation, Resthome combs through the period and **flags anomalies** in
+After generation, WideCare combs through the period and **flags anomalies** in
 the discussion thread (on the right). Each message describes the problem
 **and** the action to take. The most frequent cases:
 
@@ -170,7 +171,7 @@ A resident without valid coverage cannot be invoiced under third-party payment.
 ## 4. Generate the eFact (the batches)
 
 Once the MDA is requested, click **Generate eFact**, then **Generate Batches**
-in the window that opens. Resthome builds the **batches** from the period's
+in the window that opens. WideCare builds the **batches** from the period's
 mutuality lines — not from the invoices, which do not exist yet — one
 electronic file per insurance organisation, then shows the **eFact Batches**
 list.
@@ -184,7 +185,7 @@ an **Invoiced** period.
 :class: note
 Sendings are grouped **per union** (the big OA families), not per small
 individual mutuality: **100** (National Alliance), **300** (Solidaris),
-**500** (National Union), **600** (CAAMI), **900** (HR Rail)… Resthome takes
+**500** (National Union), **600** (CAAMI), **900** (HR Rail)… WideCare takes
 care of the grouping.
 :::
 
@@ -199,7 +200,7 @@ Each batch line shows:
 
 ## 5. Create the invoices (Generated → Invoiced)
 
-Once the eFact is built, click **Create Invoices**. Resthome creates the
+Once the eFact is built, click **Create Invoices**. WideCare creates the
 **resident invoices** (share charged to the resident / the family) in
 **draft**: check them, then **Confirm** them. The period becomes **Invoiced**.
 
@@ -213,7 +214,7 @@ correction is needed.
 
 ## 6. The pre-send checks
 
-Before a batch leaves, Resthome inspects it against everything it can verify
+Before a batch leaves, WideCare inspects it against everything it can verify
 **without asking the insurer**. A batch in Draft or Ready carries a **Checks**
 button: green **Checks OK**, or red with the number of problems found.
 
@@ -275,7 +276,7 @@ current state. Refresh the insurability first — the whole point of the held
 batch is that it never leaves in a state the insurer would reject.
 :::
 
-On release, Resthome also handles the case where an MDA has **changed a
+On release, WideCare also handles the case where an MDA has **changed a
 resident's fund**: those lines are rerouted to the batch of the correct
 insurer — merged into an existing one, or placed in a new one, itself held if a
 batch for that insurer is already in flight.
@@ -294,7 +295,7 @@ The response cycle is automatic:
    where applicable: either the batch is accepted despite minor errors, or the
    whole batch is refused (to fix and resend).
 3. **Settlement (920900)** — the final result: **accepted** and/or
-   **rejected** amounts. Resthome **reconciles** the responses and updates
+   **rejected** amounts. WideCare **reconciles** the responses and updates
    each batch (rejection code and reason).
 
 :::{admonition} Handling a rejection
@@ -318,7 +319,7 @@ campaign** and spot what is blocking.
 ## 10. Credit notes and regularisations
 
 When a resident **leaves** or **dies** during an already invoiced month, part
-of the accommodation or the allowance was **over-invoiced**. Resthome detects
+of the accommodation or the allowance was **over-invoiced**. WideCare detects
 it (see the self-check above) and prepares the corresponding **credit note**
 or **remainder**, to refund the undue period — on the resident side **and**,
 if needed, on the mutuality side through a corrective batch.

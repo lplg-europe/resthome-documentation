@@ -1,5 +1,6 @@
 ---
 modules: [healthcare_mobile, healthcare_mobile_care]
+sectors: [mr, csj]
 ---
 
 # Shift screen

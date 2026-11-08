@@ -1,19 +1,20 @@
 ---
 modules: [healthcare_medical, healthcare_medical_accommodation]
+sectors: [mr, csj]
 ---
 
 # Care tasks
 
 :::{rh-description}
-The care tasks in Resthome: the worklist of the day by room, done, not done, postponed or missed care, countersigning, care added on the spot, the care schedule and the outcome reasons.
+The care tasks in WideCare: the worklist of the day by room, done, not done, postponed or missed care, countersigning, care added on the spot, the care schedule and the outcome reasons.
 :::
 
 :::{rh-faq}
 Where do care tasks come from?
-: From the care lines of the residents' [care plans](plans-de-soins.md). Every night, Resthome plans the care of the next seven days, never for a moment already over. A care can also be added on the spot.
+: From the care lines of the residents' [care plans](plans-de-soins.md). Every night, WideCare plans the care of the next seven days, never for a moment already over. A care can also be added on the spot.
 
 What is the difference between Not done and Missed?
-: **Not done** is an answer: someone says why the care was not given (refused, asleep, absent…). **Missed** means nobody answered: Resthome marks the care missed two hours after the end of its moment, or after its planned hour.
+: **Not done** is an answer: someone says why the care was not given (refused, asleep, absent…). **Missed** means nobody answered: WideCare marks the care missed two hours after the end of its moment, or after its planned hour.
 
 Can I still give a care marked Not done?
 : Yes. A care marked **Not done** can still be marked done or postponed later in the day.
@@ -22,7 +23,7 @@ Why was a care cancelled on its own?
 : Because the resident was not there: away from the house or in hospital. The care task says so in a yellow note.
 
 How do I move a recurring care in the calendar?
-: Drag it. Resthome asks whether to move **The whole series** or **This care only**.
+: Drag it. WideCare asks whether to move **The whole series** or **This care only**.
 :::
 
 A **care task** is one care, for one resident, at one moment. Care tasks are
@@ -149,7 +150,7 @@ month, moment of the day or department.
 ## Assigning care
 
 A care task can be assigned to a member of staff in the **Options** tab
-(**Assigned to**). The house can let Resthome share the care among the staff on
+(**Assigned to**). The house can let WideCare share the care among the staff on
 the planning: see
 [Automatic assignment of care tasks](assignation-automatique.md).
 

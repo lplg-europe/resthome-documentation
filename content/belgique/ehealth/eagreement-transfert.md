@@ -1,12 +1,13 @@
 ---
 modules: [l10n_health_be_perdiem_ehealth, resthome_mr_ehealth, resthome_mr_day_care]
 howto_auto: true
+sectors: [mr, csj]
 ---
 
 # Internal transfer (MR ↔ MRS)
 
 :::{rh-description}
-Move a resident between sectors (MR, MRS, day care) in Resthome: the internal transfer assistant closes the stay, opens the new one and produces the two annexes the insurer expects.
+Move a resident between sectors (MR, MRS, day care) in WideCare: the internal transfer assistant closes the stay, opens the new one and produces the two annexes the insurer expects.
 :::
 
 :::{rh-faq}
@@ -28,7 +29,7 @@ way round, or to day care). For the insurer this is not a detail of internal
 organisation: it ends one intervention and starts another, and it takes **two
 documents** to make it official.
 
-Resthome does it in one step: from the resident's current stay, open **Internal
+WideCare does it in one step: from the resident's current stay, open **Internal
 Transfer**.
 
 :::{admonition} Why the sector field is read-only on the stay
@@ -69,7 +70,7 @@ billed twice.
 :class: note
 
 Ending a stay and opening one normally each trigger their own eAgreement
-request. During a transfer, Resthome suppresses those automatic requests — you
+request. During a transfer, WideCare suppresses those automatic requests — you
 get exactly the two transfer documents, in the right order, and nothing else.
 :::
 
@@ -100,7 +101,7 @@ If you cancel the stay a transfer opened, the transfer never happened — and th
 two annexes it created must not stay in the queue waiting to declare a move to
 the insurer that will not take place.
 
-Resthome cleans up on its own, but the rule depends on whether the annex has
+WideCare cleans up on its own, but the rule depends on whether the annex has
 already left:
 
 - **Still in draft** — the pair is **removed**, and the resident's thread records
@@ -112,11 +113,11 @@ already left:
 :::{admonition} A sent annexe is retracted with the insurer, not in the software
 :class: warning
 
-Resthome will never silently delete a declaration the insurer has already
+WideCare will never silently delete a declaration the insurer has already
 received. If the transfer annexe went out and the transfer is cancelled, the
 insurer holds a move that did not happen: **contact them** to correct it. The
 same rule applies when you reopen a stay whose end-of-stay annexe was already
-sent — Resthome then refuses the reopening outright rather than leaving a
+sent — WideCare then refuses the reopening outright rather than leaving a
 contradiction.
 :::
 

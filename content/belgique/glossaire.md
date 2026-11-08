@@ -1,11 +1,12 @@
 ---
 modules: []
+sectors: [mr, csj, rs, gp]
 ---
 
 # Glossary — Belgium
 
 :::{rh-description}
-Glossary of the Belgian terms and acronyms used in Resthome and in Belgian nursing-home billing: INAMI, approval, Katz, NISS, eID, OA, MDA, eFact, eAgreement, eHealthBox, CoBRHA, MediPrima, annexes, AViQ, CPAS.
+Glossary of the Belgian terms and acronyms used in WideCare and in Belgian nursing-home billing: INAMI, approval, Katz, NISS, eID, OA, MDA, eFact, eAgreement, eHealthBox, CoBRHA, MediPrima, annexes, AViQ, CPAS.
 :::
 
 The terms and acronyms that come from **Belgian** rules and institutions,
@@ -75,7 +76,7 @@ See: [Medication rules in Belgium](medicaments-regles.md)
 ## CoBRHA
 
 The federal register of the **healthcare professionals and institutions**, kept by
-eHealth. Resthome looks a NIHII up there and keeps the answer 30 days, for example to
+eHealth. WideCare looks a NIHII up there and keeps the answer 30 days, for example to
 name a resident's reference pharmacy or general practitioner.
 See: [Health Directory and CoBRHA](ehealth/annuaire-sante.md)
 
@@ -109,7 +110,7 @@ See: [Agreements (eAgreement)](ehealth/eagreement.md)
 ## eAgreement Light
 
 The **simple notifications** tied to the resident's **movements** (admission, absence,
-departure, return) that Resthome generates automatically as you work.
+departure, return) that WideCare generates automatically as you work.
 See: [Agreements (eAgreement)](ehealth/eagreement.md)
 
 ## eHealth consent
@@ -139,7 +140,7 @@ See: [Electronic invoicing (eFact)](ehealth/efact.md)
 
 ## eFact batch
 
-An **electronic file** grouping the packages of one eFact transmission. Resthome builds
+An **electronic file** grouping the packages of one eFact transmission. WideCare builds
 **one batch per insurer union**.
 See: [Electronic invoicing (eFact)](ehealth/efact.md)
 
@@ -151,7 +152,7 @@ See: [Electronic invoicing (eFact)](ehealth/efact.md)
 
 ## eHealth
 
-Belgian platform for **secure electronic exchanges** in healthcare. Resthome uses it for
+Belgian platform for **secure electronic exchanges** in healthcare. WideCare uses it for
 the MDA, the eAgreement and eFact (via MyCareNet / WalCareNet).
 See: [eHealth](ehealth/index.md)
 
@@ -230,7 +231,7 @@ See: [Admitting a resident in Belgium](admission.md)
 
 ## MyCareNet / WalCareNet
 
-The health insurance funds' **electronic gateways** (via eHealth) that Resthome queries
+The health insurance funds' **electronic gateways** (via eHealth) that WideCare queries
 for the MDA, the eAgreement and eFact. WalCareNet is the Walloon counterpart.
 
 ## NISS
@@ -291,7 +292,7 @@ See: [The SAM medication database](sam-base-medicaments.md)
 ## Sends to check
 
 The list of sendings to MyCareNet whose answer was lost (time-out, interruption).
-Resthome never resends them on its own: you say whether MyCareNet received them, in
+WideCare never resends them on its own: you say whether MyCareNet received them, in
 **eHealth → Configuration → Sends to check**.
 See: [eHealth](ehealth/index.md)
 

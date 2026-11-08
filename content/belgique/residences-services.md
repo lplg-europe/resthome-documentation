@@ -1,5 +1,6 @@
 ---
 modules: [l10n_health_be_serviced_living, l10n_health_be_serviced_living_perdiem]
+sectors: [rs]
 ---
 
 # Serviced residences in Belgium

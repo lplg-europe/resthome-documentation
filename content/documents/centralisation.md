@@ -1,5 +1,6 @@
 ---
 modules: [resthome_documents]
+sectors: [mr, csj]
 ---
 
 # Automatic centralization of attachments
@@ -45,7 +46,7 @@ folder are created automatically.
 ## How it works
 
 As soon as a file is attached to a resident — **on a message of the discussion
-thread** or **directly on their record** — Resthome files it in that resident's
+thread** or **directly on their record** — WideCare files it in that resident's
 folder.
 
 ```mermaid
@@ -91,7 +92,7 @@ the top of the record.
 
 ## Default tags
 
-With Odoo's Documents app, Resthome applies the facility's **default tags** to
+With Odoo's Documents app, WideCare applies the facility's **default tags** to
 every centralized document. They let you **filter** and **find** documents
 quickly. The predefined tags
 (**Medical form**, **Stay agreement**, **Billing**, **GDPR consent**, **End of

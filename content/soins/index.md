@@ -1,11 +1,12 @@
 ---
 modules: [healthcare_medical, healthcare_medical_accommodation, resthome_geriatric]
+sectors: [mr, csj]
 ---
 
 # Care
 
 :::{rh-description}
-The Nursing Care and Care Tasks apps of Resthome: medical record, care plans, care tasks, observations, multidisciplinary meetings and clinical registers for the follow-up of residents.
+The Nursing Care and Care Tasks apps of WideCare: medical record, care plans, care tasks, observations, multidisciplinary meetings and clinical registers for the follow-up of residents.
 :::
 
 :::{toctree}
@@ -29,7 +30,7 @@ configuration-soins
 :::
 
 :::{rh-faq}
-Which apps cover care in Resthome?
+Which apps cover care in WideCare?
 : Two apps. **Nursing Care** holds the clinical work: the dashboard, the resident's record, observations, assessments, care plans, meetings, registers, medicines and reports. **Care Tasks** is the worklist of the shift: today's care, the care assigned to you and the care still to assign.
 
 Who can open the care apps?
@@ -39,7 +40,7 @@ Where do I start my shift?
 : On the **Dashboard** of the Nursing Care app. It shows what needs a hand now, today's agenda and the residents to keep an eye on, for the whole house or for one sector.
 :::
 
-The care side of Resthome is split into two apps that share the same data:
+The care side of WideCare is split into two apps that share the same data:
 
 - **Nursing Care** — the clinical workspace: the dashboard, the resident's
   record, observations, assessments, care plans, multidisciplinary meetings,

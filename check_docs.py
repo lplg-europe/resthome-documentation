@@ -10,6 +10,8 @@ Vérifie chaque page de content/ :
   - pas de terme propre à un pays dans une page COMMUNE (hors espace pays et
     hors encadré `rh-country-<code>`) : voir CONTRIBUTING.md, « Pays » ;
   - front-matter `modules:` présent, modules connus de docs-ops/modules.json
+  - front-matter `sectors:` présent, secteurs de conf.py (rh_sectors) ; le nom
+    d'un produit de secteur (Resthome) seulement dans une page de ce secteur
     (instantané du code, voir docs-ops/sync-modules.py), et PLACEMENT cohérent
     avec le code : une page commune ne documente aucun module lié à un pays,
     une page d'un espace pays documente au moins un module de ce pays.
@@ -37,8 +39,13 @@ def _conf():
 
 
 COUNTRY_SPACES = {c["space"]: c["code"] for c in _conf()["rh_countries"]}
-# Suites publiées par CE site (un site par suite — voir CONTRIBUTING.md).
-SITE_SUITES = {"platform", "resthome"}
+# Secteurs de soins (conf.py : rh_sectors) — chaque page dit lesquels elle concerne.
+SECTORS = [s["code"] for s in _conf()["rh_sectors"] if s.get("status") != "soon"]
+# Le nom « Resthome » désigne le produit des maisons de repos, et lui seul.
+SECTOR_PRODUCT = {s["code"]: s["name"] for s in _conf()["rh_sectors"] if s.get("name")}
+# Suites du graphe documentées par CE site : un seul site, un sélecteur de
+# secteur dans l'en-tête (conf.py : rh_sectors, front-matter `sectors:`).
+SITE_SUITES = {"platform", "resthome", "serviced living", "general practice"}
 MODULES = json.loads((CONTENT.parent / "docs-ops" / "modules.json").read_text(encoding="utf-8"))
 documented = {}     # module → pages qui le documentent (rapport de couverture)
 warnings = []
@@ -208,6 +215,25 @@ def coverage_report():
     print(f"couverture : {done}/{total} modules documentés → docs-ops/coverage.md")
 
 
+def check_sectors(rel, meta, body):
+    """`sectors:` obligatoire, codes connus ; le nom d'un produit de secteur
+    (Resthome) seulement dans une page de ce seul secteur."""
+    secs = meta.get("sectors")
+    if not secs:
+        errors.append(f"{rel}: pas de `sectors:` en front-matter (secteurs concernés : "
+                      f"{', '.join(SECTORS)})")
+        return
+    for c in secs:
+        if c not in SECTORS:
+            errors.append(f"{rel}: secteur inconnu `{c}` (conf.py : rh_sectors)")
+    if rel in ("index.md", "widecare.md"):
+        return
+    for code, name in SECTOR_PRODUCT.items():
+        if secs != [code] and re.search(rf"\b{name}\b", body):
+            errors.append(f"{rel}: « {name} » est le produit du seul secteur `{code}` ; "
+                          f"cette page concerne {', '.join(secs)} → écrire « WideCare »")
+
+
 def check(page, text):
     rel = page.relative_to(CONTENT).as_posix()
     lines = text.splitlines()
@@ -225,6 +251,7 @@ def check(page, text):
             meta = yaml.safe_load(fm) or {}
             body = "\n".join(lines[end + 1:])
     check_modules(rel, meta)
+    check_sectors(rel, meta, body)
     check_menu_paths(rel, body)
 
     h1 = re.findall(r"^# .+", body, re.M)

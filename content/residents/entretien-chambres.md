@@ -1,5 +1,6 @@
 ---
 modules: [healthcare_accommodation, healthcare_accommodation_mobile]
+sectors: [mr]
 ---
 
 # Room housekeeping

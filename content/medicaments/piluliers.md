@@ -1,11 +1,12 @@
 ---
 modules: [healthcare_medication, healthcare_medical]
+sectors: [mr, csj]
 ---
 
 # Pillboxes and the pharmacy's sachets
 
 :::{rh-description}
-Prepare and check the residents' pillboxes in Resthome with four eyes, report an issue, take out what changed, and follow the pharmacy's sachets: delivery, recalled lot and return.
+Prepare and check the residents' pillboxes in WideCare with four eyes, report an issue, take out what changed, and follow the pharmacy's sachets: delivery, recalled lot and return.
 :::
 
 :::{rh-faq}

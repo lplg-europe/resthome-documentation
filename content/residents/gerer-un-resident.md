@@ -1,15 +1,16 @@
 ---
 modules: [healthcare_base, healthcare_accommodation, healthcare_accommodation_billing, resthome_sales]
+sectors: [mr, csj]
 ---
 
 # Manage a resident
 
 :::{rh-description}
-The resident list and record in Resthome, the admission guide, and the stay from draft to active: confirm, start, change room, end, readmit.
+The resident list and record in WideCare, the admission guide, and the stay from draft to active: confirm, start, change room, end, readmit.
 :::
 
 :::{rh-faq}
-How do I create a resident in Resthome?
+How do I create a resident in WideCare?
 : Most residents come from an admission request. To create one by hand, open **Nursing Home → Residents → All Residents**, click **New**, enter at least the name and save; then click **Create the stay** at the top of the record.
 
 What do Present, Expected and Left mean?
@@ -18,17 +19,17 @@ What do Present, Expected and Left mean?
 What is the difference between confirming and starting a stay?
 : Confirming holds the room. Starting the stay records that the resident is actually there, with the admission date and time: the stay becomes **Active** and billing runs.
 
-What does Resthome do automatically when a stay starts?
+What does WideCare do automatically when a stay starts?
 : It adds the resident to the open billing periods, creates the first accommodation invoice for residents billed in advance and opens the month's supplements envelope.
 
 How do I readmit a former resident?
 : On their record, **Stay Agreement** tab, click **Readmit**: a new stay opens, pre-filled from the last one. From an admission request, **Link to that resident** does the same.
 
 Where does the resident's dependency category come from?
-: From the dependency scale of the country pack installed. Resthome shows the category on file on the resident's card; without a country pack, no category is shown.
+: From the dependency scale of the country pack installed. WideCare shows the category on file on the resident's card; without a country pack, no category is shown.
 :::
 
-This page describes the resident in Resthome: the **list**, the **record**, and
+This page describes the resident in WideCare: the **list**, the **record**, and
 the **stay** that links them to a room, from the admission to the departure.
 
 ## The resident list
@@ -179,7 +180,7 @@ the room changes through **Change Room**, never by editing the field.
 :::{admonition} What starting the stay triggers automatically
 :class: tip
 
-When the stay starts, Resthome:
+When the stay starts, WideCare:
 
 - adds the resident to the open **billing periods**;
 - for a resident billed in advance, creates the **first accommodation invoice**

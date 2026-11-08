@@ -1,22 +1,23 @@
 ---
 modules: [healthcare_accommodation_billing]
+sectors: [mr, csj]
 ---
 
 # Month-end checklist
 
 :::{rh-description}
-The complete month-end sequence in Resthome, in order: absences, supplements, generate, invoice, close the period.
+The complete month-end sequence in WideCare, in order: absences, supplements, generate, invoice, close the period.
 :::
 
 :::{rh-faq}
-In what order should I close a billing month in Resthome?
+In what order should I close a billing month in WideCare?
 : Check the arrivals and departures, close the absences, enter the supplements, generate the period, apply any pending invoice type, create and confirm the invoices, then close the period.
 
 What happens if I forget to close an absence?
 : Billing is computed on presence days: an open absence distorts the day count and therefore the amounts. The period's Absences counter shows the absences taken into account.
 
 Can I still correct a month after invoicing?
-: Yes, but not silently. Reset the invoice to draft or issue a credit note, then refresh. Resthome never modifies a posted invoice on its own, to prevent double invoicing.
+: Yes, but not silently. Reset the invoice to draft or issue a credit note, then refresh. WideCare never modifies a posted invoice on its own, to prevent double invoicing.
 
 How do I know the month is really finished?
 : When no invoice is left in draft, no Corrections pending banner shows, and the period is Closed.
@@ -88,14 +89,14 @@ the resident in category O. The **Katz to do** counter lists them. See
 
 ### 3. Generate the period
 
-Open the month's period and click **Generate**. Resthome computes, for each
+Open the month's period and click **Generate**. WideCare computes, for each
 resident, the accommodation, the supplements and the medication — and the
 care allowance, where the country pack bills one — and applies the absences.
 
 When a resident has no active stay for the month, a **Missing active stay**
 window lists them: **Open stay** or **Create stay**, then generate again.
 
-Review the **Residents** and **Billing Lines** tabs, and any message Resthome
+Review the **Residents** and **Billing Lines** tabs, and any message WideCare
 posts in the period's thread: they are there to be acted on before invoicing,
 not after. A **yellow** row is a resident whose invoice type for the month
 changed: open it and click **Apply the Invoice Type**.
@@ -122,7 +123,7 @@ debtor — a relative, a public welfare body — receives their portion.
 :::{admonition} After this point, corrections have a cost
 :class: warning
 
-Once invoices are **posted**, Resthome no longer modifies them automatically. A
+Once invoices are **posted**, WideCare no longer modifies them automatically. A
 correction goes through a **reset to draft** or a **credit note**, then a
 refresh. This is a protection against double invoicing, not an obstacle.
 :::

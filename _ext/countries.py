@@ -13,14 +13,21 @@ Le choix du pays se fait dans l'en-tête (_static/rh-country.js) :
   - dans une page commune, un bloc `:class: rh-country-<code>` ne s'affiche que
     pour ce pays (renvoi vers ses spécificités).
 
-Au-dessus du pays, la hiérarchie WideCare : l'en-tête se lit
-« [WideCare] › [suite ▾] › [pays ▾] ». WideCare mène au portail (rh_portal,
-content/widecare.md, cartes générées par `:::{rh-suites}`) ; le menu de la
-suite liste rh_suites (celle de CE site : rh_suite_code).
+Au-dessus du pays, le SECTEUR de soins : l'en-tête se lit
+« [WideCare] › [secteur ▾] › [pays ▾] ». WideCare mène au portail (rh_portal,
+content/widecare.md, cartes générées par `:::{rh-suites}`). Chaque page déclare
+ses secteurs en front-matter (`sectors: [mr, csj]`, conf.py : rh_sectors) :
+  - sur une page, le secteur est le dernier choisi s'il la concerne, sinon le
+    premier de la page ;
+  - la barre latérale, les cartes et les listes de pages ne gardent que les
+    pages du secteur (_static/rh-country.js, d'après la carte des secteurs
+    émise dans <head>) ;
+  - un bloc `:class: rh-sector rh-sector-<code>` ne s'affiche que pour ce secteur.
 
-Émis dans <head> : <template id="rh-cs"> (menu des pays) et <template
-id="rh-suite"> (menu des suites), liens RELATIFS, que _static/rh-country.js
-place dans l'en-tête, et `data-rh-country` sur <html>.
+Émis dans <head> : <template id="rh-cs"> (menu des pays), <template
+id="rh-sector"> (menu des secteurs) et la carte page → secteurs, liens
+RELATIFS, que _static/rh-country.js place dans l'en-tête ; `data-rh-country`
+et `data-rh-sector` sur <html>.
 """
 import os
 
@@ -43,7 +50,7 @@ FLAGS = {
 
 LABELS = {
     "menu": {"en": "Country", "fr": "Pays", "nl": "Land"},
-    "suite": {"en": "Suite", "fr": "Suite", "nl": "Suite"},
+    "sector": {"en": "Care sector", "fr": "Secteur", "nl": "Sector"},
     "live": {"en": "Available", "fr": "Disponible", "nl": "Beschikbaar"},
     "soon": {"en": "Coming soon", "fr": "Bientôt", "nl": "Binnenkort"},
 }
@@ -77,6 +84,8 @@ def html_page_context(app, pagename, templatename, context, doctree):
     here = _dir(pagename) or "."
     items = []
     for c in app.config.rh_countries:
+        if c.get("status") == "soon":       # masqué tant qu'il n'est pas « live »
+            continue
         rel = os.path.relpath(c["space"], here).replace(os.sep, "/")
         rel = "./" if rel == "." else rel.rstrip("/") + "/"
         name = c["label"].get(lang, c["label"]["en"])
@@ -92,11 +101,11 @@ def html_page_context(app, pagename, templatename, context, doctree):
     tmpl = (f'<template id="rh-cs" data-page-country="{current}" '
             f'data-default="{app.config.rh_default_country}" data-menu="{menu}">'
             + "".join(items) + "</template>")
-    # En-tête « WideCare › <suite> · <métier> » (layout.html) : un site par suite.
-    tmpl += _suite_template(app, pagename, lang, here)
+    # En-tête « WideCare › [secteur ▾] › [pays ▾] » (layout.html).
+    tmpl += _sector_template(app, pagename, lang, here)
     context["metatags"] = ((context.get("metatags") or "") + "\n" + tmpl + "\n"
                            + _style(app, context.get("pathto")) + "\n"
-                           + _boot(app, current))
+                           + _boot(app, current, page_sectors(app, pagename)))
 
 
 def _rel(target, here):
@@ -104,55 +113,90 @@ def _rel(target, here):
     return "./" if rel == "." else rel.rstrip("/") + "/"
 
 
-def _suite_name(s, lang):
+def _sector_name(s, lang):
     label = s["label"].get(lang, s["label"]["en"])
-    return s.get("name") or label, label
+    return s.get("name") or "", label
 
 
-def _suite_template(app, pagename, lang, here):
-    """<template id="rh-suite"> : le fil « [WideCare] › [suite ▾] » de l'en-tête
-    (layout.html, _static/rh-country.js). « WideCare » mène au portail ; le menu
-    liste les suites — celle de CE site ouvre son accueil, une suite « bientôt »
-    ouvre le portail, qui dit où elle en est."""
+def _live_sectors(app):
+    return [s["code"] for s in app.config.rh_sectors if s.get("status") != "soon"]
+
+
+def page_sectors(app, docname):
+    """Secteurs d'une page (front-matter `sectors:`), tous si elle n'en dit rien."""
+    raw = app.env.metadata.get(docname, {}).get("sectors")
+    if raw is None:
+        return _live_sectors(app)
+    if isinstance(raw, str):
+        raw = raw.strip().strip("[]").split(",")
+    return [c.strip().strip("'\"") for c in raw if c and c.strip()]
+
+
+def sector_map(app):
+    """docname → secteurs, pour tout le site (calculé une fois par build)."""
+    cached = getattr(app, "_rh_sector_map", None)
+    if cached is None:
+        cached = {d: page_sectors(app, d) for d in sorted(app.env.found_docs)}
+        app._rh_sector_map = cached
+    return cached
+
+
+def _sector_template(app, pagename, lang, here):
+    """<template id="rh-sector"> : le menu des secteurs de l'en-tête, et la carte
+    page → secteurs que _static/rh-country.js lit pour filtrer la navigation.
+    Un secteur vivant mène à l'accueil (filtré pour lui), un secteur « bientôt »
+    au portail."""
+    import json
     portal = _rel(app.config.rh_portal, here)
     home = _rel("", here)
     items = []
-    for s in app.config.rh_suites:
-        name, label = _suite_name(s, lang)
-        mine = s["code"] == app.config.rh_suite_code
-        soon = (f'<span class="rh-soon">{LABELS["soon"].get(lang, "Coming soon")}</span>'
-                if s.get("status") == "soon" else "")
-        sub = f'<span class="rh-suite-sub">{label}</span>' if name != label else ""
+    for s in app.config.rh_sectors:
+        if s.get("status") == "soon":       # masqué tant qu'il n'est pas « live »
+            continue
+        name, label = _sector_name(s, lang)
+        live = s.get("status") != "soon"
+        soon = ("" if live else
+                f'<span class="rh-soon">{LABELS["soon"].get(lang, "Coming soon")}</span>')
+        desc = (s.get("desc") or {}).get(lang, "")
+        sub = f'<span class="rh-suite-sub">{desc}</span>' if desc else ""
+        head = f"{name} · {label}" if name else label
+        data = (f' data-sector="{s["code"]}" data-name="{name}" data-label="{label}"'
+                if live else "")
         items.append(
-            f'<a class="rh-country{" is-current" if mine else ""}" role="menuitem" '
-            f'href="{home if mine else portal}" data-suite="{s["code"]}">'
-            f'<span class="rh-country__name">{name}{sub}</span>{soon}</a>')
-    cur = next((s for s in app.config.rh_suites if s["code"] == app.config.rh_suite_code), None)
-    name, label = _suite_name(cur, lang) if cur else ("", "")
+            f'<a class="rh-country" role="menuitem" href="{home if live else portal}"{data}>'
+            f'<span class="rh-country__name">{head}{sub}</span>{soon}</a>')
     is_portal = "1" if pagename == app.config.rh_portal else ""
-    return (f'<template id="rh-suite" data-portal="{portal}" data-name="{name}" '
-            f'data-label="{label}" data-is-portal="{is_portal}" '
-            f'data-menu="{LABELS["suite"].get(lang, "Suite")}">' + "".join(items) + "</template>")
+    smap = json.dumps(sector_map(app), separators=(",", ":"))
+    return (f'<template id="rh-sector" data-portal="{portal}" data-root="{home}" '
+            f'data-is-portal="{is_portal}" data-menu="{LABELS["sector"].get(lang, "Sector")}">'
+            + "".join(items) + "</template>"
+            + f'<script id="rh-sector-map" type="application/json">{smap}</script>')
 
 
 class RhSuites(SphinxDirective):
-    """`:::{rh-suites}` — les cartes des suites WideCare, depuis conf.py
-    (rh_suites). Libellés pris dans la config, par langue : rien à traduire."""
+    """`:::{rh-suites}` — les cartes des secteurs WideCare, depuis conf.py
+    (rh_sectors). Libellés pris dans la config, par langue : rien à traduire.
+    Une carte vivante ouvre l'accueil, filtré pour son secteur."""
 
     def run(self):
         lang = self.config.language or "en"
         here = _dir(self.env.docname) or "."
         cards = []
-        for s in self.config.rh_suites:
-            name, label = _suite_name(s, lang)
+        for s in self.config.rh_sectors:
+            if s.get("status") == "soon":   # masqué tant qu'il n'est pas « live »
+                continue
+            name, label = _sector_name(s, lang)
             live = s.get("status") != "soon"
             badge = (LABELS["live"] if live else LABELS["soon"]).get(lang, "")
-            head = (f'<span class="rh-suite-card__name">{name}</span>'
-                    + (f'<span class="rh-suite-card__label">{label}</span>' if name != label else ""))
-            foot = f'<span class="rh-suite-card__badge{"" if live else " is-soon"}">{badge}</span>'
+            desc = (s.get("desc") or {}).get(lang, "")
+            title = f"{name} · {label}" if name else label
+            head = (f'<span class="rh-suite-card__name">{title}</span>'
+                    + (f'<span class="rh-suite-card__label">{desc}</span>' if desc else ""))
+            # « Disponible » n'a de sens qu'à côté d'un « Bientôt » (masqué).
+            foot = "" if live else f'<span class="rh-suite-card__badge is-soon">{badge}</span>'
             if live:
-                cards.append(f'<a class="rh-suite-card is-live" href="{_rel("", here)}">'
-                             f'{head}{foot}</a>')
+                cards.append(f'<a class="rh-suite-card is-live" href="{_rel("", here)}" '
+                             f'data-pick-sector="{s["code"]}">{head}{foot}</a>')
             else:
                 cards.append(f'<div class="rh-suite-card">{head}{foot}</div>')
         return [nodes.raw("", '<div class="rh-suite-cards">' + "".join(cards) + "</div>",
@@ -233,26 +277,38 @@ def _style(app, pathto=None):
         rules.append(f'{not_c} .md-nav__item--section:has(a[href*="{c["space"]}/"])'
                      '{display:none}')
         rules.append(f'{not_c} .rh-country-{c["code"]}{{display:none}}')
+    for code in _live_sectors(app):
+        rules.append(f'html:not([data-rh-sector="{code}"]) .rh-sector-{code}{{display:none}}')
+    # La barre latérale attend le filtre du secteur (rh-country.js) : pas de flash.
+    rules.append("html.rh-nav-pending .md-sidebar--primary .md-nav--primary{visibility:hidden}")
     return "<style>" + "".join(rules) + _nav_style(app, pathto) + "</style>"
 
 
-def _boot(app, current):
-    """Fixe le pays sur <html> dès le <head> : pays de la page, sinon le choix
-    mémorisé, sinon le pays par défaut."""
+def _boot(app, current, sectors):
+    """Fixe le pays et le secteur sur <html> dès le <head>.
+    Pays : celui de la page, sinon le choix mémorisé, sinon le pays par défaut.
+    Secteur : le choix mémorisé s'il concerne la page, sinon le premier secteur
+    de la page (mémorisé), sinon le secteur par défaut."""
     codes = [c["code"] for c in app.config.rh_countries]
-    return ("<script>(function(){var p=%r,d=%r,ok=%s,c='';"
+    return ("<script>(function(){var p=%r,d=%r,ok=%s,c='',h=document.documentElement;"
             "try{c=localStorage.getItem('rh-country')||''}catch(e){}"
             "if(p){c=p;try{localStorage.setItem('rh-country',p)}catch(e){}}"
             "if(ok.indexOf(c)<0)c=d;"
-            "document.documentElement.setAttribute('data-rh-country',c)})();</script>"
-            % (current, app.config.rh_default_country, str(codes)))
+            "h.setAttribute('data-rh-country',c);"
+            "var ps=%s,sd=%r,all=%s,s='';"
+            "try{s=localStorage.getItem('rh-sector')||''}catch(e){}"
+            "if(all.indexOf(s)<0)s=sd;"
+            "if(ps.length&&ps.indexOf(s)<0){s=ps[0];try{localStorage.setItem('rh-sector',s)}catch(e){}}"
+            "h.setAttribute('data-rh-sector',s);h.classList.add('rh-nav-pending')})();</script>"
+            % (current, app.config.rh_default_country, str(codes),
+               str(list(sectors)), app.config.rh_default_sector, str(_live_sectors(app))))
 
 
 def setup(app):
     app.add_config_value("rh_countries", [], "html")
     app.add_config_value("rh_default_country", "be", "html")
-    app.add_config_value("rh_suites", [], "html")
-    app.add_config_value("rh_suite_code", "", "html")
+    app.add_config_value("rh_sectors", [], "html")
+    app.add_config_value("rh_default_sector", "mr", "html")
     app.add_config_value("rh_portal", "widecare", "html")
     app.add_directive("rh-suites", RhSuites)
     # Première page d'un toctree de l'accueil → icône de son groupe (variable

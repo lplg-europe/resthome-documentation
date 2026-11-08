@@ -1,11 +1,12 @@
 ---
 modules: [healthcare_medical, resthome_geriatric]
+sectors: [mr, csj]
 ---
 
 # Multidisciplinary meetings
 
 :::{rh-description}
-The multidisciplinary meeting in Resthome: plan it, load the residents waiting, re-evaluate each one from a checklist of where things stand, turn decisions into care, ask for a scale as a task to plan, review records, and print the minutes.
+The multidisciplinary meeting in WideCare: plan it, load the residents waiting, re-evaluate each one from a checklist of where things stand, turn decisions into care, ask for a scale as a task to plan, review records, and print the minutes.
 :::
 
 :::{rh-faq}
@@ -26,7 +27,7 @@ Can I hold the meeting every week at the same time?
 :::
 
 The **multidisciplinary meeting** brings the team together to re-read the
-residents' situation and adjust their care plans. Resthome prepares the
+residents' situation and adjust their care plans. WideCare prepares the
 agenda, shows each resident's situation on one page, and writes the minutes.
 
 ## Find the meetings

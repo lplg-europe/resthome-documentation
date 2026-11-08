@@ -1,11 +1,12 @@
 ---
 modules: [healthcare_accommodation_billing, resthome_sales, resthome_split_billing, resthome_supplements, resthome_pocket_money]
+sectors: [mr, csj]
 ---
 
 # Billing settings
 
 :::{rh-description}
-Configure Resthome's Billing settings tab for a nursing home: automatic invoicing, billing refresh, journals, the resident fiscal position, pocket money and split billing.
+Configure WideCare's Billing settings tab for a nursing home: automatic invoicing, billing refresh, journals, the resident fiscal position, pocket money and split billing.
 :::
 
 :::{rh-faq}

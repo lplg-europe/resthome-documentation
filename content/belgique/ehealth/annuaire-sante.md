@@ -1,16 +1,17 @@
 ---
 modules: [l10n_health_be_addressbook, l10n_health_be_cobrha]
+sectors: [mr, csj]
 ---
 
 # Health Directory and CoBRHA
 
 :::{rh-description}
-Look a doctor, a nurse, a pharmacy or a hospital up in the national eHealth registers from Resthome, turn the answer into a contact, and see the names behind the NIHII numbers the mutuality returns.
+Look a doctor, a nurse, a pharmacy or a hospital up in the national eHealth registers from WideCare, turn the answer into a contact, and see the names behind the NIHII numbers the mutuality returns.
 :::
 
 :::{rh-faq}
 What is the Health Directory?
-: An application that searches the national eHealth registers of healthcare professionals and institutions, by name, NIHII, national number or company number. What comes back is kept in Resthome and becomes a contact in one click.
+: An application that searches the national eHealth registers of healthcare professionals and institutions, by name, NIHII, national number or company number. What comes back is kept in WideCare and becomes a contact in one click.
 
 How do I find a resident's general practitioner?
 : On the resident's record, click **Find in the Health Directory** under their physician. The search opens on physicians; **Contact** on a result makes them the resident's physician.
@@ -19,7 +20,7 @@ Who can use the Health Directory?
 : The users of the eHealth group, once the home's eHealth certificate is installed.
 
 What is CoBRHA?
-: The federal register behind the directory. Resthome asks it for the name of a NIHII — the reference pharmacy or the holder of the global medical file the mutuality returns — and keeps the answer 30 days.
+: The federal register behind the directory. WideCare asks it for the name of a NIHII — the reference pharmacy or the holder of the global medical file the mutuality returns — and keeps the answer 30 days.
 
 Are past searches kept?
 : Yes. Each search is kept in **Search history**, with who searched and what came back, so it can be reopened instead of asked again.
@@ -28,7 +29,7 @@ Are past searches kept?
 The **Health Directory** looks professionals and institutions up in the
 national eHealth registers: the exact name, the NIHII, the profession, the work
 address. It saves typing, and spelling mistakes, when you add a doctor, a
-pharmacy or a hospital to Resthome.
+pharmacy or a hospital to WideCare.
 
 :::{admonition} Before you start
 :class: note
@@ -84,7 +85,7 @@ The directory also opens where you need it:
 
 When the [insurability check (MDA)](mda.md) returns the NIHII of a resident's
 **reference pharmacy** or of the doctor who holds their **global medical file**,
-Resthome asks **CoBRHA**, the federal register, for the name behind the number:
+WideCare asks **CoBRHA**, the federal register, for the name behind the number:
 the **Check Insurability** window shows it. In the residents list, the
 **Pharmacy** and **DMG Holder** columns can be added from the optional columns.
 

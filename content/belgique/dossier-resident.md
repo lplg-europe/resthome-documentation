@@ -1,11 +1,12 @@
 ---
 modules: [l10n_health_be, l10n_health_be_eid, resthome_mr_billing, l10n_health_be_perdiem_ehealth, resthome_mr_ehealth, l10n_health_be_mda, resthome_geriatric_be, resthome_geriatric_mda]
+sectors: [mr, csj]
 ---
 
 # The resident's file in Belgium
 
 :::{rh-description}
-What the Belgian pack adds to the resident's file in Resthome: the NISS and the eID reading, the mutualité (OA), the MR, MRS and short-stay sectors, the Katz category and the annexes at admission and transfer.
+What the Belgian pack adds to the resident's file in WideCare: the NISS and the eID reading, the mutualité (OA), the MR, MRS and short-stay sectors, the Katz category and the annexes at admission and transfer.
 :::
 
 :::{rh-faq}
@@ -13,16 +14,16 @@ Is the NISS mandatory to create a resident?
 : No. You can create a resident without a NISS, but insurability checks (MDA) and agreements (eAgreement) cannot be sent without it, so fill it in as soon as possible.
 
 What is a BIS number?
-: The number the Crossroads Bank issues to someone who is not in the National Register — a cross-border worker, a person under MediPrima. It has the NISS shape, with the birth month shifted by 20 or 40, and eHealth accepts it where a NISS is asked. Resthome recognises it and shows it in the NISS type field.
+: The number the Crossroads Bank issues to someone who is not in the National Register — a cross-border worker, a person under MediPrima. It has the NISS shape, with the birth month shifted by 20 or 40, and eHealth accepts it where a NISS is asked. WideCare recognises it and shows it in the NISS type field.
 
 How do I fill in the identity from the eID card?
-: With a card reader and the eID reader program on the workstation, click **Read eID Card** on the admission request or on the record: Resthome fills in the identity and the NISS from the chip. See [Reading the eID card](lecture-eid.md).
+: With a card reader and the eID reader program on the workstation, click **Read eID Card** on the admission request or on the record: WideCare fills in the identity and the NISS from the chip. See [Reading the eID card](lecture-eid.md).
 
-What does Resthome do automatically when a stay starts?
+What does WideCare do automatically when a stay starts?
 : On top of the billing steps common to every country, it creates the admission eAgreement (Annexe 7) when the NISS is present.
 
 Is a short stay (court séjour) a sector?
-: No. It is a modality of an MR bed: tick Short stay on an MR stay, or choose CS at admission. Resthome refuses the short-stay flag on an MRS stay.
+: No. It is a modality of an MR bed: tick Short stay on an MR stay, or choose CS at admission. WideCare refuses the short-stay flag on an MRS stay.
 
 What happens if the resident has no validated Katz assessment?
 : They have no Katz category: no INAMI allowance is billed for them, and the billing period shows **No Katz** on their row until a Katz is validated and the period regenerated.
@@ -95,12 +96,12 @@ Before billing, check that the resident is properly insured:
 2. Run the MDA check (MyCareNet/WalCareNet insurability): **Verify
    Insurability** in the header of the record — shown once the NISS is filled
    in — or **Check MDA** on the period, for every resident at once.
-3. Resthome automatically updates the **Health Insurance** and the **BIM
+3. WideCare automatically updates the **Health Insurance** and the **BIM
    Status** where applicable.
 
 The **MDA History** button on the record lists the resident's past requests.
 
-When the mutuality reports a **palliative status**, Resthome ticks **Palliative
+When the mutuality reports a **palliative status**, WideCare ticks **Palliative
 Care** in the resident's **Wishes** tab, with its start date, and leaves a note
 in the thread. It only ever ticks the box: a status the mutuality no longer
 reports does not untick it, and a date typed by the team is kept.
@@ -120,15 +121,15 @@ The **Stay Type** of a Belgian stay is the sector the home is accredited for:
 
 A **short stay** (court séjour, 90 days at most) is not a sector: it is a
 modality of an **MR** bed, carried by the **Short stay** box. At admission,
-Resthome offers it as **CS** beside MR and MRS, and turns it into an MR stay
+WideCare offers it as **CS** beside MR and MRS, and turns it into an MR stay
 with the flag ticked. It has its own AViQ pseudo-codes (123214 to 123516), its
-own forfait, and the "Court Séjour OUI" toggle on the Annexe 7. Resthome refuses
+own forfait, and the "Court Séjour OUI" toggle on the Annexe 7. WideCare refuses
 the flag on any other sector.
 
 :::{admonition} MRS and the Katz category
 :class: warning
 
-Resthome refuses to **put or keep a stay in MRS** for a resident assessed at O
+WideCare refuses to **put or keep a stay in MRS** for a resident assessed at O
 or A — at admission and at transfer time. A room change is not blocked; the
 banner on the record and the **MRS → MR** badge flag the resident until the
 transfer is entered — see [The Katz assessment](katz.md).
@@ -166,7 +167,7 @@ The stay has two dates. The **stay start date** starts the accommodation
 billing; the **Admission Date** is the start of the **INAMI intervention** — the
 "date d'entrée" of the Annexe 7, from which the forfait is paid.
 
-| Event | What Resthome prepares for the mutualité |
+| Event | What WideCare prepares for the mutualité |
 | --- | --- |
 | **Start of the stay** | The **admission eAgreement** (Annexe 7), when the NISS is present. |
 | **Room change** | Nothing: the INAMI intervention stays continuous, the Admission Date is unchanged, no new agreement is requested. |

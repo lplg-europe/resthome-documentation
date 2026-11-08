@@ -1,5 +1,6 @@
 ---
 modules: [resthome_funding_be, resthome_reporting]
+sectors: [mr]
 ---
 
 # Simulations and live tracking

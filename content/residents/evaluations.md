@@ -1,15 +1,16 @@
 ---
 modules: [healthcare_base, healthcare_medical]
+sectors: [mr, csj]
 ---
 
 # Geriatric assessments
 
 :::{rh-description}
-Geriatric scales in the nursing home with Resthome: MMSE, Braden, MNA, OHAT, Tinetti and pain (EVA / DOLOPLUS-2) — entry, score, interpretation, validation and follow-up.
+Geriatric scales in the nursing home with WideCare: MMSE, Braden, MNA, OHAT, Tinetti and pain (EVA / DOLOPLUS-2) — entry, score, interpretation, validation and follow-up.
 :::
 
 :::{rh-faq}
-Which geriatric scales does Resthome offer?
+Which geriatric scales does WideCare offer?
 : Six: MMSE (cognition), Braden (pressure ulcer risk), MNA (nutrition), OHAT (oral health), Tinetti (balance and gait) and pain, on the EVA or DOLOPLUS-2 scale.
 
 Where do I enter a geriatric assessment?
@@ -29,7 +30,7 @@ How do I reassess a resident?
 :::
 
 Beyond the dependency assessment, which follows each country's scale,
-Resthome gathers the main **geriatric scales** of the nursing home, to measure
+WideCare gathers the main **geriatric scales** of the nursing home, to measure
 cognition, pressure ulcer risk, nutrition, oral health, falls and pain. You find
 them in two places:
 
@@ -159,7 +160,7 @@ out of the total.
 Menu: **Nursing Care → Evaluation Tools**, then **Tinetti (Balance & Gait)**.
 
 The **Tinetti** scale assesses **balance** (9 items, /16) and **gait** (/12),
-for a total out of **28**. Resthome computes both subscores and the total.
+for a total out of **28**. WideCare computes both subscores and the total.
 
 | Score | Fall risk |
 |---|---|

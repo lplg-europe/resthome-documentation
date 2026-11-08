@@ -1,6 +1,7 @@
 ---
 modules: [resthome_potentia, resthome_potentia_mobile]
 howto_auto: true
+sectors: [mr]
 ---
 
 # Capability observation (Potentia)

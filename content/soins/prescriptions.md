@@ -1,21 +1,22 @@
 ---
 modules: [healthcare_medication, healthcare_medical]
+sectors: [mr, csj]
 ---
 
 # Prescriptions
 
 :::{rh-description}
-Receive, read and confirm the physicians' prescriptions in Resthome: by e-mail or typed in, lines read off the PDF, a batch of several patients, confirmation into treatments, expiry and renewal.
+Receive, read and confirm the physicians' prescriptions in WideCare: by e-mail or typed in, lines read off the PDF, a batch of several patients, confirmation into treatments, expiry and renewal.
 :::
 
 :::{rh-faq}
-How does a prescription arrive in Resthome?
+How does a prescription arrive in WideCare?
 : Each e-mail sent to the house's prescriptions address becomes a draft prescription, its PDF beside the form. You can also create one with **New Prescription** on the Medicines workstation, or drop the PDF on a draft.
 
 What happens when I confirm a prescription?
 : Each line becomes a treatment of the resident, placed on the round from its start date. The prescription moves to **In Force**.
 
-Can Resthome read the lines of the PDF for me?
+Can WideCare read the lines of the PDF for me?
 : Yes, when **Read the lines off the PDF** is set to local OCR. The lines are filled in from the PDF and shown in yellow until checked: a nurse checks each one against the PDF before confirming.
 
 What happens when a prescription expires?
@@ -25,7 +26,7 @@ Who can confirm a prescription?
 : Nurses and physicians. A care assistant sees the treatments on the round, not the prescriptions to read.
 :::
 
-A **prescription** is the physician's document. Resthome receives it, lets a
+A **prescription** is the physician's document. WideCare receives it, lets a
 nurse check its lines, and on confirmation turns each line into a **treatment**
 of the resident — what the round gives every day. Prescriptions are handled on
 the [Medicines workstation](../medicaments/index.md) (**Nursing Care →
@@ -106,7 +107,7 @@ At the top of the form: **Prescription Date**, **Expiry Date** and
 
 ## 3. Confirm
 
-Click **Confirm**. Resthome asks for what is missing — the resident, the
+Click **Confirm**. WideCare asks for what is missing — the resident, the
 physician, at least one line, a medicine and a dose on each line. Then each
 line becomes a **treatment** of the resident, on the round from its start
 date, and the prescription moves to **In Force**. The **Treatments** smart
@@ -116,7 +117,7 @@ A line that renews a treatment ended less than a month ago (same resident, same
 medicine) keeps what the team had set on it: the intake, *not together with*,
 the pharmacy's sachets and the box.
 
-Each confirmed prescription read off its PDF teaches Resthome the medicines
+Each confirmed prescription read off its PDF teaches WideCare the medicines
 and the letterheads it recognised. See [The medicine
 catalogue](../medicaments/catalogue.md).
 

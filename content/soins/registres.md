@@ -1,15 +1,16 @@
 ---
 modules: [resthome_geriatric]
+sectors: [mr, csj]
 ---
 
 # Clinical registers
 
 :::{rh-description}
-The Resthome clinical registers — restraint, falls, continence, wounds, infections, invasive procedures and isolation — opened, re-evaluated on a rhythm, turned into planned care and closed for each resident.
+The WideCare clinical registers — restraint, falls, continence, wounds, infections, invasive procedures and isolation — opened, re-evaluated on a rhythm, turned into planned care and closed for each resident.
 :::
 
 :::{rh-faq}
-Which registers does Resthome provide?
+Which registers does WideCare provide?
 : Seven: restraint, falls, continence, wounds, infections, invasive procedures and isolation. They record **events**, over time, for one resident.
 
 Where are the registers?

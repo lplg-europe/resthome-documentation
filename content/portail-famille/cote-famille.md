@@ -1,5 +1,6 @@
 ---
 modules: [resthome_family_portal, resthome_family_portal_medical, resthome_family_portal_meal]
+sectors: [mr]
 ---
 
 # What the relative sees

@@ -1,5 +1,6 @@
 ---
 modules: [resthome_supplements, resthome_meal_supplements, healthcare_accommodation_billing, resthome_sales]
+sectors: [mr, csj]
 ---
 
 # The Supplements app
@@ -59,7 +60,7 @@ whose stay has started, and those who left while the month of their departure
 is not invoiced yet. Each card is the usual resident card (photo, name, room,
 sector, presence badges), with a basket icon "Add supplements".
 
-- **Click a resident**: Resthome directly opens the **catalog** of their
+- **Click a resident**: WideCare directly opens the **catalog** of their
   supplements envelope for the current month. You land on the entry
   grid, without going through the record.
 - In **list view**, each row shows the resident's **Open envelope** and an
@@ -114,7 +115,7 @@ one off. Each change is confirmed by a notification with an **Undo** link.
 If one of the selected residents already has this product in an **active
 convention**, the line is **not** added for them (it would be discarded
 at billing anyway) — the other residents receive it normally.
-For entry on a single resident, Resthome blocks the addition outright and
+For entry on a single resident, WideCare blocks the addition outright and
 prompts you to go through the convention.
 :::
 
@@ -139,7 +140,7 @@ The app distinguishes the two kinds of supplements already presented in
 :::{admonition} Where did my supplement go?
 :class: tip
 
-On each addition, Resthome shows a notification indicating **which
+On each addition, WideCare shows a notification indicating **which
 period(s)** the supplement was billed on — or warns you that **no open
 period** yet matches its date (it will then only be billed once the
 relevant month is generated). Check the **start date** if the

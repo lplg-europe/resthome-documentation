@@ -1,16 +1,17 @@
 ---
 modules: [resthome_day_care_ehealth]
+sectors: [csj]
 ---
 
 # The day care agreement
 
 :::{rh-description}
-The agreement of a day care user (CSJ) in Resthome: the admission request and its prefilled Annexe 14, the insurer's answer, the yearly renewal and the end of care.
+The agreement of a day care user (CSJ) in WideCare: the admission request and its prefilled Annexe 14, the insurer's answer, the yearly renewal and the end of care.
 :::
 
 :::{rh-faq}
 When is the agreement requested?
-: When the stay starts, Resthome prepares the admission request. Send it within 14 days of the admission, with its Annexe 14 and the Katz scale.
+: When the stay starts, WideCare prepares the admission request. Send it within 14 days of the admission, with its Annexe 14 and the Katz scale.
 
 What if the health insurer does not answer?
 : After 15 days of silence, the request is approved: it is recorded as a tacit agreement. A letter that arrives later replaces it.
@@ -22,7 +23,7 @@ What happens when the insurer refuses?
 : The days covered by the refusal earn no forfait: the month bills the day price only, and the forfait is never claimed for them.
 
 Do I sign the end-of-care notification?
-: No. There is no official form for it: Resthome prints the centre's own notification, and the eHealth certificate stands for its signature.
+: No. There is no official form for it: WideCare prints the centre's own notification, and the eHealth certificate stands for its signature.
 :::
 
 A day care centre is paid its forfait only for a user the health insurer has
@@ -115,7 +116,7 @@ it is granted.
 
 ## Declare the end of care
 
-When the user stops coming — the stay ends, or the user dies — Resthome
+When the user stops coming — the stay ends, or the user dies — WideCare
 prepares the end-of-care request, **csj-out**.
 
 1. Open it, and click **Generate the end-of-care notification**: the centre's

@@ -1,11 +1,12 @@
 ---
 modules: [resthome_sales, healthcare_accommodation_billing]
+sectors: [mr, csj]
 ---
 
 # Supplements
 
 :::{rh-description}
-Bill supplements in Resthome — recurring supplements on the resident's convention, one-time supplements on the monthly envelope, supplement types and automatic synchronisation.
+Bill supplements in WideCare — recurring supplements on the resident's convention, one-time supplements on the monthly envelope, supplement types and automatic synchronisation.
 :::
 
 :::{rh-faq}
@@ -27,7 +28,7 @@ What if the resident's invoice is already posted?
 
 Beyond accommodation and the care allowance, a resident may have **supplements**
 to pay: single room, television, hairdresser, pedicure, drinks, telephone…
-Resthome handles two kinds.
+WideCare handles two kinds.
 
 ## Supplement types
 

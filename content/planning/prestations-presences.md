@@ -1,5 +1,6 @@
 ---
 modules: [healthcare_work_entry_attendance]
+sectors: [mr, csj]
 ---
 
 # Work entries from attendances
@@ -27,7 +28,7 @@ Can I change the attendances of a day already validated?
 
 By default, an employee's **work entries** follow their **working schedule**:
 the hours they are supposed to work. For staff whose hours vary from day to day,
-Resthome can draw the work entries from the **attendances** they clock instead.
+WideCare can draw the work entries from the **attendances** they clock instead.
 
 :::{note}
 This option is for databases on the Community edition of Odoo. The Enterprise

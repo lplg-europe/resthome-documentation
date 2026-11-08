@@ -1,18 +1,19 @@
 ---
 modules: []
+sectors: [mr, csj, rs, gp]
 ---
 
 # France
 
 :::{rh-description}
-Resthome in France: the common applications, which work the same way in every country, and the space that will gather what comes from French rules.
+WideCare in France: the common applications, which work the same way in every country, and the space that will gather what comes from French rules.
 :::
 
 :::{rh-faq}
-Can a French care home use Resthome?
+Can a French care home use WideCare?
 : The common applications work the same way in every country: residents, admissions, care, meals, the family portal, accommodation billing. What is French — identity, insurance, invoicing to the health insurance — is not documented yet.
 
-Who do I contact to use Resthome in France?
+Who do I contact to use WideCare in France?
 : The LPLG team: see [Support](../support.md).
 :::
 

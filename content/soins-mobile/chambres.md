@@ -1,5 +1,6 @@
 ---
 modules: [healthcare_accommodation_mobile]
+sectors: [mr]
 ---
 
 # Rooms

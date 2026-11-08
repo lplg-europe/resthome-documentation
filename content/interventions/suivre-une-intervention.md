@@ -1,6 +1,7 @@
 ---
 howto_auto: true
 modules: [healthcare_accommodation_helpdesk, healthcare_inspection_helpdesk]
+sectors: [mr]
 ---
 
 # Following an intervention

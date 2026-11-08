@@ -1,11 +1,12 @@
 ---
 modules: [l10n_health_be_mda, l10n_health_be_perdiem_ehealth]
+sectors: [mr, csj]
 ---
 
 # MDA errors — causes and solutions
 
 :::{rh-description}
-Resolve MDA (insurability) errors and special cases in Resthome: incorrect NISS, unknown beneficiary, "not in order", no response, transfer, special schemes.
+Resolve MDA (insurability) errors and special cases in WideCare: incorrect NISS, unknown beneficiary, "not in order", no response, transfer, special schemes.
 :::
 
 :::{rh-faq}
@@ -18,7 +19,7 @@ What does "insured but not in order" mean?
 Why did the MDA not find the resident?
 : Either the NISS is entered incorrectly (format rejected), or it is correct but not yet known to the platform (very recent registration, special case). Check the NISS; if it is correct, contact the mutuality.
 
-What does Resthome update after a successful MDA?
+What does WideCare update after a successful MDA?
 : The actual mutuality (insurance organisation), the BIM status, the affiliation number, the identity if fields were missing, and the date of death if the organisation reports it. For a special scheme, the profile's mutuality is not overwritten.
 :::
 
@@ -39,19 +40,19 @@ or a loss of insurability discovered too late.
 
 ## MDA situations → action
 
-Reminder of the statuses Resthome may display: **Draft**, **Sent**, **Posted
+Reminder of the statuses WideCare may display: **Draft**, **Sent**, **Posted
 (Async)**, **Awaiting Response**, **Success**, **Not Insured**, **No Facet
 (closed-out)**, **Error**. Available actions: **Send (Sync)**, **Check
 Response**, **Retry**, and in the thread's toolbar **Contact OA** and **Contact
 CIN**.
 
-| Situation | What Resthome displays | Likely cause | Action |
+| Situation | What WideCare displays | Likely cause | Action |
 |---|---|---|---|
 | **NISS not recognised** | **Error**: the request is refused before reaching a mutuality | The **NISS** is entered incorrectly (transposed digit, typo): invalid format | Check the NISS (ID card), **correct it**, then **Retry**. This is the most common cause. |
 | **Beneficiary not found** | **Error**: "not found" | Well-formed NISS but **not (yet) known** to the platform (very recent registration, special case) | Confirm the NISS and the affiliation. If the number is correct: **Contact OA**; as a last resort **Contact CIN**. |
 | **Insured but "not in order"** | **Not insured** + **alert** | Existing affiliation but **invalid coverage** (unpaid contributions, file to be regularised) | Do not bill the OA for this period. **Contact OA** or the resident to regularise; bill the share **to the resident** in the meantime. |
-| **No mutuality on the record** | Non-blocking: after a successful MDA, the mutuality is **filled in automatically** | Incomplete profile (new resident) | Run the MDA: if it succeeds, Resthome **fills in** the mutuality and the affiliation number. Otherwise, re-check the NISS. |
-| **Change of mutuality (transfer)** | **Transfer detected**: the profile is **updated** | The resident has changed mutuality; the profile was out of date | Let Resthome correct the profile; **check** the new mutuality before billing. |
+| **No mutuality on the record** | Non-blocking: after a successful MDA, the mutuality is **filled in automatically** | Incomplete profile (new resident) | Run the MDA: if it succeeds, WideCare **fills in** the mutuality and the affiliation number. Otherwise, re-check the NISS. |
+| **Change of mutuality (transfer)** | **Transfer detected**: the profile is **updated** | The resident has changed mutuality; the profile was out of date | Let WideCare correct the profile; **check** the new mutuality before billing. |
 | **"No response"** | **No Facet (closed-out)** | The platform closed the request without a response — often **outside office hours** (evening/weekend) or a temporary unavailability. This is not a mistake on your part | **Retry** during business hours. If it persists, **Contact CIN**. |
 | **Technical error** | **Error** + technical detail | Temporary outage on the platform or mutuality side | **Retry** later; if the error recurs, **Contact CIN**. Do not retry in a loop. |
 | **Death reported by the mutuality** | **Date of death** on the record + alert | The OA reports a death (coverage closed) | Check and **stop billing** at the correct date. |
@@ -62,7 +63,7 @@ CIN**.
 ## Special schemes
 
 Some residents do **not** fall under the standard mutuality flow. In these
-cases, Resthome **does not overwrite** the mutuality on their profile with the
+cases, WideCare **does not overwrite** the mutuality on their profile with the
 MDA response, and billing is often done **on paper**, addressed to the actual
 payer (or to the resident), rather than through eFact.
 
@@ -97,7 +98,7 @@ with the mutuality or the organisation concerned before issuing the invoice.
       responses** (requires at least 2 residents).
 - The batch displays **counters** (Insured, Not insured, Errors, Pending,
   Deaths) to spot at a glance what remains to process.
-- **What Resthome updates** after a successful MDA: the actual **mutuality
+- **What WideCare updates** after a successful MDA: the actual **mutuality
   (OA)**, the **BIM status**, the **affiliation number**, the **identity** if
   fields were missing, and the **date of death** if the organisation reports it.
   Exception: the mutuality of a **special scheme** is not overwritten.

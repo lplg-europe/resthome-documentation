@@ -1,11 +1,12 @@
 ---
 modules: [healthcare_planning, healthcare_planning_attendance]
+sectors: [mr, csj]
 ---
 
 # Hours, balance and coverage
 
 :::{rh-description}
-Follow the staff hours in Resthome: planned hours against each contract, the hours balance, the coverage of the critical periods and, with attendances, the hours planned against the hours worked.
+Follow the staff hours in WideCare: planned hours against each contract, the hours balance, the coverage of the critical periods and, with attendances, the hours planned against the hours worked.
 :::
 
 :::{rh-faq}
@@ -88,7 +89,7 @@ schedule](construire-le-planning.md).
 
 ## Planned versus attended
 
-When the **Attendances** app is installed, Resthome sets each shift against the
+When the **Attendances** app is installed, WideCare sets each shift against the
 attendances of its staff member (managers only):
 
 - on the shift, **Worked** gives the hours of attendance within the shift, and an

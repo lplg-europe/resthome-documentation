@@ -1,15 +1,16 @@
 ---
 modules: [resthome_day_care, resthome_day_care_ehealth]
+sectors: [csj]
 ---
 
 # Day care centre (CSJ)
 
 :::{rh-description}
-The Resthome day care centre (CSJ): its own app, day places, attendance register, CSJ agreement, forfait and day price, staffing norm, care on attendance days.
+The WideCare day care centre (CSJ): its own app, day places, attendance register, CSJ agreement, forfait and day price, staffing norm, care on attendance days.
 :::
 
 :::{rh-faq}
-What is a day care centre in Resthome?
+What is a day care centre in WideCare?
 : A centre whose users live at home: they come for the day and go home at night. They hold a place in a day room, not a bed, and what they owe is decided by the days recorded in the attendance register.
 
 Does a day care centre need the rest home application?
@@ -41,7 +42,7 @@ rapports
 
 A **day care centre** (CSJ, *centre de soins de jour*) welcomes people who live
 at home: they come for the day — two or three days a week, or every day — and
-go home at night. Resthome runs it as a sector of its own, next to the rest
+go home at night. WideCare runs it as a sector of its own, next to the rest
 home or without it.
 
 ## The Day care centre app

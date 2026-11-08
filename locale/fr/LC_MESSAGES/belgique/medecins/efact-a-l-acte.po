@@ -1,0 +1,279 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) LPLG — CC BY 4.0
+# This file is distributed under the same license as the Resthome docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Resthome docs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-08 20:39+0100\n"
+"PO-Revision-Date: 2026-11-08 20:50+0100\n"
+"Last-Translator: LPLG\n"
+"Language-Team: fr <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:6
+msgid "eFact per act"
+msgstr "eFact à l'acte"
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:9
+msgid ""
+"Prepare the eFact file of the acts billed in third-party payment from a "
+"WideCare general practice: one batch per doctor, mutuality and day, the "
+"920000 file and its follow-up."
+msgstr ""
+"Préparez le fichier eFact des actes facturés en tiers payant depuis un "
+"cabinet de médecine générale WideCare : un lot par médecin, mutualité et "
+"jour, le fichier 920000 et son suivi."
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:13
+msgid "Which acts can be claimed in eFact?"
+msgstr "Quels actes peuvent être réclamés en eFact ?"
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:14
+msgid ""
+"The acts in third-party payment, priced, with an insurer share, and not yet "
+"in a batch."
+msgstr ""
+"Les actes en tiers payant, tarifés, avec une part de l'organisme assureur, "
+"et pas encore dans un lot."
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:16
+msgid "Why did some acts stay out of the batch?"
+msgstr "Pourquoi certains actes sont-ils restés hors du lot ?"
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:17
+msgid ""
+"One batch holds one billed month, and a doctor sends at most one file a day "
+"to each mutuality. The acts of a later month, or those beyond today's file, "
+"wait for the next batch: the batch's thread says how many."
+msgstr ""
+"Un lot contient un seul mois facturé, et un médecin envoie au plus un "
+"fichier par jour à chaque mutualité. Les actes d'un mois ultérieur, ou ceux "
+"au-delà du fichier du jour, attendent le lot suivant : le fil du lot dit "
+"combien."
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:19
+msgid "Does WideCare send the file to MyCareNet?"
+msgstr "WideCare envoie-t-il le fichier à MyCareNet ?"
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:20
+msgid ""
+"Not yet. WideCare builds and checks the 920000 file; **Mark as sent** "
+"records that it left."
+msgstr ""
+"Pas encore. WideCare construit et contrôle le fichier 920000 ; **Marquer "
+"comme envoyé** enregistre qu'il est parti."
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:22
+msgid "What must I set before the first batch?"
+msgstr "Que dois-je régler avant le premier lot ?"
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:23
+msgid ""
+"On your eHealth certificate: the **eFact profession code**, your **Agreement"
+" status** and the **eFact bank account** the mutualities pay you on."
+msgstr ""
+"Sur votre certificat eHealth : le **Code profession eFact**, votre **Statut "
+"de conventionnement** et le **Compte bancaire eFact** sur lequel les "
+"mutualités vous paient."
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:26
+msgid ""
+"In **third-party payment**, the patient pays only their personal share and "
+"the mutuality pays you the rest. WideCare gathers those acts into **eFact "
+"batches** and builds the **920000 file** of each."
+msgstr ""
+"En **tiers payant**, le patient ne paie que son ticket modérateur et la "
+"mutualité vous paie le reste. WideCare rassemble ces actes en **lots eFact**"
+" et construit le **fichier 920000** de chacun."
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:30
+msgid "Before the first batch"
+msgstr "Avant le premier lot"
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:32
+msgid ""
+"On your certificate (**eHealth → Configuration → My eHealth identity**), the"
+" **eFact per act** group holds:"
+msgstr ""
+"Sur votre certificat (**eHealth → Configuration → Mon identité eHealth**), "
+"le groupe **eFact à l'acte** contient :"
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:35
+msgid ""
+"**eFact profession code**: the code of your profession in the INAMI table;"
+msgstr ""
+"**Code profession eFact** : le code de votre profession dans la table de "
+"l'INAMI ;"
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:36
+msgid ""
+"**Agreement status**: **0 - No agreement**, **1 - Adhering to the "
+"agreement**, **2 - Partially adhering** or **9 - Not adhering**;"
+msgstr ""
+"**Statut de conventionnement** : **0 - Pas de convention**, **1 - "
+"Conventionné**, **2 - Partiellement conventionné** ou **9 - Non "
+"conventionné** ;"
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:38
+msgid "**eFact bank account**: the account the mutualities pay you on."
+msgstr ""
+"**Compte bancaire eFact** : le compte sur lequel les mutualités vous paient."
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:40
+msgid "Each patient needs a mutuality on their card."
+msgstr "Chaque patient doit avoir une mutualité sur sa fiche."
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:42
+msgid "Claim the acts"
+msgstr "Réclamer les actes"
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:44
+msgid ""
+"Open **Practice → Billable Acts** and select the acts in third-party "
+"payment."
+msgstr ""
+"Ouvrez **Cabinet → Actes facturables** et sélectionnez les actes en tiers "
+"payant."
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:45
+msgid "Click **Actions → Claim in eFact**."
+msgstr "Cliquez sur **Actions → Réclamer en eFact**."
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:47
+msgid ""
+"WideCare puts the acts in today's batches, **one per doctor and per "
+"mutuality**, and opens them. An act that cannot be claimed is left aside, "
+"with the reason in the batch's thread."
+msgstr ""
+"WideCare place les actes dans les lots du jour, **un par médecin et par "
+"mutualité**, et les ouvre. Un acte qui ne peut pas être réclamé est laissé "
+"de côté, avec la raison dans le fil du lot."
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:51
+msgid "The batch"
+msgstr "Le lot"
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:53
+msgid ""
+"**eHealth → eFact per act** lists the batches: reference, envoi date, "
+"practitioner, insurer, envoi number, number of acts, amount claimed and "
+"status."
+msgstr ""
+"**eHealth → eFact à l'acte** liste les lots : référence, date d'envoi, "
+"praticien, organisme assureur, numéro d'envoi, nombre d'actes, montant "
+"réclamé et statut."
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:56
+msgid ""
+"A batch shows, under **Envoi**, the **Practitioner certificate**, the "
+"**Third-party payer NIHII**, the **Insurer** and its **OA code**; under "
+"**File**, the **Environment**, the **Bank account**, the **Patients**, the "
+"amount **Claimed from the insurer** and the **Patient shares**. The **Acts**"
+" tab lists the acts with their **eFact invoice number**."
+msgstr ""
+"Un lot affiche, sous **Envoi**, le **Certificat du praticien**, l'**INAMI du"
+" tiers payant**, l'**Organisme assureur** et son **Code OA** ; sous "
+"**Fichier**, l'**Environnement**, le **Compte bancaire**, les **Patients**, "
+"le montant **Réclamé à l'organisme assureur** et les **Parts personnelles**."
+" L'onglet **Actes** liste les actes avec leur **Numéro de facture eFact**."
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:12
+msgid "Status"
+msgstr "Statut"
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:12
+msgid "Meaning"
+msgstr "Ce que ça veut dire"
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:12
+msgid "**Draft**"
+msgstr "**Brouillon**"
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:12
+msgid "The acts are gathered."
+msgstr "Les actes sont rassemblés."
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:12
+msgid "**Generated**"
+msgstr "**Généré**"
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:12
+msgid "The 920000 file is built."
+msgstr "Le fichier 920000 est construit."
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:12
+msgid "**Sent**"
+msgstr "**Envoyé**"
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:12
+msgid "The file left."
+msgstr "Le fichier est parti."
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:12
+msgid "**Cancelled**"
+msgstr "**Annulé**"
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:12
+msgid "The acts left the batch and can be claimed again."
+msgstr "Les actes ont quitté le lot et peuvent être réclamés à nouveau."
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:71
+msgid ""
+"Click **Generate the file**. When the file cannot be built, the **Validation"
+" errors** say why: correct the acts or the patient, then click **Generate "
+"again**."
+msgstr ""
+"Cliquez sur **Générer le fichier**. Quand le fichier ne peut pas être "
+"construit, les **Erreurs de validation** disent pourquoi : corrigez les "
+"actes ou le patient, puis cliquez sur **Générer à nouveau**."
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:74
+msgid "Download the **920000 file**."
+msgstr "Téléchargez le **Fichier 920000**."
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:75
+msgid "Once the file has left, click **Mark as sent**."
+msgstr "Une fois le fichier parti, cliquez sur **Marquer comme envoyé**."
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:77
+msgid ""
+"**Reset to Draft** brings a generated batch back to draft; **Cancel** frees "
+"its acts, until it is sent."
+msgstr ""
+"**Remettre en brouillon** ramène un lot généré en brouillon ; **Annuler** "
+"libère ses actes, tant qu'il n'est pas envoyé."
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:80
+msgid "Sending and answers"
+msgstr "Envoi et réponses"
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:83
+msgid ""
+"WideCare builds and checks the file; it does not send it to MyCareNet nor "
+"read the mutualities' answers yet. The approvals of WideCare for the general"
+" practitioners' eFact are in preparation."
+msgstr ""
+"WideCare construit et contrôle le fichier ; il ne l'envoie pas encore à "
+"MyCareNet et ne lit pas encore les réponses des mutualités. Les agréments de"
+" WideCare pour l'eFact des médecins généralistes sont en préparation."
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:88
+msgid "What's next"
+msgstr "Pour continuer"
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:90
+msgid "[Per-act billing](../../medecins/facturation-a-l-acte.md)"
+msgstr "[Facturation à l'acte](../../medecins/facturation-a-l-acte.md)"
+
+#: ../../content/belgique/medecins/efact-a-l-acte.md:91
+msgid "[The INAMI nomenclature](nomenclature.md)"
+msgstr "[La nomenclature INAMI](nomenclature.md)"

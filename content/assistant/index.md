@@ -1,11 +1,12 @@
 ---
 modules: [widecare_ai]
+sectors: [mr, csj, rs, gp]
 ---
 
 # WideCare AI assistant
 
 :::{rh-description}
-Ask the WideCare documentation a question without leaving Resthome: the assistant answers with the relevant passages and a link to each page they come from.
+Ask the WideCare documentation a question without leaving WideCare: the assistant answers with the relevant passages and a link to each page they come from.
 :::
 
 :::{rh-faq}
@@ -22,7 +23,7 @@ What happens when the daily limit of written answers is reached?
 : The assistant falls back to the documentation search, which always answers.
 :::
 
-The **WideCare AI** assistant answers "how do I do this?" from inside Resthome. It
+The **WideCare AI** assistant answers "how do I do this?" from inside WideCare. It
 knows one thing only: the published WideCare documentation. Every answer shows
 the pages it comes from.
 

@@ -1,11 +1,12 @@
 ---
 modules: [resthome_meal_mobile]
+sectors: [mr, csj]
 ---
 
 # Meals and drinks in the care app
 
 :::{rh-description}
-Record the meal round and the residents' drinks on a phone with the Resthome care app: served, refused, later, absent, the amount eaten and each glass.
+Record the meal round and the residents' drinks on a phone with the WideCare care app: served, refused, later, absent, the amount eaten and each glass.
 :::
 
 :::{rh-faq}

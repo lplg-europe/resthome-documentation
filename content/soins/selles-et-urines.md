@@ -1,11 +1,12 @@
 ---
 modules: [healthcare_medical]
+sectors: [mr, csj]
 ---
 
 # Stools and urine
 
 :::{rh-description}
-The stools and urine follow-up in Resthome: record each passage or its absence, the Bristol type and the volume, and see at a glance which residents are to watch or in alert.
+The stools and urine follow-up in WideCare: record each passage or its absence, the Bristol type and the volume, and see at a glance which residents are to watch or in alert.
 :::
 
 :::{rh-faq}

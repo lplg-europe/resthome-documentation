@@ -1,18 +1,19 @@
 ---
 modules: [l10n_health_be_ehealthbox_medication]
+sectors: [mr, csj]
 ---
 
 # Prescriptions through the eHealthBox
 
 :::{rh-description}
-In Belgium, a physician's prescription sent to the house's eHealthBox becomes a draft prescription in Resthome, and the renewal of a prescription is asked from the physician's eHealthBox.
+In Belgium, a physician's prescription sent to the house's eHealthBox becomes a draft prescription in WideCare, and the renewal of a prescription is asked from the physician's eHealthBox.
 :::
 
 :::{rh-faq}
 What happens when a physician sends a prescription to the house's eHealthBox?
 : The message becomes a draft prescription, as an e-mail to the prescriptions address does: its PDF beside the form, its lines read where the house reads them, for a nurse to check before confirming.
 
-How does Resthome know which resident the prescription is for?
+How does WideCare know which resident the prescription is for?
 : By the national number sealed with the message. The physician is recognised by the INAMI number of the box the message came from. Nothing is guessed from the subject.
 
 What if a message does not become a prescription?
@@ -26,7 +27,7 @@ Where do I read the house's eHealthBox?
 :::
 
 Belgian physicians can send their prescriptions to the house's **eHealthBox**,
-the secure mailbox of the eHealth platform. Resthome turns these messages into
+the secure mailbox of the eHealth platform. WideCare turns these messages into
 draft [prescriptions](../soins/prescriptions.md), and asks the renewals through
 the same channel. This works automatically as soon as the house uses the
 eHealthBox and the medication circuit.

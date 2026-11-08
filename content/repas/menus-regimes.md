@@ -1,34 +1,35 @@
 ---
 modules: [resthome_meal]
+sectors: [mr, csj, rs]
 ---
 
 # Menus, diets and allergies
 
 :::{rh-description}
-Build the menu of each meal, confirm it so the places are laid, and record each resident's diets and food allergies so Resthome flags the plates that do not suit them.
+Build the menu of each meal, confirm it so the places are laid, and record each resident's diets and food allergies so WideCare flags the plates that do not suit them.
 :::
 
 :::{rh-faq}
-How do I build a menu in Resthome?
+How do I build a menu in WideCare?
 : In **Meals → Operations → Menus**, create one menu per meal type and per day, add the dishes in the **Dishes** tab, then click **Confirm**.
 
 What does Confirm do?
 : It lays a place (a meal service) for every resident served at that meal, with the menu's dishes. Residents in hospital or away that day get no place.
 
 A resident arrived after the menu was confirmed. What do I do?
-: Open the menu and click **Lay Missing Couverts**: Resthome lays the places still missing and opens the list.
+: Open the menu and click **Lay Missing Couverts**: WideCare lays the places still missing and opens the list.
 
 Can I change a dish after confirming?
 : Yes. The places nobody has served yet follow the new dishes. A plate already served or refused, or a dish changed for one resident, is left as it is.
 
-How does Resthome handle diets and allergies?
-: Each resident has their diets, food allergies and texture. Resthome compares them with each dish served and raises a warning or a critical alert, listed in **Dietary Alerts**.
+How does WideCare handle diets and allergies?
+: Each resident has their diets, food allergies and texture. WideCare compares them with each dish served and raises a warning or a critical alert, listed in **Dietary Alerts**.
 :::
 
 Each meal of the day has its **menu**: the dishes the kitchen serves at
 breakfast, lunch, dinner or a snack. Once the menu is **confirmed**, every
 resident served at that meal gets their **place** (a meal service), and
-Resthome checks each plate against the resident's **diets**, **allergies** and
+WideCare checks each plate against the resident's **diets**, **allergies** and
 **texture**.
 
 ## Meal types
@@ -91,7 +92,7 @@ for that resident, keeps its own dishes.
 :class: note
 
 A menu in the **Served** status cannot be deleted, nor can a plate already
-served or refused: Resthome keeps them. Correct the record instead.
+served or refused: WideCare keeps them. Correct the record instead.
 :::
 
 ## Diets
@@ -104,7 +105,7 @@ diet:
   example DIAB).
 - **Restrictions** — **Salt-Free**, **Sugar-Free**, **Low Fat**,
   **Gluten-Free**, **Lactose-Free**, **Vegetarian**, **Halal**, **Kosher**.
-  Resthome uses them to check the dishes.
+  WideCare uses them to check the dishes.
 - The **Residents** button lists the residents on that diet.
 
 A resident can have **several diets** at once (diabetic and low salt, for
@@ -113,7 +114,7 @@ Textures**, or on their care plan (see below).
 
 :::{tip}
 On a pathology of the catalogue, the **Dietary Regimes** tab lists the diets to
-suggest: when that pathology is diagnosed, Resthome adds them to the resident's
+suggest: when that pathology is diagnosed, WideCare adds them to the resident's
 diets.
 :::
 
@@ -138,7 +139,7 @@ what the kitchen reads, and the change is written in the plan's history.
 
 ## Dietary alerts
 
-For every place laid, Resthome compares the dishes with the resident's profile:
+For every place laid, WideCare compares the dishes with the resident's profile:
 
 | What is checked | Result |
 | --- | --- |
@@ -160,7 +161,7 @@ the critical ones.
 :::{admonition} A critical alert blocks the plate
 :class: warning
 
-Resthome **refuses to mark as served** a plate with a critical alert. Change
+WideCare **refuses to mark as served** a plate with a critical alert. Change
 the dish first: on the meal service, the **Compatible Dishes** button lists the
 dishes of the catalogue that raise no warning for this resident. See [The meal
 round](distribution.md).

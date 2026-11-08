@@ -1,22 +1,23 @@
 ---
 modules: [resthome_meal]
+sectors: [mr, csj, rs]
 ---
 
 # Dishes and nutritional values
 
 :::{rh-description}
-Describe each dish once in the Resthome catalogue: ingredients, nutritional values per portion, dietary flags, allergens and the textures it can be served in.
+Describe each dish once in the WideCare catalogue: ingredients, nutritional values per portion, dietary flags, allergens and the textures it can be served in.
 :::
 
 :::{rh-faq}
 Do I have to enter the calories of every dish by hand?
-: No. Add the ingredients with their quantity in grams, then click **Compute Nutrition**: Resthome looks up the values per 100 g in the reference table chosen in the settings and adds them up.
+: No. Add the ingredients with their quantity in grams, then click **Compute Nutrition**: WideCare looks up the values per 100 g in the reference table chosen in the settings and adds them up.
 
 Why does a resident's intake stay at zero?
 : The intake is computed from the values **per portion**. Check that the dishes served carry their nutritional values and the right **Portions per Recipe**.
 
 What does Available Textures change?
-: It says in which textures the kitchen can prepare the dish. Left empty, the dish is offered in every texture. Resthome uses it to warn when a dish does not suit a resident's texture.
+: It says in which textures the kitchen can prepare the dish. Left empty, the dish is offered in every texture. WideCare uses it to warn when a dish does not suit a resident's texture.
 :::
 
 A dish is described **once** in the catalogue, then reused in every menu. Its
@@ -63,7 +64,7 @@ carbohydrates, fat, sugar and salt).
 :::{admonition} The intake comes from the portion
 :class: tip
 
-When a resident eats half a plate, Resthome counts half of the **per portion**
+When a resident eats half a plate, WideCare counts half of the **per portion**
 values of the dishes served. A dish without values or with the wrong number of
 portions gives a wrong intake.
 :::
@@ -75,7 +76,7 @@ settings](../configuration/reglages-repas.md).
 ### Diets and allergens
 
 - **Dietary Flags** — **Diabetic Safe**, **Low Salt**, **Gluten Free**,
-  **Vegetarian**, **Halal**. Resthome compares them with the residents' diets.
+  **Vegetarian**, **Halal**. WideCare compares them with the residents' diets.
 - **Contains allergens** — the allergens of the dish.
 - **Compatible with diets** — the diets this dish suits.
 

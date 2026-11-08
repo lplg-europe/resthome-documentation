@@ -1,5 +1,6 @@
 ---
 modules: [healthcare_mobile_care, healthcare_medical]
+sectors: [mr, csj]
 ---
 
 # Stools and urine

@@ -1,11 +1,12 @@
 ---
 modules: [healthcare_medical]
+sectors: [mr, csj]
 ---
 
 # Care configuration
 
 :::{rh-description}
-Configure care in Resthome: the settings, the care types and activities with who may do them, the periods of the day, the tags, the outcome reasons, the observation types and the care plan templates.
+Configure care in WideCare: the settings, the care types and activities with who may do them, the periods of the day, the tags, the outcome reasons, the observation types and the care plan templates.
 :::
 
 :::{rh-faq}
@@ -91,7 +92,7 @@ managers). A template holds:
 - **What this template assumes**, shown before applying it;
 - the **Objectives** and the **Cares** it adds to a plan.
 
-Resthome comes with sample templates — falls, undernutrition, pressure sores,
+WideCare comes with sample templates — falls, undernutrition, pressure sores,
 cognitive disorders, end of life, life project — to adapt. Applying a template
 is described under [Care plans](plans-de-soins.md).
 

@@ -1,5 +1,6 @@
 ---
 modules: [l10n_health_be_consent]
+sectors: [gp]
 ---
 
 # eHealth consent
@@ -24,7 +25,7 @@ Can a consent be withdrawn?
 
 Before caregivers share a patient's health data through the eHealth platform,
 the patient must give their **informed consent**. It is registered once, at
-eHealth, and holds for every caregiver who treats them. Resthome checks it,
+eHealth, and holds for every caregiver who treats them. WideCare checks it,
 registers it and revokes it from the resident's record.
 
 :::{admonition} Before you start

@@ -1,6 +1,7 @@
 ---
 howto_auto: true
 modules: [resthome_pocket_money]
+sectors: [mr]
 ---
 
 # Setting up pocket money

@@ -1,11 +1,12 @@
 ---
 modules: [healthcare_planning]
+sectors: [mr, csj]
 ---
 
 # Shifts for the staff
 
 :::{rh-description}
-How care staff read their shifts in Resthome — in My shifts, in the schedule email and on a personal page for the phone — and take an open shift of their role.
+How care staff read their shifts in WideCare — in My shifts, in the schedule email and on a personal page for the phone — and take an open shift of their role.
 :::
 
 :::{rh-faq}
@@ -61,7 +62,7 @@ An **open shift** is a confirmed shift that still has nobody. When the setting
 The shift is yours at once, and its history notes who took it. The list opens on
 the **Upcoming** shifts: a shift that has started can no longer be taken.
 
-Resthome refuses the shift when:
+WideCare refuses the shift when:
 
 - it is already taken, not published yet or already started;
 - it asks for a role you do not hold;

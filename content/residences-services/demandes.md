@@ -1,6 +1,7 @@
 ---
 howto_auto: true
 modules: [serviced_living_call]
+sectors: [rs]
 ---
 
 # Service requests

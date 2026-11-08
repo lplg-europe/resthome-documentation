@@ -1,11 +1,12 @@
 ---
 modules: [l10n_health_be_perdiem_billing, resthome_mr_billing, l10n_health_be, resthome_geriatric_be, l10n_health_be_sam, resthome_documents]
+sectors: [mr, csj]
 ---
 
 # Belgian settings
 
 :::{rh-description}
-The settings the Belgian pack adds to Resthome: the approvals and their INAMI numbers, the INAMI Journal, the Cc accreditation, the INAMI rates and pseudo-codes, health insurers and CPAS.
+The settings the Belgian pack adds to WideCare: the approvals and their INAMI numbers, the INAMI Journal, the Cc accreditation, the INAMI rates and pseudo-codes, health insurers and CPAS.
 :::
 
 :::{rh-faq}
@@ -19,7 +20,7 @@ When should the Cc accreditation be ticked?
 : Only if your facility holds the accreditation that authorizes billing the Ccoma coma allowance. Without this accreditation, a resident classified as Ccoma cannot be billed via eFact; accommodation, however, is still billed. This is a facility-specific value.
 
 What is the Katz activity assignee for?
-: It is the user to whom Resthome assigns the "New Katz required" activity when a readmission after hospitalization exceeds 30 days. If the field is empty, the activity goes to the current user if they are clinical, otherwise to the first head nurse, nurse or doctor found.
+: It is the user to whom WideCare assigns the "New Katz required" activity when a readmission after hospitalization exceeds 30 days. If the field is empty, the activity goes to the current user if they are clinical, otherwise to the first head nurse, nurse or doctor found.
 
 Where do I record the INAMI number and the approvals of the home?
 : In **Healthcare → Configuration → General → Approvals** (also reachable from **Manage approvals** in the settings). One approval per INAMI number, with one line per approved sector (MR, MRS, CSJ) and the number of beds or places it covers.
@@ -58,7 +59,7 @@ at start-up.
 
 *Healthcare → Configuration → General → Approvals.* The home is licensed by
 sector: **MR** (rest home), **MRS** (rest and care home) and, for a day care
-centre, **CSJ**. Resthome records these sectors on the **approval** of the
+centre, **CSJ**. WideCare records these sectors on the **approval** of the
 INAMI number they were granted to. A company holds one approval per type of
 establishment: a rest home and a day care centre make two; a second site of the
 same type is a branch or another company.
@@ -116,7 +117,7 @@ certificate, the CIN license and the health-insurer credentials are set in the
 
 ### INAMI Journal
 
-Resthome issues **two streams** of invoices: the **insurer share** (the
+WideCare issues **two streams** of invoices: the **insurer share** (the
 dependency allowance, sent to the health insurer via
 [eFact](ehealth/efact.md)) and the **resident share** (accommodation and
 supplements). Each stream goes into its own sales journal.
@@ -151,7 +152,7 @@ concerns only the **special case of the coma allowance**.
 
 ### Absence management
 
-The **AViQ presence-day rules** are **built into** Resthome and are not
+The **AViQ presence-day rules** are **built into** WideCare and are not
 configured here: the noon rule for leave, and their own thresholds for a
 hospitalization. Only the **assignee** of a follow-up activity is configurable.
 
@@ -182,7 +183,7 @@ accommodation, dated by **Start Date** and **End Date**.
 - **Generate a year**, above the list, creates the rates of a whole year from
   the amounts you enter once; **New** adds a single row.
 
-When an eFact is built for a year that has no rate yet, Resthome stops and
+When an eFact is built for a year that has no rate yet, WideCare stops and
 offers to open or create the INAMI rates of that year.
 
 *Billing → Configuration → Billing Codes.* The **pseudo-codes** the health
@@ -217,7 +218,7 @@ product, and its product category is **Declared to the OA (ET50)** (see
   suit most of them.
 - **Medical** tab: the **Hide Empty Stat Cards** setting also hides the
   **Katz renewals** card when it is at 0; the **SAM medicines** block connects
-  Resthome to the Belgian medicines database (see
+  WideCare to the Belgian medicines database (see
   [The SAM medication database](sam-base-medicaments.md)).
 - **Documents**: the ready-made tags include **Katz evaluation**, **MR/MRS
   agreement (eAgreement)**, **OA allocation** and **CPAS**, next to the common

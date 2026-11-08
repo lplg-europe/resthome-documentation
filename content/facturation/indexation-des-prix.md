@@ -1,6 +1,7 @@
 ---
 modules: [healthcare_accommodation_billing]
 howto_auto: true
+sectors: [mr, rs]
 ---
 
 # Price indexation
@@ -27,7 +28,7 @@ Can I delete the price history?
 :::
 
 Selling prices move every year: an index is published with a date, and every
-supplement price follows. Resthome records each indexation as a new price
+supplement price follows. WideCare records each indexation as a new price
 starting on its date, and keeps the previous ones. Each month is then billed at
 the price in force during that month.
 

@@ -1,18 +1,19 @@
 ---
 modules: [l10n_health_be_mda, l10n_health_be_perdiem_ehealth, resthome_geriatric_mda]
+sectors: [mr, csj]
 ---
 
 # Insurability (MDA)
 
 :::{rh-description}
-Check a nursing home resident's insurability via MDA (MyCareNet) in Resthome — health insurance fund, BIM status, individual or batch check.
+Check a nursing home resident's insurability via MDA (MyCareNet) in WideCare — health insurance fund, BIM status, individual or batch check.
 :::
 
 :::{rh-faq}
 How do I check a resident's insurability (MDA)?
-: From the resident's record, click **Verify Insurability**; from a billing period, **Check MDA**. Resthome queries MyCareNet/WalCareNet and confirms coverage, as an individual check (immediate) or as a batch for a whole period.
+: From the resident's record, click **Verify Insurability**; from a billing period, **Check MDA**. WideCare queries MyCareNet/WalCareNet and confirms coverage, as an individual check (immediate) or as a batch for a whole period.
 
-What does Resthome update after a successful MDA?
+What does WideCare update after a successful MDA?
 : The actual health insurance fund (insurer), the BIM status, the membership number, and the date of death if the insurer reports it. Date of birth and sex are overwritten with the insurer's values — a birth date that disagrees with the NISS gets the eFact rejected — and each change is listed in the resident's thread.
 
 Why can't I edit a resident's date of birth any more?
@@ -47,7 +48,7 @@ Menu: **eHealth → Insurability → MDA Requests** (and **MDA Batches**).
   by the OA, and depending on the request, the **reference pharmacy**, the **DMG**,
   the **palliative status**, or a **hospitalization**.
 
-When the mutuality reports a **palliative status**, Resthome ticks **Palliative
+When the mutuality reports a **palliative status**, WideCare ticks **Palliative
 Care** in the resident's **Wishes** tab, with its start date, and notes it once
 in the resident's thread. It only ever ticks: a status no longer reported does
 not untick it, and a date typed by the team is kept. A simulated (stub) answer is
@@ -57,7 +58,7 @@ ignored.
 :class: warning
 
 If the beneficiary codes come back as zero (insured but unpaid contributions /
-a problematic file), Resthome shows an **alert**: the resident is affiliated but
+a problematic file), WideCare shows an **alert**: the resident is affiliated but
 **not in order**. Clarify this with them or their health insurance fund before
 billing the OA.
 :::
@@ -75,7 +76,7 @@ The **profile's health insurance fund** isn't blocking (the actual OA is
 identified by the response), but filling it in helps spot changes.
 :::
 
-Resthome also applies automatic period rules: the end must be after the start, at
+WideCare also applies automatic period rules: the end must be after the start, at
 most **5 years** of history, and a standard MDA doesn't go beyond the current month.
 
 ## Individual check
@@ -155,12 +156,12 @@ Async**, **Check Responses**, **Retry Errors** and **Retry No-Facet**.
 :::{admonition} A sending without a certain answer is never resent on its own
 :class: note
 
-If the answer to a sending is lost (time-out, interruption), Resthome does not
+If the answer to a sending is lost (time-out, interruption), WideCare does not
 resend it automatically: it lists it under **eHealth → Configuration → Sends to
 check**, where you say whether MyCareNet received it — see [eHealth](index.md).
 :::
 
-## What Resthome updates automatically
+## What WideCare updates automatically
 
 After a successful response, the resident record is **corrected automatically**:
 
@@ -178,14 +179,14 @@ deliberate: a birth date that disagrees with the NISS gets the **eFact rejected*
 and a typo entered at admission would otherwise survive every check — the operator
 believing the MDA had validated the file. The insurer applies the same rule.
 
-When an existing value changes, Resthome posts **MDA — identity corrected** in the
+When an existing value changes, WideCare posts **MDA — identity corrected** in the
 resident's thread, listing each change as ~~old~~ → **new**. Nothing moves silently.
 
 :::{admonition} The date of death is the exception
 :class: note
 
 If the insurer reports a **date of death** that differs from the one on file,
-Resthome **does not** overwrite it: it posts *"MDA — date of death differs"* and
+WideCare **does not** overwrite it: it posts *"MDA — date of death differs"* and
 leaves you to arbitrate. That date closes the stay and caps the allowance — too
 consequential to change automatically.
 :::
@@ -213,19 +214,19 @@ with the insurer rather than maintaining the difference by hand.
 :class: warning
 
 For residents under a **special scheme** (INIG, EEC, Fedasil, foreign, private…),
-Resthome **does not overwrite** the profile's health insurance fund: a message
+WideCare **does not overwrite** the profile's health insurance fund: a message
 explains that the MDA response was ignored so as not to break a non-standard
 coverage.
 :::
 
 ## Reinstatement (loss then return of insurability)
 
-Resthome compares with the previous check:
+WideCare compares with the previous check:
 
 - **Not insured → insured**: a notification appears on the period, and the
   **Reinstatement** action lets you move the lines that had been billed to the
   resident over to the OA.
-- **Insured → not insured**: Resthome flags that the resident is "no longer in
+- **Insured → not insured**: WideCare flags that the resident is "no longer in
   order" — their dependency fee (forfait) is excluded from OA billing for the
   period and billed to the resident until they are reinstated.
 

@@ -1,11 +1,12 @@
 ---
 modules: [healthcare_base, healthcare_accommodation]
+sectors: [mr, csj]
 ---
 
 # Residents
 
 :::{rh-description}
-Managing residents in a nursing home with Resthome: the record and the stay, geriatric assessments, rooms and room changes, housekeeping, staff tasks, the move-in procedure, the condition report and private furniture.
+Managing residents in a nursing home with WideCare: the record and the stay, geriatric assessments, rooms and room changes, housekeeping, staff tasks, the move-in procedure, the condition report and private furniture.
 :::
 
 :::{toctree}

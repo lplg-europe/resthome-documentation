@@ -25,104 +25,52 @@ msgid "Insurability (MDA)"
 msgstr "Assurabilité (MDA)"
 
 #: ../../content/belgique/ehealth/mda.md:8
-msgid ""
-"Check a nursing home resident's insurability via MDA (MyCareNet) in Resthome"
-" — health insurance fund, BIM status, individual or batch check."
-msgstr ""
-"Vérifier l'assurabilité d'un habitant de maison de repos via MDA (MyCareNet)"
-" dans Resthome — mutuelle, statut BIM, contrôle individuel ou par lot."
+msgid "Check a nursing home resident's insurability via MDA (MyCareNet) in WideCare — health insurance fund, BIM status, individual or batch check."
+msgstr "Vérifier l'assurabilité d'un habitant de maison de repos via MDA (MyCareNet) dans WideCare — mutuelle, statut BIM, contrôle individuel ou par lot."
 
 #: ../../content/belgique/ehealth/mda.md:12
 msgid "How do I check a resident's insurability (MDA)?"
 msgstr "Comment vérifier l'assurabilité (MDA) d'un habitant ?"
 
 #: ../../content/belgique/ehealth/mda.md:15
-msgid "What does Resthome update after a successful MDA?"
-msgstr "Que met à jour Resthome après un MDA réussi ?"
+msgid "What does WideCare update after a successful MDA?"
+msgstr "Que met à jour WideCare après un MDA réussi ?"
 
 #: ../../content/belgique/ehealth/mda.md:16
-msgid ""
-"The actual health insurance fund (insurer), the BIM status, the membership "
-"number, and the date of death if the insurer reports it. Date of birth and "
-"sex are overwritten with the insurer's values — a birth date that disagrees "
-"with the NISS gets the eFact rejected — and each change is listed in the "
-"resident's thread."
-msgstr ""
-"La mutuelle réelle, le statut BIM, le numéro d'affilié, et la date de décès "
-"si l'organisme assureur la communique. La date de naissance et le sexe sont "
-"écrasés par les valeurs de l'organisme assureur — une date de naissance en "
-"désaccord avec le NISS fait rejeter l'eFact — et chaque changement est listé"
-" dans le fil de l'habitant."
+msgid "The actual health insurance fund (insurer), the BIM status, the membership number, and the date of death if the insurer reports it. Date of birth and sex are overwritten with the insurer's values — a birth date that disagrees with the NISS gets the eFact rejected — and each change is listed in the resident's thread."
+msgstr "La mutuelle réelle, le statut BIM, le numéro d'affilié, et la date de décès si l'organisme assureur la communique. La date de naissance et le sexe sont écrasés par les valeurs de l'organisme assureur — une date de naissance en désaccord avec le NISS fait rejeter l'eFact — et chaque changement est listé dans le fil de l'habitant."
 
 #: ../../content/belgique/ehealth/mda.md:18
 msgid "Why can't I edit a resident's date of birth any more?"
-msgstr ""
-"Pourquoi ne puis-je plus modifier la date de naissance d'un habitant ?"
+msgstr "Pourquoi ne puis-je plus modifier la date de naissance d'un habitant ?"
 
 #: ../../content/belgique/ehealth/mda.md:19
-msgid ""
-"Once an MDA reply exists, the fields it owns (name, date of birth, sex, "
-"insurer) are locked so a manual edit cannot contradict the insurer. A "
-"manager can lift the lock record by record with \"Allow manual identity "
-"edit\", but the next MDA refresh will overwrite the manual value."
-msgstr ""
-"Dès qu'une réponse MDA existe, les champs qu'elle possède (nom, date de "
-"naissance, sexe, mutuelle) sont verrouillés pour qu'une modification "
-"manuelle ne puisse pas contredire l'organisme assureur. Un manager peut "
-"lever le verrou fiche par fiche avec « Autoriser la modification manuelle de"
-" l'identité », mais le prochain rafraîchissement MDA écrasera la valeur "
-"saisie."
+msgid "Once an MDA reply exists, the fields it owns (name, date of birth, sex, insurer) are locked so a manual edit cannot contradict the insurer. A manager can lift the lock record by record with \"Allow manual identity edit\", but the next MDA refresh will overwrite the manual value."
+msgstr "Dès qu'une réponse MDA existe, les champs qu'elle possède (nom, date de naissance, sexe, mutuelle) sont verrouillés pour qu'une modification manuelle ne puisse pas contredire l'organisme assureur. Un manager peut lever le verrou fiche par fiche avec « Autoriser la modification manuelle de l'identité », mais le prochain rafraîchissement MDA écrasera la valeur saisie."
 
 #: ../../content/belgique/ehealth/mda.md:21
 msgid "What should I do if a resident isn't insured?"
 msgstr "Que faire si un habitant n'est pas assuré ?"
 
 #: ../../content/belgique/ehealth/mda.md:22
-msgid ""
-"Don't bill them under third-party payer (tiers payant) for the period, or "
-"the invoice will be rejected. Clarify the situation with the resident or "
-"their health insurance fund, and bill the amount to the resident in the "
-"meantime."
-msgstr ""
-"Ne le facturez pas en tiers payant pour la période, sinon la facture sera "
-"rejetée. Clarifiez la situation avec l'habitant ou sa mutuelle, et facturez "
-"la part à l'habitant en attendant."
+msgid "Don't bill them under third-party payer (tiers payant) for the period, or the invoice will be rejected. Clarify the situation with the resident or their health insurance fund, and bill the amount to the resident in the meantime."
+msgstr "Ne le facturez pas en tiers payant pour la période, sinon la facture sera rejetée. Clarifiez la situation avec l'habitant ou sa mutuelle, et facturez la part à l'habitant en attendant."
 
 #: ../../content/belgique/ehealth/mda.md:25
-msgid ""
-"Before billing, you must make sure the resident's **insurability is in "
-"order** and know their exact **health insurance fund**. The **MDA** queries "
-"**MyCareNet / WalCareNet** for you and retrieves up-to-date information for "
-"a given **period**. It's the essential prerequisite before sending "
-"[eFact](efact.md)."
-msgstr ""
-"Avant de facturer, il faut s'assurer que l'habitant est **en ordre "
-"d'assurabilité** et connaître sa **mutuelle** exacte. Le **MDA** interroge "
-"pour vous **MyCareNet / WalCareNet** et récupère l'information à jour, pour "
-"une **période** donnée. C'est le préalable indispensable à l'envoi "
-"[eFact](efact.md)."
+msgid "Before billing, you must make sure the resident's **insurability is in order** and know their exact **health insurance fund**. The **MDA** queries **MyCareNet / WalCareNet** for you and retrieves up-to-date information for a given **period**. It's the essential prerequisite before sending [eFact](efact.md)."
+msgstr "Avant de facturer, il faut s'assurer que l'habitant est **en ordre d'assurabilité** et connaître sa **mutuelle** exacte. Le **MDA** interroge pour vous **MyCareNet / WalCareNet** et récupère l'information à jour, pour une **période** donnée. C'est le préalable indispensable à l'envoi [eFact](efact.md)."
 
 #: ../../content/belgique/ehealth/mda.md:31
 msgid "Menu: **eHealth → Insurability → MDA Requests** (and **MDA Batches**)."
 msgstr "Menu : **eHealth → Assurabilité → Requêtes MDA** (et **Lots MDA**)."
 
 #: ../../content/belgique/ehealth/mda.md:33
-msgid ""
-"![MDA requests list: one row per request with the resident, the current and "
-"responding health insurance funds, the period and the "
-"status](../../assets/screenshots/ehealth/20-mda-liste.webp)"
-msgstr ""
-"![Liste des demandes MDA : une ligne par demande avec l'habitant, la "
-"mutuelle actuelle et celle qui a répondu, la période et "
-"l'état](../../assets/screenshots/ehealth/20-mda-liste.webp)"
+msgid "![MDA requests list: one row per request with the resident, the current and responding health insurance funds, the period and the status](../../assets/screenshots/ehealth/20-mda-liste.webp)"
+msgstr "![Liste des demandes MDA : une ligne par demande avec l'habitant, la mutuelle actuelle et celle qui a répondu, la période et l'état](../../assets/screenshots/ehealth/20-mda-liste.webp)"
 
 #: ../../content/belgique/ehealth/mda.md:33
-msgid ""
-"MDA requests list: one row per request with the resident, the current and "
-"responding health insurance funds, the period and the status"
-msgstr ""
-"Liste des demandes MDA : une ligne par demande avec l'habitant, la mutuelle "
-"actuelle et celle qui a répondu, la période et l'état"
+msgid "MDA requests list: one row per request with the resident, the current and responding health insurance funds, the period and the status"
+msgstr "Liste des demandes MDA : une ligne par demande avec l'habitant, la mutuelle actuelle et celle qui a répondu, la période et l'état"
 
 #: ../../content/belgique/ehealth/mda.md:35
 msgid "What the MDA retrieves"
@@ -133,74 +81,40 @@ msgid "**Insured or not** for the period."
 msgstr "**Assuré ou non** sur la période."
 
 #: ../../content/belgique/ehealth/mda.md:38
-msgid ""
-"The **health insurance fund (OA)** that actually responded — compared with "
-"the one on the profile (a **change** of health insurance fund is detected "
-"and flagged)."
-msgstr ""
-"La **mutuelle (OA)** qui a réellement répondu — à comparer avec celle du "
-"profil (une **mutation** de mutuelle est détectée et signalée)."
+msgid "The **health insurance fund (OA)** that actually responded — compared with the one on the profile (a **change** of health insurance fund is detected and flagged)."
+msgstr "La **mutuelle (OA)** qui a réellement répondu — à comparer avec celle du profil (une **mutation** de mutuelle est détectée et signalée)."
 
 #: ../../content/belgique/ehealth/mda.md:40
 msgid "The **BIM status** (increased reimbursement)."
 msgstr "Le **statut BIM** (intervention majorée)."
 
 #: ../../content/belgique/ehealth/mda.md:42
-msgid ""
-"![MDA request for a beneficiary with BIM status: the BIM confirmed box is "
-"ticked and the CT1/CT2 codes are those of increased "
-"reimbursement](../../assets/screenshots/ehealth/25-mda-bim.webp)"
-msgstr ""
-"![Demande MDA pour un bénéficiaire avec statut BIM : la case BIM confirmé "
-"est cochée et les codes CT1/CT2 sont ceux de l'intervention "
-"majorée](../../assets/screenshots/ehealth/25-mda-bim.webp)"
+msgid "![MDA request for a beneficiary with BIM status: the BIM confirmed box is ticked and the CT1/CT2 codes are those of increased reimbursement](../../assets/screenshots/ehealth/25-mda-bim.webp)"
+msgstr "![Demande MDA pour un bénéficiaire avec statut BIM : la case BIM confirmé est cochée et les codes CT1/CT2 sont ceux de l'intervention majorée](../../assets/screenshots/ehealth/25-mda-bim.webp)"
 
 #: ../../content/belgique/ehealth/mda.md:42
-msgid ""
-"MDA request for a beneficiary with BIM status: the BIM confirmed box is "
-"ticked and the CT1/CT2 codes are those of increased reimbursement"
-msgstr ""
-"Demande MDA pour un bénéficiaire avec statut BIM : la case BIM confirmé est "
-"cochée et les codes CT1/CT2 sont ceux de l'intervention majorée"
+msgid "MDA request for a beneficiary with BIM status: the BIM confirmed box is ticked and the CT1/CT2 codes are those of increased reimbursement"
+msgstr "Demande MDA pour un bénéficiaire avec statut BIM : la case BIM confirmé est cochée et les codes CT1/CT2 sont ceux de l'intervention majorée"
 
 #: ../../content/belgique/ehealth/mda.md:43
-msgid ""
-"The **coverage periods** (start/end dates; several sub-periods if the "
-"insurance changed during the interval)."
-msgstr ""
-"Les **périodes de couverture** (dates de début/fin ; plusieurs sous-périodes"
-" si l'assurance a changé pendant l'intervalle)."
+msgid "The **coverage periods** (start/end dates; several sub-periods if the insurance changed during the interval)."
+msgstr "Les **périodes de couverture** (dates de début/fin ; plusieurs sous-périodes si l'assurance a changé pendant l'intervalle)."
 
 #: ../../content/belgique/ehealth/mda.md:45
 msgid "The **membership number** with the health insurance fund."
 msgstr "Le **numéro d'affiliation** à la mutuelle."
 
 #: ../../content/belgique/ehealth/mda.md:46
-msgid ""
-"Where applicable: **third-party payer (tiers payant)**, **date of death** "
-"reported by the OA, and depending on the request, the **reference "
-"pharmacy**, the **DMG**, the **palliative status**, or a "
-"**hospitalization**."
-msgstr ""
-"Le cas échéant : **tiers payant**, **date de décès** signalée par l'OA, et "
-"selon la demande, la **pharmacie de référence**, le **DMG**, le **statut "
-"palliatif** ou une **hospitalisation**."
+msgid "Where applicable: **third-party payer (tiers payant)**, **date of death** reported by the OA, and depending on the request, the **reference pharmacy**, the **DMG**, the **palliative status**, or a **hospitalization**."
+msgstr "Le cas échéant : **tiers payant**, **date de décès** signalée par l'OA, et selon la demande, la **pharmacie de référence**, le **DMG**, le **statut palliatif** ou une **hospitalisation**."
 
 #: ../../content/belgique/ehealth/mda.md:56
 msgid "The \"not in order\" case"
 msgstr "Le cas « pas en ordre »"
 
 #: ../../content/belgique/ehealth/mda.md:59
-msgid ""
-"If the beneficiary codes come back as zero (insured but unpaid contributions"
-" / a problematic file), Resthome shows an **alert**: the resident is "
-"affiliated but **not in order**. Clarify this with them or their health "
-"insurance fund before billing the OA."
-msgstr ""
-"Si les codes bénéficiaire reviennent à zéro (assuré mais cotisations "
-"impayées / dossier à problème), Resthome affiche une **alerte** : l'habitant"
-" est affilié mais **pas en ordre**. À clarifier avec lui ou sa mutuelle "
-"avant de facturer à l'OA."
+msgid "If the beneficiary codes come back as zero (insured but unpaid contributions / a problematic file), WideCare shows an **alert**: the resident is affiliated but **not in order**. Clarify this with them or their health insurance fund before billing the OA."
+msgstr "Si les codes bénéficiaire reviennent à zéro (assuré mais cotisations impayées / dossier à problème), WideCare affiche une **alerte** : l'habitant est affilié mais **pas en ordre**. À clarifier avec lui ou sa mutuelle avant de facturer à l'OA."
 
 #: ../../content/belgique/ehealth/mda.md:65
 msgid "Prerequisites"
@@ -223,120 +137,64 @@ msgid "The **eHealth certificate** is active."
 msgstr "Le **certificat eHealth** est actif."
 
 #: ../../content/belgique/ehealth/mda.md:74
-msgid ""
-"The **profile's health insurance fund** isn't blocking (the actual OA is "
-"identified by the response), but filling it in helps spot changes."
-msgstr ""
-"La **mutuelle du profil** n'est pas bloquante (l'OA réel est identifié par "
-"la réponse), mais la renseigner aide à repérer les mutations."
+msgid "The **profile's health insurance fund** isn't blocking (the actual OA is identified by the response), but filling it in helps spot changes."
+msgstr "La **mutuelle du profil** n'est pas bloquante (l'OA réel est identifié par la réponse), mais la renseigner aide à repérer les mutations."
 
 #: ../../content/belgique/ehealth/mda.md:78
-msgid ""
-"Resthome also applies automatic period rules: the end must be after the "
-"start, at most **5 years** of history, and a standard MDA doesn't go beyond "
-"the current month."
-msgstr ""
-"Resthome applique aussi des règles de période automatiques : la fin doit "
-"être après le début, au plus **5 ans** d'historique, et un MDA standard ne "
-"dépasse pas le mois courant."
+msgid "WideCare also applies automatic period rules: the end must be after the start, at most **5 years** of history, and a standard MDA doesn't go beyond the current month."
+msgstr "WideCare applique aussi des règles de période automatiques : la fin doit être après le début, au plus **5 ans** d'historique, et un MDA standard ne dépasse pas le mois courant."
 
 #: ../../content/belgique/ehealth/mda.md:81
 msgid "Individual check"
 msgstr "Contrôle individuel"
 
 #: ../../content/belgique/ehealth/mda.md:93
-msgid ""
-"![Completed MDA request, Insurability tab: three coverage periods with their"
-" CT1/CT2 codes and the health insurance fund "
-"code](../../assets/screenshots/ehealth/21-mda-reponse.webp)"
-msgstr ""
-"![Demande MDA aboutie, onglet Assurabilité : trois périodes de couverture "
-"avec leurs codes CT1/CT2 et le code de la "
-"mutuelle](../../assets/screenshots/ehealth/21-mda-reponse.webp)"
+msgid "![Completed MDA request, Insurability tab: three coverage periods with their CT1/CT2 codes and the health insurance fund code](../../assets/screenshots/ehealth/21-mda-reponse.webp)"
+msgstr "![Demande MDA aboutie, onglet Assurabilité : trois périodes de couverture avec leurs codes CT1/CT2 et le code de la mutuelle](../../assets/screenshots/ehealth/21-mda-reponse.webp)"
 
 #: ../../content/belgique/ehealth/mda.md:93
-msgid ""
-"Completed MDA request, Insurability tab: three coverage periods with their "
-"CT1/CT2 codes and the health insurance fund code"
-msgstr ""
-"Demande MDA aboutie, onglet Assurabilité : trois périodes de couverture avec"
-" leurs codes CT1/CT2 et le code de la mutuelle"
+msgid "Completed MDA request, Insurability tab: three coverage periods with their CT1/CT2 codes and the health insurance fund code"
+msgstr "Demande MDA aboutie, onglet Assurabilité : trois périodes de couverture avec leurs codes CT1/CT2 et le code de la mutuelle"
 
 #: ../../content/belgique/ehealth/mda.md:95
 msgid "One MDA per resident and per period"
 msgstr "Un seul MDA par habitant et par période"
 
 #: ../../content/belgique/ehealth/mda.md:98
-msgid ""
-"Running a check again for the same resident and the same period **reuses** "
-"the existing request — no duplicate."
-msgstr ""
-"Refaire un contrôle pour le même habitant et la même période **réutilise** "
-"la requête existante — pas de doublon."
+msgid "Running a check again for the same resident and the same period **reuses** the existing request — no duplicate."
+msgstr "Refaire un contrôle pour le même habitant et la même période **réutilise** la requête existante — pas de doublon."
 
 #: ../../content/belgique/ehealth/mda.md:102
 msgid "Batch check (recommended at the start of the month)"
 msgstr "Contrôle par lot (recommandé en début de mois)"
 
 #: ../../content/belgique/ehealth/mda.md:104
-msgid ""
-"For a whole period, run the **batch** check: select the residents (you can "
-"**paste a column** of names/NISS), the period, and send the whole batch at "
-"once."
-msgstr ""
-"Pour toute une période, lancez le contrôle **par lot** : sélectionnez les "
-"habitants (vous pouvez **coller une colonne** de noms/NISS), la période et "
-"envoyez tout le lot d'un coup."
+msgid "For a whole period, run the **batch** check: select the residents (you can **paste a column** of names/NISS), the period, and send the whole batch at once."
+msgstr "Pour toute une période, lancez le contrôle **par lot** : sélectionnez les habitants (vous pouvez **coller une colonne** de noms/NISS), la période et envoyez tout le lot d'un coup."
 
 #: ../../content/belgique/ehealth/mda.md:107
 msgid "**Immediate send (Sync)**: for small volumes."
 msgstr "**Envoi immédiat (Sync)** : pour de petits volumes."
 
 #: ../../content/belgique/ehealth/mda.md:108
-msgid ""
-"**Grouped send (Async)**: for **large monthly batches** — the request goes "
-"out, and the response is retrieved a bit later with **Check responses** "
-"(requires at least 2 residents)."
-msgstr ""
-"**Envoi groupé (Async)** : pour les **gros lots mensuels** — la demande "
-"part, et la réponse se récupère un peu plus tard avec **Vérifier les "
-"réponses** (nécessite au moins 2 habitants)."
+msgid "**Grouped send (Async)**: for **large monthly batches** — the request goes out, and the response is retrieved a bit later with **Check responses** (requires at least 2 residents)."
+msgstr "**Envoi groupé (Async)** : pour les **gros lots mensuels** — la demande part, et la réponse se récupère un peu plus tard avec **Vérifier les réponses** (nécessite au moins 2 habitants)."
 
 #: ../../content/belgique/ehealth/mda.md:116
-msgid ""
-"![MDA batch with its counters — Insured, Not insured, Errors, Pending — and "
-"the list of residents in the batch](../../assets/screenshots/ehealth/22-mda-"
-"lot.webp)"
-msgstr ""
-"![Lot MDA avec ses compteurs — Assurés, Non assurés, Erreurs, En attente — "
-"et la liste des habitants du lot](../../assets/screenshots/ehealth/22-mda-"
-"lot.webp)"
+msgid "![MDA batch with its counters — Insured, Not insured, Errors, Pending — and the list of residents in the batch](../../assets/screenshots/ehealth/22-mda-lot.webp)"
+msgstr "![Lot MDA avec ses compteurs — Assurés, Non assurés, Erreurs, En attente — et la liste des habitants du lot](../../assets/screenshots/ehealth/22-mda-lot.webp)"
 
 #: ../../content/belgique/ehealth/mda.md:116
-msgid ""
-"MDA batch with its counters — Insured, Not insured, Errors, Pending — and "
-"the list of residents in the batch"
-msgstr ""
-"Lot MDA avec ses compteurs — Assurés, Non assurés, Erreurs, En attente — et "
-"la liste des habitants du lot"
+msgid "MDA batch with its counters — Insured, Not insured, Errors, Pending — and the list of residents in the batch"
+msgstr "Lot MDA avec ses compteurs — Assurés, Non assurés, Erreurs, En attente — et la liste des habitants du lot"
 
 #: ../../content/belgique/ehealth/mda.md:118
 msgid "The right habit"
 msgstr "Le bon réflexe"
 
 #: ../../content/belgique/ehealth/mda.md:121
-msgid ""
-"Run a batch MDA **at the start of the month**: the generation of the period "
-"loads its results (**Load MDA Success**). Then, on the generated period, "
-"**Check MDA** covers the residents still without a request — always before "
-"**Generate eFact**. You avoid later eFact rejections caused by a wrong "
-"health insurance fund or a loss of insurability."
-msgstr ""
-"Lancez un MDA groupé **en début de mois** : la génération de la période en "
-"charge les résultats (**Charger MDA Succès**). Ensuite, sur la période "
-"générée, **Vérifier MDA** couvre les habitants encore sans demande — "
-"toujours avant **Générer eFact**. Vous évitez les rejets eFact ultérieurs "
-"dus à une mutuelle erronée ou à une perte d'assurabilité."
+msgid "Run a batch MDA **at the start of the month**: the generation of the period loads its results (**Load MDA Success**). Then, on the generated period, **Check MDA** covers the residents still without a request — always before **Generate eFact**. You avoid later eFact rejections caused by a wrong health insurance fund or a loss of insurability."
+msgstr "Lancez un MDA groupé **en début de mois** : la génération de la période en charge les résultats (**Charger MDA Succès**). Ensuite, sur la période générée, **Vérifier MDA** couvre les habitants encore sans demande — toujours avant **Générer eFact**. Vous évitez les rejets eFact ultérieurs dus à une mutuelle erronée ou à une perte d'assurabilité."
 
 #: ../../content/belgique/ehealth/mda.md:128
 msgid "Statuses"
@@ -375,20 +233,12 @@ msgid "**Error**"
 msgstr "**Erreur**"
 
 #: ../../content/belgique/ehealth/mda.md:140
-msgid ""
-"![MDA request whose response reports a beneficiary who is not insured for "
-"the period](../../assets/screenshots/ehealth/24-mda-non-assure.webp)"
-msgstr ""
-"![Demande MDA dont la réponse signale un bénéficiaire non assuré pour la "
-"période](../../assets/screenshots/ehealth/24-mda-non-assure.webp)"
+msgid "![MDA request whose response reports a beneficiary who is not insured for the period](../../assets/screenshots/ehealth/24-mda-non-assure.webp)"
+msgstr "![Demande MDA dont la réponse signale un bénéficiaire non assuré pour la période](../../assets/screenshots/ehealth/24-mda-non-assure.webp)"
 
 #: ../../content/belgique/ehealth/mda.md:140
-msgid ""
-"MDA request whose response reports a beneficiary who is not insured for the "
-"period"
-msgstr ""
-"Demande MDA dont la réponse signale un bénéficiaire non assuré pour la "
-"période"
+msgid "MDA request whose response reports a beneficiary who is not insured for the period"
+msgstr "Demande MDA dont la réponse signale un bénéficiaire non assuré pour la période"
 
 #: ../../content/belgique/ehealth/mda.md:142
 msgid "Buttons"
@@ -415,37 +265,24 @@ msgid "**Retry**"
 msgstr "**Réessayer**"
 
 #: ../../content/belgique/ehealth/mda.md:163
-msgid "What Resthome updates automatically"
-msgstr "Ce que Resthome met à jour tout seul"
+msgid "What WideCare updates automatically"
+msgstr "Ce que WideCare met à jour tout seul"
 
 #: ../../content/belgique/ehealth/mda.md:165
-msgid ""
-"After a successful response, the resident record is **corrected "
-"automatically**:"
-msgstr ""
-"Après une réponse réussie, la fiche habitant est **corrigée "
-"automatiquement** :"
+msgid "After a successful response, the resident record is **corrected automatically**:"
+msgstr "Après une réponse réussie, la fiche habitant est **corrigée automatiquement** :"
 
 #: ../../content/belgique/ehealth/mda.md:167
-msgid ""
-"**Health insurance fund (OA)**: if the OA that responds differs from the "
-"profile, the profile is updated (and the OA created if it was missing)."
-msgstr ""
-"**Mutuelle (OA)** : si l'OA qui répond diffère du profil, le profil est mis "
-"à jour (et l'OA créé s'il manquait)."
+msgid "**Health insurance fund (OA)**: if the OA that responds differs from the profile, the profile is updated (and the OA created if it was missing)."
+msgstr "**Mutuelle (OA)** : si l'OA qui répond diffère du profil, le profil est mis à jour (et l'OA créé s'il manquait)."
 
 #: ../../content/belgique/ehealth/mda.md:169
 msgid "**BIM status** and **membership number**."
 msgstr "Le **statut BIM** et le **numéro d'affilié**."
 
 #: ../../content/belgique/ehealth/mda.md:170
-msgid ""
-"**Date of birth** and **sex**: the insurer's values **win**, even when the "
-"record already holds something else (see below)."
-msgstr ""
-"La **date de naissance** et le **sexe** : les valeurs de l'organisme "
-"assureur **l'emportent**, même si la fiche contient déjà autre chose (voir "
-"ci-dessous)."
+msgid "**Date of birth** and **sex**: the insurer's values **win**, even when the record already holds something else (see below)."
+msgstr "La **date de naissance** et le **sexe** : les valeurs de l'organisme assureur **l'emportent**, même si la fiche contient déjà autre chose (voir ci-dessous)."
 
 #: ../../content/belgique/ehealth/mda.md:172
 msgid "**Date of death** if the OA reports it → alert on the record."
@@ -456,139 +293,72 @@ msgid "On identity, the insurer wins"
 msgstr "Sur l'identité, l'organisme assureur l'emporte"
 
 #: ../../content/belgique/ehealth/mda.md:176
-msgid ""
-"Date of birth and sex are **overwritten**, not merely filled in when empty. "
-"This is deliberate: a birth date that disagrees with the NISS gets the "
-"**eFact rejected**, and a typo entered at admission would otherwise survive "
-"every check — the operator believing the MDA had validated the file. The "
-"insurer applies the same rule."
-msgstr ""
-"La date de naissance et le sexe sont **écrasés**, et pas seulement complétés"
-" lorsqu'ils sont vides. C'est délibéré : une date de naissance en désaccord "
-"avec le NISS fait **rejeter l'eFact**, et une faute de frappe saisie à "
-"l'admission survivrait sinon à tous les contrôles — l'opérateur croyant que "
-"le MDA avait validé le dossier. L'organisme assureur applique la même règle."
+msgid "Date of birth and sex are **overwritten**, not merely filled in when empty. This is deliberate: a birth date that disagrees with the NISS gets the **eFact rejected**, and a typo entered at admission would otherwise survive every check — the operator believing the MDA had validated the file. The insurer applies the same rule."
+msgstr "La date de naissance et le sexe sont **écrasés**, et pas seulement complétés lorsqu'ils sont vides. C'est délibéré : une date de naissance en désaccord avec le NISS fait **rejeter l'eFact**, et une faute de frappe saisie à l'admission survivrait sinon à tous les contrôles — l'opérateur croyant que le MDA avait validé le dossier. L'organisme assureur applique la même règle."
 
 #: ../../content/belgique/ehealth/mda.md:181
-msgid ""
-"When an existing value changes, Resthome posts **MDA — identity corrected** "
-"in the resident's thread, listing each change as ~~old~~ → **new**. Nothing "
-"moves silently."
-msgstr ""
-"Quand une valeur existante change, Resthome publie **MDA — identité "
-"corrigée** dans le fil de l'habitant, en listant chaque changement sous la "
-"forme ~~ancien~~ → **nouveau**. Rien ne bouge en silence."
+msgid "When an existing value changes, WideCare posts **MDA — identity corrected** in the resident's thread, listing each change as ~~old~~ → **new**. Nothing moves silently."
+msgstr "Quand une valeur existante change, WideCare publie **MDA — identité corrigée** dans le fil de l'habitant, en listant chaque changement sous la forme ~~ancien~~ → **nouveau**. Rien ne bouge en silence."
 
 #: ../../content/belgique/ehealth/mda.md:184
 msgid "The date of death is the exception"
 msgstr "La date de décès fait exception"
 
 #: ../../content/belgique/ehealth/mda.md:187
-msgid ""
-"If the insurer reports a **date of death** that differs from the one on "
-"file, Resthome **does not** overwrite it: it posts *\"MDA — date of death "
-"differs\"* and leaves you to arbitrate. That date closes the stay and caps "
-"the allowance — too consequential to change automatically."
-msgstr ""
-"Si l'organisme assureur communique une **date de décès** différente de celle"
-" du dossier, Resthome ne l'écrase **pas** : il publie *« MDA — la date de "
-"décès diverge »* et vous laisse arbitrer. Cette date clôture le séjour et "
-"plafonne le forfait — trop lourde de conséquences pour être modifiée "
-"automatiquement."
+msgid "If the insurer reports a **date of death** that differs from the one on file, WideCare **does not** overwrite it: it posts *\"MDA — date of death differs\"* and leaves you to arbitrate. That date closes the stay and caps the allowance — too consequential to change automatically."
+msgstr "Si l'organisme assureur communique une **date de décès** différente de celle du dossier, WideCare ne l'écrase **pas** : il publie *« MDA — la date de décès diverge »* et vous laisse arbitrer. Cette date clôture le séjour et plafonne le forfait — trop lourde de conséquences pour être modifiée automatiquement."
 
 #: ../../content/belgique/ehealth/mda.md:193
 msgid "Identity fields are locked after the first reply"
 msgstr "Les champs d'identité sont verrouillés après la première réponse"
 
 #: ../../content/belgique/ehealth/mda.md:195
-msgid ""
-"Once a resident has an MDA reply, the fields the MDA owns — name, date of "
-"birth, sex, health insurance fund — become **read-only** on the record. It "
-"prevents a manual edit from silently contradicting what the insurer holds."
-msgstr ""
-"Dès qu'un habitant a une réponse MDA, les champs que le MDA possède — nom, "
-"date de naissance, sexe, mutuelle — passent en **lecture seule** sur la "
-"fiche. Cela évite qu'une modification manuelle contredise en silence ce que "
-"détient l'organisme assureur."
+msgid "Once a resident has an MDA reply, the fields the MDA owns — name, date of birth, sex, health insurance fund — become **read-only** on the record. It prevents a manual edit from silently contradicting what the insurer holds."
+msgstr "Dès qu'un habitant a une réponse MDA, les champs que le MDA possède — nom, date de naissance, sexe, mutuelle — passent en **lecture seule** sur la fiche. Cela évite qu'une modification manuelle contredise en silence ce que détient l'organisme assureur."
 
 #: ../../content/belgique/ehealth/mda.md:199
 msgid "The lock is not absolute:"
 msgstr "Le verrou n'est pas absolu :"
 
 #: ../../content/belgique/ehealth/mda.md:201
-msgid ""
-"**before** any MDA the fields are free — that is how you create a candidate;"
-msgstr ""
-"**avant** tout MDA les champs sont libres — c'est ainsi qu'on crée un "
-"candidat ;"
+msgid "**before** any MDA the fields are free — that is how you create a candidate;"
+msgstr "**avant** tout MDA les champs sont libres — c'est ainsi qu'on crée un candidat ;"
 
 #: ../../content/belgique/ehealth/mda.md:202
-msgid ""
-"a **manager** can lift it record by record with **Allow manual identity "
-"edit**."
-msgstr ""
-"un **manager** peut le lever fiche par fiche avec **Autoriser la correction "
-"manuelle de l'identité**."
+msgid "a **manager** can lift it record by record with **Allow manual identity edit**."
+msgstr "un **manager** peut le lever fiche par fiche avec **Autoriser la correction manuelle de l'identité**."
 
 #: ../../content/belgique/ehealth/mda.md:204
 msgid "Lifting the lock is temporary"
 msgstr "Lever le verrou est temporaire"
 
 #: ../../content/belgique/ehealth/mda.md:207
-msgid ""
-"Use **Allow manual identity edit** only when the insurer's reply is "
-"genuinely wrong. The **next MDA refresh overwrites your correction** — "
-"settle the disagreement with the insurer rather than maintaining the "
-"difference by hand."
-msgstr ""
-"N'utilisez **Autoriser la correction manuelle de l'identité** que si la "
-"réponse de l'organisme assureur est réellement erronée. Le **prochain "
-"rafraîchissement MDA écrase votre correction** — réglez le désaccord avec "
-"l'organisme assureur plutôt que d'entretenir l'écart à la main."
+msgid "Use **Allow manual identity edit** only when the insurer's reply is genuinely wrong. The **next MDA refresh overwrites your correction** — settle the disagreement with the insurer rather than maintaining the difference by hand."
+msgstr "N'utilisez **Autoriser la correction manuelle de l'identité** que si la réponse de l'organisme assureur est réellement erronée. Le **prochain rafraîchissement MDA écrase votre correction** — réglez le désaccord avec l'organisme assureur plutôt que d'entretenir l'écart à la main."
 
 #: ../../content/belgique/ehealth/mda.md:212
 msgid "Safeguard for special schemes"
 msgstr "Garde-fou régimes spéciaux"
 
 #: ../../content/belgique/ehealth/mda.md:215
-msgid ""
-"For residents under a **special scheme** (INIG, EEC, Fedasil, foreign, "
-"private…), Resthome **does not overwrite** the profile's health insurance "
-"fund: a message explains that the MDA response was ignored so as not to "
-"break a non-standard coverage."
-msgstr ""
-"Pour les habitants sous **régime particulier** (INIG, CEE, Fedasil, "
-"étranger, privé…), Resthome **n'écrase pas** la mutuelle du profil : un "
-"message explique que la réponse MDA a été ignorée pour ne pas casser une "
-"couverture non standard."
+msgid "For residents under a **special scheme** (INIG, EEC, Fedasil, foreign, private…), WideCare **does not overwrite** the profile's health insurance fund: a message explains that the MDA response was ignored so as not to break a non-standard coverage."
+msgstr "Pour les habitants sous **régime particulier** (INIG, CEE, Fedasil, étranger, privé…), WideCare **n'écrase pas** la mutuelle du profil : un message explique que la réponse MDA a été ignorée pour ne pas casser une couverture non standard."
 
 #: ../../content/belgique/ehealth/mda.md:221
 msgid "Reinstatement (loss then return of insurability)"
 msgstr "Réintégration (perte puis retour d'assurabilité)"
 
 #: ../../content/belgique/ehealth/mda.md:223
-msgid "Resthome compares with the previous check:"
-msgstr "Resthome compare avec le contrôle précédent :"
+msgid "WideCare compares with the previous check:"
+msgstr "WideCare compare avec le contrôle précédent :"
 
 #: ../../content/belgique/ehealth/mda.md:225
-msgid ""
-"**Not insured → insured**: a notification appears on the period, and the "
-"**Reinstatement** action lets you move the lines that had been billed to the"
-" resident over to the OA."
-msgstr ""
-"**Non assuré → assuré** : une notification apparaît sur la période, et "
-"l'action **Réintégration** permet de basculer vers l'OA les lignes qui "
-"avaient été facturées à l'habitant."
+msgid "**Not insured → insured**: a notification appears on the period, and the **Reinstatement** action lets you move the lines that had been billed to the resident over to the OA."
+msgstr "**Non assuré → assuré** : une notification apparaît sur la période, et l'action **Réintégration** permet de basculer vers l'OA les lignes qui avaient été facturées à l'habitant."
 
 #: ../../content/belgique/ehealth/mda.md:228
-msgid ""
-"**Insured → not insured**: Resthome flags that the resident is \"no longer "
-"in order\" — their dependency fee (forfait) is excluded from OA billing for "
-"the period and billed to the resident until they are reinstated."
-msgstr ""
-"**Assuré → non assuré** : Resthome signale que l'habitant « n'est plus en "
-"ordre » — son forfait est exclu de la facturation OA de la période et "
-"facturé à l'habitant jusqu'au rétablissement."
+msgid "**Insured → not insured**: WideCare flags that the resident is \"no longer in order\" — their dependency fee (forfait) is excluded from OA billing for the period and billed to the resident until they are reinstated."
+msgstr "**Assuré → non assuré** : WideCare signale que l'habitant « n'est plus en ordre » — son forfait est exclu de la facturation OA de la période et facturé à l'habitant jusqu'au rétablissement."
 
 #: ../../content/belgique/ehealth/mda.md:232
 msgid "Error handling"
@@ -647,71 +417,28 @@ msgid "[Billing overview](../../facturation/index.md)"
 msgstr "[Vue d'ensemble de la facturation](../../facturation/index.md)"
 
 #: ../../content/belgique/ehealth/mda.md:13
-msgid ""
-"From the resident's record, click **Verify Insurability**; from a billing "
-"period, **Check MDA**. Resthome queries MyCareNet/WalCareNet and confirms "
-"coverage, as an individual check (immediate) or as a batch for a whole "
-"period."
-msgstr ""
-"Depuis la fiche de l'habitant, cliquez sur **Vérifier Assurabilité** ; "
-"depuis une période de facturation, **Vérifier MDA**. Resthome interroge "
-"MyCareNet/WalCareNet et confirme la couverture, en contrôle individuel "
-"(immédiat) ou par lot pour toute une période."
+msgid "From the resident's record, click **Verify Insurability**; from a billing period, **Check MDA**. WideCare queries MyCareNet/WalCareNet and confirms coverage, as an individual check (immediate) or as a batch for a whole period."
+msgstr "Depuis la fiche de l'habitant, cliquez sur **Vérifier Assurabilité** ; depuis une période de facturation, **Vérifier MDA**. WideCare interroge MyCareNet/WalCareNet et confirme la couverture, en contrôle individuel (immédiat) ou par lot pour toute une période."
 
 #: ../../content/belgique/ehealth/mda.md:50
-msgid ""
-"When the mutuality reports a **palliative status**, Resthome ticks "
-"**Palliative Care** in the resident's **Wishes** tab, with its start date, "
-"and notes it once in the resident's thread. It only ever ticks: a status no "
-"longer reported does not untick it, and a date typed by the team is kept. A "
-"simulated (stub) answer is ignored."
-msgstr ""
-"Quand la mutuelle signale un **statut palliatif**, Resthome coche **Soins "
-"palliatifs** dans l'onglet **Volontés** de l'habitant, avec sa date de "
-"début, et le note une fois dans le fil de l'habitant. Il ne fait jamais que "
-"cocher : un statut qui n'est plus signalé ne la décoche pas, et une date "
-"saisie par l'équipe est conservée. Une réponse simulée (stub) est ignorée."
+msgid "When the mutuality reports a **palliative status**, WideCare ticks **Palliative Care** in the resident's **Wishes** tab, with its start date, and notes it once in the resident's thread. It only ever ticks: a status no longer reported does not untick it, and a date typed by the team is kept. A simulated (stub) answer is ignored."
+msgstr "Quand la mutuelle signale un **statut palliatif**, WideCare coche **Soins palliatifs** dans l'onglet **Volontés** de l'habitant, avec sa date de début, et le note une fois dans le fil de l'habitant. Il ne fait jamais que cocher : un statut qui n'est plus signalé ne la décoche pas, et une date saisie par l'équipe est conservée. Une réponse simulée (stub) est ignorée."
 
 #: ../../content/belgique/ehealth/mda.md:83
-msgid ""
-"On the resident's record, click **Verify Insurability** (shown once the NISS"
-" is filled in) — or create an **MDA request** in **eHealth → Insurability → "
-"MDA Requests** (resident, NISS pre-filled, period = the current month by "
-"default)."
-msgstr ""
-"Sur la fiche de l'habitant, cliquez sur **Vérifier Assurabilité** (affiché "
-"dès que le NISS est renseigné) — ou créez une **requête MDA** dans **eHealth"
-" → Assurabilité → Requêtes MDA** (habitant, NISS prérempli, période = le "
-"mois en cours par défaut)."
+msgid "On the resident's record, click **Verify Insurability** (shown once the NISS is filled in) — or create an **MDA request** in **eHealth → Insurability → MDA Requests** (resident, NISS pre-filled, period = the current month by default)."
+msgstr "Sur la fiche de l'habitant, cliquez sur **Vérifier Assurabilité** (affiché dès que le NISS est renseigné) — ou créez une **requête MDA** dans **eHealth → Assurabilité → Requêtes MDA** (habitant, NISS prérempli, période = le mois en cours par défaut)."
 
 #: ../../content/belgique/ehealth/mda.md:87
-msgid ""
-"In the **Check Insurability** window, check the period and click **Check** "
-"(on a request: **Send (Sync)**). Sending is **immediate** and the response "
-"comes back right away."
-msgstr ""
-"Dans la fenêtre **Vérifier Assurabilité**, contrôlez la période et cliquez "
-"sur **Vérifier** (sur une requête : **Envoyer (Sync)**). L'envoi est "
-"**immédiat** et la réponse revient tout de suite."
+msgid "In the **Check Insurability** window, check the period and click **Check** (on a request: **Send (Sync)**). Sending is **immediate** and the response comes back right away."
+msgstr "Dans la fenêtre **Vérifier Assurabilité**, contrôlez la période et cliquez sur **Vérifier** (sur une requête : **Envoyer (Sync)**). L'envoi est **immédiat** et la réponse revient tout de suite."
 
 #: ../../content/belgique/ehealth/mda.md:90
-msgid ""
-"Review the summary and the insurability periods; **View MDA request** opens "
-"the full request."
-msgstr ""
-"Consultez le résumé et les périodes d'assurabilité ; **Voir requête MDA** "
-"ouvre la requête complète."
+msgid "Review the summary and the insurability periods; **View MDA request** opens the full request."
+msgstr "Consultez le résumé et les périodes d'assurabilité ; **Voir requête MDA** ouvre la requête complète."
 
 #: ../../content/belgique/ehealth/mda.md:112
-msgid ""
-"The batch shows **counters**: Insured, Not insured, Errors, Pending, and "
-"\"Deaths detected\". From the admission list, the same batch checks the "
-"**waiting list**: see [Admitting a resident in Belgium](../admission.md)."
-msgstr ""
-"Le lot affiche des **compteurs** : Assuré, Non assuré, Erreurs, En attente, "
-"et « Décès détectés ». Depuis la liste des admissions, le même lot vérifie "
-"la **liste d'attente** : voir [Admettre un habitant en "
-"Belgique](../admission.md)."
+msgid "The batch shows **counters**: Insured, Not insured, Errors, Pending, and \"Deaths detected\". From the admission list, the same batch checks the **waiting list**: see [Admitting a resident in Belgium](../admission.md)."
+msgstr "Le lot affiche des **compteurs** : Assuré, Non assuré, Erreurs, En attente, et « Décès détectés ». Depuis la liste des admissions, le même lot vérifie la **liste d'attente** : voir [Admettre un habitant en Belgique](../admission.md)."
 
 #: ../../content/belgique/ehealth/mda.md:118
 msgid "**Sent**"
@@ -738,11 +465,8 @@ msgid "**No Facet (closed-out)**"
 msgstr "**No Facet (clôturé)**"
 
 #: ../../content/belgique/ehealth/mda.md:118
-msgid ""
-"The platform closed the request without any answer from a mutuality (retry)"
-msgstr ""
-"La plateforme a clôturé la requête sans aucune réponse d'une mutuelle (à "
-"réessayer)"
+msgid "The platform closed the request without any answer from a mutuality (retry)"
+msgstr "La plateforme a clôturé la requête sans aucune réponse d'une mutuelle (à réessayer)"
 
 #: ../../content/belgique/ehealth/mda.md:118
 msgid "The mutuality or the platform returned an error"
@@ -765,50 +489,28 @@ msgid "**Contact OA**"
 msgstr "**Contacter l'OA**"
 
 #: ../../content/belgique/ehealth/mda.md:118
-msgid ""
-"In the thread's toolbar: opens a pre-filled e-mail to the mutuality that "
-"responded"
-msgstr ""
-"Dans la barre d'outils du fil : ouvre un e-mail prérempli vers la mutuelle "
-"qui a répondu"
+msgid "In the thread's toolbar: opens a pre-filled e-mail to the mutuality that responded"
+msgstr "Dans la barre d'outils du fil : ouvre un e-mail prérempli vers la mutuelle qui a répondu"
 
-#: ../../content/belgique/ehealth/mda.md:118
-#: ../../content/belgique/ehealth/mda.md:212
+#: ../../content/belgique/ehealth/mda.md:118 ../../content/belgique/ehealth/mda.md:212
 msgid "**Contact CIN**"
 msgstr "**Contacter le CIN**"
 
 #: ../../content/belgique/ehealth/mda.md:118
-msgid ""
-"In the thread's toolbar: opens an e-mail to the inter-mutualist for a "
-"request the platform left without answer"
-msgstr ""
-"Dans la barre d'outils du fil : ouvre un e-mail vers l'intermutualiste pour "
-"une requête que la plateforme a laissée sans réponse"
+msgid "In the thread's toolbar: opens an e-mail to the inter-mutualist for a request the platform left without answer"
+msgstr "Dans la barre d'outils du fil : ouvre un e-mail vers l'intermutualiste pour une requête que la plateforme a laissée sans réponse"
 
 #: ../../content/belgique/ehealth/mda.md:152
-msgid ""
-"On a batch, the same actions exist in grouped form: **Send Sync**, **Send "
-"Async**, **Check Responses**, **Retry Errors** and **Retry No-Facet**."
-msgstr ""
-"Sur un lot, les mêmes actions existent en version groupée : **Envoyer "
-"Sync**, **Envoyer Async**, **Vérifier les réponses**, **Erreurs de réessai**"
-" et **Retry No-Facet**."
+msgid "On a batch, the same actions exist in grouped form: **Send Sync**, **Send Async**, **Check Responses**, **Retry Errors** and **Retry No-Facet**."
+msgstr "Sur un lot, les mêmes actions existent en version groupée : **Envoyer Sync**, **Envoyer Async**, **Vérifier les réponses**, **Erreurs de réessai** et **Retry No-Facet**."
 
 #: ../../content/belgique/ehealth/mda.md:155
 msgid "A sending without a certain answer is never resent on its own"
 msgstr "Un envoi sans réponse certaine n'est jamais renvoyé tout seul"
 
 #: ../../content/belgique/ehealth/mda.md:158
-msgid ""
-"If the answer to a sending is lost (time-out, interruption), Resthome does "
-"not resend it automatically: it lists it under **eHealth → Configuration → "
-"Sends to check**, where you say whether MyCareNet received it — see "
-"[eHealth](index.md)."
-msgstr ""
-"Si la réponse à un envoi est perdue (délai dépassé, interruption), Resthome "
-"ne le renvoie pas automatiquement : il le liste sous **eHealth → "
-"Configuration → Envois à vérifier**, où vous indiquez si MyCareNet l'a reçu "
-"— voir [eHealth](index.md)."
+msgid "If the answer to a sending is lost (time-out, interruption), WideCare does not resend it automatically: it lists it under **eHealth → Configuration → Sends to check**, where you say whether MyCareNet received it — see [eHealth](index.md)."
+msgstr "Si la réponse à un envoi est perdue (délai dépassé, interruption), WideCare ne le renvoie pas automatiquement : il le liste sous **eHealth → Configuration → Envois à vérifier**, où vous indiquez si MyCareNet l'a reçu — voir [eHealth](index.md)."
 
 #: ../../content/belgique/ehealth/mda.md:212
 msgid "**No Facet** (platform)"

@@ -1,29 +1,30 @@
 ---
 modules: [resthome_meal]
+sectors: [mr, csj, rs]
 ---
 
 # Food textures (IDDSI)
 
 :::{rh-description}
-Give each resident with swallowing difficulties the right IDDSI texture, say in which textures each dish can be prepared, and let Resthome flag a plate that is too coarse.
+Give each resident with swallowing difficulties the right IDDSI texture, say in which textures each dish can be prepared, and let WideCare flag a plate that is too coarse.
 :::
 
 :::{rh-faq}
 What is a texture, compared with a diet?
 : A diet says what the food contains (no sugar, no salt…). A texture says how it is prepared: regular, minced and moist, pureed, or a thickened drink. Each resident has one texture and may have several diets.
 
-Which textures does Resthome provide?
+Which textures does WideCare provide?
 : The eleven levels of the IDDSI framework, from **Thin** (level 0) to **Regular** (level 7). You can add your own in **Meals → Configuration → Textures**.
 
 What happens if a dish is not available in a resident's texture?
-: If the dish is only offered in a coarser texture, Resthome raises a critical alert (choking risk) and refuses to mark the plate as served. If it is only offered in a finer texture, it shows a warning.
+: If the dish is only offered in a coarser texture, WideCare raises a critical alert (choking risk) and refuses to mark the plate as served. If it is only offered in a finer texture, it shows a warning.
 
 Where do the carers see the texture?
 : On the printed distribution sheet, on each line of the meal round in the care app, and on the resident's sheet in the app.
 :::
 
 The **texture** says how a resident's food is prepared or their drinks
-thickened. Resthome follows the **IDDSI** framework (International Dysphagia
+thickened. WideCare follows the **IDDSI** framework (International Dysphagia
 Diet Standardisation Initiative): levels 0 to 4 for drinks, 3 to 7 for food.
 Each resident has **one** texture; each dish says in which textures it can be
 served.
@@ -75,7 +76,7 @@ On a dish, **Available Textures** lists the textures the kitchen can prepare it
 in. Left empty, the dish is offered in **every** texture. See [Dishes and
 nutritional values](plats.md).
 
-For each place laid, Resthome compares the dish with the resident's texture:
+For each place laid, WideCare compares the dish with the resident's texture:
 
 | Situation | Result |
 | --- | --- |

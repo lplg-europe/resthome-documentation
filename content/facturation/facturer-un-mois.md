@@ -1,15 +1,16 @@
 ---
 modules: [healthcare_accommodation_billing]
+sectors: [mr, csj]
 ---
 
 # Billing a month, step by step
 
 :::{rh-description}
-Billing a month in a care home with Resthome, step by step: from opening the period to closing it once the invoices are confirmed.
+Billing a month in a care home with WideCare, step by step: from opening the period to closing it once the invoices are confirmed.
 :::
 
 :::{rh-faq}
-How do I bill a month in Resthome?
+How do I bill a month in WideCare?
 : Open the month's period, click Generate, review the result, click Create Invoices, check and confirm the invoices, then close the period.
 
 In what order should I bill?
@@ -27,7 +28,7 @@ Can I start the month again from scratch?
 
 This guide walks you **from start to finish** through a billing month: open the
 period, generate the billing, create and confirm the invoices, then close the
-month. Follow it with Resthome open alongside: each step tells you **where to
+month. Follow it with WideCare open alongside: each step tells you **where to
 click**.
 
 :::{admonition} The idea in two parts
@@ -42,7 +43,7 @@ Each month can be billed in **two flows**:
   the country pack bills one → sent to the health insurers according to the
   country's rules.
 
-Resthome runs them in parallel on a single **period**.
+WideCare runs them in parallel on a single **period**.
 :::
 
 :::{admonition} A guided tour
@@ -84,7 +85,7 @@ highlighted.
 1. Click **Generate**. The **Generate Billing** window opens.
 2. Leave **Residents** empty to bill all active residents (or pick one
    resident for a specific case), then click **Generate**.
-3. For each resident, Resthome computes the **accommodation**, the
+3. For each resident, WideCare computes the **accommodation**, the
    **supplements** and **supplement conventions** and the **medication**,
    applies the **absences**, and adds the **care allowance** where the country
    pack bills one.
@@ -119,7 +120,7 @@ Before invoicing, read what was generated:
 - the smart buttons at the top — **Absences** (the absences that reduced the
   presence days) and **Unbilled** (the residents absent for the whole month,
   not billed at all);
-- the **Info** tab and the messages Resthome posts in the period's thread.
+- the **Info** tab and the messages WideCare posts in the period's thread.
 
 <!-- screenshot to add: the Residents tab of a generated period, with one yellow row -->
 

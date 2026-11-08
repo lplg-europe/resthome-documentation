@@ -1,5 +1,6 @@
 ---
 modules: [resthome_documents]
+sectors: [mr, csj]
 ---
 
 # Resident documents
@@ -19,13 +20,13 @@ Where is a resident's document folder?
 : In the **Documents** app, under the **Residents** folder. The quickest way: open the resident's record, **Documents** tab, and click **Document Workspace** — or, depending on your installation, the **Documents** button at the top of the record.
 
 Do I have to create the folder and subfolders myself?
-: No. Resthome creates the resident's folder and its three subfolders (medical, administrative and billing documents) automatically, as soon as the resident is created or their record becomes a resident record.
+: No. WideCare creates the resident's folder and its three subfolders (medical, administrative and billing documents) automatically, as soon as the resident is created or their record becomes a resident record.
 
 What does the number on the shortcut count?
 : The files stored in the resident's folder, subfolders included. The subfolders themselves are not counted.
 
 Can I delete a resident folder by mistake?
-: With Odoo's Documents app, no: the folders Resthome creates belong to no one in particular and an ordinary user can open them but not delete or rename them. The resident's folder renames itself when the resident's name changes.
+: With Odoo's Documents app, no: the folders WideCare creates belong to no one in particular and an ordinary user can open them but not delete or rename them. The resident's folder renames itself when the resident's name changes.
 
 Is this what the family sees?
 : No. The resident's folder stays with the team. What the family sees is chosen document by document, in the family portal's shared documents.
@@ -34,7 +35,7 @@ Does each facility have its own folders?
 : Yes. In multi-company, each facility has its own **Residents** and **Blank forms** folders, which keeps documents separated per home.
 :::
 
-For **each resident**, Resthome keeps a **document folder** in the **Documents**
+For **each resident**, WideCare keeps a **document folder** in the **Documents**
 app: scans, signed agreements, letters received. You have nothing to create or
 file by hand: the folder, its subfolders and the filing of attachments are
 automatic.
@@ -43,7 +44,7 @@ automatic.
 :class: info
 
 This page needs the **Documents** app. Depending on your installation, it is
-Odoo's own Documents app or the open-source Documents app; Resthome builds the
+Odoo's own Documents app or the open-source Documents app; WideCare builds the
 same resident folders in both, and a few screens differ — they are pointed out
 below. Once installed, the resident folders and tags are set up automatically.
 :::
@@ -74,7 +75,7 @@ without opening it.
 ## One folder per resident, created automatically
 
 As soon as a resident is created (or as soon as their record becomes a resident
-record), Resthome creates their **personal folder** under the **Residents**
+record), WideCare creates their **personal folder** under the **Residents**
 folder, with **three subfolders**:
 
 ```mermaid
@@ -109,7 +110,7 @@ accident.
 
 ## Folders created for the facility
 
-When the company (the facility) is created, Resthome sets up two folders in the
+When the company (the facility) is created, WideCare sets up two folders in the
 Documents app:
 
 - **Residents** — the folder that contains all resident folders.
@@ -128,7 +129,7 @@ forms** folders. Documents stay separated from one home to another.
 
 ## Predefined tags
 
-Resthome provides ready-to-use **tags** to **categorise** documents and **find
+WideCare provides ready-to-use **tags** to **categorise** documents and **find
 them by filter**:
 
 | Tag | Typical use |

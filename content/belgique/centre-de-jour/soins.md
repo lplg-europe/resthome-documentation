@@ -1,11 +1,12 @@
 ---
 modules: [resthome_day_care_medical, healthcare_medical, resthome_day_care, resthome_geriatric_be]
+sectors: [csj]
 ---
 
 # Care for a day care user
 
 :::{rh-description}
-Care for a day care user in Resthome: care plan templates for people who come by day, tasks and medication on the days and hours they are at the centre.
+Care for a day care user in WideCare: care plan templates for people who come by day, tasks and medication on the days and hours they are at the centre.
 :::
 
 :::{rh-faq}
@@ -46,7 +47,7 @@ kind usually carries.
 The **Written for** field of a template says who it is meant for:
 **Any stay**, **Stays the night** or **Comes by day**. A day care user is
 offered only the templates written for people who come by day or for any stay,
-that match their CSJ category. Resthome ships three:
+that match their CSJ category. WideCare ships three:
 
 - **CSJ F — day care, physically dependent**;
 - **CSJ Fd — day care, disoriented**;

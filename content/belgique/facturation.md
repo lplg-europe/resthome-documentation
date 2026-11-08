@@ -1,11 +1,12 @@
 ---
 modules: [resthome_mr_billing, l10n_health_be_perdiem_ehealth, l10n_health_be_efact, l10n_health_be_perdiem_billing, resthome_mr_ehealth, l10n_health_be_mda, resthome_be]
+sectors: [mr, csj]
 ---
 
 # Billing a month in Belgium
 
 :::{rh-description}
-What Belgium adds to the monthly billing in Resthome: the INAMI allowance and its pseudo-codes, the mutuality and resident shares, MDA and eFact at month-end, absences and departures seen by the INAMI, and the CPAS.
+What Belgium adds to the monthly billing in WideCare: the INAMI allowance and its pseudo-codes, the mutuality and resident shares, MDA and eFact at month-end, absences and departures seen by the INAMI, and the CPAS.
 :::
 
 :::{rh-faq}
@@ -98,7 +99,7 @@ steps:
    cases (wrong mutuality, loss of insurability); **Retry Failed MDA** resends
    the requests that ended in an error. See [Insurability (MDA)](ehealth/mda.md).
 4. **Generate eFact** — in the **Generate eFact Batches** window, click
-   **Generate Batches**: Resthome builds the eFact **batches** from the
+   **Generate Batches**: WideCare builds the eFact **batches** from the
    period's mutuality lines, grouped **by union** of mutualities. A resident
    with no Katz assessment blocks this step. Residents left out of the eFact —
    no NISS, no mutuality, no billable day — are named with the reason and the
@@ -203,7 +204,7 @@ explains how to record an absence. In Belgium, two rules apply on top.
 **The noon rule.** The INAMI allowance is computed on the **presence days**.
 The count follows a presence-at-**noon** rule (Brussels time): presence at noon
 determines whether the day counts. The **dates and times** of departure and
-return therefore matter — Resthome relies on them for an exact count.
+return therefore matter — WideCare relies on them for an exact count.
 
 **Notification to the mutuality.** Some absences must be reported:
 
@@ -211,7 +212,7 @@ return therefore matter — Resthome relies on them for an exact count.
   **Annexe 11** (departure notification);
 - the resident's **return** prepares an **Annexe 7** (readmission).
 
-Resthome creates these notifications **at the moment you record the absence and
+WideCare creates these notifications **at the moment you record the absence and
 the return**; you only have to check and send them. Deleting an absence entered
 by mistake withdraws them, as long as the mutuality has not validated them.
 
@@ -225,7 +226,7 @@ prepares the **Annexe 11** departure notification to the health insurance fund.
 The INAMI allowance, unlike the accommodation, is billed on the **month actually
 served**: it stops at the end of the INAMI intervention. If a resident leaves or
 dies during an already invoiced month, the self-check flags the over-declared
-allowance and Resthome prepares the credit note or remainder, and a corrective
+allowance and WideCare prepares the credit note or remainder, and a corrective
 batch on the mutuality side if needed. The [Annexe 12](note-de-frais-annexe12.md)
 reflects the actual days of presence.
 

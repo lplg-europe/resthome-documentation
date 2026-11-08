@@ -1,17 +1,18 @@
 ---
 modules: [resthome_meal]
 howto_auto: true
+sectors: [mr, csj]
 ---
 
 # The meal round
 
 :::{rh-description}
-Follow each meal to the resident in Resthome: the places laid by the confirmed menu, served, refused, later or absent, the amount eaten, and the printable sheets by sector.
+Follow each meal to the resident in WideCare: the places laid by the confirmed menu, served, refused, later or absent, the amount eaten, and the printable sheets by sector.
 :::
 
 :::{rh-faq}
 Where do I start the meal round?
-: Confirm the meal's menu: Resthome lays a place for every resident served at that meal. Then follow the round in **Meals → Operations → Distribution**, or in the **Meals** screen of the care app.
+: Confirm the meal's menu: WideCare lays a place for every resident served at that meal. Then follow the round in **Meals → Operations → Distribution**, or in the **Meals** screen of the care app.
 
 What can happen to a resident's plate?
 : It is **To serve**, then **Served**, **Refused** (with a reason), **Later** (still to serve, not late) or **Absent**. A mistake is taken back with **Undo**.
@@ -104,7 +105,7 @@ Room**.
 :::{admonition} Correct with Undo
 :class: tip
 
-A plate already served or refused is a recorded fact: Resthome refuses to mark
+A plate already served or refused is a recorded fact: WideCare refuses to mark
 it absent or later. Click **Undo** first, then record what really happened.
 :::
 
@@ -167,7 +168,7 @@ To work on **paper**, open a menu (form or list) and use the **Action** menu:
 - **Print All Daily Sheets** — the sheets of all of today's menus that are not
   cancelled.
 
-Resthome lays the missing places along the way, then opens the document in a
+WideCare lays the missing places along the way, then opens the document in a
 new tab. The sheet has:
 
 - **one page per meal and per sector**, with a header: **sector**, **meal
@@ -181,7 +182,7 @@ new tab. The sheet has:
 The boxes already reflect what is recorded: the place of the meal is filled in,
 **Served** is filled in green for a served plate, and a cross marks a refused
 one. Staff tick the rest during the round, the supervisor signs, then the round
-is recorded in Resthome.
+is recorded in WideCare.
 
 <!-- screenshot to add: printed distribution sheet for a sector with the check boxes and the signature line -->
 

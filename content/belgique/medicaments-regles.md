@@ -1,11 +1,12 @@
 ---
 modules: [l10n_health_be_medication]
+sectors: [mr, csj]
 ---
 
 # Medication rules in Belgium
 
 :::{rh-description}
-What Belgian law adds to the medication circuit in Resthome: the CNK code, what a care assistant may give, the fourteen days of the pharmacy's sachets (PMI) and the split tablet left to the house.
+What Belgian law adds to the medication circuit in WideCare: the CNK code, what a care assistant may give, the fourteen days of the pharmacy's sachets (PMI) and the split tablet left to the house.
 :::
 
 :::{rh-faq}
@@ -25,7 +26,7 @@ Do these rules only apply to nursing homes?
 : No. They come from federal law and apply to every Belgian sector that uses the medication circuit.
 :::
 
-The medication circuit of Resthome — [treatments](../medicaments/traitements.md),
+The medication circuit of WideCare — [treatments](../medicaments/traitements.md),
 [pillboxes](../medicaments/piluliers.md), [the round](../medicaments/tour.md) —
 asks a few questions that each country answers. In Belgium, the answers come
 from federal law and install themselves with the Belgian pack and the
@@ -70,7 +71,7 @@ follows:
 
 When a care assistant may not give a dose, the care app shows the reason in
 place of the buttons (*A nurse gives it: a narcotic is never given by a care
-assistant*, for instance), and Resthome refuses the record, even sent later
+assistant*, for instance), and WideCare refuses the record, even sent later
 from the phone.
 
 :::{admonition} With the pillboxes tracked

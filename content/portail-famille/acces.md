@@ -1,6 +1,7 @@
 ---
 howto_auto: true
 modules: [resthome_family_portal]
+sectors: [mr]
 ---
 
 # Granting an access

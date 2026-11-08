@@ -1,22 +1,23 @@
 ---
 modules: [l10n_health_be_perdiem_ehealth, l10n_health_be_eagreement_light, resthome_mr_ehealth, l10n_health_be, healthcare_base]
+sectors: [mr, csj]
 ---
 
 # Responsible practitioner and annex signatures
 
 :::{rh-description}
-Sign eAgreement Annexes 7/10/11 in Resthome for a nursing home (MR/MRS): responsible practitioner, NIHII resolution and paperless, rule-compliant signing.
+Sign eAgreement Annexes 7/10/11 in WideCare for a nursing home (MR/MRS): responsible practitioner, NIHII resolution and paperless, rule-compliant signing.
 :::
 
 :::{rh-faq}
 Who is the responsible practitioner on an eAgreement request?
-: It is the clinician who carried out the Katz assessment (the assessor), not the person who sends the request — a medical secretary can perfectly well submit it. Resthome records their personal NIHII on the request. If they have no NIHII, the request borrows the identity of the head nurse, then of the coordinating physician configured in the eHealth settings.
+: It is the clinician who carried out the Katz assessment (the assessor), not the person who sends the request — a medical secretary can perfectly well submit it. WideCare records their personal NIHII on the request. If they have no NIHII, the request borrows the identity of the head nurse, then of the coordinating physician configured in the eHealth settings.
 
 Where do I enter a caregiver's NIHII and signature?
 : On their employee record (Employees app, Nursing Home tab). The NIHII, role and **Personal signature** live on the employee — not on a user account — so that caregivers who sign occasionally do not consume a user license.
 
 How do I sign an Annexe 10, 7 or 11 without printing or scanning?
-: Upload a **Personal signature** on the employee record (or save it from the Katz signing window), then, on the eAgreement request in Draft, click Sign Annexe 10 (or Sign Annexe 7 / Sign Annexe 11). Resthome places your signature on the PDF and marks it signed. If no image is configured, the old print / sign / scan route remains possible.
+: Upload a **Personal signature** on the employee record (or save it from the Katz signing window), then, on the eAgreement request in Draft, click Sign Annexe 10 (or Sign Annexe 7 / Sign Annexe 11). WideCare places your signature on the PDF and marks it signed. If no image is configured, the old print / sign / scan route remains possible.
 
 Who is allowed to sign an Annexe 10 (signature rules)?
 : By default, a physician OR a nurse. A physician's signature becomes mandatory for a Katz category D (or Cd) and for a quick revision (a new assessment less than 6 months after the previous one). Annexes 7 and 11 are signed by the institution's manager, with no medical rule.
@@ -25,12 +26,12 @@ Can I sign on behalf of a colleague?
 : No, unless you have eHealth manager rights. Everyone signs with their own personal signature; signing on behalf of another clinician, whose name and role appear on a legal annex, requires eHealth manager rights. The actual author remains tracked in the log.
 
 What happens for a foreign physician without a Belgian NIHII?
-: Tick "Foreign physician (no Belgian NIHII)" on their employee record (visible only for a physician). Resthome then uses the generic number provided by the eHealth specification for foreign practitioners, accepted by the insurance bodies.
+: Tick "Foreign physician (no Belgian NIHII)" on their employee record (visible only for a physician). WideCare then uses the generic number provided by the eHealth specification for foreign practitioners, accepted by the insurance bodies.
 :::
 
 An [eAgreement](eagreement.md) request must designate a **responsible
 practitioner** and carry a **signature** on its annexes. This page explains the
-two mechanisms Resthome puts in place:
+two mechanisms WideCare puts in place:
 
 - **Who is identified** as the responsible practitioner on the electronic request
   — and how their **NIHII** number is determined automatically;
@@ -46,7 +47,7 @@ resident record or the billing period). Identities are configured on the
 
 - **The responsible practitioner**: the **electronic** identity recorded in the
   request sent to the health insurer — the clinician who carried out the **Katz**
-  assessment. Resthome **resolves it automatically** (see below).
+  assessment. WideCare **resolves it automatically** (see below).
 - **The signer**: the person whose **signature image** is placed on the annex
   **PDF**. By default, this is **you** (the logged-in user).
 
@@ -58,10 +59,10 @@ send a request whose responsible practitioner is the nurse who scored the Katz.
 
 The responsible practitioner is the **clinician who carried out the
 [Katz](../katz.md) assessment** — the assessor — **not** the person who
-sends the request. Resthome determines their **NIHII** by walking down a fallback
+sends the request. WideCare determines their **NIHII** by walking down a fallback
 chain, so that a consistent identity is always transmitted to the health insurer.
 
-| Order | Resthome uses… | When |
+| Order | WideCare uses… | When |
 |---|---|---|
 | 1 | **The Katz assessor**, if they have a personal NIHII | Normal case |
 | 2 | The configured **Head Nurse** (their NIHII) | The assessor (nurse, care assistant) has no NIHII |
@@ -72,7 +73,7 @@ chain, so that a consistent identity is always transmitted to the health insurer
 :class: warning
 
 For a Katz **category D** (or **Cd**), the specification requires a **physician**
-as the responsible practitioner. Resthome then uses the assessor if they are a
+as the responsible practitioner. WideCare then uses the assessor if they are a
 physician (with a NIHII), otherwise the configured **coordinating physician**. If
 no physician is available, sending is **blocked** with an explicit message:
 configure a coordinating physician in the eHealth settings.
@@ -81,7 +82,7 @@ configure a coordinating physician in the eHealth settings.
 :::{admonition} The generic number is a last resort
 :class: info
 
-If no one in the chain has a usable NIHII, Resthome falls back on the **Generic
+If no one in the chain has a usable NIHII, WideCare falls back on the **Generic
 nurse NIHII** set in the eHealth settings — the number the federated entity
 gives a nurse without their own. This is a safety net: for a correct identity, enter the
 caregiver's personal NIHII, or at least a fallback head nurse and coordinating
@@ -113,7 +114,7 @@ No scan at hand? Draw the signature once in the Katz signing window and tick
 **Use my saved signature** reuses it the next time.
 
 Prefer a **PNG image with a transparent background**, cropped to the strokes.
-Resthome places it in the annex's "Signature" box while **preserving its
+WideCare places it in the annex's "Signature" box while **preserving its
 proportions** — a well-cropped image gives a clean result.
 :::
 
@@ -144,13 +145,13 @@ physician.
 
 A **cross-border** physician who does **not** have a Belgian NIHII cannot provide
 a personal number. On their employee record (*physician* role), tick **Foreign
-physician (no Belgian NIHII)**. Resthome then records on the request the **generic
+physician (no Belgian NIHII)**. WideCare then records on the request the **generic
 number provided by the eHealth specification** for foreign practitioners, which
 the insurance bodies accept. You have no number to enter yourself.
 
 ## Signing an annex in the application
 
-Rather than **printing, signing by hand and then scanning**, Resthome places your
+Rather than **printing, signing by hand and then scanning**, WideCare places your
 **Personal signature** on the annex PDF and saves it — a route compliant with the
 **applicable signature rules**. The annexes concerned:
 
@@ -168,24 +169,24 @@ The path, on a request in **Draft**:
    buttons appear only in Draft, when the annex exists and is **not yet signed**.
 3. In the **Sign annex** window, check the **Signer** (you by default), their
    **role**, the **signature date** and the signature **preview**.
-4. Click **Sign & replace PDF**. Resthome regenerates a clean PDF, places the
+4. Click **Sign & replace PDF**. WideCare regenerates a clean PDF, places the
    signature on it and ticks the annex as **signed** (a green ✓ "Signed" appears
    next to the annex).
 
 :::{admonition} Sending without signing: possible, but on your responsibility
 :class: warning
 
-Resthome does **not block** the send when an annex is unsigned — it asks you to
+WideCare does **not block** the send when an annex is unsigned — it asks you to
 confirm. The **Send Request** button then displays *"The annex is not signed. In
 eAgreement Light the OA decides from the annex PDF — send anyway?"*. Cancel to
 sign first, or confirm to send as-is.
 
-If you confirm, the request leaves with an **unsigned annex** and Resthome records
+If you confirm, the request leaves with an **unsigned annex** and WideCare records
 a warning in the request's thread: *"Sent with an UNSIGNED annex"*. Since the
 insurer decides **from that PDF**, an unsigned annex exposes you to a refusal —
 you would then have to sign and resend the **whole** request.
 
-Re-signing is safe: Resthome starts from a blank PDF each time, without stacking
+Re-signing is safe: WideCare starts from a blank PDF each time, without stacking
 signatures.
 :::
 
@@ -202,7 +203,7 @@ handwritten signature. Tick **Annex signed** again (Annexe 7 / 11), or re-run
 :class: note
 
 If the Katz assessment was **signed in the app** at scoring time, the Annexe 10
-PDF already carries the signature: Resthome marks it **signed automatically** and
+PDF already carries the signature: WideCare marks it **signed automatically** and
 the step above is not needed.
 :::
 
@@ -247,7 +248,7 @@ warns you and the **Sign & replace PDF** button is not offered. Two options:
 ## Key points to remember
 
 - The **responsible practitioner** is the **Katz assessor**, not the sender;
-  Resthome resolves their **NIHII** in a cascade: assessor → head nurse →
+  WideCare resolves their **NIHII** in a cascade: assessor → head nurse →
   coordinating physician → generic number.
 - A Katz **category D** requires a **physician**; configure a fallback
   **coordinating physician** in the eHealth settings.

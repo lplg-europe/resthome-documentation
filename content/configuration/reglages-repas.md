@@ -1,11 +1,12 @@
 ---
 modules: [resthome_meal]
+sectors: [mr, csj, rs]
 ---
 
 # Meal and nutrition settings
 
 :::{rh-description}
-Configure Resthome's Meals tab in a nursing home: nutritional data source, public menu, kiosk, family notifications, and ESPEN targets.
+Configure WideCare's Meals tab in a nursing home: nutritional data source, public menu, kiosk, family notifications, and ESPEN targets.
 :::
 
 :::{rh-faq}
@@ -13,10 +14,10 @@ Which nutritional source should I choose?
 : Keep CIQUAL (ANSES, France), the default: its database of foods is already loaded, so you can use it right away. Another source must be imported before you switch to it.
 
 What is the intake deficit alert threshold for?
-: Resthome compares the 3-day average intake against the resident's needs (energy and protein). When that intake covers less than the configured threshold (75% by default), a deficit alert is created. Lower the threshold to be alerted later, raise it to be alerted sooner.
+: WideCare compares the 3-day average intake against the resident's needs (energy and protein). When that intake covers less than the configured threshold (75% by default), a deficit alert is created. Lower the threshold to be alerted later, raise it to be alerted sooner.
 
 Are the ESPEN targets the same for every resident?
-: No. The coefficients (30 kcal/kg, 1 g/kg of protein, 1.6 l for women and 2.0 l for men) are facility-wide settings. Resthome then calculates each resident's own target from their weight and sex. The energy band rises to 35 kcal/kg for an underweight resident (BMI less than or equal to 21).
+: No. The coefficients (30 kcal/kg, 1 g/kg of protein, 1.6 l for women and 2.0 l for men) are facility-wide settings. WideCare then calculates each resident's own target from their weight and sex. The energy band rises to 35 kcal/kg for an underweight resident (BMI less than or equal to 21).
 
 Why do meal notifications to families have no effect?
 : Sending emails requires an outgoing mail server configured in Odoo. Without one, enabling the option sends nothing. First configure the outgoing server, then enable the global notification and the per-resident opt-in.
@@ -35,7 +36,7 @@ they rarely need adjusting.
 
 ## Nutrition
 
-This section indicates which **reference database** Resthome queries to retrieve
+This section indicates which **reference database** WideCare queries to retrieve
 the nutritional values of ingredients (calories, protein, etc.).
 
 | Setting | What it does | Recommended value |
@@ -111,7 +112,7 @@ trigger the **deficit alerts**.
 :::{admonition} A target calculated per resident
 :class: info
 
-Here you set the **coefficients**; Resthome derives each resident's
+Here you set the **coefficients**; WideCare derives each resident's
 **individual target** from their weight and sex, then compares the actual
 **intake** against those targets. Coverage monitoring and undernutrition
 screening are described in [Nutritional monitoring and undernutrition](../repas/suivi-nutritionnel.md).

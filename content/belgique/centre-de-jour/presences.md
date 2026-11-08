@@ -1,5 +1,6 @@
 ---
 modules: [resthome_day_care, resthome_day_care_medical, resthome_day_care_mobile]
+sectors: [csj]
 ---
 
 # Recording attendance

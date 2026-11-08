@@ -1,5 +1,6 @@
 ---
 modules: [healthcare_accommodation]
+sectors: [mr]
 ---
 
 # The move-in procedure

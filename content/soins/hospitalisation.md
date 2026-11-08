@@ -1,5 +1,6 @@
 ---
 modules: [resthome_geriatric, healthcare_medical_absences]
+sectors: [mr]
 ---
 
 # Hospital departure and return

@@ -1,5 +1,6 @@
 ---
 modules: [resthome_mr_billing]
+sectors: [mr]
 ---
 
 # Occupancy MR / CS / MRS

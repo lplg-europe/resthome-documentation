@@ -1,7 +1,9 @@
-# Documentation Resthome (publique)
+# Documentation WideCare (publique)
 
-Documentation **utilisateur** du logiciel **Resthome** (maisons de repos et de
-soins MR/MRS), éditée par **LPLG**. Site généré avec **Sphinx** (thème
+Documentation **utilisateur** du logiciel **WideCare**, éditée par **LPLG** :
+maisons de repos (le produit **Resthome**), centres de soins de jour,
+résidences-services et médecins généralistes, sur un seul site filtré par un
+sélecteur de secteur. Site généré avec **Sphinx** (thème
 sphinx-immaterial), sur le **modèle docs-as-code** : **source unique en anglais** dans
 `content/`, traductions **FR / NL** par catalogues gettext (`locale/`),
 **multi-version** (`/documentation/<version>/…`).

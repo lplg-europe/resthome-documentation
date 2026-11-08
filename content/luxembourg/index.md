@@ -1,18 +1,19 @@
 ---
 modules: [l10n_health_lu]
+sectors: [mr, csj, rs, gp]
 ---
 
 # Luxembourg
 
 :::{rh-description}
-Resthome in Luxembourg: the national identification number, the CNS as insurer, and the common applications, which work the same way in every country.
+WideCare in Luxembourg: the national identification number, the CNS as insurer, and the common applications, which work the same way in every country.
 :::
 
 :::{rh-faq}
-Can a Luxembourg care home use Resthome?
+Can a Luxembourg care home use WideCare?
 : Yes. The common applications work the same way in every country, and the Luxembourg pack brings the national identification number and the CNS as the resident's insurer.
 
-Who do I contact to use Resthome in Luxembourg?
+Who do I contact to use WideCare in Luxembourg?
 : The LPLG team: see [Support](../support.md).
 :::
 

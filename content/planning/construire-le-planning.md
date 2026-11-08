@@ -1,12 +1,13 @@
 ---
 modules: [healthcare_planning, healthcare_gantt, healthcare_planning_gantt]
 howto_auto: true
+sectors: [mr, csj]
 ---
 
 # Build the schedule
 
 :::{rh-description}
-Build the care staff schedule in Resthome: lay the shifts from a template, plan them automatically, correct by hand, then confirm and send the schedule to the staff concerned.
+Build the care staff schedule in WideCare: lay the shifts from a template, plan them automatically, correct by hand, then confirm and send the schedule to the staff concerned.
 :::
 
 :::{rh-faq}
@@ -102,7 +103,7 @@ From the list view, the **Apply a template** button does the same.
 
 ## 2. Plan the open shifts automatically
 
-Click **Plan**, then **Auto plan the open shifts**. Resthome fills the open shifts
+Click **Plan**, then **Auto plan the open shifts**. WideCare fills the open shifts
 of the period on screen, earliest first. A message says how many shifts were
 planned and, for those left open, why (nobody holds the role, on leave, weekly
 maximum reached…).

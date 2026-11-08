@@ -1,5 +1,6 @@
 ---
 modules: [healthcare_accommodation_helpdesk]
+sectors: [mr]
 ---
 
 # Technical interventions

@@ -1,5 +1,6 @@
 ---
 modules: [healthcare_accommodation_billing]
+sectors: [mr, csj]
 ---
 
 # The billing dashboard

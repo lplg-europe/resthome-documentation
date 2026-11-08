@@ -1,6 +1,7 @@
 ---
 howto_auto: true
 modules: [healthcare_accommodation]
+sectors: [mr]
 ---
 
 # Rooms and occupancy

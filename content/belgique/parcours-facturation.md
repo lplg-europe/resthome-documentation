@@ -1,11 +1,12 @@
 ---
 modules: [resthome_mr_ehealth, resthome_mr_billing]
+sectors: [mr, csj]
 ---
 
 # The billing journey
 
 :::{rh-description}
-From admission to payment: the complete billing journey of a nursing home resident with Resthome (MDA, eAgreement, Katz, eFact).
+From admission to payment: the complete billing journey of a nursing home resident with WideCare (MDA, eAgreement, Katz, eFact).
 :::
 
 From **admission** to **payment**, a correct invoice always follows the same

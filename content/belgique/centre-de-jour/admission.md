@@ -1,11 +1,12 @@
 ---
 modules: [resthome_day_care, healthcare_accommodation, resthome_day_care_ehealth, resthome_mr_day_care]
+sectors: [csj]
 ---
 
 # Admitting a day care user
 
 :::{rh-description}
-Admitting a day care user in Resthome: the CSJ stay in a day place, the days expected, the move-in steps, the CSJ category and the respite in the rest home.
+Admitting a day care user in WideCare: the CSJ stay in a day place, the days expected, the move-in steps, the CSJ category and the respite in the rest home.
 :::
 
 :::{rh-faq}
@@ -95,7 +96,7 @@ the day price, or billed by the transport firm itself — subscribes nobody.
 
 ## Start the stay
 
-Click **Start Stay** on the user's first day. Resthome then:
+Click **Start Stay** on the user's first day. WideCare then:
 
 - shows the **Add a day of attendance** button on the user's file, next to
   the **Attendance days** smart button that opens their days;
@@ -128,7 +129,7 @@ tasks for the administration:
 
 ## The CSJ category
 
-The same Katz evaluation serves both sectors. For a day care user, Resthome
+The same Katz evaluation serves both sectors. For a day care user, WideCare
 reads its **CSJ category**, shown under **CSJ** on the evaluation:
 
 - **F** — dependent for washing and dressing, and for transfer or toileting;

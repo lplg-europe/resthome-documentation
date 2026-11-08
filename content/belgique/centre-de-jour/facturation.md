@@ -1,11 +1,12 @@
 ---
 modules: [resthome_day_care, healthcare_accommodation_billing, l10n_health_be_perdiem_billing, resthome_day_care_ehealth]
+sectors: [csj]
 ---
 
 # Billing a day care month
 
 :::{rh-description}
-Billing a day care month in Resthome: the CSJ forfait on the days that earn it, the day price on every day recorded, the supplements, the checks before sending, the unticked month.
+Billing a day care month in WideCare: the CSJ forfait on the days that earn it, the day price on every day recorded, the supplements, the checks before sending, the unticked month.
 :::
 
 :::{rh-faq}
@@ -102,7 +103,7 @@ The month bills the user's day price, but no forfait, when:
   later agreement was granted. See [The day care agreement](accord.md);
 - **the staffing norm withdrew the forfait** of the billing year — see below.
 
-Resthome never sends a forfait at 0.00 EUR.
+WideCare never sends a forfait at 0.00 EUR.
 
 ## The month nobody ticked
 

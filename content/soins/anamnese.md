@@ -1,15 +1,16 @@
 ---
 modules: [resthome_geriatric]
+sectors: [mr, csj]
 ---
 
 # Multidisciplinary anamnesis
 
 :::{rh-description}
-The multidisciplinary anamnesis in Resthome: a dated intake per discipline (nursing, physiotherapy, occupational therapy, speech therapy) that collects the resident's physical particularities and wishes without re-entering what the record already holds.
+The multidisciplinary anamnesis in WideCare: a dated intake per discipline (nursing, physiotherapy, occupational therapy, speech therapy) that collects the resident's physical particularities and wishes without re-entering what the record already holds.
 :::
 
 :::{rh-faq}
-What is the multidisciplinary anamnesis in Resthome?
+What is the multidisciplinary anamnesis in WideCare?
 : A dated intake form, one per discipline (nursing, physiotherapy, occupational therapy, speech therapy), that gathers the resident's physical particularities, hospitalisation preferences and end-of-life wishes, together with the remarks of the professional who fills it in.
 
 Do I have to re-enter the allergies, treatments or assessments?
@@ -59,7 +60,7 @@ record.
 :::{admonition} One anamnesis per resident, discipline and date
 :class: note
 
-Resthome refuses a duplicate for the same resident, discipline and date. To
+WideCare refuses a duplicate for the same resident, discipline and date. To
 revise a same-day entry, edit the existing one. Only a resident with a stay in
 the house can be picked.
 :::
@@ -125,7 +126,7 @@ category. See [Care in Belgium](../belgique/soins.md).
 
 ## 6. Complete the anamnesis
 
-When the intake is done, click **Mark Complete**. Resthome records the
+When the intake is done, click **Mark Complete**. WideCare records the
 completion date.
 
 | State | Meaning |

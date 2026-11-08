@@ -1,11 +1,12 @@
 ---
 modules: [healthcare_medical, healthcare_base]
+sectors: [mr, csj]
 ---
 
 # Evaluations to validate
 
 :::{rh-description}
-One list of every assessment still open in Resthome, whatever the scale: drafts and confirmed evaluations waiting for validation, by resident, scale and evaluator.
+One list of every assessment still open in WideCare, whatever the scale: drafts and confirmed evaluations waiting for validation, by resident, scale and evaluator.
 :::
 
 :::{rh-faq}

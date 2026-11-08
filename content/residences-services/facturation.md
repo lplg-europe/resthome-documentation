@@ -1,5 +1,6 @@
 ---
 modules: [serviced_living_billing]
+sectors: [rs]
 ---
 
 # Billing a residence

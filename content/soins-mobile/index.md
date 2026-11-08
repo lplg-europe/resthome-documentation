@@ -1,5 +1,6 @@
 ---
 modules: [healthcare_mobile]
+sectors: [mr, csj, rs]
 ---
 
 # WideCare app

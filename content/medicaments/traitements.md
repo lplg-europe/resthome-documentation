@@ -1,11 +1,12 @@
 ---
 modules: [healthcare_medication, healthcare_medical, resthome_geriatric]
+sectors: [mr, csj]
 ---
 
 # Treatments
 
 :::{rh-description}
-A resident's treatment in Resthome: the medicine, the dose, the moments of the day, how it is taken, the checks against allergies and interactions, the box, and suspending, resuming or ending it.
+A resident's treatment in WideCare: the medicine, the dose, the moments of the day, how it is taken, the checks against allergies and interactions, the box, and suspending, resuming or ending it.
 :::
 
 :::{rh-faq}
@@ -21,7 +22,7 @@ How do I stop a treatment?
 What happens to the treatments when a resident goes to hospital?
 : The hospital departure suspends every active treatment. The return resumes exactly those, and asks a nurse to reconcile them with the discharge letter.
 
-Does Resthome check allergies and interactions?
+Does WideCare check allergies and interactions?
 : Yes, against what the house has recorded: the resident's allergies, the allergens of the medicine and the house's list of drug interactions. A critical allergy or a contraindicated pair blocks the treatment.
 :::
 
@@ -105,7 +106,7 @@ before the interval.
 :class: warning
 
 The checks read the resident's allergies, the allergens of the medicine and the
-interactions **the house entered**. Resthome does not deduce clinical
+interactions **the house entered**. WideCare does not deduce clinical
 information that nobody recorded.
 :::
 

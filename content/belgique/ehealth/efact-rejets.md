@@ -1,11 +1,12 @@
 ---
 modules: [l10n_health_be_efact, l10n_health_be_perdiem_ehealth]
+sectors: [mr, csj]
 ---
 
 # eFact rejections — causes and solutions
 
 :::{rh-description}
-Why a nursing home eFact invoice is rejected by the mutuality and how to fix it in Resthome: insurability, allowance, dates, duplicate, resend.
+Why a nursing home eFact invoice is rejected by the mutuality and how to fix it in WideCare: insurability, allowance, dates, duplicate, resend.
 :::
 
 :::{rh-faq}
@@ -19,7 +20,7 @@ What is the difference between a global rejection and a partial rejection?
 : A partial rejection refuses only some lines (the rest is paid): you fix and resend only those lines. A global rejection refuses the whole batch: you fix the cause and resend a new batch.
 
 How do I correct an over-invoicing (departure, death, over-declared allowance)?
-: Resthome detects it through the self-check and prepares a credit note on the resident side and, if the mutuality share is affected, a corrective batch to the insurance organisation. The credit lines are included in the next sending.
+: WideCare detects it through the self-check and prepares a credit note on the resident side and, if the mutuality share is affected, a corrective batch to the insurance organisation. The credit lines are included in the next sending.
 :::
 
 When you send the [eFact](efact.md), the **insurance organisation (OA)** checks
@@ -30,7 +31,7 @@ resend**.
 :::{admonition} Two lines of defence
 :class: info
 
-Most rejection causes are **intercepted by Resthome before sending** (period
+Most rejection causes are **intercepted by WideCare before sending** (period
 self-check, checks at generation). They then appear as an **anomaly message**
 to handle, not as a rejection. The cases that slip through anyway then come
 back as an **OA rejection**. This page covers both.
@@ -44,7 +45,7 @@ in the **amounts** (invoiced / accepted / refused):
 1. **Acknowledgement of receipt** — the OA confirms having received the file
    and passed the first check. Nothing to do.
 2. **OA settlement** — the OA returns the result **line by line**: what is
-   **accepted** and what is **refused**. Resthome reconciles this settlement and
+   **accepted** and what is **refused**. WideCare reconciles this settlement and
    updates the batch amounts.
 3. **Acceptance and/or rejection** — three possible outcomes:
     - **everything is accepted** → the batch is settled, then can be closed;
@@ -98,7 +99,7 @@ point to the cause.
 
 ## Frequent rejection causes → action
 
-| Cause | What you see | Action in Resthome |
+| Cause | What you see | Action in WideCare |
 |---|---|---|
 | **Invalid or missing insurability (MDA)** | The **MDA** counter is not green; batch held back at sending; or an OA rejection for insurability | Run **Check MDA**, get the **Success** status for each resident, then **regenerate** the eFact. The MDA must be validated **before** generating the eFact. |
 | **Wrong or missing mutuality** | The allowance goes to the wrong OA (rejection) or does not appear in the batch | Enter/correct the **mutuality** on the resident's record, then **regenerate**. Check that each resident invoiced under third-party payment does have a mutuality. |
@@ -113,7 +114,7 @@ point to the cause.
 
 ## Resend, or waive the rejection
 
-A rejected batch leaves you with two paths, and Resthome tracks both.
+A rejected batch leaves you with two paths, and WideCare tracks both.
 
 ### Retransmit
 
@@ -121,17 +122,17 @@ A rejected batch leaves you with two paths, and Resthome tracks both.
 re-routed to the health insurance fund the resident **actually** belongs to
 today — which is often what the rejection was about.
 
-- If the lines now belong to **several funds**, Resthome creates **one batch per
+- If the lines now belong to **several funds**, WideCare creates **one batch per
   fund**.
 - A batch can only be retransmitted **once**: if a resend already exists,
-  Resthome points you to it rather than creating a duplicate.
+  WideCare points you to it rather than creating a duplicate.
 
 :::{admonition} Retransmit re-sends unchanged content
 :class: warning
 
 If the billing was **corrected** since the batch was sent — a stay closed, a
 death capped, lines regenerated — retransmitting would re-send the amounts from
-*before* the correction. Resthome detects it and sends you to the regeneration
+*before* the correction. WideCare detects it and sends you to the regeneration
 flow instead, which rebuilds from the current billing.
 :::
 
@@ -167,7 +168,7 @@ at the source, then resend.**
   than redoing everything.
 - **Credit note / corrective batch.** Whenever you have **invoiced more than
   due** — a departure or death during an already invoiced month, an
-  over-declared allowance — Resthome prepares a **credit note** (on the resident
+  over-declared allowance — WideCare prepares a **credit note** (on the resident
   side) and, if the mutuality share is affected, a **corrective batch** to the
   OA. The credit lines are included in the **next eFact sending**.
 

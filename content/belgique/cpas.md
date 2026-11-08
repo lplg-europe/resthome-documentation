@@ -1,6 +1,7 @@
 ---
 howto_auto: true
 modules: [l10n_health_be_perdiem_billing, healthcare_accommodation_billing, l10n_health_be_mediprima]
+sectors: [mr, csj]
 ---
 
 # CPAS coverage
@@ -19,7 +20,7 @@ Does the CPAS pay everything or only part of it?
 Does ticking "CPAS Supported" automatically send the invoice to the CPAS?
 : No. The CPAS section is a record of the decision, not a splitting engine. To send the resident share to the CPAS, fill in the resident's **Billing Contact** (the CPAS); to split between the CPAS and another payer, use maintenance debtors (split billing).
 
-Where do you create a CPAS in Resthome?
+Where do you create a CPAS in WideCare?
 : In **Billing → Configuration → CPAS**. Create the contact (company): it is flagged as a CPAS from this menu. Only contacts flagged this way appear in the CPAS field of the resident record.
 
 Is the dependency allowance affected by CPAS coverage?
@@ -29,12 +30,12 @@ Is the CPAS monthly amount the same for all residents?
 : No. The amount depends on the CPAS decision for that resident: it is a value specific to each case, to be entered based on the notification received from the CPAS.
 
 What is MediPrima?
-: The federal register of the medical aid decisions CPAS take for people who have no mutuality. Resthome can consult the medical card of a resident through eHealth, when the MediPrima module is installed.
+: The federal register of the medical aid decisions CPAS take for people who have no mutuality. WideCare can consult the medical card of a resident through eHealth, when the MediPrima module is installed.
 :::
 
 When a resident cannot afford their **personal share** (accommodation and
 supplements), the **CPAS** (Public Centre for Social Welfare) of their
-municipality can **cover it**, in full or in part. Resthome lets you **record
+municipality can **cover it**, in full or in part. WideCare lets you **record
 this decision** on the resident record and **route the invoice** to the right
 debtor.
 
@@ -58,7 +59,7 @@ Two notions must be distinguished:
 - **Record the decision** — who the CPAS is, from when, under which reference, for
   what coverage and what amount. This information documents the case and is
   **tracked in the audit log** (financial category).
-- **Route the invoice** — decide **who** Resthome sends the resident share to: the
+- **Route the invoice** — decide **who** WideCare sends the resident share to: the
   resident, their family, or the CPAS. This routing is driven by the **Billing
   contact** or by **maintenance debtors** (see below).
 
@@ -134,7 +135,7 @@ billing**. Without one of these two levers, the resident share keeps being sent
 **to the resident**.
 :::
 
-## What Resthome does — and does not do
+## What WideCare does — and does not do
 
 | Action | Automatic? |
 |---|---|
@@ -161,7 +162,7 @@ billing**. Without one of these two levers, the resident share keeps being sent
 
 A person who has no mutuality — someone in a reception centre, without papers —
 may have their care paid by a CPAS under **MediPrima**, the federal register of
-the medical aid decisions. With the MediPrima module installed, Resthome asks
+the medical aid decisions. With the MediPrima module installed, WideCare asks
 that register through eHealth.
 
 1. On the resident's record, open the **MediPrima** smart button, or **eHealth →
@@ -178,7 +179,7 @@ The answer comes back as:
 - **Error** — the platform's message is shown on the consultation.
 
 When the answer is **Covered by a CPAS** and the resident's **Insurance
-Regime** is empty or standard, Resthome sets it to **MediPrima (CPAS medical
+Regime** is empty or standard, WideCare sets it to **MediPrima (CPAS medical
 card)**: like the other special regimes, the resident is then left out of the MDA
 batches. **Consult again** refreshes the answer. MediPrima is a practitioner
 service: the menu is reserved to eHealth practitioners and managers.

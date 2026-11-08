@@ -1,18 +1,19 @@
 ---
 modules: []
+sectors: [mr, csj, rs, gp]
 ---
 
 # Spain
 
 :::{rh-description}
-Resthome in Spain: the common applications, which work the same way in every country, and the space that will gather what comes from Spanish rules.
+WideCare in Spain: the common applications, which work the same way in every country, and the space that will gather what comes from Spanish rules.
 :::
 
 :::{rh-faq}
-Can a Spanish care home use Resthome?
+Can a Spanish care home use WideCare?
 : The common applications work the same way in every country: residents, admissions, care, meals, the family portal, accommodation billing. What is Spanish — identity, insurance, invoicing to the health insurance — is not documented yet.
 
-Who do I contact to use Resthome in Spain?
+Who do I contact to use WideCare in Spain?
 : The LPLG team: see [Support](../support.md).
 :::
 

@@ -30,7 +30,7 @@
       // Fil « [WideCare] › [suite ▾] › [pays ▾] » à la place du titre du site :
       // WideCare est l'écosystème, la suite est le métier de CE site (un site
       // par suite), le pays filtre la navigation.
-      var suite = document.getElementById("rh-suite");
+      var suite = document.getElementById("rh-sector");
       var topic = h.querySelector(".md-header__title .md-header__topic .md-ellipsis");
       if (suite && topic && !topic.querySelector(".rh-brand")) {
         // « WideCare » mène au portail ; la suite et le pays sont des menus
@@ -53,8 +53,8 @@
         var a = document.createElement("a");
         a.className = "lplg-site-link";
         a.href = "https://www.lplg.eu/resthome";
-        a.title = "Site Resthome sur lplg.eu";
-        a.innerHTML = "Site Resthome" +
+        a.title = "Site WideCare sur lplg.eu";
+        a.innerHTML = "Site WideCare" +
           "<svg viewBox='0 0 24 24' aria-hidden='true'>" +
           "<path d='M14 3v2h3.59l-9.3 9.29 1.42 1.42L19 6.41V10h2V3h-7zM5 5h5V3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-5h-2v5H5V5z'/></svg>";
         h.insertBefore(a, gh || null);

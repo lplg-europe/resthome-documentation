@@ -1,11 +1,12 @@
 ---
 modules: [resthome_geriatric]
+sectors: [mr, csj]
 ---
 
 # The life project
 
 :::{rh-description}
-The resident's life project in Resthome: who they are and what they want — life story, habits, likes, interests, relationships, values and wishes — with a referent, a review date and objectives that land in the care plan.
+The resident's life project in WideCare: who they are and what they want — life story, habits, likes, interests, relationships, values and wishes — with a referent, a review date and objectives that land in the care plan.
 :::
 
 :::{rh-faq}
@@ -16,7 +17,7 @@ What does the life project change in the care plan?
 : Click **New Objective** on the life project: the objective is written for the resident and lands in their care plan, with the other care objectives.
 
 Who can read the life project?
-: Care staff. The life project is not shown to other users of Resthome.
+: Care staff. The life project is not shown to other users of WideCare.
 :::
 
 The **life project** says who the resident is and what they want, in their own

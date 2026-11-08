@@ -1,5 +1,6 @@
 ---
 modules: [resthome_reporting]
+sectors: [mr]
 ---
 
 # Management reports

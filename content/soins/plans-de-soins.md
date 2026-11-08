@@ -1,15 +1,16 @@
 ---
 modules: [healthcare_medical, healthcare_medical_accommodation, resthome_geriatric]
+sectors: [mr, csj]
 ---
 
 # Care plans
 
 :::{rh-description}
-Care plans in Resthome: objectives and care lines with their moments of the day, hour and frequency, templates to add or replace, suspension, stop and archive, periodic review and the care plan coordinator.
+Care plans in WideCare: objectives and care lines with their moments of the day, hour and frequency, templates to add or replace, suspension, stop and archive, periodic review and the care plan coordinator.
 :::
 
 :::{rh-faq}
-What is a care plan in Resthome?
+What is a care plan in WideCare?
 : The plan of a resident's care: **objectives** (why) and **care lines** (what is done, when and how often). Every night, the care lines become care tasks for the coming days. A resident has one live plan at a time.
 
 Can I delete a care line?
@@ -22,7 +23,7 @@ How do I give the same care morning and evening?
 : On one line: pick several **Moments of the Day**. A single moment can carry a precise **Hour**; left empty, the care takes the start of its moment.
 
 What happens when I pick a template on a plan that already has content?
-: Resthome asks first. On a draft plan you choose **Add to the plan** (what is already there is kept and duplicates are skipped) or **Replace everything** (what was written on the draft goes; care already given or noted stays). On a plan in force, a template can only be added.
+: WideCare asks first. On a draft plan you choose **Add to the plan** (what is already there is kept and duplicates are skipped) or **Replace everything** (what was written on the draft goes; care already given or noted stays). On a plan in force, a template can only be added.
 :::
 
 A **care plan** describes the care of one resident: the **objectives** the
@@ -174,7 +175,7 @@ The icons at the end of a line, on a plan in force:
 :class: warning
 
 On a **draft** plan, a care nothing has happened on shows a bin: **Remove this
-care, added by mistake**. Resthome confirms that nothing stays on the care
+care, added by mistake**. WideCare confirms that nothing stays on the care
 file. On a plan in force there is no bin: a care is part of the record for
 years, so it is stopped or archived with a reason. The same rule applies to
 objectives.

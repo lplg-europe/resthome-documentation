@@ -1,16 +1,17 @@
 ---
 modules: [healthcare_medication, healthcare_medical]
+sectors: [mr, csj]
 ---
 
 # The medication round at the desk
 
 :::{rh-description}
-Follow and record the medication round from the office in Resthome: the doses of the day and their statuses, Distributed and Given, a dose given earlier, a refusal, the correction of a wrong record and the medication incidents.
+Follow and record the medication round from the office in WideCare: the doses of the day and their statuses, Distributed and Given, a dose given earlier, a refusal, the correction of a wrong record and the medication incidents.
 :::
 
 :::{rh-faq}
 Where do the doses of the round come from?
-: From the active treatments. Each night, just after midnight in the house's time, Resthome places the day's doses, one per treatment and per moment.
+: From the active treatments. Each night, just after midnight in the house's time, WideCare places the day's doses, one per treatment and per moment.
 
 What is the difference between Distributed and Given?
 : **Distributed** means the dose is in the resident's hands; **Given** means the intake was seen. Given straight away records both at once, by the same person.
@@ -32,7 +33,7 @@ you record, complete or correct them.
 
 ## How the round is built
 
-Each night, just after midnight in the house's time, Resthome places the day's
+Each night, just after midnight in the house's time, WideCare places the day's
 doses from the **active** treatments: one dose per treatment and per moment of
 the day. A suspended, cancelled or completed treatment gives no dose; an *as
 needed* treatment has no place on the round.
@@ -73,7 +74,7 @@ confirm**, **Refused**, **Not Taken**, **If Needed** and **Unplanned**.
 :::{admonition} The right hand for each dose
 :class: warning
 
-Resthome refuses a gesture the person may not do: a dose already recorded is
+WideCare refuses a gesture the person may not do: a dose already recorded is
 not given again, a dose of a past care day is only recorded with **Given
 Earlier** or as not given, and a care assistant gives only what their role and
 the pillbox rules allow (see [Pillboxes and the pharmacy's sachets](piluliers.md)).

@@ -1,5 +1,6 @@
 ---
 modules: [healthcare_mobile_care, healthcare_medical, resthome_geriatric]
+sectors: [mr, csj]
 ---
 
 # Observations

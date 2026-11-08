@@ -1,21 +1,22 @@
 ---
 modules: [l10n_health_be_connector, l10n_health_be_mda, l10n_health_be_efact, l10n_health_be_eagreement_light]
+sectors: [mr, csj]
 ---
 
 # eHealth
 
 :::{rh-description}
-The eHealth services of Resthome for Belgian nursing homes: MDA insurability, eFact electronic invoicing, eAgreement agreements, the eHealthBox, the Health Directory, consent and MediPrima.
+The eHealth services of WideCare for Belgian nursing homes: MDA insurability, eFact electronic invoicing, eAgreement agreements, the eHealthBox, the Health Directory, consent and MediPrima.
 :::
 
 :::{rh-faq}
-Which eHealth services does Resthome use?
+Which eHealth services does WideCare use?
 : The insurability check (MDA), the electronic invoicing of the INAMI allowance (eFact), the agreements and notifications (eAgreement Light), the eHealthBox secure mailbox, the Health Directory and CoBRHA, the patient consent and MediPrima. Each one is described on its own page.
 
 What do I need before the first exchange?
 : An eHealth certificate installed on the home's approval, with a successful connection test. The residents need a NISS and a mutuality.
 
-A sending got no certain answer: will Resthome resend it?
+A sending got no certain answer: will WideCare resend it?
 : Never on its own. It lists the sending in eHealth → Configuration → Sends to check, where you say whether MyCareNet received it; only then can it be sent again.
 
 Where do I see what was exchanged with the platform?
@@ -42,7 +43,7 @@ annuaire-sante
 consentement
 :::
 
-Resthome is connected to the Belgian e-health ecosystem (eHealth, MyCareNet,
+WideCare is connected to the Belgian e-health ecosystem (eHealth, MyCareNet,
 WalCareNet) to exchange directly with the mutualities and the other caregivers.
 Most of it lives in the **eHealth** application; some services also show up
 where you need them, on the resident's record or in the billing period.
@@ -115,7 +116,7 @@ where you need them, on the resident's record or in the billing period.
 ## When an answer gets lost
 
 A sending to MyCareNet can end without a certain answer: a time-out, an
-interruption. Resthome **never resends it on its own**, so that the mutuality
+interruption. WideCare **never resends it on its own**, so that the mutuality
 never receives the same request twice. It lists it in **eHealth →
 Configuration → Sends to check**, reserved to the eHealth managers: look for
 its acknowledgement in the MyCareNet mailbox, then click **Received by

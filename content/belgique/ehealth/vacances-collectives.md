@@ -1,5 +1,6 @@
 ---
 modules: [resthome_mr_ehealth]
+sectors: [mr]
 ---
 
 # Collective holidays

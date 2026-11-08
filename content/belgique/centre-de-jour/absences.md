@@ -1,11 +1,12 @@
 ---
 modules: [resthome_day_care, resthome_geriatric, healthcare_accommodation_billing]
+sectors: [csj]
 ---
 
 # Absences and hospitalisation of a day care user
 
 :::{rh-description}
-Absences of a day care user (CSJ) in Resthome: a declared absence, a hospitalisation from the centre or from home, a day cut short, and the unannounced absence.
+Absences of a day care user (CSJ) in WideCare: a declared absence, a hospitalisation from the centre or from home, a day cut short, and the unannounced absence.
 :::
 
 :::{rh-faq}
@@ -65,7 +66,7 @@ A draft absence with no return is a form being filled in: it holds no day.
 ## A hospitalisation from the user's file
 
 Click **Hospital departure** on the user's file, as for any resident. When
-Resthome cannot tell where the user was — it is one of their days, the centre
+WideCare cannot tell where the user was — it is one of their days, the centre
 is open, and nobody has ticked them in — the dialog asks **Left From**:
 
 - **The day centre**: give the hour they **Arrived At**. The day is written in

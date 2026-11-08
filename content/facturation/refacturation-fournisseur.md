@@ -1,6 +1,7 @@
 ---
 modules: [resthome_supplements, resthome_sales]
 howto_auto: true
+sectors: [mr, csj]
 ---
 
 # Recharging a vendor bill
@@ -43,7 +44,7 @@ a recharged supplement behaves exactly like one keyed by hand.
 ## Before you start
 
 The bill must be **posted**: a draft bill can still change under the residents'
-supplements, so Resthome refuses it.
+supplements, so WideCare refuses it.
 
 The products you buy and pass on carry a flag in their record, **Rechargeable
 to residents**. It is what makes the button appear on the bill. Set it on the
@@ -61,7 +62,7 @@ on it.
 ## 1. Start the recharge from the bill
 
 Open the posted vendor bill in the Invoicing app and click **Recharge to
-residents**. Resthome creates the recharge, pre-filled with one line per
+residents**. WideCare creates the recharge, pre-filled with one line per
 eligible bill line — product, wording and untaxed amount — and opens it.
 
 ![Posted vendor bill with the Recharge to residents button in the header](../assets/screenshots/facturation/10-facture-fournisseur-bouton.png)
@@ -131,7 +132,7 @@ Adding a line then comes down to keying the amount.
 tells you the total and the residents a flat-rate agreement leaves out. Nothing
 is written yet.
 
-**Validate** writes one supplement on each resident's open envelope. Resthome
+**Validate** writes one supplement on each resident's open envelope. WideCare
 refuses first — before writing anything — when:
 
 - a line carries no supplement product (unless the home has set a fallback, see

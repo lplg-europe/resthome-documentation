@@ -12,7 +12,7 @@ import sys
 sys.path.insert(0, os.path.abspath("_ext"))
 
 # -- Projet -------------------------------------------------------------------
-project = "WideCare · Resthome"
+project = "WideCare"
 author = "LPLG"
 copyright = "LPLG — CC BY 4.0"
 
@@ -60,7 +60,7 @@ gettext_location = True
 
 # -- HTML ---------------------------------------------------------------------
 html_theme = "sphinx_immaterial"
-html_title = "WideCare · Resthome"
+html_title = "WideCare"
 html_theme_options = {
     "site_url": "https://www.lplg.eu/resthome/documentation/",
     "font": False,   # pas de fetch Google Fonts au build ; notre CSS importe Inter/Roboto Slab
@@ -82,7 +82,7 @@ html_theme_options = {
         "toc.follow",
     ],
 }
-html_logo = "content/assets/logo.svg"
+html_logo = "content/assets/favicon.svg"   # icône WideCare (cœur et pouls), pas le logo LPLG
 html_favicon = "content/assets/favicon.svg"
 html_css_files = ["resthome-brand.css"]
 # rh-mermaid.js est chargé par la directive elle-même (voir setup()) ; celui-ci
@@ -104,7 +104,7 @@ rh_default_language = "fr"                             # langue servie à la rac
 
 # -- Pays (_ext/countries.py) ----------------------------------------------------
 # Un espace par pays sous content/<space>/ ; le reste du site est commun.
-# status "soon" : l'espace existe mais ses pages restent à écrire (badge « Bientôt »).
+# status "soon" : MASQUÉ (ni sélecteur ni carte) ; ses pages restent à écrire.
 rh_countries = [
     {"code": "be", "space": "belgique", "status": "live",
      "label": {"en": "Belgium", "fr": "Belgique", "nl": "België"}},
@@ -117,24 +117,40 @@ rh_countries = [
     {"code": "es", "space": "espagne", "status": "soon",
      "label": {"en": "Spain", "fr": "Espagne", "nl": "Spanje"}},
 ]
-# -- Suites WideCare (_ext/countries.py) --------------------------------------------
-# WideCare est l'écosystème ; chaque suite sert un métier et a SON site (un site
-# par suite). En-tête : « [WideCare] › [suite ▾] › [pays ▾] ». « WideCare » mène
-# au portail (rh_portal) ; le menu de la suite liste les autres suites.
-# status "soon" : la suite n'a pas encore de documentation (badge « Bientôt »).
-rh_suites = [
-    {"code": "resthome", "status": "live", "name": "Resthome",
-     "label": {"en": "Nursing homes", "fr": "Maisons de repos", "nl": "Woonzorgcentra"}},
+# -- Secteurs WideCare (_ext/countries.py) ------------------------------------------
+# Un seul site, plusieurs SECTEURS de soins : l'en-tête se lit
+# « [WideCare] › [secteur ▾] › [pays ▾] ». Chaque page déclare en front-matter
+# les secteurs qu'elle concerne (`sectors: [mr, csj]`) ; la barre latérale, les
+# cartes et les listes de pages ne montrent que celles du secteur choisi, et un
+# bloc `:class: rh-sector rh-sector-<code>` ne s'affiche que pour ce secteur.
+# « name » = le nom du produit de ce secteur (Resthome = maisons de repos SEULEMENT) ;
+# ailleurs, le produit s'appelle WideCare.
+# status "soon" : MASQUÉ (ni menu ni carte) tant qu'il n'a pas sa documentation.
+rh_sectors = [
+    {"code": "mr", "status": "live", "name": "Resthome",
+     "label": {"en": "Nursing homes", "fr": "Maisons de repos", "nl": "Woonzorgcentra"},
+     "desc": {"en": "Nursing and care homes, short stay", "fr": "MR, MRS et court séjour",
+              "nl": "Woonzorgcentra, rust- en verzorgingstehuizen, kortverblijf"}},
+    {"code": "csj", "status": "live",
+     "label": {"en": "Day care centres", "fr": "Centres de soins de jour", "nl": "Dagverzorgingscentra"},
+     "desc": {"en": "People who come by day", "fr": "Les usagers qui viennent en journée",
+              "nl": "Gebruikers die overdag komen"}},
+    {"code": "rs", "status": "live",
+     "label": {"en": "Serviced residences", "fr": "Résidences-services", "nl": "Assistentiewoningen"},
+     "desc": {"en": "Housing units, contracts and services", "fr": "Logements, contrats et services",
+              "nl": "Wooneenheden, contracten en diensten"}},
+    {"code": "gp", "status": "live",
+     "label": {"en": "General practitioners", "fr": "Médecins généralistes", "nl": "Huisartsen"},
+     "desc": {"en": "The practice, patients and consultations", "fr": "Le cabinet, les patients et les consultations",
+              "nl": "De praktijk, patiënten en raadplegingen"}},
     {"code": "hospital", "status": "soon",
      "label": {"en": "Hospitals", "fr": "Hôpitaux", "nl": "Ziekenhuizen"}},
     {"code": "dental", "status": "soon",
      "label": {"en": "Dentists", "fr": "Dentistes", "nl": "Tandartsen"}},
-    {"code": "orthodontics", "status": "soon",
-     "label": {"en": "Orthodontists", "fr": "Orthodontistes", "nl": "Orthodontisten"}},
     {"code": "speech", "status": "soon",
      "label": {"en": "Speech therapists", "fr": "Logopèdes", "nl": "Logopedisten"}},
 ]
-rh_suite_code = "resthome"   # la suite publiée par CE site
+rh_default_sector = "mr"   # secteur montré tant que le lecteur n'en a pas choisi
 rh_portal = "widecare"       # page portail WideCare (content/widecare.md)
 rh_default_country = "be"   # pays montré tant que le lecteur n'en a pas choisi
 # Icône de chaque groupe de la barre latérale, repéré par la PREMIÈRE page de son
@@ -156,6 +172,7 @@ rh_nav_app_icons = {
     "residences-services/index": "serviced-living.png",
     "soins/index": "care.png",
     "medicaments/index": "mono:pill",
+    "medecins/index": "mono:stethoscope",
     "soins-mobile/index": "care-mobile.png",
     "repas/index": "meals.png",
     "facturation/index": "billing.png",

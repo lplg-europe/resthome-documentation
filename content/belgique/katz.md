@@ -1,16 +1,17 @@
 ---
 modules: [l10n_health_be, resthome_geriatric_be, resthome_mr_billing, l10n_health_be_perdiem_billing, l10n_health_be_eagreement_light]
+sectors: [mr, csj]
 ---
 
 # The Katz assessment
 
 :::{rh-description}
-The Katz scale in a nursing home with Resthome: rate the criteria, sign and validate, read the category (O, A, B, C, Cd, D) declared for the INAMI dependency allowance, and renew it on time.
+The Katz scale in a nursing home with WideCare: rate the criteria, sign and validate, read the category (O, A, B, C, Cd, D) declared for the INAMI dependency allowance, and renew it on time.
 :::
 
 :::{rh-faq}
 How do I calculate a resident's Katz category?
-: Rate the six activities of daily living (washing, dressing, transfer and mobility, going to the toilet, continence, eating) and the orientation in time and space from 1 to 4. Resthome derives the category (O, A, B, C, Cd, D), which is declared to the mutuality for the INAMI allowance.
+: Rate the six activities of daily living (washing, dressing, transfer and mobility, going to the toilet, continence, eating) and the orientation in time and space from 1 to 4. WideCare derives the category (O, A, B, C, Cd, D), which is declared to the mutuality for the INAMI allowance.
 
 Why can't I validate my assessment?
 : An assessment is signed before it is validated. Click **Sign**, then **Validate**. Validating is reserved to a head nurse or a physician; a nurse can sign, and the assessment then waits for their validation.
@@ -22,12 +23,12 @@ What happens if a resident has no validated Katz?
 : They have no category at all: no INAMI allowance is billed for them and the billing period shows **No Katz** on their row. Validate their Katz, then regenerate the period.
 
 How do I handle a worsening of dependency?
-: Enter a new Katz assessment. When the category gets worse, the form asks for the reason; Resthome prepares Annexe 10 with it, and the new category is only billed once the mutuality agrees.
+: Enter a new Katz assessment. When the category gets worse, the form asks for the reason; WideCare prepares Annexe 10 with it, and the new category is only billed once the mutuality agrees.
 :::
 
 The **Katz scale** measures a resident's degree of **dependency**. It decides
 their care **category**, which is declared to the mutuality for the **INAMI
-dependency allowance**. In Resthome, data entry is guided and the category is
+dependency allowance**. In WideCare, data entry is guided and the category is
 computed for you.
 
 The same list of assessments opens wherever you work:
@@ -57,7 +58,7 @@ from the others; they are not required when a specialist has diagnosed
 dementia. The **Dementia** and **Coma** blocks of the form record those
 diagnoses.
 
-From these ratings, Resthome computes the **category** and the **total score**
+From these ratings, WideCare computes the **category** and the **total score**
 according to the regulations.
 
 ## The categories
@@ -114,10 +115,10 @@ one.
 
 **Print Annexe 10** prints the official grid at any time.
 
-:::{admonition} What Resthome does for you
+:::{admonition} What WideCare does for you
 :class: tip
 
-On validation, Resthome takes the category into billing and, when the category
+On validation, WideCare takes the category into billing and, when the category
 changes, prepares the agreement request for the mutuality (Annexe 10). You
 never re-enter the category anywhere else. See [Agreements
 (eAgreement)](ehealth/eagreement.md).
@@ -147,24 +148,24 @@ or reassessment due).
 
 If the resident's condition deteriorates, enter a **new assessment**. When the
 category gets worse, the form asks for the **Aggravation Justification**:
-Resthome carries it into the agreement update (**Annexe 10**), which the
+WideCare carries it into the agreement update (**Annexe 10**), which the
 clinician signs. The new category is billed once the mutuality agrees — see
 [The INAMI dependency allowance](forfait-inami.md).
 
 A readmission after a long hospital stay may require a **new assessment**:
-Resthome prepares the draft and assigns an activity — see [Belgian
+WideCare prepares the draft and assigns an activity — see [Belgian
 settings](reglages.md).
 
 ## When the category no longer matches the bed
 
 An **MRS** bed only takes categories **B and above**. A resident assessed at
-**O or A** belongs in an **MR** bed. Resthome refuses to **put or keep a stay in
+**O or A** belongs in an **MR** bed. WideCare refuses to **put or keep a stay in
 MRS** for a resident assessed at O or A — at admission and at transfer time.
 A **room change is not blocked**, though: the resident can still be moved from
 one room to another while the banner below stays up.
 
 When a new assessment comes out at A while the resident occupies an MRS bed,
-Resthome says so instead of letting it pass. The banner appears **as soon as
+WideCare says so instead of letting it pass. The banner appears **as soon as
 you validate** the assessment, and stays on the resident's record until the
 sector is changed:
 

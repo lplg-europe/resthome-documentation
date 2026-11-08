@@ -1,5 +1,6 @@
 ---
 modules: [resthome_mr_billing, l10n_health_be_perdiem_billing, l10n_health_be_eagreement_light, l10n_health_be]
+sectors: [mr]
 ---
 
 # The INAMI dependency allowance

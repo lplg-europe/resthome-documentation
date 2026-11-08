@@ -1,14 +1,15 @@
 ---
 modules: []
+sectors: [mr, csj, rs, gp]
 ---
 
 # Glossary
 
 :::{rh-description}
-Glossary of Resthome terms valid in every country: billing period, care allowance, dependency category, supplement envelope, family portal access, liaison notebook, pocket money, technical intervention.
+Glossary of WideCare terms valid in every country: billing period, care allowance, dependency category, supplement envelope, family portal access, liaison notebook, pocket money, technical intervention.
 :::
 
-The terms used in Resthome and in nursing-home billing, valid in every country,
+The terms used in WideCare and in nursing-home billing, valid in every country,
 explained simply. Each entry links, where useful, to the page that covers it in
 detail.
 
@@ -39,7 +40,7 @@ See: [Billing overview](facturation/index.md)
 
 ## Billing period
 
-The **billing month** in Resthome, which moves through four states: **Draft**,
+The **billing month** in WideCare, which moves through four states: **Draft**,
 **Generated** (calculated), **Invoiced** and **Closed**.
 See: [Billing a month, step by step](facturation/facturer-un-mois.md)
 
@@ -59,7 +60,7 @@ See: [Family portal](portail-famille/index.md)
 
 ## Credit note
 
-Document that **cancels or refunds** all or part of an invoice. Resthome prepares one
+Document that **cancels or refunds** all or part of an invoice. WideCare prepares one
 automatically, for example on a departure partway through a month that has already been
 invoiced (accommodation billed in advance).
 See: [Departure and death](facturation/depart-deces.md)
@@ -134,7 +135,7 @@ See: [Pillboxes and the pharmacy's sachets](medicaments/piluliers.md)
 ## Pocket money
 
 Money a third party pays to the home and that the home **holds for a
-resident**; the resident's purchases are drawn from it. Resthome shows the
+resident**; the resident's purchases are drawn from it. WideCare shows the
 balance on the resident's record.
 See: [Pocket money](argent-de-poche/index.md)
 

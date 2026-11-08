@@ -1,11 +1,12 @@
 ---
 modules: []
+sectors: [mr, csj, rs, gp]
 ---
 
 # Belgium
 
 :::{rh-description}
-Everything Resthome does that comes from Belgian rules: the eID, the Katz assessment, the INAMI allowance and billing, occupancy against the approvals, the eHealth exchanges (MDA, eAgreement, eFact, eHealthBox), the institutional allowance, the day care centre and the Belgian settings.
+Everything WideCare does that comes from Belgian rules: the eID, the Katz assessment, the INAMI allowance and billing, occupancy against the approvals, the eHealth exchanges (MDA, eAgreement, eFact, eHealthBox), the institutional allowance, the day care centre and the Belgian settings.
 :::
 
 :::{rh-faq}
@@ -139,6 +140,12 @@ that links here.
 - [Serviced residences in Belgium](residences-services.md) and
   [Moving between a serviced residence and the nursing home](residences-services-maison-de-repos.md).
 
+## General practitioners
+
+- [General practice in Belgium](medecins/index.md) — the practitioner's eHealth
+  identity, the patient's insurability, the eAttest, the Global Medical File,
+  the INAMI nomenclature and the per-act eFact.
+
 ## Settings
 
 - [Belgian settings](reglages.md) — the approvals and their sectors, the
@@ -149,8 +156,7 @@ that links here.
 
 ## The same software elsewhere
 
-Resthome separates the **question** from the **answer**: the engine asks for a
+WideCare separates the **question** from the **answer**: the engine asks for a
 dependency category, a national identification number, a stay type; the
 Belgian pack answers with the Katz, the NISS, MR/MRS. Another country brings
-its own pack, and the common pages do not change. See
-[France](../france/index.md) and [Luxembourg](../luxembourg/index.md).
+its own pack, and the common pages do not change.

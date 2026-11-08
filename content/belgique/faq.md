@@ -1,11 +1,12 @@
 ---
 modules: []
+sectors: [mr, csj, rs]
 ---
 
 # FAQ — Belgium
 
 :::{rh-description}
-Short answers to frequently asked questions on what is Belgian in Resthome: eID, Katz, NISS, MDA insurability, eAgreement, eFact, the INAMI allowance, occupancy, annexes and absences seen by the mutuality.
+Short answers to frequently asked questions on what is Belgian in WideCare: eID, Katz, NISS, MDA insurability, eAgreement, eFact, the INAMI allowance, occupancy, annexes and absences seen by the mutuality.
 :::
 
 :::{rh-faq}
@@ -16,13 +17,13 @@ How do I generate an eFact period?
 : Open the month's period in Draft state, click Generate, leave Residents empty for all active residents (or pre-fill them with Load MDA Success / Load MDA Pending), then click Generate. The period moves to Generated: the Katz allowance, the INAMI share and the resident share are computed for each resident.
 
 How do I send an eFact period and follow the responses?
-: From the eFact Cockpit or the batches, click Send all: the batches go to the mutualities through eHealth. Then click Fetch responses; each batch moves from Sent (platform) to Acknowledged (OA), then Settled — or Partial Reject / Rejected — with Resthome reconciling the amounts automatically.
+: From the eFact Cockpit or the batches, click Send all: the batches go to the mutualities through eHealth. Then click Fetch responses; each batch moves from Sent (platform) to Acknowledged (OA), then Settled — or Partial Reject / Rejected — with WideCare reconciling the amounts automatically.
 
 Why is an eFact invoice rejected, and how do I fix it?
 : The rejection code and reason state the cause (insurability, allowance, dates). Fix it then resend; the Resends counter avoids duplicates and the Reintegration button lets you reintegrate lines into a new sending.
 
 What is an eFact batch per union?
-: Sendings are grouped by union of mutualities (100 National Alliance, 300 Solidaris, 500 National Union, 600 CAAMI, 900 HR Rail…), not per small individual mutuality. Resthome takes care of the grouping.
+: Sendings are grouped by union of mutualities (100 National Alliance, 300 Solidaris, 500 National Union, 600 CAAMI, 900 HR Rail…), not per small individual mutuality. WideCare takes care of the grouping.
 
 How do I score a resident's Katz?
 : From the resident file, open Katz, click New and score the criteria from 1 to 4 (the six daily activities and the orientation in time and space), then Confirm, Sign and Validate. The category is computed from the scores; the allowance follows at the next generation of the period.
@@ -91,7 +92,7 @@ the six daily activities (washing, dressing, transferring, toileting,
 continence, eating) and the orientation in time and space — from **1**
 (independent) to **4** (totally dependent). Then **Confirm**, **Sign** and
 **Validate** (validation is reserved to the head nurse or the physician).
-Resthome computes the category in line with the regulation; the allowance
+WideCare computes the category in line with the regulation; the allowance
 follows at the next generation of the period.
 → [The Katz assessment](katz.md)
 
@@ -117,7 +118,7 @@ right category to the mutuality.
 ### How do I record a Katz worsening?
 
 If the resident's condition deteriorates, enter a **new evaluation** with a
-**worsening reason**. Resthome then prepares the update of the care agreement
+**worsening reason**. WideCare then prepares the update of the care agreement
 (**Annexe 10**): the reason is carried over automatically, and the clinician's
 signature completes the document.
 → [The Katz assessment](katz.md)
@@ -125,7 +126,7 @@ signature completes the document.
 ### How do I transfer a resident MR ↔ MRS?
 
 On the **stay**, use **Internal Transfer**, give the new type and the date/time,
-then **Validate**. Resthome splits the billing on the right date, at the
+then **Validate**. WideCare splits the billing on the right date, at the
 matching rate; this is not a new admission and the INAMI intervention (the
 allowance) stays continuous.
 → [Internal transfer (MR ↔ MRS)](ehealth/eagreement-transfert.md)
@@ -133,12 +134,12 @@ allowance) stays continuous.
 ### How do I read a resident's eID card?
 
 Plug the reader into a Windows computer, install the eID reader once from the
-link Resthome offers, then click **Read eID Card** on the admission request, the
+link WideCare offers, then click **Read eID Card** on the admission request, the
 resident's record or a contact. The identity, the NISS and the card's details
 fill in on their own.
 → [Reading the eID card](lecture-eid.md)
 
-### Can Resthome tell me a candidate on the waiting list has died?
+### Can WideCare tell me a candidate on the waiting list has died?
 
 Yes. Filter the admission requests on **Waiting list** and run **Check
 insurability (MDA)**: a death the mutuality reports closes the request with the
@@ -186,18 +187,18 @@ wrong mutuality or a loss of insurability.
 ### What does "insured but not in order" mean?
 
 If the beneficiary codes come back as zero (insured but unpaid contributions /
-problematic file), Resthome shows an **alert**: the resident is affiliated but
+problematic file), WideCare shows an **alert**: the resident is affiliated but
 **not in order**. This must be clarified with them or their mutuality before
 invoicing the OA.
 → [Insurability (MDA)](ehealth/mda.md)
 
-### What does Resthome update after a successful MDA?
+### What does WideCare update after a successful MDA?
 
 The resident file is corrected automatically: the **mutuality (OA)** if it
 differs from the profile, the **BIM status**, the **affiliation number**, the
 **identity** if fields were missing, and the **date of death** if the OA reports
 it. For residents under a special scheme (INIG, CEE, Fedasil, foreign,
-private…), Resthome **does not overwrite** the profile's mutuality.
+private…), WideCare **does not overwrite** the profile's mutuality.
 → [Insurability (MDA)](ehealth/mda.md)
 
 ### What to do in case of an MDA error or no response?
@@ -210,7 +211,7 @@ CIN** from the request's thread. For a rejection by the OA, use **Contact OA**
 
 ### What is reintegration (loss then return of insurability)?
 
-Resthome compares with the previous check: if a resident goes from **not insured
+WideCare compares with the previous check: if a resident goes from **not insured
 to insured**, a notification appears and the **Reintegration** action switches
 the lines that had been invoiced to the resident over to the OA. Conversely
 (**insured → not insured**), their allowance is excluded from the period's OA
@@ -224,7 +225,7 @@ billing and invoiced to the resident until it is restored.
 ### What is the eAgreement?
 
 When a resident is admitted, is absent, returns or leaves the institution, the
-mutuality must be informed electronically. Resthome **automatically prepares**
+mutuality must be informed electronically. WideCare **automatically prepares**
 the eHealth notification matching your action; most of the time, you have
 nothing extra to enter — just to check and, if needed, to send.
 → [Agreements (eAgreement)](ehealth/eagreement.md)
@@ -234,7 +235,7 @@ nothing extra to enter — just to check and, if needed, to send.
 The **eAgreement** is the care coverage agreement (linked to the Katz category
 and the allowance). The **eAgreement Light** groups the simpler notifications
 tied to the resident's **movements** (admission, absence, departure, return) —
-these are the ones Resthome generates on its own as you go.
+these are the ones WideCare generates on its own as you go.
 → [Agreements (eAgreement)](ehealth/eagreement.md)
 
 ### Which document is prepared depending on the action?
@@ -250,7 +251,7 @@ agreement (Annexe 10)**; end of stay / death → **exit notification (Annexe 11)
 An agreement goes through **Draft** (prepared, not sent), **Sent (platform)**,
 **Awaiting the OA**, then **Accepted** or **Refused** — the decision recorded
 from the mutuality's letter. **Rejected** is an electronic reject, with a
-reason, to correct and resend. If rejected, Resthome shows the **reason in
+reason, to correct and resend. If rejected, WideCare shows the **reason in
 plain language, in French and in Dutch**, directly on the agreement — so you know
 what to fix (often NISS, mutuality or dates) before resending.
 → [Refused agreement (eAgreement) — causes and solutions](ehealth/eagreement-refus.md)
@@ -258,7 +259,7 @@ what to fix (often NISS, mutuality or dates) before resending.
 ### Can a movement be recorded without a NISS?
 
 Without a NISS, the agreement cannot be transmitted. You can still record the
-movement (admission, absence…): Resthome notes it and invites you to complete
+movement (admission, absence…): WideCare notes it and invites you to complete
 the NISS as soon as possible.
 → [Agreements (eAgreement)](ehealth/eagreement.md)
 
@@ -270,7 +271,7 @@ the NISS as soon as possible.
 
 The **eFact** is the **electronic** sending of the **mutuality share** (the
 INAMI allowance) to the **insurance organisations (OA)** through the eHealth /
-MyCareNet network. Resthome builds the files, transmits them and **follows the
+MyCareNet network. WideCare builds the files, transmits them and **follows the
 responses** — acknowledgements of receipt, settlements, acceptances and
 rejections.
 → [Electronic invoicing (eFact)](ehealth/efact.md)
@@ -279,7 +280,7 @@ rejections.
 
 Open the month's period in **Draft** state and click **Generate**; in the
 wizard, leave **Residents** empty for all active residents (or pre-fill them
-with **Load MDA Success** / **Load MDA Pending**), then click **Generate**. The period moves to **Generated**: Resthome has
+with **Load MDA Success** / **Load MDA Pending**), then click **Generate**. The period moves to **Generated**: WideCare has
 computed, for each resident, the Katz allowance, the INAMI share and the
 resident share.
 → [Electronic invoicing (eFact)](ehealth/efact.md)
@@ -295,7 +296,7 @@ insurability, and **Generate eFact** — both come before **Create Invoices**.
 
 Once the period is **Generated** and the MDA requested, click **Generate eFact**
 — before **Create Invoices**; the batches are built from the period's
-mutuality lines, not from the invoices. Resthome builds the **batches** — one electronic file per insurance organisation
+mutuality lines, not from the invoices. WideCare builds the **batches** — one electronic file per insurance organisation
 — then shows the **eFact Batches** list (OA, reference, month, status,
 invoiced/accepted/refused amounts, and code + reason in case of refusal).
 → [Electronic invoicing (eFact)](ehealth/efact.md)
@@ -304,7 +305,7 @@ invoiced/accepted/refused amounts, and code + reason in case of refusal).
 
 Sendings are grouped **per union** (the big OA families), not per small
 individual mutuality: **100** (National Alliance), **300** (Solidaris), **500**
-(National Union), **600** (CAAMI), **900** (HR Rail)… Resthome takes care of the
+(National Union), **600** (CAAMI), **900** (HR Rail)… WideCare takes care of the
 grouping.
 → [Electronic invoicing (eFact)](ehealth/efact.md)
 
@@ -314,7 +315,7 @@ Open **eHealth → eFact → Cockpit** (or the batches) and click **Send all** (
 batch by batch); the sendings go to the mutualities through eHealth. Then click
 **Fetch responses**: each batch moves from **Sent (platform)** to
 **Acknowledged (OA)**, then **Settled** — or **Partial Reject** / **Rejected** —
-with Resthome automatically reconciling the accepted/refused
+with WideCare automatically reconciling the accepted/refused
 amounts.
 → [Billing a month in Belgium](facturation.md) ·
 [Electronic invoicing (eFact)](ehealth/efact.md)
@@ -351,7 +352,7 @@ send as soon as the month is billed.
 ### A sending got no certain answer: should I resend it?
 
 **No, not blindly.** When the answer to a sending is lost (time-out,
-interruption), Resthome never resends it on its own: it lists it in **eHealth →
+interruption), WideCare never resends it on its own: it lists it in **eHealth →
 Configuration → Sends to check**, where you say whether MyCareNet received it.
 → [eHealth](ehealth/index.md)
 
@@ -365,7 +366,7 @@ Open the period (**Billing → Facturation → Billing Periods**), click
 **Generate**, then **Check MDA**, then **Generate eFact**, then **Create
 Invoices** and **Confirm** the resident share. Send the eFact batches to the
 OAs, get the responses, and finally **Close Period**. The highlighted button of
-the period always shows the next step. Resthome runs in parallel the resident share (classic invoices) and
+the period always shows the next step. WideCare runs in parallel the resident share (classic invoices) and
 the mutuality share (eFact) on the same period.
 → [Billing a month in Belgium](facturation.md)
 
@@ -399,7 +400,7 @@ day counts, hence the importance of the departure and return dates and times.
 
 An absence of **more than 72 h**, or **any hospitalisation**, prepares an
 **Annexe 11** (exit notification), and the **return** prepares an **Annexe 7**
-(readmission). Resthome creates these notifications the moment you record the
+(readmission). WideCare creates these notifications the moment you record the
 absence and the return; you only have to check and send them.
 → [Absences and hospitalisations](../facturation/absences.md) ·
 [Agreements (eAgreement)](ehealth/eagreement.md)

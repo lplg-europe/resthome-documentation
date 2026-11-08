@@ -9,9 +9,31 @@
 
 Source : https://www.lplg.eu/resthome/documentation/
 
-# Bienvenue dans la documentation Resthome
+# Bienvenue dans la documentation WideCare
 
-**Resthome** est la suite **WideCare** pour les **maisons de repos et de soins**, éditée par LPLG **sur Odoo** : habitants, admissions, soins et médicaments, repas, facturation, portail famille, planning du personnel et qualité, le tout au même endroit. Cette documentation vous accompagne au quotidien, étape par étape, avec des captures d’écran.
+**WideCare** est le logiciel de soins édité par LPLG **sur Odoo**. Il sert plusieurs secteurs de soins sur un socle commun. Cette documentation vous accompagne au quotidien, étape par étape, avec des captures d’écran.
+
+## Votre secteur
+
+Choisissez votre secteur avec le **sélecteur de secteur** en haut de la page. La barre latérale et les cartes ci-dessous ne montrent alors que les pages de ce secteur, et le choix est retenu pour votre prochaine visite.
+
+[Resthome · Maisons de reposMR, MRS et court séjour](./)[Centres de soins de jourLes usagers qui viennent en journée](./)[Résidences-servicesLogements, contrats et services](./)[Médecins généralistesLe cabinet, les patients et les consultations](./)
+
+Maisons de repos
+
+**Resthome** est le produit WideCare des maisons de repos et de soins, court séjour compris : habitants et chambres, admissions, soins et médicaments, repas, facturation, portail famille, planning du personnel et qualité.
+
+Centres de soins de jour
+
+Pour les personnes qui viennent en journée : leur dossier, leurs jours de présence, les présences, les soins et les médicaments donnés ces jours-là, et la facturation.
+
+Résidences-services
+
+Pour les résidences qui louent des logements avec services : logements, contrats et occupants, préavis, facturation mensuelle, repas, appels et demandes de service.
+
+Médecins généralistes
+
+Pour un cabinet de médecine générale : patients, rendez-vous, consultations et facturation à l’acte.
 
 Les pages ci-dessous s’appliquent dans tous les pays. Ce qui découle des règles propres à un pays — son échelle de dépendance, ses assureurs santé, ses échanges électroniques, son financement — se trouve dans l’espace de ce pays.
 
@@ -69,11 +91,23 @@ De la première demande à l’emménagement : le pipeline, le dossier du candid
 
 [Admissions](admissions/)
 
+Centre de soins de jour
+
+Le centre de soins de jour : agrément et places de jour, jours des usagers, présences, soins les jours de présence et facturation.
+
+[Centre de soins de jour (CSJ)](belgique/centre-de-jour/)
+
 Résidences-services
 
 Logements, régimes et contrats d’une résidence-services : préavis, facturation, repas, appels et demandes.
 
 [Résidences-services](residences-services/)
+
+Médecine générale
+
+Le cabinet du médecin généraliste : patients, rendez-vous, consultations et actes facturés.
+
+[Médecine générale](medecins/)
 
 Soins
 
@@ -149,7 +183,7 @@ Le registre des plaintes, le conseil des habitants et l’observation des capaci
 
 Assistant IA WideCare
 
-Posez une question à la documentation sans quitter Resthome.
+Posez une question à la documentation sans quitter WideCare.
 
 [Assistant IA WideCare](assistant/)
 
@@ -170,7 +204,7 @@ Source : https://www.lplg.eu/resthome/documentation/premiers-pas/
 
 # Premiers pas
 
-Ce guide présente Resthome en quelques minutes : la connexion, les applications, les tableaux de bord, les visites guidées et les parties d’un écran.
+Ce guide présente WideCare en quelques minutes : la connexion, les applications, les tableaux de bord, les visites guidées et les parties d’un écran.
 
 ## Se connecter
 
@@ -184,7 +218,7 @@ Utilisez le lien **Réinitialiser le mot de passe** sur la page de connexion, ou
 
 ## Les applications
 
-Resthome est organisé en applications, accessibles depuis le **menu principal** (l’icône en damier, en haut à gauche). Elles sont rangées dans l’ordre du parcours d’un habitant :
+WideCare est organisé en applications, accessibles depuis le **menu principal** (l’icône en damier, en haut à gauche). Elles sont rangées dans l’ordre du parcours d’un habitant :
 
 | Application | À quoi elle sert |
 | --- | --- |
@@ -198,7 +232,7 @@ Resthome est organisé en applications, accessibles depuis le **menu principal**
 | **Planning** | L’horaire du personnel. Voir [Planning du personnel](../planning/). |
 | **Résidence-services** | Les résidences-services : logements, contrats, appels et demandes. Voir [Résidences-services](../residences-services/). |
 | **WideCare** | L’application de terrain du personnel, sur téléphone ou tablette. Voir [App WideCare](../soins-mobile/). |
-| **WideCare AI** | Des questions à la documentation sans quitter Resthome. Voir [Assistant IA WideCare](../assistant/). |
+| **WideCare AI** | Des questions à la documentation sans quitter WideCare. Voir [Assistant IA WideCare](../assistant/). |
 
 Les applications générales d’Odoo — **Discussion**, **Calendrier**, **Documents**, **Contacts** — viennent ensuite. Selon votre rôle (administratif, soignant, cuisine, technique…), vous ne voyez que les applications qui vous concernent. Vous pouvez réorganiser votre propre grille : l’ordre ci-dessus n’est que l’ordre par défaut.
 
@@ -271,7 +305,7 @@ Les messages que le système écrit de lui-même dans l’historique d’une fic
 
 ## Ajouter un pack de secteur
 
-Resthome est construit à partir de **packs** : un par secteur de soins et par pays. L’administrateur technique ajoute un pack depuis l’application **Applications** : le filtre **Secteurs d’activité** liste les packs de secteur WideCare disponibles pour la base de données, et **Activer** en installe un.
+WideCare est construit à partir de **packs** : un par secteur de soins et par pays. L’administrateur technique ajoute un pack depuis l’application **Applications** : le filtre **Secteurs d’activité** liste les packs de secteur WideCare disponibles pour la base de données, et **Activer** en installe un.
 
 Remarque
 
@@ -327,7 +361,7 @@ Source : https://www.lplg.eu/resthome/documentation/residents/gerer-un-resident/
 
 # Gérer un habitant
 
-Cette page décrit l’habitant dans Resthome : la **liste**, la **fiche**, et le **séjour** qui le relie à une chambre, de l’admission au départ.
+Cette page décrit l’habitant dans WideCare : la **liste**, la **fiche**, et le **séjour** qui le relie à une chambre, de l’admission au départ.
 
 ## La liste des habitants
 
@@ -432,7 +466,7 @@ Une demande d’admission ouvre le séjour pour vous. Pour un habitant créé à
 
 Ce que le démarrage déclenche automatiquement
 
-Au démarrage, Resthome :
+Au démarrage, WideCare :
 
 - ajoute l’habitant aux **périodes de facturation** ouvertes ;
 - crée, pour un habitant facturé en avance, la **première facture d’hébergement** du mois d’admission ;
@@ -496,7 +530,7 @@ Source : https://www.lplg.eu/resthome/documentation/residents/evaluations/
 
 # Les évaluations gériatriques
 
-Au-delà de l’évaluation de la dépendance, qui suit l’échelle de chaque pays, Resthome rassemble les principales **échelles gériatriques** de la maison de repos, pour mesurer la cognition, le risque d’escarre, la nutrition, la santé bucco-dentaire, les chutes et la douleur. Vous les trouvez à deux endroits :
+Au-delà de l’évaluation de la dépendance, qui suit l’échelle de chaque pays, WideCare rassemble les principales **échelles gériatriques** de la maison de repos, pour mesurer la cognition, le risque d’escarre, la nutrition, la santé bucco-dentaire, les chutes et la douleur. Vous les trouvez à deux endroits :
 
 - sur la **fiche de l’habitant**, l’onglet **Évaluation** : l’historique de chaque échelle et la saisie directe — affiché pour les rôles de soins ;
 - dans **Soins → Outils d’évaluation**, une liste par échelle pour toute la maison.
@@ -599,7 +633,7 @@ Remarque
 
 Menu : **Soins → Outils d’évaluation**, puis **Tinetti (Équilibre et marche)**.
 
-L’échelle de **Tinetti** évalue l”**équilibre** (9 items, /16) et la **marche** (/12), pour un total sur **28**. Resthome calcule les deux sous-scores et le total.
+L’échelle de **Tinetti** évalue l”**équilibre** (9 items, /16) et la **marche** (/12), pour un total sur **28**. WideCare calcule les deux sous-scores et le total.
 
 | Score | Risque de chute |
 | --- | --- |
@@ -1464,7 +1498,7 @@ Les types de séjour sont MR, MRS, le court séjour et le centre de soins de jou
 
 Ce bloc enregistre l”**assureur santé** de l’habitant et les données d’affiliation que demande le pays.
 
-Là où le pays prévoit des échanges électroniques avec l’assureur santé, le bloc porte aussi un **contrôle d’assurabilité** : un bouton interroge l’assureur et remplit tout seul l’assureur santé et les données d’affiliation. Il lui faut le numéro d’identification national : sans lui, Resthome le réclame d’abord.
+Là où le pays prévoit des échanges électroniques avec l’assureur santé, le bloc porte aussi un **contrôle d’assurabilité** : un bouton interroge l’assureur et remplit tout seul l’assureur santé et les données d’affiliation. Il lui faut le numéro d’identification national : sans lui, WideCare le réclame d’abord.
 
 Le contrôle d’assurabilité conditionne l’admission
 
@@ -1503,7 +1537,7 @@ Quand le dossier est prêt, le candidat devient habitant. Deux gestes équivalen
 
 ## 1. Passer les contrôles
 
-Resthome refuse l’admission, par tous les chemins, tant que :
+WideCare refuse l’admission, par tous les chemins, tant que :
 
 - le **Type de séjour souhaité** est vide — les documents destinés à l’assureur santé ne peuvent pas être produits sans lui ;
 - l”**assurabilité** n’a pas été vérifiée, là où le pays prévoit un contrôle électronique — sauf si la demande en dispense.
@@ -1541,7 +1575,7 @@ Cliquez sur **Admettre**. L’assistant se ferme au premier clic.
 
 ## 3. Vérifier ce qui a été créé
 
-Resthome alors :
+WideCare alors :
 
 - transforme la personne de la demande en **habitant**, avec tout ce qui a été saisi sur la demande ;
 - ouvre le **séjour** à l’état **Confirmé**, sur la chambre et la date choisies ;
@@ -1590,7 +1624,7 @@ Source : https://www.lplg.eu/resthome/documentation/facturation/
 
 # Facturation
 
-Resthome automatise la facturation de la maison de repos : la **part de l’assureur** (le forfait de soins payé par l’assureur santé) et la **part habitant** (hébergement + suppléments), période par période.
+WideCare automatise la facturation de la maison de repos : la **part de l’assureur** (le forfait de soins payé par l’assureur santé) et la **part habitant** (hébergement + suppléments), période par période.
 
 ## Les grands principes
 
@@ -1658,7 +1692,7 @@ Source : https://www.lplg.eu/resthome/documentation/facturation/facturer-un-mois
 
 # Facturer un mois, pas à pas
 
-Ce guide vous accompagne **du début à la fin** d’un mois de facturation : ouvrir la période, générer la facturation, créer et confirmer les factures, puis clôturer le mois. Suivez-le en gardant Resthome ouvert à côté : chaque étape indique **où cliquer**.
+Ce guide vous accompagne **du début à la fin** d’un mois de facturation : ouvrir la période, générer la facturation, créer et confirmer les factures, puis clôturer le mois. Suivez-le en gardant WideCare ouvert à côté : chaque étape indique **où cliquer**.
 
 L’idée en deux parties
 
@@ -1667,7 +1701,7 @@ Chaque mois peut se facturer en **deux flux** :
 - la **part habitant** — hébergement, suppléments et conventions de suppléments, médicaments, ajustés selon les absences → factures classiques, l’objet de cette page ;
 - la **part de l’assureur** (le forfait de soins payé par l’assureur santé), là où le pack pays en facture une → envoyée aux assureurs santé selon les règles du pays.
 
-Resthome les mène en parallèle sur une même **période**.
+WideCare les mène en parallèle sur une même **période**.
 
 Une visite guidée
 
@@ -1691,7 +1725,7 @@ Sur la période, l”**état** est en haut (Brouillon → Généré → Facturé
 
 1. Cliquez sur **Générer**. La fenêtre **Générer la facturation** s’ouvre.
 2. Laissez **Habitants** vide pour facturer tous les habitants actifs (ou choisissez un habitant pour un cas particulier), puis cliquez sur **Générer**.
-3. Pour chaque habitant, Resthome calcule l”**hébergement**, les **suppléments** et **conventions de suppléments** et les **médicaments**, applique les **absences** et ajoute le **forfait de soins** là où le pack pays en facture un.
+3. Pour chaque habitant, WideCare calcule l”**hébergement**, les **suppléments** et **conventions de suppléments** et les **médicaments**, applique les **absences** et ajoute le **forfait de soins** là où le pack pays en facture un.
 
 La période passe à l’état **Généré**.
 
@@ -1710,7 +1744,7 @@ Avant de facturer, lisez ce qui a été généré :
 - l’onglet **Habitants** — une ligne par habitant, avec son type de facture du mois, la chambre, le type de séjour, le destinataire de la facture, les jours de présence et d’absence et les montants ;
 - l’onglet **Lignes de facturation** — le détail, ligne par ligne, avec le payeur ;
 - les boutons intelligents en haut — **Absences** (les absences qui ont réduit les jours de présence) et **Non facturés** (les habitants absents tout le mois, pas facturés du tout) ;
-- l’onglet **Infos** et les messages que Resthome publie dans le fil de discussion de la période.
+- l’onglet **Infos** et les messages que WideCare publie dans le fil de discussion de la période.
 
 ### Le détail d’un habitant
 
@@ -1836,11 +1870,11 @@ Les évaluations **Katz** doivent être à jour : une évaluation manquante ou e
 
 ### 3. Générer la période
 
-Ouvrez la période du mois et cliquez sur **Générer**. Resthome calcule, pour chaque habitant, l’hébergement, les suppléments et les médicaments — ainsi que le forfait de soins, là où le pack pays en facture un — et applique les absences.
+Ouvrez la période du mois et cliquez sur **Générer**. WideCare calcule, pour chaque habitant, l’hébergement, les suppléments et les médicaments — ainsi que le forfait de soins, là où le pack pays en facture un — et applique les absences.
 
 Quand un habitant n’a pas de séjour actif pour le mois, une fenêtre **Séjour actif manquant** le liste : **Séjour ouvert** ou **Créer un séjour**, puis générez à nouveau.
 
-Passez en revue les onglets **Habitants** et **Lignes de facturation**, ainsi que tout message que Resthome publie dans le fil de discussion de la période : ils sont là pour être traités avant la facturation, pas après. Une ligne **jaune** est un habitant dont le type de facture du mois a changé : ouvrez-la et cliquez sur **Appliquer le type de facture**.
+Passez en revue les onglets **Habitants** et **Lignes de facturation**, ainsi que tout message que WideCare publie dans le fil de discussion de la période : ils sont là pour être traités avant la facturation, pas après. Une ligne **jaune** est un habitant dont le type de facture du mois a changé : ouvrez-la et cliquez sur **Appliquer le type de facture**.
 
 → [Facturer un mois, pas à pas](../facturer-un-mois/)
 
@@ -1856,7 +1890,7 @@ Cliquez sur **Créer les factures**, vérifiez les factures en brouillon, puis c
 
 Passé ce point, corriger a un coût
 
-Une fois les factures **comptabilisées**, Resthome ne les modifie plus automatiquement. Une correction passe par une **remise en brouillon** ou une **note de crédit**, puis un rafraîchissement. C’est une protection contre la double facturation, pas un obstacle.
+Une fois les factures **comptabilisées**, WideCare ne les modifie plus automatiquement. Une correction passe par une **remise en brouillon** ou une **note de crédit**, puis un rafraîchissement. C’est une protection contre la double facturation, pas un obstacle.
 
 ## Clôturer le mois
 
@@ -1894,7 +1928,7 @@ Source : https://www.lplg.eu/resthome/documentation/facturation/supplements/
 
 # Les suppléments
 
-Au-delà de l’hébergement et du forfait de soins, un habitant peut avoir des **suppléments** à payer : chambre individuelle, télévision, coiffeur, pédicure, boissons, téléphone… Resthome en gère deux sortes.
+Au-delà de l’hébergement et du forfait de soins, un habitant peut avoir des **suppléments** à payer : chambre individuelle, télévision, coiffeur, pédicure, boissons, téléphone… WideCare en gère deux sortes.
 
 ## Types de suppléments
 
@@ -1976,7 +2010,7 @@ Les notions de base — l’**enveloppe de suppléments** par habitant et par mo
 
 À l’ouverture, l’application affiche l’écran **Habitants**, en **vue kanban** (cartes) ou en **vue liste**. Elle liste les habitants qui peuvent être facturés maintenant : ceux dont le séjour a commencé, et ceux qui sont partis tant que le mois de leur départ n’est pas encore facturé. Chaque carte est la carte d’habitant habituelle (photo, nom, chambre, secteur, badges de présence), avec une icône de panier « Ajouter des suppléments ».
 
-- **Cliquez sur un habitant** : Resthome ouvre directement le **catalogue** de son enveloppe de suppléments du mois en cours. Vous atterrissez sur la grille d’ajout, sans passer par la fiche.
+- **Cliquez sur un habitant** : WideCare ouvre directement le **catalogue** de son enveloppe de suppléments du mois en cours. Vous atterrissez sur la grille d’ajout, sans passer par la fiche.
 - En **vue liste**, chaque ligne affiche l”**Enveloppe ouverte** de l’habitant et un bouton **Ajouter des suppléments** ; l’en-tête porte un bouton **Ajouter via le catalogue** pour agir sur les habitants cochés.
 
 Filtrer et regrouper
@@ -2005,7 +2039,7 @@ Dans ce catalogue partagé, le panneau de gauche affiche une section **Habitants
 
 Un supplément déjà couvert par une convention est ignoré
 
-Si l’un des habitants sélectionnés a déjà ce produit dans une **convention active**, la ligne n’est **pas** ajoutée pour lui (elle serait de toute façon écartée à la facturation) — les autres habitants la reçoivent normalement. Pour une saisie sur un seul habitant, Resthome bloque carrément l’ajout et vous invite à passer par la convention.
+Si l’un des habitants sélectionnés a déjà ce produit dans une **convention active**, la ligne n’est **pas** ajoutée pour lui (elle serait de toute façon écartée à la facturation) — les autres habitants la reçoivent normalement. Pour une saisie sur un seul habitant, WideCare bloque carrément l’ajout et vous invite à passer par la convention.
 
 ## Suppléments ponctuels et récurrents
 
@@ -2018,7 +2052,7 @@ L’application distingue les deux natures de suppléments déjà présentées d
 
 Où est passé mon supplément ?
 
-À chaque ajout, Resthome affiche une notification indiquant **sur quelle(s) période(s)** le supplément a été facturé — ou vous prévient qu’**aucune période ouverte** ne correspond encore à sa date (il ne sera alors facturé que lorsque le mois concerné sera généré). Vérifiez la **date de début** si le supplément n’apparaît pas où vous l’attendiez.
+À chaque ajout, WideCare affiche une notification indiquant **sur quelle(s) période(s)** le supplément a été facturé — ou vous prévient qu’**aucune période ouverte** ne correspond encore à sa date (il ne sera alors facturé que lorsque le mois concerné sera généré). Vérifiez la **date de début** si le supplément n’apparaît pas où vous l’attendiez.
 
 ## Les conventions de suppléments
 
@@ -2101,7 +2135,7 @@ Source : https://www.lplg.eu/resthome/documentation/facturation/absences/
 
 # Absences et hospitalisations
 
-Quand un habitant s’absente (hospitalisation, vacances, sortie familiale), cela influence **la facturation** de la période. Resthome l’ajuste automatiquement à partir de l’absence que vous enregistrez.
+Quand un habitant s’absente (hospitalisation, vacances, sortie familiale), cela influence **la facturation** de la période. WideCare l’ajuste automatiquement à partir de l’absence que vous enregistrez.
 
 ## Où l’enregistrer
 
@@ -2196,7 +2230,7 @@ Source : https://www.lplg.eu/resthome/documentation/facturation/depart-deces/
 
 # Départ et décès
 
-Quand un habitant quitte l’établissement ou décède, il suffit de **clôturer son séjour** : Resthome arrête la facturation à la bonne date et prépare la **régularisation** de ce qui a été facturé d’avance.
+Quand un habitant quitte l’établissement ou décède, il suffit de **clôturer son séjour** : WideCare arrête la facturation à la bonne date et prépare la **régularisation** de ce qui a été facturé d’avance.
 
 ## Clôturer le séjour
 
@@ -2209,10 +2243,10 @@ Une hospitalisation n’est pas un départ
 
 Le lit est conservé et l’habitant revient : enregistrez une [absence](../absences/), pas une fin de séjour. La fenêtre vous le rappelle.
 
-## Ce que Resthome fait automatiquement
+## Ce que WideCare fait automatiquement
 
 - **Arrêt de la facturation** à la bonne date : plus rien n’est facturé après la sortie.
-- **Note de crédit pour l’hébergement payé d’avance** : pour un habitant facturé **un mois à l’avance**, s’il part en cours d’un mois déjà facturé, Resthome **prépare une note de crédit** pour les jours non occupés.
+- **Note de crédit pour l’hébergement payé d’avance** : pour un habitant facturé **un mois à l’avance**, s’il part en cours d’un mois déjà facturé, WideCare **prépare une note de crédit** pour les jours non occupés.
 - **Suppléments** : les suppléments récurrents ne sont pas non plus facturés après la date de départ. L’habitant reste dans l”[application Suppléments](../application-supplements/) jusqu’à ce que le mois de son départ soit facturé, pour que les derniers suppléments ponctuels puissent encore être saisis.
 
 En Belgique
@@ -2252,7 +2286,7 @@ Une refacturation écrit sur l’**enveloppe de suppléments** de l’habitant, 
 
 ## Avant de commencer
 
-La facture doit être **comptabilisée** : une facture brouillon peut encore changer sous les suppléments des habitants, Resthome la refuse donc.
+La facture doit être **comptabilisée** : une facture brouillon peut encore changer sous les suppléments des habitants, WideCare la refuse donc.
 
 Les produits que vous achetez et répercutez portent une case dans leur fiche, **Refacturable aux habitants**. C’est elle qui fait apparaître le bouton sur la facture. Cochez-la sur les produits de coiffure, de pédicurie ou d’honoraires de votre catalogue.
 
@@ -2262,7 +2296,7 @@ Un relevé encodé en une simple ligne « Coiffeur, mars », sans aucun produit,
 
 ## 1. Lancer la refacturation depuis la facture
 
-Ouvrez la facture fournisseur comptabilisée dans l’application Facturation et cliquez sur **Refacturer aux habitants**. Resthome crée la refacturation, préremplie d’une ligne par ligne de facture éligible — produit, libellé et montant hors TVA — et l’ouvre.
+Ouvrez la facture fournisseur comptabilisée dans l’application Facturation et cliquez sur **Refacturer aux habitants**. WideCare crée la refacturation, préremplie d’une ligne par ligne de facture éligible — produit, libellé et montant hors TVA — et l’ouvre.
 
 ![Facture fournisseur comptabilisée, avec le bouton Refacturer aux habitants dans l'en-tête](../../_images/10-facture-fournisseur-bouton.png)
 
@@ -2310,7 +2344,7 @@ Ajouter une ligne se réduit alors à encoder le montant.
 
 **Calculer** est un essai à blanc : le bouton rafraîchit ce que chaque habitant paierait et annonce le total ainsi que les habitants qu’un forfait écarte. Rien n’est encore écrit.
 
-**Valider** écrit un supplément sur l’enveloppe ouverte de chaque habitant. Resthome refuse d’abord — avant d’écrire quoi que ce soit — lorsque :
+**Valider** écrit un supplément sur l’enveloppe ouverte de chaque habitant. WideCare refuse d’abord — avant d’écrire quoi que ce soit — lorsque :
 
 - une ligne ne porte aucun produit de supplément (sauf si la maison a défini un produit de repli, voir plus bas) ;
 - un habitant a déjà été facturé pour la même ligne de facture par une autre refacturation ;
@@ -2517,7 +2551,7 @@ Source : https://www.lplg.eu/resthome/documentation/soins/
 
 # Soins
 
-Le volet soins de Resthome est réparti en deux apps qui partagent les mêmes données :
+Le volet soins de WideCare est réparti en deux apps qui partagent les mêmes données :
 
 - **Soins** — l’espace de travail clinique : le tableau de bord, le dossier de l’habitant, les observations, les évaluations, les plans de soins, les réunions pluridisciplinaires, les registres cliniques, les médicaments et les rapports.
 - **Tâches de soins** — la liste de travail : les tâches de soins que les plans de soins créent chaque jour, que le poste prend en charge et enregistre.
@@ -2778,7 +2812,7 @@ Une anamnèse est un **instantané daté par discipline**, pas une seconde copie
 
 Une anamnèse par habitant, discipline et date
 
-Resthome refuse un doublon pour le même habitant, la même discipline et la même date. Pour réviser une saisie du même jour, modifiez celle qui existe. Seul un habitant avec un séjour dans la maison peut être choisi.
+WideCare refuse un doublon pour le même habitant, la même discipline et la même date. Pour réviser une saisie du même jour, modifiez celle qui existe. Seul un habitant avec un séjour dans la maison peut être choisi.
 
 ## 2. L’onglet Physique
 
@@ -2822,7 +2856,7 @@ L’anamnèse donne aussi accès aux évaluations Katz de l’habitant et à sa 
 
 ## 6. Terminer l’anamnèse
 
-Quand le recueil est terminé, cliquez sur **Marquer terminée**. Resthome enregistre la date d’achèvement.
+Quand le recueil est terminé, cliquez sur **Marquer terminée**. WideCare enregistre la date d’achèvement.
 
 | État | Signification |
 | --- | --- |
@@ -2855,7 +2889,7 @@ Source : https://www.lplg.eu/resthome/documentation/soins/prescriptions/
 
 # Ordonnances
 
-Une **ordonnance** est le document du médecin. Resthome la reçoit, laisse un infirmier vérifier ses lignes et, à la confirmation, fait de chaque ligne un **traitement** de l’habitant — ce que le tour donne chaque jour. Les ordonnances se traitent sur le [poste Médicaments](../../medicaments/) (**Soins → Médicaments**), onglet **Ordonnances**, et son compteur **À lire**.
+Une **ordonnance** est le document du médecin. WideCare la reçoit, laisse un infirmier vérifier ses lignes et, à la confirmation, fait de chaque ligne un **traitement** de l’habitant — ce que le tour donne chaque jour. Les ordonnances se traitent sur le [poste Médicaments](../../medicaments/) (**Soins → Médicaments**), onglet **Ordonnances**, et son compteur **À lire**.
 
 ## Avant de commencer
 
@@ -2904,11 +2938,11 @@ En haut du formulaire : **Date de prescription**, **Date d’expiration** et **M
 
 ## 3. Confirmer
 
-Cliquez sur **Confirmer**. Resthome demande ce qui manque — l’habitant, le médecin, au moins une ligne, un médicament et une dose sur chaque ligne. Ensuite, chaque ligne devient un **traitement** de l’habitant, dans le tour à partir de sa date de début, et l’ordonnance passe **En vigueur**. Le bouton intelligent et l’onglet **Traitements** montrent les traitements qu’elle a lancés.
+Cliquez sur **Confirmer**. WideCare demande ce qui manque — l’habitant, le médecin, au moins une ligne, un médicament et une dose sur chaque ligne. Ensuite, chaque ligne devient un **traitement** de l’habitant, dans le tour à partir de sa date de début, et l’ordonnance passe **En vigueur**. Le bouton intelligent et l’onglet **Traitements** montrent les traitements qu’elle a lancés.
 
 Une ligne qui renouvelle un traitement terminé il y a moins d’un mois (même habitant, même médicament) garde ce que l’équipe y avait réglé : la prise, *pas en même temps que*, les sachets de la pharmacie et la boîte.
 
-Chaque ordonnance confirmée lue sur son PDF apprend à Resthome les médicaments et les en-têtes qu’il a reconnus. Voir [Le catalogue des médicaments](../../medicaments/catalogue/).
+Chaque ordonnance confirmée lue sur son PDF apprend à WideCare les médicaments et les en-têtes qu’il a reconnus. Voir [Le catalogue des médicaments](../../medicaments/catalogue/).
 
 ## La vie d’une ordonnance
 
@@ -3046,7 +3080,7 @@ Les icônes en bout de ligne, sur un plan en vigueur :
 
 La corbeille est réservée aux brouillons
 
-Sur un plan en **brouillon**, un soin sur lequel rien ne s’est passé affiche une corbeille : **Retirer ce soin, ajouté par erreur**. Resthome confirme que rien ne reste sur le dossier de soins. Sur un plan en vigueur, il n’y a pas de corbeille : un soin fait partie du dossier pendant des années, il est donc arrêté ou archivé avec un motif. La même règle s’applique aux objectifs.
+Sur un plan en **brouillon**, un soin sur lequel rien ne s’est passé affiche une corbeille : **Retirer ce soin, ajouté par erreur**. WideCare confirme que rien ne reste sur le dossier de soins. Sur un plan en vigueur, il n’y a pas de corbeille : un soin fait partie du dossier pendant des années, il est donc arrêté ou archivé avec un motif. La même règle s’applique aux objectifs.
 
 Un soin dans **Historique des soins** peut être rétabli depuis là.
 
@@ -3361,7 +3395,7 @@ Source : https://www.lplg.eu/resthome/documentation/repas/menus-regimes/
 
 # Menus, régimes et allergies
 
-Chaque repas de la journée a son **menu** : les plats que la cuisine sert au petit-déjeuner, au dîner, au souper ou à une collation. Une fois le menu **confirmé**, chaque habitant servi à ce repas reçoit son **couvert** (un service repas), et Resthome contrôle chaque assiette par rapport aux **régimes**, aux **allergies** et à la **texture** de l’habitant.
+Chaque repas de la journée a son **menu** : les plats que la cuisine sert au petit-déjeuner, au dîner, au souper ou à une collation. Une fois le menu **confirmé**, chaque habitant servi à ce repas reçoit son **couvert** (un service repas), et WideCare contrôle chaque assiette par rapport aux **régimes**, aux **allergies** et à la **texture** de l’habitant.
 
 ## Types de repas
 
@@ -3405,21 +3439,21 @@ Quand vous changez les plats d’un menu confirmé, les couverts pas encore serv
 
 Traçabilité
 
-Un menu à l’état **Servi** ne peut pas être supprimé, pas plus qu’une assiette déjà servie ou refusée : Resthome les conserve. Corrigez plutôt l’enregistrement.
+Un menu à l’état **Servi** ne peut pas être supprimé, pas plus qu’une assiette déjà servie ou refusée : WideCare les conserve. Corrigez plutôt l’enregistrement.
 
 ## Régimes
 
 Les régimes sont listés dans **Repas → Configuration → Régimes alimentaires** (Normal, Diabétique, Hyposodé, Pauvre en graisses, Nutrition entérale (sonde) et Enrichi sont fournis). Sur un régime :
 
 - **Code** — un code court affiché sur le tour et sur les feuilles imprimées (par exemple DIAB).
-- **Restrictions** — **Sans sel**, **Sans sucre**, **Pauvre en graisses**, **Sans gluten**, **Sans lactose**, **Végétarien**, **Halal**, **Kasher**. Resthome s’en sert pour contrôler les plats.
+- **Restrictions** — **Sans sel**, **Sans sucre**, **Pauvre en graisses**, **Sans gluten**, **Sans lactose**, **Végétarien**, **Halal**, **Kasher**. WideCare s’en sert pour contrôler les plats.
 - Le bouton **Habitants** liste les habitants qui suivent ce régime.
 
 Un habitant peut avoir **plusieurs régimes** à la fois (diabétique et pauvre en sel, par exemple). Enregistrez-les dans l’onglet **Nutrition** de l’habitant, dans **Régimes et textures**, ou sur son plan de soins (voir plus bas).
 
 Astuce
 
-Sur une pathologie du catalogue, l’onglet **Régimes alimentaires** liste les régimes à proposer : quand cette pathologie est diagnostiquée, Resthome les ajoute aux régimes de l’habitant.
+Sur une pathologie du catalogue, l’onglet **Régimes alimentaires** liste les régimes à proposer : quand cette pathologie est diagnostiquée, WideCare les ajoute aux régimes de l’habitant.
 
 ## Allergies alimentaires
 
@@ -3433,7 +3467,7 @@ L’onglet **Nutrition** du plan de soins modifie les mêmes informations que le
 
 ## Alertes diététiques
 
-Pour chaque couvert mis, Resthome compare les plats au profil de l’habitant :
+Pour chaque couvert mis, WideCare compare les plats au profil de l’habitant :
 
 | Ce qui est contrôlé | Résultat |
 | --- | --- |
@@ -3452,7 +3486,7 @@ Pour chaque couvert mis, Resthome compare les plats au profil de l’habitant :
 
 Une alerte critique bloque l’assiette
 
-Resthome **refuse de marquer comme servie** une assiette qui a une alerte critique. Changez d’abord le plat : sur le service repas, le bouton **Plats compatibles** liste les plats du catalogue qui ne lèvent aucun avertissement pour cet habitant. Voir [Le tour des repas](../distribution/).
+WideCare **refuse de marquer comme servie** une assiette qui a une alerte critique. Changez d’abord le plat : sur le service repas, le bouton **Plats compatibles** liste les plats du catalogue qui ne lèvent aucun avertissement pour cet habitant. Voir [Le tour des repas](../distribution/).
 
 ## Pour aller plus loin
 
@@ -3517,7 +3551,7 @@ Le champ **Lieu** dit où le repas est mangé : **Salle à manger** ou **En cham
 
 Corriger avec Annuler
 
-Une assiette déjà servie ou refusée est un fait enregistré : Resthome refuse de la marquer absente ou plus tard. Cliquez d’abord sur **Annuler**, puis notez ce qui s’est réellement passé.
+Une assiette déjà servie ou refusée est un fait enregistré : WideCare refuse de la marquer absente ou plus tard. Cliquez d’abord sur **Annuler**, puis notez ce qui s’est réellement passé.
 
 ### Les alertes diététiques sur l’assiette
 
@@ -3560,13 +3594,13 @@ Pour travailler sur **papier**, ouvrez un menu (formulaire ou liste) et utilisez
 - **Imprimer la feuille de distribution** — la feuille de ce repas ;
 - **Imprimer toutes les feuilles du jour** — les feuilles de tous les menus du jour qui ne sont pas annulés.
 
-Resthome met au passage les couverts manquants, puis ouvre le document dans un nouvel onglet. La feuille comporte :
+WideCare met au passage les couverts manquants, puis ouvre le document dans un nouvel onglet. La feuille comporte :
 
 - **une page par repas et par secteur**, avec un en-tête : **secteur**, **type de repas**, **date** et **nombre d’habitants** ;
 - un tableau : **#**, **Habitant**, **Chambre**, **Régimes / Allergies** (codes de régime et texture quand c’est une texture modifiée ; allergies en rouge ; un **!** rouge pour une alerte critique), puis les cases **Salle**, **Chambre**, **Absent** et **Servi**, et une colonne **Notes** ;
 - un pied de page avec une ligne **Signature du superviseur** ainsi que la date et l’heure d’impression.
 
-Les cases reflètent déjà ce qui est enregistré : le lieu du repas est rempli, **Servi** est rempli en vert pour une assiette servie, et une croix marque une assiette refusée. Le personnel coche le reste pendant le tour, le superviseur signe, puis le tour est enregistré dans Resthome.
+Les cases reflètent déjà ce qui est enregistré : le lieu du repas est rempli, **Servi** est rempli en vert pour une assiette servie, et une croix marque une assiette refusée. Le personnel coche le reste pendant le tour, le superviseur signe, puis le tour est enregistré dans WideCare.
 
 ## Points clés à retenir
 
@@ -3592,9 +3626,9 @@ Source : https://www.lplg.eu/resthome/documentation/repas/suivi-nutritionnel/
 
 # Suivi nutritionnel et dénutrition
 
-Resthome dépiste la **dénutrition** et suit les **apports** de chaque habitant, en s’appuyant sur les recommandations gériatriques de l”**ESPEN** et sur des seuils de dépistage reconnus. Tout se lit dans l’onglet **Nutrition** de l’habitant et sur la page de statistiques **Repas**.
+WideCare dépiste la **dénutrition** et suit les **apports** de chaque habitant, en s’appuyant sur les recommandations gériatriques de l”**ESPEN** et sur des seuils de dépistage reconnus. Tout se lit dans l’onglet **Nutrition** de l’habitant et sur la page de statistiques **Repas**.
 
-Le principe : vous encodez le **poids** et la **taille**, notez les **repas servis** et les **boissons** ; Resthome en déduit un **statut de risque de dénutrition**, des **cibles** d’énergie, de protéines et de liquides, une **couverture** des apports, et lève des **alertes** quand un habitant prend du retard.
+Le principe : vous encodez le **poids** et la **taille**, notez les **repas servis** et les **boissons** ; WideCare en déduit un **statut de risque de dénutrition**, des **cibles** d’énergie, de protéines et de liquides, une **couverture** des apports, et lève des **alertes** quand un habitant prend du retard.
 
 Un outil de dépistage, pas un diagnostic
 
@@ -3608,7 +3642,7 @@ Ouvrez un habitant, puis l’onglet **Nutrition**. Les blocs cliniques (statut, 
 
 ### Le statut de risque de dénutrition
 
-Le bloc **État de dénutrition** est calculé par Resthome : vous ne modifiez pas le statut à la main. Il montre un badge de couleur et les mesures qui l’expliquent.
+Le bloc **État de dénutrition** est calculé par WideCare : vous ne modifiez pas le statut à la main. Il montre un badge de couleur et les mesures qui l’expliquent.
 
 | Statut affiché | Signification | Couleur du badge |
 | --- | --- | --- |
@@ -3621,7 +3655,7 @@ Sous le badge : le **poids**, la **Taille (cm)**, l”**IMC**, **IMC bas (ajust�
 
 Encodez la taille ici
 
-La taille s’encode directement dans l’onglet. Sans elle, Resthome affiche **Taille manquante** : l’IMC ne peut pas être calculé et le critère d’IMC bas n’est pas évalué, si bien qu’un habitant maigre qui n’a pas perdu de poids n’est pas repéré.
+La taille s’encode directement dans l’onglet. Sans elle, WideCare affiche **Taille manquante** : l’IMC ne peut pas être calculé et le critère d’IMC bas n’est pas évalué, si bien qu’un habitant maigre qui n’a pas perdu de poids n’est pas repéré.
 
 ```
 flowchart TD
@@ -3651,7 +3685,7 @@ Quand le statut est **Réévaluer (MNA)** ou **Dénutrition**, un bandeau en hau
 
 Pesez régulièrement pour obtenir la perte de poids
 
-La perte de poids sur 1 et 6 mois est calculée à partir des **poids enregistrés dans les paramètres vitaux**. Sans pesées régulières, Resthome ne peut pas comparer et ces pourcentages restent à zéro.
+La perte de poids sur 1 et 6 mois est calculée à partir des **poids enregistrés dans les paramètres vitaux**. Sans pesées régulières, WideCare ne peut pas comparer et ces pourcentages restent à zéro.
 
 ### Le dernier MNA
 
@@ -3705,7 +3739,7 @@ Voir [Menus, régimes et allergies](../menus-regimes/) et [Textures alimentaires
 
 Les apports en énergie et en protéines viennent du **tour des repas** : après chaque repas, notez la **Quantité mangée** de l’assiette (**Non mangé**, **25%**, **50%**, **75%**, **Tout mangé**), au bureau ou dans l’app Soins. Une assiette refusée compte comme non mangée.
 
-Resthome multiplie les valeurs **par portion** des plats servis par ce pourcentage. Les plats doivent porter leurs valeurs et leurs portions : voir [Plats et valeurs nutritionnelles](../plats/).
+WideCare multiplie les valeurs **par portion** des plats servis par ce pourcentage. Les plats doivent porter leurs valeurs et leurs portions : voir [Plats et valeurs nutritionnelles](../plats/).
 
 Pour les habitants suivis pour la nutrition (statut à risque ou confirmé, un déficit, ou un soin **Surveillance des apports** à ce repas), la quantité est **due** : leurs assiettes portent **Quantité à noter obligatoirement** et le filtre **Quantité à noter** liste celles qui manquent encore.
 
@@ -3731,7 +3765,7 @@ La carte **Service du jour** en bas montre les repas servis, en attente et absen
 
 ## Les alertes automatiques
 
-Chaque jour, Resthome rafraîchit le dépistage, les cibles et la couverture, puis crée des **activités** pour les habitants qui prennent du retard. Chaque alerte est répétée au plus **une fois tous les 30 jours** par habitant.
+Chaque jour, WideCare rafraîchit le dépistage, les cibles et la couverture, puis crée des **activités** pour les habitants qui prennent du retard. Chaque alerte est répétée au plus **une fois tous les 30 jours** par habitant.
 
 | Alerte | Condition | Destinataire |
 | --- | --- | --- |
@@ -3766,7 +3800,7 @@ Source : https://www.lplg.eu/resthome/documentation/repas/portail-familles/
 
 # Portail famille et menu public
 
-Resthome partage les repas **avec les familles** et **dans la salle à manger**, à partir des mêmes menus et du même tour des repas que ceux de l’équipe.
+WideCare partage les repas **avec les familles** et **dans la salle à manger**, à partir des mêmes menus et du même tour des repas que ceux de l’équipe.
 
 ## Portail famille
 
@@ -3782,7 +3816,7 @@ En venant de la page famille de l’habitant, le fil d’Ariane y ramène.
 
 ## Les e-mails repas aux familles
 
-Resthome peut envoyer un e-mail aux contacts familiaux d’un habitant :
+WideCare peut envoyer un e-mail aux contacts familiaux d’un habitant :
 
 - un **résumé hebdomadaire des repas** — les repas des 7 derniers jours, servis ou refusés, avec la quantité mangée ;
 - une **alerte repas** — le soir même, quand un repas a été mangé à **25 % ou moins** ou refusé. Chaque assiette déclenche au plus une alerte.
@@ -3830,7 +3864,7 @@ Voir [Réglages des repas et de la nutrition](../../configuration/reglages-repas
 
 Toujours à jour
 
-Le portail, les pages publiques et le kiosque lisent les menus dans Resthome : ils montrent automatiquement la dernière version, sans double encodage. Les dates sont écrites dans la langue du lecteur.
+Le portail, les pages publiques et le kiosque lisent les menus dans WideCare : ils montrent automatiquement la dernière version, sans double encodage. Les dates sont écrites dans la langue du lecteur.
 
 ## Pour aller plus loin
 
@@ -3907,11 +3941,11 @@ Source : https://www.lplg.eu/resthome/documentation/documents/
 
 # Documents de l’habitant
 
-Pour **chaque habitant**, Resthome tient un **dossier documentaire** dans l’application **Documents** : scans, conventions signées, courriers reçus. Vous n’avez rien à créer ni à classer à la main : le dossier, ses sous-dossiers et le classement des pièces jointes sont automatiques.
+Pour **chaque habitant**, WideCare tient un **dossier documentaire** dans l’application **Documents** : scans, conventions signées, courriers reçus. Vous n’avez rien à créer ni à classer à la main : le dossier, ses sous-dossiers et le classement des pièces jointes sont automatiques.
 
 Prérequis
 
-Cette page nécessite l’application **Documents**. Selon votre installation, il s’agit de l’application Documents d’Odoo ou de l’application Documents open source ; Resthome construit les mêmes dossiers d’habitants dans les deux, et quelques écrans diffèrent — ils sont signalés ci-dessous. Une fois l’application installée, les dossiers d’habitants et les étiquettes sont mis en place automatiquement.
+Cette page nécessite l’application **Documents**. Selon votre installation, il s’agit de l’application Documents d’Odoo ou de l’application Documents open source ; WideCare construit les mêmes dossiers d’habitants dans les deux, et quelques écrans diffèrent — ils sont signalés ci-dessous. Une fois l’application installée, les dossiers d’habitants et les étiquettes sont mis en place automatiquement.
 
 ## L’onglet Documents de la fiche de l’habitant
 
@@ -3925,7 +3959,7 @@ Le raccourci est un bouton **Documents** en haut de la fiche de l’habitant, av
 
 ## Un dossier par habitant, créé automatiquement
 
-Dès qu’un habitant est créé (ou dès que sa fiche devient une fiche habitant), Resthome crée son **dossier personnel** sous le dossier **Habitants**, avec **trois sous-dossiers** :
+Dès qu’un habitant est créé (ou dès que sa fiche devient une fiche habitant), WideCare crée son **dossier personnel** sous le dossier **Habitants**, avec **trois sous-dossiers** :
 
 ```
 graph TD
@@ -3952,7 +3986,7 @@ Le dossier de l’habitant n’appartient à aucun membre du personnel en partic
 
 ## Les dossiers créés pour l’établissement
 
-À la création de la société (l’établissement), Resthome met en place deux dossiers dans l’application Documents :
+À la création de la société (l’établissement), WideCare met en place deux dossiers dans l’application Documents :
 
 - **Habitants** — le dossier qui contient tous les dossiers des habitants.
 - **Formulaires vierges** — vos **modèles** et documents à compléter (conventions types, formulaires médicaux vierges…).
@@ -3965,7 +3999,7 @@ En multi-société, **chaque établissement a ses propres** dossiers **Habitants
 
 ## Étiquettes prédéfinies
 
-Resthome fournit des **étiquettes** prêtes à l’emploi pour **catégoriser** les documents et **les retrouver par filtre** :
+WideCare fournit des **étiquettes** prêtes à l’emploi pour **catégoriser** les documents et **les retrouver par filtre** :
 
 | Étiquette | Usage typique |
 | --- | --- |
@@ -4025,7 +4059,7 @@ La centralisation nécessite l’application **Documents** — celle d’Odoo ou
 
 ## Comment ça marche
 
-Dès qu’un fichier est joint à un habitant — **sur un message du fil de discussion** ou **directement sur sa fiche** — Resthome le classe dans le dossier de cet habitant.
+Dès qu’un fichier est joint à un habitant — **sur un message du fil de discussion** ou **directement sur sa fiche** — WideCare le classe dans le dossier de cet habitant.
 
 ```
 graph LR
@@ -4059,7 +4093,7 @@ Sur la fiche de l’habitant, onglet **Documents**, la tuile **Espace documentai
 
 ## Étiquettes par défaut
 
-Avec l’application Documents d’Odoo, Resthome applique les **étiquettes par défaut** de l’établissement à chaque document centralisé. Elles permettent de **filtrer** et de **retrouver** rapidement les documents. Les étiquettes prédéfinies (**Formulaire médical**, **Convention de séjour**, **Facturation**, **Consentement RGPD**, **Fin d’hébergement**, et celles qui suivent les règles du pays) sont listées sur [Documents de l’habitant](../).
+Avec l’application Documents d’Odoo, WideCare applique les **étiquettes par défaut** de l’établissement à chaque document centralisé. Elles permettent de **filtrer** et de **retrouver** rapidement les documents. Les étiquettes prédéfinies (**Formulaire médical**, **Convention de séjour**, **Facturation**, **Consentement RGPD**, **Fin d’hébergement**, et celles qui suivent les règles du pays) sont listées sur [Documents de l’habitant](../).
 
 Commencez léger
 
@@ -4172,6 +4206,10 @@ Les pages communes — [Habitants](../residents/), [Admissions](../admissions/),
 
 - [Les résidences-services en Belgique](residences-services/) et [Passer entre une résidence-services et la maison de repos](residences-services-maison-de-repos/).
 
+## Médecins généralistes
+
+- [La médecine générale en Belgique](medecins/) — l’identité eHealth du praticien, l’assurabilité du patient, l’eAttest, le Dossier médical global, la nomenclature INAMI et l’eFact à l’acte.
+
 ## Réglages
 
 - [Réglages belges](reglages/) — les agréments et leurs secteurs, l’accréditation Cc, les tarifs INAMI et les pseudo-codes, les mutuelles et les CPAS.
@@ -4179,7 +4217,7 @@ Les pages communes — [Habitants](../residents/), [Admissions](../admissions/),
 
 ## Le même logiciel ailleurs
 
-Resthome sépare la **question** de la **réponse** : le moteur demande une catégorie de dépendance, un numéro d’identification national, un type de séjour ; le pack belge répond avec le Katz, le NISS, MR/MRS. Un autre pays apporte son propre pack, et les pages communes ne changent pas. Voir [France](../france/) et [Luxembourg](../luxembourg/).
+WideCare sépare la **question** de la **réponse** : le moteur demande une catégorie de dépendance, un numéro d’identification national, un type de séjour ; le pack belge répond avec le Katz, le NISS, MR/MRS. Un autre pays apporte son propre pack, et les pages communes ne changent pas.
 
 
 ---
@@ -4270,11 +4308,11 @@ Avant de facturer, vérifiez que l’habitant est bien assuré :
 
 1. Ouvrez la fiche de l’habitant, ou la période de facturation du mois.
 2. Lancez la vérification MDA (assurabilité MyCareNet/WalCareNet) : **Vérifier Assurabilité** dans l’en-tête de la fiche — affiché une fois le NISS renseigné — ou **Vérifier MDA** sur la période, pour tous les habitants en une fois.
-3. Resthome met automatiquement à jour la **Mutuelle** et le **Statut BIM** le cas échéant.
+3. WideCare met automatiquement à jour la **Mutuelle** et le **Statut BIM** le cas échéant.
 
 Le bouton **Historique MDA** de la fiche liste les demandes passées de l’habitant.
 
-Quand la mutuelle signale un **statut palliatif**, Resthome coche **Soins palliatifs** dans l’onglet **Volontés** de l’habitant, avec sa date de début, et laisse une note dans le fil. Il ne fait jamais que cocher la case : un statut que la mutuelle ne signale plus ne la décoche pas, et une date saisie par l’équipe est conservée.
+Quand la mutuelle signale un **statut palliatif**, WideCare coche **Soins palliatifs** dans l’onglet **Volontés** de l’habitant, avec sa date de début, et laisse une note dans le fil. Il ne fait jamais que cocher la case : un statut que la mutuelle ne signale plus ne la décoche pas, et une date saisie par l’équipe est conservée.
 
 Voir [Assurabilité (MDA)](../ehealth/mda/). Lorsqu’un **CPAS** paie pour l’habitant, la facture peut lui être adressée — voir [La prise en charge CPAS](../cpas/).
 
@@ -4286,11 +4324,11 @@ Le **Type de séjour** d’un séjour belge est le secteur pour lequel la maison
 - **MRS** — maison de repos et de soins, qui n’accueille que les catégories Katz **B et au-delà** ;
 - le centre de soins de jour (CSJ), lorsque la maison en exploite un — voir [Centre de soins de jour (CSJ)](../centre-de-jour/).
 
-Le **court séjour** (90 jours au maximum) n’est pas un secteur : c’est une modalité d’un lit **MR**, portée par la case **Court séjour**. À l’admission, Resthome le propose comme **CS** à côté de MR et MRS, et le transforme en séjour MR avec l’indicateur coché. Il a ses propres pseudo-codes AViQ (123214 à 123516), son propre forfait et la case « Court Séjour OUI » de l’Annexe 7. Resthome refuse l’indicateur sur tout autre secteur.
+Le **court séjour** (90 jours au maximum) n’est pas un secteur : c’est une modalité d’un lit **MR**, portée par la case **Court séjour**. À l’admission, WideCare le propose comme **CS** à côté de MR et MRS, et le transforme en séjour MR avec l’indicateur coché. Il a ses propres pseudo-codes AViQ (123214 à 123516), son propre forfait et la case « Court Séjour OUI » de l’Annexe 7. WideCare refuse l’indicateur sur tout autre secteur.
 
 La MRS et la catégorie Katz
 
-Resthome refuse de **placer ou de maintenir un séjour en MRS** pour un habitant évalué en O ou A — à l’admission comme au transfert. Un changement de chambre n’est pas bloqué ; la bannière sur la fiche et le badge **MRS → MR** signalent l’habitant tant que le transfert n’est pas encodé — voir [L’évaluation Katz](../katz/).
+WideCare refuse de **placer ou de maintenir un séjour en MRS** pour un habitant évalué en O ou A — à l’admission comme au transfert. Un changement de chambre n’est pas bloqué ; la bannière sur la fiche et le badge **MRS → MR** signalent l’habitant tant que le transfert n’est pas encodé — voir [L’évaluation Katz](../katz/).
 
 ## La catégorie Katz sur la fiche
 
@@ -4312,7 +4350,7 @@ Les évaluations validées — Katz comme échelles gériatriques — ne peuvent
 
 Le séjour a deux dates. La **date de début de séjour** fait démarrer la facturation de l’hébergement ; la **Date d’admission** est le début de l”**intervention INAMI** — la « date d’entrée » de l’Annexe 7, à partir de laquelle le forfait est payé.
 
-| Événement | Ce que Resthome prépare pour la mutuelle |
+| Événement | Ce que WideCare prépare pour la mutuelle |
 | --- | --- |
 | **Début du séjour** | L”**eAgreement d’admission** (Annexe 7), lorsque le NISS est présent. |
 | **Changement de chambre** | Rien : l’intervention INAMI reste continue, la Date d’admission ne change pas, aucun nouvel accord n’est demandé. |
@@ -4396,7 +4434,7 @@ Le bloc **Échelle de Katz**, en haut de l’onglet **Admission habitant**, déc
 
 La catégorie est lue dans le secteur demandé par le candidat, et l’évaluation suit l’habitant une fois admis. Un habitant qui arrive sans Katz validée n’a **aucune catégorie** : aucun forfait INAMI n’est facturé pour lui tant qu’elle n’est pas validée. Voir [L’évaluation Katz](../katz/) et [Le forfait INAMI](../forfait-inami/).
 
-Une réadmission après une longue hospitalisation peut nécessiter une **nouvelle évaluation Katz** : Resthome vous le signale.
+Une réadmission après une longue hospitalisation peut nécessiter une **nouvelle évaluation Katz** : WideCare vous le signale.
 
 ## La liste d’attente vérifiée auprès des mutuelles
 
@@ -4412,7 +4450,7 @@ Pour lancer cette vérification chaque mois automatiquement, activez **Contrôle
 
 La **Date de début de séjour** de l’assistant lance la facturation de l’hébergement. La **Date d’admission**, fixée au démarrage du séjour (**Démarrer le séjour**), est celle à partir de laquelle court le forfait INAMI.
 
-Le démarrage du séjour est aussi ce qui informe la mutuelle : Resthome prépare l”**accord d’admission** (**Annexe 7**) sous forme de demande eAgreement, sans rien à encoder de plus. Il lui faut un **NISS** valide, la **mutuelle** et un **certificat eHealth** actif ; la demande suit ensuite **Brouillon → Envoyé → Accepté** ou **Rejeté**.
+Le démarrage du séjour est aussi ce qui informe la mutuelle : WideCare prépare l”**accord d’admission** (**Annexe 7**) sous forme de demande eAgreement, sans rien à encoder de plus. Il lui faut un **NISS** valide, la **mutuelle** et un **certificat eHealth** actif ; la demande suit ensuite **Brouillon → Envoyé → Accepté** ou **Rejeté**.
 
 - L’Annexe 7 est signée par le responsable de l’établissement — voir [Praticien responsable et signatures des annexes](../ehealth/eagreement-signature/).
 - Une demande rejetée affiche son motif sur l’accord — voir [Accords (eAgreement)](../ehealth/eagreement/).
@@ -4433,7 +4471,7 @@ Source : https://www.lplg.eu/resthome/documentation/belgique/katz/
 
 # L’évaluation Katz
 
-L”**échelle de Katz** mesure le degré de **dépendance** d’un habitant. Elle détermine sa **catégorie** de soins, déclarée à la mutuelle pour le **forfait INAMI de dépendance**. Dans Resthome, la saisie est guidée et la catégorie est calculée pour vous.
+L”**échelle de Katz** mesure le degré de **dépendance** d’un habitant. Elle détermine sa **catégorie** de soins, déclarée à la mutuelle pour le **forfait INAMI de dépendance**. Dans WideCare, la saisie est guidée et la catégorie est calculée pour vous.
 
 La même liste d’évaluations s’ouvre partout où vous travaillez :
 
@@ -4458,7 +4496,7 @@ Chaque critère est coté de **1** (aucune aide) à **4** (totalement dépendant
 
 Les deux critères d’orientation distinguent les catégories avec désorientation (Cd) des autres ; ils ne sont pas requis quand un spécialiste a diagnostiqué une démence. Les blocs **Démence** et **Coma** du formulaire enregistrent ces diagnostics.
 
-À partir de ces cotations, Resthome calcule la **catégorie** et le **score total** conformément à la réglementation.
+À partir de ces cotations, WideCare calcule la **catégorie** et le **score total** conformément à la réglementation.
 
 ## Les catégories
 
@@ -4494,9 +4532,9 @@ L’évaluation passe ensuite par **Brouillon → Confirmé → Validé → Envo
 
 **Imprimer l’Annexe 10** imprime la grille officielle à tout moment.
 
-Ce que Resthome fait pour vous
+Ce que WideCare fait pour vous
 
-À la validation, Resthome reprend la catégorie dans la facturation et, quand la catégorie change, prépare la demande d’accord pour la mutuelle (Annexe 10). Vous ne ressaisissez jamais la catégorie ailleurs. Voir [Accords (eAgreement)](../ehealth/eagreement/).
+À la validation, WideCare reprend la catégorie dans la facturation et, quand la catégorie change, prépare la demande d’accord pour la mutuelle (Annexe 10). Vous ne ressaisissez jamais la catégorie ailleurs. Voir [Accords (eAgreement)](../ehealth/eagreement/).
 
 ### Évaluer un candidat avant l’admission
 
@@ -4510,15 +4548,15 @@ Côté facturation, le tableau de bord compte les **Katz à évaluer** (pas d’
 
 ## Aggravation en cours de séjour
 
-Si l’état de l’habitant se dégrade, saisissez une **nouvelle évaluation**. Quand la catégorie s’aggrave, le formulaire demande la **Justification d’aggravation** : Resthome la reporte dans la mise à jour de l’accord (**Annexe 10**), que le clinicien signe. La nouvelle catégorie est facturée une fois l’accord de la mutuelle obtenu — voir [Le forfait INAMI (dépendance)](../forfait-inami/).
+Si l’état de l’habitant se dégrade, saisissez une **nouvelle évaluation**. Quand la catégorie s’aggrave, le formulaire demande la **Justification d’aggravation** : WideCare la reporte dans la mise à jour de l’accord (**Annexe 10**), que le clinicien signe. La nouvelle catégorie est facturée une fois l’accord de la mutuelle obtenu — voir [Le forfait INAMI (dépendance)](../forfait-inami/).
 
-Une réadmission après une longue hospitalisation peut nécessiter une **nouvelle évaluation** : Resthome prépare le brouillon et assigne une activité — voir [Réglages belges](../reglages/).
+Une réadmission après une longue hospitalisation peut nécessiter une **nouvelle évaluation** : WideCare prépare le brouillon et assigne une activité — voir [Réglages belges](../reglages/).
 
 ## Quand la catégorie ne correspond plus au lit
 
-Un lit **MRS** n’accueille que les catégories **B et au-delà**. Un habitant évalué en **O ou A** relève d’un lit **MR**. Resthome refuse de **mettre ou maintenir un séjour en MRS** pour un habitant évalué en O ou A — à l’admission comme lors d’un transfert. Un **changement de chambre n’est pas bloqué** pour autant : l’habitant peut toujours passer d’une chambre à une autre tant que le bandeau ci-dessous reste affiché.
+Un lit **MRS** n’accueille que les catégories **B et au-delà**. Un habitant évalué en **O ou A** relève d’un lit **MR**. WideCare refuse de **mettre ou maintenir un séjour en MRS** pour un habitant évalué en O ou A — à l’admission comme lors d’un transfert. Un **changement de chambre n’est pas bloqué** pour autant : l’habitant peut toujours passer d’une chambre à une autre tant que le bandeau ci-dessous reste affiché.
 
-Lorsqu’une nouvelle évaluation ressort en A alors que l’habitant occupe un lit MRS, Resthome le dit au lieu de laisser passer. Le bandeau apparaît **dès la validation** de l’évaluation et reste sur la fiche de l’habitant tant que le secteur n’a pas changé :
+Lorsqu’une nouvelle évaluation ressort en A alors que l’habitant occupe un lit MRS, WideCare le dit au lieu de laisser passer. Le bandeau apparaît **dès la validation** de l’évaluation et reste sur la fiche de l’habitant tant que le secteur n’a pas changé :
 
 ![Bannière sur la fiche de l’habitant : Katz A dans un lit MRS, avec le bouton Transfert interne](../../_images/04-secteur-a-changer-fiche.png)
 
@@ -4580,7 +4618,7 @@ Le guide commun [Facturer un mois, pas à pas](../../facturation/facturer-un-moi
 1. **Ouvrez la période** dans **Facturation → Facturation → Périodes de facturation**.
 2. **Générer** — dans la fenêtre **Générer la facturation**, **Charger MDA Succès** (et **Charger MDA en attente**) préremplissent les habitants dont l’assurabilité a déjà été vérifiée, par exemple par un lot MDA lancé en début de mois. Le forfait est calculé sur les jours de présence de la **période d’intervention INAMI**, avec la catégorie Katz facturée. La période passe à l’état **Généré**. Un habitant sans Katz validée ne reçoit aucun forfait : sa ligne affiche **Pas de Katz**, et le fil vous demande de valider sa Katz et de régénérer.
 3. **Vérifiez l’assurabilité** — cliquez sur **Vérifier MDA** : une requête par habitant de la période, envoyée en un lot groupé. L’étape est franchie dès que chaque habitant facturé à une mutuelle a une requête — les réponses peuvent arriver plus tard. Corrigez les cas signalés (mauvaise mutuelle, perte d’assurabilité) ; **Réessayer les MDA échoués** renvoie les requêtes tombées en erreur. Voir [Assurabilité (MDA)](../ehealth/mda/).
-4. **Générer eFact** — dans la fenêtre **Générer les envois eFact**, cliquez sur **Générer les envois** : Resthome constitue les **lots** eFact à partir des lignes mutuelle de la période, regroupés **par union** de mutuelles. Un habitant sans évaluation Katz bloque cette étape. Les habitants laissés hors de l’eFact — sans NISS, sans mutuelle, sans journée facturable — sont nommés avec le motif et le montant, pour que personne ne disparaisse en silence.
+4. **Générer eFact** — dans la fenêtre **Générer les envois eFact**, cliquez sur **Générer les envois** : WideCare constitue les **lots** eFact à partir des lignes mutuelle de la période, regroupés **par union** de mutuelles. Un habitant sans évaluation Katz bloque cette étape. Les habitants laissés hors de l’eFact — sans NISS, sans mutuelle, sans journée facturable — sont nommés avec le motif et le montant, pour que personne ne disparaisse en silence.
 5. **Créer les factures** — la part habitant devient des factures en **brouillon** ; vérifiez-les, puis cliquez sur **Confirmer**. La période passe à l’état **Facturé**.
 6. **Envoyez** — ouvrez **eHealth → eFact → Cockpit** (ou les lots) et cliquez sur **Tout envoyer**, ou envoyez lot par lot. Les envois partent vers les organismes assureurs via le réseau eHealth.
 7. **Suivez les réponses** — cliquez sur **Récupérer les réponses** pour rapatrier les accusés de réception et les décomptes. Chaque lot passe par **Envoyé → Accusé reçu → Accepté / Rejeté**. En cas de **rejet**, corrigez la cause (assurabilité, dates, montants) et **renvoyez**.
@@ -4642,14 +4680,14 @@ L’ancienne échéance d’envoi — le 20 du mois suivant — a été **suppri
 
 La page commune [Absences et hospitalisations](../../facturation/absences/) explique comment enregistrer une absence. En Belgique, deux règles s’y ajoutent.
 
-**La règle de midi.** Le forfait INAMI est calculé sur les **jours de présence**. Le décompte suit une règle de présence à **midi** (heure de Bruxelles) : la présence à midi détermine si le jour compte. Les **dates et heures** de départ et de retour ont donc leur importance — Resthome s’appuie sur elles pour un décompte exact.
+**La règle de midi.** Le forfait INAMI est calculé sur les **jours de présence**. Le décompte suit une règle de présence à **midi** (heure de Bruxelles) : la présence à midi détermine si le jour compte. Les **dates et heures** de départ et de retour ont donc leur importance — WideCare s’appuie sur elles pour un décompte exact.
 
 **Notification à la mutuelle.** Certaines absences doivent être signalées :
 
 - une absence de **plus de 72 heures**, ou **toute hospitalisation**, prépare une **Annexe 11** (notification de sortie) ;
 - le **retour** de l’habitant prépare une **Annexe 7** (réadmission).
 
-Resthome crée ces notifications **au moment où vous enregistrez l’absence et le retour** ; il ne vous reste qu’à les vérifier et à les envoyer. Supprimer une absence encodée par erreur les retire, tant que la mutuelle ne les a pas validées.
+WideCare crée ces notifications **au moment où vous enregistrez l’absence et le retour** ; il ne vous reste qu’à les vérifier et à les envoyer. Supprimer une absence encodée par erreur les retire, tant que la mutuelle ne les a pas validées.
 
 → [Accords (eAgreement)](../ehealth/eagreement/) · [Vacances collectives](../ehealth/vacances-collectives/)
 
@@ -4657,7 +4695,7 @@ Resthome crée ces notifications **au moment où vous enregistrez l’absence et
 
 La clôture d’un séjour (voir [Départ et décès](../../facturation/depart-deces/)) prépare la notification de sortie **Annexe 11** vers la mutuelle.
 
-Contrairement à l’hébergement, le forfait INAMI est facturé sur le **mois réellement presté** : il s’arrête à la fin de l’intervention INAMI. Si un habitant part ou décède pendant un mois déjà facturé, l’autocontrôle signale le forfait déclaré en trop et Resthome prépare la note de crédit ou le reliquat, ainsi qu’un lot correctif côté mutuelle si nécessaire. L”[Annexe 12](../note-de-frais-annexe12/) reflète les jours de présence réels.
+Contrairement à l’hébergement, le forfait INAMI est facturé sur le **mois réellement presté** : il s’arrête à la fin de l’intervention INAMI. Si un habitant part ou décède pendant un mois déjà facturé, l’autocontrôle signale le forfait déclaré en trop et WideCare prépare la note de crédit ou le reliquat, ainsi qu’un lot correctif côté mutuelle si nécessaire. L”[Annexe 12](../note-de-frais-annexe12/) reflète les jours de présence réels.
 
 → [Accords (eAgreement)](../ehealth/eagreement/) · [Facturation électronique (eFact)](../ehealth/efact/)
 
@@ -4801,7 +4839,7 @@ Source : https://www.lplg.eu/resthome/documentation/belgique/ehealth/
 
 # eHealth
 
-Resthome est connecté à l’écosystème e-santé belge (eHealth, MyCareNet, WalCareNet) pour échanger directement avec les mutuelles et les autres soignants. L’essentiel se trouve dans l’application **eHealth** ; certains services apparaissent aussi là où vous en avez besoin, sur la fiche de l’habitant ou dans la période de facturation.
+WideCare est connecté à l’écosystème e-santé belge (eHealth, MyCareNet, WalCareNet) pour échanger directement avec les mutuelles et les autres soignants. L’essentiel se trouve dans l’application **eHealth** ; certains services apparaissent aussi là où vous en avez besoin, sur la fiche de l’habitant ou dans la période de facturation.
 
 ## Les services
 
@@ -4852,7 +4890,7 @@ Resthome est connecté à l’écosystème e-santé belge (eHealth, MyCareNet, W
 
 ## Quand une réponse se perd
 
-Un envoi vers MyCareNet peut se terminer sans réponse certaine : un délai dépassé, une interruption. Resthome **ne le renvoie jamais tout seul**, pour que la mutuelle ne reçoive jamais deux fois la même demande. Il le liste dans **eHealth → Configuration → Envois à vérifier**, réservé aux gestionnaires eHealth : cherchez son accusé de réception dans la boîte aux lettres MyCareNet, puis cliquez sur **Reçu par MyCareNet** (le document compte comme envoyé) ou **Non reçu, peut être renvoyé**.
+Un envoi vers MyCareNet peut se terminer sans réponse certaine : un délai dépassé, une interruption. WideCare **ne le renvoie jamais tout seul**, pour que la mutuelle ne reçoive jamais deux fois la même demande. Il le liste dans **eHealth → Configuration → Envois à vérifier**, réservé aux gestionnaires eHealth : cherchez son accusé de réception dans la boîte aux lettres MyCareNet, puis cliquez sur **Reçu par MyCareNet** (le document compte comme envoyé) ou **Non reçu, peut être renvoyé**.
 
 Chaque appel à la plateforme, avec sa réponse, est conservé dans **eHealth → Configuration → Journaux de communication** pour les gestionnaires eHealth.
 
@@ -4895,11 +4933,11 @@ Menu : **eHealth → Assurabilité → Requêtes MDA** (et **Lots MDA**).
 - Le **numéro d’affiliation** à la mutuelle.
 - Le cas échéant : **tiers payant**, **date de décès** signalée par l’OA, et selon la demande, la **pharmacie de référence**, le **DMG**, le **statut palliatif** ou une **hospitalisation**.
 
-Quand la mutuelle signale un **statut palliatif**, Resthome coche **Soins palliatifs** dans l’onglet **Volontés** de l’habitant, avec sa date de début, et le note une fois dans le fil de l’habitant. Il ne fait jamais que cocher : un statut qui n’est plus signalé ne la décoche pas, et une date saisie par l’équipe est conservée. Une réponse simulée (stub) est ignorée.
+Quand la mutuelle signale un **statut palliatif**, WideCare coche **Soins palliatifs** dans l’onglet **Volontés** de l’habitant, avec sa date de début, et le note une fois dans le fil de l’habitant. Il ne fait jamais que cocher : un statut qui n’est plus signalé ne la décoche pas, et une date saisie par l’équipe est conservée. Une réponse simulée (stub) est ignorée.
 
 Le cas « pas en ordre »
 
-Si les codes bénéficiaire reviennent à zéro (assuré mais cotisations impayées / dossier à problème), Resthome affiche une **alerte** : l’habitant est affilié mais **pas en ordre**. À clarifier avec lui ou sa mutuelle avant de facturer à l’OA.
+Si les codes bénéficiaire reviennent à zéro (assuré mais cotisations impayées / dossier à problème), WideCare affiche une **alerte** : l’habitant est affilié mais **pas en ordre**. À clarifier avec lui ou sa mutuelle avant de facturer à l’OA.
 
 ## Prérequis
 
@@ -4911,7 +4949,7 @@ Si les codes bénéficiaire reviennent à zéro (assuré mais cotisations impay�
 
 La **mutuelle du profil** n’est pas bloquante (l’OA réel est identifié par la réponse), mais la renseigner aide à repérer les mutations.
 
-Resthome applique aussi des règles de période automatiques : la fin doit être après le début, au plus **5 ans** d’historique, et un MDA standard ne dépasse pas le mois courant.
+WideCare applique aussi des règles de période automatiques : la fin doit être après le début, au plus **5 ans** d’historique, et un MDA standard ne dépasse pas le mois courant.
 
 ## Contrôle individuel
 
@@ -4968,9 +5006,9 @@ Sur un lot, les mêmes actions existent en version groupée : **Envoyer Sync**, 
 
 Un envoi sans réponse certaine n’est jamais renvoyé tout seul
 
-Si la réponse à un envoi est perdue (délai dépassé, interruption), Resthome ne le renvoie pas automatiquement : il le liste sous **eHealth → Configuration → Envois à vérifier**, où vous indiquez si MyCareNet l’a reçu — voir [eHealth](../).
+Si la réponse à un envoi est perdue (délai dépassé, interruption), WideCare ne le renvoie pas automatiquement : il le liste sous **eHealth → Configuration → Envois à vérifier**, où vous indiquez si MyCareNet l’a reçu — voir [eHealth](../).
 
-## Ce que Resthome met à jour tout seul
+## Ce que WideCare met à jour tout seul
 
 Après une réponse réussie, la fiche habitant est **corrigée automatiquement** :
 
@@ -4983,11 +5021,11 @@ Après une réponse réussie, la fiche habitant est **corrigée automatiquement*
 
 La date de naissance et le sexe sont **écrasés**, et pas seulement complétés lorsqu’ils sont vides. C’est délibéré : une date de naissance en désaccord avec le NISS fait **rejeter l’eFact**, et une faute de frappe saisie à l’admission survivrait sinon à tous les contrôles — l’opérateur croyant que le MDA avait validé le dossier. L’organisme assureur applique la même règle.
 
-Quand une valeur existante change, Resthome publie **MDA — identité corrigée** dans le fil de l’habitant, en listant chaque changement sous la forme ~~ancien~~ → **nouveau**. Rien ne bouge en silence.
+Quand une valeur existante change, WideCare publie **MDA — identité corrigée** dans le fil de l’habitant, en listant chaque changement sous la forme ~~ancien~~ → **nouveau**. Rien ne bouge en silence.
 
 La date de décès fait exception
 
-Si l’organisme assureur communique une **date de décès** différente de celle du dossier, Resthome ne l’écrase **pas** : il publie *« MDA — la date de décès diverge »* et vous laisse arbitrer. Cette date clôture le séjour et plafonne le forfait — trop lourde de conséquences pour être modifiée automatiquement.
+Si l’organisme assureur communique une **date de décès** différente de celle du dossier, WideCare ne l’écrase **pas** : il publie *« MDA — la date de décès diverge »* et vous laisse arbitrer. Cette date clôture le séjour et plafonne le forfait — trop lourde de conséquences pour être modifiée automatiquement.
 
 ### Les champs d’identité sont verrouillés après la première réponse
 
@@ -5004,14 +5042,14 @@ N’utilisez **Autoriser la correction manuelle de l’identité** que si la ré
 
 Garde-fou régimes spéciaux
 
-Pour les habitants sous **régime particulier** (INIG, CEE, Fedasil, étranger, privé…), Resthome **n’écrase pas** la mutuelle du profil : un message explique que la réponse MDA a été ignorée pour ne pas casser une couverture non standard.
+Pour les habitants sous **régime particulier** (INIG, CEE, Fedasil, étranger, privé…), WideCare **n’écrase pas** la mutuelle du profil : un message explique que la réponse MDA a été ignorée pour ne pas casser une couverture non standard.
 
 ## Réintégration (perte puis retour d’assurabilité)
 
-Resthome compare avec le contrôle précédent :
+WideCare compare avec le contrôle précédent :
 
 - **Non assuré → assuré** : une notification apparaît sur la période, et l’action **Réintégration** permet de basculer vers l’OA les lignes qui avaient été facturées à l’habitant.
-- **Assuré → non assuré** : Resthome signale que l’habitant « n’est plus en ordre » — son forfait est exclu de la facturation OA de la période et facturé à l’habitant jusqu’au rétablissement.
+- **Assuré → non assuré** : WideCare signale que l’habitant « n’est plus en ordre » — son forfait est exclu de la facturation OA de la période et facturé à l’habitant jusqu’au rétablissement.
 
 ## Gestion des erreurs
 
@@ -5045,15 +5083,15 @@ Lancez le MDA **en début de mois**, et en tout cas **avant de générer l’eFa
 
 ## Situations MDA → action
 
-Rappel des statuts que Resthome peut afficher : **Brouillon**, **Envoyé**, **Posté (Async)**, **En attente de réponse**, **Succès**, **Non assuré**, **No Facet (clôturé)**, **Erreur**. Actions disponibles : **Envoyer (Sync)**, **Vérifier la réponse**, **Réessayer**, et dans la barre d’outils du fil **Contacter l’OA** et **Contacter le CIN**.
+Rappel des statuts que WideCare peut afficher : **Brouillon**, **Envoyé**, **Posté (Async)**, **En attente de réponse**, **Succès**, **Non assuré**, **No Facet (clôturé)**, **Erreur**. Actions disponibles : **Envoyer (Sync)**, **Vérifier la réponse**, **Réessayer**, et dans la barre d’outils du fil **Contacter l’OA** et **Contacter le CIN**.
 
-| Situation | Ce que Resthome affiche | Cause probable | Action |
+| Situation | Ce que WideCare affiche | Cause probable | Action |
 | --- | --- | --- | --- |
 | **NISS non reconnu** | **Erreur** : la demande est refusée avant d’arriver à une mutuelle | Le **NISS** est mal saisi (chiffre inversé, faute de frappe) : format invalide | Vérifier le NISS (carte d’identité), **le corriger**, puis **Réessayer**. C’est la cause la plus fréquente. |
 | **Bénéficiaire introuvable** | **Erreur** : « non trouvé » | NISS bien formé mais **pas (encore) connu** de la plateforme (inscription très récente, cas particulier) | Confirmer le NISS et l’affiliation. Si le numéro est correct : **Contacter l’OA** ; en dernier recours **Contacter le CIN**. |
 | **Assuré mais « pas en ordre »** | **Non assuré** + **alerte** | Affiliation existante mais **couverture non valide** (cotisations impayées, dossier à régulariser) | Ne pas facturer l’OA pour cette période. **Contacter l’OA** ou l’habitant pour régulariser ; facturer la part **à l’habitant** en attendant. |
-| **Pas de mutuelle sur la fiche** | Non bloquant : après un MDA réussi, la mutuelle est **remplie automatiquement** | Profil incomplet (nouveau habitant) | Lancer le MDA : s’il aboutit, Resthome **renseigne** la mutuelle et le n° d’affiliation. Sinon, revérifier le NISS. |
-| **Changement de mutuelle (mutation)** | **Mutation détectée** : le profil est **mis à jour** | L’habitant a changé de mutuelle ; le profil n’était pas à jour | Laisser Resthome corriger le profil ; **vérifier** la nouvelle mutuelle avant de facturer. |
+| **Pas de mutuelle sur la fiche** | Non bloquant : après un MDA réussi, la mutuelle est **remplie automatiquement** | Profil incomplet (nouveau habitant) | Lancer le MDA : s’il aboutit, WideCare **renseigne** la mutuelle et le n° d’affiliation. Sinon, revérifier le NISS. |
+| **Changement de mutuelle (mutation)** | **Mutation détectée** : le profil est **mis à jour** | L’habitant a changé de mutuelle ; le profil n’était pas à jour | Laisser WideCare corriger le profil ; **vérifier** la nouvelle mutuelle avant de facturer. |
 | **« Sans réponse »** | **No Facet (clôturé)** | La plateforme a clôturé la demande sans réponse — souvent **hors horaires** (soir/week-end) ou indisponibilité temporaire. Ce n’est pas une erreur de votre part | **Réessayer** aux heures de bureau. Si cela persiste, **Contacter le CIN**. |
 | **Erreur technique** | **Erreur** + détail technique | Panne temporaire côté plateforme ou mutuelle | **Réessayer** plus tard ; si l’erreur revient, **Contacter le CIN**. Ne pas relancer en boucle. |
 | **Décès signalé par la mutuelle** | **Date de décès** sur la fiche + alerte | L’OA signale un décès (couverture close) | Vérifier et **arrêter la facturation** à la bonne date. |
@@ -5063,7 +5101,7 @@ Rappel des statuts que Resthome peut afficher : **Brouillon**, **Envoyé**, **Po
 
 ## Régimes particuliers
 
-Certains habitants ne relèvent **pas** du flux mutuelle standard. Dans ces cas, Resthome **n’écrase pas** la mutuelle de leur profil avec la réponse du MDA, et la facturation se fait souvent **sur papier**, adressée au véritable payeur (ou à l’habitant), plutôt qu’en eFact.
+Certains habitants ne relèvent **pas** du flux mutuelle standard. Dans ces cas, WideCare **n’écrase pas** la mutuelle de leur profil avec la réponse du MDA, et la facturation se fait souvent **sur papier**, adressée au véritable payeur (ou à l’habitant), plutôt qu’en eFact.
 
 - **Statut BIM (intervention majorée)** — ce n’est pas un régime à part : le MDA le **récupère et met à jour tout seul**. Il ouvre droit à un **ticket modérateur réduit** pour l’habitant (la part à sa charge diminue) ; le forfait journalier, lui, est inchangé.
 - **Invalides de guerre / victimes civiles** — l’habitant a **deux couvertures** : sa mutuelle standard (visible dans le MDA) **et** une couverture spécifique qui **ne passe pas** par le MDA. Le garde-fou évite d’écraser cette configuration.
@@ -5082,7 +5120,7 @@ Pour un régime particulier, en cas de doute sur l’organisme à facturer, rapp
   - **Envoi immédiat (Sync)** pour les **petits volumes** ;
   - **Envoi groupé (Async)** pour les **gros lots mensuels** : la demande part, puis on **récupère les réponses** un peu plus tard avec **Vérifier les réponses** (nécessite au moins 2 habitants).
 - Le lot affiche des **compteurs** (Assurés, Non assurés, Erreurs, En attente, Décès) pour repérer d’un coup d’œil ce qui reste à traiter.
-- **Ce que Resthome met à jour** après un MDA réussi : la **mutuelle (OA)** réelle, le **statut BIM**, le **numéro d’affiliation**, l’**identité** si des champs manquaient, et la **date de décès** si l’organisme la signale. Exception : la mutuelle d’un **régime particulier** n’est pas écrasée.
+- **Ce que WideCare met à jour** après un MDA réussi : la **mutuelle (OA)** réelle, le **statut BIM**, le **numéro d’affiliation**, l’**identité** si des champs manquaient, et la **date de décès** si l’organisme la signale. Exception : la mutuelle d’un **régime particulier** n’est pas écrasée.
 
 ## Pour aller plus loin
 
@@ -5097,7 +5135,7 @@ Source : https://www.lplg.eu/resthome/documentation/belgique/ehealth/efact/
 
 # Facturation électronique (eFact)
 
-L’**eFact** est l’envoi **électronique** de la **part mutuelle** (le forfait INAMI) aux **organismes assureurs** (OA), via le réseau eHealth / MyCareNet. Resthome construit les fichiers, les transmet et **suit les réponses** pour vous — accusés de réception, décomptes, acceptations et rejets.
+L’**eFact** est l’envoi **électronique** de la **part mutuelle** (le forfait INAMI) aux **organismes assureurs** (OA), via le réseau eHealth / MyCareNet. WideCare construit les fichiers, les transmet et **suit les réponses** pour vous — accusés de réception, décomptes, acceptations et rejets.
 
 Ce guide vous accompagne du début à la fin : générer une période, vérifier la période et l’assurabilité, constituer l’eFact, facturer la part habitant, envoyer l’eFact et traiter les retours.
 
@@ -5147,7 +5185,7 @@ Un assistant **« Générer la facturation »** s’ouvre.
 - **Habitants** : laissez **vide pour tous les habitants actifs** (ou ciblez un habitant pour un cas particulier).
 - **Charger MDA Succès** / **Charger MDA en attente** : pré-remplissent les habitants dont l’assurabilité (MDA) est déjà vérifiée ou encore en cours — par exemple à partir d’un lot MDA lancé en début de mois. La légende indique l’état MDA de la période.
 
-Cliquez sur **Générer**. La période devient **Générée** : Resthome a calculé, pour **chaque habitant**, le forfait Katz, la **part INAMI** (mutuelle) et la **part habitant**.
+Cliquez sur **Générer**. La période devient **Générée** : WideCare a calculé, pour **chaque habitant**, le forfait Katz, la **part INAMI** (mutuelle) et la **part habitant**.
 
 ![Période à l'état Générée : barre d'outils Créer les factures / Vérifier MDA / Générer l'eFact, et tableau des habitants avec part INAMI et part habitant](../../../_images/04-periode-generated.webp)
 
@@ -5164,9 +5202,9 @@ Les autres onglets : **Lignes de facturation** (le détail des lignes), **Factur
 
 C’est l’étape la plus importante. En haut de la période, des **compteurs** donnent l’état de santé du mois : **Factures**, **Absences**, **Non facturés**, **MDA**, **Accords** et **Katz à faire** (habitants dont l’évaluation Katz manque ou est à renouveler). Un habitant sans Katz validée ne reçoit aucun forfait : sa ligne affiche **Pas de Katz**.
 
-L’autocontrôle de Resthome
+L’autocontrôle de WideCare
 
-Après la génération, Resthome parcourt la période et **signale les anomalies** dans le fil de discussion (à droite). Chaque message décrit le problème **et** l’action à mener. Les cas les plus fréquents :
+Après la génération, WideCare parcourt la période et **signale les anomalies** dans le fil de discussion (à droite). Chaque message décrit le problème **et** l’action à mener. Les cas les plus fréquents :
 
 - **Chambre libérée mais toujours facturée** (surfacturation) — un habitant a quitté sa chambre en cours de mois, mais l’hébergement est toujours facturé. → Émettez une **note de crédit** ou clôturez l’hébergement.
 - **Forfait OA surdéclaré** — la fin de l’intervention INAMI (ou un décès) précède la fin de la période, mais le forfait a été déclaré au-delà. → Émettez une **note de crédit / reliquat** pour les jours surdéclarés.
@@ -5179,13 +5217,13 @@ Traitez chaque point (bouton **Fait** une fois réglé) avant de facturer.
 
 ## 4. Generate the eFact (the batches)
 
-Une fois le MDA demandé, cliquez sur **Générer eFact**, puis sur **Générer les envois** dans la fenêtre qui s’ouvre. Resthome constitue les **lots** à partir des lignes mutuelle de la période — et non des factures, qui n’existent pas encore — un fichier électronique par organisme assureur, puis affiche la liste des **Envois eFact**.
+Une fois le MDA demandé, cliquez sur **Générer eFact**, puis sur **Générer les envois** dans la fenêtre qui s’ouvre. WideCare constitue les **lots** à partir des lignes mutuelle de la période — et non des factures, qui n’existent pas encore — un fichier électronique par organisme assureur, puis affiche la liste des **Envois eFact**.
 
 La génération est refusée tant qu’un habitant n’a aucune évaluation Katz : le message ouvre ses évaluations Katz. Elle est incrémentale — un deuxième passage ne regroupe que les lignes qui ne sont pas encore dans un lot ; **Générer eFact** reste donc disponible sur une période à l’état **Facturé**.
 
 Un lot par union de mutualités
 
-Les envois sont regroupés **par union** (les grandes familles d’OA), pas par petite mutuelle individuelle : **100** (Alliance nationale), **300** (Solidaris), **500** (Union nationale), **600** (CAAMI), **900** (HR Rail)… Resthome se charge du regroupement.
+Les envois sont regroupés **par union** (les grandes familles d’OA), pas par petite mutuelle individuelle : **100** (Alliance nationale), **300** (Solidaris), **500** (Union nationale), **600** (CAAMI), **900** (HR Rail)… WideCare se charge du regroupement.
 
 Chaque ligne de lot affiche :
 
@@ -5198,7 +5236,7 @@ Chaque ligne de lot affiche :
 
 ## 5. Create the invoices (Generated → Invoiced)
 
-Une fois l’eFact constitué, cliquez sur **Créer les factures**. Resthome crée les **factures habitant** (part à charge de l’habitant / de la famille) en **brouillon** : vérifiez-les, puis cliquez sur **Confirmer**. La période passe à l’état **Facturé**.
+Une fois l’eFact constitué, cliquez sur **Créer les factures**. WideCare crée les **factures habitant** (part à charge de l’habitant / de la famille) en **brouillon** : vérifiez-les, puis cliquez sur **Confirmer**. La période passe à l’état **Facturé**.
 
 La **part mutuelle** n’est pas facturée ici : elle part dans les lots eFact. Une fois qu’un lot est réglé par l’organisme assureur, sa pièce comptable est créée depuis la liste **À facturer** d’eFact (**Créer les pièces comptables** dans le menu Actions).
 
@@ -5206,7 +5244,7 @@ Vous pouvez encore **Remettre en brouillon** tant que vous n’avez pas envoyé 
 
 ## 6. Les contrôles avant envoi
 
-Avant qu’un lot ne parte, Resthome le passe au crible de tout ce qu’il peut vérifier **sans interroger l’organisme assureur**. Un lot en Brouillon ou Prêt porte un bouton **Contrôles** : vert **Contrôles OK**, ou rouge avec le nombre de problèmes trouvés.
+Avant qu’un lot ne parte, WideCare le passe au crible de tout ce qu’il peut vérifier **sans interroger l’organisme assureur**. Un lot en Brouillon ou Prêt porte un bouton **Contrôles** : vert **Contrôles OK**, ou rouge avec le nombre de problèmes trouvés.
 
 En l’ouvrant, une ligne par problème s’affiche, avec l’habitant concerné (ou *« (tout le lot) »*), une **Sévérité**, le rejet que renverrait l’organisme assureur, et une colonne **Que faire**.
 
@@ -5249,7 +5287,7 @@ La libération est refusée tant que la couverture n’est pas OK
 
 **Débloquer le batch** refuse tant que la couverture n’est pas **OK**, et vous indique l’état courant. Rafraîchissez d’abord l’assurabilité — tout l’intérêt du lot retenu est qu’il ne parte jamais dans un état que l’organisme assureur rejetterait.
 
-À la libération, Resthome traite aussi le cas où un MDA a **changé la mutuelle d’un habitant** : ces lignes sont réaiguillées vers le lot du bon organisme assureur — fusionnées dans un lot existant, ou placées dans un nouveau, lui-même retenu si un lot est déjà en vol pour cet organisme.
+À la libération, WideCare traite aussi le cas où un MDA a **changé la mutuelle d’un habitant** : ces lignes sont réaiguillées vers le lot du bon organisme assureur — fusionnées dans un lot existant, ou placées dans un nouveau, lui-même retenu si un lot est déjà en vol pour cet organisme.
 
 ## 8. Envoyer et suivre les réponses
 
@@ -5259,7 +5297,7 @@ Le cycle des réponses est automatique :
 
 1. **Accusé de réception (931000)** — l’OA confirme avoir **reçu** le lot et passé le premier contrôle. **C’est normal : il n’y a rien à renvoyer, attendez le décompte** (quelques jours).
 2. **Notification avec avertissements (920098)** ou **rejet global (920099)** — le cas échéant : soit le lot est accepté malgré des erreurs mineures, soit l’ensemble du lot est refusé (à corriger et renvoyer).
-3. **Décompte (920900)** — le résultat final : montants **acceptés** et/ou **rejetés**. Resthome **rapproche** les réponses et met à jour chaque lot (code et motif de rejet).
+3. **Décompte (920900)** — le résultat final : montants **acceptés** et/ou **rejetés**. WideCare **rapproche** les réponses et met à jour chaque lot (code et motif de rejet).
 
 Traiter un rejet
 
@@ -5273,7 +5311,7 @@ Depuis une période ou une carte du tableau de bord, le **Cockpit eFact** offre 
 
 ## 10. Notes de crédit et régularisations
 
-Lorsqu’un habitant **part** ou **décède** au cours d’un mois déjà facturé, une partie de l’hébergement ou du forfait a été **surfacturée**. Resthome le détecte (voir l’autocontrôle ci-dessus) et prépare la **note de crédit** ou le **reliquat** correspondant, pour rembourser la période indue — côté habitant **et**, si nécessaire, côté mutuelle via un lot correctif.
+Lorsqu’un habitant **part** ou **décède** au cours d’un mois déjà facturé, une partie de l’hébergement ou du forfait a été **surfacturée**. WideCare le détecte (voir l’autocontrôle ci-dessus) et prépare la **note de crédit** ou le **reliquat** correspondant, pour rembourser la période indue — côté habitant **et**, si nécessaire, côté mutuelle via un lot correctif.
 
 ## Prérequis
 
@@ -5304,14 +5342,14 @@ Quand vous envoyez l’[eFact](../efact/), l’**organisme assureur (OA)** véri
 
 Deux lignes de défense
 
-La plupart des causes de rejet sont **interceptées par Resthome avant l’envoi** (auto-contrôle de la période, contrôles à la génération). Elles apparaissent alors comme un **message d’anomalie** à traiter, pas comme un rejet. Les cas qui passent malgré tout reviennent ensuite sous forme de **rejet de l’OA**. Cette page couvre les deux.
+La plupart des causes de rejet sont **interceptées par WideCare avant l’envoi** (auto-contrôle de la période, contrôles à la génération). Elles apparaissent alors comme un **message d’anomalie** à traiter, pas comme un rejet. Les cas qui passent malgré tout reviennent ensuite sous forme de **rejet de l’OA**. Cette page couvre les deux.
 
 ## Le cycle de réponse, en clair
 
 Après l’envoi d’un lot, les réponses de l’OA font évoluer le **statut du lot** et remplissent les **montants** (facturé / accepté / refusé) :
 
 1. **Accusé de réception** — l’OA confirme avoir reçu le fichier et passé le premier contrôle. Rien à faire.
-2. **Décompte de l’OA** — l’OA renvoie le résultat **ligne par ligne** : ce qui est **accepté** et ce qui est **refusé**. Resthome rapproche ce décompte et met à jour les montants du lot.
+2. **Décompte de l’OA** — l’OA renvoie le résultat **ligne par ligne** : ce qui est **accepté** et ce qui est **refusé**. WideCare rapproche ce décompte et met à jour les montants du lot.
 3. **Acceptation et/ou rejet** — trois issues possibles :
 
    - **tout est accepté** → le lot est décompté, puis peut être clôturé ;
@@ -5342,7 +5380,7 @@ Sur chaque ligne refusée, un **code** et un **motif de rejet** en clair pointen
 
 ## Causes de rejet fréquentes → action
 
-| Cause | Ce que vous voyez | Action dans Resthome |
+| Cause | Ce que vous voyez | Action dans WideCare |
 | --- | --- | --- |
 | **Assurabilité (MDA) non valide ou manquante** | Compteur **MDA** pas au vert ; lot retenu à l’envoi ; ou rejet de l’OA pour assurabilité | Lancer **Vérifier MDA**, obtenir le statut **Succès** pour chaque habitant, puis **régénérer** l’eFact. Le MDA doit être validé **avant** de générer l’eFact. |
 | **Mutuelle erronée ou absente** | Le forfait part au mauvais OA (rejet) ou n’apparaît pas dans le lot | Renseigner/corriger la **mutuelle** sur la fiche de l’habitant, puis **régénérer**. Vérifier que chaque habitant facturé en tiers payant a bien une mutuelle. |
@@ -5357,18 +5395,18 @@ Sur chaque ligne refusée, un **code** et un **motif de rejet** en clair pointen
 
 ## Renvoyer, ou renoncer au rejet
 
-Un lot rejeté vous laisse deux voies, et Resthome garde trace des deux.
+Un lot rejeté vous laisse deux voies, et WideCare garde trace des deux.
 
 ### Retransmettre
 
 **Retransmettre** construit un **nouveau lot** à partir du lot rejeté. Chaque ligne est réacheminée vers la mutuelle à laquelle l’habitant appartient **réellement** aujourd’hui — ce qui est souvent l’objet même du rejet.
 
-- Si les lignes relèvent désormais de **plusieurs mutuelles**, Resthome crée **un lot par mutuelle**.
-- Un lot ne peut être retransmis qu’**une fois** : si un renvoi existe déjà, Resthome vous y renvoie plutôt que d’en créer un doublon.
+- Si les lignes relèvent désormais de **plusieurs mutuelles**, WideCare crée **un lot par mutuelle**.
+- Un lot ne peut être retransmis qu’**une fois** : si un renvoi existe déjà, WideCare vous y renvoie plutôt que d’en créer un doublon.
 
 Retransmettre renvoie un contenu inchangé
 
-Si la facturation a été **corrigée** depuis l’envoi du lot — séjour clôturé, décès plafonné, lignes régénérées — retransmettre renverrait les montants d’*avant* la correction. Resthome le détecte et vous oriente vers le flux de régénération, qui reconstruit à partir de la facturation actuelle.
+Si la facturation a été **corrigée** depuis l’envoi du lot — séjour clôturé, décès plafonné, lignes régénérées — retransmettre renverrait les montants d’*avant* la correction. WideCare le détecte et vous oriente vers le flux de régénération, qui reconstruit à partir de la facturation actuelle.
 
 ### Renoncer
 
@@ -5386,7 +5424,7 @@ Le principe : **on ne repousse pas un lot rejeté tel quel — on corrige la cau
 
 - **Boucle corriger → renvoyer.** Après avoir traité la cause (MDA, mutuelle, Katz, absence, dates…), régénérez la partie concernée et renvoyez. Le compteur **Renvois** garde la trace de chaque retransmission pour **éviter d’envoyer deux fois** le même lot.
 - **Réintégration.** Le bouton **Réintégration** permet de réintégrer des lignes (par exemple des lignes rejetées, une fois corrigées) dans un **nouvel envoi**, plutôt que de tout refaire.
-- **Note de crédit / lot correctif.** Chaque fois que vous avez **facturé plus que dû** — départ ou décès en cours de mois facturé, forfait sur-déclaré — Resthome prépare une **note de crédit** (côté habitant) et, si la part mutuelle est concernée, un **lot correctif** vers l’OA. Les lignes de crédit sont intégrées à l’**envoi eFact suivant**.
+- **Note de crédit / lot correctif.** Chaque fois que vous avez **facturé plus que dû** — départ ou décès en cours de mois facturé, forfait sur-déclaré — WideCare prépare une **note de crédit** (côté habitant) et, si la part mutuelle est concernée, un **lot correctif** vers l’OA. Les lignes de crédit sont intégrées à l’**envoi eFact suivant**.
 
 ## Les réponses que vous pouvez croiser
 
@@ -5420,7 +5458,7 @@ Source : https://www.lplg.eu/resthome/documentation/belgique/ehealth/efact-paiem
 
 # Suivi des paiements et rapprochement des décomptes
 
-Une fois vos forfaits envoyés en [eFact](../efact/), reste la vraie question : **« ai-je été payé ? »**. Cette page explique comment Resthome répond, du **décompte (920900)** rapproché automatiquement jusqu’à la **relance des organismes assureurs (OA)** en retard.
+Une fois vos forfaits envoyés en [eFact](../efact/), reste la vraie question : **« ai-je été payé ? »**. Cette page explique comment WideCare répond, du **décompte (920900)** rapproché automatiquement jusqu’à la **relance des organismes assureurs (OA)** en retard.
 
 Vous trouverez tout dans l’application **eHealth → eFact** :
 
@@ -5441,11 +5479,11 @@ Ne confondez pas les deux réponses de l’OA. L’**accusé de réception (9310
 
 Compte C (Wallonie / AViQ)
 
-Depuis 2025, la facturation MR/MRS wallonne fonctionne en **Compte C** : l’OA paie et **le décompte fait office d’avis de paiement**. Le décompte porte donc la **référence de paiement** et le **montant**, mais **pas de date de paiement** (le format n’en prévoit pas). Resthome ne fabrique jamais de date : elle reste vide tant qu’une date bancaire réelle n’est pas saisie.
+Depuis 2025, la facturation MR/MRS wallonne fonctionne en **Compte C** : l’OA paie et **le décompte fait office d’avis de paiement**. Le décompte porte donc la **référence de paiement** et le **montant**, mais **pas de date de paiement** (le format n’en prévoit pas). WideCare ne fabrique jamais de date : elle reste vide tant qu’une date bancaire réelle n’est pas saisie.
 
 ## 1. Le décompte (920900) rapproché automatiquement
 
-Quand un décompte revient de l’OA (via la récupération automatique ou le bouton **Process Response** d’un lot), Resthome le **rapproche tout seul**, sans saisie de votre part :
+Quand un décompte revient de l’OA (via la récupération automatique ou le bouton **Process Response** d’un lot), WideCare le **rapproche tout seul**, sans saisie de votre part :
 
 1. il crée un enregistrement **décompte (Settlement)** rattaché au lot ;
 2. il **réassocie chaque ligne** du décompte à la ligne facturée du bon habitant (par NISS et montant) ;
@@ -5468,7 +5506,7 @@ Ouvrez un décompte pour le détail. L’écran est en **lecture seule** (rien n
 | État | Signification |
 | --- | --- |
 | **Received** (reçu) | Le décompte vient d’arriver. |
-| **Processed** (traité) | Ses lignes ont été ventilées sur le lot. Resthome fait cette étape **automatiquement** à la réception. |
+| **Processed** (traité) | Ses lignes ont été ventilées sur le lot. WideCare fait cette étape **automatiquement** à la réception. |
 | **Reconciled** (pointé) | Vous avez **confirmé** que l’argent a bien été reçu. |
 
 - Le bouton **Process** (traiter) n’apparaît que si un décompte est resté en *Received* sans traitement — cliquez pour le ventiler.
@@ -5505,7 +5543,7 @@ Sur un lot **décompté** ou **clôturé**, **Créer le document comptable** le 
 
 Seulement une fois le décompte reçu
 
-Le bouton n’apparaît qu’à partir de **décompté**, et c’est bien le principe : avant le décompte, le montant n’est pas définitif. Resthome comptabilise **ce que l’organisme assureur a réellement accepté**, ligne par ligne — une prestation acceptée pour moins que réclamé est comptabilisée au montant accepté, et une prestation ventilée à zéro ne l’est pas du tout.
+Le bouton n’apparaît qu’à partir de **décompté**, et c’est bien le principe : avant le décompte, le montant n’est pas définitif. WideCare comptabilise **ce que l’organisme assureur a réellement accepté**, ligne par ligne — une prestation acceptée pour moins que réclamé est comptabilisée au montant accepté, et une prestation ventilée à zéro ne l’est pas du tout.
 
 Une [note de crédit](../efact-corrections/) fonctionne de la même façon, signes inversés : comme elle rend de l’argent à l’organisme assureur, elle se comptabilise en **avoir** plutôt qu’en facture.
 
@@ -5513,7 +5551,7 @@ Une fois créé, le document est accessible depuis le lot, et le lot depuis le d
 
 Comptabiliser deux fois est refusé
 
-Un lot portant déjà un document comptable vivant ne peut pas être comptabilisé une seconde fois : Resthome nomme le document existant et vous demande de l’annuler d’abord. Si rien n’a été accepté sur l’envoi, il n’y a rien à comptabiliser et l’action le dit, plutôt que de créer un document vide.
+Un lot portant déjà un document comptable vivant ne peut pas être comptabilisé une seconde fois : WideCare nomme le document existant et vous demande de l’annuler d’abord. Si rien n’a été accepté sur l’envoi, il n’y a rien à comptabiliser et l’action le dit, plutôt que de créer un document vide.
 
 ## 5. Le cockpit eFact : « ai-je été payé ? » d’un coup d’œil
 
@@ -5542,7 +5580,7 @@ Pour écrire à l’OA, le bouton **Contact OA** (présent sur chaque lot) prép
 
 ## 7. Intérêts de retard (intérêts moratoires)
 
-Un envoi payé trop tard peut donner droit à des **intérêts de retard**. Resthome applique la règle régionale :
+Un envoi payé trop tard peut donner droit à des **intérêts de retard**. WideCare applique la règle régionale :
 
 - tout lot **envoyé** est éligible : l’ancienne condition d’un envoi au plus tard le 20 du mois suivant est tombée avec cette échéance, qui a été supprimée ;
 - l’OA doit payer **pour la fin du 2e mois suivant l’introduction** : c’est l’**OA Payment Deadline** (échéance de paiement) ;
@@ -5557,7 +5595,7 @@ Le calcul reste à **0 tant que le taux légal n’est pas saisi**. Indiquez le 
 ## Points clés à retenir
 
 - L’**accusé (931000)** ne paie rien ; seul le **décompte (920900)** dit ce qui est réellement payé.
-- Resthome **rapproche le décompte automatiquement** : lignes ventilées, statut du lot mis à jour, reliquat créé pour les rejets.
+- WideCare **rapproche le décompte automatiquement** : lignes ventilées, statut du lot mis à jour, reliquat créé pour les rejets.
 - En **Compte C**, un décompte avec référence de paiement réelle marque le lot **Payé** automatiquement (la date de paiement peut rester vide).
 - **Pointer** un décompte (**Mark Reconciled**), c’est confirmer l’argent reçu ; le Cockpit regroupe le **À pointer** et les **OA à relancer**.
 - Les **intérêts de retard** ne se calculent qu’après avoir renseigné le **taux légal** dans les réglages eHealth.
@@ -5577,18 +5615,18 @@ Source : https://www.lplg.eu/resthome/documentation/belgique/ehealth/eagreement/
 
 # Accords (eAgreement)
 
-Quand un habitant entre, s’absente, revient ou quitte l’établissement, la **mutuelle (organisme assureur)** doit en être informée par voie électronique. Resthome s’en charge : au bon moment, il **prépare automatiquement** la notification eHealth qui correspond à votre action. Vous n’avez, la plupart du temps, **rien à saisir en plus** — juste à vérifier et, si besoin, à envoyer.
+Quand un habitant entre, s’absente, revient ou quitte l’établissement, la **mutuelle (organisme assureur)** doit en être informée par voie électronique. WideCare s’en charge : au bon moment, il **prépare automatiquement** la notification eHealth qui correspond à votre action. Vous n’avez, la plupart du temps, **rien à saisir en plus** — juste à vérifier et, si besoin, à envoyer.
 
 Deux notions proches
 
 - **eAgreement** : l’accord de prise en charge des soins (lié à la catégorie **Katz** et au forfait).
-- **eAgreement Light** : les notifications plus simples liées aux **mouvements** de l’habitant — admission, absence, départ, retour. Ce sont elles que Resthome génère tout seul au fil de vos actions.
+- **eAgreement Light** : les notifications plus simples liées aux **mouvements** de l’habitant — admission, absence, départ, retour. Ce sont elles que WideCare génère tout seul au fil de vos actions.
 
-## Quand Resthome crée-t-il un accord ?
+## Quand WideCare crée-t-il un accord ?
 
-Vous faites l’action métier habituelle ; Resthome en déduit la notification.
+Vous faites l’action métier habituelle ; WideCare en déduit la notification.
 
-| Votre action dans Resthome | Notification préparée | Document |
+| Votre action dans WideCare | Notification préparée | Document |
 | --- | --- | --- |
 | **Démarrer un séjour** (admission) | Accord d’admission | Annexe 7 |
 | **Enregistrer une absence** / hospitalisation | Notification de sortie | Annexe 11 |
@@ -5598,7 +5636,7 @@ Vous faites l’action métier habituelle ; Resthome en déduit la notification.
 
 Le principe, en une phrase
 
-Vous gérez le **habitant** (entrée, absence, retour, sortie) ; Resthome gère l’**eHealth** derrière. Les manipulations de facturation et d’accords que vous voyez apparaître sont le reflet automatique de ce que vous venez de faire.
+Vous gérez le **habitant** (entrée, absence, retour, sortie) ; WideCare gère l’**eHealth** derrière. Les manipulations de facturation et d’accords que vous voyez apparaître sont le reflet automatique de ce que vous venez de faire.
 
 ## Ce qu’il faut avant d’envoyer
 
@@ -5608,7 +5646,7 @@ Vous gérez le **habitant** (entrée, absence, retour, sortie) ; Resthome gère 
 - Sa **mutuelle** est renseignée.
 - Le **certificat eHealth** de l’établissement est actif.
 
-Sans NISS, l’accord ne peut pas être transmis. Vous pouvez tout de même enregistrer le mouvement (admission, absence…) : Resthome le note et vous invite à compléter le NISS dès que possible.
+Sans NISS, l’accord ne peut pas être transmis. Vous pouvez tout de même enregistrer le mouvement (admission, absence…) : WideCare le note et vous invite à compléter le NISS dès que possible.
 
 ## Vérifier les annexes (aperçu PDF)
 
@@ -5625,7 +5663,7 @@ Avant ou après l’envoi
 
 Chaque accord passe par des **statuts** clairs :
 
-1. **Brouillon** — préparé par Resthome, pas encore envoyé.
+1. **Brouillon** — préparé par WideCare, pas encore envoyé.
 2. **Envoyé (plateforme)** — reçu par la plateforme, sans preuve encore qu’il a atteint la mutuelle.
 3. **En attente de l’OA** — l’accusé de réception légal de la mutuelle est revenu ; sa décision arrive par courrier.
 4. **Accepté** ou **Refusé** — la décision que vous enregistrez d’après le courrier de la mutuelle (ou un accord tacite après 15 jours).
@@ -5640,7 +5678,7 @@ Depuis la fiche de l’habitant ou la période de facturation, vous voyez la lis
 
 ### Les réponses qui arrivent par courrier ou par e-mail
 
-Toutes les mutuelles ne répondent pas par voie électronique. Certaines envoient un **courrier scanné**. Resthome les rassemble dans la **boîte de réception eAgreement** et lit ce qu’il peut du message entrant :
+Toutes les mutuelles ne répondent pas par voie électronique. Certaines envoient un **courrier scanné**. WideCare les rassemble dans la **boîte de réception eAgreement** et lit ce qu’il peut du message entrant :
 
 - le **NISS**, lorsqu’il figure dans l’objet ou le nom du fichier ;
 - la **référence** de la mutuelle, lorsque le format est reconnaissable ;
@@ -5650,13 +5688,13 @@ Le **PDF** reste attaché à l’entrée. Ce que l’extraction trouve est un po
 
 ### En cas de rejet
 
-Si la mutuelle rejette une demande, Resthome affiche le **motif de rejet en clair, en français et en néerlandais**, directement sur l’accord. Vous savez ainsi immédiatement quoi corriger (souvent : NISS, mutuelle, ou dates) avant de renvoyer.
+Si la mutuelle rejette une demande, WideCare affiche le **motif de rejet en clair, en français et en néerlandais**, directement sur l’accord. Vous savez ainsi immédiatement quoi corriger (souvent : NISS, mutuelle, ou dates) avant de renvoyer.
 
 ## Cas particuliers utiles
 
 - **Absence de courte durée** : une absence de plus de **72 h** (ou toute **hospitalisation**) déclenche l’**Annexe 11** de sortie ; le **retour** génère l’**Annexe 7** de réadmission. Voir [Absences et hospitalisations](../../../facturation/absences/).
-- **Facturation déjà clôturée** : si la facture du mois concerné est **déjà comptabilisée** pour cet habitant, Resthome **ne recrée pas** d’accord en double pour ce mois — il protège la cohérence. Repassez la facture en brouillon (ou faites une note de crédit) si vous devez vraiment modifier ce mois, puis actualisez.
-- **Réadmission après un long congé** : selon la durée, la réadmission peut nécessiter une **nouvelle évaluation Katz** — Resthome vous le signale.
+- **Facturation déjà clôturée** : si la facture du mois concerné est **déjà comptabilisée** pour cet habitant, WideCare **ne recrée pas** d’accord en double pour ce mois — il protège la cohérence. Repassez la facture en brouillon (ou faites une note de crédit) si vous devez vraiment modifier ce mois, puis actualisez.
+- **Réadmission après un long congé** : selon la durée, la réadmission peut nécessiter une **nouvelle évaluation Katz** — WideCare vous le signale.
 - **Centre de soins de jour** : un usager du centre de jour a ses propres demandes, **csj-in** avec l’Annexe 14 au début du séjour et **csj-out** à la fin de la prise en charge. Voir [L’accord du centre de jour](../../centre-de-jour/accord/).
 
 ## Pour aller plus loin
@@ -5673,7 +5711,7 @@ Source : https://www.lplg.eu/resthome/documentation/belgique/ehealth/eagreement-
 
 # Accord refusé (eAgreement) — causes et solutions
 
-Quand un habitant **entre**, **s’absente**, **revient** ou **quitte** l’établissement, Resthome prévient automatiquement sa **mutuelle (organisme assureur, OA)** par voie électronique, avec le bon document officiel (Annexe 7, 10 ou 11). Ce service — **[eAgreement](../eagreement/) Light** — est **agréé** (opérationnel). La mutuelle peut ensuite **accepter** l’accord, le laisser devenir **tacite**, ou le **refuser**.
+Quand un habitant **entre**, **s’absente**, **revient** ou **quitte** l’établissement, WideCare prévient automatiquement sa **mutuelle (organisme assureur, OA)** par voie électronique, avec le bon document officiel (Annexe 7, 10 ou 11). Ce service — **[eAgreement](../eagreement/) Light** — est **agréé** (opérationnel). La mutuelle peut ensuite **accepter** l’accord, le laisser devenir **tacite**, ou le **refuser**.
 
 Cette page explique **pourquoi un accord est refusé** et **comment le corriger puis le renvoyer**.
 
@@ -5692,23 +5730,23 @@ Un accusé électronique « bien reçu » signifie **reçu**, **pas accepté**. 
 
 ## Causes de refus fréquentes → action
 
-| Cause | Ce que vous voyez | Action dans Resthome |
+| Cause | Ce que vous voyez | Action dans WideCare |
 | --- | --- | --- |
 | **NISS non reconnu** | Rejet « bénéficiaire inconnu » ; l’accord repasse en *Rejeté* | Vérifier le NISS (carte d’identité / eID), corriger, renvoyer. |
 | **NISS mal formé / incomplet** | Rejet « identifiant invalide » (format) | Ressaisir les 11 chiffres du NISS, renvoyer. |
 | **Numéro de mutuelle inconnu** | Rejet « numéro de mutuelle inconnu » | Vérifier la mutuelle et le n° d’affiliation ; privilégier l’identification par NISS ; renvoyer. |
-| **Assurabilité (MDA) non confirmée** | Resthome **bloque l’envoi** : assurabilité pas en ordre | Relancer / mettre à jour la [vérification MDA](../mda/), corriger mutuelle/NISS, réessayer. *(Les notifications de sortie/décès ne sont pas bloquées par ce contrôle.)* |
+| **Assurabilité (MDA) non confirmée** | WideCare **bloque l’envoi** : assurabilité pas en ordre | Relancer / mettre à jour la [vérification MDA](../mda/), corriger mutuelle/NISS, réessayer. *(Les notifications de sortie/décès ne sont pas bloquées par ce contrôle.)* |
 | **Données habitant incomplètes** | Rejet « donnée obligatoire manquante » (nom, identifiant) | Compléter la fiche habitant, renvoyer. |
 | **Document (annexe) absent ou mauvais format** | Envoi bloqué si l’annexe est vide ; sinon rejet « format de pièce invalide » | Régénérer / joindre l’Annexe **en PDF**, vérifier qu’elle s’ouvre, renvoyer. |
 | **Pièce jointe trop volumineuse** | L’envoi n’aboutit pas | Alléger le PDF (réduire le poids du scan), renvoyer. |
 | **Évaluation Katz manquante ou non validée** | Envoi bloqué : « évaluation Katz requise » | Créer, **confirmer** puis **valider** le Katz ; vérifier l’Annexe 10 ; renvoyer. |
-| **Doublon d’accord** | Rejet « enregistrement déjà existant » | Ne pas renvoyer un accord déjà transmis ; corriger la donnée fautive (Resthome régénère alors une nouvelle notification). |
+| **Doublon d’accord** | Rejet « enregistrement déjà existant » | Ne pas renvoyer un accord déjà transmis ; corriger la donnée fautive (WideCare régénère alors une nouvelle notification). |
 | **Mauvaise annexe / type inadapté** | Rejet « type d’accord non autorisé / incohérent » | Refaire la **bonne action métier** (admission ≠ absence ≠ sortie) : **une situation = une annexe**. |
 | **Établissement ou soignant non reconnu** | Rejet « organisation / prestataire inconnu » | Faire vérifier par l’administrateur la configuration eHealth (n° INAMI établissement / soignant), renvoyer. |
 
 ## Corriger, puis renvoyer
 
-1. **Lisez le motif.** En cas de rejet, Resthome affiche le **motif en clair, en français et en néerlandais**, directement sur l’accord.
+1. **Lisez le motif.** En cas de rejet, WideCare affiche le **motif en clair, en français et en néerlandais**, directement sur l’accord.
 2. **Vérifiez ce qui a réellement été envoyé.** Quand le rejet porte sur un **document**, le bouton **Aperçu des annexes envoyées** ouvre le PDF fusionné **tel qu’il a été transmis** à la mutuelle — vous voyez immédiatement si une page d’annexe manque, est blanche ou illisible. Voir [Les accords (eAgreement)](../eagreement/).
 3. **Corrigez la cause à la source** (fiche habitant, mutuelle/NISS, MDA, évaluation Katz, document PDF, ou la bonne action métier).
 4. **Renvoyez l’accord** une fois la donnée corrigée.
@@ -5724,7 +5762,7 @@ Les statuts visibles : **Brouillon**, **Envoyé (plateforme)**, **En attente de 
 - **Le bon document, une fois** — une situation = une annexe (7 admission/retour, 10 Katz, 11 sortie/décès). Ne renvoyez pas un accord déjà transmis.
 - **Katz validé** avant l’envoi pour les admissions et aggravations.
 - **Certificat eHealth actif** et configuration établissement (n° INAMI) à jour.
-- **Laissez Resthome faire** — gérez l’habitant (entrée, absence, retour, sortie) ; Resthome en déduit la notification. Le plus souvent : vérifier et envoyer.
+- **Laissez WideCare faire** — gérez l’habitant (entrée, absence, retour, sortie) ; WideCare en déduit la notification. Le plus souvent : vérifier et envoyer.
 
 ## Pour aller plus loin
 
@@ -5740,7 +5778,7 @@ Source : https://www.lplg.eu/resthome/documentation/belgique/ehealth/eagreement-
 
 # Praticien responsable et signatures des annexes
 
-Une demande [eAgreement](../eagreement/) doit désigner un **praticien responsable** et porter une **signature** sur ses annexes. Cette page explique les deux mécanismes que Resthome met en place :
+Une demande [eAgreement](../eagreement/) doit désigner un **praticien responsable** et porter une **signature** sur ses annexes. Cette page explique les deux mécanismes que WideCare met en place :
 
 - **Qui est identifié** comme praticien responsable sur la demande électronique — et comment son numéro **INAMI** est déterminé automatiquement ;
 - **Comment signer** les **Annexes 7, 10 et 11** directement dans l’application, à partir d’une **image de signature** enregistrée, au lieu d’imprimer, signer et scanner.
@@ -5749,16 +5787,16 @@ Les boutons de signature apparaissent sur la **demande eAgreement** (accessible 
 
 Deux identités à ne pas confondre
 
-- **Le praticien responsable** : l’identité **électronique** enregistrée dans la demande envoyée à l’organisme assureur — le clinicien qui a réalisé l’évaluation **Katz**. Resthome la **résout automatiquement** (voir ci-dessous).
+- **Le praticien responsable** : l’identité **électronique** enregistrée dans la demande envoyée à l’organisme assureur — le clinicien qui a réalisé l’évaluation **Katz**. WideCare la **résout automatiquement** (voir ci-dessous).
 - **Le signataire** : la personne dont l’**image de signature** est placée sur le **PDF** de l’annexe. Par défaut, c’est **vous** (l’utilisateur connecté).
 
 Dans la plupart des cas, ces deux rôles coïncident, mais ils sont distincts : un secrétariat peut envoyer une demande dont le praticien responsable est l’infirmier qui a coté le Katz.
 
 ## Le praticien responsable
 
-Le praticien responsable est le **clinicien qui a réalisé l’évaluation [Katz](../../katz/)** — l’évaluateur — et **non** la personne qui envoie la demande. Resthome détermine son numéro **INAMI** en parcourant une chaîne de repli, de sorte qu’une identité cohérente soit toujours transmise à l’organisme assureur.
+Le praticien responsable est le **clinicien qui a réalisé l’évaluation [Katz](../../katz/)** — l’évaluateur — et **non** la personne qui envoie la demande. WideCare détermine son numéro **INAMI** en parcourant une chaîne de repli, de sorte qu’une identité cohérente soit toujours transmise à l’organisme assureur.
 
-| Ordre | Resthome utilise… | Quand |
+| Ordre | WideCare utilise… | Quand |
 | --- | --- | --- |
 | 1 | **L’évaluateur Katz**, s’il a un numéro INAMI personnel | Cas normal |
 | 2 | L”**Infirmier(ère) en chef** configuré(e) (son numéro INAMI) | L’évaluateur (infirmier, aide-soignant) n’a pas de numéro INAMI |
@@ -5767,11 +5805,11 @@ Le praticien responsable est le **clinicien qui a réalisé l’évaluation [Kat
 
 Catégorie Katz D : un médecin est obligatoire
 
-Pour une **catégorie D** Katz (ou **Cd**), la spécification exige un **médecin** comme praticien responsable. Resthome utilise alors l’évaluateur s’il est médecin (avec un numéro INAMI), sinon le **médecin coordinateur** configuré. Si aucun médecin n’est disponible, l’envoi est **bloqué** avec un message explicite : configurez un médecin coordinateur dans les réglages eHealth.
+Pour une **catégorie D** Katz (ou **Cd**), la spécification exige un **médecin** comme praticien responsable. WideCare utilise alors l’évaluateur s’il est médecin (avec un numéro INAMI), sinon le **médecin coordinateur** configuré. Si aucun médecin n’est disponible, l’envoi est **bloqué** avec un message explicite : configurez un médecin coordinateur dans les réglages eHealth.
 
 Le numéro générique est un dernier recours
 
-Si personne dans la chaîne n’a de numéro INAMI utilisable, Resthome se rabat sur le **NIHII infirmier générique** défini dans les réglages eHealth — le numéro que l’entité fédérée attribue à un infirmier qui n’a pas le sien. C’est un filet de sécurité : pour une identité correcte, saisissez le numéro INAMI personnel du soignant, ou au moins un infirmier en chef et un médecin coordinateur de repli.
+Si personne dans la chaîne n’a de numéro INAMI utilisable, WideCare se rabat sur le **NIHII infirmier générique** défini dans les réglages eHealth — le numéro que l’entité fédérée attribue à un infirmier qui n’a pas le sien. C’est un filet de sécurité : pour une identité correcte, saisissez le numéro INAMI personnel du soignant, ou au moins un infirmier en chef et un médecin coordinateur de repli.
 
 ## Où sont stockées les identités (fiche d’employé)
 
@@ -5791,7 +5829,7 @@ Une image de signature propre
 
 Pas de scan sous la main ? Dessinez la signature une fois dans la fenêtre de signature Katz et cochez **Enregistrer comme ma signature** : elle est enregistrée comme votre **Signature personnelle**, et **Utiliser ma signature enregistrée** la réutilise la fois suivante.
 
-Préférez une **image PNG à fond transparent**, recadrée sur le tracé. Resthome la place dans la case « Signature » de l’annexe en **préservant ses proportions** — une image bien recadrée donne un résultat propre.
+Préférez une **image PNG à fond transparent**, recadrée sur le tracé. WideCare la place dans la case « Signature » de l’annexe en **préservant ses proportions** — une image bien recadrée donne un résultat propre.
 
 ## Configurer les identités de repli
 
@@ -5811,11 +5849,11 @@ Le **forfait de dépendance** est du **même montant** pour toutes les catégori
 
 ## Le médecin étranger
 
-Un médecin **transfrontalier** qui n’a **pas** de numéro INAMI belge ne peut pas fournir de numéro personnel. Sur sa fiche d’employé (rôle *médecin*), cochez **Médecin étranger (sans NIHII belge)**. Resthome inscrit alors sur la demande le **numéro générique prévu par la spécification eHealth** pour les praticiens étrangers, que les organismes assureurs acceptent. Vous n’avez aucun numéro à saisir vous-même.
+Un médecin **transfrontalier** qui n’a **pas** de numéro INAMI belge ne peut pas fournir de numéro personnel. Sur sa fiche d’employé (rôle *médecin*), cochez **Médecin étranger (sans NIHII belge)**. WideCare inscrit alors sur la demande le **numéro générique prévu par la spécification eHealth** pour les praticiens étrangers, que les organismes assureurs acceptent. Vous n’avez aucun numéro à saisir vous-même.
 
 ## Signer une annexe dans l’application
 
-Plutôt qu”**imprimer, signer à la main puis scanner**, Resthome place votre **Signature personnelle** sur le PDF de l’annexe et l’enregistre — une voie conforme aux **règles de signature applicables**. Les annexes concernées :
+Plutôt qu”**imprimer, signer à la main puis scanner**, WideCare place votre **Signature personnelle** sur le PDF de l’annexe et l’enregistre — une voie conforme aux **règles de signature applicables**. Les annexes concernées :
 
 - **Annexe 10** — l’échelle de Katz (accord de soins) ;
 - **Annexe 7** — l’accord d’admission (admission / réadmission) ;
@@ -5828,15 +5866,15 @@ La marche à suivre, sur une demande en **Brouillon** :
 1. **Générez l’annexe** si ce n’est pas déjà fait (l’Annexe 10 est produite à partir du Katz ; l’Annexe 7 ou 11 à partir de la demande).
 2. Cliquez sur **Signer l’Annexe 10** (ou **Signer l’Annexe 7** / **Signer l’Annexe 11**). Ces boutons n’apparaissent qu’en Brouillon, lorsque l’annexe existe et n’est **pas encore signée**.
 3. Dans la fenêtre **Signer l’annexe**, vérifiez le **signataire** (vous par défaut), son **rôle**, la **date de signature** et l’**aperçu** de la signature.
-4. Cliquez sur **Signer et remplacer le PDF**. Resthome régénère un PDF propre, y place la signature et coche l’annexe comme **signée** (un ✓ vert « Signé » apparaît à côté de l’annexe).
+4. Cliquez sur **Signer et remplacer le PDF**. WideCare régénère un PDF propre, y place la signature et coche l’annexe comme **signée** (un ✓ vert « Signé » apparaît à côté de l’annexe).
 
 Envoyer sans signer : possible, mais sous votre responsabilité
 
-Resthome **ne bloque pas** l’envoi quand une annexe n’est pas signée — il demande une confirmation. Le bouton **Envoyer la demande** affiche alors : *« L’annexe n’est pas signée. En eAgreement Light, l’OA décide à partir du PDF de l’annexe — envoyer quand même ? »*. Annulez pour signer d’abord, ou confirmez pour envoyer en l’état.
+WideCare **ne bloque pas** l’envoi quand une annexe n’est pas signée — il demande une confirmation. Le bouton **Envoyer la demande** affiche alors : *« L’annexe n’est pas signée. En eAgreement Light, l’OA décide à partir du PDF de l’annexe — envoyer quand même ? »*. Annulez pour signer d’abord, ou confirmez pour envoyer en l’état.
 
-Si vous confirmez, la demande part avec une **annexe non signée** et Resthome consigne un avertissement dans le fil de la demande : *« Envoyée avec une annexe NON SIGNÉE »*. Comme l’organisme assureur décide **à partir de ce PDF**, une annexe non signée vous expose à un refus — il faudrait alors signer et renvoyer la demande **entière**.
+Si vous confirmez, la demande part avec une **annexe non signée** et WideCare consigne un avertissement dans le fil de la demande : *« Envoyée avec une annexe NON SIGNÉE »*. Comme l’organisme assureur décide **à partir de ce PDF**, une annexe non signée vous expose à un refus — il faudrait alors signer et renvoyer la demande **entière**.
 
-Resigner est sans risque : Resthome repart d’un PDF vierge à chaque fois, sans empiler les signatures.
+Resigner est sans risque : WideCare repart d’un PDF vierge à chaque fois, sans empiler les signatures.
 
 Remplacer un PDF efface sa signature
 
@@ -5844,7 +5882,7 @@ Régénérer une annexe, ou téléverser un nouveau PDF par-dessus l’existant,
 
 Katz déjà signé lors de l’évaluation
 
-Si l’évaluation Katz a été **signée dans l’application** au moment de la cotation, le PDF de l’Annexe 10 porte déjà la signature : Resthome le marque **signé automatiquement** et l’étape ci-dessus est inutile.
+Si l’évaluation Katz a été **signée dans l’application** au moment de la cotation, le PDF de l’Annexe 10 porte déjà la signature : WideCare le marque **signé automatiquement** et l’étape ci-dessus est inutile.
 
 ### Qui peut signer (règles de signature)
 
@@ -5874,7 +5912,7 @@ Si le signataire n’a **aucune Signature personnelle** sur sa fiche d’employ�
 
 ## Points clés à retenir
 
-- Le **praticien responsable** est l’**évaluateur Katz**, pas l’expéditeur ; Resthome résout son **numéro INAMI** en cascade : évaluateur → infirmier en chef → médecin coordinateur → numéro générique.
+- Le **praticien responsable** est l’**évaluateur Katz**, pas l’expéditeur ; WideCare résout son **numéro INAMI** en cascade : évaluateur → infirmier en chef → médecin coordinateur → numéro générique.
 - Une **catégorie D** Katz exige un **médecin** ; configurez un **médecin coordinateur** de repli dans les réglages eHealth.
 - Le **numéro INAMI**, le **rôle** et la **Signature personnelle** figurent sur la **fiche d’employé** (onglet *Maison de repos*) — aucune licence utilisateur nécessaire pour les soignants qui signent occasionnellement.
 - **Signer l’Annexe 10 / 7 / 11** place votre signature personnelle sur le PDF : plus d’impression / signature / scan. Une annexe non signée peut encore être envoyée, après une confirmation, mais vous expose à un refus.
@@ -6013,7 +6051,7 @@ Source : https://www.lplg.eu/resthome/documentation/belgique/cpas/
 
 # La prise en charge CPAS
 
-Quand un habitant n’a pas les moyens de couvrir sa **part personnelle** (hébergement et suppléments), le **CPAS** (Centre Public d’Action Sociale) de sa commune peut la **prendre en charge**, en totalité ou en partie. Resthome vous permet d’**enregistrer cette décision** sur la fiche de l’habitant et de **router la facture** vers le bon débiteur.
+Quand un habitant n’a pas les moyens de couvrir sa **part personnelle** (hébergement et suppléments), le **CPAS** (Centre Public d’Action Sociale) de sa commune peut la **prendre en charge**, en totalité ou en partie. WideCare vous permet d’**enregistrer cette décision** sur la fiche de l’habitant et de **router la facture** vers le bon débiteur.
 
 Vous trouvez ces réglages dans l’onglet **Facturation** du contact de l’habitant (le lien **Contact** sous son nom), et la liste des CPAS dans **Facturation → Configuration → CPAS**.
 
@@ -6026,7 +6064,7 @@ Le CPAS intervient sur la **part habitant** (chambre + suppléments), pas sur le
 Deux notions sont à distinguer :
 
 - **Enregistrer la décision** — qui est le CPAS, à partir de quand, sous quelle référence, pour quelle couverture et quel montant. Ces informations documentent le dossier et sont **tracées dans le journal d’audit** (catégorie financière).
-- **Router la facture** — décider **à qui** Resthome adresse la part habitant : à l’habitant, à sa famille, ou au CPAS. Ce routage se pilote via le **Contact facturation** ou les **débiteurs alimentaires** (voir plus bas).
+- **Router la facture** — décider **à qui** WideCare adresse la part habitant : à l’habitant, à sa famille, ou au CPAS. Ce routage se pilote via le **Contact facturation** ou les **débiteurs alimentaires** (voir plus bas).
 
 ![Fiche habitant : le payeur par défaut et le détail de la prise en charge CPAS](../../_images/cpas-onglet.png)
 
@@ -6076,7 +6114,7 @@ Les champs CPAS sont un enregistrement, pas un moteur de répartition
 
 Les champs **Prise en charge CPAS** et **Décision CPAS** documentent la décision et basculent le **Payeur par défaut** sur CPAS, mais **ils ne redirigent pas et ne scindent pas la facture**. Le destinataire de la facture reste déterminé par le **Contact facturation** de l’habitant (ou le contact de facturation du séjour), et la répartition partielle par la **facturation partagée**. Sans l’un de ces deux leviers, la part habitant continue d’être adressée **à l’habitant**.
 
-## Ce que Resthome fait — et ne fait pas
+## Ce que WideCare fait — et ne fait pas
 
 | Action | Automatique ? |
 | --- | --- |
@@ -6096,7 +6134,7 @@ Les champs **Prise en charge CPAS** et **Décision CPAS** documentent la décisi
 
 ## Vérifier une carte médicale MediPrima
 
-Une personne sans mutuelle — quelqu’un en centre d’accueil, sans papiers — peut voir ses soins payés par un CPAS dans le cadre de **MediPrima**, le registre fédéral des décisions d’aide médicale. Avec le module MediPrima installé, Resthome interroge ce registre via eHealth.
+Une personne sans mutuelle — quelqu’un en centre d’accueil, sans papiers — peut voir ses soins payés par un CPAS dans le cadre de **MediPrima**, le registre fédéral des décisions d’aide médicale. Avec le module MediPrima installé, WideCare interroge ce registre via eHealth.
 
 1. Sur la fiche de l’habitant, ouvrez le bouton intelligent **MediPrima**, ou **eHealth → MediPrima → Consultations**.
 2. Créez une consultation pour l’habitant, avec la **date de référence**.
@@ -6108,7 +6146,7 @@ La réponse revient sous la forme :
 - **Pas de carte médicale** — aucune décision à cette date ;
 - **Erreur** — le message de la plateforme s’affiche sur la consultation.
 
-Quand la réponse est **Pris en charge par un CPAS** et que le **Régime d’assurance** de l’habitant est vide ou standard, Resthome le règle sur **MediPrima (carte médicale CPAS)** : comme les autres régimes particuliers, l’habitant est alors exclu des lots MDA. **Consulter à nouveau** actualise la réponse. MediPrima est un service de praticien : le menu est réservé aux praticiens et gestionnaires eHealth.
+Quand la réponse est **Pris en charge par un CPAS** et que le **Régime d’assurance** de l’habitant est vide ou standard, WideCare le règle sur **MediPrima (carte médicale CPAS)** : comme les autres régimes particuliers, l’habitant est alors exclu des lots MDA. **Consulter à nouveau** actualise la réponse. MediPrima est un service de praticien : le menu est réservé aux praticiens et gestionnaires eHealth.
 
 MediPrima ne remplace pas les champs CPAS
 
@@ -6170,7 +6208,7 @@ Source : https://www.lplg.eu/resthome/documentation/belgique/centre-de-jour/
 
 # Centre de soins de jour (CSJ)
 
-Un **centre de soins de jour** (CSJ) accueille des personnes qui vivent chez elles : elles viennent pour la journée — deux ou trois jours par semaine, ou tous les jours — et rentrent le soir. Resthome le gère comme un secteur à part entière, à côté de la maison de repos ou sans elle.
+Un **centre de soins de jour** (CSJ) accueille des personnes qui vivent chez elles : elles viennent pour la journée — deux ou trois jours par semaine, ou tous les jours — et rentrent le soir. WideCare le gère comme un secteur à part entière, à côté de la maison de repos ou sans elle.
 
 ## L’application Centre de soins de jour
 
@@ -6309,7 +6347,7 @@ Source : https://www.lplg.eu/resthome/documentation/belgique/sam-base-medicament
 
 # La base de médicaments SAM
 
-**SAM** (Source Authentique des Médicaments) est la base officielle des médicaments en Belgique. Dans Resthome, elle est le point de départ du [catalogue des médicaments](../../medicaments/catalogue/) de la maison : plutôt que de saisir un médicament à la main, vous choisissez son **conditionnement** dans SAM et la fiche se remplit seule.
+**SAM** (Source Authentique des Médicaments) est la base officielle des médicaments en Belgique. Dans WideCare, elle est le point de départ du [catalogue des médicaments](../../medicaments/catalogue/) de la maison : plutôt que de saisir un médicament à la main, vous choisissez son **conditionnement** dans SAM et la fiche se remplit seule.
 
 SAM s’installe seul avec le pack belge et l’application Soins. Il fonctionne sur une **copie locale** des conditionnements SAM, consultable par nom et par CNK, disponible sans aucune connexion. Quand la maison est connectée au **service SAM central**, les données SAM de chaque médicament (prix, remboursement, disponibilité) sont en outre actualisées chaque nuit.
 
@@ -6420,7 +6458,7 @@ Les réglages ne sont visibles que pour les **responsables** de la maison et se 
 
 ## Agréments
 
-*Santé → Configuration → Général → Agréments.* La maison est agréée par secteur : **MR** (maison de repos), **MRS** (maison de repos et de soins) et, pour un centre de soins de jour, **CSJ**. Resthome enregistre ces secteurs sur l”**agrément** du numéro INAMI auquel ils ont été accordés. Une société détient un agrément par type d’établissement : une maison de repos et un centre de soins de jour en font deux ; un second site du même type est une succursale ou une autre société.
+*Santé → Configuration → Général → Agréments.* La maison est agréée par secteur : **MR** (maison de repos), **MRS** (maison de repos et de soins) et, pour un centre de soins de jour, **CSJ**. WideCare enregistre ces secteurs sur l”**agrément** du numéro INAMI auquel ils ont été accordés. Une société détient un agrément par type d’établissement : une maison de repos et un centre de soins de jour en font deux ; un second site du même type est une succursale ou une autre société.
 
 Dans les réglages, l’onglet **Maison de repos** affiche un résumé sous **Agréments de l’établissement**, avec un lien **Gérer les agréments**, et la case **Établissement conventionné** : cochez-la si l’établissement adhère à la convention avec les mutuelles, ce qui détermine le tarif appliqué.
 
@@ -6448,7 +6486,7 @@ Une société qui exploite une maison de repos et un centre de soins de jour dé
 
 ### Journal INAMI
 
-Resthome émet **deux flux** de factures : la **part mutuelle** (le forfait de dépendance, envoyé à la mutuelle via [eFact](../ehealth/efact/)) et la **part habitant** (hébergement et suppléments). Chaque flux va dans son propre journal de ventes.
+WideCare émet **deux flux** de factures : la **part mutuelle** (le forfait de dépendance, envoyé à la mutuelle via [eFact](../ehealth/efact/)) et la **part habitant** (hébergement et suppléments). Chaque flux va dans son propre journal de ventes.
 
 | Réglage | Ce qu’il fait | Valeur recommandée |
 | --- | --- | --- |
@@ -6470,7 +6508,7 @@ Le **forfait de dépendance** ordinaire est du **même montant** pour toutes les
 
 ### Gestion des absences
 
-Les **règles AViQ des jours de présence** sont **intégrées** à Resthome et ne se configurent pas ici : la règle de midi pour les congés, et des seuils propres pour une hospitalisation. Seul le **responsable** d’une activité de suivi est configurable.
+Les **règles AViQ des jours de présence** sont **intégrées** à WideCare et ne se configurent pas ici : la règle de midi pour les congés, et des seuils propres pour une hospitalisation. Seul le **responsable** d’une activité de suivi est configurable.
 
 | Réglage | Ce qu’il fait | Valeur recommandée |
 | --- | --- | --- |
@@ -6488,7 +6526,7 @@ Une réadmission après plus de 30 jours d’hospitalisation exige une **nouvell
 - **Type de séjour** : le secteur que le tarif valorise (MR, MRS, CSJ). Un tarif laissé vide s’applique quel que soit le secteur ; le tarif propre au secteur l’emporte lorsque les deux existent.
 - **Générer une année**, au-dessus de la liste, crée les tarifs de toute une année à partir des montants que vous saisissez une fois ; **Nouveau** ajoute une seule ligne.
 
-Quand un eFact est constitué pour une année qui n’a pas encore de tarif, Resthome s’arrête et propose d’ouvrir ou de créer les tarifs INAMI de cette année.
+Quand un eFact est constitué pour une année qui n’a pas encore de tarif, WideCare s’arrête et propose d’ouvrir ou de créer les tarifs INAMI de cette année.
 
 *Facturation → Configuration → Codes de facturation.* Les **pseudo-codes** avec lesquels la mutuelle est facturée. Chaque code porte son **Pseudo-code**, sa **Catégorie** et, pour le forfait journalier :
 
@@ -6506,7 +6544,7 @@ Un supplément déclaré à la mutuelle porte son **Pseudo-code** sur l’articl
 ## Autres réglages belges
 
 - Onglet **Maison de repos** : avec le pack belge, les réglages **Maison de repos** sont ceux d’une **MR/MRS** ; les valeurs par défaut des [réglages généraux](../../configuration/reglages-generaux/) (30 jours, 1 lit) conviennent à la plupart d’entre elles.
-- Onglet **Médical** : le réglage **Masquer les cartes statistiques vides** masque aussi la carte **Renouvellements Katz** lorsqu’elle est à 0 ; le bloc **Médicaments SAM** relie Resthome à la base de données belge des médicaments (voir [La base de médicaments SAM](../sam-base-medicaments/)).
+- Onglet **Médical** : le réglage **Masquer les cartes statistiques vides** masque aussi la carte **Renouvellements Katz** lorsqu’elle est à 0 ; le bloc **Médicaments SAM** relie WideCare à la base de données belge des médicaments (voir [La base de médicaments SAM](../sam-base-medicaments/)).
 - **Documents** : les étiquettes prêtes à l’emploi comprennent **Évaluation Katz**, **Accord MR/MRS (eAgreement)**, **Allocation OA** et **CPAS**, à côté des étiquettes communes (voir [Réglages des documents](../../configuration/reglages-documents/)).
 - **Agréments** : le numéro INAMI et le certificat de chaque agrément sont ceux utilisés dans les échanges eHealth (MDA, eFact, eAgreement) — voir [Réglages eHealth et eFact](../reglages-ehealth/).
 
@@ -6526,7 +6564,7 @@ Source : https://www.lplg.eu/resthome/documentation/belgique/reglages-ehealth/
 
 # Réglages eHealth et eFact
 
-Ces réglages contiennent les **identifiants et choix** que Resthome utilise pour dialoguer avec l’écosystème eHealth belge (eHealth, MyCareNet, WalCareNet) : [assurabilité (MDA)](../ehealth/mda/), [accords (eAgreement)](../ehealth/eagreement/) et [facturation électronique (eFact)](../ehealth/efact/).
+Ces réglages contiennent les **identifiants et choix** que WideCare utilise pour dialoguer avec l’écosystème eHealth belge (eHealth, MyCareNet, WalCareNet) : [assurabilité (MDA)](../ehealth/mda/), [accords (eAgreement)](../ehealth/eagreement/) et [facturation électronique (eFact)](../ehealth/efact/).
 
 Ils sont répartis en trois endroits :
 
@@ -6612,7 +6650,7 @@ Voir [Praticien responsable et signatures des annexes](../ehealth/eagreement-sig
 
 ## Licence de package CIN
 
-Les identifiants qui permettent à Resthome d’envoyer les requêtes eFact et MDA.
+Les identifiants qui permettent à WideCare d’envoyer les requêtes eFact et MDA.
 
 | Réglage | À quoi ça sert |
 | --- | --- |
@@ -6695,7 +6733,7 @@ En plus de ce qu’il fait dans tous les pays, le démarrage du séjour crée l�
 
 ### Comment calculer le Katz d’un habitant ?
 
-Depuis le dossier de l’habitant, ouvrez **Katz**, cliquez sur **Nouveau** et cotez les critères — les six activités de la vie quotidienne (se laver, s’habiller, transfert, aller à la toilette, continence, manger) et l’orientation dans le temps et l’espace — de **1** (autonome) à **4** (totalement dépendant). Ensuite **Confirmer**, **Signer** et **Valider** (la validation est réservée à l’infirmier en chef ou au médecin). Resthome calcule la catégorie conformément à la réglementation ; le forfait suit à la génération suivante de la période. → [L’évaluation Katz](../katz/)
+Depuis le dossier de l’habitant, ouvrez **Katz**, cliquez sur **Nouveau** et cotez les critères — les six activités de la vie quotidienne (se laver, s’habiller, transfert, aller à la toilette, continence, manger) et l’orientation dans le temps et l’espace — de **1** (autonome) à **4** (totalement dépendant). Ensuite **Confirmer**, **Signer** et **Valider** (la validation est réservée à l’infirmier en chef ou au médecin). WideCare calcule la catégorie conformément à la réglementation ; le forfait suit à la génération suivante de la période. → [L’évaluation Katz](../katz/)
 
 ### Quelles sont les catégories Katz ?
 
@@ -6707,17 +6745,17 @@ Tant qu’aucune Katz **validée** n’existe, l’habitant n’a **aucune caté
 
 ### Comment enregistrer une aggravation Katz ?
 
-Si l’état de l’habitant se dégrade, saisissez une **nouvelle évaluation** avec un **motif d’aggravation**. Resthome prépare alors la mise à jour de l’accord de soins (**Annexe 10**) : le motif est repris automatiquement, et la signature du clinicien complète le document. → [L’évaluation Katz](../katz/)
+Si l’état de l’habitant se dégrade, saisissez une **nouvelle évaluation** avec un **motif d’aggravation**. WideCare prépare alors la mise à jour de l’accord de soins (**Annexe 10**) : le motif est repris automatiquement, et la signature du clinicien complète le document. → [L’évaluation Katz](../katz/)
 
 ### Comment transférer un habitant MR ↔ MRS ?
 
-Sur le **séjour**, utilisez **Transfert interne**, indiquez le nouveau type et la date/heure, puis cliquez sur **Valider**. Resthome scinde la facturation à la bonne date, au tarif correspondant ; ce n’est pas une nouvelle admission et l’intervention INAMI (le forfait) reste continue. → [Transfert interne (MR ↔ MRS)](../ehealth/eagreement-transfert/)
+Sur le **séjour**, utilisez **Transfert interne**, indiquez le nouveau type et la date/heure, puis cliquez sur **Valider**. WideCare scinde la facturation à la bonne date, au tarif correspondant ; ce n’est pas une nouvelle admission et l’intervention INAMI (le forfait) reste continue. → [Transfert interne (MR ↔ MRS)](../ehealth/eagreement-transfert/)
 
 ### Comment lire la carte eID d’un habitant ?
 
-Branchez le lecteur sur un ordinateur Windows, installez une fois le lecteur eID depuis le lien proposé par Resthome, puis cliquez sur **Lire la carte eID** sur la demande d’admission, la fiche de l’habitant ou un contact. L’identité, le NISS et les données de la carte se remplissent seuls. → [Lire la carte eID](../lecture-eid/)
+Branchez le lecteur sur un ordinateur Windows, installez une fois le lecteur eID depuis le lien proposé par WideCare, puis cliquez sur **Lire la carte eID** sur la demande d’admission, la fiche de l’habitant ou un contact. L’identité, le NISS et les données de la carte se remplissent seuls. → [Lire la carte eID](../lecture-eid/)
 
-### Resthome peut-il m’indiquer qu’un candidat de la liste d’attente est décédé ?
+### WideCare peut-il m’indiquer qu’un candidat de la liste d’attente est décédé ?
 
 Oui. Filtrez les demandes d’admission sur **Liste d’attente** et lancez **Vérifier l’assurabilité (MDA)** : un décès signalé par la mutuelle clôture la demande avec le motif **Décédé avant l’admission**. Le réglage **Contrôle de la liste d’attente** le lance chaque mois. → [Admettre un habitant en Belgique](../admission/)
 
@@ -6743,11 +6781,11 @@ Faites un lot MDA **en début de mois** (**eHealth → Assurabilité → Lots MD
 
 ### Que signifie « assuré mais pas en ordre » ?
 
-Si les codes bénéficiaire reviennent à zéro (assuré mais cotisations impayées / dossier à problème), Resthome affiche une **alerte** : l’habitant est affilié mais **pas en ordre**. C’est à clarifier avec lui ou sa mutuelle avant de facturer à l’OA. → [Assurabilité (MDA)](../ehealth/mda/)
+Si les codes bénéficiaire reviennent à zéro (assuré mais cotisations impayées / dossier à problème), WideCare affiche une **alerte** : l’habitant est affilié mais **pas en ordre**. C’est à clarifier avec lui ou sa mutuelle avant de facturer à l’OA. → [Assurabilité (MDA)](../ehealth/mda/)
 
-### Que met à jour Resthome après un MDA réussi ?
+### Que met à jour WideCare après un MDA réussi ?
 
-La fiche habitant est corrigée automatiquement : la **mutuelle (OA)** si elle diffère du profil, le **statut BIM**, le **numéro d’affiliation**, l’**identité** si des champs manquaient, et la **date de décès** si l’OA la signale. Pour les habitants sous régime particulier (INIG, CEE, Fedasil, étranger, privé…), Resthome **n’écrase pas** la mutuelle du profil. → [Assurabilité (MDA)](../ehealth/mda/)
+La fiche habitant est corrigée automatiquement : la **mutuelle (OA)** si elle diffère du profil, le **statut BIM**, le **numéro d’affiliation**, l’**identité** si des champs manquaient, et la **date de décès** si l’OA la signale. Pour les habitants sous régime particulier (INIG, CEE, Fedasil, étranger, privé…), WideCare **n’écrase pas** la mutuelle du profil. → [Assurabilité (MDA)](../ehealth/mda/)
 
 ### Que faire en cas d’erreur ou d’absence de réponse MDA ?
 
@@ -6755,7 +6793,7 @@ Une requête que la plateforme a clôturée sans aucune réponse affiche **No Fa
 
 ### Qu’est-ce que la réintégration (perte puis retour d’assurabilité) ?
 
-Resthome compare avec le contrôle précédent : si un habitant passe de **non assuré à assuré**, une notification apparaît et l’action **Réintégration** bascule vers l’OA les lignes qui avaient été facturées à l’habitant. À l’inverse (**assuré → non assuré**), son forfait est exclu de la facturation OA de la période et facturé à l’habitant jusqu’au rétablissement. → [Assurabilité (MDA)](../ehealth/mda/)
+WideCare compare avec le contrôle précédent : si un habitant passe de **non assuré à assuré**, une notification apparaît et l’action **Réintégration** bascule vers l’OA les lignes qui avaient été facturées à l’habitant. À l’inverse (**assuré → non assuré**), son forfait est exclu de la facturation OA de la période et facturé à l’habitant jusqu’au rétablissement. → [Assurabilité (MDA)](../ehealth/mda/)
 
 ---
 
@@ -6763,11 +6801,11 @@ Resthome compare avec le contrôle précédent : si un habitant passe de **non a
 
 ### Qu’est-ce que l’eAgreement ?
 
-Quand un habitant entre, s’absente, revient ou quitte l’établissement, la mutuelle doit en être informée par voie électronique. Resthome **prépare automatiquement** la notification eHealth correspondant à votre action ; la plupart du temps, vous n’avez rien à saisir en plus — juste à vérifier et, si besoin, à envoyer. → [Accords (eAgreement)](../ehealth/eagreement/)
+Quand un habitant entre, s’absente, revient ou quitte l’établissement, la mutuelle doit en être informée par voie électronique. WideCare **prépare automatiquement** la notification eHealth correspondant à votre action ; la plupart du temps, vous n’avez rien à saisir en plus — juste à vérifier et, si besoin, à envoyer. → [Accords (eAgreement)](../ehealth/eagreement/)
 
 ### Quelle est la différence entre eAgreement et eAgreement Light ?
 
-L’**eAgreement** est l’accord de prise en charge des soins (lié à la catégorie Katz et au forfait). L’**eAgreement Light** regroupe les notifications plus simples liées aux **mouvements** de l’habitant (admission, absence, départ, retour) — ce sont elles que Resthome génère tout seul au fil de vos actions. → [Accords (eAgreement)](../ehealth/eagreement/)
+L’**eAgreement** est l’accord de prise en charge des soins (lié à la catégorie Katz et au forfait). L’**eAgreement Light** regroupe les notifications plus simples liées aux **mouvements** de l’habitant (admission, absence, départ, retour) — ce sont elles que WideCare génère tout seul au fil de vos actions. → [Accords (eAgreement)](../ehealth/eagreement/)
 
 ### Quel document est préparé selon l’action ?
 
@@ -6775,11 +6813,11 @@ Démarrer un séjour → **Accord d’admission (Annexe 7)** ; enregistrer une a
 
 ### Quels sont les statuts d’un accord, et que faire en cas de rejet ?
 
-Un accord passe par **Brouillon** (préparé, pas envoyé), **Envoyé (plateforme)**, **En attente de l’OA**, puis **Accepté** ou **Refusé** — la décision enregistrée d’après le courrier de la mutuelle. **Rejeté** est un rejet électronique, avec un motif, à corriger et renvoyer. En cas de rejet, Resthome affiche le **motif en clair, en français et en néerlandais**, directement sur l’accord — vous savez ainsi quoi corriger (souvent NISS, mutuelle ou dates) avant de renvoyer. → [Accord refusé (eAgreement) — causes et solutions](../ehealth/eagreement-refus/)
+Un accord passe par **Brouillon** (préparé, pas envoyé), **Envoyé (plateforme)**, **En attente de l’OA**, puis **Accepté** ou **Refusé** — la décision enregistrée d’après le courrier de la mutuelle. **Rejeté** est un rejet électronique, avec un motif, à corriger et renvoyer. En cas de rejet, WideCare affiche le **motif en clair, en français et en néerlandais**, directement sur l’accord — vous savez ainsi quoi corriger (souvent NISS, mutuelle ou dates) avant de renvoyer. → [Accord refusé (eAgreement) — causes et solutions](../ehealth/eagreement-refus/)
 
 ### Peut-on enregistrer un mouvement sans NISS ?
 
-Sans NISS, l’accord ne peut pas être transmis. Vous pouvez tout de même enregistrer le mouvement (admission, absence…) : Resthome le note et vous invite à compléter le NISS dès que possible. → [Accords (eAgreement)](../ehealth/eagreement/)
+Sans NISS, l’accord ne peut pas être transmis. Vous pouvez tout de même enregistrer le mouvement (admission, absence…) : WideCare le note et vous invite à compléter le NISS dès que possible. → [Accords (eAgreement)](../ehealth/eagreement/)
 
 ---
 
@@ -6787,11 +6825,11 @@ Sans NISS, l’accord ne peut pas être transmis. Vous pouvez tout de même enre
 
 ### Qu’est-ce que l’eFact ?
 
-L’**eFact** est l’envoi **électronique** de la **part mutuelle** (le forfait INAMI) aux **organismes assureurs (OA)** via le réseau eHealth / MyCareNet. Resthome constitue les fichiers, les transmet et **suit les réponses** — accusés de réception, décomptes, acceptations et rejets. → [Facturation électronique (eFact)](../ehealth/efact/)
+L’**eFact** est l’envoi **électronique** de la **part mutuelle** (le forfait INAMI) aux **organismes assureurs (OA)** via le réseau eHealth / MyCareNet. WideCare constitue les fichiers, les transmet et **suit les réponses** — accusés de réception, décomptes, acceptations et rejets. → [Facturation électronique (eFact)](../ehealth/efact/)
 
 ### Comment générer une période eFact ?
 
-Ouvrez la période du mois à l’état **Brouillon** et cliquez sur **Générer** ; dans l’assistant, laissez **Habitants** vide pour tous les habitants actifs (ou pré-remplissez-le avec **Charger MDA Succès** / **Charger MDA en attente**), puis cliquez sur **Générer**. La période passe à l’état **Généré** : Resthome a calculé, pour chaque habitant, le forfait Katz, la part INAMI et la part habitant. → [Facturation électronique (eFact)](../ehealth/efact/)
+Ouvrez la période du mois à l’état **Brouillon** et cliquez sur **Générer** ; dans l’assistant, laissez **Habitants** vide pour tous les habitants actifs (ou pré-remplissez-le avec **Charger MDA Succès** / **Charger MDA en attente**), puis cliquez sur **Générer**. La période passe à l’état **Généré** : WideCare a calculé, pour chaque habitant, le forfait Katz, la part INAMI et la part habitant. → [Facturation électronique (eFact)](../ehealth/efact/)
 
 ### Comment contrôler une période avant de facturer en Belgique ?
 
@@ -6799,15 +6837,15 @@ Parmi les compteurs en haut de la période, **MDA** et **Katz à faire** sont be
 
 ### Comment générer les lots eFact ?
 
-Une fois la période à l’état **Généré** et le MDA demandé, cliquez sur **Générer eFact** — avant **Créer les factures** ; les lots sont constitués à partir des lignes mutuelle de la période, et non des factures. Resthome constitue les **lots** — un fichier électronique par organisme assureur — puis affiche la liste **Envois eFact** (OA, référence, mois, statut, montants facturé/accepté/refusé, et code + motif en cas de refus). → [Facturation électronique (eFact)](../ehealth/efact/)
+Une fois la période à l’état **Généré** et le MDA demandé, cliquez sur **Générer eFact** — avant **Créer les factures** ; les lots sont constitués à partir des lignes mutuelle de la période, et non des factures. WideCare constitue les **lots** — un fichier électronique par organisme assureur — puis affiche la liste **Envois eFact** (OA, référence, mois, statut, montants facturé/accepté/refusé, et code + motif en cas de refus). → [Facturation électronique (eFact)](../ehealth/efact/)
 
 ### Qu’est-ce qu’un lot par union ?
 
-Les envois sont regroupés **par union** (les grandes familles d’OA), pas par petite mutuelle individuelle : **100** (Alliance nationale), **300** (Solidaris), **500** (Union nationale), **600** (CAAMI), **900** (HR Rail)… Resthome s’occupe du regroupement. → [Facturation électronique (eFact)](../ehealth/efact/)
+Les envois sont regroupés **par union** (les grandes familles d’OA), pas par petite mutuelle individuelle : **100** (Alliance nationale), **300** (Solidaris), **500** (Union nationale), **600** (CAAMI), **900** (HR Rail)… WideCare s’occupe du regroupement. → [Facturation électronique (eFact)](../ehealth/efact/)
 
 ### Comment envoyer une période eFact et suivre les réponses ?
 
-Ouvrez **eHealth → eFact → Cockpit** (ou les lots) et cliquez sur **Tout envoyer** (ou lot par lot) ; les envois partent vers les mutuelles via eHealth. Cliquez ensuite sur **Récupérer les réponses** : chaque lot passe de **Envoyé (plateforme)** à **Accusé reçu (OA)**, puis **Décompté** — ou **Rejet partiel** / **Rejeté** —, Resthome rapprochant automatiquement les montants acceptés/refusés. → [Facturer un mois en Belgique](../facturation/) · [Facturation électronique (eFact)](../ehealth/efact/)
+Ouvrez **eHealth → eFact → Cockpit** (ou les lots) et cliquez sur **Tout envoyer** (ou lot par lot) ; les envois partent vers les mutuelles via eHealth. Cliquez ensuite sur **Récupérer les réponses** : chaque lot passe de **Envoyé (plateforme)** à **Accusé reçu (OA)**, puis **Décompté** — ou **Rejet partiel** / **Rejeté** —, WideCare rapprochant automatiquement les montants acceptés/refusés. → [Facturer un mois en Belgique](../facturation/) · [Facturation électronique (eFact)](../ehealth/efact/)
 
 ### Je reçois un accusé de réception (931000) après l’envoi, dois-je attendre ?
 
@@ -6823,7 +6861,7 @@ Si un lot (ou une partie) est **rejeté**, le **code** et le **motif de rejet** 
 
 ### Un envoi n’a pas reçu de réponse certaine : dois-je le renvoyer ?
 
-**Non, pas à l’aveugle.** Quand la réponse à un envoi est perdue (délai dépassé, interruption), Resthome ne le renvoie jamais tout seul : il le liste dans **eHealth → Configuration → Envois à vérifier**, où vous indiquez si MyCareNet l’a reçu. → [eHealth](../ehealth/)
+**Non, pas à l’aveugle.** Quand la réponse à un envoi est perdue (délai dépassé, interruption), WideCare ne le renvoie jamais tout seul : il le liste dans **eHealth → Configuration → Envois à vérifier**, où vous indiquez si MyCareNet l’a reçu. → [eHealth](../ehealth/)
 
 ---
 
@@ -6831,7 +6869,7 @@ Si un lot (ou une partie) est **rejeté**, le **code** et le **motif de rejet** 
 
 ### Comment facturer un mois de A à Z en Belgique ?
 
-Ouvrez la période (**Facturation → Facturation → Périodes de facturation**), cliquez sur **Générer**, puis sur **Vérifier MDA**, sur **Générer eFact**, sur **Créer les factures** et sur **Confirmer** pour la part habitant. Envoyez les lots eFact aux OA, récupérez les réponses et, enfin, cliquez sur **Clôturer la période**. Le bouton mis en évidence de la période indique toujours l’étape suivante. Resthome mène en parallèle, sur la même période, la part habitant (factures classiques) et la part mutuelle (eFact). → [Facturer un mois en Belgique](../facturation/)
+Ouvrez la période (**Facturation → Facturation → Périodes de facturation**), cliquez sur **Générer**, puis sur **Vérifier MDA**, sur **Générer eFact**, sur **Créer les factures** et sur **Confirmer** pour la part habitant. Envoyez les lots eFact aux OA, récupérez les réponses et, enfin, cliquez sur **Clôturer la période**. Le bouton mis en évidence de la période indique toujours l’étape suivante. WideCare mène en parallèle, sur la même période, la part habitant (factures classiques) et la part mutuelle (eFact). → [Facturer un mois en Belgique](../facturation/)
 
 ### Où voir les lits occupés par rapport à mes agréments ?
 
@@ -6851,7 +6889,7 @@ Le **forfait INAMI** est calculé sur les **jours de présence** ; une absence *
 
 ### Quelles absences doivent être signalées à la mutuelle ?
 
-Une absence de **plus de 72 h**, ou **toute hospitalisation**, prépare une **Annexe 11** (notification de sortie), et le **retour** prépare une **Annexe 7** (réadmission). Resthome crée ces notifications au moment où vous enregistrez l’absence et le retour ; vous n’avez qu’à les vérifier et les envoyer. → [Absences et hospitalisations](../../facturation/absences/) · [Accords (eAgreement)](../ehealth/eagreement/)
+Une absence de **plus de 72 h**, ou **toute hospitalisation**, prépare une **Annexe 11** (notification de sortie), et le **retour** prépare une **Annexe 7** (réadmission). WideCare crée ces notifications au moment où vous enregistrez l’absence et le retour ; vous n’avez qu’à les vérifier et les envoyer. → [Absences et hospitalisations](../../facturation/absences/) · [Accords (eAgreement)](../ehealth/eagreement/)
 
 ---
 
@@ -6918,7 +6956,7 @@ Le code national d’un conditionnement de médicament en Belgique, lu dans SAM.
 
 ## CoBRHA
 
-Le registre fédéral des **professionnels et institutions de santé**, tenu par eHealth. Resthome y recherche un numéro INAMI et garde la réponse 30 jours, par exemple pour nommer la pharmacie de référence ou le médecin généraliste d’un habitant. Voir : [Annuaire Santé et CoBRHA](../ehealth/annuaire-sante/)
+Le registre fédéral des **professionnels et institutions de santé**, tenu par eHealth. WideCare y recherche un numéro INAMI et garde la réponse 30 jours, par exemple pour nommer la pharmacie de référence ou le médecin généraliste d’un habitant. Voir : [Annuaire Santé et CoBRHA](../ehealth/annuaire-sante/)
 
 ## CPAS
 
@@ -6938,7 +6976,7 @@ Une **place dans une salle de jour**, partagée par les usagers du centre de jou
 
 ## eAgreement Light
 
-Les **notifications simples** liées aux **mouvements** de l’habitant (admission, absence, départ, retour), que Resthome génère automatiquement au fil de vos actions. Voir : [Accords (eAgreement)](../ehealth/eagreement/)
+Les **notifications simples** liées aux **mouvements** de l’habitant (admission, absence, départ, retour), que WideCare génère automatiquement au fil de vos actions. Voir : [Accords (eAgreement)](../ehealth/eagreement/)
 
 ## Consentement eHealth
 
@@ -6958,7 +6996,7 @@ Transmission **électronique** de la **part mutuelle** (le forfait INAMI) aux mu
 
 ## Lot eFact
 
-Un **fichier électronique** qui regroupe les forfaits d’une transmission eFact. Resthome constitue **un lot par union de mutualités**. Voir : [Facturation électronique (eFact)](../ehealth/efact/)
+Un **fichier électronique** qui regroupe les forfaits d’une transmission eFact. WideCare constitue **un lot par union de mutualités**. Voir : [Facturation électronique (eFact)](../ehealth/efact/)
 
 ## Cockpit eFact
 
@@ -6966,7 +7004,7 @@ Vue de **suivi** de la facturation électronique : l’état de tous les lots et
 
 ## eHealth
 
-Plateforme belge d”**échanges électroniques sécurisés** dans les soins de santé. Resthome l’utilise pour le MDA, l’eAgreement et l’eFact (via MyCareNet / WalCareNet). Voir : [eHealth](../ehealth/)
+Plateforme belge d”**échanges électroniques sécurisés** dans les soins de santé. WideCare l’utilise pour le MDA, l’eAgreement et l’eFact (via MyCareNet / WalCareNet). Voir : [eHealth](../ehealth/)
 
 ## Annuaire Santé
 
@@ -7014,7 +7052,7 @@ Le registre fédéral des **décisions d’aide médicale** qu’un CPAS prend p
 
 ## MyCareNet / WalCareNet
 
-Les **guichets électroniques** des mutuelles (via eHealth) que Resthome interroge pour le MDA, l’eAgreement et l’eFact. WalCareNet est le pendant wallon.
+Les **guichets électroniques** des mutuelles (via eHealth) que WideCare interroge pour le MDA, l’eAgreement et l’eFact. WalCareNet est le pendant wallon.
 
 ## NISS
 
@@ -7050,7 +7088,7 @@ La **base de données belge des médicaments de source authentique**, avec le co
 
 ## Envois à vérifier
 
-La liste des envois vers MyCareNet dont la réponse a été perdue (délai dépassé, interruption). Resthome ne les renvoie jamais tout seul : vous indiquez si MyCareNet les a reçus, dans **eHealth → Configuration → Envois à vérifier**. Voir : [eHealth](../ehealth/)
+La liste des envois vers MyCareNet dont la réponse a été perdue (délai dépassé, interruption). WideCare ne les renvoie jamais tout seul : vous indiquez si MyCareNet les a reçus, dans **eHealth → Configuration → Envois à vérifier**. Voir : [eHealth](../ehealth/)
 
 ## Tiers payant
 
@@ -7202,7 +7240,7 @@ Source : https://www.lplg.eu/resthome/documentation/configuration/
 
 # Configuration
 
-Avant l’usage quotidien, quelques réglages de base structurent Resthome. Ils se font une fois, puis n’évoluent qu’à la marge.
+Avant l’usage quotidien, quelques réglages de base structurent WideCare. Ils se font une fois, puis n’évoluent qu’à la marge.
 
 ## Les réglages de l’application (Settings)
 
@@ -7225,7 +7263,7 @@ Le pack belge ajoute ses propres réglages : les numéros INAMI et les agrément
 
 ## Tarifs et forfaits
 
-- **Tarifs de facturation** : les montants datés que Resthome facture — le prix de l’hébergement (part habitant) et, là où le pays en prévoit un, le forfait de soins payé par l’assureur santé.
+- **Tarifs de facturation** : les montants datés que WideCare facture — le prix de l’hébergement (part habitant) et, là où le pays en prévoit un, le forfait de soins payé par l’assureur santé.
 - **Types de suppléments** : le catalogue des prestations facturables (voir [Les suppléments](../facturation/supplements/)).
 - **Règles de déduction d’absence** : le réglage fin de la facturation lorsqu’un habitant est absent (voir [Absences et hospitalisations](../facturation/absences/)).
 - **Indexation des prix** : la hausse annuelle des prix des suppléments, à partir d’une date donnée (voir [Indexation des prix](../facturation/indexation-des-prix/)).
@@ -7243,7 +7281,7 @@ Le menu des tarifs s’appelle **Tarifs INAMI** et porte le forfait de dépendan
 
 ## Multi-société
 
-Resthome gère **plusieurs sociétés** dans une même base : chaque société a ses habitants, ses chambres et sa facturation, cloisonnés. Utile pour un groupe qui exploite plusieurs établissements.
+WideCare gère **plusieurs sociétés** dans une même base : chaque société a ses habitants, ses chambres et sa facturation, cloisonnés. Utile pour un groupe qui exploite plusieurs établissements.
 
 Le journal d’activité
 
@@ -7283,7 +7321,7 @@ Ces réglages ne sont visibles que par les utilisateurs qui détiennent le rôle
 | Réglage | Ce qu’il fait | Valeur recommandée |
 | --- | --- | --- |
 | **Informations médicales** | Rend les informations médicales obligatoires pour tous les habitants. | Propre à l’établissement — activez-le si l’infirmier chef exige un dossier médical complet dès l’admission. |
-| **Notifications aux familles** | Envoie des notifications automatiques à la famille de l’habitant. | Propre à l’établissement — activez-le si vous communiquez avec les familles depuis Resthome. |
+| **Notifications aux familles** | Envoie des notifications automatiques à la famille de l’habitant. | Propre à l’établissement — activez-le si vous communiquez avec les familles depuis WideCare. |
 
 ## Visites guidées
 
@@ -7291,7 +7329,7 @@ Ces réglages ne sont visibles que par les utilisateurs qui détiennent le rôle
 
 | Réglage | Ce qu’il fait | Valeur recommandée |
 | --- | --- | --- |
-| **Visites guidées** | Désactivée, aucune visite guidée n’apparaît pour personne. | **Activée** pendant que l’équipe apprend Resthome. |
+| **Visites guidées** | Désactivée, aucune visite guidée n’apparaît pour personne. | **Activée** pendant que l’équipe apprend WideCare. |
 | **Rejouer pour tout le monde** (bouton) | Chaque utilisateur suit à nouveau les visites guidées depuis la première, à sa prochaine connexion. | Après une formation, ou à l’arrivée de nouveaux collaborateurs. |
 
 ## Données de démonstration
@@ -7321,7 +7359,7 @@ Les données de démonstration créent des **habitants et factures fictifs**. N�
 
 Des tâches à chaque emménagement
 
-À chaque **[admission](../../residents/gerer-un-resident/)**, ainsi qu’à chaque **[changement de chambre ou transfert](../../residents/changement-chambre/)**, Resthome ouvre un nouveau séjour et crée de lui-même les tâches de chambre et d’emménagement. Ce sont des rappels de travail : ils évitent les oublis à l’arrivée.
+À chaque **[admission](../../residents/gerer-un-resident/)**, ainsi qu’à chaque **[changement de chambre ou transfert](../../residents/changement-chambre/)**, WideCare ouvre un nouveau séjour et crée de lui-même les tâches de chambre et d’emménagement. Ce sont des rappels de travail : ils évitent les oublis à l’arrivée.
 
 ## Onglet Médical
 
@@ -7450,7 +7488,7 @@ Ces réglages s’appliquent à tout l’établissement : vous les définissez u
 
 ## Nutrition
 
-Cette section indique quelle **base de données de référence** Resthome interroge pour récupérer les valeurs nutritionnelles des ingrédients (calories, protéines, etc.).
+Cette section indique quelle **base de données de référence** WideCare interroge pour récupérer les valeurs nutritionnelles des ingrédients (calories, protéines, etc.).
 
 | Réglage | Ce qu’il fait | Valeur recommandée |
 | --- | --- | --- |
@@ -7505,7 +7543,7 @@ Ces coefficients, tirés des recommandations gériatriques **ESPEN**, servent à
 
 Un objectif calculé par habitant
 
-Ici, vous fixez les **coefficients** ; Resthome en déduit l’**objectif individuel** de chaque habitant à partir de son poids et de son sexe, puis compare l’**apport** réel à ces objectifs. Le suivi de la couverture et le dépistage de la dénutrition sont décrits dans [Suivi nutritionnel et dénutrition](../../repas/suivi-nutritionnel/).
+Ici, vous fixez les **coefficients** ; WideCare en déduit l’**objectif individuel** de chaque habitant à partir de son poids et de son sexe, puis compare l’**apport** réel à ces objectifs. Le suivi de la couverture et le dépistage de la dénutrition sont décrits dans [Suivi nutritionnel et dénutrition](../../repas/suivi-nutritionnel/).
 
 ## Pour aller plus loin
 
@@ -7522,7 +7560,7 @@ Source : https://www.lplg.eu/resthome/documentation/configuration/reglages-docum
 
 # Réglages Documents
 
-L’onglet **Paramètres → Documents** regroupe les réglages de l’application **Documents** d’Odoo. Dans la section **Centralisation des fichiers**, Resthome ajoute un bloc **Maison de repos** qui **classe automatiquement** les pièces jointes de vos habitants dans leur **dossier personnel**. Vous trouvez ces réglages dans **Paramètres → Documents → Centralisation des fichiers**.
+L’onglet **Paramètres → Documents** regroupe les réglages de l’application **Documents** d’Odoo. Dans la section **Centralisation des fichiers**, WideCare ajoute un bloc **Maison de repos** qui **classe automatiquement** les pièces jointes de vos habitants dans leur **dossier personnel**. Vous trouvez ces réglages dans **Paramètres → Documents → Centralisation des fichiers**.
 
 Prérequis
 
@@ -7535,16 +7573,16 @@ Le bloc **Maison de repos** contrôle le classement automatique des documents. U
 | Réglage | Ce qu’il fait | Valeur recommandée |
 | --- | --- | --- |
 | **Maison de repos** (centralisation) | Active le classement automatique : chaque pièce jointe ajoutée à la fiche d’un habitant est classée dans son dossier personnel dans l’application Documents. | **Activé** (coché) |
-| **Dossier racine** | Le dossier de l’application Documents sous lequel Resthome classe tous les dossiers habitant. | Le dossier **« Habitants »** (créé automatiquement) |
+| **Dossier racine** | Le dossier de l’application Documents sous lequel WideCare classe tous les dossiers habitant. | Le dossier **« Habitants »** (créé automatiquement) |
 | **Étiquettes par défaut** | Les étiquettes appliquées automatiquement aux documents centralisés, pour les retrouver et les filtrer. | **Facultatif** — laissez vide, ou choisissez 1 ou 2 étiquettes |
 
 Le dossier racine est créé pour vous
 
-À la création de la société, Resthome crée automatiquement le dossier **« Habitants »** (avec un sous-dossier **« Formulaires vierges »** pour vos modèles). Le champ **Dossier racine** pointe déjà vers lui. Il n’y a normalement aucune raison de le changer ; ne le modifiez que si vous stockez délibérément les habitants ailleurs.
+À la création de la société, WideCare crée automatiquement le dossier **« Habitants »** (avec un sous-dossier **« Formulaires vierges »** pour vos modèles). Le champ **Dossier racine** pointe déjà vers lui. Il n’y a normalement aucune raison de le changer ; ne le modifiez que si vous stockez délibérément les habitants ailleurs.
 
 ## Un dossier par habitant
 
-Vous ne créez pas les dossiers à la main. Lorsqu’un habitant est admis (ou lorsque sa fiche habitant est activée), Resthome crée son **dossier personnel** sous le dossier racine, avec trois sous-dossiers prêts à l’emploi :
+Vous ne créez pas les dossiers à la main. Lorsqu’un habitant est admis (ou lorsque sa fiche habitant est activée), WideCare crée son **dossier personnel** sous le dossier racine, avec trois sous-dossiers prêts à l’emploi :
 
 - **Documents médicaux**
 - **Documents administratifs**
@@ -7558,7 +7596,7 @@ Dans une configuration multi-sociétés, **chaque société a son propre dossier
 
 ## Étiquettes par défaut (facultatif)
 
-Les **étiquettes** servent à catégoriser et retrouver les documents. Resthome fournit déjà une liste d’étiquettes prêtes à l’emploi — par exemple **Fin d’hébergement**, **Convention de séjour**, **Formulaire médical**, **Facturation**, **Consentement RGPD**. Dans **Étiquettes par défaut**, vous choisissez celles qui seront appliquées **automatiquement** à chaque document centralisé.
+Les **étiquettes** servent à catégoriser et retrouver les documents. WideCare fournit déjà une liste d’étiquettes prêtes à l’emploi — par exemple **Fin d’hébergement**, **Convention de séjour**, **Formulaire médical**, **Facturation**, **Consentement RGPD**. Dans **Étiquettes par défaut**, vous choisissez celles qui seront appliquées **automatiquement** à chaque document centralisé.
 
 En Belgique
 
@@ -7595,13 +7633,13 @@ Cette page regroupe des réponses courtes aux questions les plus courantes, vala
 
 ## Prise en main
 
-### Comment me connecter à Resthome ?
+### Comment me connecter à WideCare ?
 
 Ouvrez votre navigateur à l’adresse fournie par votre établissement, saisissez votre adresse e-mail et votre mot de passe, puis cliquez sur **Se connecter**. En cas d’oubli, utilisez le lien « Réinitialiser le mot de passe » ou demandez à votre administrateur. → [Premiers pas](../premiers-pas/)
 
-### Quelles sont les applications de Resthome ?
+### Quelles sont les applications de WideCare ?
 
-Resthome est organisé en applications accessibles depuis le menu principal (l’icône en damier) : **Maison de repos** (habitants, séjours, chambres, portail famille, et le menu **Configuration** avec les chambres, les tarifs et les données de base), **Admissions**, **Facturation**, **Soins** (prescriptions, plans de soins, signes vitaux), **Repas** (menus, régimes) et d’autres selon ce que votre maison utilise. Selon votre rôle, vous ne voyez que les applications qui vous concernent. → [Premiers pas](../premiers-pas/)
+WideCare est organisé en applications accessibles depuis le menu principal (l’icône en damier) : **Maison de repos** (habitants, séjours, chambres, portail famille, et le menu **Configuration** avec les chambres, les tarifs et les données de base), **Admissions**, **Facturation**, **Soins** (prescriptions, plans de soins, signes vitaux), **Repas** (menus, régimes) et d’autres selon ce que votre maison utilise. Selon votre rôle, vous ne voyez que les applications qui vous concernent. → [Premiers pas](../premiers-pas/)
 
 ### À quoi sert le tableau de bord ?
 
@@ -7609,7 +7647,7 @@ Le tableau de bord donne une vue d’ensemble : les tâches en attente (évaluat
 
 ### Où configure-t-on les chambres et les tarifs ?
 
-Dans le menu **Configuration** de l’application **Maison de repos** : créez vos chambres avec leur type (le secteur auquel elles appartiennent, simple, double…) et leurs équipements, définissez les **tarifs d’hébergement** et, là où le pays en paie un, les tarifs du forfait de soins, puis les types de suppléments et les assureurs santé. Resthome gère aussi **plusieurs sociétés** dans une même base, chacune avec ses habitants, ses chambres et sa facturation cloisonnés. → [Configuration](../configuration/)
+Dans le menu **Configuration** de l’application **Maison de repos** : créez vos chambres avec leur type (le secteur auquel elles appartiennent, simple, double…) et leurs équipements, définissez les **tarifs d’hébergement** et, là où le pays en paie un, les tarifs du forfait de soins, puis les types de suppléments et les assureurs santé. WideCare gère aussi **plusieurs sociétés** dans une même base, chacune avec ses habitants, ses chambres et sa facturation cloisonnés. → [Configuration](../configuration/)
 
 ---
 
@@ -7625,7 +7663,7 @@ Ouvrez une **convention de séjour** (chambre, type de séjour, date de début) 
 
 ### Que déclenche automatiquement le démarrage d’un séjour ?
 
-Au démarrage, Resthome ajoute l’habitant aux périodes de facturation ouvertes, crée (pour un habitant facturé d’avance) la première facture d’hébergement du mois d’admission et ouvre l’enveloppe de suppléments du mois. Si le pays l’exige, il prépare aussi la notification d’admission à l’assureur santé. → [Gérer un habitant](../residents/gerer-un-resident/)
+Au démarrage, WideCare ajoute l’habitant aux périodes de facturation ouvertes, crée (pour un habitant facturé d’avance) la première facture d’hébergement du mois d’admission et ouvre l’enveloppe de suppléments du mois. Si le pays l’exige, il prépare aussi la notification d’admission à l’assureur santé. → [Gérer un habitant](../residents/gerer-un-resident/)
 
 ### Comment évaluer la dépendance d’un habitant ?
 
@@ -7633,9 +7671,9 @@ Chaque pays a sa propre échelle de dépendance. L’évaluation est enregistré
 
 ### Comment changer un habitant de chambre ou de secteur ?
 
-Sur le **séjour**, utilisez l’action **Changer de chambre**, indiquez la nouvelle chambre et la date/heure, puis confirmez. Resthome scinde la facturation à la bonne date, au tarif correspondant ; ce n’est pas une nouvelle admission et le forfait de soins reste continu. → [Changement de chambre et transfert](../residents/changement-chambre/)
+Sur le **séjour**, utilisez l’action **Changer de chambre**, indiquez la nouvelle chambre et la date/heure, puis confirmez. WideCare scinde la facturation à la bonne date, au tarif correspondant ; ce n’est pas une nouvelle admission et le forfait de soins reste continu. → [Changement de chambre et transfert](../residents/changement-chambre/)
 
-### Resthome échange-t-il des données électroniquement avec l’assureur santé ?
+### WideCare échange-t-il des données électroniquement avec l’assureur santé ?
 
 Là où le pays les prévoit, oui : la vérification de l’assurabilité, les notifications des mouvements de l’habitant et la facturation électronique du forfait de soins sont préparées et envoyées depuis le dossier de l’habitant et la période de facturation. Chaque espace pays décrit ses propres échanges.
 
@@ -7645,7 +7683,7 @@ Là où le pays les prévoit, oui : la vérification de l’assurabilité, les n
 
 ### Comment facturer un mois de A à Z ?
 
-Ouvrez la période de facturation, cliquez sur **Générer**, contrôlez-la, cliquez sur **Créer les factures** puis **Comptabilisez** la part habitant. Là où le pays paie un forfait de soins via l’assureur santé, sa part est envoyée depuis la même période : Resthome mène en parallèle la part habitant et la part assureur. → [Facturer un mois, pas à pas](../facturation/facturer-un-mois/)
+Ouvrez la période de facturation, cliquez sur **Générer**, contrôlez-la, cliquez sur **Créer les factures** puis **Comptabilisez** la part habitant. Là où le pays paie un forfait de soins via l’assureur santé, sa part est envoyée depuis la même période : WideCare mène en parallèle la part habitant et la part assureur. → [Facturer un mois, pas à pas](../facturation/facturer-un-mois/)
 
 ### Quels sont les états d’une période de facturation ?
 
@@ -7653,7 +7691,7 @@ Une période passe par quatre états, dans l’ordre : **Brouillon** (créée, r
 
 ### Comment contrôler une période avant de facturer ?
 
-En haut de la période, des compteurs donnent l’état de santé du mois (**Suppléments**, **Absences**, **Non facturé**…) et Resthome signale les anomalies dans le fil de discussion à droite. Traitez chaque point (bouton **Fait** une fois réglé) avant de facturer. → [Facturer un mois, pas à pas](../facturation/facturer-un-mois/)
+En haut de la période, des compteurs donnent l’état de santé du mois (**Suppléments**, **Absences**, **Non facturé**…) et WideCare signale les anomalies dans le fil de discussion à droite. Traitez chaque point (bouton **Fait** une fois réglé) avant de facturer. → [Facturer un mois, pas à pas](../facturation/facturer-un-mois/)
 
 ### Qu’est-ce que la facturation anticipative ?
 
@@ -7669,7 +7707,7 @@ Ouvrez l’**enveloppe de suppléments** de l’habitant (depuis sa fiche ou la 
 
 ### Comment répartir la part habitant entre plusieurs débiteurs ?
 
-Sur la fiche de l’habitant (ou sa période), ouvrez l’onglet de **répartition**, ajoutez les débiteurs et leur **pourcentage** (le total doit faire 100 %), puis **Enregistrez**. À chaque facture mensuelle, Resthome découpe la part habitant selon cette clé ; seule la part habitant est répartie, pas le forfait de soins payé par l’assureur santé. → [Débiteurs alimentaires (facturation partagée)](../facturation-partagee/)
+Sur la fiche de l’habitant (ou sa période), ouvrez l’onglet de **répartition**, ajoutez les débiteurs et leur **pourcentage** (le total doit faire 100 %), puis **Enregistrez**. À chaque facture mensuelle, WideCare découpe la part habitant selon cette clé ; seule la part habitant est répartie, pas le forfait de soins payé par l’assureur santé. → [Débiteurs alimentaires (facturation partagée)](../facturation-partagee/)
 
 ### Que se passe-t-il quand une facture est déjà comptabilisée ?
 
@@ -7681,7 +7719,7 @@ Une fois **comptabilisée**, la facture d’un habitant est **verrouillée** pou
 
 ### Comment enregistrer une absence ou une hospitalisation ?
 
-Ouvrez la période de facturation du mois (ou la fiche de l’habitant) et ajoutez une **absence** en indiquant l’habitant, le **type** (hospitalisation, vacances…), la **date/heure de départ** et la **date/heure de retour** (ou laissez le retour vide tant qu’il n’est pas revenu), puis **Enregistrez**. Ajouter, modifier ou supprimer une absence synchronise automatiquement la facturation de l’habitant concerné. Si le pays l’exige, Resthome prépare aussi la notification à l’assureur santé ; vous n’avez plus qu’à la vérifier et à l’envoyer. → [Absences et hospitalisations](../facturation/absences/)
+Ouvrez la période de facturation du mois (ou la fiche de l’habitant) et ajoutez une **absence** en indiquant l’habitant, le **type** (hospitalisation, vacances…), la **date/heure de départ** et la **date/heure de retour** (ou laissez le retour vide tant qu’il n’est pas revenu), puis **Enregistrez**. Ajouter, modifier ou supprimer une absence synchronise automatiquement la facturation de l’habitant concerné. Si le pays l’exige, WideCare prépare aussi la notification à l’assureur santé ; vous n’avez plus qu’à la vérifier et à l’envoyer. → [Absences et hospitalisations](../facturation/absences/)
 
 ### Quel est l’effet d’une absence sur le forfait de soins ?
 
@@ -7689,7 +7727,7 @@ Là où le pays paie un forfait de soins, celui-ci est calculé sur les **jours 
 
 ### Comment annuler une absence saisie par erreur ?
 
-Supprimez-la ou remettez-la en brouillon : Resthome **fait machine arrière proprement** — le forfait est recalculé comme si l’absence n’avait pas eu lieu, et les notifications préparées sont retirées tant qu’elles n’ont pas été validées du côté de l’assureur. Si le mois est déjà comptabilisé, remettez d’abord la facture en brouillon (ou créez une note de crédit) puis actualisez. → [Absences et hospitalisations](../facturation/absences/)
+Supprimez-la ou remettez-la en brouillon : WideCare **fait machine arrière proprement** — le forfait est recalculé comme si l’absence n’avait pas eu lieu, et les notifications préparées sont retirées tant qu’elles n’ont pas été validées du côté de l’assureur. Si le mois est déjà comptabilisé, remettez d’abord la facture en brouillon (ou créez une note de crédit) puis actualisez. → [Absences et hospitalisations](../facturation/absences/)
 
 ---
 
@@ -7697,15 +7735,15 @@ Supprimez-la ou remettez-la en brouillon : Resthome **fait machine arrière prop
 
 ### Que se passe-t-il au départ ou au décès d’un habitant ?
 
-Il suffit de **clôturer son séjour** : ouvrez le séjour, cliquez sur **Terminer le séjour**, indiquez la **date de sortie** (et l’heure) avec le **motif** (départ, décès, transfert…), puis confirmez. Resthome arrête la facturation à la bonne date, prépare la régularisation de ce qui a été facturé d’avance et, si le pays l’exige, signale la sortie à l’assureur santé. → [Départ et décès](../facturation/depart-deces/)
+Il suffit de **clôturer son séjour** : ouvrez le séjour, cliquez sur **Terminer le séjour**, indiquez la **date de sortie** (et l’heure) avec le **motif** (départ, décès, transfert…), puis confirmez. WideCare arrête la facturation à la bonne date, prépare la régularisation de ce qui a été facturé d’avance et, si le pays l’exige, signale la sortie à l’assureur santé. → [Départ et décès](../facturation/depart-deces/)
 
 ### Pourquoi une note de crédit est-elle créée au départ ?
 
-Comme l’hébergement est facturé **un mois à l’avance**, si l’habitant part en cours de mois déjà facturé, Resthome prépare **automatiquement une note de crédit** pour rembourser la période non occupée (vous êtes notifié de sa création). Le forfait de soins et les suppléments, eux, sont facturés le mois de leur prestation. → [Départ et décès](../facturation/depart-deces/)
+Comme l’hébergement est facturé **un mois à l’avance**, si l’habitant part en cours de mois déjà facturé, WideCare prépare **automatiquement une note de crédit** pour rembourser la période non occupée (vous êtes notifié de sa création). Le forfait de soins et les suppléments, eux, sont facturés le mois de leur prestation. → [Départ et décès](../facturation/depart-deces/)
 
 ### Peut-on rouvrir un séjour clôturé par erreur ?
 
-Oui. Si vous avez clôturé un séjour à tort (ou en cas de décès enregistré par erreur), vous pouvez le **rouvrir** : Resthome rétablit la facturation et annule les régularisations tant qu’elles ne sont pas définitives. Si le mois est déjà comptabilisé, la correction passe d’abord par une remise en brouillon ou une note de crédit, puis une actualisation. → [Départ et décès](../facturation/depart-deces/)
+Oui. Si vous avez clôturé un séjour à tort (ou en cas de décès enregistré par erreur), vous pouvez le **rouvrir** : WideCare rétablit la facturation et annule les régularisations tant qu’elles ne sont pas définitives. Si le mois est déjà comptabilisé, la correction passe d’abord par une remise en brouillon ou une note de crédit, puis une actualisation. → [Départ et décès](../facturation/depart-deces/)
 
 ---
 
@@ -7717,7 +7755,7 @@ Une **personne de contact** est un nom et un numéro de téléphone dans le doss
 
 ### Comment inviter un proche ?
 
-Dans la fiche de l’habitant, onglet **Identité**, cliquez sur **Portail** sur la ligne du proche dans **Personnes de contact**. Cochez ce qu’il peut voir, enregistrez le consentement si vous ouvrez **Santé**, puis cliquez sur **Donner l’accès** : Resthome crée son compte et envoie l’invitation. **Réinviter** la renvoie. → [Accorder un accès](../portail-famille/acces/)
+Dans la fiche de l’habitant, onglet **Identité**, cliquez sur **Portail** sur la ligne du proche dans **Personnes de contact**. Cochez ce qu’il peut voir, enregistrez le consentement si vous ouvrez **Santé**, puis cliquez sur **Donner l’accès** : WideCare crée son compte et envoie l’invitation. **Réinviter** la renvoie. → [Accorder un accès](../portail-famille/acces/)
 
 ### Pourquoi la case Santé est-elle refusée ?
 
@@ -7770,7 +7808,7 @@ Source : https://www.lplg.eu/resthome/documentation/glossaire/
 
 # Glossaire
 
-Les termes utilisés dans Resthome et dans la facturation des maisons de repos, valables dans tous les pays, expliqués simplement. Chaque entrée renvoie, quand c’est utile, vers la page qui la détaille.
+Les termes utilisés dans WideCare et dans la facturation des maisons de repos, valables dans tous les pays, expliqués simplement. Chaque entrée renvoie, quand c’est utile, vers la page qui la détaille.
 
 En Belgique
 
@@ -7788,7 +7826,7 @@ Mode de facturation où l’**hébergement** d’un mois est facturé **le mois 
 
 ## Période de facturation
 
-Le **mois de facturation** dans Resthome, qui passe par quatre états : **Draft** (brouillon), **Generated** (calculée), **Invoiced** (facturée) et **Closed** (clôturée). Voir : [Facturer un mois, pas à pas](../facturation/facturer-un-mois/)
+Le **mois de facturation** dans WideCare, qui passe par quatre états : **Draft** (brouillon), **Generated** (calculée), **Invoiced** (facturée) et **Closed** (clôturée). Voir : [Facturer un mois, pas à pas](../facturation/facturer-un-mois/)
 
 ## Forfait de soins
 
@@ -7800,7 +7838,7 @@ Un proche ou une personne de confiance enregistré dans le dossier de l’habita
 
 ## Note de crédit
 
-Document qui **annule ou rembourse** tout ou partie d’une facture. Resthome en prépare une automatiquement, par exemple lors d’un départ en cours de mois déjà facturé (hébergement facturé d’avance). Voir : [Départ et décès](../facturation/depart-deces/)
+Document qui **annule ou rembourse** tout ou partie d’une facture. WideCare en prépare une automatiquement, par exemple lors d’un départ en cours de mois déjà facturé (hébergement facturé d’avance). Voir : [Départ et décès](../facturation/depart-deces/)
 
 ## Règle de décompte des journées
 
@@ -7844,7 +7882,7 @@ La boîte préparée pour un habitant, par moment de la journée, à partir de s
 
 ## Argent de poche
 
-Argent qu’un tiers verse à la maison et que la maison **détient pour un habitant** ; les achats de l’habitant y sont prélevés. Resthome montre le solde sur la fiche de l’habitant. Voir : [Argent de poche](../argent-de-poche/)
+Argent qu’un tiers verse à la maison et que la maison **détient pour un habitant** ; les achats de l’habitant y sont prélevés. WideCare montre le solde sur la fiche de l’habitant. Voir : [Argent de poche](../argent-de-poche/)
 
 ## Régime
 
@@ -7884,7 +7922,7 @@ Source : https://www.lplg.eu/resthome/documentation/support/
 
 # Support et assistance
 
-Un souci, une question sur Resthome ? Voici comment obtenir de l’aide, du plus rapide au plus direct.
+Un souci, une question sur WideCare ? Voici comment obtenir de l’aide, du plus rapide au plus direct.
 
 ## 1. Cherchez d’abord dans la documentation
 
@@ -7903,7 +7941,7 @@ Cherchez un code belge tel quel (par ex. « 931 », « MDA »). Les guides eHeal
 
 Si la documentation ne suffit pas, contactez notre équipe :
 
-- **Depuis Resthome** : cliquez sur votre avatar en haut à droite, puis sur **Aide**. Cela ouvre la page de support de LPLG, où vous ouvrez un ticket et suivez ceux que vous avez déjà ouverts.
+- **Depuis WideCare** : cliquez sur votre avatar en haut à droite, puis sur **Aide**. Cela ouvre la page de support de LPLG, où vous ouvrez un ticket et suivez ceux que vous avez déjà ouverts.
 - **E-mail : [support@lplg.eu](mailto:support%40lplg.eu)** — chaque message ouvre automatiquement un **ticket** de suivi.
 - Le bouton **Support** en bas à droite de chaque page de cette documentation vous amène ici.
 

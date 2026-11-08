@@ -1,11 +1,12 @@
 ---
 modules: [resthome_billing_medication, resthome_supplements_pmi]
+sectors: [mr, csj]
 ---
 
 # Billing medicines in Belgium
 
 :::{rh-description}
-Pass the cost of medicines on to the residents in Resthome: the doses given of a billable medicine on the monthly invoice, and the pharmacy's invoice recharged resident by resident.
+Pass the cost of medicines on to the residents in WideCare: the doses given of a billable medicine on the monthly invoice, and the pharmacy's invoice recharged resident by resident.
 :::
 
 :::{rh-faq}
@@ -16,7 +17,7 @@ Is a refused or missed dose billed?
 : No. Only the doses recorded as **Given** are billed, and each one only once.
 
 How do I pass the pharmacy's invoice on to the residents?
-: Make the vendor bill from the pharmacy invoice and post it, then click **Recharge to residents**: Resthome proposes one line per resident, with the amount the pharmacy states for them.
+: Make the vendor bill from the pharmacy invoice and post it, then click **Recharge to residents**: WideCare proposes one line per resident, with the amount the pharmacy states for them.
 
 Why is there no VAT on the recharged medicines?
 : The medicines are bought in the resident's name, under their pharmacy mandate, and passed on as they are: the amount the pharmacy states already includes its VAT.
@@ -40,7 +41,7 @@ tab:
 ### At the generation of the period
 
 When the billing period is generated (see [Billing a month in
-Belgium](facturation.md)), Resthome gathers, for each resident, the doses of
+Belgium](facturation.md)), WideCare gathers, for each resident, the doses of
 billable medicines recorded as **Given** during the period and not billed yet:
 
 - **one billing line per medicine**, of the type **Medication**, paid by the
@@ -61,7 +62,7 @@ When the pharmacy sends its invoice by eHealthBox with one block per resident
 1. On the **Pharmacy Invoice**, check the residents, then click **Make the
    Vendor Bill**.
 2. Post the vendor bill.
-3. Click **Recharge to residents**. Resthome proposes **one line per resident**
+3. Click **Recharge to residents**. WideCare proposes **one line per resident**
    the invoice names, with the amount the pharmacy states for them, on the
    product **Medicines (pharmacy invoice)**, which carries no VAT. The house's
    own block and a resident the house does not know are left out.

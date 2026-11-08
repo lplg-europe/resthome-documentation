@@ -1,11 +1,12 @@
 ---
 modules: [healthcare_base, healthcare_accommodation, healthcare_accommodation_billing, lplg_license, healthcare_industries]
+sectors: [mr, csj, rs, gp]
 ---
 
 # Getting started
 
 :::{rh-description}
-Log in to Resthome, find the apps, read a dashboard, follow the guided tours and find your way around a screen.
+Log in to WideCare, find the apps, read a dashboard, follow the guided tours and find your way around a screen.
 :::
 
 :::{rh-faq}
@@ -22,7 +23,7 @@ Who is WideCareBot?
 : The signature of the messages the system writes itself in the history of a record: a reminder, a notification, a change made automatically.
 :::
 
-This guide introduces Resthome in a few minutes: logging in, the apps, the
+This guide introduces WideCare in a few minutes: logging in, the apps, the
 dashboards, the guided tours and the parts of a screen.
 
 ## Logging in
@@ -40,7 +41,7 @@ administrator.
 
 ## The apps
 
-Resthome is organised into apps, reached from the **main menu** (the grid
+WideCare is organised into apps, reached from the **main menu** (the grid
 icon, top left). They are listed in the order of a resident's journey:
 
 | App | What it's for |
@@ -55,7 +56,7 @@ icon, top left). They are listed in the order of a resident's journey:
 | **Planning** | The staff schedule. See [Staff planning](planning/index.md). |
 | **Serviced Living** | Serviced residences: units, contracts, calls and requests. See [Serviced residences](residences-services/index.md). |
 | **WideCare** | The field app of the staff, on a phone or a tablet. See [WideCare app](soins-mobile/index.md). |
-| **WideCare AI** | Questions to the documentation without leaving Resthome. See [WideCare AI assistant](assistant/index.md). |
+| **WideCare AI** | Questions to the documentation without leaving WideCare. See [WideCare AI assistant](assistant/index.md). |
 
 Odoo's general apps — **Discuss**, **Calendar**, **Documents**, **Contacts** —
 come after them. Depending on your role (administrative, caregiver, kitchen,
@@ -166,7 +167,7 @@ the WideCare icon. A house that renamed this bot keeps its own name.
 
 ## Adding a sector pack
 
-Resthome is built from **packs**: one per care sector and per country. The
+WideCare is built from **packs**: one per care sector and per country. The
 technical administrator adds a pack from the **Apps** app: the **Industries**
 filter lists the WideCare sector packs available for the database, and
 **Activate** installs one.

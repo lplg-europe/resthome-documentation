@@ -1,15 +1,16 @@
 ---
 modules: [healthcare_medical, resthome_geriatric]
+sectors: [mr, csj]
 ---
 
 # The resident's medical record
 
 :::{rh-description}
-The resident's clinical record in Resthome: the Care tab (measurements, clinical status, devices, stools and urine, ICD-10 diagnoses, allergies, contacts), the Wishes tab, the care buttons and the medical record PDF.
+The resident's clinical record in WideCare: the Care tab (measurements, clinical status, devices, stools and urine, ICD-10 diagnoses, allergies, contacts), the Wishes tab, the care buttons and the medical record PDF.
 :::
 
 :::{rh-faq}
-Where is a resident's medical record in Resthome?
+Where is a resident's medical record in WideCare?
 : On the resident's form, in the **Care** tab: measurements, clinical status, senses and risks, medical devices, stools and urine, diagnoses (ICD-10), allergies, specialist doctors and medical notes. The **Wishes** tab holds the advance directives, the DNR order and the end-of-life wishes. Both tabs are reserved for care staff.
 
 How do I record a resident's weight?

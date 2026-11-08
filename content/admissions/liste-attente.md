@@ -1,11 +1,12 @@
 ---
 modules: [healthcare_accommodation]
+sectors: [mr, csj, rs]
 ---
 
 # The waiting list
 
 :::{rh-description}
-The waiting list in Resthome: the open admission requests, the rooms that free up on a known date, and the waiting-list rooms that hold a family's place until a bed is free.
+The waiting list in WideCare: the open admission requests, the rooms that free up on a known date, and the waiting-list rooms that hold a family's place until a bed is free.
 :::
 
 :::{rh-faq}
@@ -25,7 +26,7 @@ How does the person leave the waiting-list room?
 : When a real bed frees up, open their stay and use **Change Room** to move them into it.
 :::
 
-A family asks for a place months before a bed is free. Resthome keeps those
+A family asks for a place months before a bed is free. WideCare keeps those
 requests in the pipeline, shows which rooms free up and when, and lets you
 record an admission before the bed exists.
 
@@ -75,7 +76,7 @@ and its record shows **People waiting** instead of a capacity.
    view.
 2. Click **Create waiting-list rooms** (managers only).
 
-Resthome creates one waiting-list room per room type that has real rooms behind
+WideCare creates one waiting-list room per room type that has real rooms behind
 it. Pressing the button again, after creating a new price, adds only the
 missing ones.
 

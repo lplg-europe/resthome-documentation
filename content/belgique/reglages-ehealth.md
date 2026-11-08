@@ -1,5 +1,6 @@
 ---
 modules: [l10n_health_be_connector, l10n_health_be_perdiem_ehealth, l10n_health_be_mda, l10n_health_be_eagreement_light, l10n_health_be_efact]
+sectors: [mr, csj]
 ---
 
 # eHealth and eFact settings
@@ -34,7 +35,7 @@ Which value should I choose for the Invoice Type (Z308)?
 : Leave 01 (Hospitalisation): it is the value accepted at the 931000 preliminary check. Only switch to 03 (Ambulatory) if the CIN or the federated entity confirms it for your sector.
 :::
 
-These settings hold the **credentials and choices** Resthome uses to talk to
+These settings hold the **credentials and choices** WideCare uses to talk to
 the Belgian eHealth ecosystem (eHealth, MyCareNet, WalCareNet):
 [insurability (MDA)](ehealth/mda.md), [agreements
 (eAgreement)](ehealth/eagreement.md) and [electronic invoicing
@@ -156,7 +157,7 @@ LPLG** button on eAgreement requests. Leave the default contact.
 
 ## CIN Package License
 
-The credentials that allow Resthome to send eFact and MDA requests.
+The credentials that allow WideCare to send eFact and MDA requests.
 
 | Setting | What it is for |
 |---|---|

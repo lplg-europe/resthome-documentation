@@ -1,5 +1,6 @@
 ---
 modules: [resthome_geriatric_be, l10n_health_be, resthome_geriatric, healthcare_medication, resthome_documents]
+sectors: [mr, csj]
 ---
 
 # Care in Belgium

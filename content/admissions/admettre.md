@@ -1,12 +1,13 @@
 ---
 howto_auto: true
 modules: [healthcare_accommodation, l10n_health_be_perdiem_billing, l10n_health_be_perdiem_ehealth]
+sectors: [mr, csj, rs]
 ---
 
 # Admitting a candidate
 
 :::{rh-description}
-Admitting a candidate in Resthome: the checks before Admitted, the admission wizard (room and start date), what is created, the next steps on the resident's record, and the safeguards including the duplicate identification number.
+Admitting a candidate in WideCare: the checks before Admitted, the admission wizard (room and start date), what is created, the next steps on the resident's record, and the safeguards including the duplicate identification number.
 :::
 
 :::{rh-faq}
@@ -32,7 +33,7 @@ column, or click the **Admitted** stage at the top of the request.
 
 ## 1. Pass the checks
 
-Resthome refuses the admission, on every path, as long as:
+WideCare refuses the admission, on every path, as long as:
 
 - the **Desired stay type** is empty — the documents for the health insurer
   cannot be produced without it;
@@ -90,7 +91,7 @@ Click **Admit**. The wizard closes at the first click.
 
 ## 3. Check what was created
 
-Resthome then:
+WideCare then:
 
 - turns the request's person into a **resident**, with everything typed on the
   request;

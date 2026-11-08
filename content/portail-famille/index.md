@@ -1,5 +1,6 @@
 ---
 modules: [resthome_family_portal]
+sectors: [mr]
 ---
 
 # Family portal

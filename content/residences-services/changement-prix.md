@@ -1,6 +1,7 @@
 ---
 howto_auto: true
 modules: [serviced_living_billing]
+sectors: [rs]
 ---
 
 # Changing the price

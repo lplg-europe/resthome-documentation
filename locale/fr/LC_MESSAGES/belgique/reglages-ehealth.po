@@ -40,17 +40,11 @@ msgstr "Le Compte C est-il obligatoire pour l'eFact en Wallonie ?"
 msgid "Which value should I choose for the Invoice Type (Z308)?"
 msgstr "Quelle valeur choisir pour le Type de facture (Z308) ?"
 
-#: ../../content/belgique/reglages-ehealth.md:55
-#: ../../content/belgique/reglages-ehealth.md:71
-#: ../../content/belgique/reglages-ehealth.md:167
-#: ../../content/belgique/reglages-ehealth.md:184
+#: ../../content/belgique/reglages-ehealth.md:55 ../../content/belgique/reglages-ehealth.md:71 ../../content/belgique/reglages-ehealth.md:167 ../../content/belgique/reglages-ehealth.md:184
 msgid "Setting"
 msgstr "Réglage"
 
-#: ../../content/belgique/reglages-ehealth.md:55
-#: ../../content/belgique/reglages-ehealth.md:71
-#: ../../content/belgique/reglages-ehealth.md:167
-#: ../../content/belgique/reglages-ehealth.md:184
+#: ../../content/belgique/reglages-ehealth.md:55 ../../content/belgique/reglages-ehealth.md:71 ../../content/belgique/reglages-ehealth.md:167 ../../content/belgique/reglages-ehealth.md:184
 msgid "What it is for"
 msgstr "À quoi ça sert"
 
@@ -91,12 +85,8 @@ msgid "Software Service Desk"
 msgstr "Service Desk du logiciel"
 
 #: ../../content/belgique/reglages-ehealth.md:71
-msgid ""
-"Their NIHII identifies the responsible practitioner when the Katz assessor "
-"(nurse, care assistant) has no NIHII."
-msgstr ""
-"Son NIHII identifie le praticien responsable lorsque l'évaluateur Katz "
-"(infirmier, aide-soignant) n'a pas de NIHII."
+msgid "Their NIHII identifies the responsible practitioner when the Katz assessor (nurse, care assistant) has no NIHII."
+msgstr "Son NIHII identifie le praticien responsable lorsque l'évaluateur Katz (infirmier, aide-soignant) n'a pas de NIHII."
 
 #: ../../content/belgique/reglages-ehealth.md:157
 msgid "CIN Package License"
@@ -151,197 +141,96 @@ msgid "eHealth and eFact settings"
 msgstr "Réglages eHealth et eFact"
 
 #: ../../content/belgique/reglages-ehealth.md:8
-msgid ""
-"Configure the eHealth exchanges of a nursing home (MR/MRS): environment, "
-"approvals and certificate, federated entity, MDA, eAgreement responsible "
-"practitioner, eFact, CIN licence, Account C and invoicing header."
-msgstr ""
-"Configurer les échanges eHealth d'une maison de repos (MR/MRS) : "
-"environnement, agréments et certificat, entité fédérée, MDA, praticien "
-"responsable eAgreement, eFact, licence CIN, Compte C et en-tête de "
-"facturation."
+msgid "Configure the eHealth exchanges of a nursing home (MR/MRS): environment, approvals and certificate, federated entity, MDA, eAgreement responsible practitioner, eFact, CIN licence, Account C and invoicing header."
+msgstr "Configurer les échanges eHealth d'une maison de repos (MR/MRS) : environnement, agréments et certificat, entité fédérée, MDA, praticien responsable eAgreement, eFact, licence CIN, Compte C et en-tête de facturation."
 
 #: ../../content/belgique/reglages-ehealth.md:12
 msgid "Where are the eHealth settings?"
 msgstr "Où se trouvent les réglages eHealth ?"
 
 #: ../../content/belgique/reglages-ehealth.md:13
-msgid ""
-"In Settings, on the **eHealth** tab, visible to eHealth managers. Account C "
-"and the eFact header sit on the **MR/MRS Billing** tab, next to the other "
-"billing settings."
-msgstr ""
-"Dans les Paramètres, sur l'onglet **eHealth**, visible pour les "
-"gestionnaires eHealth. Le Compte C et l'en-tête eFact se trouvent sur "
-"l'onglet **Facturation MR/MRS**, à côté des autres réglages de facturation."
+msgid "In Settings, on the **eHealth** tab, visible to eHealth managers. Account C and the eFact header sit on the **MR/MRS Billing** tab, next to the other billing settings."
+msgstr "Dans les Paramètres, sur l'onglet **eHealth**, visible pour les gestionnaires eHealth. Le Compte C et l'en-tête eFact se trouvent sur l'onglet **Facturation MR/MRS**, à côté des autres réglages de facturation."
 
 #: ../../content/belgique/reglages-ehealth.md:16
-msgid ""
-"Stay on Acceptance (test servers, no real data) as long as your sendings "
-"have not been validated by the CIN and the federated entity. Switch to "
-"Production only once accreditation is obtained: from then on, sendings "
-"actually bill the health insurance funds."
-msgstr ""
-"Restez en Acceptation (serveurs de test, aucune donnée réelle) tant que vos "
-"envois n'ont pas été validés par le CIN et l'entité fédérée. Ne passez en "
-"Production qu'une fois l'accréditation obtenue : dès lors, les envois "
-"facturent réellement les mutuelles."
+msgid "Stay on Acceptance (test servers, no real data) as long as your sendings have not been validated by the CIN and the federated entity. Switch to Production only once accreditation is obtained: from then on, sendings actually bill the health insurance funds."
+msgstr "Restez en Acceptation (serveurs de test, aucune donnée réelle) tant que vos envois n'ont pas été validés par le CIN et l'entité fédérée. Ne passez en Production qu'une fois l'accréditation obtenue : dès lors, les envois facturent réellement les mutuelles."
 
 #: ../../content/belgique/reglages-ehealth.md:18
 msgid "Where is the eHealth certificate set?"
 msgstr "Où se règle le certificat eHealth ?"
 
 #: ../../content/belgique/reglages-ehealth.md:19
-msgid ""
-"On the approval: each INAMI number has its own certificate, on the "
-"**eHealth** tab of its approval. Import the .p12 file under **eHealth → "
-"Configuration → Certificates**, then choose it on the approval."
-msgstr ""
-"Sur l'agrément : chaque numéro INAMI a son propre certificat, sur l'onglet "
-"**eHealth** de son agrément. Importez le fichier .p12 sous **eHealth → "
-"Configuration → Certificats**, puis choisissez-le sur l'agrément."
+msgid "On the approval: each INAMI number has its own certificate, on the **eHealth** tab of its approval. Import the .p12 file under **eHealth → Configuration → Certificates**, then choose it on the approval."
+msgstr "Sur l'agrément : chaque numéro INAMI a son propre certificat, sur l'onglet **eHealth** de son agrément. Importez le fichier .p12 sous **eHealth → Configuration → Certificats**, puis choisissez-le sur l'agrément."
 
 #: ../../content/belgique/reglages-ehealth.md:21
 msgid "Where do I get the CIN package licence?"
 msgstr "Où obtenir la licence de package CIN ?"
 
 #: ../../content/belgique/reglages-ehealth.md:22
-msgid ""
-"From the software publisher: the **Contact LPLG** button under **Get a "
-"License** prepares the request. The licence (username and password) is "
-"issued by the CIN/NIC for the accredited software."
-msgstr ""
-"Auprès de l'éditeur du logiciel : le bouton **Contacter LPLG** sous "
-"**Obtenir une licence** prépare la demande. La licence (nom d'utilisateur et"
-" mot de passe) est délivrée par le CIN/NIC pour le logiciel agréé."
+msgid "From the software publisher: the **Contact LPLG** button under **Get a License** prepares the request. The licence (username and password) is issued by the CIN/NIC for the accredited software."
+msgstr "Auprès de l'éditeur du logiciel : le bouton **Contacter LPLG** sous **Obtenir une licence** prépare la demande. La licence (nom d'utilisateur et mot de passe) est délivrée par le CIN/NIC pour le logiciel agréé."
 
 #: ../../content/belgique/reglages-ehealth.md:25
-msgid ""
-"Stub mode simulates eHealth responses so you can test without a real call. "
-"Leave it on during the test phase; turn it off in production, which requires"
-" a valid eHealth certificate and a configured package licence."
-msgstr ""
-"Le mode simulation (stub) simule les réponses eHealth pour tester sans appel"
-" réel. Laissez-le activé pendant la phase de test ; désactivez-le en "
-"production, ce qui exige un certificat eHealth valide et une licence de "
-"package configurée."
+msgid "Stub mode simulates eHealth responses so you can test without a real call. Leave it on during the test phase; turn it off in production, which requires a valid eHealth certificate and a configured package licence."
+msgstr "Le mode simulation (stub) simule les réponses eHealth pour tester sans appel réel. Laissez-le activé pendant la phase de test ; désactivez-le en production, ce qui exige un certificat eHealth valide et une licence de package configurée."
 
 #: ../../content/belgique/reglages-ehealth.md:28
-msgid ""
-"Their NIHII acts as the responsible practitioner on eAgreement requests when"
-" the Katz assessor and the head nurse have no NIHII. It is mandatory for a "
-"category D Katz, which requires a physician."
-msgstr ""
-"Son numéro INAMI fait office de praticien responsable sur les demandes "
-"eAgreement lorsque l'évaluateur Katz et l'infirmier en chef n'ont pas de "
-"numéro INAMI. Il est obligatoire pour une Katz de catégorie D, qui requiert "
-"un médecin."
+msgid "Their NIHII acts as the responsible practitioner on eAgreement requests when the Katz assessor and the head nurse have no NIHII. It is mandatory for a category D Katz, which requires a physician."
+msgstr "Son numéro INAMI fait office de praticien responsable sur les demandes eAgreement lorsque l'évaluateur Katz et l'infirmier en chef n'ont pas de numéro INAMI. Il est obligatoire pour une Katz de catégorie D, qui requiert un médecin."
 
 #: ../../content/belgique/reglages-ehealth.md:31
-msgid ""
-"Yes. In a Walloon MR/MRS, the insurer pays the flat rates to financial "
-"account C. Without a bank journal carrying an IBAN and a BIC, WalCareNet "
-"rejects the batch (104511 for the missing IBAN, 105311 for the missing BIC)."
-msgstr ""
-"Oui. Dans une MR/MRS wallonne, la mutuelle paie les forfaits sur le compte "
-"financier C. Sans journal bancaire portant un IBAN et un BIC, WalCareNet "
-"rejette le lot (104511 pour l'IBAN manquant, 105311 pour le BIC manquant)."
+msgid "Yes. In a Walloon MR/MRS, the insurer pays the flat rates to financial account C. Without a bank journal carrying an IBAN and a BIC, WalCareNet rejects the batch (104511 for the missing IBAN, 105311 for the missing BIC)."
+msgstr "Oui. Dans une MR/MRS wallonne, la mutuelle paie les forfaits sur le compte financier C. Sans journal bancaire portant un IBAN et un BIC, WalCareNet rejette le lot (104511 pour l'IBAN manquant, 105311 pour le BIC manquant)."
 
 #: ../../content/belgique/reglages-ehealth.md:34
-msgid ""
-"Leave 01 (Hospitalisation): it is the value accepted at the 931000 "
-"preliminary check. Only switch to 03 (Ambulatory) if the CIN or the "
-"federated entity confirms it for your sector."
-msgstr ""
-"Laissez 01 (Hospitalisation) : c'est la valeur acceptée au contrôle "
-"préalable 931000. Ne passez à 03 (Ambulatoire) que si le CIN ou l'entité "
-"fédérée le confirme pour votre secteur."
+msgid "Leave 01 (Hospitalisation): it is the value accepted at the 931000 preliminary check. Only switch to 03 (Ambulatory) if the CIN or the federated entity confirms it for your sector."
+msgstr "Laissez 01 (Hospitalisation) : c'est la valeur acceptée au contrôle préalable 931000. Ne passez à 03 (Ambulatoire) que si le CIN ou l'entité fédérée le confirme pour votre secteur."
 
 #: ../../content/belgique/reglages-ehealth.md:37
-msgid ""
-"These settings hold the **credentials and choices** Resthome uses to talk to"
-" the Belgian eHealth ecosystem (eHealth, MyCareNet, WalCareNet): "
-"[insurability (MDA)](ehealth/mda.md), [agreements "
-"(eAgreement)](ehealth/eagreement.md) and [electronic invoicing "
-"(eFact)](ehealth/efact.md)."
-msgstr ""
-"Ces réglages contiennent les **identifiants et choix** que Resthome utilise "
-"pour dialoguer avec l'écosystème eHealth belge (eHealth, MyCareNet, "
-"WalCareNet) : [assurabilité (MDA)](ehealth/mda.md), [accords "
-"(eAgreement)](ehealth/eagreement.md) et [facturation électronique "
-"(eFact)](ehealth/efact.md)."
+msgid "These settings hold the **credentials and choices** WideCare uses to talk to the Belgian eHealth ecosystem (eHealth, MyCareNet, WalCareNet): [insurability (MDA)](ehealth/mda.md), [agreements (eAgreement)](ehealth/eagreement.md) and [electronic invoicing (eFact)](ehealth/efact.md)."
+msgstr "Ces réglages contiennent les **identifiants et choix** que WideCare utilise pour dialoguer avec l'écosystème eHealth belge (eHealth, MyCareNet, WalCareNet) : [assurabilité (MDA)](ehealth/mda.md), [accords (eAgreement)](ehealth/eagreement.md) et [facturation électronique (eFact)](ehealth/efact.md)."
 
 #: ../../content/belgique/reglages-ehealth.md:43
 msgid "They are spread over three places:"
 msgstr "Ils sont répartis en trois endroits :"
 
 #: ../../content/belgique/reglages-ehealth.md:45
-msgid ""
-"**Settings → eHealth** tab: the environment, the approvals, the federated "
-"entity, the MDA, eAgreement and eFact choices, the logs, the service desk "
-"and the CIN licence;"
-msgstr ""
-"l'onglet **Paramètres → eHealth** : l'environnement, les agréments, l'entité"
-" fédérée, les choix MDA, eAgreement et eFact, les journaux, le service "
-"d'assistance et la licence CIN ;"
+msgid "**Settings → eHealth** tab: the environment, the approvals, the federated entity, the MDA, eAgreement and eFact choices, the logs, the service desk and the CIN licence;"
+msgstr "l'onglet **Paramètres → eHealth** : l'environnement, les agréments, l'entité fédérée, les choix MDA, eAgreement et eFact, les journaux, le service d'assistance et la licence CIN ;"
 
 #: ../../content/belgique/reglages-ehealth.md:48
-msgid ""
-"each **approval** (**eHealth → Configuration → Approvals**): its INAMI "
-"number and its **eHealth certificate**;"
-msgstr ""
-"chaque **agrément** (**eHealth → Configuration → Agréments**) : son numéro "
-"INAMI et son **certificat eHealth** ;"
+msgid "each **approval** (**eHealth → Configuration → Approvals**): its INAMI number and its **eHealth certificate**;"
+msgstr "chaque **agrément** (**eHealth → Configuration → Agréments**) : son numéro INAMI et son **certificat eHealth** ;"
 
 #: ../../content/belgique/reglages-ehealth.md:50
-msgid ""
-"**Settings → MR/MRS Billing** tab: **Account C** and the **eFact header**."
-msgstr ""
-"l'onglet **Paramètres → Facturation MR/MRS** : le **Compte C** et l'**en-"
-"tête eFact**."
+msgid "**Settings → MR/MRS Billing** tab: **Account C** and the **eFact header**."
+msgstr "l'onglet **Paramètres → Facturation MR/MRS** : le **Compte C** et l'**en-tête eFact**."
 
 #: ../../content/belgique/reglages-ehealth.md:52
-msgid ""
-"The **eHealth** tab is only visible to **eHealth managers**. Most values are"
-" set **once**, at start-up."
-msgstr ""
-"L'onglet **eHealth** n'est visible que pour les **gestionnaires eHealth**. "
-"La plupart des valeurs se règlent **une fois**, au démarrage."
+msgid "The **eHealth** tab is only visible to **eHealth managers**. Most values are set **once**, at start-up."
+msgstr "L'onglet **eHealth** n'est visible que pour les **gestionnaires eHealth**. La plupart des valeurs se règlent **une fois**, au démarrage."
 
 #: ../../content/belgique/reglages-ehealth.md:55
 msgid "Sensitive fields: no value is ever copied from documentation"
-msgstr ""
-"Champs sensibles : aucune valeur n'est jamais copiée depuis la documentation"
+msgstr "Champs sensibles : aucune valeur n'est jamais copiée depuis la documentation"
 
 #: ../../content/belgique/reglages-ehealth.md:58
-msgid ""
-"The **.p12 certificate**, the **CIN package licence** and the **passwords** "
-"are secrets **specific to your establishment**. This page explains what they"
-" are for and where to obtain them, never their content. Enter them only from"
-" the official source."
-msgstr ""
-"Le **certificat .p12**, la **licence de package CIN** et les **mots de "
-"passe** sont des secrets **propres à votre établissement**. Cette page "
-"explique à quoi ils servent et où les obtenir, jamais leur contenu. Ne les "
-"saisissez qu'à partir de la source officielle."
+msgid "The **.p12 certificate**, the **CIN package licence** and the **passwords** are secrets **specific to your establishment**. This page explains what they are for and where to obtain them, never their content. Enter them only from the official source."
+msgstr "Le **certificat .p12**, la **licence de package CIN** et les **mots de passe** sont des secrets **propres à votre établissement**. Cette page explique à quoi ils servent et où les obtenir, jamais leur contenu. Ne les saisissez qu'à partir de la source officielle."
 
 #: ../../content/belgique/reglages-ehealth.md:64
 msgid "eHealth platform"
 msgstr "Plateforme eHealth"
 
-#: ../../content/belgique/reglages-ehealth.md:55
-#: ../../content/belgique/reglages-ehealth.md:71
-#: ../../content/belgique/reglages-ehealth.md:184
+#: ../../content/belgique/reglages-ehealth.md:55 ../../content/belgique/reglages-ehealth.md:71 ../../content/belgique/reglages-ehealth.md:184
 msgid "Recommended value"
 msgstr "Valeur recommandée"
 
 #: ../../content/belgique/reglages-ehealth.md:55
-msgid ""
-"**Acceptance**: the eHealth test servers (simulated data). **Production**: "
-"the live servers (real billing)."
-msgstr ""
-"**Acceptation** : les serveurs de test eHealth (données simulées). "
-"**Production** : les serveurs réels (facturation réelle)."
+msgid "**Acceptance**: the eHealth test servers (simulated data). **Production**: the live servers (real billing)."
+msgstr "**Acceptation** : les serveurs de test eHealth (données simulées). **Production** : les serveurs réels (facturation réelle)."
 
 #: ../../content/belgique/reglages-ehealth.md:55
 msgid "**Acceptance** until accreditation, then **Production**."
@@ -352,99 +241,52 @@ msgid "Simulated responses, without any real call."
 msgstr "Réponses simulées, sans aucun appel réel."
 
 #: ../../content/belgique/reglages-ehealth.md:55
-msgid ""
-"On while testing; off in production (requires a valid certificate and the "
-"package licence)."
-msgstr ""
-"Activé pendant les tests ; désactivé en production (exige un certificat "
-"valide et la licence de package)."
+msgid "On while testing; off in production (requires a valid certificate and the package licence)."
+msgstr "Activé pendant les tests ; désactivé en production (exige un certificat valide et la licence de package)."
 
 #: ../../content/belgique/reglages-ehealth.md:74
-msgid ""
-"At start-up: **Acceptance** with **Stub Mode** on. You go through the whole "
-"flow without sending anything real. Once accredited, turn **Stub Mode** off,"
-" then switch to **Production**."
-msgstr ""
-"Au démarrage : **Acceptation** avec le **Mode simulation** activé. Vous "
-"parcourez tout le flux sans rien envoyer de réel. Une fois accrédité, "
-"désactivez le **Mode simulation**, puis passez en **Production**."
+msgid "At start-up: **Acceptance** with **Stub Mode** on. You go through the whole flow without sending anything real. Once accredited, turn **Stub Mode** off, then switch to **Production**."
+msgstr "Au démarrage : **Acceptation** avec le **Mode simulation** activé. Vous parcourez tout le flux sans rien envoyer de réel. Une fois accrédité, désactivez le **Mode simulation**, puis passez en **Production**."
 
 #: ../../content/belgique/reglages-ehealth.md:79
 msgid "Approvals and certificate"
 msgstr "Agréments et certificat"
 
 #: ../../content/belgique/reglages-ehealth.md:81
-msgid ""
-"The **Approvals** block of the tab summarises the INAMI numbers configured. "
-"**Manage approvals** opens them: one record per INAMI number, with its "
-"identity, its **eHealth certificate** and the sectors it is approved for. A "
-"company that runs a rest home and a day care centre has two. See [Belgian "
-"settings](reglages.md) for the approval itself."
-msgstr ""
-"Le bloc **Agréments** de l'onglet résume les numéros INAMI configurés. "
-"**Gérer les agréments** les ouvre : un enregistrement par numéro INAMI, avec"
-" son identité, son **certificat eHealth** et les secteurs pour lesquels il "
-"est agréé. Une société qui exploite une maison de repos et un centre de "
-"soins de jour en a deux. Voir [Réglages belges](reglages.md) pour l'agrément"
-" lui-même."
+msgid "The **Approvals** block of the tab summarises the INAMI numbers configured. **Manage approvals** opens them: one record per INAMI number, with its identity, its **eHealth certificate** and the sectors it is approved for. A company that runs a rest home and a day care centre has two. See [Belgian settings](reglages.md) for the approval itself."
+msgstr "Le bloc **Agréments** de l'onglet résume les numéros INAMI configurés. **Gérer les agréments** les ouvre : un enregistrement par numéro INAMI, avec son identité, son **certificat eHealth** et les secteurs pour lesquels il est agréé. Une société qui exploite une maison de repos et un centre de soins de jour en a deux. Voir [Réglages belges](reglages.md) pour l'agrément lui-même."
 
 #: ../../content/belgique/reglages-ehealth.md:87
 msgid "On the **eHealth** tab of an approval:"
 msgstr "Sur l'onglet **eHealth** d'un agrément :"
 
 #: ../../content/belgique/reglages-ehealth.md:89
-msgid ""
-"**Certificate**: the establishment's **.p12**, imported first under "
-"**eHealth → Configuration → Certificates** (or straight from the field);"
-msgstr ""
-"**Certificat** : le **.p12** de l'établissement, importé d'abord sous "
-"**eHealth → Configuration → Certificats** (ou directement depuis le champ) ;"
+msgid "**Certificate**: the establishment's **.p12**, imported first under **eHealth → Configuration → Certificates** (or straight from the field);"
+msgstr "**Certificat** : le **.p12** de l'établissement, importé d'abord sous **eHealth → Configuration → Certificats** (ou directement depuis le champ) ;"
 
 #: ../../content/belgique/reglages-ehealth.md:91
 msgid "its state and its expiry date, shown once a certificate is chosen."
-msgstr ""
-"son état et sa date d'expiration, affichés dès qu'un certificat est choisi."
+msgstr "son état et sa date d'expiration, affichés dès qu'un certificat est choisi."
 
 #: ../../content/belgique/reglages-ehealth.md:93
-msgid ""
-"Each stay sends and reads its flows — insurability, agreements, eFact — "
-"under the approval of its sector, with that approval's own certificate."
-msgstr ""
-"Chaque séjour envoie et lit ses flux — assurabilité, accords, eFact — sous "
-"l'agrément de son secteur, avec le certificat propre à cet agrément."
+msgid "Each stay sends and reads its flows — insurability, agreements, eFact — under the approval of its sector, with that approval's own certificate."
+msgstr "Chaque séjour envoie et lit ses flux — assurabilité, accords, eFact — sous l'agrément de son secteur, avec le certificat propre à cet agrément."
 
 #: ../../content/belgique/reglages-ehealth.md:96
-msgid ""
-"On the certificate record, **Test connection** checks that the certificate "
-"reaches the eHealth platform before any real sending."
-msgstr ""
-"Sur la fiche du certificat, **Tester la connexion** vérifie que le "
-"certificat atteint la plateforme eHealth avant tout envoi réel."
+msgid "On the certificate record, **Test connection** checks that the certificate reaches the eHealth platform before any real sending."
+msgstr "Sur la fiche du certificat, **Tester la connexion** vérifie que le certificat atteint la plateforme eHealth avant tout envoi réel."
 
 #: ../../content/belgique/reglages-ehealth.md:99
-msgid ""
-"The **Federated entity** setting says which entity finances your MR/MRS: "
-"Wallonia (AViQ), Brussels (Iriscare)… It decides the eHealth platform, the "
-"region code written in the eFact file, whether Account C applies and which "
-"pseudo-codes are billed. The platform it implies is shown under the field."
-msgstr ""
-"Le réglage **Entité fédérée** indique quelle entité finance votre MR/MRS : "
-"la Wallonie (AViQ), Bruxelles (Iriscare)… Il détermine la plateforme "
-"eHealth, le code région écrit dans le fichier eFact, si le Compte C "
-"s'applique et quels pseudo-codes sont facturés. La plateforme qui en découle"
-" s'affiche sous le champ."
+msgid "The **Federated entity** setting says which entity finances your MR/MRS: Wallonia (AViQ), Brussels (Iriscare)… It decides the eHealth platform, the region code written in the eFact file, whether Account C applies and which pseudo-codes are billed. The platform it implies is shown under the field."
+msgstr "Le réglage **Entité fédérée** indique quelle entité finance votre MR/MRS : la Wallonie (AViQ), Bruxelles (Iriscare)… Il détermine la plateforme eHealth, le code région écrit dans le fichier eFact, si le Compte C s'applique et quels pseudo-codes sont facturés. La plateforme qui en découle s'affiche sous le champ."
 
 #: ../../content/belgique/reglages-ehealth.md:104
 msgid "Nursing home — MyCareNet"
 msgstr "Maison de repos — MyCareNet"
 
 #: ../../content/belgique/reglages-ehealth.md:71
-msgid ""
-"The annual Belgian legal rate used to compute the late-payment interest an "
-"insurer owes on a sending paid after its deadline."
-msgstr ""
-"Le taux légal belge annuel utilisé pour calculer les intérêts de retard "
-"qu'une mutuelle doit sur un envoi payé après son échéance."
+msgid "The annual Belgian legal rate used to compute the late-payment interest an insurer owes on a sending paid after its deadline."
+msgstr "Le taux légal belge annuel utilisé pour calculer les intérêts de retard qu'une mutuelle doit sur un envoi payé après son échéance."
 
 #: ../../content/belgique/reglages-ehealth.md:71
 msgid "The rate published for the year; **0** turns the computation off."
@@ -455,46 +297,28 @@ msgid "**CM contact point (PUC)**"
 msgstr "**Point de contact CM (PUC)**"
 
 #: ../../content/belgique/reglages-ehealth.md:71
-msgid ""
-"The single contact point the Christian mutuality assigned to **your** home, "
-"which addresses your CM invoices."
-msgstr ""
-"Le point de contact unique que la Mutualité chrétienne a attribué à "
-"**votre** maison, qui adresse vos factures CM."
+msgid "The single contact point the Christian mutuality assigned to **your** home, which addresses your CM invoices."
+msgstr "Le point de contact unique que la Mutualité chrétienne a attribué à **votre** maison, qui adresse vos factures CM."
 
 #: ../../content/belgique/reglages-ehealth.md:71
-msgid ""
-"Ask the mutuality for it. Left empty, the default of your federated entity "
-"applies."
-msgstr ""
-"Demandez-le à la mutuelle. Laissé vide, la valeur par défaut de votre entité"
-" fédérée s'applique."
+msgid "Ask the mutuality for it. Left empty, the default of your federated entity applies."
+msgstr "Demandez-le à la mutuelle. Laissé vide, la valeur par défaut de votre entité fédérée s'applique."
 
 #: ../../content/belgique/reglages-ehealth.md:71
 msgid "**eFact followers**"
 msgstr "**Abonnés eFact**"
 
 #: ../../content/belgique/reglages-ehealth.md:71
-msgid ""
-"The people notified of every insurer answer on your eFact sendings: "
-"acceptance, rejection, settlement. They follow each new batch, including "
-"those created automatically."
-msgstr ""
-"Les personnes notifiées de chaque réponse de la mutuelle sur vos envois "
-"eFact : acceptation, rejet, décompte. Elles suivent chaque nouveau lot, y "
-"compris ceux créés automatiquement."
+msgid "The people notified of every insurer answer on your eFact sendings: acceptance, rejection, settlement. They follow each new batch, including those created automatically."
+msgstr "Les personnes notifiées de chaque réponse de la mutuelle sur vos envois eFact : acceptation, rejet, décompte. Elles suivent chaque nouveau lot, y compris ceux créés automatiquement."
 
 #: ../../content/belgique/reglages-ehealth.md:71
 msgid "The person in charge of billing."
 msgstr "La personne responsable de la facturation."
 
 #: ../../content/belgique/reglages-ehealth.md:71
-msgid ""
-"Checks each resident's insurability before the eFact billing is generated, "
-"to avoid rejections for invalid insurability."
-msgstr ""
-"Vérifie l'assurabilité de chaque habitant avant la génération de la "
-"facturation eFact, pour éviter les rejets pour assurabilité invalide."
+msgid "Checks each resident's insurability before the eFact billing is generated, to avoid rejections for invalid insurability."
+msgstr "Vérifie l'assurabilité de chaque habitant avant la génération de la facturation eFact, pour éviter les rejets pour assurabilité invalide."
 
 #: ../../content/belgique/reglages-ehealth.md:71
 msgid "**On** once the MDA is in production."
@@ -505,50 +329,32 @@ msgid "**Waiting list check**"
 msgstr "**Contrôle de la liste d'attente**"
 
 #: ../../content/belgique/reglages-ehealth.md:71
-msgid ""
-"Every month, asks the health insurance funds about every open admission "
-"request, so that a candidate who died in the meantime is closed before "
-"anyone phones them."
-msgstr ""
-"Chaque mois, interroge les mutuelles sur chaque demande d'admission ouverte,"
-" pour qu'un candidat décédé entre-temps soit clôturé avant que quelqu'un ne "
-"l'appelle."
+msgid "Every month, asks the health insurance funds about every open admission request, so that a candidate who died in the meantime is closed before anyone phones them."
+msgstr "Chaque mois, interroge les mutuelles sur chaque demande d'admission ouverte, pour qu'un candidat décédé entre-temps soit clôturé avant que quelqu'un ne l'appelle."
 
 #: ../../content/belgique/reglages-ehealth.md:71
 msgid "On if your waiting list is long."
 msgstr "Activé si votre liste d'attente est longue."
 
 #: ../../content/belgique/reglages-ehealth.md:119
-msgid ""
-"See [Insurability (MDA)](ehealth/mda.md) and [Admitting a resident in "
-"Belgium](admission.md)."
-msgstr ""
-"Voir [Assurabilité (MDA)](ehealth/mda.md) et [Admettre un habitant en "
-"Belgique](admission.md)."
+msgid "See [Insurability (MDA)](ehealth/mda.md) and [Admitting a resident in Belgium](admission.md)."
+msgstr "Voir [Assurabilité (MDA)](ehealth/mda.md) et [Admettre un habitant en Belgique](admission.md)."
 
 #: ../../content/belgique/reglages-ehealth.md:122
 msgid "Insurability (MDA)"
 msgstr "Assurabilité (MDA)"
 
 #: ../../content/belgique/reglages-ehealth.md:71
-msgid ""
-"The NIHII-11 of the healthcare professional who issues the MDA requests, "
-"required by WalCareNet / MyCareNet."
-msgstr ""
-"Le NIHII-11 du professionnel de santé qui émet les requêtes MDA, requis par "
-"WalCareNet / MyCareNet."
+msgid "The NIHII-11 of the healthcare professional who issues the MDA requests, required by WalCareNet / MyCareNet."
+msgstr "Le NIHII-11 du professionnel de santé qui émet les requêtes MDA, requis par WalCareNet / MyCareNet."
 
 #: ../../content/belgique/reglages-ehealth.md:71
 msgid "The NIHII of a care provider of your establishment."
 msgstr "Le numéro INAMI d'un prestataire de soins de votre établissement."
 
 #: ../../content/belgique/reglages-ehealth.md:71
-msgid ""
-"The address used to report to the inter-mutualist an MDA request the "
-"platform closed without any insurer answer."
-msgstr ""
-"L'adresse utilisée pour signaler à l'intermutualiste une requête MDA que la "
-"plateforme a clôturée sans aucune réponse d'une mutuelle."
+msgid "The address used to report to the inter-mutualist an MDA request the platform closed without any insurer answer."
+msgstr "L'adresse utilisée pour signaler à l'intermutualiste une requête MDA que la plateforme a clôturée sans aucune réponse d'une mutuelle."
 
 #: ../../content/belgique/reglages-ehealth.md:71
 msgid "Leave the default address."
@@ -559,16 +365,8 @@ msgid "eAgreement Light"
 msgstr "eAgreement Light"
 
 #: ../../content/belgique/reglages-ehealth.md:131
-msgid ""
-"On an [eAgreement](ehealth/eagreement.md) request, the responsible "
-"practitioner is the clinician who carried out the Katz assessment. When they"
-" have no NIHII, the request borrows the identity of the people set here, in "
-"this order."
-msgstr ""
-"Sur une demande [eAgreement](ehealth/eagreement.md), le praticien "
-"responsable est le clinicien qui a réalisé l'évaluation Katz. Quand il n'a "
-"pas de numéro INAMI, la demande emprunte l'identité des personnes réglées "
-"ici, dans cet ordre."
+msgid "On an [eAgreement](ehealth/eagreement.md) request, the responsible practitioner is the clinician who carried out the Katz assessment. When they have no NIHII, the request borrows the identity of the people set here, in this order."
+msgstr "Sur une demande [eAgreement](ehealth/eagreement.md), le praticien responsable est le clinicien qui a réalisé l'évaluation Katz. Quand il n'a pas de numéro INAMI, la demande emprunte l'identité des personnes réglées ici, dans cet ordre."
 
 #: ../../content/belgique/reglages-ehealth.md:71
 msgid "**Head Nurse**"
@@ -579,72 +377,40 @@ msgid "**Coordinating Physician**"
 msgstr "**Médecin coordinateur**"
 
 #: ../../content/belgique/reglages-ehealth.md:71
-msgid ""
-"Used when no nurse NIHII is available, and **mandatory** for a category D "
-"Katz, which requires a physician."
-msgstr ""
-"Utilisé quand aucun numéro INAMI d'infirmier n'est disponible, et "
-"**obligatoire** pour une Katz de catégorie D, qui requiert un médecin."
+msgid "Used when no nurse NIHII is available, and **mandatory** for a category D Katz, which requires a physician."
+msgstr "Utilisé quand aucun numéro INAMI d'infirmier n'est disponible, et **obligatoire** pour une Katz de catégorie D, qui requiert un médecin."
 
 #: ../../content/belgique/reglages-ehealth.md:71
 msgid "**Generic nurse NIHII**"
 msgstr "**NIHII infirmier générique**"
 
 #: ../../content/belgique/reglages-ehealth.md:71
-msgid ""
-"The last resort: the number the federated entity gives a nurse without their"
-" own, shared by every home of the entity."
-msgstr ""
-"Le dernier recours : le numéro que l'entité fédérée attribue à un infirmier "
-"qui n'a pas le sien, partagé par toutes les maisons de l'entité."
+msgid "The last resort: the number the federated entity gives a nurse without their own, shared by every home of the entity."
+msgstr "Le dernier recours : le numéro que l'entité fédérée attribue à un infirmier qui n'a pas le sien, partagé par toutes les maisons de l'entité."
 
 #: ../../content/belgique/reglages-ehealth.md:141
-msgid ""
-"See [Responsible practitioner and annex signatures](ehealth/eagreement-"
-"signature.md)."
-msgstr ""
-"Voir [Praticien responsable et signatures des annexes](ehealth/eagreement-"
-"signature.md)."
+msgid "See [Responsible practitioner and annex signatures](ehealth/eagreement-signature.md)."
+msgstr "Voir [Praticien responsable et signatures des annexes](ehealth/eagreement-signature.md)."
 
 #: ../../content/belgique/reglages-ehealth.md:144
 msgid "Communication logs"
 msgstr "Journaux de communication"
 
 #: ../../content/belgique/reglages-ehealth.md:146
-msgid ""
-"**Log Retention** sets how many days the eHealth communication and audit "
-"logs are kept; older logs are purged every month. The default, **3653 days**"
-" (10 years), follows the Belgian tax rule for invoicing records: these logs "
-"carry the proof of each eFact sending."
-msgstr ""
-"**Conservation des journaux** fixe combien de jours les journaux de "
-"communication et d'audit eHealth sont conservés ; les journaux plus anciens "
-"sont purgés chaque mois. La valeur par défaut, **3653 jours** (10 ans), suit"
-" la règle fiscale belge pour les pièces de facturation : ces journaux "
-"portent la preuve de chaque envoi eFact."
+msgid "**Log Retention** sets how many days the eHealth communication and audit logs are kept; older logs are purged every month. The default, **3653 days** (10 years), follows the Belgian tax rule for invoicing records: these logs carry the proof of each eFact sending."
+msgstr "**Conservation des journaux** fixe combien de jours les journaux de communication et d'audit eHealth sont conservés ; les journaux plus anciens sont purgés chaque mois. La valeur par défaut, **3653 jours** (10 ans), suit la règle fiscale belge pour les pièces de facturation : ces journaux portent la preuve de chaque envoi eFact."
 
 #: ../../content/belgique/reglages-ehealth.md:153
-msgid ""
-"**Service Desk Contact** is the first point of contact when a problem occurs"
-" with an exchange. Its name, e-mail, phone and logo are used by the "
-"**Contact LPLG** button on eAgreement requests. Leave the default contact."
-msgstr ""
-"**Contact du service d'assistance** est le premier point de contact en cas "
-"de problème avec un échange. Son nom, son e-mail, son téléphone et son logo "
-"sont utilisés par le bouton **Contacter LPLG** des demandes eAgreement. "
-"Laissez le contact par défaut."
+msgid "**Service Desk Contact** is the first point of contact when a problem occurs with an exchange. Its name, e-mail, phone and logo are used by the **Contact LPLG** button on eAgreement requests. Leave the default contact."
+msgstr "**Contact du service d'assistance** est le premier point de contact en cas de problème avec un échange. Son nom, son e-mail, son téléphone et son logo sont utilisés par le bouton **Contacter LPLG** des demandes eAgreement. Laissez le contact par défaut."
 
 #: ../../content/belgique/reglages-ehealth.md:159
-msgid "The credentials that allow Resthome to send eFact and MDA requests."
-msgstr ""
-"Les identifiants qui permettent à Resthome d'envoyer les requêtes eFact et "
-"MDA."
+msgid "The credentials that allow WideCare to send eFact and MDA requests."
+msgstr "Les identifiants qui permettent à WideCare d'envoyer les requêtes eFact et MDA."
 
 #: ../../content/belgique/reglages-ehealth.md:71
 msgid "The username of the software licence, required for eFact and MDA."
-msgstr ""
-"Le nom d'utilisateur de la licence logicielle, requis pour l'eFact et le "
-"MDA."
+msgstr "Le nom d'utilisateur de la licence logicielle, requis pour l'eFact et le MDA."
 
 #: ../../content/belgique/reglages-ehealth.md:71
 msgid "Its password (masked field). Secret: never share it."
@@ -663,69 +429,36 @@ msgid "No licence, no real sending"
 msgstr "Pas de licence, pas d'envoi réel"
 
 #: ../../content/belgique/reglages-ehealth.md:170
-msgid ""
-"The package licence has **no default value**. As long as it is not "
-"configured and stub mode is on, nothing real leaves."
-msgstr ""
-"La licence de package n'a **aucune valeur par défaut**. Tant qu'elle n'est "
-"pas configurée et que le mode simulation est activé, rien de réel ne part."
+msgid "The package licence has **no default value**. As long as it is not configured and stub mode is on, nothing real leaves."
+msgstr "La licence de package n'a **aucune valeur par défaut**. Tant qu'elle n'est pas configurée et que le mode simulation est activé, rien de réel ne part."
 
 #: ../../content/belgique/reglages-ehealth.md:176
-msgid ""
-"*Settings → MR/MRS Billing → Account C (Wallonia).* Since the 6th State "
-"Reform, the insurer pays the Walloon MR/MRS flat rates to a dedicated "
-"**financial account C**, declared to the CIN when joining eFact."
-msgstr ""
-"*Paramètres → Facturation MR/MRS → Compte financier C (Wallonie).* Depuis la"
-" 6e réforme de l'État, la mutuelle paie les forfaits de la MR/MRS wallonne "
-"sur un **compte financier C** dédié, déclaré au CIN lors de l'adhésion à "
-"l'eFact."
+msgid "*Settings → MR/MRS Billing → Account C (Wallonia).* Since the 6th State Reform, the insurer pays the Walloon MR/MRS flat rates to a dedicated **financial account C**, declared to the CIN when joining eFact."
+msgstr "*Paramètres → Facturation MR/MRS → Compte financier C (Wallonie).* Depuis la 6e réforme de l'État, la mutuelle paie les forfaits de la MR/MRS wallonne sur un **compte financier C** dédié, déclaré au CIN lors de l'adhésion à l'eFact."
 
 #: ../../content/belgique/reglages-ehealth.md:167
-msgid ""
-"The bank journal of that account. The **IBAN** and the **BIC** written in "
-"the eFact file come from its bank account; they are shown, read-only, under "
-"the field."
-msgstr ""
-"Le journal bancaire de ce compte. L'**IBAN** et le **BIC** écrits dans le "
-"fichier eFact proviennent de son compte bancaire ; ils sont affichés, en "
-"lecture seule, sous le champ."
+msgid "The bank journal of that account. The **IBAN** and the **BIC** written in the eFact file come from its bank account; they are shown, read-only, under the field."
+msgstr "Le journal bancaire de ce compte. L'**IBAN** et le **BIC** écrits dans le fichier eFact proviennent de son compte bancaire ; ils sont affichés, en lecture seule, sous le champ."
 
 #: ../../content/belgique/reglages-ehealth.md:184
 msgid "Otherwise, WalCareNet rejects the file"
 msgstr "Sinon, WalCareNet rejette le fichier"
 
 #: ../../content/belgique/reglages-ehealth.md:187
-msgid ""
-"A journal whose bank account has no IBAN or no BIC shows a warning under the"
-" field. Set them on the bank account (and the BIC on its bank): WalCareNet "
-"otherwise **rejects the batch** with **104511** (IBAN) or **105311** (BIC). "
-"See [eFact rejections](ehealth/efact-rejets.md)."
-msgstr ""
-"Un journal dont le compte bancaire n'a pas d'IBAN ou de BIC affiche un "
-"avertissement sous le champ. Renseignez-les sur le compte bancaire (et le "
-"BIC sur sa banque) : sinon WalCareNet **rejette le lot** avec **104511** "
-"(IBAN) ou **105311** (BIC). Voir [Rejets eFact](ehealth/efact-rejets.md)."
+msgid "A journal whose bank account has no IBAN or no BIC shows a warning under the field. Set them on the bank account (and the BIC on its bank): WalCareNet otherwise **rejects the batch** with **104511** (IBAN) or **105311** (BIC). See [eFact rejections](ehealth/efact-rejets.md)."
+msgstr "Un journal dont le compte bancaire n'a pas d'IBAN ou de BIC affiche un avertissement sous le champ. Renseignez-les sur le compte bancaire (et le BIC sur sa banque) : sinon WalCareNet **rejette le lot** avec **104511** (IBAN) ou **105311** (BIC). Voir [Rejets eFact](ehealth/efact-rejets.md)."
 
 #: ../../content/belgique/reglages-ehealth.md:195
-msgid ""
-"*Settings → MR/MRS Billing → eFact Header.* What each eFact file says about "
-"your establishment."
-msgstr ""
-"*Paramètres → Facturation MR/MRS → En-tête eFact.* Ce que chaque fichier "
-"eFact dit de votre établissement."
+msgid "*Settings → MR/MRS Billing → eFact Header.* What each eFact file says about your establishment."
+msgstr "*Paramètres → Facturation MR/MRS → En-tête eFact.* Ce que chaque fichier eFact dit de votre établissement."
 
 #: ../../content/belgique/reglages-ehealth.md:184
 msgid "The name and phone the insurer reaches for a billing question."
-msgstr ""
-"Le nom et le téléphone que la mutuelle contacte pour une question de "
-"facturation."
+msgstr "Le nom et le téléphone que la mutuelle contacte pour une question de facturation."
 
 #: ../../content/belgique/reglages-ehealth.md:184
 msgid "For example the director. Left empty, the establishment name is used."
-msgstr ""
-"Par exemple le directeur. Laissé vide, le nom de l'établissement est "
-"utilisé."
+msgstr "Par exemple le directeur. Laissé vide, le nom de l'établissement est utilisé."
 
 #: ../../content/belgique/reglages-ehealth.md:184
 msgid "**Invoice Type (Z308)**"
@@ -736,24 +469,12 @@ msgid "01 Hospitalisation, 03 Ambulatory, 09 Mixed."
 msgstr "01 Hospitalisation, 03 Ambulatoire, 09 Mixte."
 
 #: ../../content/belgique/reglages-ehealth.md:184
-msgid ""
-"**01** (accepted at the 931000 check). Switch to **03** only if the CIN or "
-"the federated entity confirms it."
-msgstr ""
-"**01** (accepté au contrôle 931000). Ne passez à **03** que si le CIN ou "
-"l'entité fédérée le confirme."
+msgid "**01** (accepted at the 931000 check). Switch to **03** only if the CIN or the federated entity confirms it."
+msgstr "**01** (accepté au contrôle 931000). Ne passez à **03** que si le CIN ou l'entité fédérée le confirme."
 
 #: ../../content/belgique/reglages-ehealth.md:203
-msgid ""
-"An approval can override the Account C journal and the contact person on its"
-" own **eFact** tab: a day care centre with its own INAMI number, for "
-"example. Left empty, those of the settings apply. The sending numbers are "
-"counted per INAMI number."
-msgstr ""
-"Un agrément peut remplacer le journal du Compte C et la personne de contact "
-"sur son propre onglet **eFact** : un centre de soins de jour avec son propre"
-" numéro INAMI, par exemple. Laissés vides, ceux des réglages s'appliquent. "
-"Les numéros d'envoi sont comptés par numéro INAMI."
+msgid "An approval can override the Account C journal and the contact person on its own **eFact** tab: a day care centre with its own INAMI number, for example. Left empty, those of the settings apply. The sending numbers are counted per INAMI number."
+msgstr "Un agrément peut remplacer le journal du Compte C et la personne de contact sur son propre onglet **eFact** : un centre de soins de jour avec son propre numéro INAMI, par exemple. Laissés vides, ceux des réglages s'appliquent. Les numéros d'envoi sont comptés par numéro INAMI."
 
 #: ../../content/belgique/reglages-ehealth.md:210
 msgid "[Belgian settings](reglages.md)"

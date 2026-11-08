@@ -1,11 +1,12 @@
 ---
 modules: [l10n_health_be_eagreement_light, l10n_health_be_perdiem_ehealth]
+sectors: [mr, csj]
 ---
 
 # Refused agreement (eAgreement) — causes and solutions
 
 :::{rh-description}
-Why an eAgreement notification is refused by the health insurer and how to fix it in Resthome: NISS, insurability, document, Katz, duplicate, then resend.
+Why an eAgreement notification is refused by the health insurer and how to fix it in WideCare: NISS, insurability, document, Katz, duplicate, then resend.
 :::
 
 :::{rh-faq}
@@ -23,7 +24,7 @@ What is a tacit agreement?
 :::
 
 When a resident **is admitted**, **goes on leave**, **returns** or **leaves** the facility,
-Resthome automatically notifies their **health insurer (insurance organisation, OA)**
+WideCare automatically notifies their **health insurer (insurance organisation, OA)**
 electronically, with the right official document (Annexe 7, 10 or 11). This service —
 **[eAgreement](eagreement.md) Light** — is **accredited** (operational). The health insurer
 can then **accept** the agreement, let it become **tacit**, or **refuse** it.
@@ -54,23 +55,23 @@ an agreement as granted on the basis of the acknowledgement alone.
 
 ## Common refusal causes → action
 
-| Cause | What you see | Action in Resthome |
+| Cause | What you see | Action in WideCare |
 |---|---|---|
 | **NISS not recognised** | Rejection "unknown beneficiary"; the agreement goes back to *Rejected* | Check the NISS (identity card / eID), correct it, resend. |
 | **Malformed / incomplete NISS** | Rejection "invalid identifier" (format) | Re-enter the 11 digits of the NISS, resend. |
 | **Unknown health insurer number** | Rejection "unknown health insurance fund number" | Check the health insurer and the membership number; prefer identification by NISS; resend. |
-| **Insurability (MDA) not confirmed** | Resthome **blocks the send**: insurability not in order | Re-run / update the [MDA check](mda.md), correct health insurer/NISS, try again. *(Discharge/death notifications are not blocked by this check.)* |
+| **Insurability (MDA) not confirmed** | WideCare **blocks the send**: insurability not in order | Re-run / update the [MDA check](mda.md), correct health insurer/NISS, try again. *(Discharge/death notifications are not blocked by this check.)* |
 | **Incomplete resident data** | Rejection "mandatory data missing" (name, identifier) | Complete the resident record, resend. |
 | **Document (annexe) missing or wrong format** | Send blocked if the annexe is empty; otherwise rejection "invalid document format" | Regenerate / attach the Annexe **as a PDF**, check that it opens, resend. |
 | **Attachment too large** | The send does not go through | Shrink the PDF (reduce the scan size), resend. |
 | **Katz assessment missing or not validated** | Send blocked: "Katz assessment required" | Create, **confirm** then **validate** the Katz; check Annexe 10; resend. |
-| **Duplicate agreement** | Rejection "record already exists" | Do not resend an agreement that has already been transmitted; correct the faulty data (Resthome then regenerates a new notification). |
+| **Duplicate agreement** | Rejection "record already exists" | Do not resend an agreement that has already been transmitted; correct the faulty data (WideCare then regenerates a new notification). |
 | **Wrong annexe / unsuitable type** | Rejection "agreement type not allowed / inconsistent" | Redo the **correct business action** (admission ≠ leave ≠ discharge): **one situation = one annexe**. |
 | **Facility or caregiver not recognised** | Rejection "unknown organisation / provider" | Have the administrator check the eHealth configuration (facility / caregiver INAMI number), resend. |
 
 ## Fix, then resend
 
-1. **Read the reason.** In case of rejection, Resthome shows the **reason in plain language, in
+1. **Read the reason.** In case of rejection, WideCare shows the **reason in plain language, in
    French and Dutch**, directly on the agreement.
 2. **Check what was actually sent.** When the rejection concerns a **document**, the
    **Preview sent annexes** button opens the merged PDF **exactly as it was transmitted** to
@@ -96,8 +97,8 @@ or **Refused**; an electronic reject shows **Rejected**, with its reason.
   11 discharge/death). Do not resend an agreement that has already been transmitted.
 - **Katz validated** before sending for admissions and aggravations.
 - **Active eHealth certificate** and up-to-date facility configuration (INAMI number).
-- **Let Resthome do the work** — manage the resident (admission, leave, return, discharge);
-  Resthome derives the notification. Most often: check and send.
+- **Let WideCare do the work** — manage the resident (admission, leave, return, discharge);
+  WideCare derives the notification. Most often: check and send.
 
 ## Learn more
 

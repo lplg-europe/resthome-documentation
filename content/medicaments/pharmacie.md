@@ -1,11 +1,12 @@
 ---
 modules: [healthcare_medication, healthcare_medical, healthcare_medication_accommodation]
+sectors: [mr, csj]
 ---
 
 # Pharmacy orders
 
 :::{rh-description}
-Order the residents' medicines from their pharmacy in Resthome: the resident's pharmacist, the pharmacy mandate, the basket that fills itself, and the delivery followed like a parcel.
+Order the residents' medicines from their pharmacy in WideCare: the resident's pharmacist, the pharmacy mandate, the basket that fills itself, and the delivery followed like a parcel.
 :::
 
 :::{rh-faq}
@@ -25,7 +26,7 @@ What do I do when the delivery arrives?
 : Tick **Not in the Delivery** on what did not come, then click **Everything Arrived**. What is missing goes back into the basket.
 :::
 
-The residents' medicines come from a pharmacy. Resthome keeps one **basket**
+The residents' medicines come from a pharmacy. WideCare keeps one **basket**
 per pharmacy that fills itself with what is missing, and follows each order
 like a parcel until it arrives.
 

@@ -1,26 +1,27 @@
 ---
 modules: [l10n_health_be_eagreement_light, l10n_health_be_perdiem_ehealth]
 howto_auto: true
+sectors: [mr, csj]
 ---
 
 # Following a request: deadlines and decision
 
 :::{rh-description}
-What happens after an eAgreement Light request is sent: the two acknowledgement levels, the 14-day legal deadline, the 15-day tacit agreement, and how to record the insurer's paper decision in Resthome.
+What happens after an eAgreement Light request is sent: the two acknowledgement levels, the 14-day legal deadline, the 15-day tacit agreement, and how to record the insurer's paper decision in WideCare.
 :::
 
 :::{rh-faq}
 Does the insurer's decision come back electronically in eAgreement Light?
-: No. Electronically you only ever receive an acknowledgement (TAck) or an electronic reject. The medical advisor's actual decision — acceptance or refusal — arrives **on paper**, and you record it in Resthome with the "Paper decision received" button.
+: No. Electronically you only ever receive an acknowledgement (TAck) or an electronic reject. The medical advisor's actual decision — acceptance or refusal — arrives **on paper**, and you record it in WideCare with the "Paper decision received" button.
 
 What is the difference between "Sent" and "Decision pending"?
 : "Sent" means the broker accepted the message: it is on its way, but you have no proof yet that the insurer received it. "Decision pending" means the legal acknowledgement came back — you now have proof of receipt, and you are waiting for the paper letter.
 
 How long do I have to send an eAgreement request?
-: 14 calendar days from the resident's admission. Resthome computes the deadline and flags the request when it approaches or passes. The send is never blocked — a late request can still be regularised on a later invoice.
+: 14 calendar days from the resident's admission. WideCare computes the deadline and flags the request when it approaches or passes. The send is never blocked — a late request can still be regularised on a later invoice.
 
 What happens if the insurer never replies?
-: After 15 days without a response, the agreement is considered **tacitly granted** under the applicable regulation. Resthome tracks the deadline and lets you record the outcome as "Tacit agreement" — with the same effect as an acceptance.
+: After 15 days without a response, the agreement is considered **tacitly granted** under the applicable regulation. WideCare tracks the deadline and lets you record the outcome as "Tacit agreement" — with the same effect as an acceptance.
 
 The status says "Rejected" — is that a refusal?
 : No. "Rejected" is an **electronic** reject: the insurer's system refused the message itself (a structural or data problem), usually within 48 hours. A "Refused" is the medical advisor's decision, on paper. A reject is fixed and resent; a refusal is contested.
@@ -35,7 +36,7 @@ two regulatory deadlines to watch, and how to record the insurer's decision.
 
 In eAgreement Light, **only acknowledgements and rejects travel electronically**.
 The medical advisor's decision — the one that grants or refuses the allowance —
-arrives **by post**. Resthome cannot fetch it: you record it by hand, and the
+arrives **by post**. WideCare cannot fetch it: you record it by hand, and the
 software then does the rest.
 :::
 
@@ -57,7 +58,7 @@ tacit-agreement clock.
 The **Check Response** button, available from **Sent** onwards, asks the platform
 whether anything new has arrived. There is no waiting period to respect on your
 side: if you ask too often, the platform itself replies with a *"please wait"*
-message that Resthome shows you plainly.
+message that WideCare shows you plainly.
 
 :::{admonition} If the acknowledgement comes back negative
 :class: warning
@@ -71,7 +72,7 @@ again.
 ## Deadline 1 — sending: 14 days from admission
 
 Regulation gives the institution **14 calendar days from the resident's
-admission** to transmit the request. Resthome computes the deadline from the
+admission** to transmit the request. WideCare computes the deadline from the
 admission date and shows a status:
 
 | Status | Meaning |
@@ -83,7 +84,7 @@ admission date and shows a status:
 :::{admonition} The send is never blocked
 :class: note
 
-Resthome **informs, it does not forbid**: an exceeded deadline still lets you
+WideCare **informs, it does not forbid**: an exceeded deadline still lets you
 send. A late request can be refused for lateness by the insurer, but a
 regularisation on a later invoice remains possible. Sending late beats not
 sending.
@@ -95,7 +96,7 @@ Once the insurer has acknowledged receipt, they have **15 days** to answer.
 Beyond that, the agreement is **tacitly granted** under the applicable regulation — silence is
 worth acceptance.
 
-Resthome counts from the legal acknowledgement date, falling back on the send
+WideCare counts from the legal acknowledgement date, falling back on the send
 date when no acknowledgement was recorded, and shows where you stand:
 
 | Status | Meaning |

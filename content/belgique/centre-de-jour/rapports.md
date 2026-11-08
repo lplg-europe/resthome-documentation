@@ -1,11 +1,12 @@
 ---
 modules: [resthome_day_care, resthome_day_care_reporting]
+sectors: [csj]
 ---
 
 # Day care figures
 
 :::{rh-description}
-The figures of a day care centre (CSJ) in Resthome: attendance days by category and insurer, places occupancy, the printed register, and the CSJ column of the management dashboards.
+The figures of a day care centre (CSJ) in WideCare: attendance days by category and insurer, places occupancy, the printed register, and the CSJ column of the management dashboards.
 :::
 
 :::{rh-faq}

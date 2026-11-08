@@ -1,5 +1,6 @@
 ---
 modules: [resthome_meal, resthome_geriatric, healthcare_base]
+sectors: [mr, csj]
 ---
 
 # Nutritional monitoring and undernutrition
@@ -9,32 +10,32 @@ Screen for undernutrition and track intake in a nursing home: risk status, MNA, 
 :::
 
 :::{rh-faq}
-How does Resthome identify a resident at risk of undernutrition?
-: Resthome applies screening rules drawn from ESPEN and updates a status: a weight loss of more than 5% in 1 month or more than 10% in 6 months, a BMI below 23 in a resident over 70, or an MNA missing or more than 6 months old move the resident to Re-screen (MNA). A latest MNA of "Malnourished" places the resident directly in Undernutrition. The status is recalculated on every weight change and once a day.
+How does WideCare identify a resident at risk of undernutrition?
+: WideCare applies screening rules drawn from ESPEN and updates a status: a weight loss of more than 5% in 1 month or more than 10% in 6 months, a BMI below 23 in a resident over 70, or an MNA missing or more than 6 months old move the resident to Re-screen (MNA). A latest MNA of "Malnourished" places the resident directly in Undernutrition. The status is recalculated on every weight change and once a day.
 
 Does the undernutrition status change the care allowance?
 : No. Where the country has a care allowance paid by the health insurer, it follows the resident's dependency assessment, not their nutritional status. Undernutrition monitoring is a clinical tool: it triggers assessments (MNA) and alerts, but has no effect on billing.
 
 Where do the energy, protein and fluid targets come from?
-: The ESPEN coefficients (30 kcal/kg, 1 g/kg of protein, 1.6 L for women and 2.0 L for men) are facility-wide settings. Resthome then computes each resident's own target from their weight and sex. The energy band rises to 35 kcal/kg for an underweight resident (BMI less than or equal to 21).
+: The ESPEN coefficients (30 kcal/kg, 1 g/kg of protein, 1.6 L for women and 2.0 L for men) are facility-wide settings. WideCare then computes each resident's own target from their weight and sex. The energy band rises to 35 kcal/kg for an underweight resident (BMI less than or equal to 21).
 
 How is actual intake calculated?
-: From the meal round: for each plate served, you record the amount eaten (Not Eaten, 25%, 50%, 75%, Fully Eaten). Resthome multiplies the per-portion values of the dishes served by this percentage, adds the logged drinks, then compares the 3-day average with the targets.
+: From the meal round: for each plate served, you record the amount eaten (Not Eaten, 25%, 50%, 75%, Fully Eaten). WideCare multiplies the per-portion values of the dishes served by this percentage, adds the logged drinks, then compares the 3-day average with the targets.
 
 Why does the Nutrition tab say nothing was recorded?
-: No meal was served or refused, or no drink was logged, over the last three days. Resthome then shows no coverage and raises no deficit: an empty record is not a good score. Record the round and the drinks.
+: No meal was served or refused, or no drink was logged, over the last three days. WideCare then shows no coverage and raises no deficit: an empty record is not a good score. Record the round and the drinks.
 
 Who receives the undernutrition or deficit alerts?
 : A daily task creates a to-do activity. The undernutrition alert goes to the head nurse (then the manager); nutritional deficit or hydration deficit alerts go first to the kitchen staff, then to the head nurse, then to the manager. Each alert is repeated at most once every 30 days per resident.
 :::
 
-Resthome screens for **undernutrition** and tracks each resident's **intake**,
+WideCare screens for **undernutrition** and tracks each resident's **intake**,
 drawing on the geriatric **ESPEN** recommendations and on established screening
 thresholds. Everything is read in the resident's **Nutrition** tab and on the
 **Meals** statistics page.
 
 The principle: you enter the **weight** and **height**, record the **meals
-served** and the **drinks**; Resthome derives an **undernutrition risk
+served** and the **drinks**; WideCare derives an **undernutrition risk
 status**, **targets** for energy, protein and fluids, a **coverage** of intake,
 and raises **alerts** when a resident falls behind.
 
@@ -59,7 +60,7 @@ preferences.
 
 ### The undernutrition risk status
 
-The **Undernutrition Status** block is computed by Resthome: you do not edit the
+The **Undernutrition Status** block is computed by WideCare: you do not edit the
 status by hand. It shows a coloured badge and the measurements that explain it.
 
 | Displayed status | Meaning | Badge colour |
@@ -75,7 +76,7 @@ Below the badge: the **weight**, the **Height (cm)**, the **BMI**, **Low BMI
 :::{admonition} Enter the height here
 :class: tip
 
-The height is entered directly in the tab. Without it, Resthome shows **Height
+The height is entered directly in the tab. Without it, WideCare shows **Height
 missing**: the BMI cannot be computed and the low-BMI criterion is not
 evaluated, so a thin resident who has not lost weight is not caught.
 :::
@@ -117,7 +118,7 @@ top of the tab recalls the weight loss and asks to perform or renew the MNA.
 :class: warning
 
 The weight loss over 1 and 6 months is computed from the **weights logged in the
-vital signs**. Without regular weigh-ins, Resthome cannot compare and these
+vital signs**. Without regular weigh-ins, WideCare cannot compare and these
 percentages stay at zero.
 :::
 
@@ -202,7 +203,7 @@ the **Amount Eaten** of the plate (**Not Eaten**, **25%**, **50%**, **75%**,
 **Fully Eaten**), at the desk or in the care app. A refused plate counts as not
 eaten.
 
-Resthome multiplies the **per-portion** values of the dishes served by this
+WideCare multiplies the **per-portion** values of the dishes served by this
 percentage. The dishes must carry their values and portions: see [Dishes and
 nutritional values](plats.md).
 
@@ -245,7 +246,7 @@ absent today.
 
 ## The automatic alerts
 
-Every day, Resthome refreshes the screening, the targets and the coverage, then
+Every day, WideCare refreshes the screening, the targets and the coverage, then
 creates **activities** for the residents who fall behind. Each alert is repeated
 at most **once every 30 days** per resident.
 

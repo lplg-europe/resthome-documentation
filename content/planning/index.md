@@ -1,5 +1,6 @@
 ---
 modules: [healthcare_planning]
+sectors: [mr, csj]
 ---
 
 # Staff planning

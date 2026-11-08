@@ -1,11 +1,12 @@
 ---
 modules: [healthcare_medication, healthcare_medical]
+sectors: [mr, csj]
 ---
 
 # The medicine catalogue
 
 :::{rh-description}
-The house's medicine catalogue in Resthome: the medicine record and what the round reads from it, allergens, drug interactions, the list of dosages and what the reading of prescriptions has learned.
+The house's medicine catalogue in WideCare: the medicine record and what the round reads from it, allergens, drug interactions, the list of dosages and what the reading of prescriptions has learned.
 :::
 
 :::{rh-faq}

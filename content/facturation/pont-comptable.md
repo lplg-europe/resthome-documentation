@@ -1,5 +1,6 @@
 ---
 modules: [healthcare_accounting_bridge]
+sectors: [mr, csj, rs]
 ---
 
 # Accounting bridge
@@ -10,7 +11,7 @@ Send the posted resident invoices and credit notes to an accounting database kep
 
 :::{rh-faq}
 When do I need the accounting bridge?
-: When the home's accounting is kept in another database, for example the accountant's own Odoo, while the invoices are issued in Resthome.
+: When the home's accounting is kept in another database, for example the accountant's own Odoo, while the invoices are issued in WideCare.
 
 What is sent to the accounting database?
 : Posted customer invoices and credit notes, and the customers they are addressed to. Drafts, purchases and the split-billing resident statement are never sent.
@@ -25,10 +26,10 @@ Does the bridge create missing accounts or journals over there?
 : No. It looks them up and stops when one is missing. Run the Preflight check first: it lists everything the accounting database still lacks.
 :::
 
-Many homes issue their invoices in Resthome but keep their accounts somewhere
+Many homes issue their invoices in WideCare but keep their accounts somewhere
 else — often in the accountant's own Odoo. The **accounting bridge** carries
 each posted resident invoice and credit note there, and brings back its
-payment state, so the billing team sees in Resthome what is still unpaid.
+payment state, so the billing team sees in WideCare what is still unpaid.
 
 ## What travels
 
@@ -61,10 +62,10 @@ in the accounting database; it never creates them. Before switching it on:
 1. Open **Settings → Sync**, block **Accounting bridge**.
 2. Tick **Bridge the accounting**.
 3. Choose the **Accounting database**:
-   - **Paired Odoo** — the accounting database runs Resthome's sync engine
+   - **Paired Odoo** — the accounting database runs WideCare's sync engine
      too; the two exchange signed events.
    - **Standard Odoo** — an ordinary Odoo (an online one, the accountant's
-     instance) where nothing can be installed; Resthome drives it with a user
+     instance) where nothing can be installed; WideCare drives it with a user
      and an API key.
 4. For a **Standard Odoo**, fill in the **Standard Odoo connection** block:
    **Odoo URL**, **Database**, **Login** (the bridge user's e-mail) and
@@ -125,7 +126,7 @@ With a **Paired Odoo**, the same information appears under **Sync Engine →
 Monitoring**: **Settlements**, **Billing Identities** and **Accounting
 preflight**.
 
-:::{admonition} Pocket money needs the accounting in Resthome
+:::{admonition} Pocket money needs the accounting in WideCare
 :class: warning
 
 [Pocket money](../argent-de-poche/index.md) balances are read from the accounting

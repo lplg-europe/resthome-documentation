@@ -1,5 +1,6 @@
 ---
 modules: [resthome_pocket_money]
+sectors: [mr]
 ---
 
 # Pocket money

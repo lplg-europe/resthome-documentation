@@ -1,5 +1,6 @@
 ---
 modules: [resthome_split_billing]
+sectors: [mr]
 ---
 
 # Split billing

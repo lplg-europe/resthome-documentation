@@ -1,16 +1,17 @@
 ---
 modules: [l10n_health_be_sam, l10n_health_be_medication]
+sectors: [mr, csj]
 ---
 
 # The SAM medication database
 
 :::{rh-description}
-SAM, the Belgian authentic source of medicines, in Resthome: a new medicine made from its SAM package, the SAM tab of a medicine, the SAM database, the catalogue without CNK and the settings of the central service.
+SAM, the Belgian authentic source of medicines, in WideCare: a new medicine made from its SAM package, the SAM tab of a medicine, the SAM database, the catalogue without CNK and the settings of the central service.
 :::
 
 :::{rh-faq}
 What is SAM?
-: SAM (Source Authentique des Médicaments) is the official Belgian medicines database, published by the FAMHP, the INAMI and eHealth. Resthome uses it to fill the house's medicine catalogue with reliable data: CNK code, active ingredient, ATC code, form, strength, manufacturer, official documents.
+: SAM (Source Authentique des Médicaments) is the official Belgian medicines database, published by the FAMHP, the INAMI and eHealth. WideCare uses it to fill the house's medicine catalogue with reliable data: CNK code, active ingredient, ATC code, form, strength, manufacturer, official documents.
 
 How do I add a medicine from SAM?
 : In the catalogue, click **New** and type the name or the CNK in **Find the medicine in SAM**. Pick the package: the whole record fills itself. Or, in the SAM database, tick the packages and click **Add to Catalogue**.
@@ -29,7 +30,7 @@ Where do I find the SAM database?
 :::
 
 **SAM** (Source Authentique des Médicaments, the authentic source of
-medicines) is the official Belgian medicines database. In Resthome it is the
+medicines) is the official Belgian medicines database. In WideCare it is the
 starting point of the house's [medicine catalogue](../medicaments/catalogue.md):
 rather than typing a medicine in, you pick its **package** in SAM and the
 record fills itself.

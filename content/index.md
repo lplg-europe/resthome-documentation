@@ -1,17 +1,55 @@
 ---
 modules: []
+sectors: [mr, csj, rs, gp]
 ---
 
-# Welcome to the Resthome documentation
+# Welcome to the WideCare documentation
 
 :::{rh-description}
-User documentation for Resthome, the software for nursing and care homes built on Odoo: residents, admissions, care and medicines, meals, billing, the family portal, staff planning and quality, with a space for each country's rules.
+User documentation for WideCare, the healthcare software built on Odoo: nursing homes, day care centres, serviced residences and general practitioners, each with its own pages, and a space for each country's rules.
 :::
 
-**Resthome** is the **WideCare** suite for **nursing and care homes**,
-published by LPLG **on Odoo**: residents, admissions, care and medicines,
-meals, billing, the family portal, staff planning and quality, all in one place. This documentation guides you day by day,
-step by step, with screenshots.
+**WideCare** is the healthcare software published by LPLG **on Odoo**. It
+serves several care sectors on a shared base. This documentation guides you
+day by day, step by step, with screenshots.
+
+## Your sector
+
+Choose your sector with the **sector selector** at the top of the page. The
+side bar and the cards below then show only the pages of that sector, and the
+choice is remembered for your next visit.
+
+:::{rh-suites}
+:::
+
+:::{admonition} Nursing homes
+:class: rh-sector rh-sector-mr
+
+**Resthome** is the WideCare product for nursing and care homes, short stay
+included: residents and rooms, admissions, care and medicines, meals, billing,
+the family portal, staff planning and quality.
+:::
+
+:::{admonition} Day care centres
+:class: rh-sector rh-sector-csj
+
+For the people who come by day: their file, the days they come, attendance,
+the care and medicines given on those days, and billing.
+:::
+
+:::{admonition} Serviced residences
+:class: rh-sector rh-sector-rs
+
+For residences that rent housing units with services: units, contracts and
+occupants, notice, monthly billing, meals, calls and service requests.
+:::
+
+:::{admonition} General practitioners
+:class: rh-sector rh-sector-gp
+
+For a general practice: patients, appointments, consultations and per-act
+billing.
+:::
 
 The pages below apply in every country. What comes from a country's own rules —
 its dependency scale, its health insurers, its electronic exchanges, its
@@ -36,6 +74,7 @@ The Belgian dependency scale, the allowance paid by the health insurers, the ele
 :::{grid-item-card} France
 :link: france/index
 :link-type: doc
+:class-item: rh-hidden
 
 Coming soon.
 :::
@@ -43,6 +82,7 @@ Coming soon.
 :::{grid-item-card} Luxembourg
 :link: luxembourg/index
 :link-type: doc
+:class-item: rh-hidden
 
 Coming soon.
 :::
@@ -50,6 +90,7 @@ Coming soon.
 :::{grid-item-card} Germany
 :link: allemagne/index
 :link-type: doc
+:class-item: rh-hidden
 
 Coming soon.
 :::
@@ -57,6 +98,7 @@ Coming soon.
 :::{grid-item-card} Spain
 :link: espagne/index
 :link-type: doc
+:class-item: rh-hidden
 
 Coming soon.
 :::
@@ -89,11 +131,25 @@ The resident's file, the stay, the assessments, the rooms and the condition repo
 From the first enquiry to the move-in: the pipeline, the candidate's file, the admission.
 :::
 
+:::{grid-item-card} Day care centre
+:link: belgique/centre-de-jour/index
+:link-type: doc
+
+The day care centre: approval and day places, the users' days, attendance, care on attendance days and billing.
+:::
+
 :::{grid-item-card} Serviced residences
 :link: residences-services/index
 :link-type: doc
 
 Units, regimes and contracts of a serviced residence: notice, billing, meals, calls and requests.
+:::
+
+:::{grid-item-card} General practice
+:link: medecins/index
+:link-type: doc
+
+The practice of a general practitioner: patients, appointments, consultations and the acts billed.
 :::
 
 :::{grid-item-card} Care
@@ -184,7 +240,7 @@ The complaints register, the residents' council and the observation of preserved
 :link: assistant/index
 :link-type: doc
 
-Ask the documentation a question without leaving Resthome.
+Ask the documentation a question without leaving WideCare.
 :::
 
 :::{grid-item-card} Configuration
@@ -220,6 +276,7 @@ premiers-pas
 residents/index
 admissions/index
 residences-services/index
+medecins/index
 soins/index
 medicaments/index
 soins-mobile/index
@@ -256,6 +313,7 @@ belgique/forfait/index
 belgique/centre-de-jour/index
 belgique/residences-services
 belgique/residences-services-maison-de-repos
+belgique/medecins/index
 belgique/soins
 belgique/sam-base-medicaments
 belgique/medicaments-regles

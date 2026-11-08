@@ -1,11 +1,12 @@
 ---
 modules: [healthcare_medical_planning]
+sectors: [mr, csj]
 ---
 
 # Automatic assignment of care tasks
 
 :::{rh-description}
-Automatic assignment in Resthome: each night the care tasks of the coming day go to the care staff on the planning at their hour and in their sector, evenly, with warnings when nobody of the right role is planned.
+Automatic assignment in WideCare: each night the care tasks of the coming day go to the care staff on the planning at their hour and in their sector, evenly, with warnings when nobody of the right role is planned.
 :::
 
 :::{rh-faq}
@@ -25,7 +26,7 @@ Does it replace an assignment done by hand?
 : No. Only care tasks still unassigned are shared.
 :::
 
-When the house plans its staff in the **Planning** app, Resthome can share the
+When the house plans its staff in the **Planning** app, WideCare can share the
 care tasks among the people at work: each care goes to someone of the right
 role, on duty at its hour, in the resident's sector.
 

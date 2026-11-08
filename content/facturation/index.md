@@ -1,11 +1,12 @@
 ---
 modules: [healthcare_accommodation_billing, resthome_sales, resthome_supplements]
+sectors: [mr, csj]
 ---
 
 # Billing
 
 :::{rh-description}
-Billing periods, the care allowance, supplements, absences, invoice types and invoices in Resthome.
+Billing periods, the care allowance, supplements, absences, invoice types and invoices in WideCare.
 :::
 
 :::{toctree}
@@ -24,7 +25,7 @@ indexation-des-prix
 pont-comptable
 :::
 
-Resthome automates the billing of the home: the **insurer's share** (the care
+WideCare automates the billing of the home: the **insurer's share** (the care
 allowance paid by the health insurer) and the **resident's share**
 (accommodation + supplements), period by period.
 

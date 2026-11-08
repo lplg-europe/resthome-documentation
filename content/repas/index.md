@@ -1,16 +1,17 @@
 ---
 modules: [resthome_meal, resthome_meal_supplements]
+sectors: [mr, csj, rs]
 ---
 
 # Meals
 
 :::{rh-description}
-The Resthome Meals application: menus, dishes, diets, textures, the meal round, nutritional follow-up, hydration, family portal and public menu.
+The WideCare Meals application: menus, dishes, diets, textures, the meal round, nutritional follow-up, hydration, family portal and public menu.
 :::
 
 :::{rh-faq}
 Who can use the Meals application?
-: Every Resthome user can open it. The **Kitchen Staff** role gives access to diets, allergies, menus and dishes without opening the medical record.
+: Every WideCare user can open it. The **Kitchen Staff** role gives access to diets, allergies, menus and dishes without opening the medical record.
 
 Where do I start every day?
 : On the **Dashboard**: click **Create Today's Menus**, fill in the dishes, then **Confirm** each menu. The confirmation lays a place for every resident served at that meal.

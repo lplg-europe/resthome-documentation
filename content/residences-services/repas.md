@@ -1,6 +1,7 @@
 ---
 howto_auto: true
 modules: [serviced_living_meal]
+sectors: [rs]
 ---
 
 # Meals in a residence

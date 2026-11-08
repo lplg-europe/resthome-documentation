@@ -1,6 +1,7 @@
 ---
 howto_auto: true
 modules: [resthome_funding_be]
+sectors: [mr]
 ---
 
 # Computing the allowance

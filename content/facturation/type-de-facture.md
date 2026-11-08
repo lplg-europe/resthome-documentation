@@ -1,5 +1,6 @@
 ---
 modules: [healthcare_accommodation_billing, resthome_split_billing]
+sectors: [mr, csj]
 ---
 
 # Invoice type: in advance or in arrears
@@ -22,7 +23,7 @@ Can I change the invoice type for one month only?
 : Yes. Open the month's billing period, click the resident in the Residents tab and choose an Invoice Type (this period). It applies to that month only.
 
 Why is a resident's row yellow in the billing period?
-: Their invoice type for the month changed after the billing lines were built. Open the row and click Apply the Invoice Type: until then, Resthome refuses to create or post their invoices.
+: Their invoice type for the month changed after the billing lines were built. Open the row and click Apply the Invoice Type: until then, WideCare refuses to create or post their invoices.
 :::
 
 Each resident is billed under an **invoice type**. It answers two questions:
@@ -62,7 +63,7 @@ which writes it back to the resident.
 ### The first invoice of an admission
 
 For a resident billed in advance, the month of admission cannot wait for the
-next billing period. When the stay is **confirmed** or **started**, Resthome
+next billing period. When the stay is **confirmed** or **started**, WideCare
 creates the **first accommodation invoice** on its own: from the admission date
 to the end of the month.
 
@@ -72,7 +73,7 @@ cause, then click **Create First Invoice** on the stay.
 
 ## Change the invoice type during a stay
 
-Change the **Invoice Type** on the contact as above. Resthome applies it **from
+Change the **Invoice Type** on the contact as above. WideCare applies it **from
 today** to the resident's confirmed or running stay:
 
 - **a stay already billed** is closed the day before and continued on a new
@@ -81,7 +82,7 @@ today** to the resident's confirmed or running stay:
 
 The money left hanging by the switch is settled at the same time:
 
-| Switch | What Resthome creates |
+| Switch | What WideCare creates |
 |---|---|
 | **Anticipatory → Arrears** | A **credit note** for the accommodation already billed ahead from today — the posted admission invoice included. Otherwise the resident would pay those days twice. |
 | **Arrears → Anticipatory** | A **catch-up invoice** for the current month, which neither type would otherwise bill. |

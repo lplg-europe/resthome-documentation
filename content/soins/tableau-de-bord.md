@@ -1,11 +1,12 @@
 ---
 modules: [healthcare_medical, resthome_geriatric]
+sectors: [mr, csj]
 ---
 
 # The care dashboard
 
 :::{rh-description}
-The dashboard of the Nursing Care app in Resthome: what needs a hand now, today's agenda, the residents to keep an eye on, and one tile per care screen, for the whole house or one sector.
+The dashboard of the Nursing Care app in WideCare: what needs a hand now, today's agenda, the residents to keep an eye on, and one tile per care screen, for the whole house or one sector.
 :::
 
 :::{rh-faq}
