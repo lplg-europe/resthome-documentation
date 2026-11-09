@@ -14,7 +14,9 @@ sys.path.insert(0, os.path.abspath("_ext"))
 # -- Projet -------------------------------------------------------------------
 project = "WideCare"
 author = "LPLG"
-copyright = "LPLG — CC BY 4.0"
+# Tous droits réservés (plus de CC BY 4.0 depuis le 08/11/2026) : le texte
+# complet du pied de page, par langue, est dans _templates/partials/copyright.html.
+copyright = "2026 LPLG SRL"
 
 # -- Général ------------------------------------------------------------------
 extensions = [

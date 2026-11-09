@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) LPLG — CC BY 4.0
+# Copyright (C) 2026 LPLG SRL — all rights reserved
 # This file is distributed under the same license as the Resthome docs
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
@@ -118,7 +118,7 @@ msgstr "Un document comptabilisé n'est jamais réécrit là-bas. Pour corriger 
 
 #: ../../content/facturation/pont-comptable.md:47
 msgid "1. Prepare the accounting database"
-msgstr "1. Préparer la base comptable"
+msgstr "1\\. Préparer la base comptable"
 
 #: ../../content/facturation/pont-comptable.md:49
 msgid "The bridge **looks up** the journal, the accounts, the taxes and the products in the accounting database; it never creates them. Before switching it on:"
@@ -138,7 +138,7 @@ msgstr "Sur la base comptable, créez un utilisateur pour le pont, puis une clé
 
 #: ../../content/facturation/pont-comptable.md:59
 msgid "2. Switch the bridge on"
-msgstr "2. Activer le pont"
+msgstr "2\\. Activer le pont"
 
 #: ../../content/facturation/pont-comptable.md:61
 msgid "Open **Settings → Sync**, block **Accounting bridge**."
@@ -170,7 +170,7 @@ msgstr "**Enregistrez**."
 
 #: ../../content/facturation/pont-comptable.md:76
 msgid "3. Run the preflight check"
-msgstr "3. Lancer la vérification préalable"
+msgstr "3\\. Lancer la vérification préalable"
 
 #: ../../content/facturation/pont-comptable.md:78
 msgid "Click **Preflight check** (in the settings, or under **Invoicing → Customers → Accounting bridge**). It asks the accounting database every question the bridge will ask — the journal by its code, the accounts by their codes, the taxes — and lists everything missing at once. Create what is missing over there, then click **Check again** until nothing blocks."
@@ -178,7 +178,7 @@ msgstr "Cliquez sur **Vérification préalable** (dans les réglages, ou sous **
 
 #: ../../content/facturation/pont-comptable.md:84
 msgid "4. Send the invoices"
-msgstr "4. Envoyer les factures"
+msgstr "4\\. Envoyer les factures"
 
 #: ../../content/facturation/pont-comptable.md:86
 msgid "With a **Standard Odoo**, the **Invoicing → Customers → Accounting bridge** menu appears:"
@@ -214,7 +214,7 @@ msgstr "Un document que la base comptable refuse (un compte manquant, par exempl
 
 #: ../../content/facturation/pont-comptable.md:113
 msgid "5. Follow the payments"
-msgstr "5. Suivre les paiements"
+msgstr "5\\. Suivre les paiements"
 
 #: ../../content/facturation/pont-comptable.md:115
 msgid "The bridge reads the settlements back from the accounting database on a schedule; **Read settlements now** in the settings does it at once. Each sent invoice then shows, under its due date:"

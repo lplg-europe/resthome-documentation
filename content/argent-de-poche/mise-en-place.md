@@ -7,10 +7,13 @@ sectors: [mr]
 # Setting up pocket money
 
 :::{rh-description}
-Setting up pocket money in WideCare, in five steps: the pocket money account, the two journals, the product that pays in, the resident's record and the monthly provision.
+Setting up pocket money in WideCare: activating it, then five steps: the pocket money account, the two journals, the product that pays in, the resident's record and the monthly provision.
 :::
 
 :::{rh-faq}
+I do not see the Pocket money box on the resident's record. Why?
+: Pocket money is not active yet: activate it in **Apps**, as described at the top of this page.
+
 Do I need one accounting account per resident?
 : No. One account for the whole home is enough: WideCare reads each resident's share from the entries in their name.
 
@@ -25,14 +28,41 @@ Does the provision have to be billed to the resident?
 :::
 
 Setting up pocket money is done once for the home (steps 1 to 3), then once
-per resident (steps 4 and 5). Prepare steps 1 and 2 with your accountant.
+per resident (steps 4 and 5). Agree on steps 1 and 2 with your accountant: the
+account code and the journals are theirs to choose.
+
+## Activate pocket money
+
+Pocket money is not active by default. Until it is, none of the fields below
+appear.
+
+1. Open **Apps** and remove the **Apps** filter from the search bar.
+2. Search for **Argent de poche**: the module keeps that name in every
+   language until it is activated.
+3. On **Argent de poche**, click **Activate**.
+
+:::{admonition} Only with the accounting in WideCare
+:class: warning
+
+Do not activate pocket money when the home keeps its accounts in another
+database through the [accounting bridge](../facturation/pont-comptable.md): the
+balance is read from the accounting entries, and would stay at 0.00.
+:::
 
 ## 1. The pocket money account
 
-Ask your accountant to create **one** accounting account for the money held on
-behalf of the residents. It is a **liability** of the home — money it owes the
-residents — not a revenue account. One account is enough for every resident:
-each entry on it carries the resident's name.
+Create **one** accounting account for the money held on behalf of the
+residents. It is a **liability** of the home — money it owes the residents —
+not a revenue account. One account is enough for every resident: each entry on
+it carries the resident's name.
+
+1. Open **Invoicing** (**Accounting** if you have it) → **Configuration** →
+   **Chart of Accounts**, then click **New**.
+2. Fill in the **Account Name** and the **Code** the accountant chose.
+3. As **Type**, choose **Current Liabilities**.
+4. Save.
+
+![The pocket money account in the chart of accounts: its name and code, and the type Current Liabilities](../assets/screenshots/argent-de-poche/compte-argent-de-poche.webp)
 
 :::{admonition} In Belgium
 :class: rh-country rh-country-be
@@ -43,8 +73,22 @@ The account is created in class 4 of the chart of accounts, for instance
 
 ## 2. The two journals
 
-In **Settings → Billing**, block **Billing Journals**, fill in the two pocket
-money journals:
+First create the pocket money **sales** journal, if the home does not have one
+yet:
+
+1. Open **Invoicing** → **Configuration** → **Journals**, then click **New**.
+2. Give it a **Journal Name**, for instance *Pocket money*.
+3. As **Type**, choose **Sales**, and as **Sequence Prefix** a short code, for
+   instance **POCK**: the second invoices are numbered POCK/….
+4. Save.
+
+![A new sales journal for pocket money, with the type Sales and the prefix POCK](../assets/screenshots/argent-de-poche/journal-pock.webp)
+
+The settlement uses the **Miscellaneous Operations** journal the home already
+has: nothing to create.
+
+Then, in **Settings → Billing**, block **Billing Journals**, fill in the two
+pocket money journals:
 
 ![The Billing Journals block of the settings, with the Pocket money journal set to a sales journal and the settlement journal set to Miscellaneous Operations](../assets/screenshots/argent-de-poche/reglages-journaux.webp)
 
@@ -103,6 +147,9 @@ Back on the resident's record, open the **Stay Agreement** tab and add the
 provision product to the **Recurring Supplements** list, with the **start
 date** of the first month to bill. Change the unit price if the amount granted
 differs from the product's price.
+
+The provision is billed in full once a month, even for a month the resident
+arrives or leaves part way through: it is not prorated.
 
 ![The Recurring Supplements of a resident, with the Pocket money product added from 1 December](../assets/screenshots/argent-de-poche/habitant-provision.webp)
 

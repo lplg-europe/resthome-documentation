@@ -60,6 +60,11 @@ the resident receives the single invoice they always received.
 
    ![The second invoice, in the Pocket money journal, with the hairdresser and the pedicure, marked Paid with the settlement date under the total](../assets/screenshots/argent-de-poche/facture-enveloppe-payee.webp)
 
+   To open the settlement entry, click the ⓘ icon on the **Paid on** line
+   under the total, then **View**. The entry carries the invoice's date and
+   the reference **Pocket money settlement — POCK/…**, with the number of the
+   invoice it paid.
+
 The ordinary invoice, for its part, stays **to be paid** by whoever pays it —
 the resident, the family or the public body — like any invoice.
 
@@ -119,12 +124,27 @@ partner on the pocket money line, the entry is not counted in their balance.
 
 - **Back to draft** — putting the second invoice back to draft deletes the
   settlement entry, and the balance goes back up.
+- **A purchase billed by mistake** — on the second invoice, click
+  **Credit Note**, then **Reverse**, and post the credit note: the amount goes
+  back into the balance. **Reverse and Create Invoice** cancels the invoice
+  and its settlement, and opens a new second invoice to correct and post.
+- **A purchase added after the month was posted** — add it to the resident's
+  envelope as usual. It goes on a corrective invoice in the pocket money
+  journal, listed under **Corrective documents** on the period (**Refresh** if
+  it is not there yet). Posting it pays it out of the balance.
 - **Not enough money** — the settlement is passed anyway; the balance becomes
   negative and the record shows **Pocket money overdrawn**.
 - **No settlement journal** — nothing happens on posting: the accountant
   passes the settlement by hand, and the balance only shows what came in.
 - **No pocket money journal** — the purchases stay on the ordinary invoice and
   are not paid out of the pocket money.
+- **Pocket money ticked after the invoices were created** — on the period,
+  click **Reset to Draft**, then **Generate** and **Create Invoices** again:
+  the purchases move to a second invoice in the pocket money journal.
+  Residents whose invoice is already posted are not changed.
+- **Pocket money journal changed** — a draft second invoice moves to the new
+  journal the next time the period is generated. One that already has a
+  number stays in its journal.
 
 ## What's next
 

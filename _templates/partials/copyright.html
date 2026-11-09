@@ -1,0 +1,27 @@
+{#- Override sphinx-immaterial : pied de page « tous droits réservés » de LPLG,
+    dans la langue de la page (build_docs.py passe -D language=fr|nl|en).
+    Remplace le « © Copyright … » du thème (le © dit déjà « copyright »). -#}
+{%- set legal_url = "https://www.lplg.eu/mentions-legales" %}
+<div class="md-copyright">
+  {% if show_copyright %}
+    <div class="md-footer-copyright__highlight">
+      {%- if language == "nl" %}
+        &#169; {{ copyright|e }}. Alle rechten voorbehouden. Elke reproductie, zelfs gedeeltelijk, is verboden zonder schriftelijke toestemming van LPLG.
+      {%- elif language == "en" %}
+        &#169; {{ copyright|e }}. All rights reserved. No reproduction, even partial, without the written consent of LPLG.
+      {%- else %}
+        &#169; {{ copyright|e }}. Tous droits réservés. Toute reproduction, même partielle, est interdite sans l'accord écrit de LPLG.
+      {%- endif %}
+    </div>
+    <div>
+      {%- if language == "nl" %}
+        WideCare en LPLG zijn merken van LPLG SRL; Odoo is een merk van Odoo S.A. · <a href="{{ legal_url }}">Juridische vermeldingen</a>
+      {%- elif language == "en" %}
+        WideCare and LPLG are trademarks of LPLG SRL; Odoo is a trademark of Odoo S.A. · <a href="{{ legal_url }}">Legal notice</a>
+      {%- else %}
+        WideCare et LPLG sont des marques de LPLG SRL ; Odoo est une marque d'Odoo S.A. · <a href="{{ legal_url }}">Mentions légales</a>
+      {%- endif %}
+    </div>
+  {% endif %}
+  {{ rendered_extracopyright }}
+</div>

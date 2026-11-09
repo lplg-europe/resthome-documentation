@@ -117,4 +117,4 @@ tard — le Markdown de ce dépôt est la source idéale.
 
 ## Licence
 
-Documentation sous licence **CC BY 4.0** (voir `LICENSE`).
+© 2026 LPLG SRL — **tous droits réservés** (voir `LICENSE`).

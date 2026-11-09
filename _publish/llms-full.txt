@@ -1831,16 +1831,16 @@ L’ordre n’est pas arbitraire : chaque étape **alimente la suivante**, et en
 
 ```
 graph LR
-  Z[0. Entrées et sorties] --> A[1. Absences]
-  A --> B[2. Suppléments]
-  B --> C[3. Générer]
-  C --> D[4. Facturer]
-  D --> E[5. Clôturer]
+  Z[0\. Entrées et sorties] --> A[1\. Absences]
+  A --> B[2\. Suppléments]
+  B --> C[3\. Générer]
+  C --> D[4\. Facturer]
+  D --> E[5\. Clôturer]
 ```
 
 ## Avant de générer
 
-### 0. Check the arrivals and departures
+### 0. Vérifier les entrées et sorties
 
 Sur le [tableau de bord de la facturation](../tableau-de-bord/), le panneau **Entrées et sorties du mois** liste qui est arrivé et qui est parti. Vérifiez que chaque départ est enregistré avec sa date, et que chaque nouvel habitant a un séjour actif et le bon [type de facture](../type-de-facture/).
 
@@ -2471,7 +2471,7 @@ Quelques règles à connaître :
 
 L’[assistant d’admission](../../admissions/admettre/) porte la même liste : les débiteurs peuvent être encodés tout de suite. Si l’habitant en a déjà, l’assistant les montre pour information, avec une note qui renvoie à la fiche de l’habitant plutôt qu’à la fenêtre.
 
-## 4. When the debtors or the type change
+## 4. Quand les débiteurs ou le type changent
 
 - **Un séjour en cours suit les débiteurs de l’habitant.** Un débiteur ajouté, modifié ou retiré s’applique dès la prochaine génération d’un mois pas encore facturé. Le formulaire du séjour montre la même liste **Partenaires de facturation partagée** et permet de la modifier : le changement est écrit sur l’habitant.
 - **Un séjour terminé garde ses débiteurs.** Ses **Partenaires de facturation partagée tels que facturés** restent tels quels, de sorte qu’un mois régénéré plus tard est réparti comme il a été facturé.
@@ -5198,7 +5198,7 @@ Dans l’onglet **Habitants**, vous trouvez ligne par ligne :
 
 Les autres onglets : **Lignes de facturation** (le détail des lignes), **Factures**, **eHealth** (les échanges) et **Info**.
 
-## 3. Check the period and the insurability
+## 3. Vérifier la période et l’assurabilité
 
 C’est l’étape la plus importante. En haut de la période, des **compteurs** donnent l’état de santé du mois : **Factures**, **Absences**, **Non facturés**, **MDA**, **Accords** et **Katz à faire** (habitants dont l’évaluation Katz manque ou est à renouveler). Un habitant sans Katz validée ne reçoit aucun forfait : sa ligne affiche **Pas de Katz**.
 
@@ -5215,7 +5215,7 @@ Traitez chaque point (bouton **Fait** une fois réglé) avant de facturer.
 
 **Vérifier MDA** — une fois la période générée, le bouton **Vérifier MDA** envoie aux mutuelles une requête d’assurabilité par habitant de la période, en un lot groupé. C’est l’étape suivante tant qu’un habitant facturé à une mutuelle n’a pas de requête ; l’étape est franchie dès que toutes les requêtes sont **envoyées**, sans attendre les réponses. **Réessayer les MDA échoués** renvoie les requêtes tombées en erreur. Un habitant sans couverture valide ne peut pas être facturé en tiers payant.
 
-## 4. Generate the eFact (the batches)
+## 4. Générer l’eFact (les lots)
 
 Une fois le MDA demandé, cliquez sur **Générer eFact**, puis sur **Générer les envois** dans la fenêtre qui s’ouvre. WideCare constitue les **lots** à partir des lignes mutuelle de la période — et non des factures, qui n’existent pas encore — un fichier électronique par organisme assureur, puis affiche la liste des **Envois eFact**.
 
@@ -5234,7 +5234,7 @@ Chaque ligne de lot affiche :
 - les **montants** : facturé, accepté, refusé ;
 - en cas de refus, le **code** et le **motif** de rejet.
 
-## 5. Create the invoices (Generated → Invoiced)
+## 5. Créer les factures (Généré → Facturé)
 
 Une fois l’eFact constitué, cliquez sur **Créer les factures**. WideCare crée les **factures habitant** (part à charge de l’habitant / de la famille) en **brouillon** : vérifiez-les, puis cliquez sur **Confirmer**. La période passe à l’état **Facturé**.
 
