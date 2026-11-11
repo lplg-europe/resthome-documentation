@@ -77,12 +77,19 @@ Réserver aux mises en garde / astuces utiles, sans en abuser.
 
 ## Images et captures
 
-- **Largeur 768–933 px** (pas de plein écran). **Compresser** les PNG/WebP.
+- **Captures tutoriels annotées** pour chaque étape d'une fonctionnalité :
+  bandeau « Étape N » + titre, encadrés et pastilles numérotées sur ce qu'il
+  faut voir, notes (titre + 1 phrase) **dans les marges**, reliées par une
+  flèche fine. Rien ne recouvre l'écran : ni note, ni pastille sur du texte.
+- **Nettes** : capturées à DPR 2 (téléphone : DPR 3, viewport 440 px) depuis le
+  vrai écran, jamais une capture JPEG agrandie ; WebP qualité 90.
+- **Couleurs WideCare douces** : bleu #0F43FF en traits fins et voile léger,
+  jaune #FBBC05 seulement pour la pastille « Étape », fond #F6F8FD, notes sur
+  carte blanche. Pas d'aplat bleu ni de couleur franche ; jamais de rouge.
+- **Une image par langue** : `nom.fr.webp`, `nom.nl.webp`, `nom.webp` (EN) ;
+  Sphinx choisit seul (`figure_language_filename` dans `conf.py`). La page
+  référence `nom.webp`.
 - **Texte alt** = une phrase décrivant l'action, non répétitive.
-- **Annotations** uniquement celles de l'outil de capture : pastilles numérotées
-  (le numéro = l'étape de la page), encadré bleu sur ce qu'il faut lire, curseur
-  sur le bouton à cliquer. Jamais de rouge (il veut dire « erreur » à l'écran),
-  jamais de flèche ou de rectangle dessiné à la main : recadrer et légender.
 - Fichiers en **minuscules-avec-traits-d'union**, rangés sous `content/assets/…`.
 - Placeholder tant que la capture manque : `<!-- screenshot to add: … -->`.
 

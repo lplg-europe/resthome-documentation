@@ -49,6 +49,7 @@ myst_heading_anchors = 3
 # Chemin ABSOLU : sphinx-build (base = content/) et sphinx-intl (base = cwd) ne
 # résolvent pas les chemins relatifs pareil → on force l'absolu, seul robuste.
 locale_dirs = [os.path.join(os.path.dirname(os.path.abspath(__file__)), "locale")]
+figure_language_filename = "{root}.{language}{ext}"  # name.fr.webp / name.nl.webp, fallback name.webp (EN)
 gettext_compact = False        # un catalogue par page (granulaire)
 # PAS de "literal-block" dans gettext_additional_targets, et ce n'est pas un
 # oubli : les pages sont écrites en MyST, or Sphinx re-parse le message traduit
