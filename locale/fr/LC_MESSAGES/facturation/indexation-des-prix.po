@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 17:25+0200\n"
+"POT-Creation-Date: 2026-11-09 11:19+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -20,146 +20,234 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: ../../content/facturation/indexation-des-prix.md:6
+#: ../../content/facturation/indexation-des-prix.md:7
 msgid "Price indexation"
 msgstr "Indexation des prix"
 
-#: ../../content/facturation/indexation-des-prix.md:9
+#: ../../content/facturation/indexation-des-prix.md:10
 msgid "Raise the selling prices of supplements by a percentage from a given date, keep the history of every price, and bill each month at the price in force."
 msgstr "Augmentez les prix de vente des suppléments d'un pourcentage à partir d'une date donnée, gardez l'historique de chaque prix et facturez chaque mois au prix en vigueur."
 
-#: ../../content/facturation/indexation-des-prix.md:13
+#: ../../content/facturation/indexation-des-prix.md:14
 msgid "How do I index the prices of the supplements?"
 msgstr "Comment indexer les prix des suppléments ?"
 
-#: ../../content/facturation/indexation-des-prix.md:14
-msgid "In Billing → Facturation → Products, select the products, then Actions → Index prices. Enter the percentage, the date it applies from and a note, then click Apply."
-msgstr "Dans Facturation → Facturation → Produits, sélectionnez les produits, puis Actions → Indexer les prix. Saisissez le pourcentage, la date à partir de laquelle il s'applique et une note, puis cliquez sur Appliquer."
+#: ../../content/facturation/indexation-des-prix.md:15
+msgid "In Billing → Facturation → Products, switch to the list view and tick the products, then Actions → Index prices. Enter the percentage, the date it applies from and a note, then click Apply."
+msgstr "Dans Facturation → Facturation → Produits, passez en vue liste et cochez les produits, puis Actions → Indexer les prix. Saisissez le pourcentage, la date à partir de laquelle il s'applique et une note, puis cliquez sur Appliquer."
 
-#: ../../content/facturation/indexation-des-prix.md:16
+#: ../../content/facturation/indexation-des-prix.md:17
+msgid "Why is Index prices missing from the Actions menu?"
+msgstr "Pourquoi Indexer les prix n'apparaît-il pas dans le menu Actions ?"
+
+#: ../../content/facturation/indexation-des-prix.md:18
+msgid "The products open as cards, which do not offer it: switch to the list view. It is not in Configuration → Supplement Types either, and only billing managers and the home's managers see it."
+msgstr "Les produits s'ouvrent en cartes, qui ne proposent pas l'action : passez en vue liste. Elle n'est pas non plus dans Configuration → Types de suppléments, et seuls les responsables de la facturation et les gestionnaires de la maison la voient."
+
+#: ../../content/facturation/indexation-des-prix.md:20
 msgid "Can I record an indexation before it applies?"
 msgstr "Puis-je enregistrer une indexation avant qu'elle s'applique ?"
 
-#: ../../content/facturation/indexation-des-prix.md:17
+#: ../../content/facturation/indexation-des-prix.md:21
 msgid "Yes. The new price starts on the date you enter; the product's sales price changes on its own that morning."
 msgstr "Oui. Le nouveau prix commence à la date saisie ; le prix de vente du produit change de lui-même ce matin-là."
 
-#: ../../content/facturation/indexation-des-prix.md:19
+#: ../../content/facturation/indexation-des-prix.md:23
 msgid "Does an indexation change the price of residents' conventions?"
 msgstr "Une indexation change-t-elle le prix des conventions des habitants ?"
 
-#: ../../content/facturation/indexation-des-prix.md:20
+#: ../../content/facturation/indexation-des-prix.md:24
 msgid "Yes, for every line that follows the official price. A line with Negotiated price ticked keeps its own price."
 msgstr "Oui, pour chaque ligne qui suit le prix officiel. Une ligne où Prix négocié est coché garde son propre prix."
 
-#: ../../content/facturation/indexation-des-prix.md:22
+#: ../../content/facturation/indexation-des-prix.md:26
+msgid "Does an indexation change the room price of a resident already staying?"
+msgstr "Une indexation change-t-elle le prix de la chambre d'un habitant déjà présent ?"
+
+#: ../../content/facturation/indexation-des-prix.md:27
+msgid "No. Indexing the product of a room type changes the price of that type, given to the admissions from that date. A running stay keeps the Daily Rate it was given at admission."
+msgstr "Non. Indexer le produit d'un type de chambre change le prix de ce type, donné aux admissions à partir de cette date. Un séjour en cours garde le Tarif journalier reçu à l'admission."
+
+#: ../../content/facturation/indexation-des-prix.md:29
 msgid "Which price is used when an old month is billed again?"
 msgstr "Quel prix est utilisé quand un ancien mois est refacturé ?"
 
-#: ../../content/facturation/indexation-des-prix.md:23
+#: ../../content/facturation/indexation-des-prix.md:30
 msgid "The price in force that month. A period regenerated in September bills July at July's price."
 msgstr "Le prix en vigueur ce mois-là. Une période régénérée en septembre facture juillet au prix de juillet."
 
-#: ../../content/facturation/indexation-des-prix.md:25
+#: ../../content/facturation/indexation-des-prix.md:32
 msgid "Can I delete the price history?"
 msgstr "Puis-je supprimer l'historique des prix ?"
 
-#: ../../content/facturation/indexation-des-prix.md:26
+#: ../../content/facturation/indexation-des-prix.md:33
 msgid "No. The master pricelist holds every price already charged to residents: it cannot be deleted, only archived."
 msgstr "Non. La liste de prix maîtresse contient chaque prix déjà facturé aux habitants : elle ne peut pas être supprimée, seulement archivée."
 
-#: ../../content/facturation/indexation-des-prix.md:29
+#: ../../content/facturation/indexation-des-prix.md:36
 msgid "Selling prices move every year: an index is published with a date, and every supplement price follows. WideCare records each indexation as a new price starting on its date, and keeps the previous ones. Each month is then billed at the price in force during that month."
 msgstr "Les prix de vente évoluent chaque année : un indice est publié avec une date, et chaque prix de supplément le suit. WideCare enregistre chaque indexation comme un nouveau prix qui commence à sa date, et conserve les précédents. Chaque mois est ensuite facturé au prix en vigueur pendant ce mois."
 
-#: ../../content/facturation/indexation-des-prix.md:34
+#: ../../content/facturation/indexation-des-prix.md:41
 msgid "1. Select the products"
 msgstr "1\\. Sélectionner les produits"
 
-#: ../../content/facturation/indexation-des-prix.md:36
+#: ../../content/facturation/indexation-des-prix.md:43
 msgid "Open the **Billing** app → **Facturation → Products**."
 msgstr "Ouvrez l'application **Facturation** → **Facturation → Produits**."
 
-#: ../../content/facturation/indexation-des-prix.md:37
-msgid "Tick the products to index (filter or group the list first if needed)."
-msgstr "Cochez les produits à indexer (filtrez ou regroupez la liste d'abord si nécessaire)."
+#: ../../content/facturation/indexation-des-prix.md:44
+msgid "Switch to the list view, with the button at the top right: the products open as cards, and the cards do not offer the action."
+msgstr "Passez en vue liste, avec le bouton en haut à droite : les produits s'ouvrent en cartes, et les cartes ne proposent pas l'action."
 
-#: ../../content/facturation/indexation-des-prix.md:38
+#: ../../content/facturation/indexation-des-prix.md:46
+msgid "Search for the products to index — part of their name, or their **Product Category** — and tick them. The box at the top of the column ticks every line shown."
+msgstr "Recherchez les produits à indexer — une partie de leur nom, ou leur **Catégorie de produits** — et cochez-les. La case en tête de colonne coche toutes les lignes affichées."
+
+#: ../../content/facturation/indexation-des-prix.md:49
 msgid "Click **Actions → Index prices**."
 msgstr "Cliquez sur **Actions → Indexer les prix**."
 
-#: ../../content/facturation/indexation-des-prix.md:40
-msgid "The action is shown to billing managers and to the home's managers only."
-msgstr "L'action n'est visible que pour les responsables de la facturation et les gestionnaires de la maison."
+#: ../../content/facturation/indexation-des-prix.md:51
+msgid "![The product list in list view, searched on the word Supplément, with its eleven lines ticked and the Actions menu open on Index prices](../assets/screenshots/facturation/indexation-selection.webp)"
+msgstr "![La liste des produits en vue liste, recherchée sur le mot Supplément, avec ses onze lignes cochées et le menu Actions ouvert sur Indexer les prix](../assets/screenshots/facturation/indexation-selection.webp)"
 
-#: ../../content/facturation/indexation-des-prix.md:42
+#: ../../content/facturation/indexation-des-prix.md:51
+msgid "The product list in list view, searched on the word Supplément, with its eleven lines ticked and the Actions menu open on Index prices"
+msgstr "La liste des produits en vue liste, recherchée sur le mot Supplément, avec ses onze lignes cochées et le menu Actions ouvert sur Indexer les prix"
+
+#: ../../content/facturation/indexation-des-prix.md:53
+msgid "The action is shown to billing managers and to the home's managers only. It is not offered in **Billing → Configuration → Supplement Types**."
+msgstr "L'action n'est visible que pour les responsables de la facturation et les gestionnaires de la maison. Elle n'est pas proposée dans **Facturation → Configuration → Types de suppléments**."
+
+#: ../../content/facturation/indexation-des-prix.md:56
 msgid "2. Enter the indexation"
 msgstr "2\\. Saisir l'indexation"
 
-#: ../../content/facturation/indexation-des-prix.md:44
-msgid "The **Index prices** window opens."
-msgstr "La fenêtre **Indexer les prix** s'ouvre."
+#: ../../content/facturation/indexation-des-prix.md:58
+msgid "The **Index prices** window opens, with one line per selected product, all ticked."
+msgstr "La fenêtre **Indexer les prix** s'ouvre, avec une ligne par produit sélectionné, toutes cochées."
 
-#: ../../content/facturation/indexation-des-prix.md:46
-msgid "**Indexation (%)** — how much every selected price moves: 2 means +2 %."
-msgstr "**Indexation (%)** — de combien chaque prix sélectionné évolue : 2 signifie +2 %."
+#: ../../content/facturation/indexation-des-prix.md:61
+msgid "**Indexation (%)** — how much every price moves: 2 means +2 %. A negative value lowers the prices."
+msgstr "**Indexation (%)** — de combien chaque prix évolue : 2 signifie +2 %. Une valeur négative baisse les prix."
 
-#: ../../content/facturation/indexation-des-prix.md:47
-msgid "**Applies from** — the first day the new prices are charged."
-msgstr "**S'applique à partir du** — le premier jour où les nouveaux prix sont facturés."
+#: ../../content/facturation/indexation-des-prix.md:63
+msgid "**Applies from** — the first day the new prices are charged. Today by default; a later date records the indexation in advance."
+msgstr "**S'applique à partir du** — le premier jour où les nouveaux prix sont facturés. Aujourd'hui par défaut ; une date plus tardive enregistre l'indexation à l'avance."
 
-#: ../../content/facturation/indexation-des-prix.md:48
-msgid "**Note** — where the number comes from (the reference of the publication). It is required: it is the whole audit trail."
-msgstr "**Note** — l'origine du chiffre (la référence de la publication). Elle est obligatoire : c'est toute la piste d'audit."
+#: ../../content/facturation/indexation-des-prix.md:65
+msgid "**Note** — where the number comes from: the decision or the publication that sets it. It is required and copied onto every new price: it is the whole audit trail."
+msgstr "**Note** — l'origine du chiffre : la décision ou la publication qui le fixe. Elle est obligatoire et recopiée sur chaque nouveau prix : c'est toute la piste d'audit."
 
-#: ../../content/facturation/indexation-des-prix.md:51
-msgid "The table lists each product with its **Current** and **Indexed** price. Untick **Index** on a product to leave its price alone. **Products selected** and **To be indexed** count them."
-msgstr "Le tableau liste chaque produit avec son prix **Actuel** et son prix **Indexé**. Décochez **Indexer** sur un produit pour laisser son prix tel quel. **Produits sélectionnés** et **À indexer** les comptent."
+#: ../../content/facturation/indexation-des-prix.md:68
+msgid "Untick **Index** on a product to leave its price alone."
+msgstr "Décochez **Indexer** sur un produit pour laisser son prix tel quel."
 
-#: ../../content/facturation/indexation-des-prix.md:55
+#: ../../content/facturation/indexation-des-prix.md:70
+msgid "![The Index prices window filled in: 2 %, from 1 January 2027, a note, and two of the eleven products unticked](../assets/screenshots/facturation/indexation-fenetre.webp)"
+msgstr "![La fenêtre Indexer les prix remplie : 2 %, à partir du 1er janvier 2027, une note, et deux des onze produits décochés](../assets/screenshots/facturation/indexation-fenetre.webp)"
+
+#: ../../content/facturation/indexation-des-prix.md:70
+msgid "The Index prices window filled in: 2 %, from 1 January 2027, a note, and two of the eleven products unticked"
+msgstr "La fenêtre Indexer les prix remplie : 2 %, à partir du 1er janvier 2027, une note, et deux des onze produits décochés"
+
+#: ../../content/facturation/indexation-des-prix.md:72
+msgid "**Current** is the price in force on the **Applies from** date, an indexation already recorded before that date included, and **Indexed** the new price, rounded to the cent. **Products selected** counts the lines, **To be indexed** the ticked ones."
+msgstr "**Actuel** est le prix en vigueur à la date **S'applique à partir du**, y compris une indexation déjà enregistrée avant cette date, et **Indexé** le nouveau prix, arrondi au centime. **Produits sélectionnés** compte les lignes, **À indexer** celles qui sont cochées."
+
+#: ../../content/facturation/indexation-des-prix.md:77
 msgid "3. Apply"
 msgstr "3\\. Appliquer"
 
-#: ../../content/facturation/indexation-des-prix.md:57
-msgid "Click **Apply**. For each product, the price in force is closed the day before the date, and the new one starts on that date, so no day is priced twice. The list of the **Indexed prices** just created opens."
-msgstr "Cliquez sur **Appliquer**. Pour chaque produit, le prix en vigueur est clôturé la veille de la date, et le nouveau commence à cette date : aucun jour n'a deux prix. La liste des **Prix indexés** qui viennent d'être créés s'ouvre."
+#: ../../content/facturation/indexation-des-prix.md:79
+msgid "Click **Apply**. For each ticked product, the price in force is closed the day before the date, and the new one starts on that date, so no day is priced twice. The list of the **Indexed prices** just created opens."
+msgstr "Cliquez sur **Appliquer**. Pour chaque produit coché, le prix en vigueur est clôturé la veille de la date, et le nouveau commence à cette date : aucun jour n'a deux prix. La liste des **Prix indexés** qui viennent d'être créés s'ouvre."
 
-#: ../../content/facturation/indexation-des-prix.md:63
+#: ../../content/facturation/indexation-des-prix.md:83
+msgid "![The Indexed prices list: one new price for each ticked product, in the Official prices pricelist](../assets/screenshots/facturation/indexation-prix-indexes.webp)"
+msgstr "![La liste des Prix indexés : un nouveau prix pour chaque produit coché, dans la liste de prix Prix officiels](../assets/screenshots/facturation/indexation-prix-indexes.webp)"
+
+#: ../../content/facturation/indexation-des-prix.md:83
+msgid "The Indexed prices list: one new price for each ticked product, in the Official prices pricelist"
+msgstr "La liste des Prix indexés : un nouveau prix pour chaque produit coché, dans la liste de prix Prix officiels"
+
+#: ../../content/facturation/indexation-des-prix.md:85
 msgid "Where the new price applies"
 msgstr "Où le nouveau prix s'applique"
 
-#: ../../content/facturation/indexation-des-prix.md:65
-msgid "**The product's sales price** — on the date itself, by a job that runs every morning. An indexation can therefore be recorded weeks in advance."
-msgstr "**Le prix de vente du produit** — à la date même, par une tâche qui tourne chaque matin. Une indexation peut donc être enregistrée des semaines à l'avance."
+#: ../../content/facturation/indexation-des-prix.md:87
+msgid "**The product's sales price** — on the date itself, by a job that runs every morning. An indexation can therefore be recorded weeks in advance; until that date, the products keep showing the old price."
+msgstr "**Le prix de vente du produit** — à la date même, par une tâche qui tourne chaque matin. Une indexation peut donc être enregistrée des semaines à l'avance ; jusqu'à cette date, les produits affichent encore l'ancien prix."
 
-#: ../../content/facturation/indexation-des-prix.md:67
+#: ../../content/facturation/indexation-des-prix.md:90
 msgid "**Supplement conventions** — every line that follows the official price. A line with **Negotiated price** ticked keeps its own **Unit Price**."
 msgstr "**Conventions de suppléments** — chaque ligne qui suit le prix officiel. Une ligne où **Prix négocié** est coché garde son propre **Prix unitaire**."
 
-#: ../../content/facturation/indexation-des-prix.md:69
+#: ../../content/facturation/indexation-des-prix.md:92
 msgid "**One-time supplements** — at the price in force for the month of the envelope."
 msgstr "**Suppléments ponctuels** — au prix en vigueur pour le mois de l'enveloppe."
 
-#: ../../content/facturation/indexation-des-prix.md:72
+#: ../../content/facturation/indexation-des-prix.md:94
+msgid "**Rooms** — the product of a room type is indexed like any other: its price is the **Daily Rate** of the type, given to the admissions from that date. A stay already running keeps its own **Daily Rate**: the indexation does not change it."
+msgstr "**Chambres** — le produit d'un type de chambre s'indexe comme les autres : son prix est le **Tarif journalier** du type, donné aux admissions à partir de cette date. Un séjour déjà en cours garde son propre **Tarif journalier** : l'indexation ne le change pas."
+
+#: ../../content/facturation/indexation-des-prix.md:99
+msgid "Serviced residences"
+msgstr "Résidences-services"
+
+#: ../../content/facturation/indexation-des-prix.md:102
+msgid "The price of a housing contract is its own amount, not the price of a product. Change it from the contracts, where the notice and the yearly cap are checked: see [Changing the price](../residences-services/changement-prix.md)."
+msgstr "Le prix d'un contrat de logement est son propre montant, pas le prix d'un produit. Changez-le depuis les contrats, où le préavis et le plafond annuel sont vérifiés : voir [Changer le prix](../residences-services/changement-prix.md)."
+
+#: ../../content/facturation/indexation-des-prix.md:107
+msgid "Read the price history"
+msgstr "Lire l'historique des prix"
+
+#: ../../content/facturation/indexation-des-prix.md:109
+msgid "Every price an indexation creates lives in the **Official prices** pricelist:"
+msgstr "Chaque prix créé par une indexation se trouve dans la liste de prix **Prix officiels** :"
+
+#: ../../content/facturation/indexation-des-prix.md:111
+msgid "**Sales → Products → Pricelists**, then **Official prices**: every product, each price with its **Start Date** and, once a later indexation has replaced it, its **End Date**;"
+msgstr "**Ventes → Produits → Listes de prix**, puis **Prix officiels** : tous les produits, chaque prix avec sa **Date de début** et, une fois remplacé par une indexation suivante, sa **Date de fin** ;"
+
+#: ../../content/facturation/indexation-des-prix.md:114
+msgid "on a product, the **Prices** tab: the prices of that product. Open one to read its **Validity Period** and its **Note**."
+msgstr "sur un produit, l'onglet **Prix** : les prix de ce produit. Ouvrez-en un pour lire sa **Période de validité** et sa **Note**."
+
+#: ../../content/facturation/indexation-des-prix.md:117
+msgid "![The Official prices pricelist, with Master pricelist ticked, each indexed product, its new price and its start date](../assets/screenshots/facturation/indexation-prix-officiels.webp)"
+msgstr "![La liste de prix Prix officiels, Liste de prix maîtresse cochée, avec chaque produit indexé, son nouveau prix et sa date de début](../assets/screenshots/facturation/indexation-prix-officiels.webp)"
+
+#: ../../content/facturation/indexation-des-prix.md:117
+msgid "The Official prices pricelist, with Master pricelist ticked, each indexed product, its new price and its start date"
+msgstr "La liste de prix Prix officiels, Liste de prix maîtresse cochée, avec chaque produit indexé, son nouveau prix et sa date de début"
+
+#: ../../content/facturation/indexation-des-prix.md:119
+msgid "The **Pricelists** menu and the **Prices** tab show when **Pricelists** is ticked in the **Sales** settings."
+msgstr "Le menu **Listes de prix** et l'onglet **Prix** s'affichent quand **Listes de prix** est coché dans les paramètres **Ventes**."
+
+#: ../../content/facturation/indexation-des-prix.md:122
 msgid "The master pricelist"
 msgstr "La liste de prix maîtresse"
 
-#: ../../content/facturation/indexation-des-prix.md:75
-msgid "The price history lives in a pricelist flagged **Master pricelist**, named **Official prices** and created at the first indexation. A company has only one, and it cannot be deleted: it explains every price already invoiced. Each of its rules carries the **Note** of the indexation that created it."
-msgstr "L'historique des prix se trouve dans une liste de prix marquée **Liste de prix maîtresse**, nommée **Prix officiels** et créée à la première indexation. Une société n'en a qu'une, et elle ne peut pas être supprimée : elle explique chaque prix déjà facturé. Chacune de ses règles porte la **Note** de l'indexation qui l'a créée."
+#: ../../content/facturation/indexation-des-prix.md:125
+msgid "**Official prices** is created at the first indexation and flagged **Master pricelist**. A company has only one, and it cannot be deleted: it explains every price already invoiced. Each of its rules carries the **Note** of the indexation that created it."
+msgstr "**Prix officiels** est créée à la première indexation et marquée **Liste de prix maîtresse**. Une société n'en a qu'une, et elle ne peut pas être supprimée : elle explique chaque prix déjà facturé. Chacune de ses règles porte la **Note** de l'indexation qui l'a créée."
 
-#: ../../content/facturation/indexation-des-prix.md:81
+#: ../../content/facturation/indexation-des-prix.md:131
 msgid "Going further"
 msgstr "Pour aller plus loin"
 
-#: ../../content/facturation/indexation-des-prix.md:83
+#: ../../content/facturation/indexation-des-prix.md:133
 msgid "[Supplements](supplements.md)"
 msgstr "[Les suppléments](supplements.md)"
 
-#: ../../content/facturation/indexation-des-prix.md:84
+#: ../../content/facturation/indexation-des-prix.md:134
 msgid "[The Supplements app](application-supplements.md)"
 msgstr "[L'application Suppléments](application-supplements.md)"
 
-#: ../../content/facturation/indexation-des-prix.md:85
+#: ../../content/facturation/indexation-des-prix.md:135
 msgid "[Billing overview](index.md)"
 msgstr "[Vue d'ensemble de la facturation](index.md)"

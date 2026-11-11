@@ -68,7 +68,7 @@ example); each one is granted separately, with its own scopes.
 Meals app is installed, **Health** shows more than the dependency category when
 the care app is installed.
 
-![The list of family accesses: the resident, the relative, their role, what they may see, the account and the status](../assets/screenshots/portail-famille/01-acces.png)
+![The list of family accesses: the resident, the relative, their role, what they may see, the account and the status](../assets/screenshots/portail-famille/acces-liste.webp)
 
 :::{admonition} Health is never opened without consent
 :class: warning

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resthome docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-16 02:17+0200\n"
+"POT-Creation-Date: 2026-11-11 00:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -20,246 +20,294 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: ../../content/portail-famille/acces.md:6
+#: ../../content/portail-famille/acces.md:7
 msgid "Granting an access"
 msgstr "Accorder un accès"
 
-#: ../../content/portail-famille/acces.md:13
-msgid "How does a relative get their login?"
-msgstr "Comment un proche obtient-il son identifiant ?"
-
-#: ../../content/portail-famille/acces.md:16
-msgid "Can I delete an access?"
-msgstr "Puis-je supprimer un accès ?"
-
-#: ../../content/portail-famille/acces.md:17
-msgid "Not while it is active. Revoke it first: the date it was taken back is part of the record."
-msgstr "Pas tant qu'il est actif. Révoquez-le d'abord : la date à laquelle il a été repris fait partie du dossier."
-
-#: ../../content/portail-famille/acces.md:19
-msgid "What happens when the validity date passes?"
-msgstr "Que se passe-t-il quand la date de validité est passée ?"
-
-#: ../../content/portail-famille/acces.md:20
-msgid "The access revokes itself the day after, automatically."
-msgstr "L'accès se révoque de lui-même le lendemain, automatiquement."
-
-#: ../../content/portail-famille/acces.md:52
-msgid "Set the **role**: **Relative**, **Trusted Person** or **Legal Representative**."
-msgstr "Fixez le **rôle** : **Proche**, **Personne de confiance** ou **Représentant légal**."
-
-#: ../../content/portail-famille/acces.md:54
-msgid "Tick what this person may see, under **What This Person May See**: **Liaison Notebook**, **Documents**, **Meals**, **Invoices**, **Health**."
-msgstr "Cochez ce que cette personne peut voir, sous **Ce que cette personne peut voir** : **Carnet de liaison**, **Documents**, **Repas**, **Factures**, **Santé**."
-
-#: ../../content/portail-famille/acces.md:59
-msgid "2. Record the consent, for health data"
-msgstr "2\\. Enregistrer le consentement, pour les données de santé"
-
-#: ../../content/portail-famille/acces.md:61
-msgid "The **Consent** group asks for:"
-msgstr "Le groupe **Consentement** demande :"
-
-#: ../../content/portail-famille/acces.md:64
-msgid "**Consent Date**;"
-msgstr "**Date du consentement** ;"
-
-#: ../../content/portail-famille/acces.md:72
-msgid "![An access: the relative, their role, the boxes of what they may see, and the consent block](../assets/screenshots/portail-famille/02-acces-fiche.png)"
-msgstr "![Un accès : le proche, son rôle, les cases de ce qu'il peut voir, et le bloc du consentement](../assets/screenshots/portail-famille/02-acces-fiche.png)"
-
-#: ../../content/portail-famille/acces.md:72
-msgid "An access: the relative, their role, the boxes of what they may see, and the consent block"
-msgstr "Un accès : le proche, son rôle, les cases de ce qu'il peut voir, et le bloc du consentement"
-
-#: ../../content/portail-famille/acces.md:92
-msgid "the relative has **no e-mail address**;"
-msgstr "le proche n'a **pas d'adresse e-mail** ;"
-
-#: ../../content/portail-famille/acces.md:94
-msgid "the address is already the login of another user."
-msgstr "l'adresse est déjà l'identifiant d'un autre utilisateur."
-
-#: ../../content/portail-famille/acces.md:108
-msgid "4. Revoke"
-msgstr "4\\. Révoquer"
-
-#: ../../content/portail-famille/acces.md:117
-msgid "The account is not deleted"
-msgstr "Le compte n'est pas supprimé"
-
-#: ../../content/portail-famille/acces.md:134
-msgid "Who may do what"
-msgstr "Qui peut faire quoi"
-
-#: ../../content/portail-famille/acces.md:141
-msgid "In other words, a nurse can write in the notebook without being able to open an access to anybody."
-msgstr "Autrement dit, une infirmière peut écrire dans le carnet sans pouvoir ouvrir un accès à qui que ce soit."
-
-#: ../../content/portail-famille/acces.md:144
-msgid "What's next"
-msgstr "Pour continuer"
-
-#: ../../content/portail-famille/acces.md:146
-msgid "[Notebook, documents and invoices](carnet-documents.md)"
-msgstr "[Carnet, documents et factures](carnet-documents.md)"
-
-#: ../../content/portail-famille/acces.md:147
-msgid "[What the relative sees](cote-famille.md)"
-msgstr "[Ce que voit le proche](cote-famille.md)"
-
-#: ../../content/portail-famille/acces.md:9
+#: ../../content/portail-famille/acces.md:10
 msgid "Granting, re-inviting and revoking a family portal access in WideCare: role, scopes, consent for health data, validity date and account status."
 msgstr "Accorder, réinviter et révoquer un accès au portail famille dans WideCare : rôle, portées, consentement pour les données de santé, date de validité et état du compte."
 
 #: ../../content/portail-famille/acces.md:14
+msgid "How does a relative get their login?"
+msgstr "Comment un proche obtient-il son identifiant ?"
+
+#: ../../content/portail-famille/acces.md:15
 msgid "Their e-mail address becomes their login. **Grant Access** creates the portal account and sends them the invitation, with a link to choose their password."
 msgstr "Son adresse e-mail devient son identifiant. **Donner l'accès** crée le compte portail et lui envoie l'invitation, avec un lien pour choisir son mot de passe."
 
-#: ../../content/portail-famille/acces.md:22
+#: ../../content/portail-famille/acces.md:17
+msgid "Can I delete an access?"
+msgstr "Puis-je supprimer un accès ?"
+
+#: ../../content/portail-famille/acces.md:18
+msgid "Not while it is active. Revoke it first: the date it was taken back is part of the record."
+msgstr "Pas tant qu'il est actif. Révoquez-le d'abord : la date à laquelle il a été repris fait partie du dossier."
+
+#: ../../content/portail-famille/acces.md:20
+msgid "What happens when the validity date passes?"
+msgstr "Que se passe-t-il quand la date de validité est passée ?"
+
+#: ../../content/portail-famille/acces.md:21
+msgid "The access revokes itself the day after, automatically."
+msgstr "L'accès se révoque de lui-même le lendemain, automatiquement."
+
+#: ../../content/portail-famille/acces.md:23
 msgid "Can I give back an access that was revoked?"
 msgstr "Peut-on rendre un accès révoqué ?"
 
-#: ../../content/portail-famille/acces.md:23
+#: ../../content/portail-famille/acces.md:24
 msgid "Yes. Open it and click **Grant Access** again: it becomes active, with its history kept."
 msgstr "Oui. Ouvrez-le et cliquez à nouveau sur **Donner l'accès** : il redevient actif, avec son historique conservé."
 
-#: ../../content/portail-famille/acces.md:26
+#: ../../content/portail-famille/acces.md:27
 msgid "An access joins **one resident** and **one relative**. You open it from either side:"
 msgstr "Un accès relie **un habitant** et **un proche**. Vous l'ouvrez d'un côté comme de l'autre :"
 
-#: ../../content/portail-famille/acces.md:29
+#: ../../content/portail-famille/acces.md:30
 msgid "from the **resident's record**, **Identity** tab: on the relative's line in **Contact Persons**, click **Portal**;"
 msgstr "depuis la **fiche de l'habitant**, onglet **Identité** : sur la ligne du proche dans **Personnes de contact**, cliquez sur **Portail** ;"
 
-#: ../../content/portail-famille/acces.md:31
+#: ../../content/portail-famille/acces.md:32
 msgid "from the **relative's contact record**, **Family** tab: on the resident's line, click **Portal**;"
 msgstr "depuis la **fiche contact du proche**, onglet **Famille** : sur la ligne de l'habitant, cliquez sur **Portail** ;"
 
-#: ../../content/portail-famille/acces.md:33
+#: ../../content/portail-famille/acces.md:34
 msgid "from **Nursing Home → Family Portal → Accesses**, with **New**."
 msgstr "depuis **Maison de repos → Portail famille → Accès**, avec **Nouveau**."
 
-#: ../../content/portail-famille/acces.md:35
+#: ../../content/portail-famille/acces.md:36
 msgid "**Portal** opens the **Portal Access** dialog of that pair: the existing access, or a new one ready to be granted. The **Portal Access** column next to it shows where the relative stands: **Not invited**, **Invited, never signed in**, **Signed in** or **Revoked**."
 msgstr "**Portail** ouvre la boîte de dialogue **Accès au portail** de ce couple : l'accès existant, ou un nouveau prêt à être accordé. La colonne **Accès au portail** à côté montre où en est le proche : **Pas invité**, **Invité, jamais connecté**, **Connecté** ou **Révoqué**."
 
-#: ../../content/portail-famille/acces.md:40
+#: ../../content/portail-famille/acces.md:41
+msgid "![The resident's contact persons: the relative's line, with its Portal Access status and the Portal button](../assets/screenshots/portail-famille/acces-personnes-contact.webp)"
+msgstr "![Les personnes de contact de l'habitant : la ligne du proche, avec son statut Accès au portail et le bouton Portail](../assets/screenshots/portail-famille/acces-personnes-contact.webp)"
+
+#: ../../content/portail-famille/acces.md:41
+msgid "The resident's contact persons: the relative's line, with its Portal Access status and the Portal button"
+msgstr "Les personnes de contact de l'habitant : la ligne du proche, avec son statut Accès au portail et le bouton Portail"
+
+#: ../../content/portail-famille/acces.md:43
 msgid "A relative not yet in the list"
 msgstr "Un proche pas encore dans la liste"
 
-#: ../../content/portail-famille/acces.md:43
+#: ../../content/portail-famille/acces.md:46
 msgid "Add them first as a **contact person** of the resident (name, relationship, e-mail), save, then click **Portal** on their line. An access created from the **Accesses** menu adds the person to the resident's contact persons by itself."
 msgstr "Ajoutez-le d'abord comme **personne de contact** de l'habitant (nom, lien de parenté, e-mail), enregistrez, puis cliquez sur **Portail** sur sa ligne. Un accès créé depuis le menu **Accès** ajoute de lui-même la personne aux personnes de contact de l'habitant."
 
-#: ../../content/portail-famille/acces.md:48
+#: ../../content/portail-famille/acces.md:51
 msgid "1. Set who and what"
 msgstr "1\\. Définir qui et quoi"
 
-#: ../../content/portail-famille/acces.md:50
+#: ../../content/portail-famille/acces.md:53
 msgid "Check the **resident** (or the **family space**) and the **relative**."
 msgstr "Vérifiez l'**habitant** (ou l'**espace famille**) et le **proche**."
 
-#: ../../content/portail-famille/acces.md:51
+#: ../../content/portail-famille/acces.md:54
 msgid "Check the **E-mail**: it becomes the relative's login."
 msgstr "Vérifiez l'**E-mail** : il devient l'identifiant du proche."
 
-#: ../../content/portail-famille/acces.md:56
+#: ../../content/portail-famille/acces.md:55
+msgid "Set the **role**: **Relative**, **Trusted Person** or **Legal Representative**."
+msgstr "Fixez le **rôle** : **Proche**, **Personne de confiance** ou **Représentant légal**."
+
+#: ../../content/portail-famille/acces.md:57
+msgid "Tick what this person may see, under **What This Person May See**: **Liaison Notebook**, **Documents**, **Meals**, **Invoices**, **Health**."
+msgstr "Cochez ce que cette personne peut voir, sous **Ce que cette personne peut voir** : **Carnet de liaison**, **Documents**, **Repas**, **Factures**, **Santé**."
+
+#: ../../content/portail-famille/acces.md:59
 msgid "Fill in **Valid Until** if the access is temporary. Left empty, the access lasts until it is revoked."
 msgstr "Remplissez **Valable jusqu'au** si l'accès est temporaire. Laissé vide, l'accès dure jusqu'à sa révocation."
 
-#: ../../content/portail-famille/acces.md:63
+#: ../../content/portail-famille/acces.md:62
+msgid "2. Record the consent, for health data"
+msgstr "2\\. Enregistrer le consentement, pour les données de santé"
+
+#: ../../content/portail-famille/acces.md:64
+msgid "The **Consent** group asks for:"
+msgstr "Le groupe **Consentement** demande :"
+
+#: ../../content/portail-famille/acces.md:66
 msgid "**Consent Given By** — **The resident** or **The legal representative**;"
 msgstr "**Consentement donné par** — **L'habitant** ou **Le représentant légal** ;"
 
-#: ../../content/portail-famille/acces.md:65
+#: ../../content/portail-famille/acces.md:67
+msgid "**Consent Date**;"
+msgstr "**Date du consentement** ;"
+
+#: ../../content/portail-famille/acces.md:68
 msgid "**Consent Reference** — where the signed consent is filed, or the decision appointing the representative — and, if you have it, the **Consent Document**."
 msgstr "**Référence du consentement** — où le consentement signé est classé, ou la décision désignant le représentant — et, si vous l'avez, le **Document de consentement**."
 
-#: ../../content/portail-famille/acces.md:69
+#: ../../content/portail-famille/acces.md:72
 msgid "**Consent Given By** and **Consent Date** become required as soon as **Health** is ticked: without them, WideCare refuses to save."
 msgstr "**Consentement donné par** et **Date du consentement** deviennent obligatoires dès que **Santé** est coché : sans eux, WideCare refuse d'enregistrer."
 
 #: ../../content/portail-famille/acces.md:75
+msgid "![The Portal Access dialog of a new access: the relative, their role, what they may see with Health ticked, the filled-in consent and the Grant Access button](../assets/screenshots/portail-famille/acces-fenetre.webp)"
+msgstr "![La fenêtre Accès au portail d'un nouvel accès : le proche, son rôle, ce qu'il peut voir avec Santé coché, le consentement rempli et le bouton Donner l'accès](../assets/screenshots/portail-famille/acces-fenetre.webp)"
+
+#: ../../content/portail-famille/acces.md:75
+msgid "The Portal Access dialog of a new access: the relative, their role, what they may see with Health ticked, the filled-in consent and the Grant Access button"
+msgstr "La fenêtre Accès au portail d'un nouvel accès : le proche, son rôle, ce qu'il peut voir avec Santé coché, le consentement rempli et le bouton Donner l'accès"
+
+#: ../../content/portail-famille/acces.md:77
 msgid "3. Grant the access"
 msgstr "3\\. Accorder l'accès"
 
-#: ../../content/portail-famille/acces.md:77
+#: ../../content/portail-famille/acces.md:79
 msgid "Click **Grant Access**. WideCare:"
 msgstr "Cliquez sur **Donner l'accès**. WideCare :"
 
-#: ../../content/portail-famille/acces.md:79
+#: ../../content/portail-famille/acces.md:81
 msgid "creates the relative's **portal account** if they have none (login = their e-mail address) — someone who already has a user account keeps it;"
 msgstr "crée le **compte portail** du proche s'il n'en a pas (identifiant = son adresse e-mail) — une personne qui a déjà un compte utilisateur le garde ;"
 
-#: ../../content/portail-famille/acces.md:81
+#: ../../content/portail-famille/acces.md:83
 msgid "sets the access to **Active** and dates it in **Invited On**;"
 msgstr "passe l'accès à **Actif** et le date dans **Invité le** ;"
 
-#: ../../content/portail-famille/acces.md:82
+#: ../../content/portail-famille/acces.md:84
 msgid "subscribes the person to the **liaison notebook**;"
 msgstr "abonne la personne au **carnet de liaison** ;"
 
-#: ../../content/portail-famille/acces.md:83
+#: ../../content/portail-famille/acces.md:85
 msgid "sends the **invitation e-mail**, with a button to open the family portal and, for a new account, a link to choose a password. When a **Valid Until** date is set, the e-mail states it."
 msgstr "envoie l'**e-mail d'invitation**, avec un bouton pour ouvrir le portail famille et, pour un nouveau compte, un lien pour choisir un mot de passe. Quand une date **Valable jusqu'au** est fixée, l'e-mail l'indique."
 
-#: ../../content/portail-famille/acces.md:87
+#: ../../content/portail-famille/acces.md:89
 msgid "On an active access, **Re-Invite** sends the invitation again — useful when the relative lost it or never set their password."
 msgstr "Sur un accès actif, **Réinviter** renvoie l'invitation — utile quand le proche l'a perdue ou n'a jamais défini son mot de passe."
 
-#: ../../content/portail-famille/acces.md:90
+#: ../../content/portail-famille/acces.md:92
+msgid "![The same access once granted: Active status, the Re-Invite and Revoke Access buttons, the account invited and never signed in, the invitation date](../assets/screenshots/portail-famille/acces-actif.webp)"
+msgstr "![Le même accès une fois donné : statut Actif, les boutons Réinviter et Révoquer l'accès, le compte invité et jamais connecté, la date d'invitation](../assets/screenshots/portail-famille/acces-actif.webp)"
+
+#: ../../content/portail-famille/acces.md:92
+msgid "The same access once granted: Active status, the Re-Invite and Revoke Access buttons, the account invited and never signed in, the invitation date"
+msgstr "Le même accès une fois donné : statut Actif, les boutons Réinviter et Révoquer l'accès, le compte invité et jamais connecté, la date d'invitation"
+
+#: ../../content/portail-famille/acces.md:94
 msgid "Grant Access is refused when:"
 msgstr "« Donner l'accès » est refusé quand :"
 
-#: ../../content/portail-famille/acces.md:93
+#: ../../content/portail-famille/acces.md:96
+msgid "the relative has **no e-mail address**;"
+msgstr "le proche n'a **pas d'adresse e-mail** ;"
+
+#: ../../content/portail-famille/acces.md:97
 msgid "the **Valid Until** date has already passed — extend it first;"
 msgstr "la date **Valable jusqu'au** est déjà passée — prolongez-la d'abord ;"
 
-#: ../../content/portail-famille/acces.md:96
+#: ../../content/portail-famille/acces.md:98
+msgid "the address is already the login of another user."
+msgstr "l'adresse est déjà l'identifiant d'un autre utilisateur."
+
+#: ../../content/portail-famille/acces.md:100
 msgid "The access then follows the person: **Account** reads **No account**, **Invited, never signed in** or **Signed in**, and **Latest Authentication** gives the date of their last sign-in."
 msgstr "L'accès suit ensuite la personne : **Compte** indique **Pas de compte**, **Invité, jamais connecté** ou **Connecté**, et **Dernière authentification** donne la date de sa dernière connexion."
 
-#: ../../content/portail-famille/acces.md:100
+#: ../../content/portail-famille/acces.md:104
 msgid "The invitation e-mail"
 msgstr "L'e-mail d'invitation"
 
-#: ../../content/portail-famille/acces.md:103
+#: ../../content/portail-famille/acces.md:107
 msgid "The invitation is an ordinary e-mail template, **Family Portal: Invitation**. Your administrator can adapt its wording; the **Family Portal** filter finds it in the list of e-mail templates."
 msgstr "L'invitation est un modèle d'e-mail ordinaire, **Portail famille : invitation**. Votre administrateur peut en adapter le texte ; le filtre **Portail famille** le retrouve dans la liste des modèles d'e-mail."
 
-#: ../../content/portail-famille/acces.md:110
+#: ../../content/portail-famille/acces.md:111
+msgid "![The invitation e-mail received by the relative: the button that opens the family portal, then their login](../assets/screenshots/portail-famille/acces-invitation.webp)"
+msgstr "![L'e-mail d'invitation reçu par le proche : le bouton qui ouvre le portail famille, puis son identifiant](../assets/screenshots/portail-famille/acces-invitation.webp)"
+
+#: ../../content/portail-famille/acces.md:111
+msgid "The invitation e-mail received by the relative: the button that opens the family portal, then their login"
+msgstr "L'e-mail d'invitation reçu par le proche : le bouton qui ouvre le portail famille, puis son identifiant"
+
+#: ../../content/portail-famille/acces.md:114
+msgid "4. Revoke"
+msgstr "4\\. Révoquer"
+
+#: ../../content/portail-famille/acces.md:116
 msgid "**Revoke Access** closes the access, after a confirmation: the person no longer sees anything about the resident, and is unsubscribed from the notebook. The date is kept in **Revoked On**."
 msgstr "**Révoquer l'accès** ferme l'accès, après confirmation : la personne ne voit plus rien de l'habitant, et est désabonnée du carnet. La date est conservée dans **Révoqué le**."
 
-#: ../../content/portail-famille/acces.md:114
+#: ../../content/portail-famille/acces.md:120
+msgid "![A revoked access: the Revoked status, the Revoked On date, and the Grant Access button that gives it back](../assets/screenshots/portail-famille/acces-revoque.webp)"
+msgstr "![Un accès révoqué : le statut Révoqué, la date Révoqué le, et le bouton Donner l'accès qui le rend](../assets/screenshots/portail-famille/acces-revoque.webp)"
+
+#: ../../content/portail-famille/acces.md:120
+msgid "A revoked access: the Revoked status, the Revoked On date, and the Grant Access button that gives it back"
+msgstr "Un accès révoqué : le statut Révoqué, la date Révoqué le, et le bouton Donner l'accès qui le rend"
+
+#: ../../content/portail-famille/acces.md:122
 msgid "An access whose **Valid Until** date has passed is revoked automatically the next day."
 msgstr "Un accès dont la date **Valable jusqu'au** est dépassée est révoqué automatiquement le lendemain."
 
-#: ../../content/portail-famille/acces.md:120
+#: ../../content/portail-famille/acces.md:125
+msgid "The account is not deleted"
+msgstr "Le compte n'est pas supprimé"
+
+#: ../../content/portail-famille/acces.md:128
 msgid "Revoking an access does not disable the person's account: they may hold accesses to other residents, or receive their own invoices."
 msgstr "Révoquer un accès ne désactive pas le compte de la personne : elle peut détenir des accès à d'autres habitants, ou recevoir ses propres factures."
 
-#: ../../content/portail-famille/acces.md:124
+#: ../../content/portail-famille/acces.md:132
 msgid "Find an access"
 msgstr "Retrouver un accès"
 
-#: ../../content/portail-famille/acces.md:126
+#: ../../content/portail-famille/acces.md:134
 msgid "**Nursing Home → Family Portal → Accesses** opens on the **Active** accesses. The filters **Draft**, **Revoked**, **Health Opened** and **Expiring** (an access with a validity date) narrow the list; group it by **Resident**, **Role** or **Status**."
 msgstr "**Maison de repos → Portail famille → Accès** s'ouvre sur le filtre **Actif**. Les filtres **Brouillon**, **Révoqué**, **Santé ouverte** et **À échéance** (un accès avec une date de validité) affinent la liste ; groupez-la par **Habitant**, **Rôle** ou **Statut**."
 
-#: ../../content/portail-famille/acces.md:131
+#: ../../content/portail-famille/acces.md:139
+msgid "![The Accesses list with its search menu open: the Active, Draft, Revoked, Health Opened and Expiring filters, and the grouping by Resident, Role or Status](../assets/screenshots/portail-famille/acces-filtres.webp)"
+msgstr "![La liste des accès avec son menu de recherche ouvert : les filtres Actif, Brouillon, Révoqué, Santé ouverte et À échéance, et le regroupement par Habitant, Rôle ou Statut](../assets/screenshots/portail-famille/acces-filtres.webp)"
+
+#: ../../content/portail-famille/acces.md:139
+msgid "The Accesses list with its search menu open: the Active, Draft, Revoked, Health Opened and Expiring filters, and the grouping by Resident, Role or Status"
+msgstr "La liste des accès avec son menu de recherche ouvert : les filtres Actif, Brouillon, Révoqué, Santé ouverte et À échéance, et le regroupement par Habitant, Rôle ou Statut"
+
+#: ../../content/portail-famille/acces.md:141
 msgid "Every change to an access — person, role, scopes, consent, status, validity — is traced in its history."
 msgstr "Chaque modification d'un accès — personne, rôle, portées, consentement, statut, validité — est tracée dans son historique."
 
-#: ../../content/portail-famille/acces.md:136
+#: ../../content/portail-famille/acces.md:144
+msgid "![The history of an access: its move from Draft to Active, then from Active to Revoked, each with its author and time](../assets/screenshots/portail-famille/acces-historique.webp)"
+msgstr "![L'historique d'un accès : son passage de Brouillon à Actif, puis d'Actif à Révoqué, chacun avec son auteur et son heure](../assets/screenshots/portail-famille/acces-historique.webp)"
+
+#: ../../content/portail-famille/acces.md:144
+msgid "The history of an access: its move from Draft to Active, then from Active to Revoked, each with its author and time"
+msgstr "L'historique d'un accès : son passage de Brouillon à Actif, puis d'Actif à Révoqué, chacun avec son auteur et son heure"
+
+#: ../../content/portail-famille/acces.md:146
+msgid "Who may do what"
+msgstr "Qui peut faire quoi"
+
+#: ../../content/portail-famille/acces.md:148
 msgid "Every nursing home user **reads** the accesses."
 msgstr "Chaque utilisateur de la maison de repos **lit** les accès."
 
-#: ../../content/portail-famille/acces.md:137
+#: ../../content/portail-famille/acces.md:149
 msgid "The **administrative staff**, **managers** and **directors** create, grant, re-invite and revoke them; the **Portal** button only shows for them."
 msgstr "L'**équipe administrative**, les **responsables** et les **directeurs** les créent, les accordent, les réinvitent et les révoquent ; le bouton **Portail** ne s'affiche que pour eux."
 
-#: ../../content/portail-famille/acces.md:139
+#: ../../content/portail-famille/acces.md:151
 msgid "An access can only be **deleted** once it is no longer active."
 msgstr "Un accès ne peut être **supprimé** qu'une fois qu'il n'est plus actif."
+
+#: ../../content/portail-famille/acces.md:153
+msgid "In other words, a nurse can write in the notebook without being able to open an access to anybody."
+msgstr "Autrement dit, une infirmière peut écrire dans le carnet sans pouvoir ouvrir un accès à qui que ce soit."
+
+#: ../../content/portail-famille/acces.md:156
+msgid "What's next"
+msgstr "Pour continuer"
+
+#: ../../content/portail-famille/acces.md:158
+msgid "[Notebook, documents and invoices](carnet-documents.md)"
+msgstr "[Carnet, documents et factures](carnet-documents.md)"
+
+#: ../../content/portail-famille/acces.md:159
+msgid "[What the relative sees](cote-famille.md)"
+msgstr "[Ce que voit le proche](cote-famille.md)"

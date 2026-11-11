@@ -38,6 +38,8 @@ or a new one ready to be granted. The **Portal Access** column next to it shows
 where the relative stands: **Not invited**, **Invited, never signed in**,
 **Signed in** or **Revoked**.
 
+![The resident's contact persons: the relative's line, with its Portal Access status and the Portal button](../assets/screenshots/portail-famille/acces-personnes-contact.webp)
+
 :::{admonition} A relative not yet in the list
 :class: tip
 
@@ -70,8 +72,7 @@ The **Consent** group asks for:
 **Consent Given By** and **Consent Date** become required as soon as **Health**
 is ticked: without them, WideCare refuses to save.
 
-![An access: the relative, their role, the boxes of what they may see, and the consent block](../assets/screenshots/portail-famille/02-acces-fiche.png)
-<!-- screenshot to update: access form with the Grant Access / Re-Invite / Revoke Access buttons and the Latest Authentication field -->
+![The Portal Access dialog of a new access: the relative, their role, what they may see with Health ticked, the filled-in consent and the Grant Access button](../assets/screenshots/portail-famille/acces-fenetre.webp)
 
 ## 3. Grant the access
 
@@ -87,6 +88,8 @@ Click **Grant Access**. WideCare:
 
 On an active access, **Re-Invite** sends the invitation again — useful when the
 relative lost it or never set their password.
+
+![The same access once granted: Active status, the Re-Invite and Revoke Access buttons, the account invited and never signed in, the invitation date](../assets/screenshots/portail-famille/acces-actif.webp)
 
 Grant Access is refused when:
 
@@ -104,6 +107,8 @@ gives the date of their last sign-in.
 The invitation is an ordinary e-mail template, **Family Portal: Invitation**.
 Your administrator can adapt its wording; the **Family Portal** filter finds it
 in the list of e-mail templates.
+
+![The invitation e-mail received by the relative: the button that opens the family portal, then their login](../assets/screenshots/portail-famille/acces-invitation.webp)
 :::
 
 ## 4. Revoke
@@ -111,6 +116,8 @@ in the list of e-mail templates.
 **Revoke Access** closes the access, after a confirmation: the person no longer
 sees anything about the resident, and is unsubscribed from the notebook. The
 date is kept in **Revoked On**.
+
+![A revoked access: the Revoked status, the Revoked On date, and the Grant Access button that gives it back](../assets/screenshots/portail-famille/acces-revoque.webp)
 
 An access whose **Valid Until** date has passed is revoked automatically the
 next day.
@@ -129,8 +136,12 @@ The filters **Draft**, **Revoked**, **Health Opened** and **Expiring** (an acces
 with a validity date) narrow the list; group it by **Resident**, **Role** or
 **Status**.
 
+![The Accesses list with its search menu open: the Active, Draft, Revoked, Health Opened and Expiring filters, and the grouping by Resident, Role or Status](../assets/screenshots/portail-famille/acces-filtres.webp)
+
 Every change to an access — person, role, scopes, consent, status, validity —
 is traced in its history.
+
+![The history of an access: its move from Draft to Active, then from Active to Revoked, each with its author and time](../assets/screenshots/portail-famille/acces-historique.webp)
 
 ## Who may do what
 

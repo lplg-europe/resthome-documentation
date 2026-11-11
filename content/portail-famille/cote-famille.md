@@ -26,11 +26,15 @@ How does a relative get back to the resident's page?
 ## The home page
 
 Once an access is active, the relative's portal shows a **My Family** tile —
-*Follow your relative's stay* — with the number of residents they follow.
+*Follow your relative's stay*.
+
+![The relative's portal home page, with the My Family tile among their other tiles](../assets/screenshots/portail-famille/cote-accueil.webp)
 
 - **Several residents**: the **My Family** page shows one card per resident,
   with the photo, the status badge, the room and the date the stay began.
 - **A single resident**: the portal goes straight to that resident's page.
+
+![The My Family page of a relative who follows two people: a resident with her room, and a day care user with the days he comes](../assets/screenshots/portail-famille/cote-ma-famille.webp)
 
 Without any access, the page says so plainly: no resident is linked to this
 account yet, and the home sends an invitation when it opens one.
@@ -52,13 +56,13 @@ A side panel — above the notebook on a phone — carries what the access opens
 - **Documents** — the documents handed over, with their date and the note for
   the family, to be downloaded.
 - **Invoices** — the number of invoices, and a link to their list.
-- **Meals** — the menus and how the meals went.
+- **Meals** — a link to the meals of the last 30 days.
 
 When a scope is not open, the page says so instead of staying empty: the
 notebook announces that it is not open on this access, the health panel that
 there is nothing to show yet, the documents that none has been shared.
 
-<!-- screenshot to add: the resident's page on the family portal, with the notebook and the side panel -->
+![The resident's page: the header with the photo, the room and the My Family button, the liaison notebook, and the side panel with Health, Documents, Invoices and Meals](../assets/screenshots/portail-famille/cote-habitant.webp)
 
 ## Someone who comes by day
 
@@ -72,6 +76,8 @@ not show a room:
   this month and the previous one, the days they came — the days billed — so
   the family can set them against the invoice.
 
+![The page of a day care user: Day care and his days under the name, the Expected today badge, and the Days at the day centre panel](../assets/screenshots/portail-famille/cote-accueil-jour.webp)
+
 ## The invoices
 
 The **Invoices** link opens the list of the resident's posted invoices: number,
@@ -79,15 +85,27 @@ The **Invoices** link opens the list of the resident's posted invoices: number,
 month), date, due date, amount, status — **Paid**, **Partially paid** or **To
 pay** — and a button to download the PDF.
 
+![The invoices of a resident on the family portal: number, customer, period, dates, amount, status and the PDF button](../assets/screenshots/portail-famille/cote-factures.webp)
+
 An invoice opened from this list keeps the trail **My Family / resident /
 Invoices**, which leads back to the resident rather than to the relative's own
 invoices.
 
 ## The meals
 
-With the **Meals** scope, the **Meals** card opens the resident's menus and how
-the meals went. The trail reads **My Family / resident / Meals**, and the
-**Back** button returns to the resident's page.
+With the **Meals** scope, the **Meals** card opens the resident's meals of the
+last 30 days:
+
+- three counters: the **meals** of the period, the meals **served**, and the
+  meals **eaten well** (75 % or more);
+- the resident's **diets** and **allergies**, when they are recorded;
+- the **meal history**, day by day: each meal, where it was taken (dining room
+  or room), whether it was served, and how much was eaten.
+
+The trail reads **My Family / resident / Meals**, and the **Back** button
+returns to the resident's page.
+
+![The meals of a resident on the family portal: the three counters, then the meal history day by day](../assets/screenshots/portail-famille/cote-repas.webp)
 
 :::{admonition} Meals follow the access too
 :class: note
