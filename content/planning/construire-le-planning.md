@@ -25,6 +25,9 @@ What does a red shift mean?
 
 Who receives the schedule email?
 : Only the staff whose shifts changed since the last sending: a new shift, a changed shift, or a shift removed or taken back to draft. Nobody else is written to.
+
+Who receives the open shifts email?
+: The staff holding the role each open shift asks for, and only for the shifts they can actually take: not busy at that time, with enough rest, the shift not started yet.
 :::
 
 The schedule is built by a **planning manager**, usually one week at a time:
@@ -172,13 +175,37 @@ A confirmed shift not sent yet shows a blue notice on its form.
 
 <!-- screenshot to add: Send the schedule window with the recipients list and the email preview -->
 
+## 6. Send the open shifts
+
+When shifts are still open, offer them to the staff instead of calling round.
+Click **Send the open shifts (n)**. The button appears when the period on screen
+has confirmed shifts with nobody that have not started yet, and when the
+establishment lets the staff take open shifts.
+
+![The schedule chart of a week with three open Infirmier shifts and one open Kinésithérapeute shift, and the Send the open shifts (4) button](../assets/screenshots/planning/envoyer-shifts-ouverts-bouton.webp)
+
+The window lists the **Recipients**: the staff holding the role of each open
+shift (any planning role when the shift asks for none). Choose a person in
+**Preview for** to read the email as they will receive it, then click **Send**.
+
+![The Send the open shifts window: the nurses and physiotherapists who receive the email, and the preview of the email for one nurse with her three open shifts](../assets/screenshots/planning/envoyer-shifts-ouverts-fenetre.webp)
+
+- Each person receives only the open shifts **they can take**: the same check as
+  **Take** — their role, no other shift at that time, enough rest.
+- The email has a **Take an open shift** button to their personal page, where
+  one tap assigns the shift. → [Shifts for the staff](postes-du-personnel.md)
+- First come, first served: a shift taken by someone disappears from the page of
+  the others.
+- Staff without a work email are listed in a warning: they do not receive the
+  email.
+
 ## Useful filters
 
 In the search bar: **My shifts**, **Open shifts**, **Draft**, **Confirmed**,
 **Not sent yet**, **To check**, **Upcoming**, and groupings by **Role**,
 **Sector**, **Staff member**, **Team**, **Status** and **Day**. The **Actions**
-menu of the list also offers **Confirm**, **Send the schedule** and **Auto
-plan** on the selected shifts.
+menu of the list also offers **Confirm**, **Send the schedule**, **Send the
+open shifts** and **Auto plan** on the selected shifts.
 
 ## Learn more
 

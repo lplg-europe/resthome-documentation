@@ -6,7 +6,7 @@ sectors: [mr, csj]
 # Shifts for the staff
 
 :::{rh-description}
-How care staff read their shifts in WideCare — in My shifts, in the schedule email and on a personal page for the phone — and take an open shift of their role.
+How care staff read their shifts in WideCare — in My shifts, in the schedule email and on a personal page for the phone — and take an open shift of their role, offered by email.
 :::
 
 :::{rh-faq}
@@ -18,6 +18,9 @@ Do I need to log in to read my schedule on my phone?
 
 How do I take an open shift?
 : In the Open shifts menu of Planning, click Take this shift, or tap Take on your personal page. The shift becomes yours at once.
+
+Why did I receive an Open shifts email?
+: The planner offers the shifts that still have nobody to the staff of their role. The email lists the ones you can take; its Take an open shift button opens your personal page.
 
 Why can I not take an open shift?
 : It may ask for a role you do not hold, overlap one of your shifts, leave you less rest than the establishment requires, have already started, or the establishment may not let the staff take open shifts.
@@ -48,7 +51,18 @@ The button opens a **personal page**, made for the phone:
 
 The page needs no login. It is personal: keep its link to yourself.
 
-<!-- screenshot to add: personal schedule page on a phone, with My shifts and Open shifts you can take -->
+![The personal page of a nurse: no shift of her own yet, and three open shifts she can take, each with a Take button](../assets/screenshots/planning/page-personnelle-shifts-ouverts.webp)
+
+## The open shifts email
+
+When shifts are still open, the planner can send them to the staff of their
+role. You then receive an **Open shifts** email that lists the shifts you can
+take — day, hours, sector and role — and a **Take an open shift** button. It
+opens your personal page directly on **Open shifts you can take**.
+
+The email only lists the shifts you can actually take. First come, first
+served: a shift someone else has taken in the meantime is no longer on your
+page.
 
 ## Take an open shift
 
@@ -61,6 +75,8 @@ An **open shift** is a confirmed shift that still has nobody. When the setting
 
 The shift is yours at once, and its history notes who took it. The list opens on
 the **Upcoming** shifts: a shift that has started can no longer be taken.
+
+![The personal page once a shift is taken: the confirmation at the top, and the shift now under My shifts](../assets/screenshots/planning/shift-ouvert-pris.webp)
 
 WideCare refuses the shift when:
 
