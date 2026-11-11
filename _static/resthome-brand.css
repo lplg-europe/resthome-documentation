@@ -563,6 +563,26 @@
   border-radius: 1rem; background: var(--lplg-blue); color: #fff; }
 .rh-suite-card__badge.is-soon { background: #FBBC05; color: #1a1a1a; }
 .md-typeset div.rh-suite-card { opacity: 0.85; }
+/* Same cards as the website's forum (/forum): sector photo, light WideCare-blue
+   veil from the bottom, white text. Photos: _static/sectors/<code>.webp. */
+.rh-suite-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem; }
+@media (max-width: 40em) { .rh-suite-cards { grid-template-columns: 1fr; } }
+.md-typeset a.rh-suite-card.is-live { position: relative; overflow: hidden; justify-content: flex-end;
+  min-height: 12rem; padding: 1.1rem 1.2rem; border: 0; border-radius: 12px; color: #fff;
+  background: var(--lplg-blue) center / cover no-repeat; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+  transition: transform 0.15s ease, box-shadow 0.15s ease; }
+.md-typeset a.rh-suite-card.is-live::before { content: ""; position: absolute; inset: 0;
+  background: linear-gradient(to top, rgba(10, 47, 184, 0.62) 0%, rgba(15, 67, 255, 0.36) 40%,
+    rgba(15, 67, 255, 0.04) 70%, rgba(15, 67, 255, 0) 100%); }
+.md-typeset a.rh-suite-card.is-live > * { position: relative; text-shadow: 0 1px 4px rgba(0, 0, 0, 0.55); }
+.md-typeset a.rh-suite-card.is-live .rh-suite-card__name { font-size: 1.35rem; line-height: 1.2; }
+.md-typeset a.rh-suite-card.is-live .rh-suite-card__label { font-size: 0.8rem; opacity: 1; }
+.md-typeset a.rh-suite-card.is-live:hover { transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18); }
+.md-typeset a.rh-suite-card[data-pick-sector="mr"] { background-image: url("sectors/mr.webp"); }
+.md-typeset a.rh-suite-card[data-pick-sector="csj"] { background-image: url("sectors/csj.webp"); }
+.md-typeset a.rh-suite-card[data-pick-sector="rs"] { background-image: url("sectors/rs.webp"); }
+.md-typeset a.rh-suite-card[data-pick-sector="gp"] { background-image: url("sectors/gp.webp"); }
 /* Portail (pas de menus de suite ni de pays) : le titre repousse lui-même le
    reste de l'en-tête à droite. */
 .md-header__inner:not(:has(.rh-switch)) .md-header__title { margin-right: auto; }
