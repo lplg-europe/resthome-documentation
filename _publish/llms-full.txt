@@ -7338,9 +7338,8 @@ Ces réglages ne sont visibles que par les utilisateurs qui détiennent le rôle
 
 | Réglage | Ce qu’il fait | Valeur recommandée |
 | --- | --- | --- |
-| **Données de démonstration** → **Charger les données de démonstration** | Crée des habitants inventés (noms et identifiants fictifs), des chambres, séjours, périodes de facturation, données médicales et repas : le jeu pour montrer le produit. | Une base de **test** ou de formation uniquement. |
-| **Mettre à jour ce qui est chargé** → **Mettre à jour les données** | Relance le chargeur sur le jeu déjà chargé, pour ajouter les enregistrements ajoutés depuis (mobilier, suppléments…) sans dupliquer ceux qui existent. | Test uniquement. |
-| **Charger les données de documentation** | Affiché une fois les données de démonstration chargées. Charge un jeu anonymisé et remplace l’identité de l’établissement par une identité fictive, pour les captures d’écran. | Test uniquement. |
+| **Jeu de démonstration** → **Charger les données de démonstration** | Affiché tant que la base ne contient aucun jeu. Crée des habitants inventés (noms et identifiants fictifs) dans un établissement fictif, avec des chambres, séjours, périodes de facturation, données médicales et repas : le jeu pour montrer le produit. | Une base de **test** ou de formation uniquement. |
+| **Jeu de démonstration** → **Mettre à jour les données** | Remplace le premier bouton une fois le jeu chargé, sous *Chargé dans cette base.* Ajoute ce que WideCare a livré depuis le chargement du jeu (mobilier, suppléments…), sans rien dupliquer. | Après une mise à jour de WideCare, sur la même base de test. |
 
 Jamais sur votre base de données réelle
 

@@ -87,9 +87,8 @@ fictitious residents, rooms, stays and invoices.
 
 | Setting | What it does | Recommended value |
 |---|---|---|
-| **Demonstration data** → **Load Demonstration Data** | Creates invented residents (fictional names and identifiers), rooms, stays, billing periods, medical data and meals: the set to show the product with. | A **test** or training database only. |
-| **Update what is loaded** → **Update Data** | Re-runs the loader on the dataset already loaded, to add records added since (furniture, supplements…) without duplicating existing ones. | Testing only. |
-| **Load Doc Data** | Shown once demonstration data is loaded. Loads an anonymised dataset and replaces the establishment's identity by a fictitious one, for screenshots. | Testing only. |
+| **Demonstration set** → **Load Demonstration Data** | Shown while the database holds no dataset. Creates invented residents (fictional names and identifiers) in a fictitious establishment, with rooms, stays, billing periods, medical data and meals: the set to show the product with. | A **test** or training database only. |
+| **Demonstration set** → **Update Data** | Takes the place of the first button once the set is loaded, under *Loaded in this database.* Adds what WideCare delivered since the set was loaded (furniture, supplements…), without duplicating anything. | After an update of WideCare, on the same test database. |
 
 :::{admonition} Never on your real database
 :class: warning

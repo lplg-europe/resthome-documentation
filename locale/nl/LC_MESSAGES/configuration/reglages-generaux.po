@@ -128,10 +128,6 @@ msgstr "**Lege statistiekkaarten verbergen**"
 msgid "Demo Data"
 msgstr "Demogegevens"
 
-#: ../../content/configuration/reglages-generaux.md:54
-msgid "Testing only."
-msgstr "Enkel voor testen."
-
 #: ../../content/configuration/reglages-generaux.md:93
 msgid "Never on your real database"
 msgstr "Nooit op uw echte database"
@@ -264,33 +260,29 @@ msgstr "Na een opleiding, of wanneer er nieuwe medewerkers bijkomen."
 msgid "*Settings → Nursing Home → Demo Data.* A way to fill a **test** database with fictitious residents, rooms, stays and invoices."
 msgstr "*Instellingen → Rusthuis → Demogegevens.* Een manier om een **test**database te vullen met fictieve bewoners, kamers, verblijven en facturen."
 
-#: ../../content/configuration/reglages-generaux.md:54
-msgid "**Demonstration data** → **Load Demonstration Data**"
-msgstr "**Demonstratiegegevens** → **Demonstratiegegevens laden**"
+#: ../../content/configuration/reglages-generaux.md:55
+msgid "**Demonstration set** → **Load Demonstration Data**"
+msgstr "**Demonstratieset** → **Demonstratiegegevens laden**"
 
-#: ../../content/configuration/reglages-generaux.md:54
-msgid "Creates invented residents (fictional names and identifiers), rooms, stays, billing periods, medical data and meals: the set to show the product with."
-msgstr "Maakt verzonnen bewoners (fictieve namen en identificatienummers), kamers, verblijven, facturatieperiodes, medische gegevens en maaltijden aan: de set om het product mee te tonen."
+#: ../../content/configuration/reglages-generaux.md:55
+msgid "Shown while the database holds no dataset. Creates invented residents (fictional names and identifiers) in a fictitious establishment, with rooms, stays, billing periods, medical data and meals: the set to show the product with."
+msgstr "Zichtbaar zolang de database geen set bevat. Maakt verzonnen bewoners (fictieve namen en identificatienummers) aan in een fictieve instelling, met kamers, verblijven, facturatieperiodes, medische gegevens en maaltijden: de set om het product mee te tonen."
 
 #: ../../content/configuration/reglages-generaux.md:54
 msgid "A **test** or training database only."
 msgstr "Alleen een **test**- of opleidingsdatabase."
 
-#: ../../content/configuration/reglages-generaux.md:54
-msgid "**Update what is loaded** → **Update Data**"
-msgstr "**Bijwerken wat geladen is** → **Gegevens bijwerken**"
+#: ../../content/configuration/reglages-generaux.md:55
+msgid "**Demonstration set** → **Update Data**"
+msgstr "**Demonstratieset** → **Gegevens bijwerken**"
 
-#: ../../content/configuration/reglages-generaux.md:54
-msgid "Re-runs the loader on the dataset already loaded, to add records added since (furniture, supplements…) without duplicating existing ones."
-msgstr "Start de lader opnieuw op de reeds geladen set, om sindsdien toegevoegde records (meubilair, supplementen…) toe te voegen zonder de bestaande te dupliceren."
+#: ../../content/configuration/reglages-generaux.md:55
+msgid "Takes the place of the first button once the set is loaded, under *Loaded in this database.* Adds what WideCare delivered since the set was loaded (furniture, supplements…), without duplicating anything."
+msgstr "Neemt de plaats in van de eerste knop zodra de set geladen is, onder *Geladen in deze database.* Voegt toe wat WideCare sinds het laden van de set heeft geleverd (meubilair, supplementen…), zonder iets te verdubbelen."
 
-#: ../../content/configuration/reglages-generaux.md:54
-msgid "**Load Doc Data**"
-msgstr "**Doc-gegevens laden**"
-
-#: ../../content/configuration/reglages-generaux.md:54
-msgid "Shown once demonstration data is loaded. Loads an anonymised dataset and replaces the establishment's identity by a fictitious one, for screenshots."
-msgstr "Zichtbaar zodra de demonstratiegegevens geladen zijn. Laadt een geanonimiseerde set en vervangt de identiteit van de instelling door een fictieve, voor schermafbeeldingen."
+#: ../../content/configuration/reglages-generaux.md:55
+msgid "After an update of WideCare, on the same test database."
+msgstr "Na een update van WideCare, op dezelfde testdatabase."
 
 #: ../../content/configuration/reglages-generaux.md:96
 msgid "Demonstration data creates **fictitious residents and invoices**. Only use these buttons on a test or training database, **never** on your production environment."

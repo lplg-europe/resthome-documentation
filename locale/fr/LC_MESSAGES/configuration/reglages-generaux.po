@@ -128,10 +128,6 @@ msgstr "**Masquer les cartes statistiques vides**"
 msgid "Demo Data"
 msgstr "Données de démonstration"
 
-#: ../../content/configuration/reglages-generaux.md:54
-msgid "Testing only."
-msgstr "Test uniquement."
-
 #: ../../content/configuration/reglages-generaux.md:93
 msgid "Never on your real database"
 msgstr "Jamais sur votre base de données réelle"
@@ -264,33 +260,29 @@ msgstr "Après une formation, ou à l'arrivée de nouveaux collaborateurs."
 msgid "*Settings → Nursing Home → Demo Data.* A way to fill a **test** database with fictitious residents, rooms, stays and invoices."
 msgstr "*Paramètres → Maison de repos → Données de démonstration.* Un moyen de remplir une base de **test** avec des habitants, chambres, séjours et factures fictifs."
 
-#: ../../content/configuration/reglages-generaux.md:54
-msgid "**Demonstration data** → **Load Demonstration Data**"
-msgstr "**Données de démonstration** → **Charger les données de démonstration**"
+#: ../../content/configuration/reglages-generaux.md:55
+msgid "**Demonstration set** → **Load Demonstration Data**"
+msgstr "**Jeu de démonstration** → **Charger les données de démonstration**"
 
-#: ../../content/configuration/reglages-generaux.md:54
-msgid "Creates invented residents (fictional names and identifiers), rooms, stays, billing periods, medical data and meals: the set to show the product with."
-msgstr "Crée des habitants inventés (noms et identifiants fictifs), des chambres, séjours, périodes de facturation, données médicales et repas : le jeu pour montrer le produit."
+#: ../../content/configuration/reglages-generaux.md:55
+msgid "Shown while the database holds no dataset. Creates invented residents (fictional names and identifiers) in a fictitious establishment, with rooms, stays, billing periods, medical data and meals: the set to show the product with."
+msgstr "Affiché tant que la base ne contient aucun jeu. Crée des habitants inventés (noms et identifiants fictifs) dans un établissement fictif, avec des chambres, séjours, périodes de facturation, données médicales et repas : le jeu pour montrer le produit."
 
 #: ../../content/configuration/reglages-generaux.md:54
 msgid "A **test** or training database only."
 msgstr "Une base de **test** ou de formation uniquement."
 
-#: ../../content/configuration/reglages-generaux.md:54
-msgid "**Update what is loaded** → **Update Data**"
-msgstr "**Mettre à jour ce qui est chargé** → **Mettre à jour les données**"
+#: ../../content/configuration/reglages-generaux.md:55
+msgid "**Demonstration set** → **Update Data**"
+msgstr "**Jeu de démonstration** → **Mettre à jour les données**"
 
-#: ../../content/configuration/reglages-generaux.md:54
-msgid "Re-runs the loader on the dataset already loaded, to add records added since (furniture, supplements…) without duplicating existing ones."
-msgstr "Relance le chargeur sur le jeu déjà chargé, pour ajouter les enregistrements ajoutés depuis (mobilier, suppléments…) sans dupliquer ceux qui existent."
+#: ../../content/configuration/reglages-generaux.md:55
+msgid "Takes the place of the first button once the set is loaded, under *Loaded in this database.* Adds what WideCare delivered since the set was loaded (furniture, supplements…), without duplicating anything."
+msgstr "Remplace le premier bouton une fois le jeu chargé, sous *Chargé dans cette base.* Ajoute ce que WideCare a livré depuis le chargement du jeu (mobilier, suppléments…), sans rien dupliquer."
 
-#: ../../content/configuration/reglages-generaux.md:54
-msgid "**Load Doc Data**"
-msgstr "**Charger les données de documentation**"
-
-#: ../../content/configuration/reglages-generaux.md:54
-msgid "Shown once demonstration data is loaded. Loads an anonymised dataset and replaces the establishment's identity by a fictitious one, for screenshots."
-msgstr "Affiché une fois les données de démonstration chargées. Charge un jeu anonymisé et remplace l'identité de l'établissement par une identité fictive, pour les captures d'écran."
+#: ../../content/configuration/reglages-generaux.md:55
+msgid "After an update of WideCare, on the same test database."
+msgstr "Après une mise à jour de WideCare, sur la même base de test."
 
 #: ../../content/configuration/reglages-generaux.md:96
 msgid "Demonstration data creates **fictitious residents and invoices**. Only use these buttons on a test or training database, **never** on your production environment."
