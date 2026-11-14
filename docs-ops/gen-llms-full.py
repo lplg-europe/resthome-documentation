@@ -17,7 +17,7 @@ from bs4 import BeautifulSoup
 from markdownify import markdownify
 
 REPO = Path(__file__).resolve().parent.parent
-BASE = "https://www.lplg.eu/resthome/documentation/"
+BASE = "https://widecare.eu/documentation/"
 
 # Ordre de lecture = ordre de la navigation (docnames, sans .md).
 ORDER = [

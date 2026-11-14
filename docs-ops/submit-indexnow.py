@@ -6,7 +6,7 @@ au lieu d'attendre le prochain crawl. Complète Cloudflare Crawler Hints (activ�
 sur lplg.eu, mais moins fiable pour la doc servie par le Worker en cache-bypass).
 
 Prérequis : le fichier-clé doit être EN LIGNE (donc pousser le repo d'abord) :
-    https://www.lplg.eu/resthome/documentation/d9ca9e04132841a2a43b7bd734cd88e8.txt
+    https://widecare.eu/documentation/d9ca9e04132841a2a43b7bd734cd88e8.txt
 
 Usage (après déploiement) :
     .venv/Scripts/python.exe docs-ops/submit-indexnow.py
@@ -18,11 +18,11 @@ import re
 import urllib.error
 import urllib.request
 
-UA = "Mozilla/5.0 (compatible; ResthomeIndexNow/1.0; +https://www.lplg.eu/)"
-HOST = "www.lplg.eu"
+UA = "Mozilla/5.0 (compatible; ResthomeIndexNow/1.0; +https://widecare.eu/)"
+HOST = "widecare.eu"
 KEY = "d9ca9e04132841a2a43b7bd734cd88e8"
 KEY_LOCATION = f"https://{HOST}/resthome/documentation/{KEY}.txt"
-SITEMAP = "https://www.lplg.eu/resthome/documentation/sitemap.xml"
+SITEMAP = "https://widecare.eu/documentation/sitemap.xml"
 ENDPOINT = "https://api.indexnow.org/IndexNow"
 
 

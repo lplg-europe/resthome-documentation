@@ -59,7 +59,10 @@ python check_docs.py              # conventions (H1, rh-description, résidus)
 
 Push sur `main` → GitHub Actions (`.github/workflows/build.yml`) construit avec
 `build_docs.py` et publie `./site` sur GitHub Pages (`docs.lplg.eu`), servi sous
-`www.lplg.eu/resthome/documentation/` via le Worker Cloudflare.
+`widecare.eu/documentation/` par le Traefik de node-1 (route `widecare-docs`
+de `lplg-odoo/infra/dokploy/lplg-site-widecare.yml`). Les anciennes adresses
+`www.lplg.eu/resthome/documentation/…` y renvoient en 301 (Worker Cloudflare
+`resthome-doc-proxy`, source dans `widecare-docs/docs-ops/`).
 
 ## Structure
 

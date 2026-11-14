@@ -66,7 +66,7 @@ gettext_location = True
 html_theme = "sphinx_immaterial"
 html_title = "WideCare"
 html_theme_options = {
-    "site_url": "https://www.lplg.eu/resthome/documentation/",
+    "site_url": "https://widecare.eu/documentation/",
     "font": False,   # pas de fetch Google Fonts au build ; notre CSS importe Inter/Roboto Slab
     # Arbre COMPLET dans la barre latérale : sans ça le thème n'écrit que les
     # sous-pages de la section active, et les autres sections ne peuvent pas
@@ -99,10 +99,10 @@ html_copy_source = False
 html_show_sphinx = False   # pas de « Created using Sphinx » — footer LPLG (voir layout.html)
 
 # html_baseurl est surchargé par langue dans build_docs.py (canonical + hreflang).
-html_baseurl = "https://www.lplg.eu/resthome/documentation/"
+html_baseurl = "https://widecare.eu/documentation/"
 
 # -- Extension resthome_meta --------------------------------------------------
-rh_site_base = "https://www.lplg.eu/resthome/documentation/"
+rh_site_base = "https://widecare.eu/documentation/"
 rh_languages = {"fr": "", "nl": "nl/", "en": "en/"}   # langue -> préfixe d'URL
 rh_default_language = "fr"                             # langue servie à la racine
 

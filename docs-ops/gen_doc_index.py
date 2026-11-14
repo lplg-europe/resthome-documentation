@@ -26,7 +26,7 @@ from bs4 import BeautifulSoup
 from markdownify import markdownify
 
 REPO = Path(__file__).resolve().parent.parent
-BASE = "https://www.lplg.eu/resthome/documentation/"
+BASE = "https://widecare.eu/documentation/"
 
 # Pages construites qui ne sont pas du contenu.
 SKIP = {"search", "genindex", "404"}

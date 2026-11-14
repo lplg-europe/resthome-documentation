@@ -234,7 +234,7 @@ def html_page_context(app, pagename, templatename, context, doctree):
             "applicationCategory": "BusinessApplication",
             "applicationSubCategory":
                 "Logiciel de gestion pour maisons de repos et de soins",
-            "operatingSystem": "Web", "url": "https://www.lplg.eu/resthome",
+            "operatingSystem": "Web", "url": "https://widecare.eu/",
             "inLanguage": lang_tag, "description": desc,
             "featureList": [
                 "Dossier habitant", "Évaluation Katz",
@@ -248,7 +248,7 @@ def html_page_context(app, pagename, templatename, context, doctree):
                           "url": "https://www.lplg.eu/",
                           "logo": base + "assets/logo.svg",
                           "sameAs": [
-                              "https://www.lplg.eu/resthome",
+                              "https://widecare.eu/",
                               "https://www.linkedin.com/company/lplg-europe/",
                               "https://x.com/LPLGEurope",
                               "https://www.facebook.com/profile.php?id=61583440537827",
@@ -261,7 +261,7 @@ def html_page_context(app, pagename, templatename, context, doctree):
 
 def setup(app):
     app.add_config_value("rh_site_base",
-                         "https://www.lplg.eu/resthome/documentation/", "html")
+                         "https://widecare.eu/documentation/", "html")
     app.add_config_value("rh_languages", {"fr": "", "nl": "nl/", "en": "en/"}, "html")
     app.add_config_value("rh_default_language", "fr", "html")
     app.add_config_value("rh_version", "", "html")
