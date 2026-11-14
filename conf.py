@@ -207,10 +207,9 @@ if len(rh_versions) > 1:
         for v in rh_versions
     ]
 
-# Lien dépôt (icône GitHub dans l'en-tête, comme l'ancien header).
-html_theme_options["repo_url"] = "https://github.com/lplg-europe/resthome-documentation"
-html_theme_options["repo_name"] = "resthome-documentation"
-html_theme_options["icon"] = {"repo": "fontawesome/brands/github"}
+# Pas de lien vers le dépôt GitHub dans l'en-tête : il affichait l'ancien nom
+# « resthome-documentation » et le thème interrogeait l'API GitHub (404 en
+# console, le dépôt n'a pas de release) sur chaque page.
 
 
 # -- Diagrammes mermaid ---------------------------------------------------------------

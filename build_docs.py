@@ -76,8 +76,16 @@ def _pages(root):
         yield rel
 
 
+def _is_redirect(rel):
+    """Stub left by _ext/redirects.py for a moved page (noindex, meta refresh)."""
+    html = (VOUT / rel / "index.html").read_text(encoding="utf-8", errors="ignore")
+    return 'http-equiv="refresh"' in html[:600]
+
+
 def build_sitemap():
-    urls = [BASE + VERSION + "/" + (rel + "/" if rel else "") for rel in _pages(VOUT)]
+    # Moved pages stay reachable but never go in the sitemap: they are noindex,
+    # and Search Console flags every submitted noindex URL as an error.
+    urls = [BASE + VERSION + "/" + (rel + "/" if rel else "") for rel in _pages(VOUT) if not _is_redirect(rel)]
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     lines += [f"  <url><loc>{u}</loc></url>" for u in urls]
