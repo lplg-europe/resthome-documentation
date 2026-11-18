@@ -59,19 +59,20 @@ the [WideCare app](../soins-mobile/index.md).
 - **Dashboard** — the care board, see [The care dashboard](tableau-de-bord.md).
 - **Residents** — **All Residents**, **Absences** (when billing is installed)
   and **Life Projects**.
-- **Care** — the clinical menu, in four sections:
+- **Care** — the clinical menu, in three sections:
   - **Observations** — **Observations**, **Attention Required**,
     **Observations to read**, **Stools and Urine** and **Stool and Urine
     Observations**;
-  - **Assessments** — **Evaluations to Validate** and **Anamneses**, plus the
-    country's dependency assessment;
   - **Plans and Meetings** — **Care Plans**, **Objectives**,
     **Multidisciplinary Meetings** and **Reviews in Meeting**;
   - **Registries** — the seven clinical registers.
 - **Medicines** — one entry that opens the Medicines workstation, see
   [Medicines](../medicaments/index.md) and [Prescriptions](prescriptions.md).
-- **Evaluation Tools** — the assessment scales (MMSE, Braden, MNA, OHAT,
-  Tinetti, pain), see [Geriatric assessments](../residents/evaluations.md).
+- **Evaluations** — the assessment menu, in two sections:
+  - **Follow-up** — **Evaluations to Validate** and **Anamneses**;
+  - **Scales** — the assessment scales (MMSE, Braden, MNA, OHAT, Tinetti,
+    pain), plus the country's dependency assessment; see
+    [Geriatric assessments](../residents/evaluations.md).
 - **Reports** — **Record Reviews**, **Plan Reviews** and the other care
   reports.
 - **Configuration** — settings and catalogues, among them **Clinical
@@ -81,7 +82,7 @@ the [WideCare app](../soins-mobile/index.md).
 :::{admonition} In Belgium
 :class: rh-country rh-country-be
 
-The **Assessments** section also lists the **Katz Evaluations**: see
+The **Scales** section also lists **Katz (INAMI)**: see
 [Care in Belgium](../belgique/soins.md) and [The Katz assessment](../belgique/katz.md).
 :::
 
