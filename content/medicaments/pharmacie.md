@@ -43,7 +43,7 @@ pharmacy of an order.
 
 On the resident's record, the **Pharmacy** field (next to the physicians) names
 the pharmacist the resident chose. Leave it empty and **the house's pharmacy**
-serves the resident: set it in **Nursing Care → Configuration → Settings**,
+serves the resident: set it in **Nursing Care → Configuration → General → Settings**,
 **The house's pharmacy**.
 
 ### The pharmacy mandate

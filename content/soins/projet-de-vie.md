@@ -76,7 +76,7 @@ recorded. **Reopen** brings it back to **In Progress**.
 
 ## Configure the methods
 
-**Nursing Care → Configuration → Life Project Methods** (managers) lists the
+**Nursing Care → Configuration → General → Life Project Methods** (managers) lists the
 methods offered in **Built With**.
 
 ## Going further

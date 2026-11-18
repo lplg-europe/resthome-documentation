@@ -311,7 +311,7 @@ grouping.
 
 ### How do I send an eFact period and follow the responses?
 
-Open **eHealth → eFact → Cockpit** (or the batches) and click **Send all** (or
+Open **eHealth → eFact → To Handle → Cockpit** (or the batches) and click **Send all** (or
 batch by batch); the sendings go to the mutualities through eHealth. Then click
 **Fetch responses**: each batch moves from **Sent (platform)** to
 **Acknowledged (OA)**, then **Settled** — or **Partial Reject** / **Rejected** —
@@ -353,7 +353,7 @@ send as soon as the month is billed.
 
 **No, not blindly.** When the answer to a sending is lost (time-out,
 interruption), WideCare never resends it on its own: it lists it in **eHealth →
-Configuration → Sends to check**, where you say whether MyCareNet received it.
+Configuration → Monitoring → Sends to check**, where you say whether MyCareNet received it.
 → [eHealth](ehealth/index.md)
 
 ---
@@ -362,7 +362,7 @@ Configuration → Sends to check**, where you say whether MyCareNet received it.
 
 ### How do I invoice a month from A to Z in Belgium?
 
-Open the period (**Billing → Facturation → Billing Periods**), click
+Open the period (**Billing → Facturation → Periods → Billing Periods**), click
 **Generate**, then **Check MDA**, then **Generate eFact**, then **Create
 Invoices** and **Confirm** the resident share. Send the eFact batches to the
 OAs, get the responses, and finally **Close Period**. The highlighted button of
@@ -372,7 +372,7 @@ the mutuality share (eFact) on the same period.
 
 ### Where do I see the occupied beds against my approvals?
 
-In **Billing → Facturation → Occupancy MR / CS / MRS**: one column per sector,
+In **Billing → Facturation → Periods → Occupancy MR / CS / MRS**: one column per sector,
 one row per Katz category, the approved and free beds, and the occupancy of the
 quarter. A banner flags the MR residents whose category would allow a transfer
 to an MRS bed.

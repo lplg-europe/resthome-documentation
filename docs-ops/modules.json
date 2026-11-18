@@ -29,6 +29,12 @@
   "name": "Housekeeping - Field App Bridge",
   "suite": "platform"
  },
+ "healthcare_accommodation_project": {
+  "application": false,
+  "countries": [],
+  "name": "Healthcare - Accommodation Interventions (Project)",
+  "suite": "platform"
+ },
  "healthcare_accounting_bridge": {
   "application": true,
   "countries": [],
@@ -59,6 +65,18 @@
   "name": "Consultations - Per-Act Billing",
   "suite": "platform"
  },
+ "healthcare_evaluation_template": {
+  "application": false,
+  "countries": [],
+  "name": "Healthcare - Evaluation Templates",
+  "suite": "platform"
+ },
+ "healthcare_evaluation_template_mobile": {
+  "application": false,
+  "countries": [],
+  "name": "Evaluation Templates - Field App Bridge",
+  "suite": "platform"
+ },
  "healthcare_gantt": {
   "application": false,
   "countries": [],
@@ -81,6 +99,12 @@
   "application": false,
   "countries": [],
   "name": "Healthcare - Inspection Interventions",
+  "suite": "platform"
+ },
+ "healthcare_inspection_project": {
+  "application": false,
+  "countries": [],
+  "name": "Healthcare - Inspection Interventions (Project)",
   "suite": "platform"
  },
  "healthcare_medical": {
@@ -525,6 +549,12 @@
   "name": "Portail famille",
   "suite": "resthome"
  },
+ "resthome_family_portal_geriatric": {
+  "application": false,
+  "countries": [],
+  "name": "Family Portal - Geriatric Care",
+  "suite": "resthome"
+ },
  "resthome_family_portal_meal": {
   "application": false,
   "countries": [],
@@ -535,6 +565,14 @@
   "application": false,
   "countries": [],
   "name": "Family Portal - Care",
+  "suite": "resthome"
+ },
+ "resthome_family_portal_reporting": {
+  "application": false,
+  "countries": [
+   "be"
+  ],
+  "name": "Family Portal - Reporting",
   "suite": "resthome"
  },
  "resthome_funding_be": {
@@ -632,7 +670,7 @@
  "resthome_pocket_money": {
   "application": false,
   "countries": [],
-  "name": "Resthome - Pocket Money",
+  "name": "Argent de poche",
   "suite": "resthome"
  },
  "resthome_potentia": {
@@ -645,6 +683,12 @@
   "application": false,
   "countries": [],
   "name": "Potentia - Field App Bridge",
+  "suite": "resthome"
+ },
+ "resthome_project": {
+  "application": false,
+  "countries": [],
+  "name": "RestHome - Bill Interventions (Project)",
   "suite": "resthome"
  },
  "resthome_reporting": {
@@ -671,6 +715,12 @@
   "application": true,
   "countries": [],
   "name": "Suppléments résidents",
+  "suite": "resthome"
+ },
+ "resthome_supplements_mobile": {
+  "application": false,
+  "countries": [],
+  "name": "Supplements - Field App",
   "suite": "resthome"
  },
  "resthome_supplements_pmi": {

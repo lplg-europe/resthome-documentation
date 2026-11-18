@@ -113,7 +113,7 @@ has to reach the invoice.
 Sometimes a single month must be billed differently — a family that pays one
 month in arrears, for instance — without changing the resident's type.
 
-1. Open the month's billing period (**Billing → Facturation → Billing Periods**).
+1. Open the month's billing period (**Billing → Facturation → Periods → Billing Periods**).
 2. In the **Residents** tab, click the resident: their **Resident Billing**
    detail opens.
 3. Choose the **Invoice Type (this period)**. Left empty, the month follows the

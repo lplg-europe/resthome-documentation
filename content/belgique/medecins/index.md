@@ -75,7 +75,7 @@ live.
 
 Elsewhere:
 
-- **eHealth → Configuration → My eHealth identity**: your certificate;
+- **eHealth → Configuration → Identity and Certificates → My eHealth identity**: your certificate;
 - **eHealth → eFact per act**: the third-party payment files;
 - **Invoicing → Customers → INAMI Nomenclature**: the codes, fees and personal
   shares.

@@ -43,7 +43,7 @@ is also refreshed every night.
 
 ## Settings
 
-In **Nursing Care → Configuration → Settings**, block **SAM medicines**:
+In **Nursing Care → Configuration → General → Settings**, block **SAM medicines**:
 
 - **Address and key** — where the central SAM service is and the key that
   opens it. **Test the connection**, **Synchronise now** and **Read everything

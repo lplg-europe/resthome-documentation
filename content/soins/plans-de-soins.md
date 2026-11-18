@@ -253,7 +253,7 @@ once a year. The plan shows the resident's Katz category. See
 Filters: **My Care Plans**, **No Coordinator**, **My Sectors**, **Active**,
 **Under Review**, **Drafts**, **Completed**, **Cancelled**, **Review Due**,
 **Review due soon**. Group by resident, coordinator, state, sector or
-dependency. **Care Tasks → Care Tasks → My Care Plans** lists the plans you
+dependency. **Care Tasks → Care Tasks → My Care → My Care Plans** lists the plans you
 coordinate.
 
 ## Going further

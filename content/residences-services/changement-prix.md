@@ -76,7 +76,7 @@ The next generation of a billing period bills the new price from its date.
 :class: rh-country rh-country-be
 
 The index part is read from the health index typed in under
-**Serviced Living → Configuration → Health index**. See
+**Serviced Living → Configuration → Contracts → Health index**. See
 [Serviced residences in Belgium](../belgique/residences-services.md).
 :::
 

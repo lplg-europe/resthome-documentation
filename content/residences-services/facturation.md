@@ -11,7 +11,7 @@ Bill a serviced residence every month: the contract's price in parts, the deposi
 
 :::{rh-faq}
 Where is a residence billed?
-: In the same monthly billing period as the rest of the house: **Billing → Facturation → Billing Periods**, then **Generate**. Each contract adds its lines for the residents of the residence.
+: In the same monthly billing period as the rest of the house: **Billing → Facturation → Periods → Billing Periods**, then **Generate**. Each contract adds its lines for the residents of the residence.
 
 Is the rent reduced when the resident is away?
 : No. The price does not depend on the days spent at home: a residence records no absence.
@@ -80,7 +80,7 @@ application.
 
 ## The residence's own settings
 
-On the residence (**Serviced Living → Configuration → Residences**):
+On the residence (**Serviced Living → Configuration → Units → Residences**):
 
 - **Invoice journal** — numbers this residence's invoices apart. Empty, they use
   the company's resident journal.
@@ -90,7 +90,7 @@ On the residence (**Serviced Living → Configuration → Residences**):
 
 ## Billing the month
 
-1. Open the month's period in **Billing → Facturation → Billing Periods**.
+1. Open the month's period in **Billing → Facturation → Periods → Billing Periods**.
 2. Click **Generate**, as for any month.
 3. In the **Residents** tab, the residents of the residence show beside the
    others, with their **Unit** and their **Contract**, and without presence or

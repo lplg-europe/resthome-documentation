@@ -293,7 +293,7 @@ See: [The SAM medication database](sam-base-medicaments.md)
 
 The list of sendings to MyCareNet whose answer was lost (time-out, interruption).
 WideCare never resends them on its own: you say whether MyCareNet received them, in
-**eHealth → Configuration → Sends to check**.
+**eHealth → Configuration → Monitoring → Sends to check**.
 See: [eHealth](ehealth/index.md)
 
 ## Third-party payer

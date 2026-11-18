@@ -56,7 +56,7 @@ residents. It is a **liability** of the home — money it owes the residents —
 not a revenue account. One account is enough for every resident: each entry on
 it carries the resident's name.
 
-1. Open **Invoicing** (**Accounting** if you have it) → **Configuration** →
+1. Open **Invoicing** (**Accounting** if you have it) → **Configuration** → **Accounting** →
    **Chart of Accounts**, then click **New**.
 2. Fill in the **Account Name** and the **Code** the accountant chose.
 3. As **Type**, choose **Current Liabilities**.
@@ -76,7 +76,7 @@ The account is created in class 4 of the chart of accounts, for instance
 First create the pocket money **sales** journal, if the home does not have one
 yet:
 
-1. Open **Invoicing** → **Configuration** → **Journals**, then click **New**.
+1. Open **Invoicing** → **Configuration** → **Accounting** → **Journals**, then click **New**.
 2. Give it a **Journal Name**, for instance *Pocket money*.
 3. As **Type**, choose **Sales**, and as **Sequence Prefix** a short code, for
    instance **POCK**: the second invoices are numbered POCK/….

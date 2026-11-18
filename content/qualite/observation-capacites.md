@@ -63,7 +63,7 @@ What each level means is written **for each domain** ("finds the way alone",
 "reads alone"…) and shown next to the choice. Some situations are only noted,
 never graded; for some, the observer writes the question they asked.
 
-Administrators read the grids in **Nursing Care → Configuration → Observation
+Administrators read the grids in **Nursing Care → Configuration → Templates → Observation
 Grids**: domains, situations, the meaning of the three levels and the category
 an objective made from a domain gets. Add your own situations rather than
 changing those of the grid.

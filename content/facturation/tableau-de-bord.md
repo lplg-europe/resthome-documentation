@@ -45,7 +45,7 @@ insurability checks and the eAgreement requests. See
 - **Absences** — the list of absences.
 - **Resident supplements** — the recurring supplements of all residents.
 
-The **Billing Lines** list is in the menu: **Billing → Facturation → Billing
+The **Billing Lines** list is in the menu: **Billing → Facturation → Periods → Billing
 Lines**.
 
 ## Accommodation billing

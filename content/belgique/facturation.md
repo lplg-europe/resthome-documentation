@@ -85,7 +85,7 @@ The common guide [Billing a month, step by step](../facturation/facturer-un-mois
 gives the sequence common to every country. In Belgium, it gains its eHealth
 steps:
 
-1. **Open the period** in **Billing → Facturation → Billing Periods**.
+1. **Open the period** in **Billing → Facturation → Periods → Billing Periods**.
 2. **Generate** — in the **Generate Billing** window, **Load MDA Success** (and
    **Load MDA Pending**) pre-fill the residents whose insurability was already
    checked, for instance by a batch MDA run at the start of the month. The
@@ -106,7 +106,7 @@ steps:
    amount, so nobody disappears silently.
 5. **Create Invoices** — the resident's share becomes **draft** invoices; check
    them, then **Confirm** them. The period becomes **Invoiced**.
-6. **Send** — open **eHealth → eFact → Cockpit** (or the batches) and click
+6. **Send** — open **eHealth → eFact → To Handle → Cockpit** (or the batches) and click
    **Send all**, or send batch by batch. The submissions go out to the insurers
    through the eHealth network.
 7. **Track the responses** — click **Fetch responses** to bring back the

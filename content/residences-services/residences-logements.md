@@ -12,7 +12,7 @@ Set up a serviced residence: create the residence, choose its regime, generate i
 
 :::{rh-faq}
 Where do I create a residence?
-: In **Serviced Living → Configuration → Residences**, with **New**. Only the Serviced Living manager role sees the Configuration menu.
+: In **Serviced Living → Configuration → Units → Residences**, with **New**. Only the Serviced Living manager role sees the Configuration menu.
 
 How do I create the units of a residence?
 : On the residence, click **Generate units**: give the number of floors, the units per floor and the unit type, and the units are numbered floor by floor behind the residence's prefix.
@@ -41,7 +41,7 @@ its units.* A new contract shows the same advice for as long as no unit exists.
 
 ## 1. Create the residence
 
-Open **Serviced Living → Configuration → Residences** and click **New**.
+Open **Serviced Living → Configuration → Units → Residences** and click **New**.
 
 | Field | Purpose |
 | --- | --- |
@@ -88,7 +88,7 @@ Run the window again to add another wing or another unit type.
 
 The application comes with **Studio** (one person), **One-bedroom flat** and
 **Two-bedroom flat** (two people each). Change or add types in
-**Serviced Living → Configuration → Unit types**. A unit type of the residence
+**Serviced Living → Configuration → Units → Unit types**. A unit type of the residence
 carries no daily rate: the price lives on the contract.
 :::
 

@@ -11,7 +11,7 @@ Automatic assignment in WideCare: each night the care tasks of the coming day go
 
 :::{rh-faq}
 How do I switch on automatic assignment?
-: In **Nursing Care → Configuration → Settings**, block **Care Tasks**, tick **Assign care tasks automatically**. Switched off, nothing of it shows: no button, no column, no warning, no ribbon.
+: In **Nursing Care → Configuration → General → Settings**, block **Care Tasks**, tick **Assign care tasks automatically**. Switched off, nothing of it shows: no button, no column, no warning, no ribbon.
 
 Who receives a care task?
 : A member of staff on a confirmed shift at the hour of the care, in the resident's sector, whose role may do this care. The care is shared evenly among them.
@@ -32,7 +32,7 @@ role, on duty at its hour, in the resident's sector.
 
 ## Switch it on
 
-1. Open **Nursing Care → Configuration → Settings**.
+1. Open **Nursing Care → Configuration → General → Settings**.
 2. In the **Care Tasks** block, tick **Assign care tasks automatically**.
 3. Save.
 

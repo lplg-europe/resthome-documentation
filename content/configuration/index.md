@@ -48,7 +48,7 @@ The Belgian pack adds its own settings: the INAMI numbers and approvals of the e
 - **Absence discount rules**: the fine-tuning of billing when a resident is away (see [Absences and hospitalisations](../facturation/absences.md)).
 - **Price indexation**: the yearly increase of the supplement prices, from a given date (see [Price indexation](../facturation/indexation-des-prix.md)).
 
-The rates, supplement types and absence discount rules sit in the **Billing** app, **Configuration** menu; the indexation starts from **Facturation → Products**.
+The rates, supplement types and absence discount rules sit in the **Billing** app, **Configuration** menu; the indexation starts from **Facturation → Supplements → Products**.
 
 :::{admonition} In Belgium
 :class: rh-country rh-country-be

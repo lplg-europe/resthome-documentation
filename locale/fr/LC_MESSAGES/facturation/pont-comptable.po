@@ -49,8 +49,8 @@ msgid "How do I send the invoices?"
 msgstr "Comment envoyer les factures ?"
 
 #: ../../content/facturation/pont-comptable.md:19
-msgid "Invoicing → Customers → Accounting bridge → Send to accounting lists the posted invoices not filed yet. Select them and use Actions → Send to accounting."
-msgstr "Facturation → Clients → Pont comptable → Envoyer en comptabilité liste les factures comptabilisées pas encore déposées. Sélectionnez-les et utilisez Actions → Envoyer en comptabilité."
+msgid "Invoicing → Accounting bridge → Send to accounting lists the posted invoices not filed yet. Select them and use Actions → Send to accounting."
+msgstr "Facturation → Pont comptable → Envoyer en comptabilité liste les factures comptabilisées pas encore déposées. Sélectionnez-les et utilisez Actions → Envoyer en comptabilité."
 
 #: ../../content/facturation/pont-comptable.md:21
 msgid "How do I know an invoice is paid?"
@@ -173,16 +173,16 @@ msgid "3. Run the preflight check"
 msgstr "3\\. Lancer la vérification préalable"
 
 #: ../../content/facturation/pont-comptable.md:78
-msgid "Click **Preflight check** (in the settings, or under **Invoicing → Customers → Accounting bridge**). It asks the accounting database every question the bridge will ask — the journal by its code, the accounts by their codes, the taxes — and lists everything missing at once. Create what is missing over there, then click **Check again** until nothing blocks."
-msgstr "Cliquez sur **Vérification préalable** (dans les réglages, ou sous **Facturation → Clients → Pont comptable**). Elle pose à la base comptable toutes les questions que le pont posera — le journal par son code, les comptes par leurs codes, les taxes — et liste d'un coup tout ce qui manque. Créez là-bas ce qui manque, puis cliquez sur **Revérifier** jusqu'à ce que plus rien ne bloque."
+msgid "Click **Preflight check** (in the settings, or under **Invoicing → Accounting bridge**). It asks the accounting database every question the bridge will ask — the journal by its code, the accounts by their codes, the taxes — and lists everything missing at once. Create what is missing over there, then click **Check again** until nothing blocks."
+msgstr "Cliquez sur **Vérification préalable** (dans les réglages, ou sous **Facturation → Pont comptable**). Elle pose à la base comptable toutes les questions que le pont posera — le journal par son code, les comptes par leurs codes, les taxes — et liste d'un coup tout ce qui manque. Créez là-bas ce qui manque, puis cliquez sur **Revérifier** jusqu'à ce que plus rien ne bloque."
 
 #: ../../content/facturation/pont-comptable.md:84
 msgid "4. Send the invoices"
 msgstr "4\\. Envoyer les factures"
 
 #: ../../content/facturation/pont-comptable.md:86
-msgid "With a **Standard Odoo**, the **Invoicing → Customers → Accounting bridge** menu appears:"
-msgstr "Avec un **Odoo standard**, le menu **Facturation → Clients → Pont comptable** apparaît :"
+msgid "With a **Standard Odoo**, the **Invoicing → Accounting bridge** menu appears:"
+msgstr "Avec un **Odoo standard**, le menu **Facturation → Pont comptable** apparaît :"
 
 #: ../../content/facturation/pont-comptable.md:89
 msgid "**Send to accounting** — the posted invoices and credit notes, filtered on **To send**. Select them and use **Actions → Send to accounting**. The columns **Filed**, **Filed on**, **Ledger state** and **Still open** follow each one; the **Already filed** and **Still open in accounting** filters find the rest."

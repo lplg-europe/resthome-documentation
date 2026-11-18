@@ -26,7 +26,7 @@ one list, all those still waiting.
 
 ## Open the list
 
-**Nursing Care → Care → Assessments → Evaluations to Validate**, or the tile
+**Nursing Care → Evaluations → Follow-up → Evaluations to Validate**, or the tile
 **Evaluations to Validate** on the [care dashboard](tableau-de-bord.md).
 
 Each line shows the resident, the scale, the date, the evaluator and the

@@ -41,7 +41,7 @@ ending in 000 — and WideCare records it on an **establishment** of its own,
 with its eHealth certificate. See
 [eHealth and eFact settings](../reglages-ehealth.md).
 
-1. Go to **Settings → Approvals → Manage establishments and approvals** and
+1. Go to **Settings → Approvals → Manage approvals** and
    create the establishment of the day care centre: its name and its INAMI
    number. WideCare reads the type from the number.
 2. Under its **Sectors** tab, add a line with **CSJ** as sector and the number
@@ -132,7 +132,7 @@ From then on:
 ## 4. Fill in the CSJ rates
 
 The health insurer pays a **daily forfait** per CSJ category. Under
-**Billing → Configuration → INAMI Rates**, the grid carries one row per CSJ
+**Billing → Configuration → Rates and Rules → INAMI Rates**, the grid carries one row per CSJ
 category, each with its own **pseudo-code**:
 
 | Category | Pseudo-code |
@@ -175,7 +175,7 @@ The transport between home and the centre, and the unannounced absence, are
 
 ## Give the team its rights
 
-On each user, under **Settings → Users**, the **Day care** rights say who keeps
+On each user, under **Settings → Users & Companies → Users**, the **Day care** rights say who keeps
 the register and who may amend a closed day:
 
 - **Keep the register** — ticks who came and when, at the door or on the list;

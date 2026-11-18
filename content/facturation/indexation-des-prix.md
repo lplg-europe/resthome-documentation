@@ -12,10 +12,10 @@ Raise the selling prices of supplements by a percentage from a given date, keep 
 
 :::{rh-faq}
 How do I index the prices of the supplements?
-: In Billing → Facturation → Products, switch to the list view and tick the products, then Actions → Index prices. Enter the percentage, the date it applies from and a note, then click Apply.
+: In Billing → Facturation → Supplements → Products, switch to the list view and tick the products, then Actions → Index prices. Enter the percentage, the date it applies from and a note, then click Apply.
 
 Why is Index prices missing from the Actions menu?
-: The products open as cards, which do not offer it: switch to the list view. It is not in Configuration → Supplement Types either, and only billing managers and the home's managers see it.
+: The products open as cards, which do not offer it: switch to the list view. It is not in Configuration → Rates and Rules → Supplement Types either, and only billing managers and the home's managers see it.
 
 Can I record an indexation before it applies?
 : Yes. The new price starts on the date you enter; the product's sales price changes on its own that morning.
@@ -40,7 +40,7 @@ the price in force during that month.
 
 ## 1. Select the products
 
-1. Open the **Billing** app → **Facturation → Products**.
+1. Open the **Billing** app → **Facturation → Supplements → Products**.
 2. Switch to the list view, with the button at the top right: the products open
    as cards, and the cards do not offer the action.
 3. Search for the products to index — part of their name, or their **Product
@@ -51,7 +51,7 @@ the price in force during that month.
 ![The product list in list view, searched on the word Supplément, with its eleven lines ticked and the Actions menu open on Index prices](../assets/screenshots/facturation/indexation-selection.webp)
 
 The action is shown to billing managers and to the home's managers only. It is
-not offered in **Billing → Configuration → Supplement Types**.
+not offered in **Billing → Configuration → Rates and Rules → Supplement Types**.
 
 ## 2. Enter the indexation
 

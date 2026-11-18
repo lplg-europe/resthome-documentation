@@ -289,8 +289,8 @@ msgid "Billing in Belgium"
 msgstr "Facturation en Belgique"
 
 #: ../../content/belgique/faq.md:364
-msgid "Open the period (**Billing → Facturation → Billing Periods**), click **Generate**, then **Check MDA**, then **Generate eFact**, then **Create Invoices** and **Confirm** the resident share. Send the eFact batches to the OAs, get the responses, and finally **Close Period**. The highlighted button of the period always shows the next step. WideCare runs in parallel the resident share (classic invoices) and the mutuality share (eFact) on the same period. → [Billing a month in Belgium](facturation.md)"
-msgstr "Ouvrez la période (**Facturation → Facturation → Périodes de facturation**), cliquez sur **Générer**, puis sur **Vérifier MDA**, sur **Générer eFact**, sur **Créer les factures** et sur **Confirmer** pour la part habitant. Envoyez les lots eFact aux OA, récupérez les réponses et, enfin, cliquez sur **Clôturer la période**. Le bouton mis en évidence de la période indique toujours l'étape suivante. WideCare mène en parallèle, sur la même période, la part habitant (factures classiques) et la part mutuelle (eFact). → [Facturer un mois en Belgique](facturation.md)"
+msgid "Open the period (**Billing → Facturation → Periods → Billing Periods**), click **Generate**, then **Check MDA**, then **Generate eFact**, then **Create Invoices** and **Confirm** the resident share. Send the eFact batches to the OAs, get the responses, and finally **Close Period**. The highlighted button of the period always shows the next step. WideCare runs in parallel the resident share (classic invoices) and the mutuality share (eFact) on the same period. → [Billing a month in Belgium](facturation.md)"
+msgstr "Ouvrez la période (**Facturation → Facturation → Périodes → Périodes de facturation**), cliquez sur **Générer**, puis sur **Vérifier MDA**, sur **Générer eFact**, sur **Créer les factures** et sur **Confirmer** pour la part habitant. Envoyez les lots eFact aux OA, récupérez les réponses et, enfin, cliquez sur **Clôturer la période**. Le bouton mis en évidence de la période indique toujours l'étape suivante. WideCare mène en parallèle, sur la même période, la part habitant (factures classiques) et la part mutuelle (eFact). → [Facturer un mois en Belgique](facturation.md)"
 
 #: ../../content/belgique/faq.md:380
 msgid "Is the INAMI allowance split between the debtors?"
@@ -421,8 +421,8 @@ msgid "Once the period is **Generated** and the MDA requested, click **Generate 
 msgstr "Une fois la période à l'état **Généré** et le MDA demandé, cliquez sur **Générer eFact** — avant **Créer les factures** ; les lots sont constitués à partir des lignes mutuelle de la période, et non des factures. WideCare constitue les **lots** — un fichier électronique par organisme assureur — puis affiche la liste **Envois eFact** (OA, référence, mois, statut, montants facturé/accepté/refusé, et code + motif en cas de refus). → [Facturation électronique (eFact)](ehealth/efact.md)"
 
 #: ../../content/belgique/faq.md:313
-msgid "Open **eHealth → eFact → Cockpit** (or the batches) and click **Send all** (or batch by batch); the sendings go to the mutualities through eHealth. Then click **Fetch responses**: each batch moves from **Sent (platform)** to **Acknowledged (OA)**, then **Settled** — or **Partial Reject** / **Rejected** — with WideCare automatically reconciling the accepted/refused amounts. → [Billing a month in Belgium](facturation.md) · [Electronic invoicing (eFact)](ehealth/efact.md)"
-msgstr "Ouvrez **eHealth → eFact → Cockpit** (ou les lots) et cliquez sur **Tout envoyer** (ou lot par lot) ; les envois partent vers les mutuelles via eHealth. Cliquez ensuite sur **Récupérer les réponses** : chaque lot passe de **Envoyé (plateforme)** à **Accusé reçu (OA)**, puis **Décompté** — ou **Rejet partiel** / **Rejeté** —, WideCare rapprochant automatiquement les montants acceptés/refusés. → [Facturer un mois en Belgique](facturation.md) · [Facturation électronique (eFact)](ehealth/efact.md)"
+msgid "Open **eHealth → eFact → To Handle → Cockpit** (or the batches) and click **Send all** (or batch by batch); the sendings go to the mutualities through eHealth. Then click **Fetch responses**: each batch moves from **Sent (platform)** to **Acknowledged (OA)**, then **Settled** — or **Partial Reject** / **Rejected** — with WideCare automatically reconciling the accepted/refused amounts. → [Billing a month in Belgium](facturation.md) · [Electronic invoicing (eFact)](ehealth/efact.md)"
+msgstr "Ouvrez **eHealth → eFact → À traiter → Cockpit** (ou les lots) et cliquez sur **Tout envoyer** (ou lot par lot) ; les envois partent vers les mutuelles via eHealth. Cliquez ensuite sur **Récupérer les réponses** : chaque lot passe de **Envoyé (plateforme)** à **Accusé reçu (OA)**, puis **Décompté** — ou **Rejet partiel** / **Rejeté** —, WideCare rapprochant automatiquement les montants acceptés/refusés. → [Facturer un mois en Belgique](facturation.md) · [Facturation électronique (eFact)](ehealth/efact.md)"
 
 #: ../../content/belgique/faq.md:342
 msgid "Is there still a deadline to send the eFact?"
@@ -437,13 +437,13 @@ msgid "A sending got no certain answer: should I resend it?"
 msgstr "Un envoi n'a pas reçu de réponse certaine : dois-je le renvoyer ?"
 
 #: ../../content/belgique/faq.md:353
-msgid "**No, not blindly.** When the answer to a sending is lost (time-out, interruption), WideCare never resends it on its own: it lists it in **eHealth → Configuration → Sends to check**, where you say whether MyCareNet received it. → [eHealth](ehealth/index.md)"
-msgstr "**Non, pas à l'aveugle.** Quand la réponse à un envoi est perdue (délai dépassé, interruption), WideCare ne le renvoie jamais tout seul : il le liste dans **eHealth → Configuration → Envois à vérifier**, où vous indiquez si MyCareNet l'a reçu. → [eHealth](ehealth/index.md)"
+msgid "**No, not blindly.** When the answer to a sending is lost (time-out, interruption), WideCare never resends it on its own: it lists it in **eHealth → Configuration → Monitoring → Sends to check**, where you say whether MyCareNet received it. → [eHealth](ehealth/index.md)"
+msgstr "**Non, pas à l'aveugle.** Quand la réponse à un envoi est perdue (délai dépassé, interruption), WideCare ne le renvoie jamais tout seul : il le liste dans **eHealth → Configuration → Suivi → Envois à vérifier**, où vous indiquez si MyCareNet l'a reçu. → [eHealth](ehealth/index.md)"
 
 #: ../../content/belgique/faq.md:372
 msgid "Where do I see the occupied beds against my approvals?"
 msgstr "Où voir les lits occupés par rapport à mes agréments ?"
 
 #: ../../content/belgique/faq.md:374
-msgid "In **Billing → Facturation → Occupancy MR / CS / MRS**: one column per sector, one row per Katz category, the approved and free beds, and the occupancy of the quarter. A banner flags the MR residents whose category would allow a transfer to an MRS bed. → [Occupancy MR / CS / MRS](occupation-mr-mrs.md)"
-msgstr "Dans **Facturation → Facturation → Occupation MR / CS / MRS** : une colonne par secteur, une ligne par catégorie Katz, les lits agréés et libres, et l'occupation du trimestre. Un bandeau signale les habitants MR dont la catégorie permettrait un passage sur un lit MRS. → [Occupation MR / CS / MRS](occupation-mr-mrs.md)"
+msgid "In **Billing → Facturation → Periods → Occupancy MR / CS / MRS**: one column per sector, one row per Katz category, the approved and free beds, and the occupancy of the quarter. A banner flags the MR residents whose category would allow a transfer to an MRS bed. → [Occupancy MR / CS / MRS](occupation-mr-mrs.md)"
+msgstr "Dans **Facturation → Facturation → Périodes → Occupation MR / CS / MRS** : une colonne par secteur, une ligne par catégorie Katz, les lits agréés et libres, et l'occupation du trimestre. Un bandeau signale les habitants MR dont la catégorie permettrait un passage sur un lit MRS. → [Occupation MR / CS / MRS](occupation-mr-mrs.md)"

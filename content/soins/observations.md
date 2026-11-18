@@ -86,7 +86,7 @@ An observation written from a care task or an objective stays linked to it.
 
 A **Fall** observation stays **To read** until a head nurse has read it. When a
 head nurse writes it, another head nurse reads it. The setting **Falls** in
-**Nursing Care → Configuration → Settings** chooses how the head nurses are
+**Nursing Care → Configuration → General → Settings** chooses how the head nurses are
 told: by an activity only, or also by email.
 :::
 
@@ -123,10 +123,10 @@ measure, then **View Trends** to see its curve over time.
 
 ## Configure the observations
 
-- **Nursing Care → Configuration → Observation Types** — drag the types into
+- **Nursing Care → Configuration → General → Observation Types** — drag the types into
   the order the meeting reads them, and mark which are **Critical**. Falls and
   incidents are always critical.
-- **Nursing Care → Configuration → Settings** — **Body location entry**
+- **Nursing Care → Configuration → General → Settings** — **Body location entry**
   (drawing or list) and the **Falls** reading.
 
 ## Going further

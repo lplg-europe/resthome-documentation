@@ -34,7 +34,7 @@ absence you record.
 
 The same list is reachable from two places:
 
-- **Billing → Facturation → Absences**, for whoever bills;
+- **Billing → Facturation → Residents → Absences**, for whoever bills;
 - **Nursing Home → Residents → Absences**, for the staff on the floor when the
   resident leaves.
 
@@ -118,7 +118,7 @@ user, see [Absences and hospitalisation of a day care user](../belgique/centre-d
 ## Absence discount rules
 
 Managers decide how much of the room an absence takes off the bill, in
-**Billing → Configuration → Absence Discount Rules**. Each rule has:
+**Billing → Configuration → Rates and Rules → Absence Discount Rules**. Each rule has:
 
 - the **Absence Type** it applies to, and an optional validity (**Start Date**,
   **End Date**);

@@ -14,7 +14,7 @@ Which geriatric scales does WideCare offer?
 : Six: MMSE (cognition), Braden (pressure ulcer risk), MNA (nutrition), OHAT (oral health), Tinetti (balance and gait) and pain, on the EVA or DOLOPLUS-2 scale.
 
 Where do I enter a geriatric assessment?
-: On the resident's record, **Evaluation** tab, for the first five scales; or in **Nursing Care → Evaluation Tools**, which has one entry per scale, pain included.
+: On the resident's record, **Evaluation** tab, for the first five scales; or in **Nursing Care → Evaluations → Scales**, which has one entry per scale, pain included.
 
 Who can validate an assessment?
 : Anyone with access can enter and confirm it; the head nurse or the physician validates it. A validated assessment is locked.
@@ -23,7 +23,7 @@ How do I correct a validated assessment?
 : Cancel it, then the head nurse resets it to draft, corrects it and confirms it again. The history keeps every step.
 
 How do I see every assessment still waiting for validation?
-: **Nursing Care → Medical → Assessments → Evaluations to Validate** lists the drafts and confirmed assessments of every scale, by resident and evaluator.
+: **Nursing Care → Evaluations → Follow-up → Evaluations to Validate** lists the drafts and confirmed assessments of every scale, by resident and evaluator.
 
 How do I reassess a resident?
 : Enter a new assessment on a new date — one per day and per scale. The history of each scale is kept.
@@ -36,7 +36,7 @@ them in two places:
 
 - on the **resident's record**, the **Evaluation** tab: the history of each scale
   and direct entry — shown to the care roles;
-- in **Nursing Care → Evaluation Tools**, one list per scale for the whole
+- in **Nursing Care → Evaluations → Scales**, one list per scale for the whole
   house.
 
 ![Evaluation tab of the resident record, with the history of each scale](../assets/screenshots/residents/outils-evaluation.png)
@@ -53,7 +53,7 @@ them in two places:
 | **Pain** | Pain, self-reported or observed | /10 or /30 | Higher = more pain |
 
 The first five are on the resident's **Evaluation** tab; **Pain** is entered from
-**Nursing Care → Evaluation Tools**, then **Pain (EVA / DOLOPLUS-2)**.
+**Nursing Care → Evaluations → Scales → Pain (EVA / DOLOPLUS-2)**.
 
 :::{admonition} The dependency category stays separate
 :class: info
@@ -72,7 +72,7 @@ its reminders — see [The Katz assessment](../belgique/katz.md).
 
 ## MMSE — cognitive function
 
-Menu: **Nursing Care → Evaluation Tools**, then **MMSE (Mini Mental State)**.
+Menu: **Nursing Care → Evaluations → Scales → MMSE (Mini Mental State)**.
 
 The **MMSE** is a cognitive screening test out of **30 points**. Tick each
 item passed, across 7 domains:
@@ -96,7 +96,7 @@ item passed, across 7 domains:
 
 ## Braden — pressure ulcer risk
 
-Menu: **Nursing Care → Evaluation Tools**, then **Braden (Pressure Sore Risk)**.
+Menu: **Nursing Care → Evaluations → Scales → Braden (Pressure Sore Risk)**.
 
 Score **6 subscales**: sensory perception (1–4), moisture (1–4), activity
 (1–4), mobility (1–4), nutrition (1–4), friction and shear (1–3). The total
@@ -114,7 +114,7 @@ runs from 6 to 23. **The lower the score, the higher the risk.**
 
 ## MNA — nutritional status
 
-Menu: **Nursing Care → Evaluation Tools**, then **MNA (Nutritional Assessment)**.
+Menu: **Nursing Care → Evaluations → Scales → MNA (Nutritional Assessment)**.
 
 The **MNA** short form screens for **malnutrition** out of **14 points**, from
 6 questions: reduced food intake over 3 months (0–2), recent weight loss
@@ -137,7 +137,7 @@ follow-up](../repas/suivi-nutritionnel.md).
 
 ## OHAT — oral health
 
-Menu: **Nursing Care → Evaluation Tools**, then **OHAT (Oral Health)**.
+Menu: **Nursing Care → Evaluations → Scales → OHAT (Oral Health)**.
 
 The **OHAT** scores **8 categories** from 0 (healthy) to 2 (needs treatment):
 lips, tongue, gums and tissues, saliva, natural teeth, dentures, oral
@@ -157,7 +157,7 @@ out of the total.
 
 ## Tinetti — balance, gait and fall risk
 
-Menu: **Nursing Care → Evaluation Tools**, then **Tinetti (Balance & Gait)**.
+Menu: **Nursing Care → Evaluations → Scales → Tinetti (Balance & Gait)**.
 
 The **Tinetti** scale assesses **balance** (9 items, /16) and **gait** (/12),
 for a total out of **28**. WideCare computes both subscores and the total.
@@ -175,7 +175,7 @@ registers](../soins/registres.md).
 
 ## Pain — EVA or DOLOPLUS-2
 
-Menu: **Nursing Care → Evaluation Tools**, then **Pain (EVA / DOLOPLUS-2)**.
+Menu: **Nursing Care → Evaluations → Scales → Pain (EVA / DOLOPLUS-2)**.
 
 Choose the **Scale**:
 
@@ -202,7 +202,7 @@ and groups by resident or by pain level.
 Every scale follows the same steps:
 
 1. Open the scale — from the resident's **Evaluation** tab, or from **Nursing
-   Home → Evaluation Tools**.
+   Care → Evaluations → Scales**.
 2. **New**: the resident, the **date** (today) and the **evaluator** (you) are
    filled in. Score the items.
 3. **Confirm**: the assessment moves from **Draft** to **Confirmed**.
@@ -245,7 +245,7 @@ resident's death.
 
 ## Assessments waiting for validation
 
-**Nursing Care → Medical → Assessments → Evaluations to Validate** gathers, in
+**Nursing Care → Evaluations → Follow-up → Evaluations to Validate** gathers, in
 one list, every assessment still in **Draft** or **Confirmed**, whatever the
 scale: resident, scale, date, evaluator and status. It filters on **Draft**,
 **Confirmed** and **My Evaluations**, groups by scale or resident, and leaves out

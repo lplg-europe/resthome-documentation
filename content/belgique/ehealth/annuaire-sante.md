@@ -90,7 +90,7 @@ the **Check Insurability** window shows it. In the residents list, the
 **Pharmacy** and **DMG Holder** columns can be added from the optional columns.
 
 Each answer is kept **30 days**, so the same number is not asked again every
-time. The eHealth managers find the kept answers in **eHealth → Configuration →
+time. The eHealth managers find the kept answers in **eHealth → Configuration → Monitoring →
 CoBRHA Cache**. A failed lookup never blocks the MDA: the name simply stays
 empty.
 

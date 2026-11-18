@@ -91,7 +91,7 @@ so it is **not** marked paid.
 
 ## 2. The eFact Settlements screen (the settlements)
 
-Menu **eHealth → eFact → eFact Settlements**. This is the list of all
+Menu **eHealth → eFact → Batches and Settlements → eFact Settlements**. This is the list of all
 **settlements (920900)** received, one per payment.
 
 The list shows: the **reference**, the **batch** concerned, the **receipt
@@ -192,7 +192,7 @@ rather than creating an empty document.
 
 ## 5. The eFact Cockpit: "have I been paid?" at a glance
 
-Menu **eHealth → eFact → Cockpit** (also accessible from a period or a
+Menu **eHealth → eFact → To Handle → Cockpit** (also accessible from a period or a
 dashboard card). The Cockpit organizes all the work into **action stacks**,
 with a counter and a button per stack. Three stacks answer the payment question
 directly.
@@ -254,7 +254,7 @@ Overdue** filter and an **OA Pay Deadline** column (in red if passed).
 :class: warning
 
 The calculation stays at **0 as long as the legal rate is not entered**. Enter
-the **annual legal interest rate** published under **eHealth → Configuration → Settings**,
+the **annual legal interest rate** published under **eHealth → Configuration → General → Settings**,
 setting **Legal Interest Rate (%)** — see [eHealth settings](../reglages-ehealth.md).
 This is a value **specific to your establishment / to the current year**.
 :::

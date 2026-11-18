@@ -36,7 +36,7 @@ agenda, shows each resident's situation on one page, and writes the minutes.
 - **Nursing Care → Care → Plans and Meetings → Reviews in Meeting** — each resident's re-evaluation (filters **To do**, **Done**, **Carried over**).
 - **Nursing Care → Reports → Record Reviews** — the record reviews.
 - **Nursing Care → Reports → Plan Reviews** — the care plan reviews.
-- **Nursing Care → Configuration → Recurring Meetings** — the recurring meetings.
+- **Nursing Care → Configuration → Templates → Recurring Meetings** — the recurring meetings.
 
 Meeting filters: **Upcoming**, **In Progress**, **Done**, **My Meetings**.
 
@@ -145,7 +145,7 @@ Reviews** lists them, with the filters **Confirmed without change**,
 
 ## Recurring meetings
 
-**Nursing Care → Configuration → Recurring Meetings** (head nurses and
+**Nursing Care → Configuration → Templates → Recurring Meetings** (head nurses and
 management) plans meetings on a fixed rhythm:
 
 - **Weekday**, **Time**, **Duration** and **Location**;

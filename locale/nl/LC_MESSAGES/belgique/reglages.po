@@ -205,8 +205,8 @@ msgid "**Stay Type**: the sector the rate prices (MR, MRS, CSJ). A rate left emp
 msgstr "**Verblijfstype**: de sector waarvoor het tarief geldt (MR, MRS, CSJ). Een tarief zonder sector geldt voor elke sector; het sectorspecifieke tarief krijgt voorrang wanneer beide bestaan."
 
 #: ../../content/belgique/reglages.md:188
-msgid "*Billing → Configuration → Billing Codes.* The **pseudo-codes** the health insurer is billed with. Each code carries its **Pseudo-code**, its **Category**, and, for the daily allowance:"
-msgstr "*Facturatie → Configuratie → Facturatiecodes.* De **pseudocodes** waarmee het ziekenfonds wordt gefactureerd. Elke code draagt zijn **Pseudocode**, zijn **Categorie** en, voor het dagforfait:"
+msgid "*Billing → Configuration → Rates and Rules → Billing Codes.* The **pseudo-codes** the health insurer is billed with. Each code carries its **Pseudo-code**, its **Category**, and, for the daily allowance:"
+msgstr "*Facturatie → Configuratie → Tarieven en regels → Facturatiecodes.* De **pseudocodes** waarmee het ziekenfonds wordt gefactureerd. Elke code draagt zijn **Pseudocode**, zijn **Categorie** en, voor het dagforfait:"
 
 #: ../../content/belgique/reglages.md:192
 msgid "**Federated entity**: who publishes the code — Wallonia (AViQ), Brussels (Iriscare)… Each entity has its own series for the same Katz categories;"
@@ -225,12 +225,12 @@ msgid "Health insurers and CPAS"
 msgstr "Ziekenfondsen en OCMW's"
 
 #: ../../content/belgique/reglages.md:206
-msgid "**Mutuelles** (*Billing → Configuration → Mutuelles*): the list of health insurers (insurance organisations, OA), used for [insurability (MDA)](ehealth/mda.md) and [eFact](ehealth/efact.md)."
-msgstr "**Mutualiteiten** (*Facturatie → Configuratie → Mutualiteiten*): de lijst van ziekenfondsen (verzekeringsinstellingen, VI), gebruikt voor de [verzekerbaarheid (MDA)](ehealth/mda.md) en [eFact](ehealth/efact.md)."
+msgid "**Mutuelles** (*Billing → Configuration → Payers → Mutuelles*): the list of health insurers (insurance organisations, OA), used for [insurability (MDA)](ehealth/mda.md) and [eFact](ehealth/efact.md)."
+msgstr "**Mutualiteiten** (*Facturatie → Configuratie → Betalers → Mutualiteiten*): de lijst van ziekenfondsen (verzekeringsinstellingen, VI), gebruikt voor de [verzekerbaarheid (MDA)](ehealth/mda.md) en [eFact](ehealth/efact.md)."
 
 #: ../../content/belgique/reglages.md:209
-msgid "**CPAS** (*Billing → Configuration → CPAS*): the public welfare centres that pay for some residents. See [CPAS coverage](cpas.md)."
-msgstr "**OCMW** (*Facturatie → Configuratie → OCMW*): de openbare centra voor maatschappelijk welzijn die voor sommige bewoners betalen. Zie [De OCMW-tussenkomst](cpas.md)."
+msgid "**CPAS** (*Billing → Configuration → Payers → CPAS*): the public welfare centres that pay for some residents. See [CPAS coverage](cpas.md)."
+msgstr "**OCMW** (*Facturatie → Configuratie → Betalers → OCMW*): de openbare centra voor maatschappelijk welzijn die voor sommige bewoners betalen. Zie [De OCMW-tussenkomst](cpas.md)."
 
 #: ../../content/belgique/reglages.md:212
 msgid "Other Belgian settings"
@@ -357,8 +357,8 @@ msgid "Separating the two journals (INAMI on one side, resident on the other) ma
 msgstr "De twee dagboeken scheiden (RIZIV aan de ene kant, bewoner aan de andere) vergemakkelijkt de afstemming en de opvolging per betaler. Een filiaal zonder eigen RIZIV-journaal gebruikt dat van zijn moedervennootschap; de instelling vermeldt dat onder het lege veld."
 
 #: ../../content/belgique/reglages.md:173
-msgid "*Billing → Configuration → INAMI Rates.* The rate grid carries the amounts of the **INAMI dependency allowance** (rate type **INAMI Forfait**) and of the accommodation, dated by **Start Date** and **End Date**."
-msgstr "*Facturatie → Configuratie → RIZIV-tarieven.* Het tarievenrooster bevat de bedragen van het **RIZIV-afhankelijkheidsforfait** (tarieftype **RIZIV-forfait**) en van het verblijf, gedateerd met **Startdatum** en **Einddatum**."
+msgid "*Billing → Configuration → Rates and Rules → INAMI Rates.* The rate grid carries the amounts of the **INAMI dependency allowance** (rate type **INAMI Forfait**) and of the accommodation, dated by **Start Date** and **End Date**."
+msgstr "*Facturatie → Configuratie → Tarieven en regels → RIZIV-tarieven.* Het tarievenrooster bevat de bedragen van het **RIZIV-afhankelijkheidsforfait** (tarieftype **RIZIV-forfait**) en van het verblijf, gedateerd met **Startdatum** en **Einddatum**."
 
 #: ../../content/belgique/reglages.md:182
 msgid "**Generate a year**, above the list, creates the rates of a whole year from the amounts you enter once; **New** adds a single row."

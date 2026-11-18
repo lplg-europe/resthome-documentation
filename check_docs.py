@@ -86,12 +86,16 @@ def _menu_path_exists(segments):
     for n, seg in enumerate(segments[1:], 2):
         # Dernier niveau en texte courant : la phrase continue après le libellé
         # (« Forfait → Calculations and create one… ») — on essaie ses débuts.
+        # Le découpage s'arrête aussi à « ( » : un dernier libellé à parenthèse
+        # (« Scales → Katz (INAMI) ») arrive coupé, « katz » vaut « katz (inami) ».
+        last = n == len(segments)
         words = _norm(seg).split()
         tries = [" ".join(words[:i]) for i in range(len(words), 0, -1)] \
-            if n == len(segments) else [_norm(seg)]
+            if last else [_norm(seg)]
         level = next((found for t in tries
                       if (found := [c for p in level for c in _CHILDREN.get(p, [])
-                                    if t in map(_norm, MENUS[c]["names"])])), [])
+                                    if any(name == t or (last and name.startswith(t + " ("))
+                                           for name in map(_norm, MENUS[c]["names"]))])), [])
         if not level:
             return False
     return True

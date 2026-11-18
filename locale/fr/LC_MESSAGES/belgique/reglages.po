@@ -205,8 +205,8 @@ msgid "**Stay Type**: the sector the rate prices (MR, MRS, CSJ). A rate left emp
 msgstr "**Type de séjour** : le secteur que le tarif valorise (MR, MRS, CSJ). Un tarif laissé vide s'applique quel que soit le secteur ; le tarif propre au secteur l'emporte lorsque les deux existent."
 
 #: ../../content/belgique/reglages.md:188
-msgid "*Billing → Configuration → Billing Codes.* The **pseudo-codes** the health insurer is billed with. Each code carries its **Pseudo-code**, its **Category**, and, for the daily allowance:"
-msgstr "*Facturation → Configuration → Codes de facturation.* Les **pseudo-codes** avec lesquels la mutuelle est facturée. Chaque code porte son **Pseudo-code**, sa **Catégorie** et, pour le forfait journalier :"
+msgid "*Billing → Configuration → Rates and Rules → Billing Codes.* The **pseudo-codes** the health insurer is billed with. Each code carries its **Pseudo-code**, its **Category**, and, for the daily allowance:"
+msgstr "*Facturation → Configuration → Tarifs et règles → Codes de facturation.* Les **pseudo-codes** avec lesquels la mutuelle est facturée. Chaque code porte son **Pseudo-code**, sa **Catégorie** et, pour le forfait journalier :"
 
 #: ../../content/belgique/reglages.md:192
 msgid "**Federated entity**: who publishes the code — Wallonia (AViQ), Brussels (Iriscare)… Each entity has its own series for the same Katz categories;"
@@ -225,12 +225,12 @@ msgid "Health insurers and CPAS"
 msgstr "Mutuelles et CPAS"
 
 #: ../../content/belgique/reglages.md:206
-msgid "**Mutuelles** (*Billing → Configuration → Mutuelles*): the list of health insurers (insurance organisations, OA), used for [insurability (MDA)](ehealth/mda.md) and [eFact](ehealth/efact.md)."
-msgstr "**Mutuelles** (*Facturation → Configuration → Mutuelles*) : la liste des mutuelles (organismes assureurs, OA), utilisée pour l'[assurabilité (MDA)](ehealth/mda.md) et l'[eFact](ehealth/efact.md)."
+msgid "**Mutuelles** (*Billing → Configuration → Payers → Mutuelles*): the list of health insurers (insurance organisations, OA), used for [insurability (MDA)](ehealth/mda.md) and [eFact](ehealth/efact.md)."
+msgstr "**Mutuelles** (*Facturation → Configuration → Payeurs → Mutuelles*) : la liste des mutuelles (organismes assureurs, OA), utilisée pour l'[assurabilité (MDA)](ehealth/mda.md) et l'[eFact](ehealth/efact.md)."
 
 #: ../../content/belgique/reglages.md:209
-msgid "**CPAS** (*Billing → Configuration → CPAS*): the public welfare centres that pay for some residents. See [CPAS coverage](cpas.md)."
-msgstr "**CPAS** (*Facturation → Configuration → CPAS*) : les centres publics d'action sociale qui paient pour certains habitants. Voir [La prise en charge CPAS](cpas.md)."
+msgid "**CPAS** (*Billing → Configuration → Payers → CPAS*): the public welfare centres that pay for some residents. See [CPAS coverage](cpas.md)."
+msgstr "**CPAS** (*Facturation → Configuration → Payeurs → CPAS*) : les centres publics d'action sociale qui paient pour certains habitants. Voir [La prise en charge CPAS](cpas.md)."
 
 #: ../../content/belgique/reglages.md:212
 msgid "Other Belgian settings"
@@ -357,8 +357,8 @@ msgid "Separating the two journals (INAMI on one side, resident on the other) ma
 msgstr "Séparer les deux journaux (INAMI d'un côté, habitant de l'autre) facilite le rapprochement et le suivi par payeur. Une succursale sans Journal INAMI propre utilise celui de sa société mère ; le réglage l'indique sous le champ vide."
 
 #: ../../content/belgique/reglages.md:173
-msgid "*Billing → Configuration → INAMI Rates.* The rate grid carries the amounts of the **INAMI dependency allowance** (rate type **INAMI Forfait**) and of the accommodation, dated by **Start Date** and **End Date**."
-msgstr "*Facturation → Configuration → Tarifs INAMI.* La grille tarifaire porte les montants du **forfait INAMI de dépendance** (type de tarif **Forfait INAMI**) et de l'hébergement, datés par **Date de début** et **Date de fin**."
+msgid "*Billing → Configuration → Rates and Rules → INAMI Rates.* The rate grid carries the amounts of the **INAMI dependency allowance** (rate type **INAMI Forfait**) and of the accommodation, dated by **Start Date** and **End Date**."
+msgstr "*Facturation → Configuration → Tarifs et règles → Tarifs INAMI.* La grille tarifaire porte les montants du **forfait INAMI de dépendance** (type de tarif **Forfait INAMI**) et de l'hébergement, datés par **Date de début** et **Date de fin**."
 
 #: ../../content/belgique/reglages.md:182
 msgid "**Generate a year**, above the list, creates the rates of a whole year from the amounts you enter once; **New** adds a single row."

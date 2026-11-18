@@ -120,7 +120,7 @@
    "Absences"
   ],
   "parents": [
-   "healthcare_accommodation_billing.menu_billing_facturation"
+   "healthcare_accommodation_billing.menu_billing_section_residents"
   ]
  },
  "healthcare_accommodation_billing.menu_billing_config": {
@@ -136,12 +136,36 @@
    "Absence Discount Rules"
   ],
   "parents": [
-   "healthcare_accommodation_billing.menu_billing_config"
+   "healthcare_accommodation_billing.menu_billing_config_pricing"
   ]
  },
  "healthcare_accommodation_billing.menu_billing_config_activity_log": {
   "names": [
    "Activity Log"
+  ],
+  "parents": [
+   "healthcare_accommodation_billing.menu_billing_config_general"
+  ]
+ },
+ "healthcare_accommodation_billing.menu_billing_config_general": {
+  "names": [
+   "General"
+  ],
+  "parents": [
+   "healthcare_accommodation_billing.menu_billing_config"
+  ]
+ },
+ "healthcare_accommodation_billing.menu_billing_config_payers": {
+  "names": [
+   "Payers"
+  ],
+  "parents": [
+   "healthcare_accommodation_billing.menu_billing_config"
+  ]
+ },
+ "healthcare_accommodation_billing.menu_billing_config_pricing": {
+  "names": [
+   "Rates and Rules"
   ],
   "parents": [
    "healthcare_accommodation_billing.menu_billing_config"
@@ -153,7 +177,7 @@
    "INAMI Rates"
   ],
   "parents": [
-   "healthcare_accommodation_billing.menu_billing_config"
+   "healthcare_accommodation_billing.menu_billing_config_pricing"
   ]
  },
  "healthcare_accommodation_billing.menu_billing_config_settings": {
@@ -161,7 +185,7 @@
    "Settings"
   ],
   "parents": [
-   "healthcare_accommodation_billing.menu_billing_config"
+   "healthcare_accommodation_billing.menu_billing_config_general"
   ]
  },
  "healthcare_accommodation_billing.menu_billing_config_supplements": {
@@ -169,7 +193,7 @@
    "Supplement Types"
   ],
   "parents": [
-   "healthcare_accommodation_billing.menu_billing_config"
+   "healthcare_accommodation_billing.menu_billing_config_pricing"
   ]
  },
  "healthcare_accommodation_billing.menu_billing_dashboard": {
@@ -193,7 +217,7 @@
    "Billing Lines"
   ],
   "parents": [
-   "healthcare_accommodation_billing.menu_billing_facturation"
+   "healthcare_accommodation_billing.menu_billing_section_periods"
   ]
  },
  "healthcare_accommodation_billing.menu_billing_periods": {
@@ -201,7 +225,7 @@
    "Billing Periods"
   ],
   "parents": [
-   "healthcare_accommodation_billing.menu_billing_facturation"
+   "healthcare_accommodation_billing.menu_billing_section_periods"
   ]
  },
  "healthcare_accommodation_billing.menu_billing_resident_supplements": {
@@ -209,12 +233,36 @@
    "Supplement Conventions"
   ],
   "parents": [
-   "healthcare_accommodation_billing.menu_billing_facturation"
+   "healthcare_accommodation_billing.menu_billing_section_supplements"
   ]
  },
  "healthcare_accommodation_billing.menu_billing_residents": {
   "names": [
    "Residents"
+  ],
+  "parents": [
+   "healthcare_accommodation_billing.menu_billing_section_residents"
+  ]
+ },
+ "healthcare_accommodation_billing.menu_billing_section_periods": {
+  "names": [
+   "Periods"
+  ],
+  "parents": [
+   "healthcare_accommodation_billing.menu_billing_facturation"
+  ]
+ },
+ "healthcare_accommodation_billing.menu_billing_section_residents": {
+  "names": [
+   "Residents"
+  ],
+  "parents": [
+   "healthcare_accommodation_billing.menu_billing_facturation"
+  ]
+ },
+ "healthcare_accommodation_billing.menu_billing_section_supplements": {
+  "names": [
+   "Supplements"
   ],
   "parents": [
    "healthcare_accommodation_billing.menu_billing_facturation"
@@ -225,7 +273,7 @@
    "Products"
   ],
   "parents": [
-   "healthcare_accommodation_billing.menu_billing_facturation"
+   "healthcare_accommodation_billing.menu_billing_section_supplements"
   ]
  },
  "healthcare_accommodation_billing.menu_residents_absences": {
@@ -279,7 +327,7 @@
    "Accounting bridge"
   ],
   "parents": [
-   "account.menu_finance_receivables"
+   "account.menu_finance"
   ]
  },
  "healthcare_accounting_bridge.menu_bridge_send": {
@@ -303,7 +351,15 @@
    "Braden (Pressure Sore Risk)"
   ],
   "parents": [
-   "healthcare_base.menu_resthome_evaluation"
+   "healthcare_base.menu_evaluation_section_scales"
+  ]
+ },
+ "healthcare_base.menu_evaluation_mhu": {
+  "names": [
+   "MHU (Urinary Handicap)"
+  ],
+  "parents": [
+   "healthcare_base.menu_evaluation_section_scales"
   ]
  },
  "healthcare_base.menu_evaluation_mmse": {
@@ -311,7 +367,7 @@
    "MMSE (Mini Mental State)"
   ],
   "parents": [
-   "healthcare_base.menu_resthome_evaluation"
+   "healthcare_base.menu_evaluation_section_scales"
   ]
  },
  "healthcare_base.menu_evaluation_mna": {
@@ -319,7 +375,7 @@
    "MNA (Nutritional Assessment)"
   ],
   "parents": [
-   "healthcare_base.menu_resthome_evaluation"
+   "healthcare_base.menu_evaluation_section_scales"
   ]
  },
  "healthcare_base.menu_evaluation_ohat": {
@@ -327,12 +383,20 @@
    "OHAT (Oral Health)"
   ],
   "parents": [
-   "healthcare_base.menu_resthome_evaluation"
+   "healthcare_base.menu_evaluation_section_scales"
   ]
  },
  "healthcare_base.menu_evaluation_pain": {
   "names": [
    "Pain (EVA / DOLOPLUS-2)"
+  ],
+  "parents": [
+   "healthcare_base.menu_evaluation_section_scales"
+  ]
+ },
+ "healthcare_base.menu_evaluation_section_scales": {
+  "names": [
+   "Scales"
   ],
   "parents": [
    "healthcare_base.menu_resthome_evaluation"
@@ -343,7 +407,7 @@
    "Tinetti (Balance & Gait)"
   ],
   "parents": [
-   "healthcare_base.menu_resthome_evaluation"
+   "healthcare_base.menu_evaluation_section_scales"
   ]
  },
  "healthcare_base.menu_resthome_audit": {
@@ -380,7 +444,7 @@
  },
  "healthcare_base.menu_resthome_evaluation": {
   "names": [
-   "Evaluation Tools"
+   "Evaluations"
   ],
   "parents": [
    "healthcare_base.menu_resthome_root",
@@ -456,6 +520,30 @@
   ],
   "parents": []
  },
+ "healthcare_evaluation_template.menu_evaluation_section_templates": {
+  "names": [
+   "Specific Evaluations"
+  ],
+  "parents": [
+   "healthcare_base.menu_resthome_evaluation"
+  ]
+ },
+ "healthcare_evaluation_template.menu_evaluation_templates": {
+  "names": [
+   "Evaluation Templates"
+  ],
+  "parents": [
+   "healthcare_medical.menu_care_config_templates"
+  ]
+ },
+ "healthcare_evaluation_template.menu_specific_evaluations": {
+  "names": [
+   "All"
+  ],
+  "parents": [
+   "healthcare_evaluation_template.menu_evaluation_section_templates"
+  ]
+ },
  "healthcare_inspection.menu_property_inspection": {
   "names": [
    "Property Inspections"
@@ -488,6 +576,22 @@
    "healthcare_inspection.menu_property_inspection_config"
   ]
  },
+ "healthcare_medical.menu_care_config_general": {
+  "names": [
+   "General"
+  ],
+  "parents": [
+   "healthcare_medical.menu_resthome_medical_config"
+  ]
+ },
+ "healthcare_medical.menu_care_config_templates": {
+  "names": [
+   "Templates"
+  ],
+  "parents": [
+   "healthcare_medical.menu_resthome_medical_config"
+  ]
+ },
  "healthcare_medical.menu_care_evaluation_pending": {
   "names": [
    "Evaluations to Validate"
@@ -496,12 +600,20 @@
    "healthcare_medical.menu_care_section_evaluations"
   ]
  },
- "healthcare_medical.menu_care_section_evaluations": {
+ "healthcare_medical.menu_care_round_sheet": {
   "names": [
-   "Assessments"
+   "Round Sheet"
   ],
   "parents": [
-   "healthcare_medical.menu_resthome_medical_root"
+   "healthcare_medical.menu_care_tasks_section_all"
+  ]
+ },
+ "healthcare_medical.menu_care_section_evaluations": {
+  "names": [
+   "Follow-up"
+  ],
+  "parents": [
+   "healthcare_base.menu_resthome_evaluation"
   ]
  },
  "healthcare_medical.menu_care_section_observations": {
@@ -518,6 +630,22 @@
   ],
   "parents": [
    "healthcare_medical.menu_resthome_medical_root"
+  ]
+ },
+ "healthcare_medical.menu_care_tasks_section_all": {
+  "names": [
+   "All Care"
+  ],
+  "parents": [
+   "healthcare_medical.menu_healthcare_care_tasks"
+  ]
+ },
+ "healthcare_medical.menu_care_tasks_section_my": {
+  "names": [
+   "My Care"
+  ],
+  "parents": [
+   "healthcare_medical.menu_healthcare_care_tasks"
   ]
  },
  "healthcare_medical.menu_healthcare_body_zone": {
@@ -573,7 +701,7 @@
    "Recurring Meetings"
   ],
   "parents": [
-   "healthcare_medical.menu_resthome_medical_config"
+   "healthcare_medical.menu_care_config_templates"
   ]
  },
  "healthcare_medical.menu_healthcare_care_outcome_reason": {
@@ -621,7 +749,7 @@
    "My Objectives"
   ],
   "parents": [
-   "healthcare_medical.menu_healthcare_care_tasks"
+   "healthcare_medical.menu_care_tasks_section_my"
   ]
  },
  "healthcare_medical.menu_healthcare_care_plan_review": {
@@ -645,7 +773,7 @@
    "Care Plan Templates"
   ],
   "parents": [
-   "healthcare_medical.menu_resthome_medical_config"
+   "healthcare_medical.menu_care_config_templates"
   ]
  },
  "healthcare_medical.menu_healthcare_care_reports": {
@@ -731,7 +859,7 @@
    "Settings"
   ],
   "parents": [
-   "healthcare_medical.menu_resthome_medical_config"
+   "healthcare_medical.menu_care_config_general"
   ]
  },
  "healthcare_medical.menu_healthcare_medication_config": {
@@ -747,7 +875,7 @@
    "Observation Types"
   ],
   "parents": [
-   "healthcare_medical.menu_resthome_medical_config"
+   "healthcare_medical.menu_care_config_general"
   ]
  },
  "healthcare_medical.menu_healthcare_prescription_memory": {
@@ -803,7 +931,7 @@
    "My Care Plans"
   ],
   "parents": [
-   "healthcare_medical.menu_healthcare_care_tasks"
+   "healthcare_medical.menu_care_tasks_section_my"
   ]
  },
  "healthcare_medical.menu_resthome_care_plans": {
@@ -841,7 +969,7 @@
    "Care Schedule"
   ],
   "parents": [
-   "healthcare_medical.menu_healthcare_care_tasks"
+   "healthcare_medical.menu_care_tasks_section_all"
   ]
  },
  "healthcare_medical.menu_resthome_care_schedule_my": {
@@ -849,7 +977,7 @@
    "My Assigned Care"
   ],
   "parents": [
-   "healthcare_medical.menu_healthcare_care_tasks"
+   "healthcare_medical.menu_care_tasks_section_my"
   ]
  },
  "healthcare_medical.menu_resthome_care_schedule_today": {
@@ -857,7 +985,7 @@
    "Today's Care"
   ],
   "parents": [
-   "healthcare_medical.menu_healthcare_care_tasks"
+   "healthcare_medical.menu_care_tasks_section_all"
   ]
  },
  "healthcare_medical.menu_resthome_care_schedule_unassigned": {
@@ -865,7 +993,7 @@
    "To Assign"
   ],
   "parents": [
-   "healthcare_medical.menu_healthcare_care_tasks"
+   "healthcare_medical.menu_care_tasks_section_all"
   ]
  },
  "healthcare_medical.menu_resthome_dashboard": {
@@ -1180,7 +1308,7 @@
    "Katz (INAMI)"
   ],
   "parents": [
-   "healthcare_base.menu_resthome_evaluation"
+   "healthcare_base.menu_evaluation_section_scales"
   ]
  },
  "l10n_health_be.menu_healthcare_establishment": {
@@ -1266,7 +1394,7 @@
    "CoBRHA Cache"
   ],
   "parents": [
-   "l10n_health_be_connector.menu_ehealth_be_config"
+   "l10n_health_be_connector.menu_ehealth_be_config_monitoring"
   ]
  },
  "l10n_health_be_connector.menu_ehealth_be_certificates": {
@@ -1274,7 +1402,7 @@
    "Certificates"
   ],
   "parents": [
-   "l10n_health_be_connector.menu_ehealth_be_config"
+   "l10n_health_be_connector.menu_ehealth_be_config_identity"
   ]
  },
  "l10n_health_be_connector.menu_ehealth_be_comm_log": {
@@ -1282,7 +1410,7 @@
    "Communication logs"
   ],
   "parents": [
-   "l10n_health_be_connector.menu_ehealth_be_config"
+   "l10n_health_be_connector.menu_ehealth_be_config_monitoring"
   ]
  },
  "l10n_health_be_connector.menu_ehealth_be_config": {
@@ -1293,12 +1421,36 @@
    "l10n_health_be_connector.menu_ehealth_be_root"
   ]
  },
+ "l10n_health_be_connector.menu_ehealth_be_config_general": {
+  "names": [
+   "General"
+  ],
+  "parents": [
+   "l10n_health_be_connector.menu_ehealth_be_config"
+  ]
+ },
+ "l10n_health_be_connector.menu_ehealth_be_config_identity": {
+  "names": [
+   "Identity and Certificates"
+  ],
+  "parents": [
+   "l10n_health_be_connector.menu_ehealth_be_config"
+  ]
+ },
+ "l10n_health_be_connector.menu_ehealth_be_config_monitoring": {
+  "names": [
+   "Monitoring"
+  ],
+  "parents": [
+   "l10n_health_be_connector.menu_ehealth_be_config"
+  ]
+ },
  "l10n_health_be_connector.menu_ehealth_be_establishments": {
   "names": [
    "Approvals"
   ],
   "parents": [
-   "l10n_health_be_connector.menu_ehealth_be_config"
+   "l10n_health_be_connector.menu_ehealth_be_config_general"
   ]
  },
  "l10n_health_be_connector.menu_ehealth_be_my_identity": {
@@ -1306,7 +1458,7 @@
    "My eHealth identity"
   ],
   "parents": [
-   "l10n_health_be_connector.menu_ehealth_be_config"
+   "l10n_health_be_connector.menu_ehealth_be_config_identity"
   ]
  },
  "l10n_health_be_connector.menu_ehealth_be_region_profile": {
@@ -1314,7 +1466,7 @@
    "Federated entities"
   ],
   "parents": [
-   "l10n_health_be_connector.menu_ehealth_be_config"
+   "l10n_health_be_connector.menu_ehealth_be_config_general"
   ]
  },
  "l10n_health_be_connector.menu_ehealth_be_root": {
@@ -1328,7 +1480,7 @@
    "Sends to check"
   ],
   "parents": [
-   "l10n_health_be_connector.menu_ehealth_be_config"
+   "l10n_health_be_connector.menu_ehealth_be_config_monitoring"
   ]
  },
  "l10n_health_be_connector.menu_ehealth_be_settings": {
@@ -1336,7 +1488,7 @@
    "Settings"
   ],
   "parents": [
-   "l10n_health_be_connector.menu_ehealth_be_config"
+   "l10n_health_be_connector.menu_ehealth_be_config_general"
   ]
  },
  "l10n_health_be_consent.menu_consent_root": {
@@ -1424,7 +1576,7 @@
    "eFact Batches"
   ],
   "parents": [
-   "l10n_health_be_efact.menu_efact_root"
+   "l10n_health_be_efact.menu_efact_section_sent"
   ]
  },
  "l10n_health_be_efact.menu_efact_app_cockpit": {
@@ -1432,7 +1584,7 @@
    "Cockpit"
   ],
   "parents": [
-   "l10n_health_be_efact.menu_efact_root"
+   "l10n_health_be_efact.menu_efact_section_todo"
   ]
  },
  "l10n_health_be_efact.menu_efact_app_control": {
@@ -1440,7 +1592,7 @@
    "eFact Control"
   ],
   "parents": [
-   "l10n_health_be_efact.menu_efact_root"
+   "l10n_health_be_efact.menu_efact_section_todo"
   ]
  },
  "l10n_health_be_efact.menu_efact_app_decoder": {
@@ -1456,7 +1608,7 @@
    "eFact Lines"
   ],
   "parents": [
-   "l10n_health_be_efact.menu_efact_root"
+   "l10n_health_be_efact.menu_efact_section_sent"
   ]
  },
  "l10n_health_be_efact.menu_efact_app_queue": {
@@ -1480,7 +1632,7 @@
    "eFact Settlements"
   ],
   "parents": [
-   "l10n_health_be_efact.menu_efact_root"
+   "l10n_health_be_efact.menu_efact_section_sent"
   ]
  },
  "l10n_health_be_efact.menu_efact_app_to_invoice": {
@@ -1488,7 +1640,7 @@
    "To invoice"
   ],
   "parents": [
-   "l10n_health_be_efact.menu_efact_root"
+   "l10n_health_be_efact.menu_efact_section_todo"
   ]
  },
  "l10n_health_be_efact.menu_efact_app_tools": {
@@ -1505,6 +1657,22 @@
   ],
   "parents": [
    "l10n_health_be_connector.menu_ehealth_be_root"
+  ]
+ },
+ "l10n_health_be_efact.menu_efact_section_sent": {
+  "names": [
+   "Batches and Settlements"
+  ],
+  "parents": [
+   "l10n_health_be_efact.menu_efact_root"
+  ]
+ },
+ "l10n_health_be_efact.menu_efact_section_todo": {
+  "names": [
+   "To Handle"
+  ],
+  "parents": [
+   "l10n_health_be_efact.menu_efact_root"
   ]
  },
  "l10n_health_be_efact_per_act.menu_efact_act_batch": {
@@ -1672,7 +1840,7 @@
    "Billing Codes"
   ],
   "parents": [
-   "healthcare_accommodation_billing.menu_billing_config"
+   "healthcare_accommodation_billing.menu_billing_config_pricing"
   ]
  },
  "l10n_health_be_perdiem_billing.menu_billing_config_mutuelle": {
@@ -1680,7 +1848,7 @@
    "Mutuelles"
   ],
   "parents": [
-   "healthcare_accommodation_billing.menu_billing_config"
+   "healthcare_accommodation_billing.menu_billing_config_payers"
   ]
  },
  "l10n_health_be_perdiem_billing.menu_cpas_partners": {
@@ -1688,7 +1856,7 @@
    "CPAS"
   ],
   "parents": [
-   "healthcare_accommodation_billing.menu_billing_config"
+   "healthcare_accommodation_billing.menu_billing_config_payers"
   ]
  },
  "l10n_health_be_perdiem_billing.menu_katz_compliance_dashboard": {
@@ -1704,7 +1872,7 @@
    "Services on hold"
   ],
   "parents": [
-   "l10n_health_be_efact.menu_efact_root"
+   "l10n_health_be_efact.menu_efact_section_todo"
   ]
  },
  "l10n_health_be_pmi.menu_care_ehealthbox": {
@@ -1744,7 +1912,7 @@
    "Pharmacies"
   ],
   "parents": [
-   "l10n_health_be_pmi.menu_pharmacy_root_house"
+   "l10n_health_be_pmi.menu_pharmacy_section_partners_house"
   ]
  },
  "l10n_health_be_pmi.menu_pharmacy_exports_house": {
@@ -1752,7 +1920,7 @@
    "Files Sent"
   ],
   "parents": [
-   "l10n_health_be_pmi.menu_pharmacy_root_house"
+   "l10n_health_be_pmi.menu_pharmacy_section_exchanges_house"
   ]
  },
  "l10n_health_be_pmi.menu_pharmacy_file_import_house": {
@@ -1760,7 +1928,7 @@
    "Import a Pharmacy File"
   ],
   "parents": [
-   "l10n_health_be_pmi.menu_pharmacy_root_house"
+   "l10n_health_be_pmi.menu_pharmacy_section_exchanges_house"
   ]
  },
  "l10n_health_be_pmi.menu_pharmacy_invoices_house": {
@@ -1768,7 +1936,7 @@
    "Pharmacy Invoices"
   ],
   "parents": [
-   "l10n_health_be_pmi.menu_pharmacy_root_house"
+   "l10n_health_be_pmi.menu_pharmacy_section_exchanges_house"
   ]
  },
  "l10n_health_be_pmi.menu_pharmacy_links_house": {
@@ -1776,7 +1944,7 @@
    "Pharmacy Links"
   ],
   "parents": [
-   "l10n_health_be_pmi.menu_pharmacy_root_house"
+   "l10n_health_be_pmi.menu_pharmacy_section_partners_house"
   ]
  },
  "l10n_health_be_pmi.menu_pharmacy_root_house": {
@@ -1787,12 +1955,28 @@
    "healthcare_base.menu_resthome_root"
   ]
  },
+ "l10n_health_be_pmi.menu_pharmacy_section_exchanges_house": {
+  "names": [
+   "Exchanges"
+  ],
+  "parents": [
+   "l10n_health_be_pmi.menu_pharmacy_root_house"
+  ]
+ },
+ "l10n_health_be_pmi.menu_pharmacy_section_partners_house": {
+  "names": [
+   "Partner Pharmacies"
+  ],
+  "parents": [
+   "l10n_health_be_pmi.menu_pharmacy_root_house"
+  ]
+ },
  "l10n_health_be_pmi.menu_pharmacy_stocks_house": {
   "names": [
    "Pharmacy Stock"
   ],
   "parents": [
-   "l10n_health_be_pmi.menu_pharmacy_root_house"
+   "l10n_health_be_pmi.menu_pharmacy_section_exchanges_house"
   ]
  },
  "l10n_health_be_recipe.menu_recipe_prescription": {
@@ -1816,7 +2000,7 @@
    "Health index"
   ],
   "parents": [
-   "serviced_living.menu_serviced_living_config"
+   "serviced_living.menu_serviced_living_config_contracts"
   ]
  },
  "l10n_health_be_therlink.menu_therapeutic_link": {
@@ -2083,7 +2267,7 @@
    "Life Project Methods"
   ],
   "parents": [
-   "healthcare_medical.menu_resthome_medical_config"
+   "healthcare_medical.menu_care_config_general"
   ]
  },
  "resthome_geriatric.menu_resthome_registries": {
@@ -2148,14 +2332,6 @@
   ],
   "parents": [
    "resthome_geriatric.menu_resthome_registries"
-  ]
- },
- "resthome_geriatric_be.menu_resthome_katz": {
-  "names": [
-   "Katz Evaluations"
-  ],
-  "parents": [
-   "healthcare_medical.menu_care_section_evaluations"
   ]
  },
  "resthome_meal.menu_meal_catalog": {
@@ -2329,7 +2505,7 @@
    "Occupancy MR / CS / MRS"
   ],
   "parents": [
-   "healthcare_accommodation_billing.menu_billing_facturation"
+   "healthcare_accommodation_billing.menu_billing_section_periods"
   ]
  },
  "resthome_mr_ehealth.menu_eagreement_inbox": {
@@ -2441,7 +2617,7 @@
    "Communication Logs"
   ],
   "parents": [
-   "healthcare_accommodation_billing.menu_billing_config"
+   "resthome_mr_ehealth.menu_ehealth_config"
   ]
  },
  "resthome_mr_ehealth.menu_ehealth_config": {
@@ -2529,7 +2705,7 @@
    "Collective Vacations"
   ],
   "parents": [
-   "healthcare_accommodation_billing.menu_billing_facturation"
+   "healthcare_accommodation_billing.menu_billing_section_residents"
   ]
  },
  "resthome_potentia.menu_capability_catalog": {
@@ -2537,7 +2713,7 @@
    "Observation Grids"
   ],
   "parents": [
-   "healthcare_medical.menu_resthome_medical_config"
+   "healthcare_medical.menu_care_config_templates"
   ]
  },
  "resthome_potentia.menu_capability_observation": {
@@ -2690,6 +2866,22 @@
    "serviced_living.menu_serviced_living_root"
   ]
  },
+ "serviced_living.menu_serviced_living_config_contracts": {
+  "names": [
+   "Contracts"
+  ],
+  "parents": [
+   "serviced_living.menu_serviced_living_config"
+  ]
+ },
+ "serviced_living.menu_serviced_living_config_units": {
+  "names": [
+   "Units"
+  ],
+  "parents": [
+   "serviced_living.menu_serviced_living_config"
+  ]
+ },
  "serviced_living.menu_serviced_living_contracts": {
   "names": [
    "Contracts"
@@ -2711,7 +2903,7 @@
    "Pieces of the file"
   ],
   "parents": [
-   "serviced_living.menu_serviced_living_config"
+   "serviced_living.menu_serviced_living_config_contracts"
   ]
  },
  "serviced_living.menu_serviced_living_regimes": {
@@ -2719,7 +2911,7 @@
    "Regimes"
   ],
   "parents": [
-   "serviced_living.menu_serviced_living_config"
+   "serviced_living.menu_serviced_living_config_contracts"
   ]
  },
  "serviced_living.menu_serviced_living_registers": {
@@ -2735,7 +2927,7 @@
    "Residences"
   ],
   "parents": [
-   "serviced_living.menu_serviced_living_config"
+   "serviced_living.menu_serviced_living_config_units"
   ]
  },
  "serviced_living.menu_serviced_living_residents": {
@@ -2752,12 +2944,20 @@
   ],
   "parents": []
  },
+ "serviced_living.menu_serviced_living_settings": {
+  "names": [
+   "Settings"
+  ],
+  "parents": [
+   "serviced_living.menu_serviced_living_config"
+  ]
+ },
  "serviced_living.menu_serviced_living_unit_types": {
   "names": [
    "Unit types"
   ],
   "parents": [
-   "serviced_living.menu_serviced_living_config"
+   "serviced_living.menu_serviced_living_config_units"
   ]
  },
  "serviced_living.menu_serviced_living_units": {

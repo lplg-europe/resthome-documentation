@@ -34,7 +34,7 @@ Medicines**), **Prescriptions** tab, and its **To Read** counter.
 
 ## Before you start
 
-Two settings, in **Nursing Care → Configuration → Settings**, block
+Two settings, in **Nursing Care → Configuration → General → Settings**, block
 **Prescriptions**:
 
 - **Receive prescriptions by e-mail** — give the address (alias and domain):

@@ -171,7 +171,7 @@ assessment**. The assigned activity acts as a reminder. See
 
 ## INAMI rates and pseudo-codes
 
-*Billing → Configuration → INAMI Rates.* The rate grid carries the amounts of
+*Billing → Configuration → Rates and Rules → INAMI Rates.* The rate grid carries the amounts of
 the **INAMI dependency allowance** (rate type **INAMI Forfait**) and of the
 accommodation, dated by **Start Date** and **End Date**.
 
@@ -186,7 +186,7 @@ accommodation, dated by **Start Date** and **End Date**.
 When an eFact is built for a year that has no rate yet, WideCare stops and
 offers to open or create the INAMI rates of that year.
 
-*Billing → Configuration → Billing Codes.* The **pseudo-codes** the health
+*Billing → Configuration → Rates and Rules → Billing Codes.* The **pseudo-codes** the health
 insurer is billed with. Each code carries its **Pseudo-code**, its
 **Category**, and, for the daily allowance:
 
@@ -204,10 +204,10 @@ product, and its product category is **Declared to the OA (ET50)** (see
 
 ## Health insurers and CPAS
 
-- **Mutuelles** (*Billing → Configuration → Mutuelles*): the list of health
+- **Mutuelles** (*Billing → Configuration → Payers → Mutuelles*): the list of health
   insurers (insurance organisations, OA), used for
   [insurability (MDA)](ehealth/mda.md) and [eFact](ehealth/efact.md).
-- **CPAS** (*Billing → Configuration → CPAS*): the public welfare centres that
+- **CPAS** (*Billing → Configuration → Payers → CPAS*): the public welfare centres that
   pay for some residents. See [CPAS coverage](cpas.md).
 
 ## Other Belgian settings

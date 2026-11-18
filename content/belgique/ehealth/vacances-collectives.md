@@ -30,7 +30,7 @@ A **collective holiday** is a group trip: the seaside, the mountains, a few days
 away. It has consequences for billing and for the health insurance funds, which
 must be told. WideCare handles the whole thing from one record.
 
-Menu: **Billing → Facturation → Collective Vacations**.
+Menu: **Billing → Facturation → Residents → Collective Vacations**.
 
 ## 1. Create the trip
 

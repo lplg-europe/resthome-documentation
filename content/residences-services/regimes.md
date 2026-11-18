@@ -14,7 +14,7 @@ What is a regime?
 : The set of rules one public authority sets for the residences it licenses. Each residence runs under one regime, and the contracts, the billing and the registers read their rules from it.
 
 Where do the regimes come from?
-: Your country's pack brings them, ready to use. A house may also write its own in **Serviced Living → Configuration → Regimes**.
+: Your country's pack brings them, ready to use. A house may also write its own in **Serviced Living → Configuration → Contracts → Regimes**.
 
 Can I change a value of a regime?
 : Yes, on the regime itself. A value the authority sets differently for your residence is changed there, never anywhere else.
@@ -23,7 +23,7 @@ Does a regime refuse a contract?
 : Only where the rule is strict: a missing piece of the file, the house rules not handed over before the signature, an increase above the cap. The age of an occupant or the surface of a unit only shows a warning.
 
 Which pieces does the file ask for?
-: The ones listed in **Serviced Living → Configuration → Pieces of the file**. A piece ticked **Required to sign** holds the signature back until it is received.
+: The ones listed in **Serviced Living → Configuration → Contracts → Pieces of the file**. A piece ticked **Required to sign** holds the signature back until it is received.
 :::
 
 Each authority that licenses serviced residences sets its own rules: an
@@ -31,7 +31,7 @@ entry age, a price per month or per day, a cap on increases, a notice period, a
 register of calls. The **regime** holds those rules in one place, and the
 application applies them on every residence that runs under it.
 
-Open **Serviced Living → Configuration → Regimes**.
+Open **Serviced Living → Configuration → Contracts → Regimes**.
 
 ## The regime's sheet
 
@@ -116,7 +116,7 @@ otherwise.
 
 ## Pieces of the file
 
-**Serviced Living → Configuration → Pieces of the file** lists what a candidate
+**Serviced Living → Configuration → Contracts → Pieces of the file** lists what a candidate
 hands in: identity document, medical certificate, inventory of the unit…
 
 - **Required to sign** — the contract cannot be signed until the piece is

@@ -17,7 +17,7 @@ Should I choose the Acceptance or Production environment?
 : Stay on Acceptance (test servers, no real data) as long as your sendings have not been validated by the CIN and the federated entity. Switch to Production only once accreditation is obtained: from then on, sendings actually bill the health insurance funds.
 
 Where is the eHealth certificate set?
-: On the approval: each INAMI number has its own certificate, on the **eHealth** tab of its approval. Import the .p12 file under **eHealth → Configuration → Certificates**, then choose it on the approval.
+: On the approval: each INAMI number has its own certificate, on the **eHealth** tab of its approval. Import the .p12 file under **eHealth → Configuration → Identity and Certificates → Certificates**, then choose it on the approval.
 
 Where do I get the CIN package licence?
 : From the software publisher: the **Contact LPLG** button under **Get a License** prepares the request. The licence (username and password) is issued by the CIN/NIC for the accredited software.
@@ -46,7 +46,7 @@ They are spread over three places:
 - **Settings → eHealth** tab: the environment, the approvals, the federated
   entity, the MDA, eAgreement and eFact choices, the logs, the service desk and
   the CIN licence;
-- each **approval** (**eHealth → Configuration → Approvals**): its INAMI number
+- each **approval** (**eHealth → Configuration → General → Approvals**): its INAMI number
   and its **eHealth certificate**;
 - **Settings → MR/MRS Billing** tab: **Account C** and the **eFact header**.
 
@@ -88,7 +88,7 @@ settings](reglages.md) for the approval itself.
 On the **eHealth** tab of an approval:
 
 - **Certificate**: the establishment's **.p12**, imported first under
-  **eHealth → Configuration → Certificates** (or straight from the field);
+  **eHealth → Configuration → Identity and Certificates → Certificates** (or straight from the field);
 - its state and its expiry date, shown once a certificate is chosen.
 
 Each stay sends and reads its flows — insurability, agreements, eFact — under

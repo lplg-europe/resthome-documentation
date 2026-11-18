@@ -11,7 +11,7 @@ The occupancy board of a Belgian nursing home in WideCare: residents by sector a
 
 :::{rh-faq}
 Where is the occupancy board?
-: In **Billing → Facturation → Occupancy MR / CS / MRS**, and on the billing dashboard.
+: In **Billing → Facturation → Periods → Occupancy MR / CS / MRS**, and on the billing dashboard.
 
 What does "% end of quarter (projection)" mean?
 : The occupancy rate the quarter would reach if today's occupancy held until its last day.
@@ -31,7 +31,7 @@ approved for a fixed number of them. The occupancy board answers the morning
 question: where does the home stand against its approved beds this quarter, and
 who could move up to MRS?
 
-Open **Billing → Facturation → Occupancy MR / CS / MRS**. The board shows
+Open **Billing → Facturation → Periods → Occupancy MR / CS / MRS**. The board shows
 **today**; pick another date in the date field, and **Today** brings you back.
 
 <!-- screenshot to add: the occupancy board with the MR, CS and MRS columns, the Katz rows and the quarter figures -->

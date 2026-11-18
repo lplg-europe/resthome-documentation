@@ -157,7 +157,7 @@ Async**, **Check Responses**, **Retry Errors** and **Retry No-Facet**.
 :class: note
 
 If the answer to a sending is lost (time-out, interruption), WideCare does not
-resend it automatically: it lists it under **eHealth → Configuration → Sends to
+resend it automatically: it lists it under **eHealth → Configuration → Monitoring → Sends to
 check**, where you say whether MyCareNet received it — see [eHealth](index.md).
 :::
 

@@ -31,12 +31,12 @@ the work of the care staff, in the **Care Tasks** app.
 
 ## Find your work
 
-- **Care Tasks → Care Tasks → Today's Care** — today's care, as cards, sorted by room for the round.
-- **Care Tasks → Care Tasks → My Assigned Care** — the care assigned to you, still to do.
-- **Care Tasks → Care Tasks → My Care Plans** — the plans you coordinate.
-- **Care Tasks → Care Tasks → My Objectives** — the objectives assigned to you.
-- **Care Tasks → Care Tasks → To Assign** — today's care with nobody assigned yet.
-- **Care Tasks → Care Tasks → Care Schedule** — the calendar of care.
+- **Care Tasks → Care Tasks → All Care → Today's Care** — today's care, as cards, sorted by room for the round.
+- **Care Tasks → Care Tasks → My Care → My Assigned Care** — the care assigned to you, still to do.
+- **Care Tasks → Care Tasks → My Care → My Care Plans** — the plans you coordinate.
+- **Care Tasks → Care Tasks → My Care → My Objectives** — the objectives assigned to you.
+- **Care Tasks → Care Tasks → All Care → To Assign** — today's care with nobody assigned yet.
+- **Care Tasks → Care Tasks → All Care → Care Schedule** — the calendar of care.
 
 ![Today's care as cards, one per care task](../assets/screenshots/soins/03-soins-du-jour.png)
 <!-- screenshot to update: cards now show the room, the sector, the moment of the day and the "No staff planned" ribbon when it applies -->

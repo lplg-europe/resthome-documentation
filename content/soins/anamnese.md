@@ -30,7 +30,7 @@ The **anamnesis** is the guided intake of a resident, filled in shortly after
 admission, then updated whenever the situation changes. Each discipline writes
 its own.
 
-Menu: **Nursing Care → Care → Assessments → Anamneses**, or **New →
+Menu: **Nursing Care → Evaluations → Follow-up → Anamneses**, or **New →
 Anamnesis** on the [care dashboard](tableau-de-bord.md).
 
 ![Anamnesis form: the resident, the discipline and the date, and its tabs](../assets/screenshots/soins/anamnese-fiche.png)
@@ -51,7 +51,7 @@ record.
 
 ## 1. Create the anamnesis
 
-1. Open **Nursing Care → Care → Assessments → Anamneses** and click **New**.
+1. Open **Nursing Care → Evaluations → Follow-up → Anamneses** and click **New**.
 2. Pick the **resident** and the **discipline**: Nursing, Physiotherapy,
    Occupational Therapy or Speech Therapy.
 3. The **date** defaults to today and the **author** is you.

@@ -17,7 +17,7 @@ What is sent to the accounting database?
 : Posted customer invoices and credit notes, and the customers they are addressed to. Drafts, purchases and the split-billing resident statement are never sent.
 
 How do I send the invoices?
-: Invoicing → Customers → Accounting bridge → Send to accounting lists the posted invoices not filed yet. Select them and use Actions → Send to accounting.
+: Invoicing → Accounting bridge → Send to accounting lists the posted invoices not filed yet. Select them and use Actions → Send to accounting.
 
 How do I know an invoice is paid?
 : The bridge reads the payment state back from the accounting database. The invoice shows the Ledger Payment State, the Ledger Residual and the Ledger Settled On date.
@@ -76,7 +76,7 @@ in the accounting database; it never creates them. Before switching it on:
 
 ## 3. Run the preflight check
 
-Click **Preflight check** (in the settings, or under **Invoicing → Customers →
+Click **Preflight check** (in the settings, or under **Invoicing →
 Accounting bridge**). It asks the accounting database every question the bridge
 will ask — the journal by its code, the accounts by their codes, the taxes —
 and lists everything missing at once. Create what is missing over there, then
@@ -84,7 +84,7 @@ click **Check again** until nothing blocks.
 
 ## 4. Send the invoices
 
-With a **Standard Odoo**, the **Invoicing → Customers → Accounting bridge**
+With a **Standard Odoo**, the **Invoicing → Accounting bridge**
 menu appears:
 
 - **Send to accounting** — the posted invoices and credit notes, filtered on

@@ -7,9 +7,11 @@ de ces modules — rien n'est étiqueté à la main.
 
 Le code (dépôt privé) n'est pas lisible par la CI de ce dépôt public : on
 commite donc ici un instantané, `docs-ops/modules.json`, régénéré à la main ou
-par la CI du dépôt Odoo :
+par la CI du dépôt Odoo. Le code est rangé comme chez Odoo : les modules
+Community dans `widecare/addons`, ceux qui exigent une app Enterprise dans
+`widecare-enterprise` ; on lit les deux :
 
-    python docs-ops/sync-modules.py ../widecare-odoo/resthome-odoo
+    python docs-ops/sync-modules.py ../widecare-odoo/widecare/addons ../widecare-odoo/widecare-enterprise
 
 Ce qu'il contient, par module (rien de plus — ce dépôt est public) :
   name         libellé affiché dans Applications
@@ -35,12 +37,14 @@ OUT = Path(__file__).resolve().parent / "modules.json"
 NOT_A_SUITE = {"Localization", "Belgium", ""}
 
 
-def main(src):
-    src = Path(src)
-    manifests = {m.parent.name: ast.literal_eval(m.read_text(encoding="utf-8"))
-                 for m in sorted(src.glob("*/__manifest__.py"))}
+def main(*srcs):
+    manifests, dirs = {}, {}
+    for src in map(Path, srcs):
+        for m in sorted(src.glob("*/__manifest__.py")):
+            manifests[m.parent.name] = ast.literal_eval(m.read_text(encoding="utf-8"))
+            dirs[m.parent.name] = m.parent
     if not manifests:
-        sys.exit(f"aucun __manifest__.py sous {src}")
+        sys.exit(f"aucun __manifest__.py sous {', '.join(srcs)}")
 
     def own_suite(name):
         cat = manifests[name].get("category", "")
@@ -75,7 +79,7 @@ def main(src):
         }
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=1, sort_keys=True) + "\n",
                    encoding="utf-8")
-    write_menus(src, manifests)
+    write_menus(dirs, manifests)
     cells = {}
     for m in out.values():
         k = (m["suite"], ",".join(m["countries"]) or "neutral")
@@ -88,7 +92,7 @@ def main(src):
 MENUS = Path(__file__).resolve().parent / "menus.json"
 
 
-def write_menus(src, manifests):
+def write_menus(dirs, manifests):
     """docs-ops/menus.json : l'arbre des menus, pour vérifier les chemins
     « **A → B → C** » cités par la doc.
 
@@ -131,7 +135,7 @@ def write_menus(src, manifests):
                 walk(child, module, parent)
 
     for module in manifests:
-        for xml in sorted((src / module).rglob("*.xml")):
+        for xml in sorted(dirs[module].rglob("*.xml")):
             try:
                 root = ET.parse(xml).getroot()
             except ET.ParseError:
@@ -144,4 +148,4 @@ def write_menus(src, manifests):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1] if len(sys.argv) > 1 else "../widecare-odoo/resthome-odoo")
+    main(*(sys.argv[1:] or ["../widecare-odoo/widecare/addons", "../widecare-odoo/widecare-enterprise"]))

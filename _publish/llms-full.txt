@@ -533,7 +533,7 @@ Source : https://widecare.eu/documentation/residents/evaluations/
 Au-delà de l’évaluation de la dépendance, qui suit l’échelle de chaque pays, WideCare rassemble les principales **échelles gériatriques** de la maison de repos, pour mesurer la cognition, le risque d’escarre, la nutrition, la santé bucco-dentaire, les chutes et la douleur. Vous les trouvez à deux endroits :
 
 - sur la **fiche de l’habitant**, l’onglet **Évaluation** : l’historique de chaque échelle et la saisie directe — affiché pour les rôles de soins ;
-- dans **Soins → Outils d’évaluation**, une liste par échelle pour toute la maison.
+- dans **Soins → Évaluations → Échelles**, une liste par échelle pour toute la maison.
 
 ![Onglet Évaluation de la fiche habitant, avec l'historique de chaque échelle](../../_images/outils-evaluation.png)
 
@@ -548,7 +548,7 @@ Au-delà de l’évaluation de la dépendance, qui suit l’échelle de chaque p
 | **Tinetti** | Équilibre et marche (chute) | /28 | Plus bas = plus à risque |
 | **Douleur** | Douleur, auto-évaluée ou observée | /10 ou /30 | Plus haut = plus de douleur |
 
-Les cinq premières se trouvent sur l’onglet **Évaluation** de l’habitant ; la **Douleur** se saisit depuis **Soins → Outils d’évaluation**, puis **Douleur (EVA / DOLOPLUS-2)**.
+Les cinq premières se trouvent sur l’onglet **Évaluation** de l’habitant ; la **Douleur** se saisit depuis **Soins → Évaluations → Échelles → Douleur (EVA / DOLOPLUS-2)**.
 
 La catégorie de dépendance reste à part
 
@@ -560,7 +560,7 @@ L’échelle de dépendance est **Katz**, avec ses catégories, son échéance d
 
 ## MMSE — fonctions cognitives
 
-Menu : **Soins → Outils d’évaluation**, puis **MMSE (Mini Mental State)**.
+Menu : **Soins → Évaluations → Échelles → MMSE (Mini Mental State)**.
 
 Le **MMSE** est un test de dépistage cognitif sur **30 points**. Cochez chaque item réussi, répartis en 7 domaines :
 
@@ -583,7 +583,7 @@ Le **MMSE** est un test de dépistage cognitif sur **30 points**. Cochez chaque 
 
 ## Braden — risque d’escarre
 
-Menu : **Soins → Outils d’évaluation**, puis **Braden (Risque d’escarre)**.
+Menu : **Soins → Évaluations → Échelles → Braden (Risque d’escarre)**.
 
 Cotez **6 sous-échelles** : perception sensorielle (1–4), humidité (1–4), activité (1–4), mobilité (1–4), nutrition (1–4), friction et cisaillement (1–3). Le total va de 6 à 23. **Plus le score est bas, plus le risque est élevé.**
 
@@ -599,7 +599,7 @@ Cotez **6 sous-échelles** : perception sensorielle (1–4), humidité (1–4), 
 
 ## MNA — état nutritionnel
 
-Menu : **Soins → Outils d’évaluation**, puis **MNA (Évaluation nutritionnelle)**.
+Menu : **Soins → Évaluations → Échelles → MNA (Évaluation nutritionnelle)**.
 
 La forme courte du **MNA** dépiste la **dénutrition** sur **14 points**, à partir de 6 questions : baisse des apports alimentaires sur 3 mois (0–2), perte de poids récente (0–3), mobilité (0–2), maladie aiguë ou stress psychologique (0 ou 2), problèmes neuropsychologiques (0–2) et indice de masse corporelle (0–3).
 
@@ -615,7 +615,7 @@ Le suivi du poids, des apports et de l’hydratation fait partie des application
 
 ## OHAT — santé bucco-dentaire
 
-Menu : **Soins → Outils d’évaluation**, puis **OHAT (Santé bucco-dentaire)**.
+Menu : **Soins → Évaluations → Échelles → OHAT (Santé bucco-dentaire)**.
 
 L”**OHAT** cote **8 catégories** de 0 (sain) à 2 (à traiter) : lèvres, langue, gencives et tissus, salive, dents naturelles, prothèses, propreté buccale et douleur dentaire. Le total va de 0 à 16. **Plus le score est haut, plus la situation est préoccupante.**
 
@@ -631,7 +631,7 @@ Remarque
 
 ## Tinetti — équilibre, marche et risque de chute
 
-Menu : **Soins → Outils d’évaluation**, puis **Tinetti (Équilibre et marche)**.
+Menu : **Soins → Évaluations → Échelles → Tinetti (Équilibre et marche)**.
 
 L’échelle de **Tinetti** évalue l”**équilibre** (9 items, /16) et la **marche** (/12), pour un total sur **28**. WideCare calcule les deux sous-scores et le total.
 
@@ -647,7 +647,7 @@ L’échelle de chute de **Morse** et le **registre des chutes** se trouvent dan
 
 ## Douleur — EVA ou DOLOPLUS-2
 
-Menu : **Soins → Outils d’évaluation**, puis **Douleur (EVA / DOLOPLUS-2)**.
+Menu : **Soins → Évaluations → Échelles → Douleur (EVA / DOLOPLUS-2)**.
 
 Choisissez l”**Échelle** :
 
@@ -667,7 +667,7 @@ Choisissez l”**Échelle** :
 
 Chaque échelle suit les mêmes étapes :
 
-1. Ouvrez l’échelle — depuis l’onglet **Évaluation** de l’habitant, ou depuis **Maison de repos → Outils d’évaluation**.
+1. Ouvrez l’échelle — depuis l’onglet **Évaluation** de l’habitant, ou depuis **Soins → Évaluations → Échelles**.
 2. **Nouveau** : l’habitant, la **date** (aujourd’hui) et l”**évaluateur** (vous) sont remplis. Cotez les items.
 3. **Confirmer** : l’évaluation passe de **Brouillon** à **Confirmé**.
 4. **Valider** : l’infirmier-chef ou le médecin la valide ; elle passe à **Validé**, avec le validateur et la date.
@@ -699,7 +699,7 @@ Un habitant a **une évaluation par date et par échelle** ; une évaluation ann
 
 ## Évaluations en attente de validation
 
-**Soins → Médical → Évaluations → Évaluations à valider** rassemble, dans une seule liste, toutes les évaluations encore en **Brouillon** ou **Confirmé**, quelle que soit l’échelle : habitant, échelle, date, évaluateur et statut. Elle filtre sur **Brouillon**, **Confirmé** et **Mes évaluations**, regroupe par échelle ou par habitant, et écarte les habitants décédés ou archivés. Voir [Évaluations à valider](../../soins/evaluations-a-valider/).
+**Soins → Évaluations → Suivi → Évaluations à valider** rassemble, dans une seule liste, toutes les évaluations encore en **Brouillon** ou **Confirmé**, quelle que soit l’échelle : habitant, échelle, date, évaluateur et statut. Elle filtre sur **Brouillon**, **Confirmé** et **Mes évaluations**, regroupe par échelle ou par habitant, et écarte les habitants décédés ou archivés. Voir [Évaluations à valider](../../soins/evaluations-a-valider/).
 
 ## Suivi et ré-évaluation
 
@@ -1714,7 +1714,7 @@ La part de l’assureur est le forfait INAMI : entre **Générer** et **Créer l
 ## Étape 1 — Ouvrir la période du mois
 
 1. Ouvrez l’application **Facturation**.
-2. Allez dans **Facturation → Périodes de facturation**.
+2. Allez dans **Facturation → Périodes → Périodes de facturation**.
 3. Ouvrez la période du mois. Pour la créer, cliquez sur **Nouveau** dans la liste, ou utilisez le bouton **+** du [tableau de bord de la facturation](../tableau-de-bord/) et choisissez **Période de facturation**.
 
 La liste affiche, pour chaque mois, une colonne **À faire** : l’étape qu’il attend. Les mois qui ont besoin de quelque chose sont en gras.
@@ -1932,7 +1932,7 @@ Au-delà de l’hébergement et du forfait de soins, un habitant peut avoir des 
 
 ## Types de suppléments
 
-Chaque supplément est un produit du **catalogue de suppléments** (**Facturation → Configuration → Types de suppléments**), avec un **Type de supplément** qui dit comment il est compté :
+Chaque supplément est un produit du **catalogue de suppléments** (**Facturation → Configuration → Tarifs et règles → Types de suppléments**), avec un **Type de supplément** qui dit comment il est compté :
 
 | Type de supplément | Facturé |
 | --- | --- |
@@ -2058,7 +2058,7 @@ Où est passé mon supplément ?
 
 Une **convention** regroupe les suppléments **récurrents** d’un habitant (chambre individuelle, TV, téléphone…). Elle vit sur l”**habitant**, pas sur le séjour : elle **survit** à un changement de chambre ou à un transfert entre secteurs. Chaque habitant a **une seule** convention, qui rassemble toutes ses lignes récurrentes ; en commencer une seconde affiche un avertissement avec un lien vers celle qui existe.
 
-Dans l’application, le menu **Conventions** liste les lignes de suppléments récurrents (habitant, convention, produit, type de supplément, prix unitaire, dates, quantité, actif). La convention elle-même — avec son statut et ses boutons — se gère depuis **Facturation → Facturation → Conventions de suppléments**, ou depuis le bouton intelligent **Suppléments** de la fiche de l’habitant.
+Dans l’application, le menu **Conventions** liste les lignes de suppléments récurrents (habitant, convention, produit, type de supplément, prix unitaire, dates, quantité, actif). La convention elle-même — avec son statut et ses boutons — se gère depuis **Facturation → Facturation → Suppléments → Conventions de suppléments**, ou depuis le bouton intelligent **Suppléments** de la fiche de l’habitant.
 
 ![Liste des conventions de suppléments : une par habitant, avec la période couverte et l'état Ouverte ou Fermée](../../_images/convention-supplements-liste.png)
 
@@ -2081,7 +2081,7 @@ Tant qu’un produit est couvert par une **convention active**, il ne peut pas �
 
 ## Le catalogue des suppléments
 
-Le menu **Configuration → Catalogue** tient la liste des **Types de suppléments** facturables (la même liste que **Facturation → Configuration → Types de suppléments**). Chaque supplément a :
+Le menu **Configuration → Catalogue** tient la liste des **Types de suppléments** facturables (la même liste que **Facturation → Configuration → Tarifs et règles → Types de suppléments**). Chaque supplément a :
 
 | Champ | Description |
 | --- | --- |
@@ -2141,7 +2141,7 @@ Quand un habitant s’absente (hospitalisation, vacances, sortie familiale), cel
 
 La même liste est accessible depuis deux endroits :
 
-- **Facturation → Facturation → Absences**, pour qui facture ;
+- **Facturation → Facturation → Habitants → Absences**, pour qui facture ;
 - **Maison de repos → Habitants → Absences**, pour le personnel de terrain quand l’habitant part.
 
 La fiche de l’habitant (bouton intelligent **Absences**), le séjour (onglet **Absences**) et le bouton **+** du [tableau de bord de la facturation](../tableau-de-bord/) l’ouvrent aussi.
@@ -2195,7 +2195,7 @@ Les jours sont comptés selon la présence à midi (heure de Bruxelles). Une abs
 
 ## Règles de déduction d’absence
 
-Les gestionnaires décident de la part de la chambre qu’une absence retire de la facture, dans **Facturation → Configuration → Règles de déduction d’absence**. Chaque règle comporte :
+Les gestionnaires décident de la part de la chambre qu’une absence retire de la facture, dans **Facturation → Configuration → Tarifs et règles → Règles de déduction d’absence**. Chaque règle comporte :
 
 - le **Type d’absence** auquel elle s’applique, et une validité facultative (**Date de début**, **Date de fin**) ;
 - un **Seuil de jours** — les jours d’absence à dépasser avant que la déduction commence (0 = dès le premier jour) ;
@@ -2791,7 +2791,7 @@ Source : https://widecare.eu/documentation/soins/anamnese/
 
 L”**anamnèse** est le recueil guidé d’un habitant, rempli peu après l’admission, puis mis à jour chaque fois que la situation change. Chaque discipline écrit la sienne.
 
-Menu : **Soins → Soins → Évaluations → Anamnèses**, ou **Nouveau → Anamnèse** sur le [tableau de bord Soins](../tableau-de-bord/).
+Menu : **Soins → Évaluations → Suivi → Anamnèses**, ou **Nouveau → Anamnèse** sur le [tableau de bord Soins](../tableau-de-bord/).
 
 ![Fiche d'anamnèse : l'habitant, la discipline et la date, et ses onglets](../../_images/anamnese-fiche.png)
 
@@ -2805,7 +2805,7 @@ Une anamnèse est un **instantané daté par discipline**, pas une seconde copie
 
 ## 1. Créer l’anamnèse
 
-1. Ouvrez **Soins → Soins → Évaluations → Anamnèses** et cliquez sur **Nouveau**.
+1. Ouvrez **Soins → Évaluations → Suivi → Anamnèses** et cliquez sur **Nouveau**.
 2. Choisissez l”**habitant** et la **discipline** : soins infirmiers, kinésithérapie, ergothérapie ou logopédie.
 3. La **date** est par défaut celle du jour et l”**auteur**, c’est vous.
 4. **Enregistrez.**
@@ -2893,7 +2893,7 @@ Une **ordonnance** est le document du médecin. WideCare la reçoit, laisse un i
 
 ## Avant de commencer
 
-Deux réglages, dans **Soins → Configuration → Paramètres**, bloc **Ordonnances** :
+Deux réglages, dans **Soins → Configuration → Général → Paramètres**, bloc **Ordonnances** :
 
 - **Recevoir les ordonnances par e-mail** — indiquez l’adresse (alias et domaine) : chaque e-mail qui y est envoyé devient une ordonnance en brouillon, son PDF à côté du formulaire. L’expéditeur est rapproché du médecin.
 - **Lire les lignes sur le PDF** — **Saisie à la main**, ou **OCR local (Tesseract)** pour remplir les lignes depuis le PDF. Avec l’OCR, réglez **Créer un médicament manquant depuis le catalogue de référence à partir de cette certitude (%)** : un médicament lu qui n’est pas au catalogue est créé quand la lecture atteint cette certitude (0 = jamais créé, seulement proposé dans les notes de la ligne).
@@ -3125,7 +3125,7 @@ Un plan de soins de maison de repos est révisé tous les 30 jours ; celui d’u
 
 ## Trouver un plan
 
-Filtres : **Mes plans de soins**, **Sans coordinateur**, **Mes secteurs**, **Actif**, **En révision**, **Brouillons**, **Terminé**, **Annulé**, **Révision due**, **Révision bientôt due**. Regroupez par habitant, coordinateur, état, secteur ou dépendance. **Tâches de soins → Tâches de soins → Mes plans de soins** liste les plans que vous coordonnez.
+Filtres : **Mes plans de soins**, **Sans coordinateur**, **Mes secteurs**, **Actif**, **En révision**, **Brouillons**, **Terminé**, **Annulé**, **Révision due**, **Révision bientôt due**. Regroupez par habitant, coordinateur, état, secteur ou dépendance. **Tâches de soins → Tâches de soins → Mes soins → Mes plans de soins** liste les plans que vous coordonnez.
 
 ## Pour aller plus loin
 
@@ -4475,8 +4475,7 @@ L”**échelle de Katz** mesure le degré de **dépendance** d’un habitant. El
 
 La même liste d’évaluations s’ouvre partout où vous travaillez :
 
-- **Soins → Outils d’évaluation**, entrée **Katz (INAMI)** ;
-- **Soins → Soins → Évaluations → Évaluations Katz** ;
+- **Soins → Évaluations → Échelles → Katz (INAMI)** ;
 - **Facturation → Évaluations Katz**.
 
 ![Liste des évaluations Katz : une ligne par habitant avec la catégorie, le score total, la date de prochaine évaluation et l'indicateur de renouvellement](../../_images/01-evaluations.png)
@@ -4615,12 +4614,12 @@ En Belgique, les secteurs pour lesquels une maison est agréée sont la **MR** (
 
 Le guide commun [Facturer un mois, pas à pas](../../facturation/facturer-un-mois/) donne l’enchaînement commun à tous les pays. En Belgique, il s’enrichit de ses étapes eHealth :
 
-1. **Ouvrez la période** dans **Facturation → Facturation → Périodes de facturation**.
+1. **Ouvrez la période** dans **Facturation → Facturation → Périodes → Périodes de facturation**.
 2. **Générer** — dans la fenêtre **Générer la facturation**, **Charger MDA Succès** (et **Charger MDA en attente**) préremplissent les habitants dont l’assurabilité a déjà été vérifiée, par exemple par un lot MDA lancé en début de mois. Le forfait est calculé sur les jours de présence de la **période d’intervention INAMI**, avec la catégorie Katz facturée. La période passe à l’état **Généré**. Un habitant sans Katz validée ne reçoit aucun forfait : sa ligne affiche **Pas de Katz**, et le fil vous demande de valider sa Katz et de régénérer.
 3. **Vérifiez l’assurabilité** — cliquez sur **Vérifier MDA** : une requête par habitant de la période, envoyée en un lot groupé. L’étape est franchie dès que chaque habitant facturé à une mutuelle a une requête — les réponses peuvent arriver plus tard. Corrigez les cas signalés (mauvaise mutuelle, perte d’assurabilité) ; **Réessayer les MDA échoués** renvoie les requêtes tombées en erreur. Voir [Assurabilité (MDA)](../ehealth/mda/).
 4. **Générer eFact** — dans la fenêtre **Générer les envois eFact**, cliquez sur **Générer les envois** : WideCare constitue les **lots** eFact à partir des lignes mutuelle de la période, regroupés **par union** de mutuelles. Un habitant sans évaluation Katz bloque cette étape. Les habitants laissés hors de l’eFact — sans NISS, sans mutuelle, sans journée facturable — sont nommés avec le motif et le montant, pour que personne ne disparaisse en silence.
 5. **Créer les factures** — la part habitant devient des factures en **brouillon** ; vérifiez-les, puis cliquez sur **Confirmer**. La période passe à l’état **Facturé**.
-6. **Envoyez** — ouvrez **eHealth → eFact → Cockpit** (ou les lots) et cliquez sur **Tout envoyer**, ou envoyez lot par lot. Les envois partent vers les organismes assureurs via le réseau eHealth.
+6. **Envoyez** — ouvrez **eHealth → eFact → À traiter → Cockpit** (ou les lots) et cliquez sur **Tout envoyer**, ou envoyez lot par lot. Les envois partent vers les organismes assureurs via le réseau eHealth.
 7. **Suivez les réponses** — cliquez sur **Récupérer les réponses** pour rapatrier les accusés de réception et les décomptes. Chaque lot passe par **Envoyé → Accusé reçu → Accepté / Rejeté**. En cas de **rejet**, corrigez la cause (assurabilité, dates, montants) et **renvoyez**.
 8. **Clôturer la période** — possible dès qu’aucune facture n’est plus en brouillon, que chaque lot a abouti à un résultat définitif, qu’aucune ligne mutuelle n’est hors lot et que chaque prestation refusée par l’organisme assureur a été corrigée.
 9. **Imprimez les notes de frais** — [Annexe 12](../note-de-frais-annexe12/), individuelle et récapitulative, une fois le mois facturé.
@@ -4764,7 +4763,7 @@ L”[évaluation Katz](../katz/) cote les six activités de la vie quotidienne (
 
 Le montant est le même pour toutes les catégories
 
-Dans les tarifs **AViQ**, le **montant** du forfait de dépendance est **identique pour toutes les catégories Katz**, y compris **O** : un **tarif journalier unique**, indexé chaque année. La catégorie ne change donc **pas le montant** — elle sert à **déclarer le bon profil** à la mutuelle (l”**accord OA**) et aux **normes de soins**. Le tarif reste **configurable par catégorie** dans *Configuration → Tarifs INAMI* si une convention l’exige.
+Dans les tarifs **AViQ**, le **montant** du forfait de dépendance est **identique pour toutes les catégories Katz**, y compris **O** : un **tarif journalier unique**, indexé chaque année. La catégorie ne change donc **pas le montant** — elle sert à **déclarer le bon profil** à la mutuelle (l”**accord OA**) et aux **normes de soins**. Le tarif reste **configurable par catégorie** dans *Configuration → Tarifs et règles → Tarifs INAMI* si une convention l’exige.
 
 Pas de Katz validée, pas de forfait
 
@@ -4811,7 +4810,7 @@ Si l’état d’un habitant se dégrade, saisissez une **nouvelle évaluation K
 
 ## Configurer les tarifs de forfait
 
-Les tarifs se configurent dans **Facturation → Configuration → Tarifs INAMI** : un **tarif par catégorie Katz**, avec une **période de validité**. WideCare applique le tarif en vigueur à la date de facturation. Pour l”**indexation annuelle**, cliquez sur **Générer une année** au-dessus de la liste : saisissez les montants une fois et WideCare crée les tarifs de toutes les catégories pour l’année. **Nouveau** ajoute une seule ligne. Le même écran gère aussi le **tarif d’hébergement** (à charge de l’habitant).
+Les tarifs se configurent dans **Facturation → Configuration → Tarifs et règles → Tarifs INAMI** : un **tarif par catégorie Katz**, avec une **période de validité**. WideCare applique le tarif en vigueur à la date de facturation. Pour l”**indexation annuelle**, cliquez sur **Générer une année** au-dessus de la liste : saisissez les montants une fois et WideCare crée les tarifs de toutes les catégories pour l’année. **Nouveau** ajoute une seule ligne. Le même écran gère aussi le **tarif d’hébergement** (à charge de l’habitant).
 
 Si un eFact est constitué pour une année qui n’a pas encore de tarif, WideCare s’arrête et propose d’ouvrir ou de créer les tarifs de cette année.
 
@@ -4890,9 +4889,9 @@ WideCare est connecté à l’écosystème e-santé belge (eHealth, MyCareNet, W
 
 ## Quand une réponse se perd
 
-Un envoi vers MyCareNet peut se terminer sans réponse certaine : un délai dépassé, une interruption. WideCare **ne le renvoie jamais tout seul**, pour que la mutuelle ne reçoive jamais deux fois la même demande. Il le liste dans **eHealth → Configuration → Envois à vérifier**, réservé aux gestionnaires eHealth : cherchez son accusé de réception dans la boîte aux lettres MyCareNet, puis cliquez sur **Reçu par MyCareNet** (le document compte comme envoyé) ou **Non reçu, peut être renvoyé**.
+Un envoi vers MyCareNet peut se terminer sans réponse certaine : un délai dépassé, une interruption. WideCare **ne le renvoie jamais tout seul**, pour que la mutuelle ne reçoive jamais deux fois la même demande. Il le liste dans **eHealth → Configuration → Suivi → Envois à vérifier**, réservé aux gestionnaires eHealth : cherchez son accusé de réception dans la boîte aux lettres MyCareNet, puis cliquez sur **Reçu par MyCareNet** (le document compte comme envoyé) ou **Non reçu, peut être renvoyé**.
 
-Chaque appel à la plateforme, avec sa réponse, est conservé dans **eHealth → Configuration → Journaux de communication** pour les gestionnaires eHealth.
+Chaque appel à la plateforme, avec sa réponse, est conservé dans **eHealth → Configuration → Suivi → Journaux de communication** pour les gestionnaires eHealth.
 
 ## Bon à savoir
 
@@ -5006,7 +5005,7 @@ Sur un lot, les mêmes actions existent en version groupée : **Envoyer Sync**, 
 
 Un envoi sans réponse certaine n’est jamais renvoyé tout seul
 
-Si la réponse à un envoi est perdue (délai dépassé, interruption), WideCare ne le renvoie pas automatiquement : il le liste sous **eHealth → Configuration → Envois à vérifier**, où vous indiquez si MyCareNet l’a reçu — voir [eHealth](../).
+Si la réponse à un envoi est perdue (délai dépassé, interruption), WideCare ne le renvoie pas automatiquement : il le liste sous **eHealth → Configuration → Suivi → Envois à vérifier**, où vous indiquez si MyCareNet l’a reçu — voir [eHealth](../).
 
 ## Ce que WideCare met à jour tout seul
 
@@ -5495,7 +5494,7 @@ En Compte C, dès que le décompte porte une **référence de paiement réelle**
 
 ## 2. L’écran eFact Settlements (les décomptes)
 
-Menu **eHealth → eFact → eFact Settlements**. C’est la liste de tous les **décomptes (920900)** reçus, un par paiement.
+Menu **eHealth → eFact → Envois et décomptes → eFact Settlements**. C’est la liste de tous les **décomptes (920900)** reçus, un par paiement.
 
 La liste affiche : la **référence**, le **lot** concerné, la **date de réception**, les montants **Accepted** / **Rejected** / **Paid** et la **référence de paiement**, plus un badge de **statut**.
 
@@ -5555,7 +5554,7 @@ Un lot portant déjà un document comptable vivant ne peut pas être comptabilis
 
 ## 5. Le cockpit eFact : « ai-je été payé ? » d’un coup d’œil
 
-Menu **eHealth → eFact → Cockpit** (aussi accessible depuis une période ou une carte du tableau de bord). Le Cockpit range tout le travail en **piles d’action**, avec un compteur et un bouton par pile. Trois piles répondent directement à la question du paiement.
+Menu **eHealth → eFact → À traiter → Cockpit** (aussi accessible depuis une période ou une carte du tableau de bord). Le Cockpit range tout le travail en **piles d’action**, avec un compteur et un bouton par pile. Trois piles répondent directement à la question du paiement.
 
 ![Cockpit eFact avec les piles d'actions (À envoyer, En attente OA, À corriger, À pointer, Paiements OA en retard) et le tableau « Rejets par cause »](../../../_images/11-efact-cockpit.webp)
 
@@ -5590,7 +5589,7 @@ Sur le lot, dès que l’échéance est dépassée et le lot toujours impayé, u
 
 Renseigner le taux légal
 
-Le calcul reste à **0 tant que le taux légal n’est pas saisi**. Indiquez le **taux d’intérêt légal annuel** publié dans **eHealth → Configuration → Paramètres**, paramètre **Taux d’intérêt légal (%)** — voir [Réglages eHealth](../../reglages-ehealth/). C’est une valeur **propre à votre établissement / à l’année** en cours.
+Le calcul reste à **0 tant que le taux légal n’est pas saisi**. Indiquez le **taux d’intérêt légal annuel** publié dans **eHealth → Configuration → Général → Paramètres**, paramètre **Taux d’intérêt légal (%)** — voir [Réglages eHealth](../../reglages-ehealth/). C’est une valeur **propre à votre établissement / à l’année** en cours.
 
 ## Points clés à retenir
 
@@ -5976,7 +5975,7 @@ Le montant du **forfait de soins** est le **même pour toutes les catégories Ka
 
 ### Éditer une note individuelle
 
-1. Ouvrez la **période de facturation** du mois (application **Facturation → Facturation → Périodes de facturation**).
+1. Ouvrez la **période de facturation** du mois (application **Facturation → Facturation → Périodes → Périodes de facturation**).
 2. Ouvrez la **fiche de facturation de l’habitant** concerné (« Facturation par habitant »).
 3. Cliquez **Imprimer → Annexe 12 — Note de Frais Individuelle**.
 4. Le PDF est généré au nom de l’habitant et de la période.
@@ -6053,7 +6052,7 @@ Source : https://widecare.eu/documentation/belgique/cpas/
 
 Quand un habitant n’a pas les moyens de couvrir sa **part personnelle** (hébergement et suppléments), le **CPAS** (Centre Public d’Action Sociale) de sa commune peut la **prendre en charge**, en totalité ou en partie. WideCare vous permet d’**enregistrer cette décision** sur la fiche de l’habitant et de **router la facture** vers le bon débiteur.
 
-Vous trouvez ces réglages dans l’onglet **Facturation** du contact de l’habitant (le lien **Contact** sous son nom), et la liste des CPAS dans **Facturation → Configuration → CPAS**.
+Vous trouvez ces réglages dans l’onglet **Facturation** du contact de l’habitant (le lien **Contact** sous son nom), et la liste des CPAS dans **Facturation → Configuration → Payeurs → CPAS**.
 
 Ce que couvre le CPAS
 
@@ -6072,7 +6071,7 @@ Deux notions sont à distinguer :
 
 Avant de rattacher un habitant à un CPAS, le CPAS doit exister comme contact.
 
-1. Ouvrez **Facturation → Configuration → CPAS**.
+1. Ouvrez **Facturation → Configuration → Payeurs → CPAS**.
 2. Cliquez sur **Nouveau** et encodez le **nom** du CPAS, sa ville, son téléphone et son e-mail.
 3. Vérifiez que la case **Est un CPAS**, à côté du nom, est cochée (elle l’est par défaut depuis ce menu).
 4. **Enregistrez.**
@@ -6127,7 +6126,7 @@ Les champs **Prise en charge CPAS** et **Décision CPAS** documentent la décisi
 ## Points clés à retenir
 
 - La prise en charge CPAS concerne la **part habitant** (chambre + suppléments), pas le **forfait de dépendance** (part mutuelle, via eFact).
-- Créez d’abord le CPAS dans **Facturation → Configuration → CPAS**, puis rattachez-le à l’habitant dans l’onglet **Facturation**.
+- Créez d’abord le CPAS dans **Facturation → Configuration → Payeurs → CPAS**, puis rattachez-le à l’habitant dans l’onglet **Facturation**.
 - La couverture est **totale** ou **partielle** ; le **Montant mensuel CPAS** ne s’applique qu’à la couverture partielle.
 - Les champs CPAS **enregistrent** la décision ; pour **router** la facture, utilisez le **Contact facturation** (couverture totale) ou la **facturation partagée** (couverture partielle).
 - Le **Montant mensuel CPAS** et la référence de décision sont **propres à chaque dossier**, d’après la notification du CPAS.
@@ -6353,7 +6352,7 @@ SAM s’installe seul avec le pack belge et l’application Soins. Il fonctionne
 
 ## Réglages
 
-Dans **Soins → Configuration → Paramètres**, bloc **Médicaments SAM** :
+Dans **Soins → Configuration → Général → Paramètres**, bloc **Médicaments SAM** :
 
 - **Adresse et clé** — où se trouve le service SAM central et la clé qui l’ouvre. **Tester la connexion**, **Synchroniser maintenant** et **Tout relire la prochaine fois** se trouvent en dessous. Seuls des codes CNK quittent la base, jamais des données d’habitants.
 - **Tarif** — quel prix et quel remboursement SAM lire : *Officine publique* (la réponse habituelle, un habitant restant un patient ambulatoire d’une pharmacie publique), *Soins résidentiels*, *Hôpital* ou *Ambulatoire*.
@@ -6520,7 +6519,7 @@ Une réadmission après plus de 30 jours d’hospitalisation exige une **nouvell
 
 ## Tarifs INAMI et pseudo-codes
 
-*Facturation → Configuration → Tarifs INAMI.* La grille tarifaire porte les montants du **forfait INAMI de dépendance** (type de tarif **Forfait INAMI**) et de l’hébergement, datés par **Date de début** et **Date de fin**.
+*Facturation → Configuration → Tarifs et règles → Tarifs INAMI.* La grille tarifaire porte les montants du **forfait INAMI de dépendance** (type de tarif **Forfait INAMI**) et de l’hébergement, datés par **Date de début** et **Date de fin**.
 
 - **Catégorie Katz** : O, A, B, C, Cd, D et Ccoma. Selon les tarifs **AViQ**, le montant est le **même** pour toutes les catégories, O compris ; la grille reste configurable par catégorie si une convention l’exige.
 - **Type de séjour** : le secteur que le tarif valorise (MR, MRS, CSJ). Un tarif laissé vide s’applique quel que soit le secteur ; le tarif propre au secteur l’emporte lorsque les deux existent.
@@ -6528,7 +6527,7 @@ Une réadmission après plus de 30 jours d’hospitalisation exige une **nouvell
 
 Quand un eFact est constitué pour une année qui n’a pas encore de tarif, WideCare s’arrête et propose d’ouvrir ou de créer les tarifs INAMI de cette année.
 
-*Facturation → Configuration → Codes de facturation.* Les **pseudo-codes** avec lesquels la mutuelle est facturée. Chaque code porte son **Pseudo-code**, sa **Catégorie** et, pour le forfait journalier :
+*Facturation → Configuration → Tarifs et règles → Codes de facturation.* Les **pseudo-codes** avec lesquels la mutuelle est facturée. Chaque code porte son **Pseudo-code**, sa **Catégorie** et, pour le forfait journalier :
 
 - **Entité fédérée** : qui publie le code — Wallonie (AViQ), Bruxelles (Iriscare)… Chaque entité a sa propre série pour les mêmes catégories Katz ;
 - **Catégorie Katz** et **Secteur** : un habitant Katz B en MR est facturé avec le code MR, jamais avec celui de la MRS — la mutuelle rejette un pseudo-code qui ne correspond pas au secteur agréé ;
@@ -6538,8 +6537,8 @@ Un supplément déclaré à la mutuelle porte son **Pseudo-code** sur l’articl
 
 ## Mutuelles et CPAS
 
-- **Mutuelles** (*Facturation → Configuration → Mutuelles*) : la liste des mutuelles (organismes assureurs, OA), utilisée pour l”[assurabilité (MDA)](../ehealth/mda/) et l”[eFact](../ehealth/efact/).
-- **CPAS** (*Facturation → Configuration → CPAS*) : les centres publics d’action sociale qui paient pour certains habitants. Voir [La prise en charge CPAS](../cpas/).
+- **Mutuelles** (*Facturation → Configuration → Payeurs → Mutuelles*) : la liste des mutuelles (organismes assureurs, OA), utilisée pour l”[assurabilité (MDA)](../ehealth/mda/) et l”[eFact](../ehealth/efact/).
+- **CPAS** (*Facturation → Configuration → Payeurs → CPAS*) : les centres publics d’action sociale qui paient pour certains habitants. Voir [La prise en charge CPAS](../cpas/).
 
 ## Autres réglages belges
 
@@ -6569,7 +6568,7 @@ Ces réglages contiennent les **identifiants et choix** que WideCare utilise pou
 Ils sont répartis en trois endroits :
 
 - l’onglet **Paramètres → eHealth** : l’environnement, les agréments, l’entité fédérée, les choix MDA, eAgreement et eFact, les journaux, le service d’assistance et la licence CIN ;
-- chaque **agrément** (**eHealth → Configuration → Agréments**) : son numéro INAMI et son **certificat eHealth** ;
+- chaque **agrément** (**eHealth → Configuration → Général → Agréments**) : son numéro INAMI et son **certificat eHealth** ;
 - l’onglet **Paramètres → Facturation MR/MRS** : le **Compte C** et l”**en-tête eFact**.
 
 L’onglet **eHealth** n’est visible que pour les **gestionnaires eHealth**. La plupart des valeurs se règlent **une fois**, au démarrage.
@@ -6595,7 +6594,7 @@ Le bloc **Agréments** de l’onglet résume les numéros INAMI configurés. **G
 
 Sur l’onglet **eHealth** d’un agrément :
 
-- **Certificat** : le **.p12** de l’établissement, importé d’abord sous **eHealth → Configuration → Certificats** (ou directement depuis le champ) ;
+- **Certificat** : le **.p12** de l’établissement, importé d’abord sous **eHealth → Configuration → Identité et certificats → Certificats** (ou directement depuis le champ) ;
 - son état et sa date d’expiration, affichés dès qu’un certificat est choisi.
 
 Chaque séjour envoie et lit ses flux — assurabilité, accords, eFact — sous l’agrément de son secteur, avec le certificat propre à cet agrément.
@@ -6845,7 +6844,7 @@ Les envois sont regroupés **par union** (les grandes familles d’OA), pas par 
 
 ### Comment envoyer une période eFact et suivre les réponses ?
 
-Ouvrez **eHealth → eFact → Cockpit** (ou les lots) et cliquez sur **Tout envoyer** (ou lot par lot) ; les envois partent vers les mutuelles via eHealth. Cliquez ensuite sur **Récupérer les réponses** : chaque lot passe de **Envoyé (plateforme)** à **Accusé reçu (OA)**, puis **Décompté** — ou **Rejet partiel** / **Rejeté** —, WideCare rapprochant automatiquement les montants acceptés/refusés. → [Facturer un mois en Belgique](../facturation/) · [Facturation électronique (eFact)](../ehealth/efact/)
+Ouvrez **eHealth → eFact → À traiter → Cockpit** (ou les lots) et cliquez sur **Tout envoyer** (ou lot par lot) ; les envois partent vers les mutuelles via eHealth. Cliquez ensuite sur **Récupérer les réponses** : chaque lot passe de **Envoyé (plateforme)** à **Accusé reçu (OA)**, puis **Décompté** — ou **Rejet partiel** / **Rejeté** —, WideCare rapprochant automatiquement les montants acceptés/refusés. → [Facturer un mois en Belgique](../facturation/) · [Facturation électronique (eFact)](../ehealth/efact/)
 
 ### Je reçois un accusé de réception (931000) après l’envoi, dois-je attendre ?
 
@@ -6861,7 +6860,7 @@ Si un lot (ou une partie) est **rejeté**, le **code** et le **motif de rejet** 
 
 ### Un envoi n’a pas reçu de réponse certaine : dois-je le renvoyer ?
 
-**Non, pas à l’aveugle.** Quand la réponse à un envoi est perdue (délai dépassé, interruption), WideCare ne le renvoie jamais tout seul : il le liste dans **eHealth → Configuration → Envois à vérifier**, où vous indiquez si MyCareNet l’a reçu. → [eHealth](../ehealth/)
+**Non, pas à l’aveugle.** Quand la réponse à un envoi est perdue (délai dépassé, interruption), WideCare ne le renvoie jamais tout seul : il le liste dans **eHealth → Configuration → Suivi → Envois à vérifier**, où vous indiquez si MyCareNet l’a reçu. → [eHealth](../ehealth/)
 
 ---
 
@@ -6869,11 +6868,11 @@ Si un lot (ou une partie) est **rejeté**, le **code** et le **motif de rejet** 
 
 ### Comment facturer un mois de A à Z en Belgique ?
 
-Ouvrez la période (**Facturation → Facturation → Périodes de facturation**), cliquez sur **Générer**, puis sur **Vérifier MDA**, sur **Générer eFact**, sur **Créer les factures** et sur **Confirmer** pour la part habitant. Envoyez les lots eFact aux OA, récupérez les réponses et, enfin, cliquez sur **Clôturer la période**. Le bouton mis en évidence de la période indique toujours l’étape suivante. WideCare mène en parallèle, sur la même période, la part habitant (factures classiques) et la part mutuelle (eFact). → [Facturer un mois en Belgique](../facturation/)
+Ouvrez la période (**Facturation → Facturation → Périodes → Périodes de facturation**), cliquez sur **Générer**, puis sur **Vérifier MDA**, sur **Générer eFact**, sur **Créer les factures** et sur **Confirmer** pour la part habitant. Envoyez les lots eFact aux OA, récupérez les réponses et, enfin, cliquez sur **Clôturer la période**. Le bouton mis en évidence de la période indique toujours l’étape suivante. WideCare mène en parallèle, sur la même période, la part habitant (factures classiques) et la part mutuelle (eFact). → [Facturer un mois en Belgique](../facturation/)
 
 ### Où voir les lits occupés par rapport à mes agréments ?
 
-Dans **Facturation → Facturation → Occupation MR / CS / MRS** : une colonne par secteur, une ligne par catégorie Katz, les lits agréés et libres, et l’occupation du trimestre. Un bandeau signale les habitants MR dont la catégorie permettrait un passage sur un lit MRS. → [Occupation MR / CS / MRS](../occupation-mr-mrs/)
+Dans **Facturation → Facturation → Périodes → Occupation MR / CS / MRS** : une colonne par secteur, une ligne par catégorie Katz, les lits agréés et libres, et l’occupation du trimestre. Un bandeau signale les habitants MR dont la catégorie permettrait un passage sur un lit MRS. → [Occupation MR / CS / MRS](../occupation-mr-mrs/)
 
 ### Le forfait INAMI est-il réparti entre les débiteurs ?
 
@@ -7088,7 +7087,7 @@ La **base de données belge des médicaments de source authentique**, avec le co
 
 ## Envois à vérifier
 
-La liste des envois vers MyCareNet dont la réponse a été perdue (délai dépassé, interruption). WideCare ne les renvoie jamais tout seul : vous indiquez si MyCareNet les a reçus, dans **eHealth → Configuration → Envois à vérifier**. Voir : [eHealth](../ehealth/)
+La liste des envois vers MyCareNet dont la réponse a été perdue (délai dépassé, interruption). WideCare ne les renvoie jamais tout seul : vous indiquez si MyCareNet les a reçus, dans **eHealth → Configuration → Suivi → Envois à vérifier**. Voir : [eHealth](../ehealth/)
 
 ## Tiers payant
 
@@ -7268,7 +7267,7 @@ Le pack belge ajoute ses propres réglages : les numéros INAMI et les agrément
 - **Règles de déduction d’absence** : le réglage fin de la facturation lorsqu’un habitant est absent (voir [Absences et hospitalisations](../facturation/absences/)).
 - **Indexation des prix** : la hausse annuelle des prix des suppléments, à partir d’une date donnée (voir [Indexation des prix](../facturation/indexation-des-prix/)).
 
-Les tarifs, les types de suppléments et les règles de déduction d’absence se trouvent dans l’application **Facturation**, menu **Configuration** ; l’indexation part de **Facturation → Produits**.
+Les tarifs, les types de suppléments et les règles de déduction d’absence se trouvent dans l’application **Facturation**, menu **Configuration** ; l’indexation part de **Facturation → Suppléments → Produits**.
 
 En Belgique
 
@@ -7462,7 +7461,7 @@ Cocher installe la fonctionnalité et décocher la désinstalle. Une fois instal
 
 ## Ce qui se règle ailleurs
 
-- **Absences** — la réduction accordée pour une absence se règle sous **Facturation → Configuration → Règles de déduction d’absence**. Le fait qu’un jour compte comme jour de présence est **intégré** : un départ après midi ou un retour avant midi compte comme jour de présence, sauf si le pack pays applique ses propres seuils. Voir [Absences et hospitalisations](../../facturation/absences/).
+- **Absences** — la réduction accordée pour une absence se règle sous **Facturation → Configuration → Tarifs et règles → Règles de déduction d’absence**. Le fait qu’un jour compte comme jour de présence est **intégré** : un départ après midi ou un retour avant midi compte comme jour de présence, sauf si le pack pays applique ses propres seuils. Voir [Absences et hospitalisations](../../facturation/absences/).
 - **Prix** — les prix des suppléments et leur hausse annuelle. Voir [Indexation des prix](../../facturation/indexation-des-prix/).
 - **Le type de facture** de chaque habitant (d’avance ou à période échue) — sur le contact de l’habitant. Voir [Type de facture](../../facturation/type-de-facture/).
 - **Le pont comptable** — sous **Paramètres → Synchronisation**. Voir [Pont comptable](../../facturation/pont-comptable/).

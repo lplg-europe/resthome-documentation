@@ -29,7 +29,7 @@ batches** and builds the **920000 file** of each.
 
 ## Before the first batch
 
-On your certificate (**eHealth → Configuration → My eHealth identity**), the
+On your certificate (**eHealth → Configuration → Identity and Certificates → My eHealth identity**), the
 **eFact per act** group holds:
 
 - **eFact profession code**: the code of your profession in the INAMI table;

@@ -68,7 +68,7 @@ Cockpit before the close. See
 ## Step 1 — Open the month's period
 
 1. Open the **Billing** app.
-2. Go to **Facturation → Billing Periods**.
+2. Go to **Facturation → Periods → Billing Periods**.
 3. Open the month's period. To create it, click **New** in the list, or use the
    **+** button of the [billing dashboard](tableau-de-bord.md) and choose
    **Billing period**.

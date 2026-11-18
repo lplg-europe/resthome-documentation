@@ -93,7 +93,7 @@ insurance fund, not to set a different amount. See
 
 ### Generating an individual note
 
-1. Open the month's **billing period** (**Billing → Facturation → Billing Periods**
+1. Open the month's **billing period** (**Billing → Facturation → Periods → Billing Periods**
    application).
 2. Open the relevant **resident's billing record** ("Billing per resident").
 3. Click **Print → Annexe 12 — Note de Frais Individuelle**.

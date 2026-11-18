@@ -34,7 +34,7 @@ How do I see one wing only?
 : Choose the sector in the drop-down at the right of the header. The counters, the lists and the buttons then count that sector only; the Care dashboard keeps the same choice.
 
 Which settings act on the medication circuit?
-: In **Nursing Care → Configuration → Settings**, the **Prescriptions** block: receiving prescriptions by e-mail, reading their lines off the PDF, tracking the pillboxes, the house's pharmacy and the hour the pharmacy's basket leaves.
+: In **Nursing Care → Configuration → General → Settings**, the **Prescriptions** block: receiving prescriptions by e-mail, reading their lines off the PDF, tracking the pillboxes, the house's pharmacy and the hour the pharmacy's basket leaves.
 :::
 
 Everything about medicines sits behind **one** entry of the Care app:
@@ -49,7 +49,7 @@ dashboard opens the same screen.
 
 ## Settings of the medication circuit
 
-The settings live in **Nursing Care → Configuration → Settings**, block
+The settings live in **Nursing Care → Configuration → General → Settings**, block
 **Prescriptions** (managers):
 
 - **Receive prescriptions by e-mail** — each e-mail sent to the address you set

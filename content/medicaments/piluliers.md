@@ -11,7 +11,7 @@ Prepare and check the residents' pillboxes in WideCare with four eyes, report an
 
 :::{rh-faq}
 How do I turn on pillbox tracking?
-: In **Nursing Care → Configuration → Settings**, tick **Track the pillboxes**. Switched off, the Pillboxes tab, its buttons and its counters do not show.
+: In **Nursing Care → Configuration → General → Settings**, tick **Track the pillboxes**. Switched off, the Pillboxes tab, its buttons and its counters do not show.
 
 Can the nurse who filled a pillbox also check it?
 : No. **Checked** is refused to the hand that prepared the dose: another nurse or a physician checks it. Only the pharmacy's sachets can be checked by whoever received them.
@@ -34,7 +34,7 @@ back.
 
 ## Turning it on
 
-Pillbox tracking is a setting: **Nursing Care → Configuration → Settings**,
+Pillbox tracking is a setting: **Nursing Care → Configuration → General → Settings**,
 **Track the pillboxes**. Once it is on:
 
 - each dose records who prepared it and who checked it;

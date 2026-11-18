@@ -111,7 +111,7 @@ split is set per resident. See
 ## What is set elsewhere
 
 - **Absences** — the discount granted for an absence is set under **Billing →
-  Configuration → Absence Discount Rules**. Whether a day counts as a presence
+  Configuration → Rates and Rules → Absence Discount Rules**. Whether a day counts as a presence
   day is **built in**: a departure after noon or a return before noon counts as
   a presence day, unless the country pack applies its own thresholds. See
   [Absences and hospitalizations](../facturation/absences.md).

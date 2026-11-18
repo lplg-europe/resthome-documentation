@@ -33,8 +33,7 @@ computed for you.
 
 The same list of assessments opens wherever you work:
 
-- **Nursing Care → Evaluation Tools**, entry **Katz (INAMI)**;
-- **Nursing Care → Care → Assessments → Katz Evaluations**;
+- **Nursing Care → Evaluations → Scales → Katz (INAMI)**;
 - **Billing → Katz Evaluations**.
 
 ![Katz assessments list: one row per resident with the category, the total score, the next assessment date and the renewal indicator](../assets/screenshots/katz/01-evaluations.png)

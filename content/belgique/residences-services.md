@@ -20,7 +20,7 @@ Must a resident of an RS have a Katz?
 : No. A residence may ask for one at application, by its own house rules: tick **Katz at application** on the residence. It is off by default.
 
 Where do I enter the health index?
-: In **Serviced Living → Configuration → Health index**, one figure per month. A price change reads it to propose the index part.
+: In **Serviced Living → Configuration → Contracts → Health index**, one figure per month. A price change reads it to propose the index part.
 
 How does a resident move from the RS to the MR?
 : Through the internal transfer of the nursing home. See the page on moving between a serviced residence and the nursing home.
@@ -33,7 +33,7 @@ the MRS and the CSJ do.
 
 ## The regional regimes
 
-**Serviced Living → Configuration → Regimes** holds four ready-made sheets, one
+**Serviced Living → Configuration → Contracts → Regimes** holds four ready-made sheets, one
 per licensing authority:
 
 | Regime | Authority | Price basis |
@@ -60,7 +60,7 @@ when your title says otherwise.
 
 ## The pieces of a Belgian file
 
-The pack lists the usual pieces in **Serviced Living → Configuration → Pieces of
+The pack lists the usual pieces in **Serviced Living → Configuration → Contracts → Pieces of
 the file**: **Identity card**, **Medical certificate**, **Inventory of the
 unit**, **Deposit account**, **What the price includes**, **Signed agreement**
 and **House rules**. None is required by default: tick **Required to sign** on
@@ -102,7 +102,7 @@ residents list is not sorted by Katz category. See
 
 ## The health index
 
-**Serviced Living → Configuration → Health index** keeps the health index, one
+**Serviced Living → Configuration → Contracts → Health index** keeps the health index, one
 line per month, typed in by hand. When you change the price of contracts, the
 window proposes **Of which index (%)** from the move of the index since January
 of that year. Without a figure, type the index part yourself. See

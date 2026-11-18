@@ -33,7 +33,7 @@ WideCare handles two kinds.
 ## Supplement types
 
 Each supplement is a product of the **supplements catalog**
-(**Billing → Configuration → Supplement Types**), with a **Supplement Type**
+(**Billing → Configuration → Rates and Rules → Supplement Types**), with a **Supplement Type**
 that says how it is counted:
 
 | Supplement type | Billed |

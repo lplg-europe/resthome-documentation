@@ -17,7 +17,7 @@ Can I change the hours of the moments of the day?
 : Yes, under **Periods of the Day**. Each period ends when the next one starts.
 
 Where do I write a care plan template?
-: **Nursing Care → Configuration → Care Plan Templates**, or from a care plan with **Actions → Save as template**.
+: **Nursing Care → Configuration → Templates → Care Plan Templates**, or from a care plan with **Actions → Save as template**.
 :::
 
 The care configuration lives under **Nursing Care → Configuration**. The same
@@ -25,7 +25,7 @@ catalogues are also reachable from **Care Tasks → Configuration**.
 
 ## Settings
 
-**Nursing Care → Configuration → Settings**:
+**Nursing Care → Configuration → General → Settings**:
 
 | Block | Setting |
 |---|---|
@@ -76,14 +76,14 @@ See [Prescriptions and medicines](prescriptions.md) and
 
 ## Observation types
 
-**Nursing Care → Configuration → Observation Types**: drag the types into the
+**Nursing Care → Configuration → General → Observation Types**: drag the types into the
 order in which the meeting reads them, and tick **Critical** for those that
 bring a resident up in the next meeting. Falls and incidents are always
 critical.
 
 ## Care plan templates
 
-**Nursing Care → Configuration → Care Plan Templates** (head nurses and
+**Nursing Care → Configuration → Templates → Care Plan Templates** (head nurses and
 managers). A template holds:
 
 - its name and the **Dependency Category** it is written for;

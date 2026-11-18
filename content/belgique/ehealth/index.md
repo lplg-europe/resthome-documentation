@@ -17,10 +17,10 @@ What do I need before the first exchange?
 : An eHealth certificate installed on the home's approval, with a successful connection test. The residents need a NISS and a mutuality.
 
 A sending got no certain answer: will WideCare resend it?
-: Never on its own. It lists the sending in eHealth → Configuration → Sends to check, where you say whether MyCareNet received it; only then can it be sent again.
+: Never on its own. It lists the sending in eHealth → Configuration → Monitoring → Sends to check, where you say whether MyCareNet received it; only then can it be sent again.
 
 Where do I see what was exchanged with the platform?
-: In eHealth → Configuration → Communication logs: every call, with its answer, for the eHealth managers.
+: In eHealth → Configuration → Monitoring → Communication logs: every call, with its answer, for the eHealth managers.
 :::
 
 :::{toctree}
@@ -118,13 +118,13 @@ where you need them, on the resident's record or in the billing period.
 A sending to MyCareNet can end without a certain answer: a time-out, an
 interruption. WideCare **never resends it on its own**, so that the mutuality
 never receives the same request twice. It lists it in **eHealth →
-Configuration → Sends to check**, reserved to the eHealth managers: look for
+Configuration → Monitoring → Sends to check**, reserved to the eHealth managers: look for
 its acknowledgement in the MyCareNet mailbox, then click **Received by
 MyCareNet** (the document counts as sent) or **Not received, may be sent
 again**.
 
 Every call to the platform, with its answer, is kept in **eHealth →
-Configuration → Communication logs** for the eHealth managers.
+Configuration → Monitoring → Communication logs** for the eHealth managers.
 
 ## Good to know
 

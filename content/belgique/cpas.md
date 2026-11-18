@@ -21,7 +21,7 @@ Does ticking "CPAS Supported" automatically send the invoice to the CPAS?
 : No. The CPAS section is a record of the decision, not a splitting engine. To send the resident share to the CPAS, fill in the resident's **Billing Contact** (the CPAS); to split between the CPAS and another payer, use maintenance debtors (split billing).
 
 Where do you create a CPAS in WideCare?
-: In **Billing → Configuration → CPAS**. Create the contact (company): it is flagged as a CPAS from this menu. Only contacts flagged this way appear in the CPAS field of the resident record.
+: In **Billing → Configuration → Payers → CPAS**. Create the contact (company): it is flagged as a CPAS from this menu. Only contacts flagged this way appear in the CPAS field of the resident record.
 
 Is the dependency allowance affected by CPAS coverage?
 : No. The dependency allowance goes to the health insurance fund via eFact (third-party payer). CPAS coverage concerns only the resident share: accommodation (the room) and supplements.
@@ -41,7 +41,7 @@ debtor.
 
 You'll find these settings in the **Invoicing** tab of the resident's contact
 (the **Contact** link under their name), and the
-list of CPAS in **Billing → Configuration → CPAS**.
+list of CPAS in **Billing → Configuration → Payers → CPAS**.
 
 :::{admonition} What the CPAS covers
 :class: note
@@ -69,7 +69,7 @@ Two notions must be distinguished:
 
 Before linking a resident to a CPAS, the CPAS must exist as a contact.
 
-1. Open **Billing → Configuration → CPAS**.
+1. Open **Billing → Configuration → Payers → CPAS**.
 2. Click **New** and enter the CPAS **name**, its city, phone and email.
 3. Check that the **Is CPAS** box, next to the name, is ticked (it is by default from this menu).
 4. **Save.**
@@ -149,7 +149,7 @@ billing**. Without one of these two levers, the resident share keeps being sent
 
 - CPAS coverage concerns the **resident share** (room + supplements), not the
   **dependency allowance** (health-insurance-fund share, via eFact).
-- First create the CPAS in **Billing → Configuration → CPAS**, then link it to
+- First create the CPAS in **Billing → Configuration → Payers → CPAS**, then link it to
   the resident in the **Billing** tab.
 - Coverage is **full** or **partial**; the **CPAS Monthly Amount** only applies
   to partial coverage.

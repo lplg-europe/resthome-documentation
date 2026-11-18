@@ -159,7 +159,7 @@ existing one.
 In the app, the **Conventions** menu lists the recurring supplement
 lines (resident, convention, product, supplement type, unit price, dates,
 quantity, active). The convention itself — with its status and its buttons — is
-managed from **Billing → Facturation → Supplement Conventions**, or from the
+managed from **Billing → Facturation → Supplements → Supplement Conventions**, or from the
 **Supplements** smart button on the resident's record.
 
 ![Supplement conventions list: one per resident, with the period covered and the Open or Closed status](../assets/screenshots/facturation/convention-supplements-liste.png)
@@ -191,7 +191,7 @@ the convention**, or **close** that convention first.
 ## The supplements catalog
 
 The **Configuration → Catalogue** menu holds the list of billable
-**Supplement Types** (the same list as **Billing → Configuration → Supplement
+**Supplement Types** (the same list as **Billing → Configuration → Rates and Rules → Supplement
 Types**). Each supplement has:
 
 | Field | Description |

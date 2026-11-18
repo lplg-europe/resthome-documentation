@@ -14,7 +14,7 @@ What is the INAMI dependency allowance?
 : It is the daily amount covered by the health insurance fund for a resident's dependency-related care. Under the AViQ rates, it is a single amount, the same for all Katz categories (including O), calculated on days of presence and billed to the insurer (OA) via eFact, not to the resident. The category is used to declare the correct profile and to obtain the health insurance fund's agreement.
 
 Does the allowance amount depend on the Katz category?
-: No. Under the AViQ rates, the dependency allowance is the same daily amount for all categories, including category O (independent). The category does not change the amount: it is used to declare the correct dependency profile to the health insurance fund and to obtain the agreement (eAgreement). The rate remains configurable per category in Configuration → INAMI Rates if a convention requires it.
+: No. Under the AViQ rates, the dependency allowance is the same daily amount for all categories, including category O (independent). The category does not change the amount: it is used to declare the correct dependency profile to the health insurance fund and to obtain the agreement (eAgreement). The rate remains configurable per category in Configuration → Rates and Rules → INAMI Rates if a convention requires it.
 
 How is the dependency allowance calculated?
 : Allowance = the daily allowance rate (identical for all categories) × the number of billable days of presence over the INAMI intervention period. Absences reduce the days (noon rule). The applicable rate is the one in force on the billing date.
@@ -62,7 +62,7 @@ Under the **AViQ** rates, the **amount** of the dependency allowance is
 indexed each year. The category therefore does
 **not change the amount** — it is used to **declare the correct profile** to the
 health insurance fund (the **OA agreement**) and for the **care standards**. The
-rate remains **configurable per category** in *Configuration → INAMI Rates* if a
+rate remains **configurable per category** in *Configuration → Rates and Rules → INAMI Rates* if a
 convention requires it.
 :::
 
@@ -146,7 +146,7 @@ insurance fund's agreement is obtained** (see above).
 
 ## Configuring the allowance rates
 
-The rates are configured in **Billing → Configuration → INAMI Rates**: one
+The rates are configured in **Billing → Configuration → Rates and Rules → INAMI Rates**: one
 **rate per Katz category**, with a **validity period**. WideCare applies the
 rate in force on the billing date. For the **annual indexation**, click
 **Generate a year** above the list: enter the amounts once and WideCare creates

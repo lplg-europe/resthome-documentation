@@ -38,7 +38,7 @@ your name**, as a doctor. WideCare needs your **eHealth certificate**, and your
 
 ## Import your certificate
 
-1. Open **eHealth → Configuration → My eHealth identity**. Without a
+1. Open **eHealth → Configuration → Identity and Certificates → My eHealth identity**. Without a
    certificate yet, a new one opens, with the quality **Doctor (natural
    person)** and your name as **Practitioner**.
 2. Fill in:
